@@ -1362,13 +1362,13 @@ Workflow-critic pacing note for Lesson 1.11 (56 new cells in one session): add t
 
 ---
 
-### Task 14: Deploy + phone QA
+### Task 14: Serve locally + tunnel + phone QA
 
 **Files:**
-- None new (Vercel config is zero-config for static Next.js).
+- None new. (Owner decision 2026-07-19: no Vercel yet — serve the static build locally and share via a cloudflared quick tunnel. Vercel remains the future production path.)
 
 - [ ] **Step 1:** Full local gate: `npm test && npm run check:refs && npm run build` → all green.
-- [ ] **Step 2:** Deploy. Vercel login is interactive — the user must run it themselves: ask the user to run `! npx vercel login`, then run `npx vercel deploy --prod --yes`. Expected output ends with the production URL.
+- [ ] **Step 2:** Serve + tunnel: `npx serve out -l 3000` (background), then `cloudflared tunnel --url http://localhost:3000` (background; install via `brew install cloudflared` if missing). The tunnel prints a `https://<random>.trycloudflare.com` URL — that is the shareable link. Note: the URL changes each tunnel restart.
 - [ ] **Step 3:** Phone QA checklist (open the production URL on a phone; spec: student is mobile-first) — verify each: course map renders and toggles persist across reload · lesson 1-01 deck swipes and taps play/popover correctly · a `youtube-cue` item plays inline at the right timestamp · practice page print-preview shows flashcard boxes · `/teach/1-01` loads and is absent from all student-facing links · Arabic glyphs render in Amiri with no tofu boxes.
 - [ ] **Step 4:** Record the production URL in `docs/superpowers/specs/2026-07-19-tajweed-course-design.md` under a new final line: `**Live (v1 Phase 1):** <URL>`. Commit: `git add -A && git commit -m "docs: record production URL"`.
 
