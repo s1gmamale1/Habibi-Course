@@ -15,4 +15,9 @@ describe("all real content validates", () => {
   test("every checkpoint file parses", () => {
     for (const id of allCheckpointIds()) expect(loadCheckpoint(id).id).toBe(id);
   });
+  test("every course-map lesson id has a content file", () => {
+    const have = new Set(allLessonIds());
+    for (const phase of loadCourse().phases)
+      for (const l of phase.lessons) expect(have.has(l.id), `missing content/lessons/${l.id}.json`).toBe(true);
+  });
 });
