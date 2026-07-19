@@ -21,4 +21,12 @@ describe("CourseMap + progress", () => {
     render(<CourseMap course={course} />);
     expect(screen.getByText(/Checkpoint 1/)).toBeTruthy();
   });
+  test("tolerates corrupt progress storage (non-array done value)", async () => {
+    localStorage.setItem("tajweed-progress-v1", '{"done":5}');
+    render(<CourseMap course={course} />);
+    const checkbox = screen.getByRole("checkbox", { name: /done/i }) as HTMLInputElement;
+    expect(checkbox.checked).toBe(false);
+    await userEvent.click(checkbox);
+    expect(JSON.parse(localStorage.getItem("tajweed-progress-v1")!).done).toContain("1-01");
+  });
 });

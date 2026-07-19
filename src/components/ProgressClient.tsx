@@ -8,12 +8,21 @@ const KEY = "tajweed-progress-v1";
 export function useProgress() {
   const [done, setDone] = useState<string[]>([]);
   useEffect(() => {
-    try { setDone(JSON.parse(localStorage.getItem(KEY) ?? '{"done":[]}').done ?? []); } catch { setDone([]); }
+    try {
+      const raw = JSON.parse(localStorage.getItem(KEY) ?? '{"done":[]}');
+      setDone(Array.isArray(raw?.done) ? raw.done.filter((x: unknown): x is string => typeof x === "string") : []);
+    } catch {
+      setDone([]);
+    }
   }, []);
   function toggleDone(id: string) {
     setDone((prev) => {
       const next = prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id];
-      localStorage.setItem(KEY, JSON.stringify({ done: next }));
+      try {
+        localStorage.setItem(KEY, JSON.stringify({ done: next }));
+      } catch {
+        // Ignore write failures; state still updates in memory
+      }
       return next;
     });
   }
