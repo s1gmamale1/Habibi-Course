@@ -1,0 +1,83 @@
+{
+  "id": "1-01",
+  "phase": 1,
+  "unit": "1.1",
+  "title": "Orientation + Alif & the ب ت ث family",
+  "objectives": [
+    "Explain that Arabic is read right-to-left and letters are learned by shape-family",
+    "Identify and correctly pronounce ا ب ت ث in isolation, on sight, in random order",
+    "Locate the makhraj (articulation point) for each of these 4 letters when asked"
+  ],
+  "slides": [
+    {"kind": "title", "heading": "Lesson 1.1 — Meet the Alphabet", "arabicDecor": "ا ب ت ث"},
+    {"kind": "concept", "heading": "How this course works", "body": ["Live lesson + this slide deck + tap-to-hear + daily homework", "Three lessons a week (Mon/Wed/Sat), 15–20 min practice every day", "Nothing is ever locked — repeat any lesson, any time"]},
+    {"kind": "concept", "heading": "Arabic reads right-to-left", "body": ["Lines flow right → left; so do the letters inside a word", "We learn letters in shape-families (letters that look alike), not dictionary order"]},
+    {"kind": "concept", "heading": "Makhraj — where a sound is born", "body": ["Every Arabic letter has one home in your mouth or throat", "Five broad zones: chest cavity, throat, tongue, lips, nose", "Getting the makhraj right IS tajweed's foundation — we start today, not in Phase 3"]},
+    {"kind": "letter", "item": {"arabic": "ا", "name": "alif", "translit": "ā", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — the letters that make A, I, U"}}, "makhraj": "al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound", "notes": ["The simplest letter: a single vertical stroke", "In Phase 2 alif becomes the long-vowel (madd) letter — foreshadow only"]},
+    {"kind": "letter", "item": {"arabic": "ب", "name": "ba", "translit": "b", "audio": {"type": "teacher-voice", "cue": "ب: both lips close fully, then release — like English b but with complete lip contact"}}, "makhraj": "the two lips (shafatan), fully closed", "notes": ["One dot BELOW the body"]},
+    {"kind": "letter", "item": {"arabic": "ت", "name": "ta", "translit": "t", "audio": {"type": "teacher-voice", "cue": "ت: tongue-tip taps the ridge behind the upper front teeth — light, no heaviness"}}, "makhraj": "tip of tongue against the upper front teeth / gum ridge", "notes": ["Two dots ABOVE the body — same body as ب"]},
+    {"kind": "letter", "item": {"arabic": "ث", "name": "tha", "translit": "th", "audio": {"type": "teacher-voice", "cue": "ث: tongue-tip BETWEEN the teeth, unvoiced 'th' as in think — never plain t, never s"}}, "makhraj": "tip of tongue between the teeth (interdental)", "notes": ["Three dots ABOVE — same body as ب and ت"]},
+    {"kind": "drill", "heading": "Spot the dots", "instructions": "Same body, different dots. Teacher points, student names the letter and its dot pattern.", "grid": [[
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "one dot below"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "two dots above"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "three dots above"}}
+    ]]},
+    {"kind": "drill", "heading": "Name it back", "instructions": "Teacher says a letter name aloud; student points to it and says it back. All 4 letters, randomized, 3 rounds.", "grid": [[
+      {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}}
+    ]]},
+    {"kind": "concept", "heading": "28 or 29 letters?", "body": ["You may hear both numbers. Hamza (ء) is a glottal-stop mark — in this course we count 28 letters and treat hamza separately when it appears.", "1-minute aside — details in the linked video, optional"]},
+    {"kind": "recap", "heading": "Today's four letters", "items": [
+      {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}}
+    ]},
+    {"kind": "homework", "heading": "Homework — 15–20 min/day", "tasks": [
+      "Print the flashcard sheet from the practice page (ا ب ت ث, one per box)",
+      "Say each letter's name + sound aloud 10× per letter in mixed order — tick the tally boxes",
+      "Re-watch the two linked Arabic101 orientation videos once this week"
+    ]}
+  ],
+  "practice": {
+    "drills": [
+      {"title": "Flashcard grid", "instructions": "Name each letter + produce its sound. Shuffle your order every round.", "grid": [[
+        {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+        {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "ب: both lips close fully, then release"}},
+        {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "ت: tongue-tip taps behind upper front teeth"}},
+        {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "ث: tongue between teeth, soft 'th' as in think"}}
+      ]]},
+      {"title": "Minimal-pair listening: ت vs ث", "instructions": "Someone says ت or ث — point to the glyph you heard. (With your teacher live, or self-test against the cue lines.)", "grid": [[
+        {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "plain t — tongue on gum ridge"}},
+        {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "soft th — tongue between teeth"}}
+      ]]}
+    ],
+    "dailyChecklist": [
+      "Flashcard round ×3 (mixed order)",
+      "ت vs ث minimal-pair round ×1",
+      "Watch one linked orientation video (first two days)"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the course tour (slide 2): live lessons Mon/Wed/Sat, slides re-openable at home, tap-to-hear on every Arabic item, nothing is ever locked.",
+      "Makhraj slide: keep it plain-English — 'where the sound is born'. Do not introduce Arabic zone names yet.",
+      "Model each letter's sound 3× before asking the student to imitate; correct on the FIRST wrong repetition, not the third (ijazah-style immediate correction — teaching-mistakes-assessment.md B).",
+      "Before the lesson: self-check your own ث and ب against the linked Arabic101 orientation videos — teacher voice is the student's primary audio for these letters."
+    ],
+    "listenFor": [
+      "ث flattened toward plain ت or toward س — Uzbek/Turkic phonology has no interdental fricative; highest-risk error of the lesson",
+      "ب produced without full lip closure (weak v-like glide)",
+      "ا given an added glottal catch (hamza) — isolated alif should be open and unobstructed"
+    ],
+    "homework": "Flashcard sheet ا ب ت ث, 10× per letter daily in mixed order with tally boxes; re-watch both orientation videos once."
+  },
+  "videos": [
+    {"title": "Arabic101 — alphabet orientation (1)", "url": "https://www.youtube.com/watch?v=j9BwXWpzB1Y"},
+    {"title": "Arabic101 — alphabet orientation (2)", "url": "https://www.youtube.com/watch?v=c-7SVieC_04"},
+    {"title": "Arabic101 — 28 or 29 letters?", "url": "https://www.youtube.com/watch?v=JLee5VQvdIo"},
+    {"title": "Muallimi Soniy — alphabet compilation (alif/long-vowel section)", "url": "https://youtu.be/VhRHKdPcNPA?t=1117"}
+  ]
+}
