@@ -1,0 +1,1029 @@
+{
+  "id": "1-09",
+  "phase": 1,
+  "unit": "1.2",
+  "title": "Reading connected clusters — full joining review",
+  "objectives": [
+    "Student can read any 2–3 letter unvoweled cluster built from any combination of the 28 letters, correctly identifying each component letter regardless of its positional shape.",
+    "Student demonstrates the non-connector rule applying correctly and automatically, without needing the rule restated.",
+    "Student's cluster-reading pace has visibly increased from lesson 1.7's baseline (informal, non-graded pacing check only)."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.9 — Reading connected clusters: full joining review",
+      "arabicDecor": "بتث جحخ دذر زسش"
+    },
+    {
+      "kind": "recap",
+      "heading": "Full 28-letter shuffle — cumulative confidence check",
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1117,
+            "title": "Muallimi Soniy — alif section"
+          }
+        },
+        {
+          "arabic": "ب",
+          "name": "ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ت",
+          "name": "ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ث",
+          "name": "tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ج",
+          "name": "jeem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "X-iZ4yZrltA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "haa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 11593,
+            "title": "Muallimi Soniy — ح (heavy ha) section"
+          }
+        },
+        {
+          "arabic": "خ",
+          "name": "kha",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 11056,
+            "title": "Muallimi Soniy — خ (kha) section"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 13525,
+            "title": "Muallimi Soniy — د (dal) section"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 14598,
+            "title": "Muallimi Soniy — ذ (dhal) section"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1819,
+            "title": "Muallimi Soniy — ز (zay) section"
+          }
+        },
+        {
+          "arabic": "س",
+          "name": "seen",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 8227,
+            "title": "Muallimi Soniy — س (seen) section"
+          }
+        },
+        {
+          "arabic": "ش",
+          "name": "sheen",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 7914,
+            "title": "Muallimi Soniy — ش (sheen) section"
+          }
+        },
+        {
+          "arabic": "ص",
+          "name": "saad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "yhIFJiPqVqA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "daad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "gEBzZLbuo-4",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+          }
+        },
+        {
+          "arabic": "ط",
+          "name": "taa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "XeQ5cxhkzlE",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 11 — ط (taa)"
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "dhaa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "6_Qfe0g6uks",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"
+          }
+        },
+        {
+          "arabic": "ع",
+          "name": "ayn",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 12720,
+            "title": "Muallimi Soniy — ع (ayn) section"
+          }
+        },
+        {
+          "arabic": "غ",
+          "name": "ghayn",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 12280,
+            "title": "Muallimi Soniy — غ (ghayn) section"
+          }
+        },
+        {
+          "arabic": "ف",
+          "name": "fa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6955,
+            "title": "Muallimi Soniy — ف (fa) section"
+          }
+        },
+        {
+          "arabic": "ق",
+          "name": "qaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "wwHmytGNi2M",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+          }
+        },
+        {
+          "arabic": "ك",
+          "name": "kaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 4878,
+            "title": "Muallimi Soniy — ك (kaaf) section"
+          }
+        },
+        {
+          "arabic": "ل",
+          "name": "lam",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "م",
+          "name": "meem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 2254,
+            "title": "Muallimi Soniy — م (meem) section"
+          }
+        },
+        {
+          "arabic": "ن",
+          "name": "nun",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ه",
+          "name": "ha",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6705,
+            "title": "Muallimi Soniy — ه (light ha) section"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6387,
+            "title": "Muallimi Soniy — و (waw) section"
+          }
+        },
+        {
+          "arabic": "ي",
+          "name": "ya",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 3655,
+            "title": "Muallimi Soniy — ي (ya) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Everything you need to read any cluster",
+      "body": [
+        "Rule 1 (lesson 1.7): a letter's sound never changes, but its SHAPE changes by position — isolated, initial, medial, final.",
+        "Rule 2 (lesson 1.8): 6 letters — ا د ذ ر ز و — never connect forward, no matter where they sit.",
+        "That's it. Those two rules are everything needed to read any connected cluster of the 28 letters."
+      ],
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1117,
+            "title": "Muallimi Soniy — alif section"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 13525,
+            "title": "Muallimi Soniy — د (dal) section"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 14598,
+            "title": "Muallimi Soniy — ذ (dhal) section"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1819,
+            "title": "Muallimi Soniy — ز (zay) section"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6387,
+            "title": "Muallimi Soniy — و (waw) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided reading set 1 — early shape-families (ب ت ث / ج ح خ)",
+      "instructions": "Read each cluster aloud, naming every component letter regardless of its positional shape.",
+      "grid": [
+        [
+          {
+            "arabic": "بتث",
+            "name": "ba + ta + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+            }
+          },
+          {
+            "arabic": "جحخ",
+            "name": "jeem + haa + kha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided reading set 2 — later shape-families (ص ض ط ظ / ع غ ف ق)",
+      "instructions": "Read each cluster aloud, naming every component letter regardless of its positional shape.",
+      "grid": [
+        [
+          {
+            "arabic": "صضط",
+            "name": "saad + daad + taa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+            }
+          },
+          {
+            "arabic": "ظعغ",
+            "name": "dhaa + ayn + ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+            }
+          },
+          {
+            "arabic": "فقك",
+            "name": "fa + qaaf + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided reading set 3 — non-connectors mixed throughout",
+      "instructions": "Each cluster contains at least one non-connector from lesson 1.8, in a different position (first, middle, last) each time.",
+      "grid": [
+        [
+          {
+            "arabic": "دذر",
+            "name": "dal + dhal + ra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+            }
+          },
+          {
+            "arabic": "زسش",
+            "name": "zay + seen + sheen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+            }
+          },
+          {
+            "arabic": "وي",
+            "name": "waw + ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+            }
+          },
+          {
+            "arabic": "درس",
+            "name": "dal + ra + seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Independent reading round — cold read",
+      "instructions": "5 brand-new clusters the student has not seen before this lesson. Teacher observes WITHOUT prompting unless the student is truly stuck — this is a fluency/transfer check, not a teaching moment.",
+      "grid": [
+        [
+          {
+            "arabic": "تسك",
+            "name": "ta + seen + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads تسك aloud, modeling the joined pronunciation (ta + seen + kaaf)"
+            }
+          },
+          {
+            "arabic": "حبل",
+            "name": "haa + ba + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads حبل aloud, modeling the joined pronunciation (haa + ba + lam)"
+            }
+          },
+          {
+            "arabic": "زفق",
+            "name": "zay + fa + qaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads زفق aloud, modeling the joined pronunciation (zay + fa + qaaf)"
+            }
+          },
+          {
+            "arabic": "طنم",
+            "name": "taa + nun + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads طنم aloud, modeling the joined pronunciation (taa + nun + meem)"
+            }
+          },
+          {
+            "arabic": "ثري",
+            "name": "tha + ra + ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ثري aloud, modeling the joined pronunciation (tha + ra + ya)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Error-log review",
+      "body": [
+        "Teacher and student look together at which letters or cluster types caused hesitation this lesson.",
+        "Log by category: positional-shape confusion, non-connector confusion, or sound-only confusion — not just a pass/fail tally.",
+        "This becomes direct Checkpoint 1 prep data."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Pacing check — timed cluster set",
+      "instructions": "Informal timing of this cluster set, compared lightly against lesson 1.7's pace. Encouragement framing only — not a graded metric.",
+      "grid": [
+        [
+          {
+            "arabic": "بتث",
+            "name": "ba + ta + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+            }
+          },
+          {
+            "arabic": "جحخ",
+            "name": "jeem + haa + kha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+            }
+          },
+          {
+            "arabic": "دذر",
+            "name": "dal + dhal + ra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+            }
+          },
+          {
+            "arabic": "زسش",
+            "name": "zay + seen + sheen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+            }
+          },
+          {
+            "arabic": "صضط",
+            "name": "saad + daad + taa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+            }
+          },
+          {
+            "arabic": "ظعغ",
+            "name": "dhaa + ayn + ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+            }
+          },
+          {
+            "arabic": "فقك",
+            "name": "fa + qaaf + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+            }
+          },
+          {
+            "arabic": "لمنه",
+            "name": "lam + meem + nun + ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+            }
+          },
+          {
+            "arabic": "وي",
+            "name": "waw + ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+            }
+          },
+          {
+            "arabic": "كتب",
+            "name": "kaaf + ta + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+            }
+          },
+          {
+            "arabic": "درس",
+            "name": "dal + ra + seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+            }
+          },
+          {
+            "arabic": "قلم",
+            "name": "qaaf + lam + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Coming next: vowels",
+      "body": [
+        "Next unit — we add vowels, and these same letters start to really come alive."
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — today's full mixed cluster set",
+      "items": [
+        {
+          "arabic": "بتث",
+          "name": "ba + ta + tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+          }
+        },
+        {
+          "arabic": "جحخ",
+          "name": "jeem + haa + kha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+          }
+        },
+        {
+          "arabic": "دذر",
+          "name": "dal + dhal + ra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+          }
+        },
+        {
+          "arabic": "زسش",
+          "name": "zay + seen + sheen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+          }
+        },
+        {
+          "arabic": "صضط",
+          "name": "saad + daad + taa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+          }
+        },
+        {
+          "arabic": "ظعغ",
+          "name": "dhaa + ayn + ghayn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+          }
+        },
+        {
+          "arabic": "فقك",
+          "name": "fa + qaaf + kaaf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+          }
+        },
+        {
+          "arabic": "لمنه",
+          "name": "lam + meem + nun + ha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+          }
+        },
+        {
+          "arabic": "وي",
+          "name": "waw + ya",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+          }
+        },
+        {
+          "arabic": "كتب",
+          "name": "kaaf + ta + ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+          }
+        },
+        {
+          "arabic": "درس",
+          "name": "dal + ra + seen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+          }
+        },
+        {
+          "arabic": "قلم",
+          "name": "qaaf + lam + meem",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "Daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally",
+        "Keep your own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Full mixed cluster set",
+        "instructions": "12 items spanning all shape-families and including non-connectors (again, decoding practice, not vocabulary — any resemblance to real short words is incidental and fine).",
+        "grid": [
+          [
+            {
+              "arabic": "بتث",
+              "name": "ba + ta + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+              }
+            },
+            {
+              "arabic": "جحخ",
+              "name": "jeem + haa + kha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+              }
+            },
+            {
+              "arabic": "دذر",
+              "name": "dal + dhal + ra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+              }
+            },
+            {
+              "arabic": "زسش",
+              "name": "zay + seen + sheen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+              }
+            },
+            {
+              "arabic": "صضط",
+              "name": "saad + daad + taa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+              }
+            },
+            {
+              "arabic": "ظعغ",
+              "name": "dhaa + ayn + ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+              }
+            },
+            {
+              "arabic": "فقك",
+              "name": "fa + qaaf + kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+              }
+            },
+            {
+              "arabic": "لمنه",
+              "name": "lam + meem + nun + ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+              }
+            },
+            {
+              "arabic": "وي",
+              "name": "waw + ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+              }
+            },
+            {
+              "arabic": "كتب",
+              "name": "kaaf + ta + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+              }
+            },
+            {
+              "arabic": "درس",
+              "name": "dal + ra + seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              }
+            },
+            {
+              "arabic": "قلم",
+              "name": "qaaf + lam + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cold read set",
+        "instructions": "5 brand-new clusters not seen before this lesson, used purely as a fluency/transfer check.",
+        "grid": [
+          [
+            {
+              "arabic": "تسك",
+              "name": "ta + seen + kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads تسك aloud, modeling the joined pronunciation (ta + seen + kaaf)"
+              }
+            },
+            {
+              "arabic": "حبل",
+              "name": "haa + ba + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads حبل aloud, modeling the joined pronunciation (haa + ba + lam)"
+              }
+            },
+            {
+              "arabic": "زفق",
+              "name": "zay + fa + qaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads زفق aloud, modeling the joined pronunciation (zay + fa + qaaf)"
+              }
+            },
+            {
+              "arabic": "طنم",
+              "name": "taa + nun + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads طنم aloud, modeling the joined pronunciation (taa + nun + meem)"
+              }
+            },
+            {
+              "arabic": "ثري",
+              "name": "tha + ra + ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ثري aloud, modeling the joined pronunciation (tha + ra + ya)"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Error-log worksheet",
+        "instructions": "Using this same cluster set, check off any letter or cluster type (positional confusion vs. non-connector confusion vs. sound-only confusion) that caused a stumble, to feed the Checkpoint 1 rubric.",
+        "grid": [
+          [
+            {
+              "arabic": "بتث",
+              "name": "ba + ta + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+              }
+            },
+            {
+              "arabic": "جحخ",
+              "name": "jeem + haa + kha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+              }
+            },
+            {
+              "arabic": "دذر",
+              "name": "dal + dhal + ra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+              }
+            },
+            {
+              "arabic": "زسش",
+              "name": "zay + seen + sheen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+              }
+            },
+            {
+              "arabic": "صضط",
+              "name": "saad + daad + taa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+              }
+            },
+            {
+              "arabic": "ظعغ",
+              "name": "dhaa + ayn + ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+              }
+            },
+            {
+              "arabic": "فقك",
+              "name": "fa + qaaf + kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+              }
+            },
+            {
+              "arabic": "لمنه",
+              "name": "lam + meem + nun + ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+              }
+            },
+            {
+              "arabic": "وي",
+              "name": "waw + ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+              }
+            },
+            {
+              "arabic": "كتب",
+              "name": "kaaf + ta + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+              }
+            },
+            {
+              "arabic": "درس",
+              "name": "dal + ra + seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              }
+            },
+            {
+              "arabic": "قلم",
+              "name": "qaaf + lam + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Re-read the full 12-item mixed cluster set aloud, 3× through, self-timed informally",
+      "Keep a simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the full 28-letter cumulative shuffle, then restate the two rules that make ALL cluster-reading possible: the 4 positional forms and the 6 non-connectors.",
+      "Run guided reading set 1 (early shape-families), then set 2 (later shape-families), then set 3 (clusters mixing non-connectors throughout) — teacher-led, correcting live.",
+      "Move to the independent reading round only after all three guided sets: present the 5 cold-read clusters and observe WITHOUT prompting unless the student is truly stuck.",
+      "Review the error log together with the student — name which letters/cluster types caused hesitation, feeding directly into Checkpoint 1 prep.",
+      "Time the pacing-check cluster set informally and frame it as encouragement (compare lightly against lesson 1.7's pace), never as a graded metric.",
+      "Close with the preview of Unit 1.3 — vowels are next, and these same letters are about to come alive."
+    ],
+    "listenFor": [
+      "Any letter from the \"high-risk six\" (ح, ض, ع, ق, ذ/ز pattern, ص) resurfacing as an error once embedded inside a cluster rather than read in isolation — flag explicitly, this is the most diagnostic moment before Checkpoint 1.",
+      "Hesitation specifically on non-connector transitions — confirms whether lesson 1.8's rule has become automatic or still needs conscious recall.",
+      "Reading pace: increasing hesitation as cluster length grows from 2 to 3 letters may indicate the student is still sounding out letter-by-letter rather than starting to chunk — normal at this stage, just note it for Phase 2 planning."
+    ],
+    "homework": "Daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally. Student keeps their own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10."
+  },
+  "videos": []
+}
