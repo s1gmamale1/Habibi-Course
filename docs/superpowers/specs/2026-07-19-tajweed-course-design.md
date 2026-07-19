@@ -53,7 +53,7 @@ Architecture: classic Qaida-first (Noorani Qaida model). Strictly sequential; hi
 ### Page types
 
 1. **Course map (home):** whole journey visible — 3 phases, lessons as nodes, checkpoints as gates, done/current state. Locking is visual only; nothing is actually blocked.
-2. **Lesson pages:** each lesson is an in-app fullscreen slide deck (swipe/arrow keys): concept slides + drill slides. Used live by the teacher and re-opened at home by the student. Every Arabic item is tap-to-hear.
+2. **Lesson pages:** each lesson is an in-app fullscreen slide deck (swipe/arrow keys): concept slides + drill slides. Used live by the teacher and re-opened at home by the student. Every Arabic item is tap-to-hear. Tap-to-hear resolves to one of three states per item — a licensed qari clip, a timestamped YouTube cue, or a teacher-voice practice cue — declared explicitly per item in the content schema (see `docs/research/addenda/gap-1.md`); no item is silently non-functional.
 3. **Practice pages:** per-lesson homework — drill grids (letter × vowel tables, word lists) with tap-audio, shadow-this-recording loops, daily practice checklist. Print-friendly CSS so any drill sheet becomes a paper handout.
 4. **Checkpoint pages:** test script per gate — what to ask, reading passages, scoring rubric (pass / revise-these-units), space to note results.
 
@@ -76,7 +76,7 @@ Every lesson is a structured content file (MDX/JSON): slides, drills, audio refs
 - **Verse & word audio:** everyayah.com / QUL verse-by-verse recordings. Primary qari: Husary Mu'allim (teacher edition, recorded for learners); alternate: Minshawi. Word-by-word audio from QUL for Phase 2–3 drills.
 - **Letter/qaida audio:** openly licensed qaida audio sets where available; gaps covered by linking timestamps in Arabic101 videos and the Uzbek reference channel (linking/embedding YouTube, never re-hosting their audio).
 - **Fonts:** KFGQPC Uthmanic (free/official), Amiri, Noto Naskh (open).
-- **Curriculum references:** Noorani Qaida progression as Phase 1–2 backbone; cross-checked against Arabic101 playlists (https://www.youtube.com/@Arabic101/playlists) and the Uzbek channel's sentence-reading sequence (https://youtu.be/VhRHKdPcNPA).
+- **Curriculum references:** Noorani Qaida progression as Phase 1–2 backbone; cross-checked against Arabic101 playlists (https://www.youtube.com/@Arabic101/playlists) and the Uzbek channel Muallimi Soniy (@MuallimiSoniy). Note: https://youtu.be/VhRHKdPcNPA is that channel's 4-hour alphabet/harakat compilation (Phase 1 reference); the sentence-to-Quran reading sequence is its "Qur'on o'qishni o'rganish" playlist (PLgrueUfOSy6uYsDGmnz1uEFuEv1kFALAC) — see `docs/research/uzbek-channel.md`.
 
 ## Build order (teaching starts before the course is fully built)
 
