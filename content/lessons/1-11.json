@@ -1,0 +1,3356 @@
+{
+  "id": "1-11",
+  "phase": 1,
+  "unit": "1.3",
+  "title": "Kasra & Damma: full letter × kasra and letter × damma grids",
+  "objectives": [
+    "Student can explain that kasra (a mark below the letter) makes a short \"i\" sound and damma (a small loop above the letter) makes a short \"u\" sound.",
+    "Student can read any of the 28 letters + kasra, and any of the 28 letters + damma, on sight, in randomized order (56 additional cells).",
+    "Student can correctly read a letter with any of the 3 harakat now taught (fatha, kasra, damma) when the teacher calls them out in mixed, unpredictable sequence."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.11 — Kasra & Damma: full letter × kasra and letter × damma grids",
+      "arabicDecor": "بِ بُ سِ سُ"
+    },
+    {
+      "kind": "recap",
+      "heading": "Recap — fatha grid, 10 cells sampled at random",
+      "items": [
+        {
+          "arabic": "بَ",
+          "name": "ba + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+          }
+        },
+        {
+          "arabic": "أَ",
+          "name": "alif + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَ + fatha: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel a"
+          }
+        },
+        {
+          "arabic": "رَ",
+          "name": "ra + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَ + fatha: tip of tongue curled slightly, touching the gum ridge, vowel a"
+          }
+        },
+        {
+          "arabic": "هَ",
+          "name": "ha + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "هَ + fatha: light, breathy throat release, vowel a"
+          }
+        },
+        {
+          "arabic": "ضَ",
+          "name": "daad + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ضَ + fatha: side of the tongue against the upper molars — a lateral release unique to this letter, vowel a"
+          }
+        },
+        {
+          "arabic": "ظَ",
+          "name": "dhaa + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+          }
+        },
+        {
+          "arabic": "طَ",
+          "name": "taa + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+          }
+        },
+        {
+          "arabic": "مَ",
+          "name": "meem + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مَ + fatha: the two lips, nasal cavity, vowel a"
+          }
+        },
+        {
+          "arabic": "غَ",
+          "name": "ghayn + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "غَ + fatha: upper throat, same zone as خ but voiced, vowel a"
+          }
+        },
+        {
+          "arabic": "وَ",
+          "name": "waw + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَ + fatha: rounded lips (consonant use), vowel a"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Kasra and damma — two more vowel marks",
+      "body": [
+        "Kasra ( ﹻ , below the letter) = short \"i\".",
+        "Damma ( ﹹ , above the letter) = short \"u\".",
+        "Same darkening-of-the-vowel phenomenon re-checked here after heavy letters: kasra tends to stay closer to a genuine short \"i\" even after heavy letters, but damma darkens toward a fuller \"u\"/\"o\"-adjacent quality — a real, sourced-in-tajweed-tradition phonetic effect, kept sensory/experiential here, not formally named."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: بِ, بُ — contrasted against بَ",
+      "body": [
+        "بِ (ba + kasra) and بُ (ba + damma), sounded slowly, contrasted against بَ from last lesson."
+      ],
+      "items": [
+        {
+          "arabic": "بَ",
+          "name": "ba + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+          }
+        },
+        {
+          "arabic": "بِ",
+          "name": "ba + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بِ + kasra: the two lips (shafatan), fully closed, vowel i"
+          }
+        },
+        {
+          "arabic": "بُ",
+          "name": "ba + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Full letter × kasra grid reveal (28 cells)",
+      "instructions": "إِ بِ تِ ثِ جِ حِ خِ دِ ذِ رِ زِ سِ شِ صِ ضِ طِ ظِ عِ غِ فِ قِ كِ لِ مِ نِ هِ وِ يِ — the full kasra grid, revealed together for the first time.",
+      "grid": [
+        [
+          {
+            "arabic": "إِ",
+            "name": "alif + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+            }
+          },
+          {
+            "arabic": "بِ",
+            "name": "ba + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بِ + kasra: the two lips (shafatan), fully closed, vowel i"
+            }
+          },
+          {
+            "arabic": "تِ",
+            "name": "ta + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "ثِ",
+            "name": "tha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثِ + kasra: tip of tongue between the teeth (interdental), vowel i"
+            }
+          },
+          {
+            "arabic": "جِ",
+            "name": "jeem + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جِ + kasra: middle of the tongue against the roof of the mouth, vowel i"
+            }
+          },
+          {
+            "arabic": "حِ",
+            "name": "haa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حِ + kasra: middle of the throat, vowel i"
+            }
+          },
+          {
+            "arabic": "خِ",
+            "name": "kha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خِ + kasra: upper throat / back of tongue against the soft palate, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دِ",
+            "name": "dal + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دِ + kasra: tip of tongue against the upper gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "ذِ",
+            "name": "dhal + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذِ + kasra: tip of tongue between the teeth (same point as ث, but voiced), vowel i"
+            }
+          },
+          {
+            "arabic": "رِ",
+            "name": "ra + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "زِ",
+            "name": "zay + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زِ + kasra: tip of tongue near the lower teeth, sibilant, vowel i"
+            }
+          },
+          {
+            "arabic": "سِ",
+            "name": "seen + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+            }
+          },
+          {
+            "arabic": "شِ",
+            "name": "sheen + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شِ + kasra: middle of tongue against the roof of the mouth, vowel i"
+            }
+          },
+          {
+            "arabic": "صِ",
+            "name": "saad + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضِ",
+            "name": "daad + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضِ + kasra: side of the tongue against the upper molars — a lateral release unique to this letter, vowel i"
+            }
+          },
+          {
+            "arabic": "طِ",
+            "name": "taa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+            }
+          },
+          {
+            "arabic": "ظِ",
+            "name": "dhaa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظِ + kasra: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel i"
+            }
+          },
+          {
+            "arabic": "عِ",
+            "name": "ayn + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عِ + kasra: middle of the throat, vowel i"
+            }
+          },
+          {
+            "arabic": "غِ",
+            "name": "ghayn + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+            }
+          },
+          {
+            "arabic": "فِ",
+            "name": "fa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِ + kasra: inner lower lip against the edge of the upper front teeth, vowel i"
+            }
+          },
+          {
+            "arabic": "قِ",
+            "name": "qaaf + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِ + kasra: back of tongue against the soft palate, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كِ",
+            "name": "kaaf + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِ + kasra: back of tongue against the soft palate, shallower in the mouth than ق, vowel i"
+            }
+          },
+          {
+            "arabic": "لِ",
+            "name": "lam + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لِ + kasra: tip/sides of tongue against the gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "مِ",
+            "name": "meem + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِ + kasra: the two lips, nasal cavity, vowel i"
+            }
+          },
+          {
+            "arabic": "نِ",
+            "name": "nun + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نِ + kasra: tip of tongue against gum ridge, nasal cavity, vowel i"
+            }
+          },
+          {
+            "arabic": "هِ",
+            "name": "ha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هِ + kasra: light, breathy throat release, vowel i"
+            }
+          },
+          {
+            "arabic": "وِ",
+            "name": "waw + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+            }
+          },
+          {
+            "arabic": "يِ",
+            "name": "ya + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يِ + kasra: middle of tongue toward the roof of the mouth (consonant use), vowel i"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided kasra grid drill (both halves)",
+      "instructions": "Read each cell aloud in order: إِ through يِ, first half then second half.",
+      "grid": [
+        [
+          {
+            "arabic": "إِ",
+            "name": "alif + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+            }
+          },
+          {
+            "arabic": "بِ",
+            "name": "ba + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بِ + kasra: the two lips (shafatan), fully closed, vowel i"
+            }
+          },
+          {
+            "arabic": "تِ",
+            "name": "ta + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "ثِ",
+            "name": "tha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثِ + kasra: tip of tongue between the teeth (interdental), vowel i"
+            }
+          },
+          {
+            "arabic": "جِ",
+            "name": "jeem + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جِ + kasra: middle of the tongue against the roof of the mouth, vowel i"
+            }
+          },
+          {
+            "arabic": "حِ",
+            "name": "haa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حِ + kasra: middle of the throat, vowel i"
+            }
+          },
+          {
+            "arabic": "خِ",
+            "name": "kha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خِ + kasra: upper throat / back of tongue against the soft palate, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دِ",
+            "name": "dal + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دِ + kasra: tip of tongue against the upper gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "ذِ",
+            "name": "dhal + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذِ + kasra: tip of tongue between the teeth (same point as ث, but voiced), vowel i"
+            }
+          },
+          {
+            "arabic": "رِ",
+            "name": "ra + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "زِ",
+            "name": "zay + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زِ + kasra: tip of tongue near the lower teeth, sibilant, vowel i"
+            }
+          },
+          {
+            "arabic": "سِ",
+            "name": "seen + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+            }
+          },
+          {
+            "arabic": "شِ",
+            "name": "sheen + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شِ + kasra: middle of tongue against the roof of the mouth, vowel i"
+            }
+          },
+          {
+            "arabic": "صِ",
+            "name": "saad + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضِ",
+            "name": "daad + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضِ + kasra: side of the tongue against the upper molars — a lateral release unique to this letter, vowel i"
+            }
+          },
+          {
+            "arabic": "طِ",
+            "name": "taa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+            }
+          },
+          {
+            "arabic": "ظِ",
+            "name": "dhaa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظِ + kasra: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel i"
+            }
+          },
+          {
+            "arabic": "عِ",
+            "name": "ayn + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عِ + kasra: middle of the throat, vowel i"
+            }
+          },
+          {
+            "arabic": "غِ",
+            "name": "ghayn + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+            }
+          },
+          {
+            "arabic": "فِ",
+            "name": "fa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِ + kasra: inner lower lip against the edge of the upper front teeth, vowel i"
+            }
+          },
+          {
+            "arabic": "قِ",
+            "name": "qaaf + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِ + kasra: back of tongue against the soft palate, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كِ",
+            "name": "kaaf + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِ + kasra: back of tongue against the soft palate, shallower in the mouth than ق, vowel i"
+            }
+          },
+          {
+            "arabic": "لِ",
+            "name": "lam + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لِ + kasra: tip/sides of tongue against the gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "مِ",
+            "name": "meem + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِ + kasra: the two lips, nasal cavity, vowel i"
+            }
+          },
+          {
+            "arabic": "نِ",
+            "name": "nun + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نِ + kasra: tip of tongue against gum ridge, nasal cavity, vowel i"
+            }
+          },
+          {
+            "arabic": "هِ",
+            "name": "ha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هِ + kasra: light, breathy throat release, vowel i"
+            }
+          },
+          {
+            "arabic": "وِ",
+            "name": "waw + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+            }
+          },
+          {
+            "arabic": "يِ",
+            "name": "ya + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يِ + kasra: middle of tongue toward the roof of the mouth (consonant use), vowel i"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Full letter × damma grid reveal (28 cells)",
+      "instructions": "أُ بُ تُ ثُ جُ حُ خُ دُ ذُ رُ زُ سُ شُ صُ ضُ طُ ظُ عُ غُ فُ قُ كُ لُ مُ نُ هُ وُ يُ — the full damma grid, revealed together for the first time.",
+      "grid": [
+        [
+          {
+            "arabic": "أُ",
+            "name": "alif + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُ + damma: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel u"
+            }
+          },
+          {
+            "arabic": "بُ",
+            "name": "ba + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+            }
+          },
+          {
+            "arabic": "تُ",
+            "name": "ta + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "ثُ",
+            "name": "tha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+            }
+          },
+          {
+            "arabic": "جُ",
+            "name": "jeem + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جُ + damma: middle of the tongue against the roof of the mouth, vowel u"
+            }
+          },
+          {
+            "arabic": "حُ",
+            "name": "haa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حُ + damma: middle of the throat, vowel u"
+            }
+          },
+          {
+            "arabic": "خُ",
+            "name": "kha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خُ + damma: upper throat / back of tongue against the soft palate, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دُ",
+            "name": "dal + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دُ + damma: tip of tongue against the upper gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "ذُ",
+            "name": "dhal + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذُ + damma: tip of tongue between the teeth (same point as ث, but voiced), vowel u"
+            }
+          },
+          {
+            "arabic": "رُ",
+            "name": "ra + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رُ + damma: tip of tongue curled slightly, touching the gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "زُ",
+            "name": "zay + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زُ + damma: tip of tongue near the lower teeth, sibilant, vowel u"
+            }
+          },
+          {
+            "arabic": "سُ",
+            "name": "seen + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+            }
+          },
+          {
+            "arabic": "شُ",
+            "name": "sheen + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شُ + damma: middle of tongue against the roof of the mouth, vowel u"
+            }
+          },
+          {
+            "arabic": "صُ",
+            "name": "saad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضُ",
+            "name": "daad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+            }
+          },
+          {
+            "arabic": "طُ",
+            "name": "taa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+            }
+          },
+          {
+            "arabic": "ظُ",
+            "name": "dhaa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظُ + damma: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel u"
+            }
+          },
+          {
+            "arabic": "عُ",
+            "name": "ayn + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عُ + damma: middle of the throat, vowel u"
+            }
+          },
+          {
+            "arabic": "غُ",
+            "name": "ghayn + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غُ + damma: upper throat, same zone as خ but voiced, vowel u"
+            }
+          },
+          {
+            "arabic": "فُ",
+            "name": "fa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فُ + damma: inner lower lip against the edge of the upper front teeth, vowel u"
+            }
+          },
+          {
+            "arabic": "قُ",
+            "name": "qaaf + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُ + damma: back of tongue against the soft palate, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كُ",
+            "name": "kaaf + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كُ + damma: back of tongue against the soft palate, shallower in the mouth than ق, vowel u"
+            }
+          },
+          {
+            "arabic": "لُ",
+            "name": "lam + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لُ + damma: tip/sides of tongue against the gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "مُ",
+            "name": "meem + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُ + damma: the two lips, nasal cavity, vowel u"
+            }
+          },
+          {
+            "arabic": "نُ",
+            "name": "nun + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُ + damma: tip of tongue against gum ridge, nasal cavity, vowel u"
+            }
+          },
+          {
+            "arabic": "هُ",
+            "name": "ha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هُ + damma: light, breathy throat release, vowel u"
+            }
+          },
+          {
+            "arabic": "وُ",
+            "name": "waw + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وُ + damma: rounded lips (consonant use), vowel u"
+            }
+          },
+          {
+            "arabic": "يُ",
+            "name": "ya + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يُ + damma: middle of tongue toward the roof of the mouth (consonant use), vowel u"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided damma grid drill (both halves)",
+      "instructions": "Read each cell aloud in order: أُ through يُ, first half then second half.",
+      "grid": [
+        [
+          {
+            "arabic": "أُ",
+            "name": "alif + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُ + damma: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel u"
+            }
+          },
+          {
+            "arabic": "بُ",
+            "name": "ba + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+            }
+          },
+          {
+            "arabic": "تُ",
+            "name": "ta + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "ثُ",
+            "name": "tha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+            }
+          },
+          {
+            "arabic": "جُ",
+            "name": "jeem + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جُ + damma: middle of the tongue against the roof of the mouth, vowel u"
+            }
+          },
+          {
+            "arabic": "حُ",
+            "name": "haa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حُ + damma: middle of the throat, vowel u"
+            }
+          },
+          {
+            "arabic": "خُ",
+            "name": "kha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خُ + damma: upper throat / back of tongue against the soft palate, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دُ",
+            "name": "dal + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دُ + damma: tip of tongue against the upper gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "ذُ",
+            "name": "dhal + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذُ + damma: tip of tongue between the teeth (same point as ث, but voiced), vowel u"
+            }
+          },
+          {
+            "arabic": "رُ",
+            "name": "ra + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رُ + damma: tip of tongue curled slightly, touching the gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "زُ",
+            "name": "zay + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زُ + damma: tip of tongue near the lower teeth, sibilant, vowel u"
+            }
+          },
+          {
+            "arabic": "سُ",
+            "name": "seen + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+            }
+          },
+          {
+            "arabic": "شُ",
+            "name": "sheen + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شُ + damma: middle of tongue against the roof of the mouth, vowel u"
+            }
+          },
+          {
+            "arabic": "صُ",
+            "name": "saad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضُ",
+            "name": "daad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+            }
+          },
+          {
+            "arabic": "طُ",
+            "name": "taa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+            }
+          },
+          {
+            "arabic": "ظُ",
+            "name": "dhaa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظُ + damma: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel u"
+            }
+          },
+          {
+            "arabic": "عُ",
+            "name": "ayn + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عُ + damma: middle of the throat, vowel u"
+            }
+          },
+          {
+            "arabic": "غُ",
+            "name": "ghayn + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غُ + damma: upper throat, same zone as خ but voiced, vowel u"
+            }
+          },
+          {
+            "arabic": "فُ",
+            "name": "fa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فُ + damma: inner lower lip against the edge of the upper front teeth, vowel u"
+            }
+          },
+          {
+            "arabic": "قُ",
+            "name": "qaaf + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُ + damma: back of tongue against the soft palate, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كُ",
+            "name": "kaaf + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كُ + damma: back of tongue against the soft palate, shallower in the mouth than ق, vowel u"
+            }
+          },
+          {
+            "arabic": "لُ",
+            "name": "lam + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لُ + damma: tip/sides of tongue against the gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "مُ",
+            "name": "meem + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُ + damma: the two lips, nasal cavity, vowel u"
+            }
+          },
+          {
+            "arabic": "نُ",
+            "name": "nun + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُ + damma: tip of tongue against gum ridge, nasal cavity, vowel u"
+            }
+          },
+          {
+            "arabic": "هُ",
+            "name": "ha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هُ + damma: light, breathy throat release, vowel u"
+            }
+          },
+          {
+            "arabic": "وُ",
+            "name": "waw + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وُ + damma: rounded lips (consonant use), vowel u"
+            }
+          },
+          {
+            "arabic": "يُ",
+            "name": "ya + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يُ + damma: middle of tongue toward the roof of the mouth (consonant use), vowel u"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Randomized-order re-drill — kasra and damma mixed",
+      "instructions": "Both 28-cell grids (56 cells total) mixed together in shuffled order — tests recognition, not memorized sequence or vowel-block grouping.",
+      "grid": [
+        [
+          {
+            "arabic": "بُ",
+            "name": "ba + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+            }
+          },
+          {
+            "arabic": "مُ",
+            "name": "meem + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُ + damma: the two lips, nasal cavity, vowel u"
+            }
+          },
+          {
+            "arabic": "سُ",
+            "name": "seen + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+            }
+          },
+          {
+            "arabic": "حُ",
+            "name": "haa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حُ + damma: middle of the throat, vowel u"
+            }
+          },
+          {
+            "arabic": "بِ",
+            "name": "ba + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بِ + kasra: the two lips (shafatan), fully closed, vowel i"
+            }
+          },
+          {
+            "arabic": "زِ",
+            "name": "zay + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زِ + kasra: tip of tongue near the lower teeth, sibilant, vowel i"
+            }
+          },
+          {
+            "arabic": "طُ",
+            "name": "taa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نِ",
+            "name": "nun + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نِ + kasra: tip of tongue against gum ridge, nasal cavity, vowel i"
+            }
+          },
+          {
+            "arabic": "ذِ",
+            "name": "dhal + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذِ + kasra: tip of tongue between the teeth (same point as ث, but voiced), vowel i"
+            }
+          },
+          {
+            "arabic": "هِ",
+            "name": "ha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هِ + kasra: light, breathy throat release, vowel i"
+            }
+          },
+          {
+            "arabic": "دِ",
+            "name": "dal + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دِ + kasra: tip of tongue against the upper gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "خُ",
+            "name": "kha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خُ + damma: upper throat / back of tongue against the soft palate, vowel u"
+            }
+          },
+          {
+            "arabic": "وُ",
+            "name": "waw + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وُ + damma: rounded lips (consonant use), vowel u"
+            }
+          },
+          {
+            "arabic": "فِ",
+            "name": "fa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِ + kasra: inner lower lip against the edge of the upper front teeth, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دُ",
+            "name": "dal + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دُ + damma: tip of tongue against the upper gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "هُ",
+            "name": "ha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هُ + damma: light, breathy throat release, vowel u"
+            }
+          },
+          {
+            "arabic": "إِ",
+            "name": "alif + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+            }
+          },
+          {
+            "arabic": "وِ",
+            "name": "waw + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+            }
+          },
+          {
+            "arabic": "طِ",
+            "name": "taa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+            }
+          },
+          {
+            "arabic": "ثِ",
+            "name": "tha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثِ + kasra: tip of tongue between the teeth (interdental), vowel i"
+            }
+          },
+          {
+            "arabic": "يُ",
+            "name": "ya + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يُ + damma: middle of tongue toward the roof of the mouth (consonant use), vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عُ",
+            "name": "ayn + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عُ + damma: middle of the throat, vowel u"
+            }
+          },
+          {
+            "arabic": "ضِ",
+            "name": "daad + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضِ + kasra: side of the tongue against the upper molars — a lateral release unique to this letter, vowel i"
+            }
+          },
+          {
+            "arabic": "ثُ",
+            "name": "tha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+            }
+          },
+          {
+            "arabic": "ظِ",
+            "name": "dhaa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظِ + kasra: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel i"
+            }
+          },
+          {
+            "arabic": "قِ",
+            "name": "qaaf + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِ + kasra: back of tongue against the soft palate, vowel i"
+            }
+          },
+          {
+            "arabic": "جِ",
+            "name": "jeem + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جِ + kasra: middle of the tongue against the roof of the mouth, vowel i"
+            }
+          },
+          {
+            "arabic": "شُ",
+            "name": "sheen + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شُ + damma: middle of tongue against the roof of the mouth, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضُ",
+            "name": "daad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+            }
+          },
+          {
+            "arabic": "يِ",
+            "name": "ya + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يِ + kasra: middle of tongue toward the roof of the mouth (consonant use), vowel i"
+            }
+          },
+          {
+            "arabic": "رُ",
+            "name": "ra + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رُ + damma: tip of tongue curled slightly, touching the gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "غِ",
+            "name": "ghayn + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+            }
+          },
+          {
+            "arabic": "تُ",
+            "name": "ta + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "كُ",
+            "name": "kaaf + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كُ + damma: back of tongue against the soft palate, shallower in the mouth than ق, vowel u"
+            }
+          },
+          {
+            "arabic": "تِ",
+            "name": "ta + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عِ",
+            "name": "ayn + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عِ + kasra: middle of the throat, vowel i"
+            }
+          },
+          {
+            "arabic": "ظُ",
+            "name": "dhaa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظُ + damma: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel u"
+            }
+          },
+          {
+            "arabic": "ذُ",
+            "name": "dhal + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذُ + damma: tip of tongue between the teeth (same point as ث, but voiced), vowel u"
+            }
+          },
+          {
+            "arabic": "لُ",
+            "name": "lam + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لُ + damma: tip/sides of tongue against the gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "نُ",
+            "name": "nun + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُ + damma: tip of tongue against gum ridge, nasal cavity, vowel u"
+            }
+          },
+          {
+            "arabic": "خِ",
+            "name": "kha + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خِ + kasra: upper throat / back of tongue against the soft palate, vowel i"
+            }
+          },
+          {
+            "arabic": "كِ",
+            "name": "kaaf + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِ + kasra: back of tongue against the soft palate, shallower in the mouth than ق, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "زُ",
+            "name": "zay + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زُ + damma: tip of tongue near the lower teeth, sibilant, vowel u"
+            }
+          },
+          {
+            "arabic": "فُ",
+            "name": "fa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فُ + damma: inner lower lip against the edge of the upper front teeth, vowel u"
+            }
+          },
+          {
+            "arabic": "سِ",
+            "name": "seen + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+            }
+          },
+          {
+            "arabic": "جُ",
+            "name": "jeem + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جُ + damma: middle of the tongue against the roof of the mouth, vowel u"
+            }
+          },
+          {
+            "arabic": "غُ",
+            "name": "ghayn + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غُ + damma: upper throat, same zone as خ but voiced, vowel u"
+            }
+          },
+          {
+            "arabic": "حِ",
+            "name": "haa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حِ + kasra: middle of the throat, vowel i"
+            }
+          },
+          {
+            "arabic": "أُ",
+            "name": "alif + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُ + damma: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِ",
+            "name": "meem + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِ + kasra: the two lips, nasal cavity, vowel i"
+            }
+          },
+          {
+            "arabic": "رِ",
+            "name": "ra + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "صُ",
+            "name": "saad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+            }
+          },
+          {
+            "arabic": "قُ",
+            "name": "qaaf + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُ + damma: back of tongue against the soft palate, vowel u"
+            }
+          },
+          {
+            "arabic": "لِ",
+            "name": "lam + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لِ + kasra: tip/sides of tongue against the gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "شِ",
+            "name": "sheen + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شِ + kasra: middle of tongue against the roof of the mouth, vowel i"
+            }
+          },
+          {
+            "arabic": "صِ",
+            "name": "saad + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Full 3-vowel spot-check",
+      "instructions": "Teacher calls out any letter + any of the 3 harakat (e.g. \"ز + damma\") verbally, with nothing shown in print; student produces it on demand — an auditory-to-production check, not just a read-aloud check.",
+      "grid": [
+        [
+          {
+            "arabic": "رِ",
+            "name": "ra + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "طِ",
+            "name": "taa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+            }
+          },
+          {
+            "arabic": "ضُ",
+            "name": "daad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+            }
+          },
+          {
+            "arabic": "بُ",
+            "name": "ba + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+            }
+          },
+          {
+            "arabic": "إِ",
+            "name": "alif + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ثُ",
+            "name": "tha + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+            }
+          },
+          {
+            "arabic": "غِ",
+            "name": "ghayn + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+            }
+          },
+          {
+            "arabic": "فَ",
+            "name": "fa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+            }
+          },
+          {
+            "arabic": "كَ",
+            "name": "kaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+            }
+          },
+          {
+            "arabic": "وِ",
+            "name": "waw + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Contrast check — heavy vs. light, kasra and damma",
+      "instructions": "Kasra: سِ/صِ — تِ/طِ. Damma: سُ/صُ — تُ/طُ. Say each pair back to back, a few reps each.",
+      "grid": [
+        [
+          {
+            "arabic": "سِ",
+            "name": "seen + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+            }
+          },
+          {
+            "arabic": "صِ",
+            "name": "saad + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "تِ",
+            "name": "ta + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+            }
+          },
+          {
+            "arabic": "طِ",
+            "name": "taa + kasra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سُ",
+            "name": "seen + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+            }
+          },
+          {
+            "arabic": "صُ",
+            "name": "saad + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "تُ",
+            "name": "ta + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+            }
+          },
+          {
+            "arabic": "طُ",
+            "name": "taa + damma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — 56 new cells, 84 total so far",
+      "items": [
+        {
+          "arabic": "إِ",
+          "name": "alif + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+          }
+        },
+        {
+          "arabic": "بِ",
+          "name": "ba + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بِ + kasra: the two lips (shafatan), fully closed, vowel i"
+          }
+        },
+        {
+          "arabic": "تِ",
+          "name": "ta + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+          }
+        },
+        {
+          "arabic": "ثِ",
+          "name": "tha + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ثِ + kasra: tip of tongue between the teeth (interdental), vowel i"
+          }
+        },
+        {
+          "arabic": "جِ",
+          "name": "jeem + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "جِ + kasra: middle of the tongue against the roof of the mouth, vowel i"
+          }
+        },
+        {
+          "arabic": "حِ",
+          "name": "haa + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "حِ + kasra: middle of the throat, vowel i"
+          }
+        },
+        {
+          "arabic": "خِ",
+          "name": "kha + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خِ + kasra: upper throat / back of tongue against the soft palate, vowel i"
+          }
+        },
+        {
+          "arabic": "دِ",
+          "name": "dal + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دِ + kasra: tip of tongue against the upper gum ridge, vowel i"
+          }
+        },
+        {
+          "arabic": "ذِ",
+          "name": "dhal + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذِ + kasra: tip of tongue between the teeth (same point as ث, but voiced), vowel i"
+          }
+        },
+        {
+          "arabic": "رِ",
+          "name": "ra + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+          }
+        },
+        {
+          "arabic": "زِ",
+          "name": "zay + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "زِ + kasra: tip of tongue near the lower teeth, sibilant, vowel i"
+          }
+        },
+        {
+          "arabic": "سِ",
+          "name": "seen + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+          }
+        },
+        {
+          "arabic": "شِ",
+          "name": "sheen + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "شِ + kasra: middle of tongue against the roof of the mouth, vowel i"
+          }
+        },
+        {
+          "arabic": "صِ",
+          "name": "saad + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+          }
+        },
+        {
+          "arabic": "ضِ",
+          "name": "daad + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ضِ + kasra: side of the tongue against the upper molars — a lateral release unique to this letter, vowel i"
+          }
+        },
+        {
+          "arabic": "طِ",
+          "name": "taa + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+          }
+        },
+        {
+          "arabic": "ظِ",
+          "name": "dhaa + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ظِ + kasra: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel i"
+          }
+        },
+        {
+          "arabic": "عِ",
+          "name": "ayn + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "عِ + kasra: middle of the throat, vowel i"
+          }
+        },
+        {
+          "arabic": "غِ",
+          "name": "ghayn + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+          }
+        },
+        {
+          "arabic": "فِ",
+          "name": "fa + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فِ + kasra: inner lower lip against the edge of the upper front teeth, vowel i"
+          }
+        },
+        {
+          "arabic": "قِ",
+          "name": "qaaf + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قِ + kasra: back of tongue against the soft palate, vowel i"
+          }
+        },
+        {
+          "arabic": "كِ",
+          "name": "kaaf + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كِ + kasra: back of tongue against the soft palate, shallower in the mouth than ق, vowel i"
+          }
+        },
+        {
+          "arabic": "لِ",
+          "name": "lam + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لِ + kasra: tip/sides of tongue against the gum ridge, vowel i"
+          }
+        },
+        {
+          "arabic": "مِ",
+          "name": "meem + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مِ + kasra: the two lips, nasal cavity, vowel i"
+          }
+        },
+        {
+          "arabic": "نِ",
+          "name": "nun + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "نِ + kasra: tip of tongue against gum ridge, nasal cavity, vowel i"
+          }
+        },
+        {
+          "arabic": "هِ",
+          "name": "ha + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "هِ + kasra: light, breathy throat release, vowel i"
+          }
+        },
+        {
+          "arabic": "وِ",
+          "name": "waw + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+          }
+        },
+        {
+          "arabic": "يِ",
+          "name": "ya + kasra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يِ + kasra: middle of tongue toward the roof of the mouth (consonant use), vowel i"
+          }
+        },
+        {
+          "arabic": "أُ",
+          "name": "alif + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أُ + damma: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel u"
+          }
+        },
+        {
+          "arabic": "بُ",
+          "name": "ba + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+          }
+        },
+        {
+          "arabic": "تُ",
+          "name": "ta + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+          }
+        },
+        {
+          "arabic": "ثُ",
+          "name": "tha + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+          }
+        },
+        {
+          "arabic": "جُ",
+          "name": "jeem + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "جُ + damma: middle of the tongue against the roof of the mouth, vowel u"
+          }
+        },
+        {
+          "arabic": "حُ",
+          "name": "haa + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "حُ + damma: middle of the throat, vowel u"
+          }
+        },
+        {
+          "arabic": "خُ",
+          "name": "kha + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خُ + damma: upper throat / back of tongue against the soft palate, vowel u"
+          }
+        },
+        {
+          "arabic": "دُ",
+          "name": "dal + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دُ + damma: tip of tongue against the upper gum ridge, vowel u"
+          }
+        },
+        {
+          "arabic": "ذُ",
+          "name": "dhal + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذُ + damma: tip of tongue between the teeth (same point as ث, but voiced), vowel u"
+          }
+        },
+        {
+          "arabic": "رُ",
+          "name": "ra + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رُ + damma: tip of tongue curled slightly, touching the gum ridge, vowel u"
+          }
+        },
+        {
+          "arabic": "زُ",
+          "name": "zay + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "زُ + damma: tip of tongue near the lower teeth, sibilant, vowel u"
+          }
+        },
+        {
+          "arabic": "سُ",
+          "name": "seen + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+          }
+        },
+        {
+          "arabic": "شُ",
+          "name": "sheen + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "شُ + damma: middle of tongue against the roof of the mouth, vowel u"
+          }
+        },
+        {
+          "arabic": "صُ",
+          "name": "saad + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+          }
+        },
+        {
+          "arabic": "ضُ",
+          "name": "daad + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+          }
+        },
+        {
+          "arabic": "طُ",
+          "name": "taa + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+          }
+        },
+        {
+          "arabic": "ظُ",
+          "name": "dhaa + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ظُ + damma: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel u"
+          }
+        },
+        {
+          "arabic": "عُ",
+          "name": "ayn + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "عُ + damma: middle of the throat, vowel u"
+          }
+        },
+        {
+          "arabic": "غُ",
+          "name": "ghayn + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "غُ + damma: upper throat, same zone as خ but voiced, vowel u"
+          }
+        },
+        {
+          "arabic": "فُ",
+          "name": "fa + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فُ + damma: inner lower lip against the edge of the upper front teeth, vowel u"
+          }
+        },
+        {
+          "arabic": "قُ",
+          "name": "qaaf + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قُ + damma: back of tongue against the soft palate, vowel u"
+          }
+        },
+        {
+          "arabic": "كُ",
+          "name": "kaaf + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كُ + damma: back of tongue against the soft palate, shallower in the mouth than ق, vowel u"
+          }
+        },
+        {
+          "arabic": "لُ",
+          "name": "lam + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لُ + damma: tip/sides of tongue against the gum ridge, vowel u"
+          }
+        },
+        {
+          "arabic": "مُ",
+          "name": "meem + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مُ + damma: the two lips, nasal cavity, vowel u"
+          }
+        },
+        {
+          "arabic": "نُ",
+          "name": "nun + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "نُ + damma: tip of tongue against gum ridge, nasal cavity, vowel u"
+          }
+        },
+        {
+          "arabic": "هُ",
+          "name": "ha + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "هُ + damma: light, breathy throat release, vowel u"
+          }
+        },
+        {
+          "arabic": "وُ",
+          "name": "waw + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وُ + damma: rounded lips (consonant use), vowel u"
+          }
+        },
+        {
+          "arabic": "يُ",
+          "name": "ya + damma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يُ + damma: middle of tongue toward the roof of the mouth (consonant use), vowel u"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "Printed full letter × kasra and letter × damma grids (Amiri font), randomized self-quiz",
+        "Daily \"call and produce\" self-drill using the take-home sheet (read a random cell, say it, check against the sheet)",
+        "Listen once to the Uzbek channel's kasra and damma sections"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Full letter × kasra grid",
+        "instructions": "All 28 letters + kasra.",
+        "grid": [
+          [
+            {
+              "arabic": "إِ",
+              "name": "alif + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+              }
+            },
+            {
+              "arabic": "بِ",
+              "name": "ba + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بِ + kasra: the two lips (shafatan), fully closed, vowel i"
+              }
+            },
+            {
+              "arabic": "تِ",
+              "name": "ta + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "ثِ",
+              "name": "tha + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثِ + kasra: tip of tongue between the teeth (interdental), vowel i"
+              }
+            },
+            {
+              "arabic": "جِ",
+              "name": "jeem + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جِ + kasra: middle of the tongue against the roof of the mouth, vowel i"
+              }
+            },
+            {
+              "arabic": "حِ",
+              "name": "haa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حِ + kasra: middle of the throat, vowel i"
+              }
+            },
+            {
+              "arabic": "خِ",
+              "name": "kha + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خِ + kasra: upper throat / back of tongue against the soft palate, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دِ",
+              "name": "dal + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دِ + kasra: tip of tongue against the upper gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "ذِ",
+              "name": "dhal + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذِ + kasra: tip of tongue between the teeth (same point as ث, but voiced), vowel i"
+              }
+            },
+            {
+              "arabic": "رِ",
+              "name": "ra + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "زِ",
+              "name": "zay + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "زِ + kasra: tip of tongue near the lower teeth, sibilant, vowel i"
+              }
+            },
+            {
+              "arabic": "سِ",
+              "name": "seen + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+              }
+            },
+            {
+              "arabic": "شِ",
+              "name": "sheen + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شِ + kasra: middle of tongue against the roof of the mouth, vowel i"
+              }
+            },
+            {
+              "arabic": "صِ",
+              "name": "saad + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ضِ",
+              "name": "daad + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ضِ + kasra: side of the tongue against the upper molars — a lateral release unique to this letter, vowel i"
+              }
+            },
+            {
+              "arabic": "طِ",
+              "name": "taa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+              }
+            },
+            {
+              "arabic": "ظِ",
+              "name": "dhaa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ظِ + kasra: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel i"
+              }
+            },
+            {
+              "arabic": "عِ",
+              "name": "ayn + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عِ + kasra: middle of the throat, vowel i"
+              }
+            },
+            {
+              "arabic": "غِ",
+              "name": "ghayn + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+              }
+            },
+            {
+              "arabic": "فِ",
+              "name": "fa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فِ + kasra: inner lower lip against the edge of the upper front teeth, vowel i"
+              }
+            },
+            {
+              "arabic": "قِ",
+              "name": "qaaf + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِ + kasra: back of tongue against the soft palate, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كِ",
+              "name": "kaaf + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِ + kasra: back of tongue against the soft palate, shallower in the mouth than ق, vowel i"
+              }
+            },
+            {
+              "arabic": "لِ",
+              "name": "lam + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لِ + kasra: tip/sides of tongue against the gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "مِ",
+              "name": "meem + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِ + kasra: the two lips, nasal cavity, vowel i"
+              }
+            },
+            {
+              "arabic": "نِ",
+              "name": "nun + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نِ + kasra: tip of tongue against gum ridge, nasal cavity, vowel i"
+              }
+            },
+            {
+              "arabic": "هِ",
+              "name": "ha + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هِ + kasra: light, breathy throat release, vowel i"
+              }
+            },
+            {
+              "arabic": "وِ",
+              "name": "waw + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+              }
+            },
+            {
+              "arabic": "يِ",
+              "name": "ya + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يِ + kasra: middle of tongue toward the roof of the mouth (consonant use), vowel i"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Full letter × damma grid",
+        "instructions": "All 28 letters + damma.",
+        "grid": [
+          [
+            {
+              "arabic": "أُ",
+              "name": "alif + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُ + damma: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel u"
+              }
+            },
+            {
+              "arabic": "بُ",
+              "name": "ba + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+              }
+            },
+            {
+              "arabic": "تُ",
+              "name": "ta + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "ثُ",
+              "name": "tha + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+              }
+            },
+            {
+              "arabic": "جُ",
+              "name": "jeem + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جُ + damma: middle of the tongue against the roof of the mouth, vowel u"
+              }
+            },
+            {
+              "arabic": "حُ",
+              "name": "haa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حُ + damma: middle of the throat, vowel u"
+              }
+            },
+            {
+              "arabic": "خُ",
+              "name": "kha + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خُ + damma: upper throat / back of tongue against the soft palate, vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دُ",
+              "name": "dal + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دُ + damma: tip of tongue against the upper gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "ذُ",
+              "name": "dhal + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذُ + damma: tip of tongue between the teeth (same point as ث, but voiced), vowel u"
+              }
+            },
+            {
+              "arabic": "رُ",
+              "name": "ra + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رُ + damma: tip of tongue curled slightly, touching the gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "زُ",
+              "name": "zay + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "زُ + damma: tip of tongue near the lower teeth, sibilant, vowel u"
+              }
+            },
+            {
+              "arabic": "سُ",
+              "name": "seen + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+              }
+            },
+            {
+              "arabic": "شُ",
+              "name": "sheen + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شُ + damma: middle of tongue against the roof of the mouth, vowel u"
+              }
+            },
+            {
+              "arabic": "صُ",
+              "name": "saad + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ضُ",
+              "name": "daad + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+              }
+            },
+            {
+              "arabic": "طُ",
+              "name": "taa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+              }
+            },
+            {
+              "arabic": "ظُ",
+              "name": "dhaa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ظُ + damma: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel u"
+              }
+            },
+            {
+              "arabic": "عُ",
+              "name": "ayn + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عُ + damma: middle of the throat, vowel u"
+              }
+            },
+            {
+              "arabic": "غُ",
+              "name": "ghayn + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غُ + damma: upper throat, same zone as خ but voiced, vowel u"
+              }
+            },
+            {
+              "arabic": "فُ",
+              "name": "fa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فُ + damma: inner lower lip against the edge of the upper front teeth, vowel u"
+              }
+            },
+            {
+              "arabic": "قُ",
+              "name": "qaaf + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُ + damma: back of tongue against the soft palate, vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كُ",
+              "name": "kaaf + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كُ + damma: back of tongue against the soft palate, shallower in the mouth than ق, vowel u"
+              }
+            },
+            {
+              "arabic": "لُ",
+              "name": "lam + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لُ + damma: tip/sides of tongue against the gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "مُ",
+              "name": "meem + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُ + damma: the two lips, nasal cavity, vowel u"
+              }
+            },
+            {
+              "arabic": "نُ",
+              "name": "nun + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نُ + damma: tip of tongue against gum ridge, nasal cavity, vowel u"
+              }
+            },
+            {
+              "arabic": "هُ",
+              "name": "ha + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هُ + damma: light, breathy throat release, vowel u"
+              }
+            },
+            {
+              "arabic": "وُ",
+              "name": "waw + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وُ + damma: rounded lips (consonant use), vowel u"
+              }
+            },
+            {
+              "arabic": "يُ",
+              "name": "ya + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يُ + damma: middle of tongue toward the roof of the mouth (consonant use), vowel u"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Randomized mixed-order re-drill",
+        "instructions": "Both grids together (56 cells), shuffled order.",
+        "grid": [
+          [
+            {
+              "arabic": "بُ",
+              "name": "ba + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+              }
+            },
+            {
+              "arabic": "مُ",
+              "name": "meem + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُ + damma: the two lips, nasal cavity, vowel u"
+              }
+            },
+            {
+              "arabic": "سُ",
+              "name": "seen + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+              }
+            },
+            {
+              "arabic": "حُ",
+              "name": "haa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حُ + damma: middle of the throat, vowel u"
+              }
+            },
+            {
+              "arabic": "بِ",
+              "name": "ba + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بِ + kasra: the two lips (shafatan), fully closed, vowel i"
+              }
+            },
+            {
+              "arabic": "زِ",
+              "name": "zay + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "زِ + kasra: tip of tongue near the lower teeth, sibilant, vowel i"
+              }
+            },
+            {
+              "arabic": "طُ",
+              "name": "taa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نِ",
+              "name": "nun + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نِ + kasra: tip of tongue against gum ridge, nasal cavity, vowel i"
+              }
+            },
+            {
+              "arabic": "ذِ",
+              "name": "dhal + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذِ + kasra: tip of tongue between the teeth (same point as ث, but voiced), vowel i"
+              }
+            },
+            {
+              "arabic": "هِ",
+              "name": "ha + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هِ + kasra: light, breathy throat release, vowel i"
+              }
+            },
+            {
+              "arabic": "دِ",
+              "name": "dal + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دِ + kasra: tip of tongue against the upper gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "خُ",
+              "name": "kha + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خُ + damma: upper throat / back of tongue against the soft palate, vowel u"
+              }
+            },
+            {
+              "arabic": "وُ",
+              "name": "waw + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وُ + damma: rounded lips (consonant use), vowel u"
+              }
+            },
+            {
+              "arabic": "فِ",
+              "name": "fa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فِ + kasra: inner lower lip against the edge of the upper front teeth, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دُ",
+              "name": "dal + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دُ + damma: tip of tongue against the upper gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "هُ",
+              "name": "ha + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هُ + damma: light, breathy throat release, vowel u"
+              }
+            },
+            {
+              "arabic": "إِ",
+              "name": "alif + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+              }
+            },
+            {
+              "arabic": "وِ",
+              "name": "waw + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+              }
+            },
+            {
+              "arabic": "طِ",
+              "name": "taa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+              }
+            },
+            {
+              "arabic": "ثِ",
+              "name": "tha + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثِ + kasra: tip of tongue between the teeth (interdental), vowel i"
+              }
+            },
+            {
+              "arabic": "يُ",
+              "name": "ya + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يُ + damma: middle of tongue toward the roof of the mouth (consonant use), vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عُ",
+              "name": "ayn + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عُ + damma: middle of the throat, vowel u"
+              }
+            },
+            {
+              "arabic": "ضِ",
+              "name": "daad + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ضِ + kasra: side of the tongue against the upper molars — a lateral release unique to this letter, vowel i"
+              }
+            },
+            {
+              "arabic": "ثُ",
+              "name": "tha + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+              }
+            },
+            {
+              "arabic": "ظِ",
+              "name": "dhaa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ظِ + kasra: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel i"
+              }
+            },
+            {
+              "arabic": "قِ",
+              "name": "qaaf + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِ + kasra: back of tongue against the soft palate, vowel i"
+              }
+            },
+            {
+              "arabic": "جِ",
+              "name": "jeem + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جِ + kasra: middle of the tongue against the roof of the mouth, vowel i"
+              }
+            },
+            {
+              "arabic": "شُ",
+              "name": "sheen + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شُ + damma: middle of tongue against the roof of the mouth, vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ضُ",
+              "name": "daad + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+              }
+            },
+            {
+              "arabic": "يِ",
+              "name": "ya + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يِ + kasra: middle of tongue toward the roof of the mouth (consonant use), vowel i"
+              }
+            },
+            {
+              "arabic": "رُ",
+              "name": "ra + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رُ + damma: tip of tongue curled slightly, touching the gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "غِ",
+              "name": "ghayn + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+              }
+            },
+            {
+              "arabic": "تُ",
+              "name": "ta + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "كُ",
+              "name": "kaaf + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كُ + damma: back of tongue against the soft palate, shallower in the mouth than ق, vowel u"
+              }
+            },
+            {
+              "arabic": "تِ",
+              "name": "ta + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عِ",
+              "name": "ayn + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عِ + kasra: middle of the throat, vowel i"
+              }
+            },
+            {
+              "arabic": "ظُ",
+              "name": "dhaa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ظُ + damma: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel u"
+              }
+            },
+            {
+              "arabic": "ذُ",
+              "name": "dhal + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذُ + damma: tip of tongue between the teeth (same point as ث, but voiced), vowel u"
+              }
+            },
+            {
+              "arabic": "لُ",
+              "name": "lam + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لُ + damma: tip/sides of tongue against the gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "نُ",
+              "name": "nun + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نُ + damma: tip of tongue against gum ridge, nasal cavity, vowel u"
+              }
+            },
+            {
+              "arabic": "خِ",
+              "name": "kha + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خِ + kasra: upper throat / back of tongue against the soft palate, vowel i"
+              }
+            },
+            {
+              "arabic": "كِ",
+              "name": "kaaf + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِ + kasra: back of tongue against the soft palate, shallower in the mouth than ق, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "زُ",
+              "name": "zay + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "زُ + damma: tip of tongue near the lower teeth, sibilant, vowel u"
+              }
+            },
+            {
+              "arabic": "فُ",
+              "name": "fa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فُ + damma: inner lower lip against the edge of the upper front teeth, vowel u"
+              }
+            },
+            {
+              "arabic": "سِ",
+              "name": "seen + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+              }
+            },
+            {
+              "arabic": "جُ",
+              "name": "jeem + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جُ + damma: middle of the tongue against the roof of the mouth, vowel u"
+              }
+            },
+            {
+              "arabic": "غُ",
+              "name": "ghayn + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غُ + damma: upper throat, same zone as خ but voiced, vowel u"
+              }
+            },
+            {
+              "arabic": "حِ",
+              "name": "haa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حِ + kasra: middle of the throat, vowel i"
+              }
+            },
+            {
+              "arabic": "أُ",
+              "name": "alif + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُ + damma: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مِ",
+              "name": "meem + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِ + kasra: the two lips, nasal cavity, vowel i"
+              }
+            },
+            {
+              "arabic": "رِ",
+              "name": "ra + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "صُ",
+              "name": "saad + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+              }
+            },
+            {
+              "arabic": "قُ",
+              "name": "qaaf + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُ + damma: back of tongue against the soft palate, vowel u"
+              }
+            },
+            {
+              "arabic": "لِ",
+              "name": "lam + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لِ + kasra: tip/sides of tongue against the gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "شِ",
+              "name": "sheen + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شِ + kasra: middle of tongue against the roof of the mouth, vowel i"
+              }
+            },
+            {
+              "arabic": "صِ",
+              "name": "saad + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Heavy-vs-light contrast pairs — kasra and damma",
+        "instructions": "Kasra: سِ/صِ — تِ/طِ. Damma: سُ/صُ — تُ/طُ.",
+        "grid": [
+          [
+            {
+              "arabic": "سِ",
+              "name": "seen + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِ + kasra: tip of tongue near the lower teeth, thin hiss, vowel i"
+              }
+            },
+            {
+              "arabic": "صِ",
+              "name": "saad + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صِ + kasra: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "تِ",
+              "name": "ta + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تِ + kasra: tip of tongue against the upper front teeth / gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "طِ",
+              "name": "taa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سُ",
+              "name": "seen + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُ + damma: tip of tongue near the lower teeth, thin hiss, vowel u"
+              }
+            },
+            {
+              "arabic": "صُ",
+              "name": "saad + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صُ + damma: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel u"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "تُ",
+              "name": "ta + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تُ + damma: tip of tongue against the upper front teeth / gum ridge, vowel u"
+              }
+            },
+            {
+              "arabic": "طُ",
+              "name": "taa + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طُ + damma: same point as ت, but full mouth cavity — heavy twin of ت, vowel u"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "\"Call and produce\" spot-check",
+        "instructions": "Teacher names a letter + a vowel verbally (no text shown), student produces the sound unprompted by print — 10 rounds, randomized across all 28×3 combinations learned so far.",
+        "grid": [
+          [
+            {
+              "arabic": "رِ",
+              "name": "ra + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رِ + kasra: tip of tongue curled slightly, touching the gum ridge, vowel i"
+              }
+            },
+            {
+              "arabic": "طِ",
+              "name": "taa + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طِ + kasra: same point as ت, but full mouth cavity — heavy twin of ت, vowel i"
+              }
+            },
+            {
+              "arabic": "ضُ",
+              "name": "daad + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ضُ + damma: side of the tongue against the upper molars — a lateral release unique to this letter, vowel u"
+              }
+            },
+            {
+              "arabic": "بُ",
+              "name": "ba + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بُ + damma: the two lips (shafatan), fully closed, vowel u"
+              }
+            },
+            {
+              "arabic": "إِ",
+              "name": "alif + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "إِ + kasra: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel i"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ثُ",
+              "name": "tha + damma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثُ + damma: tip of tongue between the teeth (interdental), vowel u"
+              }
+            },
+            {
+              "arabic": "غِ",
+              "name": "ghayn + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غِ + kasra: upper throat, same zone as خ but voiced, vowel i"
+              }
+            },
+            {
+              "arabic": "فَ",
+              "name": "fa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+              }
+            },
+            {
+              "arabic": "كَ",
+              "name": "kaaf + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+              }
+            },
+            {
+              "arabic": "وِ",
+              "name": "waw + kasra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وِ + kasra: rounded lips (consonant use), vowel i"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Printed full letter × kasra and letter × damma grids, randomized self-quiz",
+      "Daily \"call and produce\" self-drill (read a random cell, say it, check against the sheet)",
+      "Listen once to the Uzbek channel's kasra and damma sections"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with a 10-cell randomized sample of last lesson's fatha grid before introducing kasra and damma.",
+      "Model بِ and بُ slowly, directly contrasted against بَ from last lesson, before revealing either full grid.",
+      "Since no vetted 'hear the whole grid' video is wired in yet (candidates are unverified/audition-required per verified-resources.md §4), demonstrate both the kasra grid and the damma grid live yourself before their respective guided drills.",
+      "If the damma grid doesn't fit in the hour, stop — 1.12's dry-run slot absorbs the overflow; do not rush 56 cells.",
+      "Run the mixed 56-cell re-drill only after both grids have had their own guided pass — this is the real recognition test, not the ordered reveal.",
+      "Close with the heavy-vs-light kasra/damma contrast pairs, listening specifically for whether damma darkens more than kasra after a heavy letter."
+    ],
+    "listenFor": [
+      "Kasra diphthongized (turning into \"ee\" or \"ya\"-like glide) instead of staying a crisp short \"i.\"",
+      "Damma lengthened toward \"oo\" instead of staying a crisp short \"u.\"",
+      "Kasra/damma confused with each other under time pressure during the randomized mixed-order drill (a genuinely common beginner mix-up simply from mark-position similarity — above vs below — being new).",
+      "Continued heavy-letter vowel-darkening pattern (A.2), now checked across all 3 vowels, not just fatha."
+    ],
+    "homework": "Printed full letter × kasra and letter × damma grids (Amiri font), randomized self-quiz. Daily \"call and produce\" self-drill using the take-home sheet (student reads a random cell, says it, checks against the sheet). Listen once to the Uzbek channel's kasra and damma sections."
+  },
+  "videos": [
+    {
+      "title": "Muallimi Soniy — kasra chapter",
+      "url": "https://youtu.be/VhRHKdPcNPA?t=328"
+    },
+    {
+      "title": "Muallimi Soniy — damma chapter",
+      "url": "https://youtu.be/VhRHKdPcNPA?t=482"
+    }
+  ]
+}
