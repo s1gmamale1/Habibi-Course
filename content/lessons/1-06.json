@@ -1,0 +1,225 @@
+{
+  "id": "1-06",
+  "phase": 1,
+  "unit": "1.1",
+  "title": "The rest of the alphabet + full 28-letter review: ك ل م ن ه و ي",
+  "objectives": [
+    "Student can identify and pronounce ك, ل, م, ن, ه, و, ي in isolation on sight.",
+    "Student can correctly recite and produce the sound of all 28 letters, in any (non-sequential, shuffled) order, on sight — the exact skill Checkpoint 1 will test.",
+    "Student can name at least one thing to \"listen for\" on themselves for each of the 6 previously-flagged high-risk letters (ح, ض, ع, ق, ذ/ز pattern, ص)."
+  ],
+  "slides": [
+    {"kind": "title", "heading": "Lesson 1.6 — The rest of the alphabet + full 28-letter review", "arabicDecor": "ك ل م ن ه و ي"},
+    {"kind": "recap", "heading": "Cumulative recap — all 21 letters so far", "items": [
+      {"arabic": "ع", "name": "ayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12720, "title": "Muallimi Soniy — ع (ayn) section"}},
+      {"arabic": "غ", "name": "ghayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12280, "title": "Muallimi Soniy — غ (ghayn) section"}},
+      {"arabic": "ف", "name": "fa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6955, "title": "Muallimi Soniy — ف (fa) section"}},
+      {"arabic": "ق", "name": "qaaf", "audio": {"type": "youtube-cue", "videoId": "wwHmytGNi2M", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"}}
+    ]},
+    {"kind": "letter", "item": {"arabic": "ك", "name": "kaaf", "translit": "k", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 4878, "title": "Muallimi Soniy — ك (kaaf) section"}}, "makhraj": "back of tongue against the soft palate, shallower in the mouth than ق", "notes": [
+      "Contrast directly against last lesson's ق — plain \"k\", shallower in the mouth",
+      "Shape: no dot"
+    ]},
+    {"kind": "drill", "heading": "ك vs ق — minimal-pair listening", "instructions": "Recheck from lesson 1.5 — the student may flatten ق toward ك instead. Teacher says either letter, student points to which was said.", "grid": [[
+      {"arabic": "ك", "name": "kaaf", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 4878, "title": "Muallimi Soniy — ك (kaaf) section"}},
+      {"arabic": "ق", "name": "qaaf", "audio": {"type": "youtube-cue", "videoId": "wwHmytGNi2M", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"}}
+    ]]},
+    {"kind": "letter", "item": {"arabic": "ل", "name": "lam", "translit": "l", "audio": {"type": "youtube-cue", "videoId": "-dPYDd4zNio", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 8 — ل (lam)"}}, "makhraj": "tip/sides of tongue against the gum ridge", "notes": [
+      "A clear, light \"l\"",
+      "Shape: no dot"
+    ]},
+    {"kind": "letter", "item": {"arabic": "م", "name": "meem", "translit": "m", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 2254, "title": "Muallimi Soniy — م (meem) section"}}, "makhraj": "the two lips, nasal cavity", "notes": [
+      "Sound: \"m\", nasal",
+      "Watch for \"Meem irregularities\" — a named aside in the reference video, not folded silently into the main lesson"
+    ]},
+    {"kind": "letter", "item": {"arabic": "ن", "name": "nun", "translit": "n", "audio": {"type": "youtube-cue", "videoId": "BDgw0fWZwMU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 9 — ن (nun)"}}, "makhraj": "tip of tongue against gum ridge, nasal cavity", "notes": [
+      "A two-part sound: an oral release plus nasal resonance — foreshadowing Phase 3's ghunna/noon-sakinah rules",
+      "Shape: one dot ABOVE"
+    ]},
+    {"kind": "letter", "item": {"arabic": "ه", "name": "ha", "translit": "h", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6705, "title": "Muallimi Soniy — ه (light ha) section"}}, "makhraj": "light, breathy throat release", "notes": [
+      "A soft, breathy \"h\" — contrasted directly against ح (lesson 1.2), which is a much stronger, deeper throat sound",
+      "Shape: no dot"
+    ]},
+    {"kind": "drill", "heading": "ح vs ه — the single most important recheck", "instructions": "The exact pairing flagged as the most-cited non-Arab confusion, now testable with both letters known. This is the last scheduled chance to catch it before Checkpoint 1.", "grid": [[
+      {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+      {"arabic": "ه", "name": "ha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6705, "title": "Muallimi Soniy — ه (light ha) section"}}
+    ]]},
+    {"kind": "letter", "item": {"arabic": "و", "name": "waw", "translit": "w", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6387, "title": "Muallimi Soniy — و (waw) section"}}, "makhraj": "rounded lips (consonant use)", "notes": [
+      "Taught here purely as a consonant (\"w\") — its much bigger role as a long-vowel/madd letter is Phase 2 content",
+      "Shape: no dot"
+    ]},
+    {"kind": "letter", "item": {"arabic": "ي", "name": "ya", "translit": "y", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 3655, "title": "Muallimi Soniy — ي (ya) section"}}, "makhraj": "middle of tongue toward the roof of the mouth (consonant use)", "notes": [
+      "Taught here purely as a consonant (\"y\") — same note as و, returns as a long-vowel letter in Phase 2",
+      "Shape: two dots BELOW in isolated form"
+    ]},
+    {"kind": "drill", "heading": "Full 28-letter cumulative shuffle", "instructions": "Every letter taught in Unit 1.1, randomized order, timed informally as a confidence check ahead of Checkpoint 1.", "grid": [[
+      {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}},
+      {"arabic": "ج", "name": "jeem", "audio": {"type": "youtube-cue", "videoId": "X-iZ4yZrltA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"}},
+      {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+      {"arabic": "خ", "name": "kha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11056, "title": "Muallimi Soniy — خ (kha) section"}}
+    ], [
+      {"arabic": "د", "name": "dal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 13525, "title": "Muallimi Soniy — د (dal) section"}},
+      {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}},
+      {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+      {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+      {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+      {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}},
+      {"arabic": "ص", "name": "saad", "audio": {"type": "youtube-cue", "videoId": "yhIFJiPqVqA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 12 — ص (saad)"}}
+    ], [
+      {"arabic": "ض", "name": "daad", "audio": {"type": "youtube-cue", "videoId": "gEBzZLbuo-4", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 7 — ض (daad)"}},
+      {"arabic": "ط", "name": "taa", "audio": {"type": "youtube-cue", "videoId": "XeQ5cxhkzlE", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 11 — ط (taa)"}},
+      {"arabic": "ظ", "name": "dhaa", "audio": {"type": "youtube-cue", "videoId": "6_Qfe0g6uks", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"}},
+      {"arabic": "ع", "name": "ayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12720, "title": "Muallimi Soniy — ع (ayn) section"}},
+      {"arabic": "غ", "name": "ghayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12280, "title": "Muallimi Soniy — غ (ghayn) section"}},
+      {"arabic": "ف", "name": "fa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6955, "title": "Muallimi Soniy — ف (fa) section"}},
+      {"arabic": "ق", "name": "qaaf", "audio": {"type": "youtube-cue", "videoId": "wwHmytGNi2M", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"}}
+    ], [
+      {"arabic": "ك", "name": "kaaf", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 4878, "title": "Muallimi Soniy — ك (kaaf) section"}},
+      {"arabic": "ل", "name": "lam", "audio": {"type": "youtube-cue", "videoId": "-dPYDd4zNio", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 8 — ل (lam)"}},
+      {"arabic": "م", "name": "meem", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 2254, "title": "Muallimi Soniy — م (meem) section"}},
+      {"arabic": "ن", "name": "nun", "audio": {"type": "youtube-cue", "videoId": "BDgw0fWZwMU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 9 — ن (nun)"}},
+      {"arabic": "ه", "name": "ha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6705, "title": "Muallimi Soniy — ه (light ha) section"}},
+      {"arabic": "و", "name": "waw", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6387, "title": "Muallimi Soniy — و (waw) section"}},
+      {"arabic": "ي", "name": "ya", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 3655, "title": "Muallimi Soniy — ي (ya) section"}}
+    ]]},
+    {"kind": "drill", "heading": "Guided correction round — the 6 high-risk sounds", "instructions": "One more focused pass on the 6 previously-flagged high-risk sounds one last time each: ح, ض, ع, ق, ذ/ز pattern, ص.", "grid": [[
+      {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+      {"arabic": "ض", "name": "daad", "audio": {"type": "youtube-cue", "videoId": "gEBzZLbuo-4", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 7 — ض (daad)"}},
+      {"arabic": "ع", "name": "ayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12720, "title": "Muallimi Soniy — ع (ayn) section"}},
+      {"arabic": "ق", "name": "qaaf", "audio": {"type": "youtube-cue", "videoId": "wwHmytGNi2M", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"}},
+      {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}},
+      {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+      {"arabic": "ص", "name": "saad", "audio": {"type": "youtube-cue", "videoId": "yhIFJiPqVqA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 12 — ص (saad)"}}
+    ]]},
+    {"kind": "recap", "heading": "You now know all 28 letters!", "items": [
+      {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}},
+      {"arabic": "ج", "name": "jeem", "audio": {"type": "youtube-cue", "videoId": "X-iZ4yZrltA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"}},
+      {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+      {"arabic": "خ", "name": "kha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11056, "title": "Muallimi Soniy — خ (kha) section"}},
+      {"arabic": "د", "name": "dal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 13525, "title": "Muallimi Soniy — د (dal) section"}},
+      {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}},
+      {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+      {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+      {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+      {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}},
+      {"arabic": "ص", "name": "saad", "audio": {"type": "youtube-cue", "videoId": "yhIFJiPqVqA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 12 — ص (saad)"}},
+      {"arabic": "ض", "name": "daad", "audio": {"type": "youtube-cue", "videoId": "gEBzZLbuo-4", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 7 — ض (daad)"}},
+      {"arabic": "ط", "name": "taa", "audio": {"type": "youtube-cue", "videoId": "XeQ5cxhkzlE", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 11 — ط (taa)"}},
+      {"arabic": "ظ", "name": "dhaa", "audio": {"type": "youtube-cue", "videoId": "6_Qfe0g6uks", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"}},
+      {"arabic": "ع", "name": "ayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12720, "title": "Muallimi Soniy — ع (ayn) section"}},
+      {"arabic": "غ", "name": "ghayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12280, "title": "Muallimi Soniy — غ (ghayn) section"}},
+      {"arabic": "ف", "name": "fa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6955, "title": "Muallimi Soniy — ف (fa) section"}},
+      {"arabic": "ق", "name": "qaaf", "audio": {"type": "youtube-cue", "videoId": "wwHmytGNi2M", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"}},
+      {"arabic": "ك", "name": "kaaf", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 4878, "title": "Muallimi Soniy — ك (kaaf) section"}},
+      {"arabic": "ل", "name": "lam", "audio": {"type": "youtube-cue", "videoId": "-dPYDd4zNio", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 8 — ل (lam)"}},
+      {"arabic": "م", "name": "meem", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 2254, "title": "Muallimi Soniy — م (meem) section"}},
+      {"arabic": "ن", "name": "nun", "audio": {"type": "youtube-cue", "videoId": "BDgw0fWZwMU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 9 — ن (nun)"}},
+      {"arabic": "ه", "name": "ha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6705, "title": "Muallimi Soniy — ه (light ha) section"}},
+      {"arabic": "و", "name": "waw", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6387, "title": "Muallimi Soniy — و (waw) section"}},
+      {"arabic": "ي", "name": "ya", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 3655, "title": "Muallimi Soniy — ي (ya) section"}}
+    ]},
+    {"kind": "homework", "heading": "Homework — 15–20 min/day", "tasks": [
+      "Flashcard sheet ك ل م ن ه و ي",
+      "Full 28-letter shuffle drill daily (self-test using the take-home printed grid, saying each aloud)",
+      "Specific ح/ه contrast drill, 10 repetitions of each",
+      "Review the linked video for any letter the teacher flagged this lesson"
+    ]}
+  ],
+  "practice": {
+    "drills": [
+      {"title": "Flashcard grid", "instructions": "Name each letter + produce its sound, shuffled.", "grid": [[
+        {"arabic": "ك", "name": "kaaf", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 4878, "title": "Muallimi Soniy — ك (kaaf) section"}},
+        {"arabic": "ل", "name": "lam", "audio": {"type": "youtube-cue", "videoId": "-dPYDd4zNio", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 8 — ل (lam)"}},
+        {"arabic": "م", "name": "meem", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 2254, "title": "Muallimi Soniy — م (meem) section"}},
+        {"arabic": "ن", "name": "nun", "audio": {"type": "youtube-cue", "videoId": "BDgw0fWZwMU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 9 — ن (nun)"}},
+        {"arabic": "ه", "name": "ha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6705, "title": "Muallimi Soniy — ه (light ha) section"}},
+        {"arabic": "و", "name": "waw", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6387, "title": "Muallimi Soniy — و (waw) section"}},
+        {"arabic": "ي", "name": "ya", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 3655, "title": "Muallimi Soniy — ي (ya) section"}}
+      ]]},
+      {"title": "Contrast drill: ك vs ق", "instructions": "Minimal-pair listening check.", "grid": [[
+        {"arabic": "ك", "name": "kaaf", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 4878, "title": "Muallimi Soniy — ك (kaaf) section"}},
+        {"arabic": "ق", "name": "qaaf", "audio": {"type": "youtube-cue", "videoId": "wwHmytGNi2M", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"}}
+      ]]},
+      {"title": "Contrast drill: ح vs ه", "instructions": "Minimal-pair listening check — the single most important recheck of the whole unit.", "grid": [[
+        {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+        {"arabic": "ه", "name": "ha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6705, "title": "Muallimi Soniy — ه (light ha) section"}}
+      ]]},
+      {"title": "Full 28-letter recognition race", "instructions": "All letters shown in fully randomized order (not grouped by family anymore). Student names + sounds each; teacher times it informally and notes any hesitation or error per letter on a simple 28-row checklist — this checklist doubles as Checkpoint 1 prep data.", "grid": [[
+        {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+        {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+        {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+        {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}},
+        {"arabic": "ج", "name": "jeem", "audio": {"type": "youtube-cue", "videoId": "X-iZ4yZrltA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"}},
+        {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+        {"arabic": "خ", "name": "kha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11056, "title": "Muallimi Soniy — خ (kha) section"}}
+      ], [
+        {"arabic": "د", "name": "dal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 13525, "title": "Muallimi Soniy — د (dal) section"}},
+        {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}},
+        {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+        {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+        {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+        {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}},
+        {"arabic": "ص", "name": "saad", "audio": {"type": "youtube-cue", "videoId": "yhIFJiPqVqA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 12 — ص (saad)"}}
+      ], [
+        {"arabic": "ض", "name": "daad", "audio": {"type": "youtube-cue", "videoId": "gEBzZLbuo-4", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 7 — ض (daad)"}},
+        {"arabic": "ط", "name": "taa", "audio": {"type": "youtube-cue", "videoId": "XeQ5cxhkzlE", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 11 — ط (taa)"}},
+        {"arabic": "ظ", "name": "dhaa", "audio": {"type": "youtube-cue", "videoId": "6_Qfe0g6uks", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"}},
+        {"arabic": "ع", "name": "ayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12720, "title": "Muallimi Soniy — ع (ayn) section"}},
+        {"arabic": "غ", "name": "ghayn", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 12280, "title": "Muallimi Soniy — غ (ghayn) section"}},
+        {"arabic": "ف", "name": "fa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6955, "title": "Muallimi Soniy — ف (fa) section"}},
+        {"arabic": "ق", "name": "qaaf", "audio": {"type": "youtube-cue", "videoId": "wwHmytGNi2M", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"}}
+      ], [
+        {"arabic": "ك", "name": "kaaf", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 4878, "title": "Muallimi Soniy — ك (kaaf) section"}},
+        {"arabic": "ل", "name": "lam", "audio": {"type": "youtube-cue", "videoId": "-dPYDd4zNio", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 8 — ل (lam)"}},
+        {"arabic": "م", "name": "meem", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 2254, "title": "Muallimi Soniy — م (meem) section"}},
+        {"arabic": "ن", "name": "nun", "audio": {"type": "youtube-cue", "videoId": "BDgw0fWZwMU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 9 — ن (nun)"}},
+        {"arabic": "ه", "name": "ha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6705, "title": "Muallimi Soniy — ه (light ha) section"}},
+        {"arabic": "و", "name": "waw", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 6387, "title": "Muallimi Soniy — و (waw) section"}},
+        {"arabic": "ي", "name": "ya", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 3655, "title": "Muallimi Soniy — ي (ya) section"}}
+      ]]}
+    ],
+    "dailyChecklist": [
+      "Full 28-letter shuffle drill daily (self-test using the take-home printed grid, saying each aloud)",
+      "Specific ح/ه contrast drill, 10 repetitions of each",
+      "Review the linked video for any letter the teacher flagged this lesson"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with a cumulative cold-call of all 21 letters before introducing today's final 7.",
+      "Contrast ك against last lesson's ق, and ه against lesson 1.2's ح, immediately after each is introduced.",
+      "Model ن explicitly as a two-part oral+nasal sound — plant the seed for Phase 3's ghunna, even though the formal rule isn't taught yet.",
+      "Run the full 28-letter cumulative shuffle as an informally-timed confidence check, not a graded test.",
+      "Spend the guided-correction round revisiting all 6 previously-flagged high-risk sounds one more time each, logging hesitations per letter for Checkpoint 1 prep.",
+      "Close by explicitly naming the milestone: the student now knows all 28 letters."
+    ],
+    "listenFor": [
+      "ك not kept shallow/light enough relative to ق (student may flatten ق toward ك instead — recheck from lesson 1.5).",
+      "ح vs ه still confused — this is the single most important recheck in all of Phase 1; per the research this is \"the single most-cited non-Arab error\" and this lesson is the last scheduled chance to catch it before Checkpoint 1 (teaching-mistakes-assessment.md A.1).",
+      "ن produced without any nasal quality at all (oral-only \"n\") — plant the seed now for Phase 3's ghunna requirement, even though the formal rule isn't taught yet.",
+      "و / ي pronounced with English glide quality instead of Arabic consonantal و/ي — minor at this stage, worth a light correction only.",
+      "Cumulative check across the full 28-letter race: log every hesitation/error by letter, not just pass/fail, to feed directly into the Checkpoint 1 weak-spot mapping."
+    ],
+    "homework": "Flashcard sheet ك ل م ن ه و ي. Full 28-letter shuffle drill daily (student self-tests using the take-home printed grid, saying each aloud). Specific ح/ه contrast drill, 10 repetitions of each. Review the linked video for any letter the teacher flagged this lesson."
+  },
+  "videos": [
+    {"title": "Arabic101 Makharij Lesson 2 — ء + هـ", "url": "https://www.youtube.com/watch?v=Bzz_wo6skWA"},
+    {"title": "Arabic101 Makharij Lesson 8 — ل", "url": "https://www.youtube.com/watch?v=-dPYDd4zNio"},
+    {"title": "Arabic101 Makharij Lesson 9 — ن", "url": "https://www.youtube.com/watch?v=BDgw0fWZwMU"},
+    {"title": "Arabic101 Makharij Lesson 14 — ف و م ب", "url": "https://www.youtube.com/watch?v=sM27vvgq_os"},
+    {"title": "Muallimi Soniy — م (meem) section", "url": "https://youtu.be/VhRHKdPcNPA?t=2254"},
+    {"title": "Muallimi Soniy — ن (nun) section", "url": "https://youtu.be/VhRHKdPcNPA?t=3196"},
+    {"title": "Muallimi Soniy — ي (ya) section", "url": "https://youtu.be/VhRHKdPcNPA?t=3655"},
+    {"title": "Muallimi Soniy — ك (kaaf) section", "url": "https://youtu.be/VhRHKdPcNPA?t=4878"},
+    {"title": "Muallimi Soniy — Meem irregularities (aside)", "url": "https://youtu.be/VhRHKdPcNPA?t=5283"},
+    {"title": "Muallimi Soniy — ل (lam) section", "url": "https://youtu.be/VhRHKdPcNPA?t=5909"},
+    {"title": "Muallimi Soniy — و (waw) section", "url": "https://youtu.be/VhRHKdPcNPA?t=6387"},
+    {"title": "Muallimi Soniy — ه (light ha) section", "url": "https://youtu.be/VhRHKdPcNPA?t=6705"}
+  ]
+}
