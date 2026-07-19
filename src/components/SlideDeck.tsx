@@ -1,7 +1,7 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { Lesson, Slide } from "@/content/schema";
+import type { Slide } from "@/content/schema";
 import { TapToHear } from "./TapToHear";
 
 function SlideView({ slide }: { slide: Slide }) {
@@ -57,11 +57,11 @@ function SlideView({ slide }: { slide: Slide }) {
   }
 }
 
-export function SlideDeck({ lesson }: { lesson: Lesson }) {
+export function SlideDeck({ title, slides }: { title: string; slides: Slide[] }) {
   const [i, setI] = useState(0);
   const router = useRouter();
   const touchX = useRef<number | null>(null);
-  const last = lesson.slides.length - 1;
+  const last = slides.length - 1;
   const go = useCallback((d: number) => setI((v) => Math.min(last, Math.max(0, v + d))), [last]);
 
   useEffect(() => {
@@ -86,11 +86,11 @@ export function SlideDeck({ lesson }: { lesson: Lesson }) {
       }}
     >
       <div className="flex flex-1 items-center justify-center p-6">
-        <SlideView slide={lesson.slides[i]} />
+        <SlideView slide={slides[i]} />
       </div>
       <div className="flex items-center justify-between p-4 text-sm text-stone-500">
         <button type="button" onClick={() => go(-1)} className="rounded px-3 py-1 hover:bg-stone-200">← Back</button>
-        <span>{i + 1} / {lesson.slides.length}</span>
+        <span>{title} — {i + 1} / {slides.length}</span>
         <button type="button" onClick={() => go(1)} className="rounded px-3 py-1 hover:bg-stone-200">Next →</button>
       </div>
     </div>

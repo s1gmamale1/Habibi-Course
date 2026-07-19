@@ -10,6 +10,7 @@ export function useProgress() {
   useEffect(() => {
     try {
       const raw = JSON.parse(localStorage.getItem(KEY) ?? '{"done":[]}');
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- mount-time localStorage hydrate; render-time read would mismatch SSR HTML
       setDone(Array.isArray(raw?.done) ? raw.done.filter((x: unknown): x is string => typeof x === "string") : []);
     } catch {
       setDone([]);

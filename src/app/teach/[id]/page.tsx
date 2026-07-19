@@ -15,7 +15,7 @@ export default async function TeachPage({ params }: { params: Promise<{ id: stri
       <ul className="mb-4 list-disc pl-6">{l.objectives.map((o) => <li key={o}>{o}</li>)}</ul>
       <h2 className="mb-1 font-semibold">Talking script</h2>
       <ol className="mb-4 list-decimal space-y-1 pl-6">{l.teacherNotes.script.map((s) => <li key={s}>{s}</li>)}</ol>
-      <h2 className="mb-1 font-semibold">Listen for (this lesson's mistakes)</h2>
+      <h2 className="mb-1 font-semibold">Listen for (this lesson&apos;s mistakes)</h2>
       <ul className="mb-4 list-disc space-y-1 pl-6">{l.teacherNotes.listenFor.map((s) => <li key={s}>{s}</li>)}</ul>
       <h2 className="mb-1 font-semibold">Homework to assign</h2>
       <p className="mb-4">{l.teacherNotes.homework}</p>
