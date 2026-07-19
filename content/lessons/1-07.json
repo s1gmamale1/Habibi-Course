@@ -1,0 +1,1834 @@
+{
+  "id": "1-07",
+  "phase": 1,
+  "unit": "1.2",
+  "title": "Letters change shape: initial / medial / final / isolated forms",
+  "objectives": [
+    "Student can explain that most Arabic letters take up to 4 different shapes depending on position in a word (isolated / initial / medial / final), while the sound stays the same.",
+    "Student can recognize a letter's initial, medial, and final forms on sight for at least 6 high-frequency letters.",
+    "Student can read a short 2–3 letter connected (unvoweled) cluster by recognizing each component letter regardless of its shape-shifted form."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.7 — Letters change shape: initial / medial / final / isolated forms",
+      "arabicDecor": "ب بـ ـبـ ـب"
+    },
+    {
+      "kind": "recap",
+      "heading": "Recap — full 28-letter shuffle",
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1117,
+            "title": "Muallimi Soniy — alif section"
+          }
+        },
+        {
+          "arabic": "ب",
+          "name": "ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ت",
+          "name": "ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ث",
+          "name": "tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ج",
+          "name": "jeem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "X-iZ4yZrltA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "haa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 11593,
+            "title": "Muallimi Soniy — ح (heavy ha) section"
+          }
+        },
+        {
+          "arabic": "خ",
+          "name": "kha",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 11056,
+            "title": "Muallimi Soniy — خ (kha) section"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 13525,
+            "title": "Muallimi Soniy — د (dal) section"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 14598,
+            "title": "Muallimi Soniy — ذ (dhal) section"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1819,
+            "title": "Muallimi Soniy — ز (zay) section"
+          }
+        },
+        {
+          "arabic": "س",
+          "name": "seen",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 8227,
+            "title": "Muallimi Soniy — س (seen) section"
+          }
+        },
+        {
+          "arabic": "ش",
+          "name": "sheen",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 7914,
+            "title": "Muallimi Soniy — ش (sheen) section"
+          }
+        },
+        {
+          "arabic": "ص",
+          "name": "saad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "yhIFJiPqVqA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "daad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "gEBzZLbuo-4",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+          }
+        },
+        {
+          "arabic": "ط",
+          "name": "taa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "XeQ5cxhkzlE",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 11 — ط (taa)"
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "dhaa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "6_Qfe0g6uks",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"
+          }
+        },
+        {
+          "arabic": "ع",
+          "name": "ayn",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 12720,
+            "title": "Muallimi Soniy — ع (ayn) section"
+          }
+        },
+        {
+          "arabic": "غ",
+          "name": "ghayn",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 12280,
+            "title": "Muallimi Soniy — غ (ghayn) section"
+          }
+        },
+        {
+          "arabic": "ف",
+          "name": "fa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6955,
+            "title": "Muallimi Soniy — ف (fa) section"
+          }
+        },
+        {
+          "arabic": "ق",
+          "name": "qaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "wwHmytGNi2M",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+          }
+        },
+        {
+          "arabic": "ك",
+          "name": "kaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 4878,
+            "title": "Muallimi Soniy — ك (kaaf) section"
+          }
+        },
+        {
+          "arabic": "ل",
+          "name": "lam",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "م",
+          "name": "meem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 2254,
+            "title": "Muallimi Soniy — م (meem) section"
+          }
+        },
+        {
+          "arabic": "ن",
+          "name": "nun",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ه",
+          "name": "ha",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6705,
+            "title": "Muallimi Soniy — ه (light ha) section"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6387,
+            "title": "Muallimi Soniy — و (waw) section"
+          }
+        },
+        {
+          "arabic": "ي",
+          "name": "ya",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 3655,
+            "title": "Muallimi Soniy — ي (ya) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Letters change shape — but never their sound",
+      "body": [
+        "A letter's sound never changes, no matter where it sits in a word.",
+        "But many letters' SHAPE changes depending on position: isolated, word-initial, word-medial, or word-final.",
+        "Today's focus letters: the dotted-body group ب ت ث ن ي (near-identical connecting body, differ mainly by dot count/position) plus ك ل م for contrast (more visually distinct positional forms)."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: ب in all 4 positions",
+      "body": [
+        "Same dot, different body shape depending on position.",
+        "Isolated: ب — no connections on either side.",
+        "Initial (starts a word, connects forward only): بـ",
+        "Medial (connects on both sides): ـبـ",
+        "Final (connects backward only): ـب"
+      ],
+      "items": [
+        {
+          "arabic": "ب",
+          "name": "ba — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "بـ",
+          "name": "ba — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ـبـ",
+          "name": "ba — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ـب",
+          "name": "ba — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: ت / ث / ن / ي in all 4 positions",
+      "body": [
+        "Same body family as ب — only the dots/tails distinguish them, in every position.",
+        "The joining mechanics are identical across the whole family."
+      ],
+      "items": [
+        {
+          "arabic": "ت",
+          "name": "ta — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "تـ",
+          "name": "ta — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ـتـ",
+          "name": "ta — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ـت",
+          "name": "ta — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ث",
+          "name": "tha — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ثـ",
+          "name": "tha — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ـثـ",
+          "name": "tha — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ـث",
+          "name": "tha — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ن",
+          "name": "nun — isolated",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "نـ",
+          "name": "nun — initial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ـنـ",
+          "name": "nun — medial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ـن",
+          "name": "nun — final",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ي",
+          "name": "ya — isolated",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 3655,
+            "title": "Muallimi Soniy — ي (ya) section"
+          }
+        },
+        {
+          "arabic": "يـ",
+          "name": "ya — initial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 3655,
+            "title": "Muallimi Soniy — ي (ya) section"
+          }
+        },
+        {
+          "arabic": "ـيـ",
+          "name": "ya — medial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 3655,
+            "title": "Muallimi Soniy — ي (ya) section"
+          }
+        },
+        {
+          "arabic": "ـي",
+          "name": "ya — final",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 3655,
+            "title": "Muallimi Soniy — ي (ya) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: ك / ل / م in all 4 positions",
+      "body": [
+        "More visually distinct shape changes than the dotted-body group — a good contrast case.",
+        "The underlying rule is the same: sound never changes, shape does."
+      ],
+      "items": [
+        {
+          "arabic": "ك",
+          "name": "kaaf — isolated",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 4878,
+            "title": "Muallimi Soniy — ك (kaaf) section"
+          }
+        },
+        {
+          "arabic": "كـ",
+          "name": "kaaf — initial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 4878,
+            "title": "Muallimi Soniy — ك (kaaf) section"
+          }
+        },
+        {
+          "arabic": "ـكـ",
+          "name": "kaaf — medial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 4878,
+            "title": "Muallimi Soniy — ك (kaaf) section"
+          }
+        },
+        {
+          "arabic": "ـك",
+          "name": "kaaf — final",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 4878,
+            "title": "Muallimi Soniy — ك (kaaf) section"
+          }
+        },
+        {
+          "arabic": "ل",
+          "name": "lam — isolated",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "لـ",
+          "name": "lam — initial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "ـلـ",
+          "name": "lam — medial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "ـل",
+          "name": "lam — final",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "م",
+          "name": "meem — isolated",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 2254,
+            "title": "Muallimi Soniy — م (meem) section"
+          }
+        },
+        {
+          "arabic": "مـ",
+          "name": "meem — initial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 2254,
+            "title": "Muallimi Soniy — م (meem) section"
+          }
+        },
+        {
+          "arabic": "ـمـ",
+          "name": "meem — medial",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 2254,
+            "title": "Muallimi Soniy — م (meem) section"
+          }
+        },
+        {
+          "arabic": "ـم",
+          "name": "meem — final",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 2254,
+            "title": "Muallimi Soniy — م (meem) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided recognition drill — name the position",
+      "instructions": "Teacher shows an isolated letter or a position-form card; student names the letter AND states which position it's in (isolated/initial/medial/final), for each of the 8 focus letters: ب ت ث ن ي ك ل م.",
+      "grid": [
+        [
+          {
+            "arabic": "ب",
+            "name": "ba — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "lips fully together"
+            }
+          },
+          {
+            "arabic": "بـ",
+            "name": "ba — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "lips fully together"
+            }
+          },
+          {
+            "arabic": "ـبـ",
+            "name": "ba — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "lips fully together"
+            }
+          },
+          {
+            "arabic": "ـب",
+            "name": "ba — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "lips fully together"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ت",
+            "name": "ta — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue-tip on gum ridge"
+            }
+          },
+          {
+            "arabic": "تـ",
+            "name": "ta — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue-tip on gum ridge"
+            }
+          },
+          {
+            "arabic": "ـتـ",
+            "name": "ta — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue-tip on gum ridge"
+            }
+          },
+          {
+            "arabic": "ـت",
+            "name": "ta — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue-tip on gum ridge"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ث",
+            "name": "tha — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue between teeth"
+            }
+          },
+          {
+            "arabic": "ثـ",
+            "name": "tha — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue between teeth"
+            }
+          },
+          {
+            "arabic": "ـثـ",
+            "name": "tha — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue between teeth"
+            }
+          },
+          {
+            "arabic": "ـث",
+            "name": "tha — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue between teeth"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ن",
+            "name": "nun — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "BDgw0fWZwMU",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+            }
+          },
+          {
+            "arabic": "نـ",
+            "name": "nun — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "BDgw0fWZwMU",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+            }
+          },
+          {
+            "arabic": "ـنـ",
+            "name": "nun — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "BDgw0fWZwMU",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+            }
+          },
+          {
+            "arabic": "ـن",
+            "name": "nun — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "BDgw0fWZwMU",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ي",
+            "name": "ya — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 3655,
+              "title": "Muallimi Soniy — ي (ya) section"
+            }
+          },
+          {
+            "arabic": "يـ",
+            "name": "ya — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 3655,
+              "title": "Muallimi Soniy — ي (ya) section"
+            }
+          },
+          {
+            "arabic": "ـيـ",
+            "name": "ya — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 3655,
+              "title": "Muallimi Soniy — ي (ya) section"
+            }
+          },
+          {
+            "arabic": "ـي",
+            "name": "ya — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 3655,
+              "title": "Muallimi Soniy — ي (ya) section"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ك",
+            "name": "kaaf — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 4878,
+              "title": "Muallimi Soniy — ك (kaaf) section"
+            }
+          },
+          {
+            "arabic": "كـ",
+            "name": "kaaf — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 4878,
+              "title": "Muallimi Soniy — ك (kaaf) section"
+            }
+          },
+          {
+            "arabic": "ـكـ",
+            "name": "kaaf — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 4878,
+              "title": "Muallimi Soniy — ك (kaaf) section"
+            }
+          },
+          {
+            "arabic": "ـك",
+            "name": "kaaf — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 4878,
+              "title": "Muallimi Soniy — ك (kaaf) section"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ل",
+            "name": "lam — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "-dPYDd4zNio",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+            }
+          },
+          {
+            "arabic": "لـ",
+            "name": "lam — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "-dPYDd4zNio",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+            }
+          },
+          {
+            "arabic": "ـلـ",
+            "name": "lam — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "-dPYDd4zNio",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+            }
+          },
+          {
+            "arabic": "ـل",
+            "name": "lam — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "-dPYDd4zNio",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "م",
+            "name": "meem — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 2254,
+              "title": "Muallimi Soniy — م (meem) section"
+            }
+          },
+          {
+            "arabic": "مـ",
+            "name": "meem — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 2254,
+              "title": "Muallimi Soniy — م (meem) section"
+            }
+          },
+          {
+            "arabic": "ـمـ",
+            "name": "meem — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 2254,
+              "title": "Muallimi Soniy — م (meem) section"
+            }
+          },
+          {
+            "arabic": "ـم",
+            "name": "meem — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 2254,
+              "title": "Muallimi Soniy — م (meem) section"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided recognition drill #2 — connected 2-letter clusters",
+      "instructions": "Teacher shows a 2-letter connected (unvoweled) cluster; student identifies both component letters despite the shape change.",
+      "grid": [
+        [
+          {
+            "arabic": "بت",
+            "name": "ba + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+            }
+          },
+          {
+            "arabic": "تب",
+            "name": "ta + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+            }
+          },
+          {
+            "arabic": "كل",
+            "name": "kaaf + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+            }
+          },
+          {
+            "arabic": "لك",
+            "name": "lam + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+            }
+          },
+          {
+            "arabic": "من",
+            "name": "meem + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+            }
+          },
+          {
+            "arabic": "نم",
+            "name": "nun + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+            }
+          },
+          {
+            "arabic": "بن",
+            "name": "ba + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+            }
+          },
+          {
+            "arabic": "يب",
+            "name": "ya + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Reading drill — 2–3 letter unvoweled clusters",
+      "instructions": "Read across today's focus-letter clusters, naming each component letter regardless of position-shape.",
+      "grid": [
+        [
+          {
+            "arabic": "بت",
+            "name": "ba + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+            }
+          },
+          {
+            "arabic": "تب",
+            "name": "ta + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+            }
+          },
+          {
+            "arabic": "كل",
+            "name": "kaaf + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+            }
+          },
+          {
+            "arabic": "لك",
+            "name": "lam + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+            }
+          },
+          {
+            "arabic": "من",
+            "name": "meem + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+            }
+          },
+          {
+            "arabic": "نم",
+            "name": "nun + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+            }
+          },
+          {
+            "arabic": "بن",
+            "name": "ba + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+            }
+          },
+          {
+            "arabic": "يب",
+            "name": "ya + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كتب",
+            "name": "kaaf + ta + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+            }
+          },
+          {
+            "arabic": "بنت",
+            "name": "ba + nun + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بنت aloud, modeling the joined pronunciation (ba + nun + ta)"
+            }
+          },
+          {
+            "arabic": "لمن",
+            "name": "lam + meem + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads لمن aloud, modeling the joined pronunciation (lam + meem + nun)"
+            }
+          },
+          {
+            "arabic": "تكن",
+            "name": "ta + kaaf + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads تكن aloud, modeling the joined pronunciation (ta + kaaf + nun)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Cumulative check — the concept applies beyond today's 8 letters",
+      "instructions": "Confirm the concept (not just today's 8 letters) has landed: show a few Unit 1.1 letters OUTSIDE today's focus set in position-form (ح ص ق, chosen from different shape-families).",
+      "grid": [
+        [
+          {
+            "arabic": "ح",
+            "name": "haa — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 11593,
+              "title": "Muallimi Soniy — ح (heavy ha) section"
+            }
+          },
+          {
+            "arabic": "حـ",
+            "name": "haa — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 11593,
+              "title": "Muallimi Soniy — ح (heavy ha) section"
+            }
+          },
+          {
+            "arabic": "ـحـ",
+            "name": "haa — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 11593,
+              "title": "Muallimi Soniy — ح (heavy ha) section"
+            }
+          },
+          {
+            "arabic": "ـح",
+            "name": "haa — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "VhRHKdPcNPA",
+              "startSeconds": 11593,
+              "title": "Muallimi Soniy — ح (heavy ha) section"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ص",
+            "name": "saad — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "yhIFJiPqVqA",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+            }
+          },
+          {
+            "arabic": "صـ",
+            "name": "saad — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "yhIFJiPqVqA",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+            }
+          },
+          {
+            "arabic": "ـصـ",
+            "name": "saad — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "yhIFJiPqVqA",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+            }
+          },
+          {
+            "arabic": "ـص",
+            "name": "saad — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "yhIFJiPqVqA",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ق",
+            "name": "qaaf — isolated",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "wwHmytGNi2M",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+            }
+          },
+          {
+            "arabic": "قـ",
+            "name": "qaaf — initial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "wwHmytGNi2M",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+            }
+          },
+          {
+            "arabic": "ـقـ",
+            "name": "qaaf — medial",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "wwHmytGNi2M",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+            }
+          },
+          {
+            "arabic": "ـق",
+            "name": "qaaf — final",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "wwHmytGNi2M",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — today's shape-shifting letters",
+      "items": [
+        {
+          "arabic": "ب",
+          "name": "ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ت",
+          "name": "ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ث",
+          "name": "tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ن",
+          "name": "nun",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ي",
+          "name": "ya",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 3655,
+            "title": "Muallimi Soniy — ي (ya) section"
+          }
+        },
+        {
+          "arabic": "ك",
+          "name": "kaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 4878,
+            "title": "Muallimi Soniy — ك (kaaf) section"
+          }
+        },
+        {
+          "arabic": "ل",
+          "name": "lam",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "م",
+          "name": "meem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 2254,
+            "title": "Muallimi Soniy — م (meem) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "Printed take-home sheet with the 32 position-form flashcards (recognition only, no writing)",
+        "Daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson, aloud, 3× through",
+        "Mark (checkbox, not writing) any cluster you hesitated on, for teacher follow-up"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Position-form flashcards",
+        "instructions": "Each of ب ت ث ن ي ك ل م shown in isolated / initial / medial / final form (4 cards × 8 letters = 32 cards). Name the letter + state its position.",
+        "grid": [
+          [
+            {
+              "arabic": "ب",
+              "name": "ba — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "lips fully together"
+              }
+            },
+            {
+              "arabic": "بـ",
+              "name": "ba — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "lips fully together"
+              }
+            },
+            {
+              "arabic": "ـبـ",
+              "name": "ba — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "lips fully together"
+              }
+            },
+            {
+              "arabic": "ـب",
+              "name": "ba — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "lips fully together"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ت",
+              "name": "ta — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue-tip on gum ridge"
+              }
+            },
+            {
+              "arabic": "تـ",
+              "name": "ta — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue-tip on gum ridge"
+              }
+            },
+            {
+              "arabic": "ـتـ",
+              "name": "ta — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue-tip on gum ridge"
+              }
+            },
+            {
+              "arabic": "ـت",
+              "name": "ta — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue-tip on gum ridge"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ث",
+              "name": "tha — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue between teeth"
+              }
+            },
+            {
+              "arabic": "ثـ",
+              "name": "tha — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue between teeth"
+              }
+            },
+            {
+              "arabic": "ـثـ",
+              "name": "tha — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue between teeth"
+              }
+            },
+            {
+              "arabic": "ـث",
+              "name": "tha — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue between teeth"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ن",
+              "name": "nun — isolated",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "BDgw0fWZwMU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+              }
+            },
+            {
+              "arabic": "نـ",
+              "name": "nun — initial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "BDgw0fWZwMU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+              }
+            },
+            {
+              "arabic": "ـنـ",
+              "name": "nun — medial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "BDgw0fWZwMU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+              }
+            },
+            {
+              "arabic": "ـن",
+              "name": "nun — final",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "BDgw0fWZwMU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ي",
+              "name": "ya — isolated",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 3655,
+                "title": "Muallimi Soniy — ي (ya) section"
+              }
+            },
+            {
+              "arabic": "يـ",
+              "name": "ya — initial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 3655,
+                "title": "Muallimi Soniy — ي (ya) section"
+              }
+            },
+            {
+              "arabic": "ـيـ",
+              "name": "ya — medial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 3655,
+                "title": "Muallimi Soniy — ي (ya) section"
+              }
+            },
+            {
+              "arabic": "ـي",
+              "name": "ya — final",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 3655,
+                "title": "Muallimi Soniy — ي (ya) section"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ك",
+              "name": "kaaf — isolated",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 4878,
+                "title": "Muallimi Soniy — ك (kaaf) section"
+              }
+            },
+            {
+              "arabic": "كـ",
+              "name": "kaaf — initial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 4878,
+                "title": "Muallimi Soniy — ك (kaaf) section"
+              }
+            },
+            {
+              "arabic": "ـكـ",
+              "name": "kaaf — medial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 4878,
+                "title": "Muallimi Soniy — ك (kaaf) section"
+              }
+            },
+            {
+              "arabic": "ـك",
+              "name": "kaaf — final",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 4878,
+                "title": "Muallimi Soniy — ك (kaaf) section"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ل",
+              "name": "lam — isolated",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "-dPYDd4zNio",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+              }
+            },
+            {
+              "arabic": "لـ",
+              "name": "lam — initial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "-dPYDd4zNio",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+              }
+            },
+            {
+              "arabic": "ـلـ",
+              "name": "lam — medial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "-dPYDd4zNio",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+              }
+            },
+            {
+              "arabic": "ـل",
+              "name": "lam — final",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "-dPYDd4zNio",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "م",
+              "name": "meem — isolated",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 2254,
+                "title": "Muallimi Soniy — م (meem) section"
+              }
+            },
+            {
+              "arabic": "مـ",
+              "name": "meem — initial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 2254,
+                "title": "Muallimi Soniy — م (meem) section"
+              }
+            },
+            {
+              "arabic": "ـمـ",
+              "name": "meem — medial",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 2254,
+                "title": "Muallimi Soniy — م (meem) section"
+              }
+            },
+            {
+              "arabic": "ـم",
+              "name": "meem — final",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 2254,
+                "title": "Muallimi Soniy — م (meem) section"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cluster-reading drill (2-letter, unvoweled)",
+        "instructions": "Read each, naming the two component letters and identifying which form each took.",
+        "grid": [
+          [
+            {
+              "arabic": "بت",
+              "name": "ba + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+              }
+            },
+            {
+              "arabic": "تب",
+              "name": "ta + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+              }
+            },
+            {
+              "arabic": "كل",
+              "name": "kaaf + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+              }
+            },
+            {
+              "arabic": "لك",
+              "name": "lam + kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+              }
+            },
+            {
+              "arabic": "من",
+              "name": "meem + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+              }
+            },
+            {
+              "arabic": "نم",
+              "name": "nun + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+              }
+            },
+            {
+              "arabic": "بن",
+              "name": "ba + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+              }
+            },
+            {
+              "arabic": "يب",
+              "name": "ya + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cluster-reading drill (3-letter, unvoweled)",
+        "instructions": "Decoding practice — these are not meant as vocabulary to translate, purely shape-recognition-in-context practice.",
+        "grid": [
+          [
+            {
+              "arabic": "كتب",
+              "name": "kaaf + ta + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+              }
+            },
+            {
+              "arabic": "بنت",
+              "name": "ba + nun + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads بنت aloud, modeling the joined pronunciation (ba + nun + ta)"
+              }
+            },
+            {
+              "arabic": "لمن",
+              "name": "lam + meem + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads لمن aloud, modeling the joined pronunciation (lam + meem + nun)"
+              }
+            },
+            {
+              "arabic": "تكن",
+              "name": "ta + kaaf + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads تكن aloud, modeling the joined pronunciation (ta + kaaf + nun)"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "32 position-form flashcards, recognition only (no writing)",
+      "Re-read the 8 two-letter and 4 three-letter clusters aloud, 3× through",
+      "Mark (checkbox, not writing) any cluster you hesitated on, for teacher follow-up"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with a full 28-letter cumulative shuffle before introducing positional shape-shifting.",
+      "Model ب's four position forms side by side first — same dot, different body — before the ت/ث/ن/ي and ك/ل/م groups.",
+      "Run the guided recognition drill on all 8 focus letters before moving to 2-letter cluster reading.",
+      "Confirm the concept generalizes with a few non-focus Unit 1.1 letters (ح ص ق) in position-form, not just today's 8.",
+      "Watch for left-to-right reading habit carrying over from the student's other literacy — correct direction slips immediately, especially on the very first cluster.",
+      "Treat isolated-shape reversion in medial position as an expected early confusion to coach through, not a graded mistake."
+    ],
+    "listenFor": [
+      "Student mentally reverting to isolated-letter shapes and stalling/mis-reading when a letter appears in medial form — common early confusion, expect and coach through it rather than treating it as a \"mistake\" per se.",
+      "Student reading left-to-right out of habit (if their other literacy, Cyrillic/Latin Uzbek, is LTR) — watch for direction slips, especially on the very first cluster of the lesson.",
+      "Sounds regressing on letters that were solid in isolation (e.g., ث or ح appearing in a cluster) — confirms whether errors from Unit 1.1 were truly fixed or were \"isolation-only\" fixes that don't yet transfer to reading context."
+    ],
+    "homework": "Printed take-home sheet with the 32 position-form flashcards (recognition only, no writing). Daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson, aloud, 3× through. Student marks (checkbox, not writing letters) any cluster they hesitated on for teacher follow-up."
+  },
+  "videos": [
+    {
+      "title": "Arabic101 — How to READ ARABIC? Lesson 1",
+      "url": "https://www.youtube.com/watch?v=c-7SVieC_04"
+    },
+    {
+      "title": "Arabic101 — How to READ ARABIC? Lesson 2",
+      "url": "https://www.youtube.com/watch?v=1AT7IMLcA58"
+    },
+    {
+      "title": "Arabic101 — How to READ ARABIC? Lesson 3",
+      "url": "https://www.youtube.com/watch?v=8pfQg26vfaA"
+    },
+    {
+      "title": "Arabic101 — How to READ ARABIC? Lesson 4",
+      "url": "https://www.youtube.com/watch?v=LTwCmA6AjdI"
+    },
+    {
+      "title": "Uzbek channel per-letter series — Arab tilida yozish va o'qish (read-along reference)",
+      "url": "https://www.youtube.com/playlist?list=PLgrueUfOSy6toR7sz27dmPK2WPBNVLwRi"
+    }
+  ]
+}
