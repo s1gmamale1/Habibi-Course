@@ -11,4 +11,7 @@ describe("parseLessonFile", () => {
   test("throws naming the file for an invalid audio tier", () => {
     expect(() => parseLessonFile(fx("lesson-bad-audio.json"))).toThrow(/lesson-bad-audio\.json/);
   });
+  test("throws naming the file for invalid JSON syntax", () => {
+    expect(() => parseLessonFile(fx("lesson-broken.json"))).toThrow(/lesson-broken\.json/);
+  });
 });

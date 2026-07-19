@@ -5,8 +5,8 @@ import { CheckpointSchema, CourseSchema, LessonSchema, type Checkpoint, type Cou
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
 function parseJsonFile<T>(file: string, parse: (raw: unknown) => T): T {
-  const raw = JSON.parse(fs.readFileSync(file, "utf8"));
   try {
+    const raw = JSON.parse(fs.readFileSync(file, "utf8"));
     return parse(raw);
   } catch (err) {
     throw new Error(`Invalid content in ${file}: ${err instanceof Error ? err.message : String(err)}`);
