@@ -1134,131 +1134,39 @@
     {
       "kind": "drill",
       "heading": "Cumulative check — the concept applies beyond today's 8 letters",
-      "instructions": "Confirm the concept (not just today's 8 letters) has landed: show a few Unit 1.1 letters OUTSIDE today's focus set in position-form (ح ص ق, chosen from different shape-families).",
+      "instructions": "Confirm the concept (not just today's 8 letters) has landed: student READS each cluster below, built from Unit 1.1 letters OUTSIDE today's focus set (ح ص ق) combined with already-taught focus letters, naming every component letter regardless of its positional shape.",
       "grid": [
         [
           {
-            "arabic": "ح",
-            "name": "haa — isolated",
+            "arabic": "حص",
+            "name": "haa + saad",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 11593,
-              "title": "Muallimi Soniy — ح (heavy ha) section"
+              "type": "teacher-voice",
+              "cue": "teacher reads حص aloud, sounding it out letter-by-letter at this stage (haa + saad)"
             }
           },
           {
-            "arabic": "حـ",
-            "name": "haa — initial",
+            "arabic": "حتك",
+            "name": "haa + ta + kaaf",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 11593,
-              "title": "Muallimi Soniy — ح (heavy ha) section"
+              "type": "teacher-voice",
+              "cue": "teacher reads حتك aloud, sounding it out letter-by-letter at this stage (haa + ta + kaaf)"
             }
           },
           {
-            "arabic": "ـحـ",
-            "name": "haa — medial",
+            "arabic": "صبي",
+            "name": "saad + ba + ya",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 11593,
-              "title": "Muallimi Soniy — ح (heavy ha) section"
+              "type": "teacher-voice",
+              "cue": "teacher reads صبي aloud, sounding it out letter-by-letter at this stage (saad + ba + ya)"
             }
           },
           {
-            "arabic": "ـح",
-            "name": "haa — final",
+            "arabic": "قنث",
+            "name": "qaaf + nun + tha",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 11593,
-              "title": "Muallimi Soniy — ح (heavy ha) section"
-            }
-          }
-        ],
-        [
-          {
-            "arabic": "ص",
-            "name": "saad — isolated",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "yhIFJiPqVqA",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
-            }
-          },
-          {
-            "arabic": "صـ",
-            "name": "saad — initial",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "yhIFJiPqVqA",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
-            }
-          },
-          {
-            "arabic": "ـصـ",
-            "name": "saad — medial",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "yhIFJiPqVqA",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
-            }
-          },
-          {
-            "arabic": "ـص",
-            "name": "saad — final",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "yhIFJiPqVqA",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
-            }
-          }
-        ],
-        [
-          {
-            "arabic": "ق",
-            "name": "qaaf — isolated",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "wwHmytGNi2M",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
-            }
-          },
-          {
-            "arabic": "قـ",
-            "name": "qaaf — initial",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "wwHmytGNi2M",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
-            }
-          },
-          {
-            "arabic": "ـقـ",
-            "name": "qaaf — medial",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "wwHmytGNi2M",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
-            }
-          },
-          {
-            "arabic": "ـق",
-            "name": "qaaf — final",
-            "audio": {
-              "type": "youtube-cue",
-              "videoId": "wwHmytGNi2M",
-              "startSeconds": 0,
-              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+              "type": "teacher-voice",
+              "cue": "teacher reads قنث aloud, sounding it out letter-by-letter at this stage (qaaf + nun + tha)"
             }
           }
         ]
