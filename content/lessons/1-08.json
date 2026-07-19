@@ -1,0 +1,738 @@
+{
+  "id": "1-08",
+  "phase": 1,
+  "unit": "1.2",
+  "title": "The 6 letters that never connect forward: ا د ذ ر ز و",
+  "objectives": [
+    "Student can name the 6 non-connecting letters (ا د ذ ر ز و) and state the one rule they share: they never join to the letter that follows them, even mid-word.",
+    "Student can read a cluster containing a non-connector and correctly identify the resulting visual \"break\" rather than misreading it as a joined shape.",
+    "Student can distinguish, on sight, whether a gap between two letters in a cluster is (a) a genuine word-break or (b) simply a non-connector letter doing what it always does."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.8 — The 6 letters that never connect forward",
+      "arabicDecor": "ا د ذ ر ز و"
+    },
+    {
+      "kind": "recap",
+      "heading": "Recap — cluster-reading from lesson 1.7",
+      "items": [
+        {
+          "arabic": "بت",
+          "name": "ba + ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+          }
+        },
+        {
+          "arabic": "تب",
+          "name": "ta + ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+          }
+        },
+        {
+          "arabic": "كل",
+          "name": "kaaf + lam",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+          }
+        },
+        {
+          "arabic": "لك",
+          "name": "lam + kaaf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+          }
+        },
+        {
+          "arabic": "من",
+          "name": "meem + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+          }
+        },
+        {
+          "arabic": "نم",
+          "name": "nun + meem",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+          }
+        },
+        {
+          "arabic": "بن",
+          "name": "ba + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+          }
+        },
+        {
+          "arabic": "يب",
+          "name": "ya + ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+          }
+        },
+        {
+          "arabic": "كتب",
+          "name": "kaaf + ta + ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+          }
+        },
+        {
+          "arabic": "بنت",
+          "name": "ba + nun + ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads بنت aloud, modeling the joined pronunciation (ba + nun + ta)"
+          }
+        },
+        {
+          "arabic": "لمن",
+          "name": "lam + meem + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads لمن aloud, modeling the joined pronunciation (lam + meem + nun)"
+          }
+        },
+        {
+          "arabic": "تكن",
+          "name": "ta + kaaf + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "teacher reads تكن aloud, modeling the joined pronunciation (ta + kaaf + nun)"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "6 letters that never connect forward",
+      "body": [
+        "ا د ذ ر ز و never connect to the letter AFTER them — they still connect fine to the letter BEFORE them.",
+        "This is a fixed, closed list — no other letters behave this way.",
+        "All 6 were already learned in Unit 1.1 — today is pure mechanics, no new sounds."
+      ],
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1117,
+            "title": "Muallimi Soniy — alif section"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 13525,
+            "title": "Muallimi Soniy — د (dal) section"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 14598,
+            "title": "Muallimi Soniy — ذ (dhal) section"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1819,
+            "title": "Muallimi Soniy — ز (zay) section"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6387,
+            "title": "Muallimi Soniy — و (waw) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: د in a cluster",
+      "body": [
+        "د never connects forward, so whatever letter follows it keeps its own isolated/initial-looking shape rather than a joined medial shape.",
+        "Isolated / word-initial shape (no forward join): د",
+        "Final shape (preceded by a joiner): ـد"
+      ],
+      "items": [
+        {
+          "arabic": "د",
+          "name": "dal — isolated / word-initial (no forward join)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 13525,
+            "title": "Muallimi Soniy — د (dal) section"
+          }
+        },
+        {
+          "arabic": "ـد",
+          "name": "dal — final (preceded by a joiner)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 13525,
+            "title": "Muallimi Soniy — د (dal) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: ر in a cluster",
+      "body": [
+        "ر behaves the same way — no forward join, ever.",
+        "Isolated / word-initial shape: ر",
+        "Final shape (preceded by a joiner): ـر"
+      ],
+      "items": [
+        {
+          "arabic": "ر",
+          "name": "ra — isolated / word-initial (no forward join)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ـر",
+          "name": "ra — final (preceded by a joiner)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: و in a cluster",
+      "body": [
+        "و behaves the same way — no forward join, ever.",
+        "Isolated / word-initial shape: و",
+        "Final shape (preceded by a joiner): ـو"
+      ],
+      "items": [
+        {
+          "arabic": "و",
+          "name": "waw — isolated / word-initial (no forward join)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6387,
+            "title": "Muallimi Soniy — و (waw) section"
+          }
+        },
+        {
+          "arabic": "ـو",
+          "name": "waw — final (preceded by a joiner)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6387,
+            "title": "Muallimi Soniy — و (waw) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Contrast drill — non-connector gap vs. genuine word-break",
+      "instructions": "Same letters, only the spacing differs: one is a single connected cluster where a non-connector just did its normal job; the other is a real two-word boundary. Compare the reading rhythm.",
+      "grid": [
+        [
+          {
+            "arabic": "درس",
+            "name": "one cluster — د's normal non-connector gap, not a word-break",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads درس as ONE connected unit — the gap after د is just د refusing to join forward, not a space"
+            }
+          },
+          {
+            "arabic": "د رس",
+            "name": "two words — a genuine space between them",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads د رس as TWO separate words with a real pause — compare the gap width and the reading rhythm against درس above"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided recognition drill — predict the break",
+      "instructions": "Teacher shows an unvoweled cluster with a non-connector circled; student predicts (before reading aloud) where the joined/unjoined shape boundary will fall, then reads it to confirm.",
+      "grid": [
+        [
+          {
+            "arabic": "درس",
+            "name": "dal + ra + seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+            }
+          },
+          {
+            "arabic": "ردا",
+            "name": "ra + dal + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+            }
+          },
+          {
+            "arabic": "وزن",
+            "name": "waw + zay + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+            }
+          },
+          {
+            "arabic": "ذرا",
+            "name": "dhal + ra + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+            }
+          },
+          {
+            "arabic": "ازد",
+            "name": "alif + zay + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+            }
+          },
+          {
+            "arabic": "كتاد",
+            "name": "kaaf + ta + alif + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Reading drill — mixed connectors and non-connectors",
+      "instructions": "Read each cluster aloud; each contains at least one non-connector, positioned in different spots (first, middle, last) so the rule is tested regardless of position within the cluster.",
+      "grid": [
+        [
+          {
+            "arabic": "درس",
+            "name": "dal + ra + seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+            }
+          },
+          {
+            "arabic": "ردا",
+            "name": "ra + dal + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+            }
+          },
+          {
+            "arabic": "وزن",
+            "name": "waw + zay + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+            }
+          },
+          {
+            "arabic": "ذرا",
+            "name": "dhal + ra + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+            }
+          },
+          {
+            "arabic": "ازد",
+            "name": "alif + zay + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+            }
+          },
+          {
+            "arabic": "كتاد",
+            "name": "kaaf + ta + alif + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Cumulative check — re-read lesson 1.7's clusters",
+      "instructions": "Re-read 2 of lesson 1.7's clusters, now correctly explaining why they joined the way they did (neither contains any of today's 6 non-connectors, so both joined normally).",
+      "grid": [
+        [
+          {
+            "arabic": "بت",
+            "name": "ba + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+            }
+          },
+          {
+            "arabic": "كتب",
+            "name": "kaaf + ta + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — the 6 non-connectors",
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1117,
+            "title": "Muallimi Soniy — alif section"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 13525,
+            "title": "Muallimi Soniy — د (dal) section"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 14598,
+            "title": "Muallimi Soniy — ذ (dhal) section"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 1819,
+            "title": "Muallimi Soniy — ز (zay) section"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "VhRHKdPcNPA",
+            "startSeconds": 6387,
+            "title": "Muallimi Soniy — و (waw) section"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "Daily recitation (aloud, from the printed sheet) of the 6 non-connector clusters from today's drill, 3× through",
+        "Attempt the \"predict the break\" exercise on 3 new clusters the teacher provides for next lesson (recognition/prediction only, no writing)",
+        "Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Concept flashcard — the 6 non-connectors",
+        "instructions": "Drilled as a group chant/list until automatic.",
+        "grid": [
+          [
+            {
+              "arabic": "ا",
+              "name": "alif",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 1117,
+                "title": "Muallimi Soniy — alif section"
+              }
+            },
+            {
+              "arabic": "د",
+              "name": "dal",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 13525,
+                "title": "Muallimi Soniy — د (dal) section"
+              }
+            },
+            {
+              "arabic": "ذ",
+              "name": "dhal",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 14598,
+                "title": "Muallimi Soniy — ذ (dhal) section"
+              }
+            },
+            {
+              "arabic": "ر",
+              "name": "ra",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "ObYKEtceQbU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+              }
+            },
+            {
+              "arabic": "ز",
+              "name": "zay",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 1819,
+                "title": "Muallimi Soniy — ز (zay) section"
+              }
+            },
+            {
+              "arabic": "و",
+              "name": "waw",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "VhRHKdPcNPA",
+                "startSeconds": 6387,
+                "title": "Muallimi Soniy — و (waw) section"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cluster-reading drill (unvoweled)",
+        "instructions": "Mix of clusters, each containing at least one non-connector, positioned in different spots — first, middle, last — so the rule applies regardless of position within the cluster.",
+        "grid": [
+          [
+            {
+              "arabic": "درس",
+              "name": "dal + ra + seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              }
+            },
+            {
+              "arabic": "ردا",
+              "name": "ra + dal + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+              }
+            },
+            {
+              "arabic": "وزن",
+              "name": "waw + zay + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+              }
+            },
+            {
+              "arabic": "ذرا",
+              "name": "dhal + ra + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+              }
+            },
+            {
+              "arabic": "ازد",
+              "name": "alif + zay + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+              }
+            },
+            {
+              "arabic": "كتاد",
+              "name": "kaaf + ta + alif + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "\"Predict the break\" drill",
+        "instructions": "Predict (before reading aloud) where the joined/unjoined shape boundary will fall, then read it to confirm.",
+        "grid": [
+          [
+            {
+              "arabic": "درس",
+              "name": "dal + ra + seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              }
+            },
+            {
+              "arabic": "ردا",
+              "name": "ra + dal + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+              }
+            },
+            {
+              "arabic": "وزن",
+              "name": "waw + zay + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+              }
+            },
+            {
+              "arabic": "ذرا",
+              "name": "dhal + ra + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+              }
+            },
+            {
+              "arabic": "ازد",
+              "name": "alif + zay + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+              }
+            },
+            {
+              "arabic": "كتاد",
+              "name": "kaaf + ta + alif + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Daily recitation (aloud) of the 6 non-connector clusters from today's drill, 3× through",
+      "Attempt the \"predict the break\" exercise on 3 new clusters (recognition/prediction only, no writing)",
+      "Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with a quick review of lesson 1.7's cluster-reading before introducing today's mechanics.",
+      "Present the 6 non-connectors (ا د ذ ر ز و) as one fixed, closed list — drill it as a group chant until automatic before anything else.",
+      "Model د, ر, and و each in a cluster, showing explicitly that the letter following each one keeps its own isolated/initial shape rather than a joined medial shape.",
+      "Contrast a non-connector's normal internal gap against a genuine two-word space side by side, so the student learns the visual difference.",
+      "Run the 'predict the break' drill before reading aloud — the student should predict, then confirm, not read cold.",
+      "Re-read 2 of lesson 1.7's clusters at the end, now explaining why they joined the way they did."
+    ],
+    "listenFor": [
+      "Student trying to force a non-connector into a joined medial shape that doesn't exist for it — a very natural over-generalization error at this stage, gently correct by re-showing the fixed list.",
+      "Student misreading a non-connector's normal \"gap\" as a full word-break, splitting one word into two when reading aloud.",
+      "Regression on the 6 individual letters' own sounds (since these are \"old\" content from Unit 1.1, a quick sound-accuracy spot-check is worthwhile alongside the shape-mechanics focus)."
+    ],
+    "homework": "Daily recitation (aloud, from the printed sheet) of the 6 non-connector clusters from today's drill, 3× through. Student attempts the \"predict the break\" exercise on 3 new clusters the teacher provides for next lesson (recognition/prediction only, no writing). Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily."
+  },
+  "videos": [
+    {
+      "title": "Arabic101 — Letter FUSION in the Holy Quran",
+      "url": "https://www.youtube.com/watch?v=NOCKyEcgW7U"
+    },
+    {
+      "title": "Uzbek channel per-letter series — Arab tilida yozish va o'qish (native-speaker reading reference)",
+      "url": "https://www.youtube.com/playlist?list=PLgrueUfOSy6toR7sz27dmPK2WPBNVLwRi"
+    }
+  ]
+}
