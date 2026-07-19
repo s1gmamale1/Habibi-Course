@@ -30,3 +30,11 @@ body {
   direction: rtl;
   line-height: 2.1; /* room for stacked harakat */
 }
+
+@media print {
+  nav, button, iframe, .print\:hidden { display: none !important; }
+  .drill-cell { display: inline-block; border: 1px solid #999; border-radius: 8px; padding: 18px 26px; margin: 4px; }
+  .drill-cell .tally { display: block !important; }
+  .drill-cell .arabic { font-size: 54px !important; }
+  body { background: white; }
+}

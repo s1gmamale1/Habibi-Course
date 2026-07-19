@@ -60,3 +60,11 @@ export function CourseMap({ course }: { course: Course }) {
     </main>
   );
 }
+
+export function PrintButton() {
+  return (
+    <button type="button" onClick={() => window.print()} className="mb-6 rounded border border-stone-300 px-3 py-1 text-sm print:hidden">
+      🖨 Print this sheet
+    </button>
+  );
+}
