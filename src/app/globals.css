@@ -32,7 +32,15 @@ body {
 }
 
 @media print {
-  nav, button, iframe, .print\:hidden { display: none !important; }
+  nav, iframe, button, .print\:hidden { display: none !important; }
+  .drill-cell button {
+    display: inline-block !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+  .drill-cell button [aria-hidden] { display: none !important; }
   .drill-cell { display: inline-block; border: 1px solid #999; border-radius: 8px; padding: 18px 26px; margin: 4px; }
   .drill-cell .tally { display: block !important; }
   .drill-cell .arabic { font-size: 54px !important; }
