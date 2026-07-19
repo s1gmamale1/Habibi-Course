@@ -1,0 +1,145 @@
+{
+  "id": "1-03",
+  "phase": 1,
+  "unit": "1.1",
+  "title": "ر ز and the sibilants س ش",
+  "objectives": [
+    "Student can identify and pronounce ر, ز, س, ش in isolation on sight.",
+    "Student can produce ر with the correct light tongue-tap quality (not a static English/Uzbek \"r\").",
+    "Student can distinguish ز from ذ (already taught) without collapsing them."
+  ],
+  "slides": [
+    {"kind": "title", "heading": "Lesson 1.3 — ر ز and the sibilants س ش", "arabicDecor": "ر ز س ش"},
+    {"kind": "recap", "heading": "Cumulative recap — all 9 letters so far", "items": [
+      {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}},
+      {"arabic": "ج", "name": "jeem", "audio": {"type": "youtube-cue", "videoId": "X-iZ4yZrltA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"}},
+      {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+      {"arabic": "خ", "name": "kha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11056, "title": "Muallimi Soniy — خ (kha) section"}},
+      {"arabic": "د", "name": "dal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 13525, "title": "Muallimi Soniy — د (dal) section"}},
+      {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}}
+    ]},
+    {"kind": "letter", "item": {"arabic": "ر", "name": "ra", "translit": "r", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}}, "makhraj": "tip of tongue curled slightly, touching the gum ridge", "notes": [
+      "A light single tongue-flap/trill — NOT the English or Uzbek \"r\"",
+      "Gets dedicated correction time — Arabic101's own research flags it as unusually error-prone even among fluent readers"
+    ]},
+    {"kind": "drill", "heading": "Guided ر drill", "instructions": "Teacher models slowly, student imitates, isolating only the tongue-tap motion — 10 slow repetitions, thumbs up/down each rep.", "grid": [[
+      {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}}
+    ]]},
+    {"kind": "letter", "item": {"arabic": "ز", "name": "zay", "translit": "z", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}}, "makhraj": "tip of tongue near the lower teeth, sibilant", "notes": [
+      "Shape-family with ر — same body, ز has one dot ABOVE",
+      "Sound: a plain \"z\""
+    ]},
+    {"kind": "drill", "heading": "ز vs ذ — minimal-pair listening", "instructions": "The exact D→Z-family collapse risk flagged in lesson 1.2, re-tested here with ز specifically. Teacher says either ز or ذ, student points to which glyph was said.", "grid": [[
+      {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+      {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}}
+    ]]},
+    {"kind": "letter", "item": {"arabic": "س", "name": "seen", "translit": "s", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}}, "makhraj": "tip of tongue near the lower teeth, thin hiss", "notes": [
+      "Shape-family with ش — same body shape, س has NO dots",
+      "Sound: a plain \"s\", a thin hiss"
+    ]},
+    {"kind": "letter", "item": {"arabic": "ش", "name": "sheen", "translit": "sh", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}}, "makhraj": "middle of tongue against the roof of the mouth", "notes": [
+      "Shape-family with س — same body, ش has three dots ABOVE",
+      "Sound: \"sh\""
+    ]},
+    {"kind": "drill", "heading": "س vs ش — minimal-pair listening", "instructions": "Teacher says either س or ش, student points to which glyph was said.", "grid": [[
+      {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+      {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}}
+    ]]},
+    {"kind": "drill", "heading": "Cumulative shuffle — all 13 letters so far", "instructions": "First the 4-letter shuffle of today's family (ر ز س ش), then the cumulative 13-letter shuffle (ا ب ت ث ج ح خ د ذ ر ز س ش), fully randomized order.", "grid": [[
+      {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}},
+      {"arabic": "ج", "name": "jeem", "audio": {"type": "youtube-cue", "videoId": "X-iZ4yZrltA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"}},
+      {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+      {"arabic": "خ", "name": "kha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11056, "title": "Muallimi Soniy — خ (kha) section"}},
+      {"arabic": "د", "name": "dal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 13525, "title": "Muallimi Soniy — د (dal) section"}},
+      {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}}
+    ], [
+      {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+      {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+      {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+      {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}}
+    ]]},
+    {"kind": "drill", "heading": "Guided sound-imitation round", "instructions": "Teacher models each of today's 4 sounds, student imitates; teacher corrects live.", "grid": [[
+      {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+      {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+      {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+      {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}}
+    ]]},
+    {"kind": "recap", "heading": "Today's four letters", "items": [
+      {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+      {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+      {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+      {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}}
+    ]},
+    {"kind": "homework", "heading": "Homework — 15–20 min/day", "tasks": [
+      "Flashcard sheet ر ز س ش",
+      "Daily ر-only drill: 15 slow repetitions focusing purely on the tongue-tap",
+      "Cumulative 13-letter shuffle, timed just for the student's own sense of growing fluency (not graded)"
+    ]}
+  ],
+  "practice": {
+    "drills": [
+      {"title": "Flashcard grid", "instructions": "Name each letter + produce its sound, shuffled.", "grid": [[
+        {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+        {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+        {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+        {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}}
+      ]]},
+      {"title": "ر isolation drill", "instructions": "Student repeats ر 10× focusing only on the tongue-tap motion; teacher gives a thumbs up/down each repetition.", "grid": [[
+        {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}}
+      ]]},
+      {"title": "Minimal-pair listening: ز vs ذ", "instructions": "The exact D→Z-family collapse risk from lesson 1.2, re-tested here specifically with ز.", "grid": [[
+        {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+        {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}}
+      ]]},
+      {"title": "Cumulative 13-letter shuffle", "instructions": "All letters from lessons 1.1–1.3 in fully randomized order: name + sound each.", "grid": [[
+        {"arabic": "ا", "name": "alif", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1117, "title": "Muallimi Soniy — alif section"}},
+        {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+        {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+        {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}},
+        {"arabic": "ج", "name": "jeem", "audio": {"type": "youtube-cue", "videoId": "X-iZ4yZrltA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"}},
+        {"arabic": "ح", "name": "haa", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11593, "title": "Muallimi Soniy — ح (heavy ha) section"}},
+        {"arabic": "خ", "name": "kha", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 11056, "title": "Muallimi Soniy — خ (kha) section"}},
+        {"arabic": "د", "name": "dal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 13525, "title": "Muallimi Soniy — د (dal) section"}},
+        {"arabic": "ذ", "name": "dhal", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 14598, "title": "Muallimi Soniy — ذ (dhal) section"}},
+        {"arabic": "ر", "name": "ra", "audio": {"type": "youtube-cue", "videoId": "ObYKEtceQbU", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"}},
+        {"arabic": "ز", "name": "zay", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 1819, "title": "Muallimi Soniy — ز (zay) section"}},
+        {"arabic": "س", "name": "seen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 8227, "title": "Muallimi Soniy — س (seen) section"}},
+        {"arabic": "ش", "name": "sheen", "audio": {"type": "youtube-cue", "videoId": "VhRHKdPcNPA", "startSeconds": 7914, "title": "Muallimi Soniy — ش (sheen) section"}}
+      ]]}
+    ],
+    "dailyChecklist": [
+      "ر-only drill: 15 slow repetitions, tongue-tap only",
+      "Flashcard round ×1 (ر ز س ش)",
+      "Cumulative 13-letter shuffle, timed informally for fun (not graded)"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with a cumulative cold-call of all 9 letters learned so far before introducing ر.",
+      "Model ر as a single light tongue-flap, not a static English/Uzbek \"r\" — isolate the tongue-tap motion before asking for imitation.",
+      "Give ر dedicated correction time; Arabic101's own research flags it as unusually error-prone even among fluent readers.",
+      "Re-test the ز vs ذ collapse risk flagged in lesson 1.2 specifically for this student, not from memory.",
+      "Keep س/ش crisp even at speed — don't let rushed sibilants blur together."
+    ],
+    "listenFor": [
+      "ر produced as a static, untapped English/Uzbek-style \"r\" instead of a light single flap — per Arabic101's own framing (\"90% of RA mistakes happen here\").",
+      "ز drifting toward ذ or vice versa — re-confirm the D→Z-family collapse pattern flagged in lesson 1.2 is (or isn't) present for this specific student (A.3).",
+      "س and ش losing crispness when said quickly back to back (rushed, blurred sibilants)."
+    ],
+    "homework": "Flashcard sheet ر ز س ش. Daily ر-only drill: 15 slow repetitions focusing purely on the tongue-tap. Cumulative 13-letter shuffle, timed just for the student's own sense of growing fluency, not graded."
+  },
+  "videos": [
+    {"title": "Arabic101 Makharij Lesson 10 — ر, the ULTIMATE guide", "url": "https://www.youtube.com/watch?v=ObYKEtceQbU"},
+    {"title": "Arabic101 Sifaat Lesson 6 — 90% of RA mistakes happen HERE", "url": "https://www.youtube.com/watch?v=TBBMuGVy4mc"},
+    {"title": "Muallimi Soniy — ر (ra) section", "url": "https://youtu.be/VhRHKdPcNPA?t=1497"},
+    {"title": "Muallimi Soniy — ز (zay) section", "url": "https://youtu.be/VhRHKdPcNPA?t=1819"},
+    {"title": "Muallimi Soniy — ش (sheen) section", "url": "https://youtu.be/VhRHKdPcNPA?t=7914"},
+    {"title": "Muallimi Soniy — س (seen) section", "url": "https://youtu.be/VhRHKdPcNPA?t=8227"}
+  ]
+}
