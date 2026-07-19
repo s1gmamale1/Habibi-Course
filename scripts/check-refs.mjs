@@ -6,9 +6,9 @@ function walk(node) {
   if (Array.isArray(node)) return node.forEach(walk);
   if (node && typeof node === "object") {
     if (node.type === "qari-clip" && node.url) urls.set(node.url, "audio");
-    if (node.type === "youtube-cue" && node.videoId) urls.set(`https://www.youtube.com/watch?v=${node.videoId}`, "youtube");
-    if (typeof node.url === "string" && /youtu\.?be/.test(node.url) && !node.type) urls.set(node.url, "youtube");
-    else if (typeof node.url === "string" && !node.type) urls.set(node.url, "link");
+    else if (node.type === "youtube-cue" && node.videoId) urls.set(`https://www.youtube.com/watch?v=${node.videoId}`, "youtube");
+    else if (node.type === "teacher-voice") { /* no url by schema */ }
+    else if (typeof node.url === "string") urls.set(node.url, /youtu\.?be/.test(node.url) ? "youtube" : "link");
     Object.values(node).forEach(walk);
   }
 }
