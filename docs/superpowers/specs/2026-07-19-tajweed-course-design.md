@@ -40,7 +40,7 @@ Architecture: classic Qaida-first (Noorani Qaida model). Strictly sequential; hi
 
 ### Phase 3 — Tajweed & Quran (~9 weeks, 26 lessons, two parallel strands)
 
-- **Rules strand:** noon sakinah & tanwin (izhar, idgham, iqlab, ikhfa) → meem sakinah → qalqalah → madd family (tabee'i, muttasil, munfasil, 'aarid, lazim) → lam of Allah & ra rules (tafkheem/tarqeeq) → waqf/stopping basics. Each rule is mapped to its standard color-mushaf color the day it is taught.
+- **Rules strand:** noon sakinah & tanwin (izhar, idgham, iqlab, ikhfa) → meem sakinah → qalqalah → madd family (tabee'i, muttasil, munfasil, 'aarid, lazim) → lam of Allah & ra rules (tafkheem/tarqeeq) → waqf/stopping basics. Each rule is mapped to its color the day it is taught. **Color convention (owner decision 2026-07-19): follow the Quranly app's tajweed coloring style** — exact rule-to-color palette to be researched and pinned at Phase 3 content build (supersedes the earlier Dar Al-Maarifah default in research/syllabus docs; note goal 4's physical-mushaf transfer is checked against this choice then).
 - **Hifz strand:** al-Fatiha first, then short surahs from an-Nas backward, memorized with the rules being learned, from qari audio.
 - **Final checkpoint (live), four tests matching the four end goals:** (1) unseen mushaf page with tajweed; (2) recitation of memorized surahs; (3) oral quiz naming/explaining rules; (4) color-mushaf reading with color explanations.
 
