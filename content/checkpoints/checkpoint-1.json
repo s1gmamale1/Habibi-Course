@@ -1,0 +1,111 @@
+{
+  "id": "checkpoint-1",
+  "title": "Checkpoint 1 — Letters & Sounds gate",
+  "durationMinutes": "30–40",
+  "steps": [
+    {
+      "name": "Warm-up recognition pass",
+      "script": "3–4 min. Show the full 28-letter set in fully randomized order (not grouped by shape-family). Student names each letter and produces its sound. No scoring pressure communicated — this is a warm-up — but quietly note any hesitation/error on the scoring sheet.",
+      "items": [
+        {"arabic": "ا", "name": "alif", "translit": "ā", "audio": {"type": "teacher-voice", "cue": "ا: open, unobstructed sound from the empty space of the mouth/chest cavity (al-jawf) — no glottal catch added"}},
+        {"arabic": "ب", "name": "ba", "translit": "b", "audio": {"type": "teacher-voice", "cue": "ب: both lips close fully, then release — like English b but with complete lip contact"}},
+        {"arabic": "ت", "name": "ta", "translit": "t", "audio": {"type": "teacher-voice", "cue": "ت: tongue-tip taps the ridge behind the upper front teeth — light, no heaviness"}},
+        {"arabic": "ث", "name": "tha", "translit": "th", "audio": {"type": "teacher-voice", "cue": "ث: tongue-tip BETWEEN the teeth, unvoiced 'th' as in think — never plain t, never s"}},
+        {"arabic": "ج", "name": "jeem", "translit": "j", "audio": {"type": "teacher-voice", "cue": "ج: middle of the tongue rises to the roof of the mouth — a soft 'j' affricate, not a hard g"}},
+        {"arabic": "ح", "name": "ha (heavy)", "translit": "ḥ", "audio": {"type": "teacher-voice", "cue": "ح: strong, unvoiced, breathy friction from the MIDDLE of the throat — like fogging a mirror; heavier than ه, distinct from خ"}},
+        {"arabic": "خ", "name": "kha", "translit": "kh", "audio": {"type": "teacher-voice", "cue": "خ: back of the tongue against the soft palate, UPPER throat — a rough 'kh' friction"}},
+        {"arabic": "د", "name": "dal", "translit": "d", "audio": {"type": "teacher-voice", "cue": "د: tongue-tip taps the upper gum ridge — a plain, light 'd', never voiced toward ذ"}},
+        {"arabic": "ذ", "name": "dhal", "translit": "dh", "audio": {"type": "teacher-voice", "cue": "ذ: tongue-tip BETWEEN the teeth, voiced 'th' as in this — never collapse to a plain 'z'"}},
+        {"arabic": "ر", "name": "ra", "translit": "r", "audio": {"type": "teacher-voice", "cue": "ر: tongue-tip curls slightly and taps the gum ridge ONCE — a light single flap, never a static English/Uzbek 'r'"}},
+        {"arabic": "ز", "name": "zay", "translit": "z", "audio": {"type": "teacher-voice", "cue": "ز: tongue-tip near the lower teeth, a plain voiced hiss — 'z', keep distinct from ذ"}},
+        {"arabic": "س", "name": "seen", "translit": "s", "audio": {"type": "teacher-voice", "cue": "س: tongue-tip near the lower teeth, a thin unvoiced hiss — plain 's'"}},
+        {"arabic": "ش", "name": "sheen", "translit": "sh", "audio": {"type": "teacher-voice", "cue": "ش: middle of the tongue against the roof of the mouth — 'sh', keep crisp, don't blur with س"}},
+        {"arabic": "ص", "name": "saad", "translit": "ṣ", "audio": {"type": "teacher-voice", "cue": "ص: heavy twin of س — back of tongue raised, fuller mouth cavity, a thick emphatic hiss"}},
+        {"arabic": "ض", "name": "daad", "translit": "ḍ", "audio": {"type": "teacher-voice", "cue": "ض: side of the tongue releases against the upper molars — a lateral release unique to this letter; the hardest letter in the alphabet, go slow"}},
+        {"arabic": "ط", "name": "taa (heavy)", "translit": "ṭ", "audio": {"type": "teacher-voice", "cue": "ط: heavy twin of ت — tongue-tip taps the gum ridge but with a held, forceful, full-mouth-echo release"}},
+        {"arabic": "ظ", "name": "dhaa (heavy)", "translit": "ẓ", "audio": {"type": "teacher-voice", "cue": "ظ: heavy twin of ذ — tongue-tip between the teeth, voiced, with the full emphatic darkness added"}},
+        {"arabic": "ع", "name": "ayn", "translit": "ʿ", "audio": {"type": "teacher-voice", "cue": "ع: a muscular squeeze/constriction in the MIDDLE of the throat, voiced — a real squeeze, not just a glottal stop (that's ء)"}},
+        {"arabic": "غ", "name": "ghayn", "translit": "gh", "audio": {"type": "teacher-voice", "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, close to a French uvular 'r', stays a friction not a stop"}},
+        {"arabic": "ف", "name": "fa", "translit": "f", "audio": {"type": "teacher-voice", "cue": "ف: inner edge of the lower lip against the tips of the upper front teeth — plain 'f'"}},
+        {"arabic": "ق", "name": "qaaf", "translit": "q", "audio": {"type": "teacher-voice", "cue": "ق: back of the tongue against the soft palate — a deep uvular, 'cough-like' stop, heavier and further back than ك"}},
+        {"arabic": "ك", "name": "kaaf", "translit": "k", "audio": {"type": "teacher-voice", "cue": "ك: back of the tongue against the soft palate, but shallower and lighter than ق — a plain 'k'"}},
+        {"arabic": "ل", "name": "lam", "translit": "l", "audio": {"type": "teacher-voice", "cue": "ل: tip/sides of the tongue against the gum ridge — a clear, light 'l'"}},
+        {"arabic": "م", "name": "meem", "translit": "m", "audio": {"type": "teacher-voice", "cue": "م: both lips closed, sound resonates through the nose — nasal 'm'"}},
+        {"arabic": "ن", "name": "nun", "translit": "n", "audio": {"type": "teacher-voice", "cue": "ن: tongue-tip against the gum ridge, released with nasal resonance — a two-part sound, oral release plus nasal buzz"}},
+        {"arabic": "ه", "name": "ha (light)", "translit": "h", "audio": {"type": "teacher-voice", "cue": "ه: a soft, breathy 'h' from an open throat — much lighter and shallower than ح, don't darken it"}},
+        {"arabic": "و", "name": "waw", "translit": "w", "audio": {"type": "teacher-voice", "cue": "و: lips rounded, a consonant 'w' (its long-vowel role comes later — ignore that for now)"}},
+        {"arabic": "ي", "name": "ya", "translit": "y", "audio": {"type": "teacher-voice", "cue": "ي: middle of tongue near the roof of the mouth, a consonant 'y' (its long-vowel role comes later — ignore that for now)"}}
+      ]
+    },
+    {
+      "name": "Makhraj spot-check",
+      "script": "8–10 min. Select 10 of the 14 high-risk letters below at random each sitting (so no two checkpoints are identical). For each: student produces the sound AND states in plain English where it's articulated (e.g. \"mid-throat,\" \"tip of tongue between the teeth,\" \"the two lips\"). Tests self-aware correctness, not just rote muscle memory.",
+      "items": [
+        {"arabic": "ح", "name": "ha (heavy)", "translit": "ḥ", "audio": {"type": "teacher-voice", "cue": "ح: strong, unvoiced, breathy friction from the MIDDLE of the throat — like fogging a mirror; heavier than ه, distinct from خ"}},
+        {"arabic": "خ", "name": "kha", "translit": "kh", "audio": {"type": "teacher-voice", "cue": "خ: back of the tongue against the soft palate, UPPER throat — a rough 'kh' friction"}},
+        {"arabic": "ه", "name": "ha (light)", "translit": "h", "audio": {"type": "teacher-voice", "cue": "ه: a soft, breathy 'h' from an open throat — much lighter and shallower than ح, don't darken it"}},
+        {"arabic": "ع", "name": "ayn", "translit": "ʿ", "audio": {"type": "teacher-voice", "cue": "ع: a muscular squeeze/constriction in the MIDDLE of the throat, voiced — a real squeeze, not just a glottal stop (that's ء)"}},
+        {"arabic": "ء", "name": "hamza", "translit": "ʾ", "audio": {"type": "teacher-voice", "cue": "ء: a plain glottal stop — the catch before an English word starting with a vowel; deep in the throat but no muscular squeeze (that squeeze is ع)"}},
+        {"arabic": "ص", "name": "saad", "translit": "ṣ", "audio": {"type": "teacher-voice", "cue": "ص: heavy twin of س — back of tongue raised, fuller mouth cavity, a thick emphatic hiss"}},
+        {"arabic": "ض", "name": "daad", "translit": "ḍ", "audio": {"type": "teacher-voice", "cue": "ض: side of the tongue releases against the upper molars — a lateral release unique to this letter; the hardest letter in the alphabet, go slow"}},
+        {"arabic": "ط", "name": "taa (heavy)", "translit": "ṭ", "audio": {"type": "teacher-voice", "cue": "ط: heavy twin of ت — tongue-tip taps the gum ridge but with a held, forceful, full-mouth-echo release"}},
+        {"arabic": "ظ", "name": "dhaa (heavy)", "translit": "ẓ", "audio": {"type": "teacher-voice", "cue": "ظ: heavy twin of ذ — tongue-tip between the teeth, voiced, with the full emphatic darkness added"}},
+        {"arabic": "ذ", "name": "dhal", "translit": "dh", "audio": {"type": "teacher-voice", "cue": "ذ: tongue-tip BETWEEN the teeth, voiced 'th' as in this — never collapse to a plain 'z'"}},
+        {"arabic": "ز", "name": "zay", "translit": "z", "audio": {"type": "teacher-voice", "cue": "ز: tongue-tip near the lower teeth, a plain voiced hiss — 'z', keep distinct from ذ"}},
+        {"arabic": "ق", "name": "qaaf", "translit": "q", "audio": {"type": "teacher-voice", "cue": "ق: back of the tongue against the soft palate — a deep uvular, 'cough-like' stop, heavier and further back than ك"}},
+        {"arabic": "ك", "name": "kaaf", "translit": "k", "audio": {"type": "teacher-voice", "cue": "ك: back of the tongue against the soft palate, but shallower and lighter than ق — a plain 'k'"}},
+        {"arabic": "ر", "name": "ra", "translit": "r", "audio": {"type": "teacher-voice", "cue": "ر: tongue-tip curls slightly and taps the gum ridge ONCE — a light single flap, never a static English/Uzbek 'r'"}}
+      ]
+    },
+    {
+      "name": "Positional reading",
+      "script": "5–7 min. Present 6 unvoweled 2–3 letter clusters built to include at least 2 non-connector letters (listed below) and at least 2 letters shown in medial form. Student reads each aloud, correctly identifying every component letter regardless of shape.",
+      "items": [
+        {"arabic": "ا", "name": "alif", "translit": "ā", "audio": {"type": "teacher-voice", "cue": "ا: non-connector — never joins to the letter that follows it, though it still joins to the letter before it"}},
+        {"arabic": "د", "name": "dal", "translit": "d", "audio": {"type": "teacher-voice", "cue": "د: non-connector — tongue-tip taps the upper gum ridge; never joins to the letter that follows it"}},
+        {"arabic": "ذ", "name": "dhal", "translit": "dh", "audio": {"type": "teacher-voice", "cue": "ذ: non-connector — tongue-tip between the teeth, voiced; never joins to the letter that follows it"}},
+        {"arabic": "ر", "name": "ra", "translit": "r", "audio": {"type": "teacher-voice", "cue": "ر: non-connector — light single tongue-tap; never joins to the letter that follows it"}},
+        {"arabic": "ز", "name": "zay", "translit": "z", "audio": {"type": "teacher-voice", "cue": "ز: non-connector — plain voiced hiss; never joins to the letter that follows it"}},
+        {"arabic": "و", "name": "waw", "translit": "w", "audio": {"type": "teacher-voice", "cue": "و: non-connector — lips rounded consonant 'w'; never joins to the letter that follows it"}}
+      ]
+    },
+    {
+      "name": "Vowel grid spot-check",
+      "script": "8–10 min. Sample 20 cells at random from the full 84-cell letter × harakat grid — not a fixed pre-known set, genuinely randomized each sitting so the student cannot pre-memorize a specific sequence. Student reads each cell aloud."
+    },
+    {
+      "name": "Syllable transfer test",
+      "script": "5–7 min. Present 5–6 abstract 2–3 syllable combinations the student has NOT seen in any prior lesson or homework sheet (freshly built from the same letter/vowel inventory). Student decodes each — the one genuinely unseen-material test in the checkpoint. Score hesitation/self-correction leniently: a student who stumbles but self-corrects without teacher intervention should not be penalized as harshly as one who cannot produce the sound at all."
+    },
+    {
+      "name": "Wrap-up",
+      "script": "2–3 min. Complete the scoring sheet with the student present, state the pass/revise result plainly, and — if extra practice is needed — name the specific lesson(s) to revisit (see the weak-spot map below) rather than \"do Phase 1 again.\""
+    },
+    {
+      "name": "Record results",
+      "script": "Print this page; per rubric row mark pass / revise, note the mapped revision lessons, date and sign."
+    }
+  ],
+  "rubric": [
+    {"criterion": "Lahn Jali (major) errors — 28-letter warm-up + makhraj spot-check", "pass": "Zero. Any unrecognizable letter or wrong-phoneme production is a hard-fail item regardless of how well the rest of the session goes."},
+    {"criterion": "Lahn Khafi (minor) flags — whole session total", "pass": "≤3 total → pass, with a homework flag naming the specific letters/qualities to keep practicing at home (no retest required)."},
+    {"criterion": "Single-letter Jali errors — breadth across distinct letters", "pass": "Must not occur on more than 2 distinct letters — otherwise the checkpoint does not pass."},
+    {"criterion": "Jali errors — vowel-grid spot-check (step 4, 20 sampled cells)", "pass": "Fewer than 2. Two or more Jali errors in this step fails the checkpoint."},
+    {"criterion": "Syllable-transfer decoding (step 5, 5–6 items)", "pass": "Decode at least 3 of the 5–6 items — failing to decode 3 or more fails the checkpoint. Self-corrected hesitation is scored leniently, not penalized like an examiner-corrected miss."},
+    {"criterion": "Lahn Khafi (minor) flags — hard ceiling", "pass": "4 or more total Khafi flags fails the checkpoint even if every Jali criterion above is met."}
+  ],
+  "revisionMap": [
+    {"weakSpot": "ح / خ / ه confusion (any direction)", "lessons": ["1-02", "1-06"]},
+    {"weakSpot": "ص / ض / ط / ظ tafkheem quality (heaviness under- or mis-applied)", "lessons": ["1-04"]},
+    {"weakSpot": "ع substituted with ء, or غ/خ/ق confusion", "lessons": ["1-05"]},
+    {"weakSpot": "ذ / ز / ض \"D→Z\" collapse pattern (any pair merging)", "lessons": ["1-02", "1-03", "1-04"]},
+    {"weakSpot": "ر tongue-tap quality (too static/English-style)", "lessons": ["1-03"]},
+    {"weakSpot": "ق flattened toward ك (or vice versa)", "lessons": ["1-05", "1-06"]},
+    {"weakSpot": "Positional-shape misreading (initial/medial/final confusion)", "lessons": ["1-07"]},
+    {"weakSpot": "Non-connector rule not applied (ا د ذ ر ز و)", "lessons": ["1-08"]},
+    {"weakSpot": "General cluster-reading hesitation/pace, no specific letter culprit", "lessons": ["1-09"]},
+    {"weakSpot": "Fatha timing/quality (lengthened into madd, or heavy-letter darkening missing)", "lessons": ["1-10"]},
+    {"weakSpot": "Kasra/damma timing/quality, or kasra-vs-damma mix-ups", "lessons": ["1-11"]},
+    {"weakSpot": "Syllable-transfer decoding failures with no single letter/vowel culprit (fluency issue, not accuracy)", "lessons": ["1-12"]}
+  ]
+}

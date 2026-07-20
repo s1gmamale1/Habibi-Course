@@ -1,0 +1,702 @@
+{
+  "id": "1-08",
+  "phase": 1,
+  "unit": "1.2",
+  "title": "The 6 letters that never connect forward: ا د ذ ر ز و",
+  "objectives": [
+    "Student can name the 6 non-connecting letters (ا د ذ ر ز و) and state the one rule they share: they never join to the letter that follows them, even mid-word.",
+    "Student can read a cluster containing a non-connector and correctly identify the resulting visual \"break\" rather than misreading it as a joined shape.",
+    "Student can distinguish, on sight, whether a gap between two letters in a cluster is (a) a genuine word-break or (b) simply a non-connector letter doing what it always does."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.8 — The 6 letters that never connect forward",
+      "arabicDecor": "ا د ذ ر ز و"
+    },
+    {
+      "kind": "recap",
+      "heading": "Recap — cluster-reading from lesson 1.7",
+      "items": [
+        {
+          "arabic": "بت",
+          "name": "ba + ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بت — one joined cluster: ba flows directly into ta, no gap between them"
+          }
+        },
+        {
+          "arabic": "تب",
+          "name": "ta + ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "تب — one joined cluster: ta flows directly into ba, no gap between them"
+          }
+        },
+        {
+          "arabic": "كل",
+          "name": "kaaf + lam",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كل — one joined cluster: kaaf flows directly into lam, no gap between them"
+          }
+        },
+        {
+          "arabic": "لك",
+          "name": "lam + kaaf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لك — one joined cluster: lam flows directly into kaaf, no gap between them"
+          }
+        },
+        {
+          "arabic": "من",
+          "name": "meem + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "من — one joined cluster: meem flows directly into nun, no gap between them"
+          }
+        },
+        {
+          "arabic": "نم",
+          "name": "nun + meem",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "نم — one joined cluster: nun flows directly into meem, no gap between them"
+          }
+        },
+        {
+          "arabic": "بن",
+          "name": "ba + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بن — one joined cluster: ba flows directly into nun, no gap between them"
+          }
+        },
+        {
+          "arabic": "يب",
+          "name": "ya + ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يب — one joined cluster: ya flows directly into ba, no gap between them"
+          }
+        },
+        {
+          "arabic": "كتب",
+          "name": "kaaf + ta + ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كتب — one joined cluster: kaaf, ta, and ba all flow together, no gaps"
+          }
+        },
+        {
+          "arabic": "بنت",
+          "name": "ba + nun + ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بنت — one joined cluster: ba, nun, and ta all flow together, no gaps"
+          }
+        },
+        {
+          "arabic": "لمن",
+          "name": "lam + meem + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لمن — one joined cluster: lam, meem, and nun all flow together, no gaps"
+          }
+        },
+        {
+          "arabic": "تكن",
+          "name": "ta + kaaf + nun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "تكن — one joined cluster: ta, kaaf, and nun all flow together, no gaps"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "6 letters that never connect forward",
+      "body": [
+        "ا د ذ ر ز و never connect to the letter AFTER them — they still connect fine to the letter BEFORE them.",
+        "This is a fixed, closed list — no other letters behave this way.",
+        "All 6 were already learned in Unit 1.1 — today is pure mechanics, no new sounds."
+      ],
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: د in a cluster",
+      "body": [
+        "د never connects forward, so whatever letter follows it keeps its own isolated/initial-looking shape rather than a joined medial shape.",
+        "Isolated / word-initial shape (no forward join): د",
+        "Final shape (preceded by a joiner): ـد"
+      ],
+      "items": [
+        {
+          "arabic": "د",
+          "name": "dal — isolated / word-initial (no forward join)",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+          }
+        },
+        {
+          "arabic": "ـد",
+          "name": "dal — final (preceded by a joiner)",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: ر in a cluster",
+      "body": [
+        "ر behaves the same way — no forward join, ever.",
+        "Isolated / word-initial shape: ر",
+        "Final shape (preceded by a joiner): ـر"
+      ],
+      "items": [
+        {
+          "arabic": "ر",
+          "name": "ra — isolated / word-initial (no forward join)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ـر",
+          "name": "ra — final (preceded by a joiner)",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: و in a cluster",
+      "body": [
+        "و behaves the same way — no forward join, ever.",
+        "Isolated / word-initial shape: و",
+        "Final shape (preceded by a joiner): ـو"
+      ],
+      "items": [
+        {
+          "arabic": "و",
+          "name": "waw — isolated / word-initial (no forward join)",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
+          }
+        },
+        {
+          "arabic": "ـو",
+          "name": "waw — final (preceded by a joiner)",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Contrast drill — non-connector gap vs. genuine word-break",
+      "instructions": "Same letters, only the spacing differs: one is a single connected cluster where a non-connector just did its normal job; the other is a real two-word boundary. Compare the reading rhythm.",
+      "grid": [
+        [
+          {
+            "arabic": "درس",
+            "name": "one cluster — د's normal non-connector gap, not a word-break",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "درس is ONE connected unit — the gap after د is just د refusing to join forward, not a space"
+            }
+          },
+          {
+            "arabic": "د رس",
+            "name": "two words — a genuine space between them",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "د رس is TWO separate words with a real pause — compare the gap width and the reading rhythm against درس above"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided recognition drill — predict the break",
+      "instructions": "Look at each unvoweled cluster below with a non-connector circled. Before reading aloud, predict where the joined/unjoined shape boundary will fall, then read it aloud to confirm.",
+      "grid": [
+        [
+          {
+            "arabic": "درس",
+            "name": "dal + ra + seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
+            }
+          },
+          {
+            "arabic": "ردا",
+            "name": "ra + dal + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
+            }
+          },
+          {
+            "arabic": "وزن",
+            "name": "waw + zay + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
+            }
+          },
+          {
+            "arabic": "ذرا",
+            "name": "dhal + ra + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
+            }
+          },
+          {
+            "arabic": "ازد",
+            "name": "alif + zay + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
+            }
+          },
+          {
+            "arabic": "كتاد",
+            "name": "kaaf + ta + alif + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Reading drill — mixed connectors and non-connectors",
+      "instructions": "Read each cluster aloud; each contains at least one non-connector, positioned in different spots (first, middle, last) so the rule is tested regardless of position within the cluster.",
+      "grid": [
+        [
+          {
+            "arabic": "درس",
+            "name": "dal + ra + seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
+            }
+          },
+          {
+            "arabic": "ردا",
+            "name": "ra + dal + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
+            }
+          },
+          {
+            "arabic": "وزن",
+            "name": "waw + zay + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
+            }
+          },
+          {
+            "arabic": "ذرا",
+            "name": "dhal + ra + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
+            }
+          },
+          {
+            "arabic": "ازد",
+            "name": "alif + zay + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
+            }
+          },
+          {
+            "arabic": "كتاد",
+            "name": "kaaf + ta + alif + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Cumulative check — re-read lesson 1.7's clusters",
+      "instructions": "Re-read 2 of lesson 1.7's clusters, now correctly explaining why they joined the way they did (neither contains any of today's 6 non-connectors, so both joined normally).",
+      "grid": [
+        [
+          {
+            "arabic": "بت",
+            "name": "ba + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بت — one joined cluster: ba flows directly into ta, no gap between them"
+            }
+          },
+          {
+            "arabic": "كتب",
+            "name": "kaaf + ta + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كتب — one joined cluster: kaaf, ta, and ba all flow together, no gaps"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — the 6 non-connectors",
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "In your notebook, write each of today's 6 non-connectors in both its forms — isolated/initial and final (ا / ـا, د / ـد, ذ / ـذ, ر / ـر, ز / ـز, و / ـو) — 4 full rows each, saying the letter's name aloud as you write, then memorize today's 6 non-connectors and their two forms",
+        "Daily recitation aloud of the 6 non-connector clusters from today's drill, 3× through, reviewing letters and clusters learned in previous lessons",
+        "Attempt the \"predict the break\" exercise on 3 new clusters your teacher provides for next lesson (recognition/prediction only, no writing)",
+        "Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Concept flashcard — the 6 non-connectors",
+        "instructions": "Chant the list aloud as a group, round after round, until it feels automatic.",
+        "grid": [
+          [
+            {
+              "arabic": "ا",
+              "name": "alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+              }
+            },
+            {
+              "arabic": "د",
+              "name": "dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+              }
+            },
+            {
+              "arabic": "ذ",
+              "name": "dhal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+              }
+            },
+            {
+              "arabic": "ر",
+              "name": "ra",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "ObYKEtceQbU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+              }
+            },
+            {
+              "arabic": "ز",
+              "name": "zay",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+              }
+            },
+            {
+              "arabic": "و",
+              "name": "waw",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "و: rounded lips — a consonant 'w'"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cluster-reading drill (unvoweled)",
+        "instructions": "Read each cluster aloud. Each one contains at least one non-connector, positioned in different spots — first, middle, last — so the rule applies no matter where it falls.",
+        "grid": [
+          [
+            {
+              "arabic": "درس",
+              "name": "dal + ra + seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
+              }
+            },
+            {
+              "arabic": "ردا",
+              "name": "ra + dal + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
+              }
+            },
+            {
+              "arabic": "وزن",
+              "name": "waw + zay + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
+              }
+            },
+            {
+              "arabic": "ذرا",
+              "name": "dhal + ra + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
+              }
+            },
+            {
+              "arabic": "ازد",
+              "name": "alif + zay + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
+              }
+            },
+            {
+              "arabic": "كتاد",
+              "name": "kaaf + ta + alif + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "\"Predict the break\" drill",
+        "instructions": "Before reading aloud, predict where the joined/unjoined shape boundary will fall in each cluster below, then read it aloud to confirm.",
+        "grid": [
+          [
+            {
+              "arabic": "درس",
+              "name": "dal + ra + seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
+              }
+            },
+            {
+              "arabic": "ردا",
+              "name": "ra + dal + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
+              }
+            },
+            {
+              "arabic": "وزن",
+              "name": "waw + zay + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
+              }
+            },
+            {
+              "arabic": "ذرا",
+              "name": "dhal + ra + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
+              }
+            },
+            {
+              "arabic": "ازد",
+              "name": "alif + zay + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
+              }
+            },
+            {
+              "arabic": "كتاد",
+              "name": "kaaf + ta + alif + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Write today's 6 non-connectors in both forms — isolated/initial and final (ا / ـا, د / ـد, ذ / ـذ, ر / ـر, ز / ـز, و / ـو) — 4 rows each, in your notebook, saying the name aloud as you write",
+      "Daily recitation (aloud) of the 6 non-connector clusters from today's drill, 3× through",
+      "Attempt the \"predict the break\" exercise on 3 new clusters (recognition/prediction only, no writing)",
+      "Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with a quick review of lesson 1.7's cluster-reading before introducing today's mechanics.",
+      "Present the 6 non-connectors (ا د ذ ر ز و) as one fixed, closed list — drill it as a group chant until automatic before anything else.",
+      "Model د, ر, and و each in a cluster, showing explicitly that the letter following each one keeps its own isolated/initial shape rather than a joined medial shape.",
+      "Contrast a non-connector's normal internal gap against a genuine two-word space side by side, so the student learns the visual difference.",
+      "Run the 'predict the break' drill before reading aloud — the student should predict, then confirm, not read cold.",
+      "Re-read 2 of lesson 1.7's clusters at the end, now explaining why they joined the way they did."
+    ],
+    "listenFor": [
+      "Student trying to force a non-connector into a joined medial shape that doesn't exist for it — a very natural over-generalization error at this stage, gently correct by re-showing the fixed list.",
+      "Student misreading a non-connector's normal \"gap\" as a full word-break, splitting one word into two when reading aloud.",
+      "Regression on the 6 individual letters' own sounds (since these are \"old\" content from Unit 1.1, a quick sound-accuracy spot-check is worthwhile alongside the shape-mechanics focus)."
+    ],
+    "homework": "In the student's notebook: each of today's 6 non-connectors written in both forms — isolated/initial and final (ا / ـا, د / ـد, ذ / ـذ, ر / ـر, ز / ـز, و / ـو) — 4 full rows each, saying the letter's name aloud while writing, then memorized. Daily recitation (aloud) of the 6 non-connector clusters from today's drill, 3× through, reviewing letters and clusters learned in previous lessons. Student attempts the \"predict the break\" exercise on 3 new clusters the teacher provides for next lesson (recognition/prediction only, no writing). Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily. No printed sheets."
+  },
+  "videos": [
+    {
+      "title": "Arabic101 — Letter FUSION in the Holy Quran",
+      "url": "https://www.youtube.com/watch?v=NOCKyEcgW7U"
+    },
+    {
+      "title": "Uzbek channel per-letter series — Arab tilida yozish va o'qish (native-speaker reading reference)",
+      "url": "https://www.youtube.com/playlist?list=PLgrueUfOSy6toR7sz27dmPK2WPBNVLwRi"
+    }
+  ]
+}

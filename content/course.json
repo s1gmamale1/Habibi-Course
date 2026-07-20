@@ -1,0 +1,24 @@
+{
+  "title": "Tajweed Course",
+  "phases": [
+    {
+      "number": 1,
+      "title": "Letters & Sounds",
+      "lessons": [
+        {"id": "1-01", "title": "Orientation + Alif & the ب ت ث family", "calendarSlot": "Week 1 — Mon"},
+        {"id": "1-02", "title": "The throat-and-dot family: ج ح خ / د ذ", "calendarSlot": "Week 1 — Wed"},
+        {"id": "1-03", "title": "ر ز and the sibilants س ش", "calendarSlot": "Week 1 — Sat"},
+        {"id": "1-04", "title": "The heavy four: ص ض ط ظ", "calendarSlot": "Week 2 — Mon"},
+        {"id": "1-05", "title": "Deep throat & back-of-tongue: ع غ ف ق", "calendarSlot": "Week 2 — Wed"},
+        {"id": "1-06", "title": "The rest of the alphabet + full 28-letter review: ك ل م ن ه و ي", "calendarSlot": "Week 2 — Sat"},
+        {"id": "1-07", "title": "Letters change shape: initial / medial / final / isolated forms", "calendarSlot": "Week 3 — Mon"},
+        {"id": "1-08", "title": "The 6 letters that never connect forward: ا د ذ ر ز و", "calendarSlot": "Week 3 — Wed"},
+        {"id": "1-09", "title": "Reading connected clusters — full joining review", "calendarSlot": "Week 3 — Sat"},
+        {"id": "1-10", "title": "Fatha: the \"a\" sound, full letter × fatha grid", "calendarSlot": "Week 4 — Mon"},
+        {"id": "1-11", "title": "Kasra & Damma: full letter × kasra and letter × damma grids", "calendarSlot": "Week 4 — Wed"},
+        {"id": "1-12", "title": "Full mixed grid + 2–3 syllable combinations + checkpoint dry run", "calendarSlot": "Week 4 — Sat"}
+      ],
+      "checkpoint": {"id": "checkpoint-1", "title": "Checkpoint 1 — Letters & Sounds gate"}
+    }
+  ]
+}
