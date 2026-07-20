@@ -1325,6 +1325,7 @@ Authoring rules (apply to every file; these are the complete transformation spec
 2. Audio tier assignment (gap-1 §5, tightened per user directive 2026-07-19): actively maximize `youtube-cue` coverage — for each letter, first check the syllabus lesson's Video list, then `docs/research/arabic101.md` (per-letter Makharij & Sifaat episodes) and `docs/research/uzbek-channel.md` (Muallimi Soniy compilation chapter timestamps) for a matching segment; assign `teacher-voice` ONLY when no segment exists in either source. The course owner plans to record their own letter clips later — those will land as `qari-clip` entries (`reciter: "Teacher recording"`), so no schema change is ever needed for that upgrade. No Quran-verse `qari-clip`s in Phase 1 (no Quran words yet).
 3. `teacher-voice.cue` lines must be self-contained articulation guidance (they render in the popover) — not "see notes".
 4. `teacherNotes.script` = the syllabus lesson's teaching-flow guidance distilled to 3–6 imperative lines (model 3×, correct on first error, pre-audition videos — as in 1-01).
+5. Lesson-opener segments (owner directive 2026-07-19): where a lesson is a motivational milestone (Lesson 1.1 handled by its own Task 15; 1.10 first-vowel-grid milestone; use judgment sparingly elsewhere), open with 1–3 `concept` slides ("why this matters", ≤10 min) drawing ONLY on the verified material in `docs/research/intro-motivation.md` — never invent, paraphrase-from-memory, or grade hadith yourself; if that file lacks material for a lesson, skip the opener entirely. Most lessons get NO opener.
 
 - [ ] **Step 1:** Author `1-02.json` from syllabus §Lesson 1.2. Run `npm test -- allContent` → PASS. Run `npm run check:refs` → all ok.
 - [ ] **Step 2:** Commit: `git add content/lessons/1-02.json && git commit -m "content: lesson 1.2"`
@@ -1362,13 +1363,26 @@ Workflow-critic pacing note for Lesson 1.11 (56 new cells in one session): add t
 
 ---
 
-### Task 14: Deploy + phone QA
+### Task 15: Lesson 1.1 personal intro (run after Task 13, before final review)
 
 **Files:**
-- None new (Vercel config is zero-config for static Next.js).
+- Modify: `src/content/schema.ts` (LessonSchema slides bound `.max(15)` → `.max(18)` — headroom for opener segments; update the plan-text reference "8–15" comment to "8–18")
+- Modify: `content/lessons/1-01.json` (insert opener slides), `docs/syllabus/phase-1-letters.md` untouched
+- Source: `docs/research/intro-motivation.md` (verified hadith/aqwal — produced by the intro-motivation workflow; every item carries collection+number+grading+URL)
+
+Owner intent (2026-07-19, verbatim requirements): a personal short intro (5–10 min) before the actual lesson: what Arabic looks like as a language, how it reads, grammar complexity; why learn it thoroughly; the religious standpoint — sahih ahadith and aqwal of 'ulama that a Muslim must know Arabic at least enough to understand al-Fatiha; virtues of the struggle of learning, of seeking knowledge, and of learning the Quran and the deen of Allah.
+
+- [ ] **Step 1:** Insert 3–4 `concept` slides after the title slide of `1-01.json`, authored strictly from `intro-motivation.md` (Arabic quote + translation + source in the body lines). Keep total ≤ 18 slides.
+- [ ] **Step 2:** Bump schema bound; run `npm test` (allContent revalidates 1-01) and `npm run check:refs`.
+- [ ] **Step 3:** Commit: `content: personal intro segment for Lesson 1.1 (verified sources)`.
+
+### Task 14: Serve locally + tunnel + phone QA
+
+**Files:**
+- None new. (Owner decision 2026-07-19: no Vercel yet — serve the static build locally and share via a cloudflared quick tunnel. Vercel remains the future production path.)
 
 - [ ] **Step 1:** Full local gate: `npm test && npm run check:refs && npm run build` → all green.
-- [ ] **Step 2:** Deploy. Vercel login is interactive — the user must run it themselves: ask the user to run `! npx vercel login`, then run `npx vercel deploy --prod --yes`. Expected output ends with the production URL.
+- [ ] **Step 2:** Serve + tunnel: `npx serve out -l 3000` (background), then `cloudflared tunnel --url http://localhost:3000` (background; install via `brew install cloudflared` if missing). The tunnel prints a `https://<random>.trycloudflare.com` URL — that is the shareable link. Note: the URL changes each tunnel restart.
 - [ ] **Step 3:** Phone QA checklist (open the production URL on a phone; spec: student is mobile-first) — verify each: course map renders and toggles persist across reload · lesson 1-01 deck swipes and taps play/popover correctly · a `youtube-cue` item plays inline at the right timestamp · practice page print-preview shows flashcard boxes · `/teach/1-01` loads and is absent from all student-facing links · Arabic glyphs render in Amiri with no tofu boxes.
 - [ ] **Step 4:** Record the production URL in `docs/superpowers/specs/2026-07-19-tajweed-course-design.md` under a new final line: `**Live (v1 Phase 1):** <URL>`. Commit: `git add -A && git commit -m "docs: record production URL"`.
 

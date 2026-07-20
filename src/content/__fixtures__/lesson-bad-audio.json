@@ -1,0 +1,16 @@
+{
+  "id": "1-01", "phase": 1, "unit": "1.1", "title": "Fixture",
+  "objectives": ["o1"],
+  "slides": [
+    {"kind": "concept", "heading": "h", "body": ["b"]}, {"kind": "concept", "heading": "h", "body": ["b"]},
+    {"kind": "concept", "heading": "h", "body": ["b"]}, {"kind": "concept", "heading": "h", "body": ["b"]},
+    {"kind": "concept", "heading": "h", "body": ["b"]}, {"kind": "concept", "heading": "h", "body": ["b"]},
+    {"kind": "concept", "heading": "h", "body": ["b"]}, {"kind": "concept", "heading": "h", "body": ["b"]}
+  ],
+  "practice": {
+    "drills": [{"title": "d", "instructions": "i", "grid": [[{"arabic": "ب", "name": "ba", "audio": {"type": "mp3", "url": "https://example.com/a.mp3"}}]]}],
+    "dailyChecklist": ["say each letter 10x"]
+  },
+  "teacherNotes": {"script": ["s"], "listenFor": ["l"], "homework": "h"},
+  "videos": []
+}

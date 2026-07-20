@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="gJawf" x1="96" y1="160" x2="220" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="gHalq" x1="150" y1="220" x2="215" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="gLisan" x1="94" y1="195" x2="205" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="gShafatan" x1="58" y1="176" x2="96" y2="212" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="gKhayshum" x1="100" y1="90" x2="150" y2="142" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer head, neck, and shoulders -->
+    <path d="M180 50
+             C220 52 278 82 310 130
+             C332 164 308 196 280 210
+             C266 235 290 314 330 390
+             M140 390
+             C152 338 154 282 170 240
+             C150 236 128 230 110 220
+             C95 214 84 211 80 205
+             C75 198 72 193 72 188
+             C60 184 48 176 46 165
+             C54 156 66 141 70 112
+             C76 88 92 72 112 65
+             C134 56 155 50 180 50"
+          stroke="#E8E6F2" stroke-opacity="0.4" stroke-width="2"/>
+
+    <!-- Ear -->
+    <path d="M216 138
+             C236 144 244 166 236 186
+             C229 204 208 208 198 191
+             C188 174 195 148 216 138Z
+             M213 154
+             C223 160 225 177 215 187"
+          stroke="#E8E6F2" stroke-opacity="0.35" stroke-width="1.5"/>
+  </g>
+
+  <!-- Nasal passage: al-Khayshum -->
+  <path d="M101 126
+           C108 103 130 91 147 101
+           C156 111 148 133 129 139
+           C116 142 104 137 101 126Z"
+        fill="url(#gKhayshum)" fill-opacity="0.42"
+        stroke="#F7D9EE" stroke-width="1.4" filter="url(#glow)"/>
+
+  <!-- Oral cavity: al-Jawf -->
+  <path d="M96 182
+           C118 162 164 154 198 166
+           C221 174 225 202 207 221
+           C188 241 143 237 111 224
+           C94 217 85 196 96 182Z"
+        fill="url(#gJawf)" fill-opacity="0.34"
+        stroke="#D8DCFB" stroke-width="1.5" filter="url(#glow)"/>
+
+  <!-- Tongue: al-Lisan -->
+  <path d="M94 209
+           C113 198 143 195 171 203
+           C190 208 203 218 205 229
+           C178 232 130 231 100 222
+           C92 220 88 214 94 209Z"
+        fill="url(#gLisan)" fill-opacity="0.55"
+        stroke="#C9F7EC" stroke-width="1.5" filter="url(#glow)"/>
+
+  <!-- Lips: ash-Shafatan -->
+  <path d="M58 186
+           C68 176 84 176 95 185
+           C86 194 86 196 95 200
+           C84 211 68 210 58 200
+           C64 195 64 191 58 186Z"
+        fill="url(#gShafatan)" fill-opacity="0.6"
+        stroke="#CFEFFF" stroke-width="1.5" filter="url(#glow)"/>
+
+  <!-- Throat: al-Halq -->
+  <path d="M171 221
+           C190 219 209 232 214 252
+           C219 275 212 309 196 329
+           C182 344 160 331 155 306
+           C149 280 154 246 171 221Z"
+        fill="url(#gHalq)" fill-opacity="0.6"
+        stroke="#C9F7F2" stroke-width="1.6" filter="url(#glow)"/>
+
+  <!-- Labels and leaders -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="600">
+    <!-- Nasal passage -->
+    <line x1="152" y1="52" x2="130" y2="112" stroke="#E8E6F2" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="130" cy="112" r="2" fill="#E8E6F2" fill-opacity="0.72"/>
+    <text x="156" y="46" fill="#E8E6F2">Nasal passage — al-Khayshum</text>
+
+    <!-- Oral cavity -->
+    <line x1="222" y1="196" x2="204" y2="192" stroke="#E8E6F2" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="204" cy="192" r="2" fill="#E8E6F2" fill-opacity="0.72"/>
+    <text x="392" y="200" text-anchor="end" fill="#E8E6F2">Empty cavity — al-Jawf</text>
+
+    <!-- Throat -->
+    <line x1="258" y1="278" x2="216" y2="272" stroke="#E8E6F2" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="216" cy="272" r="2" fill="#E8E6F2" fill-opacity="0.72"/>
+    <text x="392" y="282" text-anchor="end" fill="#E8E6F2">Throat — al-Halq</text>
+
+    <!-- Tongue -->
+    <line x1="126" y1="330" x2="148" y2="228" stroke="#E8E6F2" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="148" cy="228" r="2" fill="#E8E6F2" fill-opacity="0.72"/>
+    <text x="110" y="350" fill="#E8E6F2">Tongue — al-Lisan</text>
+
+    <!-- Lips -->
+    <line x1="34" y1="252" x2="68" y2="206" stroke="#E8E6F2" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="68" cy="206" r="2" fill="#E8E6F2" fill-opacity="0.72"/>
+    <text x="10" y="270" fill="#E8E6F2">Lips — ash-Shafatan</text>
+  </g>
+</svg>

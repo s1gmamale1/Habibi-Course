@@ -96,5 +96,17 @@ Every lesson is a structured content file (MDX/JSON): slides, drills, audio refs
 - Accounts, auth, payments, multi-student support, analytics — v2 if the course goes global.
 - Uzbek/other language versions (content model should not preclude them).
 - Recording original audio.
-- Writing/calligraphy instruction (recognition and recitation only).
+- Writing/calligraphy instruction (recognition and recitation only). **Superseded 2026-07-20 — see Owner revisions below: notebook writing practice is now in scope.**
 - Advanced tajweed (qira'at variants, advanced waqf) beyond the listed rules.
+
+## Owner revisions (2026-07-20)
+
+Feedback from the course owner after the platform skeleton and Phase 1 content were reviewed live. These override the corresponding sections above.
+
+- **Homework model changed:** notebook WRITING practice (e.g. 4 rows per letter + memorize) replaces the print-flashcard homework described earlier, and writing is now **in scope** — this supersedes the "Writing/calligraphy instruction... recognition and recitation only" line under Out of scope for v1. Printable drill/flashcard sheets remain available as an optional aid, not the primary homework mechanism.
+- **Timestamp policy tightened:** `youtube-cue` audio (see `AudioSourceSchema`, `src/content/schema.ts`) is allowed **only** for videos dedicated to a single letter, cued at `startSeconds: 0`. Deep-link timestamps into multi-letter compilation videos are **disabled pending human audit** — spot-checking found several landed on unrelated moments in the source video. Existing compilation-timestamp references should be treated as unverified until re-checked by a human against the actual video.
+- **Every Arabic term gets an inline translation on first use** — no bare transliteration or Arabic term introduced without a plain-English gloss alongside it.
+- **Drill instructions address the student directly** ("Point to each letter and say its name," not teacher-facing phrasing).
+- **Letter slides show positional forms + a real example word:** the `letter` slide now carries an optional `forms` object (isolated/initial/medial/final) and an optional `example` word (`arabic` + `translit` + `meaning`), rendered in `SlideDeck`. See `src/content/schema.ts` and `src/components/SlideDeck.tsx`.
+- **Makhraj slides carry diagrams:** `letter` and `concept` slides gained an optional `image` field, expected to point at `/images/makhraj/*.svg`, rendered above/within the slide.
+- **Lessons show their video links in a visible section:** the `/lesson/[id]` page previously passed `videos` only to `/teach`, leaving them "nowhere to see" per the owner — it now renders a "Videos for this lesson" section beneath the slide deck when a lesson has videos.
