@@ -10,7 +10,15 @@ const title = "T";
 const slides: Slide[] = [
   { kind: "title", heading: "First slide" },
   { kind: "concept", heading: "Second slide", body: ["point one"] },
-  { kind: "letter", item: { arabic: "ب", name: "ba", audio: { type: "teacher-voice", cue: "lips" } }, makhraj: "the two lips", notes: ["one dot below"] },
+  {
+    kind: "letter",
+    item: { arabic: "ب", name: "ba", audio: { type: "teacher-voice", cue: "lips" } },
+    makhraj: "the two lips",
+    notes: ["one dot below"],
+    forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" },
+    example: { arabic: "باب", translit: "bāb", meaning: "door" },
+    image: "/images/makhraj/shafatan.svg",
+  },
   { kind: "concept", heading: "s4", body: ["b"] }, { kind: "concept", heading: "s5", body: ["b"] },
   { kind: "concept", heading: "s6", body: ["b"] }, { kind: "concept", heading: "s7", body: ["b"] },
   { kind: "homework", heading: "Homework", tasks: ["do drills"] },
@@ -29,5 +37,16 @@ describe("SlideDeck", () => {
     await userEvent.keyboard("{ArrowRight}{ArrowRight}");
     expect(screen.getByText(/the two lips/)).toBeTruthy();
     expect(screen.getByRole("button", { name: /ب/ })).toBeTruthy();
+  });
+  test("letter slide renders makhraj image, positional forms, and example word", async () => {
+    render(<SlideDeck title={title} slides={slides} />);
+    await userEvent.keyboard("{ArrowRight}{ArrowRight}");
+    const img = screen.getByRole("img");
+    expect(img.getAttribute("alt")).toMatch(/makhraj/i);
+    expect(screen.getByText("Alone")).toBeTruthy();
+    expect(screen.getByText("Start")).toBeTruthy();
+    expect(screen.getByText("Middle")).toBeTruthy();
+    expect(screen.getByText("End")).toBeTruthy();
+    expect(screen.getByText(/bāb\s*—\s*door/)).toBeTruthy();
   });
 });

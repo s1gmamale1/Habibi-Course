@@ -4,6 +4,13 @@ import { useRouter } from "next/navigation";
 import type { Slide } from "@/content/schema";
 import { TapToHear } from "./TapToHear";
 
+const FORM_LABELS = {
+  isolated: "Alone",
+  initial: "Start",
+  medial: "Middle",
+  final: "End",
+} as const;
+
 function SlideView({ slide }: { slide: Slide }) {
   switch (slide.kind) {
     case "title":
@@ -17,6 +24,9 @@ function SlideView({ slide }: { slide: Slide }) {
       return (
         <div className="max-w-2xl">
           <h2 className="mb-6 text-3xl font-bold">{slide.heading}</h2>
+          {slide.image && (
+            <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto mb-4 max-h-[38vh] max-w-full" />
+          )}
           <ul className="list-disc space-y-3 pl-6 text-xl">{slide.body.map((b) => <li key={b}>{b}</li>)}</ul>
           {slide.items && <div className="mt-6 flex flex-wrap gap-3">{slide.items.map((it) => <TapToHear key={it.arabic} item={it} />)}</div>}
         </div>
@@ -24,10 +34,36 @@ function SlideView({ slide }: { slide: Slide }) {
     case "letter":
       return (
         <div className="text-center">
+          {slide.image && (
+            <img
+              src={slide.image}
+              alt={`makhraj — ${slide.item.name ?? slide.item.arabic}`}
+              className="mx-auto mb-4 max-h-[38vh] max-w-full"
+            />
+          )}
           <TapToHear item={slide.item} size="lg" />
           <p className="mt-4 text-2xl font-semibold">{slide.item.name}{slide.item.translit ? ` — ${slide.item.translit}` : ""}</p>
           <p className="mt-2 text-lg"><span className="font-semibold">Makhraj:</span> {slide.makhraj}</p>
+          {slide.forms && (
+            <div dir="rtl" className="mt-4 flex flex-wrap justify-center gap-4">
+              {(Object.keys(FORM_LABELS) as Array<keyof typeof FORM_LABELS>)
+                .filter((k) => slide.forms?.[k])
+                .slice(0, 4)
+                .map((k) => (
+                  <div key={k} className="text-center">
+                    <p className="arabic text-4xl">{slide.forms?.[k]}</p>
+                    <p className="text-xs text-stone-500">{FORM_LABELS[k]}</p>
+                  </div>
+                ))}
+            </div>
+          )}
           <ul className="mt-3 space-y-1 text-stone-600">{slide.notes.map((n) => <li key={n}>{n}</li>)}</ul>
+          {slide.example && (
+            <div className="mt-4">
+              <p className="arabic text-4xl">{slide.example.arabic}</p>
+              <p className="text-stone-600">{slide.example.translit} — {slide.example.meaning}</p>
+            </div>
+          )}
         </div>
       );
     case "drill":

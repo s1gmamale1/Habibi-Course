@@ -28,12 +28,23 @@ export const SlideSchema = z.discriminatedUnion("kind", [
     heading: z.string(),
     body: z.array(z.string()).min(1),
     items: z.array(ArabicItemSchema).optional(),
+    image: z.string().optional(),
   }),
   z.object({
     kind: z.literal("letter"),
     item: ArabicItemSchema,
     makhraj: z.string().min(1),
     notes: z.array(z.string()),
+    forms: z
+      .object({
+        isolated: z.string().optional(),
+        initial: z.string().optional(),
+        medial: z.string().optional(),
+        final: z.string().optional(),
+      })
+      .optional(),
+    example: z.object({ arabic: z.string(), translit: z.string(), meaning: z.string() }).optional(),
+    image: z.string().optional(),
   }),
   z.object({
     kind: z.literal("drill"),

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { AudioSourceSchema, LessonSchema } from "./schema";
+import { AudioSourceSchema, LessonSchema, SlideSchema } from "./schema";
 
 describe("AudioSourceSchema (three-tier, gap-1)", () => {
   test("accepts qari-clip with url + reciter", () => {
@@ -39,5 +39,38 @@ describe("LessonSchema", () => {
     expect(() =>
       LessonSchema.parse({ id: "lesson one", phase: 1, unit: "1.1", title: "x", objectives: [], slides: [], practice: { drills: [], dailyChecklist: [] }, teacherNotes: { script: [], listenFor: [], homework: "" }, videos: [] }),
     ).toThrow();
+  });
+});
+
+describe("SlideSchema — R1 additions (forms/example/image)", () => {
+  test("letter slide with forms, example, and image parses", () => {
+    const parsed = SlideSchema.parse({
+      kind: "letter",
+      item: { arabic: "ب", name: "ba", audio: { type: "teacher-voice", cue: "lips" } },
+      makhraj: "the two lips",
+      notes: ["one dot below"],
+      forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" },
+      example: { arabic: "باب", translit: "bāb", meaning: "door" },
+      image: "/images/makhraj/shafatan.svg",
+    });
+    expect(parsed.kind).toBe("letter");
+    if (parsed.kind === "letter") {
+      expect(parsed.forms?.initial).toBe("بـ");
+      expect(parsed.example?.meaning).toBe("door");
+      expect(parsed.image).toBe("/images/makhraj/shafatan.svg");
+    }
+  });
+
+  test("concept slide with image parses", () => {
+    const parsed = SlideSchema.parse({
+      kind: "concept",
+      heading: "Makhraj diagram",
+      body: ["the lips meet"],
+      image: "/images/makhraj/shafatan.svg",
+    });
+    expect(parsed.kind).toBe("concept");
+    if (parsed.kind === "concept") {
+      expect(parsed.image).toBe("/images/makhraj/shafatan.svg");
+    }
   });
 });
