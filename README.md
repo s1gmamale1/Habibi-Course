@@ -1,8 +1,9 @@
 # Tajweed Course
 
 A static-export Next.js platform for teaching Quranic Arabic letters and tajweed —
-slide-deck lessons, printable practice sheets, a teacher-only notes route, and a
-live checkpoint kit, driven by JSON lesson content validated against a Zod schema.
+slide-deck lessons, printable practice sheets, a teacher-only notes route with
+one-click PPTX deck export, and a live checkpoint kit, driven by JSON lesson
+content validated against a Zod schema.
 
 ## Commands
 
