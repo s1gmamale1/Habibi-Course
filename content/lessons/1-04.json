@@ -135,7 +135,8 @@
         "Mouth cavity fills up, the back of the tongue rises, and the sound gets a fuller/darker quality",
         "Contrast a light letter you already know against its heavy twin: س↔ص, د↔ض(closest), ت↔ط, ذ↔ظ",
         "First formal introduction of tafkheem (heavy) / tarqeeq (light) — full rule-naming is Phase 3, but the physical sensation is taught now"
-      ]
+      ],
+      "image": "/images/makhraj/heavy-light.svg"
     },
     {
       "kind": "letter",
@@ -155,11 +156,31 @@
         "Heavy twin of س — say س then ص back to back to feel the difference",
         "Sound: a thick hiss, fuller/darker than س"
       ],
-      "forms": {"isolated": "ص", "initial": "صـ", "medial": "ـصـ", "final": "ـص"},
+      "forms": {
+        "isolated": "ص",
+        "initial": "صـ",
+        "medial": "ـصـ",
+        "final": "ـص"
+      },
       "examples": [
-        {"arabic": "صَبَاح", "translit": "ṣabāḥ", "meaning": "morning", "form": "initial"},
-        {"arabic": "حِصَان", "translit": "ḥiṣān", "meaning": "horse", "form": "medial"},
-        {"arabic": "قَمِيص", "translit": "qamīṣ", "meaning": "shirt", "form": "final"}
+        {
+          "arabic": "صَبَاح",
+          "translit": "ṣabāḥ",
+          "meaning": "morning",
+          "form": "initial"
+        },
+        {
+          "arabic": "حِصَان",
+          "translit": "ḥiṣān",
+          "meaning": "horse",
+          "form": "medial"
+        },
+        {
+          "arabic": "قَمِيص",
+          "translit": "qamīṣ",
+          "meaning": "shirt",
+          "form": "final"
+        }
       ],
       "image": "/images/makhraj/lisan.svg"
     },
@@ -209,11 +230,31 @@
         "Documented as the hardest letter in Arabic for virtually all non-native speakers, including many whose L1 is Persian/Turkish/Urdu — same family risk as Uzbek",
         "Do not expect mastery in one lesson — slow, exaggerated repetitions, no time pressure"
       ],
-      "forms": {"isolated": "ض", "initial": "ضـ", "medial": "ـضـ", "final": "ـض"},
+      "forms": {
+        "isolated": "ض",
+        "initial": "ضـ",
+        "medial": "ـضـ",
+        "final": "ـض"
+      },
       "examples": [
-        {"arabic": "ضَوْء", "translit": "ḍawʾ", "meaning": "light", "form": "initial"},
-        {"arabic": "غَضَب", "translit": "ghaḍab", "meaning": "anger", "form": "medial"},
-        {"arabic": "بَعْض", "translit": "baʿḍ", "meaning": "some", "form": "final"}
+        {
+          "arabic": "ضَوْء",
+          "translit": "ḍawʾ",
+          "meaning": "light",
+          "form": "initial"
+        },
+        {
+          "arabic": "غَضَب",
+          "translit": "ghaḍab",
+          "meaning": "anger",
+          "form": "medial"
+        },
+        {
+          "arabic": "بَعْض",
+          "translit": "baʿḍ",
+          "meaning": "some",
+          "form": "final"
+        }
       ],
       "image": "/images/makhraj/lisan.svg"
     },
@@ -254,11 +295,31 @@
         "Heavy twin of ت — say ت then ط back to back",
         "A held, forceful release with a full-mouth echo"
       ],
-      "forms": {"isolated": "ط", "initial": "طـ", "medial": "ـطـ", "final": "ـط"},
+      "forms": {
+        "isolated": "ط",
+        "initial": "طـ",
+        "medial": "ـطـ",
+        "final": "ـط"
+      },
       "examples": [
-        {"arabic": "طَرِيق", "translit": "ṭarīq", "meaning": "road", "form": "initial"},
-        {"arabic": "حَطَب", "translit": "ḥaṭab", "meaning": "firewood", "form": "medial"},
-        {"arabic": "خَطّ", "translit": "khaṭṭ", "meaning": "line", "form": "final"}
+        {
+          "arabic": "طَرِيق",
+          "translit": "ṭarīq",
+          "meaning": "road",
+          "form": "initial"
+        },
+        {
+          "arabic": "حَطَب",
+          "translit": "ḥaṭab",
+          "meaning": "firewood",
+          "form": "medial"
+        },
+        {
+          "arabic": "خَطّ",
+          "translit": "khaṭṭ",
+          "meaning": "line",
+          "form": "final"
+        }
       ],
       "image": "/images/makhraj/lisan.svg"
     },
@@ -307,11 +368,31 @@
         "Heavy twin of ذ — say ذ then ظ back to back",
         "Even some native Arabic dialects merge ظ/ض — approximate imperfection here is normal, not alarming"
       ],
-      "forms": {"isolated": "ظ", "initial": "ظـ", "medial": "ـظـ", "final": "ـظ"},
+      "forms": {
+        "isolated": "ظ",
+        "initial": "ظـ",
+        "medial": "ـظـ",
+        "final": "ـظ"
+      },
       "examples": [
-        {"arabic": "ظِلّ", "translit": "ẓill", "meaning": "shade", "form": "initial"},
-        {"arabic": "نَظَر", "translit": "naẓar", "meaning": "view / gaze", "form": "medial"},
-        {"arabic": "حِفْظ", "translit": "ḥifẓ", "meaning": "memorization", "form": "final"}
+        {
+          "arabic": "ظِلّ",
+          "translit": "ẓill",
+          "meaning": "shade",
+          "form": "initial"
+        },
+        {
+          "arabic": "نَظَر",
+          "translit": "naẓar",
+          "meaning": "view / gaze",
+          "form": "medial"
+        },
+        {
+          "arabic": "حِفْظ",
+          "translit": "ḥifẓ",
+          "meaning": "memorization",
+          "form": "final"
+        }
       ],
       "image": "/images/makhraj/lisan.svg"
     },
