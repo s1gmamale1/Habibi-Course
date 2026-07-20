@@ -23,7 +23,7 @@
           "name": "ba + ta",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+            "cue": "بت — one joined cluster: ba flows directly into ta, no gap between them"
           }
         },
         {
@@ -31,7 +31,7 @@
           "name": "ta + ba",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+            "cue": "تب — one joined cluster: ta flows directly into ba, no gap between them"
           }
         },
         {
@@ -39,7 +39,7 @@
           "name": "kaaf + lam",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+            "cue": "كل — one joined cluster: kaaf flows directly into lam, no gap between them"
           }
         },
         {
@@ -47,7 +47,7 @@
           "name": "lam + kaaf",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+            "cue": "لك — one joined cluster: lam flows directly into kaaf, no gap between them"
           }
         },
         {
@@ -55,7 +55,7 @@
           "name": "meem + nun",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+            "cue": "من — one joined cluster: meem flows directly into nun, no gap between them"
           }
         },
         {
@@ -63,7 +63,7 @@
           "name": "nun + meem",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+            "cue": "نم — one joined cluster: nun flows directly into meem, no gap between them"
           }
         },
         {
@@ -71,7 +71,7 @@
           "name": "ba + nun",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+            "cue": "بن — one joined cluster: ba flows directly into nun, no gap between them"
           }
         },
         {
@@ -79,7 +79,7 @@
           "name": "ya + ba",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+            "cue": "يب — one joined cluster: ya flows directly into ba, no gap between them"
           }
         },
         {
@@ -87,7 +87,7 @@
           "name": "kaaf + ta + ba",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+            "cue": "كتب — one joined cluster: kaaf, ta, and ba all flow together, no gaps"
           }
         },
         {
@@ -95,7 +95,7 @@
           "name": "ba + nun + ta",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads بنت aloud, modeling the joined pronunciation (ba + nun + ta)"
+            "cue": "بنت — one joined cluster: ba, nun, and ta all flow together, no gaps"
           }
         },
         {
@@ -103,7 +103,7 @@
           "name": "lam + meem + nun",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads لمن aloud, modeling the joined pronunciation (lam + meem + nun)"
+            "cue": "لمن — one joined cluster: lam, meem, and nun all flow together, no gaps"
           }
         },
         {
@@ -111,7 +111,7 @@
           "name": "ta + kaaf + nun",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads تكن aloud, modeling the joined pronunciation (ta + kaaf + nun)"
+            "cue": "تكن — one joined cluster: ta, kaaf, and nun all flow together, no gaps"
           }
         }
       ]
@@ -129,30 +129,24 @@
           "arabic": "ا",
           "name": "alif",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1117,
-            "title": "Muallimi Soniy — alif section"
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
           }
         },
         {
           "arabic": "د",
           "name": "dal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ذ",
           "name": "dhal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 14598,
-            "title": "Muallimi Soniy — ذ (dhal) section"
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
           }
         },
         {
@@ -169,20 +163,16 @@
           "arabic": "ز",
           "name": "zay",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1819,
-            "title": "Muallimi Soniy — ز (zay) section"
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
           }
         },
         {
           "arabic": "و",
           "name": "waw",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         }
       ]
@@ -200,20 +190,16 @@
           "arabic": "د",
           "name": "dal — isolated / word-initial (no forward join)",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ـد",
           "name": "dal — final (preceded by a joiner)",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         }
       ]
@@ -262,20 +248,16 @@
           "arabic": "و",
           "name": "waw — isolated / word-initial (no forward join)",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         },
         {
           "arabic": "ـو",
           "name": "waw — final (preceded by a joiner)",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         }
       ]
@@ -291,7 +273,7 @@
             "name": "one cluster — د's normal non-connector gap, not a word-break",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads درس as ONE connected unit — the gap after د is just د refusing to join forward, not a space"
+              "cue": "درس is ONE connected unit — the gap after د is just د refusing to join forward, not a space"
             }
           },
           {
@@ -299,7 +281,7 @@
             "name": "two words — a genuine space between them",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads د رس as TWO separate words with a real pause — compare the gap width and the reading rhythm against درس above"
+              "cue": "د رس is TWO separate words with a real pause — compare the gap width and the reading rhythm against درس above"
             }
           }
         ]
@@ -308,7 +290,7 @@
     {
       "kind": "drill",
       "heading": "Guided recognition drill — predict the break",
-      "instructions": "Teacher shows an unvoweled cluster with a non-connector circled; student predicts (before reading aloud) where the joined/unjoined shape boundary will fall, then reads it to confirm.",
+      "instructions": "Look at each unvoweled cluster below with a non-connector circled. Before reading aloud, predict where the joined/unjoined shape boundary will fall, then read it aloud to confirm.",
       "grid": [
         [
           {
@@ -316,7 +298,7 @@
             "name": "dal + ra + seen",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
             }
           },
           {
@@ -324,7 +306,7 @@
             "name": "ra + dal + alif",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+              "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
             }
           },
           {
@@ -332,7 +314,7 @@
             "name": "waw + zay + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+              "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
             }
           },
           {
@@ -340,7 +322,7 @@
             "name": "dhal + ra + alif",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+              "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
             }
           },
           {
@@ -348,7 +330,7 @@
             "name": "alif + zay + dal",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+              "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
             }
           },
           {
@@ -356,7 +338,7 @@
             "name": "kaaf + ta + alif + dal",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+              "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
             }
           }
         ]
@@ -373,7 +355,7 @@
             "name": "dal + ra + seen",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
             }
           },
           {
@@ -381,7 +363,7 @@
             "name": "ra + dal + alif",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+              "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
             }
           },
           {
@@ -389,7 +371,7 @@
             "name": "waw + zay + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+              "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
             }
           },
           {
@@ -397,7 +379,7 @@
             "name": "dhal + ra + alif",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+              "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
             }
           },
           {
@@ -405,7 +387,7 @@
             "name": "alif + zay + dal",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+              "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
             }
           },
           {
@@ -413,7 +395,7 @@
             "name": "kaaf + ta + alif + dal",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+              "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
             }
           }
         ]
@@ -430,7 +412,7 @@
             "name": "ba + ta",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+              "cue": "بت — one joined cluster: ba flows directly into ta, no gap between them"
             }
           },
           {
@@ -438,7 +420,7 @@
             "name": "kaaf + ta + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+              "cue": "كتب — one joined cluster: kaaf, ta, and ba all flow together, no gaps"
             }
           }
         ]
@@ -452,30 +434,24 @@
           "arabic": "ا",
           "name": "alif",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1117,
-            "title": "Muallimi Soniy — alif section"
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
           }
         },
         {
           "arabic": "د",
           "name": "dal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ذ",
           "name": "dhal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 14598,
-            "title": "Muallimi Soniy — ذ (dhal) section"
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
           }
         },
         {
@@ -492,20 +468,16 @@
           "arabic": "ز",
           "name": "zay",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1819,
-            "title": "Muallimi Soniy — ز (zay) section"
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
           }
         },
         {
           "arabic": "و",
           "name": "waw",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         }
       ]
@@ -514,8 +486,9 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
-        "Daily recitation (aloud, from the printed sheet) of the 6 non-connector clusters from today's drill, 3× through",
-        "Attempt the \"predict the break\" exercise on 3 new clusters the teacher provides for next lesson (recognition/prediction only, no writing)",
+        "In your notebook, write each of today's 6 non-connectors in both its forms — isolated/initial and final (ا / ـا, د / ـد, ذ / ـذ, ر / ـر, ز / ـز, و / ـو) — 4 full rows each, saying the letter's name aloud as you write, then memorize today's 6 non-connectors and their two forms",
+        "Daily recitation aloud of the 6 non-connector clusters from today's drill, 3× through, reviewing letters and clusters learned in previous lessons",
+        "Attempt the \"predict the break\" exercise on 3 new clusters your teacher provides for next lesson (recognition/prediction only, no writing)",
         "Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily"
       ]
     }
@@ -524,37 +497,31 @@
     "drills": [
       {
         "title": "Concept flashcard — the 6 non-connectors",
-        "instructions": "Drilled as a group chant/list until automatic.",
+        "instructions": "Chant the list aloud as a group, round after round, until it feels automatic.",
         "grid": [
           [
             {
               "arabic": "ا",
               "name": "alif",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 1117,
-                "title": "Muallimi Soniy — alif section"
+                "type": "teacher-voice",
+                "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
               }
             },
             {
               "arabic": "د",
               "name": "dal",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 13525,
-                "title": "Muallimi Soniy — د (dal) section"
+                "type": "teacher-voice",
+                "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
               }
             },
             {
               "arabic": "ذ",
               "name": "dhal",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 14598,
-                "title": "Muallimi Soniy — ذ (dhal) section"
+                "type": "teacher-voice",
+                "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
               }
             },
             {
@@ -571,20 +538,16 @@
               "arabic": "ز",
               "name": "zay",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 1819,
-                "title": "Muallimi Soniy — ز (zay) section"
+                "type": "teacher-voice",
+                "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
               }
             },
             {
               "arabic": "و",
               "name": "waw",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 6387,
-                "title": "Muallimi Soniy — و (waw) section"
+                "type": "teacher-voice",
+                "cue": "و: rounded lips — a consonant 'w'"
               }
             }
           ]
@@ -592,7 +555,7 @@
       },
       {
         "title": "Cluster-reading drill (unvoweled)",
-        "instructions": "Mix of clusters, each containing at least one non-connector, positioned in different spots — first, middle, last — so the rule applies regardless of position within the cluster.",
+        "instructions": "Read each cluster aloud. Each one contains at least one non-connector, positioned in different spots — first, middle, last — so the rule applies no matter where it falls.",
         "grid": [
           [
             {
@@ -600,7 +563,7 @@
               "name": "dal + ra + seen",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+                "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
               }
             },
             {
@@ -608,7 +571,7 @@
               "name": "ra + dal + alif",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+                "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
               }
             },
             {
@@ -616,7 +579,7 @@
               "name": "waw + zay + nun",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+                "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
               }
             },
             {
@@ -624,7 +587,7 @@
               "name": "dhal + ra + alif",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+                "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
               }
             },
             {
@@ -632,7 +595,7 @@
               "name": "alif + zay + dal",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+                "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
               }
             },
             {
@@ -640,7 +603,7 @@
               "name": "kaaf + ta + alif + dal",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+                "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
               }
             }
           ]
@@ -648,7 +611,7 @@
       },
       {
         "title": "\"Predict the break\" drill",
-        "instructions": "Predict (before reading aloud) where the joined/unjoined shape boundary will fall, then read it to confirm.",
+        "instructions": "Before reading aloud, predict where the joined/unjoined shape boundary will fall in each cluster below, then read it aloud to confirm.",
         "grid": [
           [
             {
@@ -656,7 +619,7 @@
               "name": "dal + ra + seen",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+                "cue": "درس — one connected unit: dal and ra each refuse to join forward, creating two internal gaps, though seen still completes one single word"
               }
             },
             {
@@ -664,7 +627,7 @@
               "name": "ra + dal + alif",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ردا aloud, modeling the joined pronunciation (ra + dal + alif)"
+                "cue": "ردا — one connected unit: ra and dal each refuse to join forward, creating two internal gaps, though it is one single word ending in alif"
               }
             },
             {
@@ -672,7 +635,7 @@
               "name": "waw + zay + nun",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads وزن aloud, modeling the joined pronunciation (waw + zay + nun)"
+                "cue": "وزن — one connected unit: waw and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in nun"
               }
             },
             {
@@ -680,7 +643,7 @@
               "name": "dhal + ra + alif",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ذرا aloud, modeling the joined pronunciation (dhal + ra + alif)"
+                "cue": "ذرا — one connected unit: dhal and ra each refuse to join forward, creating two internal gaps, though it is one single word"
               }
             },
             {
@@ -688,7 +651,7 @@
               "name": "alif + zay + dal",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ازد aloud, modeling the joined pronunciation (alif + zay + dal)"
+                "cue": "ازد — one connected unit: alif and zay each refuse to join forward, creating two internal gaps, though it is one single word ending in dal"
               }
             },
             {
@@ -696,7 +659,7 @@
               "name": "kaaf + ta + alif + dal",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كتاد aloud, modeling the joined pronunciation (kaaf + ta + alif + dal)"
+                "cue": "كتاد — one connected unit: kaaf joins ta joins alif normally, then alif refuses to join forward into dal — still one single word"
               }
             }
           ]
@@ -704,6 +667,7 @@
       }
     ],
     "dailyChecklist": [
+      "Write today's 6 non-connectors in both forms — isolated/initial and final (ا / ـا, د / ـد, ذ / ـذ, ر / ـر, ز / ـز, و / ـو) — 4 rows each, in your notebook, saying the name aloud as you write",
       "Daily recitation (aloud) of the 6 non-connector clusters from today's drill, 3× through",
       "Attempt the \"predict the break\" exercise on 3 new clusters (recognition/prediction only, no writing)",
       "Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily"
@@ -723,7 +687,7 @@
       "Student misreading a non-connector's normal \"gap\" as a full word-break, splitting one word into two when reading aloud.",
       "Regression on the 6 individual letters' own sounds (since these are \"old\" content from Unit 1.1, a quick sound-accuracy spot-check is worthwhile alongside the shape-mechanics focus)."
     ],
-    "homework": "Daily recitation (aloud, from the printed sheet) of the 6 non-connector clusters from today's drill, 3× through. Student attempts the \"predict the break\" exercise on 3 new clusters the teacher provides for next lesson (recognition/prediction only, no writing). Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily."
+    "homework": "In the student's notebook: each of today's 6 non-connectors written in both forms — isolated/initial and final (ا / ـا, د / ـد, ذ / ـذ, ر / ـر, ز / ـز, و / ـو) — 4 full rows each, saying the letter's name aloud while writing, then memorized. Daily recitation (aloud) of the 6 non-connector clusters from today's drill, 3× through, reviewing letters and clusters learned in previous lessons. Student attempts the \"predict the break\" exercise on 3 new clusters the teacher provides for next lesson (recognition/prediction only, no writing). Recite the fixed 6-letter list (ا د ذ ر ز و) from memory once daily. No printed sheets."
   },
   "videos": [
     {

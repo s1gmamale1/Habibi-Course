@@ -22,10 +22,8 @@
           "arabic": "ا",
           "name": "alif",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1117,
-            "title": "Muallimi Soniy — alif section"
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
           }
         },
         {
@@ -66,40 +64,32 @@
           "arabic": "ح",
           "name": "haa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11593,
-            "title": "Muallimi Soniy — ح (heavy ha) section"
+            "type": "teacher-voice",
+            "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
           }
         },
         {
           "arabic": "خ",
           "name": "kha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11056,
-            "title": "Muallimi Soniy — خ (kha) section"
+            "type": "teacher-voice",
+            "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
           }
         },
         {
           "arabic": "د",
           "name": "dal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ذ",
           "name": "dhal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 14598,
-            "title": "Muallimi Soniy — ذ (dhal) section"
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
           }
         },
         {
@@ -116,30 +106,24 @@
           "arabic": "ز",
           "name": "zay",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1819,
-            "title": "Muallimi Soniy — ز (zay) section"
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
           }
         },
         {
           "arabic": "س",
           "name": "seen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 8227,
-            "title": "Muallimi Soniy — س (seen) section"
+            "type": "teacher-voice",
+            "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
           }
         },
         {
           "arabic": "ش",
           "name": "sheen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 7914,
-            "title": "Muallimi Soniy — ش (sheen) section"
+            "type": "teacher-voice",
+            "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
           }
         },
         {
@@ -186,30 +170,24 @@
           "arabic": "ع",
           "name": "ayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12720,
-            "title": "Muallimi Soniy — ع (ayn) section"
+            "type": "teacher-voice",
+            "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
           }
         },
         {
           "arabic": "غ",
           "name": "ghayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12280,
-            "title": "Muallimi Soniy — غ (ghayn) section"
+            "type": "teacher-voice",
+            "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
           }
         },
         {
           "arabic": "ف",
           "name": "fa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6955,
-            "title": "Muallimi Soniy — ف (fa) section"
+            "type": "teacher-voice",
+            "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
           }
         },
         {
@@ -226,10 +204,8 @@
           "arabic": "ك",
           "name": "kaaf",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
@@ -246,10 +222,8 @@
           "arabic": "م",
           "name": "meem",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         },
         {
@@ -266,30 +240,24 @@
           "arabic": "ه",
           "name": "ha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6705,
-            "title": "Muallimi Soniy — ه (light ha) section"
+            "type": "teacher-voice",
+            "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
           }
         },
         {
           "arabic": "و",
           "name": "waw",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         },
         {
           "arabic": "ي",
           "name": "ya",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         }
       ]
@@ -464,40 +432,32 @@
           "arabic": "ي",
           "name": "ya — isolated",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         },
         {
           "arabic": "يـ",
           "name": "ya — initial",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         },
         {
           "arabic": "ـيـ",
           "name": "ya — medial",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         },
         {
           "arabic": "ـي",
           "name": "ya — final",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         }
       ]
@@ -514,40 +474,32 @@
           "arabic": "ك",
           "name": "kaaf — isolated",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
           "arabic": "كـ",
           "name": "kaaf — initial",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
           "arabic": "ـكـ",
           "name": "kaaf — medial",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
           "arabic": "ـك",
           "name": "kaaf — final",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
@@ -594,40 +546,32 @@
           "arabic": "م",
           "name": "meem — isolated",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         },
         {
           "arabic": "مـ",
           "name": "meem — initial",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         },
         {
           "arabic": "ـمـ",
           "name": "meem — medial",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         },
         {
           "arabic": "ـم",
           "name": "meem — final",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         }
       ]
@@ -635,7 +579,7 @@
     {
       "kind": "drill",
       "heading": "Guided recognition drill — name the position",
-      "instructions": "Teacher shows an isolated letter or a position-form card; student names the letter AND states which position it's in (isolated/initial/medial/final), for each of the 8 focus letters: ب ت ث ن ي ك ل م.",
+      "instructions": "Look at each isolated letter or position-form card shown. Name the letter and state which position it's in (isolated/initial/medial/final), for each of the 8 focus letters: ب ت ث ن ي ك ل م.",
       "grid": [
         [
           {
@@ -786,40 +730,32 @@
             "arabic": "ي",
             "name": "ya — isolated",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 3655,
-              "title": "Muallimi Soniy — ي (ya) section"
+              "type": "teacher-voice",
+              "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
             }
           },
           {
             "arabic": "يـ",
             "name": "ya — initial",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 3655,
-              "title": "Muallimi Soniy — ي (ya) section"
+              "type": "teacher-voice",
+              "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
             }
           },
           {
             "arabic": "ـيـ",
             "name": "ya — medial",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 3655,
-              "title": "Muallimi Soniy — ي (ya) section"
+              "type": "teacher-voice",
+              "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
             }
           },
           {
             "arabic": "ـي",
             "name": "ya — final",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 3655,
-              "title": "Muallimi Soniy — ي (ya) section"
+              "type": "teacher-voice",
+              "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
             }
           }
         ],
@@ -828,40 +764,32 @@
             "arabic": "ك",
             "name": "kaaf — isolated",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 4878,
-              "title": "Muallimi Soniy — ك (kaaf) section"
+              "type": "teacher-voice",
+              "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
             }
           },
           {
             "arabic": "كـ",
             "name": "kaaf — initial",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 4878,
-              "title": "Muallimi Soniy — ك (kaaf) section"
+              "type": "teacher-voice",
+              "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
             }
           },
           {
             "arabic": "ـكـ",
             "name": "kaaf — medial",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 4878,
-              "title": "Muallimi Soniy — ك (kaaf) section"
+              "type": "teacher-voice",
+              "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
             }
           },
           {
             "arabic": "ـك",
             "name": "kaaf — final",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 4878,
-              "title": "Muallimi Soniy — ك (kaaf) section"
+              "type": "teacher-voice",
+              "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
             }
           }
         ],
@@ -912,40 +840,32 @@
             "arabic": "م",
             "name": "meem — isolated",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 2254,
-              "title": "Muallimi Soniy — م (meem) section"
+              "type": "teacher-voice",
+              "cue": "م: the two lips, with nasal resonance — 'm'"
             }
           },
           {
             "arabic": "مـ",
             "name": "meem — initial",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 2254,
-              "title": "Muallimi Soniy — م (meem) section"
+              "type": "teacher-voice",
+              "cue": "م: the two lips, with nasal resonance — 'm'"
             }
           },
           {
             "arabic": "ـمـ",
             "name": "meem — medial",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 2254,
-              "title": "Muallimi Soniy — م (meem) section"
+              "type": "teacher-voice",
+              "cue": "م: the two lips, with nasal resonance — 'm'"
             }
           },
           {
             "arabic": "ـم",
             "name": "meem — final",
             "audio": {
-              "type": "youtube-cue",
-              "videoId": "VhRHKdPcNPA",
-              "startSeconds": 2254,
-              "title": "Muallimi Soniy — م (meem) section"
+              "type": "teacher-voice",
+              "cue": "م: the two lips, with nasal resonance — 'm'"
             }
           }
         ]
@@ -954,7 +874,7 @@
     {
       "kind": "drill",
       "heading": "Guided recognition drill #2 — connected 2-letter clusters",
-      "instructions": "Teacher shows a 2-letter connected (unvoweled) cluster; student identifies both component letters despite the shape change.",
+      "instructions": "Look at each 2-letter connected (unvoweled) cluster shown. Identify both component letters despite the shape change.",
       "grid": [
         [
           {
@@ -1134,7 +1054,7 @@
     {
       "kind": "drill",
       "heading": "Cumulative check — the concept applies beyond today's 8 letters",
-      "instructions": "Confirm the concept (not just today's 8 letters) has landed: student READS each cluster below, built from Unit 1.1 letters OUTSIDE today's focus set (ح ص ق) combined with already-taught focus letters, naming every component letter regardless of its positional shape.",
+      "instructions": "Read each cluster below aloud, built from Unit 1.1 letters outside today's focus set (ح ص ق) combined with already-taught focus letters. Name every component letter regardless of its positional shape.",
       "grid": [
         [
           {
@@ -1214,20 +1134,16 @@
           "arabic": "ي",
           "name": "ya",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         },
         {
           "arabic": "ك",
           "name": "kaaf",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
@@ -1244,10 +1160,8 @@
           "arabic": "م",
           "name": "meem",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         }
       ]
@@ -1256,9 +1170,9 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
-        "Printed take-home sheet with the 32 position-form flashcards (recognition only, no writing)",
+        "In your notebook, write each of today's 8 letters (ب ت ث ن ي ك ل م) in all its forms — isolated, initial, medial, final (e.g. ب بـ ـبـ ـب) — 4 full rows per letter, saying its name and sound aloud as you write, then memorize today's forms",
         "Daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson, aloud, 3× through",
-        "Mark (checkbox, not writing) any cluster you hesitated on, for teacher follow-up"
+        "Review: write one row of 5 previously learned letters of your choice in their forms, saying each name and sound aloud as you write"
       ]
     }
   ],
@@ -1266,7 +1180,7 @@
     "drills": [
       {
         "title": "Position-form flashcards",
-        "instructions": "Each of ب ت ث ن ي ك ل م shown in isolated / initial / medial / final form (4 cards × 8 letters = 32 cards). Name the letter + state its position.",
+        "instructions": "Look at each of ب ت ث ن ي ك ل م shown in isolated / initial / medial / final form (4 cards × 8 letters = 32 cards). Name the letter and state its position.",
         "grid": [
           [
             {
@@ -1417,40 +1331,32 @@
               "arabic": "ي",
               "name": "ya — isolated",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 3655,
-                "title": "Muallimi Soniy — ي (ya) section"
+                "type": "teacher-voice",
+                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
               }
             },
             {
               "arabic": "يـ",
               "name": "ya — initial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 3655,
-                "title": "Muallimi Soniy — ي (ya) section"
+                "type": "teacher-voice",
+                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
               }
             },
             {
               "arabic": "ـيـ",
               "name": "ya — medial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 3655,
-                "title": "Muallimi Soniy — ي (ya) section"
+                "type": "teacher-voice",
+                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
               }
             },
             {
               "arabic": "ـي",
               "name": "ya — final",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 3655,
-                "title": "Muallimi Soniy — ي (ya) section"
+                "type": "teacher-voice",
+                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
               }
             }
           ],
@@ -1459,40 +1365,32 @@
               "arabic": "ك",
               "name": "kaaf — isolated",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 4878,
-                "title": "Muallimi Soniy — ك (kaaf) section"
+                "type": "teacher-voice",
+                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
               }
             },
             {
               "arabic": "كـ",
               "name": "kaaf — initial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 4878,
-                "title": "Muallimi Soniy — ك (kaaf) section"
+                "type": "teacher-voice",
+                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
               }
             },
             {
               "arabic": "ـكـ",
               "name": "kaaf — medial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 4878,
-                "title": "Muallimi Soniy — ك (kaaf) section"
+                "type": "teacher-voice",
+                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
               }
             },
             {
               "arabic": "ـك",
               "name": "kaaf — final",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 4878,
-                "title": "Muallimi Soniy — ك (kaaf) section"
+                "type": "teacher-voice",
+                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
               }
             }
           ],
@@ -1543,40 +1441,32 @@
               "arabic": "م",
               "name": "meem — isolated",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 2254,
-                "title": "Muallimi Soniy — م (meem) section"
+                "type": "teacher-voice",
+                "cue": "م: the two lips, with nasal resonance — 'm'"
               }
             },
             {
               "arabic": "مـ",
               "name": "meem — initial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 2254,
-                "title": "Muallimi Soniy — م (meem) section"
+                "type": "teacher-voice",
+                "cue": "م: the two lips, with nasal resonance — 'm'"
               }
             },
             {
               "arabic": "ـمـ",
               "name": "meem — medial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 2254,
-                "title": "Muallimi Soniy — م (meem) section"
+                "type": "teacher-voice",
+                "cue": "م: the two lips, with nasal resonance — 'm'"
               }
             },
             {
               "arabic": "ـم",
               "name": "meem — final",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "VhRHKdPcNPA",
-                "startSeconds": 2254,
-                "title": "Muallimi Soniy — م (meem) section"
+                "type": "teacher-voice",
+                "cue": "م: the two lips, with nasal resonance — 'm'"
               }
             }
           ]
@@ -1656,7 +1546,7 @@
       },
       {
         "title": "Cluster-reading drill (3-letter, unvoweled)",
-        "instructions": "Decoding practice — these are not meant as vocabulary to translate, purely shape-recognition-in-context practice.",
+        "instructions": "Read each cluster aloud. These are not meant as vocabulary to translate — purely shape-recognition-in-context practice.",
         "grid": [
           [
             {
@@ -1696,9 +1586,9 @@
       }
     ],
     "dailyChecklist": [
-      "32 position-form flashcards, recognition only (no writing)",
+      "Write today's 8 letters (ب ت ث ن ي ك ل م) in all forms (isolated/initial/medial/final) 4 rows each in your notebook, saying the name and sound aloud as you write",
       "Re-read the 8 two-letter and 4 three-letter clusters aloud, 3× through",
-      "Mark (checkbox, not writing) any cluster you hesitated on, for teacher follow-up"
+      "Review: write one row of 5 previously learned letters in their forms, saying each name and sound aloud as you write"
     ]
   },
   "teacherNotes": {
@@ -1715,7 +1605,7 @@
       "Student reading left-to-right out of habit (if their other literacy, Cyrillic/Latin Uzbek, is LTR) — watch for direction slips, especially on the very first cluster of the lesson.",
       "Sounds regressing on letters that were solid in isolation (e.g., ث or ح appearing in a cluster) — confirms whether errors from Unit 1.1 were truly fixed or were \"isolation-only\" fixes that don't yet transfer to reading context."
     ],
-    "homework": "Printed take-home sheet with the 32 position-form flashcards (recognition only, no writing). Daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson, aloud, 3× through. Student marks (checkbox, not writing letters) any cluster they hesitated on for teacher follow-up."
+    "homework": "In the student's notebook: today's 8 letters (ب ت ث ن ي ك ل م) written in all forms — isolated, initial, medial, final — 4 full rows per letter, saying name and sound aloud while writing, then memorized; daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson aloud, 3× through; a review row of 5 previously learned letters written in their forms, name and sound said aloud while writing. No printed sheets."
   },
   "videos": [
     {

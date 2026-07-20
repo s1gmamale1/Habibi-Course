@@ -22,10 +22,8 @@
           "arabic": "ا",
           "name": "alif",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1117,
-            "title": "Muallimi Soniy — alif section"
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
           }
         },
         {
@@ -66,40 +64,32 @@
           "arabic": "ح",
           "name": "haa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11593,
-            "title": "Muallimi Soniy — ح (heavy ha) section"
+            "type": "teacher-voice",
+            "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
           }
         },
         {
           "arabic": "خ",
           "name": "kha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11056,
-            "title": "Muallimi Soniy — خ (kha) section"
+            "type": "teacher-voice",
+            "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
           }
         },
         {
           "arabic": "د",
           "name": "dal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ذ",
           "name": "dhal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 14598,
-            "title": "Muallimi Soniy — ذ (dhal) section"
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
           }
         },
         {
@@ -116,30 +106,24 @@
           "arabic": "ز",
           "name": "zay",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1819,
-            "title": "Muallimi Soniy — ز (zay) section"
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
           }
         },
         {
           "arabic": "س",
           "name": "seen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 8227,
-            "title": "Muallimi Soniy — س (seen) section"
+            "type": "teacher-voice",
+            "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
           }
         },
         {
           "arabic": "ش",
           "name": "sheen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 7914,
-            "title": "Muallimi Soniy — ش (sheen) section"
+            "type": "teacher-voice",
+            "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
           }
         },
         {
@@ -186,30 +170,24 @@
           "arabic": "ع",
           "name": "ayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12720,
-            "title": "Muallimi Soniy — ع (ayn) section"
+            "type": "teacher-voice",
+            "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
           }
         },
         {
           "arabic": "غ",
           "name": "ghayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12280,
-            "title": "Muallimi Soniy — غ (ghayn) section"
+            "type": "teacher-voice",
+            "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
           }
         },
         {
           "arabic": "ف",
           "name": "fa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6955,
-            "title": "Muallimi Soniy — ف (fa) section"
+            "type": "teacher-voice",
+            "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
           }
         },
         {
@@ -226,10 +204,8 @@
           "arabic": "ك",
           "name": "kaaf",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
@@ -246,10 +222,8 @@
           "arabic": "م",
           "name": "meem",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         },
         {
@@ -266,30 +240,24 @@
           "arabic": "ه",
           "name": "ha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6705,
-            "title": "Muallimi Soniy — ه (light ha) section"
+            "type": "teacher-voice",
+            "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
           }
         },
         {
           "arabic": "و",
           "name": "waw",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         },
         {
           "arabic": "ي",
           "name": "ya",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         }
       ]
@@ -297,7 +265,7 @@
     {
       "kind": "drill",
       "heading": "Full 84-cell mixed grid reveal",
-      "instructions": "All 3 vowels interleaved per letter (أَ إِ أُ, بَ بِ بُ, تَ تِ تُ … through ي) — not organized vowel-then-letter anymore.",
+      "instructions": "Read each cell aloud as it's revealed — all 3 vowels interleaved per letter (أَ إِ أُ, بَ بِ بُ, تَ تِ تُ … through ي), not organized vowel-then-letter anymore.",
       "grid": [
         [
           {
@@ -1813,7 +1781,7 @@
     {
       "kind": "drill",
       "heading": "3-syllable combinations",
-      "instructions": "Same, extended by one more cell. Note: قَرَأَ contains a hamza on alif, a light forward-preview only — explain briefly if it comes up; full hamza-seat rules are Phase 2/3 content.",
+      "instructions": "Read each as three connected voweled cells in sequence, extended by one more cell. Note: قَرَأَ contains a hamza (a small glottal-stop mark) on alif — a light preview only; full hamza-seat rules come later in the course.",
       "grid": [
         [
           {
@@ -1862,7 +1830,7 @@
     {
       "kind": "drill",
       "heading": "Cold-read set — pure transfer check",
-      "instructions": "4 brand-new syllable combinations not drilled before this lesson.",
+      "instructions": "Read each cluster aloud — 4 brand-new syllable combinations you haven't drilled before this lesson.",
       "grid": [
         [
           {
@@ -1920,7 +1888,7 @@
       "kind": "concept",
       "heading": "What to expect at the real Checkpoint 1",
       "body": [
-        "Same test script you just rehearsed: warm-up recognition pass, makhraj spot-check, positional reading, vowel grid spot-check, syllable transfer test, wrap-up.",
+        "Same test script you just rehearsed: warm-up recognition pass, makhraj (where the sound is born in your mouth or throat) spot-check, positional reading, vowel grid spot-check, syllable transfer test, wrap-up.",
         "A failed checkpoint never means restarting Phase 1 — it triggers targeted revision of only the specific weak unit(s), then a retest."
       ]
     },
@@ -1928,7 +1896,8 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
-        "Full 84-cell grid, randomized self-quiz, daily",
+        "In your notebook, write today's marked syllables (بَتَ، سَرَ، مَنَ، كَتَبَ، دَرَسَ، سَمِعَ …) 4 full rows, saying each syllable aloud as you write, then memorize them",
+        "Full 84-cell grid, randomized self-quiz, daily — this also reviews every letter learned so far",
         "Re-read all syllable combinations (2- and 3-syllable) from today, 3× through",
         "Focused extra practice only on whatever 1–2 specific weak spots the joint debrief identified — not a blanket repeat of everything",
         "Rest/consolidate the day immediately before the real Checkpoint 1 session (light review only, no new drilling)"
@@ -1939,7 +1908,7 @@
     "drills": [
       {
         "title": "Full 84-cell mixed grid",
-        "instructions": "Fatha/kasra/damma interleaved per letter, randomized presentation order for self-quiz.",
+        "instructions": "Read each cell aloud, fatha/kasra/damma interleaved per letter, randomized order — self-quiz.",
         "grid": [
           [
             {
@@ -2641,7 +2610,7 @@
       },
       {
         "title": "2-syllable combinations",
-        "instructions": "Abstract decoding practice, not vocabulary-taught-for-meaning.",
+        "instructions": "Read each cluster aloud — abstract decoding practice, not vocabulary-taught-for-meaning.",
         "grid": [
           [
             {
@@ -2729,7 +2698,7 @@
       },
       {
         "title": "3-syllable combinations",
-        "instructions": "قَرَأَ contains a hamza on alif, a light forward-preview only — full hamza-seat rules are Phase 2/3 content.",
+        "instructions": "Read each cluster aloud. قَرَأَ contains a hamza (a small glottal-stop mark) on alif — a light preview only; full hamza-seat rules come later in the course.",
         "grid": [
           [
             {
@@ -2777,7 +2746,7 @@
       },
       {
         "title": "Cold-read transfer set",
-        "instructions": "New, unseen before this lesson.",
+        "instructions": "Read each cluster aloud — new, unseen before this lesson.",
         "grid": [
           [
             {
@@ -2817,6 +2786,7 @@
       }
     ],
     "dailyChecklist": [
+      "Write today's marked syllables 4 rows each in your notebook, saying each syllable aloud as you write",
       "Full 84-cell grid, randomized self-quiz, daily",
       "Re-read all syllable combinations (2- and 3-syllable) from today, 3× through",
       "Focused extra practice only on whatever 1–2 specific weak spots the joint debrief identified",
@@ -2837,7 +2807,7 @@
       "During the mock checkpoint run-through specifically: distinguish Jali (wrong letter/sound entirely — hard-fail signal) from Khafi (right letter/sound but quality slightly off — flag-and-practice signal), using the rubric in the Checkpoint 1 Kit, so the debrief conversation is concrete rather than vague (\"you're basically ready\" vs. \"here are the 3 specific cells to drill\").",
       "Syllable-transfer set specifically: does the student sound out letter-by-letter still, or read the combination fluently? Either is fine at this stage, but note it for Phase 2 pacing."
     ],
-    "homework": "Full 84-cell grid, randomized self-quiz, daily. Re-read all syllable combinations (2- and 3-syllable) from today, 3× through. Focused extra practice only on whatever 1–2 specific weak spots the joint debrief identified — not a blanket repeat of everything. Rest/consolidate the day immediately before the real Checkpoint 1 session (light review only, no new drilling)."
+    "homework": "In the student's notebook: today's marked syllables written 4 full rows, saying each aloud while writing, then memorized. Full 84-cell grid, randomized self-quiz, daily (also reviews every letter learned so far). Re-read all syllable combinations (2- and 3-syllable) from today, 3× through. Focused extra practice only on whatever 1–2 specific weak spots the joint debrief identified — not a blanket repeat of everything. Rest/consolidate the day immediately before the real Checkpoint 1 session (light review only, no new drilling). No printed sheets."
   },
   "videos": []
 }

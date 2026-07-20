@@ -30,10 +30,8 @@
           "arabic": "ا",
           "name": "alif",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1117,
-            "title": "Muallimi Soniy — alif section"
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
           }
         },
         {
@@ -74,40 +72,32 @@
           "arabic": "ح",
           "name": "haa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11593,
-            "title": "Muallimi Soniy — ح (heavy ha) section"
+            "type": "teacher-voice",
+            "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
           }
         },
         {
           "arabic": "خ",
           "name": "kha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11056,
-            "title": "Muallimi Soniy — خ (kha) section"
+            "type": "teacher-voice",
+            "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
           }
         },
         {
           "arabic": "د",
           "name": "dal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ذ",
           "name": "dhal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 14598,
-            "title": "Muallimi Soniy — ذ (dhal) section"
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
           }
         },
         {
@@ -124,30 +114,24 @@
           "arabic": "ز",
           "name": "zay",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1819,
-            "title": "Muallimi Soniy — ز (zay) section"
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
           }
         },
         {
           "arabic": "س",
           "name": "seen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 8227,
-            "title": "Muallimi Soniy — س (seen) section"
+            "type": "teacher-voice",
+            "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
           }
         },
         {
           "arabic": "ش",
           "name": "sheen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 7914,
-            "title": "Muallimi Soniy — ش (sheen) section"
+            "type": "teacher-voice",
+            "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
           }
         },
         {
@@ -194,30 +178,24 @@
           "arabic": "ع",
           "name": "ayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12720,
-            "title": "Muallimi Soniy — ع (ayn) section"
+            "type": "teacher-voice",
+            "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
           }
         },
         {
           "arabic": "غ",
           "name": "ghayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12280,
-            "title": "Muallimi Soniy — غ (ghayn) section"
+            "type": "teacher-voice",
+            "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
           }
         },
         {
           "arabic": "ف",
           "name": "fa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6955,
-            "title": "Muallimi Soniy — ف (fa) section"
+            "type": "teacher-voice",
+            "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
           }
         },
         {
@@ -234,10 +212,8 @@
           "arabic": "ك",
           "name": "kaaf",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
@@ -254,10 +230,8 @@
           "arabic": "م",
           "name": "meem",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         },
         {
@@ -274,30 +248,24 @@
           "arabic": "ه",
           "name": "ha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6705,
-            "title": "Muallimi Soniy — ه (light ha) section"
+            "type": "teacher-voice",
+            "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
           }
         },
         {
           "arabic": "و",
           "name": "waw",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         },
         {
           "arabic": "ي",
           "name": "ya",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         },
         {
@@ -373,7 +341,7 @@
       "kind": "concept",
       "heading": "A heavy letter: صَ",
       "body": [
-        "Same fatha mark, but notice the \"a\" now sounds fuller/darker (\"saw\"-like, not flat \"sa\") — first sensory exposure to tafkheem-colors-the-vowel.",
+        "Same fatha mark, but notice the \"a\" now sounds fuller/darker (\"saw\"-like, not flat \"sa\") — this is your first taste of tafkheem (the heavier, fuller quality some letters give their vowels).",
         "Say سَ then صَ back to back to feel the difference."
       ],
       "items": [
@@ -398,7 +366,7 @@
     {
       "kind": "drill",
       "heading": "Full letter × fatha grid (28 cells)",
-      "instructions": "أَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ سَ شَ صَ ضَ طَ ظَ عَ غَ فَ قَ كَ لَ مَ نَ هَ وَ يَ — the full grid, revealed together for the first time.",
+      "instructions": "Read each cell aloud, left to right: أَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ سَ شَ صَ ضَ طَ ظَ عَ غَ فَ قَ كَ لَ مَ نَ هَ وَ يَ — the full grid, revealed together for the first time.",
       "grid": [
         [
           {
@@ -883,7 +851,7 @@
     {
       "kind": "drill",
       "heading": "Randomized-order re-drill",
-      "instructions": "The same 28 cells, reordered so the student cannot rely on memorized left-to-right order — tests real recognition, not sequence memory.",
+      "instructions": "Read each cell aloud in this new shuffled order — don't rely on the order you memorized; this tests whether you truly recognize each letter.",
       "grid": [
         [
           {
@@ -1432,8 +1400,9 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
-        "Printed full letter × fatha grid (28 cells, Amiri font) for daily recitation practice, randomized-order self-quiz (cover rows and re-reveal)",
-        "Daily heavy-vs-light contrast pairs (4 pairs × 3 reps)",
+        "In your notebook, write today's marked syllables (أَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ سَ شَ صَ ضَ طَ ظَ عَ غَ فَ قَ كَ لَ مَ نَ هَ وَ يَ) 4 full rows, saying each sound aloud as you write it, then memorize today's grid",
+        "Daily heavy-vs-light contrast pairs (سَ/صَ — تَ/طَ — ذَ/ظَ — كَ/قَ), 4 pairs × 3 reps, said aloud",
+        "Review previously learned letters: read the cumulative 28-letter shuffle aloud once",
         "Listen once to the Uzbek channel's fatha section"
       ]
     }
@@ -1442,7 +1411,7 @@
     "drills": [
       {
         "title": "Full letter × fatha grid",
-        "instructions": "All 28 letters + fatha, randomized-order self-quiz (cover rows and re-reveal).",
+        "instructions": "Read each cell aloud. Then self-quiz: cover rows and re-reveal, in randomized order.",
         "grid": [
           [
             {
@@ -1680,7 +1649,7 @@
       },
       {
         "title": "Randomized-order re-drill",
-        "instructions": "The same 28 cells in shuffled order — tests real recognition, not memorized sequence.",
+        "instructions": "Read each cell aloud in this shuffled order — don't rely on the sequence you memorized; this tests real recognition.",
         "grid": [
           [
             {
@@ -1996,8 +1965,10 @@
       }
     ],
     "dailyChecklist": [
-      "Printed full letter × fatha grid (28 cells), randomized-order self-quiz (cover rows and re-reveal)",
-      "Daily heavy-vs-light contrast pairs (4 pairs × 3 reps)",
+      "Write today's marked syllables (28-cell grid) 4 rows each in your notebook, saying each sound aloud as you write",
+      "Randomized-order self-quiz drill: read each cell aloud",
+      "Heavy-vs-light contrast pairs (4 pairs × 3 reps)",
+      "Review previously learned letters via the cumulative shuffle",
       "Listen once to the Uzbek channel's fatha section"
     ]
   },
@@ -2015,16 +1986,12 @@
       "Heavy letters' fatha not darkening at all (student produces a flat \"a\" even after ص ض ط ظ ق غ خ) — the first testable instance of the tafkheem-bleeds-into-the-vowel pattern named in the sourced research (teaching-mistakes-assessment.md A.2).",
       "Any regression on the underlying consonant sound now that a vowel is attached (a letter that was solid in isolation coming out wrong once voweled) — re-flag using the same high-risk-six watchlist from Unit 1.1."
     ],
-    "homework": "Printed full letter × fatha grid (28 cells, Amiri font) for daily recitation practice, randomized-order self-quiz (student covers rows and re-reveals). Daily heavy-vs-light contrast pairs (4 pairs × 3 reps). Listen once to the Uzbek channel's fatha section."
+    "homework": "In the student's notebook: today's marked syllables (28-cell grid) written 4 full rows, saying each sound aloud while writing, then memorized. Daily heavy-vs-light contrast pairs (4 pairs × 3 reps). Review previously learned letters via the cumulative shuffle. Listen once to the Uzbek channel's fatha section. No printed sheets."
   },
   "videos": [
     {
-      "title": "Muallimi Soniy — fatha chapter",
-      "url": "https://youtu.be/VhRHKdPcNPA?t=0"
-    },
-    {
-      "title": "Muallimi Soniy — fatha read as 'o'",
-      "url": "https://youtu.be/VhRHKdPcNPA?t=159"
+      "title": "Muallimi Soniy — full alphabet compilation (reference)",
+      "url": "https://youtu.be/VhRHKdPcNPA"
     }
   ]
 }

@@ -104,8 +104,8 @@
       "kind": "concept",
       "heading": "Kasra and damma — two more vowel marks",
       "body": [
-        "Kasra ( ﹻ , below the letter) = short \"i\".",
-        "Damma ( ﹹ , above the letter) = short \"u\".",
+        "Kasra ( ﹻ , below the letter) = short \"i\" — as in بِ (bi).",
+        "Damma ( ﹹ , above the letter) = short \"u\" — as in بُ (bu).",
         "Same darkening-of-the-vowel phenomenon re-checked here after heavy letters: kasra tends to stay closer to a genuine short \"i\" even after heavy letters, but damma darkens toward a fuller \"u\"/\"o\"-adjacent quality — a real, sourced-in-tajweed-tradition phonetic effect, kept sensory/experiential here, not formally named."
       ]
     },
@@ -145,7 +145,7 @@
     {
       "kind": "drill",
       "heading": "Full letter × kasra grid reveal (28 cells)",
-      "instructions": "إِ بِ تِ ثِ جِ حِ خِ دِ ذِ رِ زِ سِ شِ صِ ضِ طِ ظِ عِ غِ فِ قِ كِ لِ مِ نِ هِ وِ يِ — the full kasra grid, revealed together for the first time.",
+      "instructions": "إِ بِ تِ ثِ جِ حِ خِ دِ ذِ رِ زِ سِ شِ صِ ضِ طِ ظِ عِ غِ فِ قِ كِ لِ مِ نِ هِ وِ يِ — the full kasra grid, revealed together for the first time. Read each cell aloud as your teacher reveals it.",
       "grid": [
         [
           {
@@ -623,7 +623,7 @@
     {
       "kind": "drill",
       "heading": "Full letter × damma grid reveal (28 cells)",
-      "instructions": "أُ بُ تُ ثُ جُ حُ خُ دُ ذُ رُ زُ سُ شُ صُ ضُ طُ ظُ عُ غُ فُ قُ كُ لُ مُ نُ هُ وُ يُ — the full damma grid, revealed together for the first time.",
+      "instructions": "أُ بُ تُ ثُ جُ حُ خُ دُ ذُ رُ زُ سُ شُ صُ ضُ طُ ظُ عُ غُ فُ قُ كُ لُ مُ نُ هُ وُ يُ — the full damma grid, revealed together for the first time. Read each cell aloud as your teacher reveals it.",
       "grid": [
         [
           {
@@ -1101,7 +1101,7 @@
     {
       "kind": "drill",
       "heading": "Randomized-order re-drill — kasra and damma mixed",
-      "instructions": "Both 28-cell grids (56 cells total) mixed together in shuffled order — tests recognition, not memorized sequence or vowel-block grouping.",
+      "instructions": "Read each cell aloud in this shuffled mix of both 28-cell grids (56 cells total) — this tests your recognition, not memorized sequence or vowel-block grouping.",
       "grid": [
         [
           {
@@ -1572,7 +1572,7 @@
     {
       "kind": "drill",
       "heading": "Full 3-vowel spot-check",
-      "instructions": "Teacher calls out any letter + any of the 3 harakat (e.g. \"ز + damma\") verbally, with nothing shown in print; student produces it on demand — an auditory-to-production check, not just a read-aloud check.",
+      "instructions": "Listen for your teacher calling out any letter + any of the 3 harakat (the short-vowel marks) — e.g. \"ز + damma\" — verbally, with nothing shown in print, then produce it from memory. This checks that you can produce the sound, not just read it aloud.",
       "grid": [
         [
           {
@@ -2197,8 +2197,8 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
-        "Printed full letter × kasra and letter × damma grids (Amiri font), randomized self-quiz",
-        "Daily \"call and produce\" self-drill using the take-home sheet (read a random cell, say it, check against the sheet)",
+        "In your notebook, write today's marked syllables 4 full rows each — the full kasra grid (إِ through يِ) and the full damma grid (أُ through يُ) — saying the letter + harakat (the short-vowel mark) and its sound aloud as you write, then memorize today's kasra and damma cells",
+        "Review previously learned letters: 3 rounds of the fatha grid recap, mixed order",
         "Listen once to the Uzbek channel's kasra and damma sections"
       ]
     }
@@ -2207,7 +2207,7 @@
     "drills": [
       {
         "title": "Full letter × kasra grid",
-        "instructions": "All 28 letters + kasra.",
+        "instructions": "Read each cell aloud, all 28 letters + kasra.",
         "grid": [
           [
             {
@@ -2445,7 +2445,7 @@
       },
       {
         "title": "Full letter × damma grid",
-        "instructions": "All 28 letters + damma.",
+        "instructions": "Read each cell aloud, all 28 letters + damma.",
         "grid": [
           [
             {
@@ -2683,7 +2683,7 @@
       },
       {
         "title": "Randomized mixed-order re-drill",
-        "instructions": "Both grids together (56 cells), shuffled order.",
+        "instructions": "Read each cell aloud in this shuffled mix of both grids (56 cells total).",
         "grid": [
           [
             {
@@ -3153,7 +3153,7 @@
       },
       {
         "title": "Heavy-vs-light contrast pairs — kasra and damma",
-        "instructions": "Kasra: سِ/صِ — تِ/طِ. Damma: سُ/صُ — تُ/طُ.",
+        "instructions": "Kasra: سِ/صِ — تِ/طِ. Damma: سُ/صُ — تُ/طُ. Say each pair back to back, a few reps each.",
         "grid": [
           [
             {
@@ -3231,7 +3231,7 @@
       },
       {
         "title": "\"Call and produce\" spot-check",
-        "instructions": "Teacher names a letter + a vowel verbally (no text shown), student produces the sound unprompted by print — 10 rounds, randomized across all 28×3 combinations learned so far.",
+        "instructions": "Listen for your teacher naming a letter + a vowel verbally (no text shown), then produce the sound from memory, unprompted by print — 10 rounds, randomized across all 28×3 combinations learned so far.",
         "grid": [
           [
             {
@@ -3321,8 +3321,9 @@
       }
     ],
     "dailyChecklist": [
-      "Printed full letter × kasra and letter × damma grids, randomized self-quiz",
-      "Daily \"call and produce\" self-drill (read a random cell, say it, check against the sheet)",
+      "Write today's marked syllables (full kasra + damma grids) 4 rows each in your notebook, saying the letter + harakat and sound aloud as you write",
+      "Daily \"call and produce\" self-drill (read a random cell, say it, check against memory)",
+      "Review previously learned letters: fatha grid recap, mixed order",
       "Listen once to the Uzbek channel's kasra and damma sections"
     ]
   },
@@ -3341,16 +3342,12 @@
       "Kasra/damma confused with each other under time pressure during the randomized mixed-order drill (a genuinely common beginner mix-up simply from mark-position similarity — above vs below — being new).",
       "Continued heavy-letter vowel-darkening pattern (A.2), now checked across all 3 vowels, not just fatha."
     ],
-    "homework": "Printed full letter × kasra and letter × damma grids (Amiri font), randomized self-quiz. Daily \"call and produce\" self-drill using the take-home sheet (student reads a random cell, says it, checks against the sheet). Listen once to the Uzbek channel's kasra and damma sections."
+    "homework": "In the student's notebook: today's marked syllables — the full kasra grid and full damma grid — written 4 full rows each, saying the letter + harakat and sound aloud while writing, then memorized; review of previously learned letters via the fatha grid recap in mixed order; daily \"call and produce\" self-drill (student reads a random cell, says it, checks from memory); listen once to the Uzbek channel's kasra and damma sections. No printed sheets."
   },
   "videos": [
     {
-      "title": "Muallimi Soniy — kasra chapter",
-      "url": "https://youtu.be/VhRHKdPcNPA?t=328"
-    },
-    {
-      "title": "Muallimi Soniy — damma chapter",
-      "url": "https://youtu.be/VhRHKdPcNPA?t=482"
+      "title": "Muallimi Soniy — full alphabet compilation (reference)",
+      "url": "https://youtu.be/VhRHKdPcNPA"
     }
   ]
 }

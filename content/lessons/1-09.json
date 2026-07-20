@@ -22,10 +22,8 @@
           "arabic": "ا",
           "name": "alif",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1117,
-            "title": "Muallimi Soniy — alif section"
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
           }
         },
         {
@@ -66,40 +64,32 @@
           "arabic": "ح",
           "name": "haa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11593,
-            "title": "Muallimi Soniy — ح (heavy ha) section"
+            "type": "teacher-voice",
+            "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
           }
         },
         {
           "arabic": "خ",
           "name": "kha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 11056,
-            "title": "Muallimi Soniy — خ (kha) section"
+            "type": "teacher-voice",
+            "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
           }
         },
         {
           "arabic": "د",
           "name": "dal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ذ",
           "name": "dhal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 14598,
-            "title": "Muallimi Soniy — ذ (dhal) section"
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
           }
         },
         {
@@ -116,30 +106,24 @@
           "arabic": "ز",
           "name": "zay",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1819,
-            "title": "Muallimi Soniy — ز (zay) section"
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
           }
         },
         {
           "arabic": "س",
           "name": "seen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 8227,
-            "title": "Muallimi Soniy — س (seen) section"
+            "type": "teacher-voice",
+            "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
           }
         },
         {
           "arabic": "ش",
           "name": "sheen",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 7914,
-            "title": "Muallimi Soniy — ش (sheen) section"
+            "type": "teacher-voice",
+            "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
           }
         },
         {
@@ -186,30 +170,24 @@
           "arabic": "ع",
           "name": "ayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12720,
-            "title": "Muallimi Soniy — ع (ayn) section"
+            "type": "teacher-voice",
+            "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
           }
         },
         {
           "arabic": "غ",
           "name": "ghayn",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 12280,
-            "title": "Muallimi Soniy — غ (ghayn) section"
+            "type": "teacher-voice",
+            "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
           }
         },
         {
           "arabic": "ف",
           "name": "fa",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6955,
-            "title": "Muallimi Soniy — ف (fa) section"
+            "type": "teacher-voice",
+            "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
           }
         },
         {
@@ -226,10 +204,8 @@
           "arabic": "ك",
           "name": "kaaf",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 4878,
-            "title": "Muallimi Soniy — ك (kaaf) section"
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
           }
         },
         {
@@ -246,10 +222,8 @@
           "arabic": "م",
           "name": "meem",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 2254,
-            "title": "Muallimi Soniy — م (meem) section"
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
           }
         },
         {
@@ -266,30 +240,24 @@
           "arabic": "ه",
           "name": "ha",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6705,
-            "title": "Muallimi Soniy — ه (light ha) section"
+            "type": "teacher-voice",
+            "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
           }
         },
         {
           "arabic": "و",
           "name": "waw",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         },
         {
           "arabic": "ي",
           "name": "ya",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 3655,
-            "title": "Muallimi Soniy — ي (ya) section"
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
           }
         }
       ]
@@ -307,30 +275,24 @@
           "arabic": "ا",
           "name": "alif",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1117,
-            "title": "Muallimi Soniy — alif section"
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
           }
         },
         {
           "arabic": "د",
           "name": "dal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 13525,
-            "title": "Muallimi Soniy — د (dal) section"
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
           }
         },
         {
           "arabic": "ذ",
           "name": "dhal",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 14598,
-            "title": "Muallimi Soniy — ذ (dhal) section"
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
           }
         },
         {
@@ -347,20 +309,16 @@
           "arabic": "ز",
           "name": "zay",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 1819,
-            "title": "Muallimi Soniy — ز (zay) section"
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
           }
         },
         {
           "arabic": "و",
           "name": "waw",
           "audio": {
-            "type": "youtube-cue",
-            "videoId": "VhRHKdPcNPA",
-            "startSeconds": 6387,
-            "title": "Muallimi Soniy — و (waw) section"
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
           }
         }
       ]
@@ -426,7 +384,7 @@
     {
       "kind": "drill",
       "heading": "Guided reading set 3 — non-connectors mixed throughout",
-      "instructions": "Each cluster contains at least one non-connector from lesson 1.8, in a different position (first, middle, last) each time.",
+      "instructions": "Read each cluster aloud. Each cluster contains at least one non-connector from lesson 1.8, in a different position (first, middle, last) each time.",
       "grid": [
         [
           {
@@ -467,7 +425,7 @@
     {
       "kind": "drill",
       "heading": "Independent reading round — cold read",
-      "instructions": "5 brand-new clusters the student has not seen before this lesson. Teacher observes WITHOUT prompting unless the student is truly stuck — this is a fluency/transfer check, not a teaching moment.",
+      "instructions": "Read these 5 brand-new clusters aloud on your own — you have not seen them before this lesson, so just do your best without help unless you're truly stuck.",
       "grid": [
         [
           {
@@ -525,7 +483,7 @@
     {
       "kind": "drill",
       "heading": "Pacing check — timed cluster set",
-      "instructions": "Informal timing of this cluster set, compared lightly against lesson 1.7's pace. Encouragement framing only — not a graded metric.",
+      "instructions": "Read this cluster set aloud. Your pace will be timed informally and compared lightly against lesson 1.7 — just for encouragement, not a grade.",
       "grid": [
         [
           {
@@ -740,6 +698,7 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
+        "In your notebook, write out the positional forms (isolated, initial, medial, final — three forms only for the six non-connectors ا د ذ ر ز و) of any letters that gave you trouble today, 4 full rows each, saying each form's position aloud as you write, then review by reading them back",
         "Daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally",
         "Keep your own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10"
       ]
@@ -749,7 +708,7 @@
     "drills": [
       {
         "title": "Full mixed cluster set",
-        "instructions": "12 items spanning all shape-families and including non-connectors (again, decoding practice, not vocabulary — any resemblance to real short words is incidental and fine).",
+        "instructions": "Read each cluster aloud. 12 items spanning all shape-families and including non-connectors — decoding practice, not vocabulary, so any resemblance to real short words is incidental and fine.",
         "grid": [
           [
             {
@@ -853,7 +812,7 @@
       },
       {
         "title": "Cold read set",
-        "instructions": "5 brand-new clusters not seen before this lesson, used purely as a fluency/transfer check.",
+        "instructions": "Read these 5 brand-new clusters aloud on your own, not seen before this lesson — just do your best, as a fluency check.",
         "grid": [
           [
             {
@@ -901,7 +860,7 @@
       },
       {
         "title": "Error-log worksheet",
-        "instructions": "Using this same cluster set, check off any letter or cluster type (positional confusion vs. non-connector confusion vs. sound-only confusion) that caused a stumble, to feed the Checkpoint 1 rubric.",
+        "instructions": "Read through this same cluster set again and check off any letter or cluster type (positional confusion vs. non-connector confusion vs. sound-only confusion) that caused you a stumble, to feed the Checkpoint 1 rubric.",
         "grid": [
           [
             {
@@ -1005,6 +964,7 @@
       }
     ],
     "dailyChecklist": [
+      "Write the positional forms of 2–3 tricky letters from today, 4 rows each, in your notebook, saying each position aloud as you write",
       "Re-read the full 12-item mixed cluster set aloud, 3× through, self-timed informally",
       "Keep a simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10"
     ]
@@ -1023,7 +983,7 @@
       "Hesitation specifically on non-connector transitions — confirms whether lesson 1.8's rule has become automatic or still needs conscious recall.",
       "Reading pace: increasing hesitation as cluster length grows from 2 to 3 letters may indicate the student is still sounding out letter-by-letter rather than starting to chunk — normal at this stage, just note it for Phase 2 planning."
     ],
-    "homework": "Daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally. Student keeps their own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10."
+    "homework": "In the student's notebook: positional forms (isolated, initial, medial, final — three forms only for the six non-connectors ا د ذ ر ز و) of any letters that gave trouble today, written 4 full rows each while saying each position aloud, then reviewed by reading back; daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally. Student keeps their own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10. No printed sheets."
   },
   "videos": []
 }
