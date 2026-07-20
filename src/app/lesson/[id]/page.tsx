@@ -13,14 +13,16 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
       <SlideDeck title={l.title} slides={l.slides} />
       {l.videos.length > 0 && (
         <section className="mx-auto max-w-2xl p-6">
-          <h2 className="mb-2 font-semibold">Videos for this lesson</h2>
-          <ul className="list-disc space-y-1 pl-6">
-            {l.videos.map((v) => (
-              <li key={v.url}>
-                <a className="underline" href={v.url} target="_blank" rel="noreferrer">{v.title}</a>
-              </li>
-            ))}
-          </ul>
+          <div className="glass rounded-2xl p-4 sm:p-5">
+            <h2 className="mb-2 font-semibold text-white/90">Videos for this lesson</h2>
+            <ul className="list-disc space-y-1 pl-6 text-white/75">
+              {l.videos.map((v) => (
+                <li key={v.url}>
+                  <a className="text-sky-300 underline" href={v.url} target="_blank" rel="noreferrer">{v.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
       )}
     </>

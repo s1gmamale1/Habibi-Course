@@ -17,17 +17,19 @@ function SlideView({ slide }: { slide: Slide }) {
       return (
         <div className="text-center">
           {slide.arabicDecor && <p className="arabic mb-6 text-7xl">{slide.arabicDecor}</p>}
-          <h1 className="text-4xl font-bold">{slide.heading}</h1>
+          <h1 className="gradient-text text-4xl font-bold">{slide.heading}</h1>
         </div>
       );
     case "concept":
       return (
         <div className="max-w-2xl">
-          <h2 className="mb-6 text-3xl font-bold">{slide.heading}</h2>
+          <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
           {slide.image && (
-            <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto mb-4 max-h-[38vh] max-w-full" />
+            <div className="glass mx-auto mb-4 inline-block rounded-2xl p-2">
+              <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto max-h-[36vh] max-w-full rounded-xl" />
+            </div>
           )}
-          <ul className="list-disc space-y-3 pl-6 text-xl">{slide.body.map((b) => <li key={b}>{b}</li>)}</ul>
+          <ul className="list-disc space-y-3 pl-6 text-xl text-white/85">{slide.body.map((b) => <li key={b}>{b}</li>)}</ul>
           {slide.items && <div className="mt-6 flex flex-wrap gap-3">{slide.items.map((it) => <TapToHear key={it.arabic} item={it} />)}</div>}
         </div>
       );
@@ -35,15 +37,17 @@ function SlideView({ slide }: { slide: Slide }) {
       return (
         <div className="text-center">
           {slide.image && (
-            <img
-              src={slide.image}
-              alt={`makhraj — ${slide.item.name ?? slide.item.arabic}`}
-              className="mx-auto mb-4 max-h-[38vh] max-w-full"
-            />
+            <div className="glass mx-auto mb-4 inline-block rounded-2xl p-2">
+              <img
+                src={slide.image}
+                alt={`makhraj — ${slide.item.name ?? slide.item.arabic}`}
+                className="mx-auto max-h-[36vh] max-w-full rounded-xl"
+              />
+            </div>
           )}
           <TapToHear item={slide.item} size="lg" />
-          <p className="mt-4 text-2xl font-semibold">{slide.item.name}{slide.item.translit ? ` — ${slide.item.translit}` : ""}</p>
-          <p className="mt-2 text-lg"><span className="font-semibold">Makhraj:</span> {slide.makhraj}</p>
+          <p className="mt-4 text-2xl font-semibold text-white">{slide.item.name}{slide.item.translit ? ` — ${slide.item.translit}` : ""}</p>
+          <p className="mt-2 text-lg text-white/80"><span className="font-semibold text-white">Makhraj:</span> {slide.makhraj}</p>
           {slide.forms && (
             <div dir="rtl" className="mt-4 flex flex-wrap justify-center gap-4">
               {(Object.keys(FORM_LABELS) as Array<keyof typeof FORM_LABELS>)
@@ -52,16 +56,16 @@ function SlideView({ slide }: { slide: Slide }) {
                 .map((k) => (
                   <div key={k} className="text-center">
                     <p className="arabic text-4xl">{slide.forms?.[k]}</p>
-                    <p className="text-xs text-stone-500">{FORM_LABELS[k]}</p>
+                    <p className="text-xs text-white/50">{FORM_LABELS[k]}</p>
                   </div>
                 ))}
             </div>
           )}
-          <ul className="mt-3 space-y-1 text-stone-600">{slide.notes.map((n) => <li key={n}>{n}</li>)}</ul>
+          <ul className="mt-3 space-y-1 text-white/70">{slide.notes.map((n) => <li key={n}>{n}</li>)}</ul>
           {slide.example && (
             <div className="mt-4">
               <p className="arabic text-4xl">{slide.example.arabic}</p>
-              <p className="text-stone-600">{slide.example.translit} — {slide.example.meaning}</p>
+              <p className="text-white/70">{slide.example.translit} — {slide.example.meaning}</p>
             </div>
           )}
         </div>
@@ -69,8 +73,8 @@ function SlideView({ slide }: { slide: Slide }) {
     case "drill":
       return (
         <div className="text-center">
-          <h2 className="mb-2 text-3xl font-bold">{slide.heading}</h2>
-          <p className="mb-6 text-stone-600">{slide.instructions}</p>
+          <h2 className="mb-2 text-3xl font-bold text-white">{slide.heading}</h2>
+          <p className="mb-6 text-white/70">{slide.instructions}</p>
           {slide.grid.map((row, i) => (
             <div key={i} dir="rtl" className="mb-3 flex flex-wrap justify-center gap-3">{row.map((it) => <TapToHear key={it.arabic + i} item={it} size="lg" />)}</div>
           ))}
@@ -79,15 +83,15 @@ function SlideView({ slide }: { slide: Slide }) {
     case "recap":
       return (
         <div className="text-center">
-          <h2 className="mb-6 text-3xl font-bold">{slide.heading}</h2>
+          <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
           <div dir="rtl" className="flex flex-wrap justify-center gap-4">{slide.items.map((it) => <TapToHear key={it.arabic} item={it} size="lg" />)}</div>
         </div>
       );
     case "homework":
       return (
         <div className="max-w-2xl">
-          <h2 className="mb-6 text-3xl font-bold">{slide.heading}</h2>
-          <ol className="list-decimal space-y-3 pl-6 text-xl">{slide.tasks.map((t) => <li key={t}>{t}</li>)}</ol>
+          <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
+          <ol className="list-decimal space-y-3 pl-6 text-xl text-white/85">{slide.tasks.map((t) => <li key={t}>{t}</li>)}</ol>
         </div>
       );
   }
@@ -121,13 +125,15 @@ export function SlideDeck({ title, slides }: { title: string; slides: Slide[] })
         touchX.current = null;
       }}
     >
-      <div className="flex flex-1 items-center justify-center p-6">
-        <SlideView slide={slides[i]} />
+      <div className="flex flex-1 items-center justify-center overflow-y-auto p-4 sm:p-6">
+        <div className="glass-strong w-full max-w-2xl rounded-3xl p-6 text-white/90 shadow-2xl sm:p-8">
+          <SlideView slide={slides[i]} />
+        </div>
       </div>
-      <div className="flex items-center justify-between p-4 text-sm text-stone-500">
-        <button type="button" onClick={() => go(-1)} className="rounded px-3 py-1 hover:bg-stone-200">← Back</button>
-        <span>{title} — {i + 1} / {slides.length}</span>
-        <button type="button" onClick={() => go(1)} className="rounded px-3 py-1 hover:bg-stone-200">Next →</button>
+      <div className="glass mx-auto flex w-full max-w-2xl items-center justify-between gap-2 rounded-t-2xl px-4 py-3 text-sm text-white/60 sm:px-6">
+        <button type="button" onClick={() => go(-1)} className="cta-secondary rounded-full px-3 py-1.5">← Back</button>
+        <span className="truncate">{title} — {i + 1} / {slides.length}</span>
+        <button type="button" onClick={() => go(1)} className="cta-secondary rounded-full px-3 py-1.5">Next →</button>
       </div>
     </div>
   );
