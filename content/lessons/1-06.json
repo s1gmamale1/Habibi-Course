@@ -1,0 +1,1412 @@
+{
+  "id": "1-06",
+  "phase": 1,
+  "unit": "1.1",
+  "title": "The rest of the alphabet + full 28-letter review: ك ل م ن ه و ي",
+  "objectives": [
+    "Student can identify and pronounce ك, ل, م, ن, ه, و, ي in isolation on sight.",
+    "Student can correctly recite and produce the sound of all 28 letters, in any (non-sequential, shuffled) order, on sight — the exact skill Checkpoint 1 will test.",
+    "Student can name at least one thing to \"listen for\" on themselves for each of the 6 previously-flagged high-risk letters (ح, ض, ع, ق, ذ/ز pattern, ص)."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.6 — The rest of the alphabet + full 28-letter review",
+      "arabicDecor": "ك ل م ن ه و ي"
+    },
+    {
+      "kind": "recap",
+      "heading": "Cumulative recap — all 21 letters so far",
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+          }
+        },
+        {
+          "arabic": "ب",
+          "name": "ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ت",
+          "name": "ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ث",
+          "name": "tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ج",
+          "name": "jeem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "X-iZ4yZrltA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "haa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+          }
+        },
+        {
+          "arabic": "خ",
+          "name": "kha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+          }
+        },
+        {
+          "arabic": "س",
+          "name": "seen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
+          }
+        },
+        {
+          "arabic": "ش",
+          "name": "sheen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
+          }
+        },
+        {
+          "arabic": "ص",
+          "name": "saad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "yhIFJiPqVqA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "daad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "gEBzZLbuo-4",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+          }
+        },
+        {
+          "arabic": "ط",
+          "name": "taa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "XeQ5cxhkzlE",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 11 — ط (taa)"
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "dhaa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "6_Qfe0g6uks",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"
+          }
+        },
+        {
+          "arabic": "ع",
+          "name": "ayn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
+          }
+        },
+        {
+          "arabic": "غ",
+          "name": "ghayn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
+          }
+        },
+        {
+          "arabic": "ف",
+          "name": "fa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
+          }
+        },
+        {
+          "arabic": "ق",
+          "name": "qaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "wwHmytGNi2M",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ك",
+        "name": "kaaf",
+        "translit": "k",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+        }
+      },
+      "makhraj": "back of tongue against the soft palate, shallower in the mouth than ق",
+      "notes": [
+        "Contrast directly against last lesson's ق — plain \"k\", shallower in the mouth",
+        "Shape: no dot"
+      ],
+      "forms": {"isolated": "ك", "initial": "كـ", "medial": "ـكـ", "final": "ـك"},
+      "example": {"arabic": "كِتَاب", "translit": "kitāb", "meaning": "book"},
+      "image": "/images/makhraj/lisan.svg"
+    },
+    {
+      "kind": "drill",
+      "heading": "ك vs ق — minimal-pair listening",
+      "instructions": "Recheck from lesson 1.5 — watch that you don't flatten ق toward ك. Listen for either letter and point to the one you heard.",
+      "grid": [
+        [
+          {
+            "arabic": "ك",
+            "name": "kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+            }
+          },
+          {
+            "arabic": "ق",
+            "name": "qaaf",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "wwHmytGNi2M",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ل",
+        "name": "lam",
+        "translit": "l",
+        "audio": {
+          "type": "youtube-cue",
+          "videoId": "-dPYDd4zNio",
+          "startSeconds": 0,
+          "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+        }
+      },
+      "makhraj": "tip/sides of tongue against the gum ridge",
+      "notes": [
+        "A clear, light \"l\"",
+        "Shape: no dot"
+      ],
+      "forms": {"isolated": "ل", "initial": "لـ", "medial": "ـلـ", "final": "ـل"},
+      "example": {"arabic": "لِسَان", "translit": "lisān", "meaning": "tongue"},
+      "image": "/images/makhraj/lisan.svg"
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "م",
+        "name": "meem",
+        "translit": "m",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "م: the two lips, with nasal resonance — 'm'"
+        }
+      },
+      "makhraj": "the two lips, nasal cavity",
+      "notes": [
+        "Sound: \"m\", nasal",
+        "Watch for \"Meem irregularities\" — a named aside in the reference video, not folded silently into the main lesson"
+      ],
+      "forms": {"isolated": "م", "initial": "مـ", "medial": "ـمـ", "final": "ـم"},
+      "example": {"arabic": "مَسْجِد", "translit": "masjid", "meaning": "mosque"},
+      "image": "/images/makhraj/shafatan.svg"
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ن",
+        "name": "nun",
+        "translit": "n",
+        "audio": {
+          "type": "youtube-cue",
+          "videoId": "BDgw0fWZwMU",
+          "startSeconds": 0,
+          "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+        }
+      },
+      "makhraj": "tip of tongue against gum ridge, nasal cavity",
+      "notes": [
+        "A two-part sound: an oral release plus nasal resonance — foreshadowing Phase 3's ghunna/noon-sakinah rules",
+        "Shape: one dot ABOVE"
+      ],
+      "forms": {"isolated": "ن", "initial": "نـ", "medial": "ـنـ", "final": "ـن"},
+      "example": {"arabic": "نُور", "translit": "nūr", "meaning": "light"},
+      "image": "/images/makhraj/lisan.svg"
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ه",
+        "name": "ha",
+        "translit": "h",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+        }
+      },
+      "makhraj": "light, breathy throat release",
+      "notes": [
+        "A soft, breathy \"h\" — contrasted directly against ح (lesson 1.2), which is a much stronger, deeper throat sound",
+        "Shape: no dot"
+      ],
+      "forms": {"isolated": "ه", "initial": "هـ", "medial": "ـهـ", "final": "ـه"},
+      "example": {"arabic": "هِلَال", "translit": "hilāl", "meaning": "crescent moon"},
+      "image": "/images/makhraj/halq.svg"
+    },
+    {
+      "kind": "drill",
+      "heading": "ح vs ه — the single most important recheck",
+      "instructions": "Listen for ح or ه, point to the one you heard, and pronounce it back. This is the single most-confused pair for non-Arab learners, and your last scheduled chance to catch it before Checkpoint 1.",
+      "grid": [
+        [
+          {
+            "arabic": "ح",
+            "name": "haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+            }
+          },
+          {
+            "arabic": "ه",
+            "name": "ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "و",
+        "name": "waw",
+        "translit": "w",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "و: rounded lips — a consonant 'w'"
+        }
+      },
+      "makhraj": "rounded lips (consonant use)",
+      "notes": [
+        "Taught here purely as a consonant (\"w\") — its much bigger role as a long-vowel/madd letter is Phase 2 content",
+        "Shape: no dot"
+      ],
+      "forms": {"isolated": "و", "final": "ـو"},
+      "example": {"arabic": "وَرْدَة", "translit": "warda", "meaning": "rose"},
+      "image": "/images/makhraj/shafatan.svg"
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ي",
+        "name": "ya",
+        "translit": "y",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+        }
+      },
+      "makhraj": "middle of tongue toward the roof of the mouth (consonant use)",
+      "notes": [
+        "Taught here purely as a consonant (\"y\") — same note as و, returns as a long-vowel letter in Phase 2",
+        "Shape: two dots BELOW in isolated form"
+      ],
+      "forms": {"isolated": "ي", "initial": "يـ", "medial": "ـيـ", "final": "ـي"},
+      "example": {"arabic": "يَد", "translit": "yad", "meaning": "hand"},
+      "image": "/images/makhraj/lisan.svg"
+    },
+    {
+      "kind": "drill",
+      "heading": "Full 28-letter cumulative shuffle",
+      "instructions": "Read each letter aloud, in randomized order, for every letter taught in Unit 1.1 — a confidence check ahead of Checkpoint 1.",
+      "grid": [
+        [
+          {
+            "arabic": "ا",
+            "name": "alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+            }
+          },
+          {
+            "arabic": "ب",
+            "name": "ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "lips fully together"
+            }
+          },
+          {
+            "arabic": "ت",
+            "name": "ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue-tip on gum ridge"
+            }
+          },
+          {
+            "arabic": "ث",
+            "name": "tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "tongue between teeth"
+            }
+          },
+          {
+            "arabic": "ج",
+            "name": "jeem",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "X-iZ4yZrltA",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"
+            }
+          },
+          {
+            "arabic": "ح",
+            "name": "haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+            }
+          },
+          {
+            "arabic": "خ",
+            "name": "kha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "د",
+            "name": "dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+            }
+          },
+          {
+            "arabic": "ذ",
+            "name": "dhal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+            }
+          },
+          {
+            "arabic": "ر",
+            "name": "ra",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "ObYKEtceQbU",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+            }
+          },
+          {
+            "arabic": "ز",
+            "name": "zay",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+            }
+          },
+          {
+            "arabic": "س",
+            "name": "seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
+            }
+          },
+          {
+            "arabic": "ش",
+            "name": "sheen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
+            }
+          },
+          {
+            "arabic": "ص",
+            "name": "saad",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "yhIFJiPqVqA",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ض",
+            "name": "daad",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "gEBzZLbuo-4",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+            }
+          },
+          {
+            "arabic": "ط",
+            "name": "taa",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "XeQ5cxhkzlE",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 11 — ط (taa)"
+            }
+          },
+          {
+            "arabic": "ظ",
+            "name": "dhaa",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "6_Qfe0g6uks",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"
+            }
+          },
+          {
+            "arabic": "ع",
+            "name": "ayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
+            }
+          },
+          {
+            "arabic": "غ",
+            "name": "ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
+            }
+          },
+          {
+            "arabic": "ف",
+            "name": "fa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
+            }
+          },
+          {
+            "arabic": "ق",
+            "name": "qaaf",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "wwHmytGNi2M",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ك",
+            "name": "kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+            }
+          },
+          {
+            "arabic": "ل",
+            "name": "lam",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "-dPYDd4zNio",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+            }
+          },
+          {
+            "arabic": "م",
+            "name": "meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "م: the two lips, with nasal resonance — 'm'"
+            }
+          },
+          {
+            "arabic": "ن",
+            "name": "nun",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "BDgw0fWZwMU",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+            }
+          },
+          {
+            "arabic": "ه",
+            "name": "ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+            }
+          },
+          {
+            "arabic": "و",
+            "name": "waw",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "و: rounded lips — a consonant 'w'"
+            }
+          },
+          {
+            "arabic": "ي",
+            "name": "ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided correction round — the 6 high-risk sounds",
+      "instructions": "Repeat each letter after your teacher one more time: ح, ض, ع, ق, ذ/ز pattern, ص.",
+      "grid": [
+        [
+          {
+            "arabic": "ح",
+            "name": "haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+            }
+          },
+          {
+            "arabic": "ض",
+            "name": "daad",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "gEBzZLbuo-4",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+            }
+          },
+          {
+            "arabic": "ع",
+            "name": "ayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
+            }
+          },
+          {
+            "arabic": "ق",
+            "name": "qaaf",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "wwHmytGNi2M",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+            }
+          },
+          {
+            "arabic": "ذ",
+            "name": "dhal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+            }
+          },
+          {
+            "arabic": "ز",
+            "name": "zay",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+            }
+          },
+          {
+            "arabic": "ص",
+            "name": "saad",
+            "audio": {
+              "type": "youtube-cue",
+              "videoId": "yhIFJiPqVqA",
+              "startSeconds": 0,
+              "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "You now know all 28 letters!",
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+          }
+        },
+        {
+          "arabic": "ب",
+          "name": "ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ت",
+          "name": "ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ث",
+          "name": "tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ج",
+          "name": "jeem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "X-iZ4yZrltA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "haa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+          }
+        },
+        {
+          "arabic": "خ",
+          "name": "kha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+          }
+        },
+        {
+          "arabic": "س",
+          "name": "seen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
+          }
+        },
+        {
+          "arabic": "ش",
+          "name": "sheen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
+          }
+        },
+        {
+          "arabic": "ص",
+          "name": "saad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "yhIFJiPqVqA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "daad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "gEBzZLbuo-4",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+          }
+        },
+        {
+          "arabic": "ط",
+          "name": "taa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "XeQ5cxhkzlE",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 11 — ط (taa)"
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "dhaa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "6_Qfe0g6uks",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"
+          }
+        },
+        {
+          "arabic": "ع",
+          "name": "ayn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
+          }
+        },
+        {
+          "arabic": "غ",
+          "name": "ghayn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
+          }
+        },
+        {
+          "arabic": "ف",
+          "name": "fa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
+          }
+        },
+        {
+          "arabic": "ق",
+          "name": "qaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "wwHmytGNi2M",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+          }
+        },
+        {
+          "arabic": "ك",
+          "name": "kaaf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+          }
+        },
+        {
+          "arabic": "ل",
+          "name": "lam",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "م",
+          "name": "meem",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
+          }
+        },
+        {
+          "arabic": "ن",
+          "name": "nun",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ه",
+          "name": "ha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
+          }
+        },
+        {
+          "arabic": "ي",
+          "name": "ya",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "In your notebook, write each new letter (ك ل م ن ه و ي) 4 full rows, saying its name and sound aloud as you write, then memorize today's letters",
+        "Full 28-letter shuffle drill daily — read every letter learned so far aloud from memory, in randomized order",
+        "Specific ح/ه contrast drill: say each letter aloud, 10 repetitions of each",
+        "Review the linked video for any letter your teacher flagged this lesson"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Flashcard grid",
+        "instructions": "Name each letter + produce its sound, shuffled.",
+        "grid": [
+          [
+            {
+              "arabic": "ك",
+              "name": "kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+              }
+            },
+            {
+              "arabic": "ل",
+              "name": "lam",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "-dPYDd4zNio",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+              }
+            },
+            {
+              "arabic": "م",
+              "name": "meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "م: the two lips, with nasal resonance — 'm'"
+              }
+            },
+            {
+              "arabic": "ن",
+              "name": "nun",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "BDgw0fWZwMU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+              }
+            },
+            {
+              "arabic": "ه",
+              "name": "ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+              }
+            },
+            {
+              "arabic": "و",
+              "name": "waw",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "و: rounded lips — a consonant 'w'"
+              }
+            },
+            {
+              "arabic": "ي",
+              "name": "ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Contrast drill: ك vs ق",
+        "instructions": "Listen for ك or ق, then point to which one you heard and pronounce it.",
+        "grid": [
+          [
+            {
+              "arabic": "ك",
+              "name": "kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+              }
+            },
+            {
+              "arabic": "ق",
+              "name": "qaaf",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "wwHmytGNi2M",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Contrast drill: ح vs ه",
+        "instructions": "Listen for ح or ه, then point to which one you heard and pronounce it — the single most important recheck of the whole unit.",
+        "grid": [
+          [
+            {
+              "arabic": "ح",
+              "name": "haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+              }
+            },
+            {
+              "arabic": "ه",
+              "name": "ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Full 28-letter recognition race",
+        "instructions": "Name and pronounce each letter, shown in fully randomized order (not grouped by family anymore). Your teacher will time it informally and note any hesitation on a simple 28-row checklist — this doubles as Checkpoint 1 prep data.",
+        "grid": [
+          [
+            {
+              "arabic": "ا",
+              "name": "alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+              }
+            },
+            {
+              "arabic": "ب",
+              "name": "ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "lips fully together"
+              }
+            },
+            {
+              "arabic": "ت",
+              "name": "ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue-tip on gum ridge"
+              }
+            },
+            {
+              "arabic": "ث",
+              "name": "tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tongue between teeth"
+              }
+            },
+            {
+              "arabic": "ج",
+              "name": "jeem",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "X-iZ4yZrltA",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"
+              }
+            },
+            {
+              "arabic": "ح",
+              "name": "haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+              }
+            },
+            {
+              "arabic": "خ",
+              "name": "kha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "د",
+              "name": "dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+              }
+            },
+            {
+              "arabic": "ذ",
+              "name": "dhal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+              }
+            },
+            {
+              "arabic": "ر",
+              "name": "ra",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "ObYKEtceQbU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+              }
+            },
+            {
+              "arabic": "ز",
+              "name": "zay",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+              }
+            },
+            {
+              "arabic": "س",
+              "name": "seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
+              }
+            },
+            {
+              "arabic": "ش",
+              "name": "sheen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
+              }
+            },
+            {
+              "arabic": "ص",
+              "name": "saad",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "yhIFJiPqVqA",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ض",
+              "name": "daad",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "gEBzZLbuo-4",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+              }
+            },
+            {
+              "arabic": "ط",
+              "name": "taa",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "XeQ5cxhkzlE",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 11 — ط (taa)"
+              }
+            },
+            {
+              "arabic": "ظ",
+              "name": "dhaa",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "6_Qfe0g6uks",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"
+              }
+            },
+            {
+              "arabic": "ع",
+              "name": "ayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
+              }
+            },
+            {
+              "arabic": "غ",
+              "name": "ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
+              }
+            },
+            {
+              "arabic": "ف",
+              "name": "fa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
+              }
+            },
+            {
+              "arabic": "ق",
+              "name": "qaaf",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "wwHmytGNi2M",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ك",
+              "name": "kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+              }
+            },
+            {
+              "arabic": "ل",
+              "name": "lam",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "-dPYDd4zNio",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+              }
+            },
+            {
+              "arabic": "م",
+              "name": "meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "م: the two lips, with nasal resonance — 'm'"
+              }
+            },
+            {
+              "arabic": "ن",
+              "name": "nun",
+              "audio": {
+                "type": "youtube-cue",
+                "videoId": "BDgw0fWZwMU",
+                "startSeconds": 0,
+                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+              }
+            },
+            {
+              "arabic": "ه",
+              "name": "ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+              }
+            },
+            {
+              "arabic": "و",
+              "name": "waw",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "و: rounded lips — a consonant 'w'"
+              }
+            },
+            {
+              "arabic": "ي",
+              "name": "ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Write today's letters (ك ل م ن ه و ي) 4 rows each in your notebook, saying the name and sound aloud as you write",
+      "Full 28-letter shuffle drill daily (self-test from memory, saying each letter aloud in randomized order)",
+      "Specific ح/ه contrast drill, 10 repetitions of each",
+      "Review the linked video for any letter the teacher flagged this lesson"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with a cumulative cold-call of all 21 letters before introducing today's final 7.",
+      "Contrast ك against last lesson's ق, and ه against lesson 1.2's ح, immediately after each is introduced.",
+      "Model ن explicitly as a two-part oral+nasal sound — plant the seed for Phase 3's ghunna, even though the formal rule isn't taught yet.",
+      "Run the full 28-letter cumulative shuffle as an informally-timed confidence check, not a graded test.",
+      "Spend the guided-correction round revisiting all 6 previously-flagged high-risk sounds one more time each, logging hesitations per letter for Checkpoint 1 prep.",
+      "Close by explicitly naming the milestone: the student now knows all 28 letters."
+    ],
+    "listenFor": [
+      "ك not kept shallow/light enough relative to ق (student may flatten ق toward ك instead — recheck from lesson 1.5).",
+      "ح vs ه still confused — this is the single most important recheck in all of Phase 1; per the research this is \"the single most-cited non-Arab error\" and this lesson is the last scheduled chance to catch it before Checkpoint 1 (teaching-mistakes-assessment.md A.1).",
+      "ن produced without any nasal quality at all (oral-only \"n\") — plant the seed now for Phase 3's ghunna requirement, even though the formal rule isn't taught yet.",
+      "و / ي pronounced with English glide quality instead of Arabic consonantal و/ي — minor at this stage, worth a light correction only.",
+      "Cumulative check across the full 28-letter race: log every hesitation/error by letter, not just pass/fail, to feed directly into the Checkpoint 1 weak-spot mapping."
+    ],
+    "homework": "In the student's notebook: each new letter (ك ل م ن ه و ي) written 4 full rows, saying its name and sound aloud while writing, then memorized. Full 28-letter shuffle drill daily (student self-tests from memory, saying each aloud in randomized order). Specific ح/ه contrast drill, 10 repetitions of each. Review the linked video for any letter the teacher flagged this lesson. No printed sheets."
+  },
+  "videos": [
+    {
+      "title": "Arabic101 Makharij Lesson 2 — ء + هـ",
+      "url": "https://www.youtube.com/watch?v=Bzz_wo6skWA"
+    },
+    {
+      "title": "Arabic101 Makharij Lesson 8 — ل",
+      "url": "https://www.youtube.com/watch?v=-dPYDd4zNio"
+    },
+    {
+      "title": "Arabic101 Makharij Lesson 9 — ن",
+      "url": "https://www.youtube.com/watch?v=BDgw0fWZwMU"
+    },
+    {
+      "title": "Arabic101 Makharij Lesson 14 — ف و م ب",
+      "url": "https://www.youtube.com/watch?v=sM27vvgq_os"
+    },
+    {
+      "title": "Muallimi Soniy — full alphabet compilation (reference)",
+      "url": "https://youtu.be/VhRHKdPcNPA"
+    }
+  ]
+}

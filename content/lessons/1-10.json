@@ -1,0 +1,1997 @@
+{
+  "id": "1-10",
+  "phase": 1,
+  "unit": "1.3",
+  "title": "Fatha: the \"a\" sound, full letter × fatha grid",
+  "objectives": [
+    "Student can explain that a fatha (a small diagonal stroke above a letter) makes that letter produce a short \"a\" sound immediately after its consonant sound.",
+    "Student can read any of the 28 letters + fatha on sight, in randomized order (the full letter × fatha grid, 28 cells).",
+    "Student notices (with teacher prompting) that the \"a\" sound changes quality — darker/backed toward \"o\" — after a heavy letter (ص ض ط ظ ق غ خ), as a first sensory exposure to tafkheem-affecting-the-vowel, ahead of the formal Phase 3 rule."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.10 — Fatha: the \"a\" sound, full letter × fatha grid",
+      "arabicDecor": "بَ تَ ثَ صَ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Every letter, ten-fold",
+      "body": [
+        "Ibn Mas'ud reported the Messenger of Allah ﷺ as saying: \"Whoever recites a letter from the Book of Allah, he will have a reward, and that reward will be multiplied by ten. I do not say that Alif-Lam-Mim is one letter, but Alif is a letter, Lam is a letter, and Mim is a letter.\" (Jami' at-Tirmidhi 2910, Hasan)",
+        "Starting today, every one of the 28 letters carries its own vowel sound — each one still carries that same ten-fold reward, letter by letter."
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Recap — full 28-letter shuffle + a couple of Unit 1.2 clusters",
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"
+          }
+        },
+        {
+          "arabic": "ب",
+          "name": "ba",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "lips fully together"
+          }
+        },
+        {
+          "arabic": "ت",
+          "name": "ta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue-tip on gum ridge"
+          }
+        },
+        {
+          "arabic": "ث",
+          "name": "tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "tongue between teeth"
+          }
+        },
+        {
+          "arabic": "ج",
+          "name": "jeem",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "X-iZ4yZrltA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "haa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"
+          }
+        },
+        {
+          "arabic": "خ",
+          "name": "kha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"
+          }
+        },
+        {
+          "arabic": "د",
+          "name": "dal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"
+          }
+        },
+        {
+          "arabic": "ذ",
+          "name": "dhal",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"
+          }
+        },
+        {
+          "arabic": "ر",
+          "name": "ra",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "ObYKEtceQbU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 10 — ر (ra), the ULTIMATE guide"
+          }
+        },
+        {
+          "arabic": "ز",
+          "name": "zay",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ز: tip of tongue near the lower teeth, a plain buzzing 'z' — voiced twin of س"
+          }
+        },
+        {
+          "arabic": "س",
+          "name": "seen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "س: tip of tongue near the lower teeth, a thin hiss — a plain 's'"
+          }
+        },
+        {
+          "arabic": "ش",
+          "name": "sheen",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ش: middle of tongue against the roof of the mouth, a soft 'sh'"
+          }
+        },
+        {
+          "arabic": "ص",
+          "name": "saad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "yhIFJiPqVqA",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 12 — ص (saad)"
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "daad",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "gEBzZLbuo-4",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 7 — ض (daad)"
+          }
+        },
+        {
+          "arabic": "ط",
+          "name": "taa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "XeQ5cxhkzlE",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 11 — ط (taa)"
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "dhaa",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "6_Qfe0g6uks",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 13 — ظ (dhaa)"
+          }
+        },
+        {
+          "arabic": "ع",
+          "name": "ayn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ع: a mid-throat muscular squeeze, voiced — no equivalent sound in English or Turkic languages"
+          }
+        },
+        {
+          "arabic": "غ",
+          "name": "ghayn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "غ: upper throat, same zone as خ but voiced — a uvular fricative, like a French uvular 'r'"
+          }
+        },
+        {
+          "arabic": "ف",
+          "name": "fa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ف: inner lower lip against the edge of the upper front teeth — a plain 'f'"
+          }
+        },
+        {
+          "arabic": "ق",
+          "name": "qaaf",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "wwHmytGNi2M",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 5 — ق (qaaf)"
+          }
+        },
+        {
+          "arabic": "ك",
+          "name": "kaaf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+          }
+        },
+        {
+          "arabic": "ل",
+          "name": "lam",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "-dPYDd4zNio",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+          }
+        },
+        {
+          "arabic": "م",
+          "name": "meem",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "م: the two lips, with nasal resonance — 'm'"
+          }
+        },
+        {
+          "arabic": "ن",
+          "name": "nun",
+          "audio": {
+            "type": "youtube-cue",
+            "videoId": "BDgw0fWZwMU",
+            "startSeconds": 0,
+            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+          }
+        },
+        {
+          "arabic": "ه",
+          "name": "ha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ه: a light, breathy throat release — a soft 'h', much gentler than ح"
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "و: rounded lips — a consonant 'w'"
+          }
+        },
+        {
+          "arabic": "ي",
+          "name": "ya",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+          }
+        },
+        {
+          "arabic": "بتث",
+          "name": "ba + ta + tha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
+          }
+        },
+        {
+          "arabic": "دذر",
+          "name": "dal + dhal + ra",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Harakat — marks that add a vowel sound",
+      "body": [
+        "Harakat are small marks placed above or below a letter that tell you which short vowel sound follows the consonant.",
+        "Today's mark is fatha ( ﹷ ), a short \"a\".",
+        "Note: alif's own vowel-grid cell is conventionally written as أَ (alif carrying hamza + fatha), since bare alif does not itself carry a short-vowel mark in real orthography — a teaching convention, not a new letter."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: بَ",
+      "body": [
+        "بَ (ba + fatha) — sounded out slowly: \"b\" + short \"a\"."
+      ],
+      "items": [
+        {
+          "arabic": "بَ",
+          "name": "ba + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Worked example: تَ, ثَ",
+      "body": [
+        "Same pattern, dotted family: تَ (ta + fatha), ثَ (tha + fatha)."
+      ],
+      "items": [
+        {
+          "arabic": "تَ",
+          "name": "ta + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+          }
+        },
+        {
+          "arabic": "ثَ",
+          "name": "tha + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ثَ + fatha: tip of tongue between the teeth (interdental), vowel a"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "A heavy letter: صَ",
+      "body": [
+        "Same fatha mark, but notice the \"a\" now sounds fuller/darker (\"saw\"-like, not flat \"sa\") — this is your first taste of tafkheem (the heavier, fuller quality some letters give their vowels).",
+        "Say سَ then صَ back to back to feel the difference."
+      ],
+      "items": [
+        {
+          "arabic": "سَ",
+          "name": "seen + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+          }
+        },
+        {
+          "arabic": "صَ",
+          "name": "saad + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Full letter × fatha grid (28 cells)",
+      "instructions": "Read each cell aloud, left to right: أَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ سَ شَ صَ ضَ طَ ظَ عَ غَ فَ قَ كَ لَ مَ نَ هَ وَ يَ — the full grid, revealed together for the first time.",
+      "grid": [
+        [
+          {
+            "arabic": "أَ",
+            "name": "alif + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَ + fatha: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel a"
+            }
+          },
+          {
+            "arabic": "بَ",
+            "name": "ba + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+            }
+          },
+          {
+            "arabic": "تَ",
+            "name": "ta + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "ثَ",
+            "name": "tha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثَ + fatha: tip of tongue between the teeth (interdental), vowel a"
+            }
+          },
+          {
+            "arabic": "جَ",
+            "name": "jeem + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَ + fatha: middle of the tongue against the roof of the mouth, vowel a"
+            }
+          },
+          {
+            "arabic": "حَ",
+            "name": "haa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَ + fatha: middle of the throat, vowel a"
+            }
+          },
+          {
+            "arabic": "خَ",
+            "name": "kha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خَ + fatha: upper throat / back of tongue against the soft palate, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَ",
+            "name": "dal + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَ + fatha: tip of tongue against the upper gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "ذَ",
+            "name": "dhal + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+            }
+          },
+          {
+            "arabic": "رَ",
+            "name": "ra + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَ + fatha: tip of tongue curled slightly, touching the gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "زَ",
+            "name": "zay + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زَ + fatha: tip of tongue near the lower teeth, sibilant, vowel a"
+            }
+          },
+          {
+            "arabic": "سَ",
+            "name": "seen + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+            }
+          },
+          {
+            "arabic": "شَ",
+            "name": "sheen + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَ + fatha: middle of tongue against the roof of the mouth, vowel a"
+            }
+          },
+          {
+            "arabic": "صَ",
+            "name": "saad + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضَ",
+            "name": "daad + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضَ + fatha: side of the tongue against the upper molars — a lateral release unique to this letter, vowel a"
+            }
+          },
+          {
+            "arabic": "طَ",
+            "name": "taa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+            }
+          },
+          {
+            "arabic": "ظَ",
+            "name": "dhaa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+            }
+          },
+          {
+            "arabic": "عَ",
+            "name": "ayn + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَ + fatha: middle of the throat, vowel a"
+            }
+          },
+          {
+            "arabic": "غَ",
+            "name": "ghayn + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غَ + fatha: upper throat, same zone as خ but voiced, vowel a"
+            }
+          },
+          {
+            "arabic": "فَ",
+            "name": "fa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+            }
+          },
+          {
+            "arabic": "قَ",
+            "name": "qaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَ",
+            "name": "kaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+            }
+          },
+          {
+            "arabic": "لَ",
+            "name": "lam + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَ + fatha: tip/sides of tongue against the gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "مَ",
+            "name": "meem + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَ + fatha: the two lips, nasal cavity, vowel a"
+            }
+          },
+          {
+            "arabic": "نَ",
+            "name": "nun + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَ + fatha: tip of tongue against gum ridge, nasal cavity, vowel a"
+            }
+          },
+          {
+            "arabic": "هَ",
+            "name": "ha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هَ + fatha: light, breathy throat release, vowel a"
+            }
+          },
+          {
+            "arabic": "وَ",
+            "name": "waw + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَ + fatha: rounded lips (consonant use), vowel a"
+            }
+          },
+          {
+            "arabic": "يَ",
+            "name": "ya + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَ + fatha: middle of tongue toward the roof of the mouth (consonant use), vowel a"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided grid drill, first half (letters 1–14)",
+      "instructions": "Read each cell aloud in order: أَ through ذَ.",
+      "grid": [
+        [
+          {
+            "arabic": "أَ",
+            "name": "alif + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَ + fatha: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel a"
+            }
+          },
+          {
+            "arabic": "بَ",
+            "name": "ba + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+            }
+          },
+          {
+            "arabic": "تَ",
+            "name": "ta + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "ثَ",
+            "name": "tha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثَ + fatha: tip of tongue between the teeth (interdental), vowel a"
+            }
+          },
+          {
+            "arabic": "جَ",
+            "name": "jeem + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَ + fatha: middle of the tongue against the roof of the mouth, vowel a"
+            }
+          },
+          {
+            "arabic": "حَ",
+            "name": "haa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَ + fatha: middle of the throat, vowel a"
+            }
+          },
+          {
+            "arabic": "خَ",
+            "name": "kha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خَ + fatha: upper throat / back of tongue against the soft palate, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَ",
+            "name": "dal + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَ + fatha: tip of tongue against the upper gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "ذَ",
+            "name": "dhal + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+            }
+          },
+          {
+            "arabic": "رَ",
+            "name": "ra + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَ + fatha: tip of tongue curled slightly, touching the gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "زَ",
+            "name": "zay + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زَ + fatha: tip of tongue near the lower teeth, sibilant, vowel a"
+            }
+          },
+          {
+            "arabic": "سَ",
+            "name": "seen + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+            }
+          },
+          {
+            "arabic": "شَ",
+            "name": "sheen + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَ + fatha: middle of tongue against the roof of the mouth, vowel a"
+            }
+          },
+          {
+            "arabic": "صَ",
+            "name": "saad + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Guided grid drill, second half (letters 15–28)",
+      "instructions": "Read each cell aloud in order: رَ through يَ.",
+      "grid": [
+        [
+          {
+            "arabic": "ضَ",
+            "name": "daad + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضَ + fatha: side of the tongue against the upper molars — a lateral release unique to this letter, vowel a"
+            }
+          },
+          {
+            "arabic": "طَ",
+            "name": "taa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+            }
+          },
+          {
+            "arabic": "ظَ",
+            "name": "dhaa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+            }
+          },
+          {
+            "arabic": "عَ",
+            "name": "ayn + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَ + fatha: middle of the throat, vowel a"
+            }
+          },
+          {
+            "arabic": "غَ",
+            "name": "ghayn + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غَ + fatha: upper throat, same zone as خ but voiced, vowel a"
+            }
+          },
+          {
+            "arabic": "فَ",
+            "name": "fa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+            }
+          },
+          {
+            "arabic": "قَ",
+            "name": "qaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَ",
+            "name": "kaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+            }
+          },
+          {
+            "arabic": "لَ",
+            "name": "lam + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَ + fatha: tip/sides of tongue against the gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "مَ",
+            "name": "meem + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَ + fatha: the two lips, nasal cavity, vowel a"
+            }
+          },
+          {
+            "arabic": "نَ",
+            "name": "nun + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَ + fatha: tip of tongue against gum ridge, nasal cavity, vowel a"
+            }
+          },
+          {
+            "arabic": "هَ",
+            "name": "ha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هَ + fatha: light, breathy throat release, vowel a"
+            }
+          },
+          {
+            "arabic": "وَ",
+            "name": "waw + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَ + fatha: rounded lips (consonant use), vowel a"
+            }
+          },
+          {
+            "arabic": "يَ",
+            "name": "ya + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَ + fatha: middle of tongue toward the roof of the mouth (consonant use), vowel a"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Randomized-order re-drill",
+      "instructions": "Read each cell aloud in this new shuffled order — don't rely on the order you memorized; this tests whether you truly recognize each letter.",
+      "grid": [
+        [
+          {
+            "arabic": "بَ",
+            "name": "ba + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+            }
+          },
+          {
+            "arabic": "أَ",
+            "name": "alif + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَ + fatha: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel a"
+            }
+          },
+          {
+            "arabic": "رَ",
+            "name": "ra + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَ + fatha: tip of tongue curled slightly, touching the gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "هَ",
+            "name": "ha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هَ + fatha: light, breathy throat release, vowel a"
+            }
+          },
+          {
+            "arabic": "ضَ",
+            "name": "daad + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ضَ + fatha: side of the tongue against the upper molars — a lateral release unique to this letter, vowel a"
+            }
+          },
+          {
+            "arabic": "ظَ",
+            "name": "dhaa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+            }
+          },
+          {
+            "arabic": "طَ",
+            "name": "taa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَ",
+            "name": "meem + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَ + fatha: the two lips, nasal cavity, vowel a"
+            }
+          },
+          {
+            "arabic": "غَ",
+            "name": "ghayn + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غَ + fatha: upper throat, same zone as خ but voiced, vowel a"
+            }
+          },
+          {
+            "arabic": "وَ",
+            "name": "waw + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَ + fatha: rounded lips (consonant use), vowel a"
+            }
+          },
+          {
+            "arabic": "شَ",
+            "name": "sheen + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَ + fatha: middle of tongue against the roof of the mouth, vowel a"
+            }
+          },
+          {
+            "arabic": "زَ",
+            "name": "zay + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "زَ + fatha: tip of tongue near the lower teeth, sibilant, vowel a"
+            }
+          },
+          {
+            "arabic": "ذَ",
+            "name": "dhal + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+            }
+          },
+          {
+            "arabic": "سَ",
+            "name": "seen + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَ",
+            "name": "nun + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَ + fatha: tip of tongue against gum ridge, nasal cavity, vowel a"
+            }
+          },
+          {
+            "arabic": "ثَ",
+            "name": "tha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثَ + fatha: tip of tongue between the teeth (interdental), vowel a"
+            }
+          },
+          {
+            "arabic": "خَ",
+            "name": "kha + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خَ + fatha: upper throat / back of tongue against the soft palate, vowel a"
+            }
+          },
+          {
+            "arabic": "قَ",
+            "name": "qaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+            }
+          },
+          {
+            "arabic": "جَ",
+            "name": "jeem + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَ + fatha: middle of the tongue against the roof of the mouth, vowel a"
+            }
+          },
+          {
+            "arabic": "حَ",
+            "name": "haa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَ + fatha: middle of the throat, vowel a"
+            }
+          },
+          {
+            "arabic": "يَ",
+            "name": "ya + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَ + fatha: middle of tongue toward the roof of the mouth (consonant use), vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَ",
+            "name": "lam + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَ + fatha: tip/sides of tongue against the gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "صَ",
+            "name": "saad + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+            }
+          },
+          {
+            "arabic": "تَ",
+            "name": "ta + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "عَ",
+            "name": "ayn + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَ + fatha: middle of the throat, vowel a"
+            }
+          },
+          {
+            "arabic": "دَ",
+            "name": "dal + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَ + fatha: tip of tongue against the upper gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "فَ",
+            "name": "fa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+            }
+          },
+          {
+            "arabic": "كَ",
+            "name": "kaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Contrast check — light vs. heavy fatha",
+      "instructions": "سَ/صَ — تَ/طَ — ذَ/ظَ — كَ/قَ. Say each pair back to back, noticing the vowel-darkening on the heavy side.",
+      "grid": [
+        [
+          {
+            "arabic": "سَ",
+            "name": "seen + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+            }
+          },
+          {
+            "arabic": "صَ",
+            "name": "saad + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "تَ",
+            "name": "ta + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+            }
+          },
+          {
+            "arabic": "طَ",
+            "name": "taa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ذَ",
+            "name": "dhal + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+            }
+          },
+          {
+            "arabic": "ظَ",
+            "name": "dhaa + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَ",
+            "name": "kaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+            }
+          },
+          {
+            "arabic": "قَ",
+            "name": "qaaf + fatha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — the full letter × fatha grid",
+      "items": [
+        {
+          "arabic": "أَ",
+          "name": "alif + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَ + fatha: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel a"
+          }
+        },
+        {
+          "arabic": "بَ",
+          "name": "ba + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+          }
+        },
+        {
+          "arabic": "تَ",
+          "name": "ta + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+          }
+        },
+        {
+          "arabic": "ثَ",
+          "name": "tha + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ثَ + fatha: tip of tongue between the teeth (interdental), vowel a"
+          }
+        },
+        {
+          "arabic": "جَ",
+          "name": "jeem + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "جَ + fatha: middle of the tongue against the roof of the mouth, vowel a"
+          }
+        },
+        {
+          "arabic": "حَ",
+          "name": "haa + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "حَ + fatha: middle of the throat, vowel a"
+          }
+        },
+        {
+          "arabic": "خَ",
+          "name": "kha + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خَ + fatha: upper throat / back of tongue against the soft palate, vowel a"
+          }
+        },
+        {
+          "arabic": "دَ",
+          "name": "dal + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دَ + fatha: tip of tongue against the upper gum ridge, vowel a"
+          }
+        },
+        {
+          "arabic": "ذَ",
+          "name": "dhal + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+          }
+        },
+        {
+          "arabic": "رَ",
+          "name": "ra + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَ + fatha: tip of tongue curled slightly, touching the gum ridge, vowel a"
+          }
+        },
+        {
+          "arabic": "زَ",
+          "name": "zay + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "زَ + fatha: tip of tongue near the lower teeth, sibilant, vowel a"
+          }
+        },
+        {
+          "arabic": "سَ",
+          "name": "seen + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+          }
+        },
+        {
+          "arabic": "شَ",
+          "name": "sheen + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "شَ + fatha: middle of tongue against the roof of the mouth, vowel a"
+          }
+        },
+        {
+          "arabic": "صَ",
+          "name": "saad + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+          }
+        },
+        {
+          "arabic": "ضَ",
+          "name": "daad + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ضَ + fatha: side of the tongue against the upper molars — a lateral release unique to this letter, vowel a"
+          }
+        },
+        {
+          "arabic": "طَ",
+          "name": "taa + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+          }
+        },
+        {
+          "arabic": "ظَ",
+          "name": "dhaa + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+          }
+        },
+        {
+          "arabic": "عَ",
+          "name": "ayn + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "عَ + fatha: middle of the throat, vowel a"
+          }
+        },
+        {
+          "arabic": "غَ",
+          "name": "ghayn + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "غَ + fatha: upper throat, same zone as خ but voiced, vowel a"
+          }
+        },
+        {
+          "arabic": "فَ",
+          "name": "fa + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+          }
+        },
+        {
+          "arabic": "قَ",
+          "name": "qaaf + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+          }
+        },
+        {
+          "arabic": "كَ",
+          "name": "kaaf + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+          }
+        },
+        {
+          "arabic": "لَ",
+          "name": "lam + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لَ + fatha: tip/sides of tongue against the gum ridge, vowel a"
+          }
+        },
+        {
+          "arabic": "مَ",
+          "name": "meem + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مَ + fatha: the two lips, nasal cavity, vowel a"
+          }
+        },
+        {
+          "arabic": "نَ",
+          "name": "nun + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "نَ + fatha: tip of tongue against gum ridge, nasal cavity, vowel a"
+          }
+        },
+        {
+          "arabic": "هَ",
+          "name": "ha + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "هَ + fatha: light, breathy throat release, vowel a"
+          }
+        },
+        {
+          "arabic": "وَ",
+          "name": "waw + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَ + fatha: rounded lips (consonant use), vowel a"
+          }
+        },
+        {
+          "arabic": "يَ",
+          "name": "ya + fatha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يَ + fatha: middle of tongue toward the roof of the mouth (consonant use), vowel a"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "In your notebook, write today's marked syllables (أَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ سَ شَ صَ ضَ طَ ظَ عَ غَ فَ قَ كَ لَ مَ نَ هَ وَ يَ) 4 full rows, saying each sound aloud as you write it, then memorize today's grid",
+        "Daily heavy-vs-light contrast pairs (سَ/صَ — تَ/طَ — ذَ/ظَ — كَ/قَ), 4 pairs × 3 reps, said aloud",
+        "Review previously learned letters: read the cumulative 28-letter shuffle aloud once",
+        "Listen once to the fatha section of the Muallimi Soniy compilation video — use its own chapter list to find that section"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Full letter × fatha grid",
+        "instructions": "Read each cell aloud. Then self-quiz: cover rows and re-reveal, in randomized order.",
+        "grid": [
+          [
+            {
+              "arabic": "أَ",
+              "name": "alif + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَ + fatha: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel a"
+              }
+            },
+            {
+              "arabic": "بَ",
+              "name": "ba + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+              }
+            },
+            {
+              "arabic": "تَ",
+              "name": "ta + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "ثَ",
+              "name": "tha + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثَ + fatha: tip of tongue between the teeth (interdental), vowel a"
+              }
+            },
+            {
+              "arabic": "جَ",
+              "name": "jeem + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَ + fatha: middle of the tongue against the roof of the mouth, vowel a"
+              }
+            },
+            {
+              "arabic": "حَ",
+              "name": "haa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَ + fatha: middle of the throat, vowel a"
+              }
+            },
+            {
+              "arabic": "خَ",
+              "name": "kha + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خَ + fatha: upper throat / back of tongue against the soft palate, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دَ",
+              "name": "dal + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَ + fatha: tip of tongue against the upper gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "ذَ",
+              "name": "dhal + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+              }
+            },
+            {
+              "arabic": "رَ",
+              "name": "ra + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَ + fatha: tip of tongue curled slightly, touching the gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "زَ",
+              "name": "zay + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "زَ + fatha: tip of tongue near the lower teeth, sibilant, vowel a"
+              }
+            },
+            {
+              "arabic": "سَ",
+              "name": "seen + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+              }
+            },
+            {
+              "arabic": "شَ",
+              "name": "sheen + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَ + fatha: middle of tongue against the roof of the mouth, vowel a"
+              }
+            },
+            {
+              "arabic": "صَ",
+              "name": "saad + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ضَ",
+              "name": "daad + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ضَ + fatha: side of the tongue against the upper molars — a lateral release unique to this letter, vowel a"
+              }
+            },
+            {
+              "arabic": "طَ",
+              "name": "taa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+              }
+            },
+            {
+              "arabic": "ظَ",
+              "name": "dhaa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+              }
+            },
+            {
+              "arabic": "عَ",
+              "name": "ayn + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَ + fatha: middle of the throat, vowel a"
+              }
+            },
+            {
+              "arabic": "غَ",
+              "name": "ghayn + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غَ + fatha: upper throat, same zone as خ but voiced, vowel a"
+              }
+            },
+            {
+              "arabic": "فَ",
+              "name": "fa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+              }
+            },
+            {
+              "arabic": "قَ",
+              "name": "qaaf + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَ",
+              "name": "kaaf + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+              }
+            },
+            {
+              "arabic": "لَ",
+              "name": "lam + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لَ + fatha: tip/sides of tongue against the gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "مَ",
+              "name": "meem + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَ + fatha: the two lips, nasal cavity, vowel a"
+              }
+            },
+            {
+              "arabic": "نَ",
+              "name": "nun + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَ + fatha: tip of tongue against gum ridge, nasal cavity, vowel a"
+              }
+            },
+            {
+              "arabic": "هَ",
+              "name": "ha + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هَ + fatha: light, breathy throat release, vowel a"
+              }
+            },
+            {
+              "arabic": "وَ",
+              "name": "waw + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَ + fatha: rounded lips (consonant use), vowel a"
+              }
+            },
+            {
+              "arabic": "يَ",
+              "name": "ya + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَ + fatha: middle of tongue toward the roof of the mouth (consonant use), vowel a"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Randomized-order re-drill",
+        "instructions": "Read each cell aloud in this shuffled order — don't rely on the sequence you memorized; this tests real recognition.",
+        "grid": [
+          [
+            {
+              "arabic": "بَ",
+              "name": "ba + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَ + fatha: the two lips (shafatan), fully closed, vowel a"
+              }
+            },
+            {
+              "arabic": "أَ",
+              "name": "alif + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَ + fatha: al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound, vowel a"
+              }
+            },
+            {
+              "arabic": "رَ",
+              "name": "ra + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَ + fatha: tip of tongue curled slightly, touching the gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "هَ",
+              "name": "ha + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هَ + fatha: light, breathy throat release, vowel a"
+              }
+            },
+            {
+              "arabic": "ضَ",
+              "name": "daad + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ضَ + fatha: side of the tongue against the upper molars — a lateral release unique to this letter, vowel a"
+              }
+            },
+            {
+              "arabic": "ظَ",
+              "name": "dhaa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+              }
+            },
+            {
+              "arabic": "طَ",
+              "name": "taa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مَ",
+              "name": "meem + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَ + fatha: the two lips, nasal cavity, vowel a"
+              }
+            },
+            {
+              "arabic": "غَ",
+              "name": "ghayn + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "غَ + fatha: upper throat, same zone as خ but voiced, vowel a"
+              }
+            },
+            {
+              "arabic": "وَ",
+              "name": "waw + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَ + fatha: rounded lips (consonant use), vowel a"
+              }
+            },
+            {
+              "arabic": "شَ",
+              "name": "sheen + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَ + fatha: middle of tongue against the roof of the mouth, vowel a"
+              }
+            },
+            {
+              "arabic": "زَ",
+              "name": "zay + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "زَ + fatha: tip of tongue near the lower teeth, sibilant, vowel a"
+              }
+            },
+            {
+              "arabic": "ذَ",
+              "name": "dhal + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+              }
+            },
+            {
+              "arabic": "سَ",
+              "name": "seen + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَ",
+              "name": "nun + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَ + fatha: tip of tongue against gum ridge, nasal cavity, vowel a"
+              }
+            },
+            {
+              "arabic": "ثَ",
+              "name": "tha + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثَ + fatha: tip of tongue between the teeth (interdental), vowel a"
+              }
+            },
+            {
+              "arabic": "خَ",
+              "name": "kha + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خَ + fatha: upper throat / back of tongue against the soft palate, vowel a"
+              }
+            },
+            {
+              "arabic": "قَ",
+              "name": "qaaf + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+              }
+            },
+            {
+              "arabic": "جَ",
+              "name": "jeem + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَ + fatha: middle of the tongue against the roof of the mouth, vowel a"
+              }
+            },
+            {
+              "arabic": "حَ",
+              "name": "haa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَ + fatha: middle of the throat, vowel a"
+              }
+            },
+            {
+              "arabic": "يَ",
+              "name": "ya + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَ + fatha: middle of tongue toward the roof of the mouth (consonant use), vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَ",
+              "name": "lam + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لَ + fatha: tip/sides of tongue against the gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "صَ",
+              "name": "saad + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+              }
+            },
+            {
+              "arabic": "تَ",
+              "name": "ta + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "عَ",
+              "name": "ayn + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَ + fatha: middle of the throat, vowel a"
+              }
+            },
+            {
+              "arabic": "دَ",
+              "name": "dal + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَ + fatha: tip of tongue against the upper gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "فَ",
+              "name": "fa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَ + fatha: inner lower lip against the edge of the upper front teeth, vowel a"
+              }
+            },
+            {
+              "arabic": "كَ",
+              "name": "kaaf + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Heavy-vs-light fatha contrast pairs",
+        "instructions": "سَ/صَ — تَ/طَ — ذَ/ظَ — كَ/قَ. Say each pair back to back, 3 reps.",
+        "grid": [
+          [
+            {
+              "arabic": "سَ",
+              "name": "seen + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَ + fatha: tip of tongue near the lower teeth, thin hiss, vowel a"
+              }
+            },
+            {
+              "arabic": "صَ",
+              "name": "saad + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَ + fatha: same point as س, but back of tongue raised, mouth cavity fuller — heavy twin of س, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "تَ",
+              "name": "ta + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تَ + fatha: tip of tongue against the upper front teeth / gum ridge, vowel a"
+              }
+            },
+            {
+              "arabic": "طَ",
+              "name": "taa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَ + fatha: same point as ت, but full mouth cavity — heavy twin of ت, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ذَ",
+              "name": "dhal + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذَ + fatha: tip of tongue between the teeth (same point as ث, but voiced), vowel a"
+              }
+            },
+            {
+              "arabic": "ظَ",
+              "name": "dhaa + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ظَ + fatha: same point as ذ, but full mouth cavity — heavy twin of ذ, vowel a"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَ",
+              "name": "kaaf + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَ + fatha: back of tongue against the soft palate, shallower in the mouth than ق, vowel a"
+              }
+            },
+            {
+              "arabic": "قَ",
+              "name": "qaaf + fatha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَ + fatha: back of tongue against the soft palate, vowel a"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Write today's marked syllables (28-cell grid) 4 rows each in your notebook, saying each sound aloud as you write",
+      "Randomized-order self-quiz drill: read each cell aloud",
+      "Heavy-vs-light contrast pairs (4 pairs × 3 reps)",
+      "Review previously learned letters via the cumulative shuffle",
+      "Listen once to the fatha section of the Muallimi Soniy compilation video — use its own chapter list to find that section"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the Tirmidhi 2910 hadith (reward ×10 per letter, Alif-Lam-Mim) — today every letter starts carrying its own vowel, so frame it as the reward multiplying letter by letter.",
+      "Introduce fatha as a short, crisp 'a' — model بَ/تَ/ثَ slowly, exaggerating that the vowel is SHORT, never lengthened into a madd.",
+      "Demonstrate the heavy-letter darkening explicitly on صَ — say سَ then صَ back to back so the 'a' vs fuller/darker 'a' contrast is unmistakable.",
+      "Since no vetted 'hear the whole grid' video is wired in yet (candidates are unverified/audition-required per verified-resources.md §4), demonstrate the full 28-cell grid live yourself, at natural pace, before the randomized re-drill.",
+      "Run the grid in its natural order first (two guided halves), then re-drill fully randomized — the randomized pass is the real recognition test, not the ordered one.",
+      "Close with the heavy-vs-light contrast pairs, listening specifically for whether the 'a' darkens correctly after ص ط ظ ق."
+    ],
+    "listenFor": [
+      "Fatha lengthened into a full madd (\"aa\" instead of a short \"a\") — this is the single most common vowel-timing error and matters enormously later (madd rules are a major Phase 3 unit); catch it here at the source.",
+      "Heavy letters' fatha not darkening at all (student produces a flat \"a\" even after ص ض ط ظ ق غ خ) — the first testable instance of the tafkheem-bleeds-into-the-vowel pattern named in the sourced research (teaching-mistakes-assessment.md A.2).",
+      "Any regression on the underlying consonant sound now that a vowel is attached (a letter that was solid in isolation coming out wrong once voweled) — re-flag using the same high-risk-six watchlist from Unit 1.1."
+    ],
+    "homework": "In the student's notebook: today's marked syllables (28-cell grid) written 4 full rows, saying each sound aloud while writing, then memorized. Daily heavy-vs-light contrast pairs (4 pairs × 3 reps). Review previously learned letters via the cumulative shuffle. Listen once to the fatha section of the Muallimi Soniy compilation video, using its own chapter list to find that section. No printed sheets."
+  },
+  "videos": [
+    {
+      "title": "Muallimi Soniy — full alphabet compilation (reference)",
+      "url": "https://youtu.be/VhRHKdPcNPA"
+    }
+  ]
+}

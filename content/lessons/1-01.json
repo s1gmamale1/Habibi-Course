@@ -1,0 +1,89 @@
+{
+  "id": "1-01",
+  "phase": 1,
+  "unit": "1.1",
+  "title": "Orientation + Alif & the ب ت ث family",
+  "objectives": [
+    "Explain that Arabic is read right-to-left and letters are learned by shape-family",
+    "Identify and correctly pronounce ا ب ت ث in isolation, on sight, in random order",
+    "Locate the makhraj (articulation point) for each of these 4 letters when asked"
+  ],
+  "slides": [
+    {"kind": "title", "heading": "Lesson 1.1 — Meet the Alphabet", "arabicDecor": "ا ب ت ث"},
+    {"kind": "concept", "heading": "Meet the Arabic Language", "body": ["It has 28 letters, and the script has no capital letters: just one shape-family per letter.", "Arabic is cursive — most letters connect to their neighbors, and a letter can change shape depending on where it falls in a word (start, middle, end, or alone).", "Arabic words grow from three-letter roots. The root ك ت ب (k-t-b, 'writing') gives us kataba (he wrote), kitab (book), maktab (desk), katib (writer) — one skeleton, one family of meaning.", "Little marks called harakat (the short-vowel marks — فتحة كسرة ضمة — fatha, kasra, damma) sit above or below a letter to show its short vowel sound: بَ (ba), بِ (bi), بُ (bu) are the same letter ب with each of the three marks. Think of them as training wheels for reading — and this course leans on them heavily.", "Good news: you do not need to learn Arabic grammar to learn to read the Qur'an. A child reads fluently years before studying grammar — you can too. Grammar can come later, if you ever want it. Right now, we are only learning to read."]},
+    {"kind": "concept", "heading": "Why Arabic Matters in the Deen", "body": ["Allah says: 'Indeed, We have sent it down as an Arabic Qur'an that you might understand.' (Qur'an 12:2, Surah Yusuf)", "And again: 'Indeed, We have made it an Arabic Qur'an that you might understand.' (Qur'an 43:3, Surah az-Zukhruf)", "'Umar ibn al-Khattab (radiyallahu 'anhu) is reported to have said: تعلموا العربية فإنها من دينكم — 'Learn Arabic, for it is part of your religion.' (recorded by Ibn Abi Shaybah; cited in Ibn Taymiyyah, Iqtida' as-Sirat al-Mustaqim 2/207)", "Ibn Taymiyyah explained why: 'The Arabic language itself is part of the religion, and knowing it is an obligatory duty; for understanding the Qur'an and the Sunnah is obligatory, and they cannot be understood except by understanding the Arabic language.' (Iqtida' as-Sirat al-Mustaqim 2/207)", "Imam ash-Shafi'i reassured us how much is enough: it is obligatory on every Muslim 'to learn the Arabic tongue to the utmost of his power' in order to recite the Book of God and say what worship requires — to the extent of one's ability, not perfection. (ar-Risala, trans. Khadduri, p. 93)", "This is why al-Fatihah matters so directly: the Prophet ﷺ said, 'Whoever does not recite Al-Fatiha in his prayer, his prayer is invalid.' (Bukhari 756, Muslim 394a — agreed upon)", "And the deen meets you exactly where you are: a man once told the Prophet ﷺ, 'I cannot memorise anything from the Qur'an, so teach me something which is sufficient for me.' The Prophet ﷺ taught him a short dhikr instead — and said of him, 'This man has filled his hand with good things.' (Abu Dawud 832, Hasan). Until you can read, this door of mercy is open."]},
+    {"kind": "concept", "heading": "The Virtues of the Path You're Starting", "body": ["'A'ishah (radiyallahu 'anha) reported the Prophet ﷺ said: 'One who is proficient in the Qur'an is associated with the noble, upright, recording angels; and he who falters in it, and finds it difficult for him, will have two rewards.' (Sahih Muslim 798a)", "Read that again: the one who struggles gets DOUBLE the reward. Every stumble on the way to fluency is itself something Allah loves and rewards specially — not a deficiency to feel guilty over.", "Ibn Mas'ud reported the Prophet ﷺ said: 'Whoever recites a letter from the Book of Allah, he will have a reward, and that reward will be multiplied by ten. I do not say that Alif-Lam-Mim is one letter, but Alif is a letter, Lam is a letter, and Mim is a letter.' (Tirmidhi 2910, Hasan) — every single letter you learn to say correctly is its own multiplied reward.", "And the Prophet ﷺ said: 'The best among you are those who learn the Qur'an and teach it.' (Bukhari 5027) — by starting this course, you are stepping onto that path."]},
+    {"kind": "concept", "heading": "How this course works", "body": ["Live lesson + this slide deck + tap-to-hear + daily homework", "Three lessons a week (Mon/Wed/Sat), 15–20 min practice every day", "Nothing is ever locked — repeat any lesson, any time"]},
+    {"kind": "concept", "heading": "Arabic reads right-to-left", "body": ["Lines flow right → left; so do the letters inside a word", "We learn letters in shape-families (letters that look alike), not dictionary order"]},
+    {"kind": "concept", "heading": "Makhraj — where a sound is born", "body": ["Every Arabic letter has one home in your mouth or throat", "Five broad zones: chest cavity, throat, tongue, lips, nose", "Getting the makhraj right IS tajweed's foundation — we start today, not in Phase 3"], "image": "/images/makhraj/overview.svg"},
+    {"kind": "letter", "item": {"arabic": "ا", "name": "alif", "translit": "ā", "audio": {"type": "teacher-voice", "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"}}, "makhraj": "al-jawf — the empty space of the mouth/chest cavity; an open, unobstructed sound", "notes": ["The simplest letter: a single vertical stroke", "In Phase 2 alif becomes the long-vowel (madd) letter — foreshadow only"], "forms": {"isolated": "ا", "final": "ـا"}, "example": {"arabic": "بَاب", "translit": "bāb", "meaning": "door"}, "image": "/images/makhraj/jawf.svg"},
+    {"kind": "letter", "item": {"arabic": "ب", "name": "ba", "translit": "b", "audio": {"type": "teacher-voice", "cue": "ب: both lips close fully, then release — like English b but with complete lip contact"}}, "makhraj": "the two lips (shafatan), fully closed", "notes": ["One dot BELOW the body"], "forms": {"isolated": "ب", "initial": "بـ", "medial": "ـبـ", "final": "ـب"}, "example": {"arabic": "بَيْت", "translit": "bayt", "meaning": "house"}, "image": "/images/makhraj/shafatan.svg"},
+    {"kind": "letter", "item": {"arabic": "ت", "name": "ta", "translit": "t", "audio": {"type": "teacher-voice", "cue": "ت: tongue-tip taps the ridge behind the upper front teeth — light, no heaviness"}}, "makhraj": "tip of tongue against the upper front teeth / gum ridge", "notes": ["Two dots ABOVE the body — same body as ب"], "forms": {"isolated": "ت", "initial": "تـ", "medial": "ـتـ", "final": "ـت"}, "example": {"arabic": "تَمْر", "translit": "tamr", "meaning": "dates"}, "image": "/images/makhraj/lisan.svg"},
+    {"kind": "letter", "item": {"arabic": "ث", "name": "tha", "translit": "th", "audio": {"type": "teacher-voice", "cue": "ث: tongue-tip BETWEEN the teeth, unvoiced 'th' as in think — never plain t, never s"}}, "makhraj": "tip of tongue between the teeth (interdental)", "notes": ["Three dots ABOVE — same body as ب and ت"], "forms": {"isolated": "ث", "initial": "ثـ", "medial": "ـثـ", "final": "ـث"}, "example": {"arabic": "ثَعْلَب", "translit": "thaʿlab", "meaning": "fox"}, "image": "/images/makhraj/lisan.svg"},
+    {"kind": "drill", "heading": "Spot the dots", "instructions": "Same body, different dots. Look at each letter and name it along with its dot pattern.", "grid": [[
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "one dot below"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "two dots above"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "three dots above"}}
+    ]]},
+    {"kind": "drill", "heading": "Name it back", "instructions": "Listen for a letter name, point to it, and say it back. All 4 letters, randomized — do 3 rounds.", "grid": [[
+      {"arabic": "ا", "name": "alif", "audio": {"type": "teacher-voice", "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}}
+    ]]},
+    {"kind": "concept", "heading": "28 letters — the whole journey", "body": ["The Arabic alphabet has 28 letters in total. You already know 4 of them: ا ب ت ث.", "You may also hear people say '29 letters' — that's because hamza (ء), a glottal-stop mark, is sometimes counted separately. In this course we count 28 and treat hamza on its own when it appears (1-minute aside — details in the linked video, optional).", "Every lesson from here adds a small new family of letters — by the end of Unit 1.1, all 28 will be familiar to you."]},
+    {"kind": "concept", "heading": "Which letters give learners the most trouble", "body": ["Every student finds a few letters tricky at first — that's completely normal, not a sign you're doing something wrong.", "ض (daad) is famously the hardest letter in the whole Arabic alphabet for non-native speakers — even many native speakers work to master it. You'll get dedicated, no-pressure practice time on it in lesson 1.4.", "ع and ح have no equivalent sounds in English, Uzbek, Turkish, Persian, or Urdu — they take extra repetition to feel natural, and that's expected.", "خ and غ are a different story for you: Uzbek already has these sounds — the х in xalq, xayr, and the gʻ in gʻalaba. You can very likely make both of them already. The work here is tightening that existing Uzbek sound into the exact Arabic articulation depth, not learning something brand new — an advantage most learners don't start with.", "The interdental letters ث ذ ظ (tongue between the teeth) are also commonly flattened toward other sounds at first — you'll get focused correction on these as they come up.", "Knowing this in advance means when you hit a hard letter, you'll recognize it as an expected part of the path, not a personal setback."]},
+    {"kind": "concept", "heading": "Your realistic timeline", "body": ["At this course's pace (three lessons a week, plus daily practice), you'll meet all 28 letters in about 2 weeks.", "The whole 'letters and sounds' phase — today's Phase 1 — takes roughly 4 weeks, ending with a friendly checkpoint, not a high-stakes exam.", "The full course, through to reading with proper tajweed rules, takes about 4.5 months at this pace.", "That's it — a few months from today to reading the Qur'an correctly and confidently. Nothing here requires rushing."]},
+    {"kind": "recap", "heading": "Today's four letters", "items": [
+      {"arabic": "ا", "name": "alif", "audio": {"type": "teacher-voice", "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"}},
+      {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "lips fully together"}},
+      {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "tongue-tip on gum ridge"}},
+      {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "tongue between teeth"}}
+    ]},
+    {"kind": "homework", "heading": "Homework — 15–20 min/day", "tasks": [
+      "In your notebook, write each new letter (ا ب ت ث) 4 full rows — say its name and sound aloud as you write — and memorize today's letters",
+      "Say each letter's name + sound aloud 10× per letter in mixed order",
+      "Re-watch the two linked Arabic101 orientation videos once this week"
+    ]}
+  ],
+  "practice": {
+    "drills": [
+      {"title": "Flashcard grid", "instructions": "Name each letter + produce its sound. Shuffle your order every round.", "grid": [[
+        {"arabic": "ا", "name": "alif", "audio": {"type": "teacher-voice", "cue": "ا: an open, unobstructed sound from deep in the chest cavity — no closure anywhere, just a clear open vowel"}},
+        {"arabic": "ب", "name": "ba", "audio": {"type": "teacher-voice", "cue": "ب: both lips close fully, then release"}},
+        {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "ت: tongue-tip taps behind upper front teeth"}},
+        {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "ث: tongue between teeth, soft 'th' as in think"}}
+      ]]},
+      {"title": "Minimal-pair listening: ت vs ث", "instructions": "Someone says ت or ث — point to the glyph you heard. (With your teacher live, or self-test against the cue lines.)", "grid": [[
+        {"arabic": "ت", "name": "ta", "audio": {"type": "teacher-voice", "cue": "plain t — tongue on gum ridge"}},
+        {"arabic": "ث", "name": "tha", "audio": {"type": "teacher-voice", "cue": "soft th — tongue between teeth"}}
+      ]]}
+    ],
+    "dailyChecklist": [
+      "Write today's letters (ا ب ت ث) 4 rows each in your notebook, saying the name and sound aloud as you write",
+      "Flashcard round ×3 (mixed order)",
+      "ت vs ث minimal-pair round ×1",
+      "Watch one linked orientation video (first two days)"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the course tour (slide 5, after the intro segment): live lessons Mon/Wed/Sat, slides re-openable at home, tap-to-hear on every Arabic item, nothing is ever locked.",
+      "Makhraj slide: keep it plain-English — 'where the sound is born'. Do not introduce Arabic zone names yet.",
+      "Model each letter's sound 3× before asking the student to imitate; correct on the FIRST wrong repetition, not the third (ijazah-style immediate correction — teaching-mistakes-assessment.md B).",
+      "Before the lesson: self-check your own ث and ب against the linked Arabic101 orientation videos — teacher voice is the student's primary audio for these letters."
+    ],
+    "listenFor": [
+      "ث flattened toward plain ت or toward س — Uzbek/Turkic phonology has no interdental fricative; highest-risk error of the lesson",
+      "ب produced without full lip closure (weak v-like glide)",
+      "ا given an added glottal catch (hamza) — isolated alif should be open and unobstructed"
+    ],
+    "homework": "In the student's notebook: each new letter (ا ب ت ث) written 4 full rows, saying its name and sound aloud while writing, then memorized; also say each letter's name + sound aloud 10× per letter in mixed order; re-watch both orientation videos once. No printed sheets."
+  },
+  "videos": [
+    {"title": "Arabic101 — alphabet orientation (1)", "url": "https://www.youtube.com/watch?v=j9BwXWpzB1Y"},
+    {"title": "Arabic101 — alphabet orientation (2)", "url": "https://www.youtube.com/watch?v=c-7SVieC_04"},
+    {"title": "Arabic101 — 28 or 29 letters?", "url": "https://www.youtube.com/watch?v=JLee5VQvdIo"},
+    {"title": "Muallimi Soniy — full alphabet compilation (reference)", "url": "https://youtu.be/VhRHKdPcNPA"}
+  ]
+}
