@@ -191,7 +191,7 @@
         "final": "ـع"
       },
       "example": {
-        "arabic": "عين",
+        "arabic": "عَيْن",
         "translit": "ʿayn",
         "meaning": "eye"
       },
@@ -200,7 +200,7 @@
     {
       "kind": "drill",
       "heading": "Guided ع drill — throat-squeeze vs glottal stop",
-      "instructions": "Repeat after your teacher: the throat-squeeze of ع, contrasted against a plain glottal stop (ء — an aside here, teacher-voiced only, not yet formally taught). Listen for the difference — a real muscular squeeze, not just \"starting a vowel abruptly\".",
+      "instructions": "Repeat after your teacher: the throat-squeeze of ع, contrasted against a plain glottal stop (ء — just a quick aside here, not yet formally taught). Listen for the difference — a real muscular squeeze, not just \"starting a vowel abruptly\".",
       "grid": [
         [
           {
@@ -245,7 +245,7 @@
         "final": "ـغ"
       },
       "example": {
-        "arabic": "غيم",
+        "arabic": "غَيْم",
         "translit": "ghaym",
         "meaning": "cloud"
       },
@@ -299,7 +299,7 @@
         "final": "ـف"
       },
       "example": {
-        "arabic": "فيل",
+        "arabic": "فِيل",
         "translit": "fīl",
         "meaning": "elephant"
       },
@@ -330,7 +330,7 @@
         "final": "ـق"
       },
       "example": {
-        "arabic": "قلم",
+        "arabic": "قَلَم",
         "translit": "qalam",
         "meaning": "pen"
       },
@@ -698,7 +698,7 @@
       },
       {
         "title": "Minimal-pair listening: ع vs ء(anticipatory)",
-        "instructions": "Someone says ع or ء (teacher-voiced only; ء is just an aside here, not yet formally taught) — point to the glyph you heard. This tests whether you can tell a real throat-squeeze from a plain glottal stop, early.",
+        "instructions": "Someone says ع or ء (ء is just an aside here, not yet formally taught) — point to the glyph you heard. This tests whether you can tell a real throat-squeeze from a plain glottal stop, early.",
         "grid": [
           [
             {

@@ -184,6 +184,18 @@ body {
   .rim-glow-b::before, .rim-glow-b::after { animation: none; opacity: 0.7; }
 }
 
+/* ── Cheap static treatment for size="md" grid cells (practice/checkpoint
+   drill grids can run 100+ cells on one page — e.g. /practice/1-11 has 130).
+   No infinite animation, no backdrop-filter: just a thin border and a
+   subtle static glow. The living rim-glow above stays reserved for
+   size="lg" buttons (letter/recap/large in-lesson drill slides). Has no
+   animation to begin with, so prefers-reduced-motion is trivially satisfied. ── */
+.rim-static {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04) inset, 0 0 10px rgba(160, 140, 220, 0.18);
+}
+
 /* ── Checkpoint gate — prominent amber breathing glow ── */
 .gate-glow {
   border: 1px solid rgba(255, 176, 32, 0.55);

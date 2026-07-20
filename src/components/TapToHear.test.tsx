@@ -25,3 +25,23 @@ describe("TapToHear renders per audio tier (gap-1 §4)", () => {
     expect(screen.getByText(/practice live with your teacher/i)).toBeTruthy();
   });
 });
+
+describe("TapToHear item.name caption (reviewer fix: positional-forms labels were invisible)", () => {
+  test("shows a visible caption with the item name when set", () => {
+    render(<TapToHear item={{ arabic: "بِ", name: "ba — initial", audio: { type: "teacher-voice", cue: "lips" } }} />);
+    expect(screen.getByText("ba — initial")).toBeTruthy();
+  });
+  test("renders no caption when the item has no name", () => {
+    render(<TapToHear item={{ arabic: "بِ", audio: { type: "teacher-voice", cue: "lips" } }} />);
+    expect(screen.queryByText("ba — initial")).toBeNull();
+  });
+  test("showName={false} suppresses the caption even when name is set", () => {
+    render(
+      <TapToHear
+        item={{ arabic: "بِ", name: "ba — initial", audio: { type: "teacher-voice", cue: "lips" } }}
+        showName={false}
+      />,
+    );
+    expect(screen.queryByText("ba — initial")).toBeNull();
+  });
+});

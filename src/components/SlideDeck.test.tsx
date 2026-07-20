@@ -49,4 +49,21 @@ describe("SlideDeck", () => {
     expect(screen.getByText("End")).toBeTruthy();
     expect(screen.getByText(/bāb\s*—\s*door/)).toBeTruthy();
   });
+  test("letter slide does not duplicate the item name (TapToHear caption suppressed via showName)", async () => {
+    render(<SlideDeck title={title} slides={slides} />);
+    await userEvent.keyboard("{ArrowRight}{ArrowRight}");
+    expect(screen.getAllByText("ba")).toHaveLength(1);
+  });
+});
+
+describe("SlideDeck videos anchor (footer affordance for below-the-fold video section)", () => {
+  test("shows a Videos link to #lesson-videos when videosAnchor is true", () => {
+    render(<SlideDeck title={title} slides={slides} videosAnchor />);
+    const link = screen.getByRole("link", { name: /videos/i });
+    expect(link.getAttribute("href")).toBe("#lesson-videos");
+  });
+  test("omits the Videos link when videosAnchor is false or unset", () => {
+    render(<SlideDeck title={title} slides={slides} />);
+    expect(screen.queryByRole("link", { name: /videos/i })).toBeNull();
+  });
 });

@@ -62,10 +62,10 @@ export function CourseMap({ course }: { course: Course }) {
   );
 }
 
-export function PrintButton() {
+export function PrintButton({ label = "🖨 Print this sheet" }: { label?: string } = {}) {
   return (
     <button type="button" onClick={() => window.print()} className="cta-secondary mb-6 rounded-lg px-3 py-1.5 text-sm print:hidden">
-      🖨 Print this sheet
+      {label}
     </button>
   );
 }

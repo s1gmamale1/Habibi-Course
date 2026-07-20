@@ -219,7 +219,7 @@
         "Shape: no dot"
       ],
       "forms": {"isolated": "ك", "initial": "كـ", "medial": "ـكـ", "final": "ـك"},
-      "example": {"arabic": "كتاب", "translit": "kitāb", "meaning": "book"},
+      "example": {"arabic": "كِتَاب", "translit": "kitāb", "meaning": "book"},
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -268,7 +268,7 @@
         "Shape: no dot"
       ],
       "forms": {"isolated": "ل", "initial": "لـ", "medial": "ـلـ", "final": "ـل"},
-      "example": {"arabic": "لسان", "translit": "lisān", "meaning": "tongue"},
+      "example": {"arabic": "لِسَان", "translit": "lisān", "meaning": "tongue"},
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -288,7 +288,7 @@
         "Watch for \"Meem irregularities\" — a named aside in the reference video, not folded silently into the main lesson"
       ],
       "forms": {"isolated": "م", "initial": "مـ", "medial": "ـمـ", "final": "ـم"},
-      "example": {"arabic": "قمر", "translit": "qamar", "meaning": "moon"},
+      "example": {"arabic": "مَسْجِد", "translit": "masjid", "meaning": "mosque"},
       "image": "/images/makhraj/shafatan.svg"
     },
     {
@@ -310,7 +310,7 @@
         "Shape: one dot ABOVE"
       ],
       "forms": {"isolated": "ن", "initial": "نـ", "medial": "ـنـ", "final": "ـن"},
-      "example": {"arabic": "نور", "translit": "nūr", "meaning": "light"},
+      "example": {"arabic": "نُور", "translit": "nūr", "meaning": "light"},
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -330,7 +330,7 @@
         "Shape: no dot"
       ],
       "forms": {"isolated": "ه", "initial": "هـ", "medial": "ـهـ", "final": "ـه"},
-      "example": {"arabic": "هلال", "translit": "hilāl", "meaning": "crescent moon"},
+      "example": {"arabic": "هِلَال", "translit": "hilāl", "meaning": "crescent moon"},
       "image": "/images/makhraj/halq.svg"
     },
     {
@@ -375,7 +375,7 @@
         "Shape: no dot"
       ],
       "forms": {"isolated": "و", "final": "ـو"},
-      "example": {"arabic": "وردة", "translit": "warda", "meaning": "rose"},
+      "example": {"arabic": "وَرْدَة", "translit": "warda", "meaning": "rose"},
       "image": "/images/makhraj/shafatan.svg"
     },
     {
@@ -395,7 +395,7 @@
         "Shape: two dots BELOW in isolated form"
       ],
       "forms": {"isolated": "ي", "initial": "يـ", "medial": "ـيـ", "final": "ـي"},
-      "example": {"arabic": "يد", "translit": "yad", "meaning": "hand"},
+      "example": {"arabic": "يَد", "translit": "yad", "meaning": "hand"},
       "image": "/images/makhraj/lisan.svg"
     },
     {

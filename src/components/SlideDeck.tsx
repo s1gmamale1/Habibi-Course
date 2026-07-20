@@ -45,7 +45,7 @@ function SlideView({ slide }: { slide: Slide }) {
               />
             </div>
           )}
-          <TapToHear item={slide.item} size="lg" />
+          <TapToHear item={slide.item} size="lg" showName={false} />
           <p className="mt-4 text-2xl font-semibold text-white">{slide.item.name}{slide.item.translit ? ` — ${slide.item.translit}` : ""}</p>
           <p className="mt-2 text-lg text-white/80"><span className="font-semibold text-white">Makhraj:</span> {slide.makhraj}</p>
           {slide.forms && (
@@ -97,7 +97,15 @@ function SlideView({ slide }: { slide: Slide }) {
   }
 }
 
-export function SlideDeck({ title, slides }: { title: string; slides: Slide[] }) {
+export function SlideDeck({
+  title,
+  slides,
+  videosAnchor = false,
+}: {
+  title: string;
+  slides: Slide[];
+  videosAnchor?: boolean;
+}) {
   const [i, setI] = useState(0);
   const router = useRouter();
   const touchX = useRef<number | null>(null);
@@ -132,7 +140,14 @@ export function SlideDeck({ title, slides }: { title: string; slides: Slide[] })
       </div>
       <div className="glass mx-auto flex w-full max-w-2xl items-center justify-between gap-2 rounded-t-2xl px-4 py-3 text-sm text-white/60 sm:px-6">
         <button type="button" onClick={() => go(-1)} className="cta-secondary rounded-full px-3 py-1.5">← Back</button>
-        <span className="truncate">{title} — {i + 1} / {slides.length}</span>
+        <span className="flex min-w-0 items-center justify-center gap-2">
+          <span className="truncate">{title} — {i + 1} / {slides.length}</span>
+          {videosAnchor && (
+            <a href="#lesson-videos" className="shrink-0 whitespace-nowrap text-white/70 underline underline-offset-2 hover:text-white">
+              🎬 Videos ↓
+            </a>
+          )}
+        </span>
         <button type="button" onClick={() => go(1)} className="cta-secondary rounded-full px-3 py-1.5">Next →</button>
       </div>
     </div>

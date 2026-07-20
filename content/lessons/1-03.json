@@ -117,7 +117,7 @@
         "final": "ـر"
       },
       "example": {
-        "arabic": "رجل",
+        "arabic": "رَجُل",
         "translit": "rajul",
         "meaning": "man"
       },
@@ -163,7 +163,7 @@
         "final": "ـز"
       },
       "example": {
-        "arabic": "زيت",
+        "arabic": "زَيْت",
         "translit": "zayt",
         "meaning": "oil"
       },
@@ -217,7 +217,7 @@
         "final": "ـس"
       },
       "example": {
-        "arabic": "سمك",
+        "arabic": "سَمَك",
         "translit": "samak",
         "meaning": "fish"
       },
@@ -246,7 +246,7 @@
         "final": "ـش"
       },
       "example": {
-        "arabic": "شمس",
+        "arabic": "شَمْس",
         "translit": "shams",
         "meaning": "sun"
       },
@@ -485,7 +485,7 @@
       "tasks": [
         "In your notebook, write each new letter (ر ز س ش) 4 full rows — say its name and sound aloud as you write — and memorize today's letters",
         "Daily ر-only drill: 15 slow repetitions focusing purely on the tongue-tap",
-        "Cumulative 13-letter shuffle, reviewing lessons 1.1–1.2's letters too (ا ب ت ث ج ح خ د ذ ر ز س ش), timed just for the student's own sense of growing fluency (not graded)"
+        "Cumulative 13-letter shuffle, reviewing lessons 1.1–1.2's letters too (ا ب ت ث ج ح خ د ذ ر ز س ش), timed just for your own sense of growing fluency (not graded)"
       ]
     }
   ],

@@ -14,4 +14,14 @@ describe("DrillGrid", () => {
     expect(screen.getByText("Name each letter.")).toBeTruthy();
     expect(screen.getAllByRole("button")).toHaveLength(2);
   });
+
+  test("omits heading/instructions elements when title and instructions are empty (checkpoint usage)", () => {
+    const { container } = render(
+      <DrillGrid drill={{ title: "", instructions: "", grid: [[
+        { arabic: "ا", name: "alif", audio: { type: "teacher-voice", cue: "open sound" } },
+      ]] }} />,
+    );
+    expect(container.querySelector("h3")).toBeNull();
+    expect(container.querySelector("p")).toBeNull();
+  });
 });

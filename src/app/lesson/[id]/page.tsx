@@ -10,9 +10,9 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
   const l = loadLesson(id);
   return (
     <>
-      <SlideDeck title={l.title} slides={l.slides} />
+      <SlideDeck title={l.title} slides={l.slides} videosAnchor={l.videos.length > 0} />
       {l.videos.length > 0 && (
-        <section className="mx-auto max-w-2xl p-6">
+        <section id="lesson-videos" className="mx-auto max-w-2xl p-6">
           <div className="glass rounded-2xl p-4 sm:p-5">
             <h2 className="mb-2 font-semibold text-white/90">Videos for this lesson</h2>
             <ul className="list-disc space-y-1 pl-6 text-white/75">

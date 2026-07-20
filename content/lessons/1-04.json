@@ -156,7 +156,7 @@
         "Sound: a thick hiss, fuller/darker than س"
       ],
       "forms": {"isolated": "ص", "initial": "صـ", "medial": "ـصـ", "final": "ـص"},
-      "example": {"arabic": "صباح", "translit": "ṣabāḥ", "meaning": "morning"},
+      "example": {"arabic": "صَبَاح", "translit": "ṣabāḥ", "meaning": "morning"},
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -206,7 +206,7 @@
         "Do not expect mastery in one lesson — slow, exaggerated repetitions, no time pressure"
       ],
       "forms": {"isolated": "ض", "initial": "ضـ", "medial": "ـضـ", "final": "ـض"},
-      "example": {"arabic": "ضوء", "translit": "ḍawʾ", "meaning": "light"},
+      "example": {"arabic": "ضَوْء", "translit": "ḍawʾ", "meaning": "daylight / brightness"},
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -247,7 +247,7 @@
         "A held, forceful release with a full-mouth echo"
       ],
       "forms": {"isolated": "ط", "initial": "طـ", "medial": "ـطـ", "final": "ـط"},
-      "example": {"arabic": "طريق", "translit": "ṭarīq", "meaning": "road"},
+      "example": {"arabic": "طَرِيق", "translit": "ṭarīq", "meaning": "road"},
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -296,7 +296,7 @@
         "Even some native Arabic dialects merge ظ/ض — approximate imperfection here is normal, not alarming"
       ],
       "forms": {"isolated": "ظ", "initial": "ظـ", "medial": "ـظـ", "final": "ـظ"},
-      "example": {"arabic": "ظل", "translit": "ẓill", "meaning": "shade"},
+      "example": {"arabic": "ظِلّ", "translit": "ẓill", "meaning": "shade"},
       "image": "/images/makhraj/lisan.svg"
     },
     {
