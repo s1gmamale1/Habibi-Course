@@ -273,7 +273,7 @@
           "name": "ba + ta + tha",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+            "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
           }
         },
         {
@@ -281,7 +281,7 @@
           "name": "dal + dhal + ra",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+            "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
           }
         }
       ]

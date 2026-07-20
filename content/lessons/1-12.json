@@ -1700,7 +1700,7 @@
             "name": "ba (b+a) + ta (t+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بَتَ aloud, syllable by syllable: ba (b+a) + ta (t+a)"
+              "cue": "Read بَتَ aloud, syllable by syllable: ba (b+a) + ta (t+a)"
             }
           },
           {
@@ -1708,7 +1708,7 @@
             "name": "ta (t+a) + ba (b+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads تَبَ aloud, syllable by syllable: ta (t+a) + ba (b+a)"
+              "cue": "Read تَبَ aloud, syllable by syllable: ta (t+a) + ba (b+a)"
             }
           },
           {
@@ -1716,7 +1716,7 @@
             "name": "seen (s+a) + ra (r+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads سَرَ aloud, syllable by syllable: seen (s+a) + ra (r+a)"
+              "cue": "Read سَرَ aloud, syllable by syllable: seen (s+a) + ra (r+a)"
             }
           },
           {
@@ -1724,7 +1724,7 @@
             "name": "meem (m+a) + nun (n+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads مَنَ aloud, syllable by syllable: meem (m+a) + nun (n+a)"
+              "cue": "Read مَنَ aloud, syllable by syllable: meem (m+a) + nun (n+a)"
             }
           },
           {
@@ -1732,7 +1732,7 @@
             "name": "kaaf (k+a) + ta (t+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كَتَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a)"
+              "cue": "Read كَتَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a)"
             }
           },
           {
@@ -1740,7 +1740,7 @@
             "name": "ra (r+a) + ba (b+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads رَبَ aloud, syllable by syllable: ra (r+a) + ba (b+a)"
+              "cue": "Read رَبَ aloud, syllable by syllable: ra (r+a) + ba (b+a)"
             }
           },
           {
@@ -1748,7 +1748,7 @@
             "name": "dal (d+i) + ra (r+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads دِرَ aloud, syllable by syllable: dal (d+i) + ra (r+a)"
+              "cue": "Read دِرَ aloud, syllable by syllable: dal (d+i) + ra (r+a)"
             }
           },
           {
@@ -1756,7 +1756,7 @@
             "name": "lam (l+u) + kaaf (k+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads لُكَ aloud, syllable by syllable: lam (l+u) + kaaf (k+a)"
+              "cue": "Read لُكَ aloud, syllable by syllable: lam (l+u) + kaaf (k+a)"
             }
           },
           {
@@ -1764,7 +1764,7 @@
             "name": "nun (n+i) + zay (z+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads نِزَ aloud, syllable by syllable: nun (n+i) + zay (z+a)"
+              "cue": "Read نِزَ aloud, syllable by syllable: nun (n+i) + zay (z+a)"
             }
           },
           {
@@ -1772,7 +1772,7 @@
             "name": "qaaf (q+a) + dal (d+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads قَدَ aloud, syllable by syllable: qaaf (q+a) + dal (d+a)"
+              "cue": "Read قَدَ aloud, syllable by syllable: qaaf (q+a) + dal (d+a)"
             }
           }
         ]
@@ -1789,7 +1789,7 @@
             "name": "kaaf (k+a) + ta (t+a) + ba (b+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كَتَبَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a) + ba (b+a)"
+              "cue": "Read كَتَبَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a) + ba (b+a)"
             }
           },
           {
@@ -1797,7 +1797,7 @@
             "name": "dal (d+a) + ra (r+a) + seen (s+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads دَرَسَ aloud, syllable by syllable: dal (d+a) + ra (r+a) + seen (s+a)"
+              "cue": "Read دَرَسَ aloud, syllable by syllable: dal (d+a) + ra (r+a) + seen (s+a)"
             }
           },
           {
@@ -1805,7 +1805,7 @@
             "name": "seen (s+a) + meem (m+i) + ayn (ʿ+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads سَمِعَ aloud, syllable by syllable: seen (s+a) + meem (m+i) + ayn (ʿ+a)"
+              "cue": "Read سَمِعَ aloud, syllable by syllable: seen (s+a) + meem (m+i) + ayn (ʿ+a)"
             }
           },
           {
@@ -1813,7 +1813,7 @@
             "name": "ra (r+a) + kaaf (k+i) + ba (b+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads رَكِبَ aloud, syllable by syllable: ra (r+a) + kaaf (k+i) + ba (b+a)"
+              "cue": "Read رَكِبَ aloud, syllable by syllable: ra (r+a) + kaaf (k+i) + ba (b+a)"
             }
           },
           {
@@ -1821,7 +1821,7 @@
             "name": "qaaf (q+a) + ra (r+a) + alif (ā+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads قَرَأَ aloud, syllable by syllable: qaaf (q+a) + ra (r+a) + alif (ā+a)"
+              "cue": "Read قَرَأَ aloud, syllable by syllable: qaaf (q+a) + ra (r+a) + alif (ā+a)"
             }
           }
         ]
@@ -1838,7 +1838,7 @@
             "name": "ta (t+a) + ra (r+a) + kaaf (k+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads تَرَكَ aloud, syllable by syllable: ta (t+a) + ra (r+a) + kaaf (k+a)"
+              "cue": "Read تَرَكَ aloud, syllable by syllable: ta (t+a) + ra (r+a) + kaaf (k+a)"
             }
           },
           {
@@ -1846,7 +1846,7 @@
             "name": "ba (b+i) + seen (s+a) + meem (m+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بِسَمَ aloud, syllable by syllable: ba (b+i) + seen (s+a) + meem (m+a)"
+              "cue": "Read بِسَمَ aloud, syllable by syllable: ba (b+i) + seen (s+a) + meem (m+a)"
             }
           },
           {
@@ -1854,7 +1854,7 @@
             "name": "dal (d+u) + kha (kh+a) + lam (l+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads دُخَلَ aloud, syllable by syllable: dal (d+u) + kha (kh+a) + lam (l+a)"
+              "cue": "Read دُخَلَ aloud, syllable by syllable: dal (d+u) + kha (kh+a) + lam (l+a)"
             }
           },
           {
@@ -1862,7 +1862,7 @@
             "name": "fa (f+i) + ha (h+a) + meem (m+a)",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads فِهَمَ aloud, syllable by syllable: fa (f+i) + ha (h+a) + meem (m+a)"
+              "cue": "Read فِهَمَ aloud, syllable by syllable: fa (f+i) + ha (h+a) + meem (m+a)"
             }
           }
         ]
@@ -2618,7 +2618,7 @@
               "name": "ba (b+a) + ta (t+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads بَتَ aloud, syllable by syllable: ba (b+a) + ta (t+a)"
+                "cue": "Read بَتَ aloud, syllable by syllable: ba (b+a) + ta (t+a)"
               }
             },
             {
@@ -2626,7 +2626,7 @@
               "name": "ta (t+a) + ba (b+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads تَبَ aloud, syllable by syllable: ta (t+a) + ba (b+a)"
+                "cue": "Read تَبَ aloud, syllable by syllable: ta (t+a) + ba (b+a)"
               }
             },
             {
@@ -2634,7 +2634,7 @@
               "name": "seen (s+a) + ra (r+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads سَرَ aloud, syllable by syllable: seen (s+a) + ra (r+a)"
+                "cue": "Read سَرَ aloud, syllable by syllable: seen (s+a) + ra (r+a)"
               }
             },
             {
@@ -2642,7 +2642,7 @@
               "name": "meem (m+a) + nun (n+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads مَنَ aloud, syllable by syllable: meem (m+a) + nun (n+a)"
+                "cue": "Read مَنَ aloud, syllable by syllable: meem (m+a) + nun (n+a)"
               }
             },
             {
@@ -2650,7 +2650,7 @@
               "name": "kaaf (k+a) + ta (t+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كَتَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a)"
+                "cue": "Read كَتَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a)"
               }
             },
             {
@@ -2658,7 +2658,7 @@
               "name": "ra (r+a) + ba (b+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads رَبَ aloud, syllable by syllable: ra (r+a) + ba (b+a)"
+                "cue": "Read رَبَ aloud, syllable by syllable: ra (r+a) + ba (b+a)"
               }
             },
             {
@@ -2666,7 +2666,7 @@
               "name": "dal (d+i) + ra (r+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads دِرَ aloud, syllable by syllable: dal (d+i) + ra (r+a)"
+                "cue": "Read دِرَ aloud, syllable by syllable: dal (d+i) + ra (r+a)"
               }
             },
             {
@@ -2674,7 +2674,7 @@
               "name": "lam (l+u) + kaaf (k+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads لُكَ aloud, syllable by syllable: lam (l+u) + kaaf (k+a)"
+                "cue": "Read لُكَ aloud, syllable by syllable: lam (l+u) + kaaf (k+a)"
               }
             },
             {
@@ -2682,7 +2682,7 @@
               "name": "nun (n+i) + zay (z+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads نِزَ aloud, syllable by syllable: nun (n+i) + zay (z+a)"
+                "cue": "Read نِزَ aloud, syllable by syllable: nun (n+i) + zay (z+a)"
               }
             },
             {
@@ -2690,7 +2690,7 @@
               "name": "qaaf (q+a) + dal (d+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads قَدَ aloud, syllable by syllable: qaaf (q+a) + dal (d+a)"
+                "cue": "Read قَدَ aloud, syllable by syllable: qaaf (q+a) + dal (d+a)"
               }
             }
           ]
@@ -2706,7 +2706,7 @@
               "name": "kaaf (k+a) + ta (t+a) + ba (b+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كَتَبَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a) + ba (b+a)"
+                "cue": "Read كَتَبَ aloud, syllable by syllable: kaaf (k+a) + ta (t+a) + ba (b+a)"
               }
             },
             {
@@ -2714,7 +2714,7 @@
               "name": "dal (d+a) + ra (r+a) + seen (s+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads دَرَسَ aloud, syllable by syllable: dal (d+a) + ra (r+a) + seen (s+a)"
+                "cue": "Read دَرَسَ aloud, syllable by syllable: dal (d+a) + ra (r+a) + seen (s+a)"
               }
             },
             {
@@ -2722,7 +2722,7 @@
               "name": "seen (s+a) + meem (m+i) + ayn (ʿ+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads سَمِعَ aloud, syllable by syllable: seen (s+a) + meem (m+i) + ayn (ʿ+a)"
+                "cue": "Read سَمِعَ aloud, syllable by syllable: seen (s+a) + meem (m+i) + ayn (ʿ+a)"
               }
             },
             {
@@ -2730,7 +2730,7 @@
               "name": "ra (r+a) + kaaf (k+i) + ba (b+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads رَكِبَ aloud, syllable by syllable: ra (r+a) + kaaf (k+i) + ba (b+a)"
+                "cue": "Read رَكِبَ aloud, syllable by syllable: ra (r+a) + kaaf (k+i) + ba (b+a)"
               }
             },
             {
@@ -2738,7 +2738,7 @@
               "name": "qaaf (q+a) + ra (r+a) + alif (ā+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads قَرَأَ aloud, syllable by syllable: qaaf (q+a) + ra (r+a) + alif (ā+a)"
+                "cue": "Read قَرَأَ aloud, syllable by syllable: qaaf (q+a) + ra (r+a) + alif (ā+a)"
               }
             }
           ]
@@ -2754,7 +2754,7 @@
               "name": "ta (t+a) + ra (r+a) + kaaf (k+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads تَرَكَ aloud, syllable by syllable: ta (t+a) + ra (r+a) + kaaf (k+a)"
+                "cue": "Read تَرَكَ aloud, syllable by syllable: ta (t+a) + ra (r+a) + kaaf (k+a)"
               }
             },
             {
@@ -2762,7 +2762,7 @@
               "name": "ba (b+i) + seen (s+a) + meem (m+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads بِسَمَ aloud, syllable by syllable: ba (b+i) + seen (s+a) + meem (m+a)"
+                "cue": "Read بِسَمَ aloud, syllable by syllable: ba (b+i) + seen (s+a) + meem (m+a)"
               }
             },
             {
@@ -2770,7 +2770,7 @@
               "name": "dal (d+u) + kha (kh+a) + lam (l+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads دُخَلَ aloud, syllable by syllable: dal (d+u) + kha (kh+a) + lam (l+a)"
+                "cue": "Read دُخَلَ aloud, syllable by syllable: dal (d+u) + kha (kh+a) + lam (l+a)"
               }
             },
             {
@@ -2778,7 +2778,7 @@
               "name": "fa (f+i) + ha (h+a) + meem (m+a)",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads فِهَمَ aloud, syllable by syllable: fa (f+i) + ha (h+a) + meem (m+a)"
+                "cue": "Read فِهَمَ aloud, syllable by syllable: fa (f+i) + ha (h+a) + meem (m+a)"
               }
             }
           ]

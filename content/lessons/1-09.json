@@ -334,7 +334,7 @@
             "name": "ba + ta + tha",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+              "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "jeem + haa + kha",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+              "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
             }
           }
         ]
@@ -359,7 +359,7 @@
             "name": "saad + daad + taa",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+              "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
             }
           },
           {
@@ -367,7 +367,7 @@
             "name": "dhaa + ayn + ghayn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+              "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
             }
           },
           {
@@ -375,7 +375,7 @@
             "name": "fa + qaaf + kaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+              "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
             }
           }
         ]
@@ -392,7 +392,7 @@
             "name": "dal + dhal + ra",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+              "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
             }
           },
           {
@@ -400,7 +400,7 @@
             "name": "zay + seen + sheen",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+              "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
             }
           },
           {
@@ -408,7 +408,7 @@
             "name": "waw + ya",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+              "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
             }
           },
           {
@@ -416,7 +416,7 @@
             "name": "dal + ra + seen",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
             }
           }
         ]
@@ -433,7 +433,7 @@
             "name": "ta + seen + kaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads تسك aloud, modeling the joined pronunciation (ta + seen + kaaf)"
+              "cue": "Read تسك aloud, letter by letter: ta + seen + kaaf — then blend them smoothly."
             }
           },
           {
@@ -441,7 +441,7 @@
             "name": "haa + ba + lam",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads حبل aloud, modeling the joined pronunciation (haa + ba + lam)"
+              "cue": "Read حبل aloud, letter by letter: haa + ba + lam — then blend them smoothly."
             }
           },
           {
@@ -449,7 +449,7 @@
             "name": "zay + fa + qaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads زفق aloud, modeling the joined pronunciation (zay + fa + qaaf)"
+              "cue": "Read زفق aloud, letter by letter: zay + fa + qaaf — then blend them smoothly."
             }
           },
           {
@@ -457,7 +457,7 @@
             "name": "taa + nun + meem",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads طنم aloud, modeling the joined pronunciation (taa + nun + meem)"
+              "cue": "Read طنم aloud, letter by letter: taa + nun + meem — then blend them smoothly."
             }
           },
           {
@@ -465,7 +465,7 @@
             "name": "tha + ra + ya",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ثري aloud, modeling the joined pronunciation (tha + ra + ya)"
+              "cue": "Read ثري aloud, letter by letter: tha + ra + ya — then blend them smoothly."
             }
           }
         ]
@@ -491,7 +491,7 @@
             "name": "ba + ta + tha",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+              "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
             }
           },
           {
@@ -499,7 +499,7 @@
             "name": "jeem + haa + kha",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+              "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
             }
           },
           {
@@ -507,7 +507,7 @@
             "name": "dal + dhal + ra",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+              "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
             }
           },
           {
@@ -515,7 +515,7 @@
             "name": "zay + seen + sheen",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+              "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
             }
           },
           {
@@ -523,7 +523,7 @@
             "name": "saad + daad + taa",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+              "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
             }
           },
           {
@@ -531,7 +531,7 @@
             "name": "dhaa + ayn + ghayn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+              "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
             }
           },
           {
@@ -539,7 +539,7 @@
             "name": "fa + qaaf + kaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+              "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
             }
           },
           {
@@ -547,7 +547,7 @@
             "name": "lam + meem + nun + ha",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+              "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
             }
           },
           {
@@ -555,7 +555,7 @@
             "name": "waw + ya",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+              "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
             }
           },
           {
@@ -563,7 +563,7 @@
             "name": "kaaf + ta + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+              "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
             }
           },
           {
@@ -571,7 +571,7 @@
             "name": "dal + ra + seen",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+              "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
             }
           },
           {
@@ -579,7 +579,7 @@
             "name": "qaaf + lam + meem",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+              "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
             }
           }
         ]
@@ -601,7 +601,7 @@
           "name": "ba + ta + tha",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+            "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
           }
         },
         {
@@ -609,7 +609,7 @@
           "name": "jeem + haa + kha",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+            "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
           }
         },
         {
@@ -617,7 +617,7 @@
           "name": "dal + dhal + ra",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+            "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
           }
         },
         {
@@ -625,7 +625,7 @@
           "name": "zay + seen + sheen",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+            "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
           }
         },
         {
@@ -633,7 +633,7 @@
           "name": "saad + daad + taa",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+            "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
           }
         },
         {
@@ -641,7 +641,7 @@
           "name": "dhaa + ayn + ghayn",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+            "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
           }
         },
         {
@@ -649,7 +649,7 @@
           "name": "fa + qaaf + kaaf",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+            "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
           }
         },
         {
@@ -657,7 +657,7 @@
           "name": "lam + meem + nun + ha",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+            "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
           }
         },
         {
@@ -665,7 +665,7 @@
           "name": "waw + ya",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+            "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
           }
         },
         {
@@ -673,7 +673,7 @@
           "name": "kaaf + ta + ba",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+            "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
           }
         },
         {
@@ -681,7 +681,7 @@
           "name": "dal + ra + seen",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+            "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
           }
         },
         {
@@ -689,7 +689,7 @@
           "name": "qaaf + lam + meem",
           "audio": {
             "type": "teacher-voice",
-            "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+            "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
           }
         }
       ]
@@ -716,7 +716,7 @@
               "name": "ba + ta + tha",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+                "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
               }
             },
             {
@@ -724,7 +724,7 @@
               "name": "jeem + haa + kha",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+                "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
               }
             },
             {
@@ -732,7 +732,7 @@
               "name": "dal + dhal + ra",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+                "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
               }
             },
             {
@@ -740,7 +740,7 @@
               "name": "zay + seen + sheen",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+                "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
               }
             },
             {
@@ -748,7 +748,7 @@
               "name": "saad + daad + taa",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+                "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
               }
             },
             {
@@ -756,7 +756,7 @@
               "name": "dhaa + ayn + ghayn",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+                "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
               }
             },
             {
@@ -764,7 +764,7 @@
               "name": "fa + qaaf + kaaf",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+                "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
               }
             },
             {
@@ -772,7 +772,7 @@
               "name": "lam + meem + nun + ha",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+                "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
               }
             },
             {
@@ -780,7 +780,7 @@
               "name": "waw + ya",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+                "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
               }
             },
             {
@@ -788,7 +788,7 @@
               "name": "kaaf + ta + ba",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+                "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
               }
             },
             {
@@ -796,7 +796,7 @@
               "name": "dal + ra + seen",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+                "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
               }
             },
             {
@@ -804,7 +804,7 @@
               "name": "qaaf + lam + meem",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+                "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
               }
             }
           ]
@@ -820,7 +820,7 @@
               "name": "ta + seen + kaaf",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads تسك aloud, modeling the joined pronunciation (ta + seen + kaaf)"
+                "cue": "Read تسك aloud, letter by letter: ta + seen + kaaf — then blend them smoothly."
               }
             },
             {
@@ -828,7 +828,7 @@
               "name": "haa + ba + lam",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads حبل aloud, modeling the joined pronunciation (haa + ba + lam)"
+                "cue": "Read حبل aloud, letter by letter: haa + ba + lam — then blend them smoothly."
               }
             },
             {
@@ -836,7 +836,7 @@
               "name": "zay + fa + qaaf",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads زفق aloud, modeling the joined pronunciation (zay + fa + qaaf)"
+                "cue": "Read زفق aloud, letter by letter: zay + fa + qaaf — then blend them smoothly."
               }
             },
             {
@@ -844,7 +844,7 @@
               "name": "taa + nun + meem",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads طنم aloud, modeling the joined pronunciation (taa + nun + meem)"
+                "cue": "Read طنم aloud, letter by letter: taa + nun + meem — then blend them smoothly."
               }
             },
             {
@@ -852,7 +852,7 @@
               "name": "tha + ra + ya",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ثري aloud, modeling the joined pronunciation (tha + ra + ya)"
+                "cue": "Read ثري aloud, letter by letter: tha + ra + ya — then blend them smoothly."
               }
             }
           ]
@@ -868,7 +868,7 @@
               "name": "ba + ta + tha",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads بتث aloud, modeling the joined pronunciation (ba + ta + tha)"
+                "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
               }
             },
             {
@@ -876,7 +876,7 @@
               "name": "jeem + haa + kha",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads جحخ aloud, modeling the joined pronunciation (jeem + haa + kha)"
+                "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
               }
             },
             {
@@ -884,7 +884,7 @@
               "name": "dal + dhal + ra",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads دذر aloud, modeling the joined pronunciation (dal + dhal + ra)"
+                "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
               }
             },
             {
@@ -892,7 +892,7 @@
               "name": "zay + seen + sheen",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads زسش aloud, modeling the joined pronunciation (zay + seen + sheen)"
+                "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
               }
             },
             {
@@ -900,7 +900,7 @@
               "name": "saad + daad + taa",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads صضط aloud, modeling the joined pronunciation (saad + daad + taa)"
+                "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
               }
             },
             {
@@ -908,7 +908,7 @@
               "name": "dhaa + ayn + ghayn",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads ظعغ aloud, modeling the joined pronunciation (dhaa + ayn + ghayn)"
+                "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
               }
             },
             {
@@ -916,7 +916,7 @@
               "name": "fa + qaaf + kaaf",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads فقك aloud, modeling the joined pronunciation (fa + qaaf + kaaf)"
+                "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
               }
             },
             {
@@ -924,7 +924,7 @@
               "name": "lam + meem + nun + ha",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads لمنه aloud, modeling the joined pronunciation (lam + meem + nun + ha)"
+                "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
               }
             },
             {
@@ -932,7 +932,7 @@
               "name": "waw + ya",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads وي aloud, modeling the joined pronunciation (waw + ya)"
+                "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
               }
             },
             {
@@ -940,7 +940,7 @@
               "name": "kaaf + ta + ba",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+                "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
               }
             },
             {
@@ -948,7 +948,7 @@
               "name": "dal + ra + seen",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads درس aloud, modeling the joined pronunciation (dal + ra + seen)"
+                "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
               }
             },
             {
@@ -956,7 +956,7 @@
               "name": "qaaf + lam + meem",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads قلم aloud, modeling the joined pronunciation (qaaf + lam + meem)"
+                "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
               }
             }
           ]

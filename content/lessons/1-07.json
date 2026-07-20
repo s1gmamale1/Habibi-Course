@@ -882,7 +882,7 @@
             "name": "ba + ta",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+              "cue": "Read بت aloud, letter by letter: ba + ta — then blend them smoothly."
             }
           },
           {
@@ -890,7 +890,7 @@
             "name": "ta + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+              "cue": "Read تب aloud, letter by letter: ta + ba — then blend them smoothly."
             }
           },
           {
@@ -898,7 +898,7 @@
             "name": "kaaf + lam",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+              "cue": "Read كل aloud, letter by letter: kaaf + lam — then blend them smoothly."
             }
           },
           {
@@ -906,7 +906,7 @@
             "name": "lam + kaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+              "cue": "Read لك aloud, letter by letter: lam + kaaf — then blend them smoothly."
             }
           },
           {
@@ -914,7 +914,7 @@
             "name": "meem + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+              "cue": "Read من aloud, letter by letter: meem + nun — then blend them smoothly."
             }
           },
           {
@@ -922,7 +922,7 @@
             "name": "nun + meem",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+              "cue": "Read نم aloud, letter by letter: nun + meem — then blend them smoothly."
             }
           },
           {
@@ -930,7 +930,7 @@
             "name": "ba + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+              "cue": "Read بن aloud, letter by letter: ba + nun — then blend them smoothly."
             }
           },
           {
@@ -938,7 +938,7 @@
             "name": "ya + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+              "cue": "Read يب aloud, letter by letter: ya + ba — then blend them smoothly."
             }
           }
         ]
@@ -955,7 +955,7 @@
             "name": "ba + ta",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+              "cue": "Read بت aloud, letter by letter: ba + ta — then blend them smoothly."
             }
           },
           {
@@ -963,7 +963,7 @@
             "name": "ta + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+              "cue": "Read تب aloud, letter by letter: ta + ba — then blend them smoothly."
             }
           },
           {
@@ -971,7 +971,7 @@
             "name": "kaaf + lam",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+              "cue": "Read كل aloud, letter by letter: kaaf + lam — then blend them smoothly."
             }
           },
           {
@@ -979,7 +979,7 @@
             "name": "lam + kaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+              "cue": "Read لك aloud, letter by letter: lam + kaaf — then blend them smoothly."
             }
           },
           {
@@ -987,7 +987,7 @@
             "name": "meem + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+              "cue": "Read من aloud, letter by letter: meem + nun — then blend them smoothly."
             }
           },
           {
@@ -995,7 +995,7 @@
             "name": "nun + meem",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+              "cue": "Read نم aloud, letter by letter: nun + meem — then blend them smoothly."
             }
           },
           {
@@ -1003,7 +1003,7 @@
             "name": "ba + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+              "cue": "Read بن aloud, letter by letter: ba + nun — then blend them smoothly."
             }
           },
           {
@@ -1011,7 +1011,7 @@
             "name": "ya + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+              "cue": "Read يب aloud, letter by letter: ya + ba — then blend them smoothly."
             }
           }
         ],
@@ -1021,7 +1021,7 @@
             "name": "kaaf + ta + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+              "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
             }
           },
           {
@@ -1029,7 +1029,7 @@
             "name": "ba + nun + ta",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads بنت aloud, modeling the joined pronunciation (ba + nun + ta)"
+              "cue": "Read بنت aloud, letter by letter: ba + nun + ta — then blend them smoothly."
             }
           },
           {
@@ -1037,7 +1037,7 @@
             "name": "lam + meem + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads لمن aloud, modeling the joined pronunciation (lam + meem + nun)"
+              "cue": "Read لمن aloud, letter by letter: lam + meem + nun — then blend them smoothly."
             }
           },
           {
@@ -1045,7 +1045,7 @@
             "name": "ta + kaaf + nun",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads تكن aloud, modeling the joined pronunciation (ta + kaaf + nun)"
+              "cue": "Read تكن aloud, letter by letter: ta + kaaf + nun — then blend them smoothly."
             }
           }
         ]
@@ -1062,7 +1062,7 @@
             "name": "haa + saad",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads حص aloud, sounding it out letter-by-letter at this stage (haa + saad)"
+              "cue": "Read حص aloud, sounding it out letter-by-letter at this stage (haa + saad)"
             }
           },
           {
@@ -1070,7 +1070,7 @@
             "name": "haa + ta + kaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads حتك aloud, sounding it out letter-by-letter at this stage (haa + ta + kaaf)"
+              "cue": "Read حتك aloud, sounding it out letter-by-letter at this stage (haa + ta + kaaf)"
             }
           },
           {
@@ -1078,7 +1078,7 @@
             "name": "saad + ba + ya",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads صبي aloud, sounding it out letter-by-letter at this stage (saad + ba + ya)"
+              "cue": "Read صبي aloud, sounding it out letter-by-letter at this stage (saad + ba + ya)"
             }
           },
           {
@@ -1086,7 +1086,7 @@
             "name": "qaaf + nun + tha",
             "audio": {
               "type": "teacher-voice",
-              "cue": "teacher reads قنث aloud, sounding it out letter-by-letter at this stage (qaaf + nun + tha)"
+              "cue": "Read قنث aloud, sounding it out letter-by-letter at this stage (qaaf + nun + tha)"
             }
           }
         ]
@@ -1482,7 +1482,7 @@
               "name": "ba + ta",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads بت aloud, modeling the joined pronunciation (ba + ta)"
+                "cue": "Read بت aloud, letter by letter: ba + ta — then blend them smoothly."
               }
             },
             {
@@ -1490,7 +1490,7 @@
               "name": "ta + ba",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads تب aloud, modeling the joined pronunciation (ta + ba)"
+                "cue": "Read تب aloud, letter by letter: ta + ba — then blend them smoothly."
               }
             },
             {
@@ -1498,7 +1498,7 @@
               "name": "kaaf + lam",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كل aloud, modeling the joined pronunciation (kaaf + lam)"
+                "cue": "Read كل aloud, letter by letter: kaaf + lam — then blend them smoothly."
               }
             },
             {
@@ -1506,7 +1506,7 @@
               "name": "lam + kaaf",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads لك aloud, modeling the joined pronunciation (lam + kaaf)"
+                "cue": "Read لك aloud, letter by letter: lam + kaaf — then blend them smoothly."
               }
             },
             {
@@ -1514,7 +1514,7 @@
               "name": "meem + nun",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads من aloud, modeling the joined pronunciation (meem + nun)"
+                "cue": "Read من aloud, letter by letter: meem + nun — then blend them smoothly."
               }
             },
             {
@@ -1522,7 +1522,7 @@
               "name": "nun + meem",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads نم aloud, modeling the joined pronunciation (nun + meem)"
+                "cue": "Read نم aloud, letter by letter: nun + meem — then blend them smoothly."
               }
             },
             {
@@ -1530,7 +1530,7 @@
               "name": "ba + nun",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads بن aloud, modeling the joined pronunciation (ba + nun)"
+                "cue": "Read بن aloud, letter by letter: ba + nun — then blend them smoothly."
               }
             },
             {
@@ -1538,7 +1538,7 @@
               "name": "ya + ba",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads يب aloud, modeling the joined pronunciation (ya + ba)"
+                "cue": "Read يب aloud, letter by letter: ya + ba — then blend them smoothly."
               }
             }
           ]
@@ -1554,7 +1554,7 @@
               "name": "kaaf + ta + ba",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads كتب aloud, modeling the joined pronunciation (kaaf + ta + ba)"
+                "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
               }
             },
             {
@@ -1562,7 +1562,7 @@
               "name": "ba + nun + ta",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads بنت aloud, modeling the joined pronunciation (ba + nun + ta)"
+                "cue": "Read بنت aloud, letter by letter: ba + nun + ta — then blend them smoothly."
               }
             },
             {
@@ -1570,7 +1570,7 @@
               "name": "lam + meem + nun",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads لمن aloud, modeling the joined pronunciation (lam + meem + nun)"
+                "cue": "Read لمن aloud, letter by letter: lam + meem + nun — then blend them smoothly."
               }
             },
             {
@@ -1578,7 +1578,7 @@
               "name": "ta + kaaf + nun",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "teacher reads تكن aloud, modeling the joined pronunciation (ta + kaaf + nun)"
+                "cue": "Read تكن aloud, letter by letter: ta + kaaf + nun — then blend them smoothly."
               }
             }
           ]
