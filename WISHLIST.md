@@ -14,3 +14,10 @@ Capture inbox. Append-only — nothing here is scheduled. Scoped work gets promo
 - **Owner-recorded letter audio.** 1,493 tap targets are `teacher-voice` practice cues because no openly licensed per-letter/harakat audio exists. Recording ~20–30 min of the owner's own voice would upgrade them to `qari-clip` with **no schema change** — the `AudioSource` union already supports it.
 - **`docs/research/intro-motivation.md` hadith were verified via sunnah.com mirrors**, not sunnah.com itself (Cloudflare blocks automated fetches). Worth one human pass over the 8 citations in a real browser.
 - **Dar Al-Maarifah vs Quranly colour legend.** Phase 3 will follow the Quranly app's tajweed colouring (owner decision); the exact rule→colour palette still needs to be pinned from a primary source at Phase 3 content build.
+
+## 2026-07-20 — deferred from the PPTX-export review round
+
+- **[pptx] Recap columns fill left-to-right.** Multi-column recap slides place the first items in the *leftmost* column, but the deck is otherwise RTL-honouring (drill rows are reversed) and an Arabic-reading teacher scans right-to-left. `src/export/lessonToPptx.ts` `renderRecap` — fix: `x: 0.5 + (colCount - 1 - col) * (9 / colCount)`. Severity: low, effort: S.
+- **[pptx] Latent overflow hairline at exactly 14 recap items.** `recapFontSize(14)` stays 20pt single-column and would end ~0.3" past the canvas; unreachable today (largest single-column recap in real content is 13). Fix: lower the single-column threshold to ≤12 in `src/export/lessonToPptx.ts`. Severity: low, effort: S.
+- **[pptx] No status announcement for assistive tech.** `src/components/ExportPptxButton.tsx` status changes only via the button label; add `aria-live="polite"`/`role="status"`. Fold into the existing accessibility batch above. Severity: low, effort: S.
+- **[schema] Tighten drill inner rows to `.min(1)`.** `src/content/schema.ts` `drill.grid` allows an empty inner row (`[[]]`), which `drillTableRows` would turn into a 0-column table. Build-time validation makes it latent; the schema tighten closes it for good (do it next time the schema is touched). Severity: low, effort: S.
