@@ -1,4 +1,5 @@
 import { allLessonIds, loadLesson } from "@/content/load";
+import ExportPptxButton from "@/components/ExportPptxButton";
 
 export function generateStaticParams() {
   return allLessonIds().map((id) => ({ id }));
@@ -11,6 +12,7 @@ export default async function TeachPage({ params }: { params: Promise<{ id: stri
     <main className="mx-auto max-w-2xl p-6 pb-16">
       <p className="mb-2 text-xs uppercase tracking-wide text-amber-300/80">Teacher notes — do not share this link</p>
       <h1 className="gradient-text mb-4 text-2xl font-bold">{l.title}</h1>
+      <ExportPptxButton lesson={l} />
       <div className="glass space-y-4 rounded-2xl p-4 sm:p-5">
         <div>
           <h2 className="mb-1 font-semibold text-white/90">Objectives</h2>
