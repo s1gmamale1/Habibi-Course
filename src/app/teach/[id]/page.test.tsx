@@ -1,8 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, test, vi } from "vitest";
+import { describe, expect, test } from "vitest";
 import TeachPage from "./page";
-
-vi.mock("pptxgenjs", () => ({ default: class {} }));
 
 describe("TeachPage", () => {
   test("renders the PPTX export button", async () => {

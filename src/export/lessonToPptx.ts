@@ -81,40 +81,69 @@ function renderLetter(slide: DeckSlide, s: Extract<Slide, { kind: "letter" }>, i
   }
 }
 
-const drillCell = (text: string) => ({
+const drillCell = (text: string, fontSize = 24) => ({
   text,
-  options: { fontSize: 24, fontFace: ARABIC_FONT, color: TEXT, align: "center" },
+  options: { fontSize, fontFace: ARABIC_FONT, color: TEXT, align: "center" },
 });
 
-export function drillTableRows(grid: ArabicItem[][]) {
+export function drillTableRows(grid: ArabicItem[][], fontSize = 24) {
   const cols = Math.max(...grid.map((r) => r.length));
   return grid.map((row) => {
-    const cells = row.map((item) => drillCell(item.arabic));
-    while (cells.length < cols) cells.push(drillCell(""));
+    const cells = row.map((item) => drillCell(item.arabic, fontSize));
+    while (cells.length < cols) cells.push(drillCell("", fontSize));
     return cells.reverse(); // RTL: first item lands in the rightmost column
   });
+}
+
+// 24pt fits comfortably up to 6 rows; beyond that the fixed cell height
+// (rowH, capped below) would force text past the slide bottom, so the
+// font shrinks as row count grows.
+function drillFontSize(rowCount: number): number {
+  if (rowCount <= 6) return 24;
+  if (rowCount <= 9) return 18;
+  return 14;
 }
 
 function renderDrill(slide: DeckSlide, s: Extract<Slide, { kind: "drill" }>): void {
   addHeading(slide, s.heading);
   slide.addText(s.instructions, { x: 0.5, y: 1.0, w: 9, h: 0.4, fontSize: 14, italic: true, color: MUTED });
-  const rows = drillTableRows(s.grid);
+  const fontSize = drillFontSize(s.grid.length);
+  const rows = drillTableRows(s.grid, fontSize);
   const cols = rows[0].length;
   slide.addTable(rows, {
     x: 0.5, y: 1.6, w: 9,
     colW: Array(cols).fill(9 / cols),
-    rowH: Math.min(0.6, 3.6 / rows.length),
+    rowH: Math.min(0.55, 3.7 / rows.length),
     border: TABLE_BORDER,
   });
+}
+
+// Recap slides can carry a handful of items or (for late lessons) the
+// full cumulative alphabet — up to ~56 entries. A single 20pt column
+// only fits ~15 lines before PowerPoint clips it in slideshow mode, so
+// items fan out into up to 3 side-by-side columns and the font shrinks
+// as the list grows.
+function recapFontSize(itemCount: number): number {
+  if (itemCount <= 14) return 20;
+  if (itemCount <= 28) return 14;
+  if (itemCount <= 42) return 12;
+  return 11;
 }
 
 function renderRecap(slide: DeckSlide, s: Extract<Slide, { kind: "recap" }>): void {
   addHeading(slide, s.heading);
   const lines = s.items.map((i) => [i.arabic, i.name ?? i.translit ?? ""].filter(Boolean).join(" — "));
-  slide.addText(
-    lines.map((text) => ({ text, options: { bullet: true, breakLine: true, fontSize: 20, fontFace: ARABIC_FONT, color: TEXT } })),
-    { x: 0.5, y: 1.2, w: 9, h: 3.8 },
-  );
+  const fontSize = recapFontSize(lines.length);
+  const colCount = Math.min(3, Math.max(1, Math.ceil(lines.length / 14)));
+  const perCol = Math.ceil(lines.length / colCount);
+  for (let col = 0; col < colCount; col++) {
+    const colLines = lines.slice(col * perCol, (col + 1) * perCol);
+    if (!colLines.length) continue;
+    slide.addText(
+      colLines.map((text) => ({ text, options: { bullet: true, breakLine: true, fontSize, fontFace: ARABIC_FONT, color: TEXT } })),
+      { x: 0.5 + col * (9 / colCount), y: 1.2, w: 9 / colCount, h: 3.8 },
+    );
+  }
 }
 
 function renderHomework(slide: DeckSlide, s: Extract<Slide, { kind: "homework" }>): void {

@@ -48,6 +48,68 @@ const miniLesson: Lesson = {
   videos: [],
 };
 
+// Type-valid lesson with no homework slide, to exercise the notes fallback
+// that pins homework notes onto the last deck slide.
+const noHomeworkSlideLesson: Lesson = {
+  id: "1-98",
+  phase: 1,
+  unit: "1.9",
+  title: "Mini (no homework slide)",
+  objectives: ["obj one"],
+  slides: [
+    { kind: "title", heading: "Mini lesson", arabicDecor: "ح" },
+    {
+      kind: "letter",
+      item: { arabic: "ح", name: "haa", audio: teacherVoice("breathy h") },
+      makhraj: "throat",
+      notes: ["breathy letter"],
+    },
+  ],
+  practice: { drills: [], dailyChecklist: ["read"] },
+  teacherNotes: { script: ["say hello"], listenFor: ["breathy haa"], homework: "trace letters" },
+  videos: [],
+};
+
+const recapItem = (n: number) => ({ arabic: `ح${n}`, audio: teacherVoice("x") });
+
+function lessonWithRecap(itemCount: number): Lesson {
+  return {
+    id: "1-97",
+    phase: 1,
+    unit: "1.9",
+    title: "Recap fixture",
+    objectives: ["obj"],
+    slides: [
+      { kind: "title", heading: "Title", arabicDecor: "ح" },
+      { kind: "recap", heading: "Recap", items: Array.from({ length: itemCount }, (_, i) => recapItem(i)) },
+      { kind: "homework", heading: "Homework", tasks: ["review"] },
+    ],
+    practice: { drills: [], dailyChecklist: ["read"] },
+    teacherNotes: { script: ["hi"], listenFor: ["x"], homework: "trace" },
+    videos: [],
+  };
+}
+
+const drillItem = (n: number) => ({ arabic: `د${n}`, audio: teacherVoice("x") });
+
+function lessonWithDrillRows(rowCount: number): Lesson {
+  return {
+    id: "1-96",
+    phase: 1,
+    unit: "1.9",
+    title: "Drill fixture",
+    objectives: ["obj"],
+    slides: [
+      { kind: "title", heading: "Title", arabicDecor: "د" },
+      { kind: "drill", heading: "Drill", instructions: "match the letters", grid: Array.from({ length: rowCount }, (_, i) => [drillItem(i)]) },
+      { kind: "homework", heading: "Homework", tasks: ["review"] },
+    ],
+    practice: { drills: [], dailyChecklist: ["read"] },
+    teacherNotes: { script: ["hi"], listenFor: ["x"], homework: "trace" },
+    videos: [],
+  };
+}
+
 describe("buildLessonDeck", () => {
   test("builds every real lesson with one deck slide per content slide", () => {
     for (const id of allLessonIds()) {
@@ -70,6 +132,13 @@ describe("buildLessonDeck", () => {
     const hwNotes = deck.slides[hwIdx].notes.join("\n");
     expect(hwNotes).toContain(lesson.teacherNotes.homework);
     expect(hwNotes).toContain(lesson.teacherNotes.listenFor[0]);
+  });
+
+  test("falls back to the last slide for homework notes when the lesson has no homework slide", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, noHomeworkSlideLesson);
+    const lastSlide = deck.slides[deck.slides.length - 1];
+    expect(lastSlide.notes.join("\n")).toContain(noHomeworkSlideLesson.teacherNotes.homework);
   });
 
   test("letter slide embeds a provided image and skips a missing one", () => {
@@ -97,6 +166,59 @@ describe("drillTableRows", () => {
     expect(rows[0][2].text).toBe("ا"); // first item rendered rightmost (RTL)
     expect(rows[1][2].text).toBe("ث"); // single item sits in the rightmost column
     expect(rows[1][0].text).toBe("");  // padding fills the left
+  });
+
+  test("accepts an explicit fontSize for shrunk drill grids", () => {
+    const item = (arabic: string) => ({ arabic, audio: teacherVoice("x") });
+    const rows = drillTableRows([[item("ا")]], 14) as { options: { fontSize: number } }[][];
+    expect(rows[0][0].options.fontSize).toBe(14);
+  });
+});
+
+describe("renderRecap column layout", () => {
+  test.each([
+    [30, 3, 12],
+    [56, 3, 11],
+  ])("recap with %i items splits into %i columns at %ipt", (itemCount, expectedCols, expectedFontSize) => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(itemCount));
+    const recapSlide = deck.slides[1];
+    const columnRuns = recapSlide.texts.slice(1) as { text: { options: { fontSize: number } }[] }[]; // [0] is the heading
+    expect(columnRuns).toHaveLength(expectedCols);
+    const totalLines = columnRuns.reduce((sum, run) => sum + run.text.length, 0);
+    expect(totalLines).toBe(itemCount);
+    for (const run of columnRuns) {
+      for (const line of run.text) {
+        expect(line.options.fontSize).toBe(expectedFontSize);
+      }
+    }
+  });
+
+  test("small recap stays a single column at the base fontSize", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(5));
+    const recapSlide = deck.slides[1];
+    const columnRuns = recapSlide.texts.slice(1) as { text: { options: { fontSize: number } }[] }[];
+    expect(columnRuns).toHaveLength(1);
+    expect(columnRuns[0].text[0].options.fontSize).toBe(20);
+  });
+});
+
+describe("renderDrill fontSize scaling", () => {
+  test("a 12-row drill grid shrinks the cell fontSize", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithDrillRows(12));
+    const drillSlide = deck.slides[1];
+    const cell = drillSlide.tables[0].rows[0][0] as { options: { fontSize: number } };
+    expect(cell.options.fontSize).toBe(14);
+  });
+
+  test("a 6-row drill grid keeps the default cell fontSize", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithDrillRows(6));
+    const drillSlide = deck.slides[1];
+    const cell = drillSlide.tables[0].rows[0][0] as { options: { fontSize: number } };
+    expect(cell.options.fontSize).toBe(24);
   });
 });
 

@@ -60,7 +60,8 @@ export default function ExportPptxButton({ lesson }: { lesson: Lesson }) {
       buildLessonDeck(pptx as unknown as Deck, lesson, images);
       await pptx.writeFile({ fileName: `tajweed-${lesson.id}.pptx` });
       setStatus("done");
-    } catch {
+    } catch (e) {
+      console.error("pptx export failed", e);
       setStatus("error");
     }
   }
