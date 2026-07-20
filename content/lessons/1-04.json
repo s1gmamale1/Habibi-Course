@@ -156,7 +156,11 @@
         "Sound: a thick hiss, fuller/darker than س"
       ],
       "forms": {"isolated": "ص", "initial": "صـ", "medial": "ـصـ", "final": "ـص"},
-      "example": {"arabic": "صَبَاح", "translit": "ṣabāḥ", "meaning": "morning"},
+      "examples": [
+        {"arabic": "صَبَاح", "translit": "ṣabāḥ", "meaning": "morning", "form": "initial"},
+        {"arabic": "حِصَان", "translit": "ḥiṣān", "meaning": "horse", "form": "medial"},
+        {"arabic": "قَمِيص", "translit": "qamīṣ", "meaning": "shirt", "form": "final"}
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -206,7 +210,11 @@
         "Do not expect mastery in one lesson — slow, exaggerated repetitions, no time pressure"
       ],
       "forms": {"isolated": "ض", "initial": "ضـ", "medial": "ـضـ", "final": "ـض"},
-      "example": {"arabic": "ضَوْء", "translit": "ḍawʾ", "meaning": "daylight / brightness"},
+      "examples": [
+        {"arabic": "ضَوْء", "translit": "ḍawʾ", "meaning": "light", "form": "initial"},
+        {"arabic": "غَضَب", "translit": "ghaḍab", "meaning": "anger", "form": "medial"},
+        {"arabic": "بَعْض", "translit": "baʿḍ", "meaning": "some", "form": "final"}
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -247,7 +255,11 @@
         "A held, forceful release with a full-mouth echo"
       ],
       "forms": {"isolated": "ط", "initial": "طـ", "medial": "ـطـ", "final": "ـط"},
-      "example": {"arabic": "طَرِيق", "translit": "ṭarīq", "meaning": "road"},
+      "examples": [
+        {"arabic": "طَرِيق", "translit": "ṭarīq", "meaning": "road", "form": "initial"},
+        {"arabic": "حَطَب", "translit": "ḥaṭab", "meaning": "firewood", "form": "medial"},
+        {"arabic": "خَطّ", "translit": "khaṭṭ", "meaning": "line", "form": "final"}
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -296,7 +308,11 @@
         "Even some native Arabic dialects merge ظ/ض — approximate imperfection here is normal, not alarming"
       ],
       "forms": {"isolated": "ظ", "initial": "ظـ", "medial": "ـظـ", "final": "ـظ"},
-      "example": {"arabic": "ظِلّ", "translit": "ẓill", "meaning": "shade"},
+      "examples": [
+        {"arabic": "ظِلّ", "translit": "ẓill", "meaning": "shade", "form": "initial"},
+        {"arabic": "نَظَر", "translit": "naẓar", "meaning": "view / gaze", "form": "medial"},
+        {"arabic": "حِفْظ", "translit": "ḥifẓ", "meaning": "memorization", "form": "final"}
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {

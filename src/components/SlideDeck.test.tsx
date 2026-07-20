@@ -16,7 +16,7 @@ const slides: Slide[] = [
     makhraj: "the two lips",
     notes: ["one dot below"],
     forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" },
-    example: { arabic: "باب", translit: "bāb", meaning: "door" },
+    examples: [{ arabic: "باب", translit: "bāb", meaning: "door", form: "initial" as const }],
     image: "/images/makhraj/shafatan.svg",
   },
   { kind: "concept", heading: "s4", body: ["b"] }, { kind: "concept", heading: "s5", body: ["b"] },
@@ -54,7 +54,6 @@ describe("SlideDeck", () => {
       s.kind === "letter"
         ? {
             ...s,
-            example: undefined,
             examples: [
               { arabic: "بَاب", translit: "bāb", meaning: "door", form: "initial" as const },
               { arabic: "كِتَاب", translit: "kitāb", meaning: "book", form: "medial" as const },

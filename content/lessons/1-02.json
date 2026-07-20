@@ -24,16 +24,28 @@
     {"kind": "letter", "item": {"arabic": "ج", "name": "jeem", "translit": "j", "audio": {"type": "youtube-cue", "videoId": "X-iZ4yZrltA", "startSeconds": 0, "title": "Arabic101 Makharij Lesson 6 — ج (jeem)"}}, "makhraj": "middle of the tongue against the roof of the mouth", "notes": [
       "Shape-family with ح and خ — ج has one dot BELOW",
       "Sound: a soft \"j\" affricate (Husary/Muallim standard) — not a hard \"g\" or \"zh\""
-    ], "forms": {"isolated": "ج", "initial": "جـ", "medial": "ـجـ", "final": "ـج"}, "example": {"arabic": "جَمَل", "translit": "jamal", "meaning": "camel"}, "image": "/images/makhraj/lisan.svg"},
+    ], "forms": {"isolated": "ج", "initial": "جـ", "medial": "ـجـ", "final": "ـج"}, "examples": [
+      {"arabic": "جَمَل", "translit": "jamal", "meaning": "camel", "form": "initial"},
+      {"arabic": "مَسْجِد", "translit": "masjid", "meaning": "mosque", "form": "medial"},
+      {"arabic": "خَلِيج", "translit": "khalīj", "meaning": "gulf", "form": "final"}
+    ], "image": "/images/makhraj/lisan.svg"},
     {"kind": "letter", "item": {"arabic": "ح", "name": "haa", "translit": "ḥ", "audio": {"type": "teacher-voice", "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"}}, "makhraj": "middle of the throat", "notes": [
       "Same body-family as ج/خ — ح has NO dot",
       "A strong, unvoiced, breathy throat friction — \"like fogging a mirror from mid-throat\"",
       "No equivalent phoneme exists in English, Turkish, Uzbek, Persian, or Urdu"
-    ], "forms": {"isolated": "ح", "initial": "حـ", "medial": "ـحـ", "final": "ـح"}, "example": {"arabic": "حِصَان", "translit": "ḥiṣān", "meaning": "horse"}, "image": "/images/makhraj/halq.svg"},
+    ], "forms": {"isolated": "ح", "initial": "حـ", "medial": "ـحـ", "final": "ـح"}, "examples": [
+      {"arabic": "حِصَان", "translit": "ḥiṣān", "meaning": "horse", "form": "initial"},
+      {"arabic": "بَحْر", "translit": "baḥr", "meaning": "sea", "form": "medial"},
+      {"arabic": "فَتْح", "translit": "fatḥ", "meaning": "opening", "form": "final"}
+    ], "image": "/images/makhraj/halq.svg"},
     {"kind": "letter", "item": {"arabic": "خ", "name": "kha", "translit": "kh", "audio": {"type": "teacher-voice", "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"}}, "makhraj": "upper throat / back of tongue against the soft palate", "notes": [
       "Same body-family as ج/ح — خ has one dot ABOVE",
       "Close to the \"kh\" sound Uzbek already has in words like xalq — you likely can say this one already; just keep it a genuine back-of-throat fricative, not softened"
-    ], "forms": {"isolated": "خ", "initial": "خـ", "medial": "ـخـ", "final": "ـخ"}, "example": {"arabic": "خُبْز", "translit": "khubz", "meaning": "bread"}, "image": "/images/makhraj/halq.svg"},
+    ], "forms": {"isolated": "خ", "initial": "خـ", "medial": "ـخـ", "final": "ـخ"}, "examples": [
+      {"arabic": "خُبْز", "translit": "khubz", "meaning": "bread", "form": "initial"},
+      {"arabic": "بُخَار", "translit": "bukhār", "meaning": "steam", "form": "medial"},
+      {"arabic": "طَبْخ", "translit": "ṭabkh", "meaning": "cooking", "form": "final"}
+    ], "image": "/images/makhraj/halq.svg"},
     {"kind": "drill", "heading": "ح vs خ vs ه — the #1 mistake in the alphabet", "instructions": "Listen to all three back to back (ه is only a preview here — it's formally taught in Lesson 1.6), then point to which one you heard.", "grid": [[
       {"arabic": "ح", "name": "haa", "audio": {"type": "teacher-voice", "cue": "ح: a strong, breathy, unvoiced friction from the middle of the throat — like fogging a mirror from deep in the throat, no English equivalent"}},
       {"arabic": "خ", "name": "kha", "audio": {"type": "teacher-voice", "cue": "خ: a rasping fricative from the upper throat/back of the tongue against the soft palate — a genuine back-of-throat 'kh', not softened"}},
@@ -42,11 +54,17 @@
     {"kind": "letter", "item": {"arabic": "د", "name": "dal", "translit": "d", "audio": {"type": "teacher-voice", "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"}}, "makhraj": "tip of tongue against the upper gum ridge", "notes": [
       "Shape-family with ذ — same body, د has NO dot",
       "Sound: a plain \"d\""
-    ], "forms": {"isolated": "د", "final": "ـد"}, "example": {"arabic": "دَم", "translit": "dam", "meaning": "blood"}, "image": "/images/makhraj/lisan.svg"},
+    ], "forms": {"isolated": "د", "final": "ـد"}, "examples": [
+      {"arabic": "دَم", "translit": "dam", "meaning": "blood", "form": "isolated"},
+      {"arabic": "يَد", "translit": "yad", "meaning": "hand", "form": "final"}
+    ], "image": "/images/makhraj/lisan.svg"},
     {"kind": "letter", "item": {"arabic": "ذ", "name": "dhal", "translit": "dh", "audio": {"type": "teacher-voice", "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"}}, "makhraj": "tip of tongue between the teeth (same point as ث, but voiced)", "notes": [
       "Shape-family with د — same body, ذ has one dot ABOVE",
       "Voiced \"th\" as in \"this\" — NOT a \"z\"; documented as a Persian/Turkish/Urdu-speaker collapse pattern"
-    ], "forms": {"isolated": "ذ", "final": "ـذ"}, "example": {"arabic": "ذَهَب", "translit": "dhahab", "meaning": "gold"}, "image": "/images/makhraj/lisan.svg"},
+    ], "forms": {"isolated": "ذ", "final": "ـذ"}, "examples": [
+      {"arabic": "ذَهَب", "translit": "dhahab", "meaning": "gold", "form": "isolated"},
+      {"arabic": "تِلْمِيذ", "translit": "tilmīdh", "meaning": "student", "form": "final"}
+    ], "image": "/images/makhraj/lisan.svg"},
     {"kind": "drill", "heading": "د vs ذ — minimal-pair listening", "instructions": "Listen for either د or ذ, then point to which glyph you heard.", "grid": [[
       {"arabic": "د", "name": "dal", "audio": {"type": "teacher-voice", "cue": "د: tongue-tip taps the upper gum ridge firmly — a plain, crisp 'd'"}},
       {"arabic": "ذ", "name": "dhal", "audio": {"type": "teacher-voice", "cue": "ذ: tongue-tip between the teeth, same point as ث but VOICED — 'th' as in 'this', never a 'z'"}}

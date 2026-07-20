@@ -218,8 +218,32 @@
         "Contrast directly against last lesson's ق — plain \"k\", shallower in the mouth",
         "Shape: no dot"
       ],
-      "forms": {"isolated": "ك", "initial": "كـ", "medial": "ـكـ", "final": "ـك"},
-      "example": {"arabic": "كِتَاب", "translit": "kitāb", "meaning": "book"},
+      "forms": {
+        "isolated": "ك",
+        "initial": "كـ",
+        "medial": "ـكـ",
+        "final": "ـك"
+      },
+      "examples": [
+        {
+          "arabic": "كِتَاب",
+          "translit": "kitāb",
+          "meaning": "book",
+          "form": "initial"
+        },
+        {
+          "arabic": "سُكَّر",
+          "translit": "sukkar",
+          "meaning": "sugar",
+          "form": "medial"
+        },
+        {
+          "arabic": "سَمَك",
+          "translit": "samak",
+          "meaning": "fish",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -267,8 +291,32 @@
         "A clear, light \"l\"",
         "Shape: no dot"
       ],
-      "forms": {"isolated": "ل", "initial": "لـ", "medial": "ـلـ", "final": "ـل"},
-      "example": {"arabic": "لِسَان", "translit": "lisān", "meaning": "tongue"},
+      "forms": {
+        "isolated": "ل",
+        "initial": "لـ",
+        "medial": "ـلـ",
+        "final": "ـل"
+      },
+      "examples": [
+        {
+          "arabic": "لِسَان",
+          "translit": "lisān",
+          "meaning": "tongue",
+          "form": "initial"
+        },
+        {
+          "arabic": "قَلَم",
+          "translit": "qalam",
+          "meaning": "pen",
+          "form": "medial"
+        },
+        {
+          "arabic": "جَمَل",
+          "translit": "jamal",
+          "meaning": "camel",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -287,8 +335,32 @@
         "Sound: \"m\", nasal",
         "Watch for \"Meem irregularities\" — a named aside in the reference video, not folded silently into the main lesson"
       ],
-      "forms": {"isolated": "م", "initial": "مـ", "medial": "ـمـ", "final": "ـم"},
-      "example": {"arabic": "مَسْجِد", "translit": "masjid", "meaning": "mosque"},
+      "forms": {
+        "isolated": "م",
+        "initial": "مـ",
+        "medial": "ـمـ",
+        "final": "ـم"
+      },
+      "examples": [
+        {
+          "arabic": "مَسْجِد",
+          "translit": "masjid",
+          "meaning": "mosque",
+          "form": "initial"
+        },
+        {
+          "arabic": "قَمَر",
+          "translit": "qamar",
+          "meaning": "moon",
+          "form": "medial"
+        },
+        {
+          "arabic": "قَلَم",
+          "translit": "qalam",
+          "meaning": "pen",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/shafatan.svg"
     },
     {
@@ -309,8 +381,32 @@
         "A two-part sound: an oral release plus nasal resonance — foreshadowing Phase 3's ghunna/noon-sakinah rules",
         "Shape: one dot ABOVE"
       ],
-      "forms": {"isolated": "ن", "initial": "نـ", "medial": "ـنـ", "final": "ـن"},
-      "example": {"arabic": "نُور", "translit": "nūr", "meaning": "light"},
+      "forms": {
+        "isolated": "ن",
+        "initial": "نـ",
+        "medial": "ـنـ",
+        "final": "ـن"
+      },
+      "examples": [
+        {
+          "arabic": "نُور",
+          "translit": "nūr",
+          "meaning": "light, radiance",
+          "form": "initial"
+        },
+        {
+          "arabic": "بِنْت",
+          "translit": "bint",
+          "meaning": "girl",
+          "form": "medial"
+        },
+        {
+          "arabic": "لَبَن",
+          "translit": "laban",
+          "meaning": "milk",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {
@@ -329,8 +425,32 @@
         "A soft, breathy \"h\" — contrasted directly against ح (lesson 1.2), which is a much stronger, deeper throat sound",
         "Shape: no dot"
       ],
-      "forms": {"isolated": "ه", "initial": "هـ", "medial": "ـهـ", "final": "ـه"},
-      "example": {"arabic": "هِلَال", "translit": "hilāl", "meaning": "crescent moon"},
+      "forms": {
+        "isolated": "ه",
+        "initial": "هـ",
+        "medial": "ـهـ",
+        "final": "ـه"
+      },
+      "examples": [
+        {
+          "arabic": "هِلَال",
+          "translit": "hilāl",
+          "meaning": "crescent moon",
+          "form": "initial"
+        },
+        {
+          "arabic": "شَهْر",
+          "translit": "shahr",
+          "meaning": "month",
+          "form": "medial"
+        },
+        {
+          "arabic": "وَجْه",
+          "translit": "wajh",
+          "meaning": "face",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/halq.svg"
     },
     {
@@ -374,8 +494,24 @@
         "Taught here purely as a consonant (\"w\") — its much bigger role as a long-vowel/madd letter is Phase 2 content",
         "Shape: no dot"
       ],
-      "forms": {"isolated": "و", "final": "ـو"},
-      "example": {"arabic": "وَرْدَة", "translit": "warda", "meaning": "rose"},
+      "forms": {
+        "isolated": "و",
+        "final": "ـو"
+      },
+      "examples": [
+        {
+          "arabic": "وَرْدَة",
+          "translit": "warda",
+          "meaning": "rose",
+          "form": "isolated"
+        },
+        {
+          "arabic": "دَلْو",
+          "translit": "dalw",
+          "meaning": "bucket",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/shafatan.svg"
     },
     {
@@ -394,8 +530,32 @@
         "Taught here purely as a consonant (\"y\") — same note as و, returns as a long-vowel letter in Phase 2",
         "Shape: two dots BELOW in isolated form"
       ],
-      "forms": {"isolated": "ي", "initial": "يـ", "medial": "ـيـ", "final": "ـي"},
-      "example": {"arabic": "يَد", "translit": "yad", "meaning": "hand"},
+      "forms": {
+        "isolated": "ي",
+        "initial": "يـ",
+        "medial": "ـيـ",
+        "final": "ـي"
+      },
+      "examples": [
+        {
+          "arabic": "يَد",
+          "translit": "yad",
+          "meaning": "hand",
+          "form": "initial"
+        },
+        {
+          "arabic": "بَيْت",
+          "translit": "bayt",
+          "meaning": "house",
+          "form": "medial"
+        },
+        {
+          "arabic": "كُرْسِيّ",
+          "translit": "kursiyy",
+          "meaning": "chair",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {

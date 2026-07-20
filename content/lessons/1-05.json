@@ -190,11 +190,26 @@
         "medial": "ـعـ",
         "final": "ـع"
       },
-      "example": {
-        "arabic": "عَيْن",
-        "translit": "ʿayn",
-        "meaning": "eye"
-      },
+      "examples": [
+        {
+          "arabic": "عَيْن",
+          "translit": "ʿayn",
+          "meaning": "eye",
+          "form": "initial"
+        },
+        {
+          "arabic": "ثَعْلَب",
+          "translit": "thaʿlab",
+          "meaning": "fox",
+          "form": "medial"
+        },
+        {
+          "arabic": "دَفْع",
+          "translit": "dafʿ",
+          "meaning": "payment",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/halq.svg"
     },
     {
@@ -244,11 +259,26 @@
         "medial": "ـغـ",
         "final": "ـغ"
       },
-      "example": {
-        "arabic": "غَيْم",
-        "translit": "ghaym",
-        "meaning": "cloud"
-      },
+      "examples": [
+        {
+          "arabic": "غَيْم",
+          "translit": "ghaym",
+          "meaning": "cloud",
+          "form": "initial"
+        },
+        {
+          "arabic": "لُغَة",
+          "translit": "lugha",
+          "meaning": "language",
+          "form": "medial"
+        },
+        {
+          "arabic": "بَالِغ",
+          "translit": "bāligh",
+          "meaning": "adult",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/halq.svg"
     },
     {
@@ -298,11 +328,26 @@
         "medial": "ـفـ",
         "final": "ـف"
       },
-      "example": {
-        "arabic": "فِيل",
-        "translit": "fīl",
-        "meaning": "elephant"
-      },
+      "examples": [
+        {
+          "arabic": "فِيل",
+          "translit": "fīl",
+          "meaning": "elephant",
+          "form": "initial"
+        },
+        {
+          "arabic": "سَفَر",
+          "translit": "safar",
+          "meaning": "travel",
+          "form": "medial"
+        },
+        {
+          "arabic": "ضَعْف",
+          "translit": "ḍaʿf",
+          "meaning": "weakness",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/shafatan.svg"
     },
     {
@@ -329,11 +374,26 @@
         "medial": "ـقـ",
         "final": "ـق"
       },
-      "example": {
-        "arabic": "قَلَم",
-        "translit": "qalam",
-        "meaning": "pen"
-      },
+      "examples": [
+        {
+          "arabic": "قَلَم",
+          "translit": "qalam",
+          "meaning": "pen",
+          "form": "initial"
+        },
+        {
+          "arabic": "بَقَرَة",
+          "translit": "baqara",
+          "meaning": "cow",
+          "form": "medial"
+        },
+        {
+          "arabic": "طَرِيق",
+          "translit": "ṭarīq",
+          "meaning": "road",
+          "form": "final"
+        }
+      ],
       "image": "/images/makhraj/lisan.svg"
     },
     {

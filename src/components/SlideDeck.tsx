@@ -62,7 +62,7 @@ function SlideView({ slide }: { slide: Slide }) {
             </div>
           )}
           <ul className="mt-3 space-y-1 text-white/70">{slide.notes.map((n) => <li key={n}>{n}</li>)}</ul>
-          {slide.examples ? (
+          {slide.examples && (
             <div className="mx-auto mt-4 max-w-xl">
               <p className="mb-2 text-xs uppercase tracking-wide text-white/50">See it inside real words</p>
               <div dir="rtl" className="flex flex-wrap justify-center gap-x-8 gap-y-3">
@@ -75,12 +75,7 @@ function SlideView({ slide }: { slide: Slide }) {
                 ))}
               </div>
             </div>
-          ) : slide.example ? (
-            <div className="mt-4">
-              <p className="arabic text-4xl">{slide.example.arabic}</p>
-              <p className="text-white/70">{slide.example.translit} — {slide.example.meaning}</p>
-            </div>
-          ) : null}
+          )}
         </div>
       );
     case "drill":

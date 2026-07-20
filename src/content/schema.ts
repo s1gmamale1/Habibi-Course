@@ -43,7 +43,6 @@ export const SlideSchema = z.discriminatedUnion("kind", [
         final: z.string().optional(),
       })
       .optional(),
-    example: z.object({ arabic: z.string(), translit: z.string(), meaning: z.string() }).optional(),
     examples: z
       .array(
         z.object({
