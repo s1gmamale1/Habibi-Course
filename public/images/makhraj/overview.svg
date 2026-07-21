@@ -44,7 +44,7 @@
              C54 156 66 141 70 112
              C76 88 92 72 112 65
              C134 56 155 50 180 50"
-          stroke="#E8E6F2" stroke-opacity="0.4" stroke-width="2"/>
+          stroke="#E8E6F2" stroke-opacity="0.68" stroke-width="2"/>
 
     <!-- Ear -->
     <path d="M216 138
@@ -53,7 +53,7 @@
              C188 174 195 148 216 138Z
              M213 154
              C223 160 225 177 215 187"
-          stroke="#E8E6F2" stroke-opacity="0.35" stroke-width="1.5"/>
+          stroke="#E8E6F2" stroke-opacity="0.62" stroke-width="1.5"/>
   </g>
 
   <!-- Nasal passage: al-Khayshum -->

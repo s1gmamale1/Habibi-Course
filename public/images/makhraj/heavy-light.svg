@@ -35,7 +35,7 @@
            C130 58 154 51 180 50 Z"
         stroke="#E8E6F2"
         stroke-width="2"
-        stroke-opacity="0.38"/>
+        stroke-opacity="0.62"/>
 
       <path
         d="M215 138
@@ -45,7 +45,7 @@
            C237 141 226 135 215 138 Z"
         stroke="#E8E6F2"
         stroke-width="1.6"
-        stroke-opacity="0.34"/>
+        stroke-opacity="0.62"/>
 
       <path
         d="M97 125
@@ -54,7 +54,7 @@
            C121 142 104 138 97 125 Z"
         stroke="#E8E6F2"
         stroke-width="1.5"
-        stroke-opacity="0.35"
+        stroke-opacity="0.62"
         fill="#E8E6F2"
         fill-opacity="0.04"/>
 
@@ -66,7 +66,7 @@
            C94 204 89 190 101 180 Z"
         stroke="#E8E6F2"
         stroke-width="1.5"
-        stroke-opacity="0.32"
+        stroke-opacity="0.62"
         fill="#E8E6F2"
         fill-opacity="0.035"/>
     </g>
@@ -113,7 +113,7 @@
            C130 58 154 51 180 50 Z"
         stroke="#E8E6F2"
         stroke-width="2"
-        stroke-opacity="0.38"/>
+        stroke-opacity="0.62"/>
 
       <path
         d="M215 138
@@ -123,7 +123,7 @@
            C237 141 226 135 215 138 Z"
         stroke="#E8E6F2"
         stroke-width="1.6"
-        stroke-opacity="0.34"/>
+        stroke-opacity="0.62"/>
 
       <path
         d="M97 125
@@ -132,7 +132,7 @@
            C121 142 104 138 97 125 Z"
         stroke="#E8E6F2"
         stroke-width="1.5"
-        stroke-opacity="0.35"
+        stroke-opacity="0.62"
         fill="#E8E6F2"
         fill-opacity="0.04"/>
 
@@ -144,7 +144,7 @@
            C94 204 89 190 101 180 Z"
         stroke="#E8E6F2"
         stroke-width="1.5"
-        stroke-opacity="0.32"
+        stroke-opacity="0.62"
         fill="#E8E6F2"
         fill-opacity="0.035"/>
     </g>
