@@ -26,7 +26,7 @@ function SlideView({ slide }: { slide: Slide }) {
           <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
           {slide.image && (
             <div className="glass mx-auto mb-4 inline-block rounded-2xl p-2">
-              <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto max-h-[36vh] max-w-full rounded-xl" />
+              <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto h-auto w-72 max-w-full rounded-xl sm:w-80" />
             </div>
           )}
           <ul className="list-disc space-y-3 pl-6 text-xl text-white/85">{slide.body.map((b) => <li key={b}>{b}</li>)}</ul>
@@ -41,7 +41,7 @@ function SlideView({ slide }: { slide: Slide }) {
               <img
                 src={slide.image}
                 alt={`makhraj — ${slide.item.name ?? slide.item.arabic}`}
-                className="mx-auto max-h-[36vh] max-w-full rounded-xl"
+                className="mx-auto h-auto w-72 max-w-full rounded-xl sm:w-80"
               />
             </div>
           )}
