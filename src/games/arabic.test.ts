@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { baseLetters, contextualGlyphs, NON_CONNECTORS, stripDiacritics } from "./arabic";
 
-const ZWJ = "‍";
+const ZWJ = "\u200D";
 
 describe("stripDiacritics", () => {
   test("removes harakat and tatweel", () => {

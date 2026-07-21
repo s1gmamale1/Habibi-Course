@@ -26,7 +26,7 @@ export function baseLetters(word: string): string[] {
   return [...stripDiacritics(word)].map((c) => BASE_MAP[c] ?? c);
 }
 
-const ZWJ = "‍";
+const ZWJ = "\u200D";
 
 // Each letter of a word as its own string, ZWJ-padded so that rendering the
 // letters in separate <button>s preserves the joined contextual forms.
