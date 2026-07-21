@@ -46,6 +46,9 @@ function SlideView({ slide }: { slide: Slide }) {
             </div>
           )}
           <TapToHear item={slide.item} size="lg" showName={false} />
+          {slide.item.audio.type === "youtube-cue" && (
+            <p className="mt-2 text-sm text-white/60">▶ Tap the letter above to watch how it&apos;s pronounced</p>
+          )}
           <p className="mt-4 text-2xl font-semibold text-white">{slide.item.name}{slide.item.translit ? ` — ${slide.item.translit}` : ""}</p>
           <p className="mt-2 text-lg text-white/80"><span className="font-semibold text-white">Makhraj:</span> {slide.makhraj}</p>
           {slide.forms && (

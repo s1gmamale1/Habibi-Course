@@ -25,3 +25,7 @@ Capture inbox. Append-only — nothing here is scheduled. Scoped work gets promo
 ## 2026-07-21 — codex image generation blocked (quota)
 
 - **Regenerate ALL makhraj visuals as real-anatomy raster images via codex imagine** once the owner's codex quota resets (**Jul 25 2026 6:50 PM**; or sooner with credits / an OPENAI_API_KEY in ~/.codex/auth.json). Owner rejected line-art SVGs; halq-zones already replaced with an adapted OpenStax CC BY figure — the other six (overview/jawf/halq/lisan/shafatan/heavy-light) are still brightened SVGs awaiting raster replacements. Command shape that works: codex exec -m gpt-5.4 -s workspace-write --skip-git-repo-check "<prompt using its image tool>".
+
+## 2026-07-22 — movement teaching (owner request)
+
+- **Frame-by-frame makhraj animations.** Owner wants actual MOVEMENT shown per letter (tongue/lip motion while pronouncing). Generated-image keyframes lack cross-frame consistency today; options when picked up: (a) hunt licensed/embeddable ANIMATED makharij videos on YouTube per zone and wire as visible embeds, (b) coherent multi-frame generation or video-gen when available in codex, (c) CSS/SVG micro-animations (e.g. animated arrow paths over the annotated stills). Static images are now annotated with letters/arrows/labels (this round) as the baseline.
