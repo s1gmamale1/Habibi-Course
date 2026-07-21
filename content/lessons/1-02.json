@@ -61,10 +61,11 @@
       "heading": "The throat has three zones",
       "body": [
         "The throat divides into three zones: deep (hamza — a glottal-stop mark — and ه, both met later), mid (ع/ح — ع met later), upper (غ/خ — غ met later)",
+        "In the picture: teal = upper throat (Adna al-Halq — غ خ), violet = mid throat (Wasat al-Halq — ع ح), rose = deep throat (Aqsa al-Halq — ء ه)",
         "Two of today's five letters are throat letters — often the single most error-prone family in the whole alphabet for learners coming from your language background",
         "Today we meet the mid-zone ح and the upper-zone خ"
       ],
-      "image": "/images/makhraj/halq-zones.png"
+      "image": "/images/makhraj/halq-zones.jpg"
     },
     {
       "kind": "letter",
@@ -110,7 +111,7 @@
           "form": "final"
         }
       ],
-      "image": "/images/makhraj/lisan.svg"
+      "image": "/images/makhraj/lisan.jpg"
     },
     {
       "kind": "letter",
@@ -155,7 +156,7 @@
           "form": "final"
         }
       ],
-      "image": "/images/makhraj/halq.svg"
+      "image": "/images/makhraj/halq.jpg"
     },
     {
       "kind": "letter",
@@ -199,7 +200,7 @@
           "form": "final"
         }
       ],
-      "image": "/images/makhraj/halq.svg"
+      "image": "/images/makhraj/halq.jpg"
     },
     {
       "kind": "drill",
@@ -268,7 +269,7 @@
           "form": "final"
         }
       ],
-      "image": "/images/makhraj/lisan.svg"
+      "image": "/images/makhraj/lisan.jpg"
     },
     {
       "kind": "letter",
@@ -304,7 +305,7 @@
           "form": "final"
         }
       ],
-      "image": "/images/makhraj/lisan.svg"
+      "image": "/images/makhraj/lisan.jpg"
     },
     {
       "kind": "drill",
