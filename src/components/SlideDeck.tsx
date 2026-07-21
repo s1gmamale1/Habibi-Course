@@ -25,7 +25,7 @@ function SlideView({ slide }: { slide: Slide }) {
         <div className="max-w-2xl">
           <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
           {slide.image && (
-            <div className="glass mx-auto mb-4 inline-block rounded-2xl p-2">
+            <div className="glass mx-auto mb-4 w-fit rounded-2xl p-2">
               <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto h-auto w-72 max-w-full rounded-xl sm:w-80" />
             </div>
           )}
@@ -37,7 +37,7 @@ function SlideView({ slide }: { slide: Slide }) {
       return (
         <div className="text-center">
           {slide.image && (
-            <div className="glass mx-auto mb-4 inline-block rounded-2xl p-2">
+            <div className="glass mx-auto mb-4 w-fit rounded-2xl p-2">
               <img
                 src={slide.image}
                 alt={`makhraj — ${slide.item.name ?? slide.item.arabic}`}
