@@ -31,6 +31,10 @@ const ZWJ = "\u200D";
 // Each letter of a word as its own string, ZWJ-padded so that rendering the
 // letters in separate <button>s preserves the joined contextual forms.
 // Diacritics are stripped (games read unvoweled, like lessons 1-07–1-09).
+// NOTE: unlike baseLetters, glyphs are NOT run through BASE_MAP — a
+// hamza-carrier word (e.g. containing ؤ) would display ؤ while game logic
+// compares against و. No current lesson word contains a carrier; if one is
+// ever added, normalize both sides at this seam first.
 export function contextualGlyphs(word: string): string[] {
   const letters = [...stripDiacritics(word)];
   return letters.map((ch, i) => {
