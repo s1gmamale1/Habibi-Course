@@ -14,7 +14,7 @@ export function WordBuilder({ words }: { words: WordEntry[] }) {
   return (
     <div className="text-center">
       <p className="mb-1 text-white/80">
-        Arrange the letters to build <span className="font-semibold">{word.translit}</span> ("{word.meaning}").
+        Arrange the letters to build <span className="font-semibold">{word.translit}</span> (“{word.meaning}”).
       </p>
       <p className="mb-4 text-xs text-white/50">Tap two tiles to swap them. The word reads right to left.</p>
       <div dir="rtl" className="flex flex-wrap justify-center gap-3">

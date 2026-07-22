@@ -14,6 +14,7 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
 
   useEffect(() => {
     const uniq = [...new Set(baseLetters(words[round % words.length].arabic))];
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- random target pick must run client-side only; render-time shuffle would mismatch SSR HTML
     setTarget(shuffled(uniq)[0]);
     setFound(false);
     setShake(null);

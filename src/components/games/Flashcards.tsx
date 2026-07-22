@@ -35,6 +35,7 @@ export function Flashcards({ cards }: { cards: CardFace[] }) {
   const cardsKey = cards.map((c) => c.id).join("|");
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- deck shuffle must run client-side only; render-time shuffle would mismatch SSR HTML
     setDeck(shuffled(cards.map((_, i) => i)));
     setFlipped(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- cards identity churns; cardsKey covers content

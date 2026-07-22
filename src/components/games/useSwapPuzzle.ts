@@ -37,6 +37,7 @@ export function useSwapPuzzle(values: string[], round: number): SwapPuzzle {
   const valueKey = values.join("\u0001");
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- mount/round-keyed shuffle must run client-side only; render-time shuffle would mismatch SSR HTML
     setOrder(shuffledUnsolved(valueKey.split("\u0001")));
     setSelected(null);
     setShake(null);
