@@ -1,7 +1,8 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { Slide } from "@/content/schema";
+import type { DeckSlide } from "@/games/deck";
+import { GamePanel } from "./games/GamePanel";
 import { TapToHear } from "./TapToHear";
 
 const FORM_LABELS = {
@@ -11,7 +12,7 @@ const FORM_LABELS = {
   final: "End",
 } as const;
 
-function SlideView({ slide }: { slide: Slide }) {
+function SlideView({ slide }: { slide: DeckSlide }) {
   switch (slide.kind) {
     case "title":
       return (
@@ -91,6 +92,8 @@ function SlideView({ slide }: { slide: Slide }) {
           ))}
         </div>
       );
+    case "games":
+      return <GamePanel data={slide.data} />;
     case "recap":
       return (
         <div className="text-center">
@@ -114,7 +117,7 @@ export function SlideDeck({
   videosAnchor = false,
 }: {
   title: string;
-  slides: Slide[];
+  slides: DeckSlide[];
   videosAnchor?: boolean;
 }) {
   const [i, setI] = useState(0);
