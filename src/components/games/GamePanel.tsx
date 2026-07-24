@@ -27,7 +27,11 @@ export function GamePanel({ data, heading = "Practice games" }: { data: GameData
       show: data.letterPool.length > 0,
       render: () => <LetterFlashcards newLetters={data.newLetters} allLetters={data.letterPool} />,
     },
-    { label: "❓ Quiz", show: quizPool.length >= 4, render: () => <LetterQuiz pool={quizPool} /> },
+    {
+      label: "❓ Quiz",
+      show: quizPool.length >= 4,
+      render: () => <LetterQuiz pool={quizPool} entries={data.formEntries} formsTaught={data.formsTaught} />,
+    },
     {
       label: "🔀 Forms",
       show: data.formsTaught && data.formEntries.length > 0,
