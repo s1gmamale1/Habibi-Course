@@ -1,5 +1,7 @@
-import { allLessonIds, loadLesson } from "@/content/load";
+import { allLessonIds, allLessons, loadLesson } from "@/content/load";
 import { SlideDeck } from "@/components/SlideDeck";
+import { buildDeckSlides } from "@/games/deck";
+import { deriveGameData } from "@/games/derive";
 
 export function generateStaticParams() {
   return allLessonIds().map((id) => ({ id }));
@@ -8,9 +10,10 @@ export function generateStaticParams() {
 export default async function LessonPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const l = loadLesson(id);
+  const deck = buildDeckSlides(l.slides, deriveGameData(allLessons(), id));
   return (
     <>
-      <SlideDeck title={l.title} slides={l.slides} videosAnchor={l.videos.length > 0} />
+      <SlideDeck title={l.title} slides={deck} videosAnchor={l.videos.length > 0} />
       {l.videos.length > 0 && (
         <section id="lesson-videos" className="mx-auto max-w-2xl p-6">
           <div className="glass rounded-2xl p-4 sm:p-5">

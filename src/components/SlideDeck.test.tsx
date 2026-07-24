@@ -16,7 +16,7 @@ const slides: Slide[] = [
     makhraj: "the two lips",
     notes: ["one dot below"],
     forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" },
-    example: { arabic: "باب", translit: "bāb", meaning: "door" },
+    examples: [{ arabic: "باب", translit: "bāb", meaning: "door", form: "initial" as const }],
     image: "/images/makhraj/shafatan.svg",
   },
   { kind: "concept", heading: "s4", body: ["b"] }, { kind: "concept", heading: "s5", body: ["b"] },
@@ -48,6 +48,29 @@ describe("SlideDeck", () => {
     expect(screen.getByText("Middle")).toBeTruthy();
     expect(screen.getByText("End")).toBeTruthy();
     expect(screen.getByText(/bāb\s*—\s*door/)).toBeTruthy();
+  });
+  test("letter slide with an examples array renders each word with its form label", async () => {
+    const withExamples: Slide[] = slides.map((s) =>
+      s.kind === "letter"
+        ? {
+            ...s,
+            examples: [
+              { arabic: "بَاب", translit: "bāb", meaning: "door", form: "initial" as const },
+              { arabic: "كِتَاب", translit: "kitāb", meaning: "book", form: "medial" as const },
+              { arabic: "قَلْب", translit: "qalb", meaning: "heart", form: "final" as const },
+            ],
+          }
+        : s,
+    );
+    render(<SlideDeck title={title} slides={withExamples} />);
+    await userEvent.keyboard("{ArrowRight}{ArrowRight}");
+    expect(screen.getByText(/See it inside real words/i)).toBeTruthy();
+    expect(screen.getByText(/bāb\s*—\s*door/)).toBeTruthy();
+    expect(screen.getByText(/kitāb\s*—\s*book/)).toBeTruthy();
+    expect(screen.getByText(/qalb\s*—\s*heart/)).toBeTruthy();
+    expect(screen.getByText(/Start position/)).toBeTruthy();
+    expect(screen.getByText(/Middle position/)).toBeTruthy();
+    expect(screen.getByText(/End position/)).toBeTruthy();
   });
   test("letter slide does not duplicate the item name (TapToHear caption suppressed via showName)", async () => {
     render(<SlideDeck title={title} slides={slides} />);

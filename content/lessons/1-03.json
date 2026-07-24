@@ -116,12 +116,21 @@
         "isolated": "ر",
         "final": "ـر"
       },
-      "example": {
-        "arabic": "رَجُل",
-        "translit": "rajul",
-        "meaning": "man"
-      },
-      "image": "/images/makhraj/lisan.svg"
+      "examples": [
+        {
+          "arabic": "رَجُل",
+          "translit": "rajul",
+          "meaning": "man",
+          "form": "isolated"
+        },
+        {
+          "arabic": "تَمْر",
+          "translit": "tamr",
+          "meaning": "dates",
+          "form": "final"
+        }
+      ],
+      "image": "/images/makhraj/lisan.jpg"
     },
     {
       "kind": "drill",
@@ -162,12 +171,21 @@
         "isolated": "ز",
         "final": "ـز"
       },
-      "example": {
-        "arabic": "زَيْت",
-        "translit": "zayt",
-        "meaning": "oil"
-      },
-      "image": "/images/makhraj/lisan.svg"
+      "examples": [
+        {
+          "arabic": "زَيْت",
+          "translit": "zayt",
+          "meaning": "oil",
+          "form": "isolated"
+        },
+        {
+          "arabic": "خُبْز",
+          "translit": "khubz",
+          "meaning": "bread",
+          "form": "final"
+        }
+      ],
+      "image": "/images/makhraj/lisan.jpg"
     },
     {
       "kind": "drill",
@@ -216,12 +234,27 @@
         "medial": "ـسـ",
         "final": "ـس"
       },
-      "example": {
-        "arabic": "سَمَك",
-        "translit": "samak",
-        "meaning": "fish"
-      },
-      "image": "/images/makhraj/lisan.svg"
+      "examples": [
+        {
+          "arabic": "سَمَك",
+          "translit": "samak",
+          "meaning": "fish",
+          "form": "initial"
+        },
+        {
+          "arabic": "مَسْجِد",
+          "translit": "masjid",
+          "meaning": "mosque",
+          "form": "medial"
+        },
+        {
+          "arabic": "شَمْس",
+          "translit": "shams",
+          "meaning": "sun",
+          "form": "final"
+        }
+      ],
+      "image": "/images/makhraj/lisan.jpg"
     },
     {
       "kind": "letter",
@@ -245,12 +278,27 @@
         "medial": "ـشـ",
         "final": "ـش"
       },
-      "example": {
-        "arabic": "شَمْس",
-        "translit": "shams",
-        "meaning": "sun"
-      },
-      "image": "/images/makhraj/lisan.svg"
+      "examples": [
+        {
+          "arabic": "شَمْس",
+          "translit": "shams",
+          "meaning": "sun",
+          "form": "initial"
+        },
+        {
+          "arabic": "بَشَر",
+          "translit": "bashar",
+          "meaning": "mankind",
+          "form": "medial"
+        },
+        {
+          "arabic": "رِيش",
+          "translit": "rīsh",
+          "meaning": "feather",
+          "form": "final"
+        }
+      ],
+      "image": "/images/makhraj/lisan.jpg"
     },
     {
       "kind": "drill",
