@@ -1,7 +1,8 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { Slide } from "@/content/schema";
+import type { DeckSlide } from "@/games/deck";
+import { GamePanel } from "./games/GamePanel";
 import { TapToHear } from "./TapToHear";
 
 const FORM_LABELS = {
@@ -11,7 +12,7 @@ const FORM_LABELS = {
   final: "End",
 } as const;
 
-function SlideView({ slide }: { slide: Slide }) {
+function SlideView({ slide }: { slide: DeckSlide }) {
   switch (slide.kind) {
     case "title":
       return (
@@ -25,8 +26,8 @@ function SlideView({ slide }: { slide: Slide }) {
         <div className="max-w-2xl">
           <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
           {slide.image && (
-            <div className="glass mx-auto mb-4 inline-block rounded-2xl p-2">
-              <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto max-h-[36vh] max-w-full rounded-xl" />
+            <div className="glass mx-auto mb-4 w-fit rounded-2xl p-2">
+              <img src={slide.image} alt={`makhraj — ${slide.heading}`} className="mx-auto h-auto w-72 max-w-full rounded-xl sm:w-80" />
             </div>
           )}
           <ul className="list-disc space-y-3 pl-6 text-xl text-white/85">{slide.body.map((b) => <li key={b}>{b}</li>)}</ul>
@@ -37,15 +38,18 @@ function SlideView({ slide }: { slide: Slide }) {
       return (
         <div className="text-center">
           {slide.image && (
-            <div className="glass mx-auto mb-4 inline-block rounded-2xl p-2">
+            <div className="glass mx-auto mb-4 w-fit rounded-2xl p-2">
               <img
                 src={slide.image}
                 alt={`makhraj — ${slide.item.name ?? slide.item.arabic}`}
-                className="mx-auto max-h-[36vh] max-w-full rounded-xl"
+                className="mx-auto h-auto w-72 max-w-full rounded-xl sm:w-80"
               />
             </div>
           )}
           <TapToHear item={slide.item} size="lg" showName={false} />
+          {slide.item.audio.type === "youtube-cue" && (
+            <p className="mt-2 text-sm text-white/60">▶ Tap the letter above to watch how it&apos;s pronounced</p>
+          )}
           <p className="mt-4 text-2xl font-semibold text-white">{slide.item.name}{slide.item.translit ? ` — ${slide.item.translit}` : ""}</p>
           <p className="mt-2 text-lg text-white/80"><span className="font-semibold text-white">Makhraj:</span> {slide.makhraj}</p>
           {slide.forms && (
@@ -62,10 +66,18 @@ function SlideView({ slide }: { slide: Slide }) {
             </div>
           )}
           <ul className="mt-3 space-y-1 text-white/70">{slide.notes.map((n) => <li key={n}>{n}</li>)}</ul>
-          {slide.example && (
-            <div className="mt-4">
-              <p className="arabic text-4xl">{slide.example.arabic}</p>
-              <p className="text-white/70">{slide.example.translit} — {slide.example.meaning}</p>
+          {slide.examples && (
+            <div className="mx-auto mt-4 max-w-xl">
+              <p className="mb-2 text-xs uppercase tracking-wide text-white/50">See it inside real words</p>
+              <div dir="rtl" className="flex flex-wrap justify-center gap-x-8 gap-y-3">
+                {slide.examples.map((ex) => (
+                  <div key={ex.arabic} className="text-center">
+                    <p className="arabic text-4xl">{ex.arabic}</p>
+                    <p dir="ltr" className="text-sm text-white/70">{ex.translit} — {ex.meaning}</p>
+                    {ex.form && <p dir="ltr" className="text-xs text-white/45">{FORM_LABELS[ex.form]} position</p>}
+                  </div>
+                ))}
+              </div>
             </div>
           )}
         </div>
@@ -80,6 +92,8 @@ function SlideView({ slide }: { slide: Slide }) {
           ))}
         </div>
       );
+    case "games":
+      return <GamePanel data={slide.data} />;
     case "recap":
       return (
         <div className="text-center">
@@ -103,7 +117,7 @@ export function SlideDeck({
   videosAnchor = false,
 }: {
   title: string;
-  slides: Slide[];
+  slides: DeckSlide[];
   videosAnchor?: boolean;
 }) {
   const [i, setI] = useState(0);

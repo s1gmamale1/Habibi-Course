@@ -42,3 +42,6 @@ next-env.d.ts
 
 # session scratch (not for git)
 .superpowers/
+.claude-flow/
+.swarm/
+.claude/settings.local.json

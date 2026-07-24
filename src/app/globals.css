@@ -281,3 +281,19 @@ body {
   .drill-cell .arabic { font-size: 54px !important; }
   body { background: white; }
 }
+
+/* ── Practice-game feedback (GamePanel and friends) ── */
+@keyframes game-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+.game-shake { animation: game-shake 0.35s ease-in-out; }
+.game-correct {
+  border-color: rgb(74 222 128 / 0.7);
+  background: rgb(34 197 94 / 0.15);
+  box-shadow: 0 0 14px rgb(74 222 128 / 0.3);
+}
+@media (prefers-reduced-motion: reduce) {
+  .game-shake { animation: none; }
+}

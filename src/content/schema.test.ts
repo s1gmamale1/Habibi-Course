@@ -42,23 +42,39 @@ describe("LessonSchema", () => {
   });
 });
 
-describe("SlideSchema — R1 additions (forms/example/image)", () => {
-  test("letter slide with forms, example, and image parses", () => {
+describe("SlideSchema — letter-slide additions (forms/examples/image)", () => {
+  test("letter slide with forms, form-tagged examples, and image parses", () => {
     const parsed = SlideSchema.parse({
       kind: "letter",
       item: { arabic: "ب", name: "ba", audio: { type: "teacher-voice", cue: "lips" } },
       makhraj: "the two lips",
       notes: ["one dot below"],
       forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" },
-      example: { arabic: "باب", translit: "bāb", meaning: "door" },
+      examples: [
+        { arabic: "بَيْت", translit: "bayt", meaning: "house", form: "initial" },
+        { arabic: "جَبَل", translit: "jabal", meaning: "mountain", form: "medial" },
+        { arabic: "قَلْب", translit: "qalb", meaning: "heart", form: "final" },
+      ],
       image: "/images/makhraj/shafatan.svg",
     });
     expect(parsed.kind).toBe("letter");
     if (parsed.kind === "letter") {
       expect(parsed.forms?.initial).toBe("بـ");
-      expect(parsed.example?.meaning).toBe("door");
+      expect(parsed.examples?.[2]?.form).toBe("final");
       expect(parsed.image).toBe("/images/makhraj/shafatan.svg");
     }
+  });
+
+  test("rejects an examples entry with an invalid form tag", () => {
+    expect(() =>
+      SlideSchema.parse({
+        kind: "letter",
+        item: { arabic: "ب", name: "ba", audio: { type: "teacher-voice", cue: "lips" } },
+        makhraj: "the two lips",
+        notes: [],
+        examples: [{ arabic: "بَيْت", translit: "bayt", meaning: "house", form: "middle" }],
+      }),
+    ).toThrow();
   });
 
   test("concept slide with image parses", () => {
