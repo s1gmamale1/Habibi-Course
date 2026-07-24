@@ -72,12 +72,19 @@ function renderLetter(slide: DeckSlide, s: Extract<Slide, { kind: "letter" }>, i
       { x: 2.7, y: 3.5, w: 3.2, colW: [0.8, 0.8, 0.8, 0.8], border: TABLE_BORDER },
     );
   }
-  if (s.example) {
-    slide.addText(s.example.arabic, {
-      x: 6.0, y: 3.3, w: 3.5, h: 0.7,
-      fontSize: 30, fontFace: ARABIC_FONT, color: ACCENT, align: "center", rtlMode: true,
+  if (s.examples?.length) {
+    const rowH = 0.62;
+    const startY = Math.max(2.6, 4.55 - s.examples.length * rowH);
+    s.examples.forEach((ex, i) => {
+      const y = startY + i * rowH;
+      slide.addText(ex.arabic, {
+        x: 6.0, y, w: 2.0, h: rowH,
+        fontSize: 22, fontFace: ARABIC_FONT, color: ACCENT, align: "center", rtlMode: true,
+      });
+      slide.addText(`${ex.translit} — ${ex.meaning}${ex.form ? ` (${ex.form})` : ""}`, {
+        x: 8.0, y: y + 0.08, w: 1.9, h: rowH, fontSize: 9, color: MUTED, align: "left",
+      });
     });
-    slide.addText(`${s.example.translit} — ${s.example.meaning}`, { x: 6.0, y: 4.0, w: 3.5, h: 0.5, fontSize: 12, color: MUTED, align: "center" });
   }
 }
 

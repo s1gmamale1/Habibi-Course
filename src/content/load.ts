@@ -29,6 +29,10 @@ export function loadLesson(id: string): Lesson {
   return parseLessonFile(path.join(CONTENT_DIR, "lessons", `${id}.json`));
 }
 
+export function allLessons(): Lesson[] {
+  return allLessonIds().map((id) => loadLesson(id));
+}
+
 export function allCheckpointIds(): string[] {
   const dir = path.join(CONTENT_DIR, "checkpoints");
   if (!fs.existsSync(dir)) return [];
