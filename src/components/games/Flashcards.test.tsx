@@ -62,4 +62,27 @@ describe("LetterFlashcards scope toggle", () => {
     await userEvent.click(screen.getByRole("button", { name: /all 3 so far/i }));
     expect(await screen.findByText("3 cards left")).toBeTruthy();
   });
+  test("switching back to today's letters survives a stale big-deck index", async () => {
+    // random=0 → 4-card deck order [1,2,3,0]: top index 1 is out of range
+    // for the 1-card "new" deck, which crashed the page before the fix.
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    render(<LetterFlashcards newLetters={[mk("ت")]} allLetters={[mk("ا"), mk("ب"), mk("ت"), mk("ث")]} />);
+    expect(await screen.findByText("1 card left")).toBeTruthy();
+    await userEvent.click(screen.getByRole("button", { name: /all 4 so far/i }));
+    expect(await screen.findByText("4 cards left")).toBeTruthy();
+    await userEvent.click(screen.getByRole("button", { name: /today's letters/i }));
+    expect(await screen.findByText("1 card left")).toBeTruthy();
+    expect(screen.getByText("ت")).toBeTruthy();
+  });
+});
+
+describe("Flashcards with a shrinking cards prop", () => {
+  test("re-render with fewer cards reshuffles instead of crashing", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0); // 3-card deck [1,2,0] → top index 1
+    const { rerender } = render(<Flashcards cards={cards} />);
+    expect(await screen.findByText("3 cards left")).toBeTruthy();
+    rerender(<Flashcards cards={[cards[0]]} />);
+    expect(await screen.findByText("1 card left")).toBeTruthy();
+    expect(screen.getByText("ا")).toBeTruthy();
+  });
 });

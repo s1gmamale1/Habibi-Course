@@ -59,7 +59,10 @@ export function Flashcards({ cards }: { cards: CardFace[] }) {
       </div>
     );
   }
+  // Deck indices can outlive a shrinking cards prop for one render (the
+  // reshuffle effect runs after render) — treat that frame as still shuffling.
   const card = cards[deck[0]];
+  if (!card) return <p className="text-white/50">Shuffling…</p>;
   return (
     <div className="text-center">
       <p className="mb-2 text-xs text-white/50">
@@ -133,7 +136,7 @@ export function LetterFlashcards({ newLetters, allLetters }: { newLetters: Arabi
           </button>
         </div>
       )}
-      <Flashcards cards={letterCards(items)} />
+      <Flashcards key={scope} cards={letterCards(items)} />
     </div>
   );
 }
