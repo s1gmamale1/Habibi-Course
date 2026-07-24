@@ -1,57 +1,149 @@
 "use client";
 import { useEffect, useState } from "react";
+import type { ReactNode } from "react";
 import type { ArabicItem } from "@/content/schema";
+import type { FormEntry, FormKey } from "@/games/derive";
 import { shuffled } from "./useSwapPuzzle";
 
-export function LetterQuiz({ pool }: { pool: ArabicItem[] }) {
+const FORM_KEYS: FormKey[] = ["isolated", "initial", "medial", "final"];
+const FORM_LABELS: Record<FormKey, string> = { isolated: "Alone", initial: "Start", medial: "Middle", final: "End" };
+
+type Flavor = "letter" | "pick-form" | "cross-letter";
+// Identity beyond the raw glyph string: pick-form keys by form-slot, cross-letter keys by letter.
+type Choice = { key: string; glyph: string; correct: boolean };
+type Question = { prompt: ReactNode; choices: Choice[] };
+
+function presentForms(entry: FormEntry): FormKey[] {
+  return FORM_KEYS.filter((k) => entry.forms[k]);
+}
+
+function buildLetterQuestion(pool: ArabicItem[]): Question {
+  const opts = shuffled(pool).slice(0, 4);
+  const answer = opts[0];
+  const choices: Choice[] = shuffled(opts).map((it) => ({
+    key: it.arabic,
+    glyph: it.arabic,
+    correct: it.arabic === answer.arabic,
+  }));
+  return {
+    prompt: (
+      <>
+        Which letter is <span className="font-semibold">{answer.name}</span>
+        {answer.translit ? ` (${answer.translit})` : ""}?
+      </>
+    ),
+    choices,
+  };
+}
+
+// Options are every present form of ONE letter; the correct option is the asked-for form key.
+function buildPickFormQuestion(entries: FormEntry[]): Question {
+  const eligible = entries.filter((e) => presentForms(e).length >= 3);
+  const entry = eligible[Math.floor(Math.random() * eligible.length)];
+  const keys = presentForms(entry);
+  const formKey = keys[Math.floor(Math.random() * keys.length)];
+  const choices: Choice[] = shuffled(keys).map((k) => ({
+    key: k,
+    glyph: entry.forms[k]!,
+    correct: k === formKey,
+  }));
+  return {
+    prompt: (
+      <>
+        Tap the <b>{FORM_LABELS[formKey]}</b> form of <b>{entry.item.name ?? entry.item.arabic}</b>
+      </>
+    ),
+    choices,
+  };
+}
+
+// Options are the SAME form key across 4 different letters; the correct option is one letter's glyph.
+function buildCrossLetterQuestion(entries: FormEntry[], commonKeys: FormKey[]): Question {
+  const formKey = commonKeys[Math.floor(Math.random() * commonKeys.length)];
+  const candidates = entries.filter((e) => e.forms[formKey]);
+  const picked = shuffled(candidates).slice(0, 4);
+  const answer = picked[Math.floor(Math.random() * picked.length)];
+  const choices: Choice[] = shuffled(picked).map((e) => ({
+    key: e.item.arabic,
+    glyph: e.forms[formKey]!,
+    correct: e.item.arabic === answer.item.arabic,
+  }));
+  return {
+    prompt: (
+      <>
+        Tap the <b>{FORM_LABELS[formKey]}</b> form of <b>{answer.item.name ?? answer.item.arabic}</b>
+      </>
+    ),
+    choices,
+  };
+}
+
+function buildQuestion(pool: ArabicItem[], entries: FormEntry[], formsTaught: boolean): Question {
+  const canPickForm = formsTaught && entries.some((e) => presentForms(e).length >= 3);
+  const commonKeys = formsTaught ? FORM_KEYS.filter((k) => entries.filter((e) => e.forms[k]).length >= 4) : [];
+
+  const available: Flavor[] = ["letter"];
+  if (canPickForm) available.push("pick-form");
+  if (commonKeys.length > 0) available.push("cross-letter");
+  const flavor = available[Math.floor(Math.random() * available.length)];
+
+  if (flavor === "pick-form") return buildPickFormQuestion(entries);
+  if (flavor === "cross-letter") return buildCrossLetterQuestion(entries, commonKeys);
+  return buildLetterQuestion(pool);
+}
+
+export function LetterQuiz({
+  pool,
+  entries,
+  formsTaught,
+}: {
+  pool: ArabicItem[];
+  entries: FormEntry[];
+  formsTaught: boolean;
+}) {
   const [round, setRound] = useState(0);
-  const [choices, setChoices] = useState<ArabicItem[] | null>(null);
-  const [answer, setAnswer] = useState<ArabicItem | null>(null);
+  const [question, setQuestion] = useState<Question | null>(null);
   const [gotIt, setGotIt] = useState(false);
   const [missed, setMissed] = useState(false);
-  const [shake, setShake] = useState<{ glyph: string; n: number } | null>(null);
+  const [shake, setShake] = useState<{ key: string; n: number } | null>(null);
   const [score, setScore] = useState({ right: 0, asked: 0 });
 
   useEffect(() => {
-    const opts = shuffled(pool).slice(0, 4);
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- round-keyed effect with mount-time shuffle must run client-side only; render-time shuffle would mismatch SSR HTML
-    setAnswer(opts[0]);
-    setChoices(shuffled(opts));
+    const q = buildQuestion(pool, entries, formsTaught);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- round-keyed effect with mount-time random pick must run client-side only; render-time pick would mismatch SSR HTML
+    setQuestion(q);
     setGotIt(false);
     setMissed(false);
     setShake(null);
-  }, [round, pool]);
+  }, [round, pool, entries, formsTaught]);
 
-  if (!choices || !answer) return <p className="text-white/50">Preparing…</p>;
+  if (!question) return <p className="text-white/50">Preparing…</p>;
   return (
     <div className="text-center">
-      <p className="mb-4 text-white/80">
-        Which letter is <span className="font-semibold">{answer.name}</span>
-        {answer.translit ? ` (${answer.translit})` : ""}?
-      </p>
+      <p className="mb-4 text-white/80">{question.prompt}</p>
       <div dir="rtl" className="flex flex-wrap justify-center gap-3">
-        {choices.map((it) => {
-          const shaking = shake?.glyph === it.arabic;
+        {question.choices.map((c) => {
+          const shaking = shake?.key === c.key;
           return (
             <button
-              key={`${it.arabic}-${shaking ? shake!.n : 0}`}
+              key={`${c.key}-${shaking ? shake!.n : 0}`}
               type="button"
-              aria-label={`choice ${it.arabic}`}
+              aria-label={`choice ${c.glyph}`}
               onClick={() => {
                 if (gotIt) return;
-                if (it.arabic === answer.arabic) {
+                if (c.correct) {
                   setGotIt(true);
                   setScore((s) => ({ right: s.right + (missed ? 0 : 1), asked: s.asked + 1 }));
                 } else {
                   setMissed(true);
-                  setShake({ glyph: it.arabic, n: (shake?.n ?? 0) + 1 });
+                  setShake({ key: c.key, n: (shake?.n ?? 0) + 1 });
                 }
               }}
               className={`arabic min-w-16 rounded-2xl border px-4 py-3 text-4xl text-white transition ${
-                gotIt && it.arabic === answer.arabic ? "game-correct" : "border-white/15 bg-white/5"
+                gotIt && c.correct ? "game-correct" : "border-white/15 bg-white/5"
               } ${shaking ? "game-shake" : ""}`}
             >
-              {it.arabic}
+              {c.glyph}
             </button>
           );
         })}

@@ -14,11 +14,16 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
 
   useEffect(() => {
     const uniq = [...new Set(baseLetters(words[round % words.length].arabic))];
+    // Only ever target a letter we can name in the prompt. derive.ts's wordPool
+    // guarantees every letter of a playable word is in `pool`, but we filter
+    // defensively rather than fall back to showing the bare Arabic glyph — that's
+    // exactly the hint this game must not give away.
+    const known = uniq.filter((l) => pool.some((it) => it.arabic === l));
     // eslint-disable-next-line react-hooks/set-state-in-effect -- random target pick must run client-side only; render-time shuffle would mismatch SSR HTML
-    setTarget(shuffled(uniq)[0]);
+    setTarget(shuffled(known)[0] ?? null);
     setFound(false);
     setShake(null);
-  }, [round, words]);
+  }, [round, words, pool]);
 
   if (!target) return <p className="text-white/50">Picking a letter…</p>;
   const letters = baseLetters(word.arabic);
@@ -28,8 +33,8 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
   return (
     <div className="text-center">
       <p className="mb-4 text-white/80">
-        Tap the letter <span className="font-semibold">{targetItem?.name ?? target}</span>{" "}
-        <span className="arabic text-3xl">({target})</span> in this word:
+        Tap the letter <span className="font-semibold">{targetItem?.name}</span>
+        {targetItem?.translit ? ` (${targetItem.translit})` : ""} in this word:
       </p>
       <div dir="rtl" className="flex flex-wrap justify-center gap-1">
         {glyphs.map((g, i) => {
@@ -55,6 +60,9 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
       </div>
       {found && (
         <div className="mt-4">
+          <p className="text-green-300">
+            <span className="arabic text-3xl">{target}</span> — {targetItem?.name}
+          </p>
           <p className="text-green-300">✓ Found it! {word.translit} — {word.meaning}</p>
           <button type="button" className="cta-primary mt-2 rounded-full px-4 py-2" onClick={() => setRound((r) => r + 1)}>
             Next word →
