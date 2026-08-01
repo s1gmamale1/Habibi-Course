@@ -15,7 +15,7 @@
 - **Video cross-check B — Uzbek reference channel, Muallimi Soniy, flagship compilation video** (link only, standard YouTube license): `https://youtu.be/VhRHKdPcNPA` — VERIFIED OK. This single 4-hour video has a timestamped chapter for nearly every letter (student's own trusted native-language channel); URLs below use the `?t=<seconds>` deep-link pattern computed from the video's own published chapter list (`docs/research/uzbek-channel.md` §1).
 - **Video cross-check C — Uzbek channel per-letter lesson series** ("Arab tilida yozish va o'qish", 35 short lessons): playlist `https://www.youtube.com/playlist?list=PLgrueUfOSy6toR7sz27dmPK2WPBNVLwRi` — VERIFIED OK — offered as an optional "if still struggling, watch the short version" alternative to the 4-hour compilation.
 - **Fonts (drill/qaida text):** Amiri (SIL OFL 1.1, `https://fonts.google.com/specimen/Amiri`) — VERIFIED OK. Never KFGQPC (reserved for actual Quran verse text starting Phase 2/3).
-- **Every Arabic string in this document is either a single letter, a harakat mark, or an invented abstract syllable — never a Quran verse — so none of it falls under the "never hand-type Quran text" rule.** Real Quranic word/verse audio (everyayah.com Husary Muallim, QUL word-by-word) is intentionally **not** used yet; it enters the syllabus starting Phase 2 once real words appear.
+- **Every Arabic string in this document is a single letter, a positional letter-form, a harakat mark, an invented abstract syllable, or an ordinary (non-Quranic) Arabic vocabulary word — never a Quran verse — so none of it falls under the "never hand-type Quran text" rule.** The vocabulary words used for reading practice in lessons 1.7 and 1.9 are everyday MSA nouns (house, mountain, book, moon…), used purely as letter-decoding targets rather than as vocabulary to memorise; 56 of the 64 are re-used verbatim from example words already validated in the Unit 1.1 lesson content, and the 8 newly-authored ones are confined to lesson 1.9's cold-read set. Real Quranic word/verse audio (everyayah.com Husary Muallim, QUL word-by-word) is intentionally **not** used yet; it enters the syllabus starting Phase 2 once Quran text appears.
 - **Teacher listen-for entries are sourced from `docs/research/teaching-mistakes-assessment.md`** (Parts A and B), never from memory, per the spec's explicit requirement.
 
 ---
@@ -298,36 +298,61 @@
 
 ### Lesson 1.7 — Letters change shape: initial / medial / final / isolated forms
 
+> **Revised 2026-08-01 (owner request).** The original version of this lesson taught positional forms for only 8 letters (ب ت ث ن ي ك ل م) and left the other 14 connectors — including every hard shape-shifter — untaught anywhere in the course, while lesson 1.9 then asked for all-28 cluster fluency. This lesson now covers **all 22 connecting letters**, adds explicit cross-family combination drills, and ends with real-word reading. It is deliberately long (23 slides); the schema slide cap was raised from 18 to 24 to accommodate it (`src/content/schema.ts`).
+
 - **Objectives:**
-  1. Student can explain that most Arabic letters take up to 4 different shapes depending on position in a word (isolated / initial / medial / final), while the sound stays the same.
-  2. Student can recognize a letter's initial, medial, and final forms on sight for at least 6 high-frequency letters.
-  3. Student can read a short 2–3 letter connected (unvoweled) cluster by recognizing each component letter regardless of its shape-shifted form.
-- **New content:** The core "joining" concept the whole rest of reading depends on. Focus letters for this lesson: the dotted-body group ب ت ث ن ي (which share a near-identical connecting body and differ mainly by dot count/position — an ideal set for teaching position-shape change since the family is already familiar) plus ك ل م for contrast (letters with more visually distinct positional forms).
+  1. Student can explain that most Arabic letters take up to 4 different shapes depending on position in a word (isolated / initial / medial / final), while the sound never changes.
+  2. Student can recognize the initial, medial and final forms on sight for all 22 connecting letters — including the hard shape-shifters ج ح خ, ع غ and ه, whose forms look like different letters.
+  3. Student can read a 2–3 letter connected cluster that mixes shape-families, naming both component letters and the form each one took.
+  4. Student can read at least 20 real, unvoweled, fully-connecting Arabic words by decoding the letters inside them.
+- **New content:** The core "joining" concept the whole rest of reading depends on, taught across **all 22 connectors** in difficulty order. Easy families first (the dotted-body group ب ت ث ن ي, then ك ل م), then the cases that actually break new readers: the bowl family ج ح خ (largest visual change in the alphabet — initial and isolated barely look related), ع غ (four forms that look like four letters, distinguished only by a dot), ه (the most shape-shifting letter — its four forms share almost nothing), the teeth-and-plate families س ش ص ض, and finally ط ظ ف ق as the "small change" reward set. The 6 non-connectors (ا د ذ ر ز و) are deliberately excluded — that is lesson 1.8's topic, and every word read in this lesson is fully-connecting so no unexplained mid-word gap can appear.
 - **Slide outline:**
   1. Title + recap: full 28-letter shuffle (quick, cumulative confidence check)
   2. Concept: a letter's sound never changes, but many letters' *shape* changes depending on where they sit in a word — isolated, word-initial, word-medial, word-final
   3. Worked example: ب in all 4 positions, side by side, same dot, different body shape
   4. Worked example: ت / ث / ن / ي in all 4 positions — "same body family, only the dots/tails distinguish them, in every position"
   5. Worked example: ك / ل / م in all 4 positions — more visually distinct shape changes, good contrast case
-  6. Guided recognition drill: teacher shows an isolated letter, student says which position-form it's in (isolated/initial/medial/final) for each of the 8 focus letters
-  7. Guided recognition drill #2: teacher shows a 2-letter connected cluster (unvoweled), student identifies both component letters despite the shape change
-  8. Reading drill: read across a small set of 2–3 letter unvoweled clusters built from today's focus letters
-  9. Cumulative check: mix in a few clusters using letters from Unit 1.1 outside today's focus set, to confirm the *concept* (not just today's 8 letters) has landed
-  10. Wrap-up recap
-  11. Homework assignment slide
+  6. Worked example: the bowl family ج ح خ — tail cut away at the start, flattened to a wedge in the middle, full tail restored at the end; dots are the only anchor
+  7. Worked example: ع / غ — the open head above a deep tail, reduced to a head, closed to a triangle, reopened; dot check in every position
+  8. Worked example: ه — one letter, four faces (round loop / tall double loop / squashed medial / round tail)
+  9. Worked example: the teeth and the plates س ش ص ض — end-bowl dropped in initial and medial, carried in isolated and final
+  10. Worked example: ط ظ ف ق — ط ظ barely change at all; ف ق shift like the dotted family, but ـف keeps a flat tail while ـق drops into a deep bowl
+  11. Guided recognition drill: the 8 familiar letters in all 4 positions (32 cells), random order, name letter + sound + position
+  12. Guided recognition drill: the 14 harder connectors in all 4 positions (56 cells), same task
+  13. Guided recognition drill: 2-letter connected clusters, student identifies both component letters despite the shape change
+  14. Combination drill — ج ح خ meet the dotted family: bowl letter leading (initial form) then following (final form), so the same letter is seen in both extremes
+  15. Combination drill — م joins everything: meem initial, meem final, and meem medial inside real words
+  16. Combination drill — ع غ ه inside clusters, ending with medial forms in real words (سهل فهم بعث شعب نعم لعب)
+  17. Reading drill: 2–3 letter unvoweled clusters built from the early focus letters
+  18. Cumulative check: clusters using letters from outside the early focus set, confirming the *concept* has landed
+  19. Reading set A — 13 real unvoweled words, all fully-connecting
+  20. Reading set B — 13 more, weighted toward today's hard shape-shifters
+  21. Wrap-up recap — the medial forms that change the most
+  22. Homework assignment slide
 - **Drills:**
-  - Position-form flashcards: each of ب ت ث ن ي ك ل م shown in isolated / initial / medial / final form (4 cards × 8 letters = 32 cards), student names the letter + states its position.
+  - Position-form flashcards, familiar set: each of ب ت ث ن ي ك ل م in isolated / initial / medial / final form (32 cards), student names the letter + states its position.
+  - Position-form flashcards, hard set: each of ج ح خ س ش ص ض ط ظ ع غ ف ق ه in all 4 positions (56 cards). Same task. This is the daily-repetition sheet — the medial forms need to become instant.
   - Cluster-reading drill (unvoweled, 2-letter): بت — تب — كل — لك — من — نم — بن — يب (student reads each, naming the two component letters and identifying which form each took).
   - Cluster-reading drill (unvoweled, 3-letter): كتب — بنت — لمن — تكن (again, decoding practice — these are not meant as vocabulary to translate, purely shape-recognition-in-context practice).
-- **Audio:** Confirmed gap for isolated-letter audio (Resource key); not applicable here in a new way since this lesson is about *shape*, not new sounds — primary is still live teacher voice reading the clusters aloud, modeling the joined pronunciation.
+  - **Combination drill — ج ح خ with the dotted family (27 cells):** bowl-initial rows جب جت جث جن جي / حب حت حث حن حي / خب خت خث خن خي, then bowl-final rows بج تج نج يج / بح تح نح يح / بخ تخ نخ يخ. The reversed rows are the point — same letter, opposite extreme of its shape range. Do not skip them.
+  - **Combination drill — م in every position (22 cells):** meem-initial مب مت من مك مل مس مح مج; meem-final بم تم نم كم لم سم حم جم; meem-medial inside real words لمن سمح حمل جمل قمح نمل.
+  - **Combination drill — ع غ ه in clusters (36 cells):** initial row عب عت عن عل عم غب غت غن غل غم; final row بع تع نع لع مع بغ تغ نغ لغ مغ; ه both ends هب هت هن هل هم به ته نه له مه; medial forms inside real words سهل فهم بعث شعب نعم لعب.
+  - **Reading set A (13 real unvoweled words):** بيت — جبل — قلب — ثعلب — مثل — ثلث — جمل — خليج — فتح — طبخ — سمك — شمس — قميص.
+  - **Reading set B (13 real unvoweled words):** غضب — بعض — حطب — خط — ظل — حفظ — عين — غيم — فيل — ضعف — قلم — بنت — لبن.
+  - **Word-selection rule for both reading sets (load-bearing):** every word is built *only* from connecting letters — none of ا د ذ ر ز و, and no ء or ة — so the student meets no mid-word break they have not been taught to explain. All 26 are re-used verbatim from example words already validated in the Unit 1.1 lesson content (`content/lessons/1-01.json` … `1-06.json`), with the harakat stripped since vowels are not taught until lesson 1.10.
+- **Audio:** Confirmed gap for isolated-letter audio (Resource key); not applicable here in a new way since this lesson is about *shape*, not new sounds — primary is still live teacher voice reading the clusters and words aloud, modeling the joined pronunciation.
 - **Video:**
   - Arabic101 — "How to READ ARABIC?" lesson series (general reading-mechanics orientation, useful cross-check for this exact topic): `https://www.youtube.com/watch?v=c-7SVieC_04`, `https://www.youtube.com/watch?v=1AT7IMLcA58`, `https://www.youtube.com/watch?v=8pfQg26vfaA`, `https://www.youtube.com/watch?v=LTwCmA6AjdI`
   - Uzbek channel per-letter series (as a "read along" reference for connected forms): `https://www.youtube.com/playlist?list=PLgrueUfOSy6toR7sz27dmPK2WPBNVLwRi`
 - **Teacher listen-for:**
-  - Student mentally reverting to isolated-letter shapes and stalling/mis-reading when a letter appears in medial form — common early confusion, expect and coach through it rather than treating it as a "mistake" per se.
+  - Student mentally reverting to isolated-letter shapes and stalling/mis-reading when a letter appears in medial form — common early confusion, expect and coach through it rather than treating it as a "mistake" per se. Expect it most on ـهـ, ـعـ and ـجـ.
+  - ه medial (ـهـ) misread as ب or م — the squashed medial form is the single most confusable glyph in the alphabet at this stage.
+  - ع and غ initial forms (عـ غـ) read as each other, or ج ح خ guessed at, because the student is reading the body and never checking the dot once the tail is gone.
   - Student reading left-to-right out of habit (if their other literacy, Cyrillic/Latin Uzbek, is LTR) — watch for direction slips, especially on the very first cluster of the lesson.
   - Sounds regressing on letters that were solid in isolation (e.g., ث or ح appearing in a cluster) — confirms whether errors from Unit 1.1 were truly fixed or were "isolation-only" fixes that don't yet transfer to reading context.
-- **Homework (15–20 min/day):** Printed take-home sheet with the 32 position-form flashcards (recognition only, no writing). Daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson, aloud, 3× through. Student marks (checkbox, not writing letters) any cluster they hesitated on for teacher follow-up.
+  - Heaviness (tafkheem) on ص ض ط ظ dropping away inside a word even when it was correct on the flashcard.
+- **Homework (15–20 min/day):** Printed take-home sheet with both position-form flashcard sets (32 familiar + 56 hard). Daily re-reading of Reading sets A and B (26 words) aloud 2× through, and the three combination drills 3× through. Student marks (checkbox) any word or cluster they hesitated on for teacher follow-up.
+  - ⚠️ **Open contradiction, owner decision needed:** this phase's scope discipline states "no writing/handwriting requirement anywhere in Phase 1", but the shipped `dailyChecklist` in **all 12 lesson content files** includes a "write 4 rows each in your notebook" task. The content has been left as-is (writing retained, consistent across the phase) rather than silently changed. Either the scope rule needs updating or the 12 checklists do.
 
 ---
 
@@ -368,34 +393,48 @@
 
 ### Lesson 1.9 — Reading connected clusters — full joining review
 
+> **Revised 2026-08-01 (owner request).** The original drill sets here were **alphabet-order triples** (بتث — جحخ — دذر — زسش — صضط — ظعغ — فقك). Those are the letters recited in sequence, not reading: they carry no shape variety, no word shape, and can be answered from alphabet memory rather than decoding. All guided sets are now cross-family, and the consolidation material is real unvoweled words. The lesson keeps its consolidation / cold-read / pacing role unchanged.
+
 - **Objectives:**
   1. Student can read any 2–3 letter unvoweled cluster built from any combination of the 28 letters, correctly identifying each component letter regardless of its positional shape.
   2. Student demonstrates the non-connector rule applying correctly and automatically, without needing the rule restated.
-  3. Student's cluster-reading pace has visibly increased from lesson 1.7's baseline (informal, non-graded pacing check only).
-- **New content:** No new letters or rules — this is the Unit 1.2 consolidation and checkpoint-prep lesson, mirroring the qaida tradition's own "Ch.2 murakkabaat" consolidation step.
+  3. Student can read at least 30 real unvoweled Arabic words containing non-connectors, predicting each mid-word break before reading it.
+  4. Student's cluster-reading pace has visibly increased from lesson 1.7's baseline (informal, non-graded pacing check only).
+- **New content:** No new letters or rules — this is the Unit 1.2 consolidation and checkpoint-prep lesson, mirroring the qaida tradition's own "Ch.2 murakkabaat" consolidation step. What *is* new is scale: this is the first lesson where the student reads at real-word length, and the first where words break mid-way (lesson 1.7's reading sets were deliberately all-connector).
 - **Slide outline:**
   1. Title + full 28-letter shuffle (cumulative confidence check)
   2. Recap: the 4 positional forms + the 6 non-connector letters, stated together as "everything you need to read any cluster"
-  3. Guided reading set 1: clusters drawn from shape-families taught early (ب ت ث / ج ح خ heavy letters)
-  4. Guided reading set 2: clusters drawn from later shape-families (ص ض ط ظ / ع غ ف ق)
-  5. Guided reading set 3: clusters mixing non-connectors from lesson 1.8 throughout
-  6. Independent reading round: student reads a fresh set of clusters not seen before, teacher observes without prompting unless truly stuck
-  7. Error-log review: teacher and student look together at which letters/clusters caused hesitation this lesson
-  8. Pacing check: informal timing of a 10-cluster set, compared lightly against lesson 1.7's pace (encouragement framing, not a graded metric)
-  9. Preview slide: "next unit — we add vowels, and these same letters start to really come alive"
-  10. Wrap-up recap
-  11. Homework assignment slide
+  3. Guided reading set 1: cross-family 2-letter clusters — an early-taught letter beside a late-taught one, so nothing can be guessed from alphabet order
+  4. Guided reading set 2: cross-family 3-letter clusters — three different families per cluster, pure decoding practice
+  5. Guided reading set 3: clusters mixing non-connectors from lesson 1.8 throughout, prediction-first
+  6. Reading set A: 15 real unvoweled words containing non-connectors
+  7. Reading set B: 15 more
+  8. Independent reading round: 8 genuinely unseen words, teacher observes without prompting unless truly stuck
+  9. Error-log review: teacher and student look together at which letters/words caused hesitation this lesson
+  10. Pacing check: informal timing of a 12-word set, compared lightly against lesson 1.7's pace (encouragement framing, not a graded metric)
+  11. Preview slide: "next unit — we add vowels, and these same letters start to really come alive"
+  12. Wrap-up recap — today's cold-read words
+  13. Homework assignment slide
 - **Drills:**
-  - Full mixed cluster set (unvoweled, 12 items spanning all shape-families and including non-connectors): بتث — جحخ — دذر — زسش — صضط — ظعغ — فقك — لمنه — وي — كتب — درس — قلم (again, decoding practice, not vocabulary — any resemblance to real short words is incidental and fine).
-  - "Cold read" set: 5 brand-new clusters the student has not seen before this lesson, used purely as a fluency/transfer check.
-  - Error-log worksheet: printed grid where the teacher checks off any letter or cluster type (positional confusion vs. non-connector confusion vs. sound-only confusion) that caused a stumble, to feed the Checkpoint 1 rubric.
+  - **Guided set 1 — cross-family 2-letter (12 cells):** حب — سج — طم — قش — ظف — عك — خل — صت — غن — ضي — هم — فث.
+  - **Guided set 2 — cross-family 3-letter (8 cells):** حسك — شطب — قعم — ظنج — غتف — صهل — ضبك — خمث. Not words; decoding practice, built so every letter sits in a position that must be identified rather than recognised.
+  - **Guided set 3 — non-connectors mixed (10 cells):** درس — ردا — وزن — ذرا — ازد — كتاد — قدر — بدر — زور — دهر. Prediction-first: student says where the joining breaks *before* reading.
+  - **Reading set A (15 real unvoweled words with non-connectors):** اسم — باب — تمر — كتاب — مسجد — حصان — بحر — خبز — بخار — دم — يد — ذهب — تلميذ — رجل — زيت.
+  - **Reading set B (15 more):** بشر — ريش — صباح — طريق — نظر — دفع — بالغ — سفر — قمر — نور — هلال — شهر — وجه — دلو — كرسي.
+  - All 30 are re-used verbatim from example words already validated in the Unit 1.1 lesson content, harakat stripped. They pair with lesson 1.7's 26 all-connector words for **56 real words read across Unit 1.2**.
+  - **"Cold read" set (8 words):** نجم — ملح — لحم — صحن — كهف — قفل — سطح — شمع. These are the only newly-authored Arabic in Unit 1.2 — ordinary MSA vocabulary, all connectors, deliberately absent from every prior lesson, drill and homework sheet so the transfer check is genuine.
+  - **Pacing set (12 words, all previously read):** اسم — باب — كتاب — مسجد — بحر — رجل — قمر — شهر — وجه — نجم — ملح — صحن.
+  - Error-log worksheet: printed grid where the teacher checks off any letter or word type (positional confusion vs. non-connector confusion vs. sound-only confusion) that caused a stumble, to feed the Checkpoint 1 rubric.
 - **Audio:** Confirmed gap (Resource key); teacher voice models all cluster reading.
 - **Video:** No new video links needed this lesson — this is a consolidation lesson; re-use any Unit 1.2 links above if a specific letter needs a refresher.
 - **Teacher listen-for:**
-  - Any letter from the "high-risk six" (ح, ض, ع, ق, ذ/ز pattern, ص) resurfacing as an error once embedded inside a cluster rather than read in isolation — flag explicitly, this is the most diagnostic moment before Checkpoint 1.
+  - Any letter from the "high-risk six" (ح, ض, ع, ق, ذ/ز pattern, ص) resurfacing as an error once embedded inside a real word rather than read in isolation — flag explicitly, this is the most diagnostic moment before Checkpoint 1.
   - Hesitation specifically on non-connector transitions — confirms whether lesson 1.8's rule has become automatic or still needs conscious recall.
-  - Reading pace: increasing hesitation as cluster length grows from 2 to 3 letters may indicate the student is still sounding out letter-by-letter rather than starting to chunk — normal at this stage, just note it for Phase 2 planning.
-- **Homework (15–20 min/day):** Daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally. Student keeps their own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10.
+  - Medial ـهـ and ـعـ misread inside real words even though the flashcard forms were correct in lesson 1.7.
+  - Student splitting a single word into two at a non-connector gap (reading بخار or تلميذ as two separate words).
+  - Reading pace: increasing hesitation as words grow from 3 to 4–5 letters may indicate the student is still sounding out letter-by-letter rather than starting to chunk — normal at this stage, just note it for Phase 2 planning.
+  - Pace on the cold-read set versus the rehearsed sets — a large gap means recognition is memorised rather than decoded, which Checkpoint 1's unseen-material step will expose.
+- **Homework (15–20 min/day):** Daily re-reading of Reading sets A and B (30 words) aloud 2× through with break-prediction, the 8 cold-read words until instant, and one self-timed run of the 12-word pacing set. Student keeps their own simple tally of which words felt hardest, to discuss at the start of lesson 1.10.
 
 ---
 
