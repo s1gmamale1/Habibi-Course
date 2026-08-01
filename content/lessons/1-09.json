@@ -6,6 +6,7 @@
   "objectives": [
     "Student can read any 2–3 letter unvoweled cluster built from any combination of the 28 letters, correctly identifying each component letter regardless of its positional shape.",
     "Student demonstrates the non-connector rule applying correctly and automatically, without needing the rule restated.",
+    "Student can read at least 30 real unvoweled Arabic words containing non-connectors, predicting each mid-word break before reading it.",
     "Student's cluster-reading pace has visibly increased from lesson 1.7's baseline (informal, non-graded pacing check only)."
   ],
   "slides": [
@@ -325,24 +326,106 @@
     },
     {
       "kind": "drill",
-      "heading": "Guided reading set 1 — early shape-families (ب ت ث / ج ح خ)",
-      "instructions": "Read each cluster aloud, naming every component letter regardless of its positional shape.",
+      "heading": "Guided reading set 1 — cross-family 2-letter clusters",
+      "instructions": "These deliberately mix distant shape-families — an early letter beside a late one — so no cluster can be guessed from alphabet order. Read right to left, name both letters and the form each took.",
       "grid": [
         [
           {
-            "arabic": "بتث",
-            "name": "ba + ta + tha",
+            "arabic": "حب",
+            "name": "haa + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
+              "cue": "Read حب aloud, letter by letter: haa + ba — then blend them smoothly."
             }
           },
           {
-            "arabic": "جحخ",
-            "name": "jeem + haa + kha",
+            "arabic": "سج",
+            "name": "seen + jeem",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
+              "cue": "Read سج aloud, letter by letter: seen + jeem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "طم",
+            "name": "taa + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طم aloud, letter by letter: taa + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "قش",
+            "name": "qaaf + sheen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قش aloud, letter by letter: qaaf + sheen — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ظف",
+            "name": "dhaa + fa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظف aloud, letter by letter: dhaa + fa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "عك",
+            "name": "ayn + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عك aloud, letter by letter: ayn + kaaf — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "خل",
+            "name": "kha + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خل aloud, letter by letter: kha + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "صت",
+            "name": "saad + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صت aloud, letter by letter: saad + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "غن",
+            "name": "ghayn + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غن aloud, letter by letter: ghayn + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ضي",
+            "name": "daad + ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضي aloud, letter by letter: daad + ya — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "هم",
+            "name": "ha + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read هم aloud, letter by letter: ha + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "فث",
+            "name": "fa + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فث aloud, letter by letter: fa + tha — then blend them smoothly."
             }
           }
         ]
@@ -350,32 +433,74 @@
     },
     {
       "kind": "drill",
-      "heading": "Guided reading set 2 — later shape-families (ص ض ط ظ / ع غ ف ق)",
-      "instructions": "Read each cluster aloud, naming every component letter regardless of its positional shape.",
+      "heading": "Guided reading set 2 — cross-family 3-letter clusters",
+      "instructions": "Three letters, three different families each time. These are not words — they are decoding practice, built so that every letter sits in a position you have to identify rather than recognize.",
       "grid": [
         [
           {
-            "arabic": "صضط",
-            "name": "saad + daad + taa",
+            "arabic": "حسك",
+            "name": "haa + seen + kaaf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
+              "cue": "Read حسك aloud, letter by letter: haa + seen + kaaf — then blend them smoothly."
             }
           },
           {
-            "arabic": "ظعغ",
-            "name": "dhaa + ayn + ghayn",
+            "arabic": "شطب",
+            "name": "sheen + taa + ba",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
+              "cue": "Read شطب aloud, letter by letter: sheen + taa + ba — then blend them smoothly."
             }
           },
           {
-            "arabic": "فقك",
-            "name": "fa + qaaf + kaaf",
+            "arabic": "قعم",
+            "name": "qaaf + ayn + meem",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
+              "cue": "Read قعم aloud, letter by letter: qaaf + ayn + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ظنج",
+            "name": "dhaa + nun + jeem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظنج aloud, letter by letter: dhaa + nun + jeem — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "غتف",
+            "name": "ghayn + ta + fa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غتف aloud, letter by letter: ghayn + ta + fa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "صهل",
+            "name": "saad + ha + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صهل aloud, letter by letter: saad + ha + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ضبك",
+            "name": "daad + ba + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضبك aloud, letter by letter: daad + ba + kaaf — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "خمث",
+            "name": "kha + meem + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خمث aloud, letter by letter: kha + meem + tha — then blend them smoothly."
             }
           }
         ]
@@ -384,39 +509,381 @@
     {
       "kind": "drill",
       "heading": "Guided reading set 3 — non-connectors mixed throughout",
-      "instructions": "Read each cluster aloud. Each cluster contains at least one non-connector from lesson 1.8, in a different position (first, middle, last) each time.",
+      "instructions": "Every cluster here contains at least one of the 6 non-connectors (ا د ذ ر ز و) from lesson 1.8. Before reading, predict where the joining will break — then read and confirm.",
       "grid": [
         [
-          {
-            "arabic": "دذر",
-            "name": "dal + dhal + ra",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
-            }
-          },
-          {
-            "arabic": "زسش",
-            "name": "zay + seen + sheen",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
-            }
-          },
-          {
-            "arabic": "وي",
-            "name": "waw + ya",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
-            }
-          },
           {
             "arabic": "درس",
             "name": "dal + ra + seen",
             "audio": {
               "type": "teacher-voice",
               "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ردا",
+            "name": "ra + dal + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ردا aloud, letter by letter: ra + dal + alif — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "وزن",
+            "name": "waw + zay + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read وزن aloud, letter by letter: waw + zay + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ذرا",
+            "name": "dhal + ra + alif",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ذرا aloud, letter by letter: dhal + ra + alif — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ازد",
+            "name": "alif + zay + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ازد aloud, letter by letter: alif + zay + dal — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "كتاد",
+            "name": "kaaf + ta + alif + dal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read كتاد aloud, letter by letter: kaaf + ta + alif + dal — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قدر",
+            "name": "qaaf + dal + ra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قدر aloud, letter by letter: qaaf + dal + ra — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "بدر",
+            "name": "ba + dal + ra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بدر aloud, letter by letter: ba + dal + ra — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "زور",
+            "name": "zay + waw + ra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read زور aloud, letter by letter: zay + waw + ra — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "دهر",
+            "name": "dal + ha + ra",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read دهر aloud, letter by letter: dal + ha + ra — then blend them smoothly."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Reading set A — 15 real words with non-connectors",
+      "instructions": "Real, unvoweled Arabic words. Unlike lesson 1.7's sets, these contain non-connectors, so the joining breaks mid-word — exactly the case rule 2 covers. For each word: spot the non-connector, predict the break, then read right to left.",
+      "grid": [
+        [
+          {
+            "arabic": "اسم",
+            "name": "ism — name",
+            "translit": "ism",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read اسم right to left, letter by letter (alif + seen + meem), then blend: ism — “name”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "باب",
+            "name": "bāb — door",
+            "translit": "bāb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read باب right to left, letter by letter (ba + alif + ba), then blend: bāb — “door”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "تمر",
+            "name": "tamr — dates",
+            "translit": "tamr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تمر right to left, letter by letter (ta + meem + ra), then blend: tamr — “dates”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "كتاب",
+            "name": "kitāb — book",
+            "translit": "kitāb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read كتاب right to left, letter by letter (kaaf + ta + alif + ba), then blend: kitāb — “book”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "مسجد",
+            "name": "masjid — mosque",
+            "translit": "masjid",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مسجد right to left, letter by letter (meem + seen + jeem + dal), then blend: masjid — “mosque”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "حصان",
+            "name": "ḥiṣān — horse",
+            "translit": "ḥiṣān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حصان right to left, letter by letter (haa + saad + alif + nun), then blend: ḥiṣān — “horse”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "بحر",
+            "name": "baḥr — sea",
+            "translit": "baḥr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بحر right to left, letter by letter (ba + haa + ra), then blend: baḥr — “sea”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "خبز",
+            "name": "khubz — bread",
+            "translit": "khubz",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خبز right to left, letter by letter (kha + ba + zay), then blend: khubz — “bread”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بخار",
+            "name": "bukhār — steam",
+            "translit": "bukhār",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بخار right to left, letter by letter (ba + kha + alif + ra), then blend: bukhār — “steam”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "دم",
+            "name": "dam — blood",
+            "translit": "dam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read دم right to left, letter by letter (dal + meem), then blend: dam — “blood”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "يد",
+            "name": "yad — hand",
+            "translit": "yad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read يد right to left, letter by letter (ya + dal), then blend: yad — “hand”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "ذهب",
+            "name": "dhahab — gold",
+            "translit": "dhahab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ذهب right to left, letter by letter (dhal + ha + ba), then blend: dhahab — “gold”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "تلميذ",
+            "name": "tilmīdh — student",
+            "translit": "tilmīdh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تلميذ right to left, letter by letter (ta + lam + meem + ya + dhal), then blend: tilmīdh — “student”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "رجل",
+            "name": "rajul — man",
+            "translit": "rajul",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read رجل right to left, letter by letter (ra + jeem + lam), then blend: rajul — “man”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "زيت",
+            "name": "zayt — oil",
+            "translit": "zayt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read زيت right to left, letter by letter (zay + ya + ta), then blend: zayt — “oil”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Reading set B — 15 more real words with non-connectors",
+      "instructions": "Same task. Some of these break twice. Read right to left, naming each letter and its form before blending.",
+      "grid": [
+        [
+          {
+            "arabic": "بشر",
+            "name": "bashar — mankind",
+            "translit": "bashar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بشر right to left, letter by letter (ba + sheen + ra), then blend: bashar — “mankind”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "ريش",
+            "name": "rīsh — feather",
+            "translit": "rīsh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ريش right to left, letter by letter (ra + ya + sheen), then blend: rīsh — “feather”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "صباح",
+            "name": "ṣabāḥ — morning",
+            "translit": "ṣabāḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صباح right to left, letter by letter (saad + ba + alif + haa), then blend: ṣabāḥ — “morning”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "طريق",
+            "name": "ṭarīq — road",
+            "translit": "ṭarīq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طريق right to left, letter by letter (taa + ra + ya + qaaf), then blend: ṭarīq — “road”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "نظر",
+            "name": "naẓar — view, gaze",
+            "translit": "naẓar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نظر right to left, letter by letter (nun + dhaa + ra), then blend: naẓar — “view, gaze”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "دفع",
+            "name": "dafʿ — payment",
+            "translit": "dafʿ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read دفع right to left, letter by letter (dal + fa + ayn), then blend: dafʿ — “payment”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "بالغ",
+            "name": "bāligh — adult",
+            "translit": "bāligh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بالغ right to left, letter by letter (ba + alif + lam + ghayn), then blend: bāligh — “adult”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "سفر",
+            "name": "safar — travel",
+            "translit": "safar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سفر right to left, letter by letter (seen + fa + ra), then blend: safar — “travel”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قمر",
+            "name": "qamar — moon",
+            "translit": "qamar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قمر right to left, letter by letter (qaaf + meem + ra), then blend: qamar — “moon”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "نور",
+            "name": "nūr — light, radiance",
+            "translit": "nūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نور right to left, letter by letter (nun + waw + ra), then blend: nūr — “light, radiance”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "هلال",
+            "name": "hilāl — crescent moon",
+            "translit": "hilāl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read هلال right to left, letter by letter (ha + lam + alif + lam), then blend: hilāl — “crescent moon”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "شهر",
+            "name": "shahr — month",
+            "translit": "shahr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read شهر right to left, letter by letter (sheen + ha + ra), then blend: shahr — “month”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "وجه",
+            "name": "wajh — face",
+            "translit": "wajh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read وجه right to left, letter by letter (waw + jeem + ha), then blend: wajh — “face”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "دلو",
+            "name": "dalw — bucket",
+            "translit": "dalw",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read دلو right to left, letter by letter (dal + lam + waw), then blend: dalw — “bucket”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "كرسي",
+            "name": "kursiyy — chair",
+            "translit": "kursiyy",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read كرسي right to left, letter by letter (kaaf + ra + seen + ya), then blend: kursiyy — “chair”. No vowel marks yet: name each letter and the shape it took."
             }
           }
         ]
@@ -425,47 +892,81 @@
     {
       "kind": "drill",
       "heading": "Independent reading round — cold read",
-      "instructions": "Read these 5 brand-new clusters aloud on your own — you have not seen them before this lesson, so just do your best without help unless you're truly stuck.",
+      "instructions": "Eight words the student has not seen in any previous lesson, drill or homework sheet. All connectors, no breaks. Teacher does not prompt unless the student is genuinely stuck — this is the transfer check that predicts Checkpoint 1 performance.",
       "grid": [
         [
           {
-            "arabic": "تسك",
-            "name": "ta + seen + kaaf",
+            "arabic": "نجم",
+            "name": "najm — star",
+            "translit": "najm",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read تسك aloud, letter by letter: ta + seen + kaaf — then blend them smoothly."
+              "cue": "Read نجم right to left, letter by letter (nun + jeem + meem), then blend: najm — “star”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "حبل",
-            "name": "haa + ba + lam",
+            "arabic": "ملح",
+            "name": "milḥ — salt",
+            "translit": "milḥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read حبل aloud, letter by letter: haa + ba + lam — then blend them smoothly."
+              "cue": "Read ملح right to left, letter by letter (meem + lam + haa), then blend: milḥ — “salt”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "زفق",
-            "name": "zay + fa + qaaf",
+            "arabic": "لحم",
+            "name": "laḥm — meat",
+            "translit": "laḥm",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read زفق aloud, letter by letter: zay + fa + qaaf — then blend them smoothly."
+              "cue": "Read لحم right to left, letter by letter (lam + haa + meem), then blend: laḥm — “meat”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "طنم",
-            "name": "taa + nun + meem",
+            "arabic": "صحن",
+            "name": "ṣaḥn — dish, plate",
+            "translit": "ṣaḥn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read طنم aloud, letter by letter: taa + nun + meem — then blend them smoothly."
+              "cue": "Read صحن right to left, letter by letter (saad + haa + nun), then blend: ṣaḥn — “dish, plate”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كهف",
+            "name": "kahf — cave",
+            "translit": "kahf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read كهف right to left, letter by letter (kaaf + ha + fa), then blend: kahf — “cave”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "ثري",
-            "name": "tha + ra + ya",
+            "arabic": "قفل",
+            "name": "qufl — lock",
+            "translit": "qufl",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read ثري aloud, letter by letter: tha + ra + ya — then blend them smoothly."
+              "cue": "Read قفل right to left, letter by letter (qaaf + fa + lam), then blend: qufl — “lock”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "سطح",
+            "name": "saṭḥ — surface, roof",
+            "translit": "saṭḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سطح right to left, letter by letter (seen + taa + haa), then blend: saṭḥ — “surface, roof”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "شمع",
+            "name": "shamʿ — wax, candles",
+            "translit": "shamʿ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read شمع right to left, letter by letter (sheen + meem + ayn), then blend: shamʿ — “wax, candles”. No vowel marks yet: name each letter and the shape it took."
             }
           }
         ]
@@ -482,104 +983,118 @@
     },
     {
       "kind": "drill",
-      "heading": "Pacing check — timed cluster set",
-      "instructions": "Read this cluster set aloud. Your pace will be timed informally and compared lightly against lesson 1.7 — just for encouragement, not a grade.",
+      "heading": "Pacing check — timed 12-word set",
+      "instructions": "Informal timing only, compared lightly against the student's lesson 1.7 pace. Encouragement framing, never a graded metric. Mixed connectors and non-connectors, all previously read.",
       "grid": [
         [
           {
-            "arabic": "بتث",
-            "name": "ba + ta + tha",
+            "arabic": "اسم",
+            "name": "ism — name",
+            "translit": "ism",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
+              "cue": "Read اسم right to left, letter by letter (alif + seen + meem), then blend: ism — “name”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "جحخ",
-            "name": "jeem + haa + kha",
+            "arabic": "باب",
+            "name": "bāb — door",
+            "translit": "bāb",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
+              "cue": "Read باب right to left, letter by letter (ba + alif + ba), then blend: bāb — “door”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "دذر",
-            "name": "dal + dhal + ra",
+            "arabic": "كتاب",
+            "name": "kitāb — book",
+            "translit": "kitāb",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
+              "cue": "Read كتاب right to left, letter by letter (kaaf + ta + alif + ba), then blend: kitāb — “book”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "زسش",
-            "name": "zay + seen + sheen",
+            "arabic": "مسجد",
+            "name": "masjid — mosque",
+            "translit": "masjid",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
+              "cue": "Read مسجد right to left, letter by letter (meem + seen + jeem + dal), then blend: masjid — “mosque”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "صضط",
-            "name": "saad + daad + taa",
+            "arabic": "بحر",
+            "name": "baḥr — sea",
+            "translit": "baḥr",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
+              "cue": "Read بحر right to left, letter by letter (ba + haa + ra), then blend: baḥr — “sea”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "ظعغ",
-            "name": "dhaa + ayn + ghayn",
+            "arabic": "رجل",
+            "name": "rajul — man",
+            "translit": "rajul",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
+              "cue": "Read رجل right to left, letter by letter (ra + jeem + lam), then blend: rajul — “man”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قمر",
+            "name": "qamar — moon",
+            "translit": "qamar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قمر right to left, letter by letter (qaaf + meem + ra), then blend: qamar — “moon”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "فقك",
-            "name": "fa + qaaf + kaaf",
+            "arabic": "شهر",
+            "name": "shahr — month",
+            "translit": "shahr",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
+              "cue": "Read شهر right to left, letter by letter (sheen + ha + ra), then blend: shahr — “month”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "لمنه",
-            "name": "lam + meem + nun + ha",
+            "arabic": "وجه",
+            "name": "wajh — face",
+            "translit": "wajh",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
+              "cue": "Read وجه right to left, letter by letter (waw + jeem + ha), then blend: wajh — “face”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "وي",
-            "name": "waw + ya",
+            "arabic": "نجم",
+            "name": "najm — star",
+            "translit": "najm",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
+              "cue": "Read نجم right to left, letter by letter (nun + jeem + meem), then blend: najm — “star”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "كتب",
-            "name": "kaaf + ta + ba",
+            "arabic": "ملح",
+            "name": "milḥ — salt",
+            "translit": "milḥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
+              "cue": "Read ملح right to left, letter by letter (meem + lam + haa), then blend: milḥ — “salt”. No vowel marks yet: name each letter and the shape it took."
             }
           },
           {
-            "arabic": "درس",
-            "name": "dal + ra + seen",
+            "arabic": "صحن",
+            "name": "ṣaḥn — dish, plate",
+            "translit": "ṣaḥn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
-            }
-          },
-          {
-            "arabic": "قلم",
-            "name": "qaaf + lam + meem",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
+              "cue": "Read صحن right to left, letter by letter (saad + haa + nun), then blend: ṣaḥn — “dish, plate”. No vowel marks yet: name each letter and the shape it took."
             }
           }
         ]
@@ -594,102 +1109,78 @@
     },
     {
       "kind": "recap",
-      "heading": "Wrap-up — today's full mixed cluster set",
+      "heading": "Wrap-up — today's cold-read words",
       "items": [
         {
-          "arabic": "بتث",
-          "name": "ba + ta + tha",
+          "arabic": "نجم",
+          "name": "najm — star",
+          "translit": "najm",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
+            "cue": "Read نجم right to left, letter by letter (nun + jeem + meem), then blend: najm — “star”. No vowel marks yet: name each letter and the shape it took."
           }
         },
         {
-          "arabic": "جحخ",
-          "name": "jeem + haa + kha",
+          "arabic": "ملح",
+          "name": "milḥ — salt",
+          "translit": "milḥ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
+            "cue": "Read ملح right to left, letter by letter (meem + lam + haa), then blend: milḥ — “salt”. No vowel marks yet: name each letter and the shape it took."
           }
         },
         {
-          "arabic": "دذر",
-          "name": "dal + dhal + ra",
+          "arabic": "لحم",
+          "name": "laḥm — meat",
+          "translit": "laḥm",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
+            "cue": "Read لحم right to left, letter by letter (lam + haa + meem), then blend: laḥm — “meat”. No vowel marks yet: name each letter and the shape it took."
           }
         },
         {
-          "arabic": "زسش",
-          "name": "zay + seen + sheen",
+          "arabic": "صحن",
+          "name": "ṣaḥn — dish, plate",
+          "translit": "ṣaḥn",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
+            "cue": "Read صحن right to left, letter by letter (saad + haa + nun), then blend: ṣaḥn — “dish, plate”. No vowel marks yet: name each letter and the shape it took."
           }
         },
         {
-          "arabic": "صضط",
-          "name": "saad + daad + taa",
+          "arabic": "كهف",
+          "name": "kahf — cave",
+          "translit": "kahf",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
+            "cue": "Read كهف right to left, letter by letter (kaaf + ha + fa), then blend: kahf — “cave”. No vowel marks yet: name each letter and the shape it took."
           }
         },
         {
-          "arabic": "ظعغ",
-          "name": "dhaa + ayn + ghayn",
+          "arabic": "قفل",
+          "name": "qufl — lock",
+          "translit": "qufl",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
+            "cue": "Read قفل right to left, letter by letter (qaaf + fa + lam), then blend: qufl — “lock”. No vowel marks yet: name each letter and the shape it took."
           }
         },
         {
-          "arabic": "فقك",
-          "name": "fa + qaaf + kaaf",
+          "arabic": "سطح",
+          "name": "saṭḥ — surface, roof",
+          "translit": "saṭḥ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
+            "cue": "Read سطح right to left, letter by letter (seen + taa + haa), then blend: saṭḥ — “surface, roof”. No vowel marks yet: name each letter and the shape it took."
           }
         },
         {
-          "arabic": "لمنه",
-          "name": "lam + meem + nun + ha",
+          "arabic": "شمع",
+          "name": "shamʿ — wax, candles",
+          "translit": "shamʿ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
-          }
-        },
-        {
-          "arabic": "وي",
-          "name": "waw + ya",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
-          }
-        },
-        {
-          "arabic": "كتب",
-          "name": "kaaf + ta + ba",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
-          }
-        },
-        {
-          "arabic": "درس",
-          "name": "dal + ra + seen",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
-          }
-        },
-        {
-          "arabic": "قلم",
-          "name": "qaaf + lam + meem",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
+            "cue": "Read شمع right to left, letter by letter (sheen + meem + ayn), then blend: shamʿ — “wax, candles”. No vowel marks yet: name each letter and the shape it took."
           }
         }
       ]
@@ -698,99 +1189,201 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
-        "In your notebook, write out the positional forms (isolated, initial, medial, final — three forms only for the six non-connectors ا د ذ ر ز و) of any letters that gave you trouble today, 4 full rows each, saying each form's position aloud as you write, then review by reading them back",
-        "Daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally",
-        "Keep your own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10"
+        "Re-read Reading sets A and B aloud (30 words), 2× through, predicting each non-connector break before you read it.",
+        "Re-read the 8 cold-read words daily until they are instant — these are the ones with no break at all.",
+        "Self-time the 12-word pacing set once a day and keep your own tally of which words felt hardest.",
+        "Write the positional forms of 2–3 tricky letters from today, 4 rows each in your notebook, saying the name and sound aloud as you write.",
+        "Bring your hardest-words tally to the start of lesson 1.10."
       ]
     }
   ],
   "practice": {
     "drills": [
       {
-        "title": "Full mixed cluster set",
-        "instructions": "Read each cluster aloud. 12 items spanning all shape-families and including non-connectors — decoding practice, not vocabulary, so any resemblance to real short words is incidental and fine.",
+        "title": "Guided reading set 1 — cross-family 2-letter clusters",
+        "instructions": "These deliberately mix distant shape-families — an early letter beside a late one — so no cluster can be guessed from alphabet order. Read right to left, name both letters and the form each took.",
         "grid": [
           [
             {
-              "arabic": "بتث",
-              "name": "ba + ta + tha",
+              "arabic": "حب",
+              "name": "haa + ba",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
+                "cue": "Read حب aloud, letter by letter: haa + ba — then blend them smoothly."
               }
             },
             {
-              "arabic": "جحخ",
-              "name": "jeem + haa + kha",
+              "arabic": "سج",
+              "name": "seen + jeem",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
+                "cue": "Read سج aloud, letter by letter: seen + jeem — then blend them smoothly."
               }
             },
             {
-              "arabic": "دذر",
-              "name": "dal + dhal + ra",
+              "arabic": "طم",
+              "name": "taa + meem",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
+                "cue": "Read طم aloud, letter by letter: taa + meem — then blend them smoothly."
               }
             },
             {
-              "arabic": "زسش",
-              "name": "zay + seen + sheen",
+              "arabic": "قش",
+              "name": "qaaf + sheen",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
+                "cue": "Read قش aloud, letter by letter: qaaf + sheen — then blend them smoothly."
               }
             },
             {
-              "arabic": "صضط",
-              "name": "saad + daad + taa",
+              "arabic": "ظف",
+              "name": "dhaa + fa",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
+                "cue": "Read ظف aloud, letter by letter: dhaa + fa — then blend them smoothly."
               }
             },
             {
-              "arabic": "ظعغ",
-              "name": "dhaa + ayn + ghayn",
+              "arabic": "عك",
+              "name": "ayn + kaaf",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
+                "cue": "Read عك aloud, letter by letter: ayn + kaaf — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "خل",
+              "name": "kha + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خل aloud, letter by letter: kha + lam — then blend them smoothly."
               }
             },
             {
-              "arabic": "فقك",
-              "name": "fa + qaaf + kaaf",
+              "arabic": "صت",
+              "name": "saad + ta",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
+                "cue": "Read صت aloud, letter by letter: saad + ta — then blend them smoothly."
               }
             },
             {
-              "arabic": "لمنه",
-              "name": "lam + meem + nun + ha",
+              "arabic": "غن",
+              "name": "ghayn + nun",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
+                "cue": "Read غن aloud, letter by letter: ghayn + nun — then blend them smoothly."
               }
             },
             {
-              "arabic": "وي",
-              "name": "waw + ya",
+              "arabic": "ضي",
+              "name": "daad + ya",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
+                "cue": "Read ضي aloud, letter by letter: daad + ya — then blend them smoothly."
               }
             },
             {
-              "arabic": "كتب",
-              "name": "kaaf + ta + ba",
+              "arabic": "هم",
+              "name": "ha + meem",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
+                "cue": "Read هم aloud, letter by letter: ha + meem — then blend them smoothly."
               }
             },
+            {
+              "arabic": "فث",
+              "name": "fa + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فث aloud, letter by letter: fa + tha — then blend them smoothly."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Guided reading set 2 — cross-family 3-letter clusters",
+        "instructions": "Three letters, three different families each time. These are not words — they are decoding practice, built so that every letter sits in a position you have to identify rather than recognize.",
+        "grid": [
+          [
+            {
+              "arabic": "حسك",
+              "name": "haa + seen + kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حسك aloud, letter by letter: haa + seen + kaaf — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "شطب",
+              "name": "sheen + taa + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شطب aloud, letter by letter: sheen + taa + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "قعم",
+              "name": "qaaf + ayn + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قعم aloud, letter by letter: qaaf + ayn + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "ظنج",
+              "name": "dhaa + nun + jeem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظنج aloud, letter by letter: dhaa + nun + jeem — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "غتف",
+              "name": "ghayn + ta + fa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غتف aloud, letter by letter: ghayn + ta + fa — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "صهل",
+              "name": "saad + ha + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صهل aloud, letter by letter: saad + ha + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "ضبك",
+              "name": "daad + ba + kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضبك aloud, letter by letter: daad + ba + kaaf — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "خمث",
+              "name": "kha + meem + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خمث aloud, letter by letter: kha + meem + tha — then blend them smoothly."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Guided reading set 3 — non-connectors mixed throughout",
+        "instructions": "Every cluster here contains at least one of the 6 non-connectors (ا د ذ ر ز و) from lesson 1.8. Before reading, predict where the joining will break — then read and confirm.",
+        "grid": [
+          [
             {
               "arabic": "درس",
               "name": "dal + ra + seen",
@@ -800,163 +1393,567 @@
               }
             },
             {
-              "arabic": "قلم",
-              "name": "qaaf + lam + meem",
+              "arabic": "ردا",
+              "name": "ra + dal + alif",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
+                "cue": "Read ردا aloud, letter by letter: ra + dal + alif — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "وزن",
+              "name": "waw + zay + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read وزن aloud, letter by letter: waw + zay + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "ذرا",
+              "name": "dhal + ra + alif",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ذرا aloud, letter by letter: dhal + ra + alif — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "ازد",
+              "name": "alif + zay + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ازد aloud, letter by letter: alif + zay + dal — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "كتاد",
+              "name": "kaaf + ta + alif + dal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read كتاد aloud, letter by letter: kaaf + ta + alif + dal — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قدر",
+              "name": "qaaf + dal + ra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قدر aloud, letter by letter: qaaf + dal + ra — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "بدر",
+              "name": "ba + dal + ra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بدر aloud, letter by letter: ba + dal + ra — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "زور",
+              "name": "zay + waw + ra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read زور aloud, letter by letter: zay + waw + ra — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "دهر",
+              "name": "dal + ha + ra",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read دهر aloud, letter by letter: dal + ha + ra — then blend them smoothly."
               }
             }
           ]
         ]
       },
       {
-        "title": "Cold read set",
-        "instructions": "Read these 5 brand-new clusters aloud on your own, not seen before this lesson — just do your best, as a fluency check.",
+        "title": "Reading set A — 15 real words with non-connectors",
+        "instructions": "Real, unvoweled Arabic words. Unlike lesson 1.7's sets, these contain non-connectors, so the joining breaks mid-word — exactly the case rule 2 covers. For each word: spot the non-connector, predict the break, then read right to left.",
         "grid": [
           [
             {
-              "arabic": "تسك",
-              "name": "ta + seen + kaaf",
+              "arabic": "اسم",
+              "name": "ism — name",
+              "translit": "ism",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read تسك aloud, letter by letter: ta + seen + kaaf — then blend them smoothly."
+                "cue": "Read اسم right to left, letter by letter (alif + seen + meem), then blend: ism — “name”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "حبل",
-              "name": "haa + ba + lam",
+              "arabic": "باب",
+              "name": "bāb — door",
+              "translit": "bāb",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read حبل aloud, letter by letter: haa + ba + lam — then blend them smoothly."
+                "cue": "Read باب right to left, letter by letter (ba + alif + ba), then blend: bāb — “door”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "زفق",
-              "name": "zay + fa + qaaf",
+              "arabic": "تمر",
+              "name": "tamr — dates",
+              "translit": "tamr",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read زفق aloud, letter by letter: zay + fa + qaaf — then blend them smoothly."
+                "cue": "Read تمر right to left, letter by letter (ta + meem + ra), then blend: tamr — “dates”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "طنم",
-              "name": "taa + nun + meem",
+              "arabic": "كتاب",
+              "name": "kitāb — book",
+              "translit": "kitāb",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read طنم aloud, letter by letter: taa + nun + meem — then blend them smoothly."
+                "cue": "Read كتاب right to left, letter by letter (kaaf + ta + alif + ba), then blend: kitāb — “book”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "ثري",
-              "name": "tha + ra + ya",
+              "arabic": "مسجد",
+              "name": "masjid — mosque",
+              "translit": "masjid",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read ثري aloud, letter by letter: tha + ra + ya — then blend them smoothly."
+                "cue": "Read مسجد right to left, letter by letter (meem + seen + jeem + dal), then blend: masjid — “mosque”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "حصان",
+              "name": "ḥiṣān — horse",
+              "translit": "ḥiṣān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حصان right to left, letter by letter (haa + saad + alif + nun), then blend: ḥiṣān — “horse”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "بحر",
+              "name": "baḥr — sea",
+              "translit": "baḥr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بحر right to left, letter by letter (ba + haa + ra), then blend: baḥr — “sea”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "خبز",
+              "name": "khubz — bread",
+              "translit": "khubz",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خبز right to left, letter by letter (kha + ba + zay), then blend: khubz — “bread”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بخار",
+              "name": "bukhār — steam",
+              "translit": "bukhār",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بخار right to left, letter by letter (ba + kha + alif + ra), then blend: bukhār — “steam”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "دم",
+              "name": "dam — blood",
+              "translit": "dam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read دم right to left, letter by letter (dal + meem), then blend: dam — “blood”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "يد",
+              "name": "yad — hand",
+              "translit": "yad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read يد right to left, letter by letter (ya + dal), then blend: yad — “hand”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "ذهب",
+              "name": "dhahab — gold",
+              "translit": "dhahab",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ذهب right to left, letter by letter (dhal + ha + ba), then blend: dhahab — “gold”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "تلميذ",
+              "name": "tilmīdh — student",
+              "translit": "tilmīdh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تلميذ right to left, letter by letter (ta + lam + meem + ya + dhal), then blend: tilmīdh — “student”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "رجل",
+              "name": "rajul — man",
+              "translit": "rajul",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read رجل right to left, letter by letter (ra + jeem + lam), then blend: rajul — “man”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "زيت",
+              "name": "zayt — oil",
+              "translit": "zayt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read زيت right to left, letter by letter (zay + ya + ta), then blend: zayt — “oil”. No vowel marks yet: name each letter and the shape it took."
               }
             }
           ]
         ]
       },
       {
-        "title": "Error-log worksheet",
-        "instructions": "Read through this same cluster set again and check off any letter or cluster type (positional confusion vs. non-connector confusion vs. sound-only confusion) that caused you a stumble, to feed the Checkpoint 1 rubric.",
+        "title": "Reading set B — 15 more real words with non-connectors",
+        "instructions": "Same task. Some of these break twice. Read right to left, naming each letter and its form before blending.",
         "grid": [
           [
             {
-              "arabic": "بتث",
-              "name": "ba + ta + tha",
+              "arabic": "بشر",
+              "name": "bashar — mankind",
+              "translit": "bashar",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read بتث aloud, letter by letter: ba + ta + tha — then blend them smoothly."
+                "cue": "Read بشر right to left, letter by letter (ba + sheen + ra), then blend: bashar — “mankind”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "جحخ",
-              "name": "jeem + haa + kha",
+              "arabic": "ريش",
+              "name": "rīsh — feather",
+              "translit": "rīsh",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read جحخ aloud, letter by letter: jeem + haa + kha — then blend them smoothly."
+                "cue": "Read ريش right to left, letter by letter (ra + ya + sheen), then blend: rīsh — “feather”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "دذر",
-              "name": "dal + dhal + ra",
+              "arabic": "صباح",
+              "name": "ṣabāḥ — morning",
+              "translit": "ṣabāḥ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read دذر aloud, letter by letter: dal + dhal + ra — then blend them smoothly."
+                "cue": "Read صباح right to left, letter by letter (saad + ba + alif + haa), then blend: ṣabāḥ — “morning”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "زسش",
-              "name": "zay + seen + sheen",
+              "arabic": "طريق",
+              "name": "ṭarīq — road",
+              "translit": "ṭarīq",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read زسش aloud, letter by letter: zay + seen + sheen — then blend them smoothly."
+                "cue": "Read طريق right to left, letter by letter (taa + ra + ya + qaaf), then blend: ṭarīq — “road”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "صضط",
-              "name": "saad + daad + taa",
+              "arabic": "نظر",
+              "name": "naẓar — view, gaze",
+              "translit": "naẓar",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read صضط aloud, letter by letter: saad + daad + taa — then blend them smoothly."
+                "cue": "Read نظر right to left, letter by letter (nun + dhaa + ra), then blend: naẓar — “view, gaze”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "ظعغ",
-              "name": "dhaa + ayn + ghayn",
+              "arabic": "دفع",
+              "name": "dafʿ — payment",
+              "translit": "dafʿ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read ظعغ aloud, letter by letter: dhaa + ayn + ghayn — then blend them smoothly."
+                "cue": "Read دفع right to left, letter by letter (dal + fa + ayn), then blend: dafʿ — “payment”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "فقك",
-              "name": "fa + qaaf + kaaf",
+              "arabic": "بالغ",
+              "name": "bāligh — adult",
+              "translit": "bāligh",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read فقك aloud, letter by letter: fa + qaaf + kaaf — then blend them smoothly."
+                "cue": "Read بالغ right to left, letter by letter (ba + alif + lam + ghayn), then blend: bāligh — “adult”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "لمنه",
-              "name": "lam + meem + nun + ha",
+              "arabic": "سفر",
+              "name": "safar — travel",
+              "translit": "safar",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read لمنه aloud, letter by letter: lam + meem + nun + ha — then blend them smoothly."
+                "cue": "Read سفر right to left, letter by letter (seen + fa + ra), then blend: safar — “travel”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قمر",
+              "name": "qamar — moon",
+              "translit": "qamar",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قمر right to left, letter by letter (qaaf + meem + ra), then blend: qamar — “moon”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "وي",
-              "name": "waw + ya",
+              "arabic": "نور",
+              "name": "nūr — light, radiance",
+              "translit": "nūr",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read وي aloud, letter by letter: waw + ya — then blend them smoothly."
+                "cue": "Read نور right to left, letter by letter (nun + waw + ra), then blend: nūr — “light, radiance”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "كتب",
-              "name": "kaaf + ta + ba",
+              "arabic": "هلال",
+              "name": "hilāl — crescent moon",
+              "translit": "hilāl",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
+                "cue": "Read هلال right to left, letter by letter (ha + lam + alif + lam), then blend: hilāl — “crescent moon”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "درس",
-              "name": "dal + ra + seen",
+              "arabic": "شهر",
+              "name": "shahr — month",
+              "translit": "shahr",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read درس aloud, letter by letter: dal + ra + seen — then blend them smoothly."
+                "cue": "Read شهر right to left, letter by letter (sheen + ha + ra), then blend: shahr — “month”. No vowel marks yet: name each letter and the shape it took."
               }
             },
             {
-              "arabic": "قلم",
-              "name": "qaaf + lam + meem",
+              "arabic": "وجه",
+              "name": "wajh — face",
+              "translit": "wajh",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read قلم aloud, letter by letter: qaaf + lam + meem — then blend them smoothly."
+                "cue": "Read وجه right to left, letter by letter (waw + jeem + ha), then blend: wajh — “face”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "دلو",
+              "name": "dalw — bucket",
+              "translit": "dalw",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read دلو right to left, letter by letter (dal + lam + waw), then blend: dalw — “bucket”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "كرسي",
+              "name": "kursiyy — chair",
+              "translit": "kursiyy",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read كرسي right to left, letter by letter (kaaf + ra + seen + ya), then blend: kursiyy — “chair”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Independent reading round — cold read",
+        "instructions": "Eight words the student has not seen in any previous lesson, drill or homework sheet. All connectors, no breaks. Teacher does not prompt unless the student is genuinely stuck — this is the transfer check that predicts Checkpoint 1 performance.",
+        "grid": [
+          [
+            {
+              "arabic": "نجم",
+              "name": "najm — star",
+              "translit": "najm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نجم right to left, letter by letter (nun + jeem + meem), then blend: najm — “star”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "ملح",
+              "name": "milḥ — salt",
+              "translit": "milḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ملح right to left, letter by letter (meem + lam + haa), then blend: milḥ — “salt”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "لحم",
+              "name": "laḥm — meat",
+              "translit": "laḥm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لحم right to left, letter by letter (lam + haa + meem), then blend: laḥm — “meat”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "صحن",
+              "name": "ṣaḥn — dish, plate",
+              "translit": "ṣaḥn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صحن right to left, letter by letter (saad + haa + nun), then blend: ṣaḥn — “dish, plate”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كهف",
+              "name": "kahf — cave",
+              "translit": "kahf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read كهف right to left, letter by letter (kaaf + ha + fa), then blend: kahf — “cave”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "قفل",
+              "name": "qufl — lock",
+              "translit": "qufl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قفل right to left, letter by letter (qaaf + fa + lam), then blend: qufl — “lock”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "سطح",
+              "name": "saṭḥ — surface, roof",
+              "translit": "saṭḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سطح right to left, letter by letter (seen + taa + haa), then blend: saṭḥ — “surface, roof”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "شمع",
+              "name": "shamʿ — wax, candles",
+              "translit": "shamʿ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شمع right to left, letter by letter (sheen + meem + ayn), then blend: shamʿ — “wax, candles”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Pacing check — timed 12-word set",
+        "instructions": "Informal timing only, compared lightly against the student's lesson 1.7 pace. Encouragement framing, never a graded metric. Mixed connectors and non-connectors, all previously read.",
+        "grid": [
+          [
+            {
+              "arabic": "اسم",
+              "name": "ism — name",
+              "translit": "ism",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read اسم right to left, letter by letter (alif + seen + meem), then blend: ism — “name”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "باب",
+              "name": "bāb — door",
+              "translit": "bāb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read باب right to left, letter by letter (ba + alif + ba), then blend: bāb — “door”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "كتاب",
+              "name": "kitāb — book",
+              "translit": "kitāb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read كتاب right to left, letter by letter (kaaf + ta + alif + ba), then blend: kitāb — “book”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "مسجد",
+              "name": "masjid — mosque",
+              "translit": "masjid",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مسجد right to left, letter by letter (meem + seen + jeem + dal), then blend: masjid — “mosque”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "بحر",
+              "name": "baḥr — sea",
+              "translit": "baḥr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بحر right to left, letter by letter (ba + haa + ra), then blend: baḥr — “sea”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "رجل",
+              "name": "rajul — man",
+              "translit": "rajul",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read رجل right to left, letter by letter (ra + jeem + lam), then blend: rajul — “man”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قمر",
+              "name": "qamar — moon",
+              "translit": "qamar",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قمر right to left, letter by letter (qaaf + meem + ra), then blend: qamar — “moon”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "شهر",
+              "name": "shahr — month",
+              "translit": "shahr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شهر right to left, letter by letter (sheen + ha + ra), then blend: shahr — “month”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "وجه",
+              "name": "wajh — face",
+              "translit": "wajh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read وجه right to left, letter by letter (waw + jeem + ha), then blend: wajh — “face”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "نجم",
+              "name": "najm — star",
+              "translit": "najm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نجم right to left, letter by letter (nun + jeem + meem), then blend: najm — “star”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "ملح",
+              "name": "milḥ — salt",
+              "translit": "milḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ملح right to left, letter by letter (meem + lam + haa), then blend: milḥ — “salt”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "صحن",
+              "name": "ṣaḥn — dish, plate",
+              "translit": "ṣaḥn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صحن right to left, letter by letter (saad + haa + nun), then blend: ṣaḥn — “dish, plate”. No vowel marks yet: name each letter and the shape it took."
               }
             }
           ]
@@ -964,26 +1961,33 @@
       }
     ],
     "dailyChecklist": [
-      "Write the positional forms of 2–3 tricky letters from today, 4 rows each, in your notebook, saying each position aloud as you write",
-      "Re-read the full 12-item mixed cluster set aloud, 3× through, self-timed informally",
-      "Keep a simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10"
+      "Read the 30 words in Reading sets A and B aloud, 2× through, predicting each break before reading.",
+      "Read the 8 cold-read words until they come without hesitation.",
+      "Self-time the 12-word pacing set once, and note which words were slowest.",
+      "Write the positional forms of 2–3 letters that gave you trouble, 4 rows each, saying each name and sound aloud as you write."
     ]
   },
   "teacherNotes": {
     "script": [
-      "Open with the full 28-letter cumulative shuffle, then restate the two rules that make ALL cluster-reading possible: the 4 positional forms and the 6 non-connectors.",
-      "Run guided reading set 1 (early shape-families), then set 2 (later shape-families), then set 3 (clusters mixing non-connectors throughout) — teacher-led, correcting live.",
-      "Move to the independent reading round only after all three guided sets: present the 5 cold-read clusters and observe WITHOUT prompting unless the student is truly stuck.",
-      "Review the error log together with the student — name which letters/cluster types caused hesitation, feeding directly into Checkpoint 1 prep.",
-      "Time the pacing-check cluster set informally and frame it as encouragement (compare lightly against lesson 1.7's pace), never as a graded metric.",
-      "Close with the preview of Unit 1.3 — vowels are next, and these same letters are about to come alive."
+      "This is the Unit 1.2 consolidation lesson and the last full lesson before vowels. Nothing new is taught — everything today is transfer.",
+      "Restate the two rules once (slide 3) and then never restate them again. If the student needs the rule mid-drill, log it: that is a checkpoint risk.",
+      "Guided sets 1 and 2 deliberately mix distant shape-families so nothing can be guessed from alphabet order. Sets from lesson 1.7 were within-family; these are not.",
+      "Guided set 3 is prediction-first: student says where the joining will break before reading, then reads to confirm. Do not let them read first and rationalize after.",
+      "Reading sets A and B are the heart of the lesson — 30 real words, all containing non-connectors. This is the first time the student reads at real-word scale.",
+      "Run the cold read strictly: 8 genuinely unseen words, no prompting unless truly stuck. This is the single best predictor of Checkpoint 1 performance — log every hesitation.",
+      "Error-log review is done together, out loud, categorised (positional-shape / non-connector / sound-only). This feeds the Checkpoint 1 revision map directly.",
+      "Pacing check is encouragement framing only. If the pace has not moved since 1.7, that is data for you, not a message for the student.",
+      "Close on the vowels preview — the student should leave wanting lesson 1.10."
     ],
     "listenFor": [
-      "Any letter from the \"high-risk six\" (ح, ض, ع, ق, ذ/ز pattern, ص) resurfacing as an error once embedded inside a cluster rather than read in isolation — flag explicitly, this is the most diagnostic moment before Checkpoint 1.",
-      "Hesitation specifically on non-connector transitions — confirms whether lesson 1.8's rule has become automatic or still needs conscious recall.",
-      "Reading pace: increasing hesitation as cluster length grows from 2 to 3 letters may indicate the student is still sounding out letter-by-letter rather than starting to chunk — normal at this stage, just note it for Phase 2 planning."
+      "Any letter from the high-risk six (ح, ض, ع, ق, the ذ/ز pair, ص) resurfacing as an error once embedded in a real word rather than read in isolation — the most diagnostic moment before Checkpoint 1.",
+      "Hesitation specifically at non-connector transitions — confirms whether lesson 1.8's rule is automatic or still consciously recalled.",
+      "Medial ـهـ and ـعـ misread inside real words even though the flashcard forms were correct in 1.7.",
+      "Student splitting a single word into two at a non-connector gap (reading بخار or تلميذ as two words).",
+      "Increasing hesitation as words grow from 3 to 4–5 letters — indicates letter-by-letter sounding rather than chunking. Normal here; note it for Phase 2 planning.",
+      "Reading pace on the cold-read set versus the rehearsed sets — a large gap means recognition is memorised, not decoded."
     ],
-    "homework": "In the student's notebook: positional forms (isolated, initial, medial, final — three forms only for the six non-connectors ا د ذ ر ز و) of any letters that gave trouble today, written 4 full rows each while saying each position aloud, then reviewed by reading back; daily re-reading of the full 12-item mixed cluster set from today, aloud, 3× through, self-timed informally. Student keeps their own simple tally of which clusters felt hardest, to discuss at the start of lesson 1.10. No printed sheets."
+    "homework": "Reading sets A and B (30 words with non-connectors) aloud 2× daily with break-prediction, the 8 cold-read words until instant, one self-timed run of the 12-word pacing set, and positional forms of 2–3 tricky letters written 4 rows each."
   },
   "videos": [
     {

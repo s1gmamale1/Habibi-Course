@@ -4,9 +4,10 @@
   "unit": "1.2",
   "title": "Letters change shape: initial / medial / final / isolated forms",
   "objectives": [
-    "Student can explain that most Arabic letters take up to 4 different shapes depending on position in a word (isolated / initial / medial / final), while the sound stays the same.",
-    "Student can recognize a letter's initial, medial, and final forms on sight for at least 6 high-frequency letters.",
-    "Student can read a short 2–3 letter connected (unvoweled) cluster by recognizing each component letter regardless of its shape-shifted form."
+    "Student can explain that most Arabic letters take up to 4 different shapes depending on position in a word (isolated / initial / medial / final), while the sound never changes.",
+    "Student can recognize the initial, medial and final forms on sight for all 22 connecting letters — including the hard shape-shifters ج ح خ, ع غ and ه, whose forms look like different letters.",
+    "Student can read a 2–3 letter connected cluster that mixes shape-families, naming both component letters and the form each one took.",
+    "Student can read at least 20 real, unvoweled, fully-connecting Arabic words by decoding the letters inside them."
   ],
   "slides": [
     {
@@ -577,6 +578,520 @@
       ]
     },
     {
+      "kind": "concept",
+      "heading": "The bowl family: ج ح خ — the biggest shape jump",
+      "body": [
+        "Same three letters from lesson 1.2 — same sounds, same dots. Only the body changes.",
+        "Isolated, the bowl sits open with a deep tail below the line: ج ح خ",
+        "At the start of a word the tail is cut away and the bowl leans forward: جـ حـ خـ",
+        "In the middle it flattens into a small wedge riding along the line: ـجـ ـحـ ـخـ",
+        "At the end the full deep tail comes back: ـج ـح ـخ",
+        "This is the largest visual change in the whole alphabet — the initial and isolated shapes barely look related. The dots are your anchor: ج one below, ح none, خ one above, in every position."
+      ],
+      "items": [
+        {
+          "arabic": "ج",
+          "name": "jeem — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+          }
+        },
+        {
+          "arabic": "جـ",
+          "name": "jeem — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+          }
+        },
+        {
+          "arabic": "ـجـ",
+          "name": "jeem — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+          }
+        },
+        {
+          "arabic": "ـج",
+          "name": "jeem — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "haa — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+          }
+        },
+        {
+          "arabic": "حـ",
+          "name": "haa — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+          }
+        },
+        {
+          "arabic": "ـحـ",
+          "name": "haa — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+          }
+        },
+        {
+          "arabic": "ـح",
+          "name": "haa — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+          }
+        },
+        {
+          "arabic": "خ",
+          "name": "kha — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "kha — a scrape from the upper throat, like gently clearing it."
+          }
+        },
+        {
+          "arabic": "خـ",
+          "name": "kha — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "kha — a scrape from the upper throat, like gently clearing it."
+          }
+        },
+        {
+          "arabic": "ـخـ",
+          "name": "kha — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "kha — a scrape from the upper throat, like gently clearing it."
+          }
+        },
+        {
+          "arabic": "ـخ",
+          "name": "kha — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "kha — a scrape from the upper throat, like gently clearing it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "ع and غ — the letters that change the most",
+      "body": [
+        "ع and غ differ only by a dot, and both take four shapes that look like four different letters.",
+        "Isolated: an open head above a deep tail — ع غ",
+        "Initial: just the small open head, tail gone — عـ غـ",
+        "Medial: the head closes into a small triangle riding the line — ـعـ ـغـ",
+        "Final: the head reopens and the deep tail returns — ـع ـغ",
+        "Watch the dot, not the body: no dot = ayn, one dot above = ghayn, in every single position."
+      ],
+      "items": [
+        {
+          "arabic": "ع",
+          "name": "ayn — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+          }
+        },
+        {
+          "arabic": "عـ",
+          "name": "ayn — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+          }
+        },
+        {
+          "arabic": "ـعـ",
+          "name": "ayn — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+          }
+        },
+        {
+          "arabic": "ـع",
+          "name": "ayn — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+          }
+        },
+        {
+          "arabic": "غ",
+          "name": "ghayn — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+          }
+        },
+        {
+          "arabic": "غـ",
+          "name": "ghayn — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+          }
+        },
+        {
+          "arabic": "ـغـ",
+          "name": "ghayn — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+          }
+        },
+        {
+          "arabic": "ـغ",
+          "name": "ghayn — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "ه — one letter, four faces",
+      "body": [
+        "ه is the most shape-shifting letter in the alphabet: its four forms share almost nothing visually.",
+        "Isolated: a round loop — ه",
+        "Initial: a tall, narrow double loop — هـ",
+        "Medial: a small squashed shape sitting on the line — ـهـ",
+        "Final: a plain round tail — ـه",
+        "The sound never moves: a light, breathy release from the throat, every time."
+      ],
+      "items": [
+        {
+          "arabic": "ه",
+          "name": "ha — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ha — a light, breathy release from the throat."
+          }
+        },
+        {
+          "arabic": "هـ",
+          "name": "ha — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ha — a light, breathy release from the throat."
+          }
+        },
+        {
+          "arabic": "ـهـ",
+          "name": "ha — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ha — a light, breathy release from the throat."
+          }
+        },
+        {
+          "arabic": "ـه",
+          "name": "ha — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ha — a light, breathy release from the throat."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The teeth and the plates: س ش ص ض",
+      "body": [
+        "س and ش share a three-tooth body; ص and ض share a flat plate with a loop.",
+        "Initial and medial forms drop the big end-bowl and keep only the teeth or the plate: سـ ـسـ / صـ ـصـ",
+        "Isolated and final forms carry the big bowl-tail: س ـس / ص ـص",
+        "Dots are again the only difference inside each pair: س none, ش three above; ص none, ض one above."
+      ],
+      "items": [
+        {
+          "arabic": "س",
+          "name": "seen — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+          }
+        },
+        {
+          "arabic": "سـ",
+          "name": "seen — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+          }
+        },
+        {
+          "arabic": "ـسـ",
+          "name": "seen — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+          }
+        },
+        {
+          "arabic": "ـس",
+          "name": "seen — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+          }
+        },
+        {
+          "arabic": "ش",
+          "name": "sheen — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+          }
+        },
+        {
+          "arabic": "شـ",
+          "name": "sheen — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+          }
+        },
+        {
+          "arabic": "ـشـ",
+          "name": "sheen — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+          }
+        },
+        {
+          "arabic": "ـش",
+          "name": "sheen — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+          }
+        },
+        {
+          "arabic": "ص",
+          "name": "saad — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+          }
+        },
+        {
+          "arabic": "صـ",
+          "name": "saad — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+          }
+        },
+        {
+          "arabic": "ـصـ",
+          "name": "saad — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+          }
+        },
+        {
+          "arabic": "ـص",
+          "name": "saad — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "daad — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "daad — side of the tongue against the upper molars, heavy."
+          }
+        },
+        {
+          "arabic": "ضـ",
+          "name": "daad — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "daad — side of the tongue against the upper molars, heavy."
+          }
+        },
+        {
+          "arabic": "ـضـ",
+          "name": "daad — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "daad — side of the tongue against the upper molars, heavy."
+          }
+        },
+        {
+          "arabic": "ـض",
+          "name": "daad — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "daad — side of the tongue against the upper molars, heavy."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "ط ظ ف ق — small changes and one tail trick",
+      "body": [
+        "Not every letter transforms. ط and ظ keep the same plate-and-stem shape in all four positions — the easiest letters in the alphabet to track.",
+        "ف and ق both have a round head on a tooth-like body, and they shift the way the dotted family does.",
+        "The trick is at the end of a word: ـف keeps a small flat tail, but ـق drops into a deep bowl below the line.",
+        "Dots stay constant: ف one above, ق two above, in every position."
+      ],
+      "items": [
+        {
+          "arabic": "ط",
+          "name": "taa — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "taa — the ta point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "طـ",
+          "name": "taa — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "taa — the ta point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "ـطـ",
+          "name": "taa — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "taa — the ta point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "ـط",
+          "name": "taa — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "taa — the ta point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "dhaa — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "ظـ",
+          "name": "dhaa — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "ـظـ",
+          "name": "dhaa — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "ـظ",
+          "name": "dhaa — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+          }
+        },
+        {
+          "arabic": "ف",
+          "name": "fa — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "fa — inner lower lip against the edge of the upper front teeth."
+          }
+        },
+        {
+          "arabic": "فـ",
+          "name": "fa — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "fa — inner lower lip against the edge of the upper front teeth."
+          }
+        },
+        {
+          "arabic": "ـفـ",
+          "name": "fa — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "fa — inner lower lip against the edge of the upper front teeth."
+          }
+        },
+        {
+          "arabic": "ـف",
+          "name": "fa — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "fa — inner lower lip against the edge of the upper front teeth."
+          }
+        },
+        {
+          "arabic": "ق",
+          "name": "qaaf — isolated",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+          }
+        },
+        {
+          "arabic": "قـ",
+          "name": "qaaf — initial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+          }
+        },
+        {
+          "arabic": "ـقـ",
+          "name": "qaaf — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+          }
+        },
+        {
+          "arabic": "ـق",
+          "name": "qaaf — final",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+          }
+        }
+      ]
+    },
+    {
       "kind": "drill",
       "heading": "Guided recognition drill — name the position",
       "instructions": "Look at each isolated letter or position-form card shown. Name the letter and state which position it's in (isolated/initial/medial/final), for each of the 8 focus letters: ب ت ث ن ي ك ل م.",
@@ -873,6 +1388,489 @@
     },
     {
       "kind": "drill",
+      "heading": "Guided recognition drill — the 14 harder connectors, all 4 positions",
+      "instructions": "Every remaining connecting letter, in all four positions. Teacher points to a cell in random order; student names the letter, produces its sound, and states which position-form it is. The 6 non-connectors (ا د ذ ر ز و) are deliberately absent — they are lesson 1.8's topic.",
+      "grid": [
+        [
+          {
+            "arabic": "ج",
+            "name": "jeem — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+            }
+          },
+          {
+            "arabic": "جـ",
+            "name": "jeem — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+            }
+          },
+          {
+            "arabic": "ـجـ",
+            "name": "jeem — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+            }
+          },
+          {
+            "arabic": "ـج",
+            "name": "jeem — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ح",
+            "name": "haa — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+            }
+          },
+          {
+            "arabic": "حـ",
+            "name": "haa — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+            }
+          },
+          {
+            "arabic": "ـحـ",
+            "name": "haa — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+            }
+          },
+          {
+            "arabic": "ـح",
+            "name": "haa — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "خ",
+            "name": "kha — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "kha — a scrape from the upper throat, like gently clearing it."
+            }
+          },
+          {
+            "arabic": "خـ",
+            "name": "kha — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "kha — a scrape from the upper throat, like gently clearing it."
+            }
+          },
+          {
+            "arabic": "ـخـ",
+            "name": "kha — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "kha — a scrape from the upper throat, like gently clearing it."
+            }
+          },
+          {
+            "arabic": "ـخ",
+            "name": "kha — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "kha — a scrape from the upper throat, like gently clearing it."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "س",
+            "name": "seen — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+            }
+          },
+          {
+            "arabic": "سـ",
+            "name": "seen — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+            }
+          },
+          {
+            "arabic": "ـسـ",
+            "name": "seen — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+            }
+          },
+          {
+            "arabic": "ـس",
+            "name": "seen — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ش",
+            "name": "sheen — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+            }
+          },
+          {
+            "arabic": "شـ",
+            "name": "sheen — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+            }
+          },
+          {
+            "arabic": "ـشـ",
+            "name": "sheen — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+            }
+          },
+          {
+            "arabic": "ـش",
+            "name": "sheen — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ص",
+            "name": "saad — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+            }
+          },
+          {
+            "arabic": "صـ",
+            "name": "saad — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+            }
+          },
+          {
+            "arabic": "ـصـ",
+            "name": "saad — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+            }
+          },
+          {
+            "arabic": "ـص",
+            "name": "saad — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ض",
+            "name": "daad — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "daad — side of the tongue against the upper molars, heavy."
+            }
+          },
+          {
+            "arabic": "ضـ",
+            "name": "daad — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "daad — side of the tongue against the upper molars, heavy."
+            }
+          },
+          {
+            "arabic": "ـضـ",
+            "name": "daad — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "daad — side of the tongue against the upper molars, heavy."
+            }
+          },
+          {
+            "arabic": "ـض",
+            "name": "daad — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "daad — side of the tongue against the upper molars, heavy."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ط",
+            "name": "taa — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "taa — the ta point with a full, heavy mouth cavity."
+            }
+          },
+          {
+            "arabic": "طـ",
+            "name": "taa — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "taa — the ta point with a full, heavy mouth cavity."
+            }
+          },
+          {
+            "arabic": "ـطـ",
+            "name": "taa — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "taa — the ta point with a full, heavy mouth cavity."
+            }
+          },
+          {
+            "arabic": "ـط",
+            "name": "taa — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "taa — the ta point with a full, heavy mouth cavity."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ظ",
+            "name": "dhaa — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+            }
+          },
+          {
+            "arabic": "ظـ",
+            "name": "dhaa — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+            }
+          },
+          {
+            "arabic": "ـظـ",
+            "name": "dhaa — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+            }
+          },
+          {
+            "arabic": "ـظ",
+            "name": "dhaa — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ع",
+            "name": "ayn — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+            }
+          },
+          {
+            "arabic": "عـ",
+            "name": "ayn — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+            }
+          },
+          {
+            "arabic": "ـعـ",
+            "name": "ayn — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+            }
+          },
+          {
+            "arabic": "ـع",
+            "name": "ayn — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "غ",
+            "name": "ghayn — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+            }
+          },
+          {
+            "arabic": "غـ",
+            "name": "ghayn — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+            }
+          },
+          {
+            "arabic": "ـغـ",
+            "name": "ghayn — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+            }
+          },
+          {
+            "arabic": "ـغ",
+            "name": "ghayn — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ف",
+            "name": "fa — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "fa — inner lower lip against the edge of the upper front teeth."
+            }
+          },
+          {
+            "arabic": "فـ",
+            "name": "fa — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "fa — inner lower lip against the edge of the upper front teeth."
+            }
+          },
+          {
+            "arabic": "ـفـ",
+            "name": "fa — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "fa — inner lower lip against the edge of the upper front teeth."
+            }
+          },
+          {
+            "arabic": "ـف",
+            "name": "fa — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "fa — inner lower lip against the edge of the upper front teeth."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ق",
+            "name": "qaaf — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+            }
+          },
+          {
+            "arabic": "قـ",
+            "name": "qaaf — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+            }
+          },
+          {
+            "arabic": "ـقـ",
+            "name": "qaaf — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+            }
+          },
+          {
+            "arabic": "ـق",
+            "name": "qaaf — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ه",
+            "name": "ha — isolated",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ha — a light, breathy release from the throat."
+            }
+          },
+          {
+            "arabic": "هـ",
+            "name": "ha — initial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ha — a light, breathy release from the throat."
+            }
+          },
+          {
+            "arabic": "ـهـ",
+            "name": "ha — medial",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ha — a light, breathy release from the throat."
+            }
+          },
+          {
+            "arabic": "ـه",
+            "name": "ha — final",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ha — a light, breathy release from the throat."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
       "heading": "Guided recognition drill #2 — connected 2-letter clusters",
       "instructions": "Look at each 2-letter connected (unvoweled) cluster shown. Identify both component letters despite the shape change.",
       "grid": [
@@ -939,6 +1937,733 @@
             "audio": {
               "type": "teacher-voice",
               "cue": "Read يب aloud, letter by letter: ya + ba — then blend them smoothly."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Combination drill — ج ح خ meet the dotted family",
+      "instructions": "Each cluster pairs a bowl letter (ج ح خ) with a dotted-body letter (ب ت ث ن ي). Read right to left. Name both letters and say which form each one took — notice how completely the bowl letter changes depending on whether it leads the cluster or ends it.",
+      "grid": [
+        [
+          {
+            "arabic": "جب",
+            "name": "jeem + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جب aloud, letter by letter: jeem + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "جت",
+            "name": "jeem + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جت aloud, letter by letter: jeem + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "جث",
+            "name": "jeem + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جث aloud, letter by letter: jeem + tha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "جن",
+            "name": "jeem + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جن aloud, letter by letter: jeem + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "جي",
+            "name": "jeem + ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جي aloud, letter by letter: jeem + ya — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حب",
+            "name": "haa + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حب aloud, letter by letter: haa + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "حت",
+            "name": "haa + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حت aloud, letter by letter: haa + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "حث",
+            "name": "haa + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حث aloud, letter by letter: haa + tha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "حن",
+            "name": "haa + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حن aloud, letter by letter: haa + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "حي",
+            "name": "haa + ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حي aloud, letter by letter: haa + ya — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "خب",
+            "name": "kha + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خب aloud, letter by letter: kha + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "خت",
+            "name": "kha + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خت aloud, letter by letter: kha + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "خث",
+            "name": "kha + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خث aloud, letter by letter: kha + tha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "خن",
+            "name": "kha + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خن aloud, letter by letter: kha + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "خي",
+            "name": "kha + ya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خي aloud, letter by letter: kha + ya — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بج",
+            "name": "ba + jeem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بج aloud, letter by letter: ba + jeem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "تج",
+            "name": "ta + jeem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تج aloud, letter by letter: ta + jeem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نج",
+            "name": "nun + jeem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نج aloud, letter by letter: nun + jeem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "يج",
+            "name": "ya + jeem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read يج aloud, letter by letter: ya + jeem — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بح",
+            "name": "ba + haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بح aloud, letter by letter: ba + haa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "تح",
+            "name": "ta + haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تح aloud, letter by letter: ta + haa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نح",
+            "name": "nun + haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نح aloud, letter by letter: nun + haa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "يح",
+            "name": "ya + haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read يح aloud, letter by letter: ya + haa — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بخ",
+            "name": "ba + kha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بخ aloud, letter by letter: ba + kha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "تخ",
+            "name": "ta + kha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تخ aloud, letter by letter: ta + kha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نخ",
+            "name": "nun + kha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نخ aloud, letter by letter: nun + kha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "يخ",
+            "name": "ya + kha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read يخ aloud, letter by letter: ya + kha — then blend them smoothly."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Combination drill — م joins everything",
+      "instructions": "م is one of the most frequent letters in Arabic and it turns up in every position. Read each cluster right to left, naming both letters and the form م took. The last row puts م in the middle, where it hangs its loop below the line.",
+      "grid": [
+        [
+          {
+            "arabic": "مب",
+            "name": "meem + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مب aloud, letter by letter: meem + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مت",
+            "name": "meem + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مت aloud, letter by letter: meem + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "من",
+            "name": "meem + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read من aloud, letter by letter: meem + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مك",
+            "name": "meem + kaaf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مك aloud, letter by letter: meem + kaaf — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مل",
+            "name": "meem + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مل aloud, letter by letter: meem + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مس",
+            "name": "meem + seen",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مس aloud, letter by letter: meem + seen — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مح",
+            "name": "meem + haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مح aloud, letter by letter: meem + haa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مج",
+            "name": "meem + jeem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مج aloud, letter by letter: meem + jeem — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بم",
+            "name": "ba + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بم aloud, letter by letter: ba + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "تم",
+            "name": "ta + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تم aloud, letter by letter: ta + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نم",
+            "name": "nun + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نم aloud, letter by letter: nun + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "كم",
+            "name": "kaaf + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read كم aloud, letter by letter: kaaf + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "لم",
+            "name": "lam + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لم aloud, letter by letter: lam + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "سم",
+            "name": "seen + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سم aloud, letter by letter: seen + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "حم",
+            "name": "haa + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حم aloud, letter by letter: haa + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "جم",
+            "name": "jeem + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جم aloud, letter by letter: jeem + meem — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لمن",
+            "name": "lam + meem + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لمن aloud, letter by letter: lam + meem + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "سمح",
+            "name": "seen + meem + haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سمح aloud, letter by letter: seen + meem + haa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "حمل",
+            "name": "haa + meem + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حمل aloud, letter by letter: haa + meem + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "جمل",
+            "name": "jeem + meem + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جمل aloud, letter by letter: jeem + meem + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "قمح",
+            "name": "qaaf + meem + haa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قمح aloud, letter by letter: qaaf + meem + haa — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نمل",
+            "name": "nun + meem + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نمل aloud, letter by letter: nun + meem + lam — then blend them smoothly."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Combination drill — ع غ ه inside clusters",
+      "instructions": "The three biggest shape-shifters, now in context. Name both letters in each cluster and the form each took — especially in the last row, where the medial forms look nothing like the isolated letters.",
+      "grid": [
+        [
+          {
+            "arabic": "عب",
+            "name": "ayn + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عب aloud, letter by letter: ayn + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "عت",
+            "name": "ayn + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عت aloud, letter by letter: ayn + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "عن",
+            "name": "ayn + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عن aloud, letter by letter: ayn + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "عل",
+            "name": "ayn + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عل aloud, letter by letter: ayn + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "عم",
+            "name": "ayn + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عم aloud, letter by letter: ayn + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "غب",
+            "name": "ghayn + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غب aloud, letter by letter: ghayn + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "غت",
+            "name": "ghayn + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غت aloud, letter by letter: ghayn + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "غن",
+            "name": "ghayn + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غن aloud, letter by letter: ghayn + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "غل",
+            "name": "ghayn + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غل aloud, letter by letter: ghayn + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "غم",
+            "name": "ghayn + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غم aloud, letter by letter: ghayn + meem — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بع",
+            "name": "ba + ayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بع aloud, letter by letter: ba + ayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "تع",
+            "name": "ta + ayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تع aloud, letter by letter: ta + ayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نع",
+            "name": "nun + ayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نع aloud, letter by letter: nun + ayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "لع",
+            "name": "lam + ayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لع aloud, letter by letter: lam + ayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مع",
+            "name": "meem + ayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مع aloud, letter by letter: meem + ayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "بغ",
+            "name": "ba + ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بغ aloud, letter by letter: ba + ghayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "تغ",
+            "name": "ta + ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تغ aloud, letter by letter: ta + ghayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نغ",
+            "name": "nun + ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نغ aloud, letter by letter: nun + ghayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "لغ",
+            "name": "lam + ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لغ aloud, letter by letter: lam + ghayn — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مغ",
+            "name": "meem + ghayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مغ aloud, letter by letter: meem + ghayn — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "هب",
+            "name": "ha + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read هب aloud, letter by letter: ha + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "هت",
+            "name": "ha + ta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read هت aloud, letter by letter: ha + ta — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "هن",
+            "name": "ha + nun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read هن aloud, letter by letter: ha + nun — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "هل",
+            "name": "ha + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read هل aloud, letter by letter: ha + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "هم",
+            "name": "ha + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read هم aloud, letter by letter: ha + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "به",
+            "name": "ba + ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read به aloud, letter by letter: ba + ha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "ته",
+            "name": "ta + ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ته aloud, letter by letter: ta + ha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نه",
+            "name": "nun + ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نه aloud, letter by letter: nun + ha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "له",
+            "name": "lam + ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read له aloud, letter by letter: lam + ha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "مه",
+            "name": "meem + ha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مه aloud, letter by letter: meem + ha — then blend them smoothly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سهل",
+            "name": "seen + ha + lam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سهل aloud, letter by letter: seen + ha + lam — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "فهم",
+            "name": "fa + ha + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فهم aloud, letter by letter: fa + ha + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "بعث",
+            "name": "ba + ayn + tha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بعث aloud, letter by letter: ba + ayn + tha — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "شعب",
+            "name": "sheen + ayn + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read شعب aloud, letter by letter: sheen + ayn + ba — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "نعم",
+            "name": "nun + ayn + meem",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نعم aloud, letter by letter: nun + ayn + meem — then blend them smoothly."
+            }
+          },
+          {
+            "arabic": "لعب",
+            "name": "lam + ayn + ba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لعب aloud, letter by letter: lam + ayn + ba — then blend them smoothly."
             }
           }
         ]
@@ -1093,75 +2818,327 @@
       ]
     },
     {
+      "kind": "drill",
+      "heading": "Reading set A — 13 real words, no vowel marks",
+      "instructions": "Real Arabic words, written the way you will always meet them: joined, unvoweled. Every letter here is a connector, so every joint is visible — nothing breaks yet. Read right to left; name each letter and its form first, then say the word. You are not learning vocabulary here, you are proving you can see the letters inside a real word.",
+      "grid": [
+        [
+          {
+            "arabic": "بيت",
+            "name": "bayt — house",
+            "translit": "bayt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بيت right to left, letter by letter (ba + ya + ta), then blend: bayt — “house”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "جبل",
+            "name": "jabal — mountain",
+            "translit": "jabal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جبل right to left, letter by letter (jeem + ba + lam), then blend: jabal — “mountain”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "قلب",
+            "name": "qalb — heart",
+            "translit": "qalb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قلب right to left, letter by letter (qaaf + lam + ba), then blend: qalb — “heart”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "ثعلب",
+            "name": "thaʿlab — fox",
+            "translit": "thaʿlab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ثعلب right to left, letter by letter (tha + ayn + lam + ba), then blend: thaʿlab — “fox”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "مثل",
+            "name": "mithl — like, similar",
+            "translit": "mithl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مثل right to left, letter by letter (meem + tha + lam), then blend: mithl — “like, similar”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "ثلث",
+            "name": "thuluth — one third",
+            "translit": "thuluth",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ثلث right to left, letter by letter (tha + lam + tha), then blend: thuluth — “one third”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "جمل",
+            "name": "jamal — camel",
+            "translit": "jamal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جمل right to left, letter by letter (jeem + meem + lam), then blend: jamal — “camel”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "خليج",
+            "name": "khalīj — gulf",
+            "translit": "khalīj",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خليج right to left, letter by letter (kha + lam + ya + jeem), then blend: khalīj — “gulf”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "فتح",
+            "name": "fatḥ — opening",
+            "translit": "fatḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فتح right to left, letter by letter (fa + ta + haa), then blend: fatḥ — “opening”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "طبخ",
+            "name": "ṭabkh — cooking",
+            "translit": "ṭabkh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طبخ right to left, letter by letter (taa + ba + kha), then blend: ṭabkh — “cooking”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "سمك",
+            "name": "samak — fish",
+            "translit": "samak",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سمك right to left, letter by letter (seen + meem + kaaf), then blend: samak — “fish”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "شمس",
+            "name": "shams — sun",
+            "translit": "shams",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read شمس right to left, letter by letter (sheen + meem + seen), then blend: shams — “sun”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "قميص",
+            "name": "qamīṣ — shirt",
+            "translit": "qamīṣ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قميص right to left, letter by letter (qaaf + meem + ya + saad), then blend: qamīṣ — “shirt”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Reading set B — 13 more real words",
+      "instructions": "Same task, now weighted toward today's hard shape-shifters (ع غ ه ج ح خ ص ض ط ظ). Read right to left, letter by letter, then blend.",
+      "grid": [
+        [
+          {
+            "arabic": "غضب",
+            "name": "ghaḍab — anger",
+            "translit": "ghaḍab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غضب right to left, letter by letter (ghayn + daad + ba), then blend: ghaḍab — “anger”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "بعض",
+            "name": "baʿḍ — some",
+            "translit": "baʿḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بعض right to left, letter by letter (ba + ayn + daad), then blend: baʿḍ — “some”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "حطب",
+            "name": "ḥaṭab — firewood",
+            "translit": "ḥaṭab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حطب right to left, letter by letter (haa + taa + ba), then blend: ḥaṭab — “firewood”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "خط",
+            "name": "khaṭṭ — line",
+            "translit": "khaṭṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خط right to left, letter by letter (kha + taa), then blend: khaṭṭ — “line”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "ظل",
+            "name": "ẓill — shade",
+            "translit": "ẓill",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظل right to left, letter by letter (dhaa + lam), then blend: ẓill — “shade”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "حفظ",
+            "name": "ḥifẓ — memorization",
+            "translit": "ḥifẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حفظ right to left, letter by letter (haa + fa + dhaa), then blend: ḥifẓ — “memorization”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "عين",
+            "name": "ʿayn — eye",
+            "translit": "ʿayn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عين right to left, letter by letter (ayn + ya + nun), then blend: ʿayn — “eye”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "غيم",
+            "name": "ghaym — cloud",
+            "translit": "ghaym",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غيم right to left, letter by letter (ghayn + ya + meem), then blend: ghaym — “cloud”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "فيل",
+            "name": "fīl — elephant",
+            "translit": "fīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فيل right to left, letter by letter (fa + ya + lam), then blend: fīl — “elephant”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "ضعف",
+            "name": "ḍaʿf — weakness",
+            "translit": "ḍaʿf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضعف right to left, letter by letter (daad + ayn + fa), then blend: ḍaʿf — “weakness”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "قلم",
+            "name": "qalam — pen",
+            "translit": "qalam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قلم right to left, letter by letter (qaaf + lam + meem), then blend: qalam — “pen”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "بنت",
+            "name": "bint — girl",
+            "translit": "bint",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بنت right to left, letter by letter (ba + nun + ta), then blend: bint — “girl”. No vowel marks yet: name each letter and the shape it took."
+            }
+          },
+          {
+            "arabic": "لبن",
+            "name": "laban — milk",
+            "translit": "laban",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لبن right to left, letter by letter (lam + ba + nun), then blend: laban — “milk”. No vowel marks yet: name each letter and the shape it took."
+            }
+          }
+        ]
+      ]
+    },
+    {
       "kind": "recap",
-      "heading": "Wrap-up — today's shape-shifting letters",
+      "heading": "Wrap-up — the shapes that change the most",
       "items": [
         {
-          "arabic": "ب",
-          "name": "ba",
+          "arabic": "ـجـ",
+          "name": "jeem — medial",
           "audio": {
             "type": "teacher-voice",
-            "cue": "lips fully together"
+            "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
           }
         },
         {
-          "arabic": "ت",
-          "name": "ta",
+          "arabic": "ـحـ",
+          "name": "haa — medial",
           "audio": {
             "type": "teacher-voice",
-            "cue": "tongue-tip on gum ridge"
+            "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
           }
         },
         {
-          "arabic": "ث",
-          "name": "tha",
+          "arabic": "ـخـ",
+          "name": "kha — medial",
           "audio": {
             "type": "teacher-voice",
-            "cue": "tongue between teeth"
+            "cue": "kha — a scrape from the upper throat, like gently clearing it."
           }
         },
         {
-          "arabic": "ن",
-          "name": "nun",
-          "audio": {
-            "type": "youtube-cue",
-            "videoId": "BDgw0fWZwMU",
-            "startSeconds": 0,
-            "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
-          }
-        },
-        {
-          "arabic": "ي",
-          "name": "ya",
+          "arabic": "ـعـ",
+          "name": "ayn — medial",
           "audio": {
             "type": "teacher-voice",
-            "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+            "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
           }
         },
         {
-          "arabic": "ك",
-          "name": "kaaf",
+          "arabic": "ـغـ",
+          "name": "ghayn — medial",
           "audio": {
             "type": "teacher-voice",
-            "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+            "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
           }
         },
         {
-          "arabic": "ل",
-          "name": "lam",
-          "audio": {
-            "type": "youtube-cue",
-            "videoId": "-dPYDd4zNio",
-            "startSeconds": 0,
-            "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
-          }
-        },
-        {
-          "arabic": "م",
-          "name": "meem",
+          "arabic": "ـهـ",
+          "name": "ha — medial",
           "audio": {
             "type": "teacher-voice",
-            "cue": "م: the two lips, with nasal resonance — 'm'"
+            "cue": "ha — a light, breathy release from the throat."
+          }
+        },
+        {
+          "arabic": "ـسـ",
+          "name": "seen — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+          }
+        },
+        {
+          "arabic": "ـصـ",
+          "name": "saad — medial",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
           }
         }
       ]
@@ -1170,17 +3147,18 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day",
       "tasks": [
-        "In your notebook, write each of today's 8 letters (ب ت ث ن ي ك ل م) in all its forms — isolated, initial, medial, final (e.g. ب بـ ـبـ ـب) — 4 full rows per letter, saying its name and sound aloud as you write, then memorize today's forms",
-        "Daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson, aloud, 3× through",
-        "Review: write one row of 5 previously learned letters of your choice in their forms, saying each name and sound aloud as you write"
+        "Re-read Reading set A and Reading set B aloud (26 words), 2× through, naming each letter's form before saying the word.",
+        "Re-read the three combination drills (ج ح خ with the dotted family, م, and ع غ ه), 3× through.",
+        "Write the four forms of ج ح خ ع غ ه — the six hardest shape-shifters — 4 rows each in your notebook, saying the name and sound aloud as you write.",
+        "Tick the box next to any word or cluster you hesitated on, so the teacher can pick it up at the start of lesson 1.8."
       ]
     }
   ],
   "practice": {
     "drills": [
       {
-        "title": "Position-form flashcards",
-        "instructions": "Look at each of ب ت ث ن ي ك ل م shown in isolated / initial / medial / final form (4 cards × 8 letters = 32 cards). Name the letter and state its position.",
+        "title": "Position-form flashcards — the 8 familiar letters",
+        "instructions": "ب ت ث ن ي ك ل م in isolated / initial / medial / final form. Name the letter, its sound, and its position.",
         "grid": [
           [
             {
@@ -1188,7 +3166,7 @@
               "name": "ba — isolated",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "lips fully together"
+                "cue": "ba — both lips close fully, then release."
               }
             },
             {
@@ -1196,7 +3174,7 @@
               "name": "ba — initial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "lips fully together"
+                "cue": "ba — both lips close fully, then release."
               }
             },
             {
@@ -1204,7 +3182,7 @@
               "name": "ba — medial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "lips fully together"
+                "cue": "ba — both lips close fully, then release."
               }
             },
             {
@@ -1212,7 +3190,7 @@
               "name": "ba — final",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "lips fully together"
+                "cue": "ba — both lips close fully, then release."
               }
             }
           ],
@@ -1222,7 +3200,7 @@
               "name": "ta — isolated",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue-tip on gum ridge"
+                "cue": "ta — tongue-tip on the ridge behind the upper front teeth, light."
               }
             },
             {
@@ -1230,7 +3208,7 @@
               "name": "ta — initial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue-tip on gum ridge"
+                "cue": "ta — tongue-tip on the ridge behind the upper front teeth, light."
               }
             },
             {
@@ -1238,7 +3216,7 @@
               "name": "ta — medial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue-tip on gum ridge"
+                "cue": "ta — tongue-tip on the ridge behind the upper front teeth, light."
               }
             },
             {
@@ -1246,7 +3224,7 @@
               "name": "ta — final",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue-tip on gum ridge"
+                "cue": "ta — tongue-tip on the ridge behind the upper front teeth, light."
               }
             }
           ],
@@ -1256,7 +3234,7 @@
               "name": "tha — isolated",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue between teeth"
+                "cue": "tha — tongue-tip between the teeth, unvoiced 'th' as in think."
               }
             },
             {
@@ -1264,7 +3242,7 @@
               "name": "tha — initial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue between teeth"
+                "cue": "tha — tongue-tip between the teeth, unvoiced 'th' as in think."
               }
             },
             {
@@ -1272,7 +3250,7 @@
               "name": "tha — medial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue between teeth"
+                "cue": "tha — tongue-tip between the teeth, unvoiced 'th' as in think."
               }
             },
             {
@@ -1280,7 +3258,7 @@
               "name": "tha — final",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "tongue between teeth"
+                "cue": "tha — tongue-tip between the teeth, unvoiced 'th' as in think."
               }
             }
           ],
@@ -1289,40 +3267,32 @@
               "arabic": "ن",
               "name": "nun — isolated",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "BDgw0fWZwMU",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+                "type": "teacher-voice",
+                "cue": "nun — tongue-tip on the gum ridge, the sound resonating in the nose."
               }
             },
             {
               "arabic": "نـ",
               "name": "nun — initial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "BDgw0fWZwMU",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+                "type": "teacher-voice",
+                "cue": "nun — tongue-tip on the gum ridge, the sound resonating in the nose."
               }
             },
             {
               "arabic": "ـنـ",
               "name": "nun — medial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "BDgw0fWZwMU",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+                "type": "teacher-voice",
+                "cue": "nun — tongue-tip on the gum ridge, the sound resonating in the nose."
               }
             },
             {
               "arabic": "ـن",
               "name": "nun — final",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "BDgw0fWZwMU",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 9 — ن (nun)"
+                "type": "teacher-voice",
+                "cue": "nun — tongue-tip on the gum ridge, the sound resonating in the nose."
               }
             }
           ],
@@ -1332,7 +3302,7 @@
               "name": "ya — isolated",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+                "cue": "ya — middle of the tongue rises toward the roof of the mouth."
               }
             },
             {
@@ -1340,7 +3310,7 @@
               "name": "ya — initial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+                "cue": "ya — middle of the tongue rises toward the roof of the mouth."
               }
             },
             {
@@ -1348,7 +3318,7 @@
               "name": "ya — medial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+                "cue": "ya — middle of the tongue rises toward the roof of the mouth."
               }
             },
             {
@@ -1356,7 +3326,7 @@
               "name": "ya — final",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ي: middle of tongue toward the roof of the mouth — a consonant 'y'"
+                "cue": "ya — middle of the tongue rises toward the roof of the mouth."
               }
             }
           ],
@@ -1366,7 +3336,7 @@
               "name": "kaaf — isolated",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+                "cue": "kaaf — back of the tongue on the soft palate, shallow and light."
               }
             },
             {
@@ -1374,7 +3344,7 @@
               "name": "kaaf — initial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+                "cue": "kaaf — back of the tongue on the soft palate, shallow and light."
               }
             },
             {
@@ -1382,7 +3352,7 @@
               "name": "kaaf — medial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+                "cue": "kaaf — back of the tongue on the soft palate, shallow and light."
               }
             },
             {
@@ -1390,7 +3360,7 @@
               "name": "kaaf — final",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "ك: back of tongue against the soft palate, shallower in the mouth than ق — a plain 'k'"
+                "cue": "kaaf — back of the tongue on the soft palate, shallow and light."
               }
             }
           ],
@@ -1399,40 +3369,32 @@
               "arabic": "ل",
               "name": "lam — isolated",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "-dPYDd4zNio",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+                "type": "teacher-voice",
+                "cue": "lam — tongue tip and sides against the gum ridge."
               }
             },
             {
               "arabic": "لـ",
               "name": "lam — initial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "-dPYDd4zNio",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+                "type": "teacher-voice",
+                "cue": "lam — tongue tip and sides against the gum ridge."
               }
             },
             {
               "arabic": "ـلـ",
               "name": "lam — medial",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "-dPYDd4zNio",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+                "type": "teacher-voice",
+                "cue": "lam — tongue tip and sides against the gum ridge."
               }
             },
             {
               "arabic": "ـل",
               "name": "lam — final",
               "audio": {
-                "type": "youtube-cue",
-                "videoId": "-dPYDd4zNio",
-                "startSeconds": 0,
-                "title": "Arabic101 Makharij Lesson 8 — ل (lam)"
+                "type": "teacher-voice",
+                "cue": "lam — tongue tip and sides against the gum ridge."
               }
             }
           ],
@@ -1442,7 +3404,7 @@
               "name": "meem — isolated",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "م: the two lips, with nasal resonance — 'm'"
+                "cue": "meem — both lips closed, the sound resonating in the nose."
               }
             },
             {
@@ -1450,7 +3412,7 @@
               "name": "meem — initial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "م: the two lips, with nasal resonance — 'm'"
+                "cue": "meem — both lips closed, the sound resonating in the nose."
               }
             },
             {
@@ -1458,7 +3420,7 @@
               "name": "meem — medial",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "م: the two lips, with nasal resonance — 'm'"
+                "cue": "meem — both lips closed, the sound resonating in the nose."
               }
             },
             {
@@ -1466,7 +3428,489 @@
               "name": "meem — final",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "م: the two lips, with nasal resonance — 'm'"
+                "cue": "meem — both lips closed, the sound resonating in the nose."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Position-form flashcards — the 14 harder connectors",
+        "instructions": "ج ح خ س ش ص ض ط ظ ع غ ف ق ه in all four positions. Same task. These are the ones that change the most — do this set daily until the medial forms are instant.",
+        "grid": [
+          [
+            {
+              "arabic": "ج",
+              "name": "jeem — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+              }
+            },
+            {
+              "arabic": "جـ",
+              "name": "jeem — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+              }
+            },
+            {
+              "arabic": "ـجـ",
+              "name": "jeem — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+              }
+            },
+            {
+              "arabic": "ـج",
+              "name": "jeem — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jeem — middle of the tongue presses the roof of the mouth, a soft j."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ح",
+              "name": "haa — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+              }
+            },
+            {
+              "arabic": "حـ",
+              "name": "haa — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+              }
+            },
+            {
+              "arabic": "ـحـ",
+              "name": "haa — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+              }
+            },
+            {
+              "arabic": "ـح",
+              "name": "haa — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "haa — strong breathy friction from the middle of the throat, no scrape."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "خ",
+              "name": "kha — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "kha — a scrape from the upper throat, like gently clearing it."
+              }
+            },
+            {
+              "arabic": "خـ",
+              "name": "kha — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "kha — a scrape from the upper throat, like gently clearing it."
+              }
+            },
+            {
+              "arabic": "ـخـ",
+              "name": "kha — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "kha — a scrape from the upper throat, like gently clearing it."
+              }
+            },
+            {
+              "arabic": "ـخ",
+              "name": "kha — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "kha — a scrape from the upper throat, like gently clearing it."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "س",
+              "name": "seen — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+              }
+            },
+            {
+              "arabic": "سـ",
+              "name": "seen — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+              }
+            },
+            {
+              "arabic": "ـسـ",
+              "name": "seen — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+              }
+            },
+            {
+              "arabic": "ـس",
+              "name": "seen — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "seen — thin hiss, tongue-tip near the lower teeth."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ش",
+              "name": "sheen — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+              }
+            },
+            {
+              "arabic": "شـ",
+              "name": "sheen — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+              }
+            },
+            {
+              "arabic": "ـشـ",
+              "name": "sheen — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+              }
+            },
+            {
+              "arabic": "ـش",
+              "name": "sheen — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sheen — middle of the tongue on the roof of the mouth, a spread hiss."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ص",
+              "name": "saad — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+              }
+            },
+            {
+              "arabic": "صـ",
+              "name": "saad — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+              }
+            },
+            {
+              "arabic": "ـصـ",
+              "name": "saad — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+              }
+            },
+            {
+              "arabic": "ـص",
+              "name": "saad — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "saad — the seen point, but the back of the tongue raised: heavy and hollow."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ض",
+              "name": "daad — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "daad — side of the tongue against the upper molars, heavy."
+              }
+            },
+            {
+              "arabic": "ضـ",
+              "name": "daad — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "daad — side of the tongue against the upper molars, heavy."
+              }
+            },
+            {
+              "arabic": "ـضـ",
+              "name": "daad — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "daad — side of the tongue against the upper molars, heavy."
+              }
+            },
+            {
+              "arabic": "ـض",
+              "name": "daad — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "daad — side of the tongue against the upper molars, heavy."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ط",
+              "name": "taa — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "taa — the ta point with a full, heavy mouth cavity."
+              }
+            },
+            {
+              "arabic": "طـ",
+              "name": "taa — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "taa — the ta point with a full, heavy mouth cavity."
+              }
+            },
+            {
+              "arabic": "ـطـ",
+              "name": "taa — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "taa — the ta point with a full, heavy mouth cavity."
+              }
+            },
+            {
+              "arabic": "ـط",
+              "name": "taa — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "taa — the ta point with a full, heavy mouth cavity."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ظ",
+              "name": "dhaa — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+              }
+            },
+            {
+              "arabic": "ظـ",
+              "name": "dhaa — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+              }
+            },
+            {
+              "arabic": "ـظـ",
+              "name": "dhaa — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+              }
+            },
+            {
+              "arabic": "ـظ",
+              "name": "dhaa — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "dhaa — the dhal point with a full, heavy mouth cavity."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ع",
+              "name": "ayn — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+              }
+            },
+            {
+              "arabic": "عـ",
+              "name": "ayn — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+              }
+            },
+            {
+              "arabic": "ـعـ",
+              "name": "ayn — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+              }
+            },
+            {
+              "arabic": "ـع",
+              "name": "ayn — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ayn — a voiced squeeze from the middle of the throat, never a hamza."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "غ",
+              "name": "ghayn — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+              }
+            },
+            {
+              "arabic": "غـ",
+              "name": "ghayn — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+              }
+            },
+            {
+              "arabic": "ـغـ",
+              "name": "ghayn — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+              }
+            },
+            {
+              "arabic": "ـغ",
+              "name": "ghayn — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ghayn — a voiced gargle from the upper throat, the voiced pair of kha."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ف",
+              "name": "fa — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "fa — inner lower lip against the edge of the upper front teeth."
+              }
+            },
+            {
+              "arabic": "فـ",
+              "name": "fa — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "fa — inner lower lip against the edge of the upper front teeth."
+              }
+            },
+            {
+              "arabic": "ـفـ",
+              "name": "fa — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "fa — inner lower lip against the edge of the upper front teeth."
+              }
+            },
+            {
+              "arabic": "ـف",
+              "name": "fa — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "fa — inner lower lip against the edge of the upper front teeth."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ق",
+              "name": "qaaf — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+              }
+            },
+            {
+              "arabic": "قـ",
+              "name": "qaaf — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+              }
+            },
+            {
+              "arabic": "ـقـ",
+              "name": "qaaf — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+              }
+            },
+            {
+              "arabic": "ـق",
+              "name": "qaaf — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "qaaf — back of the tongue against the soft palate, deep and heavy."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ه",
+              "name": "ha — isolated",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ha — a light, breathy release from the throat."
+              }
+            },
+            {
+              "arabic": "هـ",
+              "name": "ha — initial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ha — a light, breathy release from the throat."
+              }
+            },
+            {
+              "arabic": "ـهـ",
+              "name": "ha — medial",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ha — a light, breathy release from the throat."
+              }
+            },
+            {
+              "arabic": "ـه",
+              "name": "ha — final",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ha — a light, breathy release from the throat."
               }
             }
           ]
@@ -1474,7 +3918,7 @@
       },
       {
         "title": "Cluster-reading drill (2-letter, unvoweled)",
-        "instructions": "Read each, naming the two component letters and identifying which form each took.",
+        "instructions": "Read each cluster, naming the two component letters and which form each took.",
         "grid": [
           [
             {
@@ -1545,26 +3989,375 @@
         ]
       },
       {
-        "title": "Cluster-reading drill (3-letter, unvoweled)",
-        "instructions": "Read each cluster aloud. These are not meant as vocabulary to translate — purely shape-recognition-in-context practice.",
+        "instructions": "Each cluster pairs a bowl letter (ج ح خ) with a dotted-body letter (ب ت ث ن ي). Read right to left. Name both letters and say which form each one took — notice how completely the bowl letter changes depending on whether it leads the cluster or ends it.",
         "grid": [
           [
             {
-              "arabic": "كتب",
-              "name": "kaaf + ta + ba",
+              "arabic": "جب",
+              "name": "jeem + ba",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read كتب aloud, letter by letter: kaaf + ta + ba — then blend them smoothly."
+                "cue": "Read جب aloud, letter by letter: jeem + ba — then blend them smoothly."
               }
             },
             {
-              "arabic": "بنت",
-              "name": "ba + nun + ta",
+              "arabic": "جت",
+              "name": "jeem + ta",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read بنت aloud, letter by letter: ba + nun + ta — then blend them smoothly."
+                "cue": "Read جت aloud, letter by letter: jeem + ta — then blend them smoothly."
               }
             },
+            {
+              "arabic": "جث",
+              "name": "jeem + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جث aloud, letter by letter: jeem + tha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "جن",
+              "name": "jeem + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جن aloud, letter by letter: jeem + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "جي",
+              "name": "jeem + ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جي aloud, letter by letter: jeem + ya — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حب",
+              "name": "haa + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حب aloud, letter by letter: haa + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "حت",
+              "name": "haa + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حت aloud, letter by letter: haa + ta — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "حث",
+              "name": "haa + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حث aloud, letter by letter: haa + tha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "حن",
+              "name": "haa + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حن aloud, letter by letter: haa + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "حي",
+              "name": "haa + ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حي aloud, letter by letter: haa + ya — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "خب",
+              "name": "kha + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خب aloud, letter by letter: kha + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "خت",
+              "name": "kha + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خت aloud, letter by letter: kha + ta — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "خث",
+              "name": "kha + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خث aloud, letter by letter: kha + tha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "خن",
+              "name": "kha + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خن aloud, letter by letter: kha + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "خي",
+              "name": "kha + ya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خي aloud, letter by letter: kha + ya — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بج",
+              "name": "ba + jeem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بج aloud, letter by letter: ba + jeem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "تج",
+              "name": "ta + jeem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تج aloud, letter by letter: ta + jeem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نج",
+              "name": "nun + jeem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نج aloud, letter by letter: nun + jeem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "يج",
+              "name": "ya + jeem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read يج aloud, letter by letter: ya + jeem — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بح",
+              "name": "ba + haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بح aloud, letter by letter: ba + haa — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "تح",
+              "name": "ta + haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تح aloud, letter by letter: ta + haa — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نح",
+              "name": "nun + haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نح aloud, letter by letter: nun + haa — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "يح",
+              "name": "ya + haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read يح aloud, letter by letter: ya + haa — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بخ",
+              "name": "ba + kha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بخ aloud, letter by letter: ba + kha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "تخ",
+              "name": "ta + kha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تخ aloud, letter by letter: ta + kha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نخ",
+              "name": "nun + kha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نخ aloud, letter by letter: nun + kha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "يخ",
+              "name": "ya + kha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read يخ aloud, letter by letter: ya + kha — then blend them smoothly."
+              }
+            }
+          ]
+        ],
+        "title": "Combination drill — ج ح خ meet the dotted family"
+      },
+      {
+        "instructions": "م is one of the most frequent letters in Arabic and it turns up in every position. Read each cluster right to left, naming both letters and the form م took. The last row puts م in the middle, where it hangs its loop below the line.",
+        "grid": [
+          [
+            {
+              "arabic": "مب",
+              "name": "meem + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مب aloud, letter by letter: meem + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مت",
+              "name": "meem + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مت aloud, letter by letter: meem + ta — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "من",
+              "name": "meem + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read من aloud, letter by letter: meem + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مك",
+              "name": "meem + kaaf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مك aloud, letter by letter: meem + kaaf — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مل",
+              "name": "meem + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مل aloud, letter by letter: meem + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مس",
+              "name": "meem + seen",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مس aloud, letter by letter: meem + seen — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مح",
+              "name": "meem + haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مح aloud, letter by letter: meem + haa — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مج",
+              "name": "meem + jeem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مج aloud, letter by letter: meem + jeem — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بم",
+              "name": "ba + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بم aloud, letter by letter: ba + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "تم",
+              "name": "ta + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تم aloud, letter by letter: ta + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نم",
+              "name": "nun + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نم aloud, letter by letter: nun + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "كم",
+              "name": "kaaf + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read كم aloud, letter by letter: kaaf + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "لم",
+              "name": "lam + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لم aloud, letter by letter: lam + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "سم",
+              "name": "seen + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سم aloud, letter by letter: seen + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "حم",
+              "name": "haa + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حم aloud, letter by letter: haa + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "جم",
+              "name": "jeem + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جم aloud, letter by letter: jeem + meem — then blend them smoothly."
+              }
+            }
+          ],
+          [
             {
               "arabic": "لمن",
               "name": "lam + meem + nun",
@@ -1574,11 +4367,600 @@
               }
             },
             {
-              "arabic": "تكن",
-              "name": "ta + kaaf + nun",
+              "arabic": "سمح",
+              "name": "seen + meem + haa",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read تكن aloud, letter by letter: ta + kaaf + nun — then blend them smoothly."
+                "cue": "Read سمح aloud, letter by letter: seen + meem + haa — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "حمل",
+              "name": "haa + meem + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حمل aloud, letter by letter: haa + meem + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "جمل",
+              "name": "jeem + meem + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جمل aloud, letter by letter: jeem + meem + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "قمح",
+              "name": "qaaf + meem + haa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قمح aloud, letter by letter: qaaf + meem + haa — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نمل",
+              "name": "nun + meem + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نمل aloud, letter by letter: nun + meem + lam — then blend them smoothly."
+              }
+            }
+          ]
+        ],
+        "title": "Combination drill — م joins everything"
+      },
+      {
+        "instructions": "The three biggest shape-shifters, now in context. Name both letters in each cluster and the form each took — especially in the last row, where the medial forms look nothing like the isolated letters.",
+        "grid": [
+          [
+            {
+              "arabic": "عب",
+              "name": "ayn + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عب aloud, letter by letter: ayn + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "عت",
+              "name": "ayn + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عت aloud, letter by letter: ayn + ta — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "عن",
+              "name": "ayn + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عن aloud, letter by letter: ayn + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "عل",
+              "name": "ayn + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عل aloud, letter by letter: ayn + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "عم",
+              "name": "ayn + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عم aloud, letter by letter: ayn + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "غب",
+              "name": "ghayn + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غب aloud, letter by letter: ghayn + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "غت",
+              "name": "ghayn + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غت aloud, letter by letter: ghayn + ta — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "غن",
+              "name": "ghayn + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غن aloud, letter by letter: ghayn + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "غل",
+              "name": "ghayn + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غل aloud, letter by letter: ghayn + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "غم",
+              "name": "ghayn + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غم aloud, letter by letter: ghayn + meem — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بع",
+              "name": "ba + ayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بع aloud, letter by letter: ba + ayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "تع",
+              "name": "ta + ayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تع aloud, letter by letter: ta + ayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نع",
+              "name": "nun + ayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نع aloud, letter by letter: nun + ayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "لع",
+              "name": "lam + ayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لع aloud, letter by letter: lam + ayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مع",
+              "name": "meem + ayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مع aloud, letter by letter: meem + ayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "بغ",
+              "name": "ba + ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بغ aloud, letter by letter: ba + ghayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "تغ",
+              "name": "ta + ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تغ aloud, letter by letter: ta + ghayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نغ",
+              "name": "nun + ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نغ aloud, letter by letter: nun + ghayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "لغ",
+              "name": "lam + ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لغ aloud, letter by letter: lam + ghayn — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مغ",
+              "name": "meem + ghayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مغ aloud, letter by letter: meem + ghayn — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "هب",
+              "name": "ha + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read هب aloud, letter by letter: ha + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "هت",
+              "name": "ha + ta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read هت aloud, letter by letter: ha + ta — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "هن",
+              "name": "ha + nun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read هن aloud, letter by letter: ha + nun — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "هل",
+              "name": "ha + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read هل aloud, letter by letter: ha + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "هم",
+              "name": "ha + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read هم aloud, letter by letter: ha + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "به",
+              "name": "ba + ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read به aloud, letter by letter: ba + ha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "ته",
+              "name": "ta + ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ته aloud, letter by letter: ta + ha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نه",
+              "name": "nun + ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نه aloud, letter by letter: nun + ha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "له",
+              "name": "lam + ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read له aloud, letter by letter: lam + ha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "مه",
+              "name": "meem + ha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مه aloud, letter by letter: meem + ha — then blend them smoothly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سهل",
+              "name": "seen + ha + lam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سهل aloud, letter by letter: seen + ha + lam — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "فهم",
+              "name": "fa + ha + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فهم aloud, letter by letter: fa + ha + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "بعث",
+              "name": "ba + ayn + tha",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بعث aloud, letter by letter: ba + ayn + tha — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "شعب",
+              "name": "sheen + ayn + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شعب aloud, letter by letter: sheen + ayn + ba — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "نعم",
+              "name": "nun + ayn + meem",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نعم aloud, letter by letter: nun + ayn + meem — then blend them smoothly."
+              }
+            },
+            {
+              "arabic": "لعب",
+              "name": "lam + ayn + ba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لعب aloud, letter by letter: lam + ayn + ba — then blend them smoothly."
+              }
+            }
+          ]
+        ],
+        "title": "Combination drill — ع غ ه inside clusters"
+      },
+      {
+        "title": "Reading set A — 13 real words, no vowel marks",
+        "instructions": "Real Arabic words, written the way you will always meet them: joined, unvoweled. Every letter here is a connector, so every joint is visible — nothing breaks yet. Read right to left; name each letter and its form first, then say the word. You are not learning vocabulary here, you are proving you can see the letters inside a real word.",
+        "grid": [
+          [
+            {
+              "arabic": "بيت",
+              "name": "bayt — house",
+              "translit": "bayt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بيت right to left, letter by letter (ba + ya + ta), then blend: bayt — “house”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "جبل",
+              "name": "jabal — mountain",
+              "translit": "jabal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جبل right to left, letter by letter (jeem + ba + lam), then blend: jabal — “mountain”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "قلب",
+              "name": "qalb — heart",
+              "translit": "qalb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قلب right to left, letter by letter (qaaf + lam + ba), then blend: qalb — “heart”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "ثعلب",
+              "name": "thaʿlab — fox",
+              "translit": "thaʿlab",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ثعلب right to left, letter by letter (tha + ayn + lam + ba), then blend: thaʿlab — “fox”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "مثل",
+              "name": "mithl — like, similar",
+              "translit": "mithl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مثل right to left, letter by letter (meem + tha + lam), then blend: mithl — “like, similar”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "ثلث",
+              "name": "thuluth — one third",
+              "translit": "thuluth",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ثلث right to left, letter by letter (tha + lam + tha), then blend: thuluth — “one third”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "جمل",
+              "name": "jamal — camel",
+              "translit": "jamal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جمل right to left, letter by letter (jeem + meem + lam), then blend: jamal — “camel”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "خليج",
+              "name": "khalīj — gulf",
+              "translit": "khalīj",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خليج right to left, letter by letter (kha + lam + ya + jeem), then blend: khalīj — “gulf”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "فتح",
+              "name": "fatḥ — opening",
+              "translit": "fatḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فتح right to left, letter by letter (fa + ta + haa), then blend: fatḥ — “opening”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "طبخ",
+              "name": "ṭabkh — cooking",
+              "translit": "ṭabkh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طبخ right to left, letter by letter (taa + ba + kha), then blend: ṭabkh — “cooking”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "سمك",
+              "name": "samak — fish",
+              "translit": "samak",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سمك right to left, letter by letter (seen + meem + kaaf), then blend: samak — “fish”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "شمس",
+              "name": "shams — sun",
+              "translit": "shams",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شمس right to left, letter by letter (sheen + meem + seen), then blend: shams — “sun”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "قميص",
+              "name": "qamīṣ — shirt",
+              "translit": "qamīṣ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قميص right to left, letter by letter (qaaf + meem + ya + saad), then blend: qamīṣ — “shirt”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Reading set B — 13 more real words",
+        "instructions": "Same task, now weighted toward today's hard shape-shifters (ع غ ه ج ح خ ص ض ط ظ). Read right to left, letter by letter, then blend.",
+        "grid": [
+          [
+            {
+              "arabic": "غضب",
+              "name": "ghaḍab — anger",
+              "translit": "ghaḍab",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غضب right to left, letter by letter (ghayn + daad + ba), then blend: ghaḍab — “anger”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "بعض",
+              "name": "baʿḍ — some",
+              "translit": "baʿḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بعض right to left, letter by letter (ba + ayn + daad), then blend: baʿḍ — “some”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "حطب",
+              "name": "ḥaṭab — firewood",
+              "translit": "ḥaṭab",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حطب right to left, letter by letter (haa + taa + ba), then blend: ḥaṭab — “firewood”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "خط",
+              "name": "khaṭṭ — line",
+              "translit": "khaṭṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خط right to left, letter by letter (kha + taa), then blend: khaṭṭ — “line”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "ظل",
+              "name": "ẓill — shade",
+              "translit": "ẓill",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظل right to left, letter by letter (dhaa + lam), then blend: ẓill — “shade”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "حفظ",
+              "name": "ḥifẓ — memorization",
+              "translit": "ḥifẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حفظ right to left, letter by letter (haa + fa + dhaa), then blend: ḥifẓ — “memorization”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "عين",
+              "name": "ʿayn — eye",
+              "translit": "ʿayn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عين right to left, letter by letter (ayn + ya + nun), then blend: ʿayn — “eye”. No vowel marks yet: name each letter and the shape it took."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "غيم",
+              "name": "ghaym — cloud",
+              "translit": "ghaym",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غيم right to left, letter by letter (ghayn + ya + meem), then blend: ghaym — “cloud”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "فيل",
+              "name": "fīl — elephant",
+              "translit": "fīl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فيل right to left, letter by letter (fa + ya + lam), then blend: fīl — “elephant”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "ضعف",
+              "name": "ḍaʿf — weakness",
+              "translit": "ḍaʿf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضعف right to left, letter by letter (daad + ayn + fa), then blend: ḍaʿf — “weakness”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "قلم",
+              "name": "qalam — pen",
+              "translit": "qalam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قلم right to left, letter by letter (qaaf + lam + meem), then blend: qalam — “pen”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "بنت",
+              "name": "bint — girl",
+              "translit": "bint",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بنت right to left, letter by letter (ba + nun + ta), then blend: bint — “girl”. No vowel marks yet: name each letter and the shape it took."
+              }
+            },
+            {
+              "arabic": "لبن",
+              "name": "laban — milk",
+              "translit": "laban",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لبن right to left, letter by letter (lam + ba + nun), then blend: laban — “milk”. No vowel marks yet: name each letter and the shape it took."
               }
             }
           ]
@@ -1586,26 +4968,35 @@
       }
     ],
     "dailyChecklist": [
-      "Write today's 8 letters (ب ت ث ن ي ك ل م) in all forms (isolated/initial/medial/final) 4 rows each in your notebook, saying the name and sound aloud as you write",
-      "Re-read the 8 two-letter and 4 three-letter clusters aloud, 3× through",
-      "Review: write one row of 5 previously learned letters in their forms, saying each name and sound aloud as you write"
+      "Run the 14-letter hard-connector flashcard sheet once through, naming letter + sound + position for every cell.",
+      "Read the 26 words in Reading sets A and B aloud, 2× through — letter names first, then the blended word.",
+      "Re-read the ج ح خ, م, and ع غ ه combination drills, 3× through.",
+      "Write the four forms of ج ح خ ع غ ه, 4 rows each in your notebook, saying the name and sound aloud as you write.",
+      "Tick any word or cluster that made you hesitate, for teacher follow-up next lesson."
     ]
   },
   "teacherNotes": {
     "script": [
-      "Open with a full 28-letter cumulative shuffle before introducing positional shape-shifting.",
-      "Model ب's four position forms side by side first — same dot, different body — before the ت/ث/ن/ي and ك/ل/م groups.",
-      "Run the guided recognition drill on all 8 focus letters before moving to 2-letter cluster reading.",
-      "Confirm the concept generalizes with a few non-focus Unit 1.1 letters (ح ص ق) in position-form, not just today's 8.",
-      "Watch for left-to-right reading habit carrying over from the student's other literacy — correct direction slips immediately, especially on the very first cluster.",
-      "Treat isolated-shape reversion in medial position as an expected early confusion to coach through, not a graded mistake."
+      "Open with the 28-letter shuffle recap — this is the last lesson before joining mechanics get complicated, so confirm the sound inventory is still solid before adding shape load.",
+      "Teach the rule first (slide 3): the sound never changes, the shape does. Say it once, then prove it eight times.",
+      "Work the easy families first (ب / ت ث ن ي / ك ل م). These barely change — the student should feel early success here.",
+      "Then the hard families in order of difficulty: bowl (ج ح خ), then ع غ, then ه, then the teeth and plates (س ش ص ض), then the small-change letters (ط ظ ف ق). Explicitly tell the student that ط ظ are the easy reward after ه.",
+      "For ج ح خ and ع غ and ه, cover the isolated form with your hand and ask the student to name the letter from the medial form alone. This is the actual skill; the four-form table is only the reference.",
+      "Run the two flashcard drills as recognition rounds, not recitation — point in random order, never alphabetical.",
+      "The three combination drills are the core of the lesson. Do not skip the reversed rows (bowl letter at the end) — that is where the shape difference is largest and where students stall.",
+      "Reading sets A and B are all fully-connecting words on purpose: every joint is visible and nothing breaks. Do not explain gaps yet — the 6 non-connectors are lesson 1.8 and introducing them here will confuse the joining picture.",
+      "If time runs short, cut the abstract cluster drills (slides 14 and 19) before cutting the reading sets. Reading real joined words is the transferable skill."
     ],
     "listenFor": [
-      "Student mentally reverting to isolated-letter shapes and stalling/mis-reading when a letter appears in medial form — common early confusion, expect and coach through it rather than treating it as a \"mistake\" per se.",
-      "Student reading left-to-right out of habit (if their other literacy, Cyrillic/Latin Uzbek, is LTR) — watch for direction slips, especially on the very first cluster of the lesson.",
-      "Sounds regressing on letters that were solid in isolation (e.g., ث or ح appearing in a cluster) — confirms whether errors from Unit 1.1 were truly fixed or were \"isolation-only\" fixes that don't yet transfer to reading context."
+      "Student mentally reverting to isolated-letter shapes and stalling when a letter appears in medial form — expect this most on ـهـ, ـعـ and ـجـ, and coach through it rather than treating it as an error.",
+      "ه medial (ـهـ) misread as ب or م — the squashed medial form is the single most confusable glyph in the alphabet at this stage.",
+      "ع and غ initial forms (عـ غـ) read as each other because the student is reading the body and not checking the dot.",
+      "ج ح خ distinguished by guessing rather than by dot position once the tail is gone in initial/medial form.",
+      "Student reading left-to-right out of habit (Cyrillic/Latin Uzbek literacy carries over) — watch the very first cluster of every drill.",
+      "Sounds regressing on letters that were solid in isolation (especially ث, ح, ض, ع, ق) once they sit inside a cluster or word — this tells you whether Unit 1.1 fixes were real or isolation-only.",
+      "Heaviness (tafkheem) on ص ض ط ظ dropping away inside a word even when it was correct on the flashcard."
     ],
-    "homework": "In the student's notebook: today's 8 letters (ب ت ث ن ي ك ل م) written in all forms — isolated, initial, medial, final — 4 full rows per letter, saying name and sound aloud while writing, then memorized; daily re-reading of the 8 two-letter and 4 three-letter clusters from the lesson aloud, 3× through; a review row of 5 previously learned letters written in their forms, name and sound said aloud while writing. No printed sheets."
+    "homework": "Reading sets A and B (26 fully-connecting words) aloud 2× daily, the three combination drills 3× through, and the four forms of the six hardest shape-shifters written 4 rows each. Student ticks anything they hesitated on."
   },
   "videos": [
     {

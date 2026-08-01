@@ -80,7 +80,7 @@ export const LessonSchema = z.object({
   unit: z.string().min(1),            // "1.1"
   title: z.string().min(1),
   objectives: z.array(z.string()).min(1).max(4),
-  slides: z.array(SlideSchema).min(8).max(18), // spec: 8–18 slides/lesson
+  slides: z.array(SlideSchema).min(8).max(24), // spec: 8–18 typical; extended to 24 for the Unit 1.2 joining lessons
   practice: z.object({ drills: z.array(DrillSchema), dailyChecklist: z.array(z.string()).min(1) }),
   teacherNotes: z.object({
     script: z.array(z.string()).min(1),
