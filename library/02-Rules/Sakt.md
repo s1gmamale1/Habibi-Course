@@ -5,7 +5,7 @@ arabic: السكت
 translit: as-Sakt
 english: Brief Silent Pause
 family: waqf
-taught_in: "3-25"
+taught_in: "3-34"
 prerequisites: [waqf_types]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

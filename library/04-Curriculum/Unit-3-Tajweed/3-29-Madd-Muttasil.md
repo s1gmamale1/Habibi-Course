@@ -33,7 +33,7 @@ examples:
     note: "word-internal, so the madd survives whether she joins or stops"
 ---
 
-# Lesson 3.28 — Madd Wājib Muttaṣil
+# Lesson 3-29 — Madd Wājib Muttaṣil
 
 ## Objectives
 

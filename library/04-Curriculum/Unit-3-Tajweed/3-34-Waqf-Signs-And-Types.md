@@ -4,7 +4,7 @@ id: "3-34"
 unit: "3.7"
 stage: Waqf
 title: Waqf Signs and the Types of Stopping
-teaches: [waqf_signs, waqf_types]
+teaches: [waqf_signs, waqf_types, sakt]
 prerequisites: ["2-12", "3-33"]
 hifz: "106:3-106:4"
 status: draft
@@ -36,7 +36,7 @@ examples:
     note: "never stop mid-negation — stopping after لَآ إِلَٰهَ inverts the creed"
 ---
 
-# Lesson 3.33 — Waqf Signs and the Types of Stopping
+# Lesson 3-34 — Waqf Signs and the Types of Stopping
 
 > **Opening lesson of Unit 3.7.** She has stopped competently since 2-12; what she has never had
 > is the *classification* — which stops are good ones, and what the little letters above the
@@ -78,11 +78,12 @@ She has been reading past these marks for the entire course. Today they become r
   2-14. Nothing about the physical act of stopping is new today.
 - **Plan the breath before you read** (2-12 §1), and **never stop mid-word** (2-12 §2).
 - **Āyah ends are always safe.** She has been given this as her working rule since Unit 2, and
-  §4 today explains why it is true and where its one limit is.
+  §5 today explains why it is true and where its one limit is.
 - **Madd ʿāriḍ** (3-31) — the rule that only exists at a stop, so every stop she chooses today
   carries a length decision with it.
-- **[[Sakt]]** from 3-25: a pause of about two counts with **no breath**. Today its muṣḥaf sign
-  joins the set.
+
+**What she does not already know: sakt.** She has never met it, under any name. §3 introduces
+it from nothing — do not present it as a reminder.
 
 ## Teaching sequence
 
@@ -116,7 +117,7 @@ first or last page. Read it together. This is a rehearsal of the skill 3-36 §5 
 | **ج** | الوقف الجائز | Stopping and joining are **equally permissible**. |
 | **صلى** | الوصل أولى | Both permitted; **joining is better**. |
 | **قلى** | الوقف أولى | Both permitted; **stopping is better**. |
-| **س / سكتة** | السكتة | **Brief pause, no breath** — [[Sakt]], from 3-25. |
+| **س / سكتة** | السكتة | **Brief pause, no breath** — [[Sakt]]. New today; §3 teaches it. |
 
 Six is enough to read fluently and safely. Anything else on the page: treat it as *"a stop is
 discussed here"* and stop at the āyah end instead.
@@ -130,13 +131,60 @@ discussed here"* and stop at the āyah end instead.
    rosette rather than guess.
 4. **س is not a stop at all.** No breath is taken.
 
-### 3. Explicitly excluded from this course, and why
+### 3. As-Sakt — the pause that is not a stop
+
+The **س** in the table above is the only sign that does not mean *stop*, so it gets its own
+section. She has not met sakt before; introduce it from nothing.
+
+**Sakt** (السكت) is **cutting the sound off for about two ḥarakāt without taking a breath**,
+then continuing. The whole point is that the breath is *not* broken: the two sides of a sakt
+belong to **one continuous utterance**, separated only by silence.
+
+| | **Sakt** | **Waqf** |
+|---|---|---|
+| Breath taken | **no** | yes |
+| Phrase ended | no | yes |
+| Duration | ~2 ḥarakāt | as long as you like |
+
+**Reference examples — outside your memorised surahs.** None of the sakt positions fall in
+al-Fātiḥa or the short surahs, so read these from the muṣḥaf rather than from memory.
+
+**The four obligatory (wājib) sakt in Ḥafṣ via ash-Shāṭibiyyah:**
+
+| # | Place | Why it is there |
+|---|---|---|
+| 1 | **al-Kahf 18:1–2** — عِوَجَا ۜ قَيِّمًا | Joining would let *"a Book with no crookedness"* read as though the Book *has* crookedness. |
+| 2 | **Yā-Sīn 36:52** — مِن مَّرْقَدِنَا ۜ هَٰذَا | Separates the disbelievers' speech from the angels' reply. |
+| 3 | **al-Qiyāmah 75:27** — مَنْ ۜ رَاقٍ | **Blocks an idghām.** Without it, ن merges into ر and the phrase becomes *marrāq*. |
+| 4 | **al-Muṭaffifīn 83:14** — بَلْ ۜ رَانَ | **Blocks an idghām.** Without it, ل merges into ر and it becomes *barrāna*. |
+
+Say the pattern out loud, because it is the interesting thing here: **two of the four are about
+meaning, and two are about phonetics.** In 75:27 and 83:14 the sakt exists for no reason except
+to stop a merger that the general rules she learned in Unit 3.4 would otherwise force. This is
+the first time in the course that a rule exists specifically to *switch another rule off*.
+
+**Two further places are permissible (jāʾiz) rather than obligatory:** the junction between
+al-Anfāl and at-Tawbah — where sakt, waqf **or** waṣl are all allowed, but never with a
+basmalah — and al-Ḥāqqah 69:28–29, مَالِيَهْ ۜ هَلَكَ, where sakt and idghām are both
+transmitted and sakt is preferred by most.
+
+> **The count is disputed, and say so.** Sources give the number of sakt in Ḥafṣ as **4**, **6**
+> or **7**. The disagreement is bookkeeping, not recitation — some count only the obligatory
+> places, some add the two above, some import positions from other ṭuruq. Every source agrees on
+> what you actually *do* at each place. **This course teaches four obligatory and two
+> permissible, and names the disagreement rather than hiding it.**
+
+**In plain terms:** it is a tiny silence in the middle of a sentence — you go quiet for a
+moment but you do not breathe. If you breathe, you have stopped instead, and that is a
+different thing.
+
+### 4. Explicitly excluded from this course, and why
 
 Say what is being left out. A student who later meets an unexplained mark concludes her teacher
 did not know it.
 
 - **∴ … ∴ muʿānaqah** (المعانقة) — three dots at **two** places: stop at **one** of them, never
-  both. Excluded because it needs the tām/kāfī framework in §5 to be secure first.
+  both. Excluded because it needs the tām/kāfī framework in §6 to be secure first.
 - **ق** (قيل عليه الوقف) — "it has been said one may stop here", but joining is better. Excluded
   because learners reliably confuse it with **قلى**.
 
@@ -145,11 +193,11 @@ Also outside this course's set: ص (murakhkhaṣ), صل (qad yūṣal), ز (muja
 
 Tell her: *"You will see these. When you do, stop at the āyah end and ask me."*
 
-### 4. Four types of waqf by **cause**
+### 5. Four types of waqf by **cause**
 
 | Type | Arabic | What it is | Ruling |
 |---|---|---|---|
-| **Ikhtiyārī** | الاختياري | Chosen deliberately | The one classified for quality in §5 |
+| **Ikhtiyārī** | الاختياري | Chosen deliberately | The one classified for quality in §6 |
 | **Iḍṭirārī** | الاضطراري | Compelled — breath, cough, sneeze | Permitted **anywhere**; **resume from before** the stopping point |
 | **Ikhtibārī** | الاختباري | For testing or teaching — stopping on a word to show its waqf form | Teaching contexts only; resume from that word or earlier |
 | **Intiẓārī** | الانتظاري | "Waiting" — gathering variant readings of a word | Specialist qirāʾāt study only |
@@ -162,7 +210,7 @@ from *the restart* (never excused).
 Note that **ikhtibārī is what you and she do in a lesson** every time you ask her to stop on a
 word to show what it becomes. Name it when you do it.
 
-### 5. Four types of waqf by **quality** — Ibn al-Jazarī's scheme
+### 6. Four types of waqf by **quality** — Ibn al-Jazarī's scheme
 
 > **وَبَعْدَ تَجْوِيدِكَ لِلْحُرُوفِ ⁕ لَا بُدَّ مِنْ مَعْرِفَةِ الْوُقُوفِ**
 > *"After mastering the letters, knowledge of the stops is indispensable."*
@@ -180,7 +228,7 @@ Work one example of each, in order — 2:5 (tām), 2:3 (kāfī), 1:2 (ḥasan), 
 رَبِّ ٱلْعَٰلَمِينَ is not, because the phrase is grammatically hanging off what came before.
 Have her stop there and then restart correctly — from ٱلْحَمْدُ, not from رَبِّ.
 
-### 6. The qabīḥ trap — and it is in her own hifz
+### 7. The qabīḥ trap — and it is in her own hifz
 
 > **فَوَيْلٌ لِّلْمُصَلِّينَ** (107:4)
 
@@ -200,7 +248,7 @@ The other one to give her, because it is the most serious in the Qurʾān:
 **لَآ إِلَٰهَ إِلَّا هُوَ** (2:255). Stopping after لَآ إِلَٰهَ alone is a negation of the
 creed. **Never stop mid-negation.**
 
-### 7. Al-Ibtidāʾ — where you **start**, and why it is stricter
+### 8. Al-Ibtidāʾ — where you **start**, and why it is stricter
 
 | | |
 |---|---|
@@ -310,7 +358,7 @@ Three things inside the new portion, all of them today's or recent material:
   beginning أَطْعَمَهُم. Four counts.
 - **106:3 → 106:4** is a **ḥasan** boundary: ٱلَّذِىٓ hangs grammatically off رَبَّ هَٰذَا
   ٱلْبَيْتِ. She may stop at the āyah end; if she does, she restarts from 106:3, not from
-  ٱلَّذِىٓ. Today's §5, applied to her own surah on the day she learns it.
+  ٱلَّذِىٓ. Today's §6, applied to her own surah on the day she learns it.
 
 **Quraysh is complete. Four of eleven done**, with al-Fīl remaining. Say the count.
 

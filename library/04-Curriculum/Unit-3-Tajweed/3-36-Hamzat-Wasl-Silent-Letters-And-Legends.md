@@ -48,7 +48,7 @@ examples:
     note: "the alif appears only at a stop"
 ---
 
-# Lesson 3.35 — Hamzat al-Waṣl in Full, Silent Letters, and How to Read Any Legend
+# Lesson 3-36 — Hamzat al-Waṣl in Full, Silent Letters, and How to Read Any Legend
 
 > **Three topics, one skill: reading marks rather than remembering them.** The first two are
 > classical; §6 is the one this course adds, and it is what end goal 4 actually requires.
