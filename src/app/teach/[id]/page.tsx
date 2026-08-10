@@ -24,7 +24,26 @@ export default async function TeachPage({ params }: { params: Promise<{ id: stri
         </div>
         <div>
           <h2 className="mb-1 font-semibold text-white/90">Listen for (this lesson&apos;s mistakes)</h2>
-          <ul className="list-disc space-y-1 pl-6 text-white/75">{l.teacherNotes.listenFor.map((s) => <li key={s}>{s}</li>)}</ul>
+          <ul className="list-disc space-y-1 pl-6 text-white/75">
+            {l.teacherNotes.listenFor.map((s, i) =>
+              typeof s === "string" ? (
+                <li key={`${i}-${s}`}>{s}</li>
+              ) : (
+                <li key={`${i}-${s.item}`}>
+                  <span className="text-white/90">{s.item}</span>
+                  {s.makhraj ? <span className="text-white/50"> — {s.makhraj}</span> : null}
+                  <div className="text-white/60">Mistake: {s.commonMistake}</div>
+                  {s.whyItHappens ? <div className="text-white/50">Why: {s.whyItHappens}</div> : null}
+                  <div className="text-white/75">Say: “{s.correctionCue}”</div>
+                  {s.severityIfWrong ? (
+                    <div className="text-white/50">
+                      Severity: {s.severityIfWrong === "jali" ? "Jali (major)" : "Khafi (minor)"}
+                    </div>
+                  ) : null}
+                </li>
+              ),
+            )}
+          </ul>
         </div>
         <div>
           <h2 className="mb-1 font-semibold text-white/90">Homework to assign</h2>
