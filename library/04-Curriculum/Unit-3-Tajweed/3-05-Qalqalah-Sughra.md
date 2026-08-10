@@ -5,7 +5,7 @@ unit: "3.1"
 stage: Ḥaqq al-Ḥarf
 title: Qalqalah Ṣughrā — the minor bounce
 teaches: [qalqalah_sughra]
-prerequisites: ["3-03"]
+prerequisites: ["3-04"]
 hifz: "1:7"
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

@@ -6,7 +6,7 @@ translit: al-Ghunnah (as a sifah)
 english: Nasalisation — resonance issuing from the nasal passage
 family: sifat
 letters: [ن, م]
-taught_in: "3-07"
+taught_in: "3-04"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

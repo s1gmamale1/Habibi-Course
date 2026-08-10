@@ -6,7 +6,7 @@ translit: al-Idhlāq
 english: Fluency — the letter comes out quickly and easily
 family: sifat
 letters: [ف, ر, م, ن, ل, ب]
-taught_in: "3-05"
+taught_in: "3-04"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]
