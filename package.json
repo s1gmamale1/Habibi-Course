@@ -11,6 +11,7 @@
     "start": "next start",
     "lint": "eslint",
     "test": "NODE_OPTIONS=--no-experimental-webstorage vitest run",
+    "fetch:timings": "node scripts/fetch-word-timings.mjs",
     "check:refs": "node scripts/check-refs.mjs",
     "check:library": "node scripts/check-library.mjs library"
   },
