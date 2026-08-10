@@ -198,6 +198,59 @@ vendored matn in vocalisation only — the note has رُحْمًا where the ret
 rule is affected, and in at least the first case the **note appears to carry the better
 reading** while the matn shows one of its own documented defects. Neither was changed. This is
 what the printed critical edition is needed to settle.
+
+### The rest of the matn — Jazariyyah, and the final tally
+
+**51 of 59 rules are `verified`.** The ṣifāt went through the same derive-from-the-verse
+treatment as the ikhfāʾ mnemonic: al-Jazariyyah v.20–26 encodes each set as a phrase whose
+*letters are the set*, so the phrase is pulled from the verse, stripped of diacritics, and its
+letters are the answer. All seven multi-letter sets agree; the six single- and double-letter
+ṣifāt are named outright in v.23–26.
+
+Two independent cross-checks, both clean:
+
+- **Every opposed pair exhausts the 29-letter inventory.** v.20 defines five of the ten sets
+  only as *"and for the rest, say the opposite"*, so a wrong count anywhere leaves a pair that
+  does not sum. None does.
+- **The two matns overlap on ghunnah and the meem sākinah** — Jazariyyah v.62–64 against
+  Tuhfat v.17–23, including the wāw/fāʾ warning in both. They agree with each other and with
+  the notes.
+
+Also verified from Jazariyyah: qalqalah's two degrees (v.39), the rāʾ rulings with both
+conditions on tarqīq (v.41–42), the *firq* disagreement (v.43), lām al-jalālah (v.44), waqf
+types (v.74–78), hamzat al-waṣl (v.101–103), the open tāʾ (v.94–100) and rawm/ishmām
+(v.104–105).
+
+### Three source attributions that do not hold
+
+Checking notes against their *cited* source — rather than against the claim — turned up three
+citations that cannot support what they are attached to. **None is a content error; every
+statement involved is standard.** What is missing is a source in this vault that says so.
+
+| Note | Cited | What the source actually contains |
+|---|---|---|
+| [[Hamzat-Wasl]] | Tuhfat **and** Jazariyyah | Tuhfat has **zero** mentions of hamzat al-waṣl, and its own v.3 scopes the poem to *"the noon, the tanwīn, and the madds"*. Jazariyyah v.101–103 does cover it. **Fixed** — the Tuhfat citation was dropped and the note is verified on Jazariyyah alone |
+| [[Silent-Letters]] | Jazariyyah | Supports §1 (hamzat al-waṣl) only. الصفر / المستدير / المستطيل — the two zeros of §2 and §3 — occur **nowhere** in the matn. They are modern Uthmānī *printing* convention. **Now `needs-review`** |
+| [[Waqf-Signs]] | Jazariyyah | **Zero** of م، لا، ج، صلى، قلى، س appear in it, and could not: Ibn al-Jazarī died 833 AH, about five centuries before this sign set. Jazariyyah ch. 13 gives the waqf *types*, which is a different note. Already `needs-review`; the reason is now recorded in the note |
+
+> **This is the check that a claim-by-claim pass misses.** Each of these three notes states
+> things that are true, so reading them against what you already know produces a clean bill.
+> The defect only appears when you ask the narrower question — *does the document named in
+> `sources` contain this?* — and grep for the terms in the cited file. Two of the three were
+> caught by a `grep -c` returning 0.
+
+### What remains, and why each one is stuck
+
+| Rule | Status | Blocker |
+|---|---|---|
+| `sakt` | draft | In neither matn. Ḥafṣ-specific, transmitted via ash-Shāṭibiyyah, which is not vendored |
+| `madd_iwad` · `madd_silah` · `madd_tamkeen` · `madd_farq` | draft | Tuhfat's madd chapters do not name them; Jazariyyah gives madd four verses (v.69–72) and covers only lāzim, wājib and jāʾiz. A fuller madd source is needed |
+| `silent_letters` · `waqf_signs` | needs-review | No vendored source for muṣḥaf marking conventions — see the table above |
+| `hafs_special_words` | needs-review | يَبْصُۜطُ (2:245) and بَصْۜطَةً (7:69): sources genuinely differ on ṣād against sīn. Open item 4 |
+
+**All eight need a source this vault does not have.** They are not blocked on effort, and no
+amount of re-reading the two vendored matns will settle them — which is the useful thing to
+know about them.
 ## Unit 2 scope reconciliation — 2026-08-10
 
 Checked against Phase 1 as shipped at commit `c385ad0` (15 lessons; Unit 1.4 =

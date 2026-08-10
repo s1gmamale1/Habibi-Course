@@ -7,7 +7,7 @@ english: Types of Stopping
 family: waqf
 taught_in: "3-34"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "2:5"

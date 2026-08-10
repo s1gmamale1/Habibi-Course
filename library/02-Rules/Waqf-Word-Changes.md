@@ -7,7 +7,7 @@ english: How Words Change When You Stop
 family: waqf
 taught_in: "3-35"
 prerequisites: [waqf_types]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "1:2"
