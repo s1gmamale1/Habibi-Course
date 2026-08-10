@@ -105,15 +105,19 @@ Framing only. The session is drills and questions.
 
 3. **Then show her the whole ayah, all five rulings, with no card.** She has had this on a card since lesson 3-16. Take the card away today:
 
-   | Phrase | Rule | Nasal |
-   |---|---|---|
-   | أَطْعَمَهُم مِّن | idghām shafawī | 2 counts |
-   | مِّن جُوعٍ | ikhfāʾ ḥaqīqī | 2 counts, light |
-   | جُوعٍ وَءَامَنَهُم | idghām with ghunnah, nāqiṣ | 2 counts |
-   | مِّنْ خَوْفٍۭ | iẓhār ḥalqī | not prolonged |
-   | خَوْفٍۭ → بِسْمِ | iqlāb, on continuing | 2 counts |
+   | Phrase | Rule | Nasal | Chapter |
+   |---|---|---|---|
+   | أَطْعَمَهُم مِّن | idghām shafawī | 2 counts | **meem** |
+   | مِّن جُوعٍ | ikhfāʾ ḥaqīqī | 2 counts, light | noon |
+   | جُوعٍ وَءَامَنَهُم | idghām with ghunnah, nāqiṣ | 2 counts | noon |
+   | مِّنْ خَوْفٍۭ | iẓhār ḥalqī | not prolonged | noon |
+   | خَوْفٍۭ → بِسْمِ | iqlāb, on continuing | 2 counts | noon |
 
    **Eight words. Five rulings. One of them from the meem chapter.** If she can name all five unprompted, the two chapters are joined.
+
+   Then count what that actually amounts to, on the board, against the table above: **106:4 contains four of the five noon rulings.** Iẓhār, ikhfāʾ, idghām with ghunnah, iqlāb — **every family except idghām without ghunnah.** And the one it is missing is the one she can supply from memory in four words: `وَلَمْ يَكُن لَّهُۥ` (112:4).
+
+   So: **two ayāt, one from Quraysh and one from al-Ikhlāṣ, exhaust the entire noon chapter.** Both memorised. If she wants a single thing to carry out of six lessons, it is those two lines and the ability to name everything in them.
 
 ## Examples
 
@@ -147,6 +151,8 @@ The whole quartet, in the sūrahs she recites. Everything here except `ٱلدُ�
 **Drill 2 — the gold contrast.** Ten times, alternating, then the whole ayah in one breath:
 
 **مِّن جُوعٍ** — conceal, two counts · **مِّنْ خَوْفٍۭ** — say it, no hold
+
+**Drill 2b — the whole chapter in two ayāt.** Recite Quraysh 106:4, then al-Ikhlāṣ 112:4, both from memory. Name every ruling in each. Between them you should produce **all five noon rules and one meem rule** — and you should be able to say which of the five came from which ayah. Do this before Drill 3; if it goes cleanly, the mixed column will too.
 
 **Drill 3 — the mixed column, cold.** Read down. Name the rule. Do not pause; if you have to think, mark the row and come back:
 
