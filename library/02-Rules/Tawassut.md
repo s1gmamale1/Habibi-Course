@@ -8,7 +8,7 @@ family: sifat
 letters: [ل, ن, ع, م, ر]
 taught_in: "3-02"
 prerequisites: [shiddah, rakhawah]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "1:2"

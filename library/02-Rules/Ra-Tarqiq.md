@@ -7,7 +7,7 @@ english: Light rā'
 family: ra
 taught_in: "3-10"
 prerequisites: [tafkhim, tarqiq, ra_tafkhim]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "106:2"

@@ -7,7 +7,7 @@ english: Heavy rā'
 family: ra
 taught_in: "3-10"
 prerequisites: [tafkhim, tarqiq]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "105:1"

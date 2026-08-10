@@ -8,7 +8,7 @@ family: sifat
 letters: [ر]
 taught_in: "3-04"
 prerequisites: [inhiraf]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "113:2"
