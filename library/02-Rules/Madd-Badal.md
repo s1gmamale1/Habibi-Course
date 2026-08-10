@@ -9,7 +9,7 @@ colour_b: "#537FFF"
 harakat: 2
 taught_in: "3-28"
 prerequisites: [madd_tabii]
-status: draft
+status: verified
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "2:9"
