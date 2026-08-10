@@ -8,7 +8,7 @@ family: madd
 colour_b: "#537FFF"
 harakat: 2
 harakat_options: [2, 4, 5]
-taught_in: "3-05"
+taught_in: "3-28"
 prerequisites: [madd_tabii, madd_munfasil]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

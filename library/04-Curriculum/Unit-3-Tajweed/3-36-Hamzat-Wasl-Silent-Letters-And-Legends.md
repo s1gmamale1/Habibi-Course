@@ -4,7 +4,7 @@ id: "3-36"
 unit: "3.7"
 stage: Waqf
 title: Hamzat al-Waṣl in Full, Silent Letters, and How to Read Any Legend
-teaches: [hamzat_wasl, silent_letters]
+teaches: [hamzat_wasl, silent_letters, hafs_special_words]
 prerequisites: ["3-35", "2-09"]
 hifz: "105:3-105:5"
 status: draft
@@ -253,6 +253,42 @@ piece of information about how the palette thinks.
 
 Do this live, in the session, with whatever coloured muṣḥaf or app she actually has. If she has
 two, do it with both and let her find the contradiction herself.
+
+### 7. The places where Ḥafṣ does something it does nowhere else
+
+**Five minutes, naming only, at the very end.** She has just learned to read a muṣḥaf's legend;
+this is the short list of marks a legend will not explain, because they occur once or twice in
+the whole book. See [[Hafs-Special-Words]] for the full treatment.
+
+**The four unique places.** Each of these happens in **exactly one word in the entire Qurʾān**,
+which is what makes them worth naming rather than drilling:
+
+| Phenomenon | The one place | What happens |
+|---|---|---|
+| **Ishmām** (الإشمام) | **12:11** لَا تَأْمَ۫نَّا | The lips round silently during the merge — visible, not audible. |
+| **Imālah kubrā** (الإمالة) | **11:41** مَجْر۪ىٰهَا | The ā tilts toward ē — *majrēhā*. |
+| **Tas-hīl** (التسهيل) | **41:44** ءَا۬عْجَمِىٌّ | The second hamzah is softened between a hamzah and an alif. |
+| **Naql** (النقل) | **49:11** بِئْسَ ٱلِٱسْمُ | The hamzah's kasrah transfers backward onto the lām. |
+
+**Then the ṣād/sīn words**, which are the ones she is most likely to actually see, because the
+muṣḥaf marks them with a **small sīn** printed above or below a ṣād. The small letter is telling
+her which of two transmitted readings this copy expects — above and below do not mean the same
+thing, and **her own muṣḥaf's legend is the authority**, not a rule she memorises here.
+
+> **One of these is genuinely unsettled and this course says so.** For **2:245** وَيَبْصُۜطُ and
+> **7:69** بَصْۜطَةً the sources differ on whether Ḥafṣ reads ṣād or sīn. Ṣād predominates for
+> Ḥafṣ via ash-Shāṭibiyyah; some regional traditions read sīn. **Do not resolve this at the
+> whiteboard.** Tell her it is disputed, tell her to follow her own muṣḥaf and her own teacher,
+> and move on. A teacher who invents certainty here is teaching her the wrong habit about
+> disagreement.
+
+**Do not drill any of this and do not test it.** It is on the Ḥafṣ orientation list so that the
+first time she meets a small sīn above a ṣād she reaches for the legend instead of concluding
+the book is misprinted.
+
+**In plain terms:** there are about four words in the whole Qurʾān where Ḥafṣ does something it
+does nowhere else, and a handful more with a tiny letter printed over them. You do not need to
+memorise them. You need to recognise that the mark is deliberate and go look it up.
 
 ## Examples
 

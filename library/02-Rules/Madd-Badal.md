@@ -7,7 +7,7 @@ english: Substitute Prolongation
 family: madd
 colour_b: "#537FFF"
 harakat: 2
-taught_in: "3-03"
+taught_in: "3-28"
 prerequisites: [madd_tabii]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
