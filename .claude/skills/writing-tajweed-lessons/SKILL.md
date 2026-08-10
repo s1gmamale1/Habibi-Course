@@ -13,36 +13,46 @@ is the source. The JSON is transcribed from it, never authored directly.**
 
 Prose is cheap to correct. A slide deck embedded in a running app is not.
 
-## The two-layer explanation — REQUIRED
+## The plain-language landing — REQUIRED
 
-**Every rule, and every non-obvious mechanism, gets explained twice, in this order:**
+Teach the rule at full technical depth. Then give its examples. **Then land it in one or
+two lines of ordinary words.**
 
-1. **The full technical account.** The precise condition, the letters, the counts, the
-   makhraj, the classical terminology, where the sources differ. Do not simplify it. Do not
-   omit the parts that are hard. A teacher who only ever gets the simple version cannot
-   answer a question one step past it.
-2. **Then the plain version.** The same thing in ordinary words, ideally in one or two
-   sentences, ideally something the teacher can say out loud in the room.
+The landing is a fixed three-part shape, in this order:
 
-The plain version comes **after** and is explicitly marked as the same content restated —
-never as a replacement, never as the only account. Signal the shift with a phrase the
-reader can see: *"In plain terms:"*, *"Said simply:"*, *"What that means in the room:"*.
+1. **The technical account** — the precise condition, the letters, the counts, the makhraj,
+   the classical terminology, where the sources differ. Do not soften it. A teacher who only
+   ever gets the simple version cannot answer a question one step past it.
+2. **The examples** — the verified āyāt or drill words that show it happening.
+3. **The landing** — **one or two lines, no more.** It takes the fuzzy Arabic terms that
+   just appeared and says the same thing in words a beginner would use.
+
+Signal it so the reader can see the shift: *"In plain terms:"*, *"Said simply:"*, *"What
+that means out loud:"*.
 
 ```markdown
-The ghunnah comes from the **khayshum** (الخَيْشُوم), the nasal cavity — the fifth makhraj
-zone alongside the jawf, the throat, the tongue and the lips. It is the only zone with no
-moving part. What moves is the soft palate: it drops, and air that was going out of the
-mouth goes out of the nose instead.
+The ghunnah issues from the **khayshum** (الخَيْشُوم), the nasal cavity — the fifth makhraj
+zone alongside the jawf, the ḥalq, the lisān and the shafatān. It is the only zone with no
+moving articulator; what moves is the soft palate, which drops and diverts the airstream
+through the nose. Its most complete form, *akmal al-ghunnah*, is on a نّ or مّ carrying
+shaddah, held two ḥarakāt.
+
+- **114:1** بِرَبِّ ٱلنَّاسِ — نّ mushaddadah, recited every day
+- **108:3** إِنَّ شَانِئَكَ — the highest-frequency ghunnah word in the Qurʾān
+- **112:2** ٱللَّهُ ٱلصَّمَدُ — two shaddas, neither of them a ghunnah
 
 **In plain terms:** the sound comes out of her nose, not her mouth. Pinch the nose and it
-should stop dead.
+should stop dead — that is the whole test.
 ```
 
-**Why both, and why this order.** The technical layer is what makes the rule *true* and
-what the teacher needs when the student asks "but why". The plain layer is what actually
-gets taught. Leading with the plain version lets the reader stop there and never acquire
-the real account; omitting it leaves them unable to say it to a beginner. Neither alone is
-sufficient.
+**Why it sits after the examples, not before them.** By that point the reader has met
+*khayshum*, *akmal al-ghunnah* and *ḥarakāt* in the space of a paragraph. The landing is
+where those come back down. Placed earlier it competes with the technical account; placed
+first it lets the reader stop there and never acquire the real account at all.
+
+**Keep it to one or two lines.** It is a landing, not a second treatment. If it runs to a
+paragraph, the technical layer above it was doing its job badly — fix that instead of
+expanding this.
 
 ## The lesson shape
 
@@ -51,7 +61,7 @@ sufficient.
 | **Objectives** | ≤4, each "Student can…", concrete and testable |
 | **Hook** | Make the student *produce the error* before naming anything |
 | **What they already know** | Name the specific earlier lesson this builds on |
-| **Teaching sequence** | Technical layer → plain layer, per point |
+| **Teaching sequence** | Technical account → examples → 1–2 line plain landing, per point |
 | **Examples** | Mirroring the verified `examples:` frontmatter |
 | **Drills** | Address the student directly — "Point to each letter and say…" |
 | **Listen-for** | The teacher's checklist, structured (see below) |
@@ -156,9 +166,10 @@ there is a test enforcing it.
 
 | Mistake | Fix |
 |---|---|
-| Plain explanation only | Add the technical layer above it — the teacher needs the real account |
-| Technical explanation only | Add the plain restatement below it — that is what gets said aloud |
-| Plain version first | Reorder. Leading plain lets the reader stop before the real account |
+| Plain explanation only | Add the technical account above it — the teacher needs the real one |
+| Technical account with no landing | Add 1–2 plain lines after the examples; the jargon needs somewhere to come down |
+| Landing placed before the examples | Move it after — it competes with the technical account otherwise |
+| Landing that runs to a paragraph | It is a landing, not a second treatment. If it needs a paragraph, the technical layer above is unclear — fix that |
 | Opening with a definition | Open with a task that exposes the error |
 | `listen-for` naming only the error | Add why she makes it — correction depends on the cause |
 | Naming a later rule "for completeness" | Plant it as an observation; say its name is coming |
