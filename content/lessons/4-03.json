@@ -1,0 +1,649 @@
+{
+  "id": "4-03",
+  "phase": 4,
+  "draft": true,
+  "unit": "4.3",
+  "title": "Kalima Tawḥīd",
+  "objectives": [
+    "Student can recite Kalima Tawḥīd from memory with correct tajweed on a planned breath scheme.",
+    "Student can name the rules in it and can sort every lām of the article in it as sun or moon, unaided.",
+    "Student can distinguish a light rāʾ from a heavy one — sharīka against wa-l-ikrām and qadīr — and say which vowel decided each.",
+    "Student can hold a rule correctly to the end of a long sentence, not only in isolation."
+  ],
+  "prerequisites": [
+    "3-36"
+  ],
+  "stage": "The Kalimas",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 4.3 — Kalima Tawḥīd",
+      "arabicDecor": "لَا إِلٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ"
+    },
+    {
+      "kind": "concept",
+      "heading": "The first long one — name the difficulty before it happens",
+      "body": [
+        "Two kalimas in, she is now expecting a short sentence. Show her this one and let the length land before you say anything.",
+        "Then say it: 'The first two you could hold in one breath. This one you cannot. So today the rules are not the hard part — keeping them alive to the end of the sentence is.'",
+        "That is the honest difficulty of 4-03. Every individual rule in it is one she can already do. What is new is duration.",
+        "Four rules deep into a long sentence, accuracy starts leaking, and the leak is always in the same two places: madd length, and heaviness.",
+        "Name that before it happens, so that when it happens she recognises it rather than feeling caught out. A student who has been warned diagnoses; a student who has not, apologises."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The text",
+      "body": [
+        "لَا إِلٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لَا يَمُوتُ أَبَدًا أَبَدًا، ذُو الْجَلَالِ وَالْإِكْرَامِ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+        "lā ilāha illa-llāhu waḥdahū lā sharīka lah, lahu-l-mulku wa lahu-l-ḥamdu yuḥyī wa yumīt, wa huwa ḥayyul lā yamūtu abadan abadā, dhu-l-jalāli wa-l-ikrām, bi yadihi-l-khayr, wa huwa ʿalā kulli shayʾin qadīr",
+        "\"There is no god except Allah, alone, with no partner. His is the dominion and His is the praise. He gives life and gives death. He is Living and does not die, ever, ever. Owner of majesty and honour. In His hand is all good. And He has power over everything.\"",
+        "Tawḥīd — تَوْحِيد — means making one, declaring oneness: the Word of Oneness.",
+        "It opens with the Ṭayyiba and then keeps going, which by now she will expect."
+      ],
+      "items": [
+        {
+          "arabic": "لَا إِلٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
+          "translit": "lā ilāha illa-llāhu waḥdahū lā sharīka lah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The first breath only. Four counts on lā, heavy lām, no bounce on the sākin ḥāʾ, and a thin rāʾ in sharīka."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The opening — ten seconds, and let her name the rules",
+      "body": [
+        "لَا إِلٰهَ إِلَّا اللَّهُ is the Ṭayyiba's opening for the third lesson running. Madd munfaṣil at four, madd ṭabīʿī at two, silent waṣl hamzah, and the lām of the name heavy after the fatḥah.",
+        "Do not list those four for her today. Point at the phrase and ask her to name them.",
+        "In particular, do not say the words 'lām jalālah'. Wait. If she reaches the name of Allah and produces a full heavy lām without being told, the rule is becoming hers rather than yours.",
+        "If she cannot name them, that is not a failure of this lesson — it is the correct measure of how much 4-01 has settled, and it goes in the log.",
+        "If it is right three days in a row, it is hers. Check in ten seconds and move."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَحْدَهُ لَا شَرِيكَ — a sākin that does not bounce, and the first light rāʾ",
+      "body": [
+        "وَحْدَهُ — the حْ is a sākin ḥāʾ. It is not a qalqalah letter, and the common error is to bounce it as if it were: waḥa-dahū.",
+        "Ḥāʾ is a whispered letter. It is cut off on breath, not on a bounce. There is no vowel after it and no echo.",
+        "شَرِيكَ — and here is the first genuinely new sound of the unit. The rāʾ carries a kasrah, and a rāʾ with a kasrah is light: muraqqaq. Thin, forward, nothing filling the back of the mouth. sha-rī-ka.",
+        "Every rāʾ she has met in Unit 4 so far — rasūl in 4-01, wa rasūluh in 4-02 — was heavy. This is the first light one.",
+        "Put them side by side out loud: rasūl, heavy … sharīka, light. The working rule for this unit is the simple one — fatḥah or ḍammah gives heavy, kasrah gives light.",
+        "Then yāʾ plus kāf: a plain natural madd on the yāʾ, two counts."
+      ],
+      "items": [
+        {
+          "arabic": "شَرِيكَ",
+          "translit": "sharīka",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Thin. Kasrah on the rāʾ. Smile while you say it — that forces the tongue forward and heaviness cannot survive it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ — three rules in six words",
+      "body": [
+        "الْمُلْكُ — the definite article's lām before a mīm. Mīm is a moon letter, so the lām is pronounced with a clear sukūn: al-mulk, the l audible. That is lām qamariyyah.",
+        "الْحَمْدُ — the same again, before a ḥāʾ, also a moon letter: al-ḥamd.",
+        "And inside al-ḥamdu: مْ sākinah followed by د. A mīm sākinah before any letter other than bāʾ or mīm is pronounced clearly, lips fully closed, with no nasalisation running on. That is iẓhār shafawī. al-ḥam-du — lips shut, then the dāl.",
+        "This is the rule students most often lose in fast recitation, because the lips get lazy and the mīm turns into a hum.",
+        "Watch her lips, not her sound. You will see the error before you hear it.",
+        "One more, and it is the 4-01 error returning: the alif of every ال is a waṣl hamzah. lahu-l-mulk is one word. If a glottal stop appears there, it is the same mistake in a new place."
+      ],
+      "items": [
+        {
+          "arabic": "لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ",
+          "translit": "lahu-l-mulku wa lahu-l-ḥamdu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Both l's of the article audible, both joins glued over the waṣl hamzah, and the lips visibly meeting on the mīm of al-ḥamd."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_2",
+      "heading": "يُحْيِي وَيُمِيتُ — two ordinary madds, at exactly the wrong moment",
+      "condition": "A madd letter followed by neither a hamzah nor a sukūn: two counts, no more and no less.",
+      "letters": [
+        "ا",
+        "و",
+        "ي"
+      ],
+      "harakat": 2,
+      "body": [
+        "يُحْيِي — a ḥāʾ sākinah again, so again no bounce, breath only. Then a natural madd on the final yāʾ: two counts.",
+        "وَيُمِيتُ — a natural madd on the yāʾ: two counts.",
+        "Nothing exotic here, and its function in this lesson is not the rule. It is rhythm maintenance.",
+        "This is the point where the sentence has gone on long enough that madds start shrinking. Two two-counts here, both full.",
+        "If they are not full, that is the leak you warned her about in the hook, arriving exactly where you said it would. Point at it and say so — being right about the prediction is worth more than the correction."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "idghaam_no_ghunnah",
+      "heading": "حَيٌّ لَا — the third merge into a lām",
+      "condition": "Nūn sākinah or tanwīn followed by ل or ر: the nūn sound is deleted and merged into the next letter, with no ghunnah at all.",
+      "letters": [
+        "ل",
+        "ر"
+      ],
+      "body": [
+        "حَيٌّ ends in tanwīn ḍamm; the next word begins with ل. That gives idghām without ghunnah — the third occurrence in this unit.",
+        "ḥayyul lā — the nūn gone into the lām, nothing in the nose.",
+        "She should name this one before you do. In 4-01 it was into a rāʾ, in 4-02 into a lām, and now again. Three occurrences, one rule, and by the third she should be recognising the shape rather than being taught it.",
+        "Pinch test at the junction: nothing should change."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "حَيٌّ — the doubled letter that does not hum",
+      "body": [
+        "Now look at the word itself. يّ — a doubled yāʾ.",
+        "She has met a doubled mīm in مُحَمَّدٌ and a doubled nūn in أَنَّ, and both carried two counts of ghunnah. This one does not.",
+        "Ghunnah on a doubled letter belongs to mīm and nūn only — the two nasal letters. A doubled yāʾ is simply held, in the mouth, with no nose at all.",
+        "If she hums the yāʾ, she has over-generalised the ghunnah rule. That is a good mistake: it means the rule has been learned and now needs a boundary.",
+        "The fix is the pinch test. Doubled mīm: it changes. Doubled nūn: it changes. Doubled yāʾ: it must not."
+      ],
+      "items": [
+        {
+          "arabic": "حَيٌّ لَا",
+          "translit": "ḥayyul lā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Doubled yāʾ held in the mouth, then the tanwīn gone into the lām. Two nasal-free events in a row — pinch through the whole thing and nothing should change."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "أَبَدًا أَبَدًا — the same two words, pronounced differently",
+      "body": [
+        "أَبَدًا أَبَدًا — a tanwīn fatḥ followed by a hamzah, which is a throat letter, so iẓhār: the nūn fully pronounced. abadan abadā. Same rule as muḥammadan ʿabduhū in 4-02, and she should name it before you do.",
+        "Then the second أَبَدًا is followed by a pause. A tanwīn fatḥ, when you stop on it, becomes a plain alif of two counts — the madd of compensation, madd ʿiwaḍ. abadā, not abadan.",
+        "So the same two words, printed identically, are pronounced differently. The first keeps its n because you keep going; the second loses it because you stop.",
+        "That is the neatest illustration anywhere in this unit of a stop changing pronunciation.",
+        "It is also the second time in the unit that the page has not been the final authority. She will meet this pattern twice more — at bi-l-qalb in 4-07 and at al-mawt in 4-08 — so name it as a pattern now, not as a one-off curiosity."
+      ],
+      "items": [
+        {
+          "arabic": "أَبَدًا أَبَدًا",
+          "translit": "abadan abadā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "n, then no n. The first joins to a hamzah and stays clear; the second is stopped on and becomes a two-count alif."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "ذُو الْجَلَالِ وَالْإِكْرَامِ — two more moon lāms, and a heavy rāʾ",
+      "body": [
+        "ذُو — a natural madd on the wāw, then the article's alif is a waṣl hamzah and is swallowed: dhu-l-jalāl, no glottal stop.",
+        "الْجَلَالِ — jīm is a moon letter, so the lām is clear. وَالْإِكْرَامِ — hamzah is a moon letter, so the lām is clear again.",
+        "وَالْإِكْرَامِ also has a كْ sākinah. Kāf is not a qalqalah letter, so there is no bounce — the same discipline as the sākin ḥāʾ earlier.",
+        "Then رَا: a rāʾ with a fatḥah, so heavy, with a natural madd after it.",
+        "Put it against sharīka from earlier in the same sentence. Two rāʾs in one kalima, one light and one heavy, and she should be able to say why for each without hesitating."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "بِيَدِهِ الْخَيْرُ — the ṣilah that does not fire",
+      "body": [
+        "بِيَدِهِ — the pronoun-hāʾ here is followed by a waṣl hamzah, so there is no ṣilah: it stays short.",
+        "Contrast it with ʿabduhū wa in 4-02, where the next letter was a consonant and the ṣilah applied. The condition is the next letter, every time. That is the whole rule.",
+        "الْخَيْرُ — khāʾ is a moon letter, so the lām is clear.",
+        "خَيْ is a līn letter: a yāʾ sākinah after a fatḥah, pronounced flat and soft, and not stretched while you are joining.",
+        "And رُ with a ḍammah is heavy — the second heavy rāʾ of the sentence."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "ikhfa",
+      "heading": "شَيْءٍ قَدِيرٌ — the first ikhfāʾ of the unit",
+      "condition": "Nūn sākinah or tanwīn followed by one of the fifteen remaining letters: the nūn is neither spoken clearly nor merged, but hidden, with two counts of ghunnah.",
+      "letters": [
+        "ت",
+        "ث",
+        "ج",
+        "د",
+        "ذ",
+        "ز",
+        "س",
+        "ش",
+        "ص",
+        "ض",
+        "ط",
+        "ظ",
+        "ف",
+        "ق",
+        "ك"
+      ],
+      "harakat": 2,
+      "body": [
+        "شَيْءٍ ends in tanwīn kasr and the next word begins with ق. Qāf is one of the fifteen ikhfāʾ letters.",
+        "So the nūn sound is neither pronounced clearly nor merged: it is hidden, with two counts of ghunnah, while the tongue is already moving towards the qāf. shayʾin qadīr.",
+        "This is the first ikhfāʾ in Unit 4, and the third fate she has now seen a nūn suffer — merged with no nose in ḥayyul lā, spoken clearly in abadan abadā, and hidden here.",
+        "Before that: شَيْءٍ is another līn, a yāʾ sākinah after a fatḥah. While joining it stays short. If you stopped on it, it would lengthen — but you are not stopping on it here.",
+        "Say the three treatments back to back and let her sort them by ear. That sorting is worth more than any single one of the three."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_246",
+      "heading": "قَدِيرٌ — heavy qāf, long madd, light rāʾ, one word",
+      "condition": "A madd letter followed by a letter made sākin only because you stopped: two, four or six counts, consistently chosen.",
+      "harakat": 4,
+      "body": [
+        "The qāf is an elevated letter and is heavy.",
+        "The final rāʾ: at a stop it becomes sākin, and a sākin rāʾ preceded by a kasrah is light. qadīr ends thin.",
+        "This is the one almost everybody gets wrong, because the heavy qāf at the front of the word pulls the whole word backwards and the mouth does not reset in one syllable.",
+        "And because the yāʾ before the rāʾ is a madd letter and the rāʾ is made sākin by stopping, the last syllable is a madd ʿāriḍ lis-sukūn: two, four or six counts. Her choice, held consistently — 3-30.",
+        "Heavy qāf, long madd, light rāʾ, all in one word. That is the assessment item for this lesson, and it is the last word of the sentence, which is where she has least attention left."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The two rāʾs",
+      "instructions": "Say these as a set, ten times, then tell me the vowel that decided each one. Do not tell me heavy or light — tell me the vowel, and let the weight follow from it.",
+      "grid": [
+        [
+          {
+            "arabic": "شَرِيكَ",
+            "translit": "sharīka",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasrah. Light. Thin and forward."
+            }
+          },
+          {
+            "arabic": "وَالْإِكْرَامِ",
+            "translit": "wa-l-ikrām",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Fatḥah. Heavy. Fill your mouth — and no bounce on the kāf before it."
+            }
+          },
+          {
+            "arabic": "قَدِيرٌ",
+            "translit": "qadīr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasrah before a sākin rāʾ at the stop. Light. Heavy at the front of the word, thin at the end."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The moon, and the doubled letters",
+      "instructions": "First: read only the five article words and say the l deliberately loudly, then at normal volume. Every single lām in this kalima is a moon lām — there is not one sun lām in the whole sentence. Then: pinch your nose for all three doubled letters. The third one must not change.",
+      "grid": [
+        [
+          {
+            "arabic": "الْمُلْكُ",
+            "translit": "al-mulk",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Moon. The l is audible, with a clear sukūn on it."
+            }
+          },
+          {
+            "arabic": "الْحَمْدُ",
+            "translit": "al-ḥamd",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Moon — and the mīm inside it with the lips fully closed, no hum onto the dāl."
+            }
+          },
+          {
+            "arabic": "الْخَيْرُ",
+            "translit": "al-khayr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Moon. Flat short līn on the yāʾ, and a heavy rāʾ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مُحَمَّدٌ",
+            "translit": "muḥammad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Doubled mīm — hum. Pinch and it changes."
+            }
+          },
+          {
+            "arabic": "أَنَّ",
+            "translit": "anna",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Doubled nūn — hum. Pinch and it changes."
+            }
+          },
+          {
+            "arabic": "حَيٌّ",
+            "translit": "ḥayyun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Doubled yāʾ — no hum. Pinch and nothing should change. Only m and n go in the nose."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "abadan / abadā, the last word, and the plan",
+      "instructions": "Say the pair twenty times, then explain in English why the n comes and goes. Then the last word alone, fifty times if necessary — heavy q, long ī, thin r — before you ever attempt it inside the phrase. Then the whole kalima on the marked plan: after lā sharīka lah, after yuḥyī wa yumīt, after abadan abadā, after wa-l-ikrām, then to the end. Use the commas that are already in the text; do not invent stops mid-phrase.",
+      "grid": [
+        [
+          {
+            "arabic": "أَبَدًا أَبَدًا",
+            "translit": "abadan abadā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "n, then no n. When you stop, the two lines become an alif. Long, and no n."
+            }
+          },
+          {
+            "arabic": "قَدِيرٌ",
+            "translit": "qadīr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Alone, fifty times. Heavy q. Long ī. Thin r. When it is right alone, put it back in the phrase — where the ikhfāʾ before it makes it much harder."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+            "translit": "wa huwa ʿalā kulli shayʾin qadīr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The last breath. Two counts on the dagger alif of ʿalā, hidden nūn with two counts of hum before the qāf, and the whole last word: heavy front, thin end."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong, and what to say",
+      "mistakes": [
+        {
+          "wrong": "The madds shrink after the halfway point — yuḥyī wa yumīt clipped, dhū short.",
+          "why": "Length is the first thing to go when attention is divided, and by the middle of this sentence she is managing rule, meaning, memory and breath at once. It is the same failure she had at phrase level in Unit 2, now at sentence length.",
+          "fix": "Halve the speed of the whole thing. Not just the madd — everything."
+        },
+        {
+          "wrong": "qadīr said with a heavy, rolled final r.",
+          "why": "The qāf is heavy and the mouth does not reset in one syllable; and most recitation she has heard around her rolls it. Two causes, both physical.",
+          "fix": "Heavy at the front, thin at the end. Smile on the r. The smile actually works — it forces the tongue forward."
+        },
+        {
+          "wrong": "A hum on ḥayyun.",
+          "why": "Over-generalising the doubled-letter ghunnah from muḥammad and anna. This is a good mistake — it means the ghunnah rule has been learned. It just needs a boundary.",
+          "fix": "Only m and n go in the nose. Every other shadda is held in the mouth."
+        },
+        {
+          "wrong": "abadan abadan — the n kept at the stop.",
+          "why": "The tanwīn is written and she reads what is written. The waqf rule that overrides it is one of very few places where the page is not the final authority, and that takes time to accept.",
+          "fix": "When you stop, the two lines become an alif. abadā. Long, and no n."
+        },
+        {
+          "wrong": "The mīm of al-ḥamdu left half-open, humming into the dāl.",
+          "why": "Speed. The lips are the slowest articulator in the mouth and the first to be skipped.",
+          "fix": "Close your lips completely. I want to see them meet."
+        },
+        {
+          "wrong": "A glottal stop before every ال — lahu ʾal-mulku.",
+          "why": "The same waṣl-hamzah error as 4-01, which returns whenever a new text puts it in an unfamiliar place.",
+          "fix": "lahul-mulk, one word. Step over the alif."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "The five things this sentence is for",
+      "items": [
+        {
+          "arabic": "شَرِيكَ",
+          "translit": "sharīka",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The first light rāʾ of the unit. Kasrah, thin."
+          }
+        },
+        {
+          "arabic": "الْمُلْكُ",
+          "translit": "al-mulk",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Moon lām — l audible. Five of them in this sentence, no sun lāms at all."
+          }
+        },
+        {
+          "arabic": "حَيٌّ لَا",
+          "translit": "ḥayyul lā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Doubled yāʾ with no hum, then idghām bilā ghunnah. Nothing in the nose from either."
+          }
+        },
+        {
+          "arabic": "أَبَدًا أَبَدًا",
+          "translit": "abadan abadā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Iẓhār, then madd ʿiwaḍ at the stop. Same two words, two pronunciations."
+          }
+        },
+        {
+          "arabic": "شَيْءٍ قَدِيرٌ",
+          "translit": "shayʾin qadīr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Ikhfāʾ with two counts of hum, then heavy qāf, long madd, thin rāʾ."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "The whole kalima, three times after each ṣalāh, on the marked breath plan. Three good ones beat ten rushed ones.",
+        "qadīr alone, thirty times a day, thin r. This is the drill for this lesson.",
+        "The rāʾ set — sharīka, wa-l-ikrām, qadīr — daily, out loud, saying the vowel before each word.",
+        "Add today's stops to your rule card, and circle every one that is a repeat from 4-01 or 4-02. You should be able to see the unit accumulating.",
+        "Record yourself once and listen to the second half only. Mark every madd that came out shorter than it should have."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The two rāʾs",
+        "instructions": "Ten times as a set, then name the vowel that decided each one.",
+        "grid": [
+          [
+            {
+              "arabic": "شَرِيكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasrah — light."
+              }
+            },
+            {
+              "arabic": "وَالْإِكْرَامِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Fatḥah — heavy."
+              }
+            },
+            {
+              "arabic": "قَدِيرٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasrah before a sākin rāʾ at the stop — light."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The last word",
+        "instructions": "Thirty times a day alone. Heavy q, long ī, thin r. Only then inside the phrase.",
+        "grid": [
+          [
+            {
+              "arabic": "قَدِيرٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy at the front, thin at the end. Smile on the r."
+              }
+            },
+            {
+              "arabic": "شَيْءٍ قَدِيرٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "With the ikhfāʾ in front of it — two counts of hum, then the word. Much harder."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The doubled three",
+        "instructions": "Pinch your nose for all three. The third must not change.",
+        "grid": [
+          [
+            {
+              "arabic": "مُحَمَّدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hum."
+              }
+            },
+            {
+              "arabic": "أَنَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hum."
+              }
+            },
+            {
+              "arabic": "حَيٌّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No hum. Only m and n go in the nose."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "abadan / abadā",
+        "instructions": "Twenty times as a pair, then explain in English why the n comes and goes.",
+        "grid": [
+          [
+            {
+              "arabic": "أَبَدًا أَبَدًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "n, then no n. Joined it is clear; stopped it becomes a two-count alif."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The whole kalima three times after each ṣalāh on the marked breath plan, at half speed",
+      "قَدِيرٌ alone thirty times — heavy q, long ī, thin r",
+      "The rāʾ set — sharīka, wa-l-ikrām, qadīr — naming the vowel before each",
+      "The five article words with the l deliberately audible in every one",
+      "The pinch test on the three doubled letters — the yāʾ must not change",
+      "Once in the week: a recording of the second half only, with every shortened madd marked"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Show the text and let the length land before you speak. Then name the real difficulty out loud: every rule in here is one she can already do, and what is new is holding them to the end of a long sentence. A warned student diagnoses; an unwarned one apologises.",
+      "Do not list the four carried-over rules of the opening. Point at the phrase and make her name them, and specifically do not say 'lām jalālah' — wait and see whether the heavy lām arrives unprompted. That is the measure you want, and it is the last easy chance to take it before the light form arrives in 4-05.",
+      "The rule-spotting pass comes before any recitation. There are around fifteen stops. Where she cannot name one, mark it; the marks are the lesson plan, not your prepared order.",
+      "Teach the two rāʾs as a pair — sharīka against wa-l-ikrām — and make her state the deciding vowel rather than the weight. Naming the cause transfers; naming the result does not.",
+      "Watch her lips on al-ḥamdu rather than listening. Iẓhār shafawī fails visibly before it fails audibly, and a mīm left half-open is easier to see than to hear.",
+      "The doubled yāʾ of ḥayyun is the boundary of the ghunnah rule. If she hums it, say so warmly — it means the rule landed and now needs an edge. The pinch test settles it in ten seconds.",
+      "abadan abadā is the neatest waqf-changes-the-word example in the unit. Name it as a pattern, not a curiosity: it returns at bi-l-qalb in 4-07 and at al-mawt in 4-08.",
+      "Drill qadīr alone before it ever appears inside its phrase. Heavy qāf and light rāʾ inside one word is a motor problem, and the ikhfāʾ in front of it makes the motor problem worse.",
+      "Mark the breath plan in pencil before she recites, using the commas already in the text. In a sentence this long, most 'rule errors' are really breath errors and should be named as such.",
+      "Before teaching, check the wording against a printed Hanafi primer. This kalima varies more than most — some primers place يُحْيِي وَيُمِيتُ differently, some do not repeat أَبَدًا. The rule analysis survives a different wording phrase by phrase, but the text itself needs a human eye. It is not Qurʾān and cannot be corpus-checked."
+    ],
+    "listenFor": [
+      {
+        "item": "Madds still at full length in the second half of the sentence — yuḥyī, wa yumīt, dhū, ʿalā.",
+        "commonMistake": "Every madd after the halfway point clipped short, while the ones at the start stay correct.",
+        "whyItHappens": "Length is the first casualty of divided attention, and by mid-sentence she is managing rule, meaning, memory and breath at once. This is the defining failure mode of the whole unit.",
+        "correctionCue": "Halve the speed of the whole thing. Not just the madd — everything.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      },
+      {
+        "item": "A light, thin rāʾ in شَرِيكَ and again at the end of قَدِيرٌ.",
+        "makhraj": "Tip of the tongue against the gum ridge, held rather than trilled — takrīr is a characteristic to suppress, not to perform.",
+        "commonMistake": "sharīka and qadīr both said heavy, and the final rāʾ rolled.",
+        "whyItHappens": "In qadīr the heavy qāf pulls the whole word backwards and the mouth does not reset in one syllable; and the rolled rāʾ is what she hears in most recitation around her. Two causes, both physical rather than intellectual.",
+        "correctionCue": "Heavy at the front, thin at the end. Smile on the r — the smile forces the tongue forward and the heaviness cannot survive it.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Ra-Tarqiq.md"
+      },
+      {
+        "item": "No nasal sound at all on the doubled yāʾ of حَيٌّ.",
+        "commonMistake": "A hum on ḥayyun, matching the doubled mīm and nūn she has already learned.",
+        "whyItHappens": "Over-generalisation of the doubled-letter ghunnah. This is a good error — it shows the ghunnah rule has been learned — and it needs a boundary rather than a repetition.",
+        "correctionCue": "Only m and n go in the nose. Every other shadda is held in the mouth. Pinch your nose and say it again.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ghunnah.md"
+      },
+      {
+        "item": "أَبَدًا أَبَدًا with the n on the first and no n on the second.",
+        "commonMistake": "abadan abadan — the tanwīn kept at the stop.",
+        "whyItHappens": "The tanwīn is written and she reads what is written. Stopping rules are one of the very few places where the page is not the final authority, and accepting that takes repetition, not explanation.",
+        "correctionCue": "When you stop, the two lines become an alif. abadā. Long, and no n.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Iwad.md"
+      },
+      {
+        "item": "The lām of every ال audible, and the lips visibly closing on the mīm of الْحَمْدُ.",
+        "commonMistake": "The mīm left half-open and humming into the dāl; or a glottal stop inserted before the article — lahu ʾal-mulku.",
+        "whyItHappens": "Speed. The lips are the slowest articulator and the first to be skipped. The glottal stop is the 4-01 waṣl-hamzah error returning in an unfamiliar position.",
+        "correctionCue": "Close your lips completely — I want to see them meet. And lahul-mulk is one word: step over the alif.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Izhar-Shafawi.md"
+      },
+      {
+        "item": "Two counts of hidden ghunnah at شَيْءٍ قَدِيرٌ — the nūn neither spoken nor merged.",
+        "commonMistake": "The n fully pronounced before the qāf, or dropped entirely.",
+        "whyItHappens": "It is the first ikhfāʾ of the unit and it arrives in the last four words, when her attention is lowest. She has also just done three clear nūns and one deleted one, so neither default is right.",
+        "correctionCue": "Qāf is not a throat letter and it is not lām or rāʾ. Hide it — two counts in the nose, tongue already moving to the qāf.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Ikhfa-Haqiqi.md"
+      }
+    ],
+    "homework": "Daily: the whole kalima three times after each ṣalāh on the marked breath plan at half speed; قَدِيرٌ alone thirty times, heavy at the front and thin at the end, which is the drill for this lesson; the rāʾ set — sharīka, wa-l-ikrām, qadīr — naming the deciding vowel before each. Written: add today's stops to the rule card and circle every repeat from 4-01 and 4-02, so the accumulation is visible. Once in the week: one recording, listened to for the second half only, with every shortened madd marked and brought to the session."
+  },
+  "videos": []
+}
