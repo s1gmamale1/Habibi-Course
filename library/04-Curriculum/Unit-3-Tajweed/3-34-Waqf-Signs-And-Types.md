@@ -105,7 +105,7 @@ copy is Indo-Pak, teach ط and ز from her own page and treat the table below as
 will meet, not the first.
 
 Then have her **find the legend in her own muṣḥaf** — most editions print one, usually on the
-first or last page. Read it together. This is a rehearsal of the skill 3-36 §5 makes explicit:
+first or last page. Read it together. This is a rehearsal of the skill 3-36 §6 makes explicit:
 **read the legend of the book in front of you.**
 
 ### 2. The six signs this course teaches

@@ -5,7 +5,7 @@ arabic: الكلمات الخاصة بحفص
 translit: al-Kalimāt al-Khāṣṣah bi-Ḥafṣ
 english: The Special Words of Ḥafṣ
 family: orthography
-taught_in: "3-31"
+taught_in: "3-36"
 prerequisites: [waqf_word_changes, madd_silah, silent_letters]
 status: needs-review
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
