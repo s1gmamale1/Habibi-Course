@@ -2,6 +2,10 @@ import { describe, expect, test } from "vitest";
 import { baseLetters, contextualGlyphs, displayLetters, NON_CONNECTORS, stripDiacritics } from "./arabic";
 
 const ZWJ = "\u200D";
+// Mirrors arabic.ts's BASE_MAP \u2014 kept local so the test asserts the intended
+// relation rather than importing the very table it is checking.
+const FOLD: Record<string, string> = { "\u0623": "\u0627", "\u0625": "\u0627", "\u0622": "\u0627", "\u0671": "\u0627", "\u0624": "\u0648", "\u0626": "\u064A", "\u0649": "\u064A" };
+const BASE_MAP_FOLD = (c: string) => FOLD[c] ?? c;
 
 describe("stripDiacritics", () => {
   test("removes harakat and tatweel", () => {
@@ -22,6 +26,12 @@ describe("baseLetters", () => {
     expect(baseLetters("أَب")).toEqual(["ا", "ب"]);
     expect(baseLetters("مُؤْمِن")).toEqual(["م", "و", "م", "ن"]);
   });
+  test("strips Quranic annotation marks so index alignment survives", () => {
+    // عَيْنٌۭ (88:12) carries U+06ED; ضَرِيعٍۢ (88:6) carries U+06E2.
+    expect(baseLetters("عَيْنٌۭ")).toEqual(["ع", "ي", "ن"]);
+    expect(baseLetters("ضَرِيعٍۢ")).toEqual(["ض", "ر", "ي", "ع"]);
+    expect(displayLetters("عَيْنٌۭ")).toHaveLength(3);
+  });
   test("strips sukun and shadda", () => {
     expect(baseLetters("حَقّ")).toEqual(["ح", "ق"]);
     expect(baseLetters("بَحْر")).toEqual(["ب", "ح", "ر"]);
@@ -33,9 +43,15 @@ describe("displayLetters", () => {
     expect(displayLetters("أَب")).toEqual(["أ", "ب"]);
     expect(displayLetters("مُؤْمِن")).toEqual(["م", "ؤ", "م", "ن"]);
   });
-  test("stays index-aligned with baseLetters", () => {
-    for (const w of ["أَحَد", "ضَوْء", "لُغَة", "شَمْس"])
-      expect(displayLetters(w).length).toBe(baseLetters(w).length);
+  test("stays index-aligned with baseLetters, element by element", () => {
+    // Length alone can't fail once baseLetters delegates — assert the actual
+    // per-index relation, over every carrier form that appears in content.
+    for (const w of ["أَحَد", "ضَوْء", "لُغَة", "شَمْس", "إِيمَان", "ٱلْحَمْدُ", "آمَنَ", "مُؤْمِن", "بِئْر", "ضُحَى"]) {
+      const disp = displayLetters(w);
+      const base = baseLetters(w);
+      expect(disp).toHaveLength(base.length);
+      disp.forEach((c, i) => expect(BASE_MAP_FOLD(c)).toBe(base[i]));
+    }
   });
 });
 
@@ -65,6 +81,7 @@ describe("contextualGlyphs", () => {
   test("ta marbuta never joins forward and standalone hamza joins neither side", () => {
     expect(contextualGlyphs("لُغَة")).toEqual([`ل${ZWJ}`, `${ZWJ}غ${ZWJ}`, `${ZWJ}ة`]);
     expect(contextualGlyphs("ضَوْء")).toEqual([`ض${ZWJ}`, `${ZWJ}و`, `ء`]);
-    expect(contextualGlyphs("شَيْء")).toEqual([`ش${ZWJ}`, `${ZWJ}ي${ZWJ}`, `ء`]);
+    // ي must stay FINAL, not medial: the bare ء after it accepts no join.
+    expect(contextualGlyphs("شَيْء")).toEqual([`ش${ZWJ}`, `${ZWJ}ي`, `ء`]);
   });
 });
