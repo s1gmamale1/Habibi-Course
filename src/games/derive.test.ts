@@ -45,10 +45,11 @@ const fixtures: Lesson[] = [
 ];
 
 describe("deriveGameData (fixtures)", () => {
-  test("letterPool is cumulative and deduped; newLetters is this lesson only", () => {
+  test("letterPool is cumulative and deduped; newLetters is first-time letters only", () => {
     const d = deriveGameData(fixtures, "1-02");
     expect(d.letterPool.map((i) => i.arabic)).toEqual(["ب", "ا", "ت"]);
-    expect(d.newLetters.map((i) => i.arabic)).toEqual(["ت", "ب"]);
+    // ب is re-taught by 1-02 but was introduced in 1-01, so it is not "new".
+    expect(d.newLetters.map((i) => i.arabic)).toEqual(["ت"]);
   });
   test("wordPool only admits words whose base letters are all learned", () => {
     const d1 = deriveGameData(fixtures, "1-01");
@@ -82,5 +83,20 @@ describe("deriveGameData (real content)", () => {
   });
   test("lesson 1-06 has all 28 letters", () => {
     expect(deriveGameData(allLessons(), "1-06").letterPool).toHaveLength(28);
+  });
+  test("Unit 1.4 adds hamza as the only genuinely new letter", () => {
+    const d = deriveGameData(allLessons(), "1-13");
+    // ع and ح are re-taught in 1-13 as revision, so they must NOT be "new".
+    expect(d.newLetters.map((i) => i.arabic)).toEqual(["ء"]);
+    expect(d.letterPool).toHaveLength(29); // the 28 + hamza
+  });
+  test("Unit 1.4 revision letters feed the word pool without re-listing themselves", () => {
+    const d = deriveGameData(allLessons(), "1-14");
+    expect(d.newLetters).toEqual([]); // every letter slide in 1-14 is revision
+    expect(d.letterPool).toHaveLength(29);
+    const words = d.wordPool.map((w) => w.arabic);
+    for (const w of ["عَبْد", "بَحْر", "صَبْر", "فَضْل", "بَطْن", "غَيْظ"]) expect(words).toContain(w);
+    // Teaching ء unlocks words that were silently dropped before Unit 1.4.
+    expect(words).toContain("ضَوْء");
   });
 });
