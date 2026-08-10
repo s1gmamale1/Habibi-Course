@@ -9,8 +9,8 @@ colour_b: "#537FFF"
 harakat: 2
 taught_in: "3-35"
 prerequisites: [madd_tabii, waqf_word_changes]
-status: draft
-sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
+status: needs-review
+sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]"]
 examples:
   - ref: "110:2"
     text: "أَفْوَاجًا"
@@ -46,6 +46,22 @@ pronounced normally and there is no madd at all.
 ## Length
 
 **2 ḥarakāt** — it is a plain [[Madd-Tabii]] in every respect once it appears.
+
+> ### ⚠ Status: needs-review — attested, but never stated as a rule
+>
+> **No matn in this vault names this rule.** *ʿiwaḍ* does not occur once in
+> [[Tuhfat-al-Atfal]], [[Muqaddimah-Jazariyyah]] or [[Shatibiyyah]]. That is not the
+> same as the content being doubtful, and the distinction matters:
+>
+> **The mechanism is presupposed by [[Shatibiyyah]] v. 830**, which locates the sakt of
+> al-Kahf **عَلَى أَلِفِ التَّنْوِينِ فِي عِوَجاً** — *"on the alif of the tanwīn in
+> ʿiwajā"*. The matn can only speak of "the alif of the tanwīn" if stopping on tanwīn
+> fatḥ yields an alif, which is exactly this rule. It is treated as assumed background
+> a reciter already has, not as something to be taught.
+>
+> So: **the behaviour is classically attested; the name and the category are later
+> pedagogy.** Verifying it properly needs a tajwīd manual that states it as a rule —
+> not another matn. *(Found 2026-08-11.)*
 
 ## The exception: tāʾ marbūṭah
 

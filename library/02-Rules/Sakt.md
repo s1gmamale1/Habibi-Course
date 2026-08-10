@@ -7,8 +7,8 @@ english: Brief Silent Pause
 family: waqf
 taught_in: "3-34"
 prerequisites: [waqf_types]
-status: draft
-sources: ["[[Muqaddimah-Jazariyyah]]"]
+status: verified
+sources: ["[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]"]
 examples:
   - ref: "18:1"
     text: "عِوَجَا"
@@ -48,6 +48,14 @@ taking a breath**, then continuing.
 
 The whole point is that the breath is *not* broken: the two sides of a sakt
 belong to one continuous utterance, separated only by silence.
+
+> **Where each half of that comes from.** [[Shatibiyyah]] v. 830–831 is the source
+> for this rule and it gives the **places** and the **defining condition** —
+> **دُونَ قَطْعٍ**, *without cutting off* — but calls the pause only **لَطِيفَةٌ**,
+> *a light one*. **It states no count.** The "about 2 ḥarakāt" here is the
+> commentary convention, not the matn, and it is approximate on purpose: what is
+> transmitted is that the breath is unbroken and the pause is brief. A student who
+> holds it for one count or three has not broken the rule; one who breathes has.
 
 **Mushaf marking:** a small **س** or the word **سكتة** above the line — one of
 the six signs in [[Waqf-Signs]].

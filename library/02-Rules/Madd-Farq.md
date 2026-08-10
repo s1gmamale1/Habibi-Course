@@ -9,8 +9,8 @@ colour_b: "#000EBC"
 harakat: 6
 taught_in: "3-28"
 prerequisites: [madd_lazim, hamzat_wasl]
-status: draft
-sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
+status: verified
+sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]"]
 examples:
   - ref: "6:143"
     text: "ءَآلذَّكَرَيْنِ"
@@ -65,6 +65,15 @@ complete list — the rule is finite and memorisable in one sitting.
 ## Length
 
 **6 ḥarakāt.**
+
+> **Where the 6 comes from, since the matn does not state it.** [[Shatibiyyah]] v. 192
+> is the source for this rule, and it gives the condition and the instruction —
+> *"if a hamzah of connection lies between a sākin lām and the interrogative hamzah,
+> then **lengthen it, substituting**"* — but **no count**. The 6 is *derived*, not
+> transmitted separately: once the second hamzah is substituted by an alif, that alif
+> in ءَآللَّهُ is followed by a lām carrying shaddah, which is a permanent sukūn — and
+> a madd letter before a permanent sukūn is [[Madd-Lazim]], six counts, by
+> [[Tuhfat-al-Atfal]] v. 47. The rule reduces to one already verified.
 
 **Or tas-hīl.** Ḥafṣ also permits *tas-hīl* of the second hamzah — pronouncing it
 between a hamzah and an alif, softened rather than lengthened. Both are
