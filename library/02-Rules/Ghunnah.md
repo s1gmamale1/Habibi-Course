@@ -11,7 +11,7 @@ harakat: 2
 letters: [نّ, مّ]
 taught_in: "3-15"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "114:1"

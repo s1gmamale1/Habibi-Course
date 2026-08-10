@@ -9,7 +9,7 @@ harakat: 0
 letters: []
 taught_in: "3-27"
 prerequisites: [idgham_shafawi]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "26:63"

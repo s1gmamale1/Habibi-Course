@@ -9,7 +9,7 @@ cpfair_key: lam_shamsiyyah
 colour_b: "#AAAAAA"
 taught_in: "3-13"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "91:1"

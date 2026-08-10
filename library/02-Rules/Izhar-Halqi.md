@@ -9,7 +9,7 @@ harakat: 0
 letters: [ء, ه, ع, ح, غ, خ]
 taught_in: "3-20"
 prerequisites: [ghunnah]
-status: draft
+status: verified
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "106:4"
