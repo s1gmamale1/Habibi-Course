@@ -1,0 +1,1671 @@
+{
+  "id": "3-13",
+  "phase": 3,
+  "draft": true,
+  "unit": "3.2",
+  "title": "Revision and Q&A — Unit 3.2, Rā' and Lām",
+  "stage": "Ḥaqq al-Ḥarf",
+  "objectives": [
+    "Student can state the whole rā' family in two lines and the whole lām jalālah rule in one, without notes.",
+    "Student can decide any rā' or lām on sight, out of order, with no cue about which rule is being tested.",
+    "Student can name the three cases of jawāz al-wajhayn and say why they are not errors.",
+    "Student leaves with a written two- or three-item list of what still needs work before Unit 3.3."
+  ],
+  "prerequisites": [
+    "3-09",
+    "3-10",
+    "3-11",
+    "3-12"
+  ],
+  "games": [
+    "rule-identifier",
+    "family-sorter"
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.13 — Revision and Q&A: Unit 3.2",
+      "arabicDecor": "الرَّاءُ وَاللَّام"
+    },
+    {
+      "kind": "concept",
+      "heading": "Do not review. Test, cold, in the first three minutes",
+      "body": [
+        "No new rule today, and no new memorisation. Sabqi and Manzil run as normal; only the new Sabaq is suspended, so the memorisation muscle rests for one session while retrieval does the work. Say that explicitly — nothing is being skipped.",
+        "Unit 3.2 was four sessions and it contained, by some margin, the most conditional material in the course so far. The purpose today is to compress it back down to something she can hold in her head at speed.",
+        "Put ONE line in front of her — the line she says more often than any other — and ask her to read it slowly and then name every rule that fires in it. بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ (1:1).",
+        "There are FIVE rulings in five words, and she now knows all of them. The ل of ٱللَّهِ — lām jalālah (3-11) — LIGHT, because of the kasra on بِسْمِ. The ل of ٱلرَّحْمَٰنِ — solar lām (3-12) — MERGED into the ر. The ر of ٱلرَّحْمَٰنِ — rā' (3-09) — HEAVY, doubled with a fatḥa. The ل of ٱلرَّحِيمِ — MERGED. The ر of ٱلرَّحِيمِ — HEAVY.",
+        "Then the framing: you have said this line thousands of times. Until four sessions ago you could not have told me a single thing about it. That is what this unit was for — and the test is not whether you know the rules, it is whether you can FIND them without being told to look."
+      ],
+      "items": [
+        {
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "translit": "bismi llāhi r-raḥmāni r-raḥīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:1 — cold, in the first three minutes, with no warning. Read it slowly, then name all five rulings. Do not help until she has finished."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The shape of the unit — four sessions of conditions need a skeleton",
+      "body": [
+        "Name it out loud and have her write it down. Two letters in the entire language switch between heavy and light: ر, and the ل of ٱللَّه. She has now met both, and the set is closed.",
+        "The rā' has about eight conditions, a five-word exception list, a waṣl/waqf split and three ambiguous words. The lām jalālah has ONE condition and nothing else.",
+        "And there is a second, completely separate lām family that asks a different question — pronounced or merged — which the mushaf answers for you on the page.",
+        "Then where it goes, because nothing here was a dead end. Unit 3.3 is ghunnah and Unit 3.4 is the nūn sākinah rules. The istiʿlāʾ set from lesson 3-03 comes back there, deciding whether the two-count hum of ikhfāʾ is heavy or light.",
+        "Run Part A interleaved, in the printed order. DO NOT group by rule. Grouping makes a student look competent in the session and fail a week later, and this unit has more material to confuse than any before it."
+      ],
+      "items": [
+        {
+          "arabic": "ر",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Eight-ish conditions, a five-word card, a waṣl/waqf split, and three words where the answer is 'either'. The busiest letter in tajweed."
+          }
+        },
+        {
+          "arabic": "ٱللَّه",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "One condition and nothing else. Fatḥa or ḍamma heavy, kasra light, beginning on it heavy. Look at the letter BEFORE the word."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — the three sentences from memory, and Drill 2 — rā', mixed and cold",
+      "instructions": "Drill 1: if she cannot produce these three sentences cold, everything else today is guesswork — fix them first. 'A vowelled rā' takes its own vowel. A sākin rā' takes the vowel before it. Lām jalālah: fatḥa or ḍamma before it heavy, kasra light, starting on it heavy.' Drill 2: read and rule, no warning and no grouping. Watch for صُدُورِ and وَٱسْتَغْفِرْهُ read heavy — those two are the diagnostic items of the whole unit.",
+      "grid": [
+        [
+          {
+            "arabic": "تَرَ",
+            "translit": "tara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:1 — vowelled, fatḥa. Heavy."
+            }
+          },
+          {
+            "arabic": "شَرِّ",
+            "translit": "sharri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — vowelled, kasra, doubled. LIGHT, both counts."
+            }
+          },
+          {
+            "arabic": "نَصْرُ",
+            "translit": "naṣru",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:1 — vowelled, ḍamma. Heavy."
+            }
+          },
+          {
+            "arabic": "رِحْلَةَ",
+            "translit": "riḥlata",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:2 — vowelled, kasra. LIGHT."
+            }
+          },
+          {
+            "arabic": "لِرَبِّكَ",
+            "translit": "li-rabbika",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:2 — vowelled, fatḥa. Heavy, and the kasra on the ل is not invited."
+            }
+          },
+          {
+            "arabic": "صُدُورِ",
+            "translit": "ṣudūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:5 — vowelled, kasra. LIGHT. Diagnostic item."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "تَرْمِيهِم",
+            "translit": "tarmīhim",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:4 — sākin, fatḥa before it. Heavy."
+            }
+          },
+          {
+            "arabic": "وَٱسْتَغْفِرْهُ",
+            "translit": "wa-staghfirhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:3 — sākin, original kasra before it. LIGHT. Diagnostic item, and the غ is on the wrong side."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "translit": "ar-raḥmān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:3 — vowelled, fatḥa, doubled. Heavy, both counts."
+            }
+          },
+          {
+            "arabic": "وَأَرْسَلَ",
+            "translit": "wa-arsala",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:3 — sākin, fatḥa before it. Heavy."
+            }
+          },
+          {
+            "arabic": "رِزْقَهُۥ",
+            "translit": "rizqahu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "89:16 — reference example. Vowelled, kasra. LIGHT, and the ق later in the word changes nothing."
+            }
+          },
+          {
+            "arabic": "بِرَبِّ",
+            "translit": "bi-rabbi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — vowelled, fatḥa, doubled. Heavy."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — which side is the heavy letter on, and Drill 4 — the five-word card from memory",
+      "instructions": "Drill 3: point at the istiʿlāʾ letter on the page and say 'before' or 'after' before giving the ruling. Drill 4: the card, from memory, then the sixth-that-isn't. She should be able to say all five without the page — recognition material, not derivation.",
+      "grid": [
+        [
+          {
+            "arabic": "وَٱسْتَغْفِرْهُ",
+            "translit": "wa-staghfirhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "غ — BEFORE. Light."
+            }
+          },
+          {
+            "arabic": "قِرْطَاسٍ",
+            "translit": "qirṭās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "6:7 — ط — AFTER. Heavy."
+            }
+          },
+          {
+            "arabic": "مِرْصَادًا",
+            "translit": "mirṣādan",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "78:21 — ص — AFTER. Heavy."
+            }
+          },
+          {
+            "arabic": "رِزْقَهُۥ",
+            "translit": "rizqahu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "89:16 — ق — after, BUT the rā' has its own kasra, so the sākin rule never applies. Light. The item that catches over-application."
+            }
+          },
+          {
+            "arabic": "وَفِرْعَوْنَ",
+            "translit": "wa-firʿawna",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "89:10 — none at all. Light."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قِرْطَاسٍ",
+            "translit": "qirṭās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "6:7 — 1 of 5."
+            }
+          },
+          {
+            "arabic": "وَإِرْصَادًا",
+            "translit": "wa-irṣādan",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "9:107 — 2 of 5."
+            }
+          },
+          {
+            "arabic": "فِرْقَةٍ",
+            "translit": "firqatin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "9:122 — 3 of 5."
+            }
+          },
+          {
+            "arabic": "مِرْصَادًا",
+            "translit": "mirṣādan",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "78:21 — 4 of 5."
+            }
+          },
+          {
+            "arabic": "لَبِٱلْمِرْصَادِ",
+            "translit": "la-bil-mirṣād",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "89:14 — 5 of 5. All five outside your memorized surahs; reference examples, not hifz."
+            }
+          },
+          {
+            "arabic": "فِرْقٍ",
+            "translit": "firqin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "26:63 — the sixth that is NOT. Both readings; tarqīq preferred. And this is why the card is five and not six."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — am I stopping, and Drill 6 — lām jalālah, cold",
+      "instructions": "Drill 5: read each twice, joined and stopped, and make the two audibly different. Ask the question OUT LOUD before every one — the habit is what is being drilled, not the words. Drill 6: say the preceding vowel first, then read.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْقَدْرِ",
+            "translit": "al-qadr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "97:1 — joined: light. Stopped: heavy."
+            }
+          },
+          {
+            "arabic": "وَٱلْعَصْرِ",
+            "translit": "al-ʿaṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "103:1 — joined: light. Stopped: heavy."
+            }
+          },
+          {
+            "arabic": "خَيْرٌ",
+            "translit": "khayr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "97:3 — stopped: LIGHT, after a yā' sākinah. The one that goes the other way."
+            }
+          },
+          {
+            "arabic": "ٱلْأَبْتَرُ",
+            "translit": "al-abtar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:3 — stopped: heavy. And you genuinely stop here, at the end of al-Kawthar."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِسْمِ ٱللَّهِ",
+            "translit": "bismi llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasra → LIGHT."
+            }
+          },
+          {
+            "arabic": "نَصْرُ ٱللَّهِ",
+            "translit": "naṣru llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Ḍamma → HEAVY."
+            }
+          },
+          {
+            "arabic": "دِينِ ٱللَّهِ",
+            "translit": "dīni llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasra → LIGHT."
+            }
+          },
+          {
+            "arabic": "هُوَ ٱللَّهُ",
+            "translit": "huwa llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Ḍamma → HEAVY."
+            }
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "translit": "lillāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasra of the fused preposition → LIGHT."
+            }
+          },
+          {
+            "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+            "translit": "allāhu ṣ-ṣamad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Nothing before it → HEAVY."
+            }
+          },
+          {
+            "arabic": "نَارُ ٱللَّهِ",
+            "translit": "nāru llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "104:6 — reference example. Ḍamma → HEAVY."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — solar or lunar, from the marking",
+      "instructions": "Call it BEFORE reading, from the page and not from a list. Sukūn on the ل means pronounce; no sukūn plus a shaddah on the next letter means merge. Twelve words, no hesitation, and every merge held for two full counts.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْحَمْدُ",
+            "translit": "al-ḥamd",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lunar."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "translit": "ar-raḥmān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Solar."
+            }
+          },
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lunar."
+            }
+          },
+          {
+            "arabic": "ٱلدِّينِ",
+            "translit": "ad-dīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Solar."
+            }
+          },
+          {
+            "arabic": "ٱلنَّاسِ",
+            "translit": "an-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Solar — and the only one that hums."
+            }
+          },
+          {
+            "arabic": "ٱلْوَسْوَاسِ",
+            "translit": "al-waswās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lunar."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلصِّرَٰطَ",
+            "translit": "aṣ-ṣirāṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Solar."
+            }
+          },
+          {
+            "arabic": "ٱلْعَٰلَمِينَ",
+            "translit": "al-ʿālamīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lunar."
+            }
+          },
+          {
+            "arabic": "ٱلشِّتَآءِ",
+            "translit": "ash-shitāʾ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Solar."
+            }
+          },
+          {
+            "arabic": "ٱلْبَيْتِ",
+            "translit": "al-bayt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lunar."
+            }
+          },
+          {
+            "arabic": "ٱلَّذِينَ",
+            "translit": "alladhīna",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Solar — ل into ل. One held lām, no seam."
+            }
+          },
+          {
+            "arabic": "ٱلْمَغْضُوبِ",
+            "translit": "al-maghḍūb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lunar."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 8 — which QUESTION am I being asked?",
+      "instructions": "For each item she must name the QUESTION before the answer — 'heavy or light?' or 'pronounced or merged?' This is the highest-value drill of the session. Nearly every error left in this unit is a wrong-question error, not a wrong-answer one.",
+      "grid": [
+        [
+          {
+            "arabic": "بِسْمِ ٱللَّهِ",
+            "translit": "bismi llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy or light? → LIGHT."
+            }
+          },
+          {
+            "arabic": "ٱلْحَمْدُ",
+            "translit": "al-ḥamd",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Pronounced or merged? → PRONOUNCED."
+            }
+          },
+          {
+            "arabic": "شَرِّ",
+            "translit": "sharri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy or light? → LIGHT. And it is a rā', not a lām — she must say which letter she is ruling on."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "translit": "ar-raḥmān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "BOTH questions fire here, on two different letters. The ل: merged. The ر: heavy. Say both, and say that they are independent."
+            }
+          },
+          {
+            "arabic": "يَجْعَلْ",
+            "translit": "yajʿal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Pronounced or merged? → PRONOUNCED. Lām of the verb, and no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَصْرُ ٱللَّهِ",
+            "translit": "naṣru llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy or light? → HEAVY."
+            }
+          },
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Pronounced or merged? → PRONOUNCED. And the ل is light, as every article lām is."
+            }
+          },
+          {
+            "arabic": "صُدُورِ",
+            "translit": "ṣudūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy or light? → LIGHT. On the ر."
+            }
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "translit": "lillāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy or light? → LIGHT, and it is the only lām in the language where that question can be asked."
+            }
+          },
+          {
+            "arabic": "وَٱسْتَغْفِرْهُ",
+            "translit": "wa-staghfirhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy or light? → LIGHT. On the ر, and by the sākin rule rather than the vowelled one — make her say which."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 9 — the whole-surah sweep, and Drill 10 — the cold basmalah",
+      "instructions": "Drill 9: read each straight through and mark every rā' and every lām. An-Naṣr is the single densest page in this unit's material — three ayat containing both lām jalālah rulings, the trap rā', and both lām families. Drill 10: say all five rulings in the basmalah without notes, then read it.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Sūrat al-Falaq — بِرَبِّ heavy, شَرِّ light four times; ٱلْفَلَقِ lunar, ٱلْعُقَدِ lunar."
+            }
+          },
+          {
+            "arabic": "ٱلْفِيلِ",
+            "translit": "al-fīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Sūrat al-Fīl — six heavy rā's in the surah proper and no light ones; ٱلْفِيلِ lunar."
+            }
+          },
+          {
+            "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+            "translit": "idhā jāʾa naṣru llāhi wal-fatḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:1 — نَصْرُ ٱللَّهِ: heavy lām after a ḍamma, and a heavy rā' just before it. وَٱلْفَتْحُ: lunar."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+            "translit": "wa-raʾayta n-nāsa yadkhulūna fī dīni llāhi afwājā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:2 — دِينِ ٱللَّهِ: LIGHT lām after a kasra, one ayah later. ٱلنَّاسَ: solar."
+            }
+          },
+          {
+            "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ إِنَّهُۥ كَانَ تَوَّابًۢا",
+            "translit": "fa-sabbiḥ bi-ḥamdi rabbika wa-staghfirhu innahu kāna tawwābā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:3 — وَٱسْتَغْفِرْهُ: the trap rā', LIGHT. And رَبِّكَ: heavy, from its own fatḥa. Two rā's, two rules, one ayah."
+            }
+          },
+          {
+            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+            "translit": "bismi llāhi r-raḥmāni r-raḥīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:1 — five rulings, from memory, then read. This is the item the session opens and closes with."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 1,
+      "translation": "In the name of Allah, the Most Merciful, the Especially Merciful.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Five rulings in five words, and she now knows all five. The ل of ٱللَّهِ is LIGHT, because بِسْمِ ends in a kasra. The ل of ٱلرَّحْمَٰنِ is MERGED into the ر. That ر is HEAVY, because it is doubled with a fatḥa — not because it merged. Then the same two again in ٱلرَّحِيمِ. She has said this line thousands of times; four sessions ago she could not have said one thing about it."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 110,
+      "ayah": 1,
+      "translation": "When the victory of Allah has come, and the conquest,",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "نَصْرُ ٱللَّهِ — a HEAVY lām jalālah after a ḍamma, held heavy across both counts of the doubled lām. And a heavy rā' immediately before it, from the ḍamma on نَصْرُ itself. Then وَٱلْفَتْحُ, a lunar lām: sukūn on the ل, so sound it, clear and light and unbounced."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 110,
+      "ayah": 2,
+      "translation": "and you see the people entering into the religion of Allah in multitudes,",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "دِينِ ٱللَّهِ — a LIGHT lām jalālah after a kasra, one ayah after the heavy one. Both rulings in a surah of three ayat, twenty words apart. And ٱلنَّاسَ, solar, merged into the ن with its own ghunnah. An-Naṣr is the densest page in this unit and the recording she brings back next session."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 114,
+      "ayah": 5,
+      "translation": "who whispers in the breasts of mankind,",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "صُدُورِ — heavy ص, LIGHT rā'. The word where instinct is loudest and wrong, and one of the two diagnostic items of the unit. The ر has its own kasra, so nothing else is consulted. Then ٱلنَّاسِ, solar and humming. If she gets صُدُورِ right cold, the heavy-by-default habit is broken."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "Q&A — 'do I have to hold all those rā' conditions?' and 'why doesn't the غ count?'",
+      "body": [
+        "'There are so many rā' conditions. Do I really have to hold all of them?' No, and holding all of them is the wrong goal. Hold two sentences and one card. A vowelled rā' takes its own vowel: fatḥa or ḍamma heavy, kasra light. A sākin rā' takes the vowel before it: fatḥa or ḍamma heavy, original kasra light.",
+        "Then two qualifiers hang off the second sentence. The kasra must be ORIGINAL — a hamzat-waṣl kasra does not count. And a FOLLOWING istiʿlāʾ letter in the same word overrides and makes it heavy, in five words, which are on a card.",
+        "Everything else in the family — the waqf shapes, the shadda cases — is those two sentences applied to a rā' that has just become sākin because you stopped. It is not extra material.",
+        "And the count of conditions is a BOOKKEEPING ARTEFACT. Some works give six conditions, some eight, some nine, and they all describe the identical recitation. They are grouping the same facts differently. Do not memorise a numbered list.",
+        "'Why does the غ in وَٱسْتَغْفِرْهُ not make the rā' heavy? It is right there in the word.' Because it is on the WRONG SIDE. The rule is about a heavy letter FOLLOWING the rā', not preceding it.",
+        "Mechanically: the tongue has to still be raised when it makes the rā', and a heavy letter that has already been and gone does not keep it raised — the letters in between have brought it down. In وَٱسْتَغْفِرْهُ the غ is finished, so the rā' is light. In قِرْطَاسٍ the tongue is already rising for the ط while the rā' is being made, so the rā' is heavy.",
+        "Do the physical test with her: say both words slowly and notice where the tongue is at the moment the rā' happens."
+      ],
+      "items": [
+        {
+          "arabic": "وَٱسْتَغْفِرْهُ",
+          "translit": "wa-staghfirhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "110:3 — غ, then ر. The غ is finished. LIGHT."
+          }
+        },
+        {
+          "arabic": "قِرْطَاسٍ",
+          "translit": "qirṭās",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "6:7 — ر, then ط. The tongue is already rising for the ط while the rā' is being made. HEAVY."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Q&A — 'how is this different from 3-06?' and 'is ٱلْقَدْرِ heavy or light?'",
+      "body": [
+        "'How is this different from lesson 3-06, where a heavy letter contaminated its neighbours?' Good question, and the distinction matters more than it looks.",
+        "Lesson 3-06 was about an ERROR. Heaviness bleeding onto the ع, the alif and the م in طَعَامِ is something to STOP DOING. Those letters are light and the bleed is a fault.",
+        "This is a RULE. The rā' is SUPPOSED to change. It is one of two letters in the language licensed to do so.",
+        "So: when a heavy letter darkens a ل or an alif, fix it. When a following heavy letter makes a sākin rā' heavy in one of five words, that is correct. They look similar and they are opposite.",
+        "'Is ٱلْقَدْرِ heavy or light? I keep getting told both.' Both, and neither answer is complete without saying what you are doing. Reading on: the rā' has a kasra, so light. Stopping on it: the kasra drops, the rā' becomes sākin, and it now sits after a sākin د which sits after a fatḥa — so heavy.",
+        "The word did not change. Your stop did. This is the same structure as qalqalah kubrā in lesson 3-05, and it is worth noticing that it has now come up twice in different families: STOPPING CHANGES THE WORD. That is a general fact about recitation rather than a quirk of these two rules, and she will meet it again in the madd rules.",
+        "The habit to build: ask 'am I stopping here?' BEFORE you reach the word, not while you are in it. A decision made mid-word arrives too late to change the sound."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْقَدْرِ",
+          "translit": "al-qadr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "97:1 — reference example. Read it four times: joined, stopped, joined, stopped, until you can produce either on request."
+          }
+        },
+        {
+          "arabic": "ٱلصِّرَٰطَ",
+          "translit": "aṣ-ṣirāṭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:6 — the contrast. Here the ل beside two heavy letters must NOT change, because a lām outside ٱللَّه is always light. A bleed to fix, not a rule to apply."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Q&A — 'is that reciter wrong?' and 'why do the two rules treat kasras differently?'",
+      "body": [
+        "'Someone I listen to reads فِرْقٍ heavy. Are they wrong?' No. فِرْقٍ is one of exactly three cases where both readings are transmitted for Ḥafṣ and either is correct.",
+        "One: فِرْقٍ (26:63). It has the shape of the five exception words — sākin rā' after an original kasra, istiʿlāʾ letter following — but the ق itself carries a kasra, which weakens its pull. Both readings; tarqīq preferred.",
+        "Two: مِصْرَ and ٱلْقِطْرِ, at WAQF only. Ambiguous only when you stop. مِصْرَ: tafkhīm preferred, because its original vowel was a fatḥa. ٱلْقِطْرِ: tarqīq preferred, because its original vowel was a kasra.",
+        "Three: words with a deleted yā', at waqf — يَسْرِ, فَأَسْرِ, نُذُرِ. Treat the missing yā' as present, in which case light, or as absent, in which case heavy. Tarqīq preferred.",
+        "And this is also why the exception list is five words and not six: فِرْقٍ has the same structure and a different answer, so it was never on the list. Two rules for using this: pick one wajh and hold it for the whole recitation, and do not correct someone who chose the other one.",
+        "'The lām jalālah counts every kasra, but the rā' only counts original ones. Why the inconsistency?' Because they are two different rules from two different chapters, and neither was designed with the other in mind. There is no unifying principle to find, and looking for one costs more than memorising the difference.",
+        "For the rā', a temporary or connecting kasra does NOT count — ٱرْجِعِىٓ is heavy. For the lām jalālah it DOES — قُلِ ٱللَّهُمَّ is light. Learn them as two facts. The rā' rule is the odd one out, and it is the one to flag in her notes."
+      ],
+      "items": [
+        {
+          "arabic": "فِرْقٍ",
+          "translit": "firqin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "26:63 — reference example. Both readings, tarqīq preferred, and nobody is wrong."
+          }
+        },
+        {
+          "arabic": "ٱرْجِعِىٓ",
+          "translit": "irjiʿī",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "89:28 — reference example. Rā': the hamzat-waṣl kasra does NOT count. HEAVY."
+          }
+        },
+        {
+          "arabic": "قُلِ ٱللَّهُمَّ",
+          "translit": "quli llāhumma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "3:26 — reference example. Lām jalālah: the connecting kasra DOES count. LIGHT. Two rules, opposite answers, and no unification to find."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Q&A — the two lām families, and solar without the fourteen letters",
+      "body": [
+        "'I keep mixing up the two lām rules. How do I stop?' Ask WHICH QUESTION before you try to answer anything. There are only two.",
+        "A lām in the word ٱللَّه asks: heavy or light? The definite article ٱلـ asks: pronounced or merged? A lām in a verb asks: pronounced or merged — and the answer is pronounced, except before ل and ر. Any other lām asks nothing at all: always light, always pronounced.",
+        "They can never both apply to the same lām, so if you have identified the lām correctly the question answers itself.",
+        "The other half of the fix: the heavy/light question concerns exactly ONE word in the language. Every lām in that table except the first is light. If you are wondering about the weight of a lām that is not in ٱللَّه, the answer is already light and you can stop wondering.",
+        "'How do I know solar from lunar without memorising fourteen letters?' You do not need the letters. The mushaf tells you. Sukūn on the ل → pronounce it. No sukūn on the ل, shaddah on the next letter → merge it. That is a visual check, it takes no recall, and it is right every time.",
+        "Learn ابْغِ حَجَّكَ وَخَفْ عَقِيمَهُ — one short phrase, fourteen lunar letters — for understanding and for unpointed text, and take the solar letters by elimination. Do not try to memorise both lists.",
+        "And if she wants the reason behind the split rather than the list: the solar letters are made at or near the tongue, which is where the ل is made. Neighbouring articulations assimilate. She has the tongue map from lesson 3-01; the split falls straight out of it."
+      ],
+      "items": [
+        {
+          "arabic": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+          "translit": "wash-shafʿi wal-watr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "89:3 — reference example, outside your memorized surahs. Solar then lunar, side by side, five syllables. If she can do this line she can do the rule."
+          }
+        },
+        {
+          "arabic": "ابْغِ حَجَّكَ وَخَفْ عَقِيمَهُ",
+          "translit": "ibghi ḥajjaka wa-khaf ʿaqīmah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Fourteen lunar letters in one sentence. Everything else is solar. And you almost never need it, because the page has already told you."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Q&A — the merge that is not held, what to worry about, and whether she can hear it yet",
+      "body": [
+        "'My merges sound right but you keep stopping me on ٱلرَّحْمَٰن. What is wrong with it?' You are dropping the ل and not putting anything in its place. That is a deletion, not a merge.",
+        "The lām is TRANSFERRED into the length of the next letter. ٱلرَّحْمَٰن has a DOUBLED ر — two full counts — and if it comes out as one short ر, the ل has simply gone missing. This is lesson 2-05's instruction unchanged: hold the shadda for two counts, tapped out. It is the most common merge error at her level and it is completely invisible to the person making it, because the wrong version FEELS like it obeyed the rule.",
+        "'Which of my mistakes should I actually be worrying about now?' Keep it to three, written down in her own hand. At the end of Unit 3.2 the ranking is almost always: first, بِسْمِ ٱللَّهِ read with a heavy lām — highest frequency by an enormous margin, in the phrase she says most. Second, heavy rā' by default — رِحْلَةَ, رِزْقَهُۥ, شَرِّ, صُدُورِ. Third, a merge that is not held — ٱلرَّحْمَٰن with a single short ر.",
+        "Everything else — the five-word card, the jawāz cases, the waqf shapes — is RECOGNITION material, and recognition material does not decay the way habits do.",
+        "'Can I hear any of this in my own recitation yet?' More than at the end of Unit 3.1, and still not enough on your own. The three habits stand. Record, then listen back two days later — delay breaks the loop between what you intended and what you hear. Use the tests that do not depend on the ear, which for this unit mostly means COUNTING TAPS on the rā' in a recording and TAPPING THE TWO BEATS on a merge. And compare against a reciter one word at a time, not one surah at a time.",
+        "And the honest boundary again, plainly, because it is worth repeating rather than assuming: this course teaches the rules and trains the ear. It cannot hear you. Tajweed has always been received face to face from a qualified reciter. What this does is make time with a teacher shorter and sharper — she arrives knowing the rules, able to hear the difference, and knowing which sounds her own language will trip her on."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلرَّحْمَٰنِ",
+          "translit": "ar-raḥmān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:3 — tap the two beats. A merge that is not held is a deletion, and the wrong version feels correct from the inside."
+          }
+        },
+        {
+          "arabic": "بِسْمِ ٱللَّهِ",
+          "translit": "bismi llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:1 — number one on the ranked list, by an enormous margin. Highest frequency, in the phrase she says most."
+          }
+        },
+        {
+          "arabic": "صُدُورِ",
+          "translit": "ṣudūr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:5 — number two on the list. Heavy rā' by default is a habit, and habits decay back; the card and the jawāz cases do not."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "The six that actually come back",
+      "mistakes": [
+        {
+          "wrong": "بِسْمِ ٱللَّهِ read with a heavy lām, after it was fixed two sessions ago.",
+          "why": "It is said dozens of times a day outside recitation, in a form the surrounding languages pronounce heavy, and it is fast enough to slip back below awareness. Highest frequency of anything in the unit.",
+          "fix": "'What is the vowel on بِسْمِ?' Then the three-phrase sequence: بِسْمِ ٱللَّهِ, نَصْرُ ٱللَّهِ, دِينِ ٱللَّهِ. It fixes itself repeatedly once fixed, because it heads every surah she recites."
+        },
+        {
+          "wrong": "Heavy rā' by default — رِحْلَةَ, رِزْقَهُۥ, شَرِّ and صُدُورِ read heavy under reading load.",
+          "why": "It is the default of every language around her. She is not adding heaviness; she is failing to remove something she arrived with, and removal decays back faster than addition.",
+          "fix": "Rich, not rob. Drill 2 cold, and if صُدُورِ comes out right without warning, the habit is broken."
+        },
+        {
+          "wrong": "A merge that is not held — ٱلرَّحْمَٰن with a single short ر.",
+          "why": "'Not pronounced' has been heard as 'deleted'. The lām is transferred into the length of the next letter, and the wrong version feels like it obeyed the rule, so it is invisible from the inside.",
+          "fix": "Tap the two beats. 'Where did the ل go? Into the ر. So the ر has to be twice as long.'"
+        },
+        {
+          "wrong": "Answering the wrong QUESTION — giving 'merged' for a lām jalālah, or 'light' for an article lām.",
+          "why": "Two lām families arrived in consecutive sessions and both are 'a lām rule'. Nearly every error left in this unit is a wrong-question error rather than a wrong-answer one.",
+          "fix": "Drill 8. Name the question before the answer, every time. If you have identified the lām correctly the question answers itself."
+        },
+        {
+          "wrong": "Over-applying the solar merge — af-falaq, aq-qāriʿah — a week after lesson 3-12.",
+          "why": "The merge is the newest and most interesting rule of the unit, and new rules generalise. It arrives the week after the lesson, which means this session is exactly when to catch it.",
+          "fix": "'Look at the ل. Sukūn?' Read the marking, not a list. Drill 7."
+        },
+        {
+          "wrong": "Deciding a waqf ruling mid-word — ٱلْقَدْرِ light when stopping, or heavy when reading on.",
+          "why": "The ruling was decided when she saw the word rather than when she decided her stop. It is the same failure as qalqalah kubrā in 3-05, in a different family.",
+          "fix": "'Am I stopping here?' asked out loud BEFORE the word. Keep it a spoken habit for a fortnight."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Two lines, one line, one card, and one question asked first",
+      "items": [
+        {
+          "arabic": "صُدُورِ",
+          "translit": "ṣudūr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A VOWELLED rā' takes its own vowel. Kasra here, so light, and nothing else in the word is consulted."
+          }
+        },
+        {
+          "arabic": "وَٱسْتَغْفِرْهُ",
+          "translit": "wa-staghfirhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A SĀKIN rā' takes the vowel before it — original kasras only, and a FOLLOWING istiʿlāʾ letter overrides. Light, and the غ is on the wrong side."
+          }
+        },
+        {
+          "arabic": "بِسْمِ ٱللَّهِ / نَصْرُ ٱللَّهِ",
+          "translit": "bismi llāh / naṣru llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Lām jalālah, the whole rule: fatḥa or ḍamma before it heavy, kasra light, beginning on it heavy. One condition, and it concerns one word in the language."
+          }
+        },
+        {
+          "arabic": "ٱلْحَمْدُ / ٱلرَّحْمَٰنِ",
+          "translit": "al-ḥamd / ar-raḥmān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The article: sukūn means pronounce, shaddah on the next letter means merge — and hold the merge for two counts. The page answers it every time."
+          }
+        },
+        {
+          "arabic": "قِرْطَاسٍ · وَإِرْصَادًا · فِرْقَةٍ · مِرْصَادًا · لَبِٱلْمِرْصَادِ",
+          "translit": "the five-word card",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "6:7 · 9:107 · 9:122 · 78:21 · 89:14 — all outside your memorized surahs. Recognise, do not derive, do not extend. And فِرْقٍ is why it is five and not six."
+          }
+        },
+        {
+          "arabic": "ٱلْقَدْرِ",
+          "translit": "al-qadr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Am I stopping here? Asked BEFORE the word. Stopping changes the word — twice now, in two different families, and it will happen again in the madd rules."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 25–35 min/day, five days. Consolidation week, no new load",
+      "tasks": [
+        "One minute — Drill 1. The two rā' lines and the lām jalālah line, from memory, out loud. If they are not cold-solid, everything else is guesswork.",
+        "Three minutes — Drill 2, rā' mixed cold. Twelve words, no grouping.",
+        "One minute — Drill 4, the five-word card from memory, then the sixth that is not.",
+        "Two minutes — Drill 5. Ask 'am I stopping?' out loud before every word.",
+        "Two minutes — Drill 6, lām jalālah, naming the preceding vowel first.",
+        "Two minutes — Drill 7. Solar or lunar, from the marking, twelve words, every merge held two counts.",
+        "Three minutes — Drill 8. Name the QUESTION before the answer. This is the one that matters.",
+        "Four minutes — Drill 9. Al-Falaq, al-Fīl and an-Naṣr swept for every rā' and every lām.",
+        "One minute — Drill 10. The basmalah, five rulings, no notes.",
+        "Hifz — al-Fātiḥah, an-Nās and al-Falaq on the Manzil/Sabqi rotation. NO new portion this week.",
+        "Bring to the next session: your three-item list of what still needs work, written down, and a recording of Sūrat an-Naṣr — three ayat that contain both lām jalālah rulings, the trap rā', and both lām families."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — the three sentences, from memory",
+        "instructions": "Cold, out loud, before anything else. If she cannot produce these, fix them before touching the rest.",
+        "grid": [
+          [
+            {
+              "arabic": "رَ · رِ · رُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "A vowelled rā' takes its own vowel."
+              }
+            },
+            {
+              "arabic": "أَرْ · إِرْ · أُرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "A sākin rā' takes the vowel before it."
+              }
+            },
+            {
+              "arabic": "ٱللَّه",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Fatḥa or ḍamma before it heavy, kasra light, starting on it heavy."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — rā', mixed and cold",
+        "instructions": "Read and rule. No warning, no grouping. صُدُورِ and وَٱسْتَغْفِرْهُ are the diagnostic items.",
+        "grid": [
+          [
+            {
+              "arabic": "تَرَ",
+              "translit": "tara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            },
+            {
+              "arabic": "شَرِّ",
+              "translit": "sharri",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light."
+              }
+            },
+            {
+              "arabic": "نَصْرُ",
+              "translit": "naṣru",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            },
+            {
+              "arabic": "رِحْلَةَ",
+              "translit": "riḥlata",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light."
+              }
+            },
+            {
+              "arabic": "لِرَبِّكَ",
+              "translit": "li-rabbika",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            },
+            {
+              "arabic": "صُدُورِ",
+              "translit": "ṣudūr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light — diagnostic."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "تَرْمِيهِم",
+              "translit": "tarmīhim",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            },
+            {
+              "arabic": "وَٱسْتَغْفِرْهُ",
+              "translit": "wa-staghfirhu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light — diagnostic."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "translit": "ar-raḥmān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            },
+            {
+              "arabic": "وَأَرْسَلَ",
+              "translit": "wa-arsala",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            },
+            {
+              "arabic": "رِزْقَهُۥ",
+              "translit": "rizqahu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "89:16 — reference example. Light."
+              }
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "translit": "bi-rabbi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — which side is the heavy letter on?",
+        "instructions": "Point at the istiʿlāʾ letter and say 'before' or 'after' before ruling.",
+        "grid": [
+          [
+            {
+              "arabic": "وَٱسْتَغْفِرْهُ",
+              "translit": "wa-staghfirhu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Before. Light."
+              }
+            },
+            {
+              "arabic": "قِرْطَاسٍ",
+              "translit": "qirṭās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "After. Heavy."
+              }
+            },
+            {
+              "arabic": "مِرْصَادًا",
+              "translit": "mirṣādan",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "After. Heavy."
+              }
+            },
+            {
+              "arabic": "رِزْقَهُۥ",
+              "translit": "rizqahu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "After — but the rā' has its own kasra, so the sākin rule never applies. Light."
+              }
+            },
+            {
+              "arabic": "وَفِرْعَوْنَ",
+              "translit": "wa-firʿawna",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "None. Light."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — the five-word card, from memory",
+        "instructions": "All five without the page, then the sixth-that-isn't.",
+        "grid": [
+          [
+            {
+              "arabic": "قِرْطَاسٍ",
+              "translit": "qirṭās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "6:7."
+              }
+            },
+            {
+              "arabic": "وَإِرْصَادًا",
+              "translit": "wa-irṣādan",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "9:107."
+              }
+            },
+            {
+              "arabic": "فِرْقَةٍ",
+              "translit": "firqatin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "9:122."
+              }
+            },
+            {
+              "arabic": "مِرْصَادًا",
+              "translit": "mirṣādan",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "78:21."
+              }
+            },
+            {
+              "arabic": "لَبِٱلْمِرْصَادِ",
+              "translit": "la-bil-mirṣād",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "89:14."
+              }
+            },
+            {
+              "arabic": "فِرْقٍ",
+              "translit": "firqin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "26:63 — both readings; tarqīq preferred."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — am I stopping?",
+        "instructions": "Twice each, joined and stopped, audibly different. Ask the question out loud first.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْقَدْرِ",
+              "translit": "al-qadr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light joined, heavy stopped."
+              }
+            },
+            {
+              "arabic": "وَٱلْعَصْرِ",
+              "translit": "al-ʿaṣr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light joined, heavy stopped."
+              }
+            },
+            {
+              "arabic": "خَيْرٌ",
+              "translit": "khayr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light when stopped."
+              }
+            },
+            {
+              "arabic": "ٱلْأَبْتَرُ",
+              "translit": "al-abtar",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy when stopped."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — lām jalālah, cold",
+        "instructions": "Name the preceding vowel first, then read.",
+        "grid": [
+          [
+            {
+              "arabic": "بِسْمِ ٱللَّهِ",
+              "translit": "bismi llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasra → light."
+              }
+            },
+            {
+              "arabic": "نَصْرُ ٱللَّهِ",
+              "translit": "naṣru llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ḍamma → heavy."
+              }
+            },
+            {
+              "arabic": "دِينِ ٱللَّهِ",
+              "translit": "dīni llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasra → light."
+              }
+            },
+            {
+              "arabic": "هُوَ ٱللَّهُ",
+              "translit": "huwa llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ḍamma → heavy."
+              }
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "translit": "lillāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasra → light."
+              }
+            },
+            {
+              "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+              "translit": "allāhu ṣ-ṣamad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Nothing before it → heavy."
+              }
+            },
+            {
+              "arabic": "نَارُ ٱللَّهِ",
+              "translit": "nāru llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "104:6 — reference example. Ḍamma → heavy."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — solar or lunar, from the marking",
+        "instructions": "Call it before reading, from the page. Every merge held for two counts.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "translit": "al-ḥamd",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lunar."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "translit": "ar-raḥmān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Solar."
+              }
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lunar."
+              }
+            },
+            {
+              "arabic": "ٱلدِّينِ",
+              "translit": "ad-dīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Solar."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاسِ",
+              "translit": "an-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Solar, and it hums."
+              }
+            },
+            {
+              "arabic": "ٱلْوَسْوَاسِ",
+              "translit": "al-waswās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lunar."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلصِّرَٰطَ",
+              "translit": "aṣ-ṣirāṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Solar."
+              }
+            },
+            {
+              "arabic": "ٱلْعَٰلَمِينَ",
+              "translit": "al-ʿālamīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lunar."
+              }
+            },
+            {
+              "arabic": "ٱلشِّتَآءِ",
+              "translit": "ash-shitāʾ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Solar."
+              }
+            },
+            {
+              "arabic": "ٱلْبَيْتِ",
+              "translit": "al-bayt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lunar."
+              }
+            },
+            {
+              "arabic": "ٱلَّذِينَ",
+              "translit": "alladhīna",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Solar — one held lām."
+              }
+            },
+            {
+              "arabic": "ٱلْمَغْضُوبِ",
+              "translit": "al-maghḍūb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lunar."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 8 — which question am I being asked?",
+        "instructions": "Name the question before the answer. The highest-value drill of the session.",
+        "grid": [
+          [
+            {
+              "arabic": "بِسْمِ ٱللَّهِ",
+              "translit": "bismi llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy or light? Light."
+              }
+            },
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "translit": "al-ḥamd",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Pronounced or merged? Pronounced."
+              }
+            },
+            {
+              "arabic": "شَرِّ",
+              "translit": "sharri",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy or light? Light — on the ر."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "translit": "ar-raḥmān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Both, on two letters. ل merged, ر heavy, independently."
+              }
+            },
+            {
+              "arabic": "يَجْعَلْ",
+              "translit": "yajʿal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Pronounced or merged? Pronounced."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَصْرُ ٱللَّهِ",
+              "translit": "naṣru llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy or light? Heavy."
+              }
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Pronounced or merged? Pronounced."
+              }
+            },
+            {
+              "arabic": "صُدُورِ",
+              "translit": "ṣudūr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy or light? Light."
+              }
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "translit": "lillāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy or light? Light."
+              }
+            },
+            {
+              "arabic": "وَٱسْتَغْفِرْهُ",
+              "translit": "wa-staghfirhu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy or light? Light, by the sākin rule."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 9 — the whole-surah sweep",
+        "instructions": "Straight through, marking every rā' and every lām. An-Naṣr is the densest page in the unit.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بِرَبِّ heavy, شَرِّ light ×4; ٱلْفَلَقِ and ٱلْعُقَدِ lunar."
+              }
+            },
+            {
+              "arabic": "ٱلْفِيلِ",
+              "translit": "al-fīl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Six heavy rā's, no light ones; ٱلْفِيلِ lunar."
+              }
+            },
+            {
+              "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "110:1 — heavy lām jalālah, heavy rā', lunar وَٱلْفَتْحُ."
+              }
+            },
+            {
+              "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "110:2 — light lām jalālah, solar ٱلنَّاسَ."
+              }
+            },
+            {
+              "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ إِنَّهُۥ كَانَ تَوَّابًۢا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "110:3 — the trap rā', light; and رَبِّكَ heavy."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 10 — the cold basmalah",
+        "instructions": "Five rulings without notes, then read it. The session opens and closes here.",
+        "grid": [
+          [
+            {
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "translit": "bismi llāhi r-raḥmāni r-raḥīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light lām jalālah, two merged solar lāms, two heavy doubled rā's."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1 — the two rā' lines and the lām jalālah line, from memory",
+      "Drill 2 — rā' mixed cold, twelve words, no grouping",
+      "Drill 4 — the five-word card from memory, then the sixth that is not",
+      "Drill 5 — 'am I stopping?' asked out loud before every word",
+      "Drill 6 — lām jalālah, naming the preceding vowel first",
+      "Drill 7 — solar or lunar from the marking, every merge held two counts",
+      "Drill 8 — name the QUESTION before the answer",
+      "Drill 9 — al-Falaq, al-Fīl and an-Naṣr swept for every rā' and lām",
+      "Drill 10 — the basmalah, five rulings, no notes",
+      "Hifz — al-Fātiḥah, an-Nās and al-Falaq on rotation. No new portion this week."
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Do not review. Test, cold, in the first three minutes. Put بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ in front of her, ask her to read it slowly, and then to name every rule that fires in it. Do not help until she has finished.",
+      "There are five rulings in five words and she now knows all of them: the light lām jalālah, two merged solar lāms, and two heavy doubled rā's. Then the framing — you have said this line thousands of times, and until four sessions ago you could not have told me one thing about it. The test is not whether you know the rules; it is whether you can find them without being told to look.",
+      "Name the shape of the unit out loud, because four sessions of conditions need a skeleton. Two letters in the entire language switch between heavy and light. The rā' has eight-ish conditions, a card, a waṣl/waqf split and three ambiguous words. The lām jalālah has one condition. And there is a second lām family asking a different question, which the page answers for you.",
+      "Say where it goes: Unit 3.3 is ghunnah and Unit 3.4 is the nūn sākinah rules, and the istiʿlāʾ set from 3-03 comes back there to decide whether the hum of ikhfāʾ is heavy or light. Nothing in this unit was a dead end.",
+      "Run Part A interleaved and in the printed order. DO NOT group by rule. Grouping makes a student look competent in the session and fail a week later.",
+      "Drill 1 first, and treat it as a gate: if she cannot produce the three sentences cold, everything else today is guesswork. Fix them before moving on.",
+      "In Drill 2 watch for صُدُورِ and وَٱسْتَغْفِرْهُ read heavy. Those two are the diagnostic items of the entire unit — one tests the vowelled rule, the other the sākin rule, and both test whether she is still deciding from a neighbouring heavy letter.",
+      "Drill 8 is the highest-value drill of the session. Nearly every error left in this unit is a WRONG-QUESTION error rather than a wrong-answer one. Make her name the question before she answers it, every single time.",
+      "Answer the Part B questions whether or not she asks them. Four sessions of conditional material generate exactly these questions and she has had nowhere to put them.",
+      "For 'do I have to hold all the rā' conditions', the answer is two sentences and one card, with two qualifiers hanging off the second sentence. Then say the bookkeeping fact: some works give six conditions, some eight, some nine, and they all describe the identical recitation. Do not memorise a numbered list.",
+      "For the غ question, give the mechanism rather than the rule: the tongue has to still be raised when it makes the rā'. A heavy letter that has been and gone does not keep it raised. Do the physical test — say both words slowly and notice where the tongue is at the moment the rā' happens.",
+      "The 3-06 distinction matters and is worth the time. Lesson 3-06 was about an ERROR to stop doing; this is a RULE the rā' is licensed to follow. They look similar and they are opposite. When a heavy letter darkens a ل or an alif, fix it. When a following heavy letter makes a sākin rā' heavy in one of five words, that is correct.",
+      "For ٱلْقَدْرِ, say the general fact rather than the local one: stopping changes the word. It has now come up twice in different families — qalqalah kubrā and the rā' — and she will meet it again in the madd rules. The habit is asking 'am I stopping here?' before reaching the word.",
+      "For 'is that reciter wrong', name the three jawāz cases and then the two rules for using them: pick one wajh and hold it for the whole recitation, and do not correct someone who chose the other.",
+      "For the kasra inconsistency, do not invent a unifying principle. Two rules from two chapters, neither designed with the other in mind. The rā' rule is the odd one out and it is the one to flag in her notes.",
+      "For the two lām families, the fix is the question table and one sentence: the heavy/light question concerns exactly one word in the language. If she is wondering about the weight of a lām that is not in ٱللَّه, the answer is already light.",
+      "For solar and lunar, keep pushing her back to the page. Sukūn means pronounce; shaddah on the next letter means merge. It takes no recall and it is right every time. The lunar phrase is for understanding and for unpointed text, not for reading.",
+      "For the merge that is not held, be concrete: the lām is transferred into the LENGTH of the next letter. Tap the two beats. It is the most common merge error at her level and completely invisible from the inside, because the wrong version feels like it obeyed the rule.",
+      "Give her the ranked three, written down in her own hand: the heavy basmalah lām, the heavy-by-default rā', and the unheld merge. Everything else in this unit is recognition material, and recognition material does not decay the way habits do.",
+      "For 'can I hear this yet', the honest answer is more than at the end of Unit 3.1 and still not enough alone. The three habits stand — record and listen back two days later, use the tests that do not depend on the ear (counting taps, tapping beats), and compare one word at a time. Then the boundary, plainly: this course teaches the rules and trains the ear; it cannot hear you.",
+      "Hifz: NO new Sabaq, and say why. Revision lessons pause new rules and new memorisation, so the memorisation muscle gets one session's rest while retrieval does the work. Nothing is being skipped.",
+      "This session closes the unit's memorisation slice. She now holds al-Fātiḥah (7), an-Nās (6) and al-Falaq (5) — eighteen ayat. Run all three whole and unaided and treat it as a checkpoint rather than a rehearsal.",
+      "Manzil — al-Fātiḥah, and an-Nās if it has been promoted. Sabqi — al-Falaq complete, and an-Nās if it is not yet promoted. Two surahs per day on rotation covers the pool comfortably at this size.",
+      "Promotion check: three consecutive clean recitations promotes a surah from Sabqi to Manzil. Be honest that the number is the course's own default — the sources say 'when it is solid' and stop there. If a promoted surah keeps decaying, raise the threshold to four or five and write down that you have.",
+      "Score both axes separately and write both numbers down: memorisation fidelity (words omitted, added or transposed) and tajweed (everything in Units 3.1 and 3.2). Clean recall with rough recitation and clean recitation with shaky recall need opposite remedies, and at this point in the course knowing which you are looking at is worth more than the score itself."
+    ],
+    "listenFor": [
+      {
+        "item": "A LIGHT lām in بِسْمِ ٱللَّهِ, still, two sessions after it was fixed.",
+        "commonMistake": "Bismillōh returning under speed.",
+        "whyItHappens": "It is said dozens of times a day outside recitation, in a form the surrounding languages pronounce heavy, and it is fast enough to slip back below awareness. Highest frequency of anything in the unit.",
+        "correctionCue": "What is the vowel on بِسْمِ? Then the three-phrase sequence. It re-fixes itself once fixed, because it heads every surah she recites.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Lam-Jalalah.md"
+      },
+      {
+        "item": "صُدُورِ and وَٱسْتَغْفِرْهُ read LIGHT, cold, with no warning.",
+        "commonMistake": "Both read heavy under reading load, pulled by the ص and the غ.",
+        "whyItHappens": "The heavy rā' is the default of every language around her, so removal decays back faster than addition. These two are the diagnostic items because one tests the vowelled rule and one the sākin rule, and both test whether she is still deciding from a neighbour.",
+        "correctionCue": "What vowel is on the rā'? Which side is the heavy letter on? If she gets these two right cold, the habit is broken.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ra-Tarqiq.md"
+      },
+      {
+        "item": "Every merge HELD for two full counts — ٱلرَّحْمَٰن with a genuinely doubled ر.",
+        "commonMistake": "A single short ر: the lām dropped and nothing put in its place.",
+        "whyItHappens": "'Not pronounced' has been heard as 'deleted'. The lām is transferred into the length of the next letter, and the wrong version feels like it obeyed the rule — so it is invisible to the person making it.",
+        "correctionCue": "Tap the two beats. Where did the ل go? Into the ر, so the ر has to be twice as long.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Lam-Shamsiyyah.md"
+      },
+      {
+        "item": "The right QUESTION named before any answer is given.",
+        "commonMistake": "Answering 'merged' for a lām jalālah, or 'light' for an article lām.",
+        "whyItHappens": "Two lām families arrived in consecutive sessions and both are 'a lām rule'. Nearly every error left in this unit is a wrong-question error rather than a wrong-answer one.",
+        "correctionCue": "Which lām is it? Then the question answers itself — they can never both apply to the same lām.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-13-Revision-Unit-3-2.md"
+      },
+      {
+        "item": "Lunar lāms still pronounced a week after lesson 3-12.",
+        "commonMistake": "af-falaq, aq-qāriʿah — the solar merge over-applied.",
+        "whyItHappens": "The merge is the newest and most interesting rule of the unit, and new rules generalise. It arrives the week AFTER the lesson, which makes this session exactly when to catch it.",
+        "correctionCue": "Look at the ل. Sukūn? Read the marking, not a list.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Lam-Qamariyyah.md"
+      },
+      {
+        "item": "The waqf ruling decided BEFORE the word is reached.",
+        "commonMistake": "ٱلْقَدْرِ read light when stopping, or heavy when reading on.",
+        "whyItHappens": "The ruling was decided from the look of the word rather than from her own intention. Same failure as qalqalah kubrā in 3-05, in a different family — which is worth naming, because it makes the pattern general rather than local.",
+        "correctionCue": "'Am I stopping here?' out loud, before the word. Keep it a spoken habit for a fortnight.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ra-Jawaz-Wajhayn.md"
+      },
+      {
+        "item": "A transmitted alternative left uncorrected, and one wajh held consistently.",
+        "commonMistake": "Flagging a reciter's heavy فِرْقٍ as an error, or alternating within one sitting.",
+        "whyItHappens": "Everything else in the course has one right answer, so she has generalised that. And 'both are allowed' is easily heard as 'it does not matter'.",
+        "correctionCue": "Is that one of the three? Pick one and hold it. Both permitted is not the same as either at random.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ra-Jawaz-Wajhayn.md"
+      },
+      {
+        "item": "Self-diagnosis — her own written three-item list, in her own hand.",
+        "commonMistake": "Waiting to be told what needs work, or listing more than three things.",
+        "whyItHappens": "Four sessions of dense conditional material make everything feel equally shaky, and a long list is a way of not choosing. The ranking is the skill being tested, not the recall.",
+        "correctionCue": "Three, ranked, written down. Habits first — the basmalah lām, the default-heavy rā', the unheld merge. The card and the jawāz cases are recognition material and do not decay the same way.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-13-Revision-Unit-3-2.md"
+      }
+    ],
+    "homework": "25–35 min/day over five days — consolidation week, no new load. Daily: Drill 1, the two rā' lines and the lām jalālah line from memory (one minute); Drill 2, rā' mixed cold, twelve words with no grouping (three minutes); Drill 4, the five-word card from memory then the sixth-that-isn't (one minute); Drill 5, asking 'am I stopping?' out loud before every word (two minutes); Drill 6, lām jalālah with the preceding vowel named first (two minutes); Drill 7, solar or lunar from the marking, twelve words, every merge held two counts (two minutes); Drill 8, naming the QUESTION before the answer — the one that matters (three minutes); Drill 9, al-Falaq, al-Fīl and an-Naṣr swept for every rā' and lām (four minutes); Drill 10, the basmalah with five rulings and no notes (one minute). Hifz: al-Fātiḥah, an-Nās and al-Falaq on the Manzil/Sabqi rotation, with NO new portion this week — revision lessons pause new memorisation as well as new rules. Bring to the next session: the three-item list of what still needs work, written down, and a recording of Sūrat an-Naṣr, three ayat containing both lām jalālah rulings, the trap rā', and both lām families."
+  },
+  "videos": []
+}
