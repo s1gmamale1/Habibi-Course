@@ -1,0 +1,636 @@
+{
+  "id": "4-07",
+  "phase": 4,
+  "draft": true,
+  "unit": "4.7",
+  "title": "Īmān Mujmal",
+  "objectives": [
+    "Student can recite Īmān Mujmal from memory with correct tajweed on a planned breath scheme.",
+    "Student can produce madd muttaṣil at four counts in asmāʾihī and distinguish it from the short madd badal in āmantu.",
+    "Student can produce iqlāb twice at the end and finish on a clean qalqalah kubrā.",
+    "Student can name every rule in the text without prompting — this is the first text where that is a reasonable expectation."
+  ],
+  "prerequisites": [
+    "3-36"
+  ],
+  "stage": "The Kalimas",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 4.7 — Īmān Mujmal",
+      "arabicDecor": "آمَنْتُ بِاللَّهِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Where this sits — the six kalimas are done",
+      "body": [
+        "Īmān Mujmal and Īmān Mufaṣṣal are a different pair. They are not kalimas at all, but the two statements of belief — in brief and in detail — that traditionally close this memorisation set.",
+        "Say that to her. The unit has a shape and she should know she has crossed into its last part.",
+        "Tajweed-wise these two are the hardest texts in Unit 4, and they contain the two madd rules the kalimas never gave her. Both of them are in this lesson.",
+        "That is worth stating as a reward rather than a warning: six lessons of applying rules she already had, and today there is something genuinely new.",
+        "Everything about the lām of the name of Allah is now hers. Do not name a single weight for her today."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Start with one word, before the text is visible",
+      "body": [
+        "آمَنْتُ",
+        "'Two rules in one word, and it is the first word. You have used neither of them yet in this unit.'",
+        "āmantu — 'I have believed.' The madda over the alif is one rule; the nūn sākinah before the tāʾ is another.",
+        "She will have said this word thousands of times without either.",
+        "That is the hook, and it is the hook of the whole unit sharpened to a single word: the words are familiar, the rules in them are not."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The text",
+      "body": [
+        "آمَنْتُ بِاللَّهِ كَمَا هُوَ بِأَسْمَائِهِ وَصِفَاتِهِ وَقَبِلْتُ جَمِيعَ أَحْكَامِهِ إِقْرَارٌ بِاللِّسَانِ وَتَصْدِيقٌ بِالْقَلْبِ",
+        "āmantu bi-llāhi kamā huwa bi asmāʾihī wa ṣifātihī wa qabiltu jamīʿa aḥkāmihī iqrārum bi-l-lisāni wa taṣdīqum bi-l-qalb",
+        "\"I believe in Allah as He is, with His names and His attributes, and I accept all His commands — affirming with the tongue and confirming with the heart.\"",
+        "Mujmal — مُجْمَل — means in summary, in brief. Its counterpart, Īmān Mufaṣṣal, says the same thing item by item.",
+        "It is short. Do not let its length suggest it is easy: it has more new material in it than any lesson since 4-01."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "آ — the madd that must stay short",
+      "body": [
+        "The wavy madda sign over the alif marks a hamzah followed by a madd letter. That is madd badal, the substitute madd: two counts, no more. Not four, not six.",
+        "She will want to give it four, because it looks long and because she has spent six lessons stretching lā to four.",
+        "Here is the distinction, and it is the intellectual content of the first half of this lesson. Madd badal is hamzah then madd letter. Madd munfaṣil is madd letter then hamzah, across a word boundary.",
+        "Order decides length. Hamzah first: two. Madd first: four.",
+        "Write that on the card. It applies to every page of the muṣḥaf, not only to this text."
+      ],
+      "items": [
+        {
+          "arabic": "آمَنْتُ",
+          "translit": "āmantu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TWO counts on the ā. Count them on your fingers where I can see. Then the hidden n. Both, every time."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "ikhfa",
+      "heading": "نْتُ — the nūn that never quite arrives",
+      "condition": "Nūn sākinah or tanwīn followed by one of the fifteen remaining letters: the nūn is hidden, with two counts of ghunnah, while the tongue moves towards the next letter.",
+      "letters": [
+        "ت",
+        "ث",
+        "ج",
+        "د",
+        "ذ",
+        "ز",
+        "س",
+        "ش",
+        "ص",
+        "ض",
+        "ط",
+        "ظ",
+        "ف",
+        "ق",
+        "ك"
+      ],
+      "harakat": 2,
+      "body": [
+        "The second rule of the first word. نْ is a nūn sākinah followed by ت, one of the fifteen ikhfāʾ letters, so the nūn is hidden, with two counts of ghunnah, the tongue already moving to the tāʾ.",
+        "āmantu — the n never fully arrives anywhere.",
+        "This is the same ikhfāʾ she did at أَنْتَ in 4-05. Point at it and let her make the connection; the recognition is the reward.",
+        "Two rules in the first word, and if the first word is wrong then everything after it starts wrong.",
+        "Drill it alone, thirty times, before the text is recited at all."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "بِاللَّهِ and كَمَا هُوَ — one decision, then nothing",
+      "body": [
+        "بِاللَّهِ — ask, and say nothing else. She has the answer: the kasrah of bi-, so light. Thin, forward. It is the third light one in the unit and by now it should need no correction at all.",
+        "Note where it sits: the second word of the text. That matters, because in this sentence there is nothing else to compare it against — and in 4-08 there will be.",
+        "كَمَا — fatḥah plus alif, a natural madd, two counts. Then هُوَ, and the hāʾ here is a throat letter pronounced cleanly.",
+        "Nothing else fires in those two words, and say so. After آمَنْتُ she will be hunting for rules and she will invent one if you let her.",
+        "Naming the absence is a real teaching move, not a gap in the lesson."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_muttasil",
+      "heading": "بِأَسْمَائِهِ — the connected madd, four counts, obligatory",
+      "condition": "A madd letter followed by a hamzah inside the same word.",
+      "harakat": 4,
+      "body": [
+        "The new rule of the lesson and the most audible change in the text.",
+        "A madd letter — the alif — followed by a hamzah in the same word. That is madd muttaṣil, the connected madd, and it is obligatory: four counts in the recitation of Ḥafṣ, five in some renderings. Be consistent with whatever Unit 3 taught.",
+        "bi as-mā-ʾi-hī — the mā is long.",
+        "Compare it with madd munfaṣil, which she has used since 4-01: same two ingredients, same length, and the only difference is whether the hamzah is inside the word or at the start of the next one.",
+        "Also in this word: سْ sākinah, whispered, with no bounce — sīn is not a qalqalah letter."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Four madd rules, two lengths",
+      "body": [
+        "This table is the intellectual content of the lesson, and she should be able to fill it in herself by the end of the session.",
+        "Madd ṭabīʿī — a madd letter with nothing after it — kamā — two counts.",
+        "Madd badal — hamzah then madd letter — āmantu — two counts.",
+        "Madd muttaṣil — madd letter then hamzah, same word — asmāʾihī — four counts.",
+        "Madd munfaṣil — madd letter then hamzah, next word — lā ilāha, from 4-01 — four counts.",
+        "Four rules, two lengths, all decided by what is next to the madd letter and whether it sits inside the word or across the join. If she can produce that table unaided, 4-07 has done its job and the rest is drill."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَصِفَاتِهِ — a heavy ṣād beside a light sīn",
+      "body": [
+        "ص is an elevated letter and it seals the tongue against the roof of the mouth, so it is heavy. The vowel after it comes out dark: ṣi-, not si-.",
+        "Then a natural madd on the alif, two counts.",
+        "The ṣād and sīn pair is worth thirty seconds here, because asmāʾihī with its light sīn and ṣifātihī with its heavy ṣād are adjacent and the contrast is free.",
+        "Same makhraj, same whistling quality, and one of them fills the mouth while the other does not.",
+        "Say them back to back and let her hear it. Free contrasts should never be skipped — they cost nothing and they are the ones she remembers."
+      ],
+      "items": [
+        {
+          "arabic": "بِأَسْمَائِهِ وَصِفَاتِهِ",
+          "translit": "bi asmāʾihī wa ṣifātihī",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Four counts on the mā, a light sīn, then a dark heavy ṣād. Three decisions in one phrase."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَقَبِلْتُ جَمِيعَ أَحْكَامِهِ — three sākins, and no bounce in any of them",
+      "body": [
+        "وَقَبِلْتُ — ق is elevated, so heavy. The لْ is sākin and clean, with no bounce, because lām is not a qalqalah letter.",
+        "Note also that the ب here carries a kasrah, so there is no qalqalah in qabiltu at all — and a student hunting for bounces will find one anyway.",
+        "جَمِيعَ — a natural madd on the yāʾ, two counts; and ع is a throat letter, cut cleanly, not softened into a vowel.",
+        "أَحْكَامِهِ — حْ sākinah, whispered, no bounce; then a natural madd on the alif.",
+        "That is three sākin letters in a row that do not bounce, in a text that ends on the strongest bounce in the unit. Point that out — the discipline of not bouncing is what makes the real bounce audible when it comes."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "qalqalah",
+      "heading": "إِقْرَارٌ — bounce it, and keep it dark",
+      "condition": "A qalqalah letter (ق ط ب ج د) carrying a sukūn mid-word gets the lesser qalqalah: a small clean bounce, with no vowel after it.",
+      "letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ],
+      "body": [
+        "قْ sākinah mid-word, and qāf is one of the five qalqalah letters, so the lesser qalqalah: a bounce, no vowel. iq-rār.",
+        "This is harder than subḥān in 4-06, because qāf is also heavy. She has to bounce it and keep it dark at the same time, and one usually costs the other.",
+        "If it bounces light, it has turned into a kāf. That is the diagnostic, and she can hear it herself.",
+        "رَا — a rāʾ with a fatḥah, so heavy, plus a natural madd. And the final رٌ carries a ḍammah, so heavy as well.",
+        "Two heavy rāʾs and a heavy bounced qāf in one word. It is the densest heaviness in the text."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "iqlab",
+      "heading": "Two iqlābs, four words apart",
+      "condition": "Nūn sākinah or tanwīn followed by ب: the nūn is converted into a mīm, hidden, with two counts of ghunnah.",
+      "letters": [
+        "ب"
+      ],
+      "harakat": 2,
+      "body": [
+        "إِقْرَارٌ بِاللِّسَانِ — tanwīn ḍamm followed by ب, so the n becomes an m, hidden, with two counts of ghunnah, lips closed. iqrārum bi-l-lisān. There is no n in it.",
+        "وَتَصْدِيقٌ بِالْقَلْبِ — and again, four words later. taṣdīqum bi-l-qalb.",
+        "This is the second and third iqlāb of the unit, after dhambin in 4-05, and both of these are at a word boundary rather than inside a word.",
+        "That makes them easier to miss and easier to fix. Nothing in the printing of iqrārun suggests a change, so she has to look at what starts the next word.",
+        "Both in a mirror. Her lips must meet both times, and if they do not, it is not iqlāb however good the hum is."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "lam_shamsiyyah",
+      "heading": "بِاللِّسَانِ — the sun lām hiding behind its own letter",
+      "condition": "The ل of ال is silent and merged into the next letter when that letter is a sun letter; the tell on the page is the shadda on the following letter.",
+      "letters": [
+        "ل"
+      ],
+      "body": [
+        "The article's lām before ل. Lām is a sun letter, so the article's lām merges into it: bi-l-lisān, a doubled lām, held.",
+        "This is the same shape she met at الَّذِي in 4-05, and it is the sun lām students least often recognise, because the letter it merges into is the same letter it is.",
+        "The tell is the shadda, as always. She does not need the fourteen letters; she needs to look.",
+        "Then a natural madd on the alif, two counts.",
+        "Note the contrast at the end of the text: بِالْقَلْبِ, where ق is a moon letter and the l is audible. Two articles, four words apart, opposite treatments."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَتَصْدِيقٌ بِالْقَلْبِ — and the best ending in the unit",
+      "body": [
+        "وَتَصْدِيقٌ — صْ sākinah, elevated and sealed, so heavy while silent. That is the hardest heaviness to hold, because there is no vowel carrying it and she will thin it without hearing herself. Then a natural madd on the yāʾ, and the ق heavy.",
+        "بِالْقَلْبِ — ق is a moon letter, so the article's l is audible: bi-l-qalb. The qāf is heavy, and the لْ of qalb is sākin and clean, with no bounce.",
+        "And the final بِ: when you stop, it goes sākin, and bāʾ is a qalqalah letter, so the whole text ends on a qalqalah kubrā — a full, strong bounce, stronger than any mid-word one.",
+        "Ending a text on a qalqalah kubrā is a gift. It is the single most satisfying sound in the unit and the easiest thing in this lesson to get audibly right.",
+        "Use it. End every recitation deliberately on it — bounce, then silence, and nothing after it."
+      ],
+      "items": [
+        {
+          "arabic": "بِالْقَلْبِ",
+          "translit": "bi-l-qalb",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "You are stopping. Drop the kasrah and bounce the b — hard and clean. Nothing after it: no vowel, no breath sound, just the bounce and then silence."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The madd table — the drill of this lesson",
+      "instructions": "Say these four in order and give me the count for each. Then say why each is what it is: hamzah before or hamzah after, same word or next word. Then let me call them out in a random order and you give me the number before you say the word.",
+      "grid": [
+        [
+          {
+            "arabic": "كَمَا",
+            "translit": "kamā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Two. A madd letter with nothing after it. Plain ṭabīʿī."
+            }
+          },
+          {
+            "arabic": "آمَنْتُ",
+            "translit": "āmantu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Two. Hamzah first, then the madd. That order is two counts."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِأَسْمَائِهِ",
+            "translit": "asmāʾihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Four. Madd first, then a hamzah, inside the word."
+            }
+          },
+          {
+            "arabic": "لَا إِلٰهَ",
+            "translit": "lā ilāha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Four. Madd first, then a hamzah, in the next word. Same length, different rule."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The first word",
+      "instructions": "Thirty times. Two counts on the ā — count them on your fingers where I can see them — then the hidden n. Both, every time. If the first word is wrong, everything after it starts wrong.",
+      "grid": [
+        [
+          {
+            "arabic": "آمَنْتُ",
+            "translit": "āmantu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Two counts, not four. Then two counts of hum with the n never arriving. Two rules, one word."
+            }
+          },
+          {
+            "arabic": "أَنْتَ",
+            "translit": "anta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "From 4-05 — the same hidden nūn before a tāʾ. Say them back to back and hear that they are the same rule."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Bounce it dark, and close your lips twice",
+      "instructions": "First the bounce, twenty times: the qāf bounces and stays heavy. If it bounces light, it has turned into a kāf. Then both iqlābs, in a mirror. Your lips must meet both times.",
+      "grid": [
+        [
+          {
+            "arabic": "إِقْرَارٌ",
+            "translit": "iq-rār",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Bounce it from the back. Deep. If it sounds like a k, it has come forward."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "إِقْرَارٌ بِاللِّسَانِ",
+            "translit": "iqrārum bi-l-lisān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Look at what starts the next word. A b. So the n becomes an m. Close your lips — and then the doubled lām, held."
+            }
+          },
+          {
+            "arabic": "وَتَصْدِيقٌ بِالْقَلْبِ",
+            "translit": "wa taṣdīqum bi-l-qalb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Again. Lips closed, two counts of hum — and this time the article's l is audible, because qāf is a moon letter."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The ending, and the plan",
+      "instructions": "The last two words, twenty times, stopping properly each time. Full bounce on the b, and nothing after it. Then the whole text on the marked plan: after wa ṣifātihī, after jamīʿa aḥkāmihī, then to the end. Do not breathe between iqrārum and bi-l-lisān — that would destroy the iqlāb. Half speed, then full speed, then name your own weakest rule before I do.",
+      "grid": [
+        [
+          {
+            "arabic": "بِالْقَلْبِ",
+            "translit": "bi-l-qalb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Bounce, then silence. No vowel, no breath sound. The best sound in the unit."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "آمَنْتُ بِاللَّهِ كَمَا هُوَ بِأَسْمَائِهِ وَصِفَاتِهِ",
+            "translit": "āmantu bi-llāhi kamā huwa bi asmāʾihī wa ṣifātihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "First breath. Two counts, hidden n, a light lām she decides for herself, then four counts on the mā and a dark ṣād."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong, and what to say",
+      "mistakes": [
+        {
+          "wrong": "āāāmantu — the short madd stretched to four or six.",
+          "why": "The madda sign looks emphatic, and six lessons of stretching lā to four counts have set a default. She is applying a rule she knows, in the wrong place.",
+          "fix": "Hamzah first, then the madd. That order is two counts. Two."
+        },
+        {
+          "wrong": "asmāʾihī clipped to two counts.",
+          "why": "The hamzah is written small and sits above the line; she does not see it as a letter that triggers anything.",
+          "fix": "There is a hamzah after the alif, inside the word. Four counts. Same length as lā ilāha, and for the same reason — but this one is inside."
+        },
+        {
+          "wrong": "iqrārun bi-l-lisān — the n kept.",
+          "why": "Iqlāb across a word boundary is much less visible than iqlāb inside a word. Nothing in the printing of iqrārun suggests a change.",
+          "fix": "Look at what starts the next word. A b. So the n becomes an m. Close your lips."
+        },
+        {
+          "wrong": "iq-rār with the qāf bounced light, turning into ik-rār.",
+          "why": "The qalqalah bounce is produced at the front of the mouth by default, and qāf's makhraj is at the very back. Bouncing and staying back are competing motor demands.",
+          "fix": "Bounce it from the back. Deep. If it sounds like a k, it has come forward."
+        },
+        {
+          "wrong": "bi-l-qalbi — the final kasrah pronounced, no stop, no bounce.",
+          "why": "She reads what is written, and the kasrah is written. Stopping rules are the one place the page is not the last word, as with abadā in 4-03.",
+          "fix": "You're stopping. Drop the vowel and bounce the b. That's the end of it."
+        },
+        {
+          "wrong": "The ṣād of taṣdīq gone light while sākin.",
+          "why": "Heaviness lives in the vowel for most students. A sākin heavy letter has no vowel to carry it and quietly thins out without her hearing it.",
+          "fix": "Seal your tongue against the roof and hold it there through the silence. Then the d."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "What today added",
+      "items": [
+        {
+          "arabic": "آمَنْتُ",
+          "translit": "āmantu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Two counts — hamzah before the madd — plus a hidden nūn. Two rules, one word."
+          }
+        },
+        {
+          "arabic": "بِأَسْمَائِهِ",
+          "translit": "bi asmāʾihī",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Four counts — madd before a hamzah, inside the word. Obligatory."
+          }
+        },
+        {
+          "arabic": "إِقْرَارٌ بِاللِّسَانِ",
+          "translit": "iqrārum bi-l-lisān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A dark bounce on the qāf, then iqlāb with the lips closed, then a doubled sun lām."
+          }
+        },
+        {
+          "arabic": "بِالْقَلْبِ",
+          "translit": "bi-l-qalb",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Moon lām, and the strongest bounce in the unit. End on it deliberately."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "The madd table out loud, twice a day, with the counts and the reasons: kamā two, āmantu two, asmāʾihī four, lā ilāha four.",
+        "āmantu thirty times a day. First word, two rules; if it is wrong, everything after it starts wrong.",
+        "The whole text once a day on the marked breath plan, never breathing between iqrārum and bi-l-lisān.",
+        "Add the four-madd table to your rule card. It is the most useful thing on the card and it applies to every page of the muṣḥaf, not just to this text.",
+        "Read the text of 4-08 once, silently, before the next lesson. Do not recite it — just look. It is the longest text in the unit and you should not meet it cold."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The madd table",
+        "instructions": "Twice a day. Say the count before you say the word, then say why.",
+        "grid": [
+          [
+            {
+              "arabic": "كَمَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two — nothing after the madd letter."
+              }
+            },
+            {
+              "arabic": "آمَنْتُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two — hamzah then madd."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بِأَسْمَائِهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Four — madd then hamzah, same word."
+              }
+            },
+            {
+              "arabic": "لَا إِلٰهَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Four — madd then hamzah, next word."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The first word",
+        "instructions": "Thirty times a day. Two counts on the ā, counted on the fingers, then the hidden n.",
+        "grid": [
+          [
+            {
+              "arabic": "آمَنْتُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two counts, not four. Then two counts of hum."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Lips closed twice",
+        "instructions": "Both iqlābs, in a mirror. Your lips must meet both times.",
+        "grid": [
+          [
+            {
+              "arabic": "إِقْرَارٌ بِاللِّسَانِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "n becomes m. Lips closed, two counts of hum."
+              }
+            },
+            {
+              "arabic": "وَتَصْدِيقٌ بِالْقَلْبِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Again — and a heavy sākin ṣād held through the silence."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The ending",
+        "instructions": "Twenty times, stopping properly each time. Bounce, then silence.",
+        "grid": [
+          [
+            {
+              "arabic": "بِالْقَلْبِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Drop the kasrah. Full hard bounce on the b, and nothing after it."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The madd table said with counts and reasons — two, two, four, four",
+      "آمَنْتُ thirty times: two counts, then the hidden n",
+      "إِقْرَارٌ twenty times: bounced and still dark",
+      "Both iqlābs in a mirror, lips meeting each time",
+      "The whole text once on the marked plan, ending deliberately on the bounce"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Say where she is: the six kalimas are finished, and these last two are a different pair. The unit has a shape and knowing she has crossed into its last part is worth thirty seconds.",
+      "Open on آمَنْتُ alone, before the text is visible. Two rules in one word, and it is the first word, and she has said it thousands of times with neither. That is the whole unit's hook compressed into four letters.",
+      "Teach madd badal against madd munfaṣil as an order rule, not as two facts: hamzah first gives two, madd first gives four. Order decides length. That formulation is what transfers to the muṣḥaf.",
+      "Expect four counts on the madda. Six lessons of stretching lā have set the default, and she is applying a rule she knows in the wrong place — which is worth naming as such, because it is not carelessness.",
+      "Do not name a single lām weight today. She has had the flip in 4-05 and the count in 4-06; بِاللَّهِ here is a one-word check and nothing more. If she hesitates, that is information for 4-08, where the same name appears twice with opposite weights.",
+      "Say out loud that no rule fires in كَمَا هُوَ. After the first word she will be hunting, and she will invent a rule if the silence is left open.",
+      "Build the four-madd table on paper with her rather than showing it finished. If she can fill it in unaided by the end of the session, the lesson has done its job and everything else is drill.",
+      "إِقْرَارٌ is a motor problem, not a knowledge one: bouncing and staying dark are competing demands. The diagnostic she can use herself is that a light bounce turns the qāf into a kāf.",
+      "Teach both iqlābs by eye, in a mirror. Across a word boundary there is nothing on the page to prompt her, so the check has to be the lips.",
+      "End every recitation deliberately on the qalqalah kubrā. It is the most satisfying sound in the unit and the easiest thing here to get audibly right — send her home with a success she can hear.",
+      "Before teaching, check the wording against her printed primer, especially كَمَا هُوَ بِأَسْمَائِهِ — some primers print bi asmāʾihī wa ṣifātihī, some bi jamīʿi asmāʾihī. Match the primer she holds and log it. This is not Qurʾān and cannot be corpus-verified."
+    ],
+    "listenFor": [
+      {
+        "item": "Exactly two counts on the madda of آمَنْتُ, and two counts of hidden ghunnah on its nūn.",
+        "commonMistake": "āāāmantu — the madd stretched to four or six; or the nūn fully pronounced.",
+        "whyItHappens": "The madda sign looks emphatic, and six lessons of stretching lā to four have set a default. She is applying a rule she knows in the wrong place, which is a reasoning error rather than a careless one.",
+        "correctionCue": "Hamzah first, then the madd. That order is two counts. Two.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Badal.md"
+      },
+      {
+        "item": "Four full counts on the mā of بِأَسْمَائِهِ.",
+        "commonMistake": "Clipped to two counts.",
+        "whyItHappens": "The hamzah is written small and sits above the line; she does not read it as a letter that triggers anything. The same error will recur at malāʾikatihī in 4-08.",
+        "correctionCue": "There is a hamzah after the alif, inside the word. Four counts — same as lā ilāha, and for the same reason, but this one is inside.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Muttasil.md"
+      },
+      {
+        "item": "Lips visibly meeting at both إِقْرَارٌ بِاللِّسَانِ and وَتَصْدِيقٌ بِالْقَلْبِ.",
+        "commonMistake": "iqrārun bi-l-lisān with the n kept.",
+        "whyItHappens": "Iqlāb across a word boundary is much less visible than inside a word, and nothing in the printing of iqrārun suggests a change. She has to look at the next word, which is not yet a habit.",
+        "correctionCue": "Look at what starts the next word. A b. So the n becomes an m. Close your lips.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Iqlab.md"
+      },
+      {
+        "item": "A bounce on the qāf of إِقْرَارٌ that stays deep and dark.",
+        "makhraj": "The deepest part of the tongue against the soft palate — the bounce has to be released from there, not from the front of the mouth.",
+        "commonMistake": "ik-rār — the bounce produced at the front, turning the qāf into a kāf.",
+        "whyItHappens": "The default place for a bounce is the front of the mouth, and qāf's makhraj is at the very back. Bouncing and staying back are competing motor demands and one usually costs the other.",
+        "correctionCue": "Bounce it from the back. Deep. If it sounds like a k, it has come forward.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Qalqalah-Sughra.md"
+      },
+      {
+        "item": "The ṣād of وَتَصْدِيقٌ still heavy while it is silent.",
+        "commonMistake": "It thins out during the sukūn and the following dāl comes out light.",
+        "whyItHappens": "Heaviness lives in the vowel for most students. A sākin heavy letter has no vowel to carry it, so it fades without her hearing it happen.",
+        "correctionCue": "Seal your tongue against the roof and hold it there through the silence. Then the d.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Itbaq.md"
+      },
+      {
+        "item": "A full, hard qalqalah kubrā on the final bāʾ of بِالْقَلْبِ, with silence after it.",
+        "commonMistake": "bi-l-qalbi — the written kasrah pronounced, no stop and no bounce.",
+        "whyItHappens": "She reads what is written and the kasrah is written. Stopping rules are one of the very few places where the page is not the last word — the third time this pattern has appeared, after abadā in 4-03.",
+        "correctionCue": "You're stopping. Drop the vowel and bounce the b. That's the end of it.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Qalqalah-Kubra.md"
+      }
+    ],
+    "homework": "Daily: the four-madd table out loud twice, with the count and the reason for each — kamā two, āmantu two, asmāʾihī four, lā ilāha four; āmantu thirty times, since a wrong first word starts everything after it wrong; the whole text once on the marked breath plan, with no breath between iqrārum and bi-l-lisān. Written: add the four-madd table to the rule card — it is the most transferable thing on it. Before the next session: read the text of 4-08 once, silently, without reciting it, so she does not meet the longest text of the unit cold."
+  },
+  "videos": []
+}

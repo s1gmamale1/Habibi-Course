@@ -1,0 +1,618 @@
+{
+  "id": "4-06",
+  "phase": 4,
+  "draft": true,
+  "unit": "4.6",
+  "title": "Kalima Tamjīd",
+  "objectives": [
+    "Student can recite Kalima Tamjīd from memory with correct tajweed in one breath.",
+    "Student can produce five occurrences of the name of Allah in a single sentence — three heavy, two light — and say what decided each.",
+    "Student can produce the lesser qalqalah in subḥān without adding a vowel after the bāʾ.",
+    "Student can say what does not happen in akbar, and why."
+  ],
+  "prerequisites": [
+    "3-36"
+  ],
+  "stage": "The Kalimas",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 4.6 — Kalima Tamjīd",
+      "arabicDecor": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Five names in one sentence — this is the assessment",
+      "body": [
+        "This kalima is shorter than the last two, and she will relax when she sees it. Do not let her.",
+        "'Five times in this one sentence you say the name of Allah. Three of them are heavy and two of them are light. Two of them sit right next to each other. If you can do this sentence, the lām rule is finished — you will never have to think about it again.'",
+        "That is not a motivational exaggeration; it is accurate. Tamjīd is the lām jalālah assessment of Unit 4, and everything else in it is revision.",
+        "The two that sit next to each other are the ones to point at: سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ",
+        "Heavy, then light, five syllables apart, both printed with the same four letters."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The text",
+      "body": [
+        "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلٰهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+        "subḥāna-llāhi wa-l-ḥamdu li-llāhi wa lā ilāha illa-llāhu wa-llāhu akbar, wa lā ḥawla wa lā quwwata illā bi-llāhi-l-ʿaliyyi-l-ʿaẓīm",
+        "\"Glory be to Allah, and praise be to Allah, and there is no god except Allah, and Allah is the Greatest; and there is no power and no strength except with Allah, the Most High, the Most Great.\"",
+        "Tamjīd — تَمْجِيد — means glorification, extolling.",
+        "Note that its closing half, from wa lā ḥawla to the end, is word for word the closing of Kalima Istighfār, which she did yesterday. Say so. Half of this lesson is already done, and telling her that buys you the attention you need for the other half."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "qalqalah",
+      "heading": "سُبْحَانَ — the clearest bounce in the unit",
+      "condition": "A qalqalah letter (ق ط ب ج د) carrying a sukūn mid-word gets the lesser qalqalah: a small clean bounce, with no vowel after it.",
+      "letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ],
+      "body": [
+        "بْ sākinah mid-word, and bāʾ is one of the five qalqalah letters, so the lesser qalqalah: a small, clean bounce with no vowel after it. sub-ḥān.",
+        "Not subu-ḥān, with a vowel; and not sub-ḥān with the bāʾ simply swallowed. Both errors are common and they are opposite.",
+        "This is the clearest qalqalah in the whole unit — an isolated sākin bāʾ near the start of a familiar word, with nothing else competing for her attention.",
+        "So use it as the place to fix the technique. Get it right here and tubtu from 4-04 and adhnabtuhū from 4-05 will follow without further work.",
+        "Then حَا: a natural madd, two counts."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "سُبْحَانَ اللَّهِ — heavy, and she says why",
+      "body": [
+        "Ask, as you now always do: what is the vowel before the name?",
+        "The fatḥah of -na. So the lām is heavy. That is one of five.",
+        "And the alif of the name is a waṣl hamzah, dropped entirely: subḥāna-llāh, one continuous sound with no glottal stop in the middle of it.",
+        "Keep a running count out loud from here. Do not write the tally for her — make her keep it. A student who counts the five herself remembers the sequence; a student who is handed it does not.",
+        "You will ask for the whole sequence back at the end of the session."
+      ],
+      "items": [
+        {
+          "arabic": "سُبْحَانَ اللَّهِ",
+          "translit": "subḥāna-llāhi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Bounce on the bāʾ, two-count madd, then a full thick lām after the fatḥah. One of five, and heavy."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَالْحَمْدُ — a moon lām and a pair of closed lips",
+      "body": [
+        "الْحَمْدُ — ḥāʾ is a moon letter, so the l of the article is pronounced clearly: wa-l-ḥamd.",
+        "And inside it: مْ sākinah followed by د, so the mīm is clear, the lips fully closed, with no hum carried onto the dāl.",
+        "Both rules were met in 4-03, in this exact word. Check them, do not teach them.",
+        "Watch her lips rather than listening. A mīm left half-open is easier to see than to hear, and it fails visibly before it fails audibly.",
+        "Ten seconds on this slide is enough. What comes next is the lesson."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "لِلَّهِ — light, four syllables after a heavy one",
+      "body": [
+        "Ask again. What is the vowel before the name?",
+        "The kasrah of li-. So the lām is light: thin, forward, tongue high, the back of the mouth empty. wa-l-ḥamdu li-llāh. That is two of five.",
+        "She met the light form yesterday in bi-llāh. This one is harder, for one specific reason: it comes four syllables after a heavy one, and the mouth does not want to reset that fast.",
+        "That is exactly the skill this kalima trains, and it is a motor skill rather than a knowledge one. She will be able to state the rule correctly while producing the wrong sound.",
+        "Say the pair as a unit, slowly, and make her hear the difference in her own voice: subḥāna-LLĀHi, then wa-l-ḥamdu li-llāhi.",
+        "If she cannot hear it, put your hand flat under her jaw. Heavy raises the back of the tongue; light does not. She can feel it even when she cannot hear it."
+      ],
+      "items": [
+        {
+          "arabic": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ",
+          "translit": "subḥāna-llāhi wa-l-ḥamdu li-llāhi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy then light, five syllables apart, same four letters. This pair is the drill of the whole unit."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_munfasil",
+      "heading": "وَلَا إِلٰهَ إِلَّا اللَّهُ — the Ṭayyiba opening, fifth lesson running",
+      "condition": "A madd letter at the end of one word, followed by a hamzah at the start of the next.",
+      "harakat": 4,
+      "body": [
+        "Four counts on lā, two on the dagger alif of إِلٰهَ, the waṣl hamzah of the name silent, and the lām heavy after the fatḥah of illā. That is three of five.",
+        "Fifth lesson running for this phrase. It should now be automatic.",
+        "If it is not, that is the honest finding of this lesson and it goes in the log — it means five exposures have not been enough, which is worth knowing before the two hardest texts of the unit arrive.",
+        "Do not fix it here at length. Note it, correct it in one pass, and keep the session on the lām count.",
+        "Ask her for the weight before she says the word, every time. By now the answer should arrive faster than the recitation does."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَاللَّهُ أَكْبَرُ — and the rule that does not fire",
+      "body": [
+        "وَاللَّهُ — the vowel before it is the fatḥah of wa-, so heavy. Four of five. Note that this is the name with a waṣl hamzah after the wāw: wa-llāhu, joined, no stop.",
+        "أَكْبَرُ — and here is the interesting part. كْ is a sākin letter mid-word, and students bounce it: aki-bar. Kāf is not a qalqalah letter. The five are ق ط ب ج د, and kāf is not among them.",
+        "Kāf is a whispered letter: the breath escapes through it cleanly, with no bounce and no vowel.",
+        "Then رَ with a fatḥah, so heavy. At the stop the rāʾ goes sākin and the vowel before it is still a fatḥah, so it stays heavy: akbar, full — but not bounced, because rāʾ is not a qalqalah letter either.",
+        "So akbar is a word with two sākin-adjacent letters and no qalqalah in it at all, and almost everyone puts a bounce somewhere. Ask her to find the qalqalah in akbar. The correct answer is that there isn't one, and that question is worth more than the explanation."
+      ],
+      "items": [
+        {
+          "arabic": "وَاللَّهُ أَكْبَرُ",
+          "translit": "wa-llāhu akbar",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy lām after the fatḥah, then ak-bar in two clean pieces. No bounce on the kāf, no bounce on the rāʾ, and the rāʾ still heavy at the stop."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "hamzat_wasl",
+      "heading": "Five alifs, five silences",
+      "condition": "A waṣl hamzah is pronounced when you start on the word, and dropped entirely when you join from the word before.",
+      "body": [
+        "Every one of the five occurrences of the name carries a waṣl hamzah, and every one of them is joined to what precedes it. So every one of them is silent.",
+        "subḥāna-llāh, wa-l-ḥamdu li-llāh, illa-llāhu, wa-llāhu, bi-llāh. Five alifs on the page, five silences in the mouth.",
+        "This is the most waṣl hamzahs in one sentence anywhere in Unit 4, which makes it the sentence where the 2-11 glottal-stop error is most likely to reappear.",
+        "It reappears not because she has forgotten the rule but because density defeats it: five decisions in twenty words, on a sentence she has recited by rhythm since childhood.",
+        "'Five alifs, five silences. Slide over every one.'"
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَلَا حَوْلَ وَلَا قُوَّةَ — soft, then heavy, and no hum",
+      "body": [
+        "حَوْلَ — a wāw sākinah after a fatḥah: a līn letter, flat, soft and short while joining. If she stopped on it, it would lengthen — but she is not stopping on it here.",
+        "قُوَّةَ — ق is an elevated letter, so heavy. The doubled wāw is held for two counts of length in the mouth, with no ghunnah at all.",
+        "That last point is the 4-03 boundary again: only mīm and nūn nasalise. Every other shadda is held in the mouth.",
+        "If she hums the doubled wāw, do not re-explain — pinch test, and move on.",
+        "From here to the end, the text is word for word the close of 4-05. Tell her so and let her recognise it. Recognition is the reward that keeps a sixth lesson on the same eight words alive."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "إِلَّا بِاللَّهِ — the fifth name, and the count",
+      "body": [
+        "Ask one last time. The kasrah of bi-, so light. That is five of five, exactly as in 4-05.",
+        "الْعَلِيِّ — ʿayn is a moon letter, so the l is audible; the doubled yāʾ is held with no hum.",
+        "الْعَظِيمِ — moon lām again; ظ is elevated and sealed, so heavy.",
+        "Now make her count the five herself rather than telling her: subḥāna-llāh, li-llāh, illa-llāhu, wa-llāhu, bi-llāh — heavy, light, heavy, heavy, light.",
+        "Ask for that sequence back at the end of the session, from memory, without the text in front of her. If she can give it, the lām jalālah rule is finished and the two remaining lessons can spend their attention elsewhere."
+      ],
+      "items": [
+        {
+          "arabic": "إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+          "translit": "illā bi-llāhi-l-ʿaliyyi-l-ʿaẓīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Light lām after the kasrah, two moon lāms, a heavy ẓāʾ, and the longest syllable of the sentence at the stop."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_246",
+      "heading": "الْعَظِيمِ — the same ending as yesterday, the same number",
+      "condition": "A madd letter followed by a letter made sākin only because you stopped: two, four or six counts, consistently chosen.",
+      "harakat": 4,
+      "body": [
+        "At the stop the yāʾ is a madd letter and the mīm goes sākin, so this is madd ʿāriḍ lis-sukūn: two, four or six counts.",
+        "It is the identical ending to 4-05, on the identical word. So it is a consistency test rather than a new rule.",
+        "Ask her what number she used yesterday, and hold her to it. The only error in this rule is switching between the three lengths.",
+        "One breath for the whole kalima means she arrives at the last word with nothing left, and the madd ʿāriḍ is the first casualty.",
+        "If it collapses, the fix is not to shorten the ending. It is to plan a second breath after akbar. A planned stop is better than a strangled ending, and saying that out loud is worth more than the correction."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The pair — the drill of the whole unit",
+      "instructions": "Only this. Thirty times. Heavy then light. My hand stays under your jaw until you can feel the difference without it. When you can produce both correctly on demand, the lām rule is done.",
+      "grid": [
+        [
+          {
+            "arabic": "سُبْحَانَ اللَّهِ",
+            "translit": "subḥāna-llāhi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Fatḥah before it. Heavy. Fill your mouth, and feel the back of your tongue rise."
+            }
+          },
+          {
+            "arabic": "وَالْحَمْدُ لِلَّهِ",
+            "translit": "wa-l-ḥamdu li-llāhi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasrah before it. Light. Thin, forward, and the back of the tongue stays down. Smile into it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Count them",
+      "instructions": "Read the kalima silently and put a finger on every occurrence of the name of Allah. Write H or L above each. Then read only those five words in order. That sequence is the lesson, and I will ask you for it from memory before you leave.",
+      "grid": [
+        [
+          {
+            "arabic": "سُبْحَانَ اللَّهِ",
+            "translit": "subḥāna-llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "One. Heavy — fatḥah."
+            }
+          },
+          {
+            "arabic": "لِلَّهِ",
+            "translit": "li-llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Two. Light — kasrah."
+            }
+          },
+          {
+            "arabic": "إِلَّا اللَّهُ",
+            "translit": "illa-llāhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Three. Heavy — fatḥah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَاللَّهُ",
+            "translit": "wa-llāhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Four. Heavy — fatḥah."
+            }
+          },
+          {
+            "arabic": "بِاللَّهِ",
+            "translit": "bi-llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Five. Light — kasrah. Heavy, light, heavy, heavy, light."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The bounce and the non-bounce",
+      "instructions": "Alternate these twenty times. One bounces, one does not. Then tell me which letters get a qalqalah — all five, out loud, from memory.",
+      "grid": [
+        [
+          {
+            "arabic": "سُبْحَانَ",
+            "translit": "sub-ḥān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Bounce on the b. Cut it — the b stops, and the stop is what you hear. No u after it."
+            }
+          },
+          {
+            "arabic": "أَكْبَرُ",
+            "translit": "ak-bar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No bounce. Kāf is not one of the five. Breathe through it. Two pieces, and the rāʾ heavy but not bounced either."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "One breath",
+      "instructions": "This kalima fits in one breath and should be recited in one. Breathe fully, then the whole thing — half speed first, then full speed. If you cannot reach the end, you are too fast at the start, not too slow at the end: the madds are not the problem, the panic is. If it still will not fit, plan a stop after akbar and use it every time. Then say your H and L sequence back to me from memory.",
+      "grid": [
+        [
+          {
+            "arabic": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلٰهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ",
+            "translit": "subḥāna-llāhi wa-l-ḥamdu li-llāhi wa lā ilāha illa-llāhu wa-llāhu akbar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "First half. Heavy, light, heavy, heavy — four of the five, and no glottal stop on any of the alifs."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+            "translit": "wa lā ḥawla wa lā quwwata illā bi-llāhi-l-ʿaliyyi-l-ʿaẓīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Second half — yesterday's words exactly. Light lām, and the same ʿāriḍ number you chose in 4-05."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong, and what to say",
+      "mistakes": [
+        {
+          "wrong": "li-llāh said heavy, immediately after subḥāna-llāh.",
+          "why": "The mouth does not reset in four syllables, and heaviness has been the default for five lessons. This is a motor problem, not a knowledge problem — she will state the rule correctly while producing the wrong sound.",
+          "fix": "Kasrah. Thin. Smile into it. If that fails, separate them: say li-llāh alone five times, then join it back on."
+        },
+        {
+          "wrong": "subḥāna-llāh said light, having over-corrected from the drill.",
+          "why": "The drill itself. Alternation drills produce alternation errors, and that is a sign the contrast is being learned rather than failing.",
+          "fix": "Fatḥah before it. Fill your mouth. Then thin the next one."
+        },
+        {
+          "wrong": "subu-ḥān — a vowel after the bāʾ.",
+          "why": "'Bounce' gets interpreted as a note with the voice on. The qalqalah is the release of a closure, not a sound of its own.",
+          "fix": "Cut it. The b stops, and the stop is what you hear. No u."
+        },
+        {
+          "wrong": "aki-bar, or ak-k-bar — a bounce on the kāf.",
+          "why": "It is a sākin letter in the middle of a word, which is the shape qalqalah usually has, and the word is shouted so often that the extra beat is everywhere around her.",
+          "fix": "Kāf is not one of the five. Breathe through it. ak-bar, two pieces, no bounce."
+        },
+        {
+          "wrong": "A glottal stop before the name — subḥāna ʾAllāh.",
+          "why": "The same waṣl-hamzah error from 4-01, which reappears whenever a sentence has many of them close together. Five in this one sentence is the most in the unit.",
+          "fix": "Five alifs, five silences. Slide over every one."
+        },
+        {
+          "wrong": "The closing al-ʿaẓīm clipped.",
+          "why": "One breath for the whole kalima means she arrives at the last word with nothing left.",
+          "fix": "Then take two breaths — after akbar. A planned stop is better than a strangled ending."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Five names, in order",
+      "items": [
+        {
+          "arabic": "سُبْحَانَ اللَّهِ",
+          "translit": "subḥāna-llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy — and a clean bounce on the bāʾ before it."
+          }
+        },
+        {
+          "arabic": "وَالْحَمْدُ لِلَّهِ",
+          "translit": "wa-l-ḥamdu li-llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Light — four syllables after a heavy one, which is the hard part."
+          }
+        },
+        {
+          "arabic": "إِلَّا اللَّهُ",
+          "translit": "illa-llāhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy — the Ṭayyiba opening for the fifth lesson running."
+          }
+        },
+        {
+          "arabic": "وَاللَّهُ أَكْبَرُ",
+          "translit": "wa-llāhu akbar",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy — and no qalqalah anywhere in akbar."
+          }
+        },
+        {
+          "arabic": "بِاللَّهِ",
+          "translit": "bi-llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Light. Heavy, light, heavy, heavy, light — say the sequence back without the text."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "subḥāna-llāhi wa-l-ḥamdu li-llāh, thirty times a day. This is the drill of the whole unit, not just this lesson.",
+        "The H and L sequence written on your rule card and said aloud once a day, from memory.",
+        "The whole kalima, one breath, five times after each ṣalāh. This one is short enough to do properly every time; there is no excuse for a rushed version.",
+        "Recite 4-05's closing half — wa lā ḥawla to the end — then this kalima's closing half. They are the same words. If they come out differently, one of them is wrong and you should tell me which.",
+        "Find one recording of anyone reciting lā ḥawla wa lā quwwata illā bi-llāh and listen only to the lām of bi-llāh. Bring me your verdict: heavy or light. You are now able to judge this, which is a new thing."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The pair",
+        "instructions": "Thirty times a day. Heavy then light, with your hand under your jaw until you can feel the difference without it.",
+        "grid": [
+          [
+            {
+              "arabic": "سُبْحَانَ اللَّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Fatḥah — heavy."
+              }
+            },
+            {
+              "arabic": "وَالْحَمْدُ لِلَّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasrah — light, four syllables later."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The five, in order",
+        "instructions": "Only the five name-words, in order, once a day: heavy, light, heavy, heavy, light. From memory by the end of the week.",
+        "grid": [
+          [
+            {
+              "arabic": "سُبْحَانَ اللَّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One — heavy."
+              }
+            },
+            {
+              "arabic": "لِلَّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two — light."
+              }
+            },
+            {
+              "arabic": "إِلَّا اللَّهُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Three — heavy."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَاللَّهُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Four — heavy."
+              }
+            },
+            {
+              "arabic": "بِاللَّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Five — light."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Bounce and non-bounce",
+        "instructions": "Twenty times, alternating. Then name all five qalqalah letters from memory.",
+        "grid": [
+          [
+            {
+              "arabic": "سُبْحَانَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Bounce, no vowel after it."
+              }
+            },
+            {
+              "arabic": "أَكْبَرُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No bounce anywhere in the word."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "One breath",
+        "instructions": "Five times after each ṣalāh, in one breath, at a speed that lets every madd stay full.",
+        "grid": [
+          [
+            {
+              "arabic": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلٰهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+              "translit": "subḥāna-llāhi wa-l-ḥamdu li-llāhi wa lā ilāha illa-llāhu wa-llāhu akbar, wa lā ḥawla wa lā quwwata illā bi-llāhi-l-ʿaliyyi-l-ʿaẓīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Three thick lāms, two thin ones, a bounce on subḥān, no bounce in akbar, and five silent alifs."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "subḥāna-llāhi wa-l-ḥamdu li-llāh thirty times — heavy then light",
+      "The five name-words in order, saying H or L before each",
+      "sub-ḥān and ak-bar alternated twenty times — one bounces, one does not",
+      "The whole kalima five times after each ṣalāh in one breath, madds full",
+      "4-05's closing half and this one's, back to back, listening for them coming out identically"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "She will relax when she sees how short this is. Do not let her. Open with the count — five names, three heavy, two light, two of them adjacent — and tell her plainly that this kalima is the lām jalālah assessment of the unit.",
+      "Keep asking rather than telling. Every one of the five occurrences: what is the vowel before it, and what does that make the lām. You stopped naming the weight in 4-05 and you do not resume here.",
+      "Make her keep the tally herself, on paper, as you go. A student who counts the five remembers the sequence; a student who is handed it does not. Ask for the sequence back from memory at the end of the session.",
+      "The heavy-then-light pair is the drill of the whole unit, not just of this lesson. Thirty repetitions is not too many, and the hand under the jaw is worth more than any explanation — heavy raises the back of the tongue and she can feel it when she cannot hear it.",
+      "Expect over-correction from the drill: subḥāna-llāh coming out light. Say out loud that alternation drills produce alternation errors and that this is a sign the contrast is being learned. She should not read it as failure.",
+      "Use سُبْحَانَ to fix qalqalah technique for the whole unit. It is the cleanest instance she will ever get, and getting it right here repairs tubtu and adhnabtuhū retroactively.",
+      "Ask her to find the qalqalah in أَكْبَرُ and let her look. The correct answer is that there is none, and the question teaches the boundary of the rule better than any statement of it.",
+      "Name the waṣl hamzah density explicitly: five in one sentence, more than anywhere else in the unit. The glottal-stop error returns here not from ignorance but from load.",
+      "Tell her the closing half is word for word 4-05's. Recognition is what keeps a sixth lesson on the same handful of words alive, and it also gives you a free consistency test.",
+      "Before teaching, check the wording against a printed Hanafi primer. This is the most stable of the eight — the well-known formula plus lā ḥawla wa lā quwwata — but check it anyway and log it. None of the kalimas can be verified against the Qurʾānic corpus, so a human check is the only check there is."
+    ],
+    "listenFor": [
+      {
+        "item": "لِلَّهِ thin, four syllables after a thick سُبْحَانَ اللَّهِ, in the same breath.",
+        "makhraj": "Light: tongue high and forward, back of the mouth empty. Heavy: the back of the tongue raised, filling the mouth. Feel it with a flat hand under the jaw.",
+        "commonMistake": "li-llāh said heavy, matching the phrase before it.",
+        "whyItHappens": "The mouth does not reset in four syllables and heaviness has been the default for five lessons. This is a motor problem — she will state the rule correctly while producing the wrong sound.",
+        "correctionCue": "Kasrah. Thin. Smile into it. If it still will not come, say li-llāh alone five times and then join it back on.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Lam-Jalalah.md"
+      },
+      {
+        "item": "سُبْحَانَ اللَّهِ still thick after the alternation drill.",
+        "commonMistake": "It comes out light, over-corrected from the drill itself.",
+        "whyItHappens": "Alternation drills produce alternation errors. This is evidence the contrast is being learned rather than that the drill is failing, and it should be named as such so she does not lose confidence.",
+        "correctionCue": "Fatḥah before it. Fill your mouth. Then thin the next one.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Lam-Jalalah.md"
+      },
+      {
+        "item": "A clean cut bounce on the bāʾ of سُبْحَانَ, with no vowel after it.",
+        "commonMistake": "subu-ḥān, with a small vowel after the bāʾ; or the bāʾ swallowed entirely.",
+        "whyItHappens": "'Bounce' is heard as a note with the voice still on. The qalqalah is the release of a closure, not a sound of its own.",
+        "correctionCue": "Cut it. The b stops, and the stop is what you hear. No u.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Qalqalah-Sughra.md"
+      },
+      {
+        "item": "No bounce anywhere in أَكْبَرُ — neither on the kāf nor on the final rāʾ — and the rāʾ still heavy at the stop.",
+        "commonMistake": "aki-bar or ak-k-bar, with an extra beat on the kāf.",
+        "whyItHappens": "It has the shape qalqalah usually has — a sākin letter mid-word — and the word is shouted so often that the extra beat is everywhere around her. She is imitating a room again.",
+        "correctionCue": "Kāf is not one of the five. Breathe through it. ak-bar, two pieces, no bounce.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Hams.md"
+      },
+      {
+        "item": "Five silent alifs — no glottal stop before any of the five occurrences of the name.",
+        "commonMistake": "subḥāna ʾAllāh, with an audible hamzah before the name.",
+        "whyItHappens": "Density, not ignorance. Five waṣl hamzahs in twenty words is the most in the unit, and the sentence has been recited by rhythm since childhood.",
+        "correctionCue": "Five alifs, five silences. Slide over every one.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      },
+      {
+        "item": "A full madd ʿāriḍ on الْعَظِيمِ, at the same length she used in 4-05.",
+        "commonMistake": "The last word clipped, because one breath left nothing for it.",
+        "whyItHappens": "The one-breath target is right for this kalima but it front-loads the air. The ending is where the shortfall lands, every time.",
+        "correctionCue": "Then take two breaths — after akbar. A planned stop is better than a strangled ending.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Arid-Lissukun.md"
+      }
+    ],
+    "homework": "Daily: subḥāna-llāhi wa-l-ḥamdu li-llāh thirty times, which is the drill of the whole unit rather than just this lesson; the five name-words in order with H or L said before each, working towards saying the sequence from memory; the whole kalima five times after each ṣalāh in one breath, at a speed that keeps every madd full. Written: the H and L sequence on the rule card. Once in the week: recite 4-05's closing half and this one's back to back and report any difference; and listen to one recording of lā ḥawla wa lā quwwata illā bi-llāh, judging the lām of bi-llāh heavy or light and bringing the verdict."
+  },
+  "videos": []
+}
