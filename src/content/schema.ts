@@ -155,6 +155,20 @@ export const LessonSchema = z.object({
     homework: z.string().min(1),
   }),
   videos: z.array(z.object({ title: z.string(), url: z.string().url() })),
+  /**
+   * Authored but not yet part of the course the student sees.
+   *
+   * `course.json` is the course *map* — what a learner can reach. A lesson file
+   * is content. Without this flag the two are forced together: authoring a
+   * lesson would either break `allContent.test.ts` (file present, unmapped) or
+   * publish it the moment it exists. Neither is right for content that has been
+   * written but not yet reviewed.
+   *
+   * A draft lesson may be absent from the course map. A lesson IN the map may
+   * not be draft — publishing is the deliberate act of removing this flag and
+   * adding the map entry, in that order.
+   */
+  draft: z.boolean().optional(),
 });
 export type Lesson = z.infer<typeof LessonSchema>;
 
