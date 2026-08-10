@@ -10,8 +10,8 @@ harakat: 2
 harakat_options: [2, 4, 5]
 taught_in: "3-28"
 prerequisites: [madd_tabii, madd_munfasil]
-status: draft
-sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
+status: verified
+sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]"]
 examples:
   - ref: "2:255"
     text: "لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ"

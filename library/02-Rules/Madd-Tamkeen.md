@@ -9,7 +9,7 @@ colour_b: "#537FFF"
 harakat: 2
 taught_in: "3-28"
 prerequisites: [madd_tabii]
-status: draft
+status: needs-review
 sources: ["[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "4:86"
@@ -64,6 +64,20 @@ length, executed with more deliberation. Nothing is added except clarity.
 > name is precisely what stops the learner from collapsing the two yāʾs, which is
 > the whole point of the rule. But say plainly that the disagreement is about
 > labelling, not sound.
+
+> ### ⚠ Status: needs-review — and the search above settles which side is which
+>
+> **No matn in this vault names it.** *tamkīn* occurs zero times in
+> [[Tuhfat-al-Atfal]], [[Muqaddimah-Jazariyyah]] and [[Shatibiyyah]] alike, and unlike
+> [[Madd-Iwad]] there is no indirect attestation either — nothing in the three texts
+> presupposes it.
+>
+> That is evidence *for* the second position recorded above: the scholars who decline
+> to name tamkīn are the ones the classical matns agree with. **It remains a useful
+> teaching label and the recitation is not in question** — a madd ṭabīʿī given care so
+> two identical letters stay audible — but it should be presented as pedagogy rather
+> than as transmitted doctrine. Verifying it needs a tajwīd manual that states it as a
+> rule. *(Found 2026-08-11.)*
 
 ## Common mistakes
 
