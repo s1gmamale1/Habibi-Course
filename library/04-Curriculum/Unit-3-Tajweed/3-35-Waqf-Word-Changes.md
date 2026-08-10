@@ -51,7 +51,7 @@ examples:
     note: "the only ishmām in Ḥafṣ"
 ---
 
-# Lesson 3.34 — How Words Change When You Stop
+# Lesson 3-35 — How Words Change When You Stop
 
 > Ibn al-Jazarī gives these three topics one chapter — **معرفة المقطوع والموصول وحكم تاء
 > التأنيث** — and they belong together for one reason: **all three are about what the muṣḥaf's

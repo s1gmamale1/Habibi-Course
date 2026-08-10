@@ -36,7 +36,7 @@ examples:
     note: "the whole ḥarfī rule in one word"
 ---
 
-# Lesson 3.32 — Revision and Q&A: the Madd Family Capstone
+# Lesson 3-33 — Revision and Q&A: the Madd Family Capstone
 
 > **No new rules today, and no new Sabaq.** Revision lessons pause new *rules*; they never pause
 > hifz revision ([[Hifz-Method]]). This session exists because five madd rules were taught in

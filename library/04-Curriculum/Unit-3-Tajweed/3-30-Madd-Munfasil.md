@@ -30,7 +30,7 @@ examples:
     note: "today's hifz — contrast case, no hamzah follows, so no munfaṣil"
 ---
 
-# Lesson 3.29 — Madd Jāʾiz Munfaṣil
+# Lesson 3-30 — Madd Jāʾiz Munfaṣil
 
 > **This is the lesson where she meets scholarly disagreement head-on for the first time in the
 > madd family.** §4 is not optional and it is not an aside. Teach it.

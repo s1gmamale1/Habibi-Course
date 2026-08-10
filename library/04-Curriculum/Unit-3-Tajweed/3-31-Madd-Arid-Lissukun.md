@@ -36,7 +36,7 @@ examples:
     note: "contrast — no madd letter, so stopping gives qalqalah and no madd at all"
 ---
 
-# Lesson 3.30 — Madd ʿĀriḍ lis-Sukūn
+# Lesson 3-31 — Madd ʿĀriḍ lis-Sukūn
 
 > ## ⚠ Read this before you teach — the ordering point
 >
