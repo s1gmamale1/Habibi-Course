@@ -6,6 +6,7 @@ import { loadCorpus, verifyExample } from "./lib/corpus.mjs";
 import { CPFAIR_KEYS, RULE_FAMILIES, NOTE_TYPES, STATUSES } from "./lib/rules.mjs";
 
 const WIKILINK = /\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]/g;
+const LESSON_ID = /^\d-\d{2}$/;
 
 function walk(dir, out = []) {
   for (const entry of readdirSync(dir)) {
@@ -51,6 +52,29 @@ export function checkVault(dir, corpus) {
       }
     }
 
+    // Lesson ids are zero-padded: "3-06", never "3-6". The content schema's
+    // regex is /^\d-\d{2}$/, so an unpadded id here silently fails to match a
+    // lesson later.
+    for (const field of ["taught_in", "id"]) {
+      const value = data[field];
+      if (data.type === "lesson" && field === "id" && !LESSON_ID.test(String(value))) {
+        errors.push(`${rel}: lesson id "${value}" must be zero-padded, e.g. "3-06"`);
+      }
+      if (field === "taught_in" && value != null && !LESSON_ID.test(String(value))) {
+        errors.push(`${rel}: taught_in "${value}" must be zero-padded, e.g. "3-06"`);
+      }
+    }
+
+    // `prerequisites` means different things by note type: a lesson depends on
+    // earlier LESSONS, a rule depends on earlier RULES. Validate accordingly.
+    if (data.type === "lesson") {
+      for (const ref of data.prerequisites ?? []) {
+        if (!LESSON_ID.test(String(ref))) {
+          errors.push(`${rel}: prerequisite "${ref}" must be a zero-padded lesson id`);
+        }
+      }
+    }
+
     for (const ex of data.examples ?? []) {
       const r = verifyExample(corpus, ex);
       if (!r.ok) errors.push(`${rel}: example ${r.reason}`);
@@ -71,6 +95,17 @@ export function checkVault(dir, corpus) {
   const ruleStatus = new Map(
     notes.filter((n) => n.data.type === "rule").map((n) => [n.data.id, n.data.status]),
   );
+
+  // A rule's prerequisites are other rules. An unresolvable one means the
+  // dependency graph is broken — which is exactly what the Jazariyyah ordering
+  // exists to get right, so this is worth failing on.
+  for (const n of notes.filter((x) => x.data.type === "rule")) {
+    for (const ref of n.data.prerequisites ?? []) {
+      if (!ruleStatus.has(String(ref))) {
+        errors.push(`${n.rel}: prerequisite rule "${ref}" has no note`);
+      }
+    }
+  }
   for (const n of notes.filter((x) => x.data.type === "lesson")) {
     for (const id of n.data.teaches ?? []) {
       if (ruleStatus.get(id) !== "verified") {
