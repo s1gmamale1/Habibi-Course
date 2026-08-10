@@ -74,8 +74,12 @@ She has also already read words with a sukūn in them since 1-13 — بَعْد,
    - عَصْر heard as *ʿaṣ-ur*
    Contrast with a letter that cannot leak: تْ, كْ, سْ. A سْ ends when the air stops. A رْ ends only when *she* decides to end it. **The rule to give her: a closed ر or ل or م or ن ends the moment your tongue leaves the position — do not let your voice trail after it.**
 
+   **In plain terms:** ر ل م ن و ي are the ones you can hum, which is exactly why they leak — your voice runs on past the letter and grows a vowel you never meant. Cut them dead.
+
 4. **Sukūn across a word boundary.** أَلَمْ نَشْرَحْ is *alam-nashraḥ*, not *alam · nashraḥ*. The مْ finishes the first word and the ن starts the second with nothing in between. Teach this as the same thing as Drill 1 of lesson 2-02 — the phrase runs, only now the joining sound is a closed consonant instead of an *n*.
    - The hardest ordinary example in the short surahs is **وَٱنْحَرْ**: a نْ running straight into a ح, two throat-adjacent sounds with no vowel to separate them. Save it for last.
+
+   **In plain terms:** the two words run straight together. One ends on a closed letter, the next starts on one, and nothing goes in between — no pause, no little *uh*.
 
 5. **Three-and-four-sukūn words.** ٱلْمُسْتَقِيمَ has two; يَسْتَغْفِرْ has three. Read them slowly, syllable by syllable, then at speed. The pace matters: a student who can read a two-sukūn word slowly but not at speed has not finished learning it, she has only decoded it.
 

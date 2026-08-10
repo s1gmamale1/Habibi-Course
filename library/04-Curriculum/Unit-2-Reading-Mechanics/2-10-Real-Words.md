@@ -101,6 +101,9 @@ Teach the routine as three silent seconds:
 Model it yourself on ٱلْخَنَّاسِ. Say out loud what your eyes are doing. Then have her
 narrate her own scan on ٱلْوَسْوَاسِ before reading it.
 
+**In plain terms:** look at the whole word before you open your mouth. Spot the doubled
+letters and the long ones first — they set the beat, and they are at the end.
+
 ### 2. Read in rhythm, not in letters
 
 A word is a shape in time. Have her tap the table once per beat while reading:

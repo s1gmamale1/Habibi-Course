@@ -117,6 +117,9 @@ of decaying sound is not six counts.
 Do not name it. It has a name — [[Madd-Lazim]], "the obligatory one" — and Unit 3 gives it
 the name and the sub-types. Here it is a hand-shape and a count.
 
+**In plain terms:** long vowel, then a doubled or closed letter in the same word — hold it
+for six. This one has no choice attached to it.
+
 ### 3. Madd + hamzah — also long, count four for now
 
 The other thing the **ٓ** sign sits over is a madd letter followed by a **hamzah**:
@@ -163,6 +166,9 @@ the time the mouth needs to travel and no more. See [[Leen]].
 
 Read Sūrat Quraysh straight through, joined, with no stops except at the end. She should
 hear four līn letters go past at ordinary speed.
+
+**In plain terms:** these are not short stretches — they are no stretch at all. Say *bayt*
+and *khawf* at normal speed and move on.
 
 Then plant the seed for 2-12: *when you stop on one of these, something happens to it.*
 Do not demonstrate it yet. Tell her it is coming in four lessons and move on — that is

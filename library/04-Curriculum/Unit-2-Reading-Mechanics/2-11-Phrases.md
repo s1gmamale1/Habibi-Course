@@ -97,6 +97,9 @@ Three things, and only three. Show each on a real phrase.
 The muṣḥaf prints the helping vowel. She does not compute it; she reads it. Tell her that
 outright — it removes the fear that joining requires grammar.
 
+**In plain terms:** words run into each other with no gap. The only thing that ever
+disappears at the join is the ٱ, and any extra vowel you need is already on the page.
+
 ### 3. The finger-slide
 
 The most effective physical technique in this lesson. Have her put a finger under the line

@@ -150,6 +150,9 @@ It stretches. She will hear it and, if she is paying attention, she will object 
 > **"Līn has no length. That stretch belongs to the stop, not to the letter. It has a name
 > and a count, and Unit 3 gives you both. Today: let it happen and don't measure it."**
 
+**In plain terms:** the stretch is not coming from the letter — it is coming from stopping.
+Let it happen and do not try to count it yet.
+
 That is [[Madd-Leen]], met as an observation. Do not name it.
 
 ### 6. Recording

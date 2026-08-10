@@ -67,6 +67,8 @@ Then the second surprise of the lesson, which usually arrives on its own: the l�
    - **If the lām itself carries a sukūn, read it.**
    The mushaf prints both marks. She does not memorise fourteen letters to read the page — she memorises them to *write*, which is not this lesson.
 
+   **In plain terms:** you do not have to know which letters are which. Look at the letter after the lām — if it has a shadda, the lām is silent.
+
 3. **Say the fourteen once, for recognition.** Sun: **ت ث د ذ ر ز س ش ص ض ط ظ ل ن**. Everything else is a moon letter. Do not drill the list; drill the words.
 
 4. **Doubling at the end of a word — the case Drill 4 exists for.** حَقّ, رَبّ, أُمّ. When she stops on one of these, the doubling is still there: the closure is held and *then* released. Two sub-cases:
@@ -74,6 +76,8 @@ Then the second surprise of the lesson, which usually arrives on its own: the l�
    - A **bouncing** letter — ٱلْحَقّ is held and then **bounced**, because at a stop the ق is closed and ق is in قطب جد. She met this exact shape in lesson 2-04 with وَتَبَّ.
 
 5. **Shadda plus tanwīn in one word.** حَقًّا, جَنَّةٌ, سِجِّيلٍ. Two marks doing two different jobs, and the eye has to take both. Slow this down: read the doubling, *then* the ending. The commonest outcome is that one of the two gets dropped, and it is usually the shadda, because the tanwīn is at the edge of the word where the eye lands last and stays longest.
+
+   **In plain terms:** two marks, two separate jobs — hold the letter, then add the *n*. Doing one and forgetting the other is the usual slip.
 
 6. **Two shaddas in one word.** مُدَرِّسِيَّة is too much; use ٱلصِّدِّيق, ٱلْحَجَّاج, مُتَّقِين. Both get their full two counts. This is where under-holding reappears even in a student who fixed it last week — the second one gets rushed because the word is now long.
 
