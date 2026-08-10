@@ -1,0 +1,829 @@
+{
+  "id": "3-18",
+  "phase": 3,
+  "draft": true,
+  "unit": "3.3",
+  "title": "Revision and Q&A — the meem sākinah trio",
+  "objectives": [
+    "Student can decide, on any meem sākinah, which of the three rules applies, from the next letter alone, at reading speed.",
+    "Student can produce the three lip postures on demand and name the one she is producing.",
+    "Student can say what an uncoloured meem on a coloured page is instructing her to do.",
+    "Student can name what is NOT a meem rule when the page makes it look like one."
+  ],
+  "prerequisites": [
+    "3-14",
+    "3-15",
+    "3-16",
+    "3-17"
+  ],
+  "stage": "Ghunnah & Meem Sākinah",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.18 — Revision and Q&A: the meem sākinah trio",
+      "arabicDecor": "حَبْلٌ مِّن مَّسَدٍۭ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Read all four before saying anything about any of them",
+      "body": [
+        "تَرْمِيهِم بِحِجَارَةٍ · أَطْعَمَهُم مِّن جُوعٍ · عَلَيْهِمْ وَلَا · حَبْلٌ مِّن مَّسَدٍۭ",
+        "Three of them are meem sākinah rules and one is not. Almost nobody gets the fourth right the first time, because on the page it is the same picture as the second.",
+        "That is the shape of this session. The individual rules are not the problem — you have had a week on each.",
+        "What has not been tested is choosing between them under time pressure, and not applying them where they do not belong.",
+        "No new rule today, and no new Sabaq. This session exists to make three lessons behave like one system."
+      ],
+      "items": [
+        {
+          "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "105:4 — conceal."
+          }
+        },
+        {
+          "arabic": "أَطْعَمَهُم مِّن جُوعٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 — merge."
+          }
+        },
+        {
+          "arabic": "عَلَيْهِمْ وَلَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:7 — say it."
+          }
+        },
+        {
+          "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:5 — NOT a meem rule. Tanwīn + م, then noon + م. Both belong to lesson 3-20."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The whole chapter, in one table",
+      "body": [
+        "ب — 1 letter. Lips LIGHTLY TOUCHING, 2 counts. Ikhfāʾ shafawī. Magenta on the page.",
+        "م — 1 letter. Lips CLOSED and doubled, 2 counts. Idghām shafawī. Bright green.",
+        "The other 26 — lips FULLY CLOSED, not prolonged. Iẓhār shafawī. NO COLOUR.",
+        "And underneath it, the thing that makes the table usable: the decision is made by one letter, and it is the letter that comes AFTER the meem. Nothing else in the phrase is evidence.",
+        "You also have, from 3-14, the levels of ghunnah — and you should be able to place all three rows on that scale without help. Rows one and two are held nasals; row three is an inherent nasal that is not held."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Three framings, then get to the mixed work",
+      "body": [
+        "Run the table once, out loud, in both directions. Someone says a letter, you say the rule. Someone says a rule, you say which letters trigger it. Sixty seconds. If either direction is slow, that is where the session's time goes.",
+        "The three postures, side by side, with a fingertip on the lips. Produce all three in sequence and name each one as you do it: touching → ikhfāʾ shafawī; closed and doubled, held → idghām shafawī; closed and released → iẓhār shafawī.",
+        "This is the only place in the course where three lip states are in direct competition. Do it as a physical drill, not as a discussion.",
+        "Then the 'no colour' principle, asked back as a question: you are looking at a coloured page, and a meem sākinah is black. What is the page telling you?",
+        "The answer is 'say exactly what is written' — not 'nothing happens here'. If your answer was the second one, spend five minutes on it, because that belief is what produces the عَلَيْهِمْ وَلَا error."
+      ]
+    },
+    {
+      "kind": "legend",
+      "heading": "Two colours for three rules — and that is correct",
+      "rules": [
+        "ikhfa_shafawi",
+        "idghaam_shafawi"
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 105,
+      "ayah": 4,
+      "translation": "Striking them with stones of baked clay.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "105:4 — the only ikhfāʾ shafawī in the memorised sūrahs, and a merge with ghunnah three words later. Name both before you read."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 4,
+      "highlight": [
+        "idghaam_shafawi"
+      ],
+      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "106:4 — two idghām shafawī, four words apart. Point at the two bare meems before you say a word: أَطْعَمَهُم and وَءَامَنَهُم. The rule is triggered by those, not by the shaddahs."
+      }
+    },
+    {
+      "kind": "contrast",
+      "heading": "The naming trap — same picture, three rules",
+      "pairs": [
+        {
+          "surah": 106,
+          "ayah": 4,
+          "text": "أَطْعَمَهُم مِّن",
+          "rule": "idghaam_shafawi",
+          "note": "A bare MEEM before the shaddah'd meem. A meem sākinah rule — yours."
+        },
+        {
+          "surah": 111,
+          "ayah": 5,
+          "text": "حَبْلٌ مِّن",
+          "rule": "idghaam_ghunnah",
+          "note": "A TANWĪN before the shaddah'd meem. Not a meem rule at all. Lesson 3-20."
+        },
+        {
+          "surah": 111,
+          "ayah": 5,
+          "text": "مِّن مَّسَدٍۭ",
+          "rule": "idghaam_ghunnah",
+          "note": "A bare NOON before the shaddah'd meem. Also not a meem rule. Lesson 3-20. Three letters later in the same phrase as the row above."
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The mixed column, cold",
+      "instructions": "Read down. After each phrase say 'conceal', 'merge', 'say it' or 'not a meem rule'. Do not pause to think; if you have to think, mark it and come back. Then go down again with the labels said BEFORE reading rather than after.",
+      "grid": [
+        [
+          {
+            "arabic": "أَلَمْ تَرَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 105:1, ت."
+            }
+          },
+          {
+            "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CONCEAL — 105:4, ب. The only in-set instance."
+            }
+          },
+          {
+            "arabic": "عَلَيْهِمْ وَلَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 1:7, و. Danger case."
+            }
+          },
+          {
+            "arabic": "لَهُم مَّغْفِرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "MERGE — 5:9, reference example."
+            }
+          },
+          {
+            "arabic": "كَيْدَهُمْ فِى تَضْلِيلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 105:2, ف. Danger case."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 107:7, ن, inside one word. Two nasals, no merge."
+            }
+          },
+          {
+            "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 112:3, ي, three of them."
+            }
+          },
+          {
+            "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NOT A MEEM RULE — 111:5. Tanwīn + م, then noon + م."
+            }
+          },
+          {
+            "arabic": "صَلَاتِهِمْ سَاهُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 107:5, س."
+            }
+          },
+          {
+            "arabic": "أَطْعَمَهُم مِّن جُوعٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "MERGE — 106:4."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَلَيْهِمْ طَيْرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 105:3, ط. And the meem stays light."
+            }
+          },
+          {
+            "arabic": "هُم بِمُؤْمِنِينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CONCEAL — 2:8, reference example."
+            }
+          },
+          {
+            "arabic": "بِرَبِّ ٱلنَّاسِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NOT A MEEM RULE — 114:1. Two doubled letters; one hums and one does not. Lesson 3-14."
+            }
+          },
+          {
+            "arabic": "وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "MERGE — 106:4, the second of the two."
+            }
+          },
+          {
+            "arabic": "لَكُمْ دِينُكُمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "SAY IT — 109:6, د."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Cover the second word",
+      "instructions": "Someone covers everything after the meem. Name the rule from what is left. You should FAIL every time — and that is the point of the drill. The rule is decided by the letter you cannot see. It teaches the eye to look forward, which is the single habit this chapter needs. Then uncover, one letter at a time, and stop the moment you know.",
+      "grid": [
+        [
+          {
+            "arabic": "تَرْمِيهِم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Unanswerable. Uncover: ب → conceal."
+            }
+          },
+          {
+            "arabic": "أَطْعَمَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Unanswerable. Uncover: مّ → merge."
+            }
+          },
+          {
+            "arabic": "عَلَيْهِمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Unanswerable. Uncover: و → say it, and it is the hard one."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَيْدَهُمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Unanswerable. Uncover: ف → say it, and it is the other hard one."
+            }
+          },
+          {
+            "arabic": "لَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Unanswerable. Uncover: مّ → merge."
+            }
+          },
+          {
+            "arabic": "حَبْلٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "This one you CAN answer — and the answer is 'not mine'. A tanwīn is not a meem sākinah, whatever comes next."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The three postures, called at random",
+      "instructions": "Someone says 'touching', 'doubled' or 'closed'. You produce the posture on the word هُمْ and hold it until told to release. Twenty repetitions, random order, fingertip on the lips throughout.",
+      "grid": [
+        [
+          {
+            "arabic": "هُمْ بِـ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TOUCHING → ikhfāʾ shafawī. Barely in contact, humming for two."
+            }
+          },
+          {
+            "arabic": "هُم مِّـ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "DOUBLED → idghām shafawī. Closed and held, humming for two."
+            }
+          },
+          {
+            "arabic": "هُمْ دِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CLOSED AND RELEASED → iẓhār shafawī. Full closure, no hold, straight on."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The two danger cases, still",
+      "instructions": "They do not stop being the priority because the lesson is over. Ten each, exaggerated closure. Then al-Fātiḥa 1:7 whole, three times.",
+      "grid": [
+        [
+          {
+            "arabic": "عَلَيْهِمْ وَلَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — full closure, a beat, then release. Then remove the beat and keep the closure."
+            }
+          },
+          {
+            "arabic": "كَيْدَهُمْ فِى تَضْلِيلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:2 — the same, one letter over."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 whole, three times. Both meems fully formed."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Whole sūrahs, listening only for meems",
+      "instructions": "Recite al-Fīl and Quraysh from memory. Do not recite for beauty; recite as an inspection. Say the rule name out loud AFTER each meem sākinah, mid-recitation. It will sound absurd. Do it anyway — twice. Then go back down the mixed column pinching your nose on every meem: all of them should block, but only the merges and concealments should keep blocking.",
+      "grid": [
+        [
+          {
+            "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:1 — 'say it' on أَلَمْ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:4 — 'conceal', then the merge with ghunnah that is not yours yet."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — 'merge' twice. Five rulings live in this ayah and you own one of them so far."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The questions that actually get asked — part one",
+      "body": [
+        "'Ikhfāʾ shafawī and idghām shafawī both hum for two counts. Why are they two rules?' — Because they do different things to the lips and they start from different pictures. In ikhfāʾ the lips TOUCH and the meem stays a meem, hidden. In idghām the lips CLOSE and two meems become one. On the page: ikhfāʾ shows a bare meem then a ب; idghām shows a bare meem then a meem with a shaddah. And they are coloured differently, which tells you the tradition considers them distinct.",
+        "'Why does عَلَيْهِمْ وَلَا need such a big closure? It sounds fine to me.' — It sounds fine because you have heard yourself do it wrong for years and your ear has calibrated to it. Record yourself and compare with a reciter. This is the one place in the chapter where self-diagnosis fails, and it is why the exaggeration drill exists.",
+        "'If iẓhār has no colour, how do I know I have not missed a rule?' — You do not know from the colour; you know from the letter. Colour marks modifications only. Black means: what is written is what is said. That is a positive instruction, not silence. If you find yourself reading black text as 'no information', you have inverted the system.",
+        "'On the page, أَطْعَمَهُم مِّن and حَبْلٌ مِّن look the same to me.' — They look the same AFTER the shaddah'd meem. They differ BEFORE it: one is a bare meem, one is a tanwīn. Cover the shaddah'd meem and the ambiguity disappears entirely. The colours also differ, but the two greens are close enough that you should not rely on them. Read the letter, not the hue."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The questions that actually get asked — part two",
+      "body": [
+        "'حَبْلٌ مِّن مَّسَدٍ — you said it is not a meem rule, but it has meems in it.' — It has meems being MERGED INTO. A meem sākinah rule needs a meem sākinah — a closed meem — as the letter the rule acts on. Here the letters being acted on are a tanwīn and a noon. The rule is named after the letter that CHANGES, not the letter it changes into. You meet these in 3-20; today you only need to be able to say 'not mine'.",
+        "'Do I hold the ghunnah when I stop on a word ending in a meem sākinah?' — If you stop, the next letter is gone, and with it the rule. There is no ikhfāʾ or idghām across a stop. What remains is a plain closed meem. This becomes systematic in 3-33 and 3-34; for now: no next letter, no rule.",
+        "'My teacher presses the lips fully on تَرْمِيهِم بِحِجَارَةٍ. Is one of you wrong?' — Neither. A minority of scholars read a meem before ب as iẓhār rather than ikhfāʾ, on the grounds that the meem and the ب already share the lips. The jumhūr — and this course — read it as ikhfāʾ. The two positions differ by how much contact and how much hold, not by whether a meem is there. Recognise it as a known difference, learn one, and be consistent.",
+        "'Is the meem in أَنْعَمْتَ covered by this chapter?' — No. That is a NOON sākinah before ع, which is the next chapter. Read the letters, not the shapes."
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What this session is actually testing",
+      "mistakes": [
+        {
+          "wrong": "Choosing correctly on a phrase presented alone, and choosing wrongly when four rules are in the same column.",
+          "why": "Each rule has had a week to itself. What has never been tested is selecting between them under time pressure. The individual rules are not the problem.",
+          "fix": "The mixed column, cold, with the label said before reading. Mark every row that needed thinking; those rows are the session."
+        },
+        {
+          "wrong": "Naming حَبْلٌ مِّن or مِّن مَّسَدٍۭ as a meem rule.",
+          "why": "From the shaddah onward the page is identical to أَطْعَمَهُم مِّن, and the sound is identical too. There is genuinely nothing to hear.",
+          "fix": "Cover the second word. What changed is the letter BEFORE. A meem changing is a meem rule; a tanwīn or a noon changing is 3-20."
+        },
+        {
+          "wrong": "Answering 'nothing happens here' when asked what a black meem on a coloured page means.",
+          "why": "Absence reads as absence. But the page marks modifications only, so black is a positive instruction and not silence.",
+          "fix": "Spend five minutes on it if it appears — this belief is what produces the عَلَيْهِمْ وَلَا error, and no amount of drilling the phrase will fix the belief."
+        },
+        {
+          "wrong": "The meem still missing in عَلَيْهِمْ وَلَا, a week after the lesson.",
+          "why": "Her ear has calibrated to years of hearing herself drop it. Self-diagnosis fails here specifically.",
+          "fix": "Exaggerated closure ten times, then al-Fātiḥa 1:7 whole three times, every day. And a recording compared against a reciter, once."
+        },
+        {
+          "wrong": "A held nasal appearing on iẓhār meems during the mixed drill.",
+          "why": "Two of the three rows hold, so the hand reaches for the hold by default.",
+          "fix": "The pinch sweep down the mixed column. All rows should block; only the conceals and merges should keep blocking. Anything else that lasts is an added ghunnah."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Write this table from memory before you leave",
+      "items": [
+        {
+          "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ب · lips lightly touching · 2 counts · magenta."
+          }
+        },
+        {
+          "arabic": "أَطْعَمَهُم مِّن",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "م · lips closed, doubled · 2 counts · green."
+          }
+        },
+        {
+          "arabic": "عَلَيْهِمْ وَلَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "the other 26 · lips fully closed · not prolonged · NO COLOUR. If your colour row has three entries instead of two, you have not understood the principle."
+          }
+        },
+        {
+          "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "not on the table at all. The rule is named after the letter that changes, and here that is a tanwīn and a noon."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days. Consolidation and hifz; no new rule material.",
+      "tasks": [
+        "Four minutes — the mixed column, cold, once through. Then again with the labels said before reading rather than after.",
+        "Three minutes — the two danger cases and al-Fātiḥa 1:7. Every single day.",
+        "Three minutes — al-Fīl and Quraysh from memory, naming meem rules mid-recitation.",
+        "Once, on day one — write the three-row table from memory: letter, lips, ghunnah, colour. Then check it, and write it again on day five without looking at your first attempt.",
+        "The rest — hifz. Manzil widened to three surahs today, since there is no new Sabaq competing for time. Then Sabqi: al-Falaq 113 whole, al-Ikhlāṣ 112 whole, al-Masad 111:1–3, all unaided.",
+        "Run 111:1–3 against the meem rules while you are there. مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ has no meem sākinah at all, and being able to say that confidently is worth as much as finding one.",
+        "Bring to the next session: the row of the mixed column you got wrong, and one meem from your own ṣalāh that you are not confident about. Next session opens the noon chapter — six throat letters and, again, no colour."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The mixed column, cold",
+        "instructions": "Conceal, merge, say it, or not a meem rule. No pausing. Mark any row that needed thinking.",
+        "grid": [
+          [
+            {
+              "arabic": "أَلَمْ تَرَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT."
+              }
+            },
+            {
+              "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "CONCEAL."
+              }
+            },
+            {
+              "arabic": "عَلَيْهِمْ وَلَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT."
+              }
+            },
+            {
+              "arabic": "لَهُم مَّغْفِرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MERGE."
+              }
+            },
+            {
+              "arabic": "كَيْدَهُمْ فِى تَضْلِيلٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT — two nasals, no merge."
+              }
+            },
+            {
+              "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT — three of them."
+              }
+            },
+            {
+              "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NOT A MEEM RULE."
+              }
+            },
+            {
+              "arabic": "صَلَاتِهِمْ سَاهُونَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT."
+              }
+            },
+            {
+              "arabic": "أَطْعَمَهُم مِّن جُوعٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MERGE."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَلَيْهِمْ طَيْرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT — and light."
+              }
+            },
+            {
+              "arabic": "هُم بِمُؤْمِنِينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "CONCEAL."
+              }
+            },
+            {
+              "arabic": "بِرَبِّ ٱلنَّاسِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NOT A MEEM RULE."
+              }
+            },
+            {
+              "arabic": "وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MERGE."
+              }
+            },
+            {
+              "arabic": "لَكُمْ دِينُكُمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "SAY IT."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cover the second word",
+        "instructions": "Name the rule from the first word alone. You should fail every time — that is the exercise.",
+        "grid": [
+          [
+            {
+              "arabic": "تَرْمِيهِم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Unanswerable until the ب appears."
+              }
+            },
+            {
+              "arabic": "أَطْعَمَهُم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Unanswerable until the shaddah'd meem appears."
+              }
+            },
+            {
+              "arabic": "عَلَيْهِمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Unanswerable until the و appears."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَيْدَهُمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Unanswerable until the ف appears."
+              }
+            },
+            {
+              "arabic": "لَهُم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Unanswerable."
+              }
+            },
+            {
+              "arabic": "حَبْلٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Answerable — 'not mine'. A tanwīn is not a meem sākinah, whatever follows."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The three postures, called at random",
+        "instructions": "Touching, doubled, closed. Produced on هُمْ, held until told to release. Twenty repetitions, fingertip on the lips.",
+        "grid": [
+          [
+            {
+              "arabic": "هُمْ بِـ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "TOUCHING → ikhfāʾ shafawī."
+              }
+            },
+            {
+              "arabic": "هُم مِّـ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "DOUBLED → idghām shafawī."
+              }
+            },
+            {
+              "arabic": "هُمْ دِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "CLOSED AND RELEASED → iẓhār shafawī."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The two danger cases, still",
+        "instructions": "Ten each with exaggerated closure, then al-Fātiḥa 1:7 whole, three times.",
+        "grid": [
+          [
+            {
+              "arabic": "عَلَيْهِمْ وَلَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Closure, beat, release. Then closure without the beat."
+              }
+            },
+            {
+              "arabic": "كَيْدَهُمْ فِى تَضْلِيلٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The same, one letter over."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Both meems fully formed. Three times."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The mixed column, cold — then again with labels said before reading",
+      "The two danger cases and al-Fātiḥa 1:7 — every single day",
+      "al-Fīl and Quraysh from memory, naming meem rules mid-recitation",
+      "The pinch sweep down the mixed column: all block, only the conceals and merges keep blocking",
+      "Day one and day five: the three-row table written from memory, then compared"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Put four phrases in front of her — تَرْمِيهِم بِحِجَارَةٍ, أَطْعَمَهُم مِّن جُوعٍ, عَلَيْهِمْ وَلَا, حَبْلٌ مِّن مَّسَدٍۭ — and ask her to read all four before saying anything about any of them. Three are meem sākinah rules and one is not. Almost nobody gets the fourth right the first time.",
+      "Say the shape of the session out loud: the individual rules are not the problem, she has had a week on each. What has not been tested is choosing between them under time pressure, and not applying them where they do not belong.",
+      "Put the three-row table on the board before anything else and leave it there all session. Underneath it write the thing that makes it usable: the decision is made by one letter, and it is the letter AFTER the meem.",
+      "Run the table both directions for sixty seconds. Letter → rule, then rule → letters. Wherever she is slow is where the session's minutes go.",
+      "The three postures, side by side, fingertip on the lips, with her naming each as she produces it. This is the only place in the course where three lip states are in direct competition — do it as a physical drill, not as a discussion.",
+      "Ask the 'no colour' principle back to her as a question rather than restating it: 'You are looking at a coloured page. A meem sākinah is black. What is the page telling you?' The answer is 'say exactly what is written'. If she gives 'nothing happens here', spend five minutes on it — that belief is what produces the عَلَيْهِمْ وَلَا error.",
+      "The mixed column is the session's centre. Do not let her pause to think; a row that needs thinking should be marked and returned to. Then run it again with the labels said before reading.",
+      "Cover-the-second-word is designed for her to fail. Say so before she starts, or the failure reads as her fault. Then uncover one letter at a time and have her stop the moment she knows.",
+      "Drill 5 — whole sūrahs, naming the rule out loud mid-recitation — will sound absurd. Say so, and make her do it twice. It is what moves a rule from the exercise into the text.",
+      "The pinch sweep: down the mixed column, pinching on every meem. All rows should block. Only rows 2, 4, 8, 10, 12 and 14 should keep blocking. Anything else that lasts is an added ghunnah.",
+      "Run the Q&A as questions asked, not as a lecture. The eight in the deck are the ones that actually get asked at this point in the chapter.",
+      "Hifz: revision lessons pause new rules but never pause hifz. No new Sabaq today. Widen Manzil to three surahs since there is nothing competing for time, then Sabqi: 113, 112, 111:1–3 whole and unaided.",
+      "Promotion check: if al-Falaq has come back clean three consecutive sessions, promote it to Manzil. Three clean recitations is this course's own threshold, not a transmitted one — adjust it from what you observe. If her promoted surahs keep decaying, raise it to four or five.",
+      "Use the spare time to run 111:1–3 against the meem rules. مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ has no meem sākinah at all, and being able to say that confidently is worth as much as finding one."
+    ],
+    "listenFor": [
+      {
+        "item": "The right rule named at reading speed, from the following letter alone, with four rules in play.",
+        "commonMistake": "Correct answers when a phrase stands alone, wrong answers when four rules share a column.",
+        "whyItHappens": "Each rule has had a week to itself and none has been tested against the others. Selection under time pressure is a separate skill from execution.",
+        "correctionCue": "The mixed column with the label said BEFORE reading. Mark every row that needed thinking; those rows are the session.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-18-Revision-Meem-Sakinah.md"
+      },
+      {
+        "item": "'Not a meem rule' said confidently on حَبْلٌ مِّن مَّسَدٍۭ and بِرَبِّ ٱلنَّاسِ.",
+        "commonMistake": "Naming a tanwīn-plus-meem or a noon-plus-meem as idghām shafawī.",
+        "whyItHappens": "From the shaddah onward the page is identical and the sound is identical. There is genuinely nothing to hear, so this must be asked rather than listened for.",
+        "correctionCue": "Cover the second word. The rule is named after the letter that CHANGES — a meem changing is a meem rule; a tanwīn or noon changing is 3-20.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Idgham-Maal-Ghunnah.md"
+      },
+      {
+        "item": "'Say exactly what is written' as the answer to what a black meem instructs.",
+        "commonMistake": "'Nothing happens here.'",
+        "whyItHappens": "Absence reads as absence. But a coloured muṣḥaf marks modifications only, so black is a positive instruction rather than silence.",
+        "correctionCue": "Five minutes on the principle, not on the phrase. Drilling عَلَيْهِمْ وَلَا will not fix a belief about what the page means.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Izhar-Shafawi.md"
+      },
+      {
+        "item": "Both عَلَيْهِمْ meems fully formed inside al-Fātiḥa 1:7 recited whole.",
+        "commonMistake": "The second meem still missing a week after the lesson.",
+        "whyItHappens": "Her ear has calibrated to years of hearing herself drop it. This is the one place in the chapter where self-diagnosis fails.",
+        "correctionCue": "Exaggerated closure ten times, then 1:7 whole three times, every day. Once in the week, a recording compared against a reciter.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Izhar-Shafawi.md"
+      },
+      {
+        "item": "Three distinct lip postures produced on demand and named correctly as they are produced.",
+        "makhraj": "All three are at the two lips and differ only in degree of contact: light touch (ikhfāʾ), full closure held and doubled (idghām), full closure released (iẓhār).",
+        "commonMistake": "Two of the three collapsing into one, usually touching and closed.",
+        "whyItHappens": "The postures have never been in direct competition before; each was learned alone, a week apart.",
+        "correctionCue": "Fingertip on the lips, postures called at random, twenty repetitions on هُمْ. Physical, not verbal.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Ikhfa-Shafawi.md"
+      },
+      {
+        "item": "No held nasal on the iẓhār rows of the mixed column.",
+        "commonMistake": "A two-count hold leaking onto plain meems while the mixed drill is running.",
+        "whyItHappens": "Two of the three rows hold, so under load the mouth reaches for the hold by default.",
+        "correctionCue": "The pinch sweep. All rows block; only the conceals and merges keep blocking. Anything else that lasts is an added ghunnah.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ghunnah.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. No new rule material — this week is consolidation and hifz. Daily: four minutes of the mixed column cold, then again with labels said before reading; three minutes of the two danger cases and al-Fātiḥa 1:7, every single day; three minutes of al-Fīl and Quraysh from memory, naming meem rules mid-recitation. Once, on day one: write the three-row table from memory — letter, lips, ghunnah, colour — then check it, and write it again on day five without looking at the first attempt. Hifz: Manzil widened to three surahs since there is no new Sabaq, then Sabqi — 113 whole, 112 whole, 111:1–3, all unaided; and run 111:1–3 against the meem rules, noting that مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ has no meem sākinah at all. She brings to the next session the mixed-column row she got wrong, and one meem from her own ṣalāh she is not confident about."
+  },
+  "videos": [],
+  "games": [
+    "rule-identifier",
+    "family-sorter",
+    "condition-builder"
+  ]
+}
