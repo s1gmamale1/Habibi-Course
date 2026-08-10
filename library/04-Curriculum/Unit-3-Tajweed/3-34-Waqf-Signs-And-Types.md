@@ -89,14 +89,23 @@ it from nothing — do not present it as a reminder.
 
 ### 1. First: check her muṣḥaf, before you teach any sign
 
-**Do this before §2, not after.** The waqf signs are **not part of the revealed text.** They are
-a later scholarly aid — chiefly the work of Shaykh Muḥammad ibn ʿAlī Khalaf al-Ḥusaynī
-"al-Hamadhānī" (d. 1357 AH) — and **different printing traditions use different sets.**
+**Do this before §2, not after.** The waqf signs are **not part of the revealed text** — but
+they are old. They come from **[[Sajawandi-Waqf|as-Sajāwandī]] (d. 560 AH)**, who assigned a
+letter to each degree of stopping so a reciter could carry the judgement on the page. That is
+**273 years before Ibn al-Jazarī**, so the signs are older than al-Jazariyyah, not a modern
+addition to it.
+
+His six were **م** lāzim · **ط** muṭlaq · **ج** jāʾiz · **ز** mujawwaz · **ص** murakhkhaṣ ·
+**لا** no stop.
+
+**Now the part that matters for her muṣḥaf**, and say it in this order because the surprise is
+the point: **different printing traditions use different sets, and the one she is most likely
+holding is closer to the original than the one this course teaches.**
 
 | Tradition | Character of the set |
 |---|---|
-| **Madinah (King Fahd)** | the set taught below |
-| **Indo-Pak (Tāj / Persian)** | partly different — **ط** for waqf muṭlaq, **ز** for mujawwaz, plus the **ع** rukūʿ marker |
+| **Madinah (King Fahd)** | the set taught below — a **review committee's** adaptation, using صلى and قلى |
+| **Indo-Pak (Tāj / Persian)** | **ط** for muṭlaq, **ز** for mujawwaz, plus the **ع** rukūʿ marker — al-Sajāwandī's own letters |
 | **Turkish / Ottoman** | a further variant again |
 
 **Teach the set that matches the muṣḥaf she actually holds.** For Uzbek and wider Central Asian

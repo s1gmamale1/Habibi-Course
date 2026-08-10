@@ -232,13 +232,45 @@ statement involved is standard.** What is missing is a source in this vault that
 |---|---|---|
 | [[Hamzat-Wasl]] | Tuhfat **and** Jazariyyah | Tuhfat has **zero** mentions of hamzat al-waṣl, and its own v.3 scopes the poem to *"the noon, the tanwīn, and the madds"*. Jazariyyah v.101–103 does cover it. **Fixed** — the Tuhfat citation was dropped and the note is verified on Jazariyyah alone |
 | [[Silent-Letters]] | Jazariyyah | Supports §1 (hamzat al-waṣl) only. الصفر / المستدير / المستطيل — the two zeros of §2 and §3 — occur **nowhere** in the matn. They are modern Uthmānī *printing* convention. **Now `needs-review`** |
-| [[Waqf-Signs]] | Jazariyyah | **Zero** of م، لا، ج، صلى، قلى، س appear in it, and could not: Ibn al-Jazarī died 833 AH, about five centuries before this sign set. Jazariyyah ch. 13 gives the waqf *types*, which is a different note. Already `needs-review`; the reason is now recorded in the note |
+| [[Waqf-Signs]] | Jazariyyah | **Zero** of م، لا، ج، صلى، قلى، س appear in it. Jazariyyah ch. 13 gives the waqf *types*, which is a different note. ~~Ibn al-Jazarī died 833 AH, about five centuries before this sign set.~~ **That clause was wrong — see the correction below.** Source now supplied: [[Sajawandi-Waqf]] |
 
 > **This is the check that a claim-by-claim pass misses.** Each of these three notes states
 > things that are true, so reading them against what you already know produces a clean bill.
 > The defect only appears when you ask the narrower question — *does the document named in
 > `sources` contain this?* — and grep for the terms in the cited file. Two of the three were
 > caught by a `grep -c` returning 0.
+
+### Correction — the waqf signs are older than this log claimed
+
+**Recorded 2026-08-11, correcting an entry written the same day.**
+
+[[Waqf-Signs]] and lesson `3-34` both attributed the sign set to "Shaykh Muḥammad ibn ʿAlī
+Khalaf al-Ḥusaynī *al-Hamadhānī* (d. 1357 AH)". I did not verify that attribution. I
+**reasoned from it** — if the signs are 1357 AH and Ibn al-Jazarī died 833 AH, the signs
+must postdate him by about five centuries — and wrote that inference into this log and into
+the ROADMAP hotlist as though it were a finding.
+
+**It is backwards.** The signs come from **[[Sajawandi-Waqf|as-Sajāwandī]], d. 560 AH**, who
+assigned م ط ج ز ص لا to the degrees of stopping. That is **273 years *before*** Ibn
+al-Jazarī. The system is older than al-Jazariyyah, not newer.
+
+Two further things fell out of checking it:
+
+- The 1357 AH figure appears to belong to **al-Ḥaddād al-Ḥusaynī** (1865–1939 CE), who wrote
+  out the 1924 Cairo muṣḥaf by hand and standardised modern printed usage — a real role, but
+  not devising the symbols. Whether "al-Hamadhānī" is a garbled form of his name is **not
+  established**; it is flagged as unverified rather than silently corrected.
+- Lesson `3-34` presented **ط ز ص** as "the Indo-Pak variant". They are **al-Sajāwandī's
+  originals**; the Madinah set's صلى and قلى are the adaptation. The lesson had the
+  relationship inverted, and taught it that way on the board. Now fixed, and the inversion is
+  now the interesting part of the section rather than an error in it.
+
+> **The lesson, stated plainly because it is the third time this log has recorded it.** An
+> unverified attribution sitting in a note is inert. The damage happens when you *reason from
+> it* — the conclusion inherits none of the original's uncertainty and reads like a finding.
+> Both earlier instances were someone else's summary; this one was mine, written into the same
+> paragraph that warns against it. **Check the premise before you build on it, especially when
+> the inference feels tidy.**
 
 ### What remains, and why each one is stuck
 
