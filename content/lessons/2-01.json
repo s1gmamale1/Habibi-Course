@@ -1,0 +1,1260 @@
+{
+  "id": "2-01",
+  "phase": 2,
+  "unit": "2.1",
+  "title": "Tanwīn — the three nunation marks",
+  "objectives": [
+    "Student can name and point to the three tanwīn marks — ـٌ ـً ـٍ — and say the sound each one adds: -un, -an, -in.",
+    "Student can read a fully-vowelled noun carrying any of the three, producing the n sound without hunting the page for a written ن.",
+    "Student can explain that the alif written under a fatḥatān (كِتَابًا) is a carrier and is NOT lengthened when reading on.",
+    "Student can read a shuffled column of 20 nouns marked with all three tanwīns at roughly one word per two seconds, with no warm-up cue."
+  ],
+  "prerequisites": [
+    "1-15"
+  ],
+  "stage": "Reading Mechanics",
+  "draft": true,
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.1 — Tanwīn: the three nunation marks",
+      "arabicDecor": "ـٌ ـً ـٍ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Read this",
+      "body": [
+        "كِتَابًا. Read it out loud before anything is explained.",
+        "Most students who have finished an alphabet course do one of two things here. Either they hunt the page for a ن that is not there and stall, or they see the alif and stretch it: ‘ki-taa-baa’.",
+        "Both come from the same wrong assumption: that Arabic writes every sound as a letter. It does not.",
+        "The right reading is kitāban — ‘a book’. There is an n in it, and no ن on the page."
+      ],
+      "items": [
+        {
+          "arabic": "كِتَابًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كِتَابًا: kitāban, ‘a book’. Two fatḥas on the ب add the n. The alif after it is silent — do not stretch it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Doubling the mark adds an n",
+      "body": [
+        "Tanwīn (nunation — ‘adding a nūn’) is the third thing a final vowel can do. It is the same three harakāt (short-vowel marks) you already know, drawn twice.",
+        "One ḍamma is ‘bu’. Two ḍammas is ‘bun’.",
+        "One kasra is ‘bi’. Two kasras is ‘bin’.",
+        "One fatḥa is ‘ba’. Two fatḥas is ‘ban’.",
+        "Doubling the mark adds an n. That is the entire rule."
+      ],
+      "items": [
+        {
+          "arabic": "بُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بُ: one ḍamma — bu."
+          }
+        },
+        {
+          "arabic": "بٌ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بٌ: two ḍammas — bun. Doubling the mark added the n."
+          }
+        },
+        {
+          "arabic": "بِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بِ: one kasra — bi."
+          }
+        },
+        {
+          "arabic": "بٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بٍ: two kasras — bin."
+          }
+        },
+        {
+          "arabic": "بَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَ: one fatḥa — ba."
+          }
+        },
+        {
+          "arabic": "بً",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بً: two fatḥas — ban."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The three names, said once",
+      "body": [
+        "ـٌ is ḍammatān — ‘two ḍammas’. It reads -un.",
+        "ـٍ is kasratān — ‘two kasras’. It reads -in.",
+        "ـً is fatḥatān — ‘two fatḥas’. It reads -an.",
+        "Learn the names so you recognise them from a teacher or a book, then use plain English for the rest of the lesson. The names are not the skill; the reading is."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The n you can see, and the n you cannot",
+      "body": [
+        "You have read مِنْ (min — ‘from’) since Unit 1.4. Its n is a written letter.",
+        "بَابٍ (bābin — ‘a door’) ends in exactly the same sound. Its n is a mark.",
+        "Say the pair aloud several times: min … bābin … min … bābin.",
+        "No new sound has been introduced today — only a new way of writing a sound you can already make. Stop looking for the ن."
+      ],
+      "items": [
+        {
+          "arabic": "مِنْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مِنْ: min, ‘from’. The n here is a written letter, closed by a sukūn."
+          }
+        },
+        {
+          "arabic": "بَابٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَابٍ: bābin, ‘a door’. The n here is the second kasra. Same sound, no letter."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The carrying alif is a chair, not a sound",
+      "body": [
+        "Fatḥatān almost always needs something to sit on, so an alif is written after the last letter purely to hold it.",
+        "That alif is silent when you carry on reading. بَابًا read into the next word is bāban, not bābā.",
+        "Two spellings take no extra alif at all: a word ending in tāʾ marbūṭah (the tied ة) — سَاعَةً, sāʿatan — and a word already ending in a hamza on the line after an alif — مَاءً, māʾan.",
+        "You do not need to predict which is which. Recognition only: if you see ـًا, do not lengthen it."
+      ],
+      "items": [
+        {
+          "arabic": "بَابًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَابًا: bāban. Cover the alif with a fingertip — it is a chair for the mark, not a sound."
+          }
+        },
+        {
+          "arabic": "سَاعَةً",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سَاعَةً: sāʿatan, ‘an hour’. Fatḥatān on a tāʾ marbūṭah — no carrying alif needed."
+          }
+        },
+        {
+          "arabic": "مَاءً",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مَاءً: māʾan, ‘water’. The word already ends in a hamza after an alif, so no extra alif is written."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Where tanwīn is allowed — and where today stops",
+      "body": [
+        "Only on nouns and adjectives, and only on the last letter of the word. A verb never takes it.",
+        "Nothing follows a tanwīn inside a word. If you think you have found one in the middle of a word, you have misread a shadda or a plain fatḥa — and both of those are lessons ahead of this one.",
+        "What that unwritten n does to the letter that follows it — sometimes hidden, sometimes hummed, sometimes swapped for an m — is the largest single topic in Unit 3.",
+        "Today the n is a clean, plain n every time. Do not go looking further."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — the same word, three ways",
+      "instructions": "Read across, then down. Say each row three times before moving on. For the first two rows only, point at the mark and say what you see before you say the word — ‘two ḍammas — bābun’. Then stop naming and just read.",
+      "grid": [
+        [
+          {
+            "arabic": "بَابٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَابٌ: two ḍammas — bābun. A door. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "بَابًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَابًا: two fatḥas — bāban. A door. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "بَابٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَابٍ: two kasras — bābin. A door. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قَلَمٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمٌ: two ḍammas — qalamun. A pen. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "قَلَمًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمًا: two fatḥas — qalaman. A pen. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "قَلَمٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمٍ: two kasras — qalamin. A pen. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَلَدٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدٌ: two ḍammas — waladun. A boy. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "وَلَدًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدًا: two fatḥas — waladan. A boy. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "وَلَدٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدٍ: two kasras — waladin. A boy. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَرْسٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسٌ: two ḍammas — darsun. A lesson. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "دَرْسًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسًا: two fatḥas — darsan. A lesson. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "دَرْسٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسٍ: two kasras — darsin. A lesson. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كِتَابٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابٌ: two ḍammas — kitābun. A book. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "كِتَابًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابًا: two fatḥas — kitāban. A book. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "كِتَابٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابٍ: two kasras — kitābin. A book. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سُوقٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُوقٌ: two ḍammas — sūqun. A market. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "سُوقًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُوقًا: two fatḥas — sūqan. A market. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "سُوقٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُوقٍ: two kasras — sūqin. A market. Stop the sound dead on the n."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — written n against unwritten n",
+      "instructions": "Read each pair, left then right, six times. Both halves end in the same sound. If the second half sounds shorter or weaker than the first, you are under-saying the tanwīn.",
+      "grid": [
+        [
+          {
+            "arabic": "مِنْ … بَابٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِنْ … بَابٍ: min … bābin. Written n, then unwritten n. Identical sound."
+            }
+          },
+          {
+            "arabic": "عَنْ … قَلَمٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَنْ … قَلَمٍ: ʿan … qalamin. Written n, then unwritten n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كُنْ … وَلَدًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كُنْ … وَلَدًا: kun … waladan. Written n, then unwritten n on a fatḥatān."
+            }
+          },
+          {
+            "arabic": "إِنْ … دَرْسٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِنْ … دَرْسٌ: in … darsun. Written n, then unwritten n on a ḍammatān."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — the silent alif, stopped",
+      "instructions": "Read these and stop your voice cleanly on the n. Nothing comes after it — the alif you can see is not a sound.",
+      "grid": [
+        [
+          {
+            "arabic": "كِتَابًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابًا: two fatḥas — kitāban. A book. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "قَلَمًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمًا: two fatḥas — qalaman. A pen. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "وَلَدًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدًا: two fatḥas — waladan. A boy. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَرْسًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسًا: two fatḥas — darsan. A lesson. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "جَبَلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَبَلًا: two fatḥas — jabalan. A mountain. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "عَمَلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَمَلًا: two fatḥas — ʿamalan. A deed. Stop the sound dead on the n."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3b — the silent alif, running on",
+      "instructions": "Now read the same shape with a word after it, so you can feel the n run straight into the next word. One breath per phrase.",
+      "grid": [
+        [
+          {
+            "arabic": "كِتَابًا جَدِيدًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابًا جَدِيدًا: kitāban jadīdan, ‘a new book’. The n of the first word touches the j of the second — no gap, no stretched alif."
+            }
+          },
+          {
+            "arabic": "قَلَمًا جَمِيلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمًا جَمِيلًا: qalaman jamīlan, ‘a beautiful pen’. Run the n straight on."
+            }
+          },
+          {
+            "arabic": "وَلَدًا صَغِيرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدًا صَغِيرًا: waladan ṣaghīran, ‘a small boy’. Run the n straight on."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — the no-alif spellings",
+      "instructions": "These carry fatḥatān with no alif at all. They sound exactly like the ones in Drill 3 — end each on a clean n.",
+      "grid": [
+        [
+          {
+            "arabic": "سَاعَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَاعَةً: two fatḥas — sāʿatan. An hour. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "مَدِينَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَدِينَةً: two fatḥas — madīnatan. A city. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "مَاءً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَاءً: two fatḥas — māʾan. Water. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "دُعَاءً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دُعَاءً: two fatḥas — duʿāʾan. A supplication. Stop the sound dead on the n."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — shuffled cold read",
+      "instructions": "Twenty words, no cue as to which mark is coming. Read down the column at a steady pace. Accuracy first, then speed — aim for about one word every two seconds.",
+      "grid": [
+        [
+          {
+            "arabic": "سَلَامٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَلَامٌ: two ḍammas — salāmun. Peace. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "جَبَلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَبَلٍ: two kasras — jabalin. A mountain. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "بَيْتًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَيْتًا: two fatḥas — baytan. A house. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "رَجُلٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَجُلٌ: two ḍammas — rajulun. A man. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "طَرِيقٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَرِيقٍ: two kasras — ṭarīqin. A road. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كِتَابًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابًا: two fatḥas — kitāban. A book. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "شَجَرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَجَرَةٌ: two ḍammas — shajaratun. A tree. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "قَمَرٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَمَرٍ: two kasras — qamarin. A moon. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "بَحْرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَحْرًا: two fatḥas — baḥran. A sea. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "عَمَلٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَمَلٌ: two ḍammas — ʿamalun. A deed. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِفْتَاحٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِفْتَاحٍ: two kasras — miftāḥin. A key. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "وَرَقَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَرَقَةً: two fatḥas — waraqatan. A sheet of paper. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "دَرْسًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسًا: two fatḥas — darsan. A lesson. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "صَدِيقٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَدِيقٌ: two ḍammas — ṣadīqun. A friend. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "سُوقٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُوقٍ: two kasras — sūqin. A market. Stop the sound dead on the n."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَهْرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَهْرًا: two fatḥas — nahran. A river. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "حَدِيقَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَدِيقَةٌ: two ḍammas — ḥadīqatun. A garden. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "قَلَمٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمٍ: two kasras — qalamin. A pen. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "بَابًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَابًا: two fatḥas — bāban. A door. Stop the sound dead on the n."
+            }
+          },
+          {
+            "arabic": "مَطَرٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَطَرٌ: two ḍammas — maṭarun. Rain. Stop the sound dead on the n."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Five real anchors — read them, do not analyse them",
+      "body": [
+        "Everything else in this lesson is ordinary Arabic vocabulary, deliberately: you need volume and shuffling today more than you need reverence.",
+        "These five are from the Qurʾān, one for each mark. Read them straight through."
+      ],
+      "items": [
+        {
+          "arabic": "أَحَدٌ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَحَدٌ (112:1): ḍammatān — aḥadun. Two ḍammas, one unwritten n."
+          }
+        },
+        {
+          "arabic": "لَهَبٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لَهَبٍ (111:1): kasratān — lahabin."
+          }
+        },
+        {
+          "arabic": "سِجِّيلٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سِجِّيلٍ (105:4): kasratān — sijjīlin."
+          }
+        },
+        {
+          "arabic": "يُسْرًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يُسْرًا (94:5): fatḥatān on a carrying alif — yusran. The alif is silent when you continue."
+          }
+        },
+        {
+          "arabic": "ثَجَّاجًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ثَجَّاجًا (78:14): fatḥatān, same carrying alif — thajjājan."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — three marks, one sound",
+      "items": [
+        {
+          "arabic": "بٌ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بٌ: two ḍammas — bun."
+          }
+        },
+        {
+          "arabic": "بً",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بً: two fatḥas — ban."
+          }
+        },
+        {
+          "arabic": "بٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بٍ: two kasras — bin."
+          }
+        },
+        {
+          "arabic": "بَابٌ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَابٌ: bābun."
+          }
+        },
+        {
+          "arabic": "بَابًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَابًا: bāban — the alif is silent."
+          }
+        },
+        {
+          "arabic": "بَابٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَابٍ: bābin."
+          }
+        },
+        {
+          "arabic": "مِنْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مِنْ: min. The written n, for comparison — it sounds no different."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Three minutes — the marks alone. Write ـٌ ـً ـٍ on a scrap of paper and say the sound of each, in a shuffled order, until you never hesitate.",
+        "Five minutes — Drill 1 aloud, all six rows read across. Record thirty seconds of it on your phone, play it back, and check every word ends in an audible n.",
+        "Five minutes — Drill 5 cold read. Time yourself on the second run only; do not chase the clock before day three.",
+        "Three minutes — Drill 3, the silent alif. Put a fingertip over each carrying alif as you read.",
+        "Write four words. Copy any four words from Drill 5 by hand and put a different tanwīn on each one — writing the mark is what stops you confusing ـً with a plain fatḥa.",
+        "Bring to the next session: the one word from Drill 5 you got wrong most often, and whether the error was the n or the alif."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — the same word, three ways",
+        "instructions": "Read across, then down. Three times per row. Name the mark aloud on the first two rows only, then just read.",
+        "grid": [
+          [
+            {
+              "arabic": "بَابٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَابٌ: two ḍammas — bābun. A door. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "بَابًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَابًا: two fatḥas — bāban. A door. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "بَابٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَابٍ: two kasras — bābin. A door. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قَلَمٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمٌ: two ḍammas — qalamun. A pen. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "قَلَمًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمًا: two fatḥas — qalaman. A pen. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "قَلَمٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمٍ: two kasras — qalamin. A pen. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَلَدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدٌ: two ḍammas — waladun. A boy. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "وَلَدًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدًا: two fatḥas — waladan. A boy. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "وَلَدٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدٍ: two kasras — waladin. A boy. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دَرْسٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسٌ: two ḍammas — darsun. A lesson. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "دَرْسًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسًا: two fatḥas — darsan. A lesson. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "دَرْسٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسٍ: two kasras — darsin. A lesson. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كِتَابٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابٌ: two ḍammas — kitābun. A book. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "كِتَابًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابًا: two fatḥas — kitāban. A book. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "كِتَابٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابٍ: two kasras — kitābin. A book. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سُوقٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُوقٌ: two ḍammas — sūqun. A market. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "سُوقًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُوقًا: two fatḥas — sūqan. A market. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "سُوقٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُوقٍ: two kasras — sūqin. A market. Stop the sound dead on the n."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — written n against unwritten n",
+        "instructions": "Read each pair left then right, six times. If the second half is weaker than the first, you are under-saying the tanwīn.",
+        "grid": [
+          [
+            {
+              "arabic": "مِنْ … بَابٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِنْ … بَابٍ: min … bābin."
+              }
+            },
+            {
+              "arabic": "عَنْ … قَلَمٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَنْ … قَلَمٍ: ʿan … qalamin."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كُنْ … وَلَدًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كُنْ … وَلَدًا: kun … waladan."
+              }
+            },
+            {
+              "arabic": "إِنْ … دَرْسٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "إِنْ … دَرْسٌ: in … darsun."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — the silent alif",
+        "instructions": "Stop your voice cleanly on the n. Then read the three running phrases in one breath each.",
+        "grid": [
+          [
+            {
+              "arabic": "كِتَابًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابًا: two fatḥas — kitāban. A book. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "قَلَمًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمًا: two fatḥas — qalaman. A pen. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "وَلَدًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدًا: two fatḥas — waladan. A boy. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "دَرْسًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسًا: two fatḥas — darsan. A lesson. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "جَبَلًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَبَلًا: two fatḥas — jabalan. A mountain. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "عَمَلًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَمَلًا: two fatḥas — ʿamalan. A deed. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كِتَابًا جَدِيدًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابًا جَدِيدًا: kitāban jadīdan, ‘a new book’."
+              }
+            },
+            {
+              "arabic": "قَلَمًا جَمِيلًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمًا جَمِيلًا: qalaman jamīlan, ‘a beautiful pen’."
+              }
+            },
+            {
+              "arabic": "وَلَدًا صَغِيرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدًا صَغِيرًا: waladan ṣaghīran, ‘a small boy’."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — the no-alif spellings",
+        "instructions": "Fatḥatān with no carrying alif. Same ending sound as Drill 3.",
+        "grid": [
+          [
+            {
+              "arabic": "سَاعَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَاعَةً: two fatḥas — sāʿatan. An hour. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "مَدِينَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَدِينَةً: two fatḥas — madīnatan. A city. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "مَاءً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَاءً: two fatḥas — māʾan. Water. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "دُعَاءً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دُعَاءً: two fatḥas — duʿāʾan. A supplication. Stop the sound dead on the n."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — shuffled cold read",
+        "instructions": "Twenty words, no cue. Steady pace, accuracy before speed.",
+        "grid": [
+          [
+            {
+              "arabic": "سَلَامٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَلَامٌ: two ḍammas — salāmun. Peace. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "جَبَلٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَبَلٍ: two kasras — jabalin. A mountain. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "بَيْتًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَيْتًا: two fatḥas — baytan. A house. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "رَجُلٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَجُلٌ: two ḍammas — rajulun. A man. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "طَرِيقٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَرِيقٍ: two kasras — ṭarīqin. A road. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كِتَابًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابًا: two fatḥas — kitāban. A book. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "شَجَرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَجَرَةٌ: two ḍammas — shajaratun. A tree. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "قَمَرٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَمَرٍ: two kasras — qamarin. A moon. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "بَحْرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَحْرًا: two fatḥas — baḥran. A sea. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "عَمَلٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَمَلٌ: two ḍammas — ʿamalun. A deed. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مِفْتَاحٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِفْتَاحٍ: two kasras — miftāḥin. A key. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "وَرَقَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَرَقَةً: two fatḥas — waraqatan. A sheet of paper. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "دَرْسًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسًا: two fatḥas — darsan. A lesson. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "صَدِيقٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَدِيقٌ: two ḍammas — ṣadīqun. A friend. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "سُوقٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُوقٍ: two kasras — sūqin. A market. Stop the sound dead on the n."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَهْرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَهْرًا: two fatḥas — nahran. A river. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "حَدِيقَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَدِيقَةٌ: two ḍammas — ḥadīqatun. A garden. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "قَلَمٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمٍ: two kasras — qalamin. A pen. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "بَابًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَابًا: two fatḥas — bāban. A door. Stop the sound dead on the n."
+              }
+            },
+            {
+              "arabic": "مَطَرٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَطَرٌ: two ḍammas — maṭarun. Rain. Stop the sound dead on the n."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Three minutes on the marks alone — ـٌ ـً ـٍ shuffled, until there is no hesitation",
+      "Drill 1 aloud, all six rows across; record thirty seconds and check every word ends in an audible n",
+      "Drill 5 cold read, timed on the second run only",
+      "Drill 3 with a fingertip over each carrying alif",
+      "Copy four words from Drill 5 by hand, putting a different tanwīn on each"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Lead with the error, out loud, before you define anything. Ask her to read كِتَابًا. Say the wrong version deliberately — ki-taa-baa — then the right one — kitāban — and ask which one has an n in it. Only then show the mark.",
+      "Anchor on the shape, not the name. Write بُ, then بٌ, and ask what changed. She will say ‘there are two now’. Confirm it, supply the sound, and repeat for kasra and fatḥa. Doubling the mark adds an n; that is the entire rule and it takes ninety seconds.",
+      "Give the names — ḍammatān, fatḥatān, kasratān — once, so she recognises them from a teacher or a book, then drop them and use plain English for the rest of the lesson.",
+      "Kill the missing-nūn hunt immediately. Write مِنْ and بَابٍ side by side and say the pair aloud several times: min … bābin … min … bābin. She must hear that no new sound has been introduced today.",
+      "Give the carrying alif a whole step of its own. Write بَابًا, cover the alif with a fingertip, and have her read it again. Mention the two no-alif spellings — سَاعَةً and مَاءً — as recognition only; she does not need to predict which is which.",
+      "State where tanwīn is allowed: nouns and adjectives, last letter only, never a verb, nothing after it inside a word.",
+      "Flag forward, then close the door. What the unwritten n does to the following letter is the largest topic in Unit 3. Say the sentence, do not demonstrate it, and do not answer the follow-up beyond ‘Unit 3’.",
+      "Gate for the teacher: do not start lesson 2-02 in the same session if the carrying alif is still being lengthened. Drill 3 is the pass condition — six clean -an endings in a row, twice."
+    ],
+    "listenFor": [
+      {
+        "item": "The n of any tanwīn, produced without a written ن on the page",
+        "commonMistake": "Hunting for a nūn — a half-second stall at the end of the word, eyes moving back over the last letter, then the word restarted.",
+        "whyItHappens": "Every previous lesson taught one sound per letter. Tanwīn is the first sound in the course with no letter of its own, so she is doing exactly what she was trained to do.",
+        "correctionCue": "‘The n is in the mark, not in a letter. Two of anything means n.’",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-01-Tanwin.md"
+      },
+      {
+        "item": "The carrying alif under a fatḥatān, silent when reading on — kitāban, not kitābā",
+        "commonMistake": "An open ā at the end of the word with no consonant closing it.",
+        "whyItHappens": "Alif has meant ‘long a’ in every word she has read so far. This is the first time it means nothing.",
+        "correctionCue": "‘That alif is a chair for the mark to sit on. Close the word with an n.’ Cover the alif with a fingertip and have her read the word again.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-01-Tanwin.md"
+      },
+      {
+        "item": "The n held to full strength through a long column",
+        "commonMistake": "Under-saying the n until it disappears — bābu instead of bābun, especially by the third or fourth word of a column.",
+        "whyItHappens": "Nothing on the page enforces it, so it is the first thing to be dropped once concentration slips.",
+        "correctionCue": "‘I heard bābu. Where did the n go?’ Then re-run the مِنْ / بَابٍ pair from Drill 2 — hearing the written n next to the unwritten one restores it faster than any explanation.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-01-Tanwin.md"
+      },
+      {
+        "item": "The word stopping dead on the n, with no vowel after it",
+        "commonMistake": "Adding a vowel after the n — bābuna. An extra beat at the end of the word; a two-syllable ending where there should be one.",
+        "whyItHappens": "The same reflex that puts a helper vowel after a sukūn, diagnosed in lesson 1-13. It is one habit, not two.",
+        "correctionCue": "‘Stop the sound dead on the n.’ Clap on the stop and have her land on your clap — the same diagnostic she already knows from sukūn.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-01-Tanwin.md"
+      },
+      {
+        "item": "Fatḥatān read as -an, not -am and not a bare -a",
+        "commonMistake": "A lip closure at the end of the word, or no consonant at all.",
+        "whyItHappens": "Fatḥatān is the least visually distinct of the three, and it is the only one with an extra letter next to it — so it gets guessed at.",
+        "correctionCue": "‘All three tanwīns end in the same letter sound. Only the vowel before it changes.’",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-01-Tanwin.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Three minutes on the marks alone (ـٌ ـً ـٍ shuffled until there is no hesitation). Five minutes on Drill 1 read across, with thirty seconds recorded and played back to check every word ends in an audible n. Five minutes on the Drill 5 cold read, timed on the second run only and not chasing the clock before day three. Three minutes on Drill 3 with a fingertip over each carrying alif. Then copy four words from Drill 5 by hand, putting a different tanwīn on each — writing the mark is what stops her confusing ـً with a plain fatḥa. She brings back the word she got wrong most often and whether the error was the n or the alif."
+  },
+  "videos": []
+}
