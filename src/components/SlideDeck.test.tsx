@@ -3,10 +3,12 @@ import userEvent from "@testing-library/user-event";
 import { describe, expect, test, vi } from "vitest";
 import { SlideDeck } from "./SlideDeck";
 import type { Slide } from "@/content/schema";
+import surah111 from "@/generated/verses/111.json";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
 
 const title = "T";
+const masad1 = surah111.find((v) => v.ayah === 1)!;
 const slides: Slide[] = [
   { kind: "title", heading: "First slide" },
   { kind: "concept", heading: "Second slide", body: ["point one"] },
@@ -76,6 +78,99 @@ describe("SlideDeck", () => {
     render(<SlideDeck title={title} slides={slides} />);
     await userEvent.keyboard("{ArrowRight}{ArrowRight}");
     expect(screen.getAllByText("ba")).toHaveLength(1);
+  });
+});
+
+describe("SlideDeck tajweed slide kinds", () => {
+  test("renders a rule slide with its condition and letters", () => {
+    const slide: Slide = {
+      kind: "rule",
+      ruleId: "ikhfa",
+      heading: "Ikhfāʾ Ḥaqīqī",
+      condition: "nūn sākinah or tanwīn followed by one of 15 letters",
+      letters: ["ص", "ذ"],
+      harakat: 2,
+      mnemonic: "صِفْ ذَا ثَنَا",
+      body: ["Conceal the nūn — do not say it fully, do not merge it away."],
+    };
+    render(<SlideDeck title={title} slides={[slide]} />);
+    expect(screen.getByText("Ikhfāʾ Ḥaqīqī")).toBeTruthy();
+    expect(screen.getByText(/one of 15 letters/)).toBeTruthy();
+    expect(screen.getByText("ص")).toBeTruthy();
+    expect(screen.getByText("ذ")).toBeTruthy();
+    expect(screen.getByText(/2 ḥarakāt/)).toBeTruthy();
+    expect(screen.getByText("صِفْ ذَا ثَنَا")).toBeTruthy();
+    expect(screen.getByText(/Conceal the nūn/)).toBeTruthy();
+  });
+
+  test("renders an ayah slide as coloured tajweed text", () => {
+    const slide: Slide = {
+      kind: "ayah",
+      surah: 111,
+      ayah: 1,
+      translation: "May the hands of Abū Lahab perish",
+    };
+    const { container } = render(<SlideDeck title={title} slides={[slide]} />);
+    // al-Masad 111:1 is real generated data: three spans — madd munfaṣil,
+    // idghām bi-ghunnah, qalqalah.
+    expect(screen.getByText(/111\s*:\s*1/)).toBeTruthy();
+    expect(container.textContent).toContain(masad1.text);
+    expect(container.textContent).toContain("لَهَبٍ");
+    const painted = container.querySelector(".tajweed-text")!.querySelectorAll("[data-rule]");
+    expect(painted).toHaveLength(3);
+    expect(screen.getByText(/May the hands of Abū Lahab perish/)).toBeTruthy();
+  });
+
+  test("renders an ayah slide without generated spans as plain text, not a crash", () => {
+    // Surah 2 is outside the imported hifz set — the slide must still render.
+    const slide: Slide = { kind: "ayah", surah: 2, ayah: 97, translation: "…" };
+    const { container } = render(<SlideDeck title={title} slides={[slide]} />);
+    expect(screen.getByText(/2\s*:\s*97/)).toBeTruthy();
+    expect(container.querySelectorAll("[data-rule]")).toHaveLength(0);
+  });
+
+  test("renders a contrast slide with both members of the pair", () => {
+    const slide: Slide = {
+      kind: "contrast",
+      heading: "Ikhfāʾ vs Idghām",
+      pairs: [
+        { surah: 106, ayah: 4, text: "مِّن جُوعٍ", rule: "ikhfa", note: "the jīm conceals the nūn" },
+        { surah: 2, ayah: 5, text: "مَن يَقُولُ", rule: "idghaam_ghunnah", note: "the yāʾ swallows the nūn" },
+      ],
+    };
+    render(<SlideDeck title={title} slides={[slide]} />);
+    expect(screen.getByText("Ikhfāʾ vs Idghām")).toBeTruthy();
+    expect(screen.getByText("مِّن جُوعٍ")).toBeTruthy();
+    expect(screen.getByText("مَن يَقُولُ")).toBeTruthy();
+    expect(screen.getByText(/the jīm conceals the nūn/)).toBeTruthy();
+    expect(screen.getByText(/the yāʾ swallows the nūn/)).toBeTruthy();
+    expect(screen.getByText("Ikhfāʾ")).toBeTruthy();
+    expect(screen.getByText("Idghām bi-Ghunnah")).toBeTruthy();
+    expect(screen.getByText(/106\s*:\s*4/)).toBeTruthy();
+  });
+
+  test("renders a legend slide listing the rules", () => {
+    const slide: Slide = { kind: "legend", heading: "What the colours mean", rules: ["ikhfa", "qalqalah"] };
+    const { container } = render(<SlideDeck title={title} slides={[slide]} />);
+    expect(screen.getByText("What the colours mean")).toBeTruthy();
+    expect(screen.getByText("Ikhfāʾ")).toBeTruthy();
+    expect(screen.getByText("Qalqalah")).toBeTruthy();
+    expect(container.querySelectorAll(".rule-legend [data-rule]")).toHaveLength(2);
+  });
+
+  test("renders a mistake slide with wrong/why/fix", () => {
+    const slide: Slide = {
+      kind: "mistake",
+      heading: "Three mistakes with ghunnah",
+      mistakes: [
+        { wrong: "No nasal resonance", why: "the nose is not engaged", fix: "pinch your nose — the sound must stop" },
+      ],
+    };
+    render(<SlideDeck title={title} slides={[slide]} />);
+    expect(screen.getByText("Three mistakes with ghunnah")).toBeTruthy();
+    expect(screen.getByText(/No nasal resonance/)).toBeTruthy();
+    expect(screen.getByText(/the nose is not engaged/)).toBeTruthy();
+    expect(screen.getByText(/pinch your nose/)).toBeTruthy();
   });
 });
 
