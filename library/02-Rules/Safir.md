@@ -6,7 +6,7 @@ translit: aṣ-Ṣafīr
 english: Whistling — a sharp high hiss escapes with the letter
 family: sifat
 letters: [ص, ز, س]
-taught_in: "3-05"
+taught_in: "3-06"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

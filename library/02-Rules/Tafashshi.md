@@ -6,7 +6,7 @@ translit: at-Tafashshī
 english: Spreading — the breath spreads wide inside the mouth
 family: sifat
 letters: [ش]
-taught_in: "3-06"
+taught_in: "3-07"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

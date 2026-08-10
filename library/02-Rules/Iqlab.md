@@ -9,7 +9,7 @@ cpfair_key: iqlab
 colour_b: "#26BFFD"
 harakat: 2
 letters: [ب]
-taught_in: "3-22"
+taught_in: "3-23"
 prerequisites: [ghunnah]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

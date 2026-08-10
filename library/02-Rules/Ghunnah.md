@@ -9,7 +9,7 @@ cpfair_key: ghunnah
 colour_b: "#FF7E1E"
 harakat: 2
 letters: [نّ, مّ]
-taught_in: "3-14"
+taught_in: "3-15"
 prerequisites: []
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

@@ -9,7 +9,7 @@ cpfair_key: idghaam_shafawi
 colour_b: "#58B800"
 harakat: 2
 letters: [م]
-taught_in: "3-16"
+taught_in: "3-17"
 prerequisites: [ghunnah]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

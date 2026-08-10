@@ -114,7 +114,7 @@ Name the payoff plainly. Everything in Unit 3 — heaviness, the bounce, the rā
    Four things to say out loud while you build this table, because each of them is a downstream rule in disguise:
 
    - **Points 1 and 2 are the ق/ك pair,** and they are one notch apart. Soft palate, then hard palate. If she cannot separate them, everything about ق being heavy and ك being light is unteachable.
-   - **Point 4 is ض, alone, on the side of the tongue.** It is the only makhraj in the language that uses the tongue's *edge* rather than its tip, back or middle. Lesson 3-07 is about this one point. Flag it now and move on.
+   - **Point 4 is ض, alone, on the side of the tongue.** It is the only makhraj in the language that uses the tongue's *edge* rather than its tip, back or middle. Lesson 3-08 is about this one point. Flag it now and move on.
    - **Points 5, 6, 7 — ل, ن, ر — are three neighbours,** and they are the letters that will misbehave for the rest of the course. ل is a wide edge-contact, ن is the tip a hair below it, ر is the *back* of the tip a hair deeper still. Have her say لْ · نْ · رْ and feel the contact walk backwards.
    - **Points 8, 9, 10 are three rows of teeth,** and each row holds a heavy letter beside its light twin: ط with د/ت, ص with س/ز, ظ with ذ/ث. That is not a coincidence and it is the whole architecture of lesson 3-03. Say so.
 
@@ -128,7 +128,7 @@ Name the payoff plainly. Everything in Unit 3 — heaviness, the bounce, the rā
    The distinction to drill is ب / م / و as three different *degrees of lip closure*, not three unrelated letters. Firm, light, open. Have her make all three in a row with her eyes shut and a hand on her lips.
 
 7. **Zone 5 — al-khayshūm, one makhraj, no letters of its own.**
-   The nasal passage produces **ghunnah** (غُنَّة, "nasal hum") — the sound that comes out of ن and م, not the letters themselves. This is the zone she will meet properly in lesson 3-14 and it is the reason she has been pinching her nose since lesson 2-05.
+   The nasal passage produces **ghunnah** (غُنَّة, "nasal hum") — the sound that comes out of ن and م, not the letters themselves. This is the zone she will meet properly in lesson 3-15 and it is the reason she has been pinching her nose since lesson 2-05.
    Say it exactly this way: **ن and م have two addresses.** The closure is in the mouth; the sound is in the nose. Pinch and prove it on ٱلنَّاسِ.
 
 8. **Close by mapping one word, not by reviewing the table.**
@@ -145,7 +145,7 @@ Name the payoff plainly. Everything in Unit 3 — heaviness, the bounce, the rā
 | ٱلصِّرَٰطَ | 1:6 | tongue points **9 → 7 → 8**, three neighbours in a row |
 | بِأَصْحَٰبِ | 105:1 | lips → throat → tongue → throat → jawf → lips |
 
-**Teacher note on ٱلصِّرَٰطَ.** This is the best single word in the Qur'an for this lesson. The ص, ر and ط are made at three *adjacent* points on the tongue — teeth-gap, back-of-tip, tooth-roots — so the tongue has to make three precise, small, forward-and-back moves in one syllable-and-a-half. A student who slurs this word is not being careless; she is failing to distinguish three neighbouring addresses. It comes back in 3-03, 3-06 and 3-09.
+**Teacher note on ٱلصِّرَٰطَ.** This is the best single word in the Qur'an for this lesson. The ص, ر and ط are made at three *adjacent* points on the tongue — teeth-gap, back-of-tip, tooth-roots — so the tongue has to make three precise, small, forward-and-back moves in one syllable-and-a-half. A student who slurs this word is not being careless; she is failing to distinguish three neighbouring addresses. It comes back in 3-03, 3-07 and 3-10.
 
 **Teacher note on بِرَبِّ ٱلنَّاسِ.** She has been saying this in every prayer of refuge she has ever made. Use it to show that the nose zone is not exotic: the نّ of ٱلنَّاسِ is two counts of pure khayshūm with the tongue merely holding the door shut.
 
@@ -206,7 +206,7 @@ Now down the columns instead: طْ صْ ظْ (all heavy) · دْ زْ ذْ (all 
 **3. ض made with the tip of the tongue.**
 - *Listen for:* a heavy د. Ask her to hold the ض for two seconds; a tip-made ض stops dead, a correct one continues.
 - *Why it happens:* every other tongue letter she knows uses the tip, back or middle. The side-edge is a motion her mouth has never been asked for.
-- *Correction cue:* "Not the tip — the side. Push the side of your tongue out into your back teeth." Full treatment in 3-07; today, just name it.
+- *Correction cue:* "Not the tip — the side. Push the side of your tongue out into your back teeth." Full treatment in 3-08; today, just name it.
 
 **4. ل, ن and ر collapsing into one contact point.**
 - *Listen for:* an ر that sounds like a flap of the same ن she just made, or a ل and ن you cannot tell apart with your eyes shut.

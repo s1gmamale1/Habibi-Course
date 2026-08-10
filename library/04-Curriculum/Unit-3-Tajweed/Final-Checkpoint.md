@@ -244,7 +244,7 @@ carrying several families at once:
 > **1:7 remains the recommended item** — it carries four families in one line, which is what the
 > recommendation is for. But **a munfaṣil item must be supplied separately.** Use
 > **إِنَّآ أَعْطَيْنَٰكَ** (108:1): it is a clean munfaṣil, it is coloured in every palette, and
-> she has held it in memory since lesson 3-27.
+> she has held it in memory since lesson 3-28.
 >
 > This note has not edited [[Assessment]]; the correction is recorded here and in
 > [[Verification-Log]] for the owner to apply at the source.
@@ -283,20 +283,20 @@ Read down the column totals; each names its own remedy.
 | lām shamsiyyah / qamariyyah / jalālah | Unit 3.3 | Tests 1, 3 |
 | rāʾ tafkhīm / tarqīq | Unit 3.4 | Tests 1, 3 |
 | qalqalah | Unit 3.5 | Tests 1, 4 |
-| madd 2 | 3-27 | Test 1 |
-| madd muttaṣil | 3-28 | Tests 1, 3 |
-| madd munfaṣil | 3-29 | Tests 1, 3 |
-| madd ʿāriḍ — **length** | 3-30 §3 | Test 1 |
-| madd ʿāriḍ — **consistency** | 3-30 §3, 3-32 Drill 3 | Test 1 |
-| madd lāzim | 3-31 | Tests 1, 3 |
-| waqf placement, or a qabīḥ stop | 3-33 §5–6 | Tests 1, 2 |
-| waqf word-changes, tāʾ marbūṭah | 3-34 §1, §3 | Test 1 |
-| hamzat waṣl — pronounced when joining | 3-35 §1 | Test 1 |
-| hamzat waṣl — wrong starting vowel | 3-35 §2 | Tests 1, 2 |
-| silent letters | 3-35 §4 | Test 1 |
-| reading the legend | 3-35 §6 | Test 4 |
+| madd 2 | 3-28 | Test 1 |
+| madd muttaṣil | 3-29 | Tests 1, 3 |
+| madd munfaṣil | 3-30 | Tests 1, 3 |
+| madd ʿāriḍ — **length** | 3-31 §3 | Test 1 |
+| madd ʿāriḍ — **consistency** | 3-31 §3, 3-33 Drill 3 | Test 1 |
+| madd lāzim | 3-32 | Tests 1, 3 |
+| waqf placement, or a qabīḥ stop | 3-34 §5–6 | Tests 1, 2 |
+| waqf word-changes, tāʾ marbūṭah | 3-35 §1, §3 | Test 1 |
+| hamzat waṣl — pronounced when joining | 3-36 §1 | Test 1 |
+| hamzat waṣl — wrong starting vowel | 3-36 §2 | Tests 1, 2 |
+| silent letters | 3-36 §4 | Test 1 |
+| reading the legend | 3-36 §6 | Test 4 |
 | memorisation fidelity (per surah) | [[Hifz-Method]] repetition protocol on that surah | Test 2, that surah only |
-| pace, endurance across a page | 2-14, 3-36 Drill 2 | Test 1 |
+| pace, endurance across a page | 2-14, 3-37 Drill 2 | Test 1 |
 
 ## 7. What this result is and is not evidence of
 

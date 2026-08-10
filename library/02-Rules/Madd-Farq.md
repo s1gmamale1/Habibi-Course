@@ -7,7 +7,7 @@ english: Prolongation of Differentiation
 family: madd
 colour_b: "#000EBC"
 harakat: 6
-taught_in: "3-13"
+taught_in: "3-14"
 prerequisites: [madd_lazim, hamzat_wasl]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

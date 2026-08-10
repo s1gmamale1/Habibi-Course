@@ -5,7 +5,7 @@ arabic: تَفْخِيمُ الرَّاء
 translit: Tafkhīm ar-Rāʾ
 english: Heavy rā'
 family: ra
-taught_in: "3-09"
+taught_in: "3-10"
 prerequisites: [tafkhim, tarqiq]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
