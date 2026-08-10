@@ -149,6 +149,9 @@ fatḥ — أَفْوَاجًا → *afwājā* — but look at the page: **the a
 She is not adding anything; she is reading what is written, now that the tanwīn above it
 has gone quiet. That framing costs ten seconds and saves a rule.
 
+**In plain terms:** stop on a word and its last vowel just falls off. The printed mark is
+for carrying on — when you stop, you end on the bare letter.
+
 #### Two — ة becomes a silent hāʾ
 
 The tāʾ marbūṭah **ة** is read as a **تـ** when you join, and as a **هْ** when you stop.

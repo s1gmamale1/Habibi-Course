@@ -73,6 +73,8 @@ Arabic vocabulary reached Uzbek largely through Persian, which had already flatt
 
    *Match* is the whole test. The mouth is already in position from the vowel, and the letter simply holds it. Have her say *a—* and then *ā*; the second is the first, continued.
 
+   **In plain terms:** the letter stretches the vowel that is already there. Your mouth does not move — it just stays put for longer.
+
 2. **The alif is the easy one — say why, then move on.** An alif is *always* sākin and is *always* preceded by a fatḥa. It has no other job. There is no alif in Arabic that is not a lengthening, once you set aside the alif that carries a hamza (أ, إ) — which she has been reading as a hamza-seat since lesson 1-13, not as a letter.
 
 3. **و and ي are the ones that need a decision, and this is the core of the lesson.** Both are consonants half the time:
@@ -87,6 +89,8 @@ Arabic vocabulary reached Uzbek largely through Persian, which had already flatt
    - A short vowel is one tap. The long one is exactly double, not "a bit more".
    - **Set the tempo before the word, not during it.** A count decided mid-vowel is always short.
 
+   **In plain terms:** a count is one finger-tap. The long vowel gets two — exactly twice the short one, not "a bit longer".
+
 5. **The dagger alif, because the mushaf is full of it.** A miniature vertical stroke above a letter — **ٰ** — is a full alif that simply was not written out: ٱلرَّحْمَٰنِ is *ar-Raḥmān*, هَٰذَا is *hādhā*. Two counts, exactly like a written alif. Show her three on a real page. Students who miss this read *ar-Raḥman* with a short *a* for years.
 
 6. **The small circle, in one minute.** A tiny circle above a letter — most often on the alif of ءَامَنُوا۟ or a wāw — means **do not pronounce this letter at all**. It is a spelling leftover. See [[Silent-Letters]]. Recognition only.
@@ -94,7 +98,10 @@ Arabic vocabulary reached Uzbek largely through Persian, which had already flatt
 7. **Now the two boundaries, and be very clear about both.**
 
    **Boundary one — و and ي after a fatḥa are NOT madd letters.** خَوْف, بَيْت, ٱلصَّيْف. The vowel does not match the letter, so the condition fails. These are the **leen letters** — see [[Leen]] and [[Madd-Leen]] — and they have their own behaviour, which is **the subject of lesson 2-08, the next lesson.**
+
    > **Teacher: do not teach leen today.** Today's instruction to the student is one sentence and no more: *"When you see a و or ي with a sukūn after a fatḥa, read it soft and short and do not stretch it. What it does when you stop on it is the next lesson."* This lesson owns identifying them; **2-08 owns treating them.**
+
+   **In plain terms:** a fatḥa in front does not match a و or a ي, so nothing stretches. *Bayt* and *khawf* are short — say them the way they look.
 
    **Boundary two — some madds are longer than two.** When a hamza or a sukūn comes right after a madd letter, it stretches — four, five or six counts. ٱلشِّتَآءِ has one. ٱلضَّآلِّينَ from lesson 1-14 has the longest of them. The rules are [[Madd-Muttasil]] and [[Madd-Lazim]] and they are **Unit 3**. Today: **if the mushaf prints the extra sign (ـٓ) over the madd, hold it longer and copy the reciter. Otherwise, two.** That is an honest working rule for a Unit 2 reader and it is what she will actually do at the muṣḥaf this month.
 

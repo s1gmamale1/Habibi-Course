@@ -123,6 +123,7 @@ structural facts came out clean and are worth recording as verified:
 | 2026-08-11 | noon quartet partitions | counted the letters of the four noon-sākinah rules | iẓhār 6 + idghām 4 + idghām bilā ghunnah 2 + iqlāb 1 + ikhfāʾ 15 = **28 exactly**, no letter in two rules and none missing |
 | 2026-08-11 | dangling back-references | every wikilinked rule followed by "from N-NN" in a lesson body, checked against that lesson's `teaches[]` and body | **One found.** `3-33` told the student that sakt came "from 3-24", twice; `3-24` contained no mention of sakt. Fixed by teaching it — see below |
 | 2026-08-11 | lesson heading vs id | every `# Lesson N` compared numerically to its frontmatter `id` | **10 mismatches.** The Unit 3 renumber matched the hyphenated `3-27`; these were written `Lesson 3.27` and survived it, leaving files whose heading and id named different lessons. Now a gate check |
+| 2026-08-11 | plain-language landing, published lessons | every lesson id in `content/course.json`, checked for a landing marker in its teaching sequence | **All 29 pass.** Unit 2 went live with 0 of 14 and now carries 27 landings across the unit. Gate proved in both directions: stripping the markers from `2-12` errors; `3-05`, unpublished and without one, stays silent |
 
 ### How the 18 were resolved
 

@@ -63,12 +63,18 @@ Say the sukūn connection explicitly. "When you stop on *kitābun*, the ending b
    - كِتَابٍ → *kitāb*
    Both stop-forms are identical. Show that on the board — two different marks, one stopped pronunciation. The student will ask how you tell them apart when stopping; the honest answer is that you cannot, and you do not need to.
 
+   **In plain terms:** stop on a word ending in two ḍammas or two kasras and the *n* simply falls off. You end on the plain consonant.
+
 3. **Then the case that surprises everyone.** ـًا at a stop does **not** become a sukūn. It becomes a **two-count long *ā***:
    - كِتَابًا → *kitābā*
    Here — and only here — the carrying alif you were told to ignore in lesson 2-01 finally does something. It is the one place the alif is pronounced. Name the reason in one sentence: the *n* drops, and the alif underneath it is what is left. Say the name **madd ʿiwaḍ** — "the lengthening of compensation", see [[Madd-Iwad]] — once, so the student recognises it later, and then move on. Its formal treatment is Unit 3.
    - **Length matters here.** Two counts, the same length as any ordinary long vowel. Not three, not one.
 
+   **In plain terms:** two fatḥas are the odd one out. Stop on them and you do not lose the sound — the *n* goes and the chair it was sitting on becomes a long *aa*.
+
 4. **The one exception in the stopping rule.** A word ending in tāʾ marbūṭah with fatḥatān — سَاعَةً — does *not* become *sāʿatā*. At a stop the ة turns into a silent *h*: *sāʿah*. Teach this as a spelling fact tied to one letter shape, not as a rule with branches. If she can see a ة, she stops with *h*.
+
+   **In plain terms:** the round tāʾ with two dots breaks the pattern. Stop on it and it goes soft — *sāʿah*, a breath, not a *t* and not a long *aa*.
 
 5. **Where you are allowed to stop.** Today: **only at the end of an āyah.** That is a safe, visible, unambiguous boundary marked by a numbered circle. Stopping mid-āyah changes meaning and has its own signs and its own rules, and those come later in this unit. Give her the boundary and the reason, and refuse to be drawn further.
 

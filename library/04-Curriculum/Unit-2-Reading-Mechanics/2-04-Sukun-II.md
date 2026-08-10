@@ -66,6 +66,8 @@ The corrective sentence for the whole lesson: **Arabic will not let two closed l
    - **A handful of words take a different vowel.** مِنْ becomes مِنَ before الـ — *mina-llāhi*. The endings ـتُمْ and ـهِمْ take a ḍamma — *antumu-l-*, *ʿalayhimu-l-*. Do not systematise this. It is printed too; she reads what she sees. The full account is in lesson 2-09.
    - **A long vowel is dropped altogether.** فِى ٱلْأَرْضِ is *fil-arḍ*, not *fī-l-arḍ*. The long *ī* has no helper vowel to give, so it simply goes. This one is **not** obvious from the page and is the fix she will actually stumble on.
 
+   **In plain terms:** Arabic will not let two closed letters touch. Something has to give — usually a small vowel gets added, and the muṣḥaf has already printed it for you.
+
 4. **Make the "already printed" point stick.** Read three collisions straight off the page with no explanation, having her follow the vowels with her finger. The takeaway is a posture, not a rule: *when a word ends in an unexpected vowel, it is not a misprint and you have not lost your place. It is the join.*
 
 ### Part B — the bouncing letters
@@ -74,6 +76,8 @@ The corrective sentence for the whole lesson: **Arabic will not let two closed l
    - ٱهْدِنَا — the د carries a kasra. **No bounce.**
    - لَمْ يَلِدْ — the د is closed. **Bounce.**
    This is the single most common qalqalah error in the wild and it is worth the whole board.
+
+   **In plain terms:** these five only bounce when the letter is closed. Give it a vowel and it is an ordinary letter again.
 
 6. **Define the bounce by what it is not.** It is a dry echo of the letter itself: *ib*, with a small detached release at the end. It is **not** *iba*, not *ibi*, not *ibu*. Any vowel colour in the bounce is wrong. Say all three wrong versions deliberately so she can hear the difference between an echo and a vowel — she has to be able to catch this herself at home.
 

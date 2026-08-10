@@ -7,6 +7,24 @@ import { CPFAIR_KEYS, RULE_FAMILIES, NOTE_TYPES, STATUSES } from "./lib/rules.mj
 
 const WIKILINK = /\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]/g;
 const LESSON_ID = /^\d-\d{2}$/;
+const LANDING = /\*\*(In plain terms:|Said simply:|What that means out loud:)\*\*/;
+
+/**
+ * Lesson ids a learner can actually reach — the ids listed in `content/course.json`.
+ *
+ * Some checks apply only to published content. Note `status` cannot stand in for
+ * that: every lesson note in the vault is still `draft`, so gating on it would
+ * make those checks silently dead. The course map is the real publish signal, and
+ * it is the same file the app routes from.
+ */
+function publishedLessonIds(root = "content/course.json") {
+  try {
+    const course = JSON.parse(readFileSync(root, "utf8"));
+    return new Set(course.phases.flatMap((p) => p.lessons.map((l) => l.id)));
+  } catch {
+    return new Set(); // no map reachable — publish-only checks simply do not run
+  }
+}
 
 function walk(dir, out = []) {
   for (const entry of readdirSync(dir)) {
@@ -23,6 +41,7 @@ export function checkVault(dir, corpus) {
   const warnings = [];
   const files = walk(dir);
   const names = new Set(files.map((f) => basename(f, ".md")));
+  const published = publishedLessonIds();
   const notes = [];
 
   for (const file of files) {
@@ -91,6 +110,24 @@ export function checkVault(dir, corpus) {
         if (Number(phase) !== Number(idPhase) || Number(num) !== Number(idNum)) {
           errors.push(`${rel}: heading says "Lesson ${phase}.${num}" but id is "${data.id}"`);
         }
+      }
+
+      // A published lesson's teaching sequence must land its jargon in plain words.
+      // Scoped to lessons a learner can reach: an unpublished draft is allowed to
+      // be half-written, and erroring on all 45 of them would block every commit
+      // until the whole backlog is done.
+      //
+      // Deliberately NOT one landing per teaching point. Requiring that would force
+      // filler into the procedural lessons (2-10, 2-14), and a landing written to
+      // satisfy a counter is worse than none — it restates the technical account
+      // instead of translating it, which is the failure the skill names first.
+      // One per lesson is the floor; judgement decides the rest.
+      const seq = (body.match(/## Teaching sequence[\s\S]*?(?=\n## )/) || [""])[0];
+      if (published.has(data.id) && seq && !LANDING.test(seq)) {
+        errors.push(
+          `${rel}: teaching sequence has no plain-language landing ` +
+            `(expected one of: "In plain terms:", "Said simply:", "What that means out loud:")`,
+        );
       }
     }
 

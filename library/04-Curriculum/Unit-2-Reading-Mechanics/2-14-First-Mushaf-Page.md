@@ -161,6 +161,9 @@ So build the proof into the lesson. Four techniques, use at least two:
 - **The wrong word.** Point at a word and read it aloud yourself, wrongly — *al-nāsi* for
   ٱلنَّاسِ. Ask if that was right. A reader catches it instantly; a reciter agrees.
 
+**In plain terms:** you already know these surahs by heart, so reciting them proves
+nothing. Every check here is a way of making sure your eyes are doing the work.
+
 Say the purpose out loud rather than testing her covertly:
 
 > **"You know these surahs. That is good, and it is not what we are checking today. Today I

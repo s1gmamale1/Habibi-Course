@@ -35,7 +35,9 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 ---
 
-## Phase 1 — Land the jargon in every lesson a student can reach
+## Phase 1 — Land the jargon in every lesson a student can reach ✅ **DONE 2026-08-11**
+
+> **Delivered.** 27 landings across the 14 Unit 2 notes; 2 added to lesson JSON where a slide genuinely trailed off. The gate is scoped to lessons listed in `content/course.json` and proved in both directions. Two decisions worth carrying into Phase 3: the check requires **one landing per lesson, not per teaching point** — a per-point counter forces filler into the procedural lessons — and the JSON was **not** mechanically mirrored from the notes, because it was already authored student-facing and most slides already ended on a plain line.
 
 **Goal.** No live lesson leaves a beginner holding an Arabic technical term she was never given in ordinary words.
 
