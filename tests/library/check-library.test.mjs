@@ -89,6 +89,41 @@ describe("checkVault", () => {
     expect(errors.join("\n")).not.toMatch(/prerequisite "ghunnah" must be a zero-padded/);
   });
 
+  it("rejects a lesson teaching a rule id that has no note", () => {
+    note("04-Curriculum/L-ghost.md", [
+      "---", "type: lesson", 'id: "3-01"', "title: Ghost",
+      "teaches: [no_such_rule]", "status: draft", "---", "x",
+    ].join("\n"));
+    const { errors } = checkVault(dir, corpus);
+    expect(errors.join("\n")).toMatch(/teaches "no_such_rule" but no rule note/);
+  });
+
+  it("rejects a rule whose taught_in disagrees with the lesson teaching it", () => {
+    note("02-Rules/Drifted.md", [
+      "---", "type: rule", "id: drifted", "arabic: x", "translit: x", "english: x",
+      "family: madd", 'taught_in: "3-99"', "status: draft", "---", "x",
+    ].join("\n"));
+    note("04-Curriculum/L-drifted.md", [
+      "---", "type: lesson", 'id: "3-05"', "title: Drifted lesson",
+      "teaches: [drifted]", "status: draft", "---", "x",
+    ].join("\n"));
+    const { errors } = checkVault(dir, corpus);
+    expect(errors.join("\n")).toMatch(/taught_in "3-99" but lesson 3-05 teaches it/);
+  });
+
+  it("accepts a rule whose taught_in agrees with its lesson", () => {
+    note("02-Rules/Aligned.md", [
+      "---", "type: rule", "id: aligned", "arabic: x", "translit: x", "english: x",
+      "family: madd", 'taught_in: "3-07"', "status: draft", "---", "x",
+    ].join("\n"));
+    note("04-Curriculum/L-aligned.md", [
+      "---", "type: lesson", 'id: "3-07"', "title: Aligned lesson",
+      "teaches: [aligned]", "status: draft", "---", "x",
+    ].join("\n"));
+    const { errors } = checkVault(dir, corpus);
+    expect(errors.join("\n")).not.toMatch(/Aligned\.md: taught_in/);
+  });
+
   it("rejects an unresolvable wikilink", () => {
     note("02-Rules/Dangling.md", [
       "---", "type: rule", "id: dangling", "arabic: x", "translit: x", "english: x",

@@ -8,7 +8,7 @@ family: madd
 cpfair_key: madd_2
 colour_b: "#537FFF"
 harakat: 2
-taught_in: "3-01"
+taught_in: "3-27"
 prerequisites: []
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

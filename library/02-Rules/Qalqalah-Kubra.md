@@ -7,7 +7,7 @@ english: Major echo
 family: qalqalah
 cpfair_key: qalqalah
 colour_b: "#DD0008"
-taught_in: "3-07"
+taught_in: "3-05"
 prerequisites: [qalqalah_sughra]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

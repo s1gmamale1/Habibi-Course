@@ -5,7 +5,7 @@ arabic: لَامُ لَفْظِ الْجَلَالَة
 translit: Lām Lafẓ al-Jalālah
 english: The lām of the Divine Name
 family: lam
-taught_in: "3-13"
+taught_in: "3-11"
 prerequisites: [tafkhim, tarqiq]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

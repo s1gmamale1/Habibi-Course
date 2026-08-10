@@ -152,7 +152,7 @@ The whole quartet, in the sūrahs she recites. Everything here except `ٱلدُ�
 
 **مِّن جُوعٍ** — conceal, two counts · **مِّنْ خَوْفٍۭ** — say it, no hold
 
-**Drill 2b — the whole chapter in two ayāt.** Recite Quraysh 106:4, then al-Ikhlāṣ 112:4, both from memory. Name every ruling in each. Between them you should produce **all five noon rules and one meem rule** — and you should be able to say which of the five came from which ayah. Do this before Drill 3; if it goes cleanly, the mixed column will too.
+**Drill 2b — the whole chapter in two ayāt.** Recite Quraysh 106:4, then al-Ikhlāṣ 112:4, both from memory. Name every ruling in each. Between them you should produce **all five noon rules and two of the three meem rules** — 112:4 alone gives you an iẓhār shafawī on `وَلَمْ`, a merge without ghunnah on `يَكُن لَّهُۥ`, a throat iẓhār on `كُفُوًا أَحَدٌ`, and an iqlāb on the join out. Only ikhfāʾ shafawī is missing from the pair, and that one lives in al-Fīl 105:4. Do this before Drill 3; if it goes cleanly, the mixed column will too.
 
 **Drill 3 — the mixed column, cold.** Read down. Name the rule. Do not pause; if you have to think, mark the row and come back:
 
