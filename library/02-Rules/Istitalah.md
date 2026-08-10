@@ -6,7 +6,7 @@ translit: al-Istiṭālah
 english: Elongation — the sound runs along the edge of the tongue
 family: sifat
 letters: [ض]
-taught_in: "3-06"
+taught_in: "3-07"
 prerequisites: [itbaq]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

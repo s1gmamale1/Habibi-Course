@@ -4,7 +4,7 @@ id: "2-08"
 unit: "2.2"
 stage: Reading Mechanics
 title: Madd Meets Shadda & Sukūn; Leen Letters
-teaches: []
+teaches: [leen]
 prerequisites: ["2-06", "2-07"]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
