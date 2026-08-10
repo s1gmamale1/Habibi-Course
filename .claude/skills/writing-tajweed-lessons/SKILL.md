@@ -176,3 +176,27 @@ there is a test enforcing it.
 | Qur'ānic drill words for a decoding skill | Use non-Qur'ānic — memory must not substitute for reading |
 | Typing Arabic by hand | Slice it from the corpus |
 | `ayah` slide citing surah 2 | Bundled surahs are 1 and 105–114 only; use a `concept` slide |
+
+## Why the landing rule exists (micro-test, 2026-08-10)
+
+The rule was tested before being trusted, per `superpowers:writing-skills`.
+
+**Task:** write the *Teaching sequence* for a lesson on madd lāzim kalimī muthaqqal.
+Both arms were told to write at full technical depth; the only difference was whether the
+landing rule was present. Fresh context per sample, every match read manually.
+
+| Arm | Landing produced |
+|---|---|
+| Control — skill removed from disk | **0 / 3** |
+| Treatment — landing rule in the prompt | **3 / 3** |
+
+The controls are good writing and end on *tashīl* variants, disputed *tawassuṭ* readings
+and contrast drills. Not one line a beginner could use — the terminology never comes down.
+So the rule is **necessary**, not decoration: at full technical depth the landing does not
+appear on its own.
+
+**A methodology note worth keeping.** The first control round was invalid and nearly
+produced the opposite conclusion. This skill's own description matches "write a lesson
+section", so the control agents loaded it — 2 of 3 "controls" produced landings. A control
+run inside the project that hosts the skill is not a control. Park the skill directory
+before baselining, and tell the agent not to read from disk.
