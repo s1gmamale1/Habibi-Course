@@ -1,0 +1,841 @@
+{
+  "id": "2-13",
+  "phase": 2,
+  "draft": true,
+  "unit": "2.3",
+  "title": "Fully-voweled sentences II — fluency, and stopping drilled",
+  "objectives": [
+    "Student can read a complete short surah aloud at an even pace, with a breath plan she made herself, and no stop that lands mid-word.",
+    "Student can apply the three stop-changes without thinking about them — the test is that she can do them while her attention is on something else.",
+    "Student can recover from a stumble by returning to the start of the current word and continuing, without restarting the surah.",
+    "Student can hear and correct her own stopping errors from a recording."
+  ],
+  "prerequisites": [
+    "2-12"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.13 — Fully-voweled sentences II: fluency",
+      "arabicDecor": "وَلَا ٱلضَّآلِّينَ"
+    },
+    {
+      "kind": "concept",
+      "heading": "How many times did you stop — and did you choose any of them?",
+      "body": [
+        "Last lesson you stopped when I raised my hand. Today I hand you the surah and say nothing.",
+        "Read Sūrat al-Kāfirūn straight through, cold, no preparation, no arcs drawn, as if you were reading it to someone.",
+        "Then, before I comment on the reading at all, one question: how many times did you stop, and did you CHOOSE any of them?",
+        "Almost always the answer is: several, and no. The stops happened TO you.",
+        "That is the gap this lesson closes. 2-12 taught you what a stop does. 2-13 makes the stop yours."
+      ],
+      "items": [
+        {
+          "arabic": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+          "translit": "qul yā-ayyuha-l-kāfirūn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "109:1 — qul yā-ayyuha-l-kāfirūn. A long madd, a shadda, a waṣl hamzah and a stop, in four words."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Nothing new is taught today",
+      "body": [
+        "The three stop-changes are already yours from 2-12: the final ḥarakah drops · ة becomes a silent هْ · a long vowel before the stop stretches.",
+        "So is the rule about where: stop at an āyah end or a complete idea, never mid-word.",
+        "So are the starting vowels for a waṣl hamzah on resuming (2-09), and phrase-level joining with the finger-slide (2-11).",
+        "Today's content is REPETITION UNDER INCREASING LOAD. That is a different teaching job from explanation, and it should not be padded out with explanation to feel more substantial.",
+        "It is supposed to feel repetitive. If it feels like a lecture, something has gone wrong."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "You draw the plan, not me",
+      "body": [
+        "Here is the surah and a pencil. You mark the arcs. I say nothing until you are done.",
+        "Then we review the plan BEFORE you read a word. Does every arc end at an āyah end or a complete idea?",
+        "Is any arc longer than you can hold? You have last week's list of phrases you could not finish — use it.",
+        "Is any arc so short that it chops the sense? Stopping after وَمِن شَرِّ, for instance, is grammatically incomplete.",
+        "We correct the plan on paper. Then you read it. Planning errors are cheaper to fix before the reading than after it, and separating the two also separates the two skills in your own mind."
+      ],
+      "items": [
+        {
+          "arabic": "وَمِن شَرِّ",
+          "translit": "wa-min sharri",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:5 — وَمِن شَرِّ. A tempting place to stop and a wrong one: it is grammatically incomplete. Read on to the end of the āyah."
+          }
+        },
+        {
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "translit": "wa-min sharri ḥāsidin idhā ḥasad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:5 whole — one breath group, no internal stop."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Even pace beats fast pace",
+      "body": [
+        "Fluency is not speed. It is the ABSENCE OF VARIATION in speed.",
+        "The diagnostic is easy: I tap a slow, steady beat while you read. A fluent reader stays with the beat.",
+        "A decoding reader speeds up on familiar words and slows on unfamiliar ones — and the places where you leave the beat are precisely your weak spots, visible in real time.",
+        "We find a speed at which you can hold the beat, even if that is very slow. Then we stay there for the whole session. I will not increase it.",
+        "Speed arrives on its own once the variation is gone. Chasing it directly rebuilds the variation."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Three loads — the test of automatic is whether it survives distraction",
+      "body": [
+        "This is the bulk of the lesson. Drill the three changes until they need no attention.",
+        "Load one — alone. Read the surah, stopping at every āyah end.",
+        "Load two — while counting. You read; I hold up fingers between āyāt and you report the number at the end. Your attention is split, and the stop-changes have to survive it.",
+        "Load three — after a delay. Read the surah, wait ten seconds in silence, read it again. Skills that are only fresh do not survive the silence.",
+        "If the ة turns back into a t at load two, it is not automatic yet — it is being consciously applied, and it will collapse in the checkpoint. Go back to load one and do more REPETITIONS, not more explanation."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Where the two skills collide — وَلَا ٱلضَّآلِّينَ",
+      "body": [
+        "Al-Fātiḥa's last two words are the hardest thing you have read so far, and they are worth five minutes on their own.",
+        "A joined waṣl hamzah. Then a SIX-COUNT madd. Then a doubled lām held. Then a madd yāʾ. Then a stop, on which that yāʾ stretches.",
+        "Four separate requirements landing in one breath.",
+        "Take it apart at quarter speed, then run it whole.",
+        "This is the single best predictor in Unit 2 of how Checkpoint 2 will go. If the six-count shortens here, the problem is almost never the madd — it is that the arc before it was too long."
+      ],
+      "items": [
+        {
+          "arabic": "وَلَا ٱلضَّآلِّينَ",
+          "translit": "wa-la-ḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:7 — wa-la-ḍ-ḍāllīn. Quarter speed first, then whole."
+          }
+        },
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Six counts on the آ, the doubled lām held, then a yāʾ that stretches because you stopped."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Where the stop makes something new appear — خَوْفٍۭ",
+      "body": [
+        "Read 106:4 joined, straight through. خَوْفٍۭ is a līn: flat, no length, exactly as taught in 2-08.",
+        "Now stop on it. It stretches.",
+        "You will hear it, and if you are paying attention you will object — because 2-08 told you līn letters have no length.",
+        "You are right, and I am telling you so.",
+        "Līn has no length. That stretch belongs to the STOP, not to the letter. It has a name and a count, and Unit 3 gives you both. Today: let it happen and don't measure it."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+          "translit": "alladhī aṭʿamahum min jūʿin wa-āmanahum min khawf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 joined — jūʿin two counts, khawf zero. Exactly as in 2-08."
+          }
+        },
+        {
+          "arabic": "جُوعٍ",
+          "translit": "jūʿin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "جُوعٍ — a madd. Two counts, joined or stopped."
+          }
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "translit": "khawfin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خَوْفٍۭ — a līn. Zero when you join onward. Stop on it and something appears that is not the letter's."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The fluency set — easiest to hardest",
+      "instructions": "Warm up on Sūrat al-Ikhlāṣ whole — four short āyāt, four clean stops — then work these in order. The grading matters. Draw your own arcs before each one and let me check the plan before you make a sound.",
+      "grid": [
+        [
+          {
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+            "translit": "fa-waylun lil-muṣallīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1 (107:4) — a līn wāw joined flat, then a stop that stretches the yāʾ: fa-waylun lil-muṣallīn."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+            "translit": "qul yā-ayyuha-l-kāfirūn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2 (109:1) — long madd + shadda + waṣl hamzah + stop, in four words."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+            "translit": "wa-min sharri ḥāsidin idhā ḥasad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "3 (113:5) — resist the tempting internal stop after وَمِن شَرِّ. One breath group."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+            "translit": "alladhī yuwaswisu fī ṣudūri-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "4 (114:5) — the benchmark. Long, even, one breath, one stop at the end."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+            "translit": "ihdina-ṣ-ṣirāṭa-l-mustaqīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "5 (1:6) — start on ٱ, two joins, one stop. The whole unit in one āyah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "translit": "alladhī aṭʿamahum min jūʿin wa-āmanahum min khawf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "6 (106:4) — madd versus līn, and then the līn stop."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+            "translit": "ṣirāṭa-lladhīna anʿamta ʿalayhim … wa-la-ḍ-ḍāllīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "7 (1:7) — the hardest āyah in the hifz set. A real breath plan, and وَلَا ٱلضَّآلِّينَ at the end of it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The ة gauntlet — twelve, non-Qurʾānic, no t survives",
+      "instructions": "Twelve words ending in ة, read stopping on each one. All twelve, no t sounds. Non-Qurʾānic on purpose: this is the load-two test in miniature, and a ة you can recite proves nothing.",
+      "grid": [
+        [
+          {
+            "arabic": "مَدْرَسَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "madrasah."
+            }
+          },
+          {
+            "arabic": "سَيَّارَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "sayyārah — and hold the doubled yāʾ."
+            }
+          },
+          {
+            "arabic": "شَجَرَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "shajarah."
+            }
+          },
+          {
+            "arabic": "مَدِينَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "madīnah — the madd yāʾ stretches at the stop too."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جَامِعَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jāmiʿah."
+            }
+          },
+          {
+            "arabic": "طَاوِلَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ṭāwilah."
+            }
+          },
+          {
+            "arabic": "نَافِذَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "nāfidhah."
+            }
+          },
+          {
+            "arabic": "حَدِيقَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ḥadīqah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سَاعَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "sāʿah."
+            }
+          },
+          {
+            "arabic": "غُرْفَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ghurfah."
+            }
+          },
+          {
+            "arabic": "مُدَرِّسَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "mudarrisah."
+            }
+          },
+          {
+            "arabic": "كَلِمَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "kalimah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Split attention",
+      "instructions": "Read Sūrat al-Falaq and stop at every āyah end. While you read, I hold up fingers. Tell me the total at the end — and your stops still have to be correct. If a ة comes back as a t here, the change is not automatic yet.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+            "translit": "alladhī yuwaswisu fī ṣudūri-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The benchmark āyah, read while I hold up fingers."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+            "translit": "wa-min sharri ḥāsidin idhā ḥasad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Same, and no internal stop after وَمِن شَرِّ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+            "translit": "fa-waylun lil-muṣallīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Same. The līn stays flat and the final yāʾ still stretches at the stop."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Stop anywhere legal",
+      "instructions": "I point at a word. You read to the end of the phrase it belongs to, stop there properly, then resume. This breaks the habit of only being able to stop where you rehearsed — and every resume is a start, so the 2-09 vowels are live.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْمُسْتَقِيمَ",
+            "translit": "al-mustaqīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stop here: al-mustaqīm, and the yāʾ stretches."
+            }
+          },
+          {
+            "arabic": "ٱهْدِنَا",
+            "translit": "ihdinā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Resume here: ihdinā. Verb, kasrah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلنَّاسِ",
+            "translit": "an-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stop here: an-nās, and the alif stretches."
+            }
+          },
+          {
+            "arabic": "ٱلَّذِى",
+            "translit": "alladhī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Resume here: alladhī. Article branch — a fatḥah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْكَٰفِرُونَ",
+            "translit": "al-kāfirūn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stop here: al-kāfirūn, and the wāw stretches."
+            }
+          },
+          {
+            "arabic": "لِّلْمُصَلِّينَ",
+            "translit": "lil-muṣallīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stop here: lil-muṣallīn — the doubled lām held, then the stretch."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Record it, and mark your own errors first",
+      "body": [
+        "Record one reading on a phone. Play it back. YOU mark the errors before I say anything.",
+        "Then we compare lists. Anything on my list that is not on yours is the thing to work on — not the error itself, but the fact that you did not hear it.",
+        "Self-monitoring is the specific ability the checkpoint's scoring is built around: a student who self-corrects after a prompt loses one point, one who cannot loses two.",
+        "So it is worth training directly and not as an afterthought.",
+        "Most students hear their own dropped ة on a recording instantly, having missed it live. That gap between what you can hear live and what you can hear played back is the thing that closes this month."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "A stumble is not a reason to start the surah again",
+      "body": [
+        "When you stumble, go back to the top of that WORD. Not the top of the surah.",
+        "Restarting the whole surah is a hifz habit leaking into a reading task: the surah is stored as one memorised unit, so there is no entry point except the beginning.",
+        "Reading is not sequential in that way. You can enter anywhere.",
+        "Practise entering in the middle until it stops feeling wrong. Drill 'stop anywhere legal' is exactly this, and it is the reason it is in the lesson."
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "What automatic looks like",
+      "items": [
+        {
+          "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+          "translit": "alladhī yuwaswisu fī ṣudūri-n-nās",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The benchmark: long, even, one breath, correct stop. If this is clean, 2-13 is done."
+          }
+        },
+        {
+          "arabic": "وَلَا ٱلضَّآلِّينَ",
+          "translit": "wa-la-ḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The predictor: four requirements in one breath. The best single indicator of how Checkpoint 2 will go."
+          }
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "translit": "khawfin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The observation: līn has no length, and the stretch at a stop belongs to the stop. Name it in Unit 3, not today."
+          }
+        },
+        {
+          "arabic": "أَحَدْ",
+          "translit": "aḥad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "And the habit underneath all of it: the last mark on the page is not yours when you stop."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "One surah per day from the hifz set, read with YOUR OWN breath arcs pencilled in first. Keep the marked sheets; we compare week to week.",
+        "Al-Fātiḥa once daily, with the last āyah taken separately five extra times.",
+        "The twelve ة words, aloud, daily, until no t survives.",
+        "Record yourself once a week and mark your own errors BEFORE the lesson. Bring both the recording and your list.",
+        "One cold surah a week — one you have not prepared. Read it once, straight through, and write down what happened. That reading is not for practice; it is your own early warning about Checkpoint 2."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The fluency set, easiest to hardest",
+        "instructions": "Your own arcs, drawn before each reading. The grading matters more than the content.",
+        "grid": [
+          [
+            {
+              "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+              "translit": "fa-waylun lil-muṣallīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Līn flat, then a stretching stop."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+              "translit": "qul yā-ayyuha-l-kāfirūn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Long madd + shadda + waṣl + stop."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+              "translit": "wa-min sharri ḥāsidin idhā ḥasad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Resist the internal stop."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+              "translit": "alladhī yuwaswisu fī ṣudūri-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The benchmark — long, even, one breath."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+              "translit": "ihdina-ṣ-ṣirāṭa-l-mustaqīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Start on ٱ, two joins, one stop."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+              "translit": "alladhī aṭʿamahum min jūʿin wa-āmanahum min khawf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Madd versus līn, then the līn stop."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+              "translit": "ṣirāṭa-lladhīna anʿamta ʿalayhim … wa-la-ḍ-ḍāllīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The hardest āyah in the hifz set."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The ة gauntlet — twelve words",
+        "instructions": "Daily, aloud, stopping on each. No t survives.",
+        "grid": [
+          [
+            {
+              "arabic": "مَدْرَسَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "madrasah."
+              }
+            },
+            {
+              "arabic": "سَيَّارَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sayyārah."
+              }
+            },
+            {
+              "arabic": "شَجَرَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "shajarah."
+              }
+            },
+            {
+              "arabic": "مَدِينَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "madīnah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "جَامِعَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jāmiʿah."
+              }
+            },
+            {
+              "arabic": "طَاوِلَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ṭāwilah."
+              }
+            },
+            {
+              "arabic": "نَافِذَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "nāfidhah."
+              }
+            },
+            {
+              "arabic": "حَدِيقَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ḥadīqah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سَاعَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sāʿah."
+              }
+            },
+            {
+              "arabic": "غُرْفَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ghurfah."
+              }
+            },
+            {
+              "arabic": "مُدَرِّسَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "mudarrisah."
+              }
+            },
+            {
+              "arabic": "كَلِمَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "kalimah."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The collision — وَلَا ٱلضَّآلِّينَ",
+        "instructions": "Quarter speed, taken apart, then run whole. Five extra times after every Al-Fātiḥa.",
+        "grid": [
+          [
+            {
+              "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+              "translit": "ṣirāṭa-lladhīna anʿamta ʿalayhim",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The run-up. If the arc here is too long, the six-count at the end has no breath left."
+              }
+            },
+            {
+              "arabic": "وَلَا ٱلضَّآلِّينَ",
+              "translit": "wa-la-ḍ-ḍāllīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The collision itself: joined waṣl, six-count madd, held lām, madd yāʾ, stretching stop."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Stop anywhere legal",
+        "instructions": "I point, you read to the end of that phrase, stop properly, resume. Every resume is a start.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْمُسْتَقِيمَ",
+              "translit": "al-mustaqīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-mustaqīm — stretches."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاسِ",
+              "translit": "an-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "an-nās — stretches."
+              }
+            },
+            {
+              "arabic": "ٱلْكَٰفِرُونَ",
+              "translit": "al-kāfirūn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-kāfirūn — stretches."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱهْدِنَا",
+              "translit": "ihdinā",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Resume: ihdinā."
+              }
+            },
+            {
+              "arabic": "ٱلَّذِى",
+              "translit": "alladhī",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Resume: alladhī."
+              }
+            },
+            {
+              "arabic": "لِّلْمُصَلِّينَ",
+              "translit": "lil-muṣallīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "lil-muṣallīn — hold the lām, then stretch."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "One surah from the hifz set, with her OWN breath arcs pencilled in first",
+      "Al-Fātiḥa once, with the last āyah taken separately five extra times",
+      "The twelve ة words aloud — no t survives",
+      "Weekly: one recording, errors marked by her before the lesson",
+      "Weekly: one cold surah, unprepared, read straight through, with what happened written down"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Hand her the surah and say nothing. The whole hook is your silence — 2-12 gave her a hand signal to stop on, and today she has to generate the decision herself.",
+      "Ask the question before you comment on the reading: how many times did you stop, and did you choose any of them? The answer is almost always 'several, and no', and it names the gap better than any explanation you could give.",
+      "Nothing new is taught today. The content is repetition under increasing load, which is a different teaching job from explanation. Do not pad it out with explanation to make it feel more substantial — if this lesson feels like a lecture, it has gone wrong.",
+      "She draws the arcs; you say nothing until she is done. Then review the PLAN before she reads a word. Correct it on paper. Planning errors are far cheaper to fix before the reading, and separating the two separates the skills in her mind.",
+      "Check three things in the plan: does every arc end at an āyah end or a complete idea; is any arc longer than she can hold (use her list from 2-11); is any arc so short that it chops the sense, like stopping after وَمِن شَرِّ.",
+      "Use the metronome tap. Fluency is the absence of variation in speed, not speed. Take her to a pace where she holds the beat — even a very slow one — and then leave her there for the whole session. Do not increase it. Speed arrives on its own once the variation is gone.",
+      "Run the three loads in order: alone, then while counting your fingers, then after ten seconds of silence. The test of automatic is whether the change survives distraction, and load two is where a consciously-applied change visibly collapses.",
+      "If the ة comes back as a t at load two, go back to load one and do MORE REPETITIONS. Do not explain the rule again — it is a fluency problem wearing a knowledge problem's clothes, and explanation does not touch it.",
+      "Spend five minutes on وَلَا ٱلضَّآلِّينَ alone. Four requirements in one breath, taken apart at quarter speed and then run whole. This is the single best predictor in Unit 2 of how Checkpoint 2 will go.",
+      "When the six-count shortens there, resist diagnosing the madd. It is nearly always breath: the arc before it was too long. Move the breath mark earlier and the madd fixes itself.",
+      "On خَوْفٍۭ she may object that līn has no length. She is RIGHT and you must say so. Then give her the 2-12 answer verbatim: the stretch belongs to the stop, not to the letter, and Unit 3 supplies the name and the count. Do not name it today.",
+      "Make the recording a real part of the lesson, not an afterthought. She marks her own errors before you say anything; then compare lists. What matters is not the error but the ones she could not hear — that gap is what the checkpoint's scoring is built around.",
+      "When she stumbles and restarts the whole surah, name it as a hifz habit leaking into a reading task. Back to the top of that word only. The 'stop anywhere legal' drill exists precisely to build a mid-surah entry point."
+    ],
+    "listenFor": [
+      {
+        "item": "An even pace with the stops in chosen places, and — the real marker of fluency — the same word read the same way twice, once mid-sentence and once at a stop, each correct for its position.",
+        "commonMistake": "Stops that are correct when isolated but collapse inside a full surah — the ة comes back as a t on āyah 3 after being right on āyah 1.",
+        "whyItHappens": "The change is being applied consciously, and conscious application fails under load. It is a fluency problem masquerading as a knowledge problem, and more explaining will not touch it.",
+        "correctionCue": "You know this one. Same surah again, slower — we're building the habit, not learning the rule.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Word-Changes.md"
+      },
+      {
+        "item": "One speed from the first word of the surah to the last, familiar and unfamiliar words alike.",
+        "commonMistake": "The pace surges and drops — fast on ٱللَّهِ and ٱلنَّاسِ, slow on ٱلنَّفَّٰثَٰتِ.",
+        "whyItHappens": "Familiar words are being recalled and unfamiliar ones decoded. Two different processes running in one reading, at two different speeds.",
+        "correctionCue": "Slow the easy words down to the speed of the hard ones. Even, all the way through.",
+        "severityIfWrong": "khafi",
+        "source": "library/05-Pedagogy/Methodology.md"
+      },
+      {
+        "item": "Stops landing at āyah ends or complete ideas — never in the middle of a construction.",
+        "commonMistake": "Stopping in a grammatically incomplete place — after وَمِن شَرِّ, or after ٱلَّذِى.",
+        "whyItHappens": "She is stopping where the BREATH ends rather than where the MEANING ends, and at this stage she has no meaning cue to work from.",
+        "correctionCue": "Does that sound finished? Read it again and stop at the end of the āyah — the little circle is a safe stop, every time.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Types.md"
+      },
+      {
+        "item": "Recovery from a stumble by re-entering at the start of the current word and carrying on.",
+        "commonMistake": "A stumble triggers a full restart of the surah.",
+        "whyItHappens": "The surah is stored as one memorised unit, so there is no entry point except the beginning. It is a hifz habit leaking into a reading task.",
+        "correctionCue": "Back to the top of that word only. Not the top of the surah. You're reading, not reciting.",
+        "severityIfWrong": "khafi",
+        "source": "library/05-Pedagogy/Hifz-Method.md"
+      },
+      {
+        "item": "The six-count madd in ٱلضَّآلِّينَ still six at the end of a long āyah.",
+        "commonMistake": "It shortens when it comes at the end of al-Fātiḥa's longest āyah.",
+        "whyItHappens": "Breath. She reached it with nothing left, because the arc before it was too long. Diagnosing this as a madd problem sends the practice in entirely the wrong direction.",
+        "correctionCue": "That's not a madd problem, it's a plan problem. Move your breath mark earlier.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Lazim.md"
+      }
+    ],
+    "homework": "Daily: one surah from the hifz set read with her OWN breath arcs pencilled in first, sheets kept so the plans can be compared week to week; Al-Fātiḥa once, with the last āyah taken separately five extra times; the twelve non-Qurʾānic ة words aloud until no t survives. Weekly: one recording, with her own error list made BEFORE the lesson and compared against the teacher's — what matters is not the errors but the ones she could not hear. Also weekly: one cold surah she has not prepared, read once straight through, with what happened written down. That reading is not practice; it is her own early warning about Checkpoint 2."
+  },
+  "videos": []
+}

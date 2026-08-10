@@ -1,0 +1,1496 @@
+{
+  "id": "2-06",
+  "phase": 2,
+  "unit": "2.2",
+  "title": "Shadda in words — sun and moon lām",
+  "objectives": [
+    "Student can read ٱلـ correctly in front of any letter: pronouncing the lām before a moon letter, and dropping it into a doubling before a sun letter.",
+    "Student can hold a doubled letter at the end of a word when stopping on it, including releasing a doubled ق or ب with a bounce.",
+    "Student can read a word carrying both a shadda and a tanwīn — سِجِّيلٍ, حَقًّا — without losing either.",
+    "Student can read a mixed page-like column of 24 items containing sun lāms, moon lāms and mid-word shaddas, cold."
+  ],
+  "prerequisites": [
+    "2-05"
+  ],
+  "stage": "Reading Mechanics",
+  "draft": true,
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.6 — Shadda in words: sun and moon lām",
+      "arabicDecor": "ٱلْقَمَر · ٱلشَّمْس"
+    },
+    {
+      "kind": "concept",
+      "heading": "Al-qamar, and al-shams?",
+      "body": [
+        "ٱلْقَمَر — the moon. ٱلشَّمْس — the sun. Read both.",
+        "Most students read the second one al-shams. Which one have you heard in the mosque — al-shams, or ash-shams?",
+        "You have been reading الـ since lesson 1-13, and for half the letters in the alphabet you have been reading it wrong. Not because you were taught wrong, but because الـ has two behaviours and you were only given one.",
+        "And here is the second surprise: the lām does not vanish. It turns into the next letter. That is why the next letter has a shadda on it.",
+        "The doubling you learned to hold last lesson is the lām you think you are dropping."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْقَمَر",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْقَمَر: al-qamar, ‘the moon’. MOON — the lām carries a sukūn, so you say it."
+          }
+        },
+        {
+          "arabic": "ٱلشَّمْس",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلشَّمْس: ash-shams, ‘the sun’. SUN — the ش carries a shadda, so the lām is silent and became the ش."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "You have already been given this rule once",
+      "body": [
+        "In lesson 1-14, on ٱلضَّآلِّينَ, you were told directly that al- + ḍāllīn becomes aḍ-ḍāllīn because the lām assimilated.",
+        "That sentence is the whole of today's rule. You have been reading a sun letter correctly, in one word, since Unit 1.4.",
+        "The alif of الـ behaves the same way regardless of what follows — it is skipped when joining, as in lesson 1-13. Only the lām changes."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Sun letters and moon letters — and the visual test",
+      "body": [
+        "Sun letters (al-ḥurūf ash-shamsiyyah): the lām is silent and the next letter doubles.",
+        "Moon letters (al-ḥurūf al-qamariyyah): the lām is read, with a sukūn on it.",
+        "Why those and not others? The sun letters are the ones made near the lām, at or around the front of the tongue. The lām gives up and becomes them.",
+        "You do not memorise fourteen letters to read a page. The mushaf prints both marks, so the reading is decidable by eye: if the letter after the lām carries a shadda, the lām is silent. If the lām itself carries a sukūn, read it.",
+        "The fourteen sun letters, once, for recognition: ت ث د ذ ر ز س ش ص ض ط ظ ل ن. Everything else is a moon letter. Do not drill the list — drill the words."
+      ],
+      "items": [
+        {
+          "arabic": "شَمْس",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "شَمْس: shams, ‘a sun’. The bare word tells you what the doubling is made of."
+          }
+        },
+        {
+          "arabic": "ٱلشَّمْس",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلشَّمْس: ash-shams. The lām became the ش — that is what you are holding."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stopping on a doubling at the end of a word",
+      "body": [
+        "حَقّ, رَبّ, أُمّ. When you stop on one of these, the doubling is still there: the closure is held, and then released.",
+        "An ordinary letter is held and released quietly — أُمّ.",
+        "A bouncing letter is held and then bounced. ٱلْحَقّ stopped is held and then bounced, because at a stop the ق is closed and ق is in قطب جد.",
+        "You met this exact shape in lesson 2-04 with وَتَبَّ. Two rules stacked: hold from 2-05, bounce from 2-04. Both have to fire."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْحَقّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَقّ: al-ḥaqq, ‘the truth’. Moon lām. Hold the doubled ق, then BOUNCE it — ق is in قطب جد."
+          }
+        },
+        {
+          "arabic": "ٱلرَّبّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلرَّبّ: ar-Rabb, ‘the Lord’. Sun lām. Hold the doubled ب, then BOUNCE it — ب is in قطب جد."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Shadda plus tanwīn in one word",
+      "body": [
+        "حَقًّا, جَنَّةٌ, سِجِّيلٍ. Two marks doing two different jobs, and your eye has to take both.",
+        "Slow this down: read the doubling first, then the ending.",
+        "The commonest outcome is that one of the two gets dropped — and it is usually the shadda, because the tanwīn is at the edge of the word where the eye lands last and stays longest.",
+        "Two shaddas in one word is the other stress case: ٱلصِّدِّيق, ٱلْحَجَّاج, مُتَّقِين. Both get their full two counts. The second one is where under-holding reappears, even in a student who fixed it last week, because the word is now long."
+      ],
+      "items": [
+        {
+          "arabic": "سِجِّيلٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سِجِّيلٍ (105:4): sijjīlin. A mid-word shadda under a word-final tanwīn — take both marks."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Six real anchors",
+      "body": [
+        "You have recited 1:1 more times than any other line in your life, and you almost certainly say it correctly by ear already. Read it, and then see why what you already say is right.",
+        "The system describes real recitation. It does not replace it."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ (1:1): ar-Raḥmān ar-Raḥīm. Sun lām twice — no lām sound in either."
+          }
+        },
+        {
+          "arabic": "ٱلتَّكَاثُرُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلتَّكَاثُرُ (102:1): at-takāthur. Sun lām into a ت."
+          }
+        },
+        {
+          "arabic": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَٱلتِّينِ وَٱلزَّيْتُونِ (95:1): wat-tīn waz-zaytūn. Two sun letters in a row."
+          }
+        },
+        {
+          "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ (114:6): mina-l-jinnati wan-nās. A moon lām beside a sun lām, plus a humming ن, plus a printed fatḥa on مِنَ from lesson 2-04."
+          }
+        },
+        {
+          "arabic": "بِٱلْحَقِّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بِٱلْحَقِّ (103:3): bil-ḥaqq. Moon lām, and a doubled ق — held, then bounced at a stop."
+          }
+        },
+        {
+          "arabic": "سِجِّيلٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سِجِّيلٍ (105:4): sijjīlin. Shadda plus tanwīn."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — sort by eye",
+      "instructions": "Say ‘sun’ or ‘moon’ BEFORE you read each word. The test is mechanical: a shadda on the next letter means sun, a sukūn on the lām means moon. The naming is the drill — do not skip it to save time.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْقَمَر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْقَمَر: al-qamar, ‘the moon’. MOON — the lām carries a sukūn, so you say it."
+            }
+          },
+          {
+            "arabic": "ٱلشَّمْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلشَّمْس: ash-shams, ‘the sun’. SUN — the ش carries a shadda, so the lām is silent and became the ش."
+            }
+          },
+          {
+            "arabic": "ٱلْبَيْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْبَيْت: al-bayt, ‘the house’. MOON — sukūn on the lām."
+            }
+          },
+          {
+            "arabic": "ٱلنَّهْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلنَّهْر: an-nahr, ‘the river’. SUN — shadda on the ن, and it hums."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْكِتَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْكِتَاب: al-kitāb, ‘the book’. MOON."
+            }
+          },
+          {
+            "arabic": "ٱلدَّرْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلدَّرْس: ad-dars, ‘the lesson’. SUN — shadda on the د."
+            }
+          },
+          {
+            "arabic": "ٱلْوَلَد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْوَلَد: al-walad, ‘the boy’. MOON."
+            }
+          },
+          {
+            "arabic": "ٱلرَّجُل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلرَّجُل: ar-rajul, ‘the man’. SUN — shadda on the ر."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْمَسْجِد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْمَسْجِد: al-masjid, ‘the mosque’. MOON."
+            }
+          },
+          {
+            "arabic": "ٱلطَّرِيق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلطَّرِيق: aṭ-ṭarīq, ‘the road’. SUN — shadda on the heavy ط."
+            }
+          },
+          {
+            "arabic": "ٱلْجَبَل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْجَبَل: al-jabal, ‘the mountain’. MOON."
+            }
+          },
+          {
+            "arabic": "ٱلصَّدِيق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلصَّدِيق: aṣ-ṣadīq, ‘the friend’. SUN — shadda on the ص."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — the same noun, with and without الـ",
+      "instructions": "Read across. The bare word on the left tells you what the doubling on the right is made of.",
+      "grid": [
+        [
+          {
+            "arabic": "شَمْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَمْس: shams, ‘a sun’. The bare word tells you what the doubling is made of."
+            }
+          },
+          {
+            "arabic": "ٱلشَّمْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلشَّمْس: ash-shams. The lām became the ش — that is what you are holding."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَاس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَاس: nās, ‘people’."
+            }
+          },
+          {
+            "arabic": "ٱلنَّاس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلنَّاس: an-nās. The doubled ن hums for two counts."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَرْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْس: dars, ‘a lesson’."
+            }
+          },
+          {
+            "arabic": "ٱلدَّرْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلدَّرْس: ad-dars. Two counts on the د."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "رَجُل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَجُل: rajul, ‘a man’."
+            }
+          },
+          {
+            "arabic": "ٱلرَّجُل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلرَّجُل: ar-rajul. Two counts on the ر."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "تِين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تِين: tīn, ‘figs’."
+            }
+          },
+          {
+            "arabic": "ٱلتِّين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلتِّين: at-tīn. Two counts of closure on the ت."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صَدِيق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَدِيق: ṣadīq, ‘a friend’."
+            }
+          },
+          {
+            "arabic": "ٱلصَّدِيق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلصَّدِيق: aṣ-ṣadīq. Two counts on the heavy ص."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — sun and moon side by side",
+      "instructions": "One breath per pair. الـ is not a word — it is the front of the word, so do not break after it.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْقَمَر وَٱلشَّمْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْقَمَر وَٱلشَّمْس: al-qamar wash-shams, ‘the moon and the sun’. Moon then sun, one breath."
+            }
+          },
+          {
+            "arabic": "ٱلْبَيْت وَٱلطَّرِيق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْبَيْت وَٱلطَّرِيق: al-bayt waṭ-ṭarīq, ‘the house and the road’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْكِتَاب وَٱلدَّرْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْكِتَاب وَٱلدَّرْس: al-kitāb wad-dars, ‘the book and the lesson’."
+            }
+          },
+          {
+            "arabic": "ٱلْجَبَل وَٱلنَّهْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْجَبَل وَٱلنَّهْر: al-jabal wan-nahr, ‘the mountain and the river’. The ن hums."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — stopping on a doubling",
+      "instructions": "Stop dead on each. Hold the last letter, then release it. The last two release with a BOUNCE — ق and ب are in قطب جد. The first four do not.",
+      "grid": [
+        [
+          {
+            "arabic": "أُمّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُمّ: umm, ‘a mother’. Stop on it: hold the م for two counts, then release quietly."
+            }
+          },
+          {
+            "arabic": "حَبّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَبّ: ḥabb, ‘seeds’. Hold the lips shut two counts, then release quietly."
+            }
+          },
+          {
+            "arabic": "شَكّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَكّ: shakk, ‘doubt’. Hold, then release quietly. ك is not a bouncing letter."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جَدّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَدّ: jadd, ‘a grandfather’. Hold the د, then release. د IS in قطب جد — let it bounce."
+            }
+          },
+          {
+            "arabic": "ٱلْحَقّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْحَقّ: al-ḥaqq, ‘the truth’. Moon lām. Hold the doubled ق, then BOUNCE it — ق is in قطب جد."
+            }
+          },
+          {
+            "arabic": "ٱلرَّبّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلرَّبّ: ar-Rabb, ‘the Lord’. Sun lām. Hold the doubled ب, then BOUNCE it — ب is in قطب جد."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — shadda and tanwīn together",
+      "instructions": "Read the doubling first, then the ending. If you lose one, it will be the shadda — cover the tanwīn with a fingertip, read the word, then uncover it.",
+      "grid": [
+        [
+          {
+            "arabic": "حَقًّا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَقًّا: ḥaqqan, ‘truly’. Read the doubling first, then the ending. Both marks, both jobs."
+            }
+          },
+          {
+            "arabic": "جَنَّةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَنَّةٌ: jannatun, ‘a garden’. Hum the ن for two counts, then take the ḍammatān."
+            }
+          },
+          {
+            "arabic": "قُوَّةٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُوَّةٍ: quwwatin, ‘strength’. Hold the و, then the kasratān."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَرَّةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَرَّةً: marratan, ‘once’. Hold the ر, then a fatḥatān on a tāʾ marbūṭah — no long ā if you stop."
+            }
+          },
+          {
+            "arabic": "سِجِّيلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِجِّيلٍ (105:4): sijjīlin. A mid-word shadda under a word-final tanwīn."
+            }
+          },
+          {
+            "arabic": "شِدَّةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شِدَّةً: shiddatan, ‘intensity’. Hold the د, then the ending."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — two shaddas in one word",
+      "instructions": "Give both their full time. The second one is the one that gets rushed, because by then the word is long and you are budgeting effort.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلصِّدِّيق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلصِّدِّيق: aṣ-Ṣiddīq, ‘the truthful one’. Sun lām, then TWO doublings. The second is the one that gets rushed — give it its full two counts."
+            }
+          },
+          {
+            "arabic": "ٱلْحَجَّاج",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْحَجَّاج: al-Ḥajjāj. Moon lām, doubled ج."
+            }
+          },
+          {
+            "arabic": "مُتَّقِين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُتَّقِين: muttaqīn, ‘the God-conscious’. Doubled ت — two counts of silent closure."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مُسْتَقِرًّا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُسْتَقِرًّا: mustaqirran, ‘settled’. Two sukūns and a doubled ر carrying fatḥatān."
+            }
+          },
+          {
+            "arabic": "ٱلْمُصَلِّين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْمُصَلِّين: al-muṣallīn, ‘those who pray’. Moon lām, doubled ل."
+            }
+          },
+          {
+            "arabic": "ٱلسَّجَّاد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلسَّجَّاد: as-sajjād. Sun lām AND a doubled ج — two doublings in one word."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — cold column, 24 items",
+      "instructions": "Sun lāms, moon lāms and mid-word shaddas mixed, no warning. Once slow, once at pace. Mark any word where you had to go back.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْقَلَم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْقَلَم: al-qalam. Moon."
+            }
+          },
+          {
+            "arabic": "مُدَرِّس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُدَرِّس: mudarris, ‘a teacher’."
+            }
+          },
+          {
+            "arabic": "ٱلسَّمَاء",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلسَّمَاء: as-samāʾ, ‘the sky’. Sun."
+            }
+          },
+          {
+            "arabic": "ٱلْبَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْبَاب: al-bāb. Moon."
+            }
+          },
+          {
+            "arabic": "سَيَّارَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَيَّارَة: sayyārah, ‘a car’."
+            }
+          },
+          {
+            "arabic": "ٱلذَّهَب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلذَّهَب: adh-dhahab, ‘the gold’. Sun."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْعَمَل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْعَمَل: al-ʿamal. Moon."
+            }
+          },
+          {
+            "arabic": "قُوَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُوَّة: quwwah, ‘strength’."
+            }
+          },
+          {
+            "arabic": "ٱلزَّيْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلزَّيْت: az-zayt, ‘the oil’. Sun."
+            }
+          },
+          {
+            "arabic": "ٱلْحَدِيقَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْحَدِيقَة: al-ḥadīqah. Moon."
+            }
+          },
+          {
+            "arabic": "جَنَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَنَّة: jannah, ‘a garden’. The ن hums."
+            }
+          },
+          {
+            "arabic": "ٱلثَّوْب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلثَّوْب: ath-thawb, ‘the garment’. Sun."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْغُرْفَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْغُرْفَة: al-ghurfah, ‘the room’. Moon."
+            }
+          },
+          {
+            "arabic": "سُكَّر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُكَّر: sukkar, ‘sugar’."
+            }
+          },
+          {
+            "arabic": "ٱلضَّيْف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلضَّيْف: aḍ-ḍayf, ‘the guest’. Sun."
+            }
+          },
+          {
+            "arabic": "ٱلْفِيل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْفِيل: al-fīl, ‘the elephant’. Moon."
+            }
+          },
+          {
+            "arabic": "مَرَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَرَّة: marrah, ‘once’."
+            }
+          },
+          {
+            "arabic": "ٱلظُّهْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلظُّهْر: aẓ-ẓuhr, ‘noon’. Sun."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْيَوْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْيَوْم: al-yawm, ‘the day’. Moon."
+            }
+          },
+          {
+            "arabic": "فِضَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِضَّة: fiḍḍah, ‘silver’."
+            }
+          },
+          {
+            "arabic": "ٱللَّيْل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱللَّيْل: al-layl, ‘the night’. Sun — ل is itself a sun letter, so the lām doubles into a lām."
+            }
+          },
+          {
+            "arabic": "ٱلْهَوَاء",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْهَوَاء: al-hawāʾ, ‘the air’. Moon."
+            }
+          },
+          {
+            "arabic": "قِصَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِصَّة: qiṣṣah, ‘a story’."
+            }
+          },
+          {
+            "arabic": "ٱلنَّجَّار",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلنَّجَّار: an-najjār, ‘the carpenter’. Sun lām AND a doubled ج."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 8 — the stacked āyah",
+      "instructions": "Read 114:6 four times, then once against a reciter. Check three things in your own reading: the printed fatḥa on مِنَ, the humming ن of ٱلنَّاس, and that you did not say a lām in ٱلنَّاس. Four lessons are stacked in this one āyah — the first time the unit has visibly come together.",
+      "grid": [
+        [
+          {
+            "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ (114:6): mina-l-jinnati wan-nās. Moon lām in ٱلْجِنَّةِ, sun lām in ٱلنَّاسِ eight letters later, a doubled ن that hums, and a collision fixed by the printed fatḥa on مِنَ."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — the lām became the letter you are holding",
+      "items": [
+        {
+          "arabic": "ٱلْقَمَر",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْقَمَر: al-qamar. Moon — sukūn on the lām, so you say it."
+          }
+        },
+        {
+          "arabic": "ٱلشَّمْس",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلشَّمْس: ash-shams. Sun — shadda on the ش, so the lām is silent and became the ش."
+          }
+        },
+        {
+          "arabic": "شَمْس",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "شَمْس: shams. The bare word — this is what the doubling is made of."
+          }
+        },
+        {
+          "arabic": "ٱلْحَقّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَقّ: al-ḥaqq, stopped. Hold the ق, then bounce it."
+          }
+        },
+        {
+          "arabic": "حَقًّا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "حَقًّا: ḥaqqan. Doubling first, ending second."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ (1:1): sun lām twice — and you already said it right."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Three minutes — Drill 1. Say ‘sun’ or ‘moon’ before every word. The naming is the drill; do not skip it to save time.",
+        "Four minutes — Drill 2, read across. The bare word next to the الـ word is what makes the assimilation audible.",
+        "Three minutes — Drill 4. Stopping on a doubling, with the bounce on the last two.",
+        "Four minutes — Drills 5 and 6. Both marks, both doublings, full time on each.",
+        "Four minutes — Drill 7 cold column. Once slow, once at pace. Mark any word where you had to go back.",
+        "Once this week — mark up a page. On a printed page of the last juzʾ, circle five sun lāms and five moon lāms. Do not read the page; just find them.",
+        "Bring to the next session: any word in Drill 7 where you could not decide sun or moon on sight. That means you are reading the letter instead of the mark, and it is a five-minute fix."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — sort by eye",
+        "instructions": "Say ‘sun’ or ‘moon’ before reading each word. Shadda on the next letter means sun; sukūn on the lām means moon.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْقَمَر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْقَمَر: al-qamar, ‘the moon’. MOON — the lām carries a sukūn, so you say it."
+              }
+            },
+            {
+              "arabic": "ٱلشَّمْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلشَّمْس: ash-shams, ‘the sun’. SUN — the ش carries a shadda, so the lām is silent and became the ش."
+              }
+            },
+            {
+              "arabic": "ٱلْبَيْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْبَيْت: al-bayt, ‘the house’. MOON — sukūn on the lām."
+              }
+            },
+            {
+              "arabic": "ٱلنَّهْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلنَّهْر: an-nahr, ‘the river’. SUN — shadda on the ن, and it hums."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْكِتَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْكِتَاب: al-kitāb, ‘the book’. MOON."
+              }
+            },
+            {
+              "arabic": "ٱلدَّرْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلدَّرْس: ad-dars, ‘the lesson’. SUN — shadda on the د."
+              }
+            },
+            {
+              "arabic": "ٱلْوَلَد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْوَلَد: al-walad, ‘the boy’. MOON."
+              }
+            },
+            {
+              "arabic": "ٱلرَّجُل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلرَّجُل: ar-rajul, ‘the man’. SUN — shadda on the ر."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْمَسْجِد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْمَسْجِد: al-masjid, ‘the mosque’. MOON."
+              }
+            },
+            {
+              "arabic": "ٱلطَّرِيق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلطَّرِيق: aṭ-ṭarīq, ‘the road’. SUN — shadda on the heavy ط."
+              }
+            },
+            {
+              "arabic": "ٱلْجَبَل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْجَبَل: al-jabal, ‘the mountain’. MOON."
+              }
+            },
+            {
+              "arabic": "ٱلصَّدِيق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلصَّدِيق: aṣ-ṣadīq, ‘the friend’. SUN — shadda on the ص."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the same noun, with and without الـ",
+        "instructions": "Read across. The bare word tells you what the doubling is made of.",
+        "grid": [
+          [
+            {
+              "arabic": "شَمْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَمْس: shams, ‘a sun’. The bare word tells you what the doubling is made of."
+              }
+            },
+            {
+              "arabic": "ٱلشَّمْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلشَّمْس: ash-shams. The lām became the ش — that is what you are holding."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَاس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَاس: nās, ‘people’."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلنَّاس: an-nās. The doubled ن hums for two counts."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دَرْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْس: dars, ‘a lesson’."
+              }
+            },
+            {
+              "arabic": "ٱلدَّرْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلدَّرْس: ad-dars. Two counts on the د."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "رَجُل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَجُل: rajul, ‘a man’."
+              }
+            },
+            {
+              "arabic": "ٱلرَّجُل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلرَّجُل: ar-rajul. Two counts on the ر."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "تِين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تِين: tīn, ‘figs’."
+              }
+            },
+            {
+              "arabic": "ٱلتِّين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلتِّين: at-tīn. Two counts of closure on the ت."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "صَدِيق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَدِيق: ṣadīq, ‘a friend’."
+              }
+            },
+            {
+              "arabic": "ٱلصَّدِيق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلصَّدِيق: aṣ-ṣadīq. Two counts on the heavy ص."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — sun and moon side by side",
+        "instructions": "One breath per pair. Do not break after الـ.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْقَمَر وَٱلشَّمْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْقَمَر وَٱلشَّمْس: al-qamar wash-shams, ‘the moon and the sun’. Moon then sun, one breath."
+              }
+            },
+            {
+              "arabic": "ٱلْبَيْت وَٱلطَّرِيق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْبَيْت وَٱلطَّرِيق: al-bayt waṭ-ṭarīq, ‘the house and the road’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْكِتَاب وَٱلدَّرْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْكِتَاب وَٱلدَّرْس: al-kitāb wad-dars, ‘the book and the lesson’."
+              }
+            },
+            {
+              "arabic": "ٱلْجَبَل وَٱلنَّهْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْجَبَل وَٱلنَّهْر: al-jabal wan-nahr, ‘the mountain and the river’. The ن hums."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — stopping on a doubling",
+        "instructions": "Hold the last letter, then release. The last two bounce.",
+        "grid": [
+          [
+            {
+              "arabic": "أُمّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُمّ: umm, ‘a mother’. Stop on it: hold the م for two counts, then release quietly."
+              }
+            },
+            {
+              "arabic": "حَبّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَبّ: ḥabb, ‘seeds’. Hold the lips shut two counts, then release quietly."
+              }
+            },
+            {
+              "arabic": "شَكّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَكّ: shakk, ‘doubt’. Hold, then release quietly. ك is not a bouncing letter."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "جَدّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَدّ: jadd, ‘a grandfather’. Hold the د, then release. د IS in قطب جد — let it bounce."
+              }
+            },
+            {
+              "arabic": "ٱلْحَقّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْحَقّ: al-ḥaqq, ‘the truth’. Moon lām. Hold the doubled ق, then BOUNCE it — ق is in قطب جد."
+              }
+            },
+            {
+              "arabic": "ٱلرَّبّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلرَّبّ: ar-Rabb, ‘the Lord’. Sun lām. Hold the doubled ب, then BOUNCE it — ب is in قطب جد."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — shadda and tanwīn together",
+        "instructions": "Doubling first, ending second.",
+        "grid": [
+          [
+            {
+              "arabic": "حَقًّا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَقًّا: ḥaqqan, ‘truly’. Read the doubling first, then the ending. Both marks, both jobs."
+              }
+            },
+            {
+              "arabic": "جَنَّةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَنَّةٌ: jannatun, ‘a garden’. Hum the ن for two counts, then take the ḍammatān."
+              }
+            },
+            {
+              "arabic": "قُوَّةٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُوَّةٍ: quwwatin, ‘strength’. Hold the و, then the kasratān."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مَرَّةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَرَّةً: marratan, ‘once’. Hold the ر, then a fatḥatān on a tāʾ marbūṭah — no long ā if you stop."
+              }
+            },
+            {
+              "arabic": "سِجِّيلٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِجِّيلٍ (105:4): sijjīlin. A mid-word shadda under a word-final tanwīn."
+              }
+            },
+            {
+              "arabic": "شِدَّةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شِدَّةً: shiddatan, ‘intensity’. Hold the د, then the ending."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — two shaddas in one word",
+        "instructions": "Both get full time. The second is the one that gets rushed.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلصِّدِّيق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلصِّدِّيق: aṣ-Ṣiddīq, ‘the truthful one’. Sun lām, then TWO doublings. The second is the one that gets rushed — give it its full two counts."
+              }
+            },
+            {
+              "arabic": "ٱلْحَجَّاج",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْحَجَّاج: al-Ḥajjāj. Moon lām, doubled ج."
+              }
+            },
+            {
+              "arabic": "مُتَّقِين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُتَّقِين: muttaqīn, ‘the God-conscious’. Doubled ت — two counts of silent closure."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مُسْتَقِرًّا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُسْتَقِرًّا: mustaqirran, ‘settled’. Two sukūns and a doubled ر carrying fatḥatān."
+              }
+            },
+            {
+              "arabic": "ٱلْمُصَلِّين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْمُصَلِّين: al-muṣallīn, ‘those who pray’. Moon lām, doubled ل."
+              }
+            },
+            {
+              "arabic": "ٱلسَّجَّاد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلسَّجَّاد: as-sajjād. Sun lām AND a doubled ج — two doublings in one word."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — cold column, 24 items",
+        "instructions": "Mixed, no warning. Once slow, once at pace; mark any word you had to go back to.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْقَلَم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْقَلَم: al-qalam. Moon."
+              }
+            },
+            {
+              "arabic": "مُدَرِّس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُدَرِّس: mudarris, ‘a teacher’."
+              }
+            },
+            {
+              "arabic": "ٱلسَّمَاء",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلسَّمَاء: as-samāʾ, ‘the sky’. Sun."
+              }
+            },
+            {
+              "arabic": "ٱلْبَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْبَاب: al-bāb. Moon."
+              }
+            },
+            {
+              "arabic": "سَيَّارَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَيَّارَة: sayyārah, ‘a car’."
+              }
+            },
+            {
+              "arabic": "ٱلذَّهَب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلذَّهَب: adh-dhahab, ‘the gold’. Sun."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْعَمَل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْعَمَل: al-ʿamal. Moon."
+              }
+            },
+            {
+              "arabic": "قُوَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُوَّة: quwwah, ‘strength’."
+              }
+            },
+            {
+              "arabic": "ٱلزَّيْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلزَّيْت: az-zayt, ‘the oil’. Sun."
+              }
+            },
+            {
+              "arabic": "ٱلْحَدِيقَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْحَدِيقَة: al-ḥadīqah. Moon."
+              }
+            },
+            {
+              "arabic": "جَنَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَنَّة: jannah, ‘a garden’. The ن hums."
+              }
+            },
+            {
+              "arabic": "ٱلثَّوْب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلثَّوْب: ath-thawb, ‘the garment’. Sun."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْغُرْفَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْغُرْفَة: al-ghurfah, ‘the room’. Moon."
+              }
+            },
+            {
+              "arabic": "سُكَّر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُكَّر: sukkar, ‘sugar’."
+              }
+            },
+            {
+              "arabic": "ٱلضَّيْف",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلضَّيْف: aḍ-ḍayf, ‘the guest’. Sun."
+              }
+            },
+            {
+              "arabic": "ٱلْفِيل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْفِيل: al-fīl, ‘the elephant’. Moon."
+              }
+            },
+            {
+              "arabic": "مَرَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَرَّة: marrah, ‘once’."
+              }
+            },
+            {
+              "arabic": "ٱلظُّهْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلظُّهْر: aẓ-ẓuhr, ‘noon’. Sun."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْيَوْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْيَوْم: al-yawm, ‘the day’. Moon."
+              }
+            },
+            {
+              "arabic": "فِضَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فِضَّة: fiḍḍah, ‘silver’."
+              }
+            },
+            {
+              "arabic": "ٱللَّيْل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱللَّيْل: al-layl, ‘the night’. Sun — ل is itself a sun letter, so the lām doubles into a lām."
+              }
+            },
+            {
+              "arabic": "ٱلْهَوَاء",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلْهَوَاء: al-hawāʾ, ‘the air’. Moon."
+              }
+            },
+            {
+              "arabic": "قِصَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِصَّة: qiṣṣah, ‘a story’."
+              }
+            },
+            {
+              "arabic": "ٱلنَّجَّار",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلنَّجَّار: an-najjār, ‘the carpenter’. Sun lām AND a doubled ج."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1 — say ‘sun’ or ‘moon’ before every word; the naming IS the drill",
+      "Drill 2 read across — the bare word next to the الـ word makes the assimilation audible",
+      "Drill 4 — stopping on a doubling, with the bounce on ٱلْحَقّ and ٱلرَّبّ",
+      "Drills 5 and 6 — both marks, both doublings, full time on each",
+      "Drill 7 cold column, once slow and once at pace; mark every word you had to go back to",
+      "Once this week: circle five sun lāms and five moon lāms on a printed page of the last juzʾ"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Write ٱلْقَمَر and ٱلشَّمْس and ask her to read them. Most students read the second one al-shams. Say it back to her that way, then say ash-shams, and ask which one she has heard in the mosque.",
+      "Give the corrective frame, and it is a big one: she has been reading الـ since lesson 1-13, and for half the alphabet she has been reading it wrong — not because she was taught wrong, but because الـ has two behaviours and she was only given one.",
+      "Then the second surprise, which usually arrives on its own: the lām does not vanish, it turns into the next letter. That is why the next letter has a shadda. The doubling she learned to hold last lesson is the lām she thinks she is dropping. Expect to say this sentence several times.",
+      "If the hook does not land, open with ٱلضَّآلِّينَ from lesson 1-14 — she was already told that al- + ḍāllīn becomes aḍ-ḍāllīn because the lām assimilated. She has been reading a sun letter correctly, in one word, since Unit 1.4.",
+      "Sort the alphabet in front of her; do not hand her a list. Try الـ against ٱلْبَاب, ٱلْقَمَر, ٱلْمَاء — the lām speaks. Then ٱلشَّمْس, ٱلنَّاس, ٱلتِّين — it does not. Ask what she notices about where the second group is made in the mouth. Either way, say the answer: the sun letters are made near the lām, at or around the front of the tongue.",
+      "Give the visual test, because it is what she will actually use: if the letter after the lām carries a shadda, the lām is silent; if the lām carries a sukūn, read it. Both marks are printed. She memorises the fourteen to WRITE, not to read — and that is not this lesson.",
+      "Say the fourteen once, for recognition — ت ث د ذ ر ز س ش ص ض ط ظ ل ن — then drill the words, not the list.",
+      "Teach the doubling at the end of a word, which is what Drill 4 exists for. Two sub-cases: an ordinary letter held and released quietly, and a bouncing letter held and then bounced. She met this exact shape in 2-04 with وَتَبَّ.",
+      "Slow down shadda-plus-tanwīn: read the doubling, then the ending. The commonest outcome is that one gets dropped, and it is usually the shadda, because the tanwīn sits where the eye lands last and stays longest.",
+      "For two shaddas in one word use ٱلصِّدِّيق, ٱلْحَجَّاج, مُتَّقِين — مُدَرِّسِيَّة is too much. Expect under-holding to reappear on the second doubling even in a student who fixed it last week.",
+      "End by reading 114:6 joined. It contains a moon lām and a sun lām eight letters apart, a doubled ن that hums, and a collision fixed by a printed fatḥa — four lessons in one āyah. Say that to her; it is the first time the unit has visibly stacked.",
+      "Teacher note on 1:1: she has recited it more times than any other line in her life and almost certainly says it correctly by ear already. Read it, then show her why what she already says is right. Confirming an existing correct habit is worth more here than correcting a new error, because it tells her the system describes real recitation rather than replacing it."
+    ],
+    "listenFor": [
+      {
+        "item": "The lām of a sun word left unsaid, with the following letter doubled instead",
+        "commonMistake": "Reading the lām — al-shams. An audible l immediately before a doubled letter.",
+        "whyItHappens": "The letter لـ is on the page, and every lesson so far has taught that letters on the page get said. This is the first time one does not.",
+        "correctionCue": "‘Is there a sukūn on that lām?’ Make her look. The absence of the sukūn is the evidence, and finding it herself makes it stick.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-06-Shadda-In-Words.md"
+      },
+      {
+        "item": "The assimilated lām audible as the doubling on the following letter",
+        "commonMistake": "Dropping the lām AND the doubling — ashams with a single s. A word that is a beat short.",
+        "whyItHappens": "She has correctly learned that the lām is silent, and heard ‘silent’ as ‘delete’. Nobody told her the lām went INTO the next letter.",
+        "correctionCue": "‘The lām did not disappear, it became the ش. That is what you are holding.’ Compare against the bare noun in Drill 2.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-06-Shadda-In-Words.md"
+      },
+      {
+        "item": "Both the shadda and the tanwīn taken in a word that carries both",
+        "commonMistake": "Losing the shadda — ḥaqan for ḥaqqan, janatun for jannatun.",
+        "whyItHappens": "The eye travels to the end of the word to resolve the ending — the freshest and most attention-hungry thing she has learned — and the mid-word mark is passed over on the way.",
+        "correctionCue": "‘Read it in two halves. Doubling first, ending second.’ Cover the tanwīn with a fingertip, have her read the word, then uncover it.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-06-Shadda-In-Words.md"
+      },
+      {
+        "item": "The second doubling in a long word held as long as the first",
+        "commonMistake": "The first doubling clean and the second rushed, in Drill 6.",
+        "whyItHappens": "The word is long and she is budgeting effort. It is a stamina fault, not a knowledge fault, so explaining the rule again will not fix it.",
+        "correctionCue": "Read the word backwards in pieces — -dīq, -ṣid-dīq, aṣ-ṣid-dīq — so the last doubling is the one she practises most.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-06-Shadda-In-Words.md"
+      },
+      {
+        "item": "A doubled ق or ب released with a bounce when stopping",
+        "commonMistake": "No bounce on ٱلْحَقّ or ٱلرَّبّ — a held closure that simply stops, with no release.",
+        "whyItHappens": "Two rules are stacked and only one fires. She is concentrating on the hold from 2-05, and the bounce from 2-04 does not get through.",
+        "correctionCue": "‘Hold it — now let it go.’ Two separate instructions, two separate gestures with your hand.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-06-Shadda-In-Words.md"
+      },
+      {
+        "item": "الـ read as the front of the word, with no break after it",
+        "commonMistake": "A gap between الـ and the noun — al · ḥamdu. A break after a moon lām.",
+        "whyItHappens": "الـ is a separate idea in her head, so it becomes a separate word in her mouth.",
+        "correctionCue": "‘الـ is not a word, it is the front of the word.’ Trace under the whole word with your finger, starting on the alif.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-06-Shadda-In-Words.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Three minutes on Drill 1, saying ‘sun’ or ‘moon’ before every word — the naming is the drill and must not be skipped to save time. Four minutes on Drill 2 read across, because the bare word next to the الـ word is what makes the assimilation audible. Three minutes on Drill 4, stopping on a doubling with the bounce on the last two. Four minutes on Drills 5 and 6, giving both marks and both doublings their full time. Four minutes on the Drill 7 cold column, once slow and once at pace, marking any word she had to go back to. Once in the week, circle five sun lāms and five moon lāms on a printed page of the last juzʾ without reading it. She brings back any Drill 7 word where she could not decide sun or moon on sight — that means she is reading the letter instead of the mark, and it is a five-minute fix."
+  },
+  "videos": []
+}

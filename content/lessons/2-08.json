@@ -1,0 +1,1012 @@
+{
+  "id": "2-08",
+  "phase": 2,
+  "draft": true,
+  "unit": "2.2",
+  "title": "Madd meets shadda & sukūn; the leen letters",
+  "objectives": [
+    "Student can recognise the maddah sign ٓ on sight and knows it means 'hold this longer than two counts' before knowing any rule name.",
+    "Student can hold a six-count madd, flat and steady, whenever a madd letter is followed by a shadda or a sukūn inside the same word.",
+    "Student can tell a madd wāw/yāʾ from a līn wāw/yāʾ from an ordinary consonantal wāw/yāʾ, by looking at the vowel that precedes it.",
+    "Student can read a līn letter with no length at all when joining onward."
+  ],
+  "prerequisites": [
+    "2-06",
+    "2-07"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.8 — Madd meets shadda & sukūn; the leen letters",
+      "arabicDecor": "ٱلضَّآلِّينَ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Read these two, cold",
+      "body": [
+        "Read the first word. Then read the second, straight after, with no preparation.",
+        "The first will come out at six counts, because you learned it in 1-14. The second will come out at whatever length your mouth happens to choose.",
+        "That gap is the entire lesson, in ten seconds: you learned a word, not a pattern.",
+        "You know ٱلضَّآلِّينَ. You do not yet know why you know it. Today you find out — and then you never have to be taught another one of these."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلضَّآلِّينَ (1:7) — six counts on the آ, held flat, then the doubled lām. You already read this one correctly."
+          }
+        },
+        {
+          "arabic": "ٱلْحَآقَّةُ",
+          "translit": "al-ḥāqqah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَآقَّةُ (69:1) — the same shape as ٱلضَّآلِّينَ: the ٓ sign, then a doubled qāf. Six counts, for exactly the same reason."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Four things you already have",
+      "body": [
+        "A sukūn closes a syllable (1-13). The mouth stops on the letter.",
+        "A shadda doubles a letter and is held (2-05, 2-06). One letter written, two heard — a sākin one leaning into a voweled one.",
+        "ٱلضَّآلِّينَ takes six counts (1-14). It was taught there as a fact about that one word, with the reason deliberately withheld.",
+        "The three madd letters (2-07): ا after a fatḥah, و after a ḍammah, ي after a kasrah. Two counts, plain, no decoration.",
+        "Everything today is built out of those four. Nothing here is a new sound."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The little wave ٓ — obey the sign before you learn the rule",
+      "body": [
+        "Open the muṣḥaf and find the small wave sitting over an alif, a wāw or a yāʾ.",
+        "It means one thing: hold this longer than two. The printer put it there so you would not have to work it out.",
+        "That is the whole first step. You are not learning a rule yet; you are learning to obey a road sign.",
+        "The muṣḥaf is doing the analysis for you. A reader who trusts the sign reads fluently a year before a reader who computes."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Madd, then a shadda or a sukūn, in the same word → six",
+      "body": [
+        "Look at these three before I tell you anything. What do they have in common?",
+        "A long alif, then a doubled letter. That is the pattern — and you found it yourself.",
+        "The instruction: a madd letter, then a shadda or a sukūn, in the same word → hold six counts. Always six. There is no choice here.",
+        "Flat and steady, not a swell. Count it on one hand and one finger, and keep the pitch level.",
+        "The commonest failure is a madd that starts strong and fades. Six counts of decaying sound is not six counts.",
+        "It has a name and it has sub-types, and Unit 3 gives you both. Today it is a hand-shape and a count."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلضَّآلِّينَ (1:7) — آ, then لّ. A shadda. Six."
+          }
+        },
+        {
+          "arabic": "ٱلْحَآقَّةُ",
+          "translit": "al-ḥāqqah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَآقَّةُ (69:1) — آ, then قّ. A shadda. Six."
+          }
+        },
+        {
+          "arabic": "دَآبَّةٍ",
+          "translit": "dābbatin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دَآبَّةٍ (2:164) — آ, then بّ. A shadda. Six. Third instance of one pattern, so you generalise instead of memorising."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The six-count hand",
+      "instructions": "Hold your hand up. Every time you hit a maddah sign over a letter followed by a shadda, count six on your fingers while you hold the sound. If the sound gets quieter before your sixth finger, you started too loud — go again at half the volume.",
+      "grid": [
+        [
+          {
+            "arabic": "نَاقَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَاقَّة — non-Qurʾānic, so nothing here can be answered from memory. Long ā, then a doubled qāf. Six counts, level pitch."
+            }
+          },
+          {
+            "arabic": "شَآبَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَآبَّة — the ٓ sign, then a doubled bāʾ. Six counts. Start quiet so you have somewhere to go."
+            }
+          },
+          {
+            "arabic": "مَآدَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَآدَّة — the ٓ sign, then a doubled dāl. Six counts, then release cleanly into the دّ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْحَآقَّةُ",
+            "translit": "al-ḥāqqah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْحَآقَّةُ (69:1) — six counts on the آ, then hold the doubled qāf. Two separate durations, back to back."
+            }
+          },
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "translit": "aḍ-ḍāllīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلضَّآلِّينَ (1:7) — six counts, then the doubled lām held, then a plain two-count yāʾ. Do not let the six shrink to match the two."
+            }
+          },
+          {
+            "arabic": "دَآبَّةٍ",
+            "translit": "dābbatin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَآبَّةٍ (2:164) — six counts, doubled bāʾ, then tanwīn kasr."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The same sign before a hamzah — long, but count four for now",
+      "body": [
+        "The other thing the ٓ sign sits over is a madd letter followed by a hamzah.",
+        "The sign still means long. Here the count is four, and Unit 3 will explain why this one is different from the six.",
+        "I am giving you a number today and the reason later. I am saying that out loud so you know it is a gap on purpose, not a hole in the system.",
+        "These are everywhere in the short surahs. You will meet them on every page you read this week."
+      ],
+      "items": [
+        {
+          "arabic": "جَآءَ",
+          "translit": "jāʾa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "جَآءَ (110:1) — 'came'. The ٓ sign, then a hamzah. Four counts."
+          }
+        },
+        {
+          "arabic": "ٱلشِّتَآءِ",
+          "translit": "ash-shitāʾi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلشِّتَآءِ (106:2) — 'of winter'. Sun-letter shadda at the front, then madd before a hamzah. Four counts."
+          }
+        },
+        {
+          "arabic": "إِنَّآ",
+          "translit": "innā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "إِنَّآ (108:1) — shadda, then the ٓ sign at the end of the word. Four counts, and then straight on into the next word."
+          }
+        },
+        {
+          "arabic": "يَدَآ",
+          "translit": "yadā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يَدَآ (111:1) — 'the two hands of'. The ٓ sign carried right at the end of the word. Four counts."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "و",
+        "name": "waw",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "و — the two lips rounded. As a consonant it is a 'w'; as a madd letter the lips only shape the sound and the length rides on the ḍammah before it."
+        }
+      },
+      "makhraj": "The two lips, rounded. As a madd letter it has no closure at all — the lips shape a long ū and the sound is carried by the ḍammah before it.",
+      "notes": [
+        "Three jobs, one letter. The vowel BEFORE the wāw tells you which job it is doing.",
+        "Ḍammah, then a sākin و → madd wāw. Two counts.",
+        "Fatḥah, then a sākin و → līn wāw. No counts at all.",
+        "A vowel written on the wāw itself → an ordinary consonant. No length."
+      ],
+      "examples": [
+        {
+          "arabic": "جُوعٍ",
+          "translit": "jūʿin",
+          "meaning": "hunger (106:4) — ḍammah before the wāw: madd, two counts"
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "translit": "khawfin",
+          "meaning": "fear (106:4) — fatḥah before the wāw: līn, no counts"
+        },
+        {
+          "arabic": "وَٱلْفَتْحُ",
+          "translit": "wal-fatḥu",
+          "meaning": "and the victory (110:1) — the wāw carries its own fatḥah: an ordinary consonant"
+        }
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ي",
+        "name": "ya",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ي — the middle of the tongue toward the roof of the mouth. As a consonant it is a 'y'; as a madd letter it is a long ī carried by the kasrah before it."
+        }
+      },
+      "makhraj": "Middle of the tongue toward the roof of the mouth. As a madd letter the contact is released entirely and what remains is a long ī.",
+      "notes": [
+        "The same three jobs, decided the same way — by the vowel in front of it.",
+        "Kasrah, then a sākin ي → madd yāʾ. Two counts.",
+        "Fatḥah, then a sākin ي → līn yāʾ. No counts at all.",
+        "A vowel written on the yāʾ itself → an ordinary consonant.",
+        "This is the pair that pays off for the next six years of reading. و and ي look identical on the page in all three jobs; only the preceding vowel separates them."
+      ],
+      "examples": [
+        {
+          "arabic": "ٱلرَّحِيمِ",
+          "translit": "ar-raḥīmi",
+          "meaning": "the Merciful (1:3) — kasrah before the yāʾ: madd, two counts"
+        },
+        {
+          "arabic": "ٱلْبَيْتِ",
+          "translit": "al-bayti",
+          "meaning": "the House (106:3) — fatḥah before the yāʾ: līn, no counts"
+        },
+        {
+          "arabic": "ٱلْيَتِيمَ",
+          "translit": "al-yatīma",
+          "meaning": "the orphan (107:2) — an initial yāʾ carrying its own fatḥah is a consonant; the yāʾ later in the same word is a madd"
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two questions, asked in order",
+      "body": [
+        "First: does the wāw or the yāʾ carry a sukūn? If it does not, it is a plain consonant and you are done.",
+        "Second: what is the vowel before it? Matching — ḍammah before و, kasrah before ي — is a madd. Two counts.",
+        "Fatḥah before either one is a līn letter. No counts.",
+        "Run it out loud until it goes silent. The vowel before the letter decides; the letter itself never does."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Līn has no length — not 'a short one'",
+      "body": [
+        "2-07 told you not to stretch a līn letter. Today it gets exact, because 'don't stretch it' and 'it has no length' are two different instructions and learners settle on the first.",
+        "Joining onward, these carry no prolongation whatsoever. Not one count. Not half a count.",
+        "The letter is a glide, and a glide takes the time the mouth needs to travel and no more.",
+        "One thing to leave alone on purpose: when you STOP on one of these, something happens to it. Do not try to work out what. It is coming in 2-12, and it needs stopping taught first."
+      ],
+      "items": [
+        {
+          "arabic": "قُرَيْشٍ",
+          "translit": "quraysh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قُرَيْشٍ (106:1) — fatḥah, then a sākin yāʾ. Līn. One syllable: 'qu-raysh', never 'qu-rayy-sh'."
+          }
+        },
+        {
+          "arabic": "ٱلْبَيْتِ",
+          "translit": "al-bayti",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْبَيْتِ (106:3) — līn yāʾ in the middle of a word. Start the fatḥah and land on the yāʾ; do not travel between them."
+          }
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "translit": "khawfin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خَوْفٍۭ (106:4) — līn wāw. Not the English 'how'. Flatter, and shorter than you think."
+          }
+        },
+        {
+          "arabic": "وَٱلصَّيْفِ",
+          "translit": "waṣ-ṣayfi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَٱلصَّيْفِ (106:2) — sun-letter shadda held, then a līn yāʾ that goes past at ordinary speed."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sort, do not read",
+      "instructions": "Twelve wāws and yāʾs. Do not read the word — just say 'madd', 'līn' or 'consonant'. Speed matters more than the word does. These are ordinary Arabic, not Qurʾānic, so nothing here can be answered from memory.",
+      "grid": [
+        [
+          {
+            "arabic": "بَيْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَيْت — fatḥah before a sākin yāʾ. LĪN. No length."
+            }
+          },
+          {
+            "arabic": "نُور",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُور — ḍammah before a sākin wāw. MADD. Two counts."
+            }
+          },
+          {
+            "arabic": "شَيْء",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَيْء — fatḥah before a sākin yāʾ. LĪN, and then a hamzah after it."
+            }
+          },
+          {
+            "arabic": "يَوْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَوْم — the first yāʾ carries a fatḥah, so it is a CONSONANT; the wāw after it is a LĪN. Two answers in one word."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَبِير",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَبِير — kasrah before a sākin yāʾ. MADD. Two counts."
+            }
+          },
+          {
+            "arabic": "وَلَد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَد — the wāw carries its own fatḥah. CONSONANT."
+            }
+          },
+          {
+            "arabic": "صَوْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَوْت — fatḥah before a sākin wāw. LĪN. No length."
+            }
+          },
+          {
+            "arabic": "مَدِينَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَدِينَة — kasrah before a sākin yāʾ. MADD. Two counts."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "خَيْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خَيْر — fatḥah before a sākin yāʾ. LĪN."
+            }
+          },
+          {
+            "arabic": "يَقُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَقُول — the yāʾ is a CONSONANT; the wāw after the ḍammah is a MADD. Two answers again."
+            }
+          },
+          {
+            "arabic": "جَيِّد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَيِّد — the yāʾ is doubled and carries a kasrah. CONSONANT, held. Not a madd and not a līn."
+            }
+          },
+          {
+            "arabic": "سُوق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُوق — ḍammah before a sākin wāw. MADD. Two counts."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sūrat Quraysh, joined",
+      "instructions": "Read all four āyāt without stopping until the very end. I am listening for one thing only: that قُرَيْشٍ and ٱلْبَيْتِ and خَوْفٍۭ go past at normal speed, with no stretch on them at all.",
+      "grid": [
+        [
+          {
+            "arabic": "لِإِيلَٰفِ قُرَيْشٍ",
+            "translit": "li-īlāfi quraysh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:1 — لِإِيلَٰفِ has a madd yāʾ (two counts) and a daggered alif; قُرَيْشٍ ends on a līn yāʾ with no length. Join straight on into āyah 2."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+            "translit": "īlāfihim riḥlata-sh-shitāʾi waṣ-ṣayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:2 — ٱلشِّتَآءِ is the four-count madd before a hamzah; وَٱلصَّيْفِ ends on a līn yāʾ. Long, then flat, in one short āyah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+            "translit": "fal-yaʿbudū rabba hādha-l-bayt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:3 — ٱلْبَيْتِ, līn yāʾ mid-phrase. Note that فَلْيَعْبُدُوا۟ has no waṣl hamzah at all: the فَ and the لْ are already in front of it."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "translit": "alladhī aṭʿamahum min jūʿin wa-āmanahum min khawf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — the āyah that decides whether you own this lesson. جُوعٍ is a madd, two counts. خَوْفٍۭ is a līn, zero. They sit in the same line and look almost identical."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The minimal pair",
+      "instructions": "Say each pair back to back, ten times. The first of each pair is two counts. The second is zero. If they sound the same length, you are lengthening the līn.",
+      "grid": [
+        [
+          {
+            "arabic": "جُوعٍ",
+            "translit": "jūʿin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جُوعٍ (106:4) — MADD wāw. Two counts. Hold it."
+            }
+          },
+          {
+            "arabic": "خَوْفٍۭ",
+            "translit": "khawfin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خَوْفٍۭ (106:4) — LĪN wāw. Zero. Slide through it."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نُور",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُور — madd wāw. Two counts."
+            }
+          },
+          {
+            "arabic": "نَوْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَوْم — līn wāw. Zero."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَبِير",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَبِير — madd yāʾ. Two counts."
+            }
+          },
+          {
+            "arabic": "بَيْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَيْت — līn yāʾ. Zero. One syllable, said as fast as you can say it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "One āyah, both answers",
+      "body": [
+        "جُوعٍ and خَوْفٍۭ sit a few words apart in the same āyah, and on the page they look almost identical.",
+        "جُوعٍ has a ḍammah before the wāw. That is a madd — two counts.",
+        "خَوْفٍۭ has a fatḥah before the wāw. That is a līn — no counts at all.",
+        "If you can read this āyah and give جُوعٍ two counts and خَوْفٍۭ none, you own the three states of و and ي."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+          "translit": "alladhī aṭʿamahum min jūʿin wa-āmanahum min khawf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 whole, joined. Read it at ordinary speed and let the two wāws come out at different lengths without slowing down for either."
+          }
+        },
+        {
+          "arabic": "جُوعٍ",
+          "translit": "jūʿin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "جُوعٍ — ḍammah before the wāw. Two counts."
+          }
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "translit": "khawfin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خَوْفٍۭ — fatḥah before the wāw. Zero."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Cold sign-reading — six, or four?",
+      "instructions": "Say the number BEFORE you read the word. Shadda or sukūn after the madd → six. Hamzah after it → four. Then open the muṣḥaf anywhere in the last juzʾ, find five more maddah signs, and call each one before you read it.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "translit": "aḍ-ḍāllīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Six — a shadda follows."
+            }
+          },
+          {
+            "arabic": "ٱلْحَآقَّةُ",
+            "translit": "al-ḥāqqah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Six — a shadda follows."
+            }
+          },
+          {
+            "arabic": "دَآبَّةٍ",
+            "translit": "dābbatin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Six — a shadda follows."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جَآءَ",
+            "translit": "jāʾa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Four — a hamzah follows."
+            }
+          },
+          {
+            "arabic": "ٱلشِّتَآءِ",
+            "translit": "ash-shitāʾi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Four — a hamzah follows."
+            }
+          },
+          {
+            "arabic": "إِنَّآ",
+            "translit": "innā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Four — a hamzah is what the sign is sitting before here too."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Five lengths, and how you tell them apart",
+      "items": [
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "SIX — madd letter, then a shadda or a sukūn, same word."
+          }
+        },
+        {
+          "arabic": "جَآءَ",
+          "translit": "jāʾa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "FOUR — madd letter, then a hamzah."
+          }
+        },
+        {
+          "arabic": "جُوعٍ",
+          "translit": "jūʿin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TWO — plain madd: ḍammah before a sākin wāw."
+          }
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "translit": "khawfin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ZERO — līn: fatḥah before a sākin wāw."
+          }
+        },
+        {
+          "arabic": "وَٱلْفَتْحُ",
+          "translit": "wal-fatḥu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ZERO — ordinary consonant: the wāw carries its own vowel."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Sūrat Quraysh, read joined, five times a day. Before you start, mark the six wāw/yāʾ letters in pencil: M for madd, L for līn.",
+        "Find three more words in the last juzʾ with a maddah sign followed by a shadda. Write them out and count six on each.",
+        "The minimal pairs, ten times each, aloud. Record yourself once and listen back for whether the second of each pair is shorter than the first.",
+        "Do NOT try to work out what happens when you stop on خَوْفٍۭ. You will be told in 2-12. If you have already noticed that it sounds different, say so next lesson — that is a good sign, not a mistake."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Sort, do not read",
+        "instructions": "Say 'madd', 'līn' or 'consonant' only — do not read the word. Time yourself: twelve answers should take under thirty seconds once this is real.",
+        "grid": [
+          [
+            {
+              "arabic": "بَيْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĪN — fatḥah before a sākin yāʾ."
+              }
+            },
+            {
+              "arabic": "نُور",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MADD — ḍammah before a sākin wāw. Two counts."
+              }
+            },
+            {
+              "arabic": "شَيْء",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĪN, then a hamzah."
+              }
+            },
+            {
+              "arabic": "يَوْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "CONSONANT yāʾ, then a LĪN wāw."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَبِير",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MADD — kasrah before a sākin yāʾ."
+              }
+            },
+            {
+              "arabic": "وَلَد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "CONSONANT — the wāw carries its own fatḥah."
+              }
+            },
+            {
+              "arabic": "صَوْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĪN — fatḥah before a sākin wāw."
+              }
+            },
+            {
+              "arabic": "مَدِينَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MADD — kasrah before a sākin yāʾ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "خَيْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĪN."
+              }
+            },
+            {
+              "arabic": "يَقُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "CONSONANT yāʾ, then a MADD wāw."
+              }
+            },
+            {
+              "arabic": "جَيِّد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "CONSONANT, doubled and held."
+              }
+            },
+            {
+              "arabic": "سُوق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MADD — two counts."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The six-count hand",
+        "instructions": "Six counts on the fingers, one volume from the first count to the sixth, then release into the doubled letter.",
+        "grid": [
+          [
+            {
+              "arabic": "نَاقَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Six counts, level pitch, then the doubled qāf."
+              }
+            },
+            {
+              "arabic": "شَآبَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Six counts, then the doubled bāʾ."
+              }
+            },
+            {
+              "arabic": "مَآدَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Six counts, then the doubled dāl."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلضَّآلِّينَ",
+              "translit": "aḍ-ḍāllīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Six on the آ, then hold the لّ, then a plain two-count yāʾ."
+              }
+            },
+            {
+              "arabic": "ٱلْحَآقَّةُ",
+              "translit": "al-ḥāqqah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Six on the آ, then hold the قّ."
+              }
+            },
+            {
+              "arabic": "دَآبَّةٍ",
+              "translit": "dābbatin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Six on the آ, then hold the بّ, then tanwīn kasr."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The minimal pair",
+        "instructions": "Back to back, ten times each. First of each pair: two counts. Second: zero.",
+        "grid": [
+          [
+            {
+              "arabic": "جُوعٍ",
+              "translit": "jūʿin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MADD. Two counts."
+              }
+            },
+            {
+              "arabic": "خَوْفٍۭ",
+              "translit": "khawfin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĪN. Zero."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نُور",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MADD. Two counts."
+              }
+            },
+            {
+              "arabic": "نَوْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĪN. Zero."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَبِير",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MADD. Two counts."
+              }
+            },
+            {
+              "arabic": "بَيْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĪN. Zero. One syllable."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Sūrat Quraysh, joined",
+        "instructions": "All four āyāt, no stops until the very end. M and L pencilled on the six wāw/yāʾ letters before you begin.",
+        "grid": [
+          [
+            {
+              "arabic": "لِإِيلَٰفِ قُرَيْشٍ",
+              "translit": "li-īlāfi quraysh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Madd yāʾ, daggered alif, then a līn yāʾ at the end. Join straight on."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+              "translit": "īlāfihim riḥlata-sh-shitāʾi waṣ-ṣayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Four-count madd, then a līn yāʾ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+              "translit": "fal-yaʿbudū rabba hādha-l-bayt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Līn yāʾ mid-phrase."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+              "translit": "alladhī aṭʿamahum min jūʿin wa-āmanahum min khawf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جُوعٍ two counts, خَوْفٍۭ zero, in one line."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Sūrat Quraysh, joined, five times — M and L pencilled on the six wāw/yāʾ letters first",
+      "The three minimal pairs, ten times each, aloud",
+      "The sort-don't-read set, called out fast: madd, līn or consonant only",
+      "The six-count hand on all six words, one volume from first count to sixth",
+      "Once a week: three new maddah-plus-shadda words found cold in the last juzʾ"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the hook exactly as written: ٱلضَّآلِّينَ then ٱلْحَآقَّةُ, cold, back to back, nothing said in between. The whole lesson is justified by the gap between those two readings, and if you explain first you lose it.",
+      "Say the diagnosis out loud — 'you learned a word, not a pattern' — rather than softening it. It is not a criticism of her; 1-14 taught it that way on purpose.",
+      "Teach the ٓ sign before any rule. She is obeying a road sign, not computing a rule, and that distinction is what makes her fluent early.",
+      "For the six-count case, show all three words BEFORE giving the instruction and let her find the common feature herself. She will. A pattern she found is worth three you told her.",
+      "Do not name Madd Lāzim, Muttaṣil or Munfaṣil today. The names are Unit 3. Naming them here costs attention and buys nothing she can use this week.",
+      "When you give four counts for the hamzah case, say plainly that you are giving a number now and the reason later. An adult who notices an unexplained gap and is not told it IS a gap starts distrusting the whole system.",
+      "§4 — the three states of و and ي — is the heart of the lesson and should get the most minutes. 2-07 identified the līn letters and deliberately stopped; treating them is this lesson's job, so do not skip it as revision.",
+      "Teach the two-question routine as something she says out loud: sukūn? then which vowel before it? Keep her saying it audibly until it is automatic, then let it go silent.",
+      "106:4 is the assessment item. جُوعٍ and خَوْفٍۭ in one āyah, two counts and zero. If she can read that āyah correctly at ordinary speed, she has the lesson.",
+      "Close by explicitly forbidding her to investigate what happens when she stops on خَوْفٍۭ. Tell her it arrives in 2-12 and that noticing it now is a good sign. Sealing the gap keeps 2-12's discovery intact."
+    ],
+    "listenFor": [
+      {
+        "item": "A six-count madd that stays at one pitch and one volume from the first count to the sixth, then releases cleanly into the doubled letter.",
+        "commonMistake": "The madd swells and fades — loud at count one, nearly gone by count four, with the last two counts as silent breath.",
+        "whyItHappens": "She is measuring the madd by effort rather than by time, and effort naturally decays. Untrained singers do the same thing on a held note.",
+        "correctionCue": "Six counts at one volume. Start quieter, so you have somewhere to go. Don't push — just don't stop.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Lazim.md"
+      },
+      {
+        "item": "Līn wāw and yāʾ passing at ordinary speed with no prolongation at all when joining onward.",
+        "makhraj": "Neither letter is released as a consonant here: the fatḥah glides straight onto the lip-rounding (و) or the tongue-raise (ي) and stops there.",
+        "commonMistake": "Līn letters get a small stretch — 'khaw-wf', 'qurayy-sh'.",
+        "whyItHappens": "The sākin wāw/yāʾ looks exactly like a madd letter on the page, and she has just spent 2-07 learning to lengthen sākin wāws and yāʾs. The rule she built is 'sākin wāw = long'; the correct rule keys on the PRECEDING vowel, which she is not yet looking at.",
+        "correctionCue": "Look at the vowel before it, not at the letter. Fatḥah before it? Then it's a slide, not a stretch. One movement.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Leen.md"
+      },
+      {
+        "item": "A flat, short līn — the fatḥah landing on the glide rather than travelling through it.",
+        "commonMistake": "The līn becomes an English diphthong — خَوْفٍۭ as 'how', بَيْت as 'bait', with the vowel travelling all the way through.",
+        "whyItHappens": "Direct transfer from a language whose /aw/ and /ay/ glide fully. Qurʾānic līn is shorter and flatter than either.",
+        "correctionCue": "Start the fatḥah and land on the wāw. Don't travel between them.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Leen.md"
+      },
+      {
+        "item": "One syllable on every līn word — bayt, khawf, quraysh — with the sukūn held and not released.",
+        "commonMistake": "A helping vowel appears inside the līn — 'ba-yit', 'kha-wuf'.",
+        "whyItHappens": "The sukūn is being released instead of held, so the mouth inserts a vowel to escape the cluster. This is the more damaging of the two līn errors because it changes the word's syllable count.",
+        "correctionCue": "One syllable, not two. Bayt. Say it as fast as you can say it — speed will fix it before analysis will.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Leen.md"
+      },
+      {
+        "item": "The correct number called BEFORE the word is read in cold sign-reading: six for a shadda or sukūn after the madd, four for a hamzah.",
+        "commonMistake": "Every maddah sign gets the same length — usually four everywhere, or two everywhere once the word is long.",
+        "whyItHappens": "She is reading the sign as 'long' without reading what comes after it. The sign tells her that something is long; only the next letter tells her how long.",
+        "correctionCue": "Don't read it yet. Look at the letter AFTER the sign. Shadda or sukūn — six. Hamzah — four. Now read it.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Lazim.md"
+      }
+    ],
+    "homework": "Daily: Sūrat Quraysh joined five times, with M and L pencilled on the six wāw/yāʾ letters before each reading; the three minimal pairs ten times each, aloud; the sort-don't-read set called out fast. Once in the week: find three new words in the last juzʾ with a maddah sign followed by a shadda, write them out and count six on each. One recording of the minimal pairs, listened back to for whether the second of each pair is genuinely shorter. She is explicitly told NOT to investigate what happens when she stops on خَوْفٍۭ — that is 2-12, and noticing it is welcome while working it out is not."
+  },
+  "videos": []
+}

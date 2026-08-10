@@ -1,0 +1,1648 @@
+{
+  "id": "2-07",
+  "phase": 2,
+  "unit": "2.2",
+  "title": "The three madd letters ا و ي",
+  "objectives": [
+    "Student can state the condition that turns ا, و or ي into a lengthening — sākin, with a matching vowel in front of it — and can apply it to decide whether any given و or ي is a long vowel or a consonant.",
+    "Student can hold every ordinary long vowel for a steady two counts, and keep that length constant across a twenty-word column instead of shortening as she tires.",
+    "Student can read the dagger alif (ٰ) as a full-length alif, and can skip a letter marked with the small circle.",
+    "Student can identify a و or ي after a fatḥa — خَوْف, بَيْت — as NOT a madd, and can say what she is not yet allowed to do with it."
+  ],
+  "prerequisites": [
+    "2-06"
+  ],
+  "stage": "Reading Mechanics",
+  "draft": true,
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.7 — The three madd letters ا و ي",
+      "arabicDecor": "قَال · يَقُول · قِيل"
+    },
+    {
+      "kind": "concept",
+      "heading": "قَل and قَال are not the same word",
+      "body": [
+        "قَل — he became less. قَال — he said. Which one did you just hear?",
+        "Again, in the other order. Then a third pair: عَلِم — he knew. عَالِم — a scholar.",
+        "In Arabic, length is not decoration and it is not style. A long vowel and a short vowel are different letters and they make different words.",
+        "And now the specific risk, said plainly, because it is yours: you are going to shorten these. Not because you cannot hear them — because the language you think in does not need them, and it will take the shortcut whenever you stop watching.",
+        "Arabic vocabulary reached Uzbek largely through Persian, which had already flattened the long/short distinction before passing it on. This is the single error that will follow you through every remaining lesson of the course."
+      ],
+      "items": [
+        {
+          "arabic": "قَل",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَل: qal, ‘he became less’. One tap."
+          }
+        },
+        {
+          "arabic": "قَال",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَال: qāl, ‘he said’. Two taps. Different word, not a longer version of the same one."
+          }
+        },
+        {
+          "arabic": "عَلِم",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "عَلِم: ʿalim, ‘he knew’."
+          }
+        },
+        {
+          "arabic": "عَالِم",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "عَالِم: ʿālim, ‘a scholar’. Two taps on the ā."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "You have been reading these since Unit 1.2",
+      "body": [
+        "كِتَاب, مُحِيط, يَقُول. This lesson is not new sounds — it is the system behind sounds you already make.",
+        "It is the same move as lesson 2-06, where you found out the الـ you had been reading had a rule behind it.",
+        "Lesson 1-13 gave you sukūn, which is half of today's condition: a madd letter is a letter with a sukūn on it.",
+        "Lesson 1-14 already made you read a six-count madd in ٱلضَّآلِّينَ, and told you it should feel uncomfortably long. That word is the far end of the scale. Today establishes the near end — the ordinary two — so the six finally has something to be measured against."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The condition: sākin, and the vowel before it matches",
+      "body": [
+        "ا lengthens after a fatḥa — قَال.",
+        "و lengthens after a ḍamma — يَقُول.",
+        "ي lengthens after a kasra — قِيل.",
+        "Match is the whole test. The mouth is already in position from the vowel, and the letter simply holds it. Say a— and then ā: the second is the first, continued.",
+        "The alif is the easy one. An alif is always sākin and always preceded by a fatḥa; it has no other job. There is no alif in Arabic that is not a lengthening, once you set aside the alif that carries a hamza (أ, إ) — which you have been reading as a hamza-seat since lesson 1-13, not as a letter."
+      ],
+      "items": [
+        {
+          "arabic": "قَال",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَال: qāl, ‘he said’. Alif after a fatḥa — two counts."
+          }
+        },
+        {
+          "arabic": "يَقُول",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يَقُول: yaqūl, ‘he says’. Wāw sākin after a ḍamma — two counts."
+          }
+        },
+        {
+          "arabic": "قِيل",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قِيل: qīl, ‘it was said’. Yāʾ sākin after a kasra — two counts."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "و and ي are the ones that need a decision",
+      "body": [
+        "Both are consonants half the time.",
+        "وَلَد — the و carries a fatḥa. Consonant w.",
+        "يَد — the ي carries a fatḥa. Consonant y.",
+        "يَقُول — the و is sākin after a ḍamma. Long ū.",
+        "قِيل — the ي is sākin after a kasra. Long ī.",
+        "Two questions, asked in that order: does it have a sukūn? does the vowel in front of it match? Two yeses, it lengthens. Anything else, it does not."
+      ],
+      "items": [
+        {
+          "arabic": "وَلَد",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَلَد: walad, ‘a boy’. CONSONANT — the و carries a fatḥa, so it is a w."
+          }
+        },
+        {
+          "arabic": "يَقُول",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يَقُول: yaqūl. LONG VOWEL — the و is sākin after a ḍamma. Two counts."
+          }
+        },
+        {
+          "arabic": "يَد",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يَد: yad, ‘a hand’. CONSONANT — the ي carries a fatḥa."
+          }
+        },
+        {
+          "arabic": "دِين",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دِين: dīn. LONG VOWEL — ي sākin after a kasra."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two counts — and a measurement you can use alone",
+      "body": [
+        "The ordinary lengthening is two counts. The name is madd ṭabīʿī, ‘the natural lengthening’, and it belongs to Unit 3. What you need today is the beat.",
+        "Tap a finger twice, evenly, at about walking pace. The vowel fills both taps.",
+        "A short vowel is one tap. The long one is exactly double — not ‘a bit more’.",
+        "Set the tempo BEFORE the word, not during it. A count decided mid-vowel is always short."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The dagger alif, and the small circle",
+      "body": [
+        "A miniature vertical stroke above a letter — ٰ — is a full alif that simply was not written out. ٱلرَّحْمَٰنِ is ar-Raḥmān. هَٰذَا is hādhā.",
+        "Two counts, exactly like a written alif. Students who miss this read ar-Raḥman with a short a for years.",
+        "A tiny circle above a letter — most often on the alif of ءَامَنُوا۟, or on a wāw — means do not pronounce this letter at all. It is a spelling leftover. Recognition only."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلرَّحْمَٰنِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلرَّحْمَٰنِ (1:1): ar-Raḥmān. The dagger alif is a full alif — two counts on that small stroke."
+          }
+        },
+        {
+          "arabic": "هَٰذَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "هَٰذَا: hādhā, ‘this’. Dagger alif on the first syllable, written alif on the second. Both two counts."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two boundaries, and both matter",
+      "body": [
+        "Boundary one — و and ي after a fatḥa are NOT madd letters. خَوْف, بَيْت, ٱلصَّيْف. The vowel does not match the letter, so the condition fails. These are the leen letters.",
+        "Your instruction today is one sentence and no more: when you see a و or ي with a sukūn after a fatḥa, read it soft and short and do not stretch it. What it does when you stop on it is lesson 2-08.",
+        "Boundary two — some madds are longer than two. When a hamza or a sukūn comes right after a madd letter, it stretches to four, five or six counts. ٱلضَّآلِّينَ from lesson 1-14 has the longest of them. Those rules are Unit 3.",
+        "The honest working rule for you this month: if the mushaf prints the extra sign (ـٓ) over the madd, hold it longer and copy the reciter. Otherwise, two."
+      ],
+      "items": [
+        {
+          "arabic": "بَيْت",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَيْت: bayt, ‘a house’. NOT MADD — the ي is sākin after a fatḥa."
+          }
+        },
+        {
+          "arabic": "خَوْف",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "خَوْف: khawf, ‘fear’. NOT MADD — the و is sākin after a fatḥa."
+          }
+        },
+        {
+          "arabic": "ٱلشِّتَآءِ وَٱلصَّيْفِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلشِّتَآءِ وَٱلصَّيْفِ (106:2): ash-shitāʾi waṣ-ṣayf. A longer madd on the left (Unit 3) beside a ي that is NOT a madd at all (lesson 2-08). Both edges of the rule, from a real page."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The main reading anchor",
+      "body": [
+        "110:2 is the best single line in the short surahs for this lesson: a wāw madd and two yāʾ madds in five words, with no leen and no long madd to complicate it.",
+        "Read it slowly with a finger tap on each long vowel, then at pace with no taps, then against a reciter."
+      ],
+      "items": [
+        {
+          "arabic": "يَدْخُلُونَ فِى دِينِ ٱللَّهِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يَدْخُلُونَ فِى دِينِ ٱللَّهِ (110:2): yadkhulūna fī dīni-llāh. Wāw after a ḍamma, then yāʾ after a kasra, twice."
+          }
+        },
+        {
+          "arabic": "وَمَا كَسَبَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَمَا كَسَبَ (111:2): wa-mā kasab. Alif after a fatḥa — two counts on the mā."
+          }
+        },
+        {
+          "arabic": "نَسْتَعِينُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "نَسْتَعِينُ (1:5): nastaʿīn. Yāʾ after a kasra."
+          }
+        },
+        {
+          "arabic": "ٱلْفِيلِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْفِيلِ (105:1): al-fīl. The shortest clean yāʾ madd in the short surahs."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — short against long",
+      "instructions": "Read across. One tap on the left-hand word, two taps on the right-hand word. These are different words, not two speeds of the same word.",
+      "grid": [
+        [
+          {
+            "arabic": "قَل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَل: qal, ‘he became less’. One tap."
+            }
+          },
+          {
+            "arabic": "قَال",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَال: qāl, ‘he said’. Two taps. Different word, not a longer version of the same one."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَلِم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَلِم: ʿalim, ‘he knew’."
+            }
+          },
+          {
+            "arabic": "عَالِم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَالِم: ʿālim, ‘a scholar’. Two taps on the ā."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سُر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُر: sur."
+            }
+          },
+          {
+            "arabic": "سُور",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُور: sūr, ‘a wall’. Two taps on the ū."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُل: qul, ‘say’."
+            }
+          },
+          {
+            "arabic": "قُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُول: qūl. Two taps on the ū."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سِر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِر: sir, ‘a secret’."
+            }
+          },
+          {
+            "arabic": "سِير",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِير: sīr. Two taps on the ī."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَرَس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرَس: darasa, ‘he studied’."
+            }
+          },
+          {
+            "arabic": "دَارِس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَارِس: dāris, ‘a student’. Two taps on the ā."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — the three conditions, one at a time",
+      "instructions": "Row one is alif after a fatḥa, row two is wāw after a ḍamma, row three is yāʾ after a kasra. Two counts on every one. Do one block per day if there is not time for all three.",
+      "grid": [
+        [
+          {
+            "arabic": "قَال",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَال: qāl, ‘he said’. Alif after a fatḥa — two counts."
+            }
+          },
+          {
+            "arabic": "بَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَاب: bāb, ‘a door’."
+            }
+          },
+          {
+            "arabic": "كِتَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَاب: kitāb, ‘a book’."
+            }
+          },
+          {
+            "arabic": "سَلَام",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَلَام: salām, ‘peace’."
+            }
+          },
+          {
+            "arabic": "نَار",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَار: nār, ‘fire’."
+            }
+          },
+          {
+            "arabic": "مَال",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَال: māl, ‘wealth’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَقُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَقُول: yaqūl, ‘he says’. Wāw sākin after a ḍamma — two counts."
+            }
+          },
+          {
+            "arabic": "نُور",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُور: nūr, ‘light’."
+            }
+          },
+          {
+            "arabic": "سُوق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُوق: sūq, ‘a market’."
+            }
+          },
+          {
+            "arabic": "طُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طُول: ṭūl, ‘length’."
+            }
+          },
+          {
+            "arabic": "يَكُون",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَكُون: yakūn, ‘he is’."
+            }
+          },
+          {
+            "arabic": "مَوْجُود",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَوْجُود: mawjūd, ‘present’. The first و is NOT a madd — it follows a fatḥa. The second one is."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قِيل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِيل: qīl, ‘it was said’. Yāʾ sākin after a kasra — two counts."
+            }
+          },
+          {
+            "arabic": "دِين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دِين: dīn, ‘religion’."
+            }
+          },
+          {
+            "arabic": "طَوِيل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَوِيل: ṭawīl, ‘long’."
+            }
+          },
+          {
+            "arabic": "كَبِير",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَبِير: kabīr, ‘big’."
+            }
+          },
+          {
+            "arabic": "جَدِيد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَدِيد: jadīd, ‘new’."
+            }
+          },
+          {
+            "arabic": "سَعِيد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَعِيد: saʿīd, ‘happy’."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — consonant or long vowel?",
+      "instructions": "Say which it is, THEN read it. Exactly one word here has a و or ي sākin sitting after a fatḥa — find it. Read that one short and soft and move on; it is next lesson's business.",
+      "grid": [
+        [
+          {
+            "arabic": "وَلَد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَد: walad, ‘a boy’. CONSONANT — the و carries a fatḥa, so it is a w."
+            }
+          },
+          {
+            "arabic": "يَقُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَقُول: yaqūl. LONG VOWEL — the و is sākin after a ḍamma. Two counts."
+            }
+          },
+          {
+            "arabic": "يَد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَد: yad, ‘a hand’. CONSONANT — the ي carries a fatḥa."
+            }
+          },
+          {
+            "arabic": "دِين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دِين: dīn. LONG VOWEL — ي sākin after a kasra."
+            }
+          },
+          {
+            "arabic": "وَقْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَقْت: waqt, ‘time’. CONSONANT — the و carries a fatḥa."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نُور",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُور: nūr. LONG VOWEL — و sākin after a ḍamma."
+            }
+          },
+          {
+            "arabic": "يَوْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَوْم: yawm, ‘a day’. NEITHER — the و is sākin but sits after a FATḤA, so the vowel does not match. This is the one word in the row that is next lesson's business. Read it soft and short."
+            }
+          },
+          {
+            "arabic": "قِيل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِيل: qīl. LONG VOWEL — ي sākin after a kasra."
+            }
+          },
+          {
+            "arabic": "وَرَقَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَرَقَة: waraqah, ‘a sheet of paper’. CONSONANT — the و carries a fatḥa."
+            }
+          },
+          {
+            "arabic": "طُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طُول: ṭūl. LONG VOWEL — و sākin after a ḍamma."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — dagger alif",
+      "instructions": "All of these hold two counts on the small stroke. Trace over the stroke with a pencil as you read — the hand fixes what the eye skims.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلرَّحْمَٰن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلرَّحْمَٰن: ar-Raḥmān. The small vertical stroke is a full alif — give it two counts. Not ar-Raḥman."
+            }
+          },
+          {
+            "arabic": "هَٰذَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هَٰذَا: hādhā, ‘this’. Dagger alif on the first syllable, written alif on the second. Both two counts."
+            }
+          },
+          {
+            "arabic": "ذَٰلِك",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذَٰلِك: dhālik, ‘that’. Two counts on the stroke."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَٰكِن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَٰكِن: lākin, ‘but’. Two counts on the stroke."
+            }
+          },
+          {
+            "arabic": "ٱلسَّمَٰوَات",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلسَّمَٰوَات: as-samāwāt, ‘the heavens’. Dagger alif in the middle of the word."
+            }
+          },
+          {
+            "arabic": "إِلَٰه",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِلَٰه: ilāh, ‘a god’. Two counts on the stroke."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — hold it under load",
+      "instructions": "Twenty words. The length must be identical on word twenty and word one. Record this column and play it back — you are listening for one thing: do the long vowels get shorter as the column goes on? They almost certainly do at first. That is the point of recording it.",
+      "grid": [
+        [
+          {
+            "arabic": "كِتَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَاب: kitāb, ‘a book’. Two counts on the ā."
+            }
+          },
+          {
+            "arabic": "نُور",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُور: nūr, ‘light’."
+            }
+          },
+          {
+            "arabic": "دِين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دِين: dīn, ‘religion’."
+            }
+          },
+          {
+            "arabic": "سَلَام",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَلَام: salām, ‘peace’."
+            }
+          },
+          {
+            "arabic": "طَوِيل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَوِيل: ṭawīl, ‘long’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سُوق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُوق: sūq, ‘a market’."
+            }
+          },
+          {
+            "arabic": "مَال",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَال: māl, ‘wealth’."
+            }
+          },
+          {
+            "arabic": "كَبِير",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَبِير: kabīr, ‘big’."
+            }
+          },
+          {
+            "arabic": "يَقُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَقُول: yaqūl, ‘he says’."
+            }
+          },
+          {
+            "arabic": "بَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَاب: bāb, ‘a door’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جَدِيد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَدِيد: jadīd, ‘new’."
+            }
+          },
+          {
+            "arabic": "طُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طُول: ṭūl, ‘length’."
+            }
+          },
+          {
+            "arabic": "نَار",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَار: nār, ‘fire’."
+            }
+          },
+          {
+            "arabic": "سَعِيد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَعِيد: saʿīd, ‘happy’."
+            }
+          },
+          {
+            "arabic": "يَكُون",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَكُون: yakūn, ‘he is’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَدِينَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَدِينَة: madīnah, ‘a city’."
+            }
+          },
+          {
+            "arabic": "قَال",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَال: qāl, ‘he said’."
+            }
+          },
+          {
+            "arabic": "مَعْلُوم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَعْلُوم: maʿlūm, ‘known’."
+            }
+          },
+          {
+            "arabic": "قَرِيب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَرِيب: qarīb, ‘near’."
+            }
+          },
+          {
+            "arabic": "حِسَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حِسَاب: ḥisāb, ‘a reckoning’. Word twenty — is this ā still as long as word one?"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — the real anchor",
+      "instructions": "110:2. Read it slowly with a finger tap on each long vowel, then at pace with no taps, then against a reciter.",
+      "grid": [
+        [
+          {
+            "arabic": "يَدْخُلُونَ فِى دِينِ ٱللَّهِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَدْخُلُونَ فِى دِينِ ٱللَّهِ (110:2): yadkhulūna fī dīni-llāh. Three madds in five words — و after a ḍamma, then ي after a kasra twice."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — the boundary, recognition only",
+      "instructions": "Point at each و or ي and say ‘madd’ or ‘not madd’. Do NOT try to read the not-madd ones any particular way — identifying them is all you are asked for today.",
+      "grid": [
+        [
+          {
+            "arabic": "بَيْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَيْت: bayt, ‘a house’. NOT MADD — the ي is sākin after a fatḥa."
+            }
+          },
+          {
+            "arabic": "سِير",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِير: sīr. MADD — ي sākin after a kasra."
+            }
+          },
+          {
+            "arabic": "خَوْف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خَوْف: khawf, ‘fear’. NOT MADD — the و is sākin after a fatḥa."
+            }
+          },
+          {
+            "arabic": "نُور",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نُور: nūr. MADD — و after a ḍamma."
+            }
+          },
+          {
+            "arabic": "يَوْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَوْم: yawm, ‘a day’. NOT MADD."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَقُول",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَقُول: yaqūl. MADD."
+            }
+          },
+          {
+            "arabic": "صَيْف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَيْف: ṣayf, ‘summer’. NOT MADD."
+            }
+          },
+          {
+            "arabic": "دِين",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دِين: dīn. MADD."
+            }
+          },
+          {
+            "arabic": "قَوْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَوْم: qawm, ‘a people’. NOT MADD."
+            }
+          },
+          {
+            "arabic": "قِيل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِيل: qīl. MADD."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — sukūn first, then the vowel in front",
+      "items": [
+        {
+          "arabic": "قَل",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَل: qal. One count."
+          }
+        },
+        {
+          "arabic": "قَال",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَال: qāl. Two counts. Different word."
+          }
+        },
+        {
+          "arabic": "يَقُول",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "يَقُول: yaqūl. و sākin after a ḍamma — madd."
+          }
+        },
+        {
+          "arabic": "قِيل",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قِيل: qīl. ي sākin after a kasra — madd."
+          }
+        },
+        {
+          "arabic": "وَلَد",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَلَد: walad. The و carries a fatḥa — consonant, not madd."
+          }
+        },
+        {
+          "arabic": "بَيْت",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَيْت: bayt. ي sākin after a fatḥa — not a madd. Soft and short; lesson 2-08 owns it."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحْمَٰنِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلرَّحْمَٰنِ: ar-Raḥmān. The dagger alif gets its full two counts."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Three minutes — Drill 1. Read across, two taps on the long word. Every day; this is the pair that keeps the contrast alive.",
+        "Four minutes — Drill 2. One block per day rotating, or all three if there is time.",
+        "Three minutes — Drills 3 and 7. Name it before you read it. The naming is the drill.",
+        "Three minutes — Drill 4. Dagger alifs, full length.",
+        "Five minutes — Drill 5, recorded. Record it on day one and day five and compare the two. This is the most useful five minutes in the week: it is the only way to see whether the length is holding under fatigue.",
+        "Two minutes — Drill 6. 110:2 against a reciter.",
+        "Bring to the next session: the day-one and day-five recordings of Drill 5, and the word number where the length first started to slip. We will start the next lesson from that word."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — short against long",
+        "instructions": "Read across. One tap left, two taps right. Different words, not two speeds.",
+        "grid": [
+          [
+            {
+              "arabic": "قَل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَل: qal, ‘he became less’. One tap."
+              }
+            },
+            {
+              "arabic": "قَال",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَال: qāl, ‘he said’. Two taps. Different word, not a longer version of the same one."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَلِم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَلِم: ʿalim, ‘he knew’."
+              }
+            },
+            {
+              "arabic": "عَالِم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَالِم: ʿālim, ‘a scholar’. Two taps on the ā."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سُر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُر: sur."
+              }
+            },
+            {
+              "arabic": "سُور",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُور: sūr, ‘a wall’. Two taps on the ū."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قُل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُل: qul, ‘say’."
+              }
+            },
+            {
+              "arabic": "قُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُول: qūl. Two taps on the ū."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سِر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِر: sir, ‘a secret’."
+              }
+            },
+            {
+              "arabic": "سِير",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِير: sīr. Two taps on the ī."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دَرَس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرَس: darasa, ‘he studied’."
+              }
+            },
+            {
+              "arabic": "دَارِس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَارِس: dāris, ‘a student’. Two taps on the ā."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the three conditions",
+        "instructions": "Alif after fatḥa, wāw after ḍamma, yāʾ after kasra. Two counts on every one.",
+        "grid": [
+          [
+            {
+              "arabic": "قَال",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَال: qāl, ‘he said’. Alif after a fatḥa — two counts."
+              }
+            },
+            {
+              "arabic": "بَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَاب: bāb, ‘a door’."
+              }
+            },
+            {
+              "arabic": "كِتَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَاب: kitāb, ‘a book’."
+              }
+            },
+            {
+              "arabic": "سَلَام",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَلَام: salām, ‘peace’."
+              }
+            },
+            {
+              "arabic": "نَار",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَار: nār, ‘fire’."
+              }
+            },
+            {
+              "arabic": "مَال",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَال: māl, ‘wealth’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَقُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَقُول: yaqūl, ‘he says’. Wāw sākin after a ḍamma — two counts."
+              }
+            },
+            {
+              "arabic": "نُور",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نُور: nūr, ‘light’."
+              }
+            },
+            {
+              "arabic": "سُوق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُوق: sūq, ‘a market’."
+              }
+            },
+            {
+              "arabic": "طُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طُول: ṭūl, ‘length’."
+              }
+            },
+            {
+              "arabic": "يَكُون",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَكُون: yakūn, ‘he is’."
+              }
+            },
+            {
+              "arabic": "مَوْجُود",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَوْجُود: mawjūd, ‘present’. The first و is NOT a madd — it follows a fatḥa. The second one is."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قِيل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِيل: qīl, ‘it was said’. Yāʾ sākin after a kasra — two counts."
+              }
+            },
+            {
+              "arabic": "دِين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دِين: dīn, ‘religion’."
+              }
+            },
+            {
+              "arabic": "طَوِيل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَوِيل: ṭawīl, ‘long’."
+              }
+            },
+            {
+              "arabic": "كَبِير",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَبِير: kabīr, ‘big’."
+              }
+            },
+            {
+              "arabic": "جَدِيد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَدِيد: jadīd, ‘new’."
+              }
+            },
+            {
+              "arabic": "سَعِيد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَعِيد: saʿīd, ‘happy’."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — consonant or long vowel?",
+        "instructions": "Name it, then read it. One word in the set is neither — find it.",
+        "grid": [
+          [
+            {
+              "arabic": "وَلَد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَد: walad, ‘a boy’. CONSONANT — the و carries a fatḥa, so it is a w."
+              }
+            },
+            {
+              "arabic": "يَقُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَقُول: yaqūl. LONG VOWEL — the و is sākin after a ḍamma. Two counts."
+              }
+            },
+            {
+              "arabic": "يَد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَد: yad, ‘a hand’. CONSONANT — the ي carries a fatḥa."
+              }
+            },
+            {
+              "arabic": "دِين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دِين: dīn. LONG VOWEL — ي sākin after a kasra."
+              }
+            },
+            {
+              "arabic": "وَقْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَقْت: waqt, ‘time’. CONSONANT — the و carries a fatḥa."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نُور",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نُور: nūr. LONG VOWEL — و sākin after a ḍamma."
+              }
+            },
+            {
+              "arabic": "يَوْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَوْم: yawm, ‘a day’. NEITHER — the و is sākin but sits after a FATḤA, so the vowel does not match. This is the one word in the row that is next lesson's business. Read it soft and short."
+              }
+            },
+            {
+              "arabic": "قِيل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِيل: qīl. LONG VOWEL — ي sākin after a kasra."
+              }
+            },
+            {
+              "arabic": "وَرَقَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَرَقَة: waraqah, ‘a sheet of paper’. CONSONANT — the و carries a fatḥa."
+              }
+            },
+            {
+              "arabic": "طُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طُول: ṭūl. LONG VOWEL — و sākin after a ḍamma."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — dagger alif",
+        "instructions": "Two counts on the small stroke. Trace it with a pencil as you read.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلرَّحْمَٰن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلرَّحْمَٰن: ar-Raḥmān. The small vertical stroke is a full alif — give it two counts. Not ar-Raḥman."
+              }
+            },
+            {
+              "arabic": "هَٰذَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هَٰذَا: hādhā, ‘this’. Dagger alif on the first syllable, written alif on the second. Both two counts."
+              }
+            },
+            {
+              "arabic": "ذَٰلِك",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذَٰلِك: dhālik, ‘that’. Two counts on the stroke."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَٰكِن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لَٰكِن: lākin, ‘but’. Two counts on the stroke."
+              }
+            },
+            {
+              "arabic": "ٱلسَّمَٰوَات",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلسَّمَٰوَات: as-samāwāt, ‘the heavens’. Dagger alif in the middle of the word."
+              }
+            },
+            {
+              "arabic": "إِلَٰه",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "إِلَٰه: ilāh, ‘a god’. Two counts on the stroke."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — hold it under load",
+        "instructions": "Twenty words at identical length throughout. Record and play back.",
+        "grid": [
+          [
+            {
+              "arabic": "كِتَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَاب: kitāb, ‘a book’. Two counts on the ā."
+              }
+            },
+            {
+              "arabic": "نُور",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نُور: nūr, ‘light’."
+              }
+            },
+            {
+              "arabic": "دِين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دِين: dīn, ‘religion’."
+              }
+            },
+            {
+              "arabic": "سَلَام",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَلَام: salām, ‘peace’."
+              }
+            },
+            {
+              "arabic": "طَوِيل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَوِيل: ṭawīl, ‘long’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سُوق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُوق: sūq, ‘a market’."
+              }
+            },
+            {
+              "arabic": "مَال",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَال: māl, ‘wealth’."
+              }
+            },
+            {
+              "arabic": "كَبِير",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَبِير: kabīr, ‘big’."
+              }
+            },
+            {
+              "arabic": "يَقُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَقُول: yaqūl, ‘he says’."
+              }
+            },
+            {
+              "arabic": "بَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَاب: bāb, ‘a door’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "جَدِيد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَدِيد: jadīd, ‘new’."
+              }
+            },
+            {
+              "arabic": "طُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طُول: ṭūl, ‘length’."
+              }
+            },
+            {
+              "arabic": "نَار",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَار: nār, ‘fire’."
+              }
+            },
+            {
+              "arabic": "سَعِيد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَعِيد: saʿīd, ‘happy’."
+              }
+            },
+            {
+              "arabic": "يَكُون",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَكُون: yakūn, ‘he is’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مَدِينَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَدِينَة: madīnah, ‘a city’."
+              }
+            },
+            {
+              "arabic": "قَال",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَال: qāl, ‘he said’."
+              }
+            },
+            {
+              "arabic": "مَعْلُوم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَعْلُوم: maʿlūm, ‘known’."
+              }
+            },
+            {
+              "arabic": "قَرِيب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَرِيب: qarīb, ‘near’."
+              }
+            },
+            {
+              "arabic": "حِسَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حِسَاب: ḥisāb, ‘a reckoning’. Word twenty — is this ā still as long as word one?"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — madd or not madd",
+        "instructions": "Say ‘madd’ or ‘not madd’. Recognition only — do not try to read the not-madd ones any particular way.",
+        "grid": [
+          [
+            {
+              "arabic": "بَيْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَيْت: bayt, ‘a house’. NOT MADD — the ي is sākin after a fatḥa."
+              }
+            },
+            {
+              "arabic": "سِير",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِير: sīr. MADD — ي sākin after a kasra."
+              }
+            },
+            {
+              "arabic": "خَوْف",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خَوْف: khawf, ‘fear’. NOT MADD — the و is sākin after a fatḥa."
+              }
+            },
+            {
+              "arabic": "نُور",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نُور: nūr. MADD — و after a ḍamma."
+              }
+            },
+            {
+              "arabic": "يَوْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَوْم: yawm, ‘a day’. NOT MADD."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَقُول",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَقُول: yaqūl. MADD."
+              }
+            },
+            {
+              "arabic": "صَيْف",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَيْف: ṣayf, ‘summer’. NOT MADD."
+              }
+            },
+            {
+              "arabic": "دِين",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دِين: dīn. MADD."
+              }
+            },
+            {
+              "arabic": "قَوْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَوْم: qawm, ‘a people’. NOT MADD."
+              }
+            },
+            {
+              "arabic": "قِيل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِيل: qīl. MADD."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1 read across, two taps on the long word — every day, to keep the contrast alive",
+      "Drill 2 — one block per day rotating (alif, wāw, yāʾ), or all three if there is time",
+      "Drills 3 and 7 — name it before you read it; the naming is the drill",
+      "Drill 4 — dagger alifs at full length",
+      "Drill 5 recorded — on day one and day five, then compare the two",
+      "Drill 6 — 110:2 against a reciter"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Say قَل and قَال and ask her which one she just heard. Then again in the other order. Then a third pair: عَلِم / عَالِم.",
+      "Give the corrective sentence plainly, because it contradicts a lifetime of habit: in Arabic, length is not decoration and it is not style — a long vowel and a short vowel are different letters and they make different words.",
+      "Name the specific risk out loud, because it is hers: ‘You are going to shorten these. Not because you cannot hear them — because the language you think in does not need them, and it will take the shortcut whenever you stop watching.’ Arabic vocabulary reached Uzbek largely through Persian, which had already flattened the long/short distinction. This is the single error that will follow her through every remaining lesson.",
+      "Say that she has been reading these letters as long vowels since Unit 1.2 — this lesson is not new sounds, it is the system behind sounds she already makes. Same move as lesson 2-06.",
+      "State the condition once, in the exact shape she will apply it: the letter is sākin AND the vowel before it matches. Have her say a— and then ā, so she feels that the second is the first, continued.",
+      "Note that the alif is the easy one and move on: an alif is always sākin and always preceded by a fatḥa, once you set aside the alif carrying a hamza, which she has read as a hamza-seat since 1-13.",
+      "Spend the core of the lesson on و and ي, which need a decision. Teach it as two questions asked in order: does it have a sukūn? does the vowel in front of it match? Two yeses, it lengthens.",
+      "Fix the length at two counts and give her a measurement she can use alone: tap a finger twice, evenly, at about walking pace, and have the vowel fill both taps. Set the tempo BEFORE the word — a count decided mid-vowel is always short.",
+      "Teach the dagger alif, because the mushaf is full of it. Show her three on a real page. Students who miss this read ar-Raḥman with a short a for years.",
+      "Give the small circle one minute — recognition only, no elaboration.",
+      "Be very clear about both boundaries. DO NOT TEACH LEEN TODAY: her instruction is one sentence and no more — read a و or ي sākin after a fatḥa soft and short, and what it does at a stop is the next lesson. This lesson owns identifying them; 2-08 owns treating them. For the long madds, give the honest working rule: if the mushaf prints the extra sign, hold it longer and copy the reciter; otherwise, two.",
+      "Finish on consistency, not on knowledge. Read the cold column and listen to whether the length is the same on word twenty as on word one. Knowing the rule is a ten-minute job; holding it under fatigue is the whole term.",
+      "Teacher note on 110:2: the best single line in the short surahs for this lesson — a wāw madd and two yāʾ madds in five words, with no leen and no long madd to complicate it. Use it as the main reading anchor. Teacher note on 106:2: use it last, and only to point at the two boundaries. Read it for her; it is there so she meets both edges of the rule from a real page, not so she can analyse it."
+    ],
+    "listenFor": [
+      {
+        "item": "Every ordinary long vowel filling a full two counts",
+        "commonMistake": "Long vowels coming out short — kitab for kitāb. A long vowel you could not fit two taps into.",
+        "whyItHappens": "The priority L1 error for this student. Uzbek's Arabic vocabulary came through Persian, which had already collapsed vowel length. She is not being careless — she is speaking the version of these words she has heard all her life.",
+        "correctionCue": "Tap twice and have her fill both taps. Never say ‘longer’ — give the beat. ‘Longer’ produces one-and-a-half counts, every time.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-07-Madd-Letters.md"
+      },
+      {
+        "item": "The same length on word twenty as on word one",
+        "commonMistake": "The length shortening as the column goes on — word one correct, word fifteen half-length.",
+        "whyItHappens": "The correct length is still conscious, and conscious control is the first thing that goes under load. Exactly the same profile as the sukūn collapse in lesson 2-03.",
+        "correctionCue": "Do not interrupt — mark the word number where it starts, tell her afterwards, and have her re-read from that word only. Fixing the collapse point is worth more than re-reading the column.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-07-Madd-Letters.md"
+      },
+      {
+        "item": "Two counts, not three or four, on an ordinary madd",
+        "commonMistake": "Over-lengthening — a swelling, sung vowel, usually in a student who has just been corrected for shortening, or one who listens to slow reciters.",
+        "whyItHappens": "Over-correction, plus melodic imitation. A reciter in slow tartīl stretches everything; she is copying the performance rather than the count.",
+        "correctionCue": "‘Two, not as long as you can.’ Read the word yourself at the target length immediately — the model does more than the instruction.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-07-Madd-Letters.md"
+      },
+      {
+        "item": "A leen letter (و or ي sākin after a fatḥa) read soft and short, not stretched",
+        "commonMistake": "Stretching it — bayyt, khawwf. A lengthened و or ي after a fatḥa.",
+        "whyItHappens": "She has just been told that و and ي lengthen, and she is applying it to every و and ي on the page. This is the predictable cost of teaching the rule, and it is why Drill 7 exists.",
+        "correctionCue": "‘Which vowel is in front of it?’ Make her name it. A fatḥa in front of a و or ي is the disqualifier — and the answer to her next question is ‘lesson 2-08’.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-07-Madd-Letters.md"
+      },
+      {
+        "item": "A vowelled و or ي read as a consonant, not as a long vowel",
+        "commonMistake": "Reading a consonant و or ي as a long vowel — ūlad for walad. A word with a beat too many at the start.",
+        "whyItHappens": "She has stopped checking for the sukūn and is deciding by letter identity alone — the same fault as bouncing a vowelled د in lesson 2-04.",
+        "correctionCue": "‘Sukūn first, then the vowel in front.’ Two questions, in that order, out loud until it is automatic.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-07-Madd-Letters.md"
+      },
+      {
+        "item": "The dagger alif given its full two counts",
+        "commonMistake": "Missing it — ar-Raḥman with a short a, in ٱلرَّحْمَٰن, هَٰذَا, ذَٰلِك.",
+        "whyItHappens": "The stroke is small, sits where a sukūn or a fatḥa would sit, and looks like a diacritic rather than a letter.",
+        "correctionCue": "‘That stroke is an alif. Give it its two counts.’ Have her trace over it with a pencil in three words on a real page — the hand fixes what the eye skims.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-07-Madd-Letters.md"
+      },
+      {
+        "item": "A letter marked with the small circle left unpronounced",
+        "commonMistake": "Pronouncing it — an extra syllable in ءَامَنُوا۟ and similar words.",
+        "whyItHappens": "She has been taught for fifteen lessons that letters get said.",
+        "correctionCue": "‘Circle means silent.’ One sentence, no elaboration — it is a recognition fact, not a rule.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-07-Madd-Letters.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Three minutes on Drill 1 read across with two taps on the long word, every day, because it is the pair that keeps the contrast alive. Four minutes on Drill 2, one block per day rotating or all three if there is time. Three minutes on Drills 3 and 7, naming each item before reading it — the naming is the drill. Three minutes on Drill 4, dagger alifs at full length. Five minutes on Drill 5 recorded on day one and again on day five, then compared: this is the most useful five minutes in the week, and the only way to see whether the length is holding under fatigue. Two minutes on 110:2 against a reciter. She brings back both recordings and the word number where the length first started to slip, and the next lesson starts from that word."
+  },
+  "videos": []
+}
