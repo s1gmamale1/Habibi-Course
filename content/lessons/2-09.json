@@ -1,0 +1,891 @@
+{
+  "id": "2-09",
+  "phase": 2,
+  "draft": true,
+  "unit": "2.2",
+  "title": "Hamzat al-waṣl in full",
+  "objectives": [
+    "Student can decide, unaided, which of the three vowels (a / u / i) to put on a waṣl hamzah when starting on the word.",
+    "Student can drop the waṣl hamzah completely when joining, including after a word ending in a sukūn, where a helping vowel appears on the previous word instead.",
+    "Student can read a waṣl hamzah followed by a shadda — ٱلصَّمَدُ, ٱلنَّاسِ — as one fused sound rather than two.",
+    "Student can point to a ٱ and a أ on a real page and say which one disappears."
+  ],
+  "prerequisites": [
+    "2-04",
+    "2-08"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.9 — Hamzat al-waṣl in full",
+      "arabicDecor": "ٱ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Five words, one letter, four different right answers",
+      "body": [
+        "Read these five, starting fresh on each one. Do not join them.",
+        "You will read all five the same way, almost certainly all with a kasrah: il-ḥamdu, idkhulū, imshū, ibnu, ihdinā. Two of those are right — by accident.",
+        "In 1-13 you learned that this letter disappears when you join. What you were not told is what to do when you START on it.",
+        "And from 2-12 onward you will be starting on words all the time, because you will be stopping and resuming. So this is not grammar. This is the tool you need next week."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْحَمْدُ",
+          "translit": "al-ḥamdu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَمْدُ (1:2) — the article. Start with a FATḤAH: al-ḥamdu."
+          }
+        },
+        {
+          "arabic": "ٱدْخُلُوا۟",
+          "translit": "udkhulū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱدْخُلُوا۟ (16:32) — command of يَدْخُلُ, which has a ḍammah. Start with a ḌAMMAH: udkhulū."
+          }
+        },
+        {
+          "arabic": "ٱمْشُوا۟",
+          "translit": "imshū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱمْشُوا۟ (38:6) — the ḍammah here is only temporary, so it does not count. Start with a KASRAH: imshū."
+          }
+        },
+        {
+          "arabic": "ٱبْنُ",
+          "translit": "ibnu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱبْنُ (3:45) — one of the seven nouns. Start with a KASRAH: ibnu."
+          }
+        },
+        {
+          "arabic": "ٱهْدِنَا",
+          "translit": "ihdinā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱهْدِنَا (1:6) — command of يَهْدِى, which has a kasrah. Start with a KASRAH: ihdinā."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Why it exists at all — thirty seconds, not longer",
+      "body": [
+        "Arabic will not begin a word on a sākin letter.",
+        "ٱلْحَمْدُ really begins with a sākin lām. So a prop is added at the front to lean on.",
+        "Once there is a previous word to lean on instead, the prop is not needed and it vanishes.",
+        "That is the whole justification. It makes every branch below feel like arithmetic rather than a list — which is why it is worth thirty seconds and not five minutes."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Joining: it disappears",
+      "body": [
+        "وَٱسْتَغْفِرْهُ is wastaghfirhu. Not wa-istaghfirhu.",
+        "Say both. The second has a bump in it — a small cough between the wāw and the sīn. That bump is the error, and you can hear it without being told.",
+        "Read 110:3 joined, ten times. Then once starting from وَٱسْتَغْفِرْهُ. The two readings genuinely differ, and that difference is the entire lesson."
+      ],
+      "items": [
+        {
+          "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ",
+          "translit": "fasabbiḥ bi-ḥamdi rabbika wastaghfirh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "110:3 joined — fasabbiḥ bi-ḥamdi rabbika wastaghfirh. The alif of ٱسْتَغْفِرْ is written and not sounded."
+          }
+        },
+        {
+          "arabic": "وَٱسْتَغْفِرْهُ",
+          "translit": "wastaghfirhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَٱسْتَغْفِرْهُ — as written, the hamzah is silent: wastaghfirhu. Started on its own, it would be istaghfirhu, a long verb taking a kasrah."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "And something happens next door",
+      "body": [
+        "This is the part usually left out. When the PREVIOUS word ends in a sukūn, dropping the hamzah would collide two sākin letters — so the previous word borrows a vowel.",
+        "قَالَتِ ٱلْمَلَٰٓئِكَةُ — the tāʾ was sākin and takes a helping KASRAH: qālati-l-malāʾikatu.",
+        "عَلَيْكُمُ ٱدْخُلُوا۟ — the mīm was sākin and takes a helping ḌAMMAH: ʿalaykumu-dkhulū.",
+        "أَنِ ٱمْشُوا۟ — the nūn was sākin and takes a helping kasrah: ani-mshū.",
+        "The muṣḥaf has already printed the helping vowel for you. Your job is to NOT add a second one on the hamzah. This is the most common single error in the whole lesson."
+      ],
+      "items": [
+        {
+          "arabic": "قَالَتِ ٱلْمَلَٰٓئِكَةُ",
+          "translit": "qālati-l-malāʾikatu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "3:45 — qālati-l-malāʾikatu. One kasrah, on the tāʾ, and then straight into the lām. Nothing at all where the ٱ is written."
+          }
+        },
+        {
+          "arabic": "سَلَٰمٌ عَلَيْكُمُ ٱدْخُلُوا۟",
+          "translit": "salāmun ʿalaykumu-dkhulū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "16:32 — salāmun ʿalaykumu-dkhulū. The helping ḍammah on the mīm, in a real phrase rather than in isolation."
+          }
+        },
+        {
+          "arabic": "أَنِ ٱمْشُوا۟",
+          "translit": "ani-mshū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "38:6 — ani-mshū. The helping kasrah on the nūn."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Branch A — is it ٱل, the article? Then fatḥah. Always.",
+      "body": [
+        "No exceptions, no thinking, no looking anything up.",
+        "If the word starts with ٱل and you are starting on it, the vowel is an a.",
+        "This branch covers the large majority of the waṣl hamzahs you will ever meet, which is exactly why the kasrah habit is so costly: it is wrong on the commonest case."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْحَمْدُ",
+          "translit": "al-ḥamdu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَمْدُ (1:2) → al-ḥamdu."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحْمَٰنِ",
+          "translit": "ar-raḥmān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلرَّحْمَٰنِ (1:1) → ar-raḥmān. Sun letter — the lām is not heard, but the vowel is still a fatḥah."
+          }
+        },
+        {
+          "arabic": "ٱلنَّاسِ",
+          "translit": "an-nās",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلنَّاسِ (114:1) → an-nās."
+          }
+        },
+        {
+          "arabic": "ٱلْفَلَقِ",
+          "translit": "al-falaq",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْفَلَقِ (113:1) → al-falaq. This is the one you will need when you resume after a stop in 2-12."
+          }
+        },
+        {
+          "arabic": "ٱلْكَوْثَرَ",
+          "translit": "al-kawthar",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْكَوْثَرَ (108:1) → al-kawthar. Moon lām audible, then the līn wāw from 2-08."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Branch B — is it one of the seven nouns? Then kasrah.",
+      "body": [
+        "There are seven in the whole Qurʾān. You can hold seven.",
+        "ٱسْم · ٱبْن · ٱبْنَة · ٱمْرُؤ · ٱمْرَأَة · ٱثْنَان · ٱثْنَتَان",
+        "Say them aloud in order, morning and evening, until they are automatic. This is a list, not a skill — memorise it and stop thinking about it.",
+        "Two of them are in the hifz set, so you will meet them for real."
+      ],
+      "items": [
+        {
+          "arabic": "عِيسَى ٱبْنُ مَرْيَمَ",
+          "translit": "ʿīsa-bnu maryam",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "3:45 — joined it is ʿīsa-bnu maryam, with nothing where the ٱ is. Start on ٱبْنُ and it is ibnu."
+          }
+        },
+        {
+          "arabic": "وَٱمْرَأَتُهُۥ",
+          "translit": "wa-mraʾatuhū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَٱمْرَأَتُهُۥ (111:4) — joined after the wāw it is wa-mraʾatuhū. Started on it, imraʾatuhū. This one is on the last page of the muṣḥaf, so you meet it again in 2-14."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Branch C — is it a verb? Say the present tense in your head first.",
+      "body": [
+        "Long verbs, five or six letters, past or command → kasrah. Just count the letters: ٱسْتَغْفِرْ, ٱنطَلَقَ, ٱقْتَرَبَ.",
+        "Command of a three-letter verb → look at the present tense. Third letter has an original ḍammah → ḍammah. يَدْخُلُ has a ḍammah, so ٱدْخُلُوا۟ is udkhulū.",
+        "Third letter has a fatḥah or a kasrah → kasrah. يَهْدِى has a kasrah, so ٱهْدِنَا is ihdinā.",
+        "Learn the trick, not the table. Say the present tense in your head first, and you can do this on any verb you have ever heard, without knowing a word of grammar terminology.",
+        "One exception worth naming once: if that ḍammah is only there temporarily, because a weak letter dropped out, it does not count — go back to kasrah. أَنِ ٱمْشُوا۟ is imshū, not umshū. Do not try to learn how to spot a temporary ḍammah; this is a lookup, not a skill."
+      ],
+      "items": [
+        {
+          "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ",
+          "translit": "ihdina-ṣ-ṣirāṭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:6 — start on it and it is ihdina-ṣ-ṣirāṭ. From يَهْدِى, a kasrah."
+          }
+        },
+        {
+          "arabic": "ٱدْخُلُوا۟ ٱلْجَنَّةَ",
+          "translit": "udkhulu-l-jannah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "16:32 — start on it and it is udkhulu-l-jannah. From يَدْخُلُ, a ḍammah."
+          }
+        },
+        {
+          "arabic": "ٱمْشُوا۟",
+          "translit": "imshū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱمْشُوا۟ (38:6) — the exception. The ḍammah is ʿāriḍ, from a dropped weak letter, so: imshū."
+          }
+        },
+        {
+          "arabic": "وَٱسْتَغْفِرْهُ",
+          "translit": "istaghfir / wastaghfirhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱسْتَغْفِرْ — six letters, so a kasrah: istaghfir. Written with the wāw in front, the hamzah is silent: wastaghfirhu."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The present-tense trick",
+      "instructions": "I give you a command. You say the present tense out loud FIRST, then read the command with the right vowel. Non-Qurʾānic on purpose — nothing here can be recalled, only worked out.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱكْتُبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَكْتُبُ — ḍammah on the tāʾ → uktub."
+            }
+          },
+          {
+            "arabic": "ٱجْلِسْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَجْلِسُ — kasrah on the lām → ijlis."
+            }
+          },
+          {
+            "arabic": "ٱفْتَحْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَفْتَحُ — fatḥah on the tāʾ → iftaḥ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱنظُرْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَنظُرُ — ḍammah on the ẓāʾ → unẓur."
+            }
+          },
+          {
+            "arabic": "ٱذْهَبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَذْهَبُ — fatḥah on the hāʾ → idhhab."
+            }
+          },
+          {
+            "arabic": "ٱضْرِبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَضْرِبُ — kasrah on the rāʾ → iḍrib."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "When a shadda follows — what changes, and what does not",
+      "body": [
+        "Does ٱلصَّمَدُ start with a fatḥah or a kasrah?",
+        "Fatḥah. It is Branch A, the article, and nothing overrides Branch A.",
+        "But what you HEAR is aṣ-ṣamad, with no lām at all, because the lām has assimilated into the ṣād and been written as a shadda.",
+        "The shadda changes what you hear. It does not change the vowel you start with. This is exactly where learners 'correct' themselves into an error.",
+        "And the doubled letter still has to be HELD. aṣ-ṣamad with a short ṣād is a different error wearing this rule's clothes — check the hold, not just the vowel."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْحَمْدُ",
+          "translit": "al-ḥamdu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَمْدُ — fatḥah, and the lām is audible: al-ḥamdu."
+          }
+        },
+        {
+          "arabic": "ٱلصَّمَدُ",
+          "translit": "aṣ-ṣamadu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلصَّمَدُ (112:2) — fatḥah, lām gone, ṣād doubled and held: aṣ-ṣamadu."
+          }
+        },
+        {
+          "arabic": "ٱلنَّاسِ",
+          "translit": "an-nāsi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلنَّاسِ (114:1) — fatḥah, lām gone, nūn doubled: an-nāsi."
+          }
+        },
+        {
+          "arabic": "ٱللَّهُ",
+          "translit": "Allāhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱللَّهُ (112:2) — fatḥah, doubled lām, and heavy: Allāhu."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Starting on ٱئْ — recognise it, do not drill it",
+      "body": [
+        "If the waṣl hamzah is followed by a sākin hamzah, starting on the word turns that second hamzah into a long vowel matching the first.",
+        "ٱئْتِ is started as īti (10:15).",
+        "It does not occur in the hifz set. You need to recognise it, not produce it.",
+        "Mentioned once, shown once, and left alone. It is fully covered for whenever it turns up in real reading."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Spot the two hamzahs",
+      "instructions": "Do not read yet. Circle every ٱ in pencil and box every أ or إ. When you are done, tell me the difference in one sentence. The ones on the right of each row are qaṭʿ — they are NEVER silent.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْحَمْدُ",
+            "translit": "al-ḥamdu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱ — waṣl. Silent when joined, fatḥah when started."
+            }
+          },
+          {
+            "arabic": "ٱهْدِنَا",
+            "translit": "ihdinā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱ — waṣl. Silent when joined, kasrah when started."
+            }
+          },
+          {
+            "arabic": "ٱلصَّمَدُ",
+            "translit": "aṣ-ṣamadu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱ — waṣl. Silent when joined, fatḥah when started."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَنْعَمْتَ",
+            "translit": "anʿamta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أ — qaṭʿ (1:7). Pronounced in every position, always. anʿamta."
+            }
+          },
+          {
+            "arabic": "أَعُوذُ",
+            "translit": "aʿūdhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أ — qaṭʿ (113:1). aʿūdhu. Never silent, no matter what precedes it."
+            }
+          },
+          {
+            "arabic": "إِذَا",
+            "translit": "idhā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إ — qaṭʿ (110:1). idhā. Never silent."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Start it, then join it",
+      "instructions": "I say a word twice. The first time, start on it. The second time I give you a word to join from, and you give me both readings back to back. The pair is the point — one word, two correct sounds.",
+      "grid": [
+        [
+          {
+            "arabic": "وَٱسْتَغْفِرْهُ",
+            "translit": "istaghfir / wastaghfir",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Started: istaghfir. Joined: wastaghfir. Say them back to back and hear the hamzah go."
+            }
+          },
+          {
+            "arabic": "ٱلْحَمْدُ لِلَّهِ",
+            "translit": "al-ḥamdu lillāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Started: al-ḥamdu lillāh. There is no join before it here, so the fatḥah is live."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱهْدِنَا",
+            "translit": "ihdinā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Started: ihdinā. Joined after an āyah-end pause you still START, so it is still ihdinā."
+            }
+          },
+          {
+            "arabic": "عِيسَى ٱبْنُ",
+            "translit": "ibnu / ʿīsa-bnu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Started on ٱبْنُ: ibnu. Joined from عِيسَى: ʿīsa-bnu, with nothing where the alif is."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "No bump",
+      "instructions": "Read each one joined. I am listening for exactly one thing: a cough in the middle. If I hear a glottal stop, we go back to the start-then-join drill.",
+      "grid": [
+        [
+          {
+            "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ",
+            "translit": "…rabbika wastaghfirh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "fasabbiḥ bi-ḥamdi rabbika wastaghfirh — one continuous sound. No new breath before the sīn."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قَالَتِ ٱلْمَلَٰٓئِكَةُ",
+            "translit": "qālati-l-malāʾikatu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "qālati-l-malāʾikatu — that kasrah is the bridge. Once you have crossed it you are already inside the next word; there is nothing left to start."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَلَيْكُمُ ٱدْخُلُوا۟",
+            "translit": "ʿalaykumu-dkhulū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ʿalaykumu-dkhulū — the helping ḍammah, then straight into the dāl."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عِيسَى ٱبْنُ مَرْيَمَ",
+            "translit": "ʿīsa-bnu maryam",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ʿīsa-bnu maryam — the alif of ٱبْنُ is a step, not a sound."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+            "translit": "wa-mraʾatuhū ḥammālata-l-ḥaṭab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "wa-mraʾatuhū ḥammālata-l-ḥaṭab — two waṣl hamzahs in three words, both silent."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "A negative example worth five seconds",
+      "body": [
+        "فَلْيَعْبُدُوا۟ (106:3) contains no waṣl hamzah at all.",
+        "The فَ and the لْ are already in front of the verb, so there is nothing sākin at the start and nothing to prop up.",
+        "Use it as a check: the hamzah exists to solve a problem. Where the problem is already solved, the hamzah is not there."
+      ],
+      "items": [
+        {
+          "arabic": "فَلْيَعْبُدُوا۟",
+          "translit": "fal-yaʿbudū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فَلْيَعْبُدُوا۟ (106:3) — no ٱ anywhere. fal-yaʿbudū."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "The decision, in the order you run it",
+      "items": [
+        {
+          "arabic": "ٱلْحَمْدُ",
+          "translit": "al-ḥamdu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Is it ٱل? → FATḤAH. Always. Stop thinking."
+          }
+        },
+        {
+          "arabic": "ٱبْنُ",
+          "translit": "ibnu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "One of the seven nouns? → KASRAH."
+          }
+        },
+        {
+          "arabic": "ٱدْخُلُوا۟",
+          "translit": "udkhulū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A verb whose present tense has a ḍammah on the third letter? → ḌAMMAH."
+          }
+        },
+        {
+          "arabic": "ٱهْدِنَا",
+          "translit": "ihdinā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A verb whose present tense has a fatḥah or kasrah? → KASRAH. Long verbs: kasrah too."
+          }
+        },
+        {
+          "arabic": "أَنْعَمْتَ",
+          "translit": "anʿamta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "And if it is a أ or إ — none of this applies. It is qaṭʿ, and it is pronounced everywhere."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Take Sūrat al-Fātiḥa and mark every ٱ and every أ / إ. Counting the basmalah as āyah 1, there are fourteen waṣl hamzahs and three qaṭʿ hamzahs. Find them all — if your count is short, you have missed one inside a word, not at the start of one.",
+        "For each ٱ you marked, write the vowel you would use if you started there. Bring the sheet; we check it together, not you alone.",
+        "The seven nouns aloud, morning and evening: ٱسْم · ٱبْن · ٱبْنَة · ٱمْرُؤ · ٱمْرَأَة · ٱثْنَان · ٱثْنَتَان.",
+        "Read 110:3 ten times joined, then once starting from وَٱسْتَغْفِرْهُ. Notice that the two readings genuinely differ. That difference is the entire lesson."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The present-tense trick",
+        "instructions": "Say the present tense out loud first, then read the command. Non-Qurʾānic, so it cannot be recalled — only worked out.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱكْتُبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَكْتُبُ → uktub."
+              }
+            },
+            {
+              "arabic": "ٱجْلِسْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَجْلِسُ → ijlis."
+              }
+            },
+            {
+              "arabic": "ٱفْتَحْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَفْتَحُ → iftaḥ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱنظُرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَنظُرُ → unẓur."
+              }
+            },
+            {
+              "arabic": "ٱذْهَبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَذْهَبُ → idhhab."
+              }
+            },
+            {
+              "arabic": "ٱضْرِبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَضْرِبُ → iḍrib."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "No bump",
+        "instructions": "Joined, every time. One continuous sound, no glottal stop where the ٱ is written.",
+        "grid": [
+          [
+            {
+              "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ",
+              "translit": "…rabbika wastaghfirh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "…rabbika wastaghfirh — no cough between the wāw and the sīn."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قَالَتِ ٱلْمَلَٰٓئِكَةُ",
+              "translit": "qālati-l-malāʾikatu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "qālati-l-malāʾikatu — one kasrah only, on the tāʾ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَلَيْكُمُ ٱدْخُلُوا۟",
+              "translit": "ʿalaykumu-dkhulū",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ʿalaykumu-dkhulū — helping ḍammah, then straight on."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عِيسَى ٱبْنُ مَرْيَمَ",
+              "translit": "ʿīsa-bnu maryam",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ʿīsa-bnu maryam."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Article, noun or verb — call the vowel",
+        "instructions": "Say the vowel before you read the word. a, u or i. Then read it.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "translit": "al-ḥamdu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "a — article."
+              }
+            },
+            {
+              "arabic": "ٱلصِّرَٰطَ",
+              "translit": "aṣ-ṣirāṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "a — article."
+              }
+            },
+            {
+              "arabic": "ٱلصَّمَدُ",
+              "translit": "aṣ-ṣamadu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "a — article, sun letter, held."
+              }
+            },
+            {
+              "arabic": "ٱلْحَطَبِ",
+              "translit": "al-ḥaṭab",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "a — article."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱبْنُ",
+              "translit": "ibnu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "i — one of the seven nouns."
+              }
+            },
+            {
+              "arabic": "وَٱمْرَأَتُهُۥ",
+              "translit": "imraʾatuhū",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "i — one of the seven nouns: imraʾatuhū."
+              }
+            },
+            {
+              "arabic": "ٱهْدِنَا",
+              "translit": "ihdinā",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "i — يَهْدِى has a kasrah."
+              }
+            },
+            {
+              "arabic": "ٱدْخُلُوا۟",
+              "translit": "udkhulū",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "u — يَدْخُلُ has a ḍammah."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The shadda check",
+        "instructions": "Start on each one. The vowel is a fatḥah every time. Then check the HOLD on the doubled letter — a short ṣād is the error hiding behind a correct vowel.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلصَّمَدُ",
+              "translit": "aṣ-ṣamadu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aṣ-ṣamadu — hold the ṣād."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاسِ",
+              "translit": "an-nāsi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "an-nāsi — hold the nūn."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "translit": "ar-raḥmān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ar-raḥmān — hold the rāʾ."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The seven nouns aloud, morning and evening, in order",
+      "The present-tense trick on all six commands — present tense out loud first",
+      "The 'no bump' set, joined, listening for a cough in the middle",
+      "110:3 ten times joined, then once starting from وَٱسْتَغْفِرْهُ",
+      "Al-Fātiḥa with every ٱ and every أ / إ marked, and the starting vowel written beside each ٱ"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the five-word hook and let her read all five wrong. She will use a kasrah on all of them. Do not correct as she goes — the value is in her hearing five identical readings and then being told that four different answers were required.",
+      "Give the 'why it exists' explanation ONCE, in thirty seconds, and move on. It converts the branches from a list into arithmetic. Dwelling on it converts the lesson into grammar, which is exactly what it must not become.",
+      "Teach JOINING before STARTING. This is the ordering that matters: joining is what she already half-knows from 1-13, and it makes the starting vowels feel like the missing half rather than a new subject.",
+      "The helping-vowel case — قَالَتِ ٱلْمَلَٰٓئِكَةُ, عَلَيْكُمُ ٱدْخُلُوا۟ — is the piece most courses leave out and it produces the single most common error in this lesson. Tell her outright that the muṣḥaf has already printed the helping vowel, so she reads it rather than computing it.",
+      "Branch A is the whole game. Drill 'is it ٱل? then a' until it is reflexive, because the kasrah-everywhere habit is wrong precisely on the commonest case.",
+      "For Branch B, treat the seven nouns as a memorised list and say so. Do not derive them, do not explain why they are seven. It is a lookup.",
+      "For Branch C, teach the TRICK and not the table: say the present tense in your head first. She can run that on any verb she has ever heard. The table is for you, not for her.",
+      "Mention the ʿāriḍ-ḍammah exception once, hand her the affected words, and refuse to teach how to spot one. It is a lookup, and treating it as a skill costs an hour and buys nothing in the hifz range.",
+      "§4, the shadda case, is where a student 'corrects' herself into an error. Make the split explicit: the shadda changes what you HEAR, not the vowel you START with. Then check the hold separately — a correct vowel on an unheld ṣād is still wrong.",
+      "Flag ٱئْ once and drill it never. Recognition only.",
+      "Close by pointing forward: from 2-12 she will be stopping and resuming constantly, and every resume is a start. That is what makes today's three branches a working tool rather than a piece of theory."
+    ],
+    "listenFor": [
+      {
+        "item": "At a start, a clean single vowel on the alif — one of a, u or i, chosen deliberately rather than defaulted to.",
+        "commonMistake": "Every waṣl hamzah started with a kasrah — il-ḥamdu, idkhulū.",
+        "whyItHappens": "Kasrah is the default in most cases she has heard, and it is also the shape of the isolated إ she learned in 1-13. She has generalised from a majority, which is the correct instinct applied to the wrong feature.",
+        "correctionCue": "Is it ٱل? Then it's an a — every time, no thinking. Only verbs need thought.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      },
+      {
+        "item": "At a join, NOTHING at all where the hamzah is written, and the vowel landing on the last letter of the previous word.",
+        "commonMistake": "An audible glottal stop mid-phrase — wa-istaghfirhu, ʿalaykum idkhulū.",
+        "whyItHappens": "Two causes needing different fixes. Either she is reading word-by-word rather than in phrases, so every word is a 'start'; or she carries a Persian- or Urdu-influenced habit of preserving the glottal onset. Test which by asking for the same phrase at speed — if the bump vanishes, it is the first cause.",
+        "correctionCue": "Slide the last letter of the first word straight into the next one. No new breath. Wastaghfirhu — one word, as far as your mouth is concerned.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      },
+      {
+        "item": "One helping vowel only, on the previous word, with the hamzah completely gone.",
+        "commonMistake": "Doubling up the vowel — قَالَتِ ٱلْمَلَٰٓئِكَةُ read as qālati-ilmalāʾikatu, with both the helping kasrah AND a started hamzah.",
+        "whyItHappens": "She has correctly noticed the printed kasrah on the tāʾ, treated it as belonging to the previous word only, and then started the next word fresh.",
+        "correctionCue": "That kasrah is the bridge. Once you've crossed it, you're already inside the next word — there's nothing left to start.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      },
+      {
+        "item": "A sun-letter article read as one fused, held sound — aṣ-ṣamad with the ṣād genuinely doubled.",
+        "commonMistake": "al-ṣamad — pronouncing the lām before a sun letter.",
+        "whyItHappens": "She can see a lām on the page, and she has just been told the article takes a fatḥah, so she reads what is written rather than what the shadda instructs.",
+        "correctionCue": "The shadda IS the lām. It moved into the next letter. Say the ṣād twice and don't say the lām at all.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Lam-Shamsiyyah.md"
+      },
+      {
+        "item": "The doubled letter after the article actually HELD, not merely acknowledged.",
+        "commonMistake": "aṣ-ṣamad with a ṣād no longer than a plain one — the lām correctly dropped, the doubling correctly identified, and no duration produced.",
+        "whyItHappens": "The rule has become familiar, so it is being treated as a fact to acknowledge rather than a duration to produce. Knowledge stays; execution decays.",
+        "correctionCue": "Lean on it. Stay on the ṣād until I nod, then move.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Shiddah.md"
+      }
+    ],
+    "homework": "Daily: the seven nouns aloud morning and evening; the six present-tense-trick commands, present tense said out loud first; the 'no bump' set read joined. Once in the week, on paper: Sūrat al-Fātiḥa with every ٱ and every أ / إ marked — fourteen waṣl and three qaṭʿ, counting the basmalah as āyah 1 — and the starting vowel written beside each ٱ. She brings the sheet and it is checked together, not alone. Plus 110:3 ten times joined and once started from وَٱسْتَغْفِرْهُ, so she hears that one word has two correct readings."
+  },
+  "videos": []
+}

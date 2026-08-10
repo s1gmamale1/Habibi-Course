@@ -1,0 +1,841 @@
+{
+  "id": "2-14",
+  "phase": 2,
+  "draft": true,
+  "unit": "2.3",
+  "title": "First muṣḥaf page",
+  "objectives": [
+    "Student can read one full page of a plain Uthmani muṣḥaf aloud, unaided, from a copy with no colour coding, no transliteration and no teacher prompting.",
+    "Student can plan and execute her own stops across a whole page, not just a sentence.",
+    "Student can distinguish READING the page from RECITING it from memory, and can prove she is reading.",
+    "Student can name what she does NOT yet know on the page, and carry on regardless."
+  ],
+  "prerequisites": [
+    "2-12",
+    "2-13"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.14 — First muṣḥaf page",
+      "arabicDecor": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Can you read this?",
+      "body": [
+        "Do not start with the page. Start with the muṣḥaf closed, in her hands, and one question: can you read this?",
+        "Whatever she answers, open it to the last page and say: read it.",
+        "Then be quiet. Do not help. Do not correct. Let her get to the end.",
+        "The reading will not be clean, and that is not the point of this lesson. Say so before she starts worrying about it.",
+        "Nine lessons ago you could not read a word of this. You are about to read a page of it. Errors today are data, not verdicts."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The page — and why this one",
+      "body": [
+        "The final page of the muṣḥaf: Sūrat al-Masad (111), al-Ikhlāṣ (112), al-Falaq (113) and an-Nās (114). In the standard King Fahd Madinah layout this is page 604.",
+        "Before the lesson, open your own copy to the last page and check what is on it. Page breaks differ between editions and some begin the page at al-Ikhlāṣ. Whatever your copy's final page holds, THAT is the page for this lesson — every surah in that range is in the course's hifz set either way.",
+        "It is a genuinely full page of continuous text, not a short opening.",
+        "It contains, between four surahs, almost every mark Unit 2 taught: sun and moon lāms, shaddas, tanwīn in all three forms, madd letters, a six-count-shaped word, a samāʿī waṣl noun, and thirty-odd stops.",
+        "And it ends the muṣḥaf. Finishing Unit 2 on the last page of the book is worth the small theatre it costs.",
+        "No colour muṣḥaf today. Plain Uthmani text, exactly as Checkpoint 2 and the final Test 1 use it. Colour is a later teaching aid, and introducing it here would let her read the colours instead of the letters."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Everything on this page, and where you learned it",
+      "body": [
+        "Lay this out for her explicitly. It is the moment the unit becomes visible as a structure rather than a sequence of sessions.",
+        "Short vowels, sukūn, hamza in all five seats — 1-13.",
+        "Tanwīn in all three forms — 2-01, 2-02. Sukūn clusters, as in وَلَمْ يَكُن — 2-03, 2-04.",
+        "Shadda and sun letters, as in تَبَّتْ, ٱلنَّاسِ, ٱلصَّمَدُ — 2-05, 2-06.",
+        "Madd letters and the daggered alif, as in أَعُوذُ and ٱلنَّفَّٰثَٰتِ — 2-07. The long madd before a hamzah, as in يَدَآ — 2-08.",
+        "The waṣl hamzah in all three starting vowels, as in وَٱمْرَأَتُهُۥ — 2-09. And stopping: ḥarakah drops, ة becomes هْ, long vowel stretches — 2-12, 2-13."
+      ],
+      "items": [
+        {
+          "arabic": "وَلَمْ يَكُن",
+          "translit": "wa-lam yakun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:4 — a sukūn cluster, from 2-03 and 2-04."
+          }
+        },
+        {
+          "arabic": "تَبَّتْ",
+          "translit": "tabbat",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:1 — a shadda held, then a final sukūn. 2-05."
+          }
+        },
+        {
+          "arabic": "أَعُوذُ",
+          "translit": "aʿūdhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:1 — a madd wāw, two counts. 2-07."
+          }
+        },
+        {
+          "arabic": "يَدَآ",
+          "translit": "yadā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:1 — the long madd before a hamzah. 2-08."
+          }
+        },
+        {
+          "arabic": "وَٱمْرَأَتُهُۥ",
+          "translit": "wa-mraʾatuhū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:4 — a samāʿī waṣl noun. Joined: wa-mraʾatuhū. Started: imraʾatuhū. 2-09."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The two things to ignore — told BEFORE she reads",
+      "body": [
+        "Naming what to ignore is as important as naming what to read. An adult who hits an unexplained symbol mid-page will stop and ask, and the momentum this lesson is built on will be gone.",
+        "One: the small superscript letters — the ۢ over أَحَدٌۢ in 112:4, and the ۭ shapes elsewhere. These are tajweed instructions and they belong to Unit 3. Today: ignore them completely. Read the word as if they were not there.",
+        "Two: the little circles and the letters above the line. The circle with a number in it is an āyah end and a safe stop. Everything else above the line, ignore.",
+        "Give the permission again at the start of the second read. Once is not enough."
+      ],
+      "items": [
+        {
+          "arabic": "أَحَدٌۢ",
+          "translit": "aḥad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:4 — أَحَدٌۢ. The small superscript mīm is not yours yet. Read it as aḥad and go straight past."
+          }
+        },
+        {
+          "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+          "translit": "wa-lam yakun lahū kufuwan aḥad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:4 whole — wa-lam yakun lahū kufuwan aḥad. A sukūn cluster, and one symbol to walk past."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Survey before reading — ten minutes, mouth closed",
+      "body": [
+        "Find the four surah headings. Four surahs on one page.",
+        "Count the āyah circles. Five, four, five, six — twenty.",
+        "Find every ٱ on the page and mark them lightly in pencil. Find every shadda.",
+        "Find the longest word on the page. It is ٱلنَّفَّٰثَٰتِ, in 113:4.",
+        "By the end of the survey the page has stopped being a wall of script and has become a set of objects you recognise.",
+        "This step is not optional and it is not a warm-up. It is the transferable skill: every unfamiliar page for the rest of your life gets surveyed like this."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلنَّفَّٰثَٰتِ",
+          "translit": "an-naffāthāti",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:4 — the longest word on the page, and the hardest. Two shaddas and two daggered alifs."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Draw the plan — across a whole page this time",
+      "body": [
+        "Pencil arcs, drawn by her, as in 2-13 — but now across a page rather than a sentence.",
+        "The default plan for this page is the easy one and she should use it: stop at every āyah end. Twenty āyāt, twenty stops.",
+        "Nothing on this page requires an internal stop, and the longest āyah is within an ordinary breath.",
+        "Check the plan before she reads. Then leave it alone. It is hers."
+      ],
+      "items": [
+        {
+          "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+          "translit": "wa-min sharri-n-naffāthāti fi-l-ʿuqad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:4 — one of the two longest āyāt on the page, and still one breath."
+          }
+        },
+        {
+          "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+          "translit": "alladhī yuwaswisu fī ṣudūri-n-nās",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:5 — the other. Also one breath. No internal stop needed anywhere on this page."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Prove it is reading, not reciting",
+      "body": [
+        "She knows these four surahs by heart. Every student who reaches this lesson does — that is what it means for the page to be in the hifz set — and a page recited from memory teaches nothing about reading.",
+        "So build the proof into the lesson. Four techniques; use at least two.",
+        "Finger under every word, moving, always. If the finger and the voice come apart, the memory has taken over.",
+        "Out of order: read āyah 4 of al-Falaq. Now āyah 2 of al-Masad. Now the last āyah on the page. Memory is sequential; reading is not.",
+        "Cover and name: a finger over a word, and what is under it? If she cannot say, she was not looking at it.",
+        "The wrong word: point at a word and read it aloud yourself, wrongly — al-nāsi for ٱلنَّاسِ. Ask if that was right. A reader catches it instantly; a reciter agrees.",
+        "Say the purpose out loud rather than testing her covertly: you know these surahs, that is good, and it is not what we are checking today. Today I need to know that your eyes can do it, because next week the page will be one you don't know."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلنَّاسِ",
+          "translit": "an-nāsi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:1 — ٱلنَّاسِ. Read it aloud wrongly as al-nāsi and see whether she catches it. A reader does, instantly."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The page, passage by passage — what each one tests",
+      "instructions": "Survey first, plan second, read third. Work these as the spine of the page; every one of them exercises something a different lesson taught.",
+      "grid": [
+        [
+          {
+            "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+            "translit": "tabbat yadā abī lahabin wa-tabb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:1 — shadda, a long madd, tanwīn, and a final shadda at the stop."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+            "translit": "wa-mraʾatuhū ḥammālata-l-ḥaṭab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:4 — the samāʿī waṣl noun, and a ة joined as a t."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+            "translit": "qul huwa-llāhu aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:1 — the dropped waṣl hamzah, then tanwīn ḍamm at the stop."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+            "translit": "wa-lam yakun lahū kufuwan aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 — a sukūn cluster, and the symbol to ignore."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+            "translit": "qul aʿūdhu bi-rabbi-l-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — a qaṭʿ hamzah, a madd wāw, then a joined waṣl hamzah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+            "translit": "wa-min sharri-n-naffāthāti fi-l-ʿuqad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:4 — the hardest word on the page."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+            "translit": "qul aʿūdhu bi-rabbi-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:1 — a sun-letter shadda after the article."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+            "translit": "mina-l-jinnati wa-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:6 — the last words of the muṣḥaf, and Unit 2's last stop."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Out of order",
+      "instructions": "I name an āyah; you find it and read it. Memory is sequential and reading is not, so this is the cleanest single proof that her eyes are doing the work.",
+      "grid": [
+        [
+          {
+            "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+            "translit": "wa-min sharri-n-naffāthāti fi-l-ʿuqad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "'Al-Falaq, āyah 4.'"
+            }
+          },
+          {
+            "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+            "translit": "allāhu-ṣ-ṣamad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "'Al-Ikhlāṣ, āyah 2.'"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+            "translit": "mina-l-jinnati wa-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "'The last āyah on the page.'"
+            }
+          },
+          {
+            "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+            "translit": "qul huwa-llāhu aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "'The shortest āyah on the page.'"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Cover and name",
+      "instructions": "I cover a word. You tell me what it is. If you cannot, you were reciting. These are the words worth covering, because each one is a word she can produce from memory without ever having looked at it.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلصَّمَدُ",
+            "translit": "aṣ-ṣamadu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Covered inside ٱللَّهُ ٱلصَّمَدُ. What is under my finger?"
+            }
+          },
+          {
+            "arabic": "حَمَّالَةَ",
+            "translit": "ḥammālata",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Covered inside 111:4. What is under my finger?"
+            }
+          },
+          {
+            "arabic": "ٱلْجِنَّةِ",
+            "translit": "al-jinnati",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Covered inside the last āyah. What is under my finger?"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaqi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Covered inside 113:1."
+            }
+          },
+          {
+            "arabic": "أَحَدٌ",
+            "translit": "aḥadun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Covered inside 112:1."
+            }
+          },
+          {
+            "arabic": "وَٱلنَّاسِ",
+            "translit": "wa-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Covered inside 114:6 — the very last word of the muṣḥaf."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The stops on this page",
+      "instructions": "Twenty āyāt, twenty stops. Read each of these stopping properly on the last word: the ḥarakah drops, a ة goes soft, a long vowel stretches. These six are the ones that catch people.",
+      "grid": [
+        [
+          {
+            "arabic": "أَحَدٌ",
+            "translit": "aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:1 — tanwīn ḍamm drops: aḥad."
+            }
+          },
+          {
+            "arabic": "ٱلصَّمَدُ",
+            "translit": "aṣ-ṣamad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:2 — ḥarakah drops: aṣ-ṣamad. Hold the doubled ṣād first."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — ḥarakah drops: al-falaq."
+            }
+          },
+          {
+            "arabic": "ٱلنَّاسِ",
+            "translit": "an-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:1 — ḥarakah drops and the alif stretches: an-nās."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلنَّفَّٰثَٰتِ",
+            "translit": "an-naffāthāti",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:4 — mid-āyah, so nothing drops here. Read it joined and keep going."
+            }
+          },
+          {
+            "arabic": "وَٱلنَّاسِ",
+            "translit": "wa-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:6 — the last stop of Unit 2. Hold the doubled nūn, then let the alif stretch."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The read — and you do not correct during it",
+      "body": [
+        "Whole page, aloud, uninterrupted. You do not correct while she reads. You take notes.",
+        "Log errors the way the checkpoint does — per letter and per rule, never only per passage. 'Three misses on stopping ة' names a lesson to redo. 'Messy on al-Falaq' names nothing.",
+        "Time it, and note where she slows. Slowing is not an error, but it maps her weak spots onto the page better than the error list does.",
+        "Then debrief, grouped by CAUSE and not by order of occurrence. Four causes, four addresses.",
+        "Decoding — a mark misread → 2-10. Joining — a bumped seam, a pronounced waṣl hamzah → 2-09, 2-11. Stopping — a ḥarakah kept, a ة as t, a clipped long vowel → 2-12, 2-13. Planning — a stop in the wrong place, breath gone → 2-13.",
+        "That grouping is exactly the revision map Checkpoint 2 will use, so running it here means the checkpoint's output format is already familiar."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Second read, and end there",
+      "body": [
+        "Same page, straight after the debrief.",
+        "It will be visibly better — and the improvement belongs to her rather than to your corrections, because you did not correct during the first read.",
+        "End the lesson there. Do not add anything after it.",
+        "Then, once, at the very end if there is time: open the muṣḥaf at random, anywhere, and read three lines. She will not know them. That is the point — three lines of an unfamiliar page is the honest measure of what Unit 2 gave her, and it is what Checkpoint 2 will ask for."
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "What you just did",
+      "items": [
+        {
+          "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+          "translit": "tabbat yadā abī lahabin wa-tabb",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "You read the first āyah of the page cold — a shadda, a long madd, a tanwīn and a final shadda at the stop."
+          }
+        },
+        {
+          "arabic": "وَٱمْرَأَتُهُۥ",
+          "translit": "imraʾatuhū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "You started on a samāʿī waṣl noun and got the vowel right without being told."
+          }
+        },
+        {
+          "arabic": "ٱلنَّفَّٰثَٰتِ",
+          "translit": "an-naffāthāti",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "You read the hardest word in the hifz set — the one you stalled on in 2-10."
+          }
+        },
+        {
+          "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+          "translit": "mina-l-jinnati wa-n-nās",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "And you finished the muṣḥaf. Nine lessons ago you could not read a word of this page."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "The page, once a day, out loud, finger under every word. Not from memory — from the page. If you catch yourself reciting, cover the next word with your thumb and uncover it one at a time.",
+        "Keep the marked copy with your breath arcs. Re-mark it fresh each week rather than reusing last week's, so the planning stays a live skill.",
+        "Three lines of an unfamiliar page, twice a week. Open anywhere. Read three lines. Write down what stopped you. This is the single most useful thing you can do between now and Checkpoint 2.",
+        "Bring the four error groups from the debrief — decoding, joining, stopping, planning — with your own count against each. You will need them: Checkpoint 2 is next, and it asks for exactly this, on a page you have never seen."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The page, passage by passage",
+        "instructions": "Survey, plan, read. Once a day, finger under every word, from the page and not from memory.",
+        "grid": [
+          [
+            {
+              "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+              "translit": "tabbat yadā abī lahabin wa-tabb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "shadda, long madd, tanwīn, final shadda at the stop."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+              "translit": "wa-mraʾatuhū ḥammālata-l-ḥaṭab",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "samāʿī waṣl noun; ة joined as a t."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+              "translit": "qul huwa-llāhu aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "dropped waṣl hamzah, tanwīn ḍamm at the stop."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+              "translit": "wa-lam yakun lahū kufuwan aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sukūn cluster; the symbol to ignore."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+              "translit": "qul aʿūdhu bi-rabbi-l-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "qaṭʿ hamzah, madd wāw, joined waṣl hamzah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+              "translit": "wa-min sharri-n-naffāthāti fi-l-ʿuqad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "the hardest word on the page."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+              "translit": "qul aʿūdhu bi-rabbi-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sun-letter shadda after the article."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+              "translit": "mina-l-jinnati wa-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "the last words of the muṣḥaf, and Unit 2's last stop."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Out of order",
+        "instructions": "Named at random, found and read. Memory is sequential; reading is not.",
+        "grid": [
+          [
+            {
+              "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+              "translit": "wa-min sharri-n-naffāthāti fi-l-ʿuqad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Al-Falaq 4."
+              }
+            },
+            {
+              "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+              "translit": "allāhu-ṣ-ṣamad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Al-Ikhlāṣ 2."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+              "translit": "mina-l-jinnati wa-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The last āyah on the page."
+              }
+            },
+            {
+              "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+              "translit": "qul huwa-llāhu aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The shortest āyah on the page."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cover and name",
+        "instructions": "A finger over the word; say what is under it. If you cannot, you were reciting.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلصَّمَدُ",
+              "translit": "aṣ-ṣamadu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aṣ-ṣamadu."
+              }
+            },
+            {
+              "arabic": "حَمَّالَةَ",
+              "translit": "ḥammālata",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ḥammālata."
+              }
+            },
+            {
+              "arabic": "ٱلْجِنَّةِ",
+              "translit": "al-jinnati",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-jinnati."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaqi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-falaqi."
+              }
+            },
+            {
+              "arabic": "أَحَدٌ",
+              "translit": "aḥadun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aḥadun."
+              }
+            },
+            {
+              "arabic": "وَٱلنَّاسِ",
+              "translit": "wa-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "wa-n-nās — the last word of the muṣḥaf."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The six stops that catch people",
+        "instructions": "Stop properly on each: ḥarakah drops, ة goes soft, long vowel stretches.",
+        "grid": [
+          [
+            {
+              "arabic": "أَحَدٌ",
+              "translit": "aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aḥad — tanwīn drops."
+              }
+            },
+            {
+              "arabic": "ٱلصَّمَدُ",
+              "translit": "aṣ-ṣamad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aṣ-ṣamad — hold the ṣād, then drop the ḥarakah."
+              }
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-falaq."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلنَّاسِ",
+              "translit": "an-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "an-nās — the alif stretches."
+              }
+            },
+            {
+              "arabic": "وَٱلنَّاسِ",
+              "translit": "wa-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "wa-n-nās — the last stop of Unit 2."
+              }
+            },
+            {
+              "arabic": "حَمَّالَةَ",
+              "translit": "ḥammālata",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Joined, so NOT a stop: ḥammālata, with the ة as a t. The contrast case."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The whole page once, out loud, finger under every word — from the page, not from memory",
+      "The breath arcs re-marked fresh, not reused from last week",
+      "Twice a week: three lines of an unfamiliar page, opened at random, with what stopped her written down",
+      "The four error groups — decoding, joining, stopping, planning — with her own count against each",
+      "If she catches herself reciting: thumb over the next word, uncovered one at a time"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "This is the payoff of the whole unit. Everything from 2-01 onward existed so that this lesson could happen — say that to her, because the structure only becomes visible if it is named.",
+      "Before the lesson, open YOUR copy to the last page and check what is actually on it. Page breaks differ between editions and some begin the page at al-Ikhlāṣ. Whatever your copy's final page holds is the page for this lesson; every surah in that range is in the hifz set either way.",
+      "Plain Uthmani text only. No colour muṣḥaf — Checkpoint 2 and Test 1 use plain text, and colour would let her read the colours instead of the letters.",
+      "Open with the muṣḥaf closed in her hands and the question 'can you read this?'. Then open it and say 'read it'. Then be quiet. Do not help, do not correct, let her reach the end.",
+      "Say before she starts that the reading will not be clean and that this is not what is being measured: errors today are data, not verdicts. Say it BEFORE, so she is not managing anxiety while reading.",
+      "Lay out the what-you-already-know table explicitly. This is the moment the unit stops being a sequence of sessions and becomes a structure she can see.",
+      "Name the two things to ignore BEFORE she reads: the small superscript letters (the ۢ over أَحَدٌۢ, the ۭ shapes) and everything above the line except the numbered circles. Naming what to ignore is as important as naming what to read — an adult who hits an unexplained symbol will stop and ask, and the momentum is gone.",
+      "Give that permission a second time at the start of the second read. Once is not enough.",
+      "The ten-minute silent survey is not a warm-up and it is not optional. It is the transferable skill: four headings, twenty circles, every ٱ, every shadda, the longest word. Every unfamiliar page for the rest of her life gets surveyed like this.",
+      "She draws the arcs. The default plan is the easy one and she should use it — stop at every āyah end, twenty āyāt, twenty stops. Nothing on this page needs an internal stop. Check the plan, then leave it alone; it is hers.",
+      "She knows all four surahs by heart, so build the reading-not-reciting proof into the lesson rather than hoping. Use at least two of: finger under every word, out of order, cover and name, the wrong word. State the purpose out loud instead of testing her covertly.",
+      "During the read: do not correct. Take notes. Log per letter and per rule, never only per passage — 'three misses on stopping ة' names a lesson, 'messy on al-Falaq' names nothing.",
+      "Time it and note where she slows. Slowing is not an error, but it maps her weak spots onto the page better than the error list does.",
+      "Debrief grouped by cause, not by order: decoding → 2-10; joining → 2-09 and 2-11; stopping → 2-12 and 2-13; planning → 2-13. This is exactly the revision map Checkpoint 2 uses, so running it here makes the checkpoint's output format already familiar.",
+      "Second read straight after the debrief, then END. The improvement belongs to her precisely because you did not correct during the first read — do not dilute that by adding anything afterwards."
+    ],
+    "listenFor": [
+      {
+        "item": "A page read at one steady pace with chosen stops, and — the marker that matters most today — eyes and voice moving together, the finger arriving at each word just before it is spoken.",
+        "commonMistake": "The reading is fluent and correct, and she is not looking at the page.",
+        "whyItHappens": "She knows these four surahs by heart. This is the central risk of the lesson and it produces a GOOD reading that measures nothing at all.",
+        "correctionCue": "Stop — read me āyah three of al-Falaq. Now the second word of al-Masad.",
+        "severityIfWrong": "khafi",
+        "source": "library/05-Pedagogy/Hifz-Method.md"
+      },
+      {
+        "item": "Unknown symbols walked straight past without a stall.",
+        "commonMistake": "She stalls completely at a symbol she does not recognise — the ۢ over أَحَدٌۢ, a waqf letter above the line.",
+        "whyItHappens": "She has been taught, correctly, that every mark means something, and she has no permission to skip one.",
+        "correctionCue": "That one isn't yours yet. Read straight past it — it's Unit 3.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Waqf-Signs.md"
+      },
+      {
+        "item": "Pace holding through and after the first real error.",
+        "commonMistake": "Momentum collapses after the first mistake — the pace drops and does not recover for the rest of the page.",
+        "whyItHappens": "She has started monitoring her own performance instead of reading, and monitoring consumes exactly the attention the reading needs.",
+        "correctionCue": "Keep going. I'm writing it down, so you don't have to remember it. Your only job is the next word.",
+        "severityIfWrong": "khafi",
+        "source": "library/05-Pedagogy/Assessment.md"
+      },
+      {
+        "item": "Stops as correct in the fourth surah as in the first.",
+        "commonMistake": "Stops are clean in al-Masad and degrade by an-Nās.",
+        "whyItHappens": "Fatigue. A page is genuinely longer than anything she has read, and this is the first time endurance has been a factor at all.",
+        "correctionCue": "Say nothing during the read. In the debrief: your stops were fine until āyah fourteen. That's stamina, not knowledge — and stamina is built by reading pages, which is exactly what you now do.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Waqf-Word-Changes.md"
+      },
+      {
+        "item": "The breath plan revised as the āyāt get longer down the page.",
+        "commonMistake": "Stopping mid-word when the breath runs out on a long āyah.",
+        "whyItHappens": "The plan was made for the first surah's short āyāt and never revisited for the longer ones later on the page.",
+        "correctionCue": "Back to the start of that word. Then re-mark your arcs from here to the bottom of the page.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Types.md"
+      }
+    ],
+    "homework": "Daily: the whole page once, out loud, finger under every word — from the page and not from memory, and if she catches herself reciting, the thumb goes over the next word and uncovers one at a time. Weekly: the breath arcs re-marked fresh rather than reused, so planning stays a live skill. Twice a week: three lines of an unfamiliar page, opened at random, with what stopped her written down — this is the single most useful thing she can do between now and Checkpoint 2. And she brings the four error groups from the debrief (decoding, joining, stopping, planning) with her own count against each, because Checkpoint 2 is next and asks for exactly this on a page she has never seen."
+  },
+  "videos": []
+}

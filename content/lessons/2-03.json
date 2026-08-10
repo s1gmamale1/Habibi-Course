@@ -1,0 +1,1260 @@
+{
+  "id": "2-03",
+  "phase": 2,
+  "unit": "2.1",
+  "title": "Sukūn I — harder clusters",
+  "objectives": [
+    "Student can read a word containing two separate sukūns — ٱلْحَمْدُ, وَٱلْعَصْرِ, ٱلْمُسْتَقِيمَ — without inserting a helper vowel at either one.",
+    "Student can carry a sukūn across a word boundary, so that مِنْ بَعْدِ and أَلَمْ نَشْرَحْ are read as one continuous piece.",
+    "Student can hold a sukūn on a letter that leaks — ر ل م ن — for its full length instead of swallowing it.",
+    "Student can read a mixed column of 20 two-sukūn words cold, at a steady pace, and self-check with the clap test."
+  ],
+  "prerequisites": [
+    "1-13",
+    "2-02"
+  ],
+  "stage": "Reading Mechanics",
+  "draft": true,
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.3 — Sukūn I: harder clusters",
+      "arabicDecor": "ٱلْحَمْدُ · وَٱلْعَصْرِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Al-ḥamdu, or al-ha-mu-du?",
+      "body": [
+        "Say both out loud. Which one have you been saying?",
+        "Now count the letters of ٱلْحَمْدُ together: alif — lām — ḥāʾ — mīm — dāl. Five letters, and only two of them have a vowel.",
+        "Here is the habit that has to change, and it is a habit of the eye, not of the mouth: a beginner reads the vowels and treats the sukūns as gaps to hurry past. Arabic is the other way round.",
+        "The closed letters carry as much time and as much weight as the open ones. The مْ in ٱلْحَمْدُ is a whole letter. It is just a letter with nothing after it.",
+        "A sukūn is not a pause and it is not a gap. It is a consonant with the door shut behind it."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْحَمْدُ لِلَّهِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَمْدُ لِلَّهِ (1:2): al-ḥamdu lillāh. Two sukūns in one short word — the لْ, then the مْ. Three beats, not four."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What is new today",
+      "body": [
+        "You have read sukūn since lesson 1-13, and you have read words containing one since then — بَعْد, عِلْم, شَمْس, صُبْح, عَظْم.",
+        "This lesson is not introducing the mark. It is increasing the load: more sukūns per word, sukūns on leakier letters, and sukūns that cross from one word into the next.",
+        "What you already know still holds. A fatḥa, kasra or ḍamma opens a letter; a sukūn closes it. بْ is just b. Two letters joined that way are one syllable in one beat — بَعْ is baʿ, not ba-ʿa. And a sukūn never lengthens a letter."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two sukūns in one word — build it, do not present it",
+      "body": [
+        "حَمْ — ḥam.",
+        "حَمْدُ — ḥamdu.",
+        "ٱلْحَمْدُ — al-ḥamdu.",
+        "Read each stage aloud before the next letter is added. The sukūn on the لْ and the sukūn on the مْ are both real. Neither one is a gap."
+      ],
+      "items": [
+        {
+          "arabic": "حَمْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "حَمْ: ḥam. Closed م, cut clean."
+          }
+        },
+        {
+          "arabic": "حَمْدُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "حَمْدُ: ḥamdu. Now the د opens with a ḍamma."
+          }
+        },
+        {
+          "arabic": "ٱلْحَمْدُ لِلَّهِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَمْدُ لِلَّهِ: al-ḥamdu lillāh. The whole thing, three beats."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The leaky letters — ر ل م ن و ي",
+      "body": [
+        "These six are voiced continuants: you can hum them for as long as your breath lasts. That makes them the easiest letters in the alphabet to over-run into a vowel.",
+        "قَلْب heard as qal-ub. صَبْر heard as ṣab-ur. عَصْر heard as ʿaṣ-ur.",
+        "Contrast a letter that cannot leak: تْ, كْ, سْ. A سْ ends when the air stops. A رْ ends only when you decide to end it.",
+        "The rule: a closed ر or ل or م or ن ends the moment your tongue leaves the position. Do not let your voice trail after it."
+      ],
+      "items": [
+        {
+          "arabic": "قَلْب",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَلْب: qalb, ‘a heart’. Closed ل. Say it wrong first — qal-ub — then right."
+          }
+        },
+        {
+          "arabic": "صَبْر",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "صَبْر: ṣabr, ‘patience’. Closed ر. Cut the sound the instant your tongue leaves the ridge."
+          }
+        },
+        {
+          "arabic": "عَصْر",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "عَصْر: ʿaṣr, ‘afternoon’. Closed ر. Do not let your voice trail after it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Carrying a sukūn into the next word",
+      "body": [
+        "أَلَمْ نَشْرَحْ is alam-nashraḥ, not alam · nashraḥ. The مْ finishes the first word and the ن starts the second with nothing in between.",
+        "This is the same thing as Drill 1 of lesson 2-02 — the phrase runs on. The only difference is that the joining sound is a closed consonant instead of an n.",
+        "The word ends. The sound does not."
+      ],
+      "items": [
+        {
+          "arabic": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ (94:1): alam nashraḥ laka ṣadrak. A مْ running into a نـ across the word boundary, a closed شْ, and a closed دْ."
+          }
+        },
+        {
+          "arabic": "وَٱلْعَصْرِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَٱلْعَصْرِ (103:1): wal-ʿaṣr. Four letters, two of them closed — لْ then ع, صْ then ر."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Longer words, and the door you are not opening",
+      "body": [
+        "ٱلْمُسْتَقِيمَ has two sukūns. يَسْتَغْفِر has three. Read them slowly, syllable by syllable, then at speed.",
+        "The pace matters. If you can read a two-sukūn word slowly but not at speed, you have not finished learning it — you have only decoded it.",
+        "What happens when a sukūn on the last letter of one word meets a sukūn on the first letter of the next is the next lesson. Today, every cluster is resolvable by reading exactly what is on the page."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْمُسْتَقِيمَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْمُسْتَقِيمَ (1:6): al-mustaqīm. Two clusters in one long word — لْ then م, سْ then ت."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — one sukūn, warm-up",
+      "instructions": "Read across, and clap on each stop. Do this before anything else — if a helper vowel is still appearing on a single sukūn, stop here and go back to lesson 1-13. Everything else in this lesson multiplies whatever error is already present.",
+      "grid": [
+        [
+          {
+            "arabic": "بَعْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَعْ: baʿ. One beat. The ع is closed — squeeze the middle of the throat shut and stop. Clap on the stop."
+            }
+          },
+          {
+            "arabic": "حَمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَمْ: ḥam. The م is closed and full size. Cut the hum the moment your lips meet."
+            }
+          },
+          {
+            "arabic": "قَلْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلْ: qal. The ل is a leaky letter — end it the instant your tongue leaves the ridge."
+            }
+          },
+          {
+            "arabic": "صَبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَبْ: ṣab. Lips closed, one beat, nothing after it."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَشْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَشْ: nash. The ش ends when the air stops. Nothing can trail off it."
+            }
+          },
+          {
+            "arabic": "عَصْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَصْ: ʿaṣ. Throat squeeze, then a closed ص. Two letters, one beat."
+            }
+          },
+          {
+            "arabic": "مُسْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُسْ: mus. Clean s, no vowel after it."
+            }
+          },
+          {
+            "arabic": "وَقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَقْ: waq. The ق is closed. If a small dry echo escapes, that is correct — it is the next lesson's business."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — the leaky four",
+      "instructions": "These all close on ر, ل, م or ن. Cut the sound the instant your tongue leaves the position. Say each word twice: once deliberately wrong, with a helper vowel — qal-ub — and once right. Hearing the wrong one on purpose is what makes the right one audible.",
+      "grid": [
+        [
+          {
+            "arabic": "قَلْب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلْب: qalb, ‘a heart’. Closed ل. Say it wrong first — qal-ub — then right."
+            }
+          },
+          {
+            "arabic": "صَبْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَبْر: ṣabr, ‘patience’. Closed ر. Cut the sound the instant your tongue leaves the ridge."
+            }
+          },
+          {
+            "arabic": "عَصْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَصْر: ʿaṣr, ‘afternoon’. Closed ر. Do not let your voice trail after it."
+            }
+          },
+          {
+            "arabic": "نَهْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَهْر: nahr, ‘a river’. Closed ر, no ‘uh’ on the end."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بَحْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَحْر: baḥr, ‘a sea’. Closed ر after a throat letter."
+            }
+          },
+          {
+            "arabic": "شَمْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَمْس: shams, ‘a sun’. Closed م — full size, and no hum trailing off it."
+            }
+          },
+          {
+            "arabic": "عِلْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عِلْم: ʿilm, ‘knowledge’. Closed ل then a closed م. Both full size."
+            }
+          },
+          {
+            "arabic": "فَجْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَجْر: fajr, ‘dawn’. Closed ر."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حَرْب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَرْب: ḥarb, ‘war’. Closed ر in the middle, closed ب at the end."
+            }
+          },
+          {
+            "arabic": "سَهْل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَهْل: sahl, ‘easy’. Closed ل — the leakiest of them all. Cut it."
+            }
+          },
+          {
+            "arabic": "جِسْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جِسْر: jisr, ‘a bridge’. Closed س then closed ر."
+            }
+          },
+          {
+            "arabic": "أَرْض",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَرْض: arḍ, ‘earth’. Closed ر, then a heavy ض."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — two sukūns in one word",
+      "instructions": "Build each one up letter by letter before you read it whole, then read it at speed.",
+      "grid": [
+        [
+          {
+            "arabic": "مَكْتَب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَكْتَب: maktab, ‘an office’. Build it: مَكْ — مَكْتَ — مَكْتَب. Two beats before the last vowel."
+            }
+          },
+          {
+            "arabic": "مَدْرَسَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَدْرَسَة: madrasah, ‘a school’. Build it: مَدْ — مَدْرَ — مَدْرَسَة."
+            }
+          },
+          {
+            "arabic": "مُسْتَشْفَى",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُسْتَشْفَى: mustashfā, ‘a hospital’. Two sukūns: مُسْ then تَشْ. Neither is a gap."
+            }
+          },
+          {
+            "arabic": "يَسْتَغْفِر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَسْتَغْفِر: yastaghfir, ‘he asks forgiveness’. Three sukūns. Slowly first, then at speed."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مُسْتَقِيم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُسْتَقِيم: mustaqīm, ‘straight’. مُسْ then تَ — the same shape as in al-Fātiḥah."
+            }
+          },
+          {
+            "arabic": "تَسْتَعْمِل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تَسْتَعْمِل: tastaʿmil, ‘you use’. تَسْ then تَعْ. The ع is closed and must be heard."
+            }
+          },
+          {
+            "arabic": "مُسْتَعْمَل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُسْتَعْمَل: mustaʿmal, ‘used’. Same two clusters, different vowels."
+            }
+          },
+          {
+            "arabic": "يَنْصَرِف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَنْصَرِف: yanṣarif, ‘he leaves’. Closed ن running straight into the ص."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — carrying the sukūn into the next word",
+      "instructions": "One breath per phrase, no gap at the join. Trace an unbroken line under both words with your finger as you read.",
+      "grid": [
+        [
+          {
+            "arabic": "مِنْ بَعْدِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِنْ بَعْدِ: min baʿdi, ‘after’. The ن finishes the first word and the ب starts the second with nothing in between."
+            }
+          },
+          {
+            "arabic": "مِنْ قَبْلِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِنْ قَبْلِ: min qabli, ‘before’. One breath. No gap at the join."
+            }
+          },
+          {
+            "arabic": "عَنْ عِلْمٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَنْ عِلْمٍ: ʿan ʿilmin, ‘from knowledge’. Closed ن into an open ع — two throat-adjacent sounds, no gap."
+            }
+          },
+          {
+            "arabic": "فِى بَيْتٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِى بَيْتٍ: fī baytin, ‘in a house’. Run it straight through."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَمْ نَقُلْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَمْ نَقُلْ: lam naqul, ‘we did not say’. The م closes the first word and the ن opens the second."
+            }
+          },
+          {
+            "arabic": "قُلْ لَهُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُلْ لَهُ: qul lahu, ‘say to him’. A closed ل touching an open ل. Do not break between them."
+            }
+          },
+          {
+            "arabic": "هَلْ مِنْ أَحَدٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هَلْ مِنْ أَحَدٍ: hal min aḥadin, ‘is there anyone?’. Three words, one unbroken piece."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — the two throat clusters",
+      "instructions": "These are the hardest in the lesson, because both sides of the cluster come from the throat. Slow first, then fast.",
+      "grid": [
+        [
+          {
+            "arabic": "وَٱنْحَرْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَٱنْحَرْ (108:2): wa-nḥar. A closed ن running straight into a ح — two throat-adjacent sounds with no vowel between them. The hardest ordinary cluster in the short surahs. Slow first."
+            }
+          },
+          {
+            "arabic": "مِنْ حَيْثُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِنْ حَيْثُ: min ḥaythu, ‘from where’. Same shape as وَٱنْحَرْ, across a word boundary."
+            }
+          },
+          {
+            "arabic": "عَنْ عَمَلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَنْ عَمَلٍ: ʿan ʿamalin, ‘from a deed’. Closed ن into an open ع."
+            }
+          },
+          {
+            "arabic": "لَمْ يَحْمِلْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَمْ يَحْمِلْ: lam yaḥmil, ‘he did not carry’. Closed م, then a closed ح inside the second word."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — cold column",
+      "instructions": "Twenty words, no warning. Time the second pass only. Accuracy first — a slow clean read beats a fast one with helper vowels in it, and always will.",
+      "grid": [
+        [
+          {
+            "arabic": "صُبْح",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صُبْح: ṣubḥ, ‘morning’."
+            }
+          },
+          {
+            "arabic": "وَقْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَقْت: waqt, ‘time’."
+            }
+          },
+          {
+            "arabic": "بِنْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بِنْت: bint, ‘a girl’."
+            }
+          },
+          {
+            "arabic": "عِنْد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عِنْد: ʿind, ‘at’."
+            }
+          },
+          {
+            "arabic": "قَلْب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلْب: qalb, ‘a heart’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَلْب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَلْب: kalb, ‘a dog’."
+            }
+          },
+          {
+            "arabic": "شَمْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَمْس: shams, ‘a sun’."
+            }
+          },
+          {
+            "arabic": "نَهْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَهْر: nahr, ‘a river’."
+            }
+          },
+          {
+            "arabic": "حَرْب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَرْب: ḥarb, ‘war’."
+            }
+          },
+          {
+            "arabic": "مَكْتَب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَكْتَب: maktab, ‘an office’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَجْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَجْر: fajr, ‘dawn’."
+            }
+          },
+          {
+            "arabic": "عَصْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَصْر: ʿaṣr, ‘afternoon’."
+            }
+          },
+          {
+            "arabic": "جِسْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جِسْر: jisr, ‘a bridge’."
+            }
+          },
+          {
+            "arabic": "أَرْض",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَرْض: arḍ, ‘earth’."
+            }
+          },
+          {
+            "arabic": "صَدْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَدْر: ṣadr, ‘a chest’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عِلْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عِلْم: ʿilm, ‘knowledge’."
+            }
+          },
+          {
+            "arabic": "بَحْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَحْر: baḥr, ‘a sea’."
+            }
+          },
+          {
+            "arabic": "سَهْل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَهْل: sahl, ‘easy’."
+            }
+          },
+          {
+            "arabic": "مَدْرَسَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَدْرَسَة: madrasah, ‘a school’."
+            }
+          },
+          {
+            "arabic": "مُسْتَقِيم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُسْتَقِيم: mustaqīm, ‘straight’."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — the closed letter is a full letter",
+      "items": [
+        {
+          "arabic": "بَعْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَعْ: baʿ. One beat, clapped."
+          }
+        },
+        {
+          "arabic": "قَلْب",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَلْب: qalb. A leaky ل, cut clean."
+          }
+        },
+        {
+          "arabic": "مَكْتَب",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مَكْتَب: maktab. Two sukūns, three beats."
+          }
+        },
+        {
+          "arabic": "مِنْ بَعْدِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مِنْ بَعْدِ: min baʿdi. The sukūn carried across the word boundary."
+          }
+        },
+        {
+          "arabic": "وَٱنْحَرْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَٱنْحَرْ (108:2): wa-nḥar. The hardest ordinary cluster in the short surahs."
+          }
+        },
+        {
+          "arabic": "ٱلْحَمْدُ لِلَّهِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْحَمْدُ لِلَّهِ (1:2): al-ḥamdu lillāh. Where the lesson started."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Two minutes — warm-up. Drill 1 with claps. Every day, without exception; it resets the beat.",
+        "Five minutes — Drill 2, the leaky four. Wrong version then right version for every word. This is the drill that fixes the trailing voice.",
+        "Four minutes — Drill 3. Build each word up letter by letter, then read it whole.",
+        "Four minutes — Drill 4. One breath per phrase. Record two of them and listen for a gap at the join.",
+        "Three minutes — Drill 6 cold column. Once slow, once timed. Write down the time; you are looking for it to come down across the week without the errors going up.",
+        "Bring to the next session: the word from Drill 6 that gives you the most trouble, and whether the problem is a helper vowel or a swallowed letter. Those are opposite fixes."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — one sukūn, warm-up",
+        "instructions": "Read across, clap on each stop. Every day; it resets the beat.",
+        "grid": [
+          [
+            {
+              "arabic": "بَعْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَعْ: baʿ. One beat. The ع is closed — squeeze the middle of the throat shut and stop. Clap on the stop."
+              }
+            },
+            {
+              "arabic": "حَمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَمْ: ḥam. The م is closed and full size. Cut the hum the moment your lips meet."
+              }
+            },
+            {
+              "arabic": "قَلْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلْ: qal. The ل is a leaky letter — end it the instant your tongue leaves the ridge."
+              }
+            },
+            {
+              "arabic": "صَبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَبْ: ṣab. Lips closed, one beat, nothing after it."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَشْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَشْ: nash. The ش ends when the air stops. Nothing can trail off it."
+              }
+            },
+            {
+              "arabic": "عَصْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَصْ: ʿaṣ. Throat squeeze, then a closed ص. Two letters, one beat."
+              }
+            },
+            {
+              "arabic": "مُسْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُسْ: mus. Clean s, no vowel after it."
+              }
+            },
+            {
+              "arabic": "وَقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَقْ: waq. The ق is closed. If a small dry echo escapes, that is correct — it is the next lesson's business."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the leaky four",
+        "instructions": "Say each word twice — once wrong with a helper vowel, once right. Cut the sound as the tongue leaves the position.",
+        "grid": [
+          [
+            {
+              "arabic": "قَلْب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلْب: qalb, ‘a heart’. Closed ل. Say it wrong first — qal-ub — then right."
+              }
+            },
+            {
+              "arabic": "صَبْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَبْر: ṣabr, ‘patience’. Closed ر. Cut the sound the instant your tongue leaves the ridge."
+              }
+            },
+            {
+              "arabic": "عَصْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَصْر: ʿaṣr, ‘afternoon’. Closed ر. Do not let your voice trail after it."
+              }
+            },
+            {
+              "arabic": "نَهْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَهْر: nahr, ‘a river’. Closed ر, no ‘uh’ on the end."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بَحْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَحْر: baḥr, ‘a sea’. Closed ر after a throat letter."
+              }
+            },
+            {
+              "arabic": "شَمْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَمْس: shams, ‘a sun’. Closed م — full size, and no hum trailing off it."
+              }
+            },
+            {
+              "arabic": "عِلْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عِلْم: ʿilm, ‘knowledge’. Closed ل then a closed م. Both full size."
+              }
+            },
+            {
+              "arabic": "فَجْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَجْر: fajr, ‘dawn’. Closed ر."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حَرْب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَرْب: ḥarb, ‘war’. Closed ر in the middle, closed ب at the end."
+              }
+            },
+            {
+              "arabic": "سَهْل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَهْل: sahl, ‘easy’. Closed ل — the leakiest of them all. Cut it."
+              }
+            },
+            {
+              "arabic": "جِسْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جِسْر: jisr, ‘a bridge’. Closed س then closed ر."
+              }
+            },
+            {
+              "arabic": "أَرْض",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَرْض: arḍ, ‘earth’. Closed ر, then a heavy ض."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — two sukūns in one word",
+        "instructions": "Build each word letter by letter, then read it whole and at speed.",
+        "grid": [
+          [
+            {
+              "arabic": "مَكْتَب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَكْتَب: maktab, ‘an office’. Build it: مَكْ — مَكْتَ — مَكْتَب. Two beats before the last vowel."
+              }
+            },
+            {
+              "arabic": "مَدْرَسَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَدْرَسَة: madrasah, ‘a school’. Build it: مَدْ — مَدْرَ — مَدْرَسَة."
+              }
+            },
+            {
+              "arabic": "مُسْتَشْفَى",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُسْتَشْفَى: mustashfā, ‘a hospital’. Two sukūns: مُسْ then تَشْ. Neither is a gap."
+              }
+            },
+            {
+              "arabic": "يَسْتَغْفِر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَسْتَغْفِر: yastaghfir, ‘he asks forgiveness’. Three sukūns. Slowly first, then at speed."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مُسْتَقِيم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُسْتَقِيم: mustaqīm, ‘straight’. مُسْ then تَ — the same shape as in al-Fātiḥah."
+              }
+            },
+            {
+              "arabic": "تَسْتَعْمِل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "تَسْتَعْمِل: tastaʿmil, ‘you use’. تَسْ then تَعْ. The ع is closed and must be heard."
+              }
+            },
+            {
+              "arabic": "مُسْتَعْمَل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُسْتَعْمَل: mustaʿmal, ‘used’. Same two clusters, different vowels."
+              }
+            },
+            {
+              "arabic": "يَنْصَرِف",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَنْصَرِف: yanṣarif, ‘he leaves’. Closed ن running straight into the ص."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — carrying the sukūn into the next word",
+        "instructions": "One breath per phrase. No gap at the join.",
+        "grid": [
+          [
+            {
+              "arabic": "مِنْ بَعْدِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِنْ بَعْدِ: min baʿdi, ‘after’. The ن finishes the first word and the ب starts the second with nothing in between."
+              }
+            },
+            {
+              "arabic": "مِنْ قَبْلِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِنْ قَبْلِ: min qabli, ‘before’. One breath. No gap at the join."
+              }
+            },
+            {
+              "arabic": "عَنْ عِلْمٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَنْ عِلْمٍ: ʿan ʿilmin, ‘from knowledge’. Closed ن into an open ع — two throat-adjacent sounds, no gap."
+              }
+            },
+            {
+              "arabic": "فِى بَيْتٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فِى بَيْتٍ: fī baytin, ‘in a house’. Run it straight through."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَمْ نَقُلْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لَمْ نَقُلْ: lam naqul, ‘we did not say’. The م closes the first word and the ن opens the second."
+              }
+            },
+            {
+              "arabic": "قُلْ لَهُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُلْ لَهُ: qul lahu, ‘say to him’. A closed ل touching an open ل. Do not break between them."
+              }
+            },
+            {
+              "arabic": "هَلْ مِنْ أَحَدٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هَلْ مِنْ أَحَدٍ: hal min aḥadin, ‘is there anyone?’. Three words, one unbroken piece."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — the two throat clusters",
+        "instructions": "Both sides of the cluster come from the throat. Slow, then fast.",
+        "grid": [
+          [
+            {
+              "arabic": "وَٱنْحَرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَٱنْحَرْ (108:2): wa-nḥar. A closed ن running straight into a ح — two throat-adjacent sounds with no vowel between them. The hardest ordinary cluster in the short surahs. Slow first."
+              }
+            },
+            {
+              "arabic": "مِنْ حَيْثُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِنْ حَيْثُ: min ḥaythu, ‘from where’. Same shape as وَٱنْحَرْ, across a word boundary."
+              }
+            },
+            {
+              "arabic": "عَنْ عَمَلٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَنْ عَمَلٍ: ʿan ʿamalin, ‘from a deed’. Closed ن into an open ع."
+              }
+            },
+            {
+              "arabic": "لَمْ يَحْمِلْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لَمْ يَحْمِلْ: lam yaḥmil, ‘he did not carry’. Closed م, then a closed ح inside the second word."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — cold column",
+        "instructions": "Twenty words, no warning. Time the second pass only, accuracy before speed.",
+        "grid": [
+          [
+            {
+              "arabic": "صُبْح",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صُبْح: ṣubḥ, ‘morning’."
+              }
+            },
+            {
+              "arabic": "وَقْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَقْت: waqt, ‘time’."
+              }
+            },
+            {
+              "arabic": "بِنْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بِنْت: bint, ‘a girl’."
+              }
+            },
+            {
+              "arabic": "عِنْد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عِنْد: ʿind, ‘at’."
+              }
+            },
+            {
+              "arabic": "قَلْب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلْب: qalb, ‘a heart’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَلْب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَلْب: kalb, ‘a dog’."
+              }
+            },
+            {
+              "arabic": "شَمْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَمْس: shams, ‘a sun’."
+              }
+            },
+            {
+              "arabic": "نَهْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَهْر: nahr, ‘a river’."
+              }
+            },
+            {
+              "arabic": "حَرْب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَرْب: ḥarb, ‘war’."
+              }
+            },
+            {
+              "arabic": "مَكْتَب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَكْتَب: maktab, ‘an office’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فَجْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَجْر: fajr, ‘dawn’."
+              }
+            },
+            {
+              "arabic": "عَصْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَصْر: ʿaṣr, ‘afternoon’."
+              }
+            },
+            {
+              "arabic": "جِسْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جِسْر: jisr, ‘a bridge’."
+              }
+            },
+            {
+              "arabic": "أَرْض",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَرْض: arḍ, ‘earth’."
+              }
+            },
+            {
+              "arabic": "صَدْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَدْر: ṣadr, ‘a chest’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عِلْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عِلْم: ʿilm, ‘knowledge’."
+              }
+            },
+            {
+              "arabic": "بَحْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَحْر: baḥr, ‘a sea’."
+              }
+            },
+            {
+              "arabic": "سَهْل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَهْل: sahl, ‘easy’."
+              }
+            },
+            {
+              "arabic": "مَدْرَسَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَدْرَسَة: madrasah, ‘a school’."
+              }
+            },
+            {
+              "arabic": "مُسْتَقِيم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُسْتَقِيم: mustaqīm, ‘straight’."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1 with claps — two minutes, every day without exception",
+      "Drill 2, the leaky four — wrong version then right version for every word",
+      "Drill 3 — build each word letter by letter, then read it whole",
+      "Drill 4 — one breath per phrase; record two and listen for a gap at the join",
+      "Drill 6 cold column — once slow, once timed, and write the time down"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Do not define anything. Say two words — ‘Al-ḥamdu. Al-ha-mu-du.’ — and ask which one she has been saying. Then write ٱلْحَمْدُ and count the letters together: five letters, only two with a vowel.",
+      "Give the corrective sentence you will repeat all lesson: a sukūn is not a pause and it is not a gap; it is a consonant with the door shut behind it.",
+      "Say the framing out loud — this lesson is not introducing the mark, it is increasing the load. It tells her why a familiar mark is getting a whole lesson.",
+      "Re-run the 1-13 diagnostic first, in sixty seconds: بَعْ, بَحْ, عَبْ, حَمْ with the clap. If a helper vowel is still there on a single sukūn, stop the lesson plan and drill 1-13's material instead. Everything below multiplies whatever error is already present.",
+      "Build ٱلْحَمْدُ in stages on the board — حَمْ, then حَمْدُ, then ٱلْحَمْدُ — reading each stage aloud before the next letter is added, so she sees the word assembled rather than presented.",
+      "Teach the leaky letters; this is the genuinely new content. ر ل م ن و ي are voiced continuants, so nothing physically stops them. Contrast with تْ, كْ, سْ: a سْ ends when the air stops, a رْ ends only when she decides to end it.",
+      "Teach the word boundary as the same thing as Drill 1 of lesson 2-02 — the phrase runs, only now the joining sound is a closed consonant instead of an n. Save وَٱنْحَرْ for last; it is the hardest ordinary cluster in the short surahs.",
+      "Do the three-and-four-sukūn words slowly, then at speed. A student who can read a two-sukūn word slowly but not at speed has not finished learning it, she has only decoded it.",
+      "Name the boundary you are not crossing — two sukūns colliding is the next lesson. Say the sentence and stop.",
+      "Teacher-only notes: 1:2 and 108:2 both contain a shadda; read it for her rather than explaining it, and keep the attention on the sukūns. In 94:1 the دال of صَدْرَكَ is a bouncing letter, which is tomorrow — if she bounces it spontaneously, tell her she is right and that you will name it next session. Keep قطب جد out of today's session even if she raises it."
+    ],
+    "listenFor": [
+      {
+        "item": "A two-sukūn word read in its correct number of beats",
+        "commonMistake": "A helper vowel inside the cluster — al-ha-mu-du. An extra beat: count the beats on your fingers as she reads, and if ٱلْحَمْدُ comes out as four, there is a vowel in there.",
+        "whyItHappens": "Uzbek, like Persian and Turkish before it, breaks up consonant clusters with a helper vowel. This is one of the most reliably transferred L1 habits and it is documented for the analogue languages. It is not carelessness and it will not go away by being pointed out once.",
+        "correctionCue": "‘Two beats, not three.’ Clap the target rhythm first, then have her read onto your claps.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-03-Sukun-I.md"
+      },
+      {
+        "item": "A closed ر, ل, م or ن cut off the moment the tongue leaves position",
+        "commonMistake": "Voice trailing off the closed letter — a faint ‘uh’ or a hum after the consonant. Quieter than a full helper vowel and easy to miss; record and play back at half speed if unsure.",
+        "whyItHappens": "These letters are voiced and can be sustained, so nothing physically stops them. Every other closed letter stops itself.",
+        "correctionCue": "‘Cut it.’ Make a scissor gesture with your fingers at the moment of the stop — a physical cue works better than a verbal one here, because the fault is a duration, not a sound.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-03-Sukun-I.md"
+      },
+      {
+        "item": "The closed letter at full size, neither vowelled nor shrunk",
+        "commonMistake": "Swallowing the closed letter entirely — ḥamdu becoming ḥadu. A missing consonant.",
+        "whyItHappens": "Over-correction. This is the opposite failure to the helper vowel and it usually appears right after you have corrected it — the instruction ‘no vowel after it’ gets heard as ‘make it small’.",
+        "correctionCue": "‘The letter is full size. Only the vowel is missing.’ Have her say the letter alone, held, then in the word.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-03-Sukun-I.md"
+      },
+      {
+        "item": "A sukūn carried across a word boundary with no break",
+        "commonMistake": "Pausing at the word boundary — alam · nashraḥ. A gap where the مْ meets the نـ.",
+        "whyItHappens": "A sukūn at the end of a word looks like the end of something, and fifteen lessons of single-word reading taught her to stop at the end of a word.",
+        "correctionCue": "‘The word ends, the sound does not.’ Trace an unbroken line under both words with your finger while she reads.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-03-Sukun-I.md"
+      },
+      {
+        "item": "Weight on the closed letter without any lengthening",
+        "commonMistake": "Reading the sukūn as a lengthening — ṣaaabr, a stretched vowel before the closed letter.",
+        "whyItHappens": "She is trying to give the closed letter its full weight — the thing you asked for — and the only tool she has for ‘more time’ so far is length.",
+        "correctionCue": "‘Weight, not length. Press it, do not stretch it.’ Worth catching now: lesson 2-07 gives her a mark that does mean lengthen, and the two must not blur.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-03-Sukun-I.md"
+      },
+      {
+        "item": "The clusters holding up all the way down a twenty-word column",
+        "commonMistake": "Clean reading in the first five words of Drill 6 and mush by word fifteen.",
+        "whyItHappens": "The correct form is still conscious, not automatic. This is a normal stage and it is the reason for daily homework rather than a longer session.",
+        "correctionCue": "Do not correct mid-column. Let her finish, then tell her which word number it started at — naming the point of collapse is more useful than fixing each word.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-03-Sukun-I.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Two minutes of Drill 1 with claps, every day without exception, to reset the beat. Five minutes on Drill 2, the leaky four, saying every word wrong then right — this is the drill that fixes the trailing voice. Four minutes on Drill 3, building each word up letter by letter before reading it whole. Four minutes on Drill 4, one breath per phrase, with two recorded and checked for a gap at the join. Three minutes on the Drill 6 cold column, once slow and once timed, writing the time down so it can be tracked across the week. She brings back the word from Drill 6 that troubles her most and whether the problem is a helper vowel or a swallowed letter — those are opposite fixes."
+  },
+  "videos": []
+}
