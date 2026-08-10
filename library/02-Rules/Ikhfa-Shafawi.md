@@ -9,7 +9,7 @@ cpfair_key: ikhfa_shafawi
 colour_b: "#D500B7"
 harakat: 2
 letters: [ب]
-taught_in: "3-18"
+taught_in: "3-15"
 prerequisites: [ghunnah]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

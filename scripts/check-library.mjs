@@ -106,11 +106,28 @@ export function checkVault(dir, corpus) {
       }
     }
   }
+  // Which lesson claims to teach each rule. First claimant wins.
+  const taughtBy = new Map();
   for (const n of notes.filter((x) => x.data.type === "lesson")) {
     for (const id of n.data.teaches ?? []) {
       if (ruleStatus.get(id) !== "verified") {
         warnings.push(`${n.rel}: teaches "${id}" which is not verified`);
       }
+      if (!ruleStatus.has(id)) {
+        errors.push(`${n.rel}: teaches "${id}" but no rule note has that id`);
+      }
+      if (!taughtBy.has(id)) taughtBy.set(id, n.data.id);
+    }
+  }
+
+  // A rule's taught_in must agree with the lesson that teaches it. These were
+  // assigned independently per batch before the lessons existed, and drifted.
+  for (const n of notes.filter((x) => x.data.type === "rule")) {
+    const lesson = taughtBy.get(n.data.id);
+    if (lesson && String(n.data.taught_in) !== String(lesson)) {
+      errors.push(
+        `${n.rel}: taught_in "${n.data.taught_in}" but lesson ${lesson} teaches it`,
+      );
     }
   }
 

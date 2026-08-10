@@ -5,7 +5,7 @@ arabic: التَّفْخِيم
 translit: at-Tafkhīm
 english: Heaviness (thickening)
 family: tafkhim-tarqiq
-taught_in: "3-10"
+taught_in: "3-06"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

@@ -5,7 +5,7 @@ arabic: تغير الكلمة عند الوقف
 translit: Taghayyur al-Kalimah ʿinda al-Waqf
 english: How Words Change When You Stop
 family: waqf
-taught_in: "2-09"
+taught_in: "3-34"
 prerequisites: [waqf_types]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

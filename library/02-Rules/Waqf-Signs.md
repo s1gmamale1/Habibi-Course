@@ -5,7 +5,7 @@ arabic: رموز الأوقاف
 translit: Rumūz al-Awqāf
 english: Waqf Signs in the Mushaf
 family: waqf
-taught_in: "2-08"
+taught_in: "3-33"
 prerequisites: [waqf_types]
 status: needs-review
 sources: ["[[Muqaddimah-Jazariyyah]]"]

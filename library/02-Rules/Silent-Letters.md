@@ -7,7 +7,7 @@ english: Silent Letters
 family: orthography
 cpfair_key: silent
 colour_b: "#AAAAAA"
-taught_in: "2-06"
+taught_in: "3-35"
 prerequisites: [hamzat_wasl]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

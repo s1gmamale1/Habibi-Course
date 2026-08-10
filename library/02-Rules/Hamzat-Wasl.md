@@ -7,7 +7,7 @@ english: Connecting Hamzah
 family: orthography
 cpfair_key: hamzat_wasl
 colour_b: "#AAAAAA"
-taught_in: "2-05"
+taught_in: "3-35"
 prerequisites: []
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

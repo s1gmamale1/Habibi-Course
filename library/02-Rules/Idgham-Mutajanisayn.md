@@ -9,7 +9,7 @@ cpfair_key: idghaam_mutajanisayn
 colour_b: "#A1A1A1"
 harakat: 0
 letters: [د, ت, ط, ذ, ظ, ث, ب, م]
-taught_in: "3-20"
+taught_in: "3-26"
 prerequisites: [idgham_mutamathilayn]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
