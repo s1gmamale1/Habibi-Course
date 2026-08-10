@@ -1,0 +1,702 @@
+{
+  "id": "3-31",
+  "phase": 3,
+  "draft": true,
+  "unit": "3.6",
+  "title": "Madd lāzim and its four subtypes",
+  "objectives": [
+    "Student can state that lāzim is six counts, always, with no alternative, and say what makes it different from ʿāriḍ: the sukūn is permanent.",
+    "Student can recognise kalimī muthaqqal — madd letter then shaddah in the same word — on sight, and produce a true six on ٱلضَّآلِّينَ.",
+    "Student can name kalimī mukhaffaf, say it occurs in one word in two places only, and read it.",
+    "Student can read the muqaṭṭaʿāt on the three-tier rule: نَقَصَ عَسَلُكُمْ six, حَيٌّ طَهُرْ two, alif nothing, with ʿayn as the flagged exception."
+  ],
+  "prerequisites": [
+    "3-27",
+    "3-28",
+    "2-08"
+  ],
+  "stage": "Madd",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.31 — Madd lāzim and its four subtypes",
+      "arabicDecor": "ٱلضَّآلِّينَ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Not wrong. Short.",
+      "body": [
+        "Read the last line of al-Fātiḥah: وَلَا ٱلضَّآلِّينَ.",
+        "You have been reading this with a long madd since Phase 1 lesson 1-14, and 2-08 drilled the madd-meets-shadda shape without naming it. So you will produce something long — and it will almost certainly be four, not six.",
+        "Four is the commonest error in the whole of al-Fātiḥah, anywhere in the world. It is the error of someone who is trying.",
+        "Count it with me on the fingers, out loud, while you hold it. Then I hold a real six against it.",
+        "You have been reading this correctly in kind and short in degree for months. This one is not a choice. It is six, it is always six, and it is the only madd in the language with no second option.",
+        "This is the last new madd rule in the course. After today you have all five."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:7 — six counts on the آ, flat and level, then a doubled lām that still arrives doubled. Getting this to a true six is a milestone and it is worth marking as one."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 7,
+      "highlight": [
+        "madd_6"
+      ],
+      "translation": "The path of those upon whom You have bestowed favour, not of those who have earned anger, nor of those who are astray.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "ٱلضَّآلِّينَ — the first six-count madd almost every learner ever produces deliberately. Six on the آ, then the doubled lām held, then a plain madd ʿāriḍ on the final yāʾ at your chosen number."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "What you already have",
+      "body": [
+        "2-08, madd meets shadda — the shape, unnamed, drilled as a reading fact.",
+        "Lesson 1-14, where ٱلضَّآلِّينَ was read with a six-count madd as a piece of al-Fātiḥah, deliberately with the reason withheld.",
+        "Madd ṭabīʿī ḥarfī from 3-27: the five short letters حَيٌّ طَهُرْ at two, and alif at nothing. Today supplies the other eight letters, so half the muqaṭṭaʿāt rule is already yours.",
+        "Madd ʿāriḍ from 3-30 and its 2/4/6 choice — the thing lāzim is defined against.",
+        "Shaddah as a doubled letter: a sākin letter plus a voweled one, from 2-05 and 2-06. Everything today depends on you seeing the sukūn hiding inside the shaddah."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_6",
+      "heading": "Madd lāzim — six counts, and no alternative",
+      "condition": "A madd letter followed by a sukūn that is permanent — there whether you join or stop, in every reading, always.",
+      "harakat": 6,
+      "mnemonic": "Lāzim means necessary, inseparable. The name is the rule.",
+      "body": [
+        "Because the cause never goes away, neither does the madd. Six ḥarakāt, obligatory, no alternative length.",
+        "It is the only madd in the family with a single non-negotiable count.",
+        "One question separates it from last week's rule: is the sukūn there when I join?",
+        "No, only when I stop → ʿāriḍ lis-sukūn, 2/4/6, your choice.",
+        "Yes, always → lāzim, six, no choice."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Kalimī muthaqqal — the sukūn hiding inside the shaddah",
+      "body": [
+        "A madd letter followed, in the same word, by a letter carrying a shaddah.",
+        "The shaddah is where the sukūn is hiding, and you have to see it. A shaddah is two letters: a sākin one and a voweled one.",
+        "ٱلضَّآلِّينَ is ḍād — alif — lām SĀKINAH — lām — yāʾ — nūn. The alif madd is followed by a sākin lām. That sukūn is written into the word. It is there when you join and there when you stop. Six.",
+        "Write the word out letter by letter with the hidden sukūn made explicit. This is the single most useful three minutes in the lesson, because it converts a memorised fact into something you can derive.",
+        "Reference examples from outside your memorised surahs, to read from the page: ٱلصَّآخَّةُ (80:33), ٱلْحَآقَّةُ (69:1), and دَآبَّةٍ (2:164) — which sits mid-āyah rather than at a familiar surah end, and is therefore the harder recognition."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:7 — the milestone word. Madd letter, then a sākin lām hiding inside the shaddah. Six, and then two lāms."
+          }
+        },
+        {
+          "arabic": "ٱلْحَآقَّةُ",
+          "translit": "al-ḥāqqah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "69:1 — reference example, outside your memorised surahs. Same shape: آ, then a doubled qāf. Six for exactly the same reason."
+          }
+        },
+        {
+          "arabic": "دَآبَّةٍ",
+          "translit": "dābbatin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "2:164 — reference example, outside your memorised surahs, and mid-āyah rather than at a surah end. This is where recognition gets hard."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Kalimī mukhaffaf — two places in the whole Qurʾān",
+      "body": [
+        "A madd letter followed, in the same word, by an original sukūn with no shaddah.",
+        "It occurs in one word, in two places, and there is no third place.",
+        "Reference examples — outside your memorised surahs, so read them from the muṣḥaf: ءَآلْـَٰٔنَ وَقَدْ كُنتُم بِهِۦ تَسْتَعْجِلُونَ at Yūnus 10:51, and ءَآلْـَٰٔنَ وَقَدْ عَصَيْتَ قَبْلُ at Yūnus 10:91. Both verified verbatim against the pinned corpus.",
+        "You will meet this word twice in your life as a reciter, and both times it is in Sūrat Yūnus. It is on the syllabus because the category is on the syllabus, and because a rule quiz will ask for it.",
+        "Six. The same as ٱلضَّآلِّينَ. Rare does not mean short."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The double classification — and it does not change the sound",
+      "body": [
+        "The same word is also called madd farq, because its opening madd arises from an interrogative hamzah entering on a hamzat al-waṣl.",
+        "Both labels are correct. Both are taught by reputable teachers.",
+        "The recitation is identical either way — six counts.",
+        "Teach it as farq, which is the cause, and mention lāzim mukhaffaf, which is the form, or the reverse. But never let it look as though there are two different sounds.",
+        "The disagreement is about the name on the box, not about what is in it. 3-35 closes the other half of this loop."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Ḥarfī — the muqaṭṭaʿāt as one three-tier rule",
+      "body": [
+        "A letter of the disconnected openings whose spelt name is three letters, the middle one a madd letter, takes six.",
+        "The eight are ن ق ص ع س ل ك م — mnemonic نَقَصَ عَسَلُكُمْ.",
+        "Long tier: نَقَصَ عَسَلُكُمْ, six counts, with ʿayn excepted below.",
+        "Short tier: حَيٌّ طَهُرْ, the five letters ح ي ط ه ر, two counts. You have had this since 3-27.",
+        "No tier at all: ا, alif. No madd whatsoever. Its name is spelt with three letters but does not end in a madd letter.",
+        "Reference examples, all outside your memorised surahs: الٓمٓ (2:1), الٓر (10:1), طه (20:1), يسٓ (36:1), حمٓ (40:1), صٓ (38:1), قٓ (50:1), طسٓمٓ (28:1)."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Muthaqqal or mukhaffaf inside the six-count tier",
+      "body": [
+        "This is a distinction WITHIN the six-count tier, and it is about what happens after the madd, not about length. Both are six.",
+        "Muthaqqal — the letter's final sākin merges into what follows. الٓمٓ (2:1): the lām's closing mīm merges into the mīm that comes next. Also طسٓمٓ (28:1).",
+        "Mukhaffaf — it does not merge. نٓ (68:1), قٓ (50:1), صٓ (38:1).",
+        "Teach the split because the quiz asks for it, and because the idghām in الٓمٓ is a real production requirement: lām-mīm must not come out as two separate units.",
+        "Run them together — one continuous unit, one breath, no seam."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "ʿAyn is the exception inside the exception",
+      "body": [
+        "In كٓهيعٓصٓ (19:1) and عٓسٓقٓ (42:2), the ʿayn's madd is a līn madd, not a true madd letter.",
+        "So it takes four or six — not the flat six of its neighbours. Sources transmit both counts; either is correct, held consistently across both places it occurs.",
+        "كٓهيعٓصٓ is the whole rule in one word, and it is the best single exercise in the lesson: kāf six, hā two, yā two, ʿayn four to six, ṣād six.",
+        "Read it slowly, with fingers, five times. If you can do كٓهيعٓصٓ you can do every sūrah opening in the muṣḥaf.",
+        "These are reference examples — outside your memorised surahs — so read them from the page rather than from memory."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The four subtypes on one card",
+      "body": [
+        "In a word — kalimī — heavy, muthaqqal, a shaddah follows: ٱلضَّآلِّينَ, ٱلصَّآخَّةُ, ٱلْحَآقَّةُ, دَآبَّةٍ.",
+        "In a word — kalimī — light, mukhaffaf, plain sukūn: ءَآلْـَٰٔنَ only, in two places.",
+        "In a letter-name — ḥarfī — heavy, muthaqqal: الٓمٓ, طسٓمٓ.",
+        "In a letter-name — ḥarfī — light, mukhaffaf: نٓ, قٓ, صٓ.",
+        "Four boxes. ALL FOUR ARE SIX COUNTS. Say that explicitly or she will suspect the boxes have different numbers in them. The grid is for naming, not for length."
+      ]
+    },
+    {
+      "kind": "contrast",
+      "heading": "Is the sukūn there when I join?",
+      "pairs": [
+        {
+          "surah": 1,
+          "ayah": 5,
+          "text": "نَسْتَعِينُ",
+          "rule": "madd_246",
+          "note": "Join onward and there is no sukūn at all — the yāʾ is a plain two. The sukūn only appears because you stopped. Your chosen 2, 4 or 6."
+        },
+        {
+          "surah": 1,
+          "ayah": 7,
+          "text": "ٱلضَّآلِّينَ",
+          "rule": "madd_6",
+          "note": "The sākin lām is written into the word, inside the shaddah. It is there joined and there stopped. Six, always, no choice."
+        },
+        {
+          "surah": 107,
+          "ayah": 7,
+          "text": "ٱلْمَاعُونَ",
+          "rule": "madd_246",
+          "note": "Your number, from your own hifz. The wāw is long only because the surah ends and you stop."
+        },
+        {
+          "surah": 69,
+          "ayah": 1,
+          "text": "ٱلْحَآقَّةُ",
+          "rule": "madd_6",
+          "note": "A doubled qāf, so a sākin qāf hiding inside it. Permanent. Six, whether you join onward or stop."
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Spell out the shaddah",
+      "instructions": "Write each word letter by letter, marking the hidden sukūn inside every shaddah. Then read it. You should be able to point at the sukūn that causes the six.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "translit": "aḍ-ḍāllīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ḍād — alif — lām SĀKINAH — lām — yāʾ — nūn. Point at the sākin lām. That is the cause."
+            }
+          },
+          {
+            "arabic": "ٱلْحَآقَّةُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ḥāʾ — alif — qāf SĀKINAH — qāf — tāʾ marbūṭah. Same shape, same cause, same six."
+            }
+          },
+          {
+            "arabic": "دَآبَّةٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "dāl — alif — bāʾ SĀKINAH — bāʾ — tāʾ marbūṭah. Third instance of one pattern, so you generalise instead of memorising."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Four against six",
+      "instructions": "Read ٱلضَّآلِّينَ at four counts, then at six, back to back, three times. The four is what you have been doing. Learn to hear the gap — you cannot fix a length you cannot hear.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "At FOUR — this is your current reading. Long, and short of the rule."
+            }
+          },
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "At SIX — count with me out loud: one, two, three, four, five, six. Flat all the way, then the doubled lām."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ʿĀriḍ or lāzim?",
+      "instructions": "For each word, tell me whether the sukūn is there when you join. Then give the count. The ʿāriḍ ones take your chosen 2/4/6; the lāzim ones take six with no choice.",
+      "grid": [
+        [
+          {
+            "arabic": "نَسْتَعِينُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ʿĀRIḌ — no sukūn when joining. Your number."
+            }
+          },
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "LĀZIM — the sākin lām is written in. Six."
+            }
+          },
+          {
+            "arabic": "سَاهُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ʿĀRIḌ — your number."
+            }
+          },
+          {
+            "arabic": "ٱلْحَآقَّةُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "LĀZIM — six."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْمَاعُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ʿĀRIḌ — your number."
+            }
+          },
+          {
+            "arabic": "دَآبَّةٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "LĀZIM — six, and it is mid-āyah, so nothing about its position helps you."
+            }
+          },
+          {
+            "arabic": "ٱلْعَٰلَمِينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ʿĀRIḌ — your number."
+            }
+          },
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "LĀZIM again — six again. Asked twice on purpose: the answer does not get easier the second time unless the rule is real."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The three-tier sort",
+      "instructions": "Sort every letter into six, two, or nothing BEFORE you read a syllable. Then read each opening slowly with the fingers. All of these are outside your memorised surahs, so read them from the page.",
+      "grid": [
+        [
+          {
+            "arabic": "الٓمٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:1 — alif nothing, lām six, mīm six. And make the lām's closing mīm actually merge into the next mīm: one continuous unit, not lām then mīm."
+            }
+          },
+          {
+            "arabic": "الٓر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "10:1 — alif nothing, lām six, rāʾ two. Three different answers in three letters."
+            }
+          },
+          {
+            "arabic": "طه",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "20:1 — ṭāʾ two, hāʾ two. Both in حَيٌّ طَهُرْ."
+            }
+          },
+          {
+            "arabic": "يسٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "36:1 — yāʾ two, sīn six."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حمٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "40:1 — ḥāʾ two, mīm six. Do not let them come out the same length."
+            }
+          },
+          {
+            "arabic": "نٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "68:1 — six counts on a single letter-name. Ḥarfī mukhaffaf: nothing merges after it."
+            }
+          },
+          {
+            "arabic": "كٓهيعٓصٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "19:1 — the whole rule in one word. kāf six, hā two, yā two, ʿayn four to six, ṣād six. Five times, with fingers."
+            }
+          },
+          {
+            "arabic": "عٓسٓقٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "42:2 — the ʿayn again. Whatever you chose in كٓهيعٓصٓ, use the same here."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong",
+      "mistakes": [
+        {
+          "wrong": "Four counts on ٱلضَّآلِّينَ.",
+          "why": "The commonest error in al-Fātiḥah anywhere in the world. Four feels long, and nothing in her experience has contradicted it.",
+          "fix": "Count with me. One, two, three, four, five, six. Now again, and I'll count out loud with you until it stops needing me."
+        },
+        {
+          "wrong": "The shaddah arrives single — ٱلضَّآلِّينَ ending with one lām.",
+          "why": "All the attention went into the madd and there was nothing left for the letter after it. Very common the week this rule is taught.",
+          "fix": "Six, and then a double lām. Hold the lām. I want to hear two of them."
+        },
+        {
+          "wrong": "الٓمٓ read as two separate units, lām then mīm.",
+          "why": "She has not been told there is an idghām in it, and the letter names look like a list.",
+          "fix": "The lām's mīm and the next mīm are one sound. Run them together — one breath, no seam."
+        },
+        {
+          "wrong": "ʿAyn given a flat six alongside its neighbours in كٓهيعٓصٓ.",
+          "why": "The neighbours are six and pattern-matching is cheap.",
+          "fix": "That one is a līn, not a madd. Four or six — pick one and use it in both places it occurs."
+        },
+        {
+          "wrong": "Six counts on ح, ط or ر, or any madd at all on alif.",
+          "why": "The six-count tier is more memorable than the two-count tier.",
+          "fix": "حَيٌّ طَهُرْ. Say the mnemonic. Is that letter in it?"
+        },
+        {
+          "wrong": "Treating ءَآلْـَٰٔنَ as ordinary and reading it short.",
+          "why": "It is unfamiliar and looks like nothing else on the page.",
+          "fix": "Six. Same as ٱلضَّآلِّينَ. Rare does not mean short."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Four boxes, one number",
+      "items": [
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "SIX — kalimī muthaqqal. A shaddah follows the madd letter, in the same word."
+          }
+        },
+        {
+          "arabic": "دَآبَّةٍ",
+          "translit": "dābbatin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "SIX — kalimī muthaqqal, mid-āyah. Position gives you no help; the shaddah does."
+          }
+        },
+        {
+          "arabic": "الٓمٓ",
+          "translit": "alif-lām-mīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "SIX on the lām and the mīm, nothing on the alif — ḥarfī muthaqqal, with the lām merging into the mīm."
+          }
+        },
+        {
+          "arabic": "نٓ",
+          "translit": "nūn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "SIX — ḥarfī mukhaffaf. Nothing merges after it, and it is still six."
+          }
+        },
+        {
+          "arabic": "كٓهيعٓصٓ",
+          "translit": "kāf-hā-yā-ʿayn-ṣād",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "6 · 2 · 2 · 4–6 · 6. Every tier of the rule in one word."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Hifz: Quraysh 106:1–2 to 20–40 repetitions daily. Sabqi is al-Kawthar and al-Māʿūn whole; recite al-Māʿūn end to end once a day now that it is complete. Manzil rotation first, ten extra repetitions after any caught error. Check today whether al-Kawthar has had three consecutive clean recitations and can be promoted — and write the date down.",
+        "Read al-Fātiḥah once a day and give ٱلضَّآلِّينَ a full six, counted on your fingers. Every single day this week.",
+        "Add the four-box grid to your madd card, with 6 written across all four boxes.",
+        "Go through the muṣḥaf and write down every sūrah that begins with disconnected letters. There are twenty-nine. Do not read them yet — just list them, and mark next to each which letters are six and which are two.",
+        "Open Sūrat Yūnus, find 10:51 and 10:91, and put a light pencil dot beside each. Read the word aloud in both places and say out loud: this word is here twice, and nowhere else. Rare things are learned by being located, not by being described."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Four against six",
+        "instructions": "Back to back, three times. Four is what you have been doing; six is the rule. Hear the gap before you try to fix it.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلضَّآلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "At FOUR — your current reading."
+              }
+            },
+            {
+              "arabic": "ٱلضَّآلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "At SIX — counted out loud, flat, then the doubled lām."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ʿĀriḍ or lāzim",
+        "instructions": "One question first — is the sukūn there when I join? — then the count.",
+        "grid": [
+          [
+            {
+              "arabic": "نَسْتَعِينُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ʿĀRIḌ — your number."
+              }
+            },
+            {
+              "arabic": "ٱلضَّآلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĀZIM — six."
+              }
+            },
+            {
+              "arabic": "ٱلْمَاعُونَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ʿĀRIḌ — your number."
+              }
+            },
+            {
+              "arabic": "دَآبَّةٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "LĀZIM — six."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The three-tier sort",
+        "instructions": "Sort every letter into 6 / 2 / none before reading a syllable. Read from the page — none of these are in your memorised set.",
+        "grid": [
+          [
+            {
+              "arabic": "الٓمٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "nothing · six · six, with the lām merging into the mīm."
+              }
+            },
+            {
+              "arabic": "الٓر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "nothing · six · two."
+              }
+            },
+            {
+              "arabic": "طه",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "two · two."
+              }
+            },
+            {
+              "arabic": "حمٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "two · six."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يسٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "two · six."
+              }
+            },
+            {
+              "arabic": "نٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "six, alone."
+              }
+            },
+            {
+              "arabic": "كٓهيعٓصٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "six · two · two · four-to-six · six."
+              }
+            },
+            {
+              "arabic": "عٓسٓقٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "four-to-six · six · six. Same ʿayn choice as in كٓهيعٓصٓ."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Quraysh 106:1–2 to 20–40 repetitions, with al-Kawthar and al-Māʿūn as Sabqi and al-Māʿūn recited whole",
+      "Al-Fātiḥah once, with ٱلضَّآلِّينَ at a counted six",
+      "ʿĀriḍ-or-lāzim on eight words, the question asked before the count",
+      "The three-tier sort on the eight openings, sorted before any sound is made",
+      "Once in the week: the twenty-nine disconnected-letter sūrahs listed, with each letter marked 6 or 2"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Budget the full session. The subtypes are more taxonomy than any single earlier lesson in the unit, and this is the last new madd rule in the course — say that to her, because it is motivating and it is true.",
+      "Open on وَلَا ٱلضَّآلِّينَ and count her length on your fingers while she holds it. She will give four. The correction is precise and it must be said precisely: not wrong, short.",
+      "Spell the word out letter by letter and make the sākin lām inside the shaddah visible. Three minutes here converts a memorised fact into something she can derive, and it is the highest-value section of the lesson.",
+      "Mark the true six on ٱلضَّآلِّينَ as a milestone out loud. It is the first six-count madd almost every learner ever produces deliberately, and it has been in front of her since 1-14.",
+      "For kalimī mukhaffaf, be exact and be brief: one word, two places, both in Sūrat Yūnus, no third place. Then send her to find them in the muṣḥaf. Rare things are learned by being located.",
+      "Give the farq / lāzim-mukhaffaf double classification honestly and immediately close it: the names differ, the sound does not, six counts either way. Left open, it reads as confusion rather than as scholarship.",
+      "Assemble the muqaṭṭaʿāt as one three-tier rule rather than as a new topic. She already owns the two-count tier and the alif from 3-27, so today is an addition of eight letters, not a fresh start.",
+      "Say explicitly that muthaqqal versus mukhaffaf is about what happens AFTER the madd, not about length, and that all four boxes are six. Otherwise the four-box grid implies four numbers.",
+      "Drill the idghām in الٓمٓ as production, not as terminology. Lām-mīm must come out as one continuous unit with no seam.",
+      "كٓهيعٓصٓ five times with fingers is the best single exercise in the lesson. If she can do كٓهيعٓصٓ she can read every sūrah opening in the muṣḥaf, and telling her that is worth the ninety seconds."
+    ],
+    "listenFor": [
+      {
+        "item": "A six that is genuinely six — counted, level, and not four with conviction.",
+        "commonMistake": "Four counts on ٱلضَّآلِّينَ.",
+        "whyItHappens": "The commonest error in al-Fātiḥah anywhere in the world. Four feels long, and nothing in her experience has ever contradicted it. This is the error of someone who is trying.",
+        "correctionCue": "Count with me. One, two, three, four, five, six. Now again, and I'll count out loud with you until it stops needing me.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Lazim.md"
+      },
+      {
+        "item": "A shaddah that is still fully doubled when it arrives at the end of the six.",
+        "commonMistake": "The doubled letter arrives single — ٱلضَّآلِّينَ with one lām.",
+        "whyItHappens": "All the attention went into the madd and there was nothing left for the letter after it. Predictable in the week this rule is taught.",
+        "correctionCue": "Six, and then a double lām. Hold the lām. I want to hear two of them.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Lazim.md"
+      },
+      {
+        "item": "الٓمٓ as one continuous unit, the lām's closing mīm merged into the mīm that follows.",
+        "commonMistake": "Read as two separate items, lām then mīm.",
+        "whyItHappens": "She has not been told there is an idghām inside it, and the letter names look like a list to be recited in order.",
+        "correctionCue": "The lām's mīm and the next mīm are one sound. Run them together — one breath, no seam.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Lazim.md"
+      },
+      {
+        "item": "ʿAyn kept distinct from its six-count neighbours, at four or six but the same in both places it occurs.",
+        "commonMistake": "A flat six on ʿayn alongside kāf and ṣād in كٓهيعٓصٓ.",
+        "whyItHappens": "The neighbours are six and pattern-matching is cheap.",
+        "correctionCue": "That one is a līn, not a madd. Four or six — pick one and use it in both places it occurs.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Leen.md"
+      },
+      {
+        "item": "Two counts on حَيٌّ طَهُرْ and nothing at all on alif, even in the middle of a six-count opening.",
+        "commonMistake": "Six on ح, ط or ر, or a stretched alif in الٓر.",
+        "whyItHappens": "The six-count tier is more memorable and more audible on recordings, so it gets generalised across the whole opening.",
+        "correctionCue": "حَيٌّ طَهُرْ. Say the mnemonic. Is that letter in it?",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      }
+    ],
+    "homework": "Daily: Quraysh 106:1–2 to 20–40 repetitions with al-Kawthar and al-Māʿūn as Sabqi, al-Māʿūn recited whole now that it is complete, Manzil rotation first and ten extra repetitions logged after any caught error; al-Fātiḥah once with ٱلضَّآلِّينَ at a full counted six. Written: the four-box grid added to the madd card with 6 across all four boxes; a list of every sūrah beginning with disconnected letters — there are twenty-nine — with each letter marked 6 or 2. Once in the week: Sūrat Yūnus opened at 10:51 and 10:91, both dotted in pencil and read aloud. Check al-Kawthar's promotion from Sabqi to Manzil explicitly today rather than letting it drift, and write the date down."
+  },
+  "videos": [],
+  "games": [
+    "madd-counter"
+  ]
+}
