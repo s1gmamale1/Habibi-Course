@@ -103,6 +103,9 @@ hamzah would collide two sākin letters, so the previous word borrows a vowel:
 Tell her the muṣḥaf has already printed the helping vowel for her. Her job is to *not add
 a second one on the hamzah*. This is the most common single error in the whole lesson.
 
+**In plain terms:** when you run two words together, this hamzah is simply not there. If
+the word before it grew an extra vowel, that is the join — read it and do not add another.
+
 ### 3. Starting: the three branches
 
 Only now, with joining secure, teach the starting vowel. Draw it as a decision she runs on
@@ -138,6 +141,9 @@ verb she has ever heard, without knowing grammar terminology.
 weak letter dropped out, it does not count — go back to kasrah. **أَنِ ٱمْشُوا۟** (38:6)
 is *imshū*, not *umshū*. Do not try to teach her how to spot a temporary ḍammah. Give her
 the three words it affects in the hifz range and move on; this is a lookup, not a skill.
+
+**In plain terms:** starting a word with ٱ, you have to pick its vowel. *Al-* takes *a*,
+the seven nouns take *i*, and for a verb say the present tense first and copy its vowel.
 
 ### 4. When a shadda follows — what changes and what does not
 

@@ -60,13 +60,19 @@ The student also met ن as a letter long ago and can already read مِنْ. That
 
 2. **Give the name once, then drop it.** *Tanwīn* (تنوين) means "adding a nūn" — nunation. The three marks have names too: **ḍammatān** (two ḍammas), **fatḥatān** (two fatḥas), **kasratān** (two kasras). Say them once so the student recognises them from a teacher or a book, then use plain English for the rest of the lesson.
 
+   **In plain terms:** the long names all just mean "two of them". Double the mark, add an *n* — that is the whole of it.
+
 3. **Kill the missing-nūn hunt immediately.** Write مِنْ and بَابٍ side by side. Both end in the sound *n*. One writes the letter, one draws the mark. Say the pair aloud several times: *min … bābin … min … bābin*. The student must hear that no new sound has been introduced today — only a new way of writing a sound they can already make.
 
 4. **Now the carrying alif, and give it a whole step of its own.** Write بَابًا. The fatḥatān almost always needs something to sit on, so an alif is written after the last letter purely to hold it. **That alif is silent when you carry on reading.** بَابًا read into the next word is *bāban*, not *bābā*.
    - Two spellings take no extra alif: a word ending in tāʾ marbūṭah — سَاعَةً (*sāʿatan*) — and a word already ending in a hamza on the line after an alif — مَاءً (*māʾan*).
    - The student does not need to predict which is which. Recognition only: *if you see ـًا, do not lengthen it.*
 
+   **In plain terms:** that last alif is a chair for the mark to sit on, not a sound. You read *bāban* and stop — never *bābā*.
+
 5. **Where tanwīn is allowed.** Only on nouns and adjectives, and only on the **last letter of the word**. A verb never takes it. Nothing follows a tanwīn inside a word. If the student thinks she has found a tanwīn in the middle of a word, she has misread a shadda or a fatḥa — and both are lessons ahead of this one.
+
+   **In plain terms:** it only ever turns up on the very last letter of a naming word. See doubled marks in the middle of a word and you have read something else.
 
 6. **Flag forward, then close the door.** What that unwritten *n* does to the letter that follows it — sometimes hidden, sometimes hummed, sometimes swapped for an *m* — is the largest single topic in Unit 3. Say the sentence, do not demonstrate it, and do not answer the follow-up question beyond "Unit 3". Today the *n* is a clean, plain *n* every time.
 

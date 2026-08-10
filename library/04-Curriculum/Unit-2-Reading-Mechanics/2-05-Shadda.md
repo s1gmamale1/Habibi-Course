@@ -63,12 +63,18 @@ And the error to name before it happens, because it is the one that will actuall
    - kasra normally goes **below the letter**, underneath the shadda — رَبِّ
    In some print, the kasra is tucked under the shadda instead. Show her both, so a different mushaf does not stop her. **The rule she needs: find the shadda, then look above and below it for the vowel. There is always exactly one.**
 
+   **In plain terms:** the shadda has no sound of its own — it is a note telling you to say the letter twice. The vowel next to it belongs to the second one.
+
 4. **Timing, and give this its own block of the session.** Two counts. Use the same finger-tap you used for length in lesson 2-02, but tap on the *consonant* rather than a vowel. Three ways to feel it, and different students take to different ones:
    - **مّ and نّ** — you can hum them. Have her hold the hum and count. These two are the easiest entry point, so start here.
    - **لّ, رّ, سّ, شّ** — you can sustain them. Same method.
    - **بّ, تّ, دّ, كّ, قّ** — you cannot sustain them; what you hold is the *closure*, and the two counts are silence with the mouth shut. This is the group that gets under-held, because holding nothing feels like doing nothing.
 
+   **In plain terms:** you are leaning on the letter, not saying it twice fast. On ب and د the lean is a beat of silence with your mouth shut — that still counts as holding it.
+
 5. **The hum, flagged and required.** When the doubled letter is **نّ or مّ**, the hold is nasal — a two-count hum through the nose. Pinch the nose and say *inna*: it should be blocked. The rule has a name, [[Ghunnah]], and belongs to Unit 3; the *sound* is not optional today, because إِنَّ and ٱلنَّاس and ثُمَّ are unavoidable in any page she opens.
+
+   **In plain terms:** on نّ and مّ the hold happens in your nose. Pinch it shut and the sound should stop dead — that is the whole test.
 
 6. **Meaning pairs, to prove it is not cosmetic.** This is the step that makes the two counts feel worth the effort:
    - دَرَسَ *he studied* / دَرَّسَ *he taught*
