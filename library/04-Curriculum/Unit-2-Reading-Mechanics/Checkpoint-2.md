@@ -27,6 +27,12 @@ here. The rubric itself, and the reasoning behind it, is [[Assessment]].
 
 ## 1. Test structure — four rungs, in order
 
+**Allow 45–60 minutes.** This is not transmitted from anywhere — it is derived from the
+item counts below (20 + 10 + 6 + a full page, read unaided, with a mark sheet filled in per
+item) against Checkpoint 1's transmitted 30–40 for a shorter session. **Treat it as a
+planning figure, not a limit.** The checkpoint is not timed and nothing about the result
+depends on how long she takes; a slow, accurate reading is a pass.
+
 The same ladder Unit 2 climbed, run as an assessment. **All material must be unseen.** Not
 "not recently practised" — genuinely not previously read.
 

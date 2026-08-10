@@ -1,0 +1,86 @@
+{
+  "id": "checkpoint-2",
+  "title": "Checkpoint 2 — Reading Mechanics gate",
+  "durationMinutes": "45–60",
+  "steps": [
+    {
+      "name": "Before you begin — set the scope out loud",
+      "script": "Tell her two things before the first item. First: every word in rungs 1–3 is ordinary Arabic, not Qur'an, and she will not recognise any of it — that is deliberate, because a word she can recite is not a word she has read. Second: no tajweed rule is being tested. Ghunnah, ikhfāʾ, madd counts, qalqalah are all out of scope; she has not been taught them. Marking a Unit 3 rule here is the commonest examiner error at this checkpoint. Conditions for all four rungs: unaided — no prompting, no starting syllable, no \"look at the shadda\" — and plain text, with no colour muṣḥaf, transliteration or annotation."
+    },
+    {
+      "name": "Rung 1 — twenty unseen words",
+      "script": "20 unseen, fully-voweled words of 4–8 letters, non-Qur'ānic. Genuinely unseen: not \"not recently practised\". Ordinary Arabic vocabulary gives a clean reading score because memory cannot substitute for decoding. Mark each deduction into exactly one cause column (see the mark sheet step), never as a passage total."
+    },
+    {
+      "name": "Rung 2 — ten unseen phrases",
+      "script": "10 unseen phrases of 2–5 words, non-Qur'ānic. This is where waṣl-hamzah-when-joining shows up: the hamzah must disappear every time she joins from the previous word."
+    },
+    {
+      "name": "Rung 3 — six unseen sentences, with her own stops",
+      "script": "6 unseen complete sentences, non-Qur'ānic, read with stops she chooses. She may plan her stops before reading — planning is a skill this unit taught and it is being assessed, not excluded. Watch the three stop errors specifically: a final ḥarakah kept, a ة read as a t, and a long vowel clipped."
+    },
+    {
+      "name": "Rung 4 — one unseen muṣḥaf page",
+      "script": "One full page of plain Uthmānī text, Qur'ānic and never read before. Not al-Fātiḥa, not the last page from 2-14, not anything in surahs 105–114 — pick a page from the middle of the muṣḥaf. She will not know the words. Tell her so before she begins; the point is that she is decoding rather than recalling."
+    },
+    {
+      "name": "Mark sheet — one column per cause, not one score per passage",
+      "script": "A result of \"−9 on the muṣḥaf page\" is unactionable. Use a row per item and a column per cause: letter/makhraj · tanwīn · sukūn cluster · shadda · madd 2 · madd 6 · līn · waṣl hamzah (join) · waṣl hamzah (start) · stop: ḥarakah · stop: ة · stop: long vowel · stop: placement · pace. Fourteen columns; every deduction gets a tick in exactly one. The column totals are the result that matters — the total across the bottom is only the number. Mark all Jali first, in red; Khafi in yellow. Carry the sheet forward: a cause that cost a deduction at Checkpoint 1, again in weekly sessions, and again here is fossilising, and it goes to the front of the queue whatever the total says."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "Laḥn Jali — major, clear: wrong letter, wrong makhraj, or a word that is not Arabic",
+      "pass": "−2 each. The general test: if a native listener with no tajweed training would notice, it is Jali."
+    },
+    {
+      "criterion": "Laḥn Khafi — minor, hidden: quality degraded, meaning intact",
+      "pass": "−1 each. Detectable by a trained ear only."
+    },
+    {
+      "criterion": "Self-correction after prompt — she fixes it once alerted",
+      "pass": "−1. This is the error that predicts readiness best; see the second pass condition."
+    },
+    {
+      "criterion": "Examiner has to correct — she cannot fix it even when alerted",
+      "pass": "−2."
+    },
+    {
+      "criterion": "Hesitation without error",
+      "pass": "−0.5. Non-fluency, not inaccuracy."
+    },
+    {
+      "criterion": "Jali at this checkpoint",
+      "pass": "Wrong letter or makhraj · shadda not doubled at all · a madd read short enough to change the word (كَاتِب / كَتَب) · waṣl hamzah pronounced when joining · waṣl hamzah started on the wrong vowel · a final ḥarakah kept at a stop · ة read as a t at a stop · stopping mid-word, which also stops the reading and restarts the item."
+    },
+    {
+      "criterion": "Khafi at this checkpoint",
+      "pass": "Shadda doubled but not held · madd audibly present but short of two counts · līn given a small stretch when joining · long vowel clipped at a stop · uneven, word-by-word pace, counted once per rung and never stacked per word."
+    },
+    {
+      "criterion": "A Unit 3 rule not applied",
+      "pass": "Not an error. Out of scope — do not mark it."
+    },
+    {
+      "criterion": "PASS — either condition is sufficient",
+      "pass": "(1) Numeric ≥ 70% of the available points across the four rungs, OR (2) no Jali error survives an examiner correction — every major error she made, she could fix when prompted. They are deliberately different tests: the first says her reading is good enough, the second says her internal monitor works, which is the better predictor that Unit 3 will land. A student passing on (2) with a score in the sixties is genuinely ready — she makes errors but she owns them."
+    }
+  ],
+  "revisionMap": [
+    { "weakSpot": "letter / makhraj", "lessons": ["1-01", "1-02", "1-03", "1-04", "1-05", "1-06"] },
+    { "weakSpot": "tanwīn", "lessons": ["2-01", "2-02"] },
+    { "weakSpot": "sukūn clusters", "lessons": ["2-03", "2-04"] },
+    { "weakSpot": "shadda — missing, or not held", "lessons": ["2-05", "2-06"] },
+    { "weakSpot": "madd 2 — short or absent", "lessons": ["2-07"] },
+    { "weakSpot": "madd 6 — the shadda / sukūn case", "lessons": ["2-08"] },
+    { "weakSpot": "līn — stretched when joining", "lessons": ["2-08"] },
+    { "weakSpot": "waṣl hamzah pronounced when joining", "lessons": ["2-09", "2-11"] },
+    { "weakSpot": "waṣl hamzah — wrong starting vowel", "lessons": ["2-09"] },
+    { "weakSpot": "stop: final ḥarakah kept", "lessons": ["2-12"] },
+    { "weakSpot": "stop: ة read as a t", "lessons": ["2-12"] },
+    { "weakSpot": "stop: long vowel clipped", "lessons": ["2-12", "2-13"] },
+    { "weakSpot": "stop: placement — mid-word, or mid-idea", "lessons": ["2-12", "2-13"] },
+    { "weakSpot": "pace — word-by-word, uneven", "lessons": ["2-11", "2-13"] },
+    { "weakSpot": "general: fluent but not looking at the page", "lessons": ["2-14"] }
+  ]
+}
