@@ -10,7 +10,7 @@ colour_b: "#537FFF"
 harakat: 2
 taught_in: "3-28"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "1:4"
