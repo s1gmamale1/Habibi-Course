@@ -29,7 +29,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | # | Sev | Defect | Where | Effort |
 |---|-----|--------|-------|--------|
 | 1 | High | The hifz lesson→surah mapping was built for **26** Unit 3 lessons; Unit 3 now has **37**. Publishing Unit 3 off this table would assign the wrong memorisation to most sessions. Must be regenerated, not copied. | `docs/syllabus/phase-3-tajweed.md` §2.2 | M |
-| 2 | Med | `silent_letters` and `waqf_signs` cite `[[Muqaddimah-Jazariyyah]]` for content that matn does not contain — the two muṣḥaf zeros, and a sign set devised ~5 centuries after Ibn al-Jazarī died. Content is standard; the citation is not. | `library/02-Rules/Silent-Letters.md`, `library/02-Rules/Waqf-Signs.md` | S (blocked on a source) |
+| 2 | Med | ~~`silent_letters` and `waqf_signs` cite Jazariyyah for content it does not contain.~~ **`waqf_signs` resolved 2026-08-11** — sourced to [[Sajawandi-Waqf]] (d. 560 AH). The "~5 centuries after Ibn al-Jazarī" clause in this row was **my own unverified inference and was wrong by 273 years in the other direction**; see the Verification-Log correction. `silent_letters` still unsourced: the two muṣḥaf zeros are Uthmānī printing convention and are in no vendored text. | `library/02-Rules/Silent-Letters.md` | S (blocked on a source) |
 | 3 | Med | 15 live Phase 1 lessons have **no library note**. They predate the vault, so the review process that governs every other lesson cannot reach them. | `content/lessons/1-*.json` vs `library/04-Curriculum/` | L |
 | 4 | Low | Arabic shaping across coloured spans is verified in Chrome only. Safari uses a different engine and is untested. | `library/00-Index/Verification-Log.md` — human-verified table | S |
 
