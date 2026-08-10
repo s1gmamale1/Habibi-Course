@@ -886,13 +886,29 @@ status: draft
 
 Body sections: **Objectives** (≤4) · **Hook** (the corrective/myth-busting opening) · **Teaching sequence** · **Examples** · **Drills** · **Listen-for** (the 7-field structured entries) · **Homework** · **Prerequisites in prose**.
 
-- [ ] **Step 3: Author Unit 2 first (14 notes)**
+- [ ] **Step 3: Re-scope Unit 2 against shipped Phase 1 — do this before authoring**
+
+**Phase 1 grew after this plan was written.** Commit `c385ad0` added Unit 1.4
+(`1-13`, `1-14`, `1-15`), which already teaches **sukūn**, **hamza**, and **the heavy
+letters including tafkhīm heard in the adjacent vowel**. Read those three lesson files
+first, then adjust:
+
+| Planned | Was going to | Must become |
+|---|---|---|
+| `2-03`, `2-04` sukūn | introduce sukūn | extend to harder clusters; assume sukūn known |
+| `2-09` hamzatul-waṣl | introduce hamza | waṣl vs qaṭʿ **contrast**; qaṭʿ already taught in `1-13` |
+| `3-03`, `3-06` isti'lā / tafkhīm | introduce heaviness | formalise the sifah behind the cue `1-14` already gave |
+
+Re-check `content/course.json` for further growth before starting — that session is still
+active. Record the reconciliation in `Verification-Log.md`.
+
+- [ ] **Step 4: Author Unit 2 (14 notes)**
 
 Unit 2 is the first content to ship as JSON, so it is the first to be written and reviewed here. Include the practical-stopping additions to 2-12, 2-13 and 2-14.
 
-- [ ] **Step 4: Author Units 3 and 4 (44 notes)**
+- [ ] **Step 5: Author Units 3 and 4 (44 notes)**
 
-- [ ] **Step 5: Verify and commit per unit**
+- [ ] **Step 6: Verify and commit per unit**
 
 ```bash
 npm run check:library
