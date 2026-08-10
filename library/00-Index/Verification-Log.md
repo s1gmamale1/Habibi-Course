@@ -57,6 +57,35 @@ and recorded that here.
 | 4 | يَبْصُۜطُ — sīn or ṣād | sources genuinely differ; ṣād predominates for Hafs/Shāṭibiyyah, some regional traditions read sīn | [[Hafs-Special-Words]], held at `needs-review` until checked against a Madinah mushaf **and** a licensed teacher |
 | 5 | Every rule note's substance | 59 notes were authored from the research corpus and are `status: draft` | **nothing may be transcribed into a lesson until its rule note is `verified`.** The validator warns on this |
 
+## Build state — 2026-08-10
+
+| Sub-project | State |
+|---|---|
+| **L** — Library | **complete** · 164 notes, gate green |
+| **B** — Qur'an pipeline | **complete** · 212 verses, 1,972 spans, 0 defects |
+| **C** — Schema & renderer | **complete** · static export builds |
+| **D** — Games | **7 of 8 drills** · waqf placer blocked, see below |
+| **E** — Lesson JSON | **not started** · gated, see below |
+
+406 tests · 0 lint errors · 58/58 asset refs · library gate green · `npm run build` succeeds.
+
+### What blocks the rest, precisely
+
+1. **Waqf-placement drill — blocked on data, not effort.** It needs per-ayah
+   waqf-sign positions. The pinned Tanzil text **omits waqf signs by design** (one of the
+   documented differences from quran.com's text) and cpfair does not annotate them.
+   Sourcing that dataset is unresolved. Inventing it would be worse than omitting the drill.
+2. **Sub-project E — gated on two things.** All 59 rule notes are `status: draft`; nothing
+   should be transcribed into a lesson before a human has checked it against its sources.
+   And `content/` was being actively written by a second session throughout this build, so
+   writing lesson JSON there risked losing that work.
+3. **`GamePanel` still holds its hardcoded tab array.** `GameRegistry` exists and is tested;
+   swapping the literal for `getGames(lesson.games)` is a few lines, deliberately left
+   undone for the same concurrency reason.
+4. **Arabic shaping is unverified in a browser.** jsdom does not shape text. The tests prove
+   the markup emits no whitespace between spans and reproduces each ayah verbatim, but
+   whether ٱللَّهِ stays visually joined needs real Safari and Chrome.
+
 ## Carried forward
 
 - **`taught_in` is now reconciled and enforced.** 32 of 59 rule notes disagreed with the
