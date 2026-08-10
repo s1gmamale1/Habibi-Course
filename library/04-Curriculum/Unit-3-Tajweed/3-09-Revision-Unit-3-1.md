@@ -5,7 +5,7 @@ unit: "3.1"
 stage: Ḥaqq al-Ḥarf
 title: Revision & Q&A — Unit 3.1, Ḥaqq al-Ḥarf
 teaches: []
-prerequisites: ["3-01", "3-02", "3-03", "3-05", "3-06", "3-07", "3-08"]
+prerequisites: ["3-01", "3-02", "3-03", "3-04", "3-05", "3-06", "3-07", "3-08"]
 hifz: "revision only — Sabqi and Manzil, no new Sabaq"
 status: draft
 sources: ["[[Methodology]]", "[[Sifat]]", "[[Common-Mistakes]]"]
