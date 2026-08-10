@@ -66,8 +66,8 @@ The pairing drill that teaches both letters at once: `خ … غ … خ … غ`, 
 
 ## In tajweed
 
-- **Izhār ḥalqī** — غ is one of the six throat letters; nūn sākinah and tanwīn before it are pronounced clearly.
-- **Tafkhīm** — غ is one of the seven istiʿlāʾ letters (خُصَّ ضَغْطٍ قِظْ) and is **always** heavy; degree follows the vowel (fathah > dammah > kasrah).
-- **Rāʾ rules** — an istiʿlāʾ letter such as غ in the environment of a sākin rāʾ can prevent tarqīq.
+- **[[Izhar-Halqi|Izhār ḥalqī]]** — غ is one of the six throat letters; nūn sākinah and tanwīn before it are pronounced clearly.
+- **[[Tafkhim|Tafkhīm]]** — غ is one of the seven [[Istila|istiʿlāʾ]] letters (خُصَّ ضَغْطٍ قِظْ) and is **always** heavy; degree follows the vowel (fathah > dammah > kasrah).
+- **[[Ra-Tafkhim|Rāʾ rules]]** — an istiʿlāʾ letter such as غ in the environment of a sākin rāʾ can prevent [[Ra-Tarqiq|tarqīq]].
 - **Alif after غ** — the alif inherits غ's heaviness completely; see [[Alif]].
-- **No qalqalah** — sākin غ is a held rumble, never a bounce.
+- **No [[Qalqalah-sifah|qalqalah]]** — sākin غ is a held rumble, never a bounce.

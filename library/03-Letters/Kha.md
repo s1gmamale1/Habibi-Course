@@ -67,8 +67,8 @@ Because خ is an **istiʿlāʾ** letter, the back of the tongue is raised on eve
 
 ## In tajweed
 
-- **Izhār ḥalqī** — خ is one of the six throat letters; nūn sākinah and tanwīn before it are pronounced clearly.
-- **Tafkhīm** — خ is one of the seven istiʿlāʾ letters (خُصَّ ضَغْطٍ قِظْ) and is **always** heavy. Its degree of heaviness follows the vowel: fathah heaviest, then dammah, then kasrah.
-- **Rāʾ rules** — a خ in the neighbourhood of a ر is one of the istiʿlāʾ conditions that can keep a sākin rāʾ heavy after a kasrah.
-- **Lām of lafẓ al-jalālah** is unaffected by خ; do not let خ's weight spill onto neighbouring light letters such as ل and م.
-- **No qalqalah** — sākin خ flows out as breath.
+- **[[Izhar-Halqi|Izhār ḥalqī]]** — خ is one of the six throat letters; nūn sākinah and tanwīn before it are pronounced clearly.
+- **[[Tafkhim|Tafkhīm]]** — خ is one of the seven [[Istila|istiʿlāʾ]] letters (خُصَّ ضَغْطٍ قِظْ) and is **always** heavy. Its degree of heaviness follows the vowel: fathah heaviest, then dammah, then kasrah.
+- **[[Ra-Tafkhim|Rāʾ rules]]** — a خ in the neighbourhood of a ر is one of the istiʿlāʾ conditions that can keep a sākin rāʾ heavy after a kasrah.
+- **[[Lam-Jalalah|Lām of lafẓ al-jalālah]]** is unaffected by خ; do not let خ's weight spill onto neighbouring light letters such as ل and م.
+- **No [[Qalqalah-sifah|qalqalah]]** — sākin خ flows out as breath.

@@ -72,8 +72,8 @@ Both are heavy, both are voiced, both are itbaq. The difference the student hear
 
 ## In tajweed
 
-- **Qalqalah.** ط is the ط of **قُطْبُ جَدٍّ** — sughra mid-word (أَطْعَمَ), kubra at a stop.
-- **Isti'la and itbaq** — always **mufakhkham**, at the strongest degree.
-- **Tafkheem of a neighbouring ر** — a sakin ط before ر creates the isti'la environment.
-- **Ikhfa'.** ط is one of the fifteen ikhfa' letters: noon sakinah before ط is hidden with a **heavy** ghunnah, as in يَنطِقُونَ.
-- **Idgham mutajanisayn** — a **sakin ت merges into a following ط**: أَثْقَلَت دَّعَوَا-type cases, and canonically وَقَالَت طَّآئِفَةٌ. In the reverse direction — sakin **ط before ت** — the merge is **incomplete** (idgham naqis): the itbaq of the ط is retained even though the letter merges, as in أَحَطتُ and فَرَّطتُمْ. Do not let the student flatten the ط there.
+- **[[Qalqalah-sifah|Qalqalah]].** ط is the ط of **قُطْبُ جَدٍّ** — [[Qalqalah-Sughra|sughra]] mid-word (أَطْعَمَ), [[Qalqalah-Kubra|kubra]] at a stop.
+- **[[Istila|Isti'la]] and [[Itbaq|itbaq]]** — always **mufakhkham**, at the strongest degree.
+- **[[Ra-Tafkhim|Tafkheem]] of a neighbouring ر** — a sakin ط before ر creates the isti'la environment.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ط is one of the fifteen ikhfa' letters: noon sakinah before ط is hidden with a **heavy** ghunnah, as in يَنطِقُونَ.
+- **[[Idgham-Mutajanisayn|Idgham mutajanisayn]]** — a **sakin ت merges into a following ط**: أَثْقَلَت دَّعَوَا-type cases, and canonically وَقَالَت طَّآئِفَةٌ. In the reverse direction — sakin **ط before ت** — the merge is **incomplete** (idgham naqis): the itbaq of the ط is retained even though the letter merges, as in أَحَطتُ and فَرَّطتُمْ. Do not let the student flatten the ط there.

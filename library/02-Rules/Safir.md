@@ -35,7 +35,7 @@ resulting high-frequency hiss is part of the letter, not an artefact of it.
 None. Ṣafīr belongs to the sifat **without** an opposite: a letter either has this
 whistle or the description simply does not apply to it.
 
-The five-pair scheme this course teaches treats ṣafīr as one of the unopposed sifat.
+The [[Sifat|five-pair scheme]] this course teaches treats ṣafīr as one of the unopposed sifat.
 Some works add *al-khafa'* to this group and others pair khafa' with *az-zuhur*, making
 six opposed pairs — a difference of arrangement only. See [[Hams]] for that note.
 
@@ -43,7 +43,7 @@ six opposed pairs — a difference of arrangement only. See [[Hams]] for that no
 
 Three letters:
 
-ص · ز · س
+[[Sad|ص]] · [[Zay|ز]] · [[Seen|س]]
 
 They differ from each other by their other sifat, not by the whistle:
 

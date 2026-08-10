@@ -44,7 +44,7 @@ None. Ghunnah is one of the sifat without an opposite.
 
 ## Letters
 
-Two letters: **ن** and **م**.
+Two letters: **[[Noon|ن]]** and **[[Meem|م]]**.
 
 Every ن and every م carries ghunnah in every position. What changes from position to
 position is not whether the ghunnah is present but **how complete it is**.
@@ -85,8 +85,8 @@ Two failure modes:
 Ghunnah as a sifah is the raw material for a whole family of rules, all of which are
 downstream of it:
 
-- The noon sakinah and tanween rules — ikhfa, idgham with ghunnah, iqlab.
-- The meem sakinah rules — ikhfa shafawi, idgham shafawi.
+- The noon sakinah and tanween rules — [[Ikhfa-Haqiqi|ikhfa]], [[Idgham-Maal-Ghunnah|idgham with ghunnah]], [[Iqlab|iqlab]].
+- The meem sakinah rules — [[Ikhfa-Shafawi|ikhfa shafawi]], [[Idgham-Shafawi|idgham shafawi]].
 - The obligatory ghunnah of every mushaddad ن and م.
 
 All of these are treated in [[Ghunnah]] and the chapters it links to. What belongs here is

@@ -74,7 +74,7 @@ rule is a new *trigger* for a sound they already own.
 ### 2.2 Practical stopping in Unit 2, formal waqf in Unit 3.7
 
 [[Madd-Arid-Lissukun]] — the madd that appears only because you stopped — cannot be
-taught to someone who does not stop. Jazariyyah puts madd in chapter 11 and waqf in
+taught to someone who does not stop. Jazariyyah puts madd in chapter 11 and [[Waqf-Types|waqf]] in
 chapter 12; the earlier syllabus in this repo also deferred waqf to the end.
 
 But the real constraint arrives much earlier than either: **the moment a student
@@ -116,8 +116,8 @@ have no home in a lesson plan. The hifz strand keeps moving through these lesson
 only new *rules* pause.
 
 **Scholarly disagreement is named, not hidden.** Where the sources genuinely
-differ — the length of madd munfaṣil, the degrees of qalqalah, the number of sakt
-in Ḥafṣ, the levels of tafkhīm — teach the jumhūr position and name the alternative
+differ — the length of [[Madd-Munfasil|madd munfaṣil]], the degrees of [[Qalqalah-sifah|qalqalah]], the number of [[Sakt|sakt]]
+in Ḥafṣ, the levels of [[Tafkhim|tafkhīm]] — teach the jumhūr position and name the alternative
 once. Presenting a contested length as settled fact is the kind of error that
 destroys a teacher's credibility the first time the student meets another reciter.
 

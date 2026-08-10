@@ -54,8 +54,8 @@ The distance between ق and ك is about the width of a fingertip. There is no th
 
 ## In tajweed
 
-- **Hams**, and therefore full audible release on sukun.
-- **Istifal / tarqeeq** — ك is always light; a ر after it follows the ordinary ر rules with no tafkheem carried over.
-- **Ikhfa'.** ك is one of the fifteen ikhfa' letters: مَن كَانَ hides the noon with a *light* ghunnah, because ك is a light letter.
-- ك is not a qalqalah letter and not an idgham letter.
-- Sakin ك followed by ك (as across word boundaries) is a case of idgham mutamathilayn — two identical letters merging.
+- **[[Hams|Hams]]**, and therefore full audible release on sukun.
+- **[[Istifal|Istifal]] / [[Tarqiq|tarqeeq]]** — ك is always light; a ر after it follows the ordinary ر rules with no [[Tafkhim|tafkheem]] carried over.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ك is one of the fifteen ikhfa' letters: مَن كَانَ hides the noon with a *light* ghunnah, because ك is a light letter.
+- ك is not a [[Qalqalah-sifah|qalqalah]] letter and not an idgham letter.
+- Sakin ك followed by ك (as across word boundaries) is a case of [[Idgham-Mutamathilayn|idgham mutamathilayn]] — two identical letters merging.

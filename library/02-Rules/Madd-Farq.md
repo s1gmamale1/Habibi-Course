@@ -36,9 +36,9 @@ examples:
 
 ## Definition
 
-When the **interrogative hamzah** (همزة الاستفهام) enters upon a word beginning
+When the **interrogative [[Hamza|hamzah]]** (همزة الاستفهام) enters upon a word beginning
 with a **hamzat al-waṣl** — in practice, the definite article — the two hamzahs
-would collide. The second is converted into a **6-count alif** to keep the
+would collide. The second is converted into a **6-count [[Alif|alif]]** to keep the
 question audibly distinct from the statement.
 
 *Farq* means **distinction**. That is the entire purpose:

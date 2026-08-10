@@ -35,7 +35,7 @@ examples:
 
 ## Definition
 
-A madd letter at the **end of one word** followed by a hamzah at the **start of
+A madd letter at the **end of one word** followed by a [[Hamza|hamzah]] at the **start of
 the next**. The two are "separated" (munfaṣil) by a word boundary — which is
 exactly why the ruling is **jāʾiz**: the reciters differ, so more than one
 length is genuinely correct.
@@ -70,7 +70,7 @@ train the eye to look one word ahead.
 ## Common mistakes
 
 1. Mixing 2-count and 4-count munfaṣil in the same session.
-2. Applying it at waqf — stop on بِمَآ and it is simply 2 counts.
+2. Applying it at [[Waqf-Types|waqf]] — stop on بِمَآ and it is simply 2 counts.
 3. Reading munfaṣil *longer* than muttaṣil.
 4. Missing it in يَٰٓأَيُّهَا, which looks like one word but is two.
 

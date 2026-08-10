@@ -51,7 +51,7 @@ the mnemonic is worth memorising anyway because it is what the classical comment
 ## What it sounds like
 
 The teacher listens for **no breath escaping** — the letter rides on voice alone. Held
-against the palm, ز, ذ, د, ط give no puff.
+against the palm, [[Zay|ز]], [[Dhal|ذ]], [[Dal|د]], [[Ta-heavy|ط]] give no puff.
 
 The diagnostic failures are all **devoicing**, where a jahr letter is replaced by its
 hams neighbour at the same or a nearby makhraj:
@@ -75,7 +75,7 @@ they should feel the vocal folds vibrating right through it.
   [[Qalqalah-sifah]].
 - Devoicing a jahr letter usually changes the word, not just its texture — ظَلَمَ with a
   devoiced ظ becomes a different root entirely. This class of error is *lahn jali*.
-- ا, و, ي are counted as jahr in their consonantal reading; as madd letters they carry
+- [[Alif|ا]], [[Waw|و]], [[Ya|ي]] are counted as jahr in their consonantal reading; as madd letters they carry
   no reliance at all, which is part of why some scholars group them under khafa'
   (see [[Hams]] for that disagreement).
 

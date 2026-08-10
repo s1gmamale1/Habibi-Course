@@ -34,13 +34,13 @@ examples:
 ## Definition
 
 When you **stop** on a word ending in **tanwīn fatḥ** (ـً), the tanwīn is
-dropped and **compensated** (ʿiwaḍ) by an alif of 2 counts.
+dropped and **compensated** (ʿiwaḍ) by an [[Alif|alif]] of 2 counts.
 
 عَلِيمًا → `ʿalīmā` · أَفْوَاجًا → `afwājā` · نَصْرًا → `naṣrā`
 
 ## Condition
 
-Waqf on a word ending in tanwīn fatḥ. **Waqf only** — in wasl the tanwīn is
+[[Waqf-Types|Waqf]] on a word ending in tanwīn fatḥ. **Waqf only** — in wasl the tanwīn is
 pronounced normally and there is no madd at all.
 
 ## Length
@@ -50,7 +50,7 @@ pronounced normally and there is no madd at all.
 ## The exception: tāʾ marbūṭah
 
 A word ending in **ـةً** does **not** take ʿiwaḍ. At waqf the tāʾ marbūṭah
-becomes a sākin hāʾ and the tanwīn simply disappears:
+becomes a sākin [[Ha-soft|hāʾ]] and the tanwīn simply disappears:
 
 رَحْمَةً → **رَحْمَهْ** (`raḥmah`), **not** `raḥmatā`.
 

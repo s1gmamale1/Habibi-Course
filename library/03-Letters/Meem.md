@@ -77,11 +77,11 @@ Teach these as a ladder; most errors are a level applied in the wrong place.
 م sits at the centre of more rules than any other letter in Phase 1:
 
 - **Ahkām al-mīm as-sākinah** — three rules:
-  - **Ikhfāʾ shafawī** — م sākinah + [[Ba]]: hidden, two-count ghunnah, lips lightly together.
-  - **Idghām shafawī (mithlayn ṣaghīr)** — م sākinah + م: merged, two-count ghunnah.
-  - **Izhār shafawī** — م sākinah + any of the other 26 letters: clear, **no stretch**. Watch [[Fa]] and [[Waw]] especially, where the makhārij are close.
-- **Iqlāb** — a nūn sākinah or tanwīn before [[Ba]] is converted **into a mīm** with a two-count ghunnah. The م that appears here is not written as a letter; it is marked with a small م above the nūn.
-- **Idghām with ghunnah** — م is one of the يَرْمَلُونَ letters: a nūn sākinah or tanwīn before م merges into it with ghunnah (مِن مَّاءٍ).
+  - **[[Ikhfa-Shafawi|Ikhfāʾ shafawī]]** — م sākinah + [[Ba]]: hidden, two-count ghunnah, lips lightly together.
+  - **[[Idgham-Shafawi|Idghām shafawī (mithlayn ṣaghīr)]]** — م sākinah + م: merged, two-count ghunnah.
+  - **[[Izhar-Shafawi|Izhār shafawī]]** — م sākinah + any of the other 26 letters: clear, **no stretch**. Watch [[Fa]] and [[Waw]] especially, where the makhārij are close.
+- **[[Iqlab|Iqlāb]]** — a nūn sākinah or tanwīn before [[Ba]] is converted **into a mīm** with a two-count ghunnah. The م that appears here is not written as a letter; it is marked with a small م above the nūn.
+- **[[Idgham-Maal-Ghunnah|Idghām with ghunnah]]** — م is one of the يَرْمَلُونَ letters: a nūn sākinah or tanwīn before م merges into it with ghunnah (مِن مَّاءٍ).
 - **Mīm mushaddadah** — always a full two-count ghunnah (ثُمَّ, أُمَّة).
-- **Al-khayshūm** — the makhraj of the ghunnah itself; teach it as the 17th point when teaching م and ن.
-- **No qalqalah, no tafkhīm.**
+- **Al-khayshūm** — the makhraj of the [[Ghunnah|ghunnah]] itself; teach it as the 17th point when teaching م and ن.
+- **No [[Qalqalah-sifah|qalqalah]], no [[Tafkhim|tafkhīm]].**

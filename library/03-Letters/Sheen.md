@@ -58,8 +58,8 @@ Contrast with [[Seen]]: س has **safir**, a thin whistle down a narrow groove. �
 
 ## In tajweed
 
-- **Tafashshi** — the sifah exists to be *made*, not avoided, unlike takrir.
-- **Idgham with ghunnah? No.** ش is not in يَرْمَلُونَ.
-- **Ikhfa'.** ش is one of the fifteen ikhfa' letters: مِن شَرِّ (113:2) hides the noon with a light ghunnah — and it is a textbook ikhfa' example precisely because it appears three times in Surah al-Falaq.
-- **Idgham mutajanisayn / mutaqaribayn** — a sakin ذ or ل before ش does not merge; but sakin ش before ش is idgham mutamathilayn.
-- **Istifal** — ش never makes a following ر heavy.
+- **[[Tafashshi|Tafashshi]]** — the sifah exists to be *made*, not avoided, unlike [[Takrir|takrir]].
+- **[[Idgham-Maal-Ghunnah|Idgham with ghunnah]]? No.** ش is not in يَرْمَلُونَ.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ش is one of the fifteen ikhfa' letters: مِن شَرِّ (113:2) hides the noon with a light ghunnah — and it is a textbook ikhfa' example precisely because it appears three times in Surah al-Falaq.
+- **[[Idgham-Mutajanisayn|Idgham mutajanisayn]] / [[Idgham-Mutaqaribayn|mutaqaribayn]]** — a sakin ذ or ل before ش does not merge; but sakin ش before ش is [[Idgham-Mutamathilayn|idgham mutamathilayn]].
+- **[[Istifal|Istifal]]** — ش never makes a following ر heavy.

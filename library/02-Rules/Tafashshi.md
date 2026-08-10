@@ -37,7 +37,7 @@ None. Tafashshī is one of the sifat without an opposite.
 
 ## Letters
 
-One letter: **ش**.
+One letter: **[[Sheen|ش]]**.
 
 ش is also a [[Hams]] letter (breath flows) and a [[Rakhawah]] letter (sound flows), and it
 is [[Istifal]] — light. Tafashshī is what distinguishes it from س, which shares the breath
