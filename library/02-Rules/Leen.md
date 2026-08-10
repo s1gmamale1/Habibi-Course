@@ -38,13 +38,13 @@ None. Līn is one of the sifat without an opposite.
 
 ## Letters
 
-Two letters, **و and ي, sakinah and preceded by a fathah**:
+Two letters, **[[Waw|و]] and [[Ya|ي]], sakinah and preceded by a fathah**:
 
 - **وْ** after fathah — خَوْفٍۭ
 - **يْ** after fathah — ٱلْبَيْتِ, قُرَيْشٍ
 
 If the same letters are sakin after their homogeneous vowel (وْ after dammah, يْ after
-kasrah) they are **madd letters**, not līn letters. If they carry a vowel of their own
+kasrah) they are **[[Madd-Tabii|madd letters]]**, not līn letters. If they carry a vowel of their own
 they are ordinary consonants. The three states must be kept apart from the start, because
 the length rules differ for each.
 
@@ -68,7 +68,7 @@ positions of a līn letter in four ayat.
 ## Why it matters
 
 - **[[Madd-Leen]]** is built directly on this sifah: when a līn letter is followed by a
-  letter made sakin by stopping (waqf), it may be lengthened 2, 4 or 6 counts. Without the
+  letter made sakin by stopping ([[Waqf-Types|waqf]]), it may be lengthened 2, 4 or 6 counts. Without the
   sifah there is no such madd, which is why līn is taught before the madd chapter rather
   than inside it.
 - Līn letters are among the four letters some scholars group under *al-khafa'*

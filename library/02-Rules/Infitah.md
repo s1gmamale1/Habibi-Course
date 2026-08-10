@@ -38,7 +38,7 @@ Twenty-five letters — everything except ص ض ط ظ:
 ء · ا · ب · ت · ث · ج · ح · خ · د · ذ · ر · ز · س · ش · ع · غ · ف · ق · ك · ل · م · ن ·
 ه · و · ي
 
-Note the three letters that are **istiʿlāʾ *and* infitāḥ**: خ, غ, ق. They are heavy
+Note the three letters that are **[[Istila|istiʿlāʾ]] *and* infitāḥ**: خ, غ, ق. They are heavy
 letters that are not clamped, which places them at a lower degree of heaviness than
 ص ض ط ظ. Every other infitāḥ letter is also [[Istifal]] and therefore light.
 

@@ -60,9 +60,9 @@ Contrast with [[Sheen]]: س has **safir**, a thin whistle down a narrow groove; 
 
 ## In tajweed
 
-- **Ikhfa'.** س is one of the fifteen ikhfa' letters: noon sakinah before س is hidden with a **light** ghunnah, as in إِنسَان.
-- **Istifal** — س never makes a following ر heavy; the ر of ٱلْمُسْتَقِيم-type words follows its own rules.
-- **Idgham mutamathilayn** — sakin س into س.
-- **Waqf and hams** — a sakin س at a stop must keep its full flowing whistle, not be cut short.
-- **The four س / ص words in Hafs.** Four places are written with a ص carrying a small س (or the reverse) to mark that the root is a س root: يَبْصُۜطُ (2:245), بَصْۜطَةً (7:69), ٱلْمُصَۣيْطِرُونَ (52:37), بِمُصَيْطِرٍ (88:22). Hafs reads the first three with **ص**; the fourth admits both. Compare بَسْطَةً at 2:247, written plainly with س. These are transmission details — flag them, and handle them when the student reaches those ayat, not in the first pass.
-- س is not a qalqalah letter.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** س is one of the fifteen ikhfa' letters: noon sakinah before س is hidden with a **light** ghunnah, as in إِنسَان.
+- **[[Istifal|Istifal]]** — س never makes a following ر heavy; the ر of ٱلْمُسْتَقِيم-type words follows its own rules.
+- **[[Idgham-Mutamathilayn|Idgham mutamathilayn]]** — sakin س into س.
+- **[[Waqf-Types|Waqf]] and [[Hams|hams]]** — a sakin س at a stop must keep its full flowing whistle, not be cut short.
+- **The four س / ص words in [[Hafs-Special-Words|Hafs]].** Four places are written with a ص carrying a small س (or the reverse) to mark that the root is a س root: يَبْصُۜطُ (2:245), بَصْۜطَةً (7:69), ٱلْمُصَۣيْطِرُونَ (52:37), بِمُصَيْطِرٍ (88:22). Hafs reads the first three with **ص**; the fourth admits both. Compare بَسْطَةً at 2:247, written plainly with س. These are transmission details — flag them, and handle them when the student reaches those ayat, not in the first pass.
+- س is not a [[Qalqalah-sifah|qalqalah]] letter.

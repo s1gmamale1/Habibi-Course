@@ -35,9 +35,9 @@ None. Inḥirāf is one of the sifat without an opposite.
 
 Two letters, deviating in opposite directions:
 
-- **ل** — the tongue tip touches the gum ridge, and the sound deviates **around the sides**
+- **[[Lam|ل]]** — the tongue tip touches the gum ridge, and the sound deviates **around the sides**
   of the tongue toward the tip. (This is what phoneticians call a lateral.)
-- **ر** — the tongue tip touches slightly further back, and the sound deviates **toward the
+- **[[Ra|ر]]** — the tongue tip touches slightly further back, and the sound deviates **toward the
   back** of the tongue.
 
 Both are [[Tawassut]] letters, and inḥirāf is the mechanism *behind* their tawassut: the
@@ -67,7 +67,7 @@ Failure modes:
 - ر's deviation toward the back of the tongue is what makes it capable of heaviness at
   all, and is bound up with its other unique sifah, [[Takrir]].
 - ل is the letter whose weight is governed by a dedicated rule (the ل of ٱللَّه) — see
-  [[Lam]] — and by the sun/moon letter assimilation of ٱل.
+  [[Lam]] — and by the [[Lam-Shamsiyyah|sun]]/[[Lam-Qamariyyah|moon]] letter assimilation of ٱل.
 
 ## Sources
 

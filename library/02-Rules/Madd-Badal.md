@@ -33,7 +33,7 @@ examples:
 
 ## Definition
 
-A madd letter **preceded** by a hamzah, with no hamzah or sukūn after it.
+A madd letter **preceded** by a [[Hamza|hamzah]], with no hamzah or sukūn after it.
 
 "Badal" means *substitute*, because historically the madd letter replaced a
 second hamzah: أَأْمَنَ became آمَنَ, أُأْتُوا became أُوتُوا. The madd is the
@@ -60,7 +60,7 @@ Note the order carefully — this is the mirror image of [[Madd-Muttasil]]:
 
 ## How to spot it
 
-The alif-maddah `آ` at the start of a word (ءَا in the Tanzīl orthography) is
+The [[Alif|alif]]-maddah `آ` at the start of a word (ءَا in the Tanzīl orthography) is
 almost always badal: آمَنَ · آدَمَ · آتَىٰ · الْقُرْآن. A hamzah followed by a
 small wāw or yāʾ madd is the same rule with a different madd letter.
 

@@ -62,11 +62,11 @@ Cue: *"Just behind where you make your ن. Tap it once — one flick, then stop.
 
 ## In tajweed
 
-- **Tafkheem and tarqeeq of ر** — the letter's own rule set, and the reason it gets two lessons:
-  - **Heavy** with fathah or dammah (رَبِّ, رُسُل); sakin after fathah or dammah (ٱلْأَرْض, قُرْآن); sakin after an incidental kasrah (ٱرْجِعِي); sakin after a kasrah when followed in the same word by an isti'la letter (فِرْقٍ).
+- **[[Ra-Tafkhim|Tafkheem]] and [[Ra-Tarqiq|tarqeeq]] of ر** — the letter's own rule set, and the reason it gets two lessons:
+  - **Heavy** with fathah or dammah (رَبِّ, رُسُل); sakin after fathah or dammah (ٱلْأَرْض, قُرْآن); sakin after an incidental kasrah (ٱرْجِعِي); sakin after a kasrah when followed in the same word by an [[Istila|isti'la]] letter (فِرْقٍ).
   - **Light** with kasrah (بِرَبِّ, رِجَال); sakin after an original kasrah with no isti'la letter after it (فِرْعَوْن); sakin after a ي sakinah (خَيْرْ at a stop).
-  - **Either permitted** in a small set of cases, the classic being فِرْقٍ.
-- **Idgham without ghunnah.** ر is one of the letters of **يَرْمَلُونَ**: noon sakinah or tanween before ر merges **completely and without ghunnah** — مِن رَّبِّهِمْ, غَفُورٌ رَّحِيمٌ.
-- **Idgham mutaqaribayn** — sakin ل merges into ر: قُل رَّبِّ.
-- **Takrir suppression** — a graded item in its own right; a trilled ر is marked wrong even when everything else is correct.
-- ر is not a qalqalah letter.
+  - **[[Ra-Jawaz-Wajhayn|Either permitted]]** in a small set of cases, the classic being فِرْقٍ.
+- **[[Idgham-Bila-Ghunnah|Idgham without ghunnah]].** ر is one of the letters of **يَرْمَلُونَ**: noon sakinah or tanween before ر merges **completely and without ghunnah** — مِن رَّبِّهِمْ, غَفُورٌ رَّحِيمٌ.
+- **[[Idgham-Mutaqaribayn|Idgham mutaqaribayn]]** — sakin ل merges into ر: قُل رَّبِّ.
+- **[[Takrir|Takrir]] suppression** — a graded item in its own right; a trilled ر is marked wrong even when everything else is correct.
+- ر is not a [[Qalqalah-sifah|qalqalah]] letter.

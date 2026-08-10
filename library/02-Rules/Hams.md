@@ -64,17 +64,17 @@ Turkic speakers tend to swallow, and on ص, which collapses toward a bare س sto
 
 ## Why it matters
 
-- **Qalqalah requires jahr + shiddah together.** Because hams letters are by definition
+- **Qalqalah requires jahr + [[Shiddah|shiddah]] together.** Because hams letters are by definition
   not jahr, no hams letter can ever carry qalqalah — this is why ت and ك, despite being
   plosives, are excluded from قُطْبُ جَدٍّ. See [[Qalqalah-sifah]].
-- **Waqf on a hams letter** is the commonest place for the breath to be cut, producing a
+- **[[Waqf-Types|Waqf]] on a hams letter** is the commonest place for the breath to be cut, producing a
   clipped stop that sounds like a different letter.
-- Hams is one half of the pair that distinguishes letters sharing a makhraj: ت (hams)
-  against د (jahr), and ص (hams) against ض (jahr) at the tongue's edge.
+- Hams is one half of the pair that distinguishes letters sharing a makhraj: [[Ta|ت]] (hams)
+  against [[Dal|د]] (jahr), and [[Sad|ص]] (hams) against [[Dad|ض]] (jahr) at the tongue's edge.
 
 ## How many pairs? — scholars differ
 
-This course teaches the **five-pair scheme** (ten sifat with opposites). Some scholars
+This course teaches the **[[Sifat|five-pair scheme]]** (ten sifat with opposites). Some scholars
 add a sixth pair by opposing *al-khafa'* (الخفاء, faintness — ه and the three madd
 letters ا و ي) to *az-zuhur* (الظهور, clarity); others treat khafa' as a sifah without
 an opposite. The disagreement is one of **arrangement, not of substance** — the same

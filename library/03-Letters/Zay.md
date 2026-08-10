@@ -63,8 +63,8 @@ Cue: *"Say a long sīn. Now, without moving anything, turn your voice on. That's
 
 ## In tajweed
 
-- **Ikhfa'.** ز is one of the fifteen ikhfa' letters: noon sakinah before ز is hidden with a **light** ghunnah, as in أَنزَلَ.
-- **Istifal** — ز never makes a following ر heavy.
-- **Idgham mutamathilayn** — sakin ز into ز.
-- **Jahr in waqf** — a sakin ز at a stop keeps its voicing and its buzz; it must not be turned into a س.
-- ز is not a qalqalah letter — it has rakhawah, not shiddah.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ز is one of the fifteen ikhfa' letters: noon sakinah before ز is hidden with a **light** ghunnah, as in أَنزَلَ.
+- **[[Istifal|Istifal]]** — ز never makes a following ر heavy.
+- **[[Idgham-Mutamathilayn|Idgham mutamathilayn]]** — sakin ز into ز.
+- **[[Jahr|Jahr]] in [[Waqf-Types|waqf]]** — a sakin ز at a stop keeps its voicing and its buzz; it must not be turned into a س.
+- ز is not a [[Qalqalah-sifah|qalqalah]] letter — it has [[Rakhawah|rakhawah]], not [[Shiddah|shiddah]].

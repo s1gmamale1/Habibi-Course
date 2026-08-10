@@ -62,8 +62,8 @@ Cue: *"Tip of the tongue up on the gum where your top teeth start — not on the
 
 ## In tajweed
 
-- **Qalqalah.** د is the د of **قُطْبُ جَدٍّ** — the last letter of the mnemonic and the one students meet first, in قَدْ.
-- **Ikhfa'.** د is one of the fifteen ikhfa' letters: noon sakinah before د is hidden with a **light** ghunnah, as in أَنْدَادًا.
-- **Idgham mutajanisayn** — a **sakin د merges into a following ت**: قَد تَّبَيَّنَ. In the reverse direction, a sakin ت merges into a following د: أَثْقَلَت دَّعَوَا (7:189).
-- **Idgham mutamathilayn** — sakin د into د: قَد دَّخَلُوا.
-- **Istifal** — د never makes a following ر heavy.
+- **[[Qalqalah-sifah|Qalqalah]].** د is the د of **قُطْبُ جَدٍّ** — the last letter of the mnemonic and the one students meet first, in قَدْ.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** د is one of the fifteen ikhfa' letters: noon sakinah before د is hidden with a **light** ghunnah, as in أَنْدَادًا.
+- **[[Idgham-Mutajanisayn|Idgham mutajanisayn]]** — a **sakin د merges into a following ت**: قَد تَّبَيَّنَ. In the reverse direction, a sakin ت merges into a following د: أَثْقَلَت دَّعَوَا (7:189).
+- **[[Idgham-Mutamathilayn|Idgham mutamathilayn]]** — sakin د into د: قَد دَّخَلُوا.
+- **[[Istifal|Istifal]]** — د never makes a following ر heavy.

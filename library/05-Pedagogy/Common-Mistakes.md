@@ -132,10 +132,10 @@ These arrive with Unit 3 and are mostly **Laḥn Khafi** — they degrade qualit
 without changing meaning — with the exception of madd length, which is Jali. See
 [[Assessment]].
 
-**Ghunnah with no nasal resonance.** The student produces ن and م "from the mouth",
+**Ghunnah with no nasal resonance.** The student produces [[Noon|ن]] and [[Meem|م]] "from the mouth",
 with the nose doing nothing. [[Ghunnah]] must audibly buzz through the nose for two
 counts.
-*Self-check — the nose pinch:* recite an idghām-with-ghunnah or an ikhfāʾ word while
+*Self-check — the nose pinch:* recite an [[Idgham-Maal-Ghunnah|idghām-with-ghunnah]] or an [[Ikhfa-Haqiqi|ikhfāʾ]] word while
 pinching the nose shut. If the sound does not change, there was no ghunnah in it.
 This is one of the very few tajweed features a student can genuinely verify alone,
 so teach it early and use it constantly. See also [[Ghunnah-sifah]].

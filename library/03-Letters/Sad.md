@@ -66,9 +66,9 @@ Cue: *"Start on a س. Keep the tip exactly where it is — don't move it. Now li
 
 ## In tajweed
 
-- **Isti'la and itbaq** — always **mufakhkham**, at the strongest degree.
-- **Tafkheem of a neighbouring ر** — a sakin ص before ر creates the isti'la environment.
-- **Ikhfa'.** ص is one of the fifteen ikhfa' letters: noon sakinah before ص is hidden with a **heavy** ghunnah, as in أَنصَارِي.
-- **Idgham mutajanisayn is not applicable**, but a sakin ص before a ز gives the recognised case of **ishmam/ishmam-like** variation in a few readings — teach the Hafs default: read it as written.
-- **Isti'la and hams together** make ص one of only two letters that are both heavy and breathed (with خ).
-- ص is not a qalqalah letter — rakhawah rules it out.
+- **[[Istila|Isti'la]] and [[Itbaq|itbaq]]** — always **mufakhkham**, at the strongest degree.
+- **[[Ra-Tafkhim|Tafkheem]] of a neighbouring ر** — a sakin ص before ر creates the isti'la environment.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ص is one of the fifteen ikhfa' letters: noon sakinah before ص is hidden with a **heavy** ghunnah, as in أَنصَارِي.
+- **[[Idgham-Mutajanisayn|Idgham mutajanisayn]] is not applicable**, but a sakin ص before a ز gives the recognised case of **ishmam/ishmam-like** variation in a few readings — teach the Hafs default: read it as written.
+- **Isti'la and [[Hams|hams]] together** make ص one of only two letters that are both heavy and breathed (with خ).
+- ص is not a [[Qalqalah-sifah|qalqalah]] letter — [[Rakhawah|rakhawah]] rules it out.

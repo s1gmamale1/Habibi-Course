@@ -64,8 +64,8 @@ Cue: *"Put the tip of your tongue on the edge of your top teeth — let it stick
 
 ## In tajweed
 
-- **Idgham mutajanisayn** — a **sakin ذ merges into a following ظ**: إِذ ظَّلَمُوا (4:64). Also the merging of a sakin ذ into the ظ in وَإِذ ظَّلَمْتُمْ-type constructions.
-- **Idgham shamsiyyah** — ذ is one of the fourteen sun letters: the ل of ٱل is silent before it, ٱلذِّكْر is read "adh-dhikr".
-- **Ikhfa'.** ذ is one of the fifteen ikhfa' letters: noon sakinah before ذ is hidden with a **light** ghunnah, as in مُنذِرٌ.
-- **Istifal** — ذ never makes a following ر heavy.
-- ذ is not a qalqalah letter — it has rakhawah, not shiddah.
+- **[[Idgham-Mutajanisayn|Idgham mutajanisayn]]** — a **sakin ذ merges into a following ظ**: إِذ ظَّلَمُوا (4:64). Also the merging of a sakin ذ into the ظ in وَإِذ ظَّلَمْتُمْ-type constructions.
+- **[[Lam-Shamsiyyah|Idgham shamsiyyah]]** — ذ is one of the fourteen sun letters: the ل of ٱل is silent before it, ٱلذِّكْر is read "adh-dhikr".
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ذ is one of the fifteen ikhfa' letters: noon sakinah before ذ is hidden with a **light** ghunnah, as in مُنذِرٌ.
+- **[[Istifal|Istifal]]** — ذ never makes a following ر heavy.
+- ذ is not a [[Qalqalah-sifah|qalqalah]] letter — it has [[Rakhawah|rakhawah]], not [[Shiddah|shiddah]].

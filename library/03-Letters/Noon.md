@@ -71,13 +71,13 @@ Cue: *"Tip of the tongue on the gum, just under where you put it for ل — and 
 
 ن is the busiest letter in the rulebook after [[Ra]]. Noon sakinah and tanween carry **four rules**:
 
-- **Izhar halqi** — before the six throat letters (ء ه ع ح غ خ): clear, short ghunnah, no merging. مِنْ هَادٍ.
-- **Idgham** — before the six letters of **يَرْمَلُونَ**: with ghunnah for ي ن م و (incomplete for ي and و — the letter is still heard), without ghunnah for ل and ر. مَن يَعْمَلْ, مِن لَّدُنْهُ.
-- **Iqlab** — before ب: the ن turns into a hidden م with 2 counts of ghunnah. مِنۢ بَعْدِ.
-- **Ikhfa'** — before the remaining fifteen letters: the ن is hidden, tongue does not touch the gum, 2 counts of ghunnah, made heavy or light according to the following letter. مِن قَبْلُ (heavy), مِن شَرِّ (light).
+- **[[Izhar-Halqi|Izhar halqi]]** — before the six throat letters (ء ه ع ح غ خ): clear, short ghunnah, no merging. مِنْ هَادٍ.
+- **Idgham** — before the six letters of **يَرْمَلُونَ**: [[Idgham-Maal-Ghunnah|with ghunnah]] for ي ن م و (incomplete for ي and و — the letter is still heard), [[Idgham-Bila-Ghunnah|without ghunnah]] for ل and ر. مَن يَعْمَلْ, مِن لَّدُنْهُ.
+- **[[Iqlab|Iqlab]]** — before ب: the ن turns into a hidden م with 2 counts of ghunnah. مِنۢ بَعْدِ.
+- **[[Ikhfa-Haqiqi|Ikhfa']]** — before the remaining fifteen letters: the ن is hidden, tongue does not touch the gum, 2 counts of ghunnah, made heavy or light according to the following letter. مِن قَبْلُ (heavy), مِن شَرِّ (light).
 
 Plus:
 
-- **Noon mushaddadah** (نّ) — always 2 counts of ghunnah, wherever it appears: إِنَّ, ٱلنَّاسِ.
+- **Noon mushaddadah** (نّ) — always 2 counts of [[Ghunnah|ghunnah]], wherever it appears: إِنَّ, ٱلنَّاسِ.
 - **Izhar mutlaq** — the four words دُنْيَا, بُنْيَان, صِنْوَان, قِنْوَان, where ن sakinah meets ي or و *inside one word* and is read clear instead of merged.
-- ن is not a qalqalah letter.
+- ن is not a [[Qalqalah-sifah|qalqalah]] letter.

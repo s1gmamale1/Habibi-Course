@@ -51,7 +51,7 @@ unchanged; a wrong one either stops dead or drifts into a vowel.
 
 The characteristic failure is **cutting the flow short**, especially on ص, ض, ظ, where
 learners who are concentrating on heaviness clamp down and turn the letter into a stop —
-ض becomes a heavy د, ظ becomes a heavy د or ط. The heaviness is right; the continuity is
+[[Dad|ض]] becomes a heavy [[Dal|د]], [[Za-heavy|ظ]] becomes a heavy د or [[Ta-heavy|ط]]. The heaviness is right; the continuity is
 missing.
 
 ## Why it matters

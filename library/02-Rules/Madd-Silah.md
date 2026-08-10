@@ -40,9 +40,9 @@ examples:
 
 ## Definition
 
-The **hāʾ aḍ-ḍamīr** — the third-person masculine singular pronoun suffix
+The **[[Ha-soft|hāʾ]] aḍ-ḍamīr** — the third-person masculine singular pronoun suffix
 ـهُ / ـهِ — is given a small madd when it stands **between two vowelled
-letters**. An implied **wāw** is heard after a ḍammah, an implied **yāʾ** after a
+letters**. An implied **[[Waw|wāw]]** is heard after a ḍammah, an implied **[[Ya|yāʾ]]** after a
 kasrah.
 
 The mushaf prints this implied letter as a **small wāw** (ـهُۥ) or a **small
@@ -53,7 +53,7 @@ yāʾ** (ـهِۦ). That superscript letter *is* the rule, made visible.
 The hāʾ aḍ-ḍamīr must be:
 1. preceded by a **mutaḥarrik** (vowelled) letter, **and**
 2. followed by a **mutaḥarrik** letter,
-3. **in wasl only** — the ṣilah drops entirely at waqf.
+3. **in wasl only** — the ṣilah drops entirely at [[Waqf-Types|waqf]].
 
 ## The two sizes
 

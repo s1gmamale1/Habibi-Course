@@ -62,8 +62,8 @@ Teacher's script: *"Bite gently on the inside of your bottom lip with your top t
 
 ## In tajweed
 
-- **Hams** — one of the ten فَحَثَّهُ شَخْصٌ سَكَتْ letters; the breath must escape, especially on a sākin ف and at a waqf.
-- **Idhlāq** — one of the six فِرَّ مِنْ لُبِّ letters used classically to test whether a quadriliteral root is genuinely Arabic.
-- **Ikhfāʾ ḥaqīqī** — ف is one of the fifteen ikhfāʾ letters. A nūn sākinah or tanwīn before ف is hidden with a two-count ghunnah and the mouth **already in ف position**: أَنفُسَكُمْ, يُنفِقُونَ. This is the most useful rule attached to this letter.
-- **Izhār shafawī** — a mīm sākinah before ف is pronounced clearly; do not let the mīm blur into the ف. Classical texts single out ف and [[Waw]] here precisely because they are so close to the mīm's own makhraj.
-- **No qalqalah, no tafkhīm.**
+- **[[Hams|Hams]]** — one of the ten فَحَثَّهُ شَخْصٌ سَكَتْ letters; the breath must escape, especially on a sākin ف and at a waqf.
+- **[[Idhlaq|Idhlāq]]** — one of the six فِرَّ مِنْ لُبِّ letters used classically to test whether a quadriliteral root is genuinely Arabic.
+- **[[Ikhfa-Haqiqi|Ikhfāʾ ḥaqīqī]]** — ف is one of the fifteen ikhfāʾ letters. A nūn sākinah or tanwīn before ف is hidden with a two-count ghunnah and the mouth **already in ف position**: أَنفُسَكُمْ, يُنفِقُونَ. This is the most useful rule attached to this letter.
+- **[[Izhar-Shafawi|Izhār shafawī]]** — a mīm sākinah before ف is pronounced clearly; do not let the mīm blur into the ف. Classical texts single out ف and [[Waw]] here precisely because they are so close to the mīm's own makhraj.
+- **No [[Qalqalah-sifah|qalqalah]], no [[Tafkhim|tafkhīm]].**
