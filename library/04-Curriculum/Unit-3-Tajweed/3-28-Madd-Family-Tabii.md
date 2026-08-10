@@ -4,7 +4,7 @@ id: "3-28"
 unit: "3.6"
 stage: Madd
 title: The Madd Family, and Madd Ṭabīʿī
-teaches: [madd_tabii]
+teaches: [madd_tabii, madd_badal, madd_silah, madd_tamkeen, madd_farq]
 prerequisites: ["2-07", "3-27"]
 hifz: "108:1-108:3"
 status: draft
@@ -186,6 +186,53 @@ letters long**, ending in a madd letter with no sukūn after it, takes a plain t
 And the one that catches everyone: **ا (alif) gets no madd at all.** Its name is spelt with
 three letters but does not end in a madd letter. In الٓر the alif is bare, the lām is six, the
 rāʾ is two.
+
+### 8. The four this course does not drill — name them, and say why
+
+**Do this at the end, in five minutes, and do not drill it.** The point is inoculation: she
+will meet these names in any other book she opens, and a student who has never heard them
+concludes her course was incomplete or her teacher did not know them.
+
+**First, the honest disclosure about the count.** [[Tuhfat-al-Atfal]] lists the *farʿī* madds
+as **lāzim, wājib (muttaṣil), jāʾiz (munfaṣil), ʿāriḍ, and badal** — five, with badal among
+them. This course teaches **ṭabīʿī plus the first four**, and leaves badal out of the drilled
+set. That is a deliberate substitution, not an oversight, and the reason is simple: **badal is
+two counts, exactly like ṭabīʿī.** Every other rule in Unit 3.6 changes a length; badal does
+not. She already produces it correctly by treating it as a natural madd, so drilling it as a
+separate rule buys nothing at her level.
+
+Say that out loud. *"Your book at home may count five kinds of long madd and put badal among
+them. We do four, because the fifth one is two counts and you already say it right."*
+
+| Rule | What triggers it | Counts | Status here |
+|---|---|---|---|
+| **[[Madd-Badal]]** | a hamzah **before** the madd letter, nothing after | 2 | named today, not drilled |
+| **[[Madd-Silah]]** | the hāʾ of the pronoun between two vowelled letters | 2, or 4–5 before a hamzah | named today, not drilled |
+| **[[Madd-Tamkeen]]** | a madd letter meeting a letter of its own kind | 2 | named today, not drilled |
+| **[[Madd-Farq]]** | the interrogative hamzah on the definite article | 6 | named today, not drilled |
+
+**Badal is the mirror of muttaṣil, and that is the one thing worth her remembering.** Hamzah
+*then* madd letter is badal, two counts. Madd letter *then* hamzah is muttaṣil, four. Same two
+characters, opposite order, different rule. Draw both orders on one line so the contrast is
+visual.
+
+**Ṣilah she has already been reading correctly without a name for it.** The small wāw in ـهُۥ
+and the small yāʾ in ـهِۦ *are* the rule, printed. She has been obeying a superscript letter
+since Unit 2 without knowing it had a chapter.
+
+**Farq is worth thirty seconds for the meaning alone.** Six places in the whole Qurʾān, and
+its entire job is to keep a question distinguishable from a statement: ءَآللَّهُ with six
+counts is *"Is it Allāh…?"*; without the stretch it is simply *"Allāh"*. The length carries
+the question mark.
+
+**Reference examples — outside your memorised surahs**, except where noted. Read these from the
+muṣḥaf: badal at **36:2** وَٱلْقُرْءَانِ · ṣilah at **104:3** مَالَهُۥٓ أَخْلَدَهُۥ ·
+farq at **10:59** ءَآللَّهُ أَذِنَ لَكُمْ. **Tamkīn she can find in her own hifz** — **114:5**
+ٱلَّذِى يُوَسْوِسُ, where a madd yāʾ runs straight into another yāʾ and both must stay audible.
+
+**In plain terms:** there are a few more madds with names, and you already say three of them
+right without knowing it. Only one changes a length — the question one, six counts — and there
+are six of those in the whole Qurʾān. You are not missing anything.
 
 ## Examples
 
