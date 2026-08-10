@@ -59,9 +59,17 @@ and recorded that here.
 
 ## Carried forward
 
-- **`taught_in` numbers are provisional.** They were assigned per-batch by independent
-  agents against no shared lesson map, because the lesson notes did not exist yet. They
-  must be re-mapped against the final 36-lesson Unit 3 before any lesson is transcribed.
+- **`taught_in` is now reconciled and enforced.** 32 of 59 rule notes disagreed with the
+  lesson that teaches them; all were rewritten from the lesson's own `teaches[]`, and the
+  gate now rejects any future drift. *(Resolved 2026-08-10.)*
+- **18 rules are taught by no lesson's `teaches[]`.** They are covered inside broader
+  lessons but never named, so their `taught_in` is a guess the gate cannot check:
+  `ghunnah-sifah` · `qalqalah-sifah` · `idhlaq` · `ismat` · `inhiraf` · `istitalah` ·
+  `leen` · `safir` · `tafashshi` · `takrir` · `madd_badal` · `madd_iwad` · `madd_silah` ·
+  `madd_leen` · `madd_tamkeen` · `madd_farq` · `sakt` · `hafs_special_words`.
+  Mostly the unopposed ṣifāt (which `3-02`/`3-03` cover as a group) and the secondary madd
+  types (`3-27`/`3-31`). **Decide per rule at review time:** either add it to the relevant
+  lesson's `teaches[]`, or accept that it is reference material rather than taught content.
 - **The hifz lesson→surah mapping in `phase-3-tajweed.md` §2.2 was built for 26 lessons.**
   Unit 3 now has 36. It must be regenerated, not copied.
 ## Unit 2 scope reconciliation — 2026-08-10
