@@ -1,7 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 import type { GameData } from "@/games/derive";
-import { baseLetters } from "@/games/arabic";
+import { baseLetters, displayLetters } from "@/games/arabic";
 import { Flashcards, LetterFlashcards, wordCards } from "./Flashcards";
 import { FormSwap } from "./FormSwap";
 import { WordBuilder } from "./WordBuilder";
@@ -18,7 +18,9 @@ export function GamePanel({ data, heading = "Practice games" }: { data: GameData
       }),
     [data],
   );
-  const spotWords = useMemo(() => data.wordPool.filter((w) => new Set(baseLetters(w.arabic)).size >= 2), [data]);
+  // Normalize the same way SpotTheLetter picks its target (letters as written),
+  // so the "has ≥2 distinct letters" gate and the target picker agree.
+  const spotWords = useMemo(() => data.wordPool.filter((w) => new Set(displayLetters(w.arabic)).size >= 2), [data]);
   const quizPool = useMemo(() => data.letterPool.filter((it) => it.name), [data]);
 
   const tabs = [

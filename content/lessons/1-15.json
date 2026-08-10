@@ -563,7 +563,7 @@
       "grid": [
         [
           {
-            "arabic": "ٱسْم",
+            "arabic": "اِسْم",
             "translit": "ism",
             "audio": {
               "type": "teacher-voice",
@@ -571,7 +571,7 @@
             }
           },
           {
-            "arabic": "ٱبْن",
+            "arabic": "اِبْن",
             "translit": "ibn",
             "audio": {
               "type": "teacher-voice",
@@ -1380,7 +1380,7 @@
         "grid": [
           [
             {
-              "arabic": "ٱسْم",
+              "arabic": "اِسْم",
               "translit": "ism",
               "audio": {
                 "type": "teacher-voice",
@@ -1388,7 +1388,7 @@
               }
             },
             {
-              "arabic": "ٱبْن",
+              "arabic": "اِبْن",
               "translit": "ibn",
               "audio": {
                 "type": "teacher-voice",
@@ -1689,7 +1689,7 @@
     "listenFor": [
       "The first hard letter in a word coming out correct and the second degrading — بَعْض with a good ع and a collapsed ض. This is the specific failure Unit 1.4 exists to surface, and only the two-hard-letters slide reliably exposes it.",
       "Accuracy that holds when the letter is announced and drops when it is not. If the grouped sets are clean and the gauntlet is not, the sound is not yet automatic — it is being produced by conscious effort, which will not survive Phase 2 reading.",
-      "Reaching for a familiar word instead of decoding, especially in the cold-read set (رَصَد read as رَشَد, حَفِيظ as حَافِظ). Note it as a reading-strategy issue, not a pronunciation one — the fix is different.",
+      "Reaching for a familiar word instead of decoding, especially in the cold-read set (رَصَد read as رَشَد, حَفِيظ as حَافِظ, نَضْرَة as 1.14’s نَاضِرَة). Note it as a reading-strategy issue, not a pronunciation one — the fix is different.",
       "Speed bought at the cost of makhraj in the pacing check. If the time improves while the quality drops, the time is not an improvement — say so plainly and re-run it slower.",
       "Whether she can name her own errors. A student who says ‘the ض at the end of words’ is ready for Phase 2 in a way that a student who says ‘I think it was okay’ is not, regardless of how they actually sounded."
     ],
