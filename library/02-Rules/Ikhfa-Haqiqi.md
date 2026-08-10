@@ -9,7 +9,7 @@ cpfair_key: ikhfa
 colour_b: "#9400A8"
 harakat: 2
 letters: [ص, ذ, ث, ك, ج, ش, ق, س, د, ط, ز, ف, ت, ض, ظ]
-taught_in: "3-12"
+taught_in: "3-23"
 prerequisites: [ghunnah]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

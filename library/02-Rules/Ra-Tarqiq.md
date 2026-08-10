@@ -5,7 +5,7 @@ arabic: تَرْقِيقُ الرَّاء
 translit: Tarqīq ar-Rāʾ
 english: Light rā'
 family: ra
-taught_in: "3-15"
+taught_in: "3-09"
 prerequisites: [tafkhim, tarqiq, ra_tafkhim]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

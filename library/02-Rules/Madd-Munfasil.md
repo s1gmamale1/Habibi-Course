@@ -9,7 +9,7 @@ cpfair_key: madd_munfasil
 colour_b: "#4050FF"
 harakat: 4
 harakat_options: [4, 5]
-taught_in: "3-07"
+taught_in: "3-29"
 prerequisites: [madd_tabii, madd_muttasil]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

@@ -5,7 +5,7 @@ arabic: التَّرْقِيق
 translit: at-Tarqīq
 english: Lightness (thinning)
 family: tafkhim-tarqiq
-taught_in: "3-10"
+taught_in: "3-06"
 prerequisites: [tafkhim]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

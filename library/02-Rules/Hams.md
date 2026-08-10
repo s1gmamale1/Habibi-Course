@@ -6,7 +6,7 @@ translit: al-Hams
 english: Whisper — breath flows with the letter
 family: sifat
 letters: [ف, ح, ث, ه, ش, خ, ص, س, ك, ت]
-taught_in: "3-01"
+taught_in: "3-02"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]
