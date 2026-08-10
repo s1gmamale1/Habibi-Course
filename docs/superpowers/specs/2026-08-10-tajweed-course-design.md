@@ -211,23 +211,31 @@ Applied recitation on text the student recites daily. Following the Uzbek tradit
 Calendar is suggested; **checkpoint gates decide actual advancement**. A failed checkpoint
 triggers targeted revision of named weak units and a retest, never a restart.
 
-### Build order — this spec needs five implementation plans, not one
+### Build order — this spec needs six implementation plans, not one
 
-The work below is too large for a single plan. It decomposes into five sub-projects, each
-of which gets its own plan and ships independently. The ordering is a hard dependency
-chain except where noted.
+The work below is too large for a single plan. It decomposes into six sub-projects, each
+of which gets its own plan and ships independently.
 
 | # | Sub-project | Delivers | Depends on |
 |---|---|---|---|
-| **A** | **Unit 2 content** | 14 lessons + Checkpoint 2, on the *existing* schema — no new slide kinds needed | nothing; can start now |
-| **B** | **Quran data pipeline** | vendored text + annotations, build-time span flattening and cluster normalisation, cached word segments, KFGQPC font | nothing; parallel with A |
+| **L** | **The Library** *(owner decision 2026-08-10)* | An Obsidian vault at `library/`: every rule, letter, source and lesson written and **machine-verified** in markdown, before any of it becomes JSON | nothing — **this is the foundation** |
+| **A** | **Unit 2 content** | 14 lessons + Checkpoint 2, on the *existing* schema — no new slide kinds needed | L |
+| **B** | **Quran data pipeline** | vendored text + annotations, build-time span flattening and cluster normalisation, cached word segments, KFGQPC font | L (shares the vendored corpus) |
 | **C** | **Schema + renderer** | new slide kinds, `TajweedRule` enum, prerequisites, structured `listenFor`, the coloured-span renderer with isolate mode and the Family A/B toggle | B |
 | **D** | **Tajweed games** | game registry, `onResult` seam, audio-in-games, harakat-safe `arabic.ts`, then the 8 drills | C |
-| **E** | **Unit 3 + Unit 4 content** | 44 lessons + Final Checkpoint | C, D |
+| **E** | **Unit 3 + Unit 4 content** | 44 lessons + Final Checkpoint | C, D, L |
 
-**A is the correct first move.** It needs no new engine work at all, it unblocks the
-student immediately, and it buys the time to build B–D properly. This also honours the
-original spec's own rule: *content stays ahead of the learner*.
+**L comes first, and everything else derives from it.** The owner's requirement is that no
+lesson is written into slides until its underlying rule, examples and citations exist in
+markdown and survive review. Prose is cheap to correct; JSON slide decks embedded in a
+running app are not.
+
+The library is **not** a documentation folder — it is a verified content source with an
+enforced schema. `npm run check:library` fails the build if a rule note is missing
+frontmatter, cites a source that does not exist, links to a note that does not exist, or
+quotes a Qur'anic example whose text does not byte-match the pinned Tanzil corpus at the
+cited `surah:ayah`. "No one questions the source" becomes an invariant a script enforces,
+not an aspiration.
 
 ---
 
