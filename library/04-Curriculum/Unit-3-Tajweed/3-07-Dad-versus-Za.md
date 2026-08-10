@@ -4,7 +4,7 @@ id: "3-07"
 unit: "3.1"
 stage: Ḥaqq al-Ḥarf
 title: ض vs ظ — the pair Ibn al-Jazarī gave its own chapter
-teaches: []
+teaches: [istitalah]
 prerequisites: ["3-03", "3-06"]
 hifz: "114:6"
 status: draft

@@ -6,7 +6,7 @@ translit: al-Līn
 english: Ease — the letter comes out with no strain
 family: sifat
 letters: [و, ي]
-taught_in: "3-05"
+taught_in: "2-08"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

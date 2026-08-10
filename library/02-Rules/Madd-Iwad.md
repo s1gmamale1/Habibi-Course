@@ -7,7 +7,7 @@ english: Compensatory Prolongation
 family: madd
 colour_b: "#537FFF"
 harakat: 2
-taught_in: "2-09"
+taught_in: "3-34"
 prerequisites: [madd_tabii, waqf_word_changes]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

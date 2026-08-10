@@ -4,7 +4,7 @@ id: "3-34"
 unit: "3.7"
 stage: Waqf
 title: How Words Change When You Stop — Tāʾ Marbūṭah, Maqṭūʿ and Mawṣūl
-teaches: [waqf_word_changes]
+teaches: [waqf_word_changes, madd_iwad]
 prerequisites: ["3-33", "2-12"]
 hifz: "105:1-105:2"
 status: draft

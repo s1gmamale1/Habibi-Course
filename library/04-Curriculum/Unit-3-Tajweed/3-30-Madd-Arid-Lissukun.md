@@ -4,7 +4,7 @@ id: "3-30"
 unit: "3.6"
 stage: Madd
 title: Madd ʿĀriḍ lis-Sukūn
-teaches: [madd_arid_lissukun]
+teaches: [madd_arid_lissukun, madd_leen]
 prerequisites: ["3-27", "2-12"]
 hifz: "107:5-107:7"
 status: draft
