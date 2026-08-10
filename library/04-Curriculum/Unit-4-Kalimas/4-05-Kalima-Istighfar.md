@@ -209,8 +209,9 @@ Compare with §1 in the same kalima: *astaghfiru-LLĀHa*, heavy after a ḍamma.
 sentence, both forms.** Do not let this lesson end until she can produce them back to back
 on demand.
 
-### 12. الْعَلِيِّ الْعَظِيمِ — [[Lam-Qamariyyah]] ×2, [[Tafkhim]],
-### [[Madd-Arid-Lissukun]]
+### 12. الْعَلِيِّ الْعَظِيمِ — the close
+
+[[Lam-Qamariyyah]] twice, [[Tafkhim]], and [[Madd-Arid-Lissukun]] on the final word.
 
 **الْعَلِيِّ** — ʿayn is a moon letter → l audible. Doubled yāʾ, held in the mouth — **no
 ghunnah**, as established in 4-03 §4.
@@ -239,7 +240,9 @@ one: no iqlāb, because the nūn has a fatḥa. Say them as a pair, twenty times
 each time which one has the rule.
 
 **Drill 5 — the three treatments.** Say these three and name the rule for each:
-> *min an* (iẓhār) … *min kulli* (ikhfāʾ) … *min baʿd*-shape as in *dhambin* (iqlāb)
+> *min an* — the n out loud (iẓhār)
+> *min kulli* — the n hidden, two counts of hum (ikhfāʾ)
+> *dhambin* — the n turned into an m, lips closed (iqlāb)
 
 Same nūn sākinah, three different fates. If you can sort these three by ear, you have the
 nūn-sākinah family.
