@@ -1,8 +1,9 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, expect, test } from "vitest";
+import { beforeEach, describe, expect, test, vi } from "vitest";
 import type { GameData } from "@/games/derive";
 import { GamePanel } from "./GamePanel";
+import { clearGames, registerGame } from "./GameRegistry";
 
 const mk = (arabic: string, name: string) => ({ arabic, name, audio: { type: "teacher-voice" as const, cue: "c" } });
 
@@ -43,5 +44,44 @@ describe("GamePanel gating", () => {
       <GamePanel data={{ ...base, letterPool: [], newLetters: [], formEntries: [], wordPool: [] }} />,
     );
     expect(container.innerHTML).toBe("");
+  });
+});
+
+describe("registry-declared drills", () => {
+  beforeEach(() => clearGames());
+
+  test("shows nothing extra when a lesson declares no games", () => {
+    registerGame({ id: "x", label: "🧪 Extra", render: () => <p>extra drill</p> });
+    render(<GamePanel data={base} />);
+    expect(screen.queryByRole("button", { name: /Extra/ })).toBeNull();
+  });
+
+  test("mounts a drill the lesson asks for by id", async () => {
+    registerGame({ id: "x", label: "🧪 Extra", render: () => <p>extra drill</p> });
+    render(<GamePanel data={base} games={["x"]} />);
+    await userEvent.click(screen.getByRole("button", { name: /Extra/ }));
+    expect(screen.getByText("extra drill")).toBeTruthy();
+  });
+
+  test("ignores an id that has not shipped rather than breaking the page", () => {
+    render(<GamePanel data={base} games={["not-a-real-drill"]} />);
+    expect(screen.getByRole("button", { name: /letter cards/i })).toBeTruthy();
+  });
+
+  test("passes onResult through to the drill", async () => {
+    const onResult = vi.fn();
+    registerGame({
+      id: "x",
+      label: "🧪 Extra",
+      render: ({ onResult: cb }) => (
+        <button type="button" onClick={() => cb?.({ gameId: "x", correct: true, at: 0 })}>
+          answer
+        </button>
+      ),
+    });
+    render(<GamePanel data={base} games={["x"]} onResult={onResult} />);
+    await userEvent.click(screen.getByRole("button", { name: /Extra/ }));
+    await userEvent.click(screen.getByRole("button", { name: "answer" }));
+    expect(onResult).toHaveBeenCalledWith(expect.objectContaining({ gameId: "x", correct: true }));
   });
 });
