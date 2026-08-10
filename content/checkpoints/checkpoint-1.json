@@ -95,10 +95,10 @@
     {"criterion": "Lahn Khafi (minor) flags — hard ceiling", "pass": "4 or more total Khafi flags fails the checkpoint even if every Jali criterion above is met."}
   ],
   "revisionMap": [
-    {"weakSpot": "ح / خ / ه confusion (any direction)", "lessons": ["1-02", "1-06"]},
-    {"weakSpot": "ص / ض / ط / ظ tafkheem quality (heaviness under- or mis-applied)", "lessons": ["1-04"]},
-    {"weakSpot": "ع substituted with ء, or غ/خ/ق confusion", "lessons": ["1-05"]},
-    {"weakSpot": "ذ / ز / ض \"D→Z\" collapse pattern (any pair merging)", "lessons": ["1-02", "1-03", "1-04"]},
+    {"weakSpot": "ح / خ / ه confusion (any direction)", "lessons": ["1-02", "1-06", "1-13"]},
+    {"weakSpot": "ص / ض / ط / ظ tafkheem quality (heaviness under- or mis-applied)", "lessons": ["1-04", "1-14"]},
+    {"weakSpot": "ع substituted with ء, or غ/خ/ق confusion", "lessons": ["1-05", "1-13"]},
+    {"weakSpot": "ذ / ز / ض \"D→Z\" collapse pattern (any pair merging)", "lessons": ["1-02", "1-03", "1-04", "1-14"]},
     {"weakSpot": "ر tongue-tap quality (too static/English-style)", "lessons": ["1-03"]},
     {"weakSpot": "ق flattened toward ك (or vice versa)", "lessons": ["1-05", "1-06"]},
     {"weakSpot": "Positional-shape misreading (initial/medial/final confusion)", "lessons": ["1-07"]},
@@ -106,6 +106,12 @@
     {"weakSpot": "General cluster-reading hesitation/pace, no specific letter culprit", "lessons": ["1-09"]},
     {"weakSpot": "Fatha timing/quality (lengthened into madd, or heavy-letter darkening missing)", "lessons": ["1-10"]},
     {"weakSpot": "Kasra/damma timing/quality, or kasra-vs-damma mix-ups", "lessons": ["1-11"]},
-    {"weakSpot": "Syllable-transfer decoding failures with no single letter/vowel culprit (fluency issue, not accuracy)", "lessons": ["1-12"]}
+    {"weakSpot": "Syllable-transfer decoding failures with no single letter/vowel culprit (fluency issue, not accuracy)", "lessons": ["1-12"]},
+    {"weakSpot": "Sukūn mis-read — a vowel added after the closed letter, or the sukūn lengthened", "lessons": ["1-13"]},
+    {"weakSpot": "Hamza dropped, or its seat (أ إ ؤ ئ) sounded as a waaw/yaa", "lessons": ["1-13"]},
+    {"weakSpot": "Qalqalah missing on ق ط ب ج د with sukūn, or wrongly applied to ظ", "lessons": ["1-13", "1-14"]},
+    {"weakSpot": "Heaviness audible on the consonant but absent from the vowel beside it", "lessons": ["1-14"]},
+    {"weakSpot": "A hard letter correct alone but degrading when a second hard letter follows in the same word", "lessons": ["1-15"]},
+    {"weakSpot": "Word reading accurate only when the target letter is announced in advance", "lessons": ["1-15"]}
   ]
 }

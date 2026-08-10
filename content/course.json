@@ -16,7 +16,10 @@
         {"id": "1-09", "title": "Reading connected clusters — full joining review", "calendarSlot": "Week 3 — Sat"},
         {"id": "1-10", "title": "Fatha: the \"a\" sound, full letter × fatha grid", "calendarSlot": "Week 4 — Mon"},
         {"id": "1-11", "title": "Kasra & Damma: full letter × kasra and letter × damma grids", "calendarSlot": "Week 4 — Wed"},
-        {"id": "1-12", "title": "Full mixed grid + 2–3 syllable combinations + checkpoint dry run", "calendarSlot": "Week 4 — Sat"}
+        {"id": "1-12", "title": "Full mixed grid + 2–3 syllable combinations + checkpoint dry run", "calendarSlot": "Week 4 — Sat"},
+        {"id": "1-13", "title": "Sukūn & hamza + reading words with ع and ح", "calendarSlot": "Week 5 — Mon"},
+        {"id": "1-14", "title": "The heavy letters inside words: ص ض ط ظ", "calendarSlot": "Week 5 — Wed"},
+        {"id": "1-15", "title": "Mixed hard-letter words & cold reading", "calendarSlot": "Week 5 — Sat"}
       ],
       "checkpoint": {"id": "checkpoint-1", "title": "Checkpoint 1 — Letters & Sounds gate"}
     }

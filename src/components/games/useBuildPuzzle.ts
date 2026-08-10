@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { WordEntry } from "@/games/derive";
-import { baseLetters } from "@/games/arabic";
+import { displayLetters } from "@/games/arabic";
 import { shuffled } from "./useSwapPuzzle";
 
 const MAX_DECOYS = 2;
 
-// Decoy candidates: base letters from every OTHER word's arabic (by index,
+// Decoy candidates: written letters from every OTHER word's arabic (by index,
 // excluding `targetIndex`), minus letters already in the target word, deduped
 // (Set) and shuffled before slicing so the same decoys aren't picked every
 // round. Empty when only one word is supplied (early lessons) — 0 is fine.
@@ -15,7 +15,7 @@ export function pickDecoys(letters: string[], arabics: string[], targetIndex: nu
   const pool = new Set<string>();
   arabics.forEach((arabic, i) => {
     if (i === targetIndex) return;
-    for (const l of baseLetters(arabic)) if (!own.has(l)) pool.add(l);
+    for (const l of displayLetters(arabic)) if (!own.has(l)) pool.add(l);
   });
   return shuffled([...pool]).slice(0, MAX_DECOYS);
 }
@@ -32,7 +32,8 @@ export type BuildPuzzle = {
 };
 
 // Slot-and-bank builder for `words[round % words.length]`. Bank = the word's
-// base letters plus up to two decoys pulled from the other words. Bank tiles
+// letters as written (displayLetters, so a hamza-carrier tile reads أ and not
+// ا) plus up to two decoys pulled from the other words. Bank tiles
 // are matched to slots by index and checked by value, so duplicate letters
 // resolve positionally (mirrors useSwapPuzzle's value-equality locking).
 // `round` forces a reshuffle; the shuffle itself runs in an effect so SSR
@@ -45,7 +46,7 @@ export function useBuildPuzzle(words: WordEntry[], round: number): BuildPuzzle {
   const [solved, setSolved] = useState(false);
 
   const targetIndex = round % words.length;
-  const letters = baseLetters(words[targetIndex].arabic);
+  const letters = displayLetters(words[targetIndex].arabic);
   // Joined-string key, not the array itself — an inline `words` literal from
   // the caller gets a new reference every render, which would otherwise
   // reshuffle (and thus setState) on every render. See useSwapPuzzle's
@@ -55,7 +56,7 @@ export function useBuildPuzzle(words: WordEntry[], round: number): BuildPuzzle {
   useEffect(() => {
     const arabics = arabicsKey.split("");
     const idx = round % arabics.length;
-    const wordLetters = baseLetters(arabics[idx]);
+    const wordLetters = displayLetters(arabics[idx]);
     const decoys = pickDecoys(wordLetters, arabics, idx);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- round-keyed shuffle must run client-side only; render-time shuffle would mismatch SSR HTML
     setBank(shuffled([...wordLetters, ...decoys]));
