@@ -65,10 +65,14 @@ and recorded that here.
 | **L** — Library | **complete** · 164 notes, gate green |
 | **B** — Qur'an pipeline | **complete** · 212 verses, 1,972 spans, 0 defects |
 | **C** — Schema & renderer | **complete** · static export builds |
-| **D** — Games | **7 of 8 drills** · waqf placer blocked, see below |
-| **E** — Lesson JSON | **not started** · gated, see below |
+| **D** — Games | **complete** · 7 of 8 drills + registry wired; waqf placer blocked, see below |
+| **E** — Lesson JSON | **complete** · all 58 lessons transcribed, every one `draft: true` |
 
-406 tests · 0 lint errors · 58/58 asset refs · library gate green · `npm run build` succeeds.
+411 tests · 0 lint errors · 58/58 asset refs · library gate green · `npm run build` succeeds.
+
+`content/course.json` still holds exactly one phase, so none of the 58 new lesson files
+is reachable by a learner. Publishing is a deliberate act: clear `draft`, then add the
+phase entry — in that order, and there is a test enforcing it.
 
 ### What blocks the rest, precisely
 
@@ -76,14 +80,11 @@ and recorded that here.
    waqf-sign positions. The pinned Tanzil text **omits waqf signs by design** (one of the
    documented differences from quran.com's text) and cpfair does not annotate them.
    Sourcing that dataset is unresolved. Inventing it would be worse than omitting the drill.
-2. **Sub-project E — gated on two things.** All 59 rule notes are `status: draft`; nothing
-   should be transcribed into a lesson before a human has checked it against its sources.
-   And `content/` was being actively written by a second session throughout this build, so
-   writing lesson JSON there risked losing that work.
-3. **`GamePanel` still holds its hardcoded tab array.** `GameRegistry` exists and is tested;
-   swapping the literal for `getGames(lesson.games)` is a few lines, deliberately left
-   undone for the same concurrency reason.
-4. **Arabic shaping — verified in Chrome, still unverified in Safari.** jsdom does not shape
+2. **Publishing is gated on review, not on work.** All 58 lesson files exist and validate,
+   but all 59 rule notes are still `status: draft` — nothing has been checked by a human
+   against its sources. The 42 warnings are that backlog. The `draft` flag on every lesson
+   is what lets the content exist without reaching a learner.
+3. **Arabic shaping — verified in Chrome, still unverified in Safari.** jsdom does not shape
    text, so this needed a real browser. Chrome renders correctly (see the human-verified
    table above). Safari uses a different engine and remains untested; check it before any
    public launch.
