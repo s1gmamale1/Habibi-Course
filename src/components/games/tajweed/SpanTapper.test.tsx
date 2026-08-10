@@ -215,6 +215,22 @@ describe("SpanTapper — real generated data", () => {
     expect(complete()).toBe("true");
     expect(letters().filter((b) => stateOf(b) === "correct")).toHaveLength(spans.length);
   });
+
+  it("rejects voweled qalqalah letters in real text", async () => {
+    // 112:1 — the ب of بِسْمِ carries a kasra and the ق of قُلْ a ḍamma. Both
+    // are qalqalah letters by identity and neither qalqalates, which is the
+    // case a glyph match cannot tell apart.
+    const ayah1 = surah112.find((v) => v.ayah === 1)!;
+    render(<SpanTapper text={ayah1.text} criterion="qalqalah" />);
+    const ba = letters().find((b) => b.textContent === "بِ")!;
+    const qaf = letters().find((b) => b.textContent === "قُ")!;
+
+    await userEvent.click(ba);
+    await userEvent.click(qaf);
+
+    expect([stateOf(ba), stateOf(qaf)]).toEqual(["wrong", "wrong"]);
+    expect(complete()).toBe("false");
+  });
 });
 
 describe("SpanTapper — registration", () => {
