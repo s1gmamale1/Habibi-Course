@@ -50,6 +50,23 @@ and recorded that here.
   must be re-mapped against the final 36-lesson Unit 3 before any lesson is transcribed.
 - **The hifz lesson→surah mapping in `phase-3-tajweed.md` §2.2 was built for 26 lessons.**
   Unit 3 now has 36. It must be regenerated, not copied.
-- **Unit 2's scope must be re-checked against Phase 1 before authoring.** Commit `c385ad0`
-  moved sukūn, hamza and tafkhīm into Unit 1.4, so Unit 2 extends rather than introduces
-  them. Re-run that check if Phase 1 grows again.
+## Unit 2 scope reconciliation — 2026-08-10
+
+Checked against Phase 1 as shipped at commit `c385ad0` (15 lessons; Unit 1.4 =
+`1-13`…`1-15`). Phase 1 went further than the Unit 2 plan assumed:
+
+| Already taught in Phase 1 | Where | Consequence for Unit 2 |
+|---|---|---|
+| Sukūn as a closed syllable | `1-13` | `2-03`/`2-04` **extend** to multi-sukūn clusters; do not introduce |
+| The five qalqalah letters, named and bounced | `1-13` | Unit 3.4 **revisits as a rule**, not as new letters |
+| Hamza in all five seats; waṣl vs qaṭʿ at beginner level | `1-13` | `2-09` teaches the **full waṣl vowelling rules**, framed as "you met this in 1-13" |
+| Tafkhīm sustained through the letter, **heard in the neighbouring vowel** | `1-14` | Unit 3.6 formalises the *ṣifah* behind a cue already given |
+| ط bounces vs ظ is held | `1-14` | qalqalah/istiṭālah contrast already primed |
+| ٱلضَّآلِّينَ with a held shadda and a six-count madd | `1-14` | shadda and madd lāzim are **previewed**; `2-05`–`2-08` systematise them |
+
+**What remains genuinely new to Unit 2:** tanwīn (`2-01`, `2-02`) · shadda as a system
+(`2-05`, `2-06`) · the three madd letters and leen (`2-07`, `2-08`) · full hamzat al-waṣl
+vowelling (`2-09`) · and the application ladder — words → phrases → sentences → first
+mushaf page (`2-10`–`2-14`), which is where **practical stopping** enters.
+
+**Re-run this check if Phase 1 grows again.** It has grown once already, mid-plan.
