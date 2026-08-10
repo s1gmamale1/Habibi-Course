@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { WordEntry } from "@/games/derive";
-import { baseLetters, contextualGlyphs } from "@/games/arabic";
+import { contextualGlyphs, displayLetters } from "@/games/arabic";
 import { shuffled } from "./useSwapPuzzle";
 
 export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: ArabicItem[] }) {
@@ -13,11 +13,16 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
   const word = words[round % words.length];
 
   useEffect(() => {
-    const uniq = [...new Set(baseLetters(words[round % words.length].arabic))];
+    const uniq = [...new Set(displayLetters(words[round % words.length].arabic))];
     // Only ever target a letter we can name in the prompt. derive.ts's wordPool
     // guarantees every letter of a playable word is in `pool`, but we filter
     // defensively rather than fall back to showing the bare Arabic glyph — that's
     // exactly the hint this game must not give away.
+    // Targeting the letters AS WRITTEN also keeps the prompt honest for
+    // hamza-carrier words: أَحَد renders only أ, which is not a nameable pool
+    // entry, so the target falls to ح or د instead of asking for an alif the
+    // student can never tap. In ضَوْء the bare ء is nameable and becomes a
+    // legitimate target — the point of teaching hamza in Unit 1.4.
     const known = uniq.filter((l) => pool.some((it) => it.arabic === l));
     // eslint-disable-next-line react-hooks/set-state-in-effect -- random target pick must run client-side only; render-time shuffle would mismatch SSR HTML
     setTarget(shuffled(known)[0] ?? null);
@@ -26,7 +31,7 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
   }, [round, words, pool]);
 
   if (!target) return <p className="text-white/50">Picking a letter…</p>;
-  const letters = baseLetters(word.arabic);
+  const letters = displayLetters(word.arabic);
   const glyphs = contextualGlyphs(word.arabic);
   const targetItem = pool.find((it) => it.arabic === target);
 

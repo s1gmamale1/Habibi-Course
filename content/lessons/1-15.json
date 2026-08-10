@@ -1,0 +1,1712 @@
+{
+  "id": "1-15",
+  "phase": 1,
+  "unit": "1.4",
+  "title": "Mixed hard-letter words & cold reading",
+  "objectives": [
+    "Student can read fully-vocalised words containing any of ع ح ص ض ط ظ in mixed, unpredictable order, without a warm-up cue telling her which letter is coming.",
+    "Student can read words that place two hard letters in the same short word (بَعْض, صُبْح, عَظْم, مُحِيط) without the second one degrading the first.",
+    "Student can decode a set of genuinely unseen words unaided, combining sukūn, hamza and the heavy letters, and can sustain a timed twelve-word run with accuracy prioritised over speed.",
+    "Student can run the six self-tests unprompted and name her own remaining weak letters and positions specifically, ahead of Checkpoint 1."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.15 — Mixed hard-letter words & cold reading",
+      "arabicDecor": "صِرَاطٌ مُسْتَقِيمٌ"
+    },
+    {
+      "kind": "recap",
+      "heading": "The five you have been working on",
+      "items": [
+        {
+          "arabic": "ع",
+          "name": "ʿayn — mid-throat, voiced",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Squeezed and buzzing. You can hold it for three seconds; a hamza you cannot hold at all."
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "ḥaa — mid-throat, no voice",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Same place as ع with no buzz. Not ه (looser, higher) and not خ (scraped, further back)."
+          }
+        },
+        {
+          "arabic": "ص",
+          "name": "ṣaad — heavy س",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Same place as س, tongue-body domed. Self-test: سَا then صَا."
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "ḍaad — side of tongue on the molars",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Not a heavy د. Self-test: ضِدّ — the two must not sound alike."
+          }
+        },
+        {
+          "arabic": "ط",
+          "name": "ṭaa — heavy ت, bounces on sukūn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy and bouncing. Self-test: طِين then تِين."
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "ẓhaa — heavy ذ, held on sukūn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Tongue-tip out between the teeth, voiced and heavy. Held, never bounced."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "How to check yourself, without a teacher",
+      "body": [
+        "You now have a test for every one of these, and none of them needs anyone else in the room.",
+        "ع vs ء — put a finger on your throat. ع buzzes the whole way through; ء is one click.",
+        "ص vs س — say سَا then صَا. If the ‘a’ does not move backwards, the dome is not happening.",
+        "ض vs د — say ضِدّ. If the two sounds are the same, the ض is wrong.",
+        "ط vs ت — say طِين then تِين. Again, listen to the vowel, not the consonant.",
+        "ط vs ظ on a sukūn — بَطْن bounces, عَظْم is held.",
+        "ح vs ه — a hand on the throat: ح is tight, ه is loose.",
+        "Run the relevant test BEFORE the word, not after the mistake. Setting the tongue first is far easier than correcting it mid-word."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Mixed set A — ع and ح",
+      "instructions": "Read right to left, one row at a time. No warm-up on these — go straight in.",
+      "grid": [
+        [
+          {
+            "arabic": "عَدْل",
+            "translit": "ʿadl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَدْل right to left: ʿayn + fatha (ʿa), dal with sukūn (d — it bounces), lam (l), then blend: ʿadl — “justice”."
+            }
+          },
+          {
+            "arabic": "عَهْد",
+            "translit": "ʿahd",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَهْد right to left: ʿayn + fatha (ʿa), haa with sukūn (h), dal (d), then blend: ʿahd — “covenant”. ع and ه in one word — one squeezed and voiced, one loose and breathy."
+            }
+          },
+          {
+            "arabic": "جُوع",
+            "translit": "jūʿ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read جُوع right to left: jeem + damma and long ū (jū), ʿayn (ʿ), then blend: jūʿ — “hunger”. A final ع after a long vowel. Do not let it fade out."
+            }
+          },
+          {
+            "arabic": "نَفَعَ",
+            "translit": "nafaʿa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَفَعَ right to left: nun + fatha (na), fa + fatha (fa), ʿayn + fatha (ʿa), then blend: nafaʿa — “it benefited”."
+            }
+          },
+          {
+            "arabic": "عِنْدَ",
+            "translit": "ʿinda",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عِنْدَ right to left: ʿayn + kasra (ʿi), nun with sukūn (n), dal + fatha (da), then blend: ʿinda — “with, at”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حَدِيد",
+            "translit": "ḥadīd",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَدِيد right to left: ḥaa + fatha (ḥa), dal + long ī (dī), dal (d), then blend: ḥadīd — “iron”."
+            }
+          },
+          {
+            "arabic": "رِيح",
+            "translit": "rīḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read رِيح right to left: ra + kasra and long ī (rī), ḥaa (ḥ), then blend: rīḥ — “wind”. Long ī then ح — it must not become a plain English ‘h’."
+            }
+          },
+          {
+            "arabic": "رُوح",
+            "translit": "rūḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read رُوح right to left: ra + damma and long ū (rū), ḥaa (ḥ), then blend: rūḥ — “spirit”. Same frame as رِيح, different vowel. Read them as a pair."
+            }
+          },
+          {
+            "arabic": "مِلْح",
+            "translit": "milḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مِلْح right to left: meem + kasra (mi), lam with sukūn (l), ḥaa (ḥ), then blend: milḥ — “salt”. ل then ح with no vowel between — very commonly collapsed to ‘mil’."
+            }
+          },
+          {
+            "arabic": "فَتْح",
+            "translit": "fatḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فَتْح right to left: fa + fatha (fa), ta with sukūn (t), ḥaa (ḥ), then blend: fatḥ — “victory, opening”."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Mixed set B — ص and ض",
+      "instructions": "Read right to left. Listen to the vowel after each heavy letter, not just the letter itself.",
+      "grid": [
+        [
+          {
+            "arabic": "صَوْت",
+            "translit": "ṣawt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَوْت right to left: ṣaad + fatha (ṣaw, heavy), waaw with sukūn (w), ta (t), then blend: ṣawt — “voice”."
+            }
+          },
+          {
+            "arabic": "عَصَا",
+            "translit": "ʿaṣā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَصَا right to left: ʿayn + fatha (ʿa), ṣaad + long ā (ṣā — a heavy alif), then blend: ʿaṣā — “staff, stick”. The heavy alif is fully exposed at the end with nothing after it. Hold it two counts."
+            }
+          },
+          {
+            "arabic": "قَصْر",
+            "translit": "qaṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قَصْر right to left: qaaf + fatha (qa), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: qaṣr — “palace”."
+            }
+          },
+          {
+            "arabic": "صَحْن",
+            "translit": "ṣaḥn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَحْن right to left: ṣaad + fatha (ṣa, heavy), ḥaa with sukūn (ḥ), nun (n), then blend: ṣaḥn — “plate”. Heavy ص and throat ح side by side."
+            }
+          },
+          {
+            "arabic": "قَصَص",
+            "translit": "qaṣaṣ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قَصَص right to left: qaaf + fatha (qa), ṣaad + fatha (ṣa, heavy), ṣaad (ṣ), then blend: qaṣaṣ — “story”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضِيَاء",
+            "translit": "ḍiyāʾ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضِيَاء right to left: ḍaad + kasra (ḍi, heavy), yaa + long ā (yā), hamza (ʾ), then blend: ḍiyāʾ — “light, radiance”. Heavy ض, then a hamza right at the end — two of the things you have been drilling."
+            }
+          },
+          {
+            "arabic": "عَضُد",
+            "translit": "ʿaḍud",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَضُد right to left: ʿayn + fatha (ʿa), ḍaad + damma (ḍu, heavy), dal (d), then blend: ʿaḍud — “upper arm”. A second ضِدّ-style test: ض and د in one short word."
+            }
+          },
+          {
+            "arabic": "قَبْض",
+            "translit": "qabḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قَبْض right to left: qaaf + fatha (qa), ba with sukūn (b — it bounces), ḍaad (ḍ, heavy), then blend: qabḍ — “a grasp”."
+            }
+          },
+          {
+            "arabic": "عَرِيض",
+            "translit": "ʿarīḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَرِيض right to left: ʿayn + fatha (ʿa), ra + long ī (rī), ḍaad (ḍ, heavy), then blend: ʿarīḍ — “wide, broad”."
+            }
+          },
+          {
+            "arabic": "ضَيْق",
+            "translit": "ḍayq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَيْق right to left: ḍaad + fatha (ḍay, heavy), yaa with sukūn (y), qaaf (q), then blend: ḍayq — “narrowness”. ض and ق are both heavy — the whole word sits low and back."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Mixed set C — ط and ظ",
+      "instructions": "Read right to left. Bounce every ط that carries a sukūn; hold every ظ.",
+      "grid": [
+        [
+          {
+            "arabic": "طَرِيق",
+            "translit": "ṭarīq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَرِيق right to left: ṭaa + fatha (ṭa, heavy), ra + long ī (rī), qaaf (q), then blend: ṭarīq — “road, path”. The ر goes heavy after the backed fatha, and the ق bounces if you stop on it."
+            }
+          },
+          {
+            "arabic": "سَطْح",
+            "translit": "saṭḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سَطْح right to left: seen + fatha (sa), ṭaa with sukūn (ṭ — bounce), ḥaa (ḥ), then blend: saṭḥ — “roof, surface”. Light س, bouncing heavy ط, then throat ح — three different jobs in three letters."
+            }
+          },
+          {
+            "arabic": "خَطّ",
+            "translit": "khaṭṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خَطّ right to left: khaa + fatha (kha), ṭaa with a shadda (ṭṭ, heavy), then blend: khaṭṭ — “line, handwriting”. A doubled ط — hold the heaviness for two full counts."
+            }
+          },
+          {
+            "arabic": "طَغَى",
+            "translit": "ṭaghā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَغَى right to left: ṭaa + fatha (ṭa, heavy), ghayn + long ā (ghā), then blend: ṭaghā — “he transgressed”. Three back sounds in a row. The hardest word on this slide."
+            }
+          },
+          {
+            "arabic": "نَشَاط",
+            "translit": "nashāṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَشَاط right to left: nun + fatha (na), sheen + long ā (shā), ṭaa (ṭ, heavy), then blend: nashāṭ — “energy, activity”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ظَالِم",
+            "translit": "ẓālim",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظَالِم right to left: ẓhaa + long ā (ẓā — heavy alif), lam + kasra (li), meem (m), then blend: ẓālim — “wrongdoer”."
+            }
+          },
+          {
+            "arabic": "عِظَام",
+            "translit": "ʿiẓām",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عِظَام right to left: ʿayn + kasra (ʿi), ẓhaa + long ā (ẓā, heavy), meem (m), then blend: ʿiẓām — “bones”."
+            }
+          },
+          {
+            "arabic": "غَلِيظ",
+            "translit": "ghalīẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غَلِيظ right to left: ghayn + fatha (gha), lam + long ī (lī), ẓhaa (ẓ, heavy), then blend: ghalīẓ — “harsh, thick”."
+            }
+          },
+          {
+            "arabic": "نَظِيف",
+            "translit": "naẓīf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَظِيف right to left: nun + fatha (na), ẓhaa + kasra (ẓi, still heavy), long ī, fa (f), then blend: naẓīf — “clean”. Kasra on ظ — keep the tongue-tip out between the teeth."
+            }
+          },
+          {
+            "arabic": "لَفْظ",
+            "translit": "lafẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لَفْظ right to left: lam + fatha (la), fa with sukūn (f), ẓhaa (ẓ, heavy), then blend: lafẓ — “utterance, wording”. A final ظ — hold it, never bounce it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Two hard letters in one word",
+      "instructions": "The real test. Each of these makes you do two difficult things in a row, with no easy letter in between to recover on.",
+      "grid": [
+        [
+          {
+            "arabic": "بَعْض",
+            "translit": "baʿḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَعْض right to left: ʿayn with sukūn, then heavy ḍaad, then blend: baʿḍ — “some”. ع and ض."
+            }
+          },
+          {
+            "arabic": "صُبْح",
+            "translit": "ṣubḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صُبْح right to left: heavy ṣaad, then throat ḥaa, then blend: ṣubḥ — “morning”. ص and ح."
+            }
+          },
+          {
+            "arabic": "عَصْر",
+            "translit": "ʿaṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَصْر right to left: ʿayn, then heavy ṣaad with sukūn, then blend: ʿaṣr — “afternoon, time”. ع and ص."
+            }
+          },
+          {
+            "arabic": "ضَعِيف",
+            "translit": "ḍaʿīf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَعِيف right to left: heavy ḍaad, then ʿayn, then blend: ḍaʿīf — “weak”. ض and ع."
+            }
+          },
+          {
+            "arabic": "مُحِيط",
+            "translit": "muḥīṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مُحِيط right to left: ḥaa, then heavy ṭaa, then blend: muḥīṭ — “encompassing”. ح and ط."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَظْم",
+            "translit": "ʿaẓm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَظْم right to left: ʿayn, then heavy ẓhaa with sukūn — held, not bounced, then blend: ʿaẓm — “bone”. ع and ظ."
+            }
+          },
+          {
+            "arabic": "حَظّ",
+            "translit": "ḥaẓẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَظّ right to left: ḥaa, then doubled heavy ẓhaa, then blend: ḥaẓẓ — “share, portion”. ح and ظ."
+            }
+          },
+          {
+            "arabic": "طَعَام",
+            "translit": "ṭaʿām",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَعَام right to left: heavy ṭaa, then ʿayn, then blend: ṭaʿām — “food”. ط and ع."
+            }
+          },
+          {
+            "arabic": "حَافِظ",
+            "translit": "ḥāfiẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَافِظ right to left: ḥaa, then heavy ẓhaa, then blend: ḥāfiẓ — “guardian”. ح and ظ."
+            }
+          },
+          {
+            "arabic": "صُلْح",
+            "translit": "ṣulḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صُلْح right to left: heavy ṣaad, then throat ḥaa, then blend: ṣulḥ — “reconciliation”. ص and ح — save this one for last."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Minimal-pair gauntlet — read ACROSS",
+      "instructions": "Six pairs, shuffled and interleaved. Read straight across the row, never down the column — the whole point is that you have to switch on every word.",
+      "grid": [
+        [
+          {
+            "arabic": "طِين",
+            "translit": "ṭīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طِين right to left: heavy ṭaa, then blend: ṭīn — “clay”."
+            }
+          },
+          {
+            "arabic": "تِين",
+            "translit": "tīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تِين right to left: light ta, then blend: tīn — “fig”."
+            }
+          },
+          {
+            "arabic": "نَظَرَ",
+            "translit": "naẓara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَظَرَ right to left: heavy ẓhaa, tip between the teeth, then blend: naẓara — “he looked”."
+            }
+          },
+          {
+            "arabic": "نَذَرَ",
+            "translit": "nadhara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَذَرَ right to left: light dhal, same tip position, then blend: nadhara — “he vowed”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَمَل",
+            "translit": "ʿamal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَمَل right to left: ʿayn — squeezed, voiced, holdable, then blend: ʿamal — “deed, work”."
+            }
+          },
+          {
+            "arabic": "أَمَل",
+            "translit": "amal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read أَمَل right to left: hamza — one clean catch, nothing to hold, then blend: amal — “hope”."
+            }
+          },
+          {
+            "arabic": "صَيْف",
+            "translit": "ṣayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَيْف right to left: heavy ṣaad, then blend: ṣayf — “summer”."
+            }
+          },
+          {
+            "arabic": "سَيْف",
+            "translit": "sayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سَيْف right to left: light seen, then blend: sayf — “sword”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضَلَّ",
+            "translit": "ḍalla",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَلَّ right to left: ḍaad — side of tongue on the molars, then blend: ḍalla — “he went astray”."
+            }
+          },
+          {
+            "arabic": "ظَلَّ",
+            "translit": "ẓalla",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظَلَّ right to left: ẓhaa — tip between the teeth, then blend: ẓalla — “he remained”."
+            }
+          },
+          {
+            "arabic": "نَحْل",
+            "translit": "naḥl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَحْل right to left: ḥaa — clean breath, mid-throat, then blend: naḥl — “bees”."
+            }
+          },
+          {
+            "arabic": "نَخْل",
+            "translit": "nakhl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَخْل right to left: khaa — scraped at the back of the mouth, then blend: nakhl — “date palms”."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sukūn, hamza and a heavy letter at once",
+      "instructions": "Everything from Unit 1.4 in eight words. Name what is happening in each before you read it.",
+      "grid": [
+        [
+          {
+            "arabic": "اِسْم",
+            "translit": "ism",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read اِسْم right to left: alif + kasra (i), seen with sukūn (s), meem (m), then blend: ism — “name”. Standing alone it is written with a plain alif and read ‘ism’. But that alif is a waṣl alif: join it to what comes before and it disappears — بِسْمِ ٱللَّٰه is ‘bismillāh’, never ‘bi-ismillāh’."
+            }
+          },
+          {
+            "arabic": "اِبْن",
+            "translit": "ibn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read اِبْن right to left: alif + kasra (i), ba with SUKŪN (b — it bounces), nun (n), then blend: ibn — “son”. A waṣl alif and a qalqalah in one short word — the alif drops the moment anything precedes it."
+            }
+          },
+          {
+            "arabic": "رَأْس",
+            "translit": "raʾs",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read رَأْس right to left: ra + fatha (ra), hamza with sukūn (a clean catch, held), seen (s), then blend: raʾs — “head”. A sukūn sitting on a hamza — close the throat, hold, then release into the seen."
+            }
+          },
+          {
+            "arabic": "مَاء",
+            "translit": "māʾ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مَاء right to left: meem + long ā (mā), hamza alone on the line (ʾ), then blend: māʾ — “water”. A hamza after a long vowel is the hardest final hamza there is. It must still be audible."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "شَيْء",
+            "translit": "shayʾ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read شَيْء right to left: sheen + fatha (shay), yaa with sukūn (y), hamza (ʾ), then blend: shayʾ — “a thing”."
+            }
+          },
+          {
+            "arabic": "ضَوْء",
+            "translit": "ḍawʾ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَوْء right to left: heavy ḍaad + fatha (ḍaw), waaw with sukūn (w), hamza (ʾ), then blend: ḍawʾ — “light”. Heavy letter, sukūn and a bare hamza — all three of this unit’s topics in one word."
+            }
+          },
+          {
+            "arabic": "بِئْر",
+            "translit": "biʾr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بِئْر right to left: ba + kasra (bi), hamza on yaa with sukūn (ʾ), ra (r), then blend: biʾr — “a well”."
+            }
+          },
+          {
+            "arabic": "مُؤْمِن",
+            "translit": "muʾmin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مُؤْمِن right to left: meem + damma (mu), hamza on waaw with sukūn (ʾ), meem + kasra (mi), nun (n), then blend: muʾmin — “believer”. No ‘w’ sound — the waaw is only a chair."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Cold read — words you have not seen",
+      "instructions": "None of these appeared in Lesson 1.13 or 1.14. Read each one unaided, with no model first. Hesitating is fine; guessing is not — sound it out.",
+      "grid": [
+        [
+          {
+            "arabic": "حِمَار",
+            "translit": "ḥimār",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حِمَار right to left: ḥaa + kasra (ḥi), meem + long ā (mā), ra (r), then blend: ḥimār — “donkey”."
+            }
+          },
+          {
+            "arabic": "ذِبْح",
+            "translit": "dhibḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ذِبْح right to left: dhal + kasra (dhi), ba with sukūn (b — bounce), ḥaa (ḥ), then blend: dhibḥ — “sacrifice”."
+            }
+          },
+          {
+            "arabic": "رَصَد",
+            "translit": "raṣad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read رَصَد right to left: ra + fatha (ra), ṣaad + fatha (ṣa, heavy), dal (d), then blend: raṣad — “a watch, lookout”."
+            }
+          },
+          {
+            "arabic": "نَضْرَة",
+            "translit": "naḍrah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَضْرَة right to left: nun + fatha (na), ḍaad with sukūn (ḍ, heavy), ra + fatha (ra), taa marbūṭa, then blend: naḍrah — “radiance”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حُوت",
+            "translit": "ḥūt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حُوت right to left: ḥaa + damma and long ū (ḥū), ta (t), then blend: ḥūt — “whale, big fish”."
+            }
+          },
+          {
+            "arabic": "حَفِيظ",
+            "translit": "ḥafīẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَفِيظ right to left: ḥaa + fatha (ḥa), fa + long ī (fī), ẓhaa (ẓ, heavy), then blend: ḥafīẓ — “guardian”."
+            }
+          },
+          {
+            "arabic": "شَعْب",
+            "translit": "shaʿb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read شَعْب right to left: sheen + fatha (sha), ʿayn with sukūn (ʿ), ba (b), then blend: shaʿb — “a people”."
+            }
+          },
+          {
+            "arabic": "صَخْرَة",
+            "translit": "ṣakhrah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَخْرَة right to left: ṣaad + fatha (ṣa, heavy), khaa with sukūn (kh), ra + fatha (ra), taa marbūṭa, then blend: ṣakhrah — “rock”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عُنُق",
+            "translit": "ʿunuq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عُنُق right to left: ʿayn + damma (ʿu), nun + damma (nu), qaaf (q), then blend: ʿunuq — “neck”."
+            }
+          },
+          {
+            "arabic": "بَسِيط",
+            "translit": "basīṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَسِيط right to left: ba + fatha (ba), seen + long ī (sī), ṭaa (ṭ, heavy), then blend: basīṭ — “simple”."
+            }
+          },
+          {
+            "arabic": "ضُرّ",
+            "translit": "ḍurr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضُرّ right to left: ḍaad + damma (ḍu, heavy), ra with a shadda (rr, heavy), then blend: ḍurr — “harm”."
+            }
+          },
+          {
+            "arabic": "لَوْح",
+            "translit": "lawḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لَوْح right to left: lam + fatha (law), waaw with sukūn (w), ḥaa (ḥ), then blend: lawḥ — “tablet, board”."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Pacing check — twelve words, timed",
+      "instructions": "Read all twelve aloud while your teacher times you. Accuracy first, speed second. Note the time, and compare it next week.",
+      "grid": [
+        [
+          {
+            "arabic": "حَقّ",
+            "translit": "ḥaqq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَقّ right to left: ḥaa + fatha, qaaf with a shadda, then blend: ḥaqq — “truth”."
+            }
+          },
+          {
+            "arabic": "أَرْض",
+            "translit": "arḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read أَرْض right to left: hamza + fatha, ra with sukūn, heavy ḍaad, then blend: arḍ — “earth”."
+            }
+          },
+          {
+            "arabic": "صِرَاط",
+            "translit": "ṣirāṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صِرَاط right to left: heavy ṣaad + kasra, ra + long ā, heavy ṭaa, then blend: ṣirāṭ — “path”."
+            }
+          },
+          {
+            "arabic": "عِلْم",
+            "translit": "ʿilm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عِلْم right to left: ʿayn + kasra, lam with sukūn, meem, then blend: ʿilm — “knowledge”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ظِلّ",
+            "translit": "ẓill",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظِلّ right to left: heavy ẓhaa + kasra, lam with a shadda, then blend: ẓill — “shade”."
+            }
+          },
+          {
+            "arabic": "بَحْر",
+            "translit": "baḥr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَحْر right to left: ba + fatha, ḥaa with sukūn, ra, then blend: baḥr — “sea”."
+            }
+          },
+          {
+            "arabic": "فَضْل",
+            "translit": "faḍl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فَضْل right to left: fa + fatha, heavy ḍaad with sukūn, lam, then blend: faḍl — “bounty”."
+            }
+          },
+          {
+            "arabic": "طَيْر",
+            "translit": "ṭayr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَيْر right to left: heavy ṭaa + fatha, yaa with sukūn, ra, then blend: ṭayr — “bird”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سَمْع",
+            "translit": "samʿ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سَمْع right to left: seen + fatha, meem with sukūn, ʿayn with sukūn, then blend: samʿ — “hearing”."
+            }
+          },
+          {
+            "arabic": "صُبْح",
+            "translit": "ṣubḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صُبْح right to left: heavy ṣaad + damma, ba with sukūn, ḥaa, then blend: ṣubḥ — “morning”."
+            }
+          },
+          {
+            "arabic": "نَظِيف",
+            "translit": "naẓīf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَظِيف right to left: nun + fatha, heavy ẓhaa + kasra, long ī, fa, then blend: naẓīf — “clean”."
+            }
+          },
+          {
+            "arabic": "ضَيْف",
+            "translit": "ḍayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَيْف right to left: heavy ḍaad + fatha, yaa with sukūn, fa, then blend: ḍayf — “guest”."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What to tell your teacher",
+      "body": [
+        "At the end of this lesson, name your own weak spots out loud. Being specific is what makes the next session useful.",
+        "Say which single letter still feels least reliable, and in which position — start, middle, or end of a word.",
+        "Say which minimal pair you still cannot hear the difference in, if any remain.",
+        "Say whether the cold-read set felt like decoding letter by letter, or like reading. Both are acceptable right now; which one it is decides what comes next.",
+        "This is the last lesson before Checkpoint 1. Anything you name here gets drilled before the gate — anything you hide gets tested at the gate instead."
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Where you are now",
+      "items": [
+        {
+          "arabic": "ءْ",
+          "name": "sukūn + hamza — Lesson 1.13",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Stop the letter dead; one catch in the throat, whatever chair it sits on."
+          }
+        },
+        {
+          "arabic": "صِرَاط",
+          "name": "the heavy letters — Lesson 1.14",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ص ض ط ظ, and the vowel that darkens beside them."
+          }
+        },
+        {
+          "arabic": "بَعْض",
+          "name": "two hard letters at once — today",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The real test: no easy letter in between to recover on."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, until Checkpoint 1",
+      "tasks": [
+        "Run the six self-tests before you read anything: finger-on-throat, سَا/صَا, ضِدّ, طِين/تِين, بَطْن/عَظْم, and the hand-on-throat ح check",
+        "Read mixed sets A, B and C aloud daily — one set per day is enough if time is short, but rotate all three",
+        "‘Two hard letters in one word’ every single day, all ten — this is the set that matters most",
+        "Minimal-pair gauntlet read ACROSS, twice through",
+        "Cold-read set once a week only, so it stays a genuine test rather than something you have memorised",
+        "Pacing check once a week, timed, and write the time down so you can see it move",
+        "Name your two weakest letters out loud to your teacher before the checkpoint"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Mixed set A — ع and ح",
+        "instructions": "Read right to left, one row at a time. No warm-up on these — go straight in.",
+        "grid": [
+          [
+            {
+              "arabic": "عَدْل",
+              "translit": "ʿadl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَدْل right to left: ʿayn + fatha (ʿa), dal with sukūn (d — it bounces), lam (l), then blend: ʿadl — “justice”."
+              }
+            },
+            {
+              "arabic": "عَهْد",
+              "translit": "ʿahd",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَهْد right to left: ʿayn + fatha (ʿa), haa with sukūn (h), dal (d), then blend: ʿahd — “covenant”. ع and ه in one word — one squeezed and voiced, one loose and breathy."
+              }
+            },
+            {
+              "arabic": "جُوع",
+              "translit": "jūʿ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read جُوع right to left: jeem + damma and long ū (jū), ʿayn (ʿ), then blend: jūʿ — “hunger”. A final ع after a long vowel. Do not let it fade out."
+              }
+            },
+            {
+              "arabic": "نَفَعَ",
+              "translit": "nafaʿa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَفَعَ right to left: nun + fatha (na), fa + fatha (fa), ʿayn + fatha (ʿa), then blend: nafaʿa — “it benefited”."
+              }
+            },
+            {
+              "arabic": "عِنْدَ",
+              "translit": "ʿinda",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عِنْدَ right to left: ʿayn + kasra (ʿi), nun with sukūn (n), dal + fatha (da), then blend: ʿinda — “with, at”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حَدِيد",
+              "translit": "ḥadīd",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَدِيد right to left: ḥaa + fatha (ḥa), dal + long ī (dī), dal (d), then blend: ḥadīd — “iron”."
+              }
+            },
+            {
+              "arabic": "رِيح",
+              "translit": "rīḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read رِيح right to left: ra + kasra and long ī (rī), ḥaa (ḥ), then blend: rīḥ — “wind”. Long ī then ح — it must not become a plain English ‘h’."
+              }
+            },
+            {
+              "arabic": "رُوح",
+              "translit": "rūḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read رُوح right to left: ra + damma and long ū (rū), ḥaa (ḥ), then blend: rūḥ — “spirit”. Same frame as رِيح, different vowel. Read them as a pair."
+              }
+            },
+            {
+              "arabic": "مِلْح",
+              "translit": "milḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مِلْح right to left: meem + kasra (mi), lam with sukūn (l), ḥaa (ḥ), then blend: milḥ — “salt”. ل then ح with no vowel between — very commonly collapsed to ‘mil’."
+              }
+            },
+            {
+              "arabic": "فَتْح",
+              "translit": "fatḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فَتْح right to left: fa + fatha (fa), ta with sukūn (t), ḥaa (ḥ), then blend: fatḥ — “victory, opening”."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Mixed set B — ص and ض",
+        "instructions": "Read right to left. Listen to the vowel after each heavy letter, not just the letter itself.",
+        "grid": [
+          [
+            {
+              "arabic": "صَوْت",
+              "translit": "ṣawt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَوْت right to left: ṣaad + fatha (ṣaw, heavy), waaw with sukūn (w), ta (t), then blend: ṣawt — “voice”."
+              }
+            },
+            {
+              "arabic": "عَصَا",
+              "translit": "ʿaṣā",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَصَا right to left: ʿayn + fatha (ʿa), ṣaad + long ā (ṣā — a heavy alif), then blend: ʿaṣā — “staff, stick”. The heavy alif is fully exposed at the end with nothing after it. Hold it two counts."
+              }
+            },
+            {
+              "arabic": "قَصْر",
+              "translit": "qaṣr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قَصْر right to left: qaaf + fatha (qa), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: qaṣr — “palace”."
+              }
+            },
+            {
+              "arabic": "صَحْن",
+              "translit": "ṣaḥn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَحْن right to left: ṣaad + fatha (ṣa, heavy), ḥaa with sukūn (ḥ), nun (n), then blend: ṣaḥn — “plate”. Heavy ص and throat ح side by side."
+              }
+            },
+            {
+              "arabic": "قَصَص",
+              "translit": "qaṣaṣ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قَصَص right to left: qaaf + fatha (qa), ṣaad + fatha (ṣa, heavy), ṣaad (ṣ), then blend: qaṣaṣ — “story”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ضِيَاء",
+              "translit": "ḍiyāʾ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضِيَاء right to left: ḍaad + kasra (ḍi, heavy), yaa + long ā (yā), hamza (ʾ), then blend: ḍiyāʾ — “light, radiance”. Heavy ض, then a hamza right at the end — two of the things you have been drilling."
+              }
+            },
+            {
+              "arabic": "عَضُد",
+              "translit": "ʿaḍud",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَضُد right to left: ʿayn + fatha (ʿa), ḍaad + damma (ḍu, heavy), dal (d), then blend: ʿaḍud — “upper arm”. A second ضِدّ-style test: ض and د in one short word."
+              }
+            },
+            {
+              "arabic": "قَبْض",
+              "translit": "qabḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قَبْض right to left: qaaf + fatha (qa), ba with sukūn (b — it bounces), ḍaad (ḍ, heavy), then blend: qabḍ — “a grasp”."
+              }
+            },
+            {
+              "arabic": "عَرِيض",
+              "translit": "ʿarīḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَرِيض right to left: ʿayn + fatha (ʿa), ra + long ī (rī), ḍaad (ḍ, heavy), then blend: ʿarīḍ — “wide, broad”."
+              }
+            },
+            {
+              "arabic": "ضَيْق",
+              "translit": "ḍayq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَيْق right to left: ḍaad + fatha (ḍay, heavy), yaa with sukūn (y), qaaf (q), then blend: ḍayq — “narrowness”. ض and ق are both heavy — the whole word sits low and back."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Mixed set C — ط and ظ",
+        "instructions": "Read right to left. Bounce every ط that carries a sukūn; hold every ظ.",
+        "grid": [
+          [
+            {
+              "arabic": "طَرِيق",
+              "translit": "ṭarīq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَرِيق right to left: ṭaa + fatha (ṭa, heavy), ra + long ī (rī), qaaf (q), then blend: ṭarīq — “road, path”. The ر goes heavy after the backed fatha, and the ق bounces if you stop on it."
+              }
+            },
+            {
+              "arabic": "سَطْح",
+              "translit": "saṭḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سَطْح right to left: seen + fatha (sa), ṭaa with sukūn (ṭ — bounce), ḥaa (ḥ), then blend: saṭḥ — “roof, surface”. Light س, bouncing heavy ط, then throat ح — three different jobs in three letters."
+              }
+            },
+            {
+              "arabic": "خَطّ",
+              "translit": "khaṭṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خَطّ right to left: khaa + fatha (kha), ṭaa with a shadda (ṭṭ, heavy), then blend: khaṭṭ — “line, handwriting”. A doubled ط — hold the heaviness for two full counts."
+              }
+            },
+            {
+              "arabic": "طَغَى",
+              "translit": "ṭaghā",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَغَى right to left: ṭaa + fatha (ṭa, heavy), ghayn + long ā (ghā), then blend: ṭaghā — “he transgressed”. Three back sounds in a row. The hardest word on this slide."
+              }
+            },
+            {
+              "arabic": "نَشَاط",
+              "translit": "nashāṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَشَاط right to left: nun + fatha (na), sheen + long ā (shā), ṭaa (ṭ, heavy), then blend: nashāṭ — “energy, activity”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ظَالِم",
+              "translit": "ẓālim",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظَالِم right to left: ẓhaa + long ā (ẓā — heavy alif), lam + kasra (li), meem (m), then blend: ẓālim — “wrongdoer”."
+              }
+            },
+            {
+              "arabic": "عِظَام",
+              "translit": "ʿiẓām",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عِظَام right to left: ʿayn + kasra (ʿi), ẓhaa + long ā (ẓā, heavy), meem (m), then blend: ʿiẓām — “bones”."
+              }
+            },
+            {
+              "arabic": "غَلِيظ",
+              "translit": "ghalīẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غَلِيظ right to left: ghayn + fatha (gha), lam + long ī (lī), ẓhaa (ẓ, heavy), then blend: ghalīẓ — “harsh, thick”."
+              }
+            },
+            {
+              "arabic": "نَظِيف",
+              "translit": "naẓīf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَظِيف right to left: nun + fatha (na), ẓhaa + kasra (ẓi, still heavy), long ī, fa (f), then blend: naẓīf — “clean”. Kasra on ظ — keep the tongue-tip out between the teeth."
+              }
+            },
+            {
+              "arabic": "لَفْظ",
+              "translit": "lafẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لَفْظ right to left: lam + fatha (la), fa with sukūn (f), ẓhaa (ẓ, heavy), then blend: lafẓ — “utterance, wording”. A final ظ — hold it, never bounce it."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Two hard letters in one word",
+        "instructions": "The real test. Each of these makes you do two difficult things in a row, with no easy letter in between to recover on.",
+        "grid": [
+          [
+            {
+              "arabic": "بَعْض",
+              "translit": "baʿḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَعْض right to left: ʿayn with sukūn, then heavy ḍaad, then blend: baʿḍ — “some”. ع and ض."
+              }
+            },
+            {
+              "arabic": "صُبْح",
+              "translit": "ṣubḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صُبْح right to left: heavy ṣaad, then throat ḥaa, then blend: ṣubḥ — “morning”. ص and ح."
+              }
+            },
+            {
+              "arabic": "عَصْر",
+              "translit": "ʿaṣr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَصْر right to left: ʿayn, then heavy ṣaad with sukūn, then blend: ʿaṣr — “afternoon, time”. ع and ص."
+              }
+            },
+            {
+              "arabic": "ضَعِيف",
+              "translit": "ḍaʿīf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَعِيف right to left: heavy ḍaad, then ʿayn, then blend: ḍaʿīf — “weak”. ض and ع."
+              }
+            },
+            {
+              "arabic": "مُحِيط",
+              "translit": "muḥīṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مُحِيط right to left: ḥaa, then heavy ṭaa, then blend: muḥīṭ — “encompassing”. ح and ط."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَظْم",
+              "translit": "ʿaẓm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَظْم right to left: ʿayn, then heavy ẓhaa with sukūn — held, not bounced, then blend: ʿaẓm — “bone”. ع and ظ."
+              }
+            },
+            {
+              "arabic": "حَظّ",
+              "translit": "ḥaẓẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَظّ right to left: ḥaa, then doubled heavy ẓhaa, then blend: ḥaẓẓ — “share, portion”. ح and ظ."
+              }
+            },
+            {
+              "arabic": "طَعَام",
+              "translit": "ṭaʿām",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَعَام right to left: heavy ṭaa, then ʿayn, then blend: ṭaʿām — “food”. ط and ع."
+              }
+            },
+            {
+              "arabic": "حَافِظ",
+              "translit": "ḥāfiẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَافِظ right to left: ḥaa, then heavy ẓhaa, then blend: ḥāfiẓ — “guardian”. ح and ظ."
+              }
+            },
+            {
+              "arabic": "صُلْح",
+              "translit": "ṣulḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صُلْح right to left: heavy ṣaad, then throat ḥaa, then blend: ṣulḥ — “reconciliation”. ص and ح — save this one for last."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Minimal-pair gauntlet — read ACROSS",
+        "instructions": "Six pairs, shuffled and interleaved. Read straight across the row, never down the column — the whole point is that you have to switch on every word.",
+        "grid": [
+          [
+            {
+              "arabic": "طِين",
+              "translit": "ṭīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طِين right to left: heavy ṭaa, then blend: ṭīn — “clay”."
+              }
+            },
+            {
+              "arabic": "تِين",
+              "translit": "tīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تِين right to left: light ta, then blend: tīn — “fig”."
+              }
+            },
+            {
+              "arabic": "نَظَرَ",
+              "translit": "naẓara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَظَرَ right to left: heavy ẓhaa, tip between the teeth, then blend: naẓara — “he looked”."
+              }
+            },
+            {
+              "arabic": "نَذَرَ",
+              "translit": "nadhara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَذَرَ right to left: light dhal, same tip position, then blend: nadhara — “he vowed”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَمَل",
+              "translit": "ʿamal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَمَل right to left: ʿayn — squeezed, voiced, holdable, then blend: ʿamal — “deed, work”."
+              }
+            },
+            {
+              "arabic": "أَمَل",
+              "translit": "amal",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read أَمَل right to left: hamza — one clean catch, nothing to hold, then blend: amal — “hope”."
+              }
+            },
+            {
+              "arabic": "صَيْف",
+              "translit": "ṣayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَيْف right to left: heavy ṣaad, then blend: ṣayf — “summer”."
+              }
+            },
+            {
+              "arabic": "سَيْف",
+              "translit": "sayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سَيْف right to left: light seen, then blend: sayf — “sword”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ضَلَّ",
+              "translit": "ḍalla",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَلَّ right to left: ḍaad — side of tongue on the molars, then blend: ḍalla — “he went astray”."
+              }
+            },
+            {
+              "arabic": "ظَلَّ",
+              "translit": "ẓalla",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظَلَّ right to left: ẓhaa — tip between the teeth, then blend: ẓalla — “he remained”."
+              }
+            },
+            {
+              "arabic": "نَحْل",
+              "translit": "naḥl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَحْل right to left: ḥaa — clean breath, mid-throat, then blend: naḥl — “bees”."
+              }
+            },
+            {
+              "arabic": "نَخْل",
+              "translit": "nakhl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَخْل right to left: khaa — scraped at the back of the mouth, then blend: nakhl — “date palms”."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Sukūn, hamza and a heavy letter at once",
+        "instructions": "Everything from Unit 1.4 in eight words. Name what is happening in each before you read it.",
+        "grid": [
+          [
+            {
+              "arabic": "اِسْم",
+              "translit": "ism",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read اِسْم right to left: alif + kasra (i), seen with sukūn (s), meem (m), then blend: ism — “name”. Standing alone it is written with a plain alif and read ‘ism’. But that alif is a waṣl alif: join it to what comes before and it disappears — بِسْمِ ٱللَّٰه is ‘bismillāh’, never ‘bi-ismillāh’."
+              }
+            },
+            {
+              "arabic": "اِبْن",
+              "translit": "ibn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read اِبْن right to left: alif + kasra (i), ba with SUKŪN (b — it bounces), nun (n), then blend: ibn — “son”. A waṣl alif and a qalqalah in one short word — the alif drops the moment anything precedes it."
+              }
+            },
+            {
+              "arabic": "رَأْس",
+              "translit": "raʾs",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read رَأْس right to left: ra + fatha (ra), hamza with sukūn (a clean catch, held), seen (s), then blend: raʾs — “head”. A sukūn sitting on a hamza — close the throat, hold, then release into the seen."
+              }
+            },
+            {
+              "arabic": "مَاء",
+              "translit": "māʾ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مَاء right to left: meem + long ā (mā), hamza alone on the line (ʾ), then blend: māʾ — “water”. A hamza after a long vowel is the hardest final hamza there is. It must still be audible."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "شَيْء",
+              "translit": "shayʾ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شَيْء right to left: sheen + fatha (shay), yaa with sukūn (y), hamza (ʾ), then blend: shayʾ — “a thing”."
+              }
+            },
+            {
+              "arabic": "ضَوْء",
+              "translit": "ḍawʾ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَوْء right to left: heavy ḍaad + fatha (ḍaw), waaw with sukūn (w), hamza (ʾ), then blend: ḍawʾ — “light”. Heavy letter, sukūn and a bare hamza — all three of this unit’s topics in one word."
+              }
+            },
+            {
+              "arabic": "بِئْر",
+              "translit": "biʾr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بِئْر right to left: ba + kasra (bi), hamza on yaa with sukūn (ʾ), ra (r), then blend: biʾr — “a well”."
+              }
+            },
+            {
+              "arabic": "مُؤْمِن",
+              "translit": "muʾmin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مُؤْمِن right to left: meem + damma (mu), hamza on waaw with sukūn (ʾ), meem + kasra (mi), nun (n), then blend: muʾmin — “believer”. No ‘w’ sound — the waaw is only a chair."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Cold read — words you have not seen",
+        "instructions": "None of these appeared in Lesson 1.13 or 1.14. Read each one unaided, with no model first. Hesitating is fine; guessing is not — sound it out.",
+        "grid": [
+          [
+            {
+              "arabic": "حِمَار",
+              "translit": "ḥimār",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حِمَار right to left: ḥaa + kasra (ḥi), meem + long ā (mā), ra (r), then blend: ḥimār — “donkey”."
+              }
+            },
+            {
+              "arabic": "ذِبْح",
+              "translit": "dhibḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ذِبْح right to left: dhal + kasra (dhi), ba with sukūn (b — bounce), ḥaa (ḥ), then blend: dhibḥ — “sacrifice”."
+              }
+            },
+            {
+              "arabic": "رَصَد",
+              "translit": "raṣad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read رَصَد right to left: ra + fatha (ra), ṣaad + fatha (ṣa, heavy), dal (d), then blend: raṣad — “a watch, lookout”."
+              }
+            },
+            {
+              "arabic": "نَضْرَة",
+              "translit": "naḍrah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَضْرَة right to left: nun + fatha (na), ḍaad with sukūn (ḍ, heavy), ra + fatha (ra), taa marbūṭa, then blend: naḍrah — “radiance”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حُوت",
+              "translit": "ḥūt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حُوت right to left: ḥaa + damma and long ū (ḥū), ta (t), then blend: ḥūt — “whale, big fish”."
+              }
+            },
+            {
+              "arabic": "حَفِيظ",
+              "translit": "ḥafīẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَفِيظ right to left: ḥaa + fatha (ḥa), fa + long ī (fī), ẓhaa (ẓ, heavy), then blend: ḥafīẓ — “guardian”."
+              }
+            },
+            {
+              "arabic": "شَعْب",
+              "translit": "shaʿb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شَعْب right to left: sheen + fatha (sha), ʿayn with sukūn (ʿ), ba (b), then blend: shaʿb — “a people”."
+              }
+            },
+            {
+              "arabic": "صَخْرَة",
+              "translit": "ṣakhrah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَخْرَة right to left: ṣaad + fatha (ṣa, heavy), khaa with sukūn (kh), ra + fatha (ra), taa marbūṭa, then blend: ṣakhrah — “rock”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عُنُق",
+              "translit": "ʿunuq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عُنُق right to left: ʿayn + damma (ʿu), nun + damma (nu), qaaf (q), then blend: ʿunuq — “neck”."
+              }
+            },
+            {
+              "arabic": "بَسِيط",
+              "translit": "basīṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَسِيط right to left: ba + fatha (ba), seen + long ī (sī), ṭaa (ṭ, heavy), then blend: basīṭ — “simple”."
+              }
+            },
+            {
+              "arabic": "ضُرّ",
+              "translit": "ḍurr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضُرّ right to left: ḍaad + damma (ḍu, heavy), ra with a shadda (rr, heavy), then blend: ḍurr — “harm”."
+              }
+            },
+            {
+              "arabic": "لَوْح",
+              "translit": "lawḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لَوْح right to left: lam + fatha (law), waaw with sukūn (w), ḥaa (ḥ), then blend: lawḥ — “tablet, board”."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Pacing check — twelve words, timed",
+        "instructions": "Read all twelve aloud while your teacher times you. Accuracy first, speed second. Note the time, and compare it next week.",
+        "grid": [
+          [
+            {
+              "arabic": "حَقّ",
+              "translit": "ḥaqq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَقّ right to left: ḥaa + fatha, qaaf with a shadda, then blend: ḥaqq — “truth”."
+              }
+            },
+            {
+              "arabic": "أَرْض",
+              "translit": "arḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read أَرْض right to left: hamza + fatha, ra with sukūn, heavy ḍaad, then blend: arḍ — “earth”."
+              }
+            },
+            {
+              "arabic": "صِرَاط",
+              "translit": "ṣirāṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صِرَاط right to left: heavy ṣaad + kasra, ra + long ā, heavy ṭaa, then blend: ṣirāṭ — “path”."
+              }
+            },
+            {
+              "arabic": "عِلْم",
+              "translit": "ʿilm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عِلْم right to left: ʿayn + kasra, lam with sukūn, meem, then blend: ʿilm — “knowledge”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ظِلّ",
+              "translit": "ẓill",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظِلّ right to left: heavy ẓhaa + kasra, lam with a shadda, then blend: ẓill — “shade”."
+              }
+            },
+            {
+              "arabic": "بَحْر",
+              "translit": "baḥr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَحْر right to left: ba + fatha, ḥaa with sukūn, ra, then blend: baḥr — “sea”."
+              }
+            },
+            {
+              "arabic": "فَضْل",
+              "translit": "faḍl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فَضْل right to left: fa + fatha, heavy ḍaad with sukūn, lam, then blend: faḍl — “bounty”."
+              }
+            },
+            {
+              "arabic": "طَيْر",
+              "translit": "ṭayr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَيْر right to left: heavy ṭaa + fatha, yaa with sukūn, ra, then blend: ṭayr — “bird”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سَمْع",
+              "translit": "samʿ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سَمْع right to left: seen + fatha, meem with sukūn, ʿayn with sukūn, then blend: samʿ — “hearing”."
+              }
+            },
+            {
+              "arabic": "صُبْح",
+              "translit": "ṣubḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صُبْح right to left: heavy ṣaad + damma, ba with sukūn, ḥaa, then blend: ṣubḥ — “morning”."
+              }
+            },
+            {
+              "arabic": "نَظِيف",
+              "translit": "naẓīf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَظِيف right to left: nun + fatha, heavy ẓhaa + kasra, long ī, fa, then blend: naẓīf — “clean”."
+              }
+            },
+            {
+              "arabic": "ضَيْف",
+              "translit": "ḍayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَيْف right to left: heavy ḍaad + fatha, yaa with sukūn, fa, then blend: ḍayf — “guest”."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Six self-tests run before reading anything",
+      "One of mixed sets A / B / C, rotating daily",
+      "‘Two hard letters in one word’ — all ten, every day",
+      "Minimal-pair gauntlet read across, twice",
+      "Cold-read set — once a week only",
+      "Pacing check — once a week, timed and written down"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Frame the lesson honestly: 1.13 and 1.14 taught the letters one at a time, with a warm-up before each. Today there is no warm-up and no grouping — that is the entire point, because real reading never announces which letter is next.",
+      "Start by having HER run the six self-tests on herself, out loud, before you read a single word. If she can run them unprompted, she owns them; if she cannot, re-teach the tests before touching the word sets.",
+      "Mixed sets A, B and C are still grouped by letter pair — they are the bridge. Do not skip them straight to the gauntlet even if she is doing well.",
+      "‘Two hard letters in one word’ is the highest-value slide in the lesson. بَعْض, عَظْم, صُبْح and مُحِيط are where a student who has been coping by concentrating on one target at a time finally comes unstuck. Spend real time here.",
+      "Run the gauntlet strictly across the row. If she starts anticipating, shuffle by reading the rows bottom-to-top instead.",
+      "For the cold-read set, model NOTHING first. Say explicitly that hesitating is fine and guessing is not — she should sound the word out rather than reach for a word she already knows that looks similar.",
+      "Time the pacing check with a real timer and write the number down. It is the only quantitative measure in Unit 1.4, and it is the one she will find most motivating between now and the checkpoint.",
+      "Close with her naming her own two weakest letters. If she names the same two you would have named, her self-monitoring is working, and that matters more for Phase 2 than any individual letter.",
+      "Then go into Checkpoint 1. Unit 1.4 was added because letter recognition arrived before letter production — the gate has not changed, but she should reach it with far more reading behind her."
+    ],
+    "listenFor": [
+      "The first hard letter in a word coming out correct and the second degrading — بَعْض with a good ع and a collapsed ض. This is the specific failure Unit 1.4 exists to surface, and only the two-hard-letters slide reliably exposes it.",
+      "Accuracy that holds when the letter is announced and drops when it is not. If the grouped sets are clean and the gauntlet is not, the sound is not yet automatic — it is being produced by conscious effort, which will not survive Phase 2 reading.",
+      "Reaching for a familiar word instead of decoding, especially in the cold-read set (رَصَد read as رَشَد, حَفِيظ as حَافِظ, نَضْرَة as 1.14’s نَاضِرَة). Note it as a reading-strategy issue, not a pronunciation one — the fix is different.",
+      "Speed bought at the cost of makhraj in the pacing check. If the time improves while the quality drops, the time is not an improvement — say so plainly and re-run it slower.",
+      "Whether she can name her own errors. A student who says ‘the ض at the end of words’ is ready for Phase 2 in a way that a student who says ‘I think it was okay’ is not, regardless of how they actually sounded."
+    ],
+    "homework": "Daily until Checkpoint 1: the six self-tests before reading anything; one of mixed sets A/B/C, rotating; all ten ‘two hard letters in one word’ items; the minimal-pair gauntlet read across, twice. Weekly only: the cold-read set (so it stays a real test) and the timed pacing check, with the time written down each week so the trend is visible. Before the checkpoint session, she should be able to name her two weakest letters and the position they fail in."
+  },
+  "videos": [
+    {
+      "title": "Letter combinations that EVERY Arabic learner has to master — Arabic Vowels lesson 5 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=Vab9gvfhn-I"
+    },
+    {
+      "title": "TWO TRICKS to master ع + ح sounds — Makharij & Sifaat Lesson 3 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=-oA0HfNUezI"
+    },
+    {
+      "title": "Why some HEAVY letters should be HEAVIER than others — Lesson 4 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=I1BEoHQzK8E"
+    }
+  ]
+}
