@@ -85,7 +85,7 @@ otherwise force.
 
 ## Common mistakes
 
-1. **Breathing during the sakt** — that converts it into a waqf and defeats the
+1. **Breathing during the sakt** — that converts it into a [[Waqf-Types|waqf]] and defeats the
    purpose.
 2. Making it too long, so it sounds like a stop.
 3. Making it too short, so the idghām it was blocking happens anyway (75:27,

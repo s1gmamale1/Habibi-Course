@@ -37,7 +37,7 @@ Teacher's script: *"Say `uh-oh` and stop between the two halves. That catch in y
 
 **Two hamzahs to distinguish for the student:**
 - **Hamzat qaṭʿ (هَمْزَةُ الْقَطْع)** — a real letter, always pronounced: أَنْعَمْتَ, أَحَدٌ.
-- **Hamzat waṣl (هَمْزَةُ الْوَصْل)** — a helper written ٱ, pronounced only when starting on it and **dropped** when joining from a previous word: ٱلْحَمْدُ read after a pause begins `al-`, but بِسْمِ ٱللَّهِ joins straight through with no catch.
+- **[[Hamzat-Wasl|Hamzat waṣl]] (هَمْزَةُ الْوَصْل)** — a helper written ٱ, pronounced only when starting on it and **dropped** when joining from a previous word: ٱلْحَمْدُ read after a pause begins `al-`, but بِسْمِ ٱللَّهِ joins straight through with no catch.
 
 ## Sifat
 
@@ -70,10 +70,10 @@ Teacher's script: *"Say `uh-oh` and stop between the two halves. That catch in y
 
 ## In tajweed
 
-- **Madd muttaṣil** — a madd letter followed by hamzah **in the same word**: 4–5 counts (جَآءَتِ, ٱلسَّمَآءِ).
-- **Madd munfaṣil** — a madd letter at the end of a word followed by hamzah at the start of the next: 4–5 counts (يَـٰٓأَيُّهَا).
-- **Madd badal** — hamzah *first*, then the madd letter: ءَامَنُوا۟ — two counts.
-- **Hamzat waṣl** — the elision rule above; also determines whether a sūrah is begun with a full or reduced vowel.
-- **Izhār ḥalqī** — ء is the first of the six throat letters; nūn sākinah and tanwīn before it are pronounced clearly.
-- **Shiddah** — no leakage, no echo, no qalqalah.
-- **Advanced (Ḥafṣ specifics)** — tas·hīl in ءَا۬عْجَمِىٌّ (41:44) and naql in بِئْسَ ٱلِٱسْمُ (49:11) are hamzah rules; flag them, teach them later.
+- **[[Madd-Muttasil|Madd muttaṣil]]** — a madd letter followed by hamzah **in the same word**: 4–5 counts (جَآءَتِ, ٱلسَّمَآءِ).
+- **[[Madd-Munfasil|Madd munfaṣil]]** — a madd letter at the end of a word followed by hamzah at the start of the next: 4–5 counts (يَـٰٓأَيُّهَا).
+- **[[Madd-Badal|Madd badal]]** — hamzah *first*, then the madd letter: ءَامَنُوا۟ — two counts.
+- **[[Hamzat-Wasl|Hamzat waṣl]]** — the elision rule above; also determines whether a sūrah is begun with a full or reduced vowel.
+- **[[Izhar-Halqi|Izhār ḥalqī]]** — ء is the first of the six throat letters; nūn sākinah and tanwīn before it are pronounced clearly.
+- **[[Shiddah|Shiddah]]** — no leakage, no echo, no [[Qalqalah-sifah|qalqalah]].
+- **Advanced ([[Hafs-Special-Words|Ḥafṣ specifics]])** — tas·hīl in ءَا۬عْجَمِىٌّ (41:44) and naql in بِئْسَ ٱلِٱسْمُ (49:11) are hamzah rules; flag them, teach them later.

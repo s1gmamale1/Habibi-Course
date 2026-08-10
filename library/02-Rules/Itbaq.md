@@ -39,7 +39,7 @@ language.
 
 Four letters:
 
-ص · ض · ط · ظ
+[[Sad|ص]] · [[Dad|ض]] · [[Ta-heavy|ط]] · [[Za-heavy|ظ]]
 
 All four are also [[Istila]] letters. **Iṭbāq is a strict subset of istiʿlāʾ**: every
 iṭbāq letter is heavy, but not every heavy letter is clamped. This is exactly why ص is

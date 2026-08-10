@@ -44,7 +44,7 @@ Five letters:
 
 > **لِنْ عُمَرْ** — *lin ʿumar*
 
-ل · ن · ع · م · ر
+[[Lam|ل]] · [[Noon|ن]] · [[Ayn|ع]] · [[Meem|م]] · [[Ra|ر]]
 
 ## What it sounds like
 

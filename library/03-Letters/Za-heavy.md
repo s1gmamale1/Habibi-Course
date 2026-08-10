@@ -77,9 +77,9 @@ Say them back to back for the student: **aṭ — aẓẓẓẓ.** One pops, the
 
 ## In tajweed
 
-- **Isti'la and itbaq** — always **mufakhkham**, at the strongest degree.
-- **Tafkheem of a neighbouring ر** — a sakin ظ before ر creates the isti'la environment.
-- **Ikhfa'.** ظ is one of the fifteen ikhfa' letters: noon sakinah before ظ is hidden with a **heavy** ghunnah, as in يَنظُرُونَ.
-- **Idgham mutajanisayn** — a **sakin ذ merges into a following ظ**: إِذ ظَّلَمُوا (4:64). This is the one place the two letters legitimately become one, and students who cannot tell them apart cannot execute it.
-- **No qalqalah** — rakhawah rules it out, and this is the graded contrast with ط.
+- **[[Istila|Isti'la]] and [[Itbaq|itbaq]]** — always **mufakhkham**, at the strongest degree.
+- **[[Ra-Tafkhim|Tafkheem]] of a neighbouring ر** — a sakin ظ before ر creates the isti'la environment.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ظ is one of the fifteen ikhfa' letters: noon sakinah before ظ is hidden with a **heavy** ghunnah, as in يَنظُرُونَ.
+- **[[Idgham-Mutajanisayn|Idgham mutajanisayn]]** — a **sakin ذ merges into a following ظ**: إِذ ظَّلَمُوا (4:64). This is the one place the two letters legitimately become one, and students who cannot tell them apart cannot execute it.
+- **No [[Qalqalah-sifah|qalqalah]]** — [[Rakhawah|rakhawah]] rules it out, and this is the graded contrast with ط.
 - **The ظ words are a closed set.** Roughly a few dozen roots in the whole Qur'an use ظ. Some teachers hand students the list. It is a legitimate crutch for reading, but it does not fix the sound — drill the makhraj too.

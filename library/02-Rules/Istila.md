@@ -43,7 +43,7 @@ Seven letters:
 
 > **خُصَّ ضَغْطٍ قِظْ** — *khussa daghtin qiz*
 
-خ · ص · ض · غ · ط · ق · ظ
+[[Kha|خ]] · [[Sad|ص]] · [[Dad|ض]] · [[Ghayn|غ]] · [[Ta-heavy|ط]] · [[Qaf|ق]] · [[Za-heavy|ظ]]
 
 Four of the seven — ص ض ط ظ — additionally carry [[Itbaq]], which is a *stronger* form of
 the same elevation. The remaining three — خ غ ق — are istiʿlāʾ with [[Infitah]], and are

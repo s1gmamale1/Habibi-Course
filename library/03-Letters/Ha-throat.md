@@ -70,7 +70,7 @@ Note the combination **hams + rakhāwah + istifāl**: voiceless, continuous, lig
 
 ## In tajweed
 
-- **Izhār ḥalqī** — ح is one of the six throat letters (ء ه ع ح غ خ). A nūn sākinah or tanwīn before it is pronounced clearly, with no ghunnah stretch and no merging. Mnemonic line: أَخِي هَاكَ عِلْمًا حَازَهُ غَيْرُ خَاسِرِ.
-- **Hams** — the breath must be released after a sākin ح, especially at a waqf. Do not swallow it.
-- **Istifāl** — ح stays light next to isti'lāʾ letters. It never takes tafkhīm.
-- **No qalqalah** — sākin ح is held and released as breath, never bounced.
+- **[[Izhar-Halqi|Izhār ḥalqī]]** — ح is one of the six throat letters (ء ه ع ح غ خ). A nūn sākinah or tanwīn before it is pronounced clearly, with no ghunnah stretch and no merging. Mnemonic line: أَخِي هَاكَ عِلْمًا حَازَهُ غَيْرُ خَاسِرِ.
+- **[[Hams|Hams]]** — the breath must be released after a sākin ح, especially at a waqf. Do not swallow it.
+- **[[Istifal|Istifāl]]** — ح stays light next to [[Istila|isti'lāʾ]] letters. It never takes [[Tafkhim|tafkhīm]].
+- **No [[Qalqalah-sifah|qalqalah]]** — sākin ح is held and released as breath, never bounced.

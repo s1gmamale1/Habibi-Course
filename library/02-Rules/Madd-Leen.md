@@ -36,7 +36,7 @@ Full name: **مد اللين العارض للسكون**, *al-Līn al-ʿĀriḍ 
 
 ## The līn letters are not madd letters
 
-**و** and **ي** carrying a **sukūn** and preceded by a **fatḥah** are *līn*
+**و** and **ي** carrying a **sukūn** and preceded by a **fatḥah** are *[[Leen|līn]]*
 (soft) letters, not madd letters:
 
 | | Preceded by | Example |
@@ -51,7 +51,7 @@ prolongation whatsoever.
 
 ## Condition
 
-`fatḥah + وْ/يْ + one letter + waqf`. Only when you **stop** does the līn letter
+`fatḥah + وْ/يْ + one letter + waqf`. Only when you **[[Waqf-Types|stop]]** does the līn letter
 gain length — by exactly the mechanism of [[Madd-Arid-Lissukun]], applied to a
 soft letter instead of a true madd letter.
 

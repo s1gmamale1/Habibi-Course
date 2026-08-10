@@ -69,8 +69,8 @@ Second cue: *"Say `aaa` like a doctor looking at your throat. Now squeeze the mi
 
 ## In tajweed
 
-- **Izhār ḥalqī** — ع is one of the six throat letters (أَخِي هَاكَ عِلْمًا حَازَهُ غَيْرُ خَاسِرِ); nūn sākinah and tanwīn before it are pronounced clearly with no ghunnah stretch.
-- **Tawassuṭ** — ع must be given real duration when sākin. It is neither snapped nor stretched into a vowel.
-- **Istifāl** — always light; never let a neighbouring ص, ض, ط, ظ, خ, غ or ق drag it into tafkhīm.
+- **[[Izhar-Halqi|Izhār ḥalqī]]** — ع is one of the six throat letters (أَخِي هَاكَ عِلْمًا حَازَهُ غَيْرُ خَاسِرِ); nūn sākinah and tanwīn before it are pronounced clearly with no ghunnah stretch.
+- **[[Tawassut|Tawassuṭ]]** — ع must be given real duration when sākin. It is neither snapped nor stretched into a vowel.
+- **[[Istifal|Istifāl]]** — always light; never let a neighbouring ص, ض, ط, ظ, خ, غ or ق drag it into [[Tafkhim|tafkhīm]].
 - **Sūrah headings** — ع is the letter used in the muṣḥaf margin to mark rukūʿ divisions; worth naming so students do not read it as text.
-- **No qalqalah.**
+- **No [[Qalqalah-sifah|qalqalah]].**

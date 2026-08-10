@@ -39,7 +39,7 @@ None. Istiṭālah is one of the sifat without an opposite.
 
 ## Letters
 
-One letter: **ض**.
+One letter: **[[Dad|ض]]**.
 
 ## Why ض is the hardest letter in Arabic
 

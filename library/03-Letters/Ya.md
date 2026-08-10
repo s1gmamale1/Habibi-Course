@@ -27,7 +27,7 @@ examples:
 1. **Yā' ghayr maddiyyah** (the consonant ي) — the **3rd tongue makhraj**, wasat al-lisan: the middle of the tongue rises toward the palate above it, close but not touching, and the voice glides through. This is the ي of يَوْمِ and يَلِدْ. It shares its makhraj with [[Jeem]] and [[Sheen]].
 2. **Yā' maddiyyah** (the madd ي) — a **sakin ي preceded by a kasrah**, as in ٱلدِّينِ. This one has **no contact point at all**: it issues from **al-jawf**, the hollow of the mouth and throat, and is stretched for two counts.
 
-A third state, **yā' leen** — sakin ي preceded by a **fathah**, as in ٱلْبَيْتِ, كَيْفَ — has the sifah of *leen*, ease: it emerges without strain and without being stretched (unless a stop makes it madd leen).
+A third state, **yā' leen** — sakin ي preceded by a **fathah**, as in ٱلْبَيْتِ, كَيْفَ — has the sifah of *[[Leen|leen]]*, ease: it emerges without strain and without being stretched (unless a stop makes it madd leen).
 
 Cue: *"Middle of the tongue, almost touching the roof. If it touches, you've made a ج."*
 
@@ -56,12 +56,12 @@ Cue: *"Middle of the tongue, almost touching the roof. If it touches, you've mad
 
 - [[Jeem]] — same makhraj; a ي pressed too hard becomes ج.
 - [[Waw]] — the other glide-and-madd letter (from the lips, not the tongue). The pair ي / و behaves the same way in madd and leen and should be taught together.
-- [[Hamza]] — a madd ي followed by a hamzah is madd muttasil or munfasil; students often insert a glottal catch at the end of the madd where none belongs.
+- [[Hamza]] — a madd ي followed by a hamzah is [[Madd-Muttasil|madd muttasil]] or [[Madd-Munfasil|munfasil]]; students often insert a glottal catch at the end of the madd where none belongs.
 
 ## In tajweed
 
-- **Madd.** Sakin ي after kasrah is one of the three madd letters (ا و ي). Base length 2 harakat, extended by the madd rules.
-- **Madd leen.** Sakin ي after fathah, when a stop follows (قُرَيْشٍ, ٱلْبَيْتِ at a waqf) — 2, 4, or 6 counts.
-- **Idgham bi-ghunnah.** ي is one of the four letters of **يَنْمُو**: noon sakinah or tanween before ي merges *with* ghunnah — مَن يَعْمَلْ. Note this idgham is **incomplete** (naqis): the ي is still heard.
-- **Istifal** — ي never darkens a neighbouring ر or ل.
-- ي is not a qalqalah letter.
+- **[[Madd-Tabii|Madd]].** Sakin ي after kasrah is one of the three madd letters (ا و ي). Base length 2 harakat, extended by the madd rules.
+- **[[Madd-Leen|Madd leen]].** Sakin ي after fathah, when a stop follows (قُرَيْشٍ, ٱلْبَيْتِ at a waqf) — 2, 4, or 6 counts.
+- **[[Idgham-Maal-Ghunnah|Idgham bi-ghunnah]].** ي is one of the four letters of **يَنْمُو**: noon sakinah or tanween before ي merges *with* ghunnah — مَن يَعْمَلْ. Note this idgham is **incomplete** (naqis): the ي is still heard.
+- **[[Istifal|Istifal]]** — ي never darkens a neighbouring ر or ل.
+- ي is not a [[Qalqalah-sifah|qalqalah]] letter.

@@ -67,8 +67,8 @@ Teacher's script: *"Sigh. Just sigh — هـاااه. That is the letter. The on
 
 ## In tajweed
 
-- **Izhār ḥalqī** — ه is one of the six throat letters; nūn sākinah and tanwīn before it are clear, with no ghunnah stretch.
-- **Madd ṣilah ṣughrā / kubrā** — the pronoun ه between two voweled letters is stretched two counts (ṣughrā), or four–five counts when a hamzah follows (kubrā). This rule is impossible if the ه is being dropped, which is why the letter must be secured early.
-- **Hams** — the breath must be completed, particularly at a waqf on a final ه.
+- **[[Izhar-Halqi|Izhār ḥalqī]]** — ه is one of the six throat letters; nūn sākinah and tanwīn before it are clear, with no ghunnah stretch.
+- **[[Madd-Silah|Madd ṣilah ṣughrā / kubrā]]** — the pronoun ه between two voweled letters is stretched two counts (ṣughrā), or four–five counts when a hamzah follows (kubrā). This rule is impossible if the ه is being dropped, which is why the letter must be secured early.
+- **[[Hams|Hams]]** — the breath must be completed, particularly at a waqf on a final ه.
 - **Khafāʾ** — treat ه as a letter needing extra volume, not less.
-- **No qalqalah, no tafkhīm** — ه is always light and never bounced.
+- **No [[Qalqalah-sifah|qalqalah]], no [[Tafkhim|tafkhīm]]** — ه is always light and never bounced.

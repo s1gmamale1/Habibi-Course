@@ -58,8 +58,8 @@ Cue: *"Tip of the tongue up on the gum ridge, just behind your top front teeth �
 
 ## In tajweed
 
-- **Tafkheem of lafẓ al-Jalālah** — heavy after fathah/dammah, light after kasrah. A rule of its own.
-- **Idgham shamsiyyah** — the ل of ٱل is silent and merged into the following letter for the fourteen "sun letters" (ٱلشَّمْس, ٱلرَّحْمَٰن, ٱلدِّين). For the fourteen "moon letters" it is pronounced with sukun (ٱلْحَمْد, ٱلْقَمَر).
-- **Idgham mutaqaribayn** — a sakin ل merges into a following ر: قُل رَّبِّ.
-- **Idgham for noon sakinah.** ل is one of the letters of **يَرْمَلُونَ** — noon sakinah or tanween before ل merges **without ghunnah**, completely: مِن لَّدُنْهُ.
-- **Tawassut** — a sakin ل is held, not bounced; ل is not a qalqalah letter.
+- **[[Lam-Jalalah|Tafkheem of lafẓ al-Jalālah]]** — heavy after fathah/dammah, light after kasrah. A rule of its own.
+- **[[Lam-Shamsiyyah|Idgham shamsiyyah]]** — the ل of ٱل is silent and merged into the following letter for the fourteen "sun letters" (ٱلشَّمْس, ٱلرَّحْمَٰن, ٱلدِّين). For the fourteen "[[Lam-Qamariyyah|moon letters]]" it is pronounced with sukun (ٱلْحَمْد, ٱلْقَمَر).
+- **[[Idgham-Mutaqaribayn|Idgham mutaqaribayn]]** — a sakin ل merges into a following ر: قُل رَّبِّ.
+- **Idgham for noon sakinah.** ل is one of the letters of **يَرْمَلُونَ** — noon sakinah or tanween before ل merges **[[Idgham-Bila-Ghunnah|without ghunnah]]**, completely: مِن لَّدُنْهُ.
+- **[[Tawassut|Tawassut]]** — a sakin ل is held, not bounced; ل is not a [[Qalqalah-sifah|qalqalah]] letter.

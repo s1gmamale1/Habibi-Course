@@ -63,9 +63,9 @@ Cue: *"Tongue tip out onto the edges of your top teeth so I can see it, and just
 
 ## In tajweed
 
-- **Idgham shamsiyyah** — ث is one of the fourteen sun letters: the ل of ٱل is silent before it. ٱلثَّوَاب is read "ath-thawāb".
-- **Ikhfa'.** ث is one of the fifteen ikhfa' letters: noon sakinah and tanween before ث are hidden with a **light** ghunnah, as in مَنثُورًا.
-- **Idgham mutaqaribayn** — a sakin ذ before a ث does not merge in Hafs; read each clearly.
-- **Hams in waqf** — a sakin ث at a stop keeps its full flowing breath.
-- **Istifal** — ث never makes a following ر heavy.
-- ث is not a qalqalah letter.
+- **[[Lam-Shamsiyyah|Idgham shamsiyyah]]** — ث is one of the fourteen sun letters: the ل of ٱل is silent before it. ٱلثَّوَاب is read "ath-thawāb".
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ث is one of the fifteen ikhfa' letters: noon sakinah and tanween before ث are hidden with a **light** ghunnah, as in مَنثُورًا.
+- **[[Idgham-Mutaqaribayn|Idgham mutaqaribayn]]** — a sakin ذ before a ث does not merge in Hafs; read each clearly.
+- **[[Hams|Hams]] in [[Waqf-Types|waqf]]** — a sakin ث at a stop keeps its full flowing breath.
+- **[[Istifal|Istifal]]** — ث never makes a following ر heavy.
+- ث is not a [[Qalqalah-sifah|qalqalah]] letter.

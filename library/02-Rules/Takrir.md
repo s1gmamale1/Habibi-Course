@@ -35,7 +35,7 @@ None. Takrīr is one of the sifat without an opposite.
 
 ## Letters
 
-One letter: **ر**.
+One letter: **[[Ra|ر]]**.
 
 ## This sifah is identified in order to be avoided
 
@@ -62,7 +62,7 @@ The teacher listens at the two places where trilling surfaces:
 - **Shaddah on ر** — شَرِّ. A doubled ر is *two* contacts, held; it is not a roll. This is
   the single most reliable diagnostic, because the shaddah gives the tongue permission to
   linger and the trill escapes.
-- **Sakin ر at waqf** — بِٱلصَّبْرِ, وَٱلْفَجْرِ stopped upon. A stopped ر ends the breath,
+- **Sakin ر at [[Waqf-Types|waqf]]** — بِٱلصَّبْرِ, وَٱلْفَجْرِ stopped upon. A stopped ر ends the breath,
   and a loose tip flaps as the air runs out.
 
 Correction cue: have the student press the tip slightly *harder* and shorten the contact.
@@ -75,7 +75,7 @@ Trilling comes from a slack tongue, not a fast one.
   recitation as untrained.
 - Because it is corrective rather than productive, it belongs in the assessment rubric as
   something to listen *for*, not to score as a skill acquired.
-- ر also carries [[Inhiraf]] and has its own heaviness rules; see [[Ra]] for the full
+- ر also carries [[Inhiraf]] and has its own [[Ra-Tafkhim|heaviness rules]]; see [[Ra]] for the full
   treatment of the letter.
 
 ## Sources

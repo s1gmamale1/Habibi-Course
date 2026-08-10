@@ -56,7 +56,7 @@ Cue: *"Flatten the middle of your tongue up against the roof of your mouth — a
 
 ## In tajweed
 
-- **Qalqalah.** ج is the ج of **قُطْبُ جَدٍّ**. Sakin ج bounces: qalqalah sughra mid-word (يَجْعَلْ), qalqalah kubra at a stop.
-- **Ikhfa'.** ج is one of the fifteen ikhfa' letters — noon sakinah before ج is hidden with a light ghunnah, as in أَنْ جَاءَهُ.
-- **Istifal / tarqeeq** — always light, and it does not make a following ر heavy.
+- **[[Qalqalah-sifah|Qalqalah]].** ج is the ج of **قُطْبُ جَدٍّ**. Sakin ج bounces: [[Qalqalah-Sughra|qalqalah sughra]] mid-word (يَجْعَلْ), [[Qalqalah-Kubra|qalqalah kubra]] at a stop.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ج is one of the fifteen ikhfa' letters — noon sakinah before ج is hidden with a light ghunnah, as in أَنْ جَاءَهُ.
+- **[[Istifal|Istifal]] / [[Tarqiq|tarqeeq]]** — always light, and it does not make a following ر heavy.
 - ج is not an idgham letter for noon sakinah.

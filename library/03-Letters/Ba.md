@@ -67,8 +67,8 @@ Teacher's script: *"Close your lips completely, hold the air for a moment — yo
 
 ## In tajweed
 
-- **Qalqalah** — ṣughrā when the ب is sākin mid-word (بِٱلصَّبْرِ); kubrā when the sukūn arises from stopping on it at a waqf.
-- **Iqlāb** — a nūn sākinah or tanwīn followed by ب is converted into a **mīm** with a two-count ghunnah and the lips left slightly apart: أَنۢبَآءِ (11:49), مِنۢ بَعْدِ. The muṣḥaf marks it with a small م above the nūn. This is ب's signature rule.
-- **Ikhfāʾ shafawī** — a **mīm sākinah** followed by ب is hidden with a two-count ghunnah, lips lightly together but not pressed: تَرْمِيهِم بِحِجَارَةٍ.
-- **Idhlāq** — one of the six فِرَّ مِنْ لُبِّ letters.
-- **Tarqīq** — always light; ب is never heavy.
+- **Qalqalah** — [[Qalqalah-Sughra|ṣughrā]] when the ب is sākin mid-word (بِٱلصَّبْرِ); [[Qalqalah-Kubra|kubrā]] when the sukūn arises from stopping on it at a waqf.
+- **[[Iqlab|Iqlāb]]** — a nūn sākinah or tanwīn followed by ب is converted into a **mīm** with a two-count ghunnah and the lips left slightly apart: أَنۢبَآءِ (11:49), مِنۢ بَعْدِ. The muṣḥaf marks it with a small م above the nūn. This is ب's signature rule.
+- **[[Ikhfa-Shafawi|Ikhfāʾ shafawī]]** — a **mīm sākinah** followed by ب is hidden with a two-count ghunnah, lips lightly together but not pressed: تَرْمِيهِم بِحِجَارَةٍ.
+- **[[Idhlaq|Idhlāq]]** — one of the six فِرَّ مِنْ لُبِّ letters.
+- **[[Tarqiq|Tarqīq]]** — always light; ب is never heavy.

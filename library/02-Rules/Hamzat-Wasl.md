@@ -113,7 +113,7 @@ one practical skill, and Unit 2 teaches them together.
 
 1. Starting ٱلْحَمْدُ with a kasrah — "il-ḥamd".
 2. Starting ٱدْخُلُوا with a kasrah.
-3. **Pronouncing the waṣl hamzah when joining** — an audible glottal stop
+3. **Pronouncing the waṣl [[Hamza|hamzah]] when joining** — an audible glottal stop
    mid-phrase. Common in learners with Persian or Urdu speech habits.
 4. Failing to convert ٱئْتُوا when starting on it.
 

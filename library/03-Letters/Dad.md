@@ -74,9 +74,9 @@ A useful physical test: have the student place a fingertip against their cheek o
 
 ## In tajweed
 
-- **Isti'la and itbaq** — ض is always **mufakhkham**, and among the heaviest letters because itbaq is a stronger heaviness than isti'la alone.
-- **Tafkheem of ر and ل** — a sakin ض before ر gives the isti'la environment that makes ر heavy.
-- **Ikhfa'.** ض is one of the fifteen ikhfa' letters. Noon sakinah before ض is hidden with a **heavy** ghunnah, following the weight of ض.
-- **Idgham mutaqaribayn / mutajanisayn** — ض does **not** merge into ظ, and a common examiner's trap is the student who merges them by accident. The Qur'anic case to know is 18:29 وَٱلضَّآلِّينَ-type words being read with a ظ.
-- **Madd.** ٱلضَّآلِّينَ (1:7) is also the standard example of **madd lazim kalimi muthaqqal** — six counts on the alif before the shaddah of the ل. So this one word tests both the hardest letter and the longest madd at once.
-- ض is not a qalqalah letter — it cannot be, because it has rakhawah, not shiddah.
+- **[[Istila|Isti'la]] and [[Itbaq|itbaq]]** — ض is always **mufakhkham**, and among the heaviest letters because itbaq is a stronger heaviness than isti'la alone.
+- **[[Ra-Tafkhim|Tafkheem]] of ر and ل** — a sakin ض before ر gives the isti'la environment that makes ر heavy.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ض is one of the fifteen ikhfa' letters. Noon sakinah before ض is hidden with a **heavy** ghunnah, following the weight of ض.
+- **[[Idgham-Mutaqaribayn|Idgham mutaqaribayn]] / [[Idgham-Mutajanisayn|mutajanisayn]]** — ض does **not** merge into ظ, and a common examiner's trap is the student who merges them by accident. The Qur'anic case to know is 18:29 وَٱلضَّآلِّينَ-type words being read with a ظ.
+- **Madd.** ٱلضَّآلِّينَ (1:7) is also the standard example of **[[Madd-Lazim|madd lazim kalimi muthaqqal]]** — six counts on the alif before the shaddah of the ل. So this one word tests both the hardest letter and the longest madd at once.
+- ض is not a [[Qalqalah-sifah|qalqalah]] letter — it cannot be, because it has [[Rakhawah|rakhawah]], not [[Shiddah|shiddah]].

@@ -57,7 +57,7 @@ collapses there first. A student reading ٱلصَّآخَّةُ or ٱسْتَغ�
 - It explains the *shape* of the syllabus: the letters that need the most drilling —
   ح, خ, ع, غ, ص, ض, ط, ظ, ق — are all iṣmāt letters.
 - Pairing iṣmāt with idhlāq keeps the ten-sifat-with-opposites count honest; without it,
-  idhlāq would have no partner and the five-pair scheme would break.
+  idhlāq would have no partner and the [[Sifat|five-pair scheme]] would break.
 
 ## Sources
 

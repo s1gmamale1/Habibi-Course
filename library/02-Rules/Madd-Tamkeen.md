@@ -39,12 +39,12 @@ the madd is "established" so the two identical letters stay audible as two.
 
 ## The two forms
 
-**Form 1 — two yāʾs inside a word.** The first carries **shaddah + kasrah**, the
+**Form 1 — two [[Ya|yāʾs]] inside a word.** The first carries **shaddah + kasrah**, the
 second is **sākinah** (a madd yāʾ):
 
 حُيِّيتُم · ٱلنَّبِيِّۦنَ · عِلِّيِّينَ · نُبَيِّئُ
 
-**Form 2 — a madd letter meeting the same letter across a word boundary.** A wāw
+**Form 2 — a madd letter meeting the same letter across a word boundary.** A [[Waw|wāw]]
 madd followed by a wāw, or a yāʾ madd followed by a yāʾ:
 
 ءَامَنُوا۟ وَعَمِلُوا۟ · ٱلَّذِى يُوَسْوِسُ

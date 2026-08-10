@@ -60,8 +60,8 @@ A note for the teacher: some classical works count ق among the letters of **shi
 
 ## In tajweed
 
-- **Qalqalah.** ق is the first letter of the mnemonic **قُطْبُ جَدٍّ** (ق ط ب ج د). Sakin ق bounces — mid-word (qalqalah sughra) and at a stop (qalqalah kubra).
-- **Isti'la / tafkheem.** ق is one of the seven isti'la letters (خُصَّ ضَغْطٍ قِظْ) and is therefore **always heavy**, even under kasrah.
-- **Tafkheem of a neighbouring ر.** A ر with kasrah after a sakin isti'la letter such as ق is the case behind فِرْقٍ.
-- **Ikhfa'.** ق is one of the fifteen ikhfa' letters for noon sakinah and tanween — مِن قَبْلُ is hidden with ghunnah, and because ق is heavy the ghunnah is made heavy with it.
+- **[[Qalqalah-sifah|Qalqalah]].** ق is the first letter of the mnemonic **قُطْبُ جَدٍّ** (ق ط ب ج د). Sakin ق bounces — mid-word ([[Qalqalah-Sughra|qalqalah sughra]]) and at a stop ([[Qalqalah-Kubra|qalqalah kubra]]).
+- **[[Istila|Isti'la]] / [[Tafkhim|tafkheem]].** ق is one of the seven isti'la letters (خُصَّ ضَغْطٍ قِظْ) and is therefore **always heavy**, even under kasrah.
+- **[[Ra-Tafkhim|Tafkheem]] of a neighbouring ر.** A ر with kasrah after a sakin isti'la letter such as ق is the case behind فِرْقٍ.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ق is one of the fifteen ikhfa' letters for noon sakinah and tanween — مِن قَبْلُ is hidden with ghunnah, and because ق is heavy the ghunnah is made heavy with it.
 - ق is not an idgham letter and never merges into what follows.

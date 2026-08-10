@@ -62,9 +62,9 @@ Cue: *"Tip on the gum where the top teeth start. Now let the air out after it �
 
 ## In tajweed
 
-- **Hams** — audible breath on release, especially in waqf.
-- **No qalqalah** — a hard rule and a common exam item.
-- **Ikhfa'.** ت is one of the fifteen ikhfa' letters: noon sakinah before ت is hidden with a **light** ghunnah, as in كُنتُمْ.
-- **Idgham mutajanisayn** — a **sakin ت merges into a following ط or د**: وَقَالَت طَّآئِفَةٌ, أَثْقَلَت دَّعَوَا. And a sakin **د or ط** merges into a following **ت** — into ت from د completely (قَد تَّبَيَّنَ), from ط **incompletely**, with the ط's itbaq retained (أَحَطتُ).
-- **Idgham mutamathilayn** — sakin ت into ت.
-- **Istifal** — ت never makes a following ر heavy.
+- **[[Hams|Hams]]** — audible breath on release, especially in waqf.
+- **No [[Qalqalah-sifah|qalqalah]]** — a hard rule and a common exam item.
+- **[[Ikhfa-Haqiqi|Ikhfa']].** ت is one of the fifteen ikhfa' letters: noon sakinah before ت is hidden with a **light** ghunnah, as in كُنتُمْ.
+- **[[Idgham-Mutajanisayn|Idgham mutajanisayn]]** — a **sakin ت merges into a following ط or د**: وَقَالَت طَّآئِفَةٌ, أَثْقَلَت دَّعَوَا. And a sakin **د or ط** merges into a following **ت** — into ت from د completely (قَد تَّبَيَّنَ), from ط **incompletely**, with the ط's itbaq retained (أَحَطتُ).
+- **[[Idgham-Mutamathilayn|Idgham mutamathilayn]]** — sakin ت into ت.
+- **[[Istifal|Istifal]]** — ت never makes a following ر heavy.

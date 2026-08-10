@@ -68,10 +68,10 @@ Teacher's script for the consonant: *"Round your lips as if you are about to whi
 
 ## In tajweed
 
-- **Madd ṭabīʿī** — madd wāw is two counts (يُولَدْ, نُوحِيهَا).
-- **Madd līn** — wāw sākinah after a fathah, followed by a letter made sākin by the stop: خَوْفٍ read as خَوْفْ. Two, four or six counts, and only at a waqf; in waṣl it is plain līn with no stretch.
-- **Madd muttaṣil / munfaṣil** — a madd wāw meeting a [[Hamza]] within or across a word.
-- **Idghām with ghunnah** — و is one of the يَرْمَلُونَ letters. A nūn sākinah or tanwīn before و merges into it with a two-count ghunnah (مِن وَلِيٍّ). This idghām is **nāqiṣ** (incomplete) — the ghunnah remains.
-- **Izhār shafawī** — a mīm sākinah before و is pronounced clearly, with the lips **not** touching. This is a favourite slip: عَلَيْهِمْ وَ… must not close into a hum.
+- **[[Madd-Tabii|Madd ṭabīʿī]]** — madd wāw is two counts (يُولَدْ, نُوحِيهَا).
+- **[[Madd-Leen|Madd līn]]** — wāw sākinah after a fathah, followed by a letter made sākin by the stop: خَوْفٍ read as خَوْفْ. Two, four or six counts, and only at a waqf; in waṣl it is plain [[Leen|līn]] with no stretch.
+- **[[Madd-Muttasil|Madd muttaṣil]] / [[Madd-Munfasil|munfaṣil]]** — a madd wāw meeting a [[Hamza]] within or across a word.
+- **[[Idgham-Maal-Ghunnah|Idghām with ghunnah]]** — و is one of the يَرْمَلُونَ letters. A nūn sākinah or tanwīn before و merges into it with a two-count ghunnah (مِن وَلِيٍّ). This idghām is **nāqiṣ** (incomplete) — the ghunnah remains.
+- **[[Izhar-Shafawi|Izhār shafawī]]** — a mīm sākinah before و is pronounced clearly, with the lips **not** touching. This is a favourite slip: عَلَيْهِمْ وَ… must not close into a hum.
 - **The six non-connecting letters** — و never joins to the letter after it (lesson `1-08`).
-- **No qalqalah, no tafkhīm.**
+- **No [[Qalqalah-sifah|qalqalah]], no [[Tafkhim|tafkhīm]].**

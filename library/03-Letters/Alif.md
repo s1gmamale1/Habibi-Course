@@ -65,7 +65,7 @@ Correction cue: *"Don't decide anything about the alif. Look at the letter befor
 - **Adding a glottal catch at the end of the madd** (taxonomy §2.1) — نَا finished with a small stop. That is an inserted [[Hamza]]. Let the sound fade.
 - **Turkic / Uzbek L1** — vowel harmony pulls the alif toward a front or back vowel depending on neighbours. Correction cue: *"One alif sound, decided only by the consonant before it — not by the rest of the word."*
 - **Persian / Urdu L1** — the alif in these languages is a plain long `ā` with no heavy variant, so heavy alifs are consistently produced light.
-- **Shortening the two counts** — the base madd ṭabīʿī is exactly two ḥarakāt, everywhere, unless a rule lengthens it.
+- **Shortening the two counts** — the base [[Madd-Tabii|madd ṭabīʿī]] is exactly two ḥarakāt, everywhere, unless a rule lengthens it.
 - **Confusing ا with ء in writing and reading** — أَ / إِ / آ are hamzah on an alif chair, not alif.
 
 ## Confused with
@@ -76,11 +76,11 @@ Correction cue: *"Don't decide anything about the alif. Look at the letter befor
 
 ## In tajweed
 
-- **Madd ṭabīʿī** — two counts, the baseline for all madd rules.
-- **Madd muttaṣil / munfaṣil** — an alif followed by [[Hamza]] in the same word (4–5 counts) or the next word (4–5 counts).
-- **Madd lāzim** — an alif followed by a sukūn or shaddah: six counts (ٱلضَّآلِّينَ, ٱلْحَآقَّةُ).
-- **Madd ʿiwaḍ** — at a waqf, tanwīn fatḥ is read as a two-count alif.
-- **Madd badal** — hamzah then alif: ءَامَنُوا۟.
-- **Hamzat waṣl (ٱ)** — an alif carrying the waṣl head; pronounced only when starting on it.
-- **Alif fāriqah** — the silent alif written after a plural wāw (ءَامَنُوا۟, تَوَاصَوْا۟). It is written, never pronounced; the small circle above it marks it silent.
-- **Tafkhīm / tarqīq** — no independent ruling; inherits from the preceding letter, as above.
+- **[[Madd-Tabii|Madd ṭabīʿī]]** — two counts, the baseline for all madd rules.
+- **[[Madd-Muttasil|Madd muttaṣil]] / [[Madd-Munfasil|munfaṣil]]** — an alif followed by [[Hamza]] in the same word (4–5 counts) or the next word (4–5 counts).
+- **[[Madd-Lazim|Madd lāzim]]** — an alif followed by a sukūn or shaddah: six counts (ٱلضَّآلِّينَ, ٱلْحَآقَّةُ).
+- **[[Madd-Iwad|Madd ʿiwaḍ]]** — at a waqf, tanwīn fatḥ is read as a two-count alif.
+- **[[Madd-Badal|Madd badal]]** — hamzah then alif: ءَامَنُوا۟.
+- **[[Hamzat-Wasl|Hamzat waṣl]] (ٱ)** — an alif carrying the waṣl head; pronounced only when starting on it.
+- **Alif fāriqah** — the [[Silent-Letters|silent alif]] written after a plural wāw (ءَامَنُوا۟, تَوَاصَوْا۟). It is written, never pronounced; the small circle above it marks it silent.
+- **[[Tafkhim|Tafkhīm]] / [[Tarqiq|tarqīq]]** — no independent ruling; inherits from the preceding letter, as above.

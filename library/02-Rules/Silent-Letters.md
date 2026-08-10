@@ -51,7 +51,7 @@ is the most frequent silent letter in the Qurʾān. Full treatment in
 
 ### 2. The small round zero — الصفر المستدير — **never** pronounced
 
-`○` above an alif or wāw means the letter is silent **in wasl and in waqf
+`○` above an [[Alif|alif]] or [[Waw|wāw]] means the letter is silent **in wasl and in waqf
 alike**. It is pure spelling.
 
 - **أُو۟لَٰٓئِكَ** — the wāw is never sounded: `ulāʾika`
@@ -94,7 +94,7 @@ itself information. Do not confuse a bare letter with a zeroed one.
 ## Related
 
 Most of the oval-zero words are also entries in [[Hafs-Special-Words]], because
-their waqf/wasl behaviour is transmitted, not derivable.
+their [[Waqf-Types|waqf]]/wasl behaviour is transmitted, not derivable.
 
 ## cpfair coverage
 

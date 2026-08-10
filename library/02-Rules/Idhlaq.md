@@ -41,7 +41,7 @@ Six letters:
 
 > **فِرَّ مِنْ لُبِّ** — *firra min lubb*
 
-ف · ر · م · ن · ل · ب
+[[Fa|ف]] · [[Ra|ر]] · [[Meem|م]] · [[Noon|ن]] · [[Lam|ل]] · [[Ba|ب]]
 
 Three from the tongue's edge (ر, ن, ل), three from the lips (ف, م, ب) — the mnemonic is
 worth teaching alongside that split, since the split is the actual reason for the grouping.
