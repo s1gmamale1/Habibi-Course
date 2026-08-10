@@ -108,7 +108,25 @@ Per stage — 3.1 sifat, 3.2 rā'/lām, 3.3 ghunnah/meem, 3.4 noon, 3.5 idghām 
 - [ ] **Step 4: Map the hifz strand.** The lesson→surah mapping in `phase-3-tajweed.md` §2.2 was built for **26** lessons and Unit 3 now has **36** — it must be regenerated, not copied. Order is al-Fātiḥa, then 114 → 105. Budget segments in proportion to a surah's length, not one surah per lesson.
 - [ ] **Step 5: Gate and commit per stage.**
 
-**Every rule's first example must come from al-Fātiḥa or surahs 105–114 where a clean instance exists.** Where none does, label it explicitly: *"reference example — outside your memorized surahs."* Three rules are known to need this: **iqlāb**, **idghām shafawī/mithlayn**, and the **five rā' isti'lā exception words**.
+**Every rule's first example must come from al-Fātiḥa or surahs 105–114 where a clean instance exists.** Where none does, label it explicitly: *"reference example — outside your memorized surahs."*
+
+**Which rules actually need that label — counted from the annotation dataset, 2026-08-10**, not assumed:
+
+| Rule | Occurrences in the hifz set | Label needed? |
+|---|---|---|
+| **iqlāb** | **0** | **yes** |
+| **idghām mutaqāribayn** | **0** | **yes** |
+| idghām shafawī | **2**, both in Quraysh 106:4 | **no** |
+| ikhfāʾ shafawī | 1, al-Fīl 105:4 تَرْمِيهِم بِحِجَارَةٍ | no |
+| idghām mutajānisayn | 1, al-Kāfirūn 109:4 عَبَدتُّمْ | no |
+| madd lāzim | 1, al-Fātiḥa 1:7 ٱلضَّآلِّينَ | no |
+
+This **corrects an earlier claim** that idghām shafawī had no in-set example. It has two, and
+**Quraysh 106:4 is the single best teaching ayah in the course** — it carries four rules in one
+line: two idghām shafawī (هُم مِّن ×2), one ikhfāʾ (مِّن جُوعٍ, ج), one iẓhār (مِّنْ خَوْفٍ, خ).
+It exercises the meem trio and the noon quartet simultaneously.
+
+The **five rā' isti'lā exception words** do all lie outside the hifz set and keep the label.
 
 ---
 
