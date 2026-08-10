@@ -66,13 +66,20 @@ and recorded that here.
 | **B** — Qur'an pipeline | **complete** · 212 verses, 1,972 spans, 0 defects |
 | **C** — Schema & renderer | **complete** · static export builds |
 | **D** — Games | **complete** · 7 of 8 drills + registry wired; waqf placer blocked, see below |
-| **E** — Lesson JSON | **complete** · all 58 lessons transcribed, every one `draft: true` |
+| **E** — Lesson JSON | **complete** · all 59 lessons transcribed, every one `draft: true` |
 
-411 tests · 0 lint errors · 58/58 asset refs · library gate green · `npm run build` succeeds.
+411 tests · 0 lint errors · library gate green · `npm run build` succeeds.
 
-`content/course.json` still holds exactly one phase, so none of the 58 new lesson files
+`content/course.json` still holds exactly one phase, so none of the 59 new lesson files
 is reachable by a learner. Publishing is a deliberate act: clear `draft`, then add the
 phase entry — in that order, and there is a test enforcing it.
+
+**Unit 3 is 37 lessons, not 36, as of 2026-08-11.** `3-04` is new and everything after it
+shifted by one. The renumber was a single pass with a callback over library/ and content/
+— 1,118 tokens across 134 files — deliberately excluding `src/` (synthetic schema
+fixtures), `scripts/` (the string `"e.g. 3-06"` inside an error message) and `docs/` (the
+approved spec, which is a record of what was agreed and is amended rather than rewritten).
+Nothing published moved: no `3-xx` id appears in `course.json`.
 
 ### What blocks the rest, precisely
 
@@ -94,16 +101,47 @@ phase entry — in that order, and there is a test enforcing it.
 - **`taught_in` is now reconciled and enforced.** 32 of 59 rule notes disagreed with the
   lesson that teaches them; all were rewritten from the lesson's own `teaches[]`, and the
   gate now rejects any future drift. *(Resolved 2026-08-10.)*
-- **18 rules are taught by no lesson's `teaches[]`.** They are covered inside broader
-  lessons but never named, so their `taught_in` is a guess the gate cannot check:
-  `ghunnah-sifah` · `qalqalah-sifah` · `idhlaq` · `ismat` · `inhiraf` · `istitalah` ·
-  `leen` · `safir` · `tafashshi` · `takrir` · `madd_badal` · `madd_iwad` · `madd_silah` ·
-  `madd_leen` · `madd_tamkeen` · `madd_farq` · `sakt` · `hafs_special_words`.
-  Mostly the unopposed ṣifāt (which `3-02`/`3-03` cover as a group) and the secondary madd
-  types (`3-28`/`3-32`). **Decide per rule at review time:** either add it to the relevant
-  lesson's `teaches[]`, or accept that it is reference material rather than taught content.
+- ~~**18 rules are taught by no lesson's `teaches[]`.**~~ **Resolved 2026-08-11 — and the
+  assumption recorded here was false.** This entry used to say those rules were "covered
+  inside broader lessons but never named, mostly the unopposed ṣifāt, which `3-02`/`3-03`
+  cover as a group." **They do not cover them.** Grepping both lesson bodies found no
+  mention of the fifth opposite pair or of any unopposed ṣifah — not in a heading, a drill,
+  or an aside. All 18 `taught_in` values pointed at a lesson that did not teach the rule.
+  What was filed as metadata drift was a **curriculum gap**. See the resolution below.
 - **The hifz lesson→surah mapping in `phase-3-tajweed.md` §2.2 was built for 26 lessons.**
-  Unit 3 now has 36. It must be regenerated, not copied.
+  Unit 3 now has **37**. It must be regenerated, not copied.
+
+## Rule-note review — 2026-08-11
+
+Reviewing the 59 draft rule notes started with a mechanical sweep of their frontmatter. Two
+structural facts came out clean and are worth recording as verified:
+
+| Date | What | Method | Result |
+|---|---|---|---|
+| 2026-08-11 | cpfair key coverage | every `cpfair_key` in the 59 rule notes diffed against `CPFAIR_KEYS` both ways | **18/18 claimed, 0 bogus.** No rule note invents a key, no dataset key is unowned |
+| 2026-08-11 | ṣifah set partitions | counted the letters in each opposed pair | Every pair sums to **29**, the course's letter inventory: istiʿlāʾ 7 + istifāl 22, iṭbāq 4 + infitāḥ 25, hams 10 + jahr 19, shiddah 8 + rakhāwah 16 + tawassuṭ 5, idhlāq 6 + iṣmāt 23 |
+| 2026-08-11 | noon quartet partitions | counted the letters of the four noon-sākinah rules | iẓhār 6 + idghām 4 + idghām bilā ghunnah 2 + iqlāb 1 + ikhfāʾ 15 = **28 exactly**, no letter in two rules and none missing |
+| 2026-08-11 | dangling back-references | every wikilinked rule followed by "from N-NN" in a lesson body, checked against that lesson's `teaches[]` and body | **One found.** `3-33` told the student that sakt came "from 3-24", twice; `3-24` contained no mention of sakt. Fixed by teaching it — see below |
+| 2026-08-11 | lesson heading vs id | every `# Lesson N` compared numerically to its frontmatter `id` | **10 mismatches.** The Unit 3 renumber matched the hyphenated `3-27`; these were written `Lesson 3.27` and survived it, leaving files whose heading and id named different lessons. Now a gate check |
+
+### How the 18 were resolved
+
+| Verdict | Rules | Action |
+|---|---|---|
+| **Genuinely taught, only undeclared** | `istitalah` (3-08) · `leen` (2-08) · `madd_leen` (3-31) · `madd_iwad` (3-35) | Added to the lesson's `teaches[]`. Each was already an objective, a drill or a table row |
+| **Not taught anywhere — new lesson** | `idhlaq` · `ismat` · `safir` · `inhiraf` · `takrir` · `tafashshi` · `qalqalah-sifah` · `ghunnah-sifah` | **New lesson `3-04`.** Unit 3 renumbered 3-04…3-36 → 3-05…3-37 to free the slot |
+| **Not taught, and falsely back-referenced** | `sakt` | New §3 in `3-34`, taught from nothing. The "from 3-24" claim is gone |
+| **Named but deliberately not drilled** | `madd_badal` · `madd_silah` · `madd_tamkeen` · `madd_farq` | Appendix in `3-28`, with the departure from Tuhfat's farʿī list stated in the student's hearing |
+| **Orientation only** | `hafs_special_words` | New §7 in `3-36` — the four one-word-only phenomena plus the ṣād/sīn words |
+
+**Result: all 59 rules are claimed by a lesson, and no `taught_in` points at a lesson that
+does not teach it.** Both conditions are now checked.
+
+> **The methodological point, and it is the same one this log recorded on 2026-08-10.** The
+> false entry above was not a research failure — it was an *inference* about what the lessons
+> contained, written down next to verified facts and then read later as though it were one.
+> A summary of a source is not the source, and that includes summaries of your own work.
+> Every claim in the resolution table above came from grepping the lesson bodies.
 ## Unit 2 scope reconciliation — 2026-08-10
 
 Checked against Phase 1 as shipped at commit `c385ad0` (15 lessons; Unit 1.4 =
