@@ -8,9 +8,23 @@ describe("all real content validates", () => {
   test("every lesson file parses and ids match filenames", () => {
     for (const id of allLessonIds()) expect(loadLesson(id).id).toBe(id);
   });
-  test("every authored lesson file is listed in the course map", () => {
+  test("every authored lesson file is listed in the course map, unless it is a draft", () => {
+    // The point of this test is to catch a lesson that was written and then
+    // forgotten. A lesson marked `draft: true` is deliberately not in the map
+    // yet — it has been authored but not reviewed, so the student cannot reach
+    // it. Without that distinction, authoring and publishing are the same act.
     const mapped = new Set(loadCourse().phases.flatMap((p) => p.lessons.map((l) => l.id)));
-    for (const id of allLessonIds()) expect(mapped.has(id), `content/lessons/${id}.json missing from course.json`).toBe(true);
+    for (const id of allLessonIds()) {
+      if (loadLesson(id).draft) continue;
+      expect(mapped.has(id), `content/lessons/${id}.json missing from course.json`).toBe(true);
+    }
+  });
+  test("no lesson in the course map is still marked draft", () => {
+    // The inverse guard. Publishing means clearing `draft` AND adding the map
+    // entry; this catches doing only the second half.
+    const mapped = loadCourse().phases.flatMap((p) => p.lessons.map((l) => l.id));
+    for (const id of mapped)
+      expect(loadLesson(id).draft ?? false, `${id} is in course.json but still marked draft`).toBe(false);
   });
   test("every checkpoint file parses", () => {
     for (const id of allCheckpointIds()) expect(loadCheckpoint(id).id).toBe(id);
