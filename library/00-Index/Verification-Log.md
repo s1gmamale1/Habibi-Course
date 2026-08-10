@@ -32,6 +32,14 @@ and recorded that here.
 | 2026-08-10 | Quranly colour palette | direct observation of the app rendering al-Isrāʾ 17:1 | owner | **Family B.** Red = qalqalah (بْ in سُبْحَٰنَ and بِعَبْدِهِ, قْ in ٱلْأَقْصَا), blue = madd (ٱلَّذِىٓ, ءَايَٰتِنَآ), green = idghām maʿal ghunnah (لَيْلًا مِّنَ). **Contradicts Dar al-Maʿrifah, where red = madd** |
 | 2026-08-10 | Uzbek series length | re-scraped the playlist | agent | **82 lessons, gap-free.** `docs/research/uzbek-channel.md`'s claim of 83 is wrong |
 | 2026-08-10 | Qalqalah letter split | قطب جد against the two letter-note batches | agent | Corrected an error in the dispatch brief: ج was assigned to the wrong batch |
+| 2026-08-10 | The 5 rā' isti'lā exception words | pinned corpus | agent + lead | **Resolved.** `phase-3-tajweed.md:18` asked for these to be "verified against Tanzil before use" and `:715` listed them without refs. Now pinned and verified: قِرْطَاسٍ **6:7** · إِرْصَادًا **9:107** · فِرْقَةٍ **9:122** · مِرْصَادًا **78:21** · لَبِٱلْمِرْصَادِ **89:14**. See [[Ra-Tafkhim]] |
+
+> **A caution recorded from tonight.** An early research agent's *summary* of
+> `phase-3-tajweed.md` attributed ayah refs (9:47, 9:25) to that document which do not
+> appear anywhere in it. The refs were plausible and wrong. Nothing downstream was
+> affected — the gate rejects unverifiable examples, and the rā' agent independently
+> found the correct ones — but it is a reminder that **a summary of a source is not the
+> source.** Prefer `grep` on the file over an agent's recollection of it.
 
 ## Open — a script cannot settle these
 
