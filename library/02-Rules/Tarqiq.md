@@ -7,7 +7,7 @@ english: Lightness (thinning)
 family: tafkhim-tarqiq
 taught_in: "3-07"
 prerequisites: [tafkhim]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "110:3"

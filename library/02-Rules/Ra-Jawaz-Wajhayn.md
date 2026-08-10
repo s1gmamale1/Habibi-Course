@@ -7,7 +7,7 @@ english: Rā' where both readings are permitted
 family: ra
 taught_in: "3-11"
 prerequisites: [ra_tafkhim, ra_tarqiq]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "26:63"

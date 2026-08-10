@@ -7,7 +7,7 @@ english: The lām of the Divine Name
 family: lam
 taught_in: "3-12"
 prerequisites: [tafkhim, tarqiq]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "112:1"
