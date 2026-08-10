@@ -11,7 +11,7 @@ harakat: 4
 harakat_options: [2, 4, 6]
 taught_in: "3-31"
 prerequisites: [madd_tabii, waqf_types]
-status: draft
+status: verified
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "1:2"

@@ -8,7 +8,7 @@ family: sifat
 letters: [و, ي]
 taught_in: "2-08"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "106:4"
