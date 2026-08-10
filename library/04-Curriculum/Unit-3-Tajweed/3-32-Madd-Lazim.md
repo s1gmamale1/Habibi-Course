@@ -42,7 +42,7 @@ examples:
     note: "the ʿayn again — 4 or 6, not the flat 6 of its neighbours"
 ---
 
-# Lesson 3.31 — Madd Lāzim and Its Four Subtypes
+# Lesson 3-32 — Madd Lāzim and Its Four Subtypes
 
 > **The last new madd rule in the course.** After today she has all five, and 3-33 assembles
 > them. Budget the full session: the subtypes are more taxonomy than any single earlier lesson.

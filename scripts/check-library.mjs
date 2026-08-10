@@ -73,6 +73,25 @@ export function checkVault(dir, corpus) {
           errors.push(`${rel}: prerequisite "${ref}" must be a zero-padded lesson id`);
         }
       }
+
+      // The visible "# Lesson N — ..." heading must name the same lesson as the
+      // frontmatter id. Inserting a lesson means renumbering the ones after it,
+      // and a renumber only matches the pattern it was written for. When Unit 3
+      // shifted to free 3-04, ten headings written "Lesson 3.27" survived a pass
+      // that only matched the hyphenated "3-27", leaving files whose id and
+      // heading named different lessons. Nothing else in the vault caught it.
+      //
+      // Compared by NUMBER, not by string: "2.8" and "2-08" are the same lesson
+      // written two ways, and both spellings are in use. Only a genuine
+      // disagreement — 3.27 against 3-28 — is an error.
+      const h1 = body.match(/^#\s+Lesson\s+(\d+)[-.](\d+)/m);
+      if (h1) {
+        const [, phase, num] = h1;
+        const [idPhase, idNum] = data.id.split("-");
+        if (Number(phase) !== Number(idPhase) || Number(num) !== Number(idNum)) {
+          errors.push(`${rel}: heading says "Lesson ${phase}.${num}" but id is "${data.id}"`);
+        }
+      }
     }
 
     for (const ex of data.examples ?? []) {

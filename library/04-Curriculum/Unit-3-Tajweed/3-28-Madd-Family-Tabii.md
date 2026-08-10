@@ -30,7 +30,7 @@ examples:
     note: "madd ṭabīʿī ḥarfī — both letter-names end in a 2-count madd"
 ---
 
-# Lesson 3.27 — The Madd Family, and Madd Ṭabīʿī
+# Lesson 3-28 — The Madd Family, and Madd Ṭabīʿī
 
 > **Opening lesson of Unit 3.6.** Six lessons: five rules and a capstone. This one lays the
 > measuring stick that the other five are measured against, so do not rush it because the

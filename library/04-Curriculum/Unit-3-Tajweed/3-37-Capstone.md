@@ -42,7 +42,7 @@ examples:
     note: "shaddah, munfaṣil, and a surah from the earlier hifz block"
 ---
 
-# Lesson 3.36 — Capstone: All Families, All Colours, Mock Oral Quiz
+# Lesson 3-37 — Capstone: All Families, All Colours, Mock Oral Quiz
 
 > **The last lesson of Unit 3.** Nothing new is taught. This session exists to find out what she
 > actually holds, one week before the Final Checkpoint does it for real — and to make sure that
