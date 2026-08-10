@@ -28,6 +28,32 @@ describe("pickDecoys", () => {
   });
 });
 
+describe("useBuildPuzzle with hamza carriers", () => {
+  // The whole point of the baseLetters → displayLetters switch: a word written
+  // with أ must be built from a أ tile, not a plain ا. Without this test a
+  // straight revert to baseLetters passes the entire suite silently.
+  const ard: WordEntry = { arabic: "أَرْض", translit: "arḍ", meaning: "earth" };
+  const bab: WordEntry = { arabic: "بَاب", translit: "bāb", meaning: "door" };
+
+  test("slots and bank use the letter as written, not the folded base", () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const { result } = renderHook(() => useBuildPuzzle([ard, bab], 0));
+    expect(result.current.letters).toEqual(["أ", "ر", "ض"]);
+    expect(result.current.letters).not.toContain("ا");
+    expect(result.current.bank).toContain("أ");
+  });
+
+  test("a carrier word still solves", () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const { result } = renderHook(() => useBuildPuzzle([ard], 0));
+    const bank = result.current.bank!;
+    for (const expected of result.current.letters) {
+      act(() => result.current.placeFromBank(bank.indexOf(expected)));
+    }
+    expect(result.current.solved).toBe(true);
+  });
+});
+
 describe("useBuildPuzzle", () => {
   test("bank holds the word's letters plus decoys, shuffled; slots start empty", () => {
     vi.spyOn(Math, "random").mockReturnValue(0);
