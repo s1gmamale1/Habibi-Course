@@ -32,6 +32,7 @@ and recorded that here.
 | 2026-08-10 | Quranly colour palette | direct observation of the app rendering al-Isrāʾ 17:1 | owner | **Family B.** Red = qalqalah (بْ in سُبْحَٰنَ and بِعَبْدِهِ, قْ in ٱلْأَقْصَا), blue = madd (ٱلَّذِىٓ, ءَايَٰتِنَآ), green = idghām maʿal ghunnah (لَيْلًا مِّنَ). **Contradicts Dar al-Maʿrifah, where red = madd** |
 | 2026-08-10 | Uzbek series length | re-scraped the playlist | agent | **82 lessons, gap-free.** `docs/research/uzbek-channel.md`'s claim of 83 is wrong |
 | 2026-08-10 | Qalqalah letter split | قطب جد against the two letter-note batches | agent | Corrected an error in the dispatch brief: ج was assigned to the wrong batch |
+| 2026-08-10 | **Arabic shaping across coloured spans** | live render in Chrome, lessons `3-01` and `3-03` | lead | **PASSES.** al-Fātiḥa 1:2 and 1:7 render fully joined with rule spans applied. `ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ` keeps its lām-alif ligature and holds ض+shadda / آ maddah / لّ+shadda together with a `madd_6` span sitting on top. 7 spans, 5 rules, `whitespaceBetweenSpans: false` in the real DOM. Isolate mode dims correctly without breaking joining. **Safari still untested** |
 | 2026-08-10 | The 5 rā' isti'lā exception words | pinned corpus | agent + lead | **Resolved.** `phase-3-tajweed.md:18` asked for these to be "verified against Tanzil before use" and `:715` listed them without refs. Now pinned and verified: قِرْطَاسٍ **6:7** · إِرْصَادًا **9:107** · فِرْقَةٍ **9:122** · مِرْصَادًا **78:21** · لَبِٱلْمِرْصَادِ **89:14**. See [[Ra-Tafkhim]] |
 | 2026-08-10 | Which rules lack an in-hifz-set example | counted every annotation in surahs 1 + 105–114 | lead | **Corrected a standing assumption.** Only **iqlāb (0)** and **idghām mutaqāribayn (0)** genuinely lack one. **[[Idgham-Shafawi]] has 2**, both in Quraysh 106:4, so it does *not* need the "outside your memorized surahs" label. [[Ikhfa-Shafawi]] has 1 (105:4), idghām mutajānisayn 1 (109:4), [[Madd-Lazim]] 1 (1:7) |
 
@@ -82,9 +83,10 @@ and recorded that here.
 3. **`GamePanel` still holds its hardcoded tab array.** `GameRegistry` exists and is tested;
    swapping the literal for `getGames(lesson.games)` is a few lines, deliberately left
    undone for the same concurrency reason.
-4. **Arabic shaping is unverified in a browser.** jsdom does not shape text. The tests prove
-   the markup emits no whitespace between spans and reproduces each ayah verbatim, but
-   whether ٱللَّهِ stays visually joined needs real Safari and Chrome.
+4. **Arabic shaping — verified in Chrome, still unverified in Safari.** jsdom does not shape
+   text, so this needed a real browser. Chrome renders correctly (see the human-verified
+   table above). Safari uses a different engine and remains untested; check it before any
+   public launch.
 
 ## Carried forward
 
