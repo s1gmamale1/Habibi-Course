@@ -7,7 +7,7 @@ english: Lunar lām
 family: lam
 taught_in: "3-13"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "1:2"

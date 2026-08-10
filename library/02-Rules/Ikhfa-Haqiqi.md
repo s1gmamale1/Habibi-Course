@@ -11,7 +11,7 @@ harakat: 2
 letters: [ص, ذ, ث, ك, ج, ش, ق, س, د, ط, ز, ف, ت, ض, ظ]
 taught_in: "3-24"
 prerequisites: [ghunnah]
-status: draft
+status: verified
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "106:4"
