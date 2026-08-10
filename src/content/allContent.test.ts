@@ -49,6 +49,19 @@ describe("all real content validates", () => {
           expect(cell.name, `${id}: drill cell ${cell.arabic} has a visible name caption`).toBeUndefined();
     }
   });
+  test("every course-map checkpoint id has a content file", () => {
+    // Publishing a phase links the student to /checkpoint/<id> from the progress
+    // page. `generateStaticParams` enumerates checkpoint FILES, so a phase naming
+    // a checkpoint that does not exist builds clean and ships a dead link — the
+    // build cannot fail on a route it was never asked to generate. Nothing else
+    // here checks the course map's half of that pair.
+    const have = new Set(allCheckpointIds());
+    for (const phase of loadCourse().phases)
+      expect(
+        have.has(phase.checkpoint.id),
+        `phase ${phase.number} points at missing content/checkpoints/${phase.checkpoint.id}.json`,
+      ).toBe(true);
+  });
   test("every course-map lesson id has a content file", () => {
     const have = new Set(allLessonIds());
     for (const phase of loadCourse().phases)

@@ -5,23 +5,166 @@
       "number": 1,
       "title": "Letters & Sounds",
       "lessons": [
-        {"id": "1-01", "title": "Orientation + Alif & the ب ت ث family", "calendarSlot": "Week 1 — Mon"},
-        {"id": "1-02", "title": "The throat-and-dot family: ج ح خ / د ذ", "calendarSlot": "Week 1 — Wed"},
-        {"id": "1-03", "title": "ر ز and the sibilants س ش", "calendarSlot": "Week 1 — Sat"},
-        {"id": "1-04", "title": "The heavy four: ص ض ط ظ", "calendarSlot": "Week 2 — Mon"},
-        {"id": "1-05", "title": "Deep throat & back-of-tongue: ع غ ف ق", "calendarSlot": "Week 2 — Wed"},
-        {"id": "1-06", "title": "The rest of the alphabet + full 28-letter review: ك ل م ن ه و ي", "calendarSlot": "Week 2 — Sat"},
-        {"id": "1-07", "title": "Letters change shape: initial / medial / final / isolated forms", "calendarSlot": "Week 3 — Mon"},
-        {"id": "1-08", "title": "The 6 letters that never connect forward: ا د ذ ر ز و", "calendarSlot": "Week 3 — Wed"},
-        {"id": "1-09", "title": "Reading connected clusters — full joining review", "calendarSlot": "Week 3 — Sat"},
-        {"id": "1-10", "title": "Fatha: the \"a\" sound, full letter × fatha grid", "calendarSlot": "Week 4 — Mon"},
-        {"id": "1-11", "title": "Kasra & Damma: full letter × kasra and letter × damma grids", "calendarSlot": "Week 4 — Wed"},
-        {"id": "1-12", "title": "Full mixed grid + 2–3 syllable combinations + checkpoint dry run", "calendarSlot": "Week 4 — Sat"},
-        {"id": "1-13", "title": "Sukūn & hamza + reading words with ع and ح", "calendarSlot": "Week 5 — Mon"},
-        {"id": "1-14", "title": "The heavy letters inside words: ص ض ط ظ", "calendarSlot": "Week 5 — Wed"},
-        {"id": "1-15", "title": "Mixed hard-letter words & cold reading", "calendarSlot": "Week 5 — Sat"}
+        {
+          "id": "1-01",
+          "title": "Orientation + Alif & the ب ت ث family",
+          "calendarSlot": "Week 1 — Mon"
+        },
+        {
+          "id": "1-02",
+          "title": "The throat-and-dot family: ج ح خ / د ذ",
+          "calendarSlot": "Week 1 — Wed"
+        },
+        {
+          "id": "1-03",
+          "title": "ر ز and the sibilants س ش",
+          "calendarSlot": "Week 1 — Sat"
+        },
+        {
+          "id": "1-04",
+          "title": "The heavy four: ص ض ط ظ",
+          "calendarSlot": "Week 2 — Mon"
+        },
+        {
+          "id": "1-05",
+          "title": "Deep throat & back-of-tongue: ع غ ف ق",
+          "calendarSlot": "Week 2 — Wed"
+        },
+        {
+          "id": "1-06",
+          "title": "The rest of the alphabet + full 28-letter review: ك ل م ن ه و ي",
+          "calendarSlot": "Week 2 — Sat"
+        },
+        {
+          "id": "1-07",
+          "title": "Letters change shape: initial / medial / final / isolated forms",
+          "calendarSlot": "Week 3 — Mon"
+        },
+        {
+          "id": "1-08",
+          "title": "The 6 letters that never connect forward: ا د ذ ر ز و",
+          "calendarSlot": "Week 3 — Wed"
+        },
+        {
+          "id": "1-09",
+          "title": "Reading connected clusters — full joining review",
+          "calendarSlot": "Week 3 — Sat"
+        },
+        {
+          "id": "1-10",
+          "title": "Fatha: the \"a\" sound, full letter × fatha grid",
+          "calendarSlot": "Week 4 — Mon"
+        },
+        {
+          "id": "1-11",
+          "title": "Kasra & Damma: full letter × kasra and letter × damma grids",
+          "calendarSlot": "Week 4 — Wed"
+        },
+        {
+          "id": "1-12",
+          "title": "Full mixed grid + 2–3 syllable combinations + checkpoint dry run",
+          "calendarSlot": "Week 4 — Sat"
+        },
+        {
+          "id": "1-13",
+          "title": "Sukūn & hamza + reading words with ع and ح",
+          "calendarSlot": "Week 5 — Mon"
+        },
+        {
+          "id": "1-14",
+          "title": "The heavy letters inside words: ص ض ط ظ",
+          "calendarSlot": "Week 5 — Wed"
+        },
+        {
+          "id": "1-15",
+          "title": "Mixed hard-letter words & cold reading",
+          "calendarSlot": "Week 5 — Sat"
+        }
       ],
-      "checkpoint": {"id": "checkpoint-1", "title": "Checkpoint 1 — Letters & Sounds gate"}
+      "checkpoint": {
+        "id": "checkpoint-1",
+        "title": "Checkpoint 1 — Letters & Sounds gate"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Reading Mechanics",
+      "lessons": [
+        {
+          "id": "2-01",
+          "title": "Tanwīn — the three nunation marks",
+          "calendarSlot": "Week 6 — Mon"
+        },
+        {
+          "id": "2-02",
+          "title": "Tanwīn in real reading — continuing and stopping",
+          "calendarSlot": "Week 6 — Wed"
+        },
+        {
+          "id": "2-03",
+          "title": "Sukūn I — harder clusters",
+          "calendarSlot": "Week 6 — Sat"
+        },
+        {
+          "id": "2-04",
+          "title": "Sukūn II — two sukūns colliding, and the bouncing letters",
+          "calendarSlot": "Week 7 — Mon"
+        },
+        {
+          "id": "2-05",
+          "title": "Shadda — the doubling mark",
+          "calendarSlot": "Week 7 — Wed"
+        },
+        {
+          "id": "2-06",
+          "title": "Shadda in words — sun and moon lām",
+          "calendarSlot": "Week 7 — Sat"
+        },
+        {
+          "id": "2-07",
+          "title": "The three madd letters ا و ي",
+          "calendarSlot": "Week 8 — Mon"
+        },
+        {
+          "id": "2-08",
+          "title": "Madd meets shadda & sukūn; the leen letters",
+          "calendarSlot": "Week 8 — Wed"
+        },
+        {
+          "id": "2-09",
+          "title": "Hamzat al-waṣl in full",
+          "calendarSlot": "Week 8 — Sat"
+        },
+        {
+          "id": "2-10",
+          "title": "Real words",
+          "calendarSlot": "Week 9 — Mon"
+        },
+        {
+          "id": "2-11",
+          "title": "Phrases",
+          "calendarSlot": "Week 9 — Wed"
+        },
+        {
+          "id": "2-12",
+          "title": "Fully-voweled sentences I — and how to stop",
+          "calendarSlot": "Week 9 — Sat"
+        },
+        {
+          "id": "2-13",
+          "title": "Fully-voweled sentences II — fluency, and stopping drilled",
+          "calendarSlot": "Week 10 — Mon"
+        },
+        {
+          "id": "2-14",
+          "title": "First muṣḥaf page",
+          "calendarSlot": "Week 10 — Wed"
+        }
+      ],
+      "checkpoint": {
+        "id": "checkpoint-2",
+        "title": "Checkpoint 2 — Reading Mechanics gate"
+      }
     }
   ]
 }
