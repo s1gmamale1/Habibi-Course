@@ -33,6 +33,12 @@ and recorded that here.
 | 2026-08-10 | Uzbek series length | re-scraped the playlist | agent | **82 lessons, gap-free.** `docs/research/uzbek-channel.md`'s claim of 83 is wrong |
 | 2026-08-10 | Qalqalah letter split | قطب جد against the two letter-note batches | agent | Corrected an error in the dispatch brief: ج was assigned to the wrong batch |
 | 2026-08-10 | The 5 rā' isti'lā exception words | pinned corpus | agent + lead | **Resolved.** `phase-3-tajweed.md:18` asked for these to be "verified against Tanzil before use" and `:715` listed them without refs. Now pinned and verified: قِرْطَاسٍ **6:7** · إِرْصَادًا **9:107** · فِرْقَةٍ **9:122** · مِرْصَادًا **78:21** · لَبِٱلْمِرْصَادِ **89:14**. See [[Ra-Tafkhim]] |
+| 2026-08-10 | Which rules lack an in-hifz-set example | counted every annotation in surahs 1 + 105–114 | lead | **Corrected a standing assumption.** Only **iqlāb (0)** and **idghām mutaqāribayn (0)** genuinely lack one. **[[Idgham-Shafawi]] has 2**, both in Quraysh 106:4, so it does *not* need the "outside your memorized surahs" label. [[Ikhfa-Shafawi]] has 1 (105:4), idghām mutajānisayn 1 (109:4), [[Madd-Lazim]] 1 (1:7) |
+
+> **Quraysh 106:4 is the single best teaching ayah in the course.** It carries **four rules
+> in one line** — two idghām shafawī (أَطْعَمَهُم مِّن، وَءَامَنَهُم مِّنْ), one ikhfāʾ
+> (مِّن جُوعٍ, ج), one iẓhār (مِّنْ خَوْفٍ, خ). It exercises the entire meem trio and the noon
+> quartet simultaneously, and it is inside her memorised surahs.
 
 > **A caution recorded from tonight.** An early research agent's *summary* of
 > `phase-3-tajweed.md` attributed ayah refs (9:47, 9:25) to that document which do not
