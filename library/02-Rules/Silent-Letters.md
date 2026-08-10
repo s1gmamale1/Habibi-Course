@@ -9,7 +9,7 @@ cpfair_key: silent
 colour_b: "#AAAAAA"
 taught_in: "3-36"
 prerequisites: [hamzat_wasl]
-status: draft
+status: needs-review
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "18:39"
@@ -40,6 +40,16 @@ examples:
 Some letters are **written but not recited**. In the Uthmānī orthography this is
 never an error or an archaism to be ignored — the mushaf marks each case
 explicitly, and the mark tells you *when* the letter is silent.
+
+> ### ⚠ Status: needs-review — the cited source covers only one of the three
+>
+> This note's `sources` field names [[Muqaddimah-Jazariyyah]]. That matn supports
+> **§1 only**: hamzat al-waṣl, treated at its v. 101–103. The two zeros in §2 and
+> §3 are **not in it** — الصفر, المستدير and المستطيل do not occur anywhere in the
+> text. They are a convention of modern Uthmānī *printing*, not a ruling from the
+> matn, and **no vendored source in this vault covers them.** The content is
+> standard and is not in doubt; what is missing is a citation that supports it.
+> *(Found 2026-08-11.)*
 
 ## The three sources of silence
 

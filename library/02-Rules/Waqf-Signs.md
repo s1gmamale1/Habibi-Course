@@ -26,7 +26,18 @@ examples:
 
 # Waqf Signs — رموز الأوقاف
 
-> ### ⚠ Status: needs-review — the sign set depends on which mushaf you hold
+> ### ⚠ Status: needs-review — two separate reasons
+>
+> **1. This note has no vendored source.** Its `sources` field names
+> [[Muqaddimah-Jazariyyah]], but that matn does not contain these signs — not
+> one of م، لا، ج، صلى، قلى، س appears anywhere in it, and it could not: Ibn
+> al-Jazarī died in 833 AH, roughly five centuries before the sign set below
+> was devised. Jazariyyah ch. 13 supplies the *types* of waqf, which is
+> [[Waqf-Types]], a different note. **The citation is retained only because the
+> chapter is genuinely adjacent; it does not support the sign table.** A real
+> source for the signs is not in this vault. *(Found 2026-08-11.)*
+>
+> **2. The sign set depends on which mushaf you hold.**
 >
 > **The waqf signs are not part of the revealed text.** They are a later
 > scholarly aid, chiefly the work of Shaykh Muḥammad ibn ʿAlī Khalaf
