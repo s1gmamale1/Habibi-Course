@@ -8,7 +8,7 @@ family: waqf
 taught_in: "3-34"
 prerequisites: [waqf_types]
 status: needs-review
-sources: ["[[Muqaddimah-Jazariyyah]]"]
+sources: ["[[Muqaddimah-Jazariyyah]]", "[[Sajawandi-Waqf]]"]
 examples:
   - ref: "6:36"
     text: "يَسْمَعُونَ وَٱلْمَوْتَىٰ"
@@ -26,23 +26,28 @@ examples:
 
 # Waqf Signs — رموز الأوقاف
 
-> ### ⚠ Status: needs-review — two separate reasons
+> ### ⚠ Status: needs-review — the set here is a printing tradition, not the original
 >
-> **1. This note has no vendored source.** Its `sources` field names
-> [[Muqaddimah-Jazariyyah]], but that matn does not contain these signs — not
-> one of م، لا، ج، صلى، قلى، س appears anywhere in it, and it could not: Ibn
-> al-Jazarī died in 833 AH, roughly five centuries before the sign set below
-> was devised. Jazariyyah ch. 13 supplies the *types* of waqf, which is
-> [[Waqf-Types]], a different note. **The citation is retained only because the
-> chapter is genuinely adjacent; it does not support the sign table.** A real
-> source for the signs is not in this vault. *(Found 2026-08-11.)*
+> **The signs originate with [[Sajawandi-Waqf|as-Sajāwandī]], d. 560 AH**, in his
+> *Kitāb al-Waqf wa'l-Ibtidāʾ*. He assigned a letter to each degree of stopping:
+> **م** lāzim · **ط** muṭlaq · **ج** jāʾiz · **ز** mujawwaz · **ص** murakhkhaṣ ·
+> **لا** no stop.
 >
-> **2. The sign set depends on which mushaf you hold.**
+> **Two corrections to what this note used to say.** It attributed the set
+> "chiefly" to a scholar who died in **1357 AH**, and reasoned from that to the
+> claim that the signs postdate Ibn al-Jazarī by five centuries. **Both are
+> wrong.** Al-Sajāwandī predates Ibn al-Jazarī (d. 833 AH) by **273 years** — the
+> sign system is *older* than al-Jazariyyah, not newer. The 1357 AH figure appears
+> to belong to **al-Ḥaddād al-Ḥusaynī** (1865–1939 CE), who wrote out the 1924
+> Cairo muṣḥaf and standardised modern printed usage but devised nothing.
+> *(Corrected 2026-08-11.)*
 >
-> **The waqf signs are not part of the revealed text.** They are a later
-> scholarly aid, chiefly the work of Shaykh Muḥammad ibn ʿAlī Khalaf
-> al-Ḥusaynī "al-Hamadhānī" (d. 1357 AH), and **different printing traditions
-> use different sets**:
+> **What remains unverified** is the set taught below. Its صلى and قلى are **not**
+> al-Sajāwandī's; the Madinah muṣḥaf's marks were set by a review committee for
+> that muṣḥaf. No source in this vault documents that committee's decisions.
+>
+> **The waqf signs are not part of the revealed text**, and **different printing
+> traditions use different sets**:
 >
 > | Tradition | Character of the set |
 > |---|---|
