@@ -100,7 +100,7 @@ phase entry — in that order, and there is a test enforcing it.
   `leen` · `safir` · `tafashshi` · `takrir` · `madd_badal` · `madd_iwad` · `madd_silah` ·
   `madd_leen` · `madd_tamkeen` · `madd_farq` · `sakt` · `hafs_special_words`.
   Mostly the unopposed ṣifāt (which `3-02`/`3-03` cover as a group) and the secondary madd
-  types (`3-27`/`3-31`). **Decide per rule at review time:** either add it to the relevant
+  types (`3-28`/`3-32`). **Decide per rule at review time:** either add it to the relevant
   lesson's `teaches[]`, or accept that it is reference material rather than taught content.
 - **The hifz lesson→surah mapping in `phase-3-tajweed.md` §2.2 was built for 26 lessons.**
   Unit 3 now has 36. It must be regenerated, not copied.

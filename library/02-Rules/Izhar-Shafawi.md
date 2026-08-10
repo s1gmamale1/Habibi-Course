@@ -7,7 +7,7 @@ english: Labial Clarification — close the lips and say the meem
 family: meem-sakinah
 harakat: 0
 letters: [ء, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, ن, ه, و, ي]
-taught_in: "3-17"
+taught_in: "3-18"
 prerequisites: [ghunnah]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

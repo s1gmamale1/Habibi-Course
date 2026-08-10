@@ -9,7 +9,7 @@ cpfair_key: idghaam_no_ghunnah
 colour_b: "#169200"
 harakat: 0
 letters: [ل, ر]
-taught_in: "3-21"
+taught_in: "3-22"
 prerequisites: [ghunnah, idgham_maal_ghunnah]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

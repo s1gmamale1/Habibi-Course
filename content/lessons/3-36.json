@@ -3,271 +3,280 @@
   "phase": 3,
   "draft": true,
   "unit": "3.7",
-  "title": "Capstone — all families, all colours, mock oral quiz",
+  "title": "Hamzat al-waṣl in full, silent letters, and how to read any legend",
   "objectives": [
-    "Student can identify every rule she has been taught, by family, on unseen text.",
-    "Student can read a coloured page in a palette she has not used, having read its legend first.",
-    "Student can recite all eleven hifz items — al-Fātiḥa and 114 down to 105 — unaided, in reverse muṣḥaf order.",
-    "Student and teacher both know, in writing, which items will be flagged at the Final Checkpoint and what the fortnight before it is for."
+    "Student can start on any word beginning with ٱ and produce the correct vowel from the verb, noun or particle branch rather than from memory.",
+    "Student never pronounces a waṣl hamzah when joining.",
+    "Student can read the round zero and the oval zero and say what each does at a join and at a stop.",
+    "Student can pick up any coloured muṣḥaf or app, find its legend, and read it — rather than assuming a palette she has memorised."
   ],
   "prerequisites": [
-    "3-32",
-    "3-35"
+    "3-35",
+    "2-09"
   ],
-  "stage": "Capstone",
+  "stage": "Waqf",
   "slides": [
     {
       "kind": "title",
-      "heading": "Lesson 3.36 — Capstone: all families, all colours, mock oral quiz",
-      "arabicDecor": "وَلَا ٱلضَّآلِّينَ"
+      "heading": "Lesson 3.35 — Hamzat al-waṣl, silent letters, and any legend",
+      "arabicDecor": "وَٱسْتَغْفِرْهُ"
     },
     {
       "kind": "concept",
-      "heading": "Nothing new is taught today",
+      "heading": "Two errors in ninety seconds, pulling opposite ways",
       "body": [
-        "This is the last lesson of Unit 3. Its whole purpose is to find out what she actually holds, one week before the Final Checkpoint finds out for real — and to make sure that what the Checkpoint finds is not a surprise to either of you.",
-        "So: no warm-up, no explanation. Hand her an unseen plain page and say \"Read.\"",
-        "Mark it silently on the Final Checkpoint's own rubric. Jali −2, khafi −1, self-correction after a prompt −1, examiner corrects −2. Log every deduction per letter and per rule, not per passage.",
-        "Then show her the sheet before you say anything about it.",
-        "\"That is exactly what happens in the Final Checkpoint, and this is exactly the sheet. The difference is that today the result is information and in two weeks it is a result. Look at the columns — that is what the next fortnight is for.\"",
-        "The corrective is the FORMAT, not any individual error. An adult learner who meets the marking sheet for the first time on the day of the exam is being examined on the sheet as well as on the recitation, and that is not what you are trying to measure."
+        "Ask her to read 110:3 joined — فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ. Most learners produce wa-istaghfirhu, with an audible bump in the middle. It is especially common with Persian, Urdu or Turkic speech habits, because the consonant cluster that results from dropping the hamzah is not one those languages permit.",
+        "The hamzah is not there when you join. Wastaghfirhu.",
+        "Now stop her and ask her to START from ٱدْخُلُوا۟ (16:32). She will almost certainly say idkhulū.",
+        "\"So one of them you are pronouncing when you shouldn't, and the other you are pronouncing wrong when you should. Both are the same letter. Today it stops being a guess.\"",
+        "Two errors, from opposite directions, on one letter, inside ninety seconds. That is the hook, and it works because it shows her the letter has a rule rather than a habit.",
+        "2-09 gave her the working version — the article starts with a fatḥah and the hamzah drops when joining — and she has been resuming from stops with it since 2-12. Today is the full branch structure, not a first pass."
       ]
     },
     {
       "kind": "concept",
-      "heading": "Rebuild the map from memory — blank sheet, five minutes",
+      "heading": "The two hamzahs",
       "body": [
-        "Before you show her anything, she writes the six families and every rule under each. From memory. No notes.",
-        "One — nūn sākinah and tanwīn: iẓhār ḥalqī, idghām bi-ghunnah, idghām bilā ghunnah, iqlāb, ikhfāʾ ḥaqīqī. Unit 3.1.",
-        "Two — mīm sākinah: iẓhār shafawī, ikhfāʾ shafawī, idghām shafawī. Unit 3.2.",
-        "Three — lām: shamsiyyah, qamariyyah, lām jalālah. Unit 3.3.",
-        "Four — rāʾ: tafkhīm, tarqīq, jawāz al-wajhayn. Unit 3.4.",
-        "Five — qalqalah: ṣughrā and kubrā. Unit 3.5.",
-        "Six — madd: ṭabīʿī, muttaṣil, munfaṣil, ʿāriḍ, lāzim. Unit 3.6. Plus waqf and ibtidāʾ from 3.7 — signs, types, word changes, hamzat al-waṣl — and the sifāt and makhārij from Phase 1, which are still live and still marked.",
-        "What is MISSING from her sheet is the fortnight's homework, and it is far more informative than anything you could think to ask her. The predictable gaps at this point are the rāʾ family — least colour support, fewest visual cues — and telling the three idghām types of family one apart."
+        "Hamzat al-qaṭʿ is written أ إ ؤ ئ ء. It is pronounced when you start on the word and pronounced when you join from the word before. Always there. أَنْعَمْتَ · إِيَّاكَ · أَحَدٌ.",
+        "Hamzat al-waṣl is written ٱ — an alif carrying a small ص, for ṣilah, connection. It is pronounced when you START on the word and dropped entirely when you JOIN. ٱلْحَمْدُ · ٱدْخُلُوا۟ · ٱبْن.",
+        "Why it exists, in one sentence: the waṣl hamzah is there to give a sākin letter something to start on. Once there is a previous word to lean on, it is not needed and it disappears.",
+        "Her own hifz supplies the cleanest cases. وَٱنْحَرْ (108:2) is wanḥar. وَٱسْتَغْفِرْهُ (110:3) is wastaghfirhu. وَٱلصَّيْفِ (106:2) is waṣ-ṣayf. Never wa-inḥar, never wa-istaghfirhu.",
+        "So the whole of the rule is two questions: am I starting here, or am I joining? And if I am starting, which vowel?"
       ]
     },
     {
-      "kind": "legend",
-      "heading": "Every family, every colour — Family B, one last time",
-      "rules": [
-        "madd_2",
-        "madd_muttasil",
-        "madd_munfasil",
-        "madd_246",
-        "madd_6",
-        "ghunnah",
-        "ikhfa",
-        "ikhfa_shafawi",
-        "idghaam_ghunnah",
-        "idghaam_no_ghunnah",
-        "idghaam_shafawi",
-        "iqlab",
-        "qalqalah",
-        "hamzat_wasl",
-        "silent",
-        "lam_shamsiyyah"
+      "kind": "rule",
+      "ruleId": "hamzat_wasl",
+      "heading": "Starting on a ٱ — three branches and nothing else",
+      "condition": "A waṣl hamzah is pronounced when you start on the word, and dropped entirely when you join from the word before. When you start, the vowel comes from the word's category: verb, noun, or particle.",
+      "body": [
+        "Verbs — أفعال. Past tense of a five- or six-letter verb: KASRAH. اِنْطَلَقَ · اِسْتَغْفَرَ. Command of a five- or six-letter verb: KASRAH. اِنْطَلِقْ · اِسْتَغْفِرْ · اِسْتَقِمْ.",
+        "Command of a THREE-letter verb: look at the third letter of its present tense. Original ḍammah → ḍammah. اُدْخُلُوا from يَدْخُلُ · اُنظُرْ from يَنظُرُ · اُعْبُدُوا from يَعْبُدُ. Fatḥah or kasrah → kasrah. اِضْرِبْ from يَضْرِبُ · اِذْهَبْ from يَذْهَبُ · اِجْعَلْ from يَجْعَلُ.",
+        "The one exception worth naming: if that ḍammah is ʿāriḍ — accidental, arising from a deleted weak letter — the start is a kasrah anyway. اِمْشُوا (38:6) · اِبْنُوا · اِقْضُوا.",
+        "Nouns — أسماء. Seven samāʿī nouns, all kasrah, and that is the entire branch.",
+        "Particles — حروف. The definite article ال always takes a FATḤAH. اَلْحَمْدُ · اَلرَّحْمَٰن · اَلنَّاس · اَلَّذِينَ. One item, no exceptions, and by far the most frequent case.",
+        "Say the arithmetic out loud: most of the time the answer is a. The branches exist for the rest."
       ]
     },
     {
       "kind": "concept",
-      "heading": "The unseen plain page — and why the total is useless",
+      "heading": "The trick that IS the verb branch — say the present tense first",
       "body": [
-        "One page. Plain Uthmānī, no colour, no annotation. She plans her stops FIRST — that is a skill this course taught and the Checkpoint assesses it, so it is not excluded here either.",
-        "Mark everything: makhraj, ṣifāt, all six families, waqf placement, ibtidāʾ, pace.",
-        "Then give her the per-column totals, not the total. A result of \"−9\" is unactionable and she can do nothing with it.",
-        "A result of \"−2 rāʾ tafkhīm (×2) · −1 madd ʿāriḍ consistency (×3) · −2 waṣl-hamzah start\" says something specific: her rāʾ rules and her stop lengths need the fortnight, and everything else is ready.",
-        "That is a revision plan rather than a score, and it costs one extra column on the sheet.",
-        "Say the difference to her out loud. A number tells her how she did; a column tells her what to do on Tuesday."
+        "This is the only part of today's material that needs to become a reflex, so drill it rather than explaining it twice.",
+        "يَدْخُلُ. What is on the khāʾ? A ḍammah. So the command starts udkhulū.",
+        "يَذْهَبُ. What is on the hāʾ? A fatḥah. So the command starts idhhab.",
+        "Have her do the lookup OUT LOUD, slowly, six or seven times, until it goes internal. She will not do it in real time at first, and the failure mode is not ignorance of the rule — it is that the lookup takes a second and she is reading at speed.",
+        "The seven nouns need no lookup because there is nothing to derive. اِسْم · اِبْن · اِبْنَة · اِمْرُؤ · اِمْرَأَة · اِثْنَان · اِثْنَتَان. All kasrah. Memorise the list.",
+        "Classical Arabic lists ten; اِسْت, اِيْمُن and اِبْنُم do not occur in the Qurʾān, so seven is the working number. Samāʿī means \"heard\" — heard, not derived, and telling her that is what stops her hunting for a rule that does not exist.",
+        "عِيسَى ٱبْنُ مَرْيَمَ (3:45) is the one to show her: joined, so the hamzah is gone; started, so it is ibnu."
       ]
     },
     {
       "kind": "concept",
-      "heading": "The coloured page — in a palette she has NOT used",
+      "heading": "When a waṣl hamzah lands on a sākin hamzah — and the loop from 3-32",
       "body": [
-        "Do not use the app she has been reading all year. The entire point of 3-35 is that she can read a palette she has not memorised.",
-        "Give her a coloured muṣḥaf or app she has not used. She finds the legend and reads it aloud. She states what RED means in THIS book. Only then does she read the page, naming each coloured span and what it demands.",
-        "If she names a colour from memory instead of from the legend, stop her mid-sentence. That is the exact failure mode 3-35 exists to prevent, and it is far better found today than in two weeks.",
-        "Score on two axes, kept apart, exactly as the Checkpoint does: IDENTIFICATION — does she know what the colour is — and EXECUTION — can she do it.",
-        "A student who names ikhfāʾ correctly and then produces a plain nūn has one problem, not two. Collapsing the two axes into one number hides which one it is, and they need opposite remedies.",
-        "This is end goal 4 being tested directly: not \"know this palette\", but knowing what each colour demands, on whatever page is in front of her."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Twenty questions — the format, and the arithmetic said first",
-      "body": [
-        "Run it in the Checkpoint's own format: binary correct or incorrect, no partial credit, pass at ninety per cent.",
-        "That means two wrong out of twenty, and she should be told the arithmetic BEFORE she starts rather than discovering it from her score.",
-        "No discussion during the quiz. Ask, record, move on. Discussion afterwards, all at once.",
-        "Give her the raw score immediately. If it is below eighteen, the fortnight has a clear job and she found that out from a number rather than from your face.",
-        "Cover all six families. The set on the next slide is workable as written and you should not improvise substitutes — the questions are chosen so that a wrong answer points at one lesson."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "The twenty questions",
-      "body": [
-        "1. What are the four rules of nūn sākinah and tanwīn? Name the fifth. 2. Which letters cause iẓhār ḥalqī? 3. What does iqlāb turn the nūn into, and how long is the ghunnah? 4. Name the three rules of mīm sākinah. 5. Which letter causes ikhfāʾ shafawī?",
-        "6. How do you tell lām shamsiyyah from lām qamariyyah WITHOUT reading it aloud? 7. When is the lām of the name of Allah heavy, and when light? 8. Name the five qalqalah letters. 9. What is the difference between qalqalah ṣughrā and kubrā? 10. When is a rāʾ light?",
-        "11. How many counts is madd ṭabīʿī? 12. Is muttaṣil wājib or jāʾiz, and why? 13. How many counts is munfaṣil in ṭarīq ash-Shāṭibiyyah, and in ṭarīq aṭ-Ṭayyibah? 14. How many counts is madd lāzim, and what is the alternative? — six, and there is none. 15. Name the two places ءَآلْـَٰٔنَ occurs.",
-        "16. What are the eight six-count letters of the muqaṭṭaʿāt? 17. What does م mean above the line, and what does لا mean? 18. What is the difference between waqf tām and waqf ḥasan? 19. What vowel do you start ٱدْخُلُوا۟ with, and how do you know? 20. What happens to a tāʾ marbūṭah when you stop on it, and to an open tāʾ?",
-        "Question 14 has a deliberate trap in it: the alternative is that there is no alternative. Madd lāzim is the only length in the whole family with no choice attached, and a student who offers \"four or six\" has not separated lāzim from ʿāriḍ.",
-        "Question 19 is 3-35's whole verb branch in one question, and question 20 is 3-34's. If either is wrong you know which lesson the fortnight revisits."
+        "A small closed set. When she STARTS on a word whose waṣl hamzah is immediately followed by a sākin hamzah, the second hamzah turns into a madd letter matching the first vowel.",
+        "ٱئْتِ (10:15) is started as إِيتِ. ٱئْتُوا۟ (20:64) is started as اِيتُوا. ٱئْذَن (9:49) is started as اِيذَن. ٱؤْتُمِنَ (2:283) is started as اُوتُمِنَ.",
+        "Four words. Show her all four, have her start on each, and move on. A closed set of four does not deserve a large share of the session.",
+        "And now the loop from 3-32 closes. ءَآلْـَٰٔنَ (10:51, 10:91) · ءَآلذَّكَرَيْنِ (6:143) · ءَآللَّهُ (27:59) — an interrogative hamzah landing on a hamzat al-waṣl. She met the first as madd lāzim kalimī mukhaffaf; today she can see the other half of why it is spelt that way. Six counts, or tas-hīl.",
+        "One minute on that. Do not re-teach it — just let her see that the two names describe one sound."
       ]
     },
     {
       "kind": "ayah",
-      "surah": 1,
-      "ayah": 7,
+      "surah": 108,
+      "ayah": 2,
       "highlight": [
-        "madd_6",
-        "lam_shamsiyyah"
+        "hamzat_wasl"
       ],
-      "translation": "The path of those upon whom You have bestowed favour, not of those who have earned Your anger, nor of those who are astray.",
+      "translation": "So pray to your Lord and sacrifice.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "The course's single hardest line, and the one to end the session on. أَنْعَمْتَ عَلَيْهِمْ gives iẓhār ḥalqī then iẓhār shafawī in three words. Then وَلَا ٱلضَّآلِّينَ: four requirements land on one word — the lām merges into the ḍād, the ḍād is heavy and long, the madd is a full six, and the doubled lām after it must still arrive doubled. It has been in front of her since 1-14. Ask for it last, and if it is right, say so."
+        "cue": "wanḥar, one word, no bump. The wāw of وَ leans straight onto the nūn and the alif you can see is not sounded at all. Then start on ٱنْحَرْ alone: now it is inḥar, kasrah, because it is a command of a three-letter verb whose present tense يَنْحَرُ has a fatḥah. The letter appears and disappears — that is the rule doing its job."
       }
     },
     {
       "kind": "ayah",
-      "surah": 112,
-      "ayah": 1,
+      "surah": 110,
+      "ayah": 3,
       "highlight": [
-        "qalqalah"
+        "hamzat_wasl"
       ],
-      "translation": "Say: He is Allah, One.",
+      "translation": "Then glorify the praise of your Lord and seek His forgiveness. Indeed, He is ever Accepting of repentance.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "Three families in four words. قُلْ هُوَ is iẓhār shafawī. ٱللَّهُ is lām jalālah, heavy after the ḍammah of هُوَ. أَحَدٌ stopped is qalqalah kubrā on the dāl, with the tanwīn simply dropping and nothing lengthening. Have her name all three before she recites it."
+        "cue": "wastaghfirhu. Run the two words together with no bump and say them as one. This is the word the lesson opened on, and it is inside a surah she already holds — so the correction is not hypothetical, it is a repair to something she recites."
       }
+    },
+    {
+      "kind": "rule",
+      "ruleId": "silent",
+      "heading": "Silent letters — three sources of silence, each one marked",
+      "condition": "A letter written but not recited. In Uthmānī orthography the muṣḥaf marks each case, and the mark tells you WHEN the letter is silent.",
+      "body": [
+        "One. Hamzat al-waṣl — silent whenever you join. Everything above. It is the most frequent silent letter in the Qurʾān.",
+        "Two. The small round zero ○ — aṣ-ṣifr al-mustadīr. NEVER pronounced, joining or stopping. Pure spelling. أُو۟لَٰٓئِكَ (2:5) is ulāʾika, and the wāw is never sounded. فَلْيَعْبُدُوا۟ (106:3) — from her own Quraysh — is fal-yaʿbudū, and the alif is never sounded.",
+        "Three. The small oval or vertical zero ٘ — aṣ-ṣifr al-mustaṭīl al-qāʾim. Silent ONLY when joining; pronounced, two counts, when stopping. سَلَٰسِلَا۟ (76:4) is salāsila joined and salāsilā stopped. ٱلظُّنُونَا۠ (33:10) is aẓ-ẓunūna joined and aẓ-ẓunūnā stopped. وَثَمُودَا۟ (53:51) the same.",
+        "أَنَا۠ — learn this one by heart. It occurs some sixty times, and once in her own hifz: وَلَآ أَنَا۠ عَابِدٌ (109:4). The final alif is written, silent when joining, two counts at a stop. A learner who reads anā in the middle of a sentence is adding a madd that is not there.",
+        "And the contrast that actually matters: a letter carrying NO mark at all is not silent. It is merged (mudgham) or hidden (mukhfā), and it is still doing acoustic work. The absence of a sukūn is itself information. Do not let \"letters can be silent\" become \"letters I cannot hear clearly are silent\".",
+        "Hidden is not silent. Say that sentence, because the over-generalisation arrives the same session."
+      ]
     },
     {
       "kind": "ayah",
       "surah": 106,
-      "ayah": 4,
+      "ayah": 3,
       "highlight": [
-        "iqlab",
-        "madd_246"
+        "silent"
       ],
-      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "translation": "Let them worship the Lord of this House.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "مِّنْ خَوْفٍۭ — iqlāb and madd līn in one word-pair, at the end of a surah she holds. The only līn in the entire hifz set is here, which is worth telling her: everything else that stretches at an āyah end is a true madd letter."
+        "cue": "فَلْيَعْبُدُوا۟ — look at the alif at the end and the small round circle sitting on it. Never pronounced, joining or stopping: fal-yaʿbudū rabba. This is in a surah she completed two sessions ago, and she has almost certainly been reading it correctly by ear without knowing there was a mark telling her to."
       }
     },
     {
       "kind": "ayah",
-      "surah": 105,
-      "ayah": 5,
+      "surah": 109,
+      "ayah": 4,
       "highlight": [
-        "ikhfa",
-        "madd_246"
+        "silent"
       ],
-      "translation": "And He made them like eaten straw.",
+      "translation": "Nor will I be a worshipper of what you worship.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "The last āyah of the last surah of the set. ikhfāʾ in كَعَصْفٍ مَّأْكُولٍۭ, then the iqlāb mark at the stop. Closing the capstone on the newest surah is deliberate: it is the one with the least Manzil behind it and the most to prove."
+        "cue": "أَنَا۠ with the small oval zero. Joined onward to عَابِدٌ it is ana ʿābidun — short, no madd, straight into the next word. Stop on it deliberately, for the contrast, and it becomes anā at two counts. Same letter, same mark, two behaviours, and the difference is entirely whether you keep going."
       }
     },
     {
       "kind": "contrast",
-      "heading": "The whole course in four lines — name every rule before you read",
+      "heading": "Four kinds of silence, all from what she already holds",
       "pairs": [
         {
-          "surah": 1,
-          "ayah": 2,
-          "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
-          "rule": "madd_246",
-          "note": "Four families in four words: lām qamariyyah, lām jalālah LIGHT after the kasrah of li-, rāʾ heavy on the fatḥah, madd ʿāriḍ at the stop. The one light lām jalālah she meets regularly."
-        },
-        {
-          "surah": 110,
-          "ayah": 1,
-          "text": "جَآءَ نَصْرُ ٱللَّهِ",
-          "rule": "madd_muttasil",
-          "note": "Madd muttaṣil — wājib, and the length is fixed by ṭarīq, not by choice. Then lām jalālah heavy after the ḍammah of naṣru. The same name, the opposite weight to the line above."
-        },
-        {
           "surah": 108,
-          "ayah": 1,
-          "text": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
-          "rule": "madd_munfasil",
-          "note": "Munfaṣil, jāʾiz — and the place to ask which number she has chosen and whether she has held it all session. Consistency is the scored thing, not the number."
+          "ayah": 2,
+          "text": "وَٱنْحَرْ",
+          "rule": "hamzat_wasl",
+          "note": "Silent because you joined. Start on the word instead and the hamzah comes back, with a kasrah. The only conditional one of the four."
         },
         {
-          "surah": 111,
-          "ayah": 1,
-          "text": "تَبَّتْ يَدَآ أَبِى لَهَبٍ",
-          "rule": "qalqalah",
-          "note": "Shaddah held, munfaṣil across the word boundary, and qalqalah on the tāʾ sākinah. From the earlier hifz block, so it tests retention as well as rules."
+          "surah": 106,
+          "ayah": 3,
+          "text": "فَلْيَعْبُدُوا۟",
+          "rule": "silent",
+          "note": "Round zero. Silent always — joining, stopping, whatever you do. Pure spelling, and there is no reading in which that alif is sounded."
+        },
+        {
+          "surah": 109,
+          "ayah": 4,
+          "text": "أَنَا۠ عَابِدٌ",
+          "rule": "silent",
+          "note": "Oval zero. Silent when joining, two counts when stopping. The mark does not say 'silent'; it says 'silent unless you stop', and reading it as the round one costs a madd."
+        },
+        {
+          "surah": 1,
+          "ayah": 7,
+          "text": "وَلَا ٱلضَّآلِّينَ",
+          "rule": "lam_shamsiyyah",
+          "note": "Two silences in one word: the waṣl hamzah goes because you joined, and the lām goes into the ḍād. Both grey in Family B — and the palette grouping them is telling you something true."
         }
       ]
     },
     {
       "kind": "concept",
-      "heading": "The eleven, backwards, unaided — and two scoring axes",
+      "heading": "Coloured muṣḥafs do not agree with each other",
       "body": [
-        "No new Sabaq. The set is complete and this session confirms it: al-Fātiḥa, then 114 down to 105. an-Nās · al-Falaq · al-Ikhlāṣ · al-Masad · an-Naṣr · al-Kāfirūn · al-Kawthar · al-Māʿūn · Quraysh · al-Fīl, with al-Fātiḥa first. ELEVEN ITEMS.",
-        "Reverse muṣḥaf order, which is the order she learned them in and the order the Final Checkpoint will ask for. Run it as a full rehearsal in one sitting, not a spot check.",
-        "Unaided means unaided: no prompt, no starting syllable, no \"look at the page for a second\". If she cannot start a surah, note it and move to the next one. That is a data point, not a failure of the session.",
-        "Score two axes SEPARATELY. Tajweed — jali and khafi, on the standard table. Memorisation fidelity — words omitted, added, or transposed.",
-        "Keeping them apart is what makes the result actionable. Clean recall with rough recitation and clean recitation with shaky recall need opposite remedies, and one combined number cannot tell you which you are looking at. Word omission or addition is itself meaning-changing, so it scores as jali on its own axis.",
-        "Fail granularity, and say this to her BEFORE she starts: more than three examiner corrections in one surah fails that surah alone — not the test, and not the set. A student who believes one bad surah sinks the whole recitation will recite defensively and produce more errors, not fewer.",
-        "Check the Manzil schedule too, not just the recall. By now every one of the eleven should be promoted or close to it, and the two-surahs-a-day rotation covers the pool in five or six days. If the EARLIEST surahs are the weakest, the rotation slipped — that is a timetable problem, not a memory problem, and it is fixed in the timetable."
+        "This is the course's own addition and it is the section that matters most. End goal 4 is not \"know this palette\". It is \"knowing what each colour demands\" — on whatever page is in front of her.",
+        "State the problem plainly. The Quranly app — this course's default, and the app she actually reads — colours RED for qalqalah and BLUE for madd. The printed Dar al-Maʿrifah muṣḥaf colours RED for madd.",
+        "Both are in wide use. Both are internally consistent. They directly contradict each other on the most eye-catching colour on the page.",
+        "A learner who has memorised one palette and picks up the other will misread every red letter in the book: she will bounce her madds and stretch her qalqalahs. That is not a small error and it will not announce itself.",
+        "So the skill is not memorising a palette. The skill is asking a book what its colours mean, every time you open a new one.",
+        "\"You are not learning a set of colours. You are learning to ask a book what its colours mean. Every muṣḥaf you ever pick up will answer that question if you look — and the ones that won't answer it are the ones you shouldn't trust.\""
+      ]
+    },
+    {
+      "kind": "legend",
+      "heading": "Family B — the palette THIS course uses, and why grey is today's colour",
+      "rules": [
+        "hamzat_wasl",
+        "silent",
+        "lam_shamsiyyah",
+        "qalqalah",
+        "madd_2",
+        "madd_6",
+        "ghunnah",
+        "ikhfa",
+        "iqlab",
+        "idghaam_ghunnah",
+        "idghaam_no_ghunnah"
       ]
     },
     {
       "kind": "concept",
-      "heading": "Write the flag list together, in front of her",
+      "heading": "The four steps — and she should be able to say them back",
       "body": [
-        "End the session by writing — on paper, both of you looking at it — a list of every item that will be flagged at the Checkpoint, with the drill attached to each.",
-        "Three columns: WHAT · WHICH LESSON · WHICH DRILL. Nothing else. No encouragement paragraph, no summary. She keeps the sheet, works it for a fortnight, and brings it back on the day.",
-        "Keep it short on purpose. A list of four items gets done daily; a list of fifteen gets read once.",
-        "Then say the outcome structure out loud, because it removes the fear that distorts performance:",
-        "\"There are three outcomes and none of them is a restart. Pass, pass with a homework flag, or revise and retest the part that failed. Failing something at the Checkpoint costs you two or three sessions on that one thing. It does not cost you this course.\"",
-        "Say it even if she has not asked. The learners who most need to hear it are the ones who will not raise it."
+        "One. FIND THE LEGEND. Muṣḥafs print it on the first or last page; apps put it in settings or behind a \"?\" icon. If there is no legend anywhere, the book is not usable for identifying rules and she should not guess from it.",
+        "Two. LOOK UP RED FIRST. Red is the colour the traditions disagree about, so it is the fastest test of which family she is holding. One lookup and she knows.",
+        "Three. CHECK A WORD SHE ALREADY KNOWS. Open al-Fātiḥah and look at ٱلضَّآلِّينَ. If it is coloured and the legend says that colour is madd, she is in a madd-coloured palette. Cross-check against a qalqalah letter — the dāl of أَحَدٌ — and the two answers together confirm it.",
+        "Four. READ THE WHOLE LEGEND BEFORE YOU READ THE PAGE. Two minutes, once per book, and never again for that book.",
+        "Notice which colour today's material lives in: grey. Hamzat al-waṣl, silent letters and lām shamsiyyah all share it in Family B. The silent things have been given one colour, which is a real piece of information about how that palette thinks — and a different palette may split them.",
+        "Do this live, in the session, with whatever coloured muṣḥaf or app she actually has. If she has two, do it with both and let her find the contradiction herself. Finding it herself is worth more than being told."
       ]
     },
     {
       "kind": "drill",
-      "heading": "The blank map, and every rule on the line",
-      "instructions": "First: six families, every rule under each, from memory, five minutes, no notes. Then I point at a line of unseen text and you name every rule in it, IN ORDER, before reading it aloud. Ten lines. Naming before reading is the whole drill — reading first lets the mouth answer for the head.",
+      "heading": "Which vowel, and which branch",
+      "instructions": "I point at the word. Before you read it, say a, i or u — and then say which branch you used: article, verb, or one of the seven nouns. Answer first, read second. Twenty of these.",
       "grid": [
         [
           {
-            "arabic": "أَنْعَمْتَ عَلَيْهِمْ",
-            "translit": "anʿamta ʿalayhim",
+            "arabic": "ٱلْحَمْدُ لِلَّهِ",
+            "translit": "al-ḥamdu li-llāh",
             "audio": {
               "type": "teacher-voice",
-              "cue": "1:7 — iẓhār ḥalqī on the nūn before the ʿayn, then iẓhār shafawī on the mīm. Two families in three words."
+              "cue": "1:2 — A. The article. Is it ٱل? Then it's an a. Always, and it is most of the words on any page."
             }
           },
           {
-            "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
-            "translit": "al-ḥamdu li-llāhi rabbi l-ʿālamīn",
+            "arabic": "ٱدْخُلُوا۟ ٱلْجَنَّةَ",
+            "translit": "udkhulū l-jannah",
             "audio": {
               "type": "teacher-voice",
-              "cue": "1:2 — lām qamariyyah, lām jalālah LIGHT after a kasrah, rāʾ heavy, madd ʿāriḍ at the stop. Four families, four words."
+              "cue": "16:32 — U. Verb branch: يَدْخُلُ has a ḍammah on the khāʾ. And note the second word is the article again, joined, so its hamzah is gone."
+            }
+          },
+          {
+            "arabic": "أَنِ ٱمْشُوا۟",
+            "translit": "ani mshū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "38:6 — I. This is the exception: يَمْشُونَ looks like a ḍammah, but it is ʿāriḍ, from a deleted weak letter. Kasrah."
             }
           }
         ],
         [
           {
-            "arabic": "جَآءَ نَصْرُ ٱللَّهِ",
-            "translit": "jāʾa naṣru-llāh",
+            "arabic": "عِيسَى ٱبْنُ مَرْيَمَ",
+            "translit": "ʿīsa bnu maryam",
             "audio": {
               "type": "teacher-voice",
-              "cue": "110:1 — madd muttaṣil, wājib, then lām jalālah heavy after a ḍammah."
+              "cue": "3:45 — I. One of the seven nouns. Joined here, so nothing is sounded at all; started, it is ibnu."
             }
           },
           {
-            "arabic": "كَعَصْفٍ مَّأْكُولٍۭ",
-            "translit": "kaʿaṣfin maʾkūl",
+            "arabic": "وَٱنْحَرْ",
+            "translit": "wanḥar",
             "audio": {
               "type": "teacher-voice",
-              "cue": "105:5 — ikhfāʾ ḥaqīqī, then the iqlāb mark, then madd ʿāriḍ at the stop. Three families in two words, in the newest surah she holds."
+              "cue": "108:2 — joined, so there is no vowel to choose. Trick question, and worth asking once."
+            }
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "translit": "anʿamta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — qaṭʿ, not waṣl. Always pronounced, joining or starting. Look at the head of the alif: no ص."
             }
           }
         ]
@@ -275,24 +284,58 @@
     },
     {
       "kind": "drill",
-      "heading": "The legend, cold",
-      "instructions": "A coloured muṣḥaf you have not used. Find the legend. Read it aloud. Tell me what RED is in THIS book. Then read the page, naming each coloured span and what it demands. If you name a colour from memory I will stop you, and that is the only thing in this drill I am marking.",
+      "heading": "Present tense first",
+      "instructions": "Ten three-letter commands. For each one: say the present tense out loud, point at its third letter, name the vowel on it, and only then start the command. Out loud every time — the whole point is to make the lookup fast enough to survive real reading.",
       "grid": [
         [
           {
-            "arabic": "وَلَا ٱلضَّآلِّينَ",
-            "translit": "wa-lā ḍ-ḍāllīn",
+            "arabic": "ٱدْخُلْ",
+            "translit": "udkhul",
             "audio": {
               "type": "teacher-voice",
-              "cue": "The madd test word. Whatever colour it carries in this book, look the colour up before you say what it is."
+              "cue": "يَدْخُلُ — ḍammah on the khāʾ. So: udkhul."
             }
           },
           {
-            "arabic": "أَحَدٌ",
-            "translit": "aḥad",
+            "arabic": "ٱذْهَبْ",
+            "translit": "idhhab",
             "audio": {
               "type": "teacher-voice",
-              "cue": "The qalqalah cross-check. Two answers that agree tell you which family the book belongs to; two that disagree tell you that you misread the legend."
+              "cue": "يَذْهَبُ — fatḥah on the hāʾ. So: idhhab."
+            }
+          },
+          {
+            "arabic": "ٱنظُرْ",
+            "translit": "unẓur",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَنظُرُ — ḍammah on the ẓāʾ. So: unẓur."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱضْرِبْ",
+            "translit": "iḍrib",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَضْرِبُ — kasrah on the rāʾ. So: iḍrib."
+            }
+          },
+          {
+            "arabic": "ٱعْبُدْ",
+            "translit": "uʿbud",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَعْبُدُ — ḍammah on the bāʾ. So: uʿbud."
+            }
+          },
+          {
+            "arabic": "ٱجْعَلْ",
+            "translit": "ijʿal",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَجْعَلُ — fatḥah on the ʿayn. So: ijʿal."
             }
           }
         ]
@@ -300,34 +343,93 @@
     },
     {
       "kind": "drill",
-      "heading": "The eleven, backwards — and the hardest line",
-      "instructions": "al-Fātiḥa, then 114 down to 105, unaided. No prompts, no starting syllables. I mark two axes separately: tajweed, and whether the words are right. Then وَلَا ٱلضَّآلِّينَ, ten times, all four requirements every time.",
+      "heading": "Join it, start it",
+      "instructions": "Each word twice: once joined from the word before it, once started on. The hamzah appears and disappears. Say what happened each time.",
       "grid": [
         [
           {
-            "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
-            "translit": "qul huwa-llāhu aḥad",
+            "arabic": "وَٱنْحَرْ",
+            "translit": "wanḥar / inḥar",
             "audio": {
               "type": "teacher-voice",
-              "cue": "112:1 — iẓhār shafawī, lām jalālah heavy, qalqalah kubrā at the stop. Third of the eleven, going backwards."
+              "cue": "108:2. Joined: wanḥar, no bump. Started: inḥar, kasrah — يَنْحَرُ has a fatḥah."
             }
           },
           {
-            "arabic": "مِّنْ خَوْفٍۭ",
-            "translit": "min khawf",
+            "arabic": "وَٱسْتَغْفِرْهُ",
+            "translit": "wastaghfirhu / istaghfirhu",
             "audio": {
               "type": "teacher-voice",
-              "cue": "106:4 — iqlāb and the only madd līn in the whole set, at the end of Quraysh."
+              "cue": "110:3. Joined: wastaghfirhu. Started: istaghfirhu — command of a six-letter verb, so kasrah."
             }
           }
         ],
         [
           {
-            "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
-            "translit": "fa-jaʿalahum kaʿaṣfin maʾkūl",
+            "arabic": "وَٱلصَّيْفِ",
+            "translit": "waṣ-ṣayf / aṣ-ṣayf",
             "audio": {
               "type": "teacher-voice",
-              "cue": "105:5 — the last āyah of the eleventh item and the end of the rehearsal. Iẓhār shafawī, ikhfāʾ, iqlāb, madd ʿāriḍ."
+              "cue": "106:2. Joined: waṣ-ṣayf. Started: aṣ-ṣayf — the article, so a fatḥah. And the lām is shamsiyyah, so it is silent both ways."
+            }
+          },
+          {
+            "arabic": "وَٱلْفَتْحُ",
+            "translit": "wal-fatḥ / al-fatḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:1. Joined: wal-fatḥ. Started: al-fatḥ. Article again — and stopping here gives you the qalqalah on the ḥāʾ as a bonus."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Zeros, and the legend live",
+      "instructions": "For each marked letter say NEVER or ONLY AT A STOP, then read the word both ways where it applies. Then close the book and open your coloured muṣḥaf or app: find the legend, read it aloud to me, and tell me what red is in THIS book.",
+      "grid": [
+        [
+          {
+            "arabic": "أُو۟لَٰٓئِكَ",
+            "translit": "ulāʾika",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:5 — round zero. NEVER. Look at the little circle: that is a zero, there is no wāw, ulāʾika."
+            }
+          },
+          {
+            "arabic": "فَلْيَعْبُدُوا۟",
+            "translit": "fal-yaʿbudū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:3 — round zero, in her own hifz. NEVER. Joined or stopped, that alif is not sounded."
+            }
+          },
+          {
+            "arabic": "أَنَا۠ عَابِدٌ",
+            "translit": "ana ʿābidun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "109:4 — oval zero. ONLY AT A STOP. Joined: ana, short. Are you stopping on it? No? Then it is ana, straight into the next word."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سَلَٰسِلَا۟",
+            "translit": "salāsila / salāsilā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "76:4 — ONLY AT A STOP. Read it both ways back to back and hear the two counts appear."
+            }
+          },
+          {
+            "arabic": "ٱلظُّنُونَا۠",
+            "translit": "aẓ-ẓunūna / aẓ-ẓunūnā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "33:10 — ONLY AT A STOP, and it is an āyah end, so in practice you will nearly always be stopping."
             }
           },
           {
@@ -335,7 +437,7 @@
             "translit": "wa-lā ḍ-ḍāllīn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Ten times. Lām into the ḍād, ḍād heavy and long, madd a full six, doubled lām still arriving doubled. Four requirements, one word, and the best value in the entire course."
+              "cue": "1:7 — the legend check word. Is it coloured in your book? What does the legend say that colour is? Now cross-check the dāl of أَحَدٌ, and you know which family you are holding."
             }
           }
         ]
@@ -343,223 +445,303 @@
     },
     {
       "kind": "mistake",
-      "heading": "What the capstone catches that no earlier lesson does",
+      "heading": "What goes wrong",
       "mistakes": [
         {
-          "wrong": "Rules degrade as the page goes on — clean in the first two āyāt, sloppy by the eighth.",
-          "why": "Sustained precision is its own competency, and it is the one the ijāzah exam actually tests. She has practised rules; she has practised endurance far less, because every lesson so far handed her short items.",
-          "fix": "You had it for three lines. Read the whole page again and I'll mark only the second half."
+          "wrong": "The waṣl hamzah pronounced when joining — wa-istaghfirhu, wa-inḥar.",
+          "why": "The alif is visible and she is reading it. Her first language may not permit the consonant cluster that results from dropping it, which makes the correct form physically awkward and not just unfamiliar.",
+          "fix": "Run the two words together with no bump. wastaghfirhu. Say it as one word."
         },
         {
-          "wrong": "Correct identification, wrong execution — she names ikhfāʾ and produces a clear nūn.",
-          "why": "Knowledge and production are separate skills, which is exactly why the Checkpoint scores them on separate axes.",
-          "fix": "You know it. Now do it. Say the rule and then perform it, twice."
+          "wrong": "ٱلْحَمْدُ started with a kasrah — il-ḥamdu.",
+          "why": "Kasrah is the default across most branches, and the article is the exception that also happens to be the most common case on any page.",
+          "fix": "Is it ٱل? Then it's an a. Always."
         },
         {
-          "wrong": "Madd lengths wandering under load, even though 3-32 fixed them.",
-          "why": "Consistency is the first thing to go when attention is divided across six families at once. In isolation her lengths are fine; that is not what is being tested today.",
-          "fix": "Set the tempo before you start. Everything else fits inside it."
+          "wrong": "ٱدْخُلُوا۟ started with a kasrah.",
+          "why": "She has not run the present-tense lookup — not because she does not know it, but because the lookup takes a second and she is reading in real time.",
+          "fix": "يَدْخُلُ. What's on the khāʾ? A ḍammah. So: udkhulū."
         },
         {
-          "wrong": "Naming a colour from memory instead of reading the legend.",
-          "why": "The palette she uses daily has stopped feeling like a fact about one app and started feeling like a fact about tajweed.",
-          "fix": "Show me where the book says that."
+          "wrong": "The wāw of أُو۟لَٰٓئِكَ pronounced.",
+          "why": "It is a letter, it is written, and nothing in her reading experience so far says a written letter can be pure decoration.",
+          "fix": "Look at the little circle. That's a zero. There is no wāw. ulāʾika."
         },
         {
-          "wrong": "Hifz recall failing on the surahs learned EARLIEST, not the newest.",
-          "why": "The Manzil rotation slipped while the new Sabaq took the attention. It is the predictable failure of the last six weeks and it is a scheduling problem, not a memory problem.",
-          "fix": "Which two surahs did you revise yesterday? That's the gap, and it's in the timetable, not in your head."
+          "wrong": "anā read in the middle of a sentence.",
+          "why": "anā is the form she knows from spoken Arabic and it is also the correct stop form, so she is right half the time and never gets corrected.",
+          "fix": "Are you stopping on it? No. Then it's ana, short, straight into the next word."
         },
         {
-          "wrong": "Apologising for errors instead of noting them.",
-          "why": "The session feels like a test. It is a diagnostic, and the distinction is worth insisting on rather than smoothing over.",
-          "fix": "Don't apologise, write it down. Every one of these has a drill and a lesson number attached to it."
+          "wrong": "An unmarked merged or hidden letter treated as silent.",
+          "why": "Over-generalisation from today: 'letters can be silent' becomes 'letters I can't hear clearly are silent'. It arrives within the same session.",
+          "fix": "Is there a zero over it? No? Then it's doing work. Hidden is not silent."
+        },
+        {
+          "wrong": "Naming a colour from memory instead of from the legend.",
+          "why": "She has read one app for months and the palette has stopped feeling like a fact about the app and started feeling like a fact about tajweed.",
+          "fix": "Don't tell me what red means. Show me where the book says what red means."
         }
       ]
     },
     {
       "kind": "recap",
-      "heading": "What she leaves with",
+      "heading": "The whole lesson in six items",
       "items": [
+        {
+          "arabic": "وَٱسْتَغْفِرْهُ",
+          "translit": "wastaghfirhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Joined, so the hamzah is gone entirely. No bump. One word."
+          }
+        },
+        {
+          "arabic": "ٱدْخُلُوا۟",
+          "translit": "udkhulū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Started, so the hamzah is back — and يَدْخُلُ decides the vowel is a ḍammah."
+          }
+        },
+        {
+          "arabic": "ٱلْحَمْدُ",
+          "translit": "al-ḥamdu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The article. Fatḥah, no exceptions, and most of the time this is the answer."
+          }
+        },
+        {
+          "arabic": "فَلْيَعْبُدُوا۟",
+          "translit": "fal-yaʿbudū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Round zero. Never sounded, whatever you do."
+          }
+        },
+        {
+          "arabic": "أَنَا۠ عَابِدٌ",
+          "translit": "ana ʿābidun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Oval zero. Silent joining, two counts stopping. The mark says 'silent unless you stop'."
+          }
+        },
         {
           "arabic": "وَلَا ٱلضَّآلِّينَ",
           "translit": "wa-lā ḍ-ḍāllīn",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Four requirements on one word. If it was right today, say so out loud — it has been in front of her since 1-14."
-          }
-        },
-        {
-          "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
-          "translit": "al-ḥamdu li-llāhi rabbi l-ʿālamīn",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "The light lām jalālah, the heavy rāʾ, the ʿāriḍ at her one chosen number."
-          }
-        },
-        {
-          "arabic": "مِّنْ خَوْفٍۭ",
-          "translit": "min khawf",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "Iqlāb and the set's only madd līn, in a surah she holds whole."
-          }
-        },
-        {
-          "arabic": "كَعَصْفٍ مَّأْكُولٍۭ",
-          "translit": "kaʿaṣfin maʾkūl",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "The last words of the eleventh item. The set is complete: al-Fātiḥa and 114 down to 105."
+            "cue": "The legend check. Whatever colour this is in your book, go and read what your book says it means before you trust it."
           }
         }
       ]
     },
     {
       "kind": "homework",
-      "heading": "Homework — this is the fortnight before the Final Checkpoint",
+      "heading": "Homework",
       "tasks": [
-        "The flag list from the end of the session. Every item on it, its drill, every day. It is a short list on purpose — four items get done daily, fifteen get read once.",
-        "One unseen plain page a day, read aloud, stops planned first. Mark your own errors in pencil on the page. Bring all fourteen pages.",
-        "The eleven, daily: al-Fātiḥa then 114 down to 105, unaided, once through — then the Manzil rotation on top. No new Sabaq; the set is complete and the job now is holding it.",
-        "Twenty questions, weekly. Get someone to ask you the list from this session and write your score. Twice, a week apart. If the second score is not higher than the first, tell me BEFORE the Checkpoint, not after it.",
-        "One coloured page a day, from a palette you did not use the day before. Read the legend first, every time. Two minutes, and it is the whole of end goal 4.",
-        "وَلَا ٱلضَّآلِّينَ read correctly ten times a day for fourteen days. One line, four rules, and the best value in the entire course."
+        "Hifz: al-Fīl 105:3–5 to 20–40 repetitions daily. This is the LAST new Sabaq in the course — after today she holds al-Fātiḥah and all ten of 105–114, eleven items, complete. Mark it out loud, write the date, and let her have the moment. From tomorrow: al-Fīl whole, then al-Fātiḥah followed by 114 down to 105 in one sitting, once, to see the whole set in one piece before the capstone. Hold her to أَبَابِيلَ · سِجِّيلٍ · مَّأْكُولٍۭ — three āyah ends in a row, three madd ʿāriḍ, all at her one chosen number; بِحِجَارَةٍ read as a t because she joins straight on; and a planned breath across 105:3 → 105:4 → 105:5, which is one continuous sentence.",
+        "Find twenty ٱ words on any page. Write a, i or u beside each BEFORE you read them. Bring the page — I will mark the written answers, not the reading.",
+        "Write the seven samāʿī nouns on your card. Seven, all kasrah, and there is nothing to derive.",
+        "Read the legend of every coloured muṣḥaf or app you own. Write down, for each one, what RED means in it. If you own only one, find a second online and do it with both. This is the two-minute habit that is the whole of end goal 4.",
+        "Read Sūrat al-Kawthar and Sūrat an-Naṣr aloud and make وَٱنْحَرْ and وَٱسْتَغْفِرْهُ completely smooth — no bump, no glottal stop. Those two words are the whole of today's first rule, inside surahs you already hold."
       ]
     }
   ],
   "practice": {
     "drills": [
       {
-        "title": "The blank map",
-        "instructions": "Six families, every rule under each, from memory, five minutes, no notes. Once a week for the fortnight, and each time compare against last week's sheet rather than against the answer.",
+        "title": "Which vowel, and which branch",
+        "instructions": "Answer a, i or u and name the branch BEFORE reading. Twenty a day, from any page.",
         "grid": [
           [
             {
-              "arabic": "أَنْعَمْتَ عَلَيْهِمْ",
+              "arabic": "ٱلْحَمْدُ لِلَّهِ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Family 1 and family 2 — iẓhār ḥalqī, iẓhār shafawī."
+                "cue": "A — article."
               }
             },
             {
-              "arabic": "كَعَصْفٍ مَّأْكُولٍۭ",
+              "arabic": "ٱدْخُلُوا۟ ٱلْجَنَّةَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Family 1 twice — ikhfāʾ then iqlāb — plus madd ʿāriḍ."
+                "cue": "U — verb, يَدْخُلُ."
+              }
+            },
+            {
+              "arabic": "أَنِ ٱمْشُوا۟",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "I — the ʿāriḍ-ḍammah exception."
               }
             }
           ],
           [
             {
-              "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+              "arabic": "عِيسَى ٱبْنُ مَرْيَمَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Families 3, 4 and 6 in one āyah."
+                "cue": "I — one of the seven nouns."
               }
             },
             {
-              "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+              "arabic": "أَنْعَمْتَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Families 2, 3 and 5 in one āyah."
+                "cue": "Qaṭʿ. Not today's rule at all — always pronounced."
               }
             }
           ]
         ]
       },
       {
-        "title": "Name every rule on the line",
-        "instructions": "Name every rule in the line, in order, BEFORE reading it aloud. Ten lines of unseen text a day. Naming first is the drill — reading first lets the mouth answer for the head.",
+        "title": "Present tense first",
+        "instructions": "Say the present tense out loud, point at its third letter, name the vowel, then start the command. Ten a day until the lookup is instant.",
         "grid": [
           [
             {
-              "arabic": "جَآءَ نَصْرُ ٱللَّهِ",
+              "arabic": "ٱدْخُلْ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Muttaṣil, then lām jalālah heavy after a ḍammah."
+                "cue": "يَدْخُلُ — ḍammah. udkhul."
               }
             },
             {
-              "arabic": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+              "arabic": "ٱذْهَبْ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Munfaṣil at your chosen number, then madd ṭabīʿī, then lām qamariyyah."
+                "cue": "يَذْهَبُ — fatḥah. idhhab."
+              }
+            },
+            {
+              "arabic": "ٱنظُرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَنظُرُ — ḍammah. unẓur."
               }
             }
           ],
           [
             {
-              "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍ",
+              "arabic": "ٱضْرِبْ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Shaddah held, qalqalah on the tāʾ sākinah, munfaṣil across the boundary."
+                "cue": "يَضْرِبُ — kasrah. iḍrib."
               }
             },
             {
-              "arabic": "مِّنْ خَوْفٍۭ",
+              "arabic": "ٱعْبُدْ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Iqlāb and madd līn, in two words."
+                "cue": "يَعْبُدُ — ḍammah. uʿbud."
+              }
+            },
+            {
+              "arabic": "ٱجْعَلْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَجْعَلُ — fatḥah. ijʿal."
               }
             }
           ]
         ]
       },
       {
-        "title": "The legend, cold",
-        "instructions": "A palette you did not use yesterday. Legend first, every time. Write down what RED means in that book before you read a word of the page.",
+        "title": "Join it, start it",
+        "instructions": "Each word twice — joined, then started on. Say what happened to the hamzah each time.",
+        "grid": [
+          [
+            {
+              "arabic": "وَٱنْحَرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "wanḥar / inḥar."
+              }
+            },
+            {
+              "arabic": "وَٱسْتَغْفِرْهُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "wastaghfirhu / istaghfirhu."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَٱلصَّيْفِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "waṣ-ṣayf / aṣ-ṣayf."
+              }
+            },
+            {
+              "arabic": "وَٱلْفَتْحُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "wal-fatḥ / al-fatḥ."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Zeros",
+        "instructions": "NEVER or ONLY AT A STOP for each. Then read both ways where it applies.",
+        "grid": [
+          [
+            {
+              "arabic": "أُو۟لَٰٓئِكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NEVER — round zero."
+              }
+            },
+            {
+              "arabic": "فَلْيَعْبُدُوا۟",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NEVER — round zero, and it is in Quraysh."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أَنَا۠ عَابِدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ONLY AT A STOP — and here you are joining, so: ana."
+              }
+            },
+            {
+              "arabic": "سَلَٰسِلَا۟",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ONLY AT A STOP — salāsila / salāsilā."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The legend, live",
+        "instructions": "Open a coloured muṣḥaf or app. Find the legend. Read it aloud. Say what RED means in THIS book. Then check ٱلضَّآلِّينَ and the dāl of أَحَدٌ against what you just read. This is the drill you will use for the rest of your life.",
         "grid": [
           [
             {
               "arabic": "وَلَا ٱلضَّآلِّينَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "The madd test word — look the colour up, do not name it."
+                "cue": "The madd test word. If its colour is 'madd' in this legend, you are in a madd-coloured palette."
               }
             },
             {
               "arabic": "أَحَدٌ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "The qalqalah cross-check. Two agreeing answers identify the family."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "The eleven, backwards",
-        "instructions": "al-Fātiḥa, then 114 down to 105, unaided, once through daily — then the Manzil rotation on top. Two axes marked separately: tajweed, and whether the words are right.",
-        "grid": [
-          [
-            {
-              "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Item three, going backwards."
-              }
-            },
-            {
-              "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "The last words of item eleven. If you got here unaided, the set is held."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "The hardest line",
-        "instructions": "وَلَا ٱلضَّآلِّينَ, ten times a day, fourteen days. All four requirements every single time — no counting a repetition that only got three of them.",
-        "grid": [
-          [
-            {
-              "arabic": "وَلَا ٱلضَّآلِّينَ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Lām into the ḍād · ḍād heavy and long · madd a full six · the doubled lām still doubled when it arrives."
+                "cue": "The qalqalah cross-check. Two answers that agree, and you know which family the book belongs to."
               }
             }
           ]
@@ -567,79 +749,78 @@
       }
     ],
     "dailyChecklist": [
-      "The flag list — every item, its drill, today",
-      "One unseen plain page, stops planned first, own errors pencilled on the page",
-      "The eleven unaided in reverse order, then the Manzil rotation on top",
-      "One coloured page from a palette not used yesterday, legend read first",
-      "وَلَا ٱلضَّآلِّينَ ten times, all four requirements every time"
+      "Al-Fīl 105:3–5 to 20–40 repetitions — the last new Sabaq — then al-Fātiḥah and 114 down to 105 in one sitting",
+      "Twenty ٱ words found on a page, with a / i / u written beside each before reading",
+      "Ten three-letter commands with the present tense said out loud first",
+      "وَٱنْحَرْ and وَٱسْتَغْفِرْهُ read completely smooth inside al-Kawthar and an-Naṣr",
+      "One coloured page, legend read first — and what RED means in that book written down"
     ]
   },
   "teacherNotes": {
     "script": [
-      "Teach nothing today. If you catch yourself explaining a rule, stop — the session's value is entirely in what it measures, and every minute of teaching is a minute of diagnosis you did not get.",
-      "Open cold. Unseen page, 'Read', and mark it silently on the Final Checkpoint's own rubric. Then show her the sheet before you say anything about it. The corrective is the format, not any single error: an adult who meets the marking sheet for the first time on exam day is being examined on the sheet as well as on the recitation.",
-      "Blank-map first, before you show her anything. What is missing from her sheet is the fortnight's homework, and it is more informative than anything you would have thought to ask. Expect the gaps to be the rāʾ family and the three idghām types of family one.",
-      "Give per-column totals, never a single number. '−9' is unactionable; '−2 rāʾ tafkhīm, −1 ʿāriḍ consistency ×3, −2 waṣl-hamzah start' is a revision plan. It costs one extra column on the sheet and it is the difference between a score and a plan.",
-      "For the coloured page, do NOT use the app she has read all year. Use something she has not seen. The whole point of 3-35 is a palette she has not memorised, and using her own app tests nothing.",
-      "Score identification and execution separately, and say why: naming ikhfāʾ correctly and then producing a plain nūn is one problem, not two, and the two need opposite remedies.",
-      "Run the twenty questions straight — ask, record, move on, no discussion until the end — and tell her the arithmetic first: two wrong out of twenty is the pass line. Give her the raw score immediately.",
-      "For the hifz rehearsal, say the fail granularity BEFORE she starts: more than three examiner corrections fails that surah alone, not the test and not the set. A student who thinks one bad surah sinks everything recites defensively and produces more errors, not fewer.",
-      "If the earliest surahs are the weakest rather than the newest, the Manzil rotation slipped. Fix the timetable, not the memorisation, and say so plainly — it is a scheduling failure and treating it as a memory failure sends her to the wrong remedy.",
-      "Write the flag list with her, on paper, both of you looking at it. Three columns: what, which lesson, which drill. No encouragement paragraph. Keep it to four or five items; long lists get read once and short lists get done daily.",
-      "Say the three outcomes out loud even if she has not asked. Pass, pass with a homework flag, or revise and retest the part that failed. Failing something costs two or three sessions on that one thing and does not cost her the course. The learners who most need to hear that are the ones who will never raise it.",
-      "End on وَلَا ٱلضَّآلِّينَ. Ask for it last, and if it is right, say so. It has been in front of her since Phase 1 lesson 1-14 and this is the moment it is worth naming."
+      "Open with the two corrections, in that order and inside ninety seconds: 110:3 joined, where she will insert a hamzah that is not there, then a cold start on ٱدْخُلُوا۟, where she will drop the one that is. Two errors pulling opposite ways on one letter is what makes it obvious that the letter has a rule.",
+      "Do not re-teach 2-09. She has had the working version for two units and has been resuming from stops with it since 2-12. Say that out loud — today is the full branch structure, and framing it as completion rather than as new material changes how she receives a slide that otherwise looks like a table of exceptions.",
+      "Teach the verb branch as a lookup, not as a table: say the present tense, point at the third letter, read the vowel. Make her do it out loud six or seven times. The failure in real reading is never ignorance of the rule — it is that the lookup takes a second and she is reading at speed.",
+      "Give the arithmetic on the branches: most ٱ words on any page are the article, and the article is one item with no exceptions. The branches exist for the remainder. That reframing is worth more than another example.",
+      "The four sākin-hamzah words are a closed set of four. Show all four, have her start on each, move on. Do not let a small closed set take a large share of the session.",
+      "Close the ءَآلْـَٰٔنَ loop in one minute. She met it at 3-32 as madd lāzim kalimī mukhaffaf; today she sees the other half of why it is spelt that way. Two names, one sound. Do not re-teach it.",
+      "On silent letters, teach the mark rather than the word. The round zero says never; the oval zero says silent unless you stop. Both of them occur inside her own hifz — فَلْيَعْبُدُوا۟ in Quraysh and أَنَا۠ in al-Kāfirūn — so use those, not the textbook examples, and let her find that she has been reading one of them correctly by ear for weeks.",
+      "Then guard the over-generalisation immediately, because it arrives in the same session: a letter with no mark is not silent, it is merged or hidden and still doing acoustic work. Hidden is not silent. Say the sentence and make her say it back.",
+      "Section 6 is the one that matters most and it is the course's own addition. Do it live, with the actual app or muṣḥaf she owns. If she owns two, do it with both and let her find the contradiction herself — being told that palettes disagree is worth far less than watching red change meaning between two books on her own table.",
+      "The failure mode the whole section exists to prevent is naming a colour from memory. If she does it, stop her mid-sentence: show me where the book says that. It is better caught today than at the capstone.",
+      "This is the last new Sabaq in the course. When she finishes it, mark the moment properly — say it out loud, write the date. She now holds eleven items complete, and the next session asks for all of them unaided."
     ],
     "listenFor": [
       {
-        "item": "Rules that hold up UNDER LOAD — as good on the eighth āyah as on the first.",
-        "commonMistake": "Clean at the top of the page, sloppy by the bottom.",
-        "whyItHappens": "Sustained precision is its own competency and it is the one the ijāzah exam actually tests. Every lesson so far handed her short items, so she has practised rules far more than endurance.",
-        "correctionCue": "You had it for three lines. Read the whole page again and I'll mark only the second half.",
+        "item": "Silence where the page says silence — the waṣl hamzah gone entirely when she joins.",
+        "commonMistake": "wa-istaghfirhu, wa-inḥar — an audible bump in the middle of the phrase.",
+        "whyItHappens": "The alif is visible and she is reading it. Her first language may not permit the consonant cluster that results from dropping it, so the correct form is physically awkward and not merely unfamiliar.",
+        "correctionCue": "Run the two words together with no bump. wastaghfirhu. Say it as one word.",
         "severityIfWrong": "jali",
-        "source": "library/05-Pedagogy/Assessment.md"
+        "source": "library/02-Rules/Hamzat-Wasl.md"
       },
       {
-        "item": "Identification and execution matching — the rule she names is the rule she then produces.",
-        "commonMistake": "Names ikhfāʾ correctly and recites a clear nūn.",
-        "whyItHappens": "Knowledge and production are separate skills. That is precisely why the Checkpoint scores them on separate axes, and why a combined number hides which one has failed.",
-        "correctionCue": "You know it. Now do it. Say the rule and then perform it, twice.",
+        "item": "A clean, correctly-vowelled start whenever she resumes on a ٱ word.",
+        "commonMistake": "il-ḥamdu for the article, or idkhulū for a command whose present tense carries a ḍammah.",
+        "whyItHappens": "Kasrah is the default across most branches, so the article — the most frequent case of all — is also the exception. And the present-tense lookup takes a second she does not have while reading at pace.",
+        "correctionCue": "Is it ٱل? Then it's an a. And for the verb: يَدْخُلُ, what's on the khāʾ? A ḍammah. So udkhulū.",
         "severityIfWrong": "jali",
-        "source": "library/05-Pedagogy/Assessment.md"
+        "source": "library/02-Rules/Hamzat-Wasl.md"
       },
       {
-        "item": "One madd length per session, held from the first āyah to the last.",
-        "commonMistake": "Lengths wandering under load even though 3-32 settled them.",
-        "whyItHappens": "Consistency is the first casualty when attention is split across six families at once. In isolation her lengths are fine, which is why only a full-page read catches this.",
-        "correctionCue": "Set the tempo before you start. Everything else fits inside it.",
-        "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Madd-Arid-Lissukun.md"
-      },
-      {
-        "item": "Every colour named FROM the legend of the book in her hands.",
-        "commonMistake": "Naming a colour from memory in a book she has never opened.",
-        "whyItHappens": "The palette she reads daily has stopped feeling like a fact about one app and started feeling like a fact about tajweed. It is the exact failure 3-35 was written to prevent.",
-        "correctionCue": "Show me where the book says that.",
+        "item": "The round zero never sounded, joining or stopping.",
+        "commonMistake": "The wāw of أُو۟لَٰٓئِكَ pronounced, or the final alif of فَلْيَعْبُدُوا۟ given a length.",
+        "whyItHappens": "It is a letter, it is written, and nothing in her reading experience so far says a written letter can be pure decoration.",
+        "correctionCue": "Look at the little circle. That's a zero. There is no wāw. ulāʾika.",
         "severityIfWrong": "jali",
         "source": "library/02-Rules/Silent-Letters.md"
       },
       {
-        "item": "All eleven items startable cold — al-Fātiḥa and 114 down to 105, no prompt, no starting syllable.",
-        "commonMistake": "Recall failing on the surahs learned earliest rather than the newest.",
-        "whyItHappens": "The Manzil rotation slipped while the new Sabaq took the attention. It is the predictable failure of the last six weeks and it lives in the timetable, not in her memory.",
-        "correctionCue": "Which two surahs did you revise yesterday? That's the gap, and it's in the timetable, not in your head.",
-        "severityIfWrong": "jali",
-        "source": "library/05-Pedagogy/Hifz-Method.md"
+        "item": "The oval zero silent when she joins and two counts when she stops — the difference tracked to whether she is actually stopping.",
+        "commonMistake": "anā read in the middle of a sentence.",
+        "whyItHappens": "anā is the form she knows from spoken Arabic and it is also the correct stop form, so she is right half the time and has never been corrected on the other half.",
+        "correctionCue": "Are you stopping on it? No. Then it's ana, short, straight into the next word.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Silent-Letters.md"
       },
       {
-        "item": "Errors written down rather than apologised for.",
-        "commonMistake": "Apologising after each mistake, which costs time and makes the next line worse.",
-        "whyItHappens": "The session feels like a test. It is a diagnostic, and the distinction is worth insisting on rather than smoothing over.",
-        "correctionCue": "Don't apologise, write it down. Every one of these has a drill and a lesson number attached to it.",
-        "severityIfWrong": "khafi",
-        "source": "library/05-Pedagogy/Assessment.md"
+        "item": "Unmarked merged and hidden letters still doing their acoustic work — not swept into today's category.",
+        "commonMistake": "Treating a mudgham or mukhfā letter as if it were silent.",
+        "whyItHappens": "Over-generalisation from this lesson: 'letters can be silent' becomes 'letters I can't hear clearly are silent'. It arrives within the same session, usually within twenty minutes.",
+        "correctionCue": "Is there a zero over it? No? Then it's doing work. Hidden is not silent.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Silent-Letters.md"
+      },
+      {
+        "item": "A colour named from the legend in front of her, not from memory.",
+        "commonMistake": "\"Red is qalqalah\" said about a book she has not checked.",
+        "whyItHappens": "She has read one app for months and the palette has stopped feeling like a fact about the app and started feeling like a fact about tajweed. The Quranly app says red is qalqalah; the printed Dar al-Maʿrifah muṣḥaf says red is madd; both are in wide use.",
+        "correctionCue": "Don't tell me what red means. Show me where the book says what red means.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
       }
     ],
-    "homework": "This is the fortnight before the Final Checkpoint, and the homework IS the flag list written at the end of the session — every item on it, with its drill, every day. Daily alongside it: one unseen plain page read aloud with the stops planned first and her own errors pencilled on the page, all fourteen pages brought in; the eleven items unaided in reverse muṣḥaf order — al-Fātiḥa then 114 down to 105 — followed by the Manzil rotation, with no new Sabaq because the set is complete; one coloured page from a palette she did not use the day before, legend read first every time; and وَلَا ٱلضَّآلِّينَ ten times with all four requirements each time. Weekly: the twenty questions asked by someone else and the score written down, twice a week apart — and if the second score is not higher than the first, she reports it before the Checkpoint rather than after it."
+    "homework": "Daily: al-Fīl 105:3–5 to 20–40 repetitions — the last new Sabaq in the course — with the Manzil rotation and Sabqi first and ten extra after any caught error, then from tomorrow al-Fīl whole and al-Fātiḥah followed by 114 down to 105 in one sitting; twenty ٱ words found on a page with a / i / u written beside each before reading, the page brought in for the written answers to be marked rather than the reading; ten three-letter commands run with the present tense said out loud first. Written: the seven samāʿī nouns on her card; and for every coloured muṣḥaf or app she owns, a written note of what RED means in it — a second one found online if she owns only one. Once in the week: al-Kawthar and an-Naṣr read aloud with وَٱنْحَرْ and وَٱسْتَغْفِرْهُ completely smooth, no bump, no glottal stop."
   },
   "videos": []
 }

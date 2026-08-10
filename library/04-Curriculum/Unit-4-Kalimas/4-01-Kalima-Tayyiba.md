@@ -5,7 +5,7 @@ unit: "4.1"
 stage: The Kalimas
 title: Kalima Ṭayyiba
 teaches: []
-prerequisites: ["3-36"]
+prerequisites: ["3-37"]
 status: needs-review
 sources: ["[[Muallimi-Soniy]]"]
 ---

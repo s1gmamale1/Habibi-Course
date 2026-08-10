@@ -7,7 +7,7 @@ english: Solar lām
 family: lam
 cpfair_key: lam_shamsiyyah
 colour_b: "#AAAAAA"
-taught_in: "3-12"
+taught_in: "3-13"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

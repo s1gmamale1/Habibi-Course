@@ -6,7 +6,7 @@ translit: al-Qalqalah (as a sifah)
 english: Echo — a bounce disturbing the makhraj on release
 family: sifat
 letters: [ق, ط, ب, ج, د]
-taught_in: "3-06"
+taught_in: "3-07"
 prerequisites: [shiddah, jahr]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

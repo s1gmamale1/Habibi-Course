@@ -2,418 +2,322 @@
   "id": "3-26",
   "phase": 3,
   "draft": true,
-  "unit": "3.5",
-  "title": "Idghām theory — the rule the last six lessons were instances of",
+  "unit": "3.4",
+  "title": "Revision and Q&A — the noon quartet, and the proof that nothing is left over",
   "objectives": [
-    "Student can classify two adjacent letters as mutamāthilān, mutajānisān, mutaqāribān or mutabāʿidān, and say which produce a merge.",
-    "Student can state why a madd letter never merges, and point at the instance in an-Nās.",
-    "Student can produce the heavy ت of أَحَطتُ — the signature error of the whole idghām syllabus.",
-    "Student can say why almost everything in this lesson is a reference example, and what that means for how she studies it."
+    "Student can name the rule on any noon sākinah or tanwīn, at reading speed, from the following letter alone.",
+    "Student can reproduce the partition — 6 + 4 + 2 + 1 + 15 = 28 — and say what it proves.",
+    "Student can read Quraysh 106:4 and name every ruling in it with no card.",
+    "Student can say, for each of the four rules, whether there is a nasal and how long it lasts."
   ],
   "prerequisites": [
-    "3-16",
+    "3-20",
+    "3-21",
+    "3-22",
+    "3-23",
     "3-25"
   ],
-  "stage": "Idghām Theory",
+  "stage": "Noon Sākinah & Tanwīn",
   "slides": [
     {
       "kind": "title",
-      "heading": "Lesson 3.26 — Idghām theory: mutamāthilayn, mutajānisayn, mutaqāribayn",
-      "arabicDecor": "عَبَدتُّمْ"
+      "heading": "Lesson 3.25 — Revision and Q&A: the noon quartet",
+      "arabicDecor": "مِّن جُوعٍ · مِّنْ خَوْفٍۭ"
     },
     {
       "kind": "concept",
-      "heading": "Two phrases — she has one memorised and does not know there is a rule in it",
+      "heading": "Write the arithmetic on the board and nothing else",
       "body": [
-        "عَابِدٌ مَّا عَبَدتُّمْ — al-Kāfirūn 109:4. She took this ayah as her Sabaq this hour.",
-        "Ask her to read it. Almost certainly she reads ʿabad-tum, carefully separating the د and the ت. It is not ʿabad-tum. It is ʿABAT-TUM — the د vanishes into the ت, which is doubled, and there is a shaddah printed on the page to say so.",
-        "Then the second: ٱلَّذِى يُوَسْوِسُ — an-Nās 114:5. Two yāʾs in direct contact, the ى ending ٱلَّذِى and the ي opening يُوَسْوِسُ. Identical letters, touching, and NOTHING HAPPENS. No merge at all.",
-        "Say the frame: for six lessons she has been merging letters. Today she finds out that the merging was never about noons and meems.",
-        "It is a general rule about what happens when two letters meet. The noon and meem cases were simply the frequent ones, taught first because they are everywhere. Today is the theory underneath, plus the small number of remaining cases — and one of them is in the sūrah she is memorising this hour.",
-        "This is the whole of stage 3.5, and it is a single lesson by design. Its revision was folded into 3-25, which had already covered the noon merges this lesson generalises. The next lesson opens the madd chapter."
+        "6 + 4 + 2 + 1 + 15 = 28.",
+        "Ask her what it is. She will get it — the noon rules and the alphabet — and getting it herself is the point. She was asked last session to work out why it has to add to 28; collect that answer before you give yours.",
+        "Then say what it proves, because this is the idea the whole session is built around: every letter of the Arabic alphabet appears EXACTLY ONCE in that sum. Nothing is left over. Nothing is counted twice.",
+        "The four noon rules are not four rules that happen to cover a lot of ground. They are a PARTITION. Whatever letter follows a closed noon, there is exactly one rule, and she can always name it — not because she has memorised enough cases, but because the cases are exhaustive by construction.",
+        "That is worth more than any individual rule in the chapter. It is the cleanest evidence available that the system is complete rather than merely long.",
+        "No new rule today, and no new Sabaq. Six lessons went into this chapter one rule at a time. This session puts them in the same room and shows her they are not six things."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The whole chapter in one table — put it up first and leave it up",
+      "body": [
+        "ء ه ع ح غ خ — SIX — nasal not prolonged — IẒHĀR ḤALQĪ — no colour at all.",
+        "ي ن م و — FOUR — 2 counts — IDGHĀM WITH GHUNNAH — #169777.",
+        "ل ر — TWO — no nasal — IDGHĀM WITHOUT GHUNNAH — #169200.",
+        "ب — ONE — 2 counts — IQLĀB — #26BFFD.",
+        "ص ذ ث ك ج ش ق س د ط ز ف ت ض ظ — FIFTEEN — 2 counts — IKHFĀʾ ḤAQĪQĪ — #9400A8.",
+        "Twenty-eight. Run the table BOTH WAYS for sixty seconds: you say a letter, she says the rule; you say a rule, she says the letters and the count. Wherever she is slow is where the session's minutes go."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The four facts the table does not show — and the exam will ask for all four",
+      "body": [
+        "One. TANWĪN counts as a noon sākinah, everywhere, in every one of the four rules. There is no rule in this chapter that treats it differently.",
+        "Two. The two MERGES need a word boundary. Iẓhār, iqlāb and ikhfāʾ do not. أَنتُمْ is the cheapest proof: concealment inside one word, no boundary anywhere.",
+        "Three. The four exception words — ٱلدُّنْيَا · بُنْيَٰنٌ · صِنْوَانٌ · قِنْوَانٌ — are iẓhār muṭlaq: the merge is cancelled inside a word. Exactly four in the whole Qurʾān, and she knows all four.",
+        "Four. ي and و merge INCOMPLETELY — nāqiṣ. No shaddah on the page, and the nasal survives anyway. The missing shaddah says the merge is incomplete; it does not say the nasal is gone.",
+        "Those four sit underneath the table and none of them is visible in it. Write them under the table and leave them up too."
       ],
       "items": [
         {
-          "arabic": "عَبَدتُّمْ",
-          "translit": "ʿabattum",
+          "arabic": "ٱلدُّنْيَا",
           "audio": {
             "type": "teacher-voice",
-            "cue": "109:4 — the only mutajānisayn in the hifz set, in the sūrah she is memorising this hour, and nobody notices it. Have her say it wrong once, deliberately, then right, then recite the ayah whole."
+            "cue": "2:85 — reference example, outside your memorised sūrahs. Iẓhār muṭlaq. Ask for it cold, six weeks after the merging drills started."
           }
         },
         {
-          "arabic": "ٱلَّذِى يُوَسْوِسُ",
+          "arabic": "بُنْيَٰنٌ مَّرْصُوصٌ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "114:5 — two yāʾs, no merge, because the first is a madd. an-Nās is the earliest sūrah she memorised, so this exception is checkable from memory rather than from a reference. That is rare in this lesson."
+            "cue": "61:4 — reference example. One word then two words, four letters apart: no merge, then a full one."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 4,
+      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "106:4 — the richest ayah in the course, and she has it memorised. Eight words. Take the card away today and have her name everything in it unprompted: two idghām shafawī, an ikhfāʾ ḥaqīqī, an idghām with ghunnah (nāqiṣ), an iẓhār ḥalqī, and an iqlāb on the way out. Four of the five noon rules and one meem rule, twice."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 112,
+      "ayah": 4,
+      "translation": "And there is none comparable to Him.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "112:4 — the other half of the pair. It supplies the one noon rule 106:4 is missing: يَكُن لَّهُۥ, a merge with no nasal at all. Also in it — an iẓhār shafawī on وَلَمْ, a throat iẓhār on كُفُوًا أَحَدٌۢ, and an iqlāb on the join out to al-Falaq. Two ayāt, both memorised, and between them the whole noon chapter."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "The gold contrast — same word, opposite treatment, and give it real time",
+      "body": [
+        "Quraysh 106:4 contains ikhfāʾ and iẓhār in the SAME AYAH, on the SAME WORD.",
+        "مِّن جُوعٍ — ج. CONCEALED. Tongue never touches, two-count nasal, violet on the page.",
+        "مِّنْ خَوْفٍۭ — خ. PLAIN. Tongue touches, no hold, no colour at all.",
+        "Same word, مِن. Same position in the sentence. Opposite treatment, decided entirely by the next letter. This is the single best drill in the whole nasal syllabus, and it is inside a sūrah she recites from memory.",
+        "Then point at the orthography one more time: the muṣḥaf prints the sukūn on مِّنْ and leaves it bare on مِّن. The page told her the answer before any colour was applied.",
+        "Ten times, alternating, then the whole ayah in one breath. This drill does not retire — it stays in the weekly rotation after this chapter closes."
+      ],
+      "items": [
+        {
+          "arabic": "مِّن جُوعٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 — conceal, two counts. No printed sukūn, no shaddah on the ج."
+          }
+        },
+        {
+          "arabic": "مِّنْ خَوْفٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 — say it, no hold. Printed sukūn, and plain black on a coloured page."
           }
         }
       ]
     },
     {
       "kind": "concept",
-      "heading": "Six lessons of flags, collected in one place",
+      "heading": "Count the card again — it says five and there are six",
       "body": [
-        "3-16 taught idghām shafawī — م into م — and told her at the time that it is 'the general rule for two identical letters, applied to the meem', with the general theory promised for this lesson. Collect that flag.",
-        "3-20 taught ن into ن and ن into م. Both are the same general rule.",
-        "3-21 taught ن into ل and ر. She will see it again today from the other side, and be told it was never a special case.",
-        "3-25 proved the noon chapter is a partition. Today's classification is a DIFFERENT partition — of letter PAIRS rather than of the alphabet — and it is worth naming the similarity out loud.",
-        "2-07 gave the madd letters. That lesson does real work today and it is what the exception in an-Nās turns on.",
-        "3-03 gave isti'lā and iṭbāq. Those two attributes are the entire content of the أَحَطتُ case, which is the ten minutes of this lesson that matter most."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "The classification — short, and everything hangs off it",
-      "body": [
-        "Idghām is classified by HOW RELATED the two letters are.",
-        "MUTAMĀTHILĀN — 'the two alike': same makhraj, same ṣifāt. Merges ALWAYS.",
-        "MUTAJĀNISĀN — 'the two of one kind': same makhraj, different ṣifāt. Merges in seven pairings.",
-        "MUTAQĀRIBĀN — 'the two near each other': close makhraj, close ṣifāt. Merges in specific pairings.",
-        "MUTABĀʿIDĀN — 'the two far apart': far makhraj, far ṣifāt. NO merge, always iẓhār. That fourth row is why most letter sequences in the Qurʾān have no rule at all — say it, because it stops her scanning every word for a hidden idghām.",
-        "Then the second classification, by VOWEL STATE, and close two of its three rows immediately. ṢAGHĪR — first sākin, second vowelled: idghām wherever the pair permits. KABĪR — both vowelled: almost none in Ḥafṣ, two words. MUṬLAQ — first vowelled, second sākin: never. Everything in this course is ṣaghīr, and that is not a simplification of the syllabus — it is what Ḥafṣ actually transmits. Say it plainly so she does not go looking for the other two."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Mutamāthilayn — the easy one, and she has been doing it since 3-16",
-      "body": [
-        "Two identical letters, the first sākin: ALWAYS kāmil. Two identical letters have nothing to distinguish them, so nothing survives the merge. The second takes a shaddah and is held.",
-        "ٱضْرِب بِّعَصَاكَ (26:63) — ب into ب. · قَد دَّخَلُوا (5:61) — د into د. · بَل لَّا يَخَافُونَ (74:53) — ل into ل. All three reference examples, outside your memorised sūrahs.",
-        "أَطْعَمَهُم مِّن (106:4) — م into م, which is 3-16. · مِّن نِّعْمَةٍ (16:53) — ن into ن, which is 3-20.",
-        "The last two are the point. She has been doing mutamāthilayn since 3-16 under a different name, and she should hear that as a promotion rather than as new material.",
-        "Mutamāthilayn has no colour and no cpfair key. Its two frequent cases are already annotated under their own names — idghaam_shafawi and idghaam_ghunnah — so there is no separate category for the general rule.",
-        "ٱضْرِب بِّعَصَاكَ shows nothing on a coloured page but the shaddah. THE SHADDAH IS THE ANNOTATION, and that generalises: a shaddah on the first letter of a word, where the previous word ended in the same letter, IS an idghām mark regardless of colour."
+        "The card she has carried since 3-17 lists five phrases. Count the ayah properly today and there are SIX rule instances in it, because idghām shafawī occurs TWICE.",
+        "أَطْعَمَهُم مِّن — meem sākinah into a meem. Idghām shafawī, 3-17, two counts.",
+        "مِّن جُوعٍ — ikhfāʾ ḥaqīqī, 3-24, two counts, light.",
+        "جُوعٍ وَءَامَنَهُم — idghām with ghunnah, NĀQIṢ, 3-21, two counts, no shaddah on the و.",
+        "وَءَامَنَهُم مِّنْ — meem sākinah into a meem again. A SECOND idghām shafawī, and it is the one nobody counts, because by that point in the ayah she is already looking ahead to خَوْفٍۭ.",
+        "مِّنْ خَوْفٍۭ — iẓhār ḥalqī, 3-20, no hold. · خَوْفٍۭ → بِسْمِ — iqlāb, 3-23, two counts, on continuing only.",
+        "Eight words. Six rule instances, five distinct rules, two chapters. Ask her to find the sixth herself before you point at it — she has recited past وَءَامَنَهُم مِّنْ every day for weeks."
       ],
       "items": [
-        {
-          "arabic": "ٱضْرِب بِّعَصَاكَ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "26:63 — reference example, outside your memorised sūrahs. ب into ب, the standard mutamāthilayn example. No colour on the page; the shaddah is the whole marking."
-          }
-        },
-        {
-          "arabic": "قَد دَّخَلُوا",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "5:61 — reference example. د into د."
-          }
-        },
-        {
-          "arabic": "بَل لَّا يَخَافُونَ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "74:53 — reference example. ل into ل."
-          }
-        },
         {
           "arabic": "أَطْعَمَهُم مِّن",
           "audio": {
             "type": "teacher-voice",
-            "cue": "106:4 — in her hifz. م into م. This is 3-16, and she has been doing mutamāthilayn for ten lessons without the name."
+            "cue": "106:4 — idghām shafawī, the first one. Lips fully closed, doubled meem, two counts."
+          }
+        },
+        {
+          "arabic": "وَءَامَنَهُم مِّنْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 — idghām shafawī, the SECOND one. Identical operation, four words later, and it is the instance that gets missed."
+          }
+        },
+        {
+          "arabic": "جُوعٍ وَءَامَنَهُم",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 — idghām with ghunnah, nāqiṣ. No shaddah on the و and the nasal is the departed noon's."
           }
         }
       ]
     },
     {
       "kind": "concept",
-      "heading": "The exception — and it is inside her hifz",
+      "heading": "Two ayāt exhaust the entire chapter",
       "body": [
-        "If the FIRST of the two identical letters is a madd letter — or a leen letter — there is NO idghām. The letter is a vowel-carrier, not a consonant to be absorbed; merging it would destroy the prolongation.",
-        "ٱلَّذِى يُوَسْوِسُ — an-Nās 114:5. Two yāʾs in sequence, and nothing happens. Point at it directly: 'two yāʾs, no merge, because the first one is a madd.'",
-        "Also قَالُوا۟ وَٱللَّهِ (6:23) and فِى يَوْمٍ (70:4), on the same principle — a wāw madd before a wāw, a yāʾ madd before a yāʾ.",
-        "This is the ONE part of today's lesson she can check against her own memory, and an-Nās is the earliest sūrah she memorised. Lean on it, and use it as the anchor for the whole madd-letter principle.",
-        "The correction cue when she does merge it: 'the first one is not a consonant. It is a vowel wearing a consonant's shape.'"
+        "Count 106:4 against the table: it contains FOUR of the five noon rulings. Iẓhār, ikhfāʾ, idghām with ghunnah, iqlāb — every family except idghām without ghunnah.",
+        "And the one it is missing she can supply from memory in four words: وَلَمْ يَكُن لَّهُۥ, al-Ikhlāṣ 112:4.",
+        "So two ayāt — one from Quraysh, one from al-Ikhlāṣ — exhaust the whole noon chapter. Both memorised. Neither needs a reference.",
+        "112:4 alone gives four rulings of its own: an iẓhār shafawī on وَلَمْ, a merge without ghunnah on يَكُن لَّهُۥ, a throat iẓhār on كُفُوًا أَحَدٌۢ, and an iqlāb on the join out.",
+        "Between the two ayāt she produces all five noon rules and two of the three meem rules. Only ikhfāʾ shafawī is missing from the pair, and that one lives in al-Fīl 105:4 — تَرْمِيهِم بِحِجَارَةٍ — which she also has by heart.",
+        "If she wants a single thing to carry out of six lessons, it is those two lines and the ability to name everything in them."
       ],
       "items": [
         {
-          "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+          "arabic": "وَلَمْ يَكُن لَّهُۥ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "114:5 — in her hifz. Two yāʾs touching, and the madd is intact. If it collapses into one long yāʾ, the madd has been eaten."
+            "cue": "112:4 — the missing fifth. Merge with NO nasal. Pinch it: nothing should change."
           }
         },
         {
-          "arabic": "قَالُوا۟ وَٱللَّهِ",
+          "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "6:23 — reference example, outside your memorised sūrahs. A wāw madd before a wāw. Same principle."
-          }
-        },
-        {
-          "arabic": "فِى يَوْمٍ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "70:4 — reference example. A yāʾ madd before a yāʾ."
-          }
-        }
-      ]
-    },
-    {
-      "kind": "ayah",
-      "surah": 109,
-      "ayah": 4,
-      "translation": "Nor will I be a worshipper of what you worship.",
-      "audio": {
-        "type": "teacher-voice",
-        "cue": "109:4 — today's new Sabaq and today's rule, in the same ayah. عَبَدتُّمْ is the ONLY mutajānisayn in the hifz set — د into ت, kāmil, ʿabattum. Also in it: عَابِدٌ مَّا, a tanwīn into a م, which is idghām with ghunnah from 3-20, two counts. Memorise first, run the rule over it second, then recite the sūrah whole with the merge intact."
-      }
-    },
-    {
-      "kind": "ayah",
-      "surah": 114,
-      "ayah": 5,
-      "translation": "Who whispers in the breasts of mankind.",
-      "audio": {
-        "type": "teacher-voice",
-        "cue": "114:5 — the exception, and the earliest sūrah she memorised. Two yāʾs in contact and no merge, because the first is a madd letter. The one thing in this lesson she can verify against her own memory rather than against a reference."
-      }
-    },
-    {
-      "kind": "rule",
-      "ruleId": "idghaam_mutajanisayn",
-      "heading": "Mutajānisayn — same makhraj, different ṣifāt. A closed list of seven.",
-      "condition": "A sākin letter followed by a letter from the same makhraj but with different ṣifāt. Seven pairings in the whole Qurʾān.",
-      "letters": [
-        "د",
-        "ت",
-        "ط",
-        "ذ",
-        "ظ",
-        "ث",
-        "ب",
-        "م"
-      ],
-      "body": [
-        "د → ت, kāmil: قَد تَّبَيَّنَ (2:256) and عَبَدتُّمْ (109:4). · ت → د, kāmil: أَثْقَلَت دَّعَوَا (7:189). · ت → ط, kāmil: وَقَالَت طَّآئِفَةٌ (3:72).",
-        "ط → ت, NĀQIṢ: أَحَطتُ (27:22), بَسَطتَ (5:28), فَرَّطتُمْ (12:80). This one is the real content of the lesson.",
-        "ذ → ظ, kāmil: إِذ ظَّلَمُوٓا۟ (4:64). · ث → ذ, kāmil: يَلْهَث ذَّٰلِكَ (7:176) — the ONLY occurrence in the Qurʾān. · ب → م, kāmil: ٱرْكَب مَّعَنَا (11:42) — also the only occurrence.",
-        "Teach it as THREE MAKHRAJ GROUPS, not seven rows: the gum-ridge plosives (د ت ط), the tongue-and-teeth fricatives (ذ ظ ث), and the lips (ب م). Three groups survive a week; seven rows do not.",
-        "Everything on that list except عَبَدتُّمْ is a reference example — outside your memorised sūrahs. Say the label every time."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "ط → ت is nāqiṣ — give this your best ten minutes",
-      "body": [
-        "Every pairing above is complete EXCEPT ط → ت. When a sākin ط merges into a ت, the ط's IṬBĀQ — the tongue's rise to the roof — and its ISTI'LĀ SURVIVE. The letter becomes a ت; its heaviness does not go with it.",
-        "So أَحَطتُ is NOT aḥattu. It is a ت pronounced with the tongue still raised — a heavy, hollow ت that sounds unlike any other ت in the Qurʾān. Same in بَسَطتَ and فَرَّطتُمْ.",
-        "This is the classic error in the whole idghām syllabus. A learner told 'the ط merges' flattens it, and the word appears once — so the mistake, once made, is almost never corrected by anyone.",
-        "Say it heavy, say it flat, and make HER tell you which was which. If the two versions sound the same to her, the tongue is not rising: have her say a plain ط first, feel where the tongue goes, then keep it there and say the ت. Physical, not explanatory.",
-        "Then the orthography, one more time: the ت in أَحَطتُ carries NO SHADDAH, exactly as ي and و carry none after a merged noon in 3-20. A missing shaddah on a merged letter is the muṣḥaf's standing signal for nāqiṣ. That convention has now appeared in three separate lessons; she should be able to state it herself.",
-        "Do not let this become a footnote because the word appears once. It is the single most-flattened letter in the tradition, and the reason it stays flattened is precisely that the word is rare enough that nobody hears it often enough to correct."
-      ],
-      "items": [
-        {
-          "arabic": "أَحَطتُ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "27:22 — reference example, outside your memorised sūrahs. NĀQIṢ: the heaviness survives. No shaddah on the ت, and that missing shaddah is the tell."
-          }
-        },
-        {
-          "arabic": "لَئِنۢ بَسَطتَ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "5:28 — reference example. The same heavy ت — and an iqlāb from 3-22 two words earlier, on لَئِنۢ. Two rules in three words."
-          }
-        },
-        {
-          "arabic": "فَرَّطتُمْ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "12:80 — reference example. The third and last of the ط → ت words."
-          }
-        }
-      ]
-    },
-    {
-      "kind": "rule",
-      "ruleId": "idghaam_mutaqaribayn",
-      "heading": "Mutaqāribayn — close but not identical. Very few cases.",
-      "condition": "A sākin letter followed by a letter whose makhraj and ṣifāt are close but not the same. Specific pairings only.",
-      "letters": [
-        "ل",
-        "ر",
-        "ق",
-        "ك",
-        "ن"
-      ],
-      "body": [
-        "ل → ر, kāmil: قُل رَّبِّ (23:118) and بَل رَّفَعَهُ (4:158). Reference examples — outside your memorised sūrahs.",
-        "ق → ك, NĀQIṢ per most and kāmil per some: نَخْلُقكُّم (77:20) — the only occurrence in the Qurʾān. Reference example.",
-        "ن → ل and ن → ر, kāmil: وَلَمْ يَكُن لَّهُۥ (112:4) and فَوَيْلٌ لِّلْمُصَلِّينَ (107:4). In her hifz — but this row is NOT new.",
-        "That third row is 3-21, seen from the theory side. Say so explicitly: 'it was never a special case.' It is what happens when three letters share the gum ridge and two of them are near enough to absorb the third. And ل → ر is the MIRROR of it — the same two letters, merging the other way.",
-        "There is no ل → ر and no ق → ك anywhere in al-Fātiḥa or sūrahs 105–114. Say the gap out loud; she cannot check either row against her own memory. Teach the relationship from وَلَمْ يَكُن لَّهُۥ, which she owns, and then generalise to قُل رَّبِّ, which she does not."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Two counts that are both true, and two disagreements that are not errors",
-      "body": [
-        "A note on counting, worth understanding rather than memorising. Search the cpfair dataset for idghaam_mutaqaribayn inside the hifz set and you get ZERO HITS — even though وَلَمْ يَكُن لَّهُۥ and فَوَيْلٌ لِّلْمُصَلِّينَ are sitting right there in al-Ikhlāṣ and al-Māʿūn.",
-        "The reason is that both are annotated as idghaam_no_ghunnah, under the noon chapter where they are TAUGHT, not under the phonetic relationship they BELONG TO. The dataset is not wrong and neither is the classification; they answer different questions. Both counts are true at once: zero annotated mutaqāribayn in her hifz, two mutaqāribayn merges in her hifz.",
-        "نَخْلُقكُّم — al-Mursalāt 77:20, the only place where a sākin ق meets a ك. Ḥafṣ transmits BOTH readings. NĀQIṢ: the ق's body merges but its isti'lā remains, so the ك is heavy — this is the more common teaching and what this course teaches. KĀMIL: the ق disappears entirely and a plain doubled ك is heard. Both are valid; neither is an error, and this is one of the few places where she will hear two reciters differ and needs to know it is not a mistake.",
-        "Note that the pattern is identical to ط → ت: a heavy letter merges, and the argument is over whether the heaviness travels. In both cases the missing shaddah is the tell.",
-        "ٱرْكَب مَّعَنَا — a disagreement about the LABEL, not the sound. Some classify it as mutajānisayn (ب and م are both labial); others as mutaqāribayn (within the lips, the two points are argued to be distinct). Both camps merge the ب into the م and hold the shaddah with a nasal. This course files it under mutajānisayn. Pick one and be consistent — a learner who meets both labels in two books will assume they are two different rules."
-      ],
-      "items": [
-        {
-          "arabic": "أَلَمْ نَخْلُقكُّم",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "77:20 — reference example, outside your memorised sūrahs. Two transmitted readings; this course teaches nāqiṣ, so the ك is heavy."
-          }
-        },
-        {
-          "arabic": "ٱرْكَب مَّعَنَا",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "11:42 — reference example. The only occurrence, and its label is disputed. Both camps produce the same sound."
-          }
-        },
-        {
-          "arabic": "قُل رَّبِّ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "23:118 — reference example. ل → ر, kāmil. The mirror of the ن → ر she already owns."
-          }
-        }
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Idghām kabīr — mention it, close it, and warn her about recordings",
-      "body": [
-        "When BOTH letters carry a vowel, Ḥafṣ merges in exactly TWO WORDS.",
-        "تَأْمَ۫نَّا — Yūsuf 12:11, originally تَأْمَنُنَا, read with ISHMĀM — the lips round silently on the merged ن — or with rawm / ikhtilās, a fraction of the vowel sounded. Both transmitted.",
-        "مَكَّنِّى — al-Kahf 18:95. That is the complete list.",
-        "Idghām kabīr as a SYSTEM belongs to Abū ʿAmr al-Baṣrī, not to Ḥafṣ. Say this explicitly: a learner who listens to Abū ʿAmr recitations will hear merges that are simply not available in the reading she is being taught, and will conclude she has been taught wrongly.",
-        "When she imports one, name the reading rather than calling it an error: 'that is Abū ʿAmr. In Ḥafṣ there are two kabīr merges and you know both.' She is imitating a reciter in a different reading and has no way to know that on her own."
-      ],
-      "items": [
-        {
-          "arabic": "تَأْمَ۫نَّا",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "12:11 — reference example, outside your memorised sūrahs. One of only two idghām kabīr in Ḥafṣ, and read with ishmām."
-          }
-        },
-        {
-          "arabic": "مَكَّنِّى",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "18:95 — reference example. The second and last."
+            "cue": "105:4 — the only meem rule the two anchor ayāt do not supply. Ikhfāʾ shafawī, 3-16."
           }
         }
       ]
     },
     {
       "kind": "contrast",
-      "heading": "Three relationships, and the one where nothing happens",
+      "heading": "One ayah, both chapters — the anchor, taken apart",
       "pairs": [
         {
-          "surah": 109,
+          "surah": 106,
           "ayah": 4,
-          "text": "عَبَدتُّمْ",
-          "rule": "idghaam_mutajanisayn",
-          "note": "MUTAJĀNISAYN, kāmil. د into ت — same makhraj, different ṣifāt. The shaddah is printed on the ت, so the merge is complete: ʿabattum, not ʿabad-tum. The only mutajānisayn in her hifz, and she is memorising it this hour. Grey, #8A8A8A."
+          "text": "أَطْعَمَهُم مِّن",
+          "rule": "idghaam_shafawi",
+          "note": "MEEM chapter. A meem sākinah into a meem: doubled, lips fully closed, 2 counts. #58B800. And وَءَامَنَهُم مِّنْ four words later is the SAME rule again — two idghām shafawī in one ayah, and the second is the one that gets missed."
         },
         {
-          "surah": 27,
-          "ayah": 22,
-          "text": "أَحَطتُ",
-          "rule": "idghaam_mutajanisayn",
-          "note": "MUTAJĀNISAYN, NĀQIṢ. ط into ت — and NO shaddah on the ت. The body merges; the iṭbāq and isti'lā do not. A heavy, hollow ت unlike any other in the Qurʾān. Same rule as the row above, same colour, opposite completeness — and the page said so. Reference example — outside your memorised sūrahs."
+          "surah": 106,
+          "ayah": 4,
+          "text": "مِّن جُوعٍ",
+          "rule": "ikhfa",
+          "note": "NOON chapter. Concealed: 2 counts, no shaddah on the ج, tongue never arrives. #9400A8. Four words later مِّنْ خَوْفٍۭ has NO colour and no cpfair key at all — because iẓhār is the absence of a modification, and only modifications are annotated. No colour is itself a signal."
         },
         {
-          "surah": 23,
-          "ayah": 118,
-          "text": "قُل رَّبِّ",
-          "rule": "idghaam_mutaqaribayn",
-          "note": "MUTAQĀRIBAYN, kāmil. ل into ر — close, not identical. Grey too: mutajānisayn and mutaqāribayn deliberately share one colour, because both are rare and structurally similar. Grey reads as 'something merged here — look it up'. Reference example — outside your memorised sūrahs."
+          "surah": 106,
+          "ayah": 4,
+          "text": "جُوعٍ وَءَامَنَهُم",
+          "rule": "idghaam_ghunnah",
+          "note": "NOON chapter. Tanwīn + و, NĀQIṢ: no shaddah printed on the و, and the 2-count nasal is still there — it belongs to the departed noon. #169777."
         },
         {
-          "surah": 114,
-          "ayah": 5,
-          "text": "ٱلَّذِى يُوَسْوِسُ",
-          "rule": "madd_2",
-          "note": "MUTABĀʿIDĀN is not the only way to get no merge. Here the letters are IDENTICAL — two yāʾs, touching — and still nothing happens, because the first is a madd letter. The colour on the page belongs to the madd, not to any merge. In her hifz, and the one row here she can verify from memory."
+          "surah": 112,
+          "ayah": 4,
+          "text": "وَلَمْ يَكُن لَّهُۥ",
+          "rule": "idghaam_no_ghunnah",
+          "note": "The one ruling 106:4 does not contain, supplied from al-Ikhlāṣ. Merge with NO nasal at all; the doubled lām is held for an ordinary shadda. #169200 — and that is nearly the same green as the row above, which is exactly why she reads the LETTER, not the hue."
+        },
+        {
+          "surah": 112,
+          "ayah": 4,
+          "text": "أَحَدٌۢ",
+          "rule": "iqlab",
+          "note": "The join out. A tanwīn before the ب of the next sūrah's basmalah becomes a concealed meem, 2 counts. #26BFFD — and it fires only if she continues. Stop, and there is no tanwīn and no rule."
         }
       ]
     },
     {
       "kind": "legend",
-      "heading": "The merges she now has names for — old and new",
+      "heading": "Everything she has been taught since 3-15, on one card",
       "rules": [
+        "ghunnah",
         "idghaam_shafawi",
+        "ikhfa_shafawi",
         "idghaam_ghunnah",
         "idghaam_no_ghunnah",
-        "idghaam_mutajanisayn",
-        "idghaam_mutaqaribayn"
+        "iqlab",
+        "ikhfa"
       ]
     },
     {
       "kind": "concept",
-      "heading": "Colour, an admitted inconsistency, and how to study this lesson",
+      "heading": "Colour — four hues, one absence, and what each of them is for",
       "body": [
-        "Mutajānisayn and mutaqāribayn share ONE grey, #8A8A8A. Deliberately: both are rare, structurally similar, and not worth two colours a reader must separate under pressure. Grey reads as 'something merged here — look it up', which is the correct instruction for a rule with fewer than thirty occurrences in the whole text.",
-        "Mutamāthilayn has no colour and no key at all. Its frequent cases are annotated under their own names, so the general rule has no category of its own. The shaddah is the annotation.",
-        "And an inconsistency worth admitting rather than hiding: ن → ل and ن → ر are coloured #169200 as idghām bilā ghunnah, NOT grey, even though they are mutaqāribayn merges. The palette classifies by WHERE THE RULE IS TAUGHT, not by WHAT THE PHONETICS ARE. Both classifications are correct; they answer different questions. It is the same fact as the zero-hits count above, seen from the colour side.",
-        "Then say the study strategy out loud, because this lesson is different in kind from the last six. Almost every example today is a reference example — outside your memorised sūrahs — and several are the only occurrence in the entire Qurʾān.",
-        "This is NOT a rule to drill into reflex. It is a rule to RECOGNISE. Learn the classification, learn أَحَطتُ, learn the two in her hifz, and treat the rest as a lookup — which is exactly what the grey colour is telling her to do.",
-        "Saying that plainly protects her from two failures at once: grinding on material that does not repay drilling, and feeling that she has failed to master something she was never meant to master by reflex."
+        "#169777 idghām with ghunnah · #169200 idghām without · #26BFFD iqlāb · #9400A8 ikhfāʾ ḥaqīqī. Four rules, four colours.",
+        "And iẓhār has NONE. cpfair does not annotate it at all — not because it was forgotten, but because iẓhār is the ABSENCE of a modification, and the dataset annotates modifications.",
+        "So on a coloured page the noon of مِّنْ خَوْفٍۭ is plain black, and the noon of ٱلدُّنْيَا is plain black, and that black is a positive instruction: say exactly what is written. NO COLOUR IS ITSELF A SIGNAL. Make her state it rather than saying it for her — she has now met the same argument in 3-18, 3-20, 3-21 and 3-24.",
+        "The two greens are nearly the same colour, and that is a real defect of the palette, not a failure of her eyes. Read the LETTER, not the hue: ي ن م و hum; ل ر do not. On a badly printed page, or a phone at night, the letter is the only reliable evidence.",
+        "And the colour never distinguishes kāmil from nāqiṣ, never gives the weight of an ikhfāʾ nasal, and never gives its degree. The colours locate rules; they do not execute them. That is the general limit, and by now she should be able to say it back."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The questions that actually get asked — I",
+      "body": [
+        "'Why does 6 + 4 + 2 + 1 + 15 HAVE to equal 28?' Because the rules are defined by exclusion. Iẓhār takes the six throat letters. The merges take six more. Iqlāb takes one. Ikhfāʾ is defined as 'everything else' — its fifteen letters are not a chosen list, they are the remainder. So the sum cannot come out to anything but 28. That is why you can always name the rule: there is nowhere for a letter to hide.",
+        "'Idghām with ghunnah and ikhfāʾ both hum for two counts. How do I HEAR the difference?' You hear it in the following letter, not in the hum. Idghām doubles it; ikhfāʾ does not. مِّن نِّعْمَةٍ has a shaddah on the ن; مِّن جُوعٍ has none on the ج. And you SEE it before you hear it — the shaddah is printed.",
+        "'The two greens look the same to me.' They nearly are, and that is a real defect of the palette. Read the letter, not the hue.",
+        "'Iqlāb and ikhfāʾ shafawī sound identical.' They are identical, or near enough that nobody can reliably separate them by ear. The difference is on the page: a noon or tanwīn before ب is iqlāb; a meem before ب is ikhfāʾ shafawī. Look, do not listen. This is the one place in the chapter where the ear is not the instrument.",
+        "'If I stop at the end of al-Ikhlāṣ, is أَحَدٌۢ still an iqlāb?' No. Stopping drops the tanwīn, and with it the noon sound the rule acts on. No tanwīn, no rule — just a plain aḥad. The small meem stays printed because the page cannot know whether you will stop."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The questions that actually get asked — II",
+      "body": [
+        "'ٱلدُّنْيَا has a noon before a ي. Why doesn't it merge?' Because merging needs a word boundary and this is one word. If it merged you would get ad-duyyā, and the root would be unrecoverable from the sound. There are exactly four such words in the whole Qurʾān and you know all four.",
+        "'مَن يَقُولُ has no shaddah on the ي. Does that mean there is no merge?' There is a merge, but an incomplete one — nāqiṣ. The noon's body goes into the ي; its NASAL stays behind. The missing shaddah tells you the merge is incomplete. It does not tell you the nasal is gone. This is the most-dropped nasal in the chapter.",
+        "'Do I have to memorise the fifteen ikhfāʾ letters?' For the exam, yes — learn the couplet, not the letters. For reading, no: check throat, يَنْمُو, ل/ر, ب, and everything that falls through is ikhfāʾ. Four checks instead of fifteen.",
+        "'Why does iẓhār have no colour when it is a rule like any other?' Because colour marks MODIFICATIONS, and iẓhār is the absence of one. The noon on the page is the noon in your mouth. Black means 'say exactly what is written' — a positive instruction. You met the same argument on the meem side in 3-18.",
+        "'My ikhfāʾ hum before ق sounds almost like a plain noon. Am I doing it wrong?' Probably not. ق and ك are adnā — the furthest of the fifteen from the noon's makhraj — so the concealment is genuinely lightest there. The test is the tongue: it still must not touch the gum ridge. If it does not, you are correct even if it sounds nearly plain.",
+        "'Is a noon with a VOWEL on it ever in this chapter?' No. Every rule here needs a closed noon or a tanwīn. نَصْرُ, نَعْبُدُ, مَنَعَ — nothing applies. Being able to look at a line and say 'no noon rule here' is itself the skill."
       ]
     },
     {
       "kind": "drill",
-      "heading": "Classify, out loud",
-      "instructions": "For each pair of adjacent letters, say 'alike', 'one kind', 'near' or 'far', then say whether it merges. The fourth answer is the one that matters most — most letter sequences in the Qurʾān are 'far', and knowing that stops you scanning every word for a hidden idghām.",
+      "heading": "The partition, from memory",
+      "instructions": "On a blank sheet, write the five rows: letters, count, nasal, rule name. Then add them up. If the total is not 28, FIND THE MISSING LETTER before you look at anything. Finding your own gap is the exercise. Do this on day one and day five and compare the two attempts without looking at the first.",
       "grid": [
         [
           {
-            "arabic": "ب · ب",
+            "arabic": "ء · ه · ع · ح · غ · خ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "ALIKE — mutamāthilān. Merges, always, kāmil."
+              "cue": "6 — iẓhār ḥalqī. Not prolonged. No colour."
             }
           },
           {
-            "arabic": "د · ت",
+            "arabic": "يَنْمُو",
             "audio": {
               "type": "teacher-voice",
-              "cue": "ONE KIND — mutajānisān. Merges, kāmil."
+              "cue": "4 — idghām with ghunnah. 2 counts. ن م kāmil, ي و nāqiṣ."
             }
-          },
+          }
+        ],
+        [
           {
             "arabic": "ل · ر",
             "audio": {
               "type": "teacher-voice",
-              "cue": "NEAR — mutaqāribān. Merges, kāmil."
+              "cue": "2 — idghām without ghunnah. No nasal at all."
+            }
+          },
+          {
+            "arabic": "ب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1 — iqlāb. 2 counts, at the lips."
             }
           }
         ],
         [
           {
-            "arabic": "م · ك",
+            "arabic": "صِفْ ذَا ثَنَا كَمْ جَادَ شَخْصٌ قَدْ سَمَا",
             "audio": {
               "type": "teacher-voice",
-              "cue": "FAR — mutabāʿidān. NO merge. Iẓhār, always."
-            }
-          },
-          {
-            "arabic": "ن · ل",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "NEAR. Merges — and this is 3-21, which she already owns."
-            }
-          },
-          {
-            "arabic": "س · ق",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "FAR. No merge."
+              "cue": "15 — ikhfāʾ ḥaqīqī. 2 counts, no shaddah. The remainder, and therefore the default. 6+4+2+1+15 = 28."
             }
           }
         ]
@@ -421,38 +325,61 @@
     },
     {
       "kind": "drill",
-      "heading": "The two in your hifz",
-      "instructions": "Ten times each, then in the whole ayah. These are the only two rows in the lesson she can check against her own memory, so they carry the weight of the rest.",
+      "heading": "The gold contrast, and one word with five futures",
+      "instructions": "First: مِّن جُوعٍ against مِّنْ خَوْفٍۭ, ten times alternating, then the whole ayah in one breath. Then the second row — the same word مِن, five times, each running into a different letter. Name the rule before you read each one.",
       "grid": [
         [
           {
-            "arabic": "عَبَدتُّمْ",
+            "arabic": "مِّن جُوعٍ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "109:4 — ʿabattum, one doubled ت. Say it wrong once deliberately, then right."
+              "cue": "106:4 — conceal, two counts."
             }
           },
           {
-            "arabic": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
+            "arabic": "مِّنْ خَوْفٍۭ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "109:4 whole — a tanwīn into a م first (3-20, two counts), then today's merge. Two rules in five words, and it is today's Sabaq."
+              "cue": "106:4 — say it, no hold."
             }
           }
         ],
         [
           {
-            "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+            "arabic": "مِّنْ خَوْفٍۭ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "114:5 — two yāʾs, NO merge, the madd intact. If it collapses into one long yāʾ, the madd has been eaten."
+              "cue": "خ → IẒHĀR. Throat letter. No hold, no colour."
             }
           },
           {
-            "arabic": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+            "arabic": "مِّن مَّسَدٍۭ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "109:6 — the last ayah of today's Sabaq. لَكُمْ دِينُكُمْ is an iẓhār shafawī from 3-17: lips fully closed, nothing merges. Two adjacent letters, far apart, no rule."
+              "cue": "111:5 — م → IDGHĀM WITH GHUNNAH, kāmil. Shaddah printed, 2 counts."
+            }
+          },
+          {
+            "arabic": "مِّن لَّدُنْهُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "18:2 — reference example. ل → IDGHĀM WITHOUT GHUNNAH. And the second noon, four letters later, is a throat iẓhār: two noon rules in three syllables."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِّنۢ بَعْدِهِۦ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "3:160 — reference example. ب → IQLĀB. 2 counts at the lips."
+            }
+          },
+          {
+            "arabic": "مِّن جُوعٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — ج → IKHFĀʾ. 2 counts, no shaddah. Five futures for one word, decided entirely by the next letter."
             }
           }
         ]
@@ -460,130 +387,343 @@
     },
     {
       "kind": "drill",
-      "heading": "The heavy ت",
-      "instructions": "Say each one TWICE: once flat (wrong), once with the tongue still raised (right). Name which is which. If the two versions sound the same to you, the tongue is not rising — say a plain ط first, feel where the tongue goes, then keep it there and say the ت. Every day; this one does not stick from a single session.",
+      "heading": "The mixed column, cold",
+      "instructions": "Read down. Name the rule. Do not pause; if you have to think, mark the row and come back. Teacher key in order: iẓhār · idghām+gh ×2 · ikhfāʾ light · idghām−gh · ikhfāʾ · iẓhār · idghām+gh nāqiṣ · iẓhār · idghām−gh · ikhfāʾ · iqlāb · iẓhār · idghām+gh nāqiṣ · IẒHĀR MUṬLAQ · ikhfāʾ heavy · idghām−gh · ikhfāʾ · iqlāb.",
       "grid": [
         [
           {
-            "arabic": "أَحَطتُ",
+            "arabic": "عَنْهُ مَالُهُۥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "27:22 — reference example. Heavy, hollow ت. The signature error of the whole idghām syllabus."
+              "cue": "111:2 — iẓhār, ه."
             }
           },
           {
-            "arabic": "لَئِنۢ بَسَطتَ",
+            "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "5:28 — reference example. Same heavy ت, and an iqlāb two words earlier."
+              "cue": "111:5 — idghām with ghunnah, twice."
             }
           },
           {
-            "arabic": "فَرَّطتُمْ",
+            "arabic": "وَلَآ أَنتُمْ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "12:80 — reference example. The third and last."
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "kind": "drill",
-      "heading": "Kāmil or nāqiṣ, from the page",
-      "instructions": "Look at the SECOND letter. Shaddah = kāmil. No shaddah = nāqiṣ. Say which before you read. This is the same convention as ي and و in 3-20 — a missing shaddah on a merged letter is the muṣḥaf's standing signal for an incomplete merge, and it has now appeared in three lessons.",
-      "grid": [
-        [
-          {
-            "arabic": "قَد تَّبَيَّنَ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "2:256 — reference example. Shaddah. KĀMIL."
+              "cue": "109:3 — ikhfāʾ, light, inside one word."
             }
           },
-          {
-            "arabic": "أَحَطتُ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "27:22 — no shaddah. NĀQIṢ, and the heaviness survives."
-            }
-          },
-          {
-            "arabic": "وَقَالَت طَّآئِفَةٌ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "3:72 — reference example. Shaddah. KĀMIL."
-            }
-          }
-        ],
-        [
-          {
-            "arabic": "إِذ ظَّلَمُوٓا۟",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "4:64 — reference example. Shaddah. KĀMIL."
-            }
-          },
-          {
-            "arabic": "أَلَمْ نَخْلُقكُّم",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "77:20 — reference example. The only occurrence, two readings; this course teaches nāqiṣ, so the ك is heavy."
-            }
-          },
-          {
-            "arabic": "يَلْهَث ذَّٰلِكَ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "7:176 — reference example. Shaddah. KĀMIL. The only occurrence in the Qurʾān."
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "kind": "drill",
-      "heading": "Old rules, new names — and the seven pairings by group",
-      "instructions": "First: read each phrase and give BOTH names — the one you learned before, and the theory name. Then recite the seven mutajānisayn pairings as THREE GROUPS, not seven items: gum-ridge plosives د→ت, ت→د, ت→ط, ط→ت · tongue-and-teeth ذ→ظ, ث→ذ · lips ب→م.",
-      "grid": [
-        [
-          {
-            "arabic": "أَطْعَمَهُم مِّن",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "106:4 — then: idghām shafawī. Now: MUTAMĀTHILAYN."
-            }
-          },
-          {
-            "arabic": "مِّن نِّعْمَةٍ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "16:53 — reference example. Then: idghām with ghunnah. Now: MUTAMĀTHILAYN."
-            }
-          }
-        ],
-        [
           {
             "arabic": "وَلَمْ يَكُن لَّهُۥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "112:4 — then: idghām without ghunnah. Now: MUTAQĀRIBAYN. It was never a special case."
+              "cue": "112:4 — idghām without ghunnah."
+            }
+          },
+          {
+            "arabic": "مِّن جُوعٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — ikhfāʾ."
+            }
+          },
+          {
+            "arabic": "كُفُوًا أَحَدٌۢ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 — iẓhār, on a tanwīn."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَن يَقُولُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:8 — reference. Idghām with ghunnah, nāqiṣ."
+            }
+          },
+          {
+            "arabic": "مِّنْ خَوْفٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — iẓhār."
+            }
+          },
+          {
+            "arabic": "مِّن رَّبِّهِمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:5 — reference. Idghām without ghunnah, and the rāʾ is heavy."
+            }
+          },
+          {
+            "arabic": "مِن شَرِّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — ikhfāʾ."
+            }
+          },
+          {
+            "arabic": "مِّنۢ بَعْدِهِۦ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "3:160 — reference. Iqlāb."
+            }
+          },
+          {
+            "arabic": "وَٱنْحَرْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:2 — iẓhār, ح, inside one word."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جُوعٍ وَءَامَنَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — idghām with ghunnah, nāqiṣ."
+            }
+          },
+          {
+            "arabic": "ٱلدُّنْيَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:85 — reference. IẒHĀR MUṬLAQ. This is the row that catches people."
+            }
+          },
+          {
+            "arabic": "عَن صَلَاتِهِمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "107:5 — ikhfāʾ, heavy."
             }
           },
           {
             "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "107:4 — then: idghām without ghunnah, on a tanwīn. Now: MUTAQĀRIBAYN. Coloured green, not grey, because the palette classifies by where the rule is taught."
+              "cue": "107:4 — idghām without ghunnah, on a tanwīn."
+            }
+          },
+          {
+            "arabic": "نَارًا ذَاتَ لَهَبٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:3 — ikhfāʾ, on a tanwīn."
+            }
+          },
+          {
+            "arabic": "أَنۢبِئْهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:33 — reference. Iqlāb, inside one word."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The nasal question, only",
+      "instructions": "Go down the mixed column again and answer ONE question per row: 'two counts', 'no hold', or 'no nasal at all'. Three possible answers, eighteen rows. This is the fastest diagnostic in the chapter and it takes ninety seconds.",
+      "grid": [
+        [
+          {
+            "arabic": "مِّن جُوعٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TWO COUNTS."
+            }
+          },
+          {
+            "arabic": "مِّنْ خَوْفٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NO HOLD. The noon is said, and said briefly."
+            }
+          },
+          {
+            "arabic": "وَلَمْ يَكُن لَّهُۥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NO NASAL AT ALL. Pinch it: nothing changes."
             }
           }
         ],
         [
           {
-            "arabic": "ٱضْرِب بِّعَصَاكَ",
+            "arabic": "أَحَدٌۢ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "26:63 — reference example. No colour at all on the page. The shaddah is the whole marking, and that generalises: a shaddah opening a word whose predecessor ended in the same letter IS an idghām mark."
+              "cue": "TWO COUNTS — on continuing. Stopping: no rule at all."
+            }
+          },
+          {
+            "arabic": "جُوعٍ وَءَامَنَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TWO COUNTS, with no shaddah to prompt them. The most-dropped nasal in the chapter."
+            }
+          },
+          {
+            "arabic": "ٱلدُّنْيَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NO HOLD. Iẓhār muṭlaq — the noon is said plainly, exactly as written."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Tanwīn only, and the boundary question",
+      "instructions": "First row: every rule applies to tanwīn. Name the rule on each; not one of them has a written noon. Second row: for each, say 'needs a word boundary' or 'does not' BEFORE naming the rule. The boundary question has to be asked first or it does not get asked at all.",
+      "grid": [
+        [
+          {
+            "arabic": "كُفُوًا أَحَدٌۢ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 — iẓhār, on a tanwīn."
+            }
+          },
+          {
+            "arabic": "حَبْلٌ مِّن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:5 — idghām with ghunnah, kāmil."
+            }
+          },
+          {
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "107:4 — idghām without ghunnah."
+            }
+          },
+          {
+            "arabic": "نَارًا ذَاتَ لَهَبٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:3 — ikhfāʾ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَهَبٍ وَتَبَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:1 — idghām with ghunnah, nāqiṣ. No shaddah on the و."
+            }
+          },
+          {
+            "arabic": "غَاسِقٍ إِذَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:3 — iẓhār, on a tanwīn, before a hamzah."
+            }
+          },
+          {
+            "arabic": "ظِلًّا ظَلِيلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "4:57 — reference. Ikhfāʾ, heavy, on a tanwīn."
+            }
+          },
+          {
+            "arabic": "بِحِجَارَةٍ مِّن سِجِّيلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:4 — a merge on the tanwīn, then an ikhfāʾ on the noon. Two rules, four words."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَلَآ أَنتُمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "DOES NOT need a boundary — ikhfāʾ, inside one word."
+            }
+          },
+          {
+            "arabic": "وَٱنْحَرْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "DOES NOT — iẓhār, inside one word."
+            }
+          },
+          {
+            "arabic": "أَنۢبِئْهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "DOES NOT — iqlāb, inside one word. Reference example."
+            }
+          },
+          {
+            "arabic": "ٱلدُّنْيَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NEEDS one, and does not have one — so the merge is cancelled. Iẓhār muṭlaq. Reference example."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The exception words, cold — and whole sūrahs, naming as you go",
+      "instructions": "First: the four exception words, cold, after six weeks of merging drills; then بُنْيَٰنٌ مَّرْصُوصٌ, which does both behaviours four letters apart. Then the main exercise of the session: recite al-Fīl, Quraysh, al-Māʿūn and al-Kāfirūn from memory, naming every noon and meem rule out loud as you pass it. Four sūrahs. This is what converts a table into recitation, and it is the closest thing in the chapter to the final assessment.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلدُّنْيَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:85 — one word. No merge. Never ad-duyyā."
+            }
+          },
+          {
+            "arabic": "بُنْيَٰنٌ مَّرْصُوصٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "61:4 — no merge inside the word, full merge across the boundary."
+            }
+          },
+          {
+            "arabic": "صِنْوَانٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "13:4 — one word. No merge."
+            }
+          },
+          {
+            "arabic": "قِنْوَانٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "6:99 — one word. No merge. The fourth and last."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 whole, no card. Six rule instances, five distinct rules, two chapters. If she names all six unprompted, the chapter is closed."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 whole. Iẓhār shafawī, merge with no nasal, throat iẓhār on a tanwīn, and an iqlāb on the join out."
             }
           }
         ]
@@ -591,279 +731,297 @@
     },
     {
       "kind": "mistake",
-      "heading": "The seven things that go wrong",
+      "heading": "What a revision session is actually looking for",
       "mistakes": [
         {
-          "wrong": "Flattening the ط in أَحَطتُ, بَسَطتَ, فَرَّطتُمْ — an ordinary light ت.",
-          "why": "'The ط merges' is heard as 'the ط is gone'. The body goes; the heaviness does not. And the word appears once, so the mistake is almost never corrected by anyone.",
-          "fix": "Have her say a plain ط, hold the tongue where it is, and say the ت from that position. Physical, not explanatory. The signature error of the entire idghām syllabus, and it gets its own line in the homework."
+          "wrong": "Correct answers in the drill, wrong rules inside the recitation.",
+          "why": "A rule applied under drill conditions has not yet been applied under reading conditions, and the drill cannot reveal the gap. This is the failure mode a revision session exists to catch.",
+          "fix": "Naming rules out loud mid-recitation on four whole sūrahs. It sounds ridiculous and it is the single most useful ten minutes of the session."
         },
         {
-          "wrong": "Pronouncing the merged letter separately — qad tabayyana, ʿabad-tum, usually with a micro-gap.",
-          "why": "Both letters are written, and the words are printed apart.",
-          "fix": "Delete the first letter deliberately: 'say ʿabat, then tum, then join.'"
+          "wrong": "Naming the rule correctly and producing the wrong nasal length.",
+          "why": "Naming and producing are two different skills, and the mixed column only tests the first.",
+          "fix": "The nasal question, run separately: 'two counts', 'no hold', or 'no nasal at all'. Three answers, and it takes ninety seconds."
         },
         {
-          "wrong": "Reading a missing shaddah as 'no idghām' — أَحَطتُ or نَخْلُقكُّم read with two separate letters.",
-          "why": "She has correctly learned that a shaddah marks a merge, and reasoned backwards from it.",
-          "fix": "'No shaddah means the merge is INCOMPLETE, not absent.' Same convention as ي and و in 3-20; say the two cases side by side."
+          "wrong": "Missing the second idghām shafawī in 106:4 — وَءَامَنَهُم مِّنْ.",
+          "why": "By that point in the ayah she is already looking ahead to خَوْفٍۭ, which is the phrase the card trained her to find.",
+          "fix": "Have her count the rule instances herself before you give the number. Six, not five. Finding her own gap is the exercise."
         },
         {
-          "wrong": "Merging after a madd letter — ٱلَّذِى يُوَسْوِسُ collapsing into one long yāʾ.",
-          "why": "Two identical letters are touching, and she has just been taught that identical letters merge.",
-          "fix": "'The first one is not a consonant. It is a vowel wearing a consonant's shape.' Then قَالُوا۟ وَٱللَّهِ and فِى يَوْمٍ on the same principle."
+          "wrong": "Merging inside a word — ad-duyyā, six weeks after it was first corrected.",
+          "why": "It is the classic trap of the chapter and it comes back whenever merging has been drilled recently.",
+          "fix": "The boundary question asked BEFORE the rule name, every time. 'One word' or 'two words', out loud, first."
         },
         {
-          "wrong": "Not holding the resulting shaddah — the merge happening and finishing early.",
-          "why": "The under-held shadda from 2-05, still returning under every new rule that produces one.",
-          "fix": "Fingers, two folds. Name it as the 2-05 habit rather than as a new fault."
+          "wrong": "Dropping the nasal on ي and و — جُوعٍ وَءَامَنَهُم with no hum.",
+          "why": "No shaddah on the page to prompt it, and 'incomplete' still sounds like 'less of everything'. It is the most-dropped nasal in the chapter.",
+          "fix": "The pinch, on the nāqiṣ merges only. 'The missing shaddah means the merge is incomplete, not that the nasal is gone.'"
         },
         {
-          "wrong": "Importing Abū ʿAmr's kabīr merges — merging in places Ḥafṣ does not.",
-          "why": "She is imitating a reciter in a different reading and has no way to know that is what she is doing. Usually seen in a student who listens to a lot of recitation.",
-          "fix": "Name the reading rather than the error. 'That is Abū ʿAmr. In Ḥafṣ there are two kabīr merges and you know both.'"
-        },
-        {
-          "wrong": "Treating the ب → م and ق → ك disagreements as errors — a question shaped like 'which one is right?'.",
-          "why": "She has been taught that rules have single answers, and here two are transmitted.",
-          "fix": "'Both are transmitted. Pick the one you were taught, be consistent, and recognise the other when you hear it.' This is the same answer she got about ي/و in 3-20 and about the ب of ikhfāʾ shafawī in 3-15 — and by now she should notice it is the same answer."
+          "wrong": "Trying to tell iqlāb from ikhfāʾ shafawī by ear, and concluding her ear is bad.",
+          "why": "The two sounds are genuinely the same. The ear is right; it is being asked an impossible question.",
+          "fix": "'Which letter is WRITTEN?' Look, do not listen. Say out loud that her ear is not at fault."
         }
       ]
     },
     {
       "kind": "recap",
-      "heading": "One theory, four relationships, and two things to actually drill",
+      "heading": "Two ayāt, one sum, and nothing left over",
       "items": [
         {
-          "arabic": "عَبَدتُّمْ",
+          "arabic": "مِّن جُوعٍ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Mutajānisayn, kāmil. The only one in her hifz, and she is memorising it this hour. ʿabattum."
+            "cue": "The gold contrast, half one. Conceal, two counts, no printed sukūn."
           }
         },
         {
-          "arabic": "ٱلَّذِى يُوَسْوِسُ",
+          "arabic": "مِّنْ خَوْفٍۭ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Identical letters, no merge — because the first is a madd. The one exception she can check from memory."
-          }
-        },
-        {
-          "arabic": "أَحَطتُ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "Nāqiṣ. The heaviness survives, the shaddah is missing, and this is the single most-flattened letter in the tradition. Every day."
+            "cue": "Half two. Say it plainly, no hold, printed sukūn, no colour. Same word, opposite treatment, decided by the next letter."
           }
         },
         {
           "arabic": "وَلَمْ يَكُن لَّهُۥ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Mutaqāribayn — 3-21, seen from the theory side. It was never a special case. Next session opens the madd chapter: the last of the rule families, and the one that decides how a recitation actually sounds."
+            "cue": "The fifth rule, supplied from al-Ikhlāṣ. Two ayāt exhaust the chapter, and both are memorised."
+          }
+        },
+        {
+          "arabic": "يَنْمُو",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "6 + 4 + 2 + 1 + 15 = 28. Every letter of the alphabet, exactly once. Nothing left over, nothing counted twice. Next session: the general theory that all six merging lessons were instances of."
           }
         }
       ]
     },
     {
       "kind": "homework",
-      "heading": "Homework — 15–20 min/day, five days",
+      "heading": "Homework — 15–20 min/day, five days. No new rule material.",
       "tasks": [
-        "Two minutes — classify pairs out loud. Alike, one kind, near, far — and whether each merges.",
-        "Three minutes — the two in your hifz, ten times each, then in the whole ayah.",
-        "Two minutes — the heavy ت. EVERY DAY. This one does not stick from a single session, and nobody else will ever correct it for you.",
-        "Two minutes — kāmil or nāqiṣ, read off the page before you speak. Shaddah, or no shaddah.",
-        "Two minutes — the seven mutajānisayn pairings as three groups; then the madd exception, three phrases, confirming nothing merges.",
-        "Two minutes — old rules, new names. Both labels for each phrase.",
-        "Three minutes — al-Kāfirūn and an-Nās from memory: one with عَبَدتُّمْ merged, one with ٱلَّذِى يُوَسْوِسُ NOT merged. Two sūrahs, one rule and its exception.",
-        "The rest — hifz. Manzil run consecutively, Sabqi (110 + 109:1–3), then the new Sabaq 109:4–6. al-Kāfirūn closes this week. Bring to the next session: أَحَطتُ, and tell me whether the ت was heavy."
+        "Two minutes — write the partition from memory. Day one and day five; compare the two attempts without looking at the first.",
+        "Two minutes — the gold contrast, مِّن جُوعٍ against مِّنْ خَوْفٍۭ. Every day. It does not retire when the chapter closes.",
+        "Four minutes — the mixed column: first naming the rule, then a second pass answering ONLY the nasal question.",
+        "Two minutes — the four exception words, and the boundary question asked before every rule name.",
+        "Two minutes — tanwīn only. Eight phrases, none with a written noon.",
+        "Four minutes — al-Fīl, Quraysh, al-Māʿūn and al-Kāfirūn from memory, naming every rule as you pass it.",
+        "Once, on day three — on a coloured muṣḥaf, find one instance of each of the four colours and one UNCOLOURED noon. Say what the uncoloured one is instructing you to do.",
+        "The rest — hifz. No new Sabaq. Manzil widened to three or four sūrahs, run consecutively through the basmalah so the iqlāb joins get their maintenance; then Sabqi: 110 whole, 109:1–3, and 111 and 112 if either is still recent. Bring to the next session: Quraysh 106:4 from memory, every ruling named, no card."
       ]
     }
   ],
   "practice": {
     "drills": [
       {
-        "title": "Classify, out loud",
-        "instructions": "Alike, one kind, near, or far — then whether it merges.",
+        "title": "The partition, from memory",
+        "instructions": "Five rows on a blank sheet: letters, count, nasal, rule name. Add them. If it is not 28, find the missing letter yourself.",
         "grid": [
           [
             {
-              "arabic": "ب · ب",
+              "arabic": "ء · ه · ع · ح · غ · خ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Alike. Merges."
+                "cue": "6 — iẓhār, no colour."
               }
             },
             {
-              "arabic": "د · ت",
+              "arabic": "يَنْمُو",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "One kind. Merges."
+                "cue": "4 — idghām with ghunnah."
               }
             },
             {
               "arabic": "ل · ر",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Near. Merges."
+                "cue": "2 — idghām without ghunnah."
               }
             },
             {
-              "arabic": "م · ك",
+              "arabic": "ب",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Far. No merge."
+                "cue": "1 — iqlāb."
+              }
+            },
+            {
+              "arabic": "صِفْ ذَا ثَنَا كَمْ جَادَ شَخْصٌ قَدْ سَمَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "15 — ikhfāʾ. The remainder."
               }
             }
           ]
         ]
       },
       {
-        "title": "The two in your hifz",
-        "instructions": "Ten times each, then in the whole ayah.",
+        "title": "The gold contrast",
+        "instructions": "Ten times, alternating; then the whole ayah in one breath.",
         "grid": [
           [
             {
-              "arabic": "عَبَدتُّمْ",
+              "arabic": "مِّن جُوعٍ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "109:4 — ʿabattum. Merged."
+                "cue": "Conceal, two counts."
               }
             },
             {
-              "arabic": "ٱلَّذِى يُوَسْوِسُ",
+              "arabic": "مِّنْ خَوْفٍۭ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "114:5 — not merged. The madd intact."
+                "cue": "Say it, no hold."
               }
             }
           ]
         ]
       },
       {
-        "title": "The heavy ت",
-        "instructions": "Twice each — once flat (wrong), once with the tongue still raised (right). Name which is which. Every day.",
+        "title": "One word, five futures",
+        "instructions": "The same word مِن, running into five different letters. Name the rule before you read.",
         "grid": [
           [
             {
-              "arabic": "أَحَطتُ",
+              "arabic": "مِّنْ خَوْفٍۭ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "27:22 — reference example. Heavy, hollow."
+                "cue": "Iẓhār."
               }
             },
             {
-              "arabic": "لَئِنۢ بَسَطتَ",
+              "arabic": "مِّن مَّسَدٍۭ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "5:28 — reference example."
+                "cue": "Idghām with ghunnah."
               }
             },
             {
-              "arabic": "فَرَّطتُمْ",
+              "arabic": "مِّن لَّدُنْهُ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "12:80 — reference example."
+                "cue": "Idghām without ghunnah. Reference example."
+              }
+            },
+            {
+              "arabic": "مِّنۢ بَعْدِهِۦ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Iqlāb. Reference example."
+              }
+            },
+            {
+              "arabic": "مِّن جُوعٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ikhfāʾ."
               }
             }
           ]
         ]
       },
       {
-        "title": "Kāmil or nāqiṣ, from the page",
-        "instructions": "Look at the second letter. Shaddah = kāmil, no shaddah = nāqiṣ. Say which before you read.",
+        "title": "Tanwīn only",
+        "instructions": "Every rule applies to tanwīn. Not one of these has a written noon.",
         "grid": [
           [
             {
-              "arabic": "قَد تَّبَيَّنَ",
+              "arabic": "كُفُوًا أَحَدٌۢ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Kāmil."
+                "cue": "Iẓhār."
               }
             },
             {
-              "arabic": "أَحَطتُ",
+              "arabic": "حَبْلٌ مِّن",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Nāqiṣ."
-              }
-            },
-            {
-              "arabic": "وَقَالَت طَّآئِفَةٌ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Kāmil."
-              }
-            },
-            {
-              "arabic": "أَلَمْ نَخْلُقكُّم",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Nāqiṣ per this course; kāmil per some. Both transmitted."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "The madd exception",
-        "instructions": "Say each and confirm nothing merges.",
-        "grid": [
-          [
-            {
-              "arabic": "ٱلَّذِى يُوَسْوِسُ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "114:5 — in her hifz."
-              }
-            },
-            {
-              "arabic": "قَالُوا۟ وَٱللَّهِ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "6:23 — reference example."
-              }
-            },
-            {
-              "arabic": "فِى يَوْمٍ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "70:4 — reference example."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "Old rules, new names",
-        "instructions": "Both labels for each phrase — the one you learned before, and the theory name.",
-        "grid": [
-          [
-            {
-              "arabic": "أَطْعَمَهُم مِّن",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Idghām shafawī → mutamāthilayn."
-              }
-            },
-            {
-              "arabic": "مِّن نِّعْمَةٍ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Idghām with ghunnah → mutamāthilayn."
-              }
-            },
-            {
-              "arabic": "وَلَمْ يَكُن لَّهُۥ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Idghām without ghunnah → mutaqāribayn."
+                "cue": "Idghām with ghunnah."
               }
             },
             {
               "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Idghām without ghunnah → mutaqāribayn."
+                "cue": "Idghām without ghunnah."
+              }
+            },
+            {
+              "arabic": "نَارًا ذَاتَ لَهَبٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ikhfāʾ."
+              }
+            },
+            {
+              "arabic": "غَاسِقٍ إِذَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Iẓhār, before a hamzah."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The exception words, cold",
+        "instructions": "Six weeks after the merging drills started. Then بُنْيَٰنٌ مَّرْصُوصٌ, which does both.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلدُّنْيَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One word. No merge."
+              }
+            },
+            {
+              "arabic": "بُنْيَٰنٌ مَّرْصُوصٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No merge, then a full one, four letters apart."
+              }
+            },
+            {
+              "arabic": "صِنْوَانٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One word. No merge."
+              }
+            },
+            {
+              "arabic": "قِنْوَانٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One word. No merge."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The two ayāt that exhaust the chapter",
+        "instructions": "From memory, naming every ruling, no card.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:4 — six rule instances, five distinct rules."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "112:4 — the fifth noon rule, plus three more."
               }
             }
           ]
@@ -871,97 +1029,92 @@
       }
     ],
     "dailyChecklist": [
-      "Classify pairs out loud — alike, one kind, near, far",
-      "The two in your hifz: عَبَدتُّمْ merged, ٱلَّذِى يُوَسْوِسُ not merged",
-      "The heavy ت — every day, flat then raised, naming which is which",
-      "Kāmil or nāqiṣ read off the page before speaking",
-      "The seven pairings as three groups, and the madd exception",
-      "Old rules, new names — both labels for each phrase"
+      "The partition written from memory, and the total checked against 28",
+      "The gold contrast — مِّن جُوعٍ against مِّنْ خَوْفٍۭ",
+      "The mixed column, first for the rule name and then for the nasal question only",
+      "The exception words, with the boundary question asked before every rule",
+      "Tanwīn only — eight phrases, none with a written noon",
+      "Four sūrahs from memory, naming every rule as you pass it"
     ]
   },
   "teacherNotes": {
     "script": [
-      "Open with two phrases and let her fail on both. عَابِدٌ مَّا عَبَدتُّمْ — she will read ʿabad-tum, carefully separating the د and the ت, and it is ʿabattum. Then ٱلَّذِى يُوَسْوِسُ — two identical letters touching, and nothing happens.",
-      "Say the frame: for six lessons she has been merging letters, and today she finds out the merging was never about noons and meems. It is a general rule about what happens when two letters meet, and the noon and meem cases were the frequent ones, taught first because they are everywhere.",
-      "Give the classification first; it is short and everything hangs off it. Alike, one kind, near, far — and the fourth row is why most letter sequences in the Qurʾān have no rule at all. Say that; it stops her scanning every word for a hidden idghām.",
-      "Then the vowel-state classification, and close two of its three rows immediately. Everything in this course is ṣaghīr, and that is not a simplification of the syllabus — it is what Ḥafṣ actually transmits. Say it plainly so she does not go looking for the other two.",
-      "Mutamāthilayn is the easy row and she has been doing it since 3-16. أَطْعَمَهُم مِّن and مِّن نِّعْمَةٍ are the point: same general rule, under two different names, for ten lessons. She should hear that as a promotion rather than as new material.",
-      "The exception is inside her hifz, which is rare in this lesson: ٱلَّذِى يُوَسْوِسُ, an-Nās 114:5, the earliest sūrah she memorised. Two yāʾs, no merge, because the first is a madd letter — a vowel-carrier, not a consonant to be absorbed. Use it as the anchor for the whole madd principle and lean on it, because almost nothing else today can be checked from memory.",
-      "Teach the seven mutajānisayn pairings as THREE MAKHRAJ GROUPS, not seven rows: gum-ridge plosives, tongue-and-teeth fricatives, lips. Three groups survive a week; seven rows do not.",
-      "Give ط → ت your best ten minutes. The iṭbāq and isti'lā survive the merge: أَحَطتُ is a ت pronounced with the tongue still raised, a heavy hollow ت unlike any other in the Qurʾān. Say it heavy, say it flat, and make HER tell you which was which. If she cannot hear the difference, have her say a plain ط, hold the tongue where it is, and say the ت from that position — physical, not explanatory.",
-      "Do not let أَحَطتُ become a footnote because the word appears once. It is the single most-flattened letter in the tradition, and it stays flattened precisely BECAUSE the word is rare enough that nobody hears it often enough to correct. Its own two minutes, and its own line in the homework.",
-      "Then the orthography, for the third lesson running: the ت of أَحَطتُ carries no shaddah, exactly as ي and و carry none after a merged noon in 3-20. A missing shaddah on a merged letter is the muṣḥaf's standing signal for nāqiṣ. She should be able to state that convention herself by now — ask before you tell.",
-      "Mutaqāribayn: say the gap out loud. There is no ل → ر and no ق → ك anywhere in al-Fātiḥa or 105–114 — zero in-set occurrences, all reference examples. Teach the relationship from وَلَمْ يَكُن لَّهُۥ, which she owns, and generalise to قُل رَّبِّ, which she does not. And say explicitly that 3-21 was never a special case: ن → ل is what happens when three letters share the gum ridge and two are near enough to absorb the third.",
-      "The counting note is worth understanding rather than memorising. Search cpfair for idghaam_mutaqaribayn in the hifz set and you get zero hits — because وَلَمْ يَكُن لَّهُۥ and فَوَيْلٌ لِّلْمُصَلِّينَ are annotated as idghaam_no_ghunnah, under the chapter where they are TAUGHT rather than the relationship they BELONG TO. Both counts are true at once: zero annotated mutaqāribayn in her hifz, two mutaqāribayn merges in her hifz. The dataset is not wrong and neither is the classification; they answer different questions.",
-      "نَخْلُقكُّم has two transmitted readings and she needs to know that BEFORE she hears two reciters differ. Nāqiṣ — the ق's isti'lā remains, so the ك is heavy — is the more common teaching and what this course teaches; kāmil is also valid. Note that the pattern is identical to ط → ت: a heavy letter merges and the argument is whether the heaviness travels. In both, the missing shaddah is the tell.",
-      "ٱرْكَب مَّعَنَا is a disagreement about the LABEL, not the sound: both camps merge the ب into the م with a nasal. This course files it under mutajānisayn. Pick one and be consistent — a learner who meets both labels in two books will assume they are two different rules.",
-      "Mention idghām kabīr, close it, and warn her about recordings. Two words in Ḥafṣ: تَأْمَ۫نَّا (12:11, with ishmām or rawm/ikhtilās) and مَكَّنِّى (18:95). As a SYSTEM it belongs to Abū ʿAmr al-Baṣrī, not to Ḥafṣ. A learner who listens to Abū ʿAmr will hear merges that are not available in her reading and conclude she was taught wrongly. Name the reading rather than the error.",
-      "Colour: mutajānisayn and mutaqāribayn share one grey, #8A8A8A, deliberately — both are rare and structurally similar, and grey reads as 'something merged here, look it up'. Mutamāthilayn has no key at all; the shaddah is the annotation. And admit the inconsistency: ن → ل and ن → ر are green, not grey, because the palette classifies by where the rule is TAUGHT. Both classifications are correct.",
-      "Say the study strategy out loud, because this lesson is different in kind. Almost everything today is a reference example and several are the only occurrence in the whole Qurʾān. This is not a rule to drill into reflex; it is a rule to RECOGNISE. Learn the classification, learn أَحَطتُ, learn the two in her hifz, and treat the rest as a lookup. Saying that protects her from grinding on material that does not repay drilling, and from feeling she has failed to master something she was never meant to master by reflex.",
-      "Hifz: Manzil run consecutively. Sabqi — an-Naṣr 110 and al-Kāfirūn 109:1–3. New Sabaq al-Kāfirūn 109:4–6, three ayat, and today's rule is in the first of them. Three other things worth flagging as she works: عَابِدٌ مَّا, a tanwīn into a م from 3-20, two counts; وَلَآ أَنتُمْ in 109:5, the light ikhfāʾ from 3-24 and its second appearance in the sūrah; and لَكُمْ دِينُكُمْ, an iẓhār shafawī from 3-17 with the lips fully closed.",
-      "al-Kāfirūn's repetitiveness is a trap for ACCURACY, not for recall — ayat 3 and 5 are word for word identical. Test the ORDER, not the words: ask her to start at ayah 5 and finish, then start at ayah 3 and finish, and see whether she can tell them apart from the inside.",
-      "With this portion al-Kāfirūn is complete, and so is her slice of the hifz strand: seven of the eleven items in scope — al-Fātiḥa, 114, 113, 112, 111, 110, 109. Say that out loud. It is a real milestone and she has been working toward it for thirteen sessions."
+      "Write 6 + 4 + 2 + 1 + 15 = 28 on the board and nothing else. Ask her what it is. She was asked last session to work out why it has to total 28 — collect her answer before you give yours.",
+      "Then say what it proves. Every letter of the alphabet appears exactly once in that sum: nothing left over, nothing counted twice. The four rules are a PARTITION, not four rules that happen to cover a lot of ground. She can always name the rule because the cases are exhaustive by construction — there is nowhere for a letter to hide. That idea is worth more than any individual rule in the chapter.",
+      "Put the five-row table up and leave it up. Run it both ways for sixty seconds: letter → rule, and rule → letters and count. Wherever she is slow is where the session's minutes go. This is a diagnostic, not a lecture; do not spend the hour where she is already fluent.",
+      "Then write the four facts the table does not show, underneath it: tanwīn counts everywhere; only the merges need a word boundary; the four exception words; ي and و merge nāqiṣ with the nasal surviving. All four get asked and none of them is visible in the table.",
+      "The gold contrast deserves real time. 106:4 has ikhfāʾ and iẓhār in the same ayah on the same word — مِّن جُوعٍ against مِّنْ خَوْفٍۭ. Same word, same position, opposite treatment, decided entirely by the next letter. Ten times alternating, then the whole ayah in one breath. Then point at the orthography once more: the sukūn is printed on one and not the other. The page answered before any colour was applied.",
+      "Then take the card away and have her name everything in 106:4 unprompted. And have her COUNT the instances herself before you give the number: the card says five, and there are six, because idghām shafawī occurs twice — أَطْعَمَهُم مِّن and وَءَامَنَهُم مِّنْ. The second is the one nobody finds, because by that point in the ayah she is already looking ahead to خَوْفٍۭ.",
+      "Then the structural point. 106:4 contains four of the five noon rulings — everything except idghām without ghunnah — and she can supply the missing one from memory in four words: وَلَمْ يَكُن لَّهُۥ. Two ayāt, one from Quraysh and one from al-Ikhlāṣ, exhaust the entire noon chapter, and both are memorised. Between them she also produces two of the three meem rules; only ikhfāʾ shafawī is missing, and that lives in al-Fīl 105:4, which she also has.",
+      "Say the colour point once more and make HER state it: cpfair does not annotate iẓhār at all, because iẓhār is the absence of a modification. The black noon of مِّنْ خَوْفٍۭ is a positive instruction — say exactly what is written. No colour is itself a signal. She has met this argument in 3-18, 3-20, 3-21 and 3-24; by now the answer should come from her.",
+      "Be honest about the two greens again. #169777 and #169200 are nearly indistinguishable at small type sizes, and that is a real defect of the palette, not a failure of her eyes. Read the letter, not the hue. And say the general limit plainly: colour never distinguishes kāmil from nāqiṣ, never gives an ikhfāʾ nasal's weight, never gives its degree. The colours locate rules; they do not execute them.",
+      "The Q&A is the point of the session, not filler. Take the questions in whatever order she raises them, and do not rush the two that carry the most: why the sum must be 28 (because ikhfāʾ is defined as the remainder), and how to hear idghām against ikhfāʾ (you do not — you look at the following letter for a shaddah, and the shaddah is printed).",
+      "Two answers she should be told are FINAL rather than provisional: iqlāb and ikhfāʾ shafawī cannot be separated by ear, and that is not a defect in her hearing; and a vowelled noon is never in this chapter at all, so 'no noon rule here' is a legitimate and skilled answer.",
+      "Run the mixed column cold, then run it a SECOND time answering only the nasal question — two counts, no hold, or no nasal at all. Naming and producing are two different skills and the first pass only tests one of them. The second pass takes ninety seconds and it is the fastest diagnostic in the chapter.",
+      "Give the last ten minutes to naming rules mid-recitation across al-Fīl, Quraysh, al-Māʿūn and al-Kāfirūn. It sounds ridiculous. It is the exercise that converts a table into recitation, and it is the closest thing available to the final assessment. Correct answers in the drill with wrong rules inside the recitation is exactly the failure a revision session exists to catch.",
+      "Hifz: revision lessons pause new rules; they never pause hifz. No new Sabaq. Widen Manzil to three or four sūrahs since nothing is competing for the time, and run them consecutively through the basmalah so the iqlāb joins get their maintenance. Sabqi: an-Naṣr 110 whole, al-Kāfirūn 109:1–3, plus 111 and 112 if either is still in the recent window. Promote anything clean three consecutive sessions — that threshold is this course's own default, not a transmitted number, and it should be adjusted from what you actually observe.",
+      "Worth saying out loud at the end: she now has six of the eleven items in the hifz scope — al-Fātiḥa, 114, 113, 112, 111, 110 — plus half of 109. The chapter and the memorisation have been moving together and they are both past the middle."
     ],
     "listenFor": [
       {
-        "item": "A heavy, hollow ت in أَحَطتُ — the tongue still raised to the roof while the ت is made.",
-        "makhraj": "The tongue tip is at the ت's position on the gum ridge, but the BODY of the tongue stays raised in the ط's iṭbāq posture. That combination exists nowhere else in the Qurʾān.",
-        "commonMistake": "Flattening it into an ordinary light ت — aḥattu.",
-        "whyItHappens": "'The ط merges' is heard as 'the ط is gone'. The body goes; the heaviness does not. And the word appears once, so the error is almost never corrected by anyone.",
-        "correctionCue": "Say a plain ط, hold the tongue exactly where it is, and say the ت from that position. Physical, not explanatory. The signature error of the whole idghām syllabus.",
-        "severityIfWrong": "jali",
-        "source": "library/02-Rules/Idgham-Mutajanisayn.md"
-      },
-      {
-        "item": "One sound in عَبَدتُّمْ — ʿabattum, with no د audible and no gap.",
-        "commonMistake": "Pronouncing both letters separately, usually with a micro-gap: ʿabad-tum.",
-        "whyItHappens": "Both letters are written and the words are printed apart.",
-        "correctionCue": "Delete the first letter deliberately: 'say ʿabat, then tum, then join.'",
-        "severityIfWrong": "jali",
-        "source": "library/02-Rules/Idgham-Mutajanisayn.md"
-      },
-      {
-        "item": "A merge still produced where no shaddah is printed — أَحَطتُ and نَخْلُقكُّم as one letter, not two.",
-        "commonMistake": "Reading a missing shaddah as 'no idghām' and separating the letters.",
-        "whyItHappens": "She has correctly learned that a shaddah marks a merge, and reasoned backwards from it.",
-        "correctionCue": "'No shaddah means the merge is INCOMPLETE, not absent.' Same convention as ي and و in 3-20; put the two cases side by side.",
-        "severityIfWrong": "jali",
-        "source": "library/02-Rules/Idgham-Mutajanisayn.md"
-      },
-      {
-        "item": "Two distinct yāʾs in ٱلَّذِى يُوَسْوِسُ, with the madd at full length.",
-        "commonMistake": "Merging after a madd letter — the two yāʾs collapsing into one long sound.",
-        "whyItHappens": "Two identical letters are touching, and she has just been taught that identical letters merge.",
-        "correctionCue": "'The first one is not a consonant. It is a vowel wearing a consonant's shape.' Then قَالُوا۟ وَٱللَّهِ and فِى يَوْمٍ on the same principle.",
-        "severityIfWrong": "jali",
-        "source": "library/02-Rules/Madd-Tabii.md"
-      },
-      {
-        "item": "The resulting shaddah held for its full length before release.",
-        "commonMistake": "The merge happening and finishing early.",
-        "whyItHappens": "The under-held shadda from 2-05, still returning under every new rule that produces one.",
-        "correctionCue": "Fingers, two folds. Name it as the 2-05 habit rather than as a new fault.",
+        "item": "The rule named at reading speed, from the following letter alone, with no pause to search a list.",
+        "commonMistake": "Hesitating and reciting the table internally before answering.",
+        "whyItHappens": "She learned five rules one per week and has not yet had to choose between them under time pressure.",
+        "correctionCue": "Run the table both ways for sixty seconds and then the mixed column cold. Wherever she is slow is where the session's minutes go.",
         "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Shiddah.md"
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-25-Revision-Noon-Sakinah.md"
       },
       {
-        "item": "Merges only where Ḥafṣ merges — no imported kabīr merges from another reading.",
-        "commonMistake": "Merging in places Ḥafṣ does not, usually in a student who listens to a lot of recitation.",
-        "whyItHappens": "She is imitating a reciter in a different reading and has no way to know that is what she is doing.",
-        "correctionCue": "Name the reading rather than the error: 'that is Abū ʿAmr. In Ḥafṣ there are two kabīr merges and you know both.'",
-        "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Idgham-Mutamathilayn.md"
+        "item": "The correct NASAL for each rule, not only the correct name — two counts, no hold, or none at all.",
+        "commonMistake": "Naming the rule correctly and producing the wrong length.",
+        "whyItHappens": "Naming and producing are two different skills, and a rule-naming drill only tests the first.",
+        "correctionCue": "A second pass down the same column answering only the nasal question. Three possible answers, eighteen rows, ninety seconds.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Ghunnah.md"
       },
       {
-        "item": "The right kind of question about ٱرْكَب مَّعَنَا and نَخْلُقكُّم — 'which was I taught?', not 'which is right?'.",
-        "commonMistake": "Treating a transmitted disagreement as an error to be resolved.",
-        "whyItHappens": "She has been taught that rules have single answers, and here two are transmitted.",
-        "correctionCue": "'Both are transmitted. Pick the one you were taught, be consistent, and recognise the other when you hear it.' The same answer she got about ي/و in 3-20 and the ب of ikhfāʾ shafawī in 3-15 — and by now she should notice it is the same answer.",
+        "item": "Both idghām shafawī instances found in 106:4 — أَطْعَمَهُم مِّن and وَءَامَنَهُم مِّنْ.",
+        "commonMistake": "Finding only the first, and counting five rule instances instead of six.",
+        "whyItHappens": "The card trained her to look ahead to خَوْفٍۭ, so the second meem merge is passed over on the way there.",
+        "correctionCue": "Have her count the instances herself before you give the number. Finding her own gap is the exercise.",
         "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Idgham-Mutaqaribayn.md"
+        "source": "library/02-Rules/Idgham-Shafawi.md"
+      },
+      {
+        "item": "ٱلدُّنْيَا with the noon intact, six weeks after the merging drills started.",
+        "makhraj": "Tip of the tongue on the gum ridge, fully made. The word boundary — not the throat — is what protects it.",
+        "commonMistake": "Merging inside a word: ad-duyyā.",
+        "whyItHappens": "The classic trap of the chapter, and it returns whenever merging has been drilled recently.",
+        "correctionCue": "The boundary question asked BEFORE the rule name, out loud, every time: 'one word' or 'two words'.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Idgham-Maal-Ghunnah.md"
+      },
+      {
+        "item": "A full two-count nasal on the nāqiṣ merges — جُوعٍ وَءَامَنَهُم and لَهَبٍ وَتَبَّ.",
+        "commonMistake": "Dropping the nasal entirely where no shaddah is printed.",
+        "whyItHappens": "Nothing on the page prompts it, and 'incomplete' still sounds like 'less of everything'. It is the most-dropped nasal in the chapter.",
+        "correctionCue": "The pinch, on the nāqiṣ merges only. 'The missing shaddah means the merge is incomplete, not that the nasal is gone.'",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Idgham-Maal-Ghunnah.md"
+      },
+      {
+        "item": "Rules named correctly INSIDE a recitation, not only inside the drill.",
+        "commonMistake": "Clean answers in the mixed column and wrong rules in the sūrah.",
+        "whyItHappens": "A rule applied under drill conditions has not yet been applied under reading conditions, and the drill cannot reveal the gap.",
+        "correctionCue": "Naming rules out loud mid-recitation across four whole sūrahs. This is the failure a revision session exists to catch.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-25-Revision-Noon-Sakinah.md"
+      },
+      {
+        "item": "The right kind of answer about iqlāb and ikhfāʾ shafawī — 'a noon was written' or 'a meem was written', never 'it sounded like'.",
+        "commonMistake": "Trying to separate them by ear, and concluding her hearing is at fault.",
+        "whyItHappens": "The two sounds are genuinely the same. The ear is right; it is being asked an impossible question.",
+        "correctionCue": "'Which letter is written?' Look, do not listen — and say out loud that her ear is not the problem.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Iqlab.md"
       }
     ],
-    "homework": "15–20 min/day, five days. Daily: two minutes classifying pairs out loud — alike, one kind, near, far, and whether each merges; three minutes on the two in her hifz, ten times each and then in the whole ayah — عَبَدتُّمْ merged, ٱلَّذِى يُوَسْوِسُ not; two minutes on the heavy ت, every single day, flat then raised, naming which is which, because this one does not stick from a single session and nobody else will ever correct it for her; two minutes on kāmil or nāqiṣ read off the page before she speaks; two minutes on the seven mutajānisayn pairings recited as three makhraj groups, then the madd exception on three phrases; two minutes on old rules and new names, giving both labels for each phrase; three minutes reciting al-Kāfirūn and an-Nās from memory — one sūrah with the merge intact, one with the exception intact. Hifz: Manzil run consecutively through the basmalah, Sabqi (an-Naṣr 110 and al-Kāfirūn 109:1–3), then the new Sabaq 109:4–6, with the order of ayat 3 and 5 tested rather than the words. al-Kāfirūn closes this week and seven of the eleven hifz items are then complete. She brings أَحَطتُ to the next session and tells me whether the ت was heavy."
+    "homework": "15–20 min/day, five days. No new rule material — consolidation and hifz. Daily: two minutes writing the partition from memory, on day one and day five, comparing the two attempts without looking at the first; two minutes on the gold contrast, مِّن جُوعٍ against مِّنْ خَوْفٍۭ, which does not retire when the chapter closes; four minutes on the mixed column, once for the rule name and once answering only the nasal question; two minutes on the four exception words with the boundary question asked before every rule name; two minutes on tanwīn only, eight phrases with no written noon in any of them; four minutes reciting al-Fīl, Quraysh, al-Māʿūn and al-Kāfirūn from memory while naming every rule out loud as she passes it. Once, on day three: on a coloured muṣḥaf, find one instance of each of the four colours and one uncoloured noon, and say what the uncoloured one is instructing her to do. Hifz: no new Sabaq. Manzil widened to three or four sūrahs, run consecutively through the basmalah so the iqlāb joins get their maintenance; Sabqi is an-Naṣr 110 whole, al-Kāfirūn 109:1–3, and al-Masad 111 and al-Ikhlāṣ 112 if either is still recent. She brings Quraysh 106:4 to the next session, recited from memory, with every ruling named and no card."
   },
   "videos": [],
   "games": [

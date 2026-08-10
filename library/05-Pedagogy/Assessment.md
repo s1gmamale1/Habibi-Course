@@ -53,7 +53,7 @@ So every deduction is logged against **the specific letter or the specific rule 
 caused it**, and the running record is kept across sessions, not reset each time.
 Two consequences:
 
-- A checkpoint result can name the units to revise. "Revise 3-19 iẓhār halqī and
+- A checkpoint result can name the units to revise. "Revise 3-20 iẓhār halqī and
   the ح/خ/ه contrast" — not "retake Checkpoint 2."
 - Recurring weak letters become visible before they fossilise. A letter that costs
   a deduction in three consecutive sessions is a fossilising habit, and it is far

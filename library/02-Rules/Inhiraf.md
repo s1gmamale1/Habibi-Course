@@ -6,7 +6,7 @@ translit: al-Inḥirāf
 english: Deviation — the sound bends away from its makhraj
 family: sifat
 letters: [ل, ر]
-taught_in: "3-05"
+taught_in: "3-06"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

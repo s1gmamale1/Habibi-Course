@@ -271,7 +271,7 @@
         "ظ collapses to ذ, or to a plain 'z'.",
         "The HALF-HEAVY letter is the characteristic failure and the commonest intermediate plateau: the student raises the back of the tongue (istiʿlāʾ achieved) but never flattens it against the palate (iṭbāq missing). The result sounds sort of heavy.",
         "The correction is TACTILE, not auditory. Feel the width of tongue contact on ط — a broad, flat seal — then transfer that same contact to ص and ظ. Do not try to fix a half-heavy letter by ear; you cannot hear the difference yet, which is why it is a plateau.",
-        "And the four-way collapse: in Persian and Urdu, ذ, ز, ض and ظ are all genuinely pronounced identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. A student from that background is not being careless — her language has no distinction here at all, so the contrast has to be built from nothing. It is the highest-priority error in this family. Lesson 3-07 is devoted to the hardest pair of it."
+        "And the four-way collapse: in Persian and Urdu, ذ, ز, ض and ظ are all genuinely pronounced identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. A student from that background is not being careless — her language has no distinction here at all, so the contrast has to be built from nothing. It is the highest-priority error in this family. Lesson 3-08 is devoted to the hardest pair of it."
       ]
     },
     {
@@ -497,9 +497,9 @@
       "kind": "concept",
       "heading": "Where these seven letters go — say this out loud, do not skip it",
       "body": [
-        "Tafkhīm and tarqīq (lesson 3-06) are istiʿlāʾ restated as a performance rule, with five degrees by vowel. The input set is these seven.",
-        "The rā' rules (3-09, 3-10) decide heavy or light partly by whether a NEIGHBOURING letter is one of these seven. The five-word exception list you meet in 3-10 exists entirely because of istiʿlāʾ.",
-        "The lām of the Divine Name (3-11) is the other conditional letter, calibrated against this set.",
+        "Tafkhīm and tarqīq (lesson 3-07) are istiʿlāʾ restated as a performance rule, with five degrees by vowel. The input set is these seven.",
+        "The rā' rules (3-10, 3-11) decide heavy or light partly by whether a NEIGHBOURING letter is one of these seven. The five-word exception list you meet in 3-11 exists entirely because of istiʿlāʾ.",
+        "The lām of the Divine Name (3-12) is the other conditional letter, calibrated against this set.",
         "Ikhfāʾ (Unit 3.4) conceals a nūn behind a two-count hum — and THAT HUM IS HEAVY when the following letter is one of ص ض ط ظ ق, and light before the other ten. The other two istiʿlāʾ letters, خ and غ, are throat letters and take a different rule. A student who has not internalised istiʿlāʾ produces one flat ghunnah everywhere and cannot execute ikhfāʾ at all.",
         "خُصَّ ضَغْطٍ قِظْ is the single most reused set of letters in the syllabus. Learn it once, properly, today."
       ]
@@ -682,7 +682,7 @@
         {
           "wrong": "ض, ظ, ذ and ز all arriving as the same plain 'z'.",
           "why": "Persian and Urdu genuinely pronounce all four as [z]; Turkic speakers land in nearly the same place. There is no distinction to transfer — it has to be built from nothing.",
-          "fix": "Where is your tongue tip? ذ and ظ — on the edge of your top teeth, where I can see it. ض — nowhere near the front; the side of the tongue, against your molars. Full treatment in 3-07."
+          "fix": "Where is your tongue tip? ذ and ظ — on the edge of your top teeth, where I can see it. ض — nowhere near the front; the side of the tongue, against your molars. Full treatment in 3-08."
         },
         {
           "wrong": "Confusing heavy with loud — volume rising on the heavy letters and dropping on the light ones.",
@@ -1244,7 +1244,7 @@
         "makhraj": "ذ and ظ at tongue point 10 with the tip visible; ز at point 9; ض on the side edge against the upper molars, tip nowhere near the front.",
         "commonMistake": "Two or more of the four arriving as the same plain 'z'. If any two match, both are wrong.",
         "whyItHappens": "Persian and Urdu genuinely pronounce all four identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. There is no distinction to transfer, so it has to be built from nothing rather than corrected.",
-        "correctionCue": "Where is your tongue tip? Show me. ذ and ظ on the edge of your top teeth; ض on the side, against your molars. Full treatment in 3-07.",
+        "correctionCue": "Where is your tongue tip? Show me. ذ and ظ on the edge of your top teeth; ض on the side, against your molars. Full treatment in 3-08.",
         "severityIfWrong": "jali",
         "source": "library/02-Rules/Itbaq.md"
       },

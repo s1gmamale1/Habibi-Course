@@ -6,7 +6,7 @@ translit: at-Takrīr
 english: Repetition — the tendency of the tongue tip to trill
 family: sifat
 letters: [ر]
-taught_in: "3-05"
+taught_in: "3-06"
 prerequisites: [inhiraf]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]
