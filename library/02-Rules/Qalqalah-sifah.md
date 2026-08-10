@@ -8,7 +8,7 @@ family: sifat
 letters: [ق, ط, ب, ج, د]
 taught_in: "3-04"
 prerequisites: [shiddah, jahr]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "89:1"

@@ -8,7 +8,7 @@ family: sifat
 letters: [ف, ح, ث, ه, ش, خ, ص, س, ك, ت]
 taught_in: "3-02"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]"]
 examples:
   - ref: "7:154"

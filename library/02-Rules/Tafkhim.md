@@ -7,7 +7,7 @@ english: Heaviness (thickening)
 family: tafkhim-tarqiq
 taught_in: "3-07"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "10:81"

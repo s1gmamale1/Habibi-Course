@@ -9,7 +9,7 @@ cpfair_key: qalqalah
 colour_b: "#DD0008"
 taught_in: "3-05"
 prerequisites: []
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "105:2"
