@@ -1,0 +1,2363 @@
+{
+  "id": "1-14",
+  "phase": 1,
+  "unit": "1.4",
+  "title": "The heavy letters inside words: ص ض ط ظ",
+  "objectives": [
+    "Student can read fully-vocalised words containing ص ض ط ظ while sustaining tafkhīm through the whole letter, and can hear the heaviness in the neighbouring vowel rather than only in the consonant.",
+    "Student can distinguish ص from س, ض from د, ض from ظ, and ط from ت in real minimal pairs, and can self-test using سَا/صَا and ضِدّ without the teacher.",
+    "Student can produce qalqalah on a ط carrying sukūn while correctly HOLDING a ظ carrying sukūn — the contrast that proves the two heavy letters are not interchangeable.",
+    "Student can read وَلَا ٱلضَّآلِّينَ with a correct ض, a held shadda and a six-count madd, and can name what goes wrong when it is read as ٱلظَّالِّينَ."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 1.14 — The heavy letters inside words: ص ض ط ظ",
+      "arabicDecor": "صِرَاطٌ عَظْمٌ"
+    },
+    {
+      "kind": "recap",
+      "heading": "From last lesson",
+      "items": [
+        {
+          "arabic": "بْ",
+          "name": "sukūn — stop, no vowel",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Close the letter and stop. No extra vowel, no stretching."
+          }
+        },
+        {
+          "arabic": "طْ",
+          "name": "ط bounces on a sukūn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ط is one of the five قطب جد letters — a dry echo on release."
+          }
+        },
+        {
+          "arabic": "ء",
+          "name": "hamza — one sound, five seats",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أ إ ؤ ئ ء — all the same clean catch in the throat."
+          }
+        },
+        {
+          "arabic": "ع",
+          "name": "ʿayn — middle throat, voiced",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Squeezed and buzzing; you can hold it."
+          }
+        },
+        {
+          "arabic": "ح",
+          "name": "ḥaa — middle throat, no voice",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Same place as ع, no buzz."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The vowel is the tell",
+      "body": [
+        "ص ض ط ظ are the heavy letters. Heavy does not mean loud — it means the back of your tongue lifts toward the roof of your mouth while the front does the work.",
+        "Here is the thing nobody tells beginners: you cannot really hear that dome on the consonant itself. You hear it on the VOWEL beside it.",
+        "After a heavy letter, a fatha backs toward the ‘o’ in ‘hot’ — صَ is closer to ‘ṣo’ than to ‘sa’. A damma goes deep and round. A kasra resists most, but still pulls back a little.",
+        "A long alif after a heavy letter is the clearest tell of all — a heavy alif, dark and resonant.",
+        "Your own diagnostic, and you can run it without me: say سَا, then صَا. If they sound the same, the dome is not happening yet."
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ص",
+        "name": "ṣaad",
+        "translit": "ṣ",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ص: tip of the tongue at the lower front teeth — the same place as س — but with the back of the tongue domed. A thick, heavy whistle."
+        }
+      },
+      "makhraj": "tip of the tongue against the lower front teeth, with the tongue-body raised",
+      "notes": [
+        "Revision letter from Lesson 1.4 — today it lives inside words, which is much harder than saying it alone.",
+        "ص is simply س with the tongue-body lifted. Everything else — the place, the whistle, the lack of voice — is identical.",
+        "The heaviness must survive all the way to the END of the letter. It most often collapses at the moment you stop, which is why the sukūn words matter."
+      ],
+      "examples": [
+        {
+          "arabic": "صَبْر",
+          "translit": "ṣabr",
+          "meaning": "patience",
+          "form": "initial"
+        },
+        {
+          "arabic": "عَصْر",
+          "translit": "ʿaṣr",
+          "meaning": "afternoon, time",
+          "form": "medial"
+        },
+        {
+          "arabic": "قَمِيص",
+          "translit": "qamīṣ",
+          "meaning": "shirt",
+          "form": "final"
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ص inside real words — start, middle, end",
+      "instructions": "Read right to left. Before each word, say the light twin out loud (سَا) and then the heavy one (صَا), so the tongue knows which shape to take.",
+      "grid": [
+        [
+          {
+            "arabic": "صَبْر",
+            "translit": "ṣabr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَبْر right to left: ṣaad + fatha (ṣa, heavy), ba with sukūn (b), ra (r), then blend: ṣabr — “patience”. The model word. The fatha is backed — closer to ‘ṣo’ than to the ‘a’ in ‘cat’."
+            }
+          },
+          {
+            "arabic": "صَدْر",
+            "translit": "ṣadr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَدْر right to left: ṣaad + fatha (ṣa, heavy), dal with sukūn (d — it bounces), ra (r), then blend: ṣadr — “chest”. Same shape as صَبْر. Drill them as a pair."
+            }
+          },
+          {
+            "arabic": "صُبْح",
+            "translit": "ṣubḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صُبْح right to left: ṣaad + damma (ṣu, heavy and round), ba with sukūn (b), ḥaa (ḥ), then blend: ṣubḥ — “morning”. Heavy ص at the front, throat ح at the back — both of your hard letters in three sounds."
+            }
+          },
+          {
+            "arabic": "صَيْف",
+            "translit": "ṣayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَيْف right to left: ṣaad + fatha (ṣay, heavy), yaa with sukūn (y), fa (f), then blend: ṣayf — “summer”. Hold this one — سَيْف ‘sword’ is coming in the next drill."
+            }
+          },
+          {
+            "arabic": "صِدْق",
+            "translit": "ṣidq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صِدْق right to left: ṣaad + kasra (ṣi, heavy), dal with sukūn (d), qaaf (q), then blend: ṣidq — “truth”. Kasra is the hard vowel on a heavy letter — the ص must stay heavy even though the vowel is bright."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَصْر",
+            "translit": "ʿaṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَصْر right to left: ʿayn + fatha (ʿa), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: ʿaṣr — “afternoon, time”. The ص makes the ر heavy too — that is the knock-on effect to listen for."
+            }
+          },
+          {
+            "arabic": "نَصْر",
+            "translit": "naṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَصْر right to left: nun + fatha (na), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: naṣr — “help, victory”. A light ن first makes the switch to heavy audible."
+            }
+          },
+          {
+            "arabic": "بَصَر",
+            "translit": "baṣar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَصَر right to left: ba + fatha (ba, light), ṣaad + fatha (ṣa, heavy), ra (r), then blend: baṣar — “sight”. Two fathas: the first light, the second backed. The single best word for hearing what ص does to a vowel."
+            }
+          },
+          {
+            "arabic": "مِصْر",
+            "translit": "miṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مِصْر right to left: meem + kasra (mi), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: miṣr — “Egypt”."
+            }
+          },
+          {
+            "arabic": "فَصْل",
+            "translit": "faṣl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فَصْل right to left: fa + fatha (fa), ṣaad with sukūn (ṣ, heavy), lam (l), then blend: faṣl — “separation, season”. Note the ل stays LIGHT after the ص. Only ر follows the heaviness across — ل does not."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قَمِيص",
+            "translit": "qamīṣ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قَمِيص right to left: qaaf + fatha (qa), meem + long ī (mī), ṣaad (ṣ, heavy), then blend: qamīṣ — “shirt”. The long ī is bright, then it must retract into the ص at the very last moment. Most students stay bright and miss it."
+            }
+          },
+          {
+            "arabic": "نَقْص",
+            "translit": "naqṣ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَقْص right to left: nun + fatha (na), qaaf with sukūn (q — it bounces), ṣaad (ṣ), then blend: naqṣ — “loss, decrease”."
+            }
+          },
+          {
+            "arabic": "خَالِص",
+            "translit": "khāliṣ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خَالِص right to left: khaa + long ā (khā, heavy), lam + kasra (li, light), ṣaad (ṣ, heavy), then blend: khāliṣ — “pure”. Heavy, then light, then heavy again. Turning the heaviness off and back on is harder than keeping it on."
+            }
+          },
+          {
+            "arabic": "حَرِيص",
+            "translit": "ḥarīṣ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَرِيص right to left: ḥaa + fatha (ḥa), ra + long ī (rī), ṣaad (ṣ), then blend: ḥarīṣ — “eager, keen”."
+            }
+          },
+          {
+            "arabic": "قِصَاص",
+            "translit": "qiṣāṣ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قِصَاص right to left: qaaf + kasra (qi), ṣaad + long ā (ṣā, heavy), ṣaad (ṣ), then blend: qiṣāṣ — “retaliation”. Two ṣaads around a heavy alif — the longest stretch of heaviness in the lesson. Save it for last."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ص or س? — read down each column",
+      "instructions": "Same makhraj, same whistle. The ONLY difference is whether the back of the tongue is domed. Read each pair back to back.",
+      "grid": [
+        [
+          {
+            "arabic": "صَيْف",
+            "translit": "ṣayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَيْف right to left: ṣaad + fatha (ṣay, heavy), yaa with sukūn, fa, then blend: ṣayf — “summer”."
+            }
+          },
+          {
+            "arabic": "سَيْف",
+            "translit": "sayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سَيْف right to left: seen + fatha (say, light), yaa with sukūn, fa, then blend: sayf — “sword”. Same word, one feature apart: the tongue-body is flat for س and domed for ص."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَصْر",
+            "translit": "naṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَصْر right to left: nun + fatha, ṣaad with sukūn (heavy), ra, then blend: naṣr — “help, victory”."
+            }
+          },
+          {
+            "arabic": "نَسْر",
+            "translit": "nasr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَسْر right to left: nun + fatha, seen with sukūn (light), ra, then blend: nasr — “vulture”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صَدَّ",
+            "translit": "ṣadda",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صَدَّ right to left: ṣaad + fatha (heavy), dal with a shadda (dd), then blend: ṣadda — “he turned away”."
+            }
+          },
+          {
+            "arabic": "سَدَّ",
+            "translit": "sadda",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read سَدَّ right to left: seen + fatha (light), dal with a shadda (dd), then blend: sadda — “he blocked”."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ض",
+        "name": "ḍaad",
+        "translit": "ḍ",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ض: the SIDE of the tongue presses against the upper molars — either side works — with the tongue-body domed. The sound stretches along the edge of the tongue."
+        }
+      },
+      "makhraj": "the side of the tongue against the upper molars",
+      "notes": [
+        "Revision letter from Lesson 1.4, and the most mis-taught letter in Arabic.",
+        "ض is NOT د with extra weight. د is the tongue-TIP on the gum ridge; ض is the tongue-SIDE on the molars. Different place entirely.",
+        "Use ضِدّ as your self-test: it puts ض and د in one syllable. If they sound the same, the ض has collapsed into a heavy د."
+      ],
+      "examples": [
+        {
+          "arabic": "ضَيْف",
+          "translit": "ḍayf",
+          "meaning": "guest",
+          "form": "initial"
+        },
+        {
+          "arabic": "فَضْل",
+          "translit": "faḍl",
+          "meaning": "bounty, favour",
+          "form": "medial"
+        },
+        {
+          "arabic": "أَرْض",
+          "translit": "arḍ",
+          "meaning": "earth, land",
+          "form": "final"
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ض inside real words — start, middle, end",
+      "instructions": "Read right to left. ض is made with the SIDE of the tongue against the upper molars — not the tip. Check ضِدّ first: if the ض and the د sound alike, stop and fix it before going on.",
+      "grid": [
+        [
+          {
+            "arabic": "ضِدّ",
+            "translit": "ḍidd",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضِدّ right to left: ḍaad + kasra (ḍi, heavy), dal with a shadda (dd), then blend: ḍidd — “opposite”. THE diagnostic word. ض then د in one syllable. If the two sound the same, the ض is wrong — start again."
+            }
+          },
+          {
+            "arabic": "ضُحَى",
+            "translit": "ḍuḥā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضُحَى right to left: ḍaad + damma (ḍu, heavy and deep), ḥaa + long ā (ḥā), then blend: ḍuḥā — “forenoon”. You know this sūrah. ض then ح — both far back in the mouth and throat."
+            }
+          },
+          {
+            "arabic": "ضَرَبَ",
+            "translit": "ḍaraba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَرَبَ right to left: ḍaad + fatha (ḍa, backed to ‘ḍo’), ra + fatha (ra), ba + fatha (ba), then blend: ḍaraba — “he struck”. The ر comes out heavy because the fatha before it is backed. Then everything lightens again."
+            }
+          },
+          {
+            "arabic": "ضَيْف",
+            "translit": "ḍayf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَيْف right to left: ḍaad + fatha (ḍay, heavy), yaa with sukūn (y), fa (f), then blend: ḍayf — “guest”. Compare with صَيْف — same frame, a different heavy letter."
+            }
+          },
+          {
+            "arabic": "ضَعِيف",
+            "translit": "ḍaʿīf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَعِيف right to left: ḍaad + fatha (ḍa, heavy), ʿayn + kasra (ʿi), long ī, fa (f), then blend: ḍaʿīf — “weak”. Molars, then deep throat — a real workout, and both are letters you are working on."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَضْل",
+            "translit": "faḍl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read فَضْل right to left: fa + fatha (fa), ḍaad with sukūn (ḍ, heavy), lam (l), then blend: faḍl — “bounty, favour”. A sukūn means you must HOLD the molar contact, not flick past it."
+            }
+          },
+          {
+            "arabic": "غَضَب",
+            "translit": "ghaḍab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غَضَب right to left: ghayn + fatha (gha), ḍaad + fatha (ḍa, heavy), ba (b), then blend: ghaḍab — “anger”."
+            }
+          },
+          {
+            "arabic": "قَضَى",
+            "translit": "qaḍā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قَضَى right to left: qaaf + fatha (qa), ḍaad + long ā (ḍā, heavy alif), then blend: qaḍā — “he decreed”."
+            }
+          },
+          {
+            "arabic": "رَضِيَ",
+            "translit": "raḍiya",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read رَضِيَ right to left: ra + fatha (ra), ḍaad + kasra (ḍi, still heavy), yaa + fatha (ya), then blend: raḍiya — “he was pleased”. Kasra on ض fights the natural pull backwards. Keep the molars engaged anyway."
+            }
+          },
+          {
+            "arabic": "خَضِر",
+            "translit": "khaḍir",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خَضِر right to left: khaa + fatha (kha), ḍaad + kasra (ḍi, heavy), ra (r), then blend: khaḍir — “green”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَرْض",
+            "translit": "arḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read أَرْض right to left: hamza + fatha (a), ra with sukūn (r), ḍaad (ḍ, heavy), then blend: arḍ — “earth, land”. The most frequent ض word in the Qurʾān."
+            }
+          },
+          {
+            "arabic": "بَعْض",
+            "translit": "baʿḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَعْض right to left: ba + fatha (ba), ʿayn with sukūn (ʿ), ḍaad (ḍ, heavy), then blend: baʿḍ — “some”. Your two hard letters in one short word."
+            }
+          },
+          {
+            "arabic": "بَيْض",
+            "translit": "bayḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَيْض right to left: ba + fatha (bay), yaa with sukūn (y), ḍaad (ḍ, heavy), then blend: bayḍ — “eggs”."
+            }
+          },
+          {
+            "arabic": "مَرِيض",
+            "translit": "marīḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مَرِيض right to left: meem + fatha (ma), ra + long ī (rī), ḍaad (ḍ, heavy), then blend: marīḍ — “sick”. Same challenge as قَمِيص — the bright long ī has to retract into a heavy letter."
+            }
+          },
+          {
+            "arabic": "حَوْض",
+            "translit": "ḥawḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَوْض right to left: ḥaa + fatha (ḥaw), waaw with sukūn (w), ḍaad (ḍ, heavy), then blend: ḥawḍ — “basin, pool”."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ض or د? — read down each column",
+      "instructions": "ض uses the side of the tongue on the molars; د uses the tip on the gum ridge. Different places, not just different weights.",
+      "grid": [
+        [
+          {
+            "arabic": "ضَلَّ",
+            "translit": "ḍalla",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَلَّ right to left: ḍaad + fatha (heavy), lam with a shadda (ll), then blend: ḍalla — “he went astray”. Side of the tongue against the upper molars."
+            }
+          },
+          {
+            "arabic": "دَلَّ",
+            "translit": "dalla",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read دَلَّ right to left: dal + fatha (light), lam with a shadda (ll), then blend: dalla — “he showed the way”. Tip of the tongue on the gum ridge. Near-opposite meanings — mispronouncing this inverts the sense."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَضَّ",
+            "translit": "ʿaḍḍa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَضَّ right to left: ʿayn + fatha (ʿa), ḍaad with a shadda (ḍḍ, heavy), then blend: ʿaḍḍa — “he bit”."
+            }
+          },
+          {
+            "arabic": "عَدَّ",
+            "translit": "ʿadda",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَدَّ right to left: ʿayn + fatha (ʿa), dal with a shadda (dd, light), then blend: ʿadda — “he counted”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ضَرْب",
+            "translit": "ḍarb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَرْب right to left: ḍaad + fatha (heavy), ra with sukūn, ba, then blend: ḍarb — “striking”."
+            }
+          },
+          {
+            "arabic": "دَرْب",
+            "translit": "darb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read دَرْب right to left: dal + fatha (light), ra with sukūn, ba, then blend: darb — “path, road”."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "ض and ظ, one āyah apart",
+      "body": [
+        "In Sūrah al-Qiyāmah two consecutive āyāt read: وُجُوهٌ يَوْمَئِذٍ نَاضِرَة (75:22) — ‘faces that day are radiant’ — then إِلَىٰ رَبِّهَا نَاظِرَة (75:23) — ‘looking toward their Lord’. (Written here without tanwīn so the two words line up; the full mushaf spelling is in the reciter drill at the end of the lesson.)",
+        "One letter apart. Both heavy. Both correct in their own place, and each is wrong in the other’s.",
+        "This is the clearest proof in the whole Qurʾān that ض and ظ are different letters and not two spellings of one sound.",
+        "The difference is not weight — both are heavy. It is WHERE the tongue is: ض on the molars with the tip down, ظ with the tip out between the teeth."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ض or ظ? — read down each column",
+      "instructions": "Both are heavy, so weight will not tell them apart. Watch the tongue TIP: if you can see it between the teeth it is ظ; if it stays down it is ض.",
+      "grid": [
+        [
+          {
+            "arabic": "ضَلَّ",
+            "translit": "ḍalla",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ضَلَّ right to left: ḍaad — SIDE of the tongue on the molars, tip stays down, then blend: ḍalla — “he went astray”."
+            }
+          },
+          {
+            "arabic": "ظَلَّ",
+            "translit": "ẓalla",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظَلَّ right to left: ẓhaa — TIP of the tongue between the teeth, then blend: ẓalla — “he remained, became”. Both are heavy. The difference is not weight, it is WHERE the tongue is."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَاضِرَة",
+            "translit": "nāḍirah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَاضِرَة right to left: nun + long ā, ḍaad + kasra (heavy, molars), ra + fatha, taa marbūṭa, then blend: nāḍirah — “radiant, glowing”."
+            }
+          },
+          {
+            "arabic": "نَاظِرَة",
+            "translit": "nāẓirah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَاظِرَة right to left: nun + long ā, ẓhaa + kasra (heavy, tongue-tip between teeth), ra + fatha, taa marbūṭa, then blend: nāẓirah — “looking, gazing”. These two sit one āyah apart in Sūrah al-Qiyāmah (75:22–23). One letter, two meanings, side by side."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حَضّ",
+            "translit": "ḥaḍḍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَضّ right to left: ḥaa + fatha (ḥa), ḍaad with a shadda (ḍḍ), then blend: ḥaḍḍ — “urging”."
+            }
+          },
+          {
+            "arabic": "حَظّ",
+            "translit": "ḥaẓẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَظّ right to left: ḥaa + fatha (ḥa), ẓhaa with a shadda (ẓẓ), then blend: ḥaẓẓ — “share, portion”. Doubled letters hold the contrast open twice as long — nowhere to hide."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ط",
+        "name": "ṭaa",
+        "translit": "ṭ",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ط: same place as ت — the tongue-tip on the gum ridge — but with a full, domed mouth cavity. Heavy, and it bounces when it carries a sukūn."
+        }
+      },
+      "makhraj": "tip of the tongue against the upper gum ridge, with the tongue-body raised",
+      "notes": [
+        "Revision letter from Lesson 1.4. ط is the heavy twin of ت, at exactly the same place.",
+        "ط is also one of the five qalqalah letters (ق ط ب ج د), so a ط with a sukūn must bounce — and it is the only letter that is both heavy AND bouncing.",
+        "The hardest case is ط with a kasra (بَاطِل, طِين): the consonant must stay heavy even though the vowel is bright."
+      ],
+      "examples": [
+        {
+          "arabic": "طَيْر",
+          "translit": "ṭayr",
+          "meaning": "bird",
+          "form": "initial"
+        },
+        {
+          "arabic": "بَطْن",
+          "translit": "baṭn",
+          "meaning": "belly",
+          "form": "medial"
+        },
+        {
+          "arabic": "صِرَاط",
+          "translit": "ṣirāṭ",
+          "meaning": "path",
+          "form": "final"
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ط inside real words — start, middle, end",
+      "instructions": "Read right to left. Every ط is heavy in every vowel. Where a ط carries a sukūn it also bounces — those are marked in the cue.",
+      "grid": [
+        [
+          {
+            "arabic": "طِين",
+            "translit": "ṭīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طِين right to left: ṭaa + kasra (ṭi, heavy), long ī, nun (n), then blend: ṭīn — “clay”. The kasra test-case. Tongue broad and flat on the gum ridge, back of the tongue raised, THEN the ‘ee’."
+            }
+          },
+          {
+            "arabic": "طَيْر",
+            "translit": "ṭayr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَيْر right to left: ṭaa + fatha (ṭay, heavy), yaa with sukūn (y), ra (r), then blend: ṭayr — “bird”. Fully backed: ‘ṭoyr’, not ‘tayr’."
+            }
+          },
+          {
+            "arabic": "طُور",
+            "translit": "ṭūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طُور right to left: ṭaa + damma (ṭu, heavy), long ū, ra (r), then blend: ṭūr — “mount”. The easiest one here — the damma already pulls your mouth where ط wants it."
+            }
+          },
+          {
+            "arabic": "طَعَام",
+            "translit": "ṭaʿām",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَعَام right to left: ṭaa + fatha (ṭa, heavy), ʿayn + long ā (ʿā), meem (m), then blend: ṭaʿām — “food”. Heavy ط, then the throat opens for ع. A good transition drill for two of your hard letters."
+            }
+          },
+          {
+            "arabic": "طِفْل",
+            "translit": "ṭifl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طِفْل right to left: ṭaa + kasra (ṭi, heavy), fa with sukūn (f), lam (l), then blend: ṭifl — “child”. Careful: the sukūn is on the ف, not the ط — so there is no bounce here."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَطَر",
+            "translit": "maṭar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مَطَر right to left: meem + fatha (ma, light), ṭaa + fatha (ṭa, heavy), ra (r), then blend: maṭar — “rain”. The best word for hearing you switch weight mid-word."
+            }
+          },
+          {
+            "arabic": "بَطْن",
+            "translit": "baṭn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَطْن right to left: ba + fatha (ba), ṭaa with SUKŪN (ṭ — it bounces), nun (n), then blend: baṭn — “belly”. Qalqalah: ‘baṭ-eh-n’. The bounce lands before the ن."
+            }
+          },
+          {
+            "arabic": "نُطْفَة",
+            "translit": "nuṭfah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نُطْفَة right to left: nun + damma (nu), ṭaa with SUKŪN (ṭ — bounce), fa + fatha (fa), taa marbūṭa, then blend: nuṭfah — “a drop”. The bounce must be audible before the whispered ف, or it disappears completely."
+            }
+          },
+          {
+            "arabic": "بَاطِل",
+            "translit": "bāṭil",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَاطِل right to left: ba + long ā (bā), ṭaa + kasra (ṭi, still heavy), lam (l), then blend: bāṭil — “falsehood”. ط with a kasra mid-word — the classic failure point. Heavy consonant, bright vowel."
+            }
+          },
+          {
+            "arabic": "شَيْطَان",
+            "translit": "shayṭān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read شَيْطَان right to left: sheen + fatha (shay), yaa with sukūn, ṭaa + long ā (ṭā, heavy), nun, then blend: shayṭān — “devil”. The most frequent ط word in the Qurʾān — worth over-drilling."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صِرَاط",
+            "translit": "ṣirāṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read صِرَاط right to left: ṣaad + kasra (ṣi, heavy), ra + long ā (rā), ṭaa (ṭ, heavy), then blend: ṣirāṭ — “path”. You recite this every day in al-Fātiḥah. Two heavy letters bracket the word; stopping on it gives ‘ṣirāṭ-eh’."
+            }
+          },
+          {
+            "arabic": "لُوط",
+            "translit": "lūṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read لُوط right to left: lam + damma and long ū (lū), ṭaa (ṭ, heavy), then blend: lūṭ — “Lot (prophet)”. The simplest possible final-ط bounce."
+            }
+          },
+          {
+            "arabic": "خَيْط",
+            "translit": "khayṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read خَيْط right to left: khaa + fatha (khay), yaa with sukūn (y), ṭaa (ṭ), then blend: khayṭ — “thread”."
+            }
+          },
+          {
+            "arabic": "قِسْط",
+            "translit": "qisṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قِسْط right to left: qaaf + kasra (qi), seen with sukūn (s, LIGHT), ṭaa (ṭ, HEAVY), then blend: qisṭ — “justice”. A light س immediately followed by a heavy ط — a hard junction, and a valuable one."
+            }
+          },
+          {
+            "arabic": "مُحِيط",
+            "translit": "muḥīṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read مُحِيط right to left: meem + damma (mu), ḥaa + long ī (ḥī), ṭaa (ṭ, heavy), then blend: muḥīṭ — “encompassing”. ح and ط in one short word — two of your five hard letters."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ط or ت? — read down each column",
+      "instructions": "The heavy twin and the light twin, same makhraj. Listen to the VOWEL, not the consonant — it is the vowel that gives it away.",
+      "grid": [
+        [
+          {
+            "arabic": "طِين",
+            "translit": "ṭīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طِين right to left: ṭaa + kasra (heavy), long ī, nun, then blend: ṭīn — “clay”."
+            }
+          },
+          {
+            "arabic": "تِين",
+            "translit": "tīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تِين right to left: ta + kasra (light), long ī, nun, then blend: tīn — “fig”. The canonical pair, and both are Qurʾānic. Start every ط session here."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "طَابَ",
+            "translit": "ṭāba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَابَ right to left: ṭaa + long ā (heavy alif), ba + fatha, then blend: ṭāba — “it was good”."
+            }
+          },
+          {
+            "arabic": "تَابَ",
+            "translit": "tāba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تَابَ right to left: ta + long ā (light alif), ba + fatha, then blend: tāba — “he repented”."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "طَمَّ",
+            "translit": "ṭamma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read طَمَّ right to left: ṭaa + fatha (heavy), meem with a shadda, then blend: ṭamma — “it overwhelmed”."
+            }
+          },
+          {
+            "arabic": "تَمَّ",
+            "translit": "tamma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read تَمَّ right to left: ta + fatha (light), meem with a shadda, then blend: tamma — “it was completed”. The shortest pair — good for rapid-fire alternation."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ظ",
+        "name": "ẓhaa",
+        "translit": "ẓ",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "ظ: tongue-tip between the teeth — the same place as ذ and ث — voiced, and with the tongue-body domed. Heavy, and never bounced."
+        }
+      },
+      "makhraj": "tip of the tongue between the front teeth, with the tongue-body raised",
+      "notes": [
+        "Revision letter from Lesson 1.4. ظ is the heavy twin of ذ, at exactly the same place.",
+        "The commonest error is not saying ذ — it is saying ز, or a heavy د. Both keep the tongue-tip hidden. If you cannot see the tip, it is wrong.",
+        "ظ is NOT a qalqalah letter. On a sukūn it is held and allowed to fade — never bounced. That is the contrast with ط."
+      ],
+      "examples": [
+        {
+          "arabic": "ظَهْر",
+          "translit": "ẓahr",
+          "meaning": "back",
+          "form": "initial"
+        },
+        {
+          "arabic": "عَظِيم",
+          "translit": "ʿaẓīm",
+          "meaning": "great",
+          "form": "medial"
+        },
+        {
+          "arabic": "غَيْظ",
+          "translit": "ghayẓ",
+          "meaning": "rage",
+          "form": "final"
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ظ inside real words",
+      "instructions": "ظ is the heavy twin of ذ: tongue-tip BETWEEN the teeth, voiced, heavy. If you cannot see the tip, it is not ظ.",
+      "grid": [
+        [
+          {
+            "arabic": "ظُلْم",
+            "translit": "ẓulm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظُلْم right to left: ẓhaa + damma (ẓu, heavy), lam with sukūn (l), meem (m), then blend: ẓulm — “injustice”. The sukūn is on the ل, not the ظ."
+            }
+          },
+          {
+            "arabic": "ظِلّ",
+            "translit": "ẓill",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظِلّ right to left: ẓhaa + kasra (ẓi, still heavy), lam with a shadda (ll), then blend: ẓill — “shade”. Kasra on ظ — the tongue-tip must still show between the teeth."
+            }
+          },
+          {
+            "arabic": "ظَنَّ",
+            "translit": "ẓanna",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظَنَّ right to left: ẓhaa + fatha (ẓa, heavy), nun with a shadda (nn), then blend: ẓanna — “he thought”. The shortest ظ word there is. Ideal first drill."
+            }
+          },
+          {
+            "arabic": "ظَهْر",
+            "translit": "ẓahr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظَهْر right to left: ẓhaa + fatha (ẓa, heavy), haa with sukūn (h), ra (r), then blend: ẓahr — “back”. ظ then ه — two completely different breath sources back to back."
+            }
+          },
+          {
+            "arabic": "عَظِيم",
+            "translit": "ʿaẓīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَظِيم right to left: ʿayn + fatha (ʿa), ẓhaa + kasra (ẓi, heavy), long ī, meem (m), then blend: ʿaẓīm — “great”. Very high frequency, and it uses the hardest vowel on ظ. You will meet it constantly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَظَرَ",
+            "translit": "naẓara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَظَرَ right to left: nun + fatha (na, light), ẓhaa + fatha (ẓa, heavy), ra + fatha (ra), then blend: naẓara — “he looked”. Light, heavy, light — the switch has to happen twice."
+            }
+          },
+          {
+            "arabic": "عَظْم",
+            "translit": "ʿaẓm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَظْم right to left: ʿayn + fatha (ʿa), ẓhaa with SUKŪN (ẓ — HOLD it, do not bounce), meem (m), then blend: ʿaẓm — “bone”. The best word in the lesson for the ط/ظ contrast: press the tongue-tip between the teeth and sustain, then release into the م."
+            }
+          },
+          {
+            "arabic": "حَظّ",
+            "translit": "ḥaẓẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَظّ right to left: ḥaa + fatha (ḥa), ẓhaa with a shadda (ẓẓ), then blend: ḥaẓẓ — “share, portion”."
+            }
+          },
+          {
+            "arabic": "حَافِظ",
+            "translit": "ḥāfiẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read حَافِظ right to left: ḥaa + long ā (ḥā), fa + kasra (fi), ẓhaa (ẓ, heavy), then blend: ḥāfiẓ — “guardian”."
+            }
+          },
+          {
+            "arabic": "غَيْظ",
+            "translit": "ghayẓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read غَيْظ right to left: ghayn + fatha (ghay), yaa with sukūn (y), ẓhaa (ẓ, heavy), then blend: ghayẓ — “rage”. غ and ظ are both deep — the whole word sits low and back."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "ظ or ذ or ز? — read down each column",
+      "instructions": "ذ is the same place but light. ز is a whistle from behind the teeth. Only ظ is both between-the-teeth and heavy.",
+      "grid": [
+        [
+          {
+            "arabic": "نَظَرَ",
+            "translit": "naẓara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَظَرَ right to left: ẓhaa — heavy, tongue-tip between the teeth, then blend: naẓara — “he looked”."
+            }
+          },
+          {
+            "arabic": "نَذَرَ",
+            "translit": "nadhara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read نَذَرَ right to left: dhal — LIGHT, same tongue-tip position, then blend: nadhara — “he vowed”. Same place, the only difference is weight. The best ظ/ذ pair there is."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ظَهْر",
+            "translit": "ẓahr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read ظَهْر right to left: ẓhaa — tongue-tip between the teeth, then blend: ẓahr — “back”."
+            }
+          },
+          {
+            "arabic": "زَهْر",
+            "translit": "zahr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read زَهْر right to left: zay — tongue BEHIND the teeth, a sharp whistle, then blend: zahr — “blossom”. This is the substitution you are most likely to make. If it whistles, it became ز."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَظْم",
+            "translit": "ʿaẓm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَظْم right to left: ẓhaa with sukūn — held, then blend: ʿaẓm — “bone”."
+            }
+          },
+          {
+            "arabic": "عَزْم",
+            "translit": "ʿazm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَزْم right to left: zay with sukūn — whistled, then blend: ʿazm — “resolve”. Both Qurʾānic, both with a sukūn — a perfectly matched pair."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Bounce or hold? — ط against ظ",
+      "instructions": "ط is a qalqalah letter and bounces on a sukūn. ظ is NOT and must be held. Read across, twice.",
+      "grid": [
+        [
+          {
+            "arabic": "بَطْن",
+            "translit": "baṭn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read بَطْن right to left: ṭaa with sukūn — BOUNCE, ‘baṭ-eh-n’, then blend: baṭn — “belly”."
+            }
+          },
+          {
+            "arabic": "عَظْم",
+            "translit": "ʿaẓm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَظْم right to left: ẓhaa with sukūn — HOLD, no echo, then blend: ʿaẓm — “bone”."
+            }
+          },
+          {
+            "arabic": "قُطْن",
+            "translit": "quṭn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read قُطْن right to left: ṭaa with sukūn — BOUNCE, ‘quṭ-eh-n’, then blend: quṭn — “cotton”."
+            }
+          },
+          {
+            "arabic": "عَزْم",
+            "translit": "ʿazm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Read عَزْم right to left: zay with sukūn — no bounce, and no ظ either, then blend: ʿazm — “resolve”. Run the four across, in order, twice. ط bounces; ظ never does."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَلَا ٱلضَّآلِّينَ — the ض you say seventeen times a day",
+      "body": [
+        "The last words of al-Fātiḥah: وَلَا ٱلضَّآلِّينَ — ‘and not of those who go astray’. You say this in every rakʿah, so any error here sets hard.",
+        "One — do not say ظ. ٱلظَّالِّينَ is a different word from a different root, meaning ‘those who persist’. Keep the tongue-tip DOWN and away from the teeth; all the work is at the molars.",
+        "Two — do not say د. Dropping the dome turns it into ‘ad-dāllīn’.",
+        "Three — the madd is long. The alif here is followed by a doubled lām, which makes it a six-count lengthening: the longest in tajwīd. It should feel uncomfortably long. Beginners give it two.",
+        "Four — hold the shadda. The ل of الـ has assimilated into the ض, which is why it is doubled: al- + ḍāllīn becomes aḍ-ḍāllīn. Two full counts of molar contact.",
+        "Five — keep the alif heavy. After a ض the long ‘aa’ must stay dark and backed. A bright ‘aa’ undoes a correct ض."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Hear a reciter — ص and ض in the Qurʾān",
+      "instructions": "The exact words as they appear in the Qurʾān. Tap to hear a qāriʾ, then copy him. Listen for how the vowel darkens after the heavy letter.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "translit": "aḍ-ḍāllīn",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/001_007_009.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "وَٱلضُّحَىٰ",
+            "translit": "waḍ-ḍuḥā",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/093_001_001.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "وَٱلصُّبْحِ",
+            "translit": "waṣ-ṣubḥi",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/081_018_001.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "وَٱلْعَصْرِ",
+            "translit": "wal-ʿaṣri",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/103_001_001.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِٱلصَّبْرِ",
+            "translit": "biṣ-ṣabri",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/103_003_009.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "نَاضِرَةٌ",
+            "translit": "nāḍiratun",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/075_022_003.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "نَاظِرَةٌۭ",
+            "translit": "nāẓiratun",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/075_023_003.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "ضَرِيعٍۢ",
+            "translit": "ḍarīʿin",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/088_006_006.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Hear a reciter — ط and ظ in the Qurʾān",
+      "instructions": "Tap and copy. On نُطْفَةٍ and ٱلْعَظْمُ especially: one of those bounces and one is held.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلصِّرَٰطَ",
+            "translit": "aṣ-ṣirāṭa",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/001_006_002.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "وَٱلطَّارِقِ",
+            "translit": "waṭ-ṭāriqi",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/086_001_002.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "طَيْرًا",
+            "translit": "ṭayran",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/105_003_003.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "طَعَامٌ",
+            "translit": "ṭaʿāmun",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/088_006_003.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نُطْفَةٍ",
+            "translit": "nuṭfatin",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/080_019_002.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "طَبَقًا",
+            "translit": "ṭabaqan",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/084_019_002.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "ظَهْرَكَ",
+            "translit": "ẓahraka",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/094_003_003.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          },
+          {
+            "arabic": "ٱلْعَظْمُ",
+            "translit": "al-ʿaẓmu",
+            "audio": {
+              "type": "qari-clip",
+              "url": "https://audio.qurancdn.com/wbw/019_004_005.mp3",
+              "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "The four heavy letters",
+      "items": [
+        {
+          "arabic": "ص",
+          "name": "ṣaad — heavy س",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Same place as س, tongue-body domed. Test: سَا then صَا."
+          }
+        },
+        {
+          "arabic": "ض",
+          "name": "ḍaad — side of tongue, molars",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Not a heavy د. The SIDE of the tongue on the upper molars. Test: ضِدّ."
+          }
+        },
+        {
+          "arabic": "ط",
+          "name": "ṭaa — heavy ت, and it bounces",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Same place as ت, domed. On a sukūn it bounces. Test: طِين then تِين."
+          }
+        },
+        {
+          "arabic": "ظ",
+          "name": "ẓhaa — heavy ذ, and it is held",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Tongue-tip between the teeth, voiced and heavy. On a sukūn it is HELD, never bounced."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day",
+      "tasks": [
+        "Warm up every session with سَا / صَا and تَا / طَا, three times each, before reading anything",
+        "Read the ص word set and the ض word set aloud daily — all three rows of each",
+        "Check ضِدّ every single day: if the ض and the د sound alike, do nothing else until they do not",
+        "Read the ط word set daily, bouncing every ط that carries a sukūn (بَطْن, نُطْفَة)",
+        "Read the ظ word set daily, holding every ظ — never bouncing it",
+        "Bounce-or-hold drill across: بَطْن — عَظْم — قُطْن — عَزْم, twice through",
+        "Read the four minimal-pair sets ACROSS the page, not down: ص/س, ض/د, ض/ظ, ط/ت",
+        "Tap through both reciter rows once a day and copy the qāriʾ aloud",
+        "Say وَلَا ٱلضَّآلِّينَ slowly once a day, counting the madd to six"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "ص inside real words — start, middle, end",
+        "instructions": "Read right to left. Before each word, say the light twin out loud (سَا) and then the heavy one (صَا), so the tongue knows which shape to take.",
+        "grid": [
+          [
+            {
+              "arabic": "صَبْر",
+              "translit": "ṣabr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَبْر right to left: ṣaad + fatha (ṣa, heavy), ba with sukūn (b), ra (r), then blend: ṣabr — “patience”. The model word. The fatha is backed — closer to ‘ṣo’ than to the ‘a’ in ‘cat’."
+              }
+            },
+            {
+              "arabic": "صَدْر",
+              "translit": "ṣadr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَدْر right to left: ṣaad + fatha (ṣa, heavy), dal with sukūn (d — it bounces), ra (r), then blend: ṣadr — “chest”. Same shape as صَبْر. Drill them as a pair."
+              }
+            },
+            {
+              "arabic": "صُبْح",
+              "translit": "ṣubḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صُبْح right to left: ṣaad + damma (ṣu, heavy and round), ba with sukūn (b), ḥaa (ḥ), then blend: ṣubḥ — “morning”. Heavy ص at the front, throat ح at the back — both of your hard letters in three sounds."
+              }
+            },
+            {
+              "arabic": "صَيْف",
+              "translit": "ṣayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَيْف right to left: ṣaad + fatha (ṣay, heavy), yaa with sukūn (y), fa (f), then blend: ṣayf — “summer”. Hold this one — سَيْف ‘sword’ is coming in the next drill."
+              }
+            },
+            {
+              "arabic": "صِدْق",
+              "translit": "ṣidq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صِدْق right to left: ṣaad + kasra (ṣi, heavy), dal with sukūn (d), qaaf (q), then blend: ṣidq — “truth”. Kasra is the hard vowel on a heavy letter — the ص must stay heavy even though the vowel is bright."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَصْر",
+              "translit": "ʿaṣr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَصْر right to left: ʿayn + fatha (ʿa), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: ʿaṣr — “afternoon, time”. The ص makes the ر heavy too — that is the knock-on effect to listen for."
+              }
+            },
+            {
+              "arabic": "نَصْر",
+              "translit": "naṣr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَصْر right to left: nun + fatha (na), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: naṣr — “help, victory”. A light ن first makes the switch to heavy audible."
+              }
+            },
+            {
+              "arabic": "بَصَر",
+              "translit": "baṣar",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَصَر right to left: ba + fatha (ba, light), ṣaad + fatha (ṣa, heavy), ra (r), then blend: baṣar — “sight”. Two fathas: the first light, the second backed. The single best word for hearing what ص does to a vowel."
+              }
+            },
+            {
+              "arabic": "مِصْر",
+              "translit": "miṣr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مِصْر right to left: meem + kasra (mi), ṣaad with sukūn (ṣ, heavy), ra (r), then blend: miṣr — “Egypt”."
+              }
+            },
+            {
+              "arabic": "فَصْل",
+              "translit": "faṣl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فَصْل right to left: fa + fatha (fa), ṣaad with sukūn (ṣ, heavy), lam (l), then blend: faṣl — “separation, season”. Note the ل stays LIGHT after the ص. Only ر follows the heaviness across — ل does not."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قَمِيص",
+              "translit": "qamīṣ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قَمِيص right to left: qaaf + fatha (qa), meem + long ī (mī), ṣaad (ṣ, heavy), then blend: qamīṣ — “shirt”. The long ī is bright, then it must retract into the ص at the very last moment. Most students stay bright and miss it."
+              }
+            },
+            {
+              "arabic": "نَقْص",
+              "translit": "naqṣ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَقْص right to left: nun + fatha (na), qaaf with sukūn (q — it bounces), ṣaad (ṣ), then blend: naqṣ — “loss, decrease”."
+              }
+            },
+            {
+              "arabic": "خَالِص",
+              "translit": "khāliṣ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خَالِص right to left: khaa + long ā (khā, heavy), lam + kasra (li, light), ṣaad (ṣ, heavy), then blend: khāliṣ — “pure”. Heavy, then light, then heavy again. Turning the heaviness off and back on is harder than keeping it on."
+              }
+            },
+            {
+              "arabic": "حَرِيص",
+              "translit": "ḥarīṣ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَرِيص right to left: ḥaa + fatha (ḥa), ra + long ī (rī), ṣaad (ṣ), then blend: ḥarīṣ — “eager, keen”."
+              }
+            },
+            {
+              "arabic": "قِصَاص",
+              "translit": "qiṣāṣ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قِصَاص right to left: qaaf + kasra (qi), ṣaad + long ā (ṣā, heavy), ṣaad (ṣ), then blend: qiṣāṣ — “retaliation”. Two ṣaads around a heavy alif — the longest stretch of heaviness in the lesson. Save it for last."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ص or س? — read down each column",
+        "instructions": "Same makhraj, same whistle. The ONLY difference is whether the back of the tongue is domed. Read each pair back to back.",
+        "grid": [
+          [
+            {
+              "arabic": "صَيْف",
+              "translit": "ṣayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَيْف right to left: ṣaad + fatha (ṣay, heavy), yaa with sukūn, fa, then blend: ṣayf — “summer”."
+              }
+            },
+            {
+              "arabic": "سَيْف",
+              "translit": "sayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سَيْف right to left: seen + fatha (say, light), yaa with sukūn, fa, then blend: sayf — “sword”. Same word, one feature apart: the tongue-body is flat for س and domed for ص."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَصْر",
+              "translit": "naṣr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَصْر right to left: nun + fatha, ṣaad with sukūn (heavy), ra, then blend: naṣr — “help, victory”."
+              }
+            },
+            {
+              "arabic": "نَسْر",
+              "translit": "nasr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَسْر right to left: nun + fatha, seen with sukūn (light), ra, then blend: nasr — “vulture”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "صَدَّ",
+              "translit": "ṣadda",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صَدَّ right to left: ṣaad + fatha (heavy), dal with a shadda (dd), then blend: ṣadda — “he turned away”."
+              }
+            },
+            {
+              "arabic": "سَدَّ",
+              "translit": "sadda",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read سَدَّ right to left: seen + fatha (light), dal with a shadda (dd), then blend: sadda — “he blocked”."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ض inside real words — start, middle, end",
+        "instructions": "Read right to left. ض is made with the SIDE of the tongue against the upper molars — not the tip. Check ضِدّ first: if the ض and the د sound alike, stop and fix it before going on.",
+        "grid": [
+          [
+            {
+              "arabic": "ضِدّ",
+              "translit": "ḍidd",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضِدّ right to left: ḍaad + kasra (ḍi, heavy), dal with a shadda (dd), then blend: ḍidd — “opposite”. THE diagnostic word. ض then د in one syllable. If the two sound the same, the ض is wrong — start again."
+              }
+            },
+            {
+              "arabic": "ضُحَى",
+              "translit": "ḍuḥā",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضُحَى right to left: ḍaad + damma (ḍu, heavy and deep), ḥaa + long ā (ḥā), then blend: ḍuḥā — “forenoon”. You know this sūrah. ض then ح — both far back in the mouth and throat."
+              }
+            },
+            {
+              "arabic": "ضَرَبَ",
+              "translit": "ḍaraba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَرَبَ right to left: ḍaad + fatha (ḍa, backed to ‘ḍo’), ra + fatha (ra), ba + fatha (ba), then blend: ḍaraba — “he struck”. The ر comes out heavy because the fatha before it is backed. Then everything lightens again."
+              }
+            },
+            {
+              "arabic": "ضَيْف",
+              "translit": "ḍayf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَيْف right to left: ḍaad + fatha (ḍay, heavy), yaa with sukūn (y), fa (f), then blend: ḍayf — “guest”. Compare with صَيْف — same frame, a different heavy letter."
+              }
+            },
+            {
+              "arabic": "ضَعِيف",
+              "translit": "ḍaʿīf",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَعِيف right to left: ḍaad + fatha (ḍa, heavy), ʿayn + kasra (ʿi), long ī, fa (f), then blend: ḍaʿīf — “weak”. Molars, then deep throat — a real workout, and both are letters you are working on."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فَضْل",
+              "translit": "faḍl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read فَضْل right to left: fa + fatha (fa), ḍaad with sukūn (ḍ, heavy), lam (l), then blend: faḍl — “bounty, favour”. A sukūn means you must HOLD the molar contact, not flick past it."
+              }
+            },
+            {
+              "arabic": "غَضَب",
+              "translit": "ghaḍab",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غَضَب right to left: ghayn + fatha (gha), ḍaad + fatha (ḍa, heavy), ba (b), then blend: ghaḍab — “anger”."
+              }
+            },
+            {
+              "arabic": "قَضَى",
+              "translit": "qaḍā",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قَضَى right to left: qaaf + fatha (qa), ḍaad + long ā (ḍā, heavy alif), then blend: qaḍā — “he decreed”."
+              }
+            },
+            {
+              "arabic": "رَضِيَ",
+              "translit": "raḍiya",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read رَضِيَ right to left: ra + fatha (ra), ḍaad + kasra (ḍi, still heavy), yaa + fatha (ya), then blend: raḍiya — “he was pleased”. Kasra on ض fights the natural pull backwards. Keep the molars engaged anyway."
+              }
+            },
+            {
+              "arabic": "خَضِر",
+              "translit": "khaḍir",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خَضِر right to left: khaa + fatha (kha), ḍaad + kasra (ḍi, heavy), ra (r), then blend: khaḍir — “green”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أَرْض",
+              "translit": "arḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read أَرْض right to left: hamza + fatha (a), ra with sukūn (r), ḍaad (ḍ, heavy), then blend: arḍ — “earth, land”. The most frequent ض word in the Qurʾān."
+              }
+            },
+            {
+              "arabic": "بَعْض",
+              "translit": "baʿḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَعْض right to left: ba + fatha (ba), ʿayn with sukūn (ʿ), ḍaad (ḍ, heavy), then blend: baʿḍ — “some”. Your two hard letters in one short word."
+              }
+            },
+            {
+              "arabic": "بَيْض",
+              "translit": "bayḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَيْض right to left: ba + fatha (bay), yaa with sukūn (y), ḍaad (ḍ, heavy), then blend: bayḍ — “eggs”."
+              }
+            },
+            {
+              "arabic": "مَرِيض",
+              "translit": "marīḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مَرِيض right to left: meem + fatha (ma), ra + long ī (rī), ḍaad (ḍ, heavy), then blend: marīḍ — “sick”. Same challenge as قَمِيص — the bright long ī has to retract into a heavy letter."
+              }
+            },
+            {
+              "arabic": "حَوْض",
+              "translit": "ḥawḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَوْض right to left: ḥaa + fatha (ḥaw), waaw with sukūn (w), ḍaad (ḍ, heavy), then blend: ḥawḍ — “basin, pool”."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ض or د? — read down each column",
+        "instructions": "ض uses the side of the tongue on the molars; د uses the tip on the gum ridge. Different places, not just different weights.",
+        "grid": [
+          [
+            {
+              "arabic": "ضَلَّ",
+              "translit": "ḍalla",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَلَّ right to left: ḍaad + fatha (heavy), lam with a shadda (ll), then blend: ḍalla — “he went astray”. Side of the tongue against the upper molars."
+              }
+            },
+            {
+              "arabic": "دَلَّ",
+              "translit": "dalla",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read دَلَّ right to left: dal + fatha (light), lam with a shadda (ll), then blend: dalla — “he showed the way”. Tip of the tongue on the gum ridge. Near-opposite meanings — mispronouncing this inverts the sense."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَضَّ",
+              "translit": "ʿaḍḍa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَضَّ right to left: ʿayn + fatha (ʿa), ḍaad with a shadda (ḍḍ, heavy), then blend: ʿaḍḍa — “he bit”."
+              }
+            },
+            {
+              "arabic": "عَدَّ",
+              "translit": "ʿadda",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَدَّ right to left: ʿayn + fatha (ʿa), dal with a shadda (dd, light), then blend: ʿadda — “he counted”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ضَرْب",
+              "translit": "ḍarb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَرْب right to left: ḍaad + fatha (heavy), ra with sukūn, ba, then blend: ḍarb — “striking”."
+              }
+            },
+            {
+              "arabic": "دَرْب",
+              "translit": "darb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read دَرْب right to left: dal + fatha (light), ra with sukūn, ba, then blend: darb — “path, road”."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ض or ظ? — read down each column",
+        "instructions": "Both are heavy, so weight will not tell them apart. Watch the tongue TIP: if you can see it between the teeth it is ظ; if it stays down it is ض.",
+        "grid": [
+          [
+            {
+              "arabic": "ضَلَّ",
+              "translit": "ḍalla",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ضَلَّ right to left: ḍaad — SIDE of the tongue on the molars, tip stays down, then blend: ḍalla — “he went astray”."
+              }
+            },
+            {
+              "arabic": "ظَلَّ",
+              "translit": "ẓalla",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظَلَّ right to left: ẓhaa — TIP of the tongue between the teeth, then blend: ẓalla — “he remained, became”. Both are heavy. The difference is not weight, it is WHERE the tongue is."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَاضِرَة",
+              "translit": "nāḍirah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَاضِرَة right to left: nun + long ā, ḍaad + kasra (heavy, molars), ra + fatha, taa marbūṭa, then blend: nāḍirah — “radiant, glowing”."
+              }
+            },
+            {
+              "arabic": "نَاظِرَة",
+              "translit": "nāẓirah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَاظِرَة right to left: nun + long ā, ẓhaa + kasra (heavy, tongue-tip between teeth), ra + fatha, taa marbūṭa, then blend: nāẓirah — “looking, gazing”. These two sit one āyah apart in Sūrah al-Qiyāmah (75:22–23). One letter, two meanings, side by side."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حَضّ",
+              "translit": "ḥaḍḍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَضّ right to left: ḥaa + fatha (ḥa), ḍaad with a shadda (ḍḍ), then blend: ḥaḍḍ — “urging”."
+              }
+            },
+            {
+              "arabic": "حَظّ",
+              "translit": "ḥaẓẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَظّ right to left: ḥaa + fatha (ḥa), ẓhaa with a shadda (ẓẓ), then blend: ḥaẓẓ — “share, portion”. Doubled letters hold the contrast open twice as long — nowhere to hide."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ط inside real words — start, middle, end",
+        "instructions": "Read right to left. Every ط is heavy in every vowel. Where a ط carries a sukūn it also bounces — those are marked in the cue.",
+        "grid": [
+          [
+            {
+              "arabic": "طِين",
+              "translit": "ṭīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طِين right to left: ṭaa + kasra (ṭi, heavy), long ī, nun (n), then blend: ṭīn — “clay”. The kasra test-case. Tongue broad and flat on the gum ridge, back of the tongue raised, THEN the ‘ee’."
+              }
+            },
+            {
+              "arabic": "طَيْر",
+              "translit": "ṭayr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَيْر right to left: ṭaa + fatha (ṭay, heavy), yaa with sukūn (y), ra (r), then blend: ṭayr — “bird”. Fully backed: ‘ṭoyr’, not ‘tayr’."
+              }
+            },
+            {
+              "arabic": "طُور",
+              "translit": "ṭūr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طُور right to left: ṭaa + damma (ṭu, heavy), long ū, ra (r), then blend: ṭūr — “mount”. The easiest one here — the damma already pulls your mouth where ط wants it."
+              }
+            },
+            {
+              "arabic": "طَعَام",
+              "translit": "ṭaʿām",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَعَام right to left: ṭaa + fatha (ṭa, heavy), ʿayn + long ā (ʿā), meem (m), then blend: ṭaʿām — “food”. Heavy ط, then the throat opens for ع. A good transition drill for two of your hard letters."
+              }
+            },
+            {
+              "arabic": "طِفْل",
+              "translit": "ṭifl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طِفْل right to left: ṭaa + kasra (ṭi, heavy), fa with sukūn (f), lam (l), then blend: ṭifl — “child”. Careful: the sukūn is on the ف, not the ط — so there is no bounce here."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مَطَر",
+              "translit": "maṭar",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مَطَر right to left: meem + fatha (ma, light), ṭaa + fatha (ṭa, heavy), ra (r), then blend: maṭar — “rain”. The best word for hearing you switch weight mid-word."
+              }
+            },
+            {
+              "arabic": "بَطْن",
+              "translit": "baṭn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَطْن right to left: ba + fatha (ba), ṭaa with SUKŪN (ṭ — it bounces), nun (n), then blend: baṭn — “belly”. Qalqalah: ‘baṭ-eh-n’. The bounce lands before the ن."
+              }
+            },
+            {
+              "arabic": "نُطْفَة",
+              "translit": "nuṭfah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نُطْفَة right to left: nun + damma (nu), ṭaa with SUKŪN (ṭ — bounce), fa + fatha (fa), taa marbūṭa, then blend: nuṭfah — “a drop”. The bounce must be audible before the whispered ف, or it disappears completely."
+              }
+            },
+            {
+              "arabic": "بَاطِل",
+              "translit": "bāṭil",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَاطِل right to left: ba + long ā (bā), ṭaa + kasra (ṭi, still heavy), lam (l), then blend: bāṭil — “falsehood”. ط with a kasra mid-word — the classic failure point. Heavy consonant, bright vowel."
+              }
+            },
+            {
+              "arabic": "شَيْطَان",
+              "translit": "shayṭān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read شَيْطَان right to left: sheen + fatha (shay), yaa with sukūn, ṭaa + long ā (ṭā, heavy), nun, then blend: shayṭān — “devil”. The most frequent ط word in the Qurʾān — worth over-drilling."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "صِرَاط",
+              "translit": "ṣirāṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read صِرَاط right to left: ṣaad + kasra (ṣi, heavy), ra + long ā (rā), ṭaa (ṭ, heavy), then blend: ṣirāṭ — “path”. You recite this every day in al-Fātiḥah. Two heavy letters bracket the word; stopping on it gives ‘ṣirāṭ-eh’."
+              }
+            },
+            {
+              "arabic": "لُوط",
+              "translit": "lūṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read لُوط right to left: lam + damma and long ū (lū), ṭaa (ṭ, heavy), then blend: lūṭ — “Lot (prophet)”. The simplest possible final-ط bounce."
+              }
+            },
+            {
+              "arabic": "خَيْط",
+              "translit": "khayṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read خَيْط right to left: khaa + fatha (khay), yaa with sukūn (y), ṭaa (ṭ), then blend: khayṭ — “thread”."
+              }
+            },
+            {
+              "arabic": "قِسْط",
+              "translit": "qisṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قِسْط right to left: qaaf + kasra (qi), seen with sukūn (s, LIGHT), ṭaa (ṭ, HEAVY), then blend: qisṭ — “justice”. A light س immediately followed by a heavy ط — a hard junction, and a valuable one."
+              }
+            },
+            {
+              "arabic": "مُحِيط",
+              "translit": "muḥīṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read مُحِيط right to left: meem + damma (mu), ḥaa + long ī (ḥī), ṭaa (ṭ, heavy), then blend: muḥīṭ — “encompassing”. ح and ط in one short word — two of your five hard letters."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ط or ت? — read down each column",
+        "instructions": "The heavy twin and the light twin, same makhraj. Listen to the VOWEL, not the consonant — it is the vowel that gives it away.",
+        "grid": [
+          [
+            {
+              "arabic": "طِين",
+              "translit": "ṭīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طِين right to left: ṭaa + kasra (heavy), long ī, nun, then blend: ṭīn — “clay”."
+              }
+            },
+            {
+              "arabic": "تِين",
+              "translit": "tīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تِين right to left: ta + kasra (light), long ī, nun, then blend: tīn — “fig”. The canonical pair, and both are Qurʾānic. Start every ط session here."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "طَابَ",
+              "translit": "ṭāba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَابَ right to left: ṭaa + long ā (heavy alif), ba + fatha, then blend: ṭāba — “it was good”."
+              }
+            },
+            {
+              "arabic": "تَابَ",
+              "translit": "tāba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تَابَ right to left: ta + long ā (light alif), ba + fatha, then blend: tāba — “he repented”."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "طَمَّ",
+              "translit": "ṭamma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read طَمَّ right to left: ṭaa + fatha (heavy), meem with a shadda, then blend: ṭamma — “it overwhelmed”."
+              }
+            },
+            {
+              "arabic": "تَمَّ",
+              "translit": "tamma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read تَمَّ right to left: ta + fatha (light), meem with a shadda, then blend: tamma — “it was completed”. The shortest pair — good for rapid-fire alternation."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ظ inside real words",
+        "instructions": "ظ is the heavy twin of ذ: tongue-tip BETWEEN the teeth, voiced, heavy. If you cannot see the tip, it is not ظ.",
+        "grid": [
+          [
+            {
+              "arabic": "ظُلْم",
+              "translit": "ẓulm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظُلْم right to left: ẓhaa + damma (ẓu, heavy), lam with sukūn (l), meem (m), then blend: ẓulm — “injustice”. The sukūn is on the ل, not the ظ."
+              }
+            },
+            {
+              "arabic": "ظِلّ",
+              "translit": "ẓill",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظِلّ right to left: ẓhaa + kasra (ẓi, still heavy), lam with a shadda (ll), then blend: ẓill — “shade”. Kasra on ظ — the tongue-tip must still show between the teeth."
+              }
+            },
+            {
+              "arabic": "ظَنَّ",
+              "translit": "ẓanna",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظَنَّ right to left: ẓhaa + fatha (ẓa, heavy), nun with a shadda (nn), then blend: ẓanna — “he thought”. The shortest ظ word there is. Ideal first drill."
+              }
+            },
+            {
+              "arabic": "ظَهْر",
+              "translit": "ẓahr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظَهْر right to left: ẓhaa + fatha (ẓa, heavy), haa with sukūn (h), ra (r), then blend: ẓahr — “back”. ظ then ه — two completely different breath sources back to back."
+              }
+            },
+            {
+              "arabic": "عَظِيم",
+              "translit": "ʿaẓīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَظِيم right to left: ʿayn + fatha (ʿa), ẓhaa + kasra (ẓi, heavy), long ī, meem (m), then blend: ʿaẓīm — “great”. Very high frequency, and it uses the hardest vowel on ظ. You will meet it constantly."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَظَرَ",
+              "translit": "naẓara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَظَرَ right to left: nun + fatha (na, light), ẓhaa + fatha (ẓa, heavy), ra + fatha (ra), then blend: naẓara — “he looked”. Light, heavy, light — the switch has to happen twice."
+              }
+            },
+            {
+              "arabic": "عَظْم",
+              "translit": "ʿaẓm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَظْم right to left: ʿayn + fatha (ʿa), ẓhaa with SUKŪN (ẓ — HOLD it, do not bounce), meem (m), then blend: ʿaẓm — “bone”. The best word in the lesson for the ط/ظ contrast: press the tongue-tip between the teeth and sustain, then release into the م."
+              }
+            },
+            {
+              "arabic": "حَظّ",
+              "translit": "ḥaẓẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَظّ right to left: ḥaa + fatha (ḥa), ẓhaa with a shadda (ẓẓ), then blend: ḥaẓẓ — “share, portion”."
+              }
+            },
+            {
+              "arabic": "حَافِظ",
+              "translit": "ḥāfiẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read حَافِظ right to left: ḥaa + long ā (ḥā), fa + kasra (fi), ẓhaa (ẓ, heavy), then blend: ḥāfiẓ — “guardian”."
+              }
+            },
+            {
+              "arabic": "غَيْظ",
+              "translit": "ghayẓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read غَيْظ right to left: ghayn + fatha (ghay), yaa with sukūn (y), ẓhaa (ẓ, heavy), then blend: ghayẓ — “rage”. غ and ظ are both deep — the whole word sits low and back."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "ظ or ذ or ز? — read down each column",
+        "instructions": "ذ is the same place but light. ز is a whistle from behind the teeth. Only ظ is both between-the-teeth and heavy.",
+        "grid": [
+          [
+            {
+              "arabic": "نَظَرَ",
+              "translit": "naẓara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَظَرَ right to left: ẓhaa — heavy, tongue-tip between the teeth, then blend: naẓara — “he looked”."
+              }
+            },
+            {
+              "arabic": "نَذَرَ",
+              "translit": "nadhara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read نَذَرَ right to left: dhal — LIGHT, same tongue-tip position, then blend: nadhara — “he vowed”. Same place, the only difference is weight. The best ظ/ذ pair there is."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ظَهْر",
+              "translit": "ẓahr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read ظَهْر right to left: ẓhaa — tongue-tip between the teeth, then blend: ẓahr — “back”."
+              }
+            },
+            {
+              "arabic": "زَهْر",
+              "translit": "zahr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read زَهْر right to left: zay — tongue BEHIND the teeth, a sharp whistle, then blend: zahr — “blossom”. This is the substitution you are most likely to make. If it whistles, it became ز."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَظْم",
+              "translit": "ʿaẓm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَظْم right to left: ẓhaa with sukūn — held, then blend: ʿaẓm — “bone”."
+              }
+            },
+            {
+              "arabic": "عَزْم",
+              "translit": "ʿazm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَزْم right to left: zay with sukūn — whistled, then blend: ʿazm — “resolve”. Both Qurʾānic, both with a sukūn — a perfectly matched pair."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Bounce or hold? — ط against ظ",
+        "instructions": "ط is a qalqalah letter and bounces on a sukūn. ظ is NOT and must be held. Read across, twice.",
+        "grid": [
+          [
+            {
+              "arabic": "بَطْن",
+              "translit": "baṭn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read بَطْن right to left: ṭaa with sukūn — BOUNCE, ‘baṭ-eh-n’, then blend: baṭn — “belly”."
+              }
+            },
+            {
+              "arabic": "عَظْم",
+              "translit": "ʿaẓm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَظْم right to left: ẓhaa with sukūn — HOLD, no echo, then blend: ʿaẓm — “bone”."
+              }
+            },
+            {
+              "arabic": "قُطْن",
+              "translit": "quṭn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read قُطْن right to left: ṭaa with sukūn — BOUNCE, ‘quṭ-eh-n’, then blend: quṭn — “cotton”."
+              }
+            },
+            {
+              "arabic": "عَزْم",
+              "translit": "ʿazm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Read عَزْم right to left: zay with sukūn — no bounce, and no ظ either, then blend: ʿazm — “resolve”. Run the four across, in order, twice. ط bounces; ظ never does."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Hear a reciter — ص and ض in the Qurʾān",
+        "instructions": "The exact words as they appear in the Qurʾān. Tap to hear a qāriʾ, then copy him. Listen for how the vowel darkens after the heavy letter.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلضَّآلِّينَ",
+              "translit": "aḍ-ḍāllīn",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/001_007_009.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "وَٱلضُّحَىٰ",
+              "translit": "waḍ-ḍuḥā",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/093_001_001.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "وَٱلصُّبْحِ",
+              "translit": "waṣ-ṣubḥi",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/081_018_001.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "وَٱلْعَصْرِ",
+              "translit": "wal-ʿaṣri",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/103_001_001.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بِٱلصَّبْرِ",
+              "translit": "biṣ-ṣabri",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/103_003_009.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "نَاضِرَةٌ",
+              "translit": "nāḍiratun",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/075_022_003.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "نَاظِرَةٌۭ",
+              "translit": "nāẓiratun",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/075_023_003.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "ضَرِيعٍۢ",
+              "translit": "ḍarīʿin",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/088_006_006.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Hear a reciter — ط and ظ in the Qurʾān",
+        "instructions": "Tap and copy. On نُطْفَةٍ and ٱلْعَظْمُ especially: one of those bounces and one is held.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلصِّرَٰطَ",
+              "translit": "aṣ-ṣirāṭa",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/001_006_002.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "وَٱلطَّارِقِ",
+              "translit": "waṭ-ṭāriqi",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/086_001_002.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "طَيْرًا",
+              "translit": "ṭayran",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/105_003_003.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "طَعَامٌ",
+              "translit": "ṭaʿāmun",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/088_006_003.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نُطْفَةٍ",
+              "translit": "nuṭfatin",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/080_019_002.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "طَبَقًا",
+              "translit": "ṭabaqan",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/084_019_002.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "ظَهْرَكَ",
+              "translit": "ẓahraka",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/094_003_003.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            },
+            {
+              "arabic": "ٱلْعَظْمُ",
+              "translit": "al-ʿaẓmu",
+              "audio": {
+                "type": "qari-clip",
+                "url": "https://audio.qurancdn.com/wbw/019_004_005.mp3",
+                "reciter": "Quran Foundation / Quran.com (audio.qurancdn.com, word-by-word)"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Warm-up: سَا / صَا and تَا / طَا, three times each",
+      "ص word set and ض word set, all rows, read aloud",
+      "ضِدّ self-test — ض and د must not sound alike",
+      "ط word set, bouncing every ط that carries a sukūn",
+      "ظ word set, holding every ظ",
+      "Bounce-or-hold across: بَطْن — عَظْم — قُطْن — عَزْم, twice",
+      "The four minimal-pair sets read ACROSS: ص/س, ض/د, ض/ظ, ط/ت",
+      "Both reciter rows tapped and copied aloud",
+      "وَلَا ٱلضَّآلِّينَ once, with the madd counted to six"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the vowel, not the consonant. Say سَا then صَا back to back and ask her which sound moved — she will say the ‘a’. That is the whole lesson in ten seconds, and it hands her a self-test she can run at home.",
+      "Teach ص first. It is the easiest heavy letter because س is already solid, so it isolates one single change: the tongue-body dome.",
+      "For ض, spend the time on PLACE before weight. Say plainly that ض is not a heavy د — د is the tongue-tip on the gum ridge, ض is the tongue-side on the molars. Have her feel the contact with a finger against her cheek if that helps.",
+      "ضِدّ is the diagnostic. Do not move past ض while ضِدّ comes out with two identical sounds. It is worth stalling the lesson here.",
+      "Show her 75:22–23 side by side on the page. نَاضِرَة then نَاظِرَة, one āyah apart. Nothing you can say convinces a student that ض and ظ are genuinely different letters as fast as seeing the Qurʾān use both in consecutive lines.",
+      "Note on ض for you, not for her: the early grammarians describe a lateral sound that no living reciter produces. Teach the modern standard — a pharyngealised stop kept distinct from د and ظ. Do not chase the reconstructed classical ض; it will confuse her and no recitation tradition uses it.",
+      "For ط, join it back to last lesson: it is the only letter that is both heavy and bouncing. بَطْن and نُطْفَة are where both facts have to be true at once.",
+      "Then immediately contrast ظ. عَظْم against بَطْن is the single most useful drill on the page — same shape of word, one bounces and one does not.",
+      "Save al-Fātiḥah for the end, once ض is actually working. Correcting ٱلضَّآلِّينَ before the letter is secure just adds anxiety to something she recites seventeen times a day.",
+      "Run every minimal-pair set ACROSS, never down. Reading down a column lets her set the tongue once and coast; reading across forces a switch on every item.",
+      "Finish on the reciter clips. Hearing a qāriʾ darken the vowel after ص and ط is worth more than another explanation from you."
+    ],
+    "listenFor": [
+      "Heaviness present on the consonant but absent from the vowel — she produces a recognisable ص and then a bright, front ‘a’ after it. This is the commonest partial success and it is easy to mistake for a pass.",
+      "Tafkhīm collapsing at the moment the letter stops, especially on a sukūn (فَضْل, عَصْر). Attention goes to the stop and the dome drops.",
+      "ض produced as a heavy د — tongue-tip on the gum ridge instead of the side on the molars. Check with ضِدّ, not with a word where ض stands alone.",
+      "ض produced as ظ, or ظ as ض. Watch the tongue-tip: visible between the teeth means ظ, hidden means ض. This is a place error, so weight cues will not catch it.",
+      "ظ collapsing to ز — the tip retreats behind the teeth and the sound whistles. The single most likely ظ error, more likely than ذ.",
+      "ظ bounced like ط. ظ is not a qalqalah letter; a bounce means she has swapped in a heavy د.",
+      "ط going light under a kasra (بَاطِل, طِين) even when it was heavy under a fatha. Heavy consonant plus bright vowel is the hardest combination in the lesson.",
+      "The ر after a heavy letter failing to go heavy (عَصْر, ضَرَبَ) — a knock-on effect she will not notice unless you name it.",
+      "In ٱلضَّآلِّينَ specifically: a short madd (two counts instead of six) — mangled more often than the ض itself — and a rushed shadda."
+    ],
+    "homework": "Every session opens with سَا/صَا and تَا/طَا three times each. Daily: the ص, ض, ط and ظ word sets read aloud in full; the ضِدّ self-test; the bounce-or-hold row (بَطْن — عَظْم — قُطْن — عَزْم) twice through; the four minimal-pair sets read across rather than down. Tap through both reciter rows once a day and copy the qāriʾ aloud. Finish with وَلَا ٱلضَّآلِّينَ said slowly once, counting the madd to six. Watch the ص-vs-س video and the ض-vs-ظ video once each this week."
+  },
+  "videos": [
+    {
+      "title": "Why some HEAVY letters should be HEAVIER than others — Lesson 4 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=I1BEoHQzK8E"
+    },
+    {
+      "title": "How to pronounce ص properly LIKE AN ARAB (ص vs. س) — Lesson 7 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=9WvCOlcLSHQ"
+    },
+    {
+      "title": "How to pronounce ض like an ARAB — Lesson 8 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=o0J9ErQKAlg"
+    },
+    {
+      "title": "There is a high chance that you are making this mistake — ض vs ظ (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=n48BJumH2_M"
+    },
+    {
+      "title": "How to pronounce ط like an Arab — Lesson 9 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=bscysVsfiUM"
+    },
+    {
+      "title": "How to pronounce ظ like an Arab — Lesson 11 (Arabic 101)",
+      "url": "https://www.youtube.com/watch?v=3KRkBeP1UrI"
+    }
+  ]
+}

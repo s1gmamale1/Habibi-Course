@@ -49,7 +49,15 @@ export function deriveGameData(lessons: Lesson[], lessonId: string): GameData {
 
   const learned = new Set(letterPool.map((it) => it.arabic));
   const wordPool = [...words.values()].filter((w) => baseLetters(w.arabic).every((c) => learned.has(c)));
-  const newLetters = ordered[idx].slides.flatMap((s) => (s.kind === "letter" ? [s.item] : []));
+  // "New" means not taught in an earlier lesson. Unit 1.4 re-teaches ع ح ص ض ط
+  // as revision slides (to hang word `examples` off them), and those must not
+  // show up under "Today's letters" — only a genuinely first-time letter does.
+  const priorSeen = new Set(
+    ordered.slice(0, idx).flatMap((l) => l.slides.flatMap((s) => (s.kind === "letter" ? [s.item.arabic] : []))),
+  );
+  const newLetters = ordered[idx].slides.flatMap((s) =>
+    s.kind === "letter" && !priorSeen.has(s.item.arabic) ? [s.item] : [],
+  );
 
   return {
     lessonId,
