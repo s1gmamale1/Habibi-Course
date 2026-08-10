@@ -142,6 +142,62 @@ does not teach it.** Both conditions are now checked.
 > contained, written down next to verified facts and then read later as though it were one.
 > A summary of a source is not the source, and that includes summaries of your own work.
 > Every claim in the resolution table above came from grepping the lesson bodies.
+
+### Content verification against the matn — Tuhfat chapters 1–5
+
+**14 rule notes promoted `draft` → `verified` on 2026-08-11.** Each was checked claim by
+claim against the vendored [[Tuhfat-al-Atfal]], verse by verse.
+
+| Rule | Verses | What was checked |
+|---|---|---|
+| [[Izhar-Halqi]] | 7–8 | six throat letters, and their order |
+| [[Idgham-Maal-Ghunnah]] | 9–11 | يَنْمُو, **and the same-word exception** — the matn names دنيا and صنوان; the note carries the full four |
+| [[Idgham-Bila-Ghunnah]] | 12 | ل and ر |
+| [[Iqlab]] | 13 | ب only; converted to meem **with ghunnah and concealment**, all three parts |
+| [[Ikhfa-Haqiqi]] | 14–16 | fifteen letters, derived from the mnemonic's word-initials |
+| [[Ghunnah]] | 17 | meem and noon mushaddadatān |
+| [[Ikhfa-Shafawi]] | 20 | before ب; the name *shafawī* |
+| [[Idgham-Shafawi]] | 21 | meem into meem; the name *idghām ṣaghīr* |
+| [[Izhar-Shafawi]] | 22–23 | the remaining letters, **and the wāw/fāʾ warning** — the one detail of this chapter most often dropped |
+| [[Lam-Qamariyyah]] | 24–25, 28 | fourteen letters |
+| [[Lam-Shamsiyyah]] | 26–28 | fourteen letters |
+| [[Idgham-Mutamathilayn]] | 30 | same makhraj **and** same ṣifāt |
+| [[Idgham-Mutajanisayn]] | 32–33 | same makhraj, **different** ṣifāt |
+| [[Idgham-Mutaqaribayn]] | 31–32 | makhārij merely close |
+
+**The last three are the ones worth having checked.** Mutajānisayn and mutaqāribayn are
+routinely stated the wrong way round; all three notes match the matn.
+
+**Derived versus read — and the distinction matters.** A letter set counts as *derived* only
+when a script can pull it out of the verse text itself: يَنْمُو, whose letters are the set;
+the ikhfāʾ line, whose word-initials are; the two lām mnemonics. Where the matn names its
+letters in words — *"hamza, then hāʾ, then ʿayn…"* (v.8), *"into lām and rāʾ"* (v.12),
+*"before the bāʾ"* (v.13) — no script can extract them without the answer being encoded
+first, which would compare the note against the checker's belief instead of the source.
+Those three were read by eye against the quoted verse and are labelled as such.
+
+> **A first pass of this check was itself wrong, in exactly the way this log keeps warning
+> about.** The verse lookup matched against the whole file, and the commentary at the top of
+> the source note contains a *Chapter structure* table whose rows are also numbered 1–8 — so
+> `verse(8)` silently returned a chapter heading. Worse, four of the five letter sets were
+> typed into the checker by hand, so those comparisons tested the notes against my own
+> recollection and would have passed whatever the matn said. Only the ikhfāʾ check was real.
+> Both faults were visible only because the script printed the verse it had matched. **Print
+> the source you actually read, not just the verdict.**
+
+**Chain of custody, stated plainly.** [[Tuhfat-al-Atfal]] is itself `status: needs-review`:
+its retrieved Arabic carries documented vocalisation defects. That does not block this pass —
+the source note records the text as sound for *structure, chapter order and mnemonics*, which
+is precisely what a rule's letters and conditions are — but **no note here is verified beyond
+the reliability of that transcription.** Collating the matn against a printed critical edition
+remains open, and would upgrade rather than overturn these fourteen.
+
+**A divergence worth recording, not fixing.** The mnemonics in the rule notes differ from the
+vendored matn in vocalisation only — the note has رُحْمًا where the retrieved text has
+رَحِماً, ظَنٍّ against ظَنٍ, ابْغِ against إِبْغِ. Consonantal skeletons are identical, so no
+rule is affected, and in at least the first case the **note appears to carry the better
+reading** while the matn shows one of its own documented defects. Neither was changed. This is
+what the printed critical edition is needed to settle.
 ## Unit 2 scope reconciliation — 2026-08-10
 
 Checked against Phase 1 as shipped at commit `c385ad0` (15 lessons; Unit 1.4 =

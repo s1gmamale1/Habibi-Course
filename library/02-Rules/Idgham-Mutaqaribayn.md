@@ -11,7 +11,7 @@ harakat: 0
 letters: [ل, ر, ق, ك, ن]
 taught_in: "3-27"
 prerequisites: [idgham_mutamathilayn]
-status: draft
+status: verified
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]
 examples:
   - ref: "23:118"
