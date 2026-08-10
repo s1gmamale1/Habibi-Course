@@ -37,6 +37,9 @@ import { registerGame, type GameResult } from "../GameRegistry";
 
 const GAME_ID = "span-tapper";
 
+/** What a tapped letter reports through `data-state`; untapped reads "idle". */
+type TapState = "correct" | "wrong";
+
 type CriterionSpec = {
   /** The question. It names the rule being drilled, never the answer. */
   prompt: string;
@@ -61,7 +64,7 @@ const CRITERIA = {
     // The sukūn is the whole condition — see the note above. This is qalqalah
     // ṣughrā only; qalqalah kubrā (an ayah-final letter made sākin by stopping)
     // depends on where the reciter stops, which a single fragment cannot say.
-    matches: (seg: string) => QALQALAH_LETTERS.has(baseOf(seg)), // MUTANT
+    matches: (seg: string) => QALQALAH_LETTERS.has(baseOf(seg)) && hasSukun(seg),
   },
   istila: {
     prompt: "Tap every heavy letter (istiʿlāʾ).",
@@ -94,7 +97,9 @@ export function SpanTapper({
     [segments, spec],
   );
 
-  const [taps, setTaps] = useState<Record<number, "correct" | "wrong">>({});
+  // Partial, so an untapped index reads as `undefined` and falls through to
+  // "idle" rather than being typed as though every letter had been tapped.
+  const [taps, setTaps] = useState<Partial<Record<number, TapState>>>({});
   const [submitted, setSubmitted] = useState(false);
 
   const foundCount = targets.filter((i) => taps[i] === "correct").length;
