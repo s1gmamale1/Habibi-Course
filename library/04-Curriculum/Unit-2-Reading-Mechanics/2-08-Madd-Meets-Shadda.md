@@ -69,11 +69,12 @@ From Phase 1 and the first half of this unit:
 
 Everything below is built out of those four things. Nothing here is a new sound.
 
-> **Note for the teacher on 2-07 overlap.** If 2-07 has already introduced the līn
-> letters, treat §3 below as the deepening pass — spend the time on the three-way
-> contrast table and on *the absence of length when joining*, which is what learners
-> actually get wrong. If 2-07 stopped at the three madd letters, §3 is the introduction.
-> Run it either way; do not skip it on the assumption it was covered.
+> **The 2-07 handover.** 2-07 **identifies** the līn letters and stops there — its student
+> instruction is one sentence: *"a و or ي with a sukūn after a fatḥah is read soft and
+> short, and what it does when you stop on it is the next lesson."* **2-08 owns treating
+> them.** So §4 below is not a repeat: she can already spot them, and today she learns the
+> three-way contrast that tells her *why*, and gets the boundary that 2-07 deliberately
+> left open.
 
 ## Teaching sequence
 
@@ -151,11 +152,14 @@ Teach it as a two-question routine she can run out loud:
 2. *What is the vowel before it?* Matching (ḍammah–wāw, kasrah–yāʾ) → **madd, two counts**.
    Fatḥah → **līn, no counts**.
 
-### 5. Līn has no length — this is the surprise
+### 5. Līn has *no* length — not "a short one"
 
-Learners expect līn to be *a bit long*, because it looks like a madd and sits in the same
-slot. It is not. Joining onward, **قُرَيْشٍ** and **خَوْف** and **ٱلْبَيْتِ** carry no
-prolongation whatsoever. See [[Leen]].
+2-07 told her not to stretch a līn letter. Today make it exact, because "don't stretch it"
+and "it has no length" are not the same instruction and learners settle on the first.
+
+Joining onward, **قُرَيْشٍ** and **خَوْف** and **ٱلْبَيْتِ** carry **no prolongation
+whatsoever** — not one count, not half a count. The letter is a glide, and a glide takes
+the time the mouth needs to travel and no more. See [[Leen]].
 
 Read Sūrat Quraysh straight through, joined, with no stops except at the end. She should
 hear four līn letters go past at ordinary speed.
