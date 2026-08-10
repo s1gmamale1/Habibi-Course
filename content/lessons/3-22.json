@@ -1,0 +1,828 @@
+{
+  "id": "3-22",
+  "phase": 3,
+  "draft": true,
+  "unit": "3.4",
+  "title": "Iqlāb — one letter, and a mark she has read for years",
+  "objectives": [
+    "Student can state the rule in one sentence — a noon sākinah or tanwīn before ب only, converted to a concealed meem held for 2 counts.",
+    "Student can recognise the small standing meem on the page and say that it is an instruction, not a letter.",
+    "Student can produce the light-contact lip posture and say why iqlāb and ikhfāʾ shafawī sound alike but are two rules.",
+    "Student can point to the five iqlāb signs inside her own memorised sūrahs and say when each one fires."
+  ],
+  "prerequisites": [
+    "3-14",
+    "3-15",
+    "3-21"
+  ],
+  "stage": "Noon Sākinah & Tanwīn",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.22 — Iqlāb: the noon becomes a meem",
+      "arabicDecor": "أَحَدٌۢ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Do not start with the rule. Start with a mark she has never asked about.",
+      "body": [
+        "Write the last word of al-Ikhlāṣ on its own: أَحَدٌۢ. Ask her what the little shape above the tanwīn is.",
+        "She will not know. Almost nobody does — it is not in the reading primers, it is not in the legend of the muṣḥaf she owns, and she has recited past it several thousand times.",
+        "Now write the last words of four more sūrahs beside it: مَّأْكُولٍۭ · خَوْفٍۭ · تَوَّابًۢا · مَّسَدٍۭ.",
+        "Every sūrah she has memorised in the last month ends with this mark. Let that land before you explain anything.",
+        "The payoff: it is a small standing meem, and it is telling her that when she runs one sūrah into the next — أَحَدٌۢ straight into بِسْمِ ٱللَّهِ — the noon sound at the end of the first word turns into a meem. She has almost certainly been doing it correctly by imitation for years. Today it gets a name and a reason.",
+        "Then name the error, because it is coming: she will press her lips. Every student does, and pressing converts the rule into a plain meem."
+      ],
+      "items": [
+        {
+          "arabic": "أَحَدٌۢ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:4 — the mark at the end of al-Ikhlāṣ. Ask the question and let her fail to answer it. That failure is the hook."
+          }
+        },
+        {
+          "arabic": "مَّأْكُولٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "105:5 — the same mark closing al-Fīl."
+          }
+        },
+        {
+          "arabic": "خَوْفٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 — the same mark closing Quraysh. She has been staring at this one since 3-16."
+          }
+        },
+        {
+          "arabic": "تَوَّابًۢا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "110:3 — the same mark closing an-Naṣr. It is her Sabaq next session."
+          }
+        },
+        {
+          "arabic": "مَّسَدٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:5 — the same mark closing al-Masad. Flagged two lessons ago and left alone. Collect it today."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The fourth box, and a posture she was given seven lessons ago",
+      "body": [
+        "3-19's map: six, four, two, ONE, fifteen. Today is the one. Fourth box filled; one left.",
+        "3-15 gave her the exact lip posture this rule needs — lips touching without pressure, nasal running behind them for two counts — on a MEEM before ب. Today is the same posture starting from a noon. She does not need to learn a new sound. She needs to learn a new road to it.",
+        "3-15 also warned her this was coming, in one sentence, seven lessons ago. Collect that flag; it makes the course feel like a plan rather than a sequence.",
+        "3-14 gave the nasal and the two counts. Unchanged.",
+        "2-01 gave tanwīn, and 2-02 taught that a tanwīn disappears when you stop. That second fact does real work today and it is the whole of the condition in this lesson."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "iqlab",
+      "heading": "Iqlāb — turning the noon over",
+      "condition": "A noon sākinah or tanwīn followed by ب. Inside a word or across a word boundary; there is no boundary condition.",
+      "letters": [
+        "ب"
+      ],
+      "harakat": 2,
+      "body": [
+        "Iqlāb means turning a thing over — converting it. The noon or tanwīn is converted into a HIDDEN meem (mīm mukhfāh), pronounced with a 2-count nasal.",
+        "The noon is not said. And the meem is not fully said either. What is produced is a nasal held at the lips, on its way into the ب.",
+        "One letter. Say the number out loud. ب, and nothing else — iqlāb is the narrowest of the four noon rules, one letter against ikhfāʾ's fifteen. There is nothing to memorise: if the next letter is a bāʾ, this is the rule.",
+        "The reason, in one breath: the ب is a lip letter. Reaching it from the noon's gum-ridge position while still holding a nasal is mechanically awkward, and the nearest nasal the lips can make is a meem. So the tongue gives up its position and the nasal moves to the lips. The rule is a shortcut the mouth takes on its own; the tradition wrote it down rather than inventing it.",
+        "Duration: two counts, on the fingers. The ب does not open until the second finger lands."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The posture — and this is where the session's minutes go",
+      "body": [
+        "Fingertip against the lips, exactly as in 3-15. The lips come together LIGHTLY, without pressure.",
+        "They must not press shut — that produces a clear, fully-formed meem, which is a different ruling.",
+        "They must not stay apart — that leaves the original noon audible.",
+        "They rest against each other just enough to close the mouth, the nasal runs for two counts, and only then is the ب released.",
+        "The diagnostic, unchanged from 3-15: if you can feel your lips tense, you are pressing. Do not explain the fix. Say 'less, again, less' and adjust her by feel."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Iqlāb inside a single ayah — reference example, outside your memorised sūrahs",
+      "body": [
+        "There is NO ayah-internal iqlāb anywhere in al-Fātiḥa or sūrahs 105–114. Confirmed by a full scan of the annotated dataset: zero occurrences in the hifz set. Say that plainly, and say the reference label every time one of these three is on the board.",
+        "أَنۢبِئْهُم — al-Baqarah 2:33, inside one word.",
+        "مِّنۢ بَعْدِهِۦ — Āl ʿImrān 3:160, across a word boundary.",
+        "لَيُنۢبَذَنَّ — al-Humazah 104:4, one sūrah before the hifz set. This is the one to lean on if she ever wants to add a sūrah: al-Humazah sits directly before al-Fīl and it is short.",
+        "The nearest thing to an in-set candidate is تَرْمِيهِم بِحِجَارَةٍ (105:4) — and it is NOT iqlāb. That is a meem before ب, which is 3-15's rule. Same sound, different written letter.",
+        "This is one of the few rules in the chapter where the primary example cannot be checked against her own memory. She should know which of her examples she can verify and which she cannot."
+      ],
+      "items": [
+        {
+          "arabic": "أَنۢبِئْهُم",
+          "translit": "ambiʾhum",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "2:33 — reference example, outside your memorised sūrahs. Iqlāb inside a single word. No boundary needed."
+          }
+        },
+        {
+          "arabic": "مِّنۢ بَعْدِهِۦ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "3:160 — reference example, outside your memorised sūrahs. Iqlāb across a word boundary."
+          }
+        },
+        {
+          "arabic": "لَيُنۢبَذَنَّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "104:4 — reference example, outside your memorised sūrahs. al-Humazah, one sūrah before the hifz set."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "How the muṣḥaf marks it — and it tells her twice",
+      "body": [
+        "A small standing meem is printed ABOVE the noon, or IN PLACE OF one stroke of the tanwīn.",
+        "أَنۢبِئْهُم and مِّنۢ بَعْدِهِۦ — above the noon.",
+        "خَوْفٍۭ, أَحَدٌۢ, مَّسَدٍۭ — replacing a stroke of the tanwīn.",
+        "The small meem is not a vowel and is never pronounced as a full meem. It is a pronunciation instruction: 'here, the noon has become a nasal at the lips.' A learner who reads it as a written letter produces an-m-baʾ, with both letters in it.",
+        "And the orthography tells her a second time, if she looks. The Uthmānī text OMITS the sukūn on an iqlāb noon — أَنۢبِئْهُم, not أَنْۢبِئْهُم — for exactly the reason it omitted it on the concealed noon of مِّن جُوعٍ: the noon is not being pronounced in its written place. Compare مِّنْ in 3-19, which keeps its sukūn.",
+        "Three lessons have now turned on this one convention. Point at it each time until she starts checking it unprompted."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 112,
+      "ayah": 4,
+      "translation": "And there is none comparable to Him.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "112:4 — the ayah the hook is built on. أَحَدٌۢ carries the small standing meem, and it fires into the بِسْمِ of al-Falaq when she recites the sūrahs consecutively. Also in this one ayah: يَكُن لَّهُۥ, last lesson's merge with no nasal, and كُفُوًا أَحَدٌۢ, a throat iẓhār on a tanwīn from 3-19."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 4,
+      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "106:4 — the anchor ayah, on the card since 3-16. With today's rule it carries FIVE rulings: أَطْعَمَهُم مِّن (3-16), مِّن جُوعٍ (3-23, still unnamed), جُوعٍ وَءَامَنَهُم (3-20), مِّنْ خَوْفٍۭ (3-19), and خَوْفٍۭ running into بِسْمِ — today's iqlāb. Eight words, five rulings, and she has it memorised."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "Where it lives in her own memory — five signs, and all of them fire on a join",
+      "body": [
+        "There is no ayah-internal iqlāb in the hifz set. But FIVE ayat in the hifz set carry the iqlāb sign, and it is real.",
+        "105:5 — كَعَصْفٍ مَّأْكُولٍۭ fires into the بِسْمِ of Quraysh.",
+        "106:4 — خَوْفٍۭ fires into the بِسْمِ of al-Māʿūn.",
+        "110:3 — تَوَّابًۢا fires into the بِسْمِ of al-Masad.",
+        "111:5 — مَّسَدٍۭ fires into the بِسْمِ of al-Ikhlāṣ.",
+        "112:4 — أَحَدٌۢ fires into the بِسْمِ of al-Falaq.",
+        "When a reciter runs one sūrah into the next through the basmalah, the final tanwīn meets the ب of بِسْمِ, and iqlāb applies. The muṣḥaf prints the small meem there precisely because reciting consecutively is the normal case.",
+        "Pedagogically this is the best possible example: she already does it in ṣalāh every day without knowing what she is doing, and it explains a mark she has been staring at for years."
+      ],
+      "items": [
+        {
+          "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "105:5 — al-Fīl closes. Run it straight into Quraysh's basmalah and the tanwīn becomes a lip-nasal."
+          }
+        },
+        {
+          "arabic": "كَانَ تَوَّابًۢا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "110:3 — an-Naṣr closes. She takes this ayah as her Sabaq next session; tell her now."
+          }
+        },
+        {
+          "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:5 — al-Masad closes. Two idghāms from 3-20, then today's iqlāb on the way out."
+          }
+        },
+        {
+          "arabic": "كُفُوًا أَحَدٌۢ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:4 — al-Ikhlāṣ closes. A throat iẓhār on كُفُوًا أَحَدٌۢ, then today's iqlāb on the join out."
+          }
+        },
+        {
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The ب that every one of the five fires into. Say the basmalah on its own once, then attach each ending to it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The rule only fires on continuation — and this half is itself a lesson",
+      "body": [
+        "If she STOPS at the end of the sūrah, the tanwīn is dropped — she learned that in 2-02 — and there is no iqlāb at all. Nothing to convert.",
+        "Have her say أَحَدٌۢ twice: once stopping, once running into بِسْمِ ٱللَّهِ. Two different endings from the same written word.",
+        "Do not skip this. A student who learns 'أَحَدٌۢ has an iqlāb' without the continuation condition will produce a lip-nasal at the end of al-Ikhlāṣ when she stops there — which is wrong, and which sounds odd enough that someone else will correct it later, confusingly.",
+        "The small meem stays printed whether she stops or not, because the page cannot know what she is going to do. The mark records a possibility; she supplies the decision."
+      ]
+    },
+    {
+      "kind": "contrast",
+      "heading": "Two rules, one sound — the difference is on the page",
+      "pairs": [
+        {
+          "surah": 2,
+          "ayah": 33,
+          "text": "أَنۢبِئْهُم",
+          "rule": "iqlab",
+          "note": "A NOON before ب, converted to a concealed meem. Sky blue, #26BFFD. Reference example — outside your memorised sūrahs."
+        },
+        {
+          "surah": 105,
+          "ayah": 4,
+          "text": "تَرْمِيهِم بِحِجَارَةٍ",
+          "rule": "ikhfa_shafawi",
+          "note": "A MEEM before ب, concealed at the lips. Magenta, #D500B7. In her hifz — al-Fīl. The mouth does the same thing as the row above; only the written letter differs."
+        },
+        {
+          "surah": 2,
+          "ayah": 33,
+          "text": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ",
+          "rule": "iqlab",
+          "note": "Both rules in one phrase, four letters apart: an iqlāb on the noon of أَنۢبِـ, then an ikhfāʾ shafawī on the meem of ـهُم before بِأَسْمَآئِهِمْ. Same posture twice, from two different written letters. Reference example — outside your memorised sūrahs."
+        }
+      ]
+    },
+    {
+      "kind": "legend",
+      "heading": "Two ways to arrive at the same lip-nasal",
+      "rules": [
+        "iqlab",
+        "ikhfa_shafawi"
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Colour, and the one place in the chapter where the ear is not the instrument",
+      "body": [
+        "Family B paints iqlāb #26BFFD, sky blue; the cpfair key is iqlab. It is a distinctive colour and a rare one. Have her find the blue at the end of al-Ikhlāṣ on a coloured page.",
+        "Ikhfāʾ shafawī is #D500B7, magenta. Two different colours for two rules that produce the same sound — which is exactly right, because the colours are annotating the CAUSE, not the output.",
+        "Teach the cause, never the sound. A student who tries to tell iqlāb and ikhfāʾ shafawī apart by ear is being asked to do something impossible; she will conclude her ear is bad, and it is not.",
+        "So when she asks 'which one is this?', the answer is always another question: which letter is WRITTEN? A noon or tanwīn, or a meem. Look, do not listen."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The three postures, again",
+      "instructions": "Fingertip on the lips. Say each and report what you felt — pressed, barely touching, or closed then popped. Do not say the answer for her; make her report it.",
+      "grid": [
+        [
+          {
+            "arabic": "أَطْعَمَهُم مِّن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — PRESSED. A doubled meem, lips firmly shut, idghām shafawī from 3-16. This is what iqlāb must NOT sound like."
+            }
+          },
+          {
+            "arabic": "أَنۢبِئْهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:33 — BARELY TOUCHING. Today's posture. If you can feel your lips tense, you are pressing."
+            }
+          },
+          {
+            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CLOSED, THEN POPPED. An ordinary ب with nothing in front of it. Three postures, three feelings."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Two counts behind the lips",
+      "instructions": "Fold two fingers during the hold. The ب does not open until the second finger lands. All three are reference examples — say the label before you start.",
+      "grid": [
+        [
+          {
+            "arabic": "أَنۢبِئْهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:33 — reference example. Two counts, lips light."
+            }
+          },
+          {
+            "arabic": "مِّنۢ بَعْدِهِۦ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "3:160 — reference example. Across a word boundary; the count does not change."
+            }
+          },
+          {
+            "arabic": "لَيُنۢبَذَنَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "104:4 — reference example. al-Humazah, one sūrah before al-Fīl."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The sūrah joins — the drill that matters, because it is what she does in ṣalāh",
+      "instructions": "Recite the end of each sūrah straight into the basmalah of the next, without a break. Name the iqlāb as you pass it. Five joins, every day.",
+      "grid": [
+        [
+          {
+            "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:5 → the basmalah of Quraysh. The tanwīn becomes a lip-nasal, two counts."
+            }
+          },
+          {
+            "arabic": "مِّنْ خَوْفٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 → the basmalah of al-Māʿūn. A plain noon on مِّنْ, then an iqlāb on the way out. Two noon rules in three words."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَانَ تَوَّابًۢا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:3 → the basmalah of al-Masad."
+            }
+          },
+          {
+            "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:5 → the basmalah of al-Ikhlāṣ. Two merges from 3-20, then today's iqlāb."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كُفُوًا أَحَدٌۢ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 → the basmalah of al-Falaq. The one from the hook."
+            }
+          },
+          {
+            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The landing point for all five. The ب is the trigger; nothing else about the basmalah matters today."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Stop or continue",
+      "instructions": "Say each ending twice: once STOPPING, once CONTINUING into the basmalah. Name what happened each time. Stopping: the tanwīn is dropped, no iqlāb. Continuing: iqlāb, two counts.",
+      "grid": [
+        [
+          {
+            "arabic": "أَحَدٌۢ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 — stop, and it is a plain aḥad. Continue, and it is a lip-nasal. Same written word, two endings."
+            }
+          },
+          {
+            "arabic": "مَّسَدٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:5 — same test."
+            }
+          },
+          {
+            "arabic": "تَوَّابًۢا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:3 — same test. No tanwīn, no rule."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Noon or meem — look, do not listen",
+      "instructions": "For each phrase, say which letter was WRITTEN before the rule applied. Do not try to hear it; the sounds are the same. Answer from the page only.",
+      "grid": [
+        [
+          {
+            "arabic": "أَنۢبِئْهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:33 — NOON. Iqlāb."
+            }
+          },
+          {
+            "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:4 — MEEM. Ikhfāʾ shafawī, 3-15. In her hifz."
+            }
+          },
+          {
+            "arabic": "مِّنۢ بَعْدِهِۦ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "3:160 — NOON. Iqlāb."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "هُم بِمُؤْمِنِينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:8 — reference example. MEEM. Ikhfāʾ shafawī."
+            }
+          },
+          {
+            "arabic": "لَيُنۢبَذَنَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "104:4 — NOON. Iqlāb."
+            }
+          },
+          {
+            "arabic": "أَحَدٌۢ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 — TANWĪN, which counts as a noon. Iqlāb, on continuing only."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The pair, in one phrase",
+      "instructions": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ — ten times. Name the two rules as you pass them: iqlāb, then ikhfāʾ shafawī. Same posture twice, four letters apart, from two different written letters.",
+      "grid": [
+        [
+          {
+            "arabic": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:33 — reference example, outside your memorised sūrahs. The ideal drill for the pair: the mouth does the same thing twice and the page says why."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "The six things that go wrong",
+      "mistakes": [
+        {
+          "wrong": "Pressing the lips fully shut — am-baʾ with a real, fully-formed meem in it.",
+          "why": "Every language she speaks presses its m. This is 3-15's priority error returning, and it returns even if it was fixed then.",
+          "fix": "Fingertip on the lips. 'Less. Again. Less.' Do not explain; adjust by feel. This is the priority error of the lesson."
+        },
+        {
+          "wrong": "Omitting the nasal — releasing straight into the ب. Ambaʾ with no hold at all.",
+          "why": "The posture is the interesting new part and the timing gets dropped. The same pattern as every rule in this chapter.",
+          "fix": "Fingers, two folds. Do not let her run at speed until day three."
+        },
+        {
+          "wrong": "Pronouncing the original noon — an-baʾ, with a genuine n before the ب.",
+          "why": "The noon is written on the page, and the small meem is small.",
+          "fix": "'The letter on the page is not the letter in your mouth. The mark above it is the letter in your mouth.'"
+        },
+        {
+          "wrong": "Reading the small meem as a written letter — an-m-baʾ, a noon AND a meem, both audible.",
+          "why": "It looks like a letter and it is printed at letter height.",
+          "fix": "'It is an instruction, not a letter. It is telling you what to do with the noon, not adding something to it.'"
+        },
+        {
+          "wrong": "Applying the rule at a stop — a lip-nasal at the end of al-Ikhlāṣ when she stops there.",
+          "why": "She has bound the rule to the MARK rather than to the SEQUENCE, and the mark is still printed whether she stops or not.",
+          "fix": "The stop-or-continue drill. 'No tanwīn, no rule. You dropped the tanwīn when you stopped.'"
+        },
+        {
+          "wrong": "Confusing it with ikhfāʾ shafawī.",
+          "why": "It is not a mistake of the ear; the ear is right. The two are genuinely the same sound. Only the page distinguishes them.",
+          "fix": "Do not listen for the sound. Ask which letter was written. Run the noon-or-meem drill and answer from the page."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "One letter, one mark, one condition",
+      "items": [
+        {
+          "arabic": "أَنۢبِئْهُم",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Noon or tanwīn + ب → a concealed meem, 2 counts, lips light. One letter, no boundary condition."
+          }
+        },
+        {
+          "arabic": "أَحَدٌۢ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The small standing meem. An instruction, not a letter — and it only fires when you continue."
+          }
+        },
+        {
+          "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Same sound, different origin. A meem before ب is ikhfāʾ shafawī. Look, do not listen."
+          }
+        },
+        {
+          "arabic": "مِّن جُوعٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Next session is the last box on the map: fifteen letters, and it is the one you will meet most often. This phrase is where it starts."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "One minute — the three postures, fingertip on the lips. Pressed, barely touching, popped.",
+        "Three minutes — the sūrah joins. EVERY DAY. This is the drill that puts the rule where she actually uses it.",
+        "Two minutes — stop or continue, said out loud, naming what happened each time.",
+        "Two minutes — two counts on the fingers on the three reference examples; then أَنۢبِئْهُم بِأَسْمَآئِهِمْ ten times, naming both rules.",
+        "Two minutes — noon or meem. Look, do not listen.",
+        "Once, on day two — open any page of the muṣḥaf and find three small standing meems. For each, say what letter is written underneath and what letter is coming. The answer is always: a noon or a tanwīn, and a ب.",
+        "The rest — hifz. Manzil, run CONSECUTIVELY through the basmalah rather than surah by surah, then Sabqi (111 whole + 112 whole + 110:1), then the new Sabaq 110:2.",
+        "Bring to the next session: recite al-Fīl straight into Quraysh without stopping, and tell me where the iqlāb was BEFORE you start."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The three postures",
+        "instructions": "Fingertip on the lips. Report what you felt on each: pressed, barely touching, popped.",
+        "grid": [
+          [
+            {
+              "arabic": "أَطْعَمَهُم مِّن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:4 — pressed. Not this rule."
+              }
+            },
+            {
+              "arabic": "أَنۢبِئْهُم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2:33 — barely touching. This rule."
+              }
+            },
+            {
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Closed, then popped. A plain ب."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The sūrah joins",
+        "instructions": "End of one sūrah straight into the basmalah of the next, no break. Name the iqlāb as you pass it.",
+        "grid": [
+          [
+            {
+              "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "105:5 → Quraysh."
+              }
+            },
+            {
+              "arabic": "مِّنْ خَوْفٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:4 → al-Māʿūn."
+              }
+            },
+            {
+              "arabic": "كَانَ تَوَّابًۢا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "110:3 → al-Masad."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "111:5 → al-Ikhlāṣ."
+              }
+            },
+            {
+              "arabic": "كُفُوًا أَحَدٌۢ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "112:4 → al-Falaq."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Stop or continue",
+        "instructions": "Each one twice — stopping, then continuing. Name what happened.",
+        "grid": [
+          [
+            {
+              "arabic": "أَحَدٌۢ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Stop: no rule. Continue: iqlāb."
+              }
+            },
+            {
+              "arabic": "مَّسَدٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Stop: no rule. Continue: iqlāb."
+              }
+            },
+            {
+              "arabic": "تَوَّابًۢا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Stop: no rule. Continue: iqlāb."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Noon or meem — look, do not listen",
+        "instructions": "Say which letter was written. Answer from the page.",
+        "grid": [
+          [
+            {
+              "arabic": "أَنۢبِئْهُم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Noon. Iqlāb."
+              }
+            },
+            {
+              "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Meem. Ikhfāʾ shafawī."
+              }
+            },
+            {
+              "arabic": "هُم بِمُؤْمِنِينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Meem. Ikhfāʾ shafawī. Reference example."
+              }
+            },
+            {
+              "arabic": "أَحَدٌۢ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tanwīn. Iqlāb, on continuing."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The pair, in one phrase",
+        "instructions": "Ten times, naming both rules as you pass them.",
+        "grid": [
+          [
+            {
+              "arabic": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2:33 — reference example. Iqlāb, then ikhfāʾ shafawī."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The three postures, fingertip on the lips — pressed, barely touching, popped",
+      "The five sūrah joins, run consecutively through the basmalah",
+      "Stop or continue, with the outcome named each time",
+      "Two counts on the fingers; the ب does not open until the second finger lands",
+      "Noon or meem — answered from the page, not by ear",
+      "أَنۢبِئْهُم بِأَسْمَآئِهِمْ, ten times, both rules named"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Do not open with the rule. Write أَحَدٌۢ on the board and ask her what the little shape above the tanwīn is. She will not know — almost nobody does. Then write مَّأْكُولٍۭ, خَوْفٍۭ, تَوَّابًۢا, مَّسَدٍۭ beside it and say the sentence that makes the lesson: every sūrah you have memorised in the last month ends with this mark.",
+      "The payoff: it is a small standing meem, and it says that when you run one sūrah into the next, the noon sound at the end of the first word becomes a meem. She has been doing it correctly by imitation for years. Today it gets a name.",
+      "Then name the error before it happens: she will press her lips. Every student does, and pressing turns the rule into a plain meem.",
+      "Point at 3-19's map. Six, four, two, ONE, fifteen — today is the one, fourth box filled. And collect 3-15's flag: seven lessons ago she was told in one sentence that this was coming.",
+      "3-15 already gave her the posture — lips touching without pressure, nasal running behind them. Today is the same posture starting from a noon. Say that: she is not learning a new sound, she is learning a new road to a sound she owns.",
+      "State the rule with its reason in one breath. Noon sākinah or tanwīn before ب only, converted to a concealed meem, 2 counts, no boundary condition. The ب is a lip letter; reaching it from the gum ridge while holding a nasal is awkward, and the nearest nasal the lips can make is a meem. The rule is a shortcut the mouth takes on its own.",
+      "Spend the session's minutes on the posture. Fingertip on the lips. Not pressed — that is a full meem, a different ruling. Not apart — that leaves the noon audible. The diagnostic is unchanged from 3-15: if you can feel your lips tense, you are pressing.",
+      "Say the reference label and mean it. There is ZERO ayah-internal iqlāb in al-Fātiḥa or 105–114 — confirmed by a full scan of the annotated dataset. أَنۢبِئْهُم (2:33), مِّنۢ بَعْدِهِۦ (3:160) and لَيُنۢبَذَنَّ (104:4) are all reference examples, outside your memorised sūrahs. She should always know which examples she can check against her own memory.",
+      "But five ayat in the hifz set carry the SIGN, and that is the real teaching moment: 105:5, 106:4, 110:3, 111:5, 112:4, each firing into the بِسْمِ of the next sūrah. She already does this in ṣalāh every day without knowing what it is called.",
+      "Do not skip the continuation condition. If she stops, the tanwīn is dropped (2-02) and there is no iqlāb at all. Have her say أَحَدٌۢ twice, stopping then continuing. A student who binds the rule to the mark rather than to the sequence will produce a lip-nasal at a stop, and someone else will correct it later, confusingly.",
+      "Teach iqlāb and ikhfāʾ shafawī adjacent, deliberately. Both end at the same place; one of them travelled there. أَنۢبِئْهُم بِأَسْمَآئِهِمْ puts both in one phrase, four letters apart. Teach the CAUSE, never the sound — a student asked to tell these apart by ear is being asked to do something impossible, and she will blame her ear.",
+      "The orthography, again: the Uthmānī text omits the sukūn on an iqlāb noon, for the same reason it omits it on the concealed noon of مِّن جُوعٍ. Compare مِّنْ in 3-19, which keeps its sukūn. Three lessons have now turned on this convention; point at it until she checks it unprompted.",
+      "Colour: #26BFFD, sky blue, cpfair key iqlab — against #D500B7 for ikhfāʾ shafawī. Two colours for one sound, because the colours annotate the cause. Have her find the blue at the end of al-Ikhlāṣ on a coloured page.",
+      "The anchor ayah is now complete. Quraysh 106:4 has been on the card since 3-16 and today it carries all five rulings: أَطْعَمَهُم مِّن (3-16), مِّن جُوعٍ (3-23, still unnamed), جُوعٍ وَءَامَنَهُم (3-20), مِّنْ خَوْفٍۭ (3-19), and خَوْفٍۭ → بِسْمِ today. Eight words, five rulings, memorised. Say this out loud — it is the moment the chapter starts to look finite.",
+      "Hifz: run Manzil CONSECUTIVELY today rather than sūrah by sūrah — that is the joins drill and Manzil in the same ten minutes. Sabqi: 111 whole, 112 whole, 110:1. New Sabaq an-Naṣr 110:2, the longest single ayah she has taken so far; budget extra repetitions. Two things to notice while she works: ٱلنَّاسَ, a doubled noon with two counts of nasal from 3-14, and أَفْوَاجًا, a tanwīn at an ayah end that behaves differently depending on whether she stops. Next session's Sabaq ends in تَوَّابًۢا — one of today's five signs. Tell her that now."
+    ],
+    "listenFor": [
+      {
+        "item": "Lips barely touching through أَنۢبِئْهُم and the sūrah joins — closed enough to stop the mouth, not enough to feel tension.",
+        "makhraj": "Both lips, light contact, with the nasal running behind them for two counts. The tongue never takes the noon's gum-ridge position at all.",
+        "commonMistake": "Pressing the lips fully shut, producing a clear, fully-formed meem — am-baʾ.",
+        "whyItHappens": "Every language she speaks presses its m. It is 3-15's priority error returning under a new rule name.",
+        "correctionCue": "Fingertip on the lips. 'Less. Again. Less.' Adjust by feel; do not explain.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Iqlab.md"
+      },
+      {
+        "item": "A full two-count nasal behind the lips before the ب is released.",
+        "commonMistake": "Releasing straight into the ب with no hold at all — ambaʾ.",
+        "whyItHappens": "The posture is the interesting new part and the timing gets dropped. The same pattern as every rule in this chapter.",
+        "correctionCue": "Fingers, two folds. The ب does not open until the second finger lands. Do not let her run at speed until day three.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Ghunnah.md"
+      },
+      {
+        "item": "No trace of the original noon — no n before the ب.",
+        "commonMistake": "Pronouncing the written noon: an-baʾ.",
+        "whyItHappens": "The noon is written on the page and the small meem is small. Unit 2 trained her to say what is written.",
+        "correctionCue": "'The letter on the page is not the letter in your mouth. The mark above it is the letter in your mouth.'",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Iqlab.md"
+      },
+      {
+        "item": "The small standing meem treated as an instruction — one sound produced, not two.",
+        "commonMistake": "Reading it as a written letter: an-m-baʾ, with both a noon and a meem audible.",
+        "whyItHappens": "It looks like a letter and it is printed at letter height.",
+        "correctionCue": "'It is an instruction, not a letter. It tells you what to do with the noon; it does not add anything to it.'",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Iqlab.md"
+      },
+      {
+        "item": "A plain aḥad when she stops at the end of al-Ikhlāṣ — no lip-nasal at a stop.",
+        "commonMistake": "Applying the rule at a stop because the mark is printed there.",
+        "whyItHappens": "She has bound the rule to the mark rather than to the sequence, and the page cannot know whether she will stop.",
+        "correctionCue": "Stop-or-continue, twice on the same word. 'No tanwīn, no rule. You dropped the tanwīn when you stopped.'",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Iqlab.md"
+      },
+      {
+        "item": "The right ANSWER when asked which rule this is — not the right sound.",
+        "commonMistake": "Confusing iqlāb with ikhfāʾ shafawī.",
+        "whyItHappens": "It is not a mistake of the ear; the ear is right. The two sounds are genuinely the same and only the page separates them.",
+        "correctionCue": "Ask which letter is WRITTEN. Noon or tanwīn is iqlāb; meem is ikhfāʾ shafawī. Look, do not listen.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ikhfa-Shafawi.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Daily: one minute on the three postures with a fingertip on the lips; three minutes on the five sūrah joins, run consecutively through the basmalah, because that is where she actually uses the rule; two minutes on stop-or-continue with the outcome named out loud each time; two minutes on the fingers, two counts, over the three reference examples, then أَنۢبِئْهُم بِأَسْمَآئِهِمْ ten times naming both rules; two minutes on noon-or-meem, answered from the page and not by ear. Once, on day two: open any page of the muṣḥaf and find three small standing meems, saying for each what is written underneath and what is coming next — the answer is always a noon or a tanwīn, and a ب. Hifz: Manzil run consecutively through the basmalah, Sabqi (111 whole + 112 whole + 110:1), then the new Sabaq an-Naṣr 110:2, the longest single ayah she has taken so far. She brings to the next session al-Fīl recited straight into Quraysh without stopping, telling me where the iqlāb is before she starts."
+  },
+  "videos": [],
+  "games": [
+    "rule-identifier",
+    "ghunnah-timer"
+  ]
+}
