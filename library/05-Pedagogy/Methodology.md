@@ -66,7 +66,7 @@ obligatory ghunnah of the doubled nūn and mīm in chapter 2. But
 sound means teaching four rules whose defining feature is undefined.
 
 Most teachers silently reorder this. We do it explicitly: **[[Ghunnah]] is lesson
-3-14, the whole of stage 3.3, before any of the noon-sākinah stage 3.4.** By the
+3-15, the whole of stage 3.3, before any of the noon-sākinah stage 3.4.** By the
 time [[Idgham-Maal-Ghunnah]] arrives, the student has already produced ghunnah in
 the doubled letters, in [[Ikhfa-Shafawi]] and in [[Idgham-Shafawi]], and the new
 rule is a new *trigger* for a sound they already own.
@@ -86,10 +86,10 @@ So waqf is taught **twice**:
 1. **Practical stopping — Unit 2.12–2.14.** Just the mechanics: drop the final
    ḥarakah, tāʾ marbūṭah becomes hāʾ, pick a place that does not break the sense.
    Enough to read a page out loud without suffocating.
-2. **Formal waqf — Unit 3.7, lessons 3-33 to 3-35.** [[Waqf-Signs]] and
+2. **Formal waqf — Unit 3.7, lessons 3-34 to 3-36.** [[Waqf-Signs]] and
    [[Waqf-Types]] as a system, plus what else changes when you stop.
 
-[[Madd-Arid-Lissukun]] lands at 3-30, between the two — after the student can
+[[Madd-Arid-Lissukun]] lands at 3-31, between the two — after the student can
 stop, before the sign system is formalised. That is the only window where the rule
 is teachable.
 
@@ -109,7 +109,7 @@ is usually not "here is a new fact" but "here is what you were probably doing, h
 is why it feels right, here is what it should be." This is why
 [[Common-Mistakes]] is a full parallel track rather than a footnote in each lesson.
 
-**Every stage closes with revision + Q&A.** Lessons 3-08, 3-13, 3-18, 3-25, 3-32
+**Every stage closes with revision + Q&A.** Lessons 3-09, 3-14, 3-19, 3-26, 3-33
 teach nothing new. They exist because interleaved retrieval is what moves a rule
 from recognised to owned, and because a live student accumulates questions that
 have no home in a lesson plan. The hifz strand keeps moving through these lessons;

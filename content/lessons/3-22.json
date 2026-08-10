@@ -3,159 +3,84 @@
   "phase": 3,
   "draft": true,
   "unit": "3.4",
-  "title": "Iqlāb — one letter, and a mark she has read for years",
+  "title": "Idghām bilā ghunnah — ل and ر, the merge with nothing left over",
   "objectives": [
-    "Student can state the rule in one sentence — a noon sākinah or tanwīn before ب only, converted to a concealed meem held for 2 counts.",
-    "Student can recognise the small standing meem on the page and say that it is an instruction, not a letter.",
-    "Student can produce the light-contact lip posture and say why iqlāb and ikhfāʾ shafawī sound alike but are two rules.",
-    "Student can point to the five iqlāb signs inside her own memorised sūrahs and say when each one fires."
+    "Student can merge a noon sākinah or tanwīn completely into a following ل or ر, with no nasal at all.",
+    "Student can hold the resulting doubled letter for its ordinary shadda duration, and no longer.",
+    "Student can apply the rāʾ rules from 3-10 to a rāʾ that arrived by merging.",
+    "Student can read وَلَمْ يَكُن لَّهُۥ and فَوَيْلٌ لِّلْمُصَلِّينَ correctly cold, from her own hifz."
   ],
   "prerequisites": [
-    "3-14",
-    "3-15",
+    "3-10",
     "3-21"
   ],
   "stage": "Noon Sākinah & Tanwīn",
   "slides": [
     {
       "kind": "title",
-      "heading": "Lesson 3.22 — Iqlāb: the noon becomes a meem",
-      "arabicDecor": "أَحَدٌۢ"
+      "heading": "Lesson 3.21 — Idghām bilā ghunnah: the merge with nothing left over",
+      "arabicDecor": "وَلَمْ يَكُن لَّهُۥ"
     },
     {
       "kind": "concept",
-      "heading": "Do not start with the rule. Start with a mark she has never asked about.",
+      "heading": "One line she has known by heart for weeks",
       "body": [
-        "Write the last word of al-Ikhlāṣ on its own: أَحَدٌۢ. Ask her what the little shape above the tanwīn is.",
-        "She will not know. Almost nobody does — it is not in the reading primers, it is not in the legend of the muṣḥaf she owns, and she has recited past it several thousand times.",
-        "Now write the last words of four more sūrahs beside it: مَّأْكُولٍۭ · خَوْفٍۭ · تَوَّابًۢا · مَّسَدٍۭ.",
-        "Every sūrah she has memorised in the last month ends with this mark. Let that land before you explain anything.",
-        "The payoff: it is a small standing meem, and it is telling her that when she runs one sūrah into the next — أَحَدٌۢ straight into بِسْمِ ٱللَّهِ — the noon sound at the end of the first word turns into a meem. She has almost certainly been doing it correctly by imitation for years. Today it gets a name and a reason.",
-        "Then name the error, because it is coming: she will press her lips. Every student does, and pressing converts the rule into a plain meem."
+        "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ — al-Ikhlāṣ 112:4. She learned this ayah in 3-16. Ask her to read it and listen carefully to يَكُن لَّهُۥ.",
+        "There will be a hum in it. yakun-nn-lahū, or a nasal smeared across the لّ.",
+        "Say it plainly: this merge has NO nasal. None. Not a short one — none at all. The noon is gone, completely, and what remains is a doubled lām held exactly as long as any other shadda.",
+        "Say the phrase correctly beside her wrong version: wa-lam yakul-lahū.",
+        "This is the one merge in the whole chapter where the answer to 'how long is the nasal?' is 'there isn't one.'",
+        "And she is going to import a nasal here out of pure habit, every time, for about two weeks. Tell her that NOW, so that when it happens she recognises it rather than getting discouraged."
       ],
       "items": [
         {
-          "arabic": "أَحَدٌۢ",
+          "arabic": "وَلَمْ يَكُن لَّهُۥ",
+          "translit": "wa-lam yakul-lahū",
           "audio": {
             "type": "teacher-voice",
-            "cue": "112:4 — the mark at the end of al-Ikhlāṣ. Ask the question and let her fail to answer it. That failure is the hook."
-          }
-        },
-        {
-          "arabic": "مَّأْكُولٍۭ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "105:5 — the same mark closing al-Fīl."
-          }
-        },
-        {
-          "arabic": "خَوْفٍۭ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "106:4 — the same mark closing Quraysh. She has been staring at this one since 3-16."
-          }
-        },
-        {
-          "arabic": "تَوَّابًۢا",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "110:3 — the same mark closing an-Naṣr. It is her Sabaq next session."
-          }
-        },
-        {
-          "arabic": "مَّسَدٍۭ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "111:5 — the same mark closing al-Masad. Flagged two lessons ago and left alone. Collect it today."
+            "cue": "112:4 — no hum at all. A doubled lām, held for an ordinary shadda, and nothing more."
           }
         }
       ]
     },
     {
       "kind": "concept",
-      "heading": "The fourth box, and a posture she was given seven lessons ago",
+      "heading": "A subtraction from last week, not a new rule",
       "body": [
-        "3-19's map: six, four, two, ONE, fifteen. Today is the one. Fourth box filled; one left.",
-        "3-15 gave her the exact lip posture this rule needs — lips touching without pressure, nasal running behind them for two counts — on a MEEM before ب. Today is the same posture starting from a noon. She does not need to learn a new sound. She needs to learn a new road to it.",
-        "3-15 also warned her this was coming, in one sentence, seven lessons ago. Collect that flag; it makes the course feel like a plan rather than a sequence.",
-        "3-14 gave the nasal and the two counts. Unchanged.",
-        "2-01 gave tanwīn, and 2-02 taught that a tanwīn disappears when you stop. That second fact does real work today and it is the whole of the condition in this lesson."
+        "3-20's map: six, four, TWO, one, fifteen. Today is the two. Third box filled.",
+        "3-21 taught merging with the nasal kept, and taught the word-boundary condition. Today is the same operation with the nasal removed. Frame it as a subtraction, not as something new.",
+        "3-20's distance argument does the explaining, and it is worth giving because it stops her treating this as an arbitrary exception. ل and ر are the tongue's two closest neighbours to the noon: all three are articulated at the gum ridge with the tip of the tongue. The makhārij are so close that the merge is TOTAL — there is no residual position left for a nasal to sound from.",
+        "3-10 gave the rāʾ rules — fatḥa or ḍamma heavy, kasra light. That lesson is a prerequisite today and it gets used in the last block of the session.",
+        "2-05 gave the ordinary shadda hold. That is the timing today, unchanged."
       ]
     },
     {
       "kind": "rule",
-      "ruleId": "iqlab",
-      "heading": "Iqlāb — turning the noon over",
-      "condition": "A noon sākinah or tanwīn followed by ب. Inside a word or across a word boundary; there is no boundary condition.",
+      "ruleId": "idghaam_no_ghunnah",
+      "heading": "Idghām bilā ghunnah — merging without nasalisation",
+      "condition": "A noon sākinah at the END of a word, or a tanwīn, followed by ل or ر at the start of the next word.",
       "letters": [
-        "ب"
+        "ل",
+        "ر"
       ],
-      "harakat": 2,
+      "harakat": 0,
       "body": [
-        "Iqlāb means turning a thing over — converting it. The noon or tanwīn is converted into a HIDDEN meem (mīm mukhfāh), pronounced with a 2-count nasal.",
-        "The noon is not said. And the meem is not fully said either. What is produced is a nasal held at the lips, on its way into the ب.",
-        "One letter. Say the number out loud. ب, and nothing else — iqlāb is the narrowest of the four noon rules, one letter against ikhfāʾ's fifteen. There is nothing to memorise: if the next letter is a bāʾ, this is the rule.",
-        "The reason, in one breath: the ب is a lip letter. Reaching it from the noon's gum-ridge position while still holding a nasal is mechanically awkward, and the nearest nasal the lips can make is a meem. So the tongue gives up its position and the nasal moves to the lips. The rule is a shortcut the mouth takes on its own; the tradition wrote it down rather than inventing it.",
-        "Duration: two counts, on the fingers. The ب does not open until the second finger lands."
+        "The noon merges COMPLETELY into the following letter. The nasal is entirely dropped. What you hear is a doubled ل or ر, held for the ordinary duration of a shadda, and nothing more.",
+        "Always kāmil, and mean it. Both the noon's articulation and its nasal go. There is no incomplete variant and no scholarly disagreement about this rule anywhere.",
+        "After the kāmil/nāqiṣ split of 3-21 and the ikhfāʾ/iẓhār minority view of 3-16, she deserves to be told when something is simply settled. This is one of them.",
+        "The word boundary: same condition as last lesson, with one fewer thing to memorise. The noon must be at the end of its word — but UNLIKE last lesson there is no in-word exception to learn, because the sequence نْ + ل or نْ + ر simply does not arise inside a single Qurʾānic word. Say so; it is a relief and she has earned one.",
+        "Duration: zero counts of nasal. The doubled ل or ر is held exactly as long as any other shadda — the hold from 2-05. Use the fingers if she needs them, but the count is the shadda count, not a ghunnah count. Do not let her fold two fingers 'for the ghunnah'; the gesture will keep the nasal alive."
       ]
     },
     {
       "kind": "concept",
-      "heading": "The posture — and this is where the session's minutes go",
+      "heading": "The whole merge family in one table, because the contrast is the lesson",
       "body": [
-        "Fingertip against the lips, exactly as in 3-15. The lips come together LIGHTLY, without pressure.",
-        "They must not press shut — that produces a clear, fully-formed meem, which is a different ruling.",
-        "They must not stay apart — that leaves the original noon audible.",
-        "They rest against each other just enough to close the mouth, the nasal runs for two counts, and only then is the ب released.",
-        "The diagnostic, unchanged from 3-15: if you can feel your lips tense, you are pressing. Do not explain the fix. Say 'less, again, less' and adjust her by feel."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Iqlāb inside a single ayah — reference example, outside your memorised sūrahs",
-      "body": [
-        "There is NO ayah-internal iqlāb anywhere in al-Fātiḥa or sūrahs 105–114. Confirmed by a full scan of the annotated dataset: zero occurrences in the hifz set. Say that plainly, and say the reference label every time one of these three is on the board.",
-        "أَنۢبِئْهُم — al-Baqarah 2:33, inside one word.",
-        "مِّنۢ بَعْدِهِۦ — Āl ʿImrān 3:160, across a word boundary.",
-        "لَيُنۢبَذَنَّ — al-Humazah 104:4, one sūrah before the hifz set. This is the one to lean on if she ever wants to add a sūrah: al-Humazah sits directly before al-Fīl and it is short.",
-        "The nearest thing to an in-set candidate is تَرْمِيهِم بِحِجَارَةٍ (105:4) — and it is NOT iqlāb. That is a meem before ب, which is 3-15's rule. Same sound, different written letter.",
-        "This is one of the few rules in the chapter where the primary example cannot be checked against her own memory. She should know which of her examples she can verify and which she cannot."
-      ],
-      "items": [
-        {
-          "arabic": "أَنۢبِئْهُم",
-          "translit": "ambiʾhum",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "2:33 — reference example, outside your memorised sūrahs. Iqlāb inside a single word. No boundary needed."
-          }
-        },
-        {
-          "arabic": "مِّنۢ بَعْدِهِۦ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "3:160 — reference example, outside your memorised sūrahs. Iqlāb across a word boundary."
-          }
-        },
-        {
-          "arabic": "لَيُنۢبَذَنَّ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "104:4 — reference example, outside your memorised sūrahs. al-Humazah, one sūrah before the hifz set."
-          }
-        }
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "How the muṣḥaf marks it — and it tells her twice",
-      "body": [
-        "A small standing meem is printed ABOVE the noon, or IN PLACE OF one stroke of the tanwīn.",
-        "أَنۢبِئْهُم and مِّنۢ بَعْدِهِۦ — above the noon.",
-        "خَوْفٍۭ, أَحَدٌۢ, مَّسَدٍۭ — replacing a stroke of the tanwīn.",
-        "The small meem is not a vowel and is never pronounced as a full meem. It is a pronunciation instruction: 'here, the noon has become a nasal at the lips.' A learner who reads it as a written letter produces an-m-baʾ, with both letters in it.",
-        "And the orthography tells her a second time, if she looks. The Uthmānī text OMITS the sukūn on an iqlāb noon — أَنۢبِئْهُم, not أَنْۢبِئْهُم — for exactly the reason it omitted it on the concealed noon of مِّن جُوعٍ: the noon is not being pronounced in its written place. Compare مِّنْ in 3-19, which keeps its sukūn.",
-        "Three lessons have now turned on this one convention. Point at it each time until she starts checking it unprompted."
+        "Idghām with ghunnah — 3-21 — ن and م: nasal YES, 2 counts, kāmil.",
+        "Idghām with ghunnah — 3-21 — ي and و: nasal YES, 2 counts, NĀQIṢ, no shaddah printed.",
+        "Idghām without ghunnah — today — ل and ر: nasal NO, kāmil.",
+        "Six letters merge. Four keep the nasal, two do not. That is the entire content of two lessons, and she should be able to say it back in one sentence before she leaves.",
+        "The six merging letters, called at random, is the drill that has to be automatic before 3-26: someone says ي, ن, م, و, ل or ر, and she answers 'hum, two counts' or 'no hum'. Twenty repetitions."
       ]
     },
     {
@@ -165,235 +90,245 @@
       "translation": "And there is none comparable to Him.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "112:4 — the ayah the hook is built on. أَحَدٌۢ carries the small standing meem, and it fires into the بِسْمِ of al-Falaq when she recites the sūrahs consecutively. Also in this one ayah: يَكُن لَّهُۥ, last lesson's merge with no nasal, and كُفُوًا أَحَدٌۢ, a throat iẓhār on a tanwīn from 3-19."
+        "cue": "112:4 — a WRITTEN NOON into ل. She has had this ayah since 3-16 and has recited it dozens of times with a nasal in it that should not be there. Fix it in the hifz, not only in the drill: have her recite al-Ikhlāṣ whole, three times, immediately after the correction."
       }
     },
     {
       "kind": "ayah",
-      "surah": 106,
+      "surah": 107,
       "ayah": 4,
-      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "translation": "So woe to those who pray.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "106:4 — the anchor ayah, on the card since 3-16. With today's rule it carries FIVE rulings: أَطْعَمَهُم مِّن (3-16), مِّن جُوعٍ (3-23, still unnamed), جُوعٍ وَءَامَنَهُم (3-20), مِّنْ خَوْفٍۭ (3-19), and خَوْفٍۭ running into بِسْمِ — today's iqlāb. Eight words, five rulings, and she has it memorised."
+        "cue": "107:4 — a TANWĪN into ل. One of each, one sūrah apart, both memorised. Teach the entire ل half of the rule from these two and do not open a reference until you reach ر."
       }
     },
     {
       "kind": "concept",
-      "heading": "Where it lives in her own memory — five signs, and all of them fire on a join",
+      "heading": "Both examples she needs are already in her memory — which is unusual",
       "body": [
-        "There is no ayah-internal iqlāb in the hifz set. But FIVE ayat in the hifz set carry the iqlāb sign, and it is real.",
-        "105:5 — كَعَصْفٍ مَّأْكُولٍۭ fires into the بِسْمِ of Quraysh.",
-        "106:4 — خَوْفٍۭ fires into the بِسْمِ of al-Māʿūn.",
-        "110:3 — تَوَّابًۢا fires into the بِسْمِ of al-Masad.",
-        "111:5 — مَّسَدٍۭ fires into the بِسْمِ of al-Ikhlāṣ.",
-        "112:4 — أَحَدٌۢ fires into the بِسْمِ of al-Falaq.",
-        "When a reciter runs one sūrah into the next through the basmalah, the final tanwīn meets the ب of بِسْمِ, and iqlāb applies. The muṣḥaf prints the small meem there precisely because reciting consecutively is the normal case.",
-        "Pedagogically this is the best possible example: she already does it in ṣalāh every day without knowing what she is doing, and it explains a mark she has been staring at for years."
+        "Most rules in this chapter need a reference example. This one does not, for ل.",
+        "وَلَمْ يَكُن لَّهُۥ — al-Ikhlāṣ 112:4 — a written noon.",
+        "فَوَيْلٌ لِّلْمُصَلِّينَ — al-Māʿūn 107:4 — a tanwīn.",
+        "فَوَيْلٌ لِّلْمُصَلِّينَ is easy to misread as 'the ل is doubled because of the article'. It is not: the لّ is doubled because a TANWĪN went into it. Cover فَوَيْلٌ and the shaddah has no explanation. Uncover it and it does.",
+        "For ر there is no in-set example — say so and label it. Use مِّن رَّبِّهِمْ (2:5) and mark it clearly: reference example — outside your memorised sūrahs. She should always know which of her examples she can verify against her own memory.",
+        "مِّن لَّدُنْهُ (18:2) is a useful second reference and it has a bonus: the نْ INSIDE لَّدُنْهُ is a throat-letter iẓhār from 3-20. Two noons, one word apart, opposite treatments. It is the cheapest demonstration available that the rule is decided letter by letter."
       ],
       "items": [
         {
-          "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+          "arabic": "مِّن رَّبِّهِمْ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "105:5 — al-Fīl closes. Run it straight into Quraysh's basmalah and the tanwīn becomes a lip-nasal."
+            "cue": "2:5 — reference example, outside your memorised sūrahs. Noon + ر, no hum, and the merged rāʾ is HEAVY."
           }
         },
         {
-          "arabic": "كَانَ تَوَّابًۢا",
+          "arabic": "مِّن لَّدُنْهُ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "110:3 — an-Naṣr closes. She takes this ayah as her Sabaq next session; tell her now."
+            "cue": "18:2 — reference example. First noon merges completely into the ل with no nasal; the second noon, four letters later, is said plainly before the ه. Two noon rules in three syllables."
           }
         },
         {
-          "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
+          "arabic": "هُدًى لِّلْمُتَّقِينَ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "111:5 — al-Masad closes. Two idghāms from 3-20, then today's iqlāb on the way out."
-          }
-        },
-        {
-          "arabic": "كُفُوًا أَحَدٌۢ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "112:4 — al-Ikhlāṣ closes. A throat iẓhār on كُفُوًا أَحَدٌۢ, then today's iqlāb on the join out."
-          }
-        },
-        {
-          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "The ب that every one of the five fires into. Say the basmalah on its own once, then attach each ending to it."
+            "cue": "2:2 — reference example. Tanwīn + ل, no hum."
           }
         }
       ]
     },
     {
-      "kind": "concept",
-      "heading": "The rule only fires on continuation — and this half is itself a lesson",
-      "body": [
-        "If she STOPS at the end of the sūrah, the tanwīn is dropped — she learned that in 2-02 — and there is no iqlāb at all. Nothing to convert.",
-        "Have her say أَحَدٌۢ twice: once stopping, once running into بِسْمِ ٱللَّهِ. Two different endings from the same written word.",
-        "Do not skip this. A student who learns 'أَحَدٌۢ has an iqlāb' without the continuation condition will produce a lip-nasal at the end of al-Ikhlāṣ when she stops there — which is wrong, and which sounds odd enough that someone else will correct it later, confusingly.",
-        "The small meem stays printed whether she stops or not, because the page cannot know what she is going to do. The mark records a possibility; she supplies the decision."
-      ]
-    },
-    {
       "kind": "contrast",
-      "heading": "Two rules, one sound — the difference is on the page",
+      "heading": "Hum, and no hum",
       "pairs": [
         {
-          "surah": 2,
-          "ayah": 33,
-          "text": "أَنۢبِئْهُم",
-          "rule": "iqlab",
-          "note": "A NOON before ب, converted to a concealed meem. Sky blue, #26BFFD. Reference example — outside your memorised sūrahs."
+          "surah": 111,
+          "ayah": 5,
+          "text": "حَبْلٌ مِّن مَّسَدٍۭ",
+          "rule": "idghaam_ghunnah",
+          "note": "HUM. Two merges, both into م, both with a full 2-count nasal. Last lesson's rule, and the reason a hum will turn up today where it does not belong. Teal-green, #169777."
         },
         {
-          "surah": 105,
+          "surah": 112,
           "ayah": 4,
-          "text": "تَرْمِيهِم بِحِجَارَةٍ",
-          "rule": "ikhfa_shafawi",
-          "note": "A MEEM before ب, concealed at the lips. Magenta, #D500B7. In her hifz — al-Fīl. The mouth does the same thing as the row above; only the written letter differs."
+          "text": "وَلَمْ يَكُن لَّهُۥ",
+          "rule": "idghaam_no_ghunnah",
+          "note": "NO HUM. Same operation, nasal removed. Pinch the nose and it should make no audible difference at all. Green, #169200 — and that is almost the same green as the row above."
         },
         {
-          "surah": 2,
-          "ayah": 33,
-          "text": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ",
-          "rule": "iqlab",
-          "note": "Both rules in one phrase, four letters apart: an iqlāb on the noon of أَنۢبِـ, then an ikhfāʾ shafawī on the meem of ـهُم before بِأَسْمَآئِهِمْ. Same posture twice, from two different written letters. Reference example — outside your memorised sūrahs."
+          "surah": 107,
+          "ayah": 4,
+          "text": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+          "rule": "idghaam_no_ghunnah",
+          "note": "NO HUM, on a tanwīn. The لّ is doubled because a tanwīn went into it, not because of the article — cover فَوَيْلٌ and the shaddah loses its explanation."
         }
       ]
     },
     {
       "kind": "legend",
-      "heading": "Two ways to arrive at the same lip-nasal",
+      "heading": "Two greens, and an honest warning about them",
       "rules": [
-        "iqlab",
-        "ikhfa_shafawi"
+        "idghaam_ghunnah",
+        "idghaam_no_ghunnah"
       ]
     },
     {
       "kind": "concept",
-      "heading": "Colour, and the one place in the chapter where the ear is not the instrument",
+      "heading": "Do not let her learn this pair by colour",
       "body": [
-        "Family B paints iqlāb #26BFFD, sky blue; the cpfair key is iqlab. It is a distinctive colour and a rare one. Have her find the blue at the end of al-Ikhlāṣ on a coloured page.",
-        "Ikhfāʾ shafawī is #D500B7, magenta. Two different colours for two rules that produce the same sound — which is exactly right, because the colours are annotating the CAUSE, not the output.",
-        "Teach the cause, never the sound. A student who tries to tell iqlāb and ikhfāʾ shafawī apart by ear is being asked to do something impossible; she will conclude her ear is bad, and it is not.",
-        "So when she asks 'which one is this?', the answer is always another question: which letter is WRITTEN? A noon or tanwīn, or a meem. Look, do not listen."
+        "Family B paints idghām bilā ghunnah #169200; the cpfair key is idghaam_no_ghunnah. Last lesson's rule is #169777.",
+        "At small type sizes those two greens are almost indistinguishable. That closeness is a deliberate signal — the two ARE the same operation — but it is a genuine accessibility hazard: a reader who cannot separate the hues cannot tell 'hold a two-count nasal' from 'hold none', which is the entire difference between the two rules.",
+        "Teach it on the LETTER. ي ن م و hum; ل ر do not. Six letters, one question, no colour involved.",
+        "Say the hazard out loud rather than hiding it. A student who trusts the colours and then meets a badly printed page, or reads on a phone at night, needs to know the colours were never the primary evidence."
       ]
     },
     {
-      "kind": "drill",
-      "heading": "The three postures, again",
-      "instructions": "Fingertip on the lips. Say each and report what you felt — pressed, barely touching, or closed then popped. Do not say the answer for her; make her report it.",
-      "grid": [
-        [
-          {
-            "arabic": "أَطْعَمَهُم مِّن",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "106:4 — PRESSED. A doubled meem, lips firmly shut, idghām shafawī from 3-16. This is what iqlāb must NOT sound like."
-            }
-          },
-          {
-            "arabic": "أَنۢبِئْهُم",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "2:33 — BARELY TOUCHING. Today's posture. If you can feel your lips tense, you are pressing."
-            }
-          },
-          {
-            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "CLOSED, THEN POPPED. An ordinary ب with nothing in front of it. Three postures, three feelings."
-            }
+      "kind": "concept",
+      "heading": "The rāʾ keeps its own rules — give this the last block of the session",
+      "body": [
+        "The merged ر is still a rāʾ and still takes the rāʾ rules from 3-10.",
+        "In مِّن رَّبِّهِمْ the rāʾ carries a fatḥa, so it is HEAVY — mir-rab-bihim, with a full, thick rāʾ.",
+        "Students who are concentrating on deleting the nasal routinely produce a thin, apologetic rāʾ, because all their attention is upstream and the 3-10 rules fall out of memory two letters later. Say the phrase both ways and let her hear it.",
+        "مِّن رِّزْقٍ — kasra, LIGHT. مِّن رَّسُولٍ — fatḥa, HEAVY. Make her name heavy or light BEFORE reading. Naming is what keeps a rule alive under load.",
+        "And the hold does not go with the nasal. 'No ghunnah' is not 'nothing to hold'. The doubled ل or ر must still be held for a full shadda — 2-05's timing, unchanged."
+      ],
+      "items": [
+        {
+          "arabic": "مِّن رِّزْقٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "10:59 — reference example. Kasra on the merged rāʾ, so LIGHT."
           }
-        ]
-      ]
-    },
-    {
-      "kind": "drill",
-      "heading": "Two counts behind the lips",
-      "instructions": "Fold two fingers during the hold. The ب does not open until the second finger lands. All three are reference examples — say the label before you start.",
-      "grid": [
-        [
-          {
-            "arabic": "أَنۢبِئْهُم",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "2:33 — reference example. Two counts, lips light."
-            }
-          },
-          {
-            "arabic": "مِّنۢ بَعْدِهِۦ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "3:160 — reference example. Across a word boundary; the count does not change."
-            }
-          },
-          {
-            "arabic": "لَيُنۢبَذَنَّ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "104:4 — reference example. al-Humazah, one sūrah before al-Fīl."
-            }
+        },
+        {
+          "arabic": "مِّن رَّسُولٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "15:11 — reference example. Fatḥa on the merged rāʾ, so HEAVY."
           }
-        ]
+        }
       ]
     },
     {
       "kind": "drill",
-      "heading": "The sūrah joins — the drill that matters, because it is what she does in ṣalāh",
-      "instructions": "Recite the end of each sūrah straight into the basmalah of the next, without a break. Name the iqlāb as you pass it. Five joins, every day.",
+      "heading": "Assemble, with no hum",
+      "instructions": "Left cell apart, right cell joined. Then say the right cell again with your nose pinched — it should make no difference at all. If pinching changes the sound, you are humming.",
       "grid": [
         [
           {
-            "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+            "arabic": "يَكُنْ · لَهُۥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "105:5 → the basmalah of Quraysh. The tanwīn becomes a lip-nasal, two counts."
+              "cue": "Apart. Noon fully pronounced."
             }
           },
           {
-            "arabic": "مِّنْ خَوْفٍۭ",
+            "arabic": "يَكُن لَّهُۥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "106:4 → the basmalah of al-Māʿūn. A plain noon on مِّنْ, then an iqlāb on the way out. Two noon rules in three words."
+              "cue": "112:4 — joined. yakul-lahū. Pinch: no change."
             }
           }
         ],
         [
           {
-            "arabic": "كَانَ تَوَّابًۢا",
+            "arabic": "فَوَيْلٌ · لِلْمُصَلِّينَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "110:3 → the basmalah of al-Masad."
+              "cue": "Apart. Tanwīn intact."
             }
           },
+          {
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "107:4 — joined. fa-wayl-lil-muṣallīn. Pinch: no change."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِنْ · رَبِّهِمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Apart."
+            }
+          },
+          {
+            "arabic": "مِّن رَّبِّهِمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:5 — joined. mir-rab-bihim, heavy rāʾ. Pinch: no change."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "هُدًى · لِلْمُتَّقِينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Apart."
+            }
+          },
+          {
+            "arabic": "هُدًى لِّلْمُتَّقِينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:2 — joined. Pinch: no change."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Hum or no hum — say it before you read it",
+      "instructions": "Read across. Before each phrase, say 'hum' or 'no hum' out loud. Then read it. Then shuffle the two rows together and do it again without the layout helping you.",
+      "grid": [
+        [
           {
             "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "111:5 → the basmalah of al-Ikhlāṣ. Two merges from 3-20, then today's iqlāb."
+              "cue": "111:5 — HUM. Two of them."
+            }
+          },
+          {
+            "arabic": "جُوعٍ وَءَامَنَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — HUM, nāqiṣ, no shaddah on the و."
+            }
+          },
+          {
+            "arabic": "مَن يَقُولُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:8 — HUM, nāqiṣ."
             }
           }
         ],
         [
           {
-            "arabic": "كُفُوًا أَحَدٌۢ",
+            "arabic": "وَلَمْ يَكُن لَّهُۥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "112:4 → the basmalah of al-Falaq. The one from the hook."
+              "cue": "112:4 — NO HUM."
             }
           },
           {
-            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "The landing point for all five. The ب is the trigger; nothing else about the basmalah matters today."
+              "cue": "107:4 — NO HUM."
+            }
+          },
+          {
+            "arabic": "مِّن لَّدُنْهُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "18:2 — NO HUM on the merge; then a plain noon before the ه, from 3-20."
             }
           }
         ]
@@ -401,29 +336,29 @@
     },
     {
       "kind": "drill",
-      "heading": "Stop or continue",
-      "instructions": "Say each ending twice: once STOPPING, once CONTINUING into the basmalah. Name what happened each time. Stopping: the tanwīn is dropped, no iqlāb. Continuing: iqlāb, two counts.",
+      "heading": "The rāʾ keeps its own rules",
+      "instructions": "Read each and say whether the merged rāʾ is heavy or light BEFORE you say it. All three have no nasal; that part is not the question.",
       "grid": [
         [
           {
-            "arabic": "أَحَدٌۢ",
+            "arabic": "مِّن رَّبِّهِمْ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "112:4 — stop, and it is a plain aḥad. Continue, and it is a lip-nasal. Same written word, two endings."
+              "cue": "2:5 — fatḥa. HEAVY."
             }
           },
           {
-            "arabic": "مَّسَدٍۭ",
+            "arabic": "مِّن رِّزْقٍ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "111:5 — same test."
+              "cue": "10:59 — kasra. LIGHT."
             }
           },
           {
-            "arabic": "تَوَّابًۢا",
+            "arabic": "مِّن رَّسُولٍ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "110:3 — same test. No tanwīn, no rule."
+              "cue": "15:11 — fatḥa. HEAVY."
             }
           }
         ]
@@ -431,68 +366,63 @@
     },
     {
       "kind": "drill",
-      "heading": "Noon or meem — look, do not listen",
-      "instructions": "For each phrase, say which letter was WRITTEN before the rule applied. Do not try to hear it; the sounds are the same. Answer from the page only.",
+      "heading": "The hold, not the hum",
+      "instructions": "The nasal goes; the hold does not. Say each one twice — once released early, once held for a full shadda — and hear the difference. Then reconnect the timing to something she already owns: كُلُّ and رَبِّ from 2-05.",
       "grid": [
         [
           {
-            "arabic": "أَنۢبِئْهُم",
+            "arabic": "يَكُن لَّهُۥ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "2:33 — NOON. Iqlāb."
+              "cue": "112:4 — released early, then held. The second one is right."
             }
           },
           {
-            "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "105:4 — MEEM. Ikhfāʾ shafawī, 3-15. In her hifz."
+              "cue": "107:4 — the لّ carries a full shadda hold."
             }
           },
           {
-            "arabic": "مِّنۢ بَعْدِهِۦ",
+            "arabic": "مِّن رَّبِّهِمْ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "3:160 — NOON. Iqlāb."
+              "cue": "2:5 — the رّ carries a full shadda hold, and it is heavy."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "In the sūrahs, whole",
+      "instructions": "Recite al-Ikhlāṣ and al-Māʿūn from memory. The two instances must be right IN THE RECITATION, not only in the drill — otherwise the drill version becomes correct and the memorised version stays wrong. That is a real failure mode and it is worth three minutes.",
+      "grid": [
+        [
+          {
+            "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 whole — no hum on يَكُن لَّهُۥ, then a plain noon on كُفُوًا أَحَدٌۢ, which is 3-20's rule on a tanwīn. Two noon rules in five words."
             }
           }
         ],
         [
           {
-            "arabic": "هُم بِمُؤْمِنِينَ",
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "2:8 — reference example. MEEM. Ikhfāʾ shafawī."
-            }
-          },
-          {
-            "arabic": "لَيُنۢبَذَنَّ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "104:4 — NOON. Iqlāb."
-            }
-          },
-          {
-            "arabic": "أَحَدٌۢ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "112:4 — TANWĪN, which counts as a noon. Iqlāb, on continuing only."
+              "cue": "107:4 whole — one ayah, one merge, no hum."
             }
           }
-        ]
-      ]
-    },
-    {
-      "kind": "drill",
-      "heading": "The pair, in one phrase",
-      "instructions": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ — ten times. Name the two rules as you pass them: iqlāb, then ikhfāʾ shafawī. Same posture twice, four letters apart, from two different written letters.",
-      "grid": [
+        ],
         [
           {
-            "arabic": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ",
+            "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "2:33 — reference example, outside your memorised sūrahs. The ideal drill for the pair: the mouth does the same thing twice and the page says why."
+              "cue": "110:1 — today's new Sabaq. Nothing here is today's rule: نَصْرُ has a VOWELLED noon, not a closed one. Ask her to confirm that herself."
             }
           }
         ]
@@ -503,67 +433,67 @@
       "heading": "The six things that go wrong",
       "mistakes": [
         {
-          "wrong": "Pressing the lips fully shut — am-baʾ with a real, fully-formed meem in it.",
-          "why": "Every language she speaks presses its m. This is 3-15's priority error returning, and it returns even if it was fixed then.",
-          "fix": "Fingertip on the lips. 'Less. Again. Less.' Do not explain; adjust by feel. This is the priority error of the lesson."
+          "wrong": "Adding a nasal, carried over from يَنْمُو — a hum before the لّ or رّ.",
+          "why": "The most recently practised instruction wins under load. She spent last week being trained to hum on every merge. It is a scheduling artefact, and it is the priority error by a wide margin.",
+          "fix": "Pinch and repeat. The pinch is the fastest correction available and she can run it alone at home."
         },
         {
-          "wrong": "Omitting the nasal — releasing straight into the ب. Ambaʾ with no hold at all.",
-          "why": "The posture is the interesting new part and the timing gets dropped. The same pattern as every rule in this chapter.",
-          "fix": "Fingers, two folds. Do not let her run at speed until day three."
+          "wrong": "Not fully doubling the ل or ر — the shadda released after one count, so the phrase sounds hurried.",
+          "why": "She has been told 'no ghunnah' and hears it as 'nothing to hold'. The nasal goes; the hold does not.",
+          "fix": "Both ways, back to back. Then the ordinary shadda drill from 2-05 on كُلُّ and رَبِّ, to reconnect the timing to something she already owns."
         },
         {
-          "wrong": "Pronouncing the original noon — an-baʾ, with a genuine n before the ب.",
-          "why": "The noon is written on the page, and the small meem is small.",
-          "fix": "'The letter on the page is not the letter in your mouth. The mark above it is the letter in your mouth.'"
+          "wrong": "Pronouncing the noon before merging — min-rabbihim.",
+          "why": "The same fault as in 3-21 and for the same reason: the noon is written.",
+          "fix": "Apart, then joined. Then delete the noon deliberately: 'say mir, then rabbihim, then join them.'"
         },
         {
-          "wrong": "Reading the small meem as a written letter — an-m-baʾ, a noon AND a meem, both audible.",
-          "why": "It looks like a letter and it is printed at letter height.",
-          "fix": "'It is an instruction, not a letter. It is telling you what to do with the noon, not adding something to it.'"
+          "wrong": "A thin rāʾ where it should be heavy — مِّن رَّبِّهِمْ with a light, English-sounding r.",
+          "why": "All her attention is on suppressing the nasal, and the rāʾ rules from 3-10 fall out of memory two letters later.",
+          "fix": "Make her name heavy or light BEFORE reading. Naming is what keeps the rule alive under load."
         },
         {
-          "wrong": "Applying the rule at a stop — a lip-nasal at the end of al-Ikhlāṣ when she stops there.",
-          "why": "She has bound the rule to the MARK rather than to the SEQUENCE, and the mark is still printed whether she stops or not.",
-          "fix": "The stop-or-continue drill. 'No tanwīn, no rule. You dropped the tanwīn when you stopped.'"
+          "wrong": "Reading the doubled ل of لِّلْمُصَلِّينَ as the definite article.",
+          "why": "She spent 3-13 on lām shamsiyyah, and a doubled ل at the start of a word has an obvious story attached to it.",
+          "fix": "Cover the preceding word. If the shaddah has no explanation without it, the shaddah came from the merge. Listen for the NAMING, not the sound — ask her why the ل is doubled."
         },
         {
-          "wrong": "Confusing it with ikhfāʾ shafawī.",
-          "why": "It is not a mistake of the ear; the ear is right. The two are genuinely the same sound. Only the page distinguishes them.",
-          "fix": "Do not listen for the sound. Ask which letter was written. Run the noon-or-meem drill and answer from the page."
+          "wrong": "Missing the rule on a tanwīn — فَوَيْلٌ لِّلْمُصَلِّينَ read as two separate words.",
+          "why": "No noon on the page.",
+          "fix": "Same as 3-20: say the rule with 'or tanwīn' in it, out loud, every time."
         }
       ]
     },
     {
       "kind": "recap",
-      "heading": "One letter, one mark, one condition",
+      "heading": "Six letters merge. Four hum. Two do not.",
       "items": [
         {
-          "arabic": "أَنۢبِئْهُم",
+          "arabic": "وَلَمْ يَكُن لَّهُۥ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Noon or tanwīn + ب → a concealed meem, 2 counts, lips light. One letter, no boundary condition."
+            "cue": "ل — no nasal at all, doubled lām, ordinary shadda hold. In her hifz."
           }
         },
         {
-          "arabic": "أَحَدٌۢ",
+          "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "The small standing meem. An instruction, not a letter — and it only fires when you continue."
+            "cue": "Tanwīn + ل — same rule, no noon on the page. In her hifz."
           }
         },
         {
-          "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+          "arabic": "مِّن رَّبِّهِمْ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Same sound, different origin. A meem before ب is ikhfāʾ shafawī. Look, do not listen."
+            "cue": "ر — no nasal, and the merged rāʾ is still heavy. Reference example."
           }
         },
         {
-          "arabic": "مِّن جُوعٍ",
+          "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Next session is the last box on the map: fifteen letters, and it is the one you will meet most often. This phrase is where it starts."
+            "cue": "The contrast: same merge, nasal KEPT. ي ن م و hum, ل ر do not. Next lesson: ب alone, and the noon becomes a meem."
           }
         }
       ]
@@ -572,168 +502,173 @@
       "kind": "homework",
       "heading": "Homework — 15–20 min/day, five days",
       "tasks": [
-        "One minute — the three postures, fingertip on the lips. Pressed, barely touching, popped.",
-        "Three minutes — the sūrah joins. EVERY DAY. This is the drill that puts the rule where she actually uses it.",
-        "Two minutes — stop or continue, said out loud, naming what happened each time.",
-        "Two minutes — two counts on the fingers on the three reference examples; then أَنۢبِئْهُم بِأَسْمَآئِهِمْ ten times, naming both rules.",
-        "Two minutes — noon or meem. Look, do not listen.",
-        "Once, on day two — open any page of the muṣḥaf and find three small standing meems. For each, say what letter is written underneath and what letter is coming. The answer is always: a noon or a tanwīn, and a ب.",
-        "The rest — hifz. Manzil, run CONSECUTIVELY through the basmalah rather than surah by surah, then Sabqi (111 whole + 112 whole + 110:1), then the new Sabaq 110:2.",
-        "Bring to the next session: recite al-Fīl straight into Quraysh without stopping, and tell me where the iqlāb was BEFORE you start."
+        "Three minutes — assemble apart then joined, then pinch. The pinch every single day; it is the self-correction tool for this rule.",
+        "Three minutes — hum or no hum, said out loud before each phrase, then with the two rows shuffled.",
+        "Two minutes — the six merging letters called at random. Get someone to call them; if not, write ي ن م و ل ر on six slips and draw.",
+        "Two minutes — the rāʾ rules on a merged rāʾ, heavy or light named before reading.",
+        "Two minutes — the hold, both ways: released early, then held for a full shadda.",
+        "Three minutes — al-Ikhlāṣ and al-Māʿūn from memory, listening for the two instances in the recitation itself.",
+        "The rest — hifz. Manzil, Sabqi (111 whole + 112, listening for the hum on 112:4), then the new Sabaq 110:1.",
+        "Bring to the next session: al-Ikhlāṣ, recited from memory, with 112:4 clean. If the hum is still there after a week, we drill it before anything new."
       ]
     }
   ],
   "practice": {
     "drills": [
       {
-        "title": "The three postures",
-        "instructions": "Fingertip on the lips. Report what you felt on each: pressed, barely touching, popped.",
+        "title": "Assemble, with no hum",
+        "instructions": "Apart, then joined, then joined again with the nose pinched. Pinching must make no difference.",
         "grid": [
           [
             {
-              "arabic": "أَطْعَمَهُم مِّن",
+              "arabic": "يَكُنْ · لَهُۥ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "106:4 — pressed. Not this rule."
+                "cue": "Apart."
               }
             },
             {
-              "arabic": "أَنۢبِئْهُم",
+              "arabic": "يَكُن لَّهُۥ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "2:33 — barely touching. This rule."
-              }
-            },
-            {
-              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Closed, then popped. A plain ب."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "The sūrah joins",
-        "instructions": "End of one sūrah straight into the basmalah of the next, no break. Name the iqlāb as you pass it.",
-        "grid": [
-          [
-            {
-              "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "105:5 → Quraysh."
-              }
-            },
-            {
-              "arabic": "مِّنْ خَوْفٍۭ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "106:4 → al-Māʿūn."
-              }
-            },
-            {
-              "arabic": "كَانَ تَوَّابًۢا",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "110:3 → al-Masad."
+                "cue": "112:4 — joined, no hum."
               }
             }
           ],
           [
             {
+              "arabic": "مِنْ · رَبِّهِمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Apart."
+              }
+            },
+            {
+              "arabic": "مِّن رَّبِّهِمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2:5 — joined, no hum, heavy rāʾ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "هُدًى · لِلْمُتَّقِينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Apart."
+              }
+            },
+            {
+              "arabic": "هُدًى لِّلْمُتَّقِينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2:2 — joined, no hum."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Hum or no hum",
+        "instructions": "Say it before you read it. Then shuffle the rows and do it again.",
+        "grid": [
+          [
+            {
               "arabic": "حَبْلٌ مِّن مَّسَدٍۭ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "111:5 → al-Ikhlāṣ."
+                "cue": "HUM."
               }
             },
             {
-              "arabic": "كُفُوًا أَحَدٌۢ",
+              "arabic": "جُوعٍ وَءَامَنَهُم",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "112:4 → al-Falaq."
+                "cue": "HUM, nāqiṣ."
+              }
+            },
+            {
+              "arabic": "مَن يَقُولُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "HUM, nāqiṣ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَلَمْ يَكُن لَّهُۥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NO HUM."
+              }
+            },
+            {
+              "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NO HUM."
+              }
+            },
+            {
+              "arabic": "مِّن لَّدُنْهُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NO HUM, then an iẓhār four letters later."
               }
             }
           ]
         ]
       },
       {
-        "title": "Stop or continue",
-        "instructions": "Each one twice — stopping, then continuing. Name what happened.",
+        "title": "The rāʾ keeps its own rules",
+        "instructions": "Heavy or light, named before reading.",
         "grid": [
           [
             {
-              "arabic": "أَحَدٌۢ",
+              "arabic": "مِّن رَّبِّهِمْ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Stop: no rule. Continue: iqlāb."
+                "cue": "Fatḥa. HEAVY."
               }
             },
             {
-              "arabic": "مَّسَدٍۭ",
+              "arabic": "مِّن رِّزْقٍ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Stop: no rule. Continue: iqlāb."
+                "cue": "Kasra. LIGHT."
               }
             },
             {
-              "arabic": "تَوَّابًۢا",
+              "arabic": "مِّن رَّسُولٍ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Stop: no rule. Continue: iqlāb."
+                "cue": "Fatḥa. HEAVY."
               }
             }
           ]
         ]
       },
       {
-        "title": "Noon or meem — look, do not listen",
-        "instructions": "Say which letter was written. Answer from the page.",
+        "title": "In the sūrahs, whole",
+        "instructions": "al-Ikhlāṣ and al-Māʿūn from memory. The instances must be right in the recitation, not only in the drill.",
         "grid": [
           [
             {
-              "arabic": "أَنۢبِئْهُم",
+              "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Noon. Iqlāb."
-              }
-            },
-            {
-              "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Meem. Ikhfāʾ shafawī."
-              }
-            },
-            {
-              "arabic": "هُم بِمُؤْمِنِينَ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Meem. Ikhfāʾ shafawī. Reference example."
-              }
-            },
-            {
-              "arabic": "أَحَدٌۢ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Tanwīn. Iqlāb, on continuing."
+                "cue": "112:4 — no hum, then a plain noon on the tanwīn."
               }
             }
-          ]
-        ]
-      },
-      {
-        "title": "The pair, in one phrase",
-        "instructions": "Ten times, naming both rules as you pass them.",
-        "grid": [
+          ],
           [
             {
-              "arabic": "أَنۢبِئْهُم بِأَسْمَآئِهِمْ",
+              "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "2:33 — reference example. Iqlāb, then ikhfāʾ shafawī."
+                "cue": "107:4 — no hum."
               }
             }
           ]
@@ -741,88 +676,87 @@
       }
     ],
     "dailyChecklist": [
-      "The three postures, fingertip on the lips — pressed, barely touching, popped",
-      "The five sūrah joins, run consecutively through the basmalah",
-      "Stop or continue, with the outcome named each time",
-      "Two counts on the fingers; the ب does not open until the second finger lands",
-      "Noon or meem — answered from the page, not by ear",
-      "أَنۢبِئْهُم بِأَسْمَآئِهِمْ, ten times, both rules named"
+      "Assemble apart then joined, then pinch — pinching must make no difference",
+      "Hum or no hum, said out loud before each phrase",
+      "The six merging letters called at random — automatic before 3-26",
+      "Heavy or light on a merged rāʾ, named before reading",
+      "The hold, both ways — the nasal goes, the shadda does not",
+      "al-Ikhlāṣ and al-Māʿūn from memory, with 112:4 clean"
     ]
   },
   "teacherNotes": {
     "script": [
-      "Do not open with the rule. Write أَحَدٌۢ on the board and ask her what the little shape above the tanwīn is. She will not know — almost nobody does. Then write مَّأْكُولٍۭ, خَوْفٍۭ, تَوَّابًۢا, مَّسَدٍۭ beside it and say the sentence that makes the lesson: every sūrah you have memorised in the last month ends with this mark.",
-      "The payoff: it is a small standing meem, and it says that when you run one sūrah into the next, the noon sound at the end of the first word becomes a meem. She has been doing it correctly by imitation for years. Today it gets a name.",
-      "Then name the error before it happens: she will press her lips. Every student does, and pressing turns the rule into a plain meem.",
-      "Point at 3-19's map. Six, four, two, ONE, fifteen — today is the one, fourth box filled. And collect 3-15's flag: seven lessons ago she was told in one sentence that this was coming.",
-      "3-15 already gave her the posture — lips touching without pressure, nasal running behind them. Today is the same posture starting from a noon. Say that: she is not learning a new sound, she is learning a new road to a sound she owns.",
-      "State the rule with its reason in one breath. Noon sākinah or tanwīn before ب only, converted to a concealed meem, 2 counts, no boundary condition. The ب is a lip letter; reaching it from the gum ridge while holding a nasal is awkward, and the nearest nasal the lips can make is a meem. The rule is a shortcut the mouth takes on its own.",
-      "Spend the session's minutes on the posture. Fingertip on the lips. Not pressed — that is a full meem, a different ruling. Not apart — that leaves the noon audible. The diagnostic is unchanged from 3-15: if you can feel your lips tense, you are pressing.",
-      "Say the reference label and mean it. There is ZERO ayah-internal iqlāb in al-Fātiḥa or 105–114 — confirmed by a full scan of the annotated dataset. أَنۢبِئْهُم (2:33), مِّنۢ بَعْدِهِۦ (3:160) and لَيُنۢبَذَنَّ (104:4) are all reference examples, outside your memorised sūrahs. She should always know which examples she can check against her own memory.",
-      "But five ayat in the hifz set carry the SIGN, and that is the real teaching moment: 105:5, 106:4, 110:3, 111:5, 112:4, each firing into the بِسْمِ of the next sūrah. She already does this in ṣalāh every day without knowing what it is called.",
-      "Do not skip the continuation condition. If she stops, the tanwīn is dropped (2-02) and there is no iqlāb at all. Have her say أَحَدٌۢ twice, stopping then continuing. A student who binds the rule to the mark rather than to the sequence will produce a lip-nasal at a stop, and someone else will correct it later, confusingly.",
-      "Teach iqlāb and ikhfāʾ shafawī adjacent, deliberately. Both end at the same place; one of them travelled there. أَنۢبِئْهُم بِأَسْمَآئِهِمْ puts both in one phrase, four letters apart. Teach the CAUSE, never the sound — a student asked to tell these apart by ear is being asked to do something impossible, and she will blame her ear.",
-      "The orthography, again: the Uthmānī text omits the sukūn on an iqlāb noon, for the same reason it omits it on the concealed noon of مِّن جُوعٍ. Compare مِّنْ in 3-19, which keeps its sukūn. Three lessons have now turned on this convention; point at it until she checks it unprompted.",
-      "Colour: #26BFFD, sky blue, cpfair key iqlab — against #D500B7 for ikhfāʾ shafawī. Two colours for one sound, because the colours annotate the cause. Have her find the blue at the end of al-Ikhlāṣ on a coloured page.",
-      "The anchor ayah is now complete. Quraysh 106:4 has been on the card since 3-16 and today it carries all five rulings: أَطْعَمَهُم مِّن (3-16), مِّن جُوعٍ (3-23, still unnamed), جُوعٍ وَءَامَنَهُم (3-20), مِّنْ خَوْفٍۭ (3-19), and خَوْفٍۭ → بِسْمِ today. Eight words, five rulings, memorised. Say this out loud — it is the moment the chapter starts to look finite.",
-      "Hifz: run Manzil CONSECUTIVELY today rather than sūrah by sūrah — that is the joins drill and Manzil in the same ten minutes. Sabqi: 111 whole, 112 whole, 110:1. New Sabaq an-Naṣr 110:2, the longest single ayah she has taken so far; budget extra repetitions. Two things to notice while she works: ٱلنَّاسَ, a doubled noon with two counts of nasal from 3-14, and أَفْوَاجًا, a tanwīn at an ayah end that behaves differently depending on whether she stops. Next session's Sabaq ends in تَوَّابًۢا — one of today's five signs. Tell her that now."
+      "Open with a line she has known by heart for weeks: وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ. She learned it in 3-16 and has since spent five sessions holding two-count nasals on almost everything. Listen to يَكُن لَّهُۥ. There will be a hum in it.",
+      "Say it plainly: this merge has NO nasal. None. Not a short one — none at all. Say the phrase correctly beside her wrong version: wa-lam yakul-lahū. Then warn her she will import a nasal here out of habit for about two weeks, so that when it happens she recognises it rather than getting discouraged.",
+      "Frame today as a SUBTRACTION from last week, not as a new rule. Same operation, nasal removed. Point at 3-20's map: six, four, two, one, fifteen — today is the two, third box filled.",
+      "Give the distance reason and do not skip it. ل and ر are the tongue's two closest neighbours to the noon; all three are at the gum ridge with the tip of the tongue. The makhārij are so close that the merge is total, leaving no residual position for a nasal to sound from. Giving the reason is what stops her filing this as an arbitrary exception.",
+      "Say 'always kāmil' and mean it. No incomplete variant, no scholarly disagreement anywhere. After 3-21's kāmil/nāqiṣ split and 3-16's minority view, she deserves to be told when something is simply settled.",
+      "The word boundary is the same condition with one fewer thing to memorise: نْ + ل and نْ + ر do not arise inside a single Qurʾānic word, so there is no in-word exception to learn. Say so; it is a relief and she has earned one.",
+      "Duration: zero counts of nasal, ordinary shadda hold from 2-05. Do NOT let her fold two fingers 'for the ghunnah' — the gesture will keep the nasal alive.",
+      "Both ل examples are in her memory, which is unusual for this chapter: 112:4 (written noon) and 107:4 (tanwīn). One of each, one sūrah apart. Teach the entire ل half from these two and open no reference until you reach ر.",
+      "On 112:4 — fix it in the HIFZ, not only in the drill. She has recited that ayah dozens of times with a nasal in it. Have her recite al-Ikhlāṣ whole, three times, immediately after the correction, or the drill version becomes correct and the memorised version stays wrong. This is a real failure mode and it is worth three minutes.",
+      "On 107:4 — it is easy to misread as 'the ل is doubled because of the article'. Cover فَوَيْلٌ and the shaddah has no explanation; uncover it and it does.",
+      "For ر there is no in-set example. Use مِّن رَّبِّهِمْ (2:5) and say the reference label. مِّن لَّدُنْهُ (18:2) is worth ten seconds even as a reference: the first noon merges with no nasal, the second — four letters later — is a throat iẓhār. Two noon rules, one word apart, decided letter by letter.",
+      "Colour, with an honest warning: #169200 today against #169777 last week. At small type sizes they are almost indistinguishable, and a reader who cannot separate the hues cannot tell 'hold two counts' from 'hold none'. Teach it on the letter, not the hue, and say the hazard out loud rather than hiding it.",
+      "Give the rāʾ the last block. The merged ر still takes the 3-10 rules. In مِّن رَّبِّهِمْ the rāʾ has a fatḥa and is heavy; students concentrating on deleting the nasal routinely produce a thin, apologetic rāʾ because all their attention is upstream. Make her name heavy or light BEFORE reading.",
+      "Hifz: Manzil, Sabqi (al-Masad 111 now complete, five ayat unaided; al-Ikhlāṣ 112 if not yet promoted). When she reaches 112:4, listen for the hum — that is where the correction has to actually take. Then the new Sabaq an-Naṣr 110:1: a change of texture after al-Masad's short hard lines, so expect the first day to be slower than she anticipates. Nothing in it is today's rule — نَصْرُ has a vowelled noon — and she should confirm that herself. Being able to look at a line and say 'no noon rule here' is the skill."
     ],
     "listenFor": [
       {
-        "item": "Lips barely touching through أَنۢبِئْهُم and the sūrah joins — closed enough to stop the mouth, not enough to feel tension.",
-        "makhraj": "Both lips, light contact, with the nasal running behind them for two counts. The tongue never takes the noon's gum-ridge position at all.",
-        "commonMistake": "Pressing the lips fully shut, producing a clear, fully-formed meem — am-baʾ.",
-        "whyItHappens": "Every language she speaks presses its m. It is 3-15's priority error returning under a new rule name.",
-        "correctionCue": "Fingertip on the lips. 'Less. Again. Less.' Adjust by feel; do not explain.",
+        "item": "A completely silent nose through يَكُن لَّهُۥ and فَوَيْلٌ لِّلْمُصَلِّينَ — pinching changes nothing.",
+        "makhraj": "Tip of the tongue on the gum ridge for the doubled ل or ر. The noon's own position is never taken at all: the merge is total, which is why there is nowhere for a nasal to sound from.",
+        "commonMistake": "A hum before the لّ or رّ, carried over from يَنْمُو.",
+        "whyItHappens": "The most recently practised instruction wins under load. She spent last week being trained to hum on every merge. This is a scheduling artefact, and the priority error of the lesson by a wide margin.",
+        "correctionCue": "Pinch and repeat. The pinch is the fastest correction available and she can run it alone at home.",
         "severityIfWrong": "jali",
-        "source": "library/02-Rules/Iqlab.md"
+        "source": "library/02-Rules/Idgham-Bila-Ghunnah.md"
       },
       {
-        "item": "A full two-count nasal behind the lips before the ب is released.",
-        "commonMistake": "Releasing straight into the ب with no hold at all — ambaʾ.",
-        "whyItHappens": "The posture is the interesting new part and the timing gets dropped. The same pattern as every rule in this chapter.",
-        "correctionCue": "Fingers, two folds. The ب does not open until the second finger lands. Do not let her run at speed until day three.",
-        "severityIfWrong": "jali",
-        "source": "library/02-Rules/Ghunnah.md"
-      },
-      {
-        "item": "No trace of the original noon — no n before the ب.",
-        "commonMistake": "Pronouncing the written noon: an-baʾ.",
-        "whyItHappens": "The noon is written on the page and the small meem is small. Unit 2 trained her to say what is written.",
-        "correctionCue": "'The letter on the page is not the letter in your mouth. The mark above it is the letter in your mouth.'",
-        "severityIfWrong": "jali",
-        "source": "library/02-Rules/Iqlab.md"
-      },
-      {
-        "item": "The small standing meem treated as an instruction — one sound produced, not two.",
-        "commonMistake": "Reading it as a written letter: an-m-baʾ, with both a noon and a meem audible.",
-        "whyItHappens": "It looks like a letter and it is printed at letter height.",
-        "correctionCue": "'It is an instruction, not a letter. It tells you what to do with the noon; it does not add anything to it.'",
-        "severityIfWrong": "jali",
-        "source": "library/02-Rules/Iqlab.md"
-      },
-      {
-        "item": "A plain aḥad when she stops at the end of al-Ikhlāṣ — no lip-nasal at a stop.",
-        "commonMistake": "Applying the rule at a stop because the mark is printed there.",
-        "whyItHappens": "She has bound the rule to the mark rather than to the sequence, and the page cannot know whether she will stop.",
-        "correctionCue": "Stop-or-continue, twice on the same word. 'No tanwīn, no rule. You dropped the tanwīn when you stopped.'",
+        "item": "A full shadda hold on the doubled ل or ر — the nasal gone, the length intact.",
+        "commonMistake": "Releasing the shadda after one count, so the phrase sounds hurried.",
+        "whyItHappens": "'No ghunnah' is heard as 'nothing to hold'.",
+        "correctionCue": "Say each phrase twice — released early, then held — and let her hear the difference. Then كُلُّ and رَبِّ from 2-05 to reconnect the timing to something she owns.",
         "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Iqlab.md"
+        "source": "library/02-Rules/Idgham-Bila-Ghunnah.md"
       },
       {
-        "item": "The right ANSWER when asked which rule this is — not the right sound.",
-        "commonMistake": "Confusing iqlāb with ikhfāʾ shafawī.",
-        "whyItHappens": "It is not a mistake of the ear; the ear is right. The two sounds are genuinely the same and only the page separates them.",
-        "correctionCue": "Ask which letter is WRITTEN. Noon or tanwīn is iqlāb; meem is ikhfāʾ shafawī. Look, do not listen.",
+        "item": "The noon inaudible as its own letter — mir-rabbihim, not min-rabbihim.",
+        "commonMistake": "Pronouncing the noon before merging it.",
+        "whyItHappens": "The noon is written, and Unit 2 trained her to say what is written. The same fault as in 3-21.",
+        "correctionCue": "Apart, then joined. Then delete the noon deliberately: 'say mir, then rabbihim, then join them.'",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Idgham-Bila-Ghunnah.md"
+      },
+      {
+        "item": "A full, thick rāʾ in مِّن رَّبِّهِمْ — the 3-10 rules still running two letters downstream.",
+        "commonMistake": "A thin, English-sounding r on a merged rāʾ that should be heavy.",
+        "whyItHappens": "All her attention is on suppressing the nasal, and the rāʾ rules fall out of memory two letters later.",
+        "correctionCue": "Make her name heavy or light BEFORE reading. Naming is what keeps a rule alive under load.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Ra-Tafkhim.md"
+      },
+      {
+        "item": "The right ANSWER when asked why the ل of لِّلْمُصَلِّينَ is doubled — a tanwīn went into it.",
+        "commonMistake": "Reading the doubled ل as the definite article.",
+        "whyItHappens": "She spent 3-13 on lām shamsiyyah, and a doubled ل at the start of a word has an obvious story attached to it.",
+        "correctionCue": "Cover the preceding word. If the shaddah has no explanation without it, the shaddah came from the merge. Listen for the naming, not the sound.",
         "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Ikhfa-Shafawi.md"
+        "source": "library/02-Rules/Lam-Shamsiyyah.md"
+      },
+      {
+        "item": "The rule applied to a tanwīn with no noon on the page — فَوَيْلٌ لِّلْمُصَلِّينَ and هُدًى لِّلْمُتَّقِينَ.",
+        "commonMistake": "Reading the tanwīn phrase as two separate words with no merge.",
+        "whyItHappens": "There is no noon on the page.",
+        "correctionCue": "Same as 3-20: say the rule with the phrase 'or tanwīn' in it, out loud, every time.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Idgham-Bila-Ghunnah.md"
       }
     ],
-    "homework": "15–20 min/day, five days. Daily: one minute on the three postures with a fingertip on the lips; three minutes on the five sūrah joins, run consecutively through the basmalah, because that is where she actually uses the rule; two minutes on stop-or-continue with the outcome named out loud each time; two minutes on the fingers, two counts, over the three reference examples, then أَنۢبِئْهُم بِأَسْمَآئِهِمْ ten times naming both rules; two minutes on noon-or-meem, answered from the page and not by ear. Once, on day two: open any page of the muṣḥaf and find three small standing meems, saying for each what is written underneath and what is coming next — the answer is always a noon or a tanwīn, and a ب. Hifz: Manzil run consecutively through the basmalah, Sabqi (111 whole + 112 whole + 110:1), then the new Sabaq an-Naṣr 110:2, the longest single ayah she has taken so far. She brings to the next session al-Fīl recited straight into Quraysh without stopping, telling me where the iqlāb is before she starts."
+    "homework": "15–20 min/day, five days. Daily: three minutes assembling apart then joined, then pinching — the pinch every single day, because it is the self-correction tool for this rule; three minutes of hum-or-no-hum said out loud before each phrase, then with the rows shuffled so the layout stops helping; two minutes on the six merging letters called at random, which has to be automatic before 3-26; two minutes on the rāʾ rules applied to a merged rāʾ, heavy or light named before reading; two minutes on the hold, both ways; three minutes of al-Ikhlāṣ and al-Māʿūn from memory, listening for the two instances inside the recitation rather than in the drill. Hifz: Manzil, Sabqi (al-Masad 111 whole and al-Ikhlāṣ 112, with the hum on 112:4 as the thing to catch), then the new Sabaq an-Naṣr 110:1. She brings al-Ikhlāṣ to the next session, recited from memory, with 112:4 clean."
   },
   "videos": [],
   "games": [
     "rule-identifier",
-    "ghunnah-timer"
+    "family-sorter"
   ]
 }

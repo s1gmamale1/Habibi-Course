@@ -3,39 +3,243 @@
   "phase": 3,
   "draft": true,
   "unit": "3.1",
-  "title": "ض against ظ — the pair Ibn al-Jazarī gave its own chapter",
+  "title": "Tafkhīm & tarqīq — and the alif that has no ruling of its own",
   "stage": "Ḥaqq al-Ḥarf",
   "objectives": [
-    "Student can produce ض from the SIDE-EDGE of the tongue against the upper molars, held and dragged forward, and can prove it with the cheek test.",
-    "Student can produce ظ from the TIP of the tongue on the lower edges of the upper incisors, visibly protruding, held and heavy.",
-    "Student can say what separates the two — nothing but the makhraj and istiṭālah — and can hear the difference in a blind pair test.",
-    "Student can read ٱلضَّآلِّينَ with a correct ض and say what the word becomes if the ض slips to a ظ."
+    "Student can define tafkhīm and tarqīq and say which ṣifah each one is the audible result of.",
+    "Student can run one heavy letter through the five levels and hear the difference between the top and the bottom of the scale.",
+    "Student can state and apply the alif rule — الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا — and produce قَالَ / كَانَ as an audibly different pair.",
+    "Student can keep the twenty-two light letters light beside a heavy neighbour, in both directions, without over-thinning them."
   ],
   "prerequisites": [
-    "3-03",
-    "3-06"
+    "3-03"
   ],
   "games": [
-    "listen-identify",
-    "family-sorter"
+    "family-sorter",
+    "listen-identify"
   ],
   "slides": [
     {
       "kind": "title",
-      "heading": "Lesson 3.7 — ض against ظ",
-      "arabicDecor": "بَابُ الضَّادِ وَالظَّاء"
+      "heading": "Lesson 3.6 — Tafkhīm and tarqīq, and the alif that has no ruling of its own",
+      "arabicDecor": "الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا"
     },
     {
       "kind": "concept",
-      "heading": "Only one of these is in the Qur'an",
+      "heading": "Same written alif, two different sounds",
       "body": [
-        "Write وَلَا ٱلضَّآلِّينَ on the board. Beside it write وَلَا ٱلظَّالِّينَ.",
-        "Only one of these is in the Qur'an. The second is not a variant, not a dialect, not a minor imprecision. It is a different word from a different root, and she has probably been saying it — or something between the two — since she started praying.",
-        "She met this in 1-14, whose own objective asked her to name what goes wrong when ٱلضَّآلِّينَ is read as ٱلظَّالِّينَ. Take her answer, then say the thing 1-14 could not yet say.",
-        "These two letters are IDENTICAL in every ṣifah you have learned. Both are voiced (jahr). Both flow (rakhāwah). Both are raised (istiʿlāʾ). Both are clamped (iṭbāq). There is nothing on the ṣifāt table that separates them.",
-        "What separates them is the MAKHRAJ — and one ṣifah you have not met.",
-        "Then the third possibility, which for a Persian, Urdu, Turkish or Uzbek speaker is the likeliest of all: neither ض nor ظ, but a plain z. Ask her to say ض, ظ, ذ and ز in a row. If any two of the four match, both are wrong.",
-        "Ibn al-Jazarī devoted an entire chapter of the Muqaddimah to keeping this pair apart — بَابُ الضَّادِ وَالظَّاء. If a ninth-century scholar thought native Arab reciters needed a chapter on it, expect to teach it explicitly rather than hoping it settles by itself."
+        "Two words. قَالَ — he said. كَانَ — he was. What is the difference?",
+        "She will say the first letter, and she is right: ق is heavy, ك is light, and she has had that since 1-14. Now the question that matters.",
+        "What about the alif in the middle? Is that the same sound in both words?",
+        "Almost every student says yes. It is written identically, it lasts the same two counts, and nobody has ever suggested otherwise. It is NOT the same sound. The alif of قَالَ is dark and back. The alif of كَانَ is bright and forward.",
+        "الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا — the alif follows what precedes it. The alif is not a heavy letter. It is not a light letter. It has no independent ruling at all, and simply extends the colour of whatever came before it.",
+        "This is the single highest-frequency error in the whole heaviness family. If only one thing survives today, make it this."
+      ],
+      "items": [
+        {
+          "arabic": "قَالَ",
+          "translit": "qāla",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "10:81 — reference example, outside your memorized surahs. A HEAVY alif, because ق is heavy. Dark and back, like the vowel of English 'law'."
+          }
+        },
+        {
+          "arabic": "كَانَ",
+          "translit": "kāna",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "110:3 — a LIGHT alif, because ك is light. Bright and forward. Say it straight after قَالَ, twice, exaggerated, until the difference is unmistakable."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two names, and the ṣifah behind each",
+      "body": [
+        "Tafkhīm (التَّفْخِيم, 'thickening') — the back of the tongue rises toward the soft palate, the mouth fills, and the letter comes out fat and rounded. The articulatory quality behind it is istiʿlāʾ, which you have had since 3-03. Istiʿlāʾ is the permanent attribute of the letter; tafkhīm is the audible result. Same thing, seen from the tongue and from the ear.",
+        "Tarqīq (التَّرْقِيق, 'thinning') — the sound comes out slim and forward, the back of the tongue stays LOW (istifāl), and the mouth does not round.",
+        "Then the sentence that makes tarqīq teachable at all: tarqīq is not a rule you apply. It is what happens when you don't do anything.",
+        "The question is never 'how do I make it light'. It is 'how do I stop leaking heaviness into it.'",
+        "Today does not teach heaviness — 1-14 taught it by ear a year ago, and 3-03 gave it its name and its count. Today turns a property into an instruction, adds the five degrees, and closes the alif gap that 1-14 left open."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Seven letters, and four things that switch",
+      "body": [
+        "Seven letters are ALWAYS heavy — خ ص ض غ ط ق ظ, خُصَّ ضَغْطٍ قِظْ. Never light, in any position, with any vowel. Everything else is light by default.",
+        "Then four standing exceptions, listed once now so you know the shape of what is coming.",
+        "ر — heavy or light depending on its vowel and the vowel before it. Lessons 3-10 and 3-11.",
+        "The ل of لفظ الجلالة — heavy after a fatḥa or a ḍamma. Lesson 3-12.",
+        "ا alif — heavy whenever the letter before it is heavy. TODAY.",
+        "The ghunnah of a concealed ن or م — heavy whenever the letter AFTER it is heavy. Unit 3.4.",
+        "Say the count out loud: two letters in the whole language switch — ر, and the ل of the Divine Name. The alif does not switch; it has no position of its own to switch from. Those two letters are the entirety of Unit 3.2, which starts in three sessions."
+      ],
+      "items": [
+        {
+          "arabic": "خُصَّ ضَغْطٍ قِظْ",
+          "translit": "khuṣṣa ḍaghṭin qiẓ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The seven from 3-03: خ ص ض غ ط ق ظ. If these are not automatic, stop and re-drill them before anything else today — everything below assumes them."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The performance, in three steps",
+      "body": [
+        "1. Say the letter LIGHT first — a plain English 's' — then raise the BACK of the tongue toward the roof of the mouth without moving the tip. The vowel colour darkens.",
+        "2. The mouth ROUNDS AND FILLS. Tafkhīm is felt as volume of space, not as loudness. Getting louder is not getting heavier, and you can prove it in four seconds: a quiet heavy ق, then a loud light ك.",
+        "3. DO NOT MOVE THE MAKHRAJ. The tongue tip stays exactly where the letter is articulated; only the rear rises. Sliding the tip backwards produces a different letter, not a heavier one.",
+        "That third step is the one that produces a real mispronunciation rather than a stylistic one. A ص whose tip has slid off the teeth is no longer a ص."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The five levels — marātib at-tafkhīm",
+      "body": [
+        "Every heavy letter is heavy, but not equally. From heaviest down:",
+        "Level 1 — fatḥa FOLLOWED BY AN ALIF: غَاسِقٍ (113:3).",
+        "Level 2 — fatḥa alone: خَلَقَ (113:2).",
+        "Level 3 — ḍamma: صُدُورِ (114:5).",
+        "Level 4 — sukūn: أَعْطَيْنَٰكَ (108:1).",
+        "Level 5 — kasra: ٱلصِّرَٰطَ (1:6). Still heavy, but the lightest heavy there is.",
+        "The point is not the ordering. The point is that قِيلَ and قَالَ must not sound equally thick. Flattening the five levels into one uniform 'heavy' is the polish error at this stage.",
+        "Name the disagreement once. Ibn al-Jazarī and most later works give FIVE levels in this order. Some works give four, merging sukūn into a neighbouring level; a number of Egyptian teachers swap levels 3 and 4, putting sukūn above ḍamma. The audible difference is slight. This course teaches five, in Ibn al-Jazarī's order, and names the alternative."
+      ],
+      "items": [
+        {
+          "arabic": "غَاسِقٍ",
+          "translit": "ghāsiq",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:3 — LEVEL 1, the fullest heaviness in the language. A heavy letter with a fatḥa and an alif, and the alif is doing all the audible work. She memorises this ayah in four sessions."
+          }
+        },
+        {
+          "arabic": "خَلَقَ",
+          "translit": "khalaq",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:2 — LEVEL 2, خ with a bare fatḥa. Two heavy letters with a light ل threaded between them."
+          }
+        },
+        {
+          "arabic": "صُدُورِ",
+          "translit": "ṣudūr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:5 — LEVEL 3, ص with a ḍamma. Get the ص right today. Leave the ر alone; it has its own lesson in three sessions."
+          }
+        },
+        {
+          "arabic": "أَعْطَيْنَٰكَ",
+          "translit": "aʿṭaynāka",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "108:1 — LEVEL 4, a sākin ط: heavy through the closure AND through the bounce."
+          }
+        },
+        {
+          "arabic": "ٱلصِّرَٰطَ",
+          "translit": "aṣ-ṣirāṭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:6 — LEVEL 5, ص with a kasra. Heavy at its lightest. Do not let the kasra flatten it into a س."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — the five levels, one letter",
+      "instructions": "Down the scale and back up, every day. One letter, five vowels. If levels 1 and 5 sound the same, the scale has flattened and the whole set has collapsed into a switch. Run it on ق, then on ص.",
+      "grid": [
+        [
+          {
+            "arabic": "قَالَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Level 1 — fatḥa plus alif. The thickest."
+            }
+          },
+          {
+            "arabic": "قَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Level 2 — bare fatḥa."
+            }
+          },
+          {
+            "arabic": "قُلْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Level 3 — ḍamma."
+            }
+          },
+          {
+            "arabic": "يَقْطَعُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Level 4 — sukūn on the ق."
+            }
+          },
+          {
+            "arabic": "قِيلَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Level 5 — kasra. The thinnest heavy. Say قَالَ straight after it and hear the two ends of the scale."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Level 1 on ص — fatḥa plus alif, and the alif inherits."
+            }
+          },
+          {
+            "arabic": "صُدُورِ",
+            "translit": "ṣudūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:5 — level 3, ḍamma."
+            }
+          },
+          {
+            "arabic": "وَٱلْعَصْرِ",
+            "translit": "wal-ʿaṣr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "103:1 — reference example, outside your memorized surahs. Level 4, sākin ص."
+            }
+          },
+          {
+            "arabic": "ٱلصِّرَٰطَ",
+            "translit": "aṣ-ṣirāṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:6 — level 5, kasra. Heavy at its lightest, and it must still be heavier than a س."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The alif — no ruling of its own, ever",
+      "body": [
+        "الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا — the alif follows what precedes it.",
+        "The alif is never listed among the heavy letters and never among the light ones. It carries no independent heaviness whatsoever. It prolongs whatever colour the preceding letter gave it, for two counts.",
+        "The reason, and it is worth saying rather than asserting: an alif has NO makhraj of contact at all. It comes from al-jawf, the empty space, shaped by nothing and stopped only by the breath running out. There is no tongue position to be high or low, so it holds the one the previous letter left behind.",
+        "Only the IMMEDIATELY preceding letter counts. In طَعَامِ the ط is two letters back and the alif is LIGHT.",
+        "Where the mistake comes from, said out loud so she stops trusting the book that gave it to her: many works state the light letters as twenty-one and list the alif among them. Where the sources disagree on the count, they agree on the practice — the alif takes the colour of what precedes it."
       ],
       "items": [
         {
@@ -43,195 +247,51 @@
           "translit": "aḍ-ḍāllīn",
           "audio": {
             "type": "teacher-voice",
-            "cue": "1:7 — the correct one. A doubled ض held on the SIDE of the tongue for two counts, then a heavy alif, then a light ل."
+            "cue": "1:7 — the alif inherits HEAVINESS from the ض. Hold the doubled ض on the side of the tongue, keep the alif dark, and only then bring the tip up for the ل."
           }
         },
         {
-          "arabic": "ضْ · ظْ · ذْ · زْ",
+          "arabic": "ٱلنَّاسِ",
+          "translit": "an-nās",
           "audio": {
             "type": "teacher-voice",
-            "cue": "Four voiced letters that must be four different sounds. Say them in a row. If any two match, both are wrong and this lesson is about building a contrast her first language does not contain."
+            "cue": "114:1 — the alif is LIGHT, because ن is light. The cleanest light alif in her memorisation set. Contrast it directly with غَاسِقٍ."
           }
         }
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Opposite ends of the same organ",
-      "body": [
-        "Show the two makhārij physically, before saying anything about sound. Lesson 3-01 already placed both on the tongue map, and the placement IS the answer.",
-        "ض — one or both SIDE-EDGES of the tongue, against the inside faces of the upper MOLARS. Tongue point 4. Not visible: it happens inside the cheek.",
-        "ظ — the TIP of the tongue, against the lower EDGES of the two upper incisors. Tongue point 10. Visible: the tip protrudes and you can see it.",
-        "Say it as one sentence and make her repeat it: ظ is the tip on the front teeth where I can see it; ض is the side against the back teeth where I cannot.",
-        "They are at opposite ends of the same organ. That is a very large difference dressed up as a small one."
-      ]
-    },
-    {
-      "kind": "letter",
-      "item": {
-        "arabic": "ظ",
-        "name": "ẓāʾ",
-        "audio": {
-          "type": "teacher-voice",
-          "cue": "Tip of your tongue out onto the edges of your top teeth — I should be able to see it. Now lift the back of your tongue and clamp it to the roof of your mouth, and let the sound flow out over the tip. Hold it: aẓẓẓẓ, three seconds, voiced the whole way."
-        }
-      },
-      "makhraj": "Tongue point 10 — the tip against the lower edges of the two upper incisors, protruding and visible. Shared exactly with ذ and ث.",
-      "notes": [
-        "Build ظ FIRST, because it is the easier of the two and it gives her a reference weight for ض.",
-        "ظ shares its makhraj with ذ and ث. All three are rakhāwah — the air flows past the tongue tip. They differ only in voice and weight.",
-        "ظ — voiced, and HEAVY: istiʿlāʾ plus iṭbāq.",
-        "ذ — voiced, light.",
-        "ث — breathed, light.",
-        "So ظ is ذ made heavy, exactly as ص is س made heavy. That is the fastest route in for a student who already has ذ.",
-        "ظ is rakhāwah, so a sākin ظ is SUSTAINED AND FADED, never bounced. حَفِظْ ends with a long heavy hiss, not a kick.",
-        "There is NO ظ anywhere in al-Fātiḥah or in surahs 105–114. That is a real fact about the text and it is worth telling her: she can finish this unit's memorisation without once producing a ظ. Which is exactly why it has to be drilled deliberately here — it will not come up on its own, and it will be waiting for her the first time she opens a longer surah."
-      ],
-      "examples": [
-        {
-          "arabic": "تَلَظَّىٰ",
-          "translit": "talaẓẓā",
-          "meaning": "blazing — 92:14, reference example, outside your memorized surahs",
-          "form": "medial"
-        },
-        {
-          "arabic": "ظَهْرَكَ",
-          "translit": "ẓahrak",
-          "meaning": "your back — 94:3, reference example, outside your memorized surahs",
-          "form": "initial"
-        },
-        {
-          "arabic": "ظَلَمُونَا",
-          "translit": "ẓalamūnā",
-          "meaning": "they wronged Us — 2:57, reference example; the root a wrong ظ destroys",
-          "form": "initial"
-        }
-      ]
-    },
-    {
-      "kind": "letter",
-      "item": {
-        "arabic": "ض",
-        "name": "ḍād",
-        "audio": {
-          "type": "teacher-voice",
-          "cue": "Push the side of your tongue out sideways into your back teeth — like you are pressing it into the gap. Hold it there, make the sound heavy, and slide it forward along your teeth before you let go. It is a stroke, not a touch."
-        }
-      },
-      "makhraj": "Tongue point 4 — one or both side-edges of the tongue against the inside faces of the opposing upper molars. The only makhraj in the language that uses the tongue's edge.",
-      "notes": [
-        "Give this letter the time it needs. Arabic calls itself لُغَةُ الضَّاد, 'the language of the ḍād', because no other language has this sound. Say that to her: it reframes the difficulty as expected rather than as her failing.",
-        "Four demands must be met AT THE SAME TIME. Makhraj — the side-edge against the upper molars. Iṭbāq — the tongue clamped flat against the palate. Rakhāwah — the sound flows and must be holdable, not stopped. Istiṭālah — the sound TRAVELS FORWARD along the tongue's edge while it flows.",
-        "Drop rakhāwah and istiṭālah and you get a heavy د — the commonest substitution worldwide and the default error for Turkic speakers.",
-        "Drop iṭbāq and you get a plain z.",
-        "Drop istiṭālah alone, keeping the clamp, and you get a ظ.",
-        "Three valid variants, and do NOT correct any of them. Left edge alone is easiest and is what most classical authorities describe as commonest. Right edge alone is correct and harder. Both edges at once is correct and hardest. If she has found the left, leave it.",
-        "ض is not made with the tip of the tongue. If the tip is doing the work, the letter is wrong however heavy it sounds."
-      ],
-      "examples": [
-        {
-          "arabic": "ٱلضَّآلِّينَ",
-          "translit": "aḍ-ḍāllīn",
-          "meaning": "those who went astray — 1:7; the highest-stakes ض in the Qur'an",
-          "form": "initial"
-        },
-        {
-          "arabic": "ٱلْمَغْضُوبِ",
-          "translit": "al-maghḍūb",
-          "meaning": "those who incurred wrath — 1:7; a sākin ض after a heavy غ",
-          "form": "medial"
-        },
-        {
-          "arabic": "تَضْلِيلٍ",
-          "translit": "taḍlīl",
-          "meaning": "nothing / astray — 105:2; sākin ض, then a LIGHT ل",
-          "form": "medial"
-        }
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Istiṭālah — the ṣifah that does the separating",
-      "body": [
-        "Istiṭālah (الاسْتِطالة, 'stretching out, extending in length') is the extension of the sound ALONG THE EDGE of the tongue, running from the rear molars forward.",
-        "The letter is not produced at a point. It is produced along a LINE, and the sound travels that line while it is being made.",
-        "Two things to say immediately, because both get misread. It is a SPATIAL elongation, not a durational one — it is not madd and it adds no counts. And it has NO OPPOSITE: it belongs to the ṣifāt without partners, alongside ghunnah, ṣafīr and inḥirāf.",
-        "Istiṭālah belongs to exactly ONE letter: ض. It is the sole thing separating ض from ظ, and therefore the sole reason the two are different letters.",
-        "Neither ض nor ظ can carry qalqalah, because both are rakhāwah and there is nothing blocked to bounce out of."
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "Two tests, and run both live",
-      "body": [
-        "THE DURATION TEST. Ask for a sustained sākin ض, three seconds. A correct ض continues; a substituted heavy د stops instantly. Do the same for ظ — it should hiss on and on. Any of these letters that dies in under two seconds has become a stop.",
-        "THE CHEEK TEST. Have her put a fingertip against her cheek, over the upper molars. During a correct ض she should FEEL the tongue pressing outward against the teeth from the inside. During a ظ she should feel nothing there at all, because the tongue is at the front of her mouth.",
-        "The second test is the one that settles arguments, because it does not rely on her ear — which is the ear that produced the error in the first place.",
-        "This is the general shape of every diagnostic in this unit: the palm test, the throat test, the cheek test, the duration test. Each gives an answer that does not depend on the ear that made the mistake."
       ]
     },
     {
       "kind": "drill",
-      "heading": "Drill 1 — build ظ from ذ, and Drill 2 — the four that must be four",
-      "instructions": "First: say each pair, and the ONLY change is the back of the tongue rising. If the two members sound the same, iṭbāq is missing from the second. Then the four voiced letters, hand on the throat throughout. Tongue tip visible on ذ and ظ; tongue tip nowhere near the front on ض. If any two match, both are wrong and both get ten extra repetitions.",
+      "heading": "Drill 2 — the alif pair",
+      "instructions": "The most important sixty seconds of the week. Ten alternations, every day, first. Then have someone say one at random with the board covered, and identify it by the ALIF alone — not by the first letter.",
       "grid": [
         [
           {
-            "arabic": "ذَا / ظَا",
+            "arabic": "قَالَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Tip stays. Back rises. That is the whole difference."
+              "cue": "10:81 — reference example. Heavy alif."
             }
           },
           {
-            "arabic": "ذِي / ظِي",
+            "arabic": "كَانَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Under a kasra the clamp wants to release. Do not let it."
+              "cue": "110:3 — light alif."
             }
           },
           {
-            "arabic": "ذُو / ظُو",
+            "arabic": "كَانَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Rounded lips on both. Only the back of the tongue differs."
+              "cue": "Reversed order, because the over-correction runs the other way. Light."
             }
           },
           {
-            "arabic": "أَذْ / أَظْ",
+            "arabic": "قَالَ",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Both sustained and faded. Neither bounces."
-            }
-          }
-        ],
-        [
-          {
-            "arabic": "ذْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Tip VISIBLE between the teeth. Voiced. LIGHT."
-            }
-          },
-          {
-            "arabic": "زْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Tip BEHIND the teeth, tongue point 9. Voiced. Light. It hisses."
-            }
-          },
-          {
-            "arabic": "ظْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Tip VISIBLE between the teeth. Voiced. HEAVY — the back is clamped."
-            }
-          },
-          {
-            "arabic": "ضْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Tip NOWHERE NEAR the front. Side-edge against the molars. Voiced, heavy, and it travels forward."
+              "cue": "Heavy. Same written alif, four times, two colours."
             }
           }
         ]
@@ -239,168 +299,104 @@
     },
     {
       "kind": "drill",
-      "heading": "Drill 3 — the duration test, and Drill 4 — the cheek test",
-      "instructions": "Three seconds each, on a clock. Any one that dies before two seconds has become a stop, and gets ten extra repetitions alone. Then the cheek test: fingertip on the cheek over the upper molars, five alternations. This is the drill that does not depend on your ear.",
+      "heading": "Drill 3 — alifs in context",
+      "instructions": "Say which way the alif leans — heavy or light — BEFORE you read the word. Calling it first is what stops her deciding from habit.",
       "grid": [
         [
           {
-            "arabic": "ضْ",
+            "arabic": "غَاسِقٍ",
+            "translit": "ghāsiq",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Three seconds. If it stops dead, the tip took over and you made a heavy د."
+              "cue": "113:3 — HEAVY. The غ is heavy, so the alif is."
             }
           },
-          {
-            "arabic": "ظْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Three seconds. It should hiss on and on."
-            }
-          },
-          {
-            "arabic": "صْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Three seconds. The control: she already knows this one flows."
-            }
-          },
-          {
-            "arabic": "ذْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Three seconds, and LIGHT throughout. The control at the other end."
-            }
-          }
-        ],
-        [
-          {
-            "arabic": "ضْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "CHEEK TEST — you should feel the tongue pressing outward from inside, against the upper molars."
-            }
-          },
-          {
-            "arabic": "ظْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "CHEEK TEST — you should feel nothing there at all. The tongue is at the front of your mouth."
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "ط pops, ظ lasts — scaffolding she already owns",
-      "body": [
-        "Lesson 1-14 taught her: ط bounces on a sukūn; ظ is held. Restate it now with the reason attached.",
-        "ط has SHIDDAH — the air is completely stopped, so a sākin ط must pop out. That pop is qalqalah, from 3-04. قَطْ ends with a kick.",
-        "ظ has RAKHĀWAH — the air never stops, so a sākin ظ is simply sustained and faded. حَفِظْ ends with a long heavy hiss.",
-        "Say them back to back for her: aṭ — aẓẓẓẓ. One pops, the other lasts.",
-        "ض behaves like ظ here, not like ط. Neither ض nor ظ can carry qalqalah, because both are rakhāwah, and there is nothing blocked to bounce out of."
-      ],
-      "items": [
-        {
-          "arabic": "طَعَامِ",
-          "translit": "ṭaʿām",
-          "audio": {
-            "type": "teacher-voice",
-            "cue": "107:3 — the contrast letter. ط blocks; ظ and ض never do. And from last lesson: heavy ط, then three light letters. Do not let it bleed."
-          }
-        }
-      ]
-    },
-    {
-      "kind": "drill",
-      "heading": "Drill 5 — hold versus pop, and Drill 6 — ض against its three substitutes",
-      "instructions": "First: two bounces and two holds, alternating, in this exact order. Then say each substitution pair four times — the correct one, then the wrong one, named out loud. Naming the error aloud is what makes it audible when it happens by accident. Finish by saying ضَا alone and checking all four demands: side, clamp, flow, drag.",
-      "grid": [
-        [
-          {
-            "arabic": "أَطْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "POPS. Shiddah — the air was completely blocked, so it has to escape."
-            }
-          },
-          {
-            "arabic": "أَظْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "LASTS. Rakhāwah — sustained and faded, never a kick."
-            }
-          },
-          {
-            "arabic": "أَضْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "LASTS. Same reason. And it travels forward while it lasts."
-            }
-          },
-          {
-            "arabic": "أَدْ",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "POPS. Light, but blocked and voiced, so it bounces."
-            }
-          }
-        ],
-        [
-          {
-            "arabic": "ضَا / دَا",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "The heavy-د substitution. The tip took over, so rakhāwah and istiṭālah are both gone. The commonest error worldwide."
-            }
-          },
-          {
-            "arabic": "ضَا / ظَا",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "The tip slipped forward to the incisors. Every ṣifah is right and only the address is wrong, which is what makes it dangerous."
-            }
-          },
-          {
-            "arabic": "ضَا / زَا",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Iṭbāq lost entirely. This is the Persian, Urdu, Turkish and Uzbek default."
-            }
-          },
-          {
-            "arabic": "ضَا",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "Alone. Check all four: SIDE, CLAMP, FLOW, DRAG. Then hold it for three seconds."
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "kind": "concept",
-      "heading": "The stakes, once and plainly",
-      "body": [
-        "Confusing ض with ظ or د CHANGES THE MEANING in the Qur'an. It is not a matter of polish. It falls in the category of laḥn jalī — the plain, obvious error — rather than the hidden one.",
-        "ظَلَمَ with a devoiced or de-heavied ظ becomes a different root entirely.",
-        "Two practical notes to hand her. The ظ words are a CLOSED SET — roughly a few dozen roots in the whole Qur'an use ظ, and some teachers give students the list. It is a legitimate crutch for READING, but it does not fix the SOUND. Drill the makhraj as well.",
-        "And: ض and ظ do not merge into each other. A sākin ذ does merge into a following ظ (إِذ ظَّلَمُوٓا۟, 4:64), and that is the one place these front-teeth letters legitimately become one. It belongs to Unit 3.5; mention it only if she asks.",
-        "Say the language fact out loud, because it changes how she works: in Persian and Urdu all four of ذ ز ض ظ are genuinely pronounced identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. She is not being careless. Her language has no distinction here at all, and the contrast has to be BUILT from nothing rather than corrected. A student who thinks she is being sloppy stops trying."
-      ]
-    },
-    {
-      "kind": "drill",
-      "heading": "Drill 7 — the words",
-      "instructions": "Slowly first, then at pace. The first three are in her memorisation set; the last three are reference examples she needs only to recognise. Check the cheek on every ض.",
-      "grid": [
-        [
           {
             "arabic": "ٱلضَّآلِّينَ",
             "translit": "aḍ-ḍāllīn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "1:7 — doubled ض, held two counts on the tongue's edge, heavy alif after it, then a LIGHT doubled ل."
+              "cue": "1:7 — HEAVY, inherited from the ض."
+            }
+          },
+          {
+            "arabic": "ٱلنَّاسِ",
+            "translit": "an-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:1 — LIGHT. The ن is light."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَانَ",
+            "translit": "kāna",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:3 — LIGHT."
+            }
+          },
+          {
+            "arabic": "طَعَامِ",
+            "translit": "ṭaʿām",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "107:3 — LIGHT, and this is the item that catches her. The ط is TWO letters back. Only the immediately preceding letter counts, and that is the ع."
+            }
+          },
+          {
+            "arabic": "مَالُهُۥ",
+            "translit": "māluhū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:2 — LIGHT. Nothing heavy anywhere near it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Contamination — the mirror error, and it arrives ten minutes later",
+      "body": [
+        "Nobody heavies a ك or a ت by accident. These are the letters a heavy neighbour bleeds into: ا · ب · ل · م · ن · ه · ء.",
+        "The mechanism has a name and she should have it: INERTIA. The tongue is still up from the previous heavy letter when the light letter arrives. She is not mispronouncing the heavy letter — she is failing to switch back.",
+        "طَعَامِ (107:3) — ط heavy, then ع, ا and م all light. Most students darken all four.",
+        "ٱلْمَغْضُوبِ (1:7) — heavy غ and heavy ض with light م, و and ب threaded between them.",
+        "ٱلصِّرَٰطَ (1:6) — a light ر between two heavy letters, which is the hardest shape in the set. Do not fix the ر today. Just notice it; lesson 3-10 owns it.",
+        "And the standing rule for the whole rest of the course: EVERY ل outside the Divine Name is light, always. Say it now, because lesson 3-12 depends on it and lesson 3-13 depends on that.",
+        "Heavy fills the letter and stops at its edge."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — the drop",
+      "instructions": "Heavy, then immediately light, with a deliberate gap that you then close. Say the syllables apart first, then join them at speed. The drop has to be conscious before it can be automatic.",
+      "grid": [
+        [
+          {
+            "arabic": "طَـ ‑ عَـ ‑ ا ‑ مِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Broken apart. Heavy ط, then let the tongue COME DOWN before the ع. Feel the drop happen."
+            }
+          },
+          {
+            "arabic": "طَعَامِ",
+            "translit": "ṭaʿām",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "107:3 — joined. One heavy letter, three light ones. If the alif is dark, the tongue never came down."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْـ ‑ مَـ ‑ غْـ ‑ ضُـ ‑ و ‑ بِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Broken apart. Light ل, light م, heavy غ, heavy ض, then light و and light ب. Up, up, down, down."
             }
           },
           {
@@ -408,41 +404,15 @@
             "translit": "al-maghḍūb",
             "audio": {
               "type": "teacher-voice",
-              "cue": "1:7 — a sākin ض after a heavy غ, then light م, و and ب. Two heavy letters in a row, then the drop."
+              "cue": "1:7 — joined. Both degrees of heaviness in sequence with light letters threaded between them."
             }
           },
           {
-            "arabic": "تَضْلِيلٍ",
-            "translit": "taḍlīl",
+            "arabic": "أَعْطَيْنَٰكَ",
+            "translit": "aʿṭaynāka",
             "audio": {
               "type": "teacher-voice",
-              "cue": "105:2 — the trap in miniature. The ض ends by dragging forward; the ل needs the tip up at the front. If the tip arrives early, the ض turns into a ظ on its way out. Hold, finish the drag, THEN move."
-            }
-          }
-        ],
-        [
-          {
-            "arabic": "تَلَظَّىٰ",
-            "translit": "talaẓẓā",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "92:14 — reference example, outside your memorized surahs. A doubled ظ, held, tongue tip visible for both counts."
-            }
-          },
-          {
-            "arabic": "ظَهْرَكَ",
-            "translit": "ẓahrak",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "94:3 — reference example, outside your memorized surahs. ظ at the head of a word, where there is nothing before it to hide behind."
-            }
-          },
-          {
-            "arabic": "ظَلَمُونَا",
-            "translit": "ẓalamūnā",
-            "audio": {
-              "type": "teacher-voice",
-              "cue": "2:57 — reference example, outside your memorized surahs. The root that a wrong ظ destroys."
+              "cue": "108:1 — a heavy sākin ط, then a LIGHT yāʾ immediately. Bounce heavy, land light."
             }
           }
         ]
@@ -450,15 +420,107 @@
     },
     {
       "kind": "drill",
-      "heading": "Drill 8 — the word that matters, in pieces, and Drill 9 — blind pairs",
-      "instructions": "Take ٱلضَّآلِّينَ apart. Two counts on the SIDE of the tongue, heavy alif, and only THEN the ل. Ten repetitions, and ten more after any error, as its own step with its own tick-box. Then blind pairs: have someone say one at random with the text covered and identify which you heard. If you cannot tell them apart when someone else says them, you cannot yet reliably make them.",
+      "heading": "Drill 5 — the reset, and Drill 6 — quiet and heavy",
+      "instructions": "After every round of Drill 4, one word with nothing heavy in it at all. ALWAYS end a heaviness drill on a light word — the skill is the switch, not the weight. Then four seconds on the volume confusion: قْ as quietly as you can, still heavy; كْ as loudly as you can, still light.",
       "grid": [
         [
           {
-            "arabic": "ٱض ‑ ضَـ ‑ آ ‑ لِّـ ‑ ينَ",
+            "arabic": "ٱلْحَمْدُ",
+            "translit": "al-ḥamdu",
             "audio": {
               "type": "teacher-voice",
-              "cue": "1:7, in pieces. It is the highest-stakes instance in the Qur'an: recited many times a day, carrying a shadda that exposes the letter for a full two-count hold, and sitting immediately beside a ل, which invites the tongue to slide forward too early — straight into ظ territory."
+              "cue": "1:2 — the reset word. Nothing heavy, nothing bounced. Three zones and no weight anywhere."
+            }
+          },
+          {
+            "arabic": "بِرَبِّ ٱلنَّاسِ",
+            "translit": "bi-rabbi-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:1 — all light, and a light alif. Leave the ر alone for now; it is heavy for its own reasons in three sessions."
+            }
+          },
+          {
+            "arabic": "ٱلْبَيْتِ",
+            "translit": "al-bayt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:3 — all light, and a līn yāʾ with no length."
+            }
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "translit": "anʿamta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — the all-light reset inside the hardest āyah she has. Squeezed ع, clean final ت."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "As QUIETLY as you can, and keep it heavy. It is possible."
+            }
+          },
+          {
+            "arabic": "كْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "As LOUDLY as you can, and keep it light. Also possible. Therefore heavy and loud are not the same property. Four seconds, and it does not need explaining."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — every ل is light",
+      "instructions": "Eight words with a lām next to something heavy. Every lām stays clear and forward — the /l/ of 'leaf', never the dark /ɫ/ of 'feel'. If any of them goes velar, say the two English words out loud and try again.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — two light lāms, and a heavy ق that must not reach back to either of them."
+            }
+          },
+          {
+            "arabic": "ٱلصِّرَٰطَ",
+            "translit": "aṣ-ṣirāṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:6 — the ل is merged here, so what you are guarding is the ص and the ط not darkening the ر between them."
+            }
+          },
+          {
+            "arabic": "مَطْلَعِ",
+            "translit": "maṭlaʿ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "97:5 — reference example, outside your memorized surahs. A heavy ط with a LIGHT ل immediately after it. The hardest one in the set."
+            }
+          },
+          {
+            "arabic": "ٱلْقَارِعَةُ",
+            "translit": "al-qāriʿah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "101:1 — reference example, outside your memorized surahs. Heavy ق, light ل, and a heavy alif after the ق."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "تَضْلِيلٍ",
+            "translit": "taḍlīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:2 — clamped ض, then TWO light lāms. The drag of the ض must finish before the first ل starts."
             }
           },
           {
@@ -466,34 +528,106 @@
             "translit": "aḍ-ḍāllīn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "1:7, joined, slowly, three times. Cheek test on the doubled ض before you speed up."
+              "cue": "1:7 — heavy ض, heavy alif, and then a doubled ل that is LIGHT for both counts."
+            }
+          },
+          {
+            "arabic": "ٱلْقَدْرِ",
+            "translit": "al-qadr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "97:1 — reference example, outside your memorized surahs. Light ل before a heavy ق."
+            }
+          },
+          {
+            "arabic": "ٱلْفِيلِ",
+            "translit": "al-fīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:1 — two light lāms and nothing heavy in the word. The reset for this drill."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 8 — level-tagging, cold",
+      "instructions": "Call the level NUMBER out loud before you read the word. If she reads first and labels afterwards, she is labelling the sound she just made rather than the sound the word asks for.",
+      "grid": [
+        [
+          {
+            "arabic": "صُدُورِ",
+            "translit": "ṣudūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:5 — level 3, ḍamma."
+            }
+          },
+          {
+            "arabic": "خَلَقَ",
+            "translit": "khalaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — level 2, bare fatḥa. Twice over: خ and ق."
+            }
+          },
+          {
+            "arabic": "ٱلصِّرَٰطَ",
+            "translit": "aṣ-ṣirāṭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:6 — level 5 on the ص, kasra."
             }
           }
         ],
         [
           {
-            "arabic": "ضَا / ظَا",
+            "arabic": "أَعْطَيْنَٰكَ",
+            "translit": "aʿṭaynāka",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Blind pair. Which did you hear?"
+              "cue": "108:1 — level 4, sukūn."
             }
           },
           {
-            "arabic": "ضِي / ظِي",
+            "arabic": "غَاسِقٍ",
+            "translit": "ghāsiq",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Blind pair under a kasra, where the clamp is hardest to keep."
+              "cue": "113:3 — level 1, fatḥa plus alif."
             }
           },
           {
-            "arabic": "ضُو / ظُو",
+            "arabic": "وَٱلْعَصْرِ",
+            "translit": "wal-ʿaṣr",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Blind pair under a ḍamma. If nobody will help, record them in a random order and test yourself two days later."
+              "cue": "103:1 — reference example, outside your memorized surahs. Level 4, sākin ص."
             }
           }
         ]
       ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Over-lightening — end the session here, because it is what you will hear next week",
+      "body": [
+        "A student freshly drilled on tarqīq thins everything into a bright, nasal, English-sounding register — and eventually thins ص back toward س.",
+        "LIGHT IS NOT THIN. The light letters are not being done to. They are simply normal. That is the whole point of tarqīq.",
+        "Name it as a drill artefact when it appears, because it will appear within one session of the contamination fix, and a student who thinks it is a new failure loses the ground she just gained.",
+        "One honest note about the app, worth thirty seconds. Tafkhīm and tarqīq are NOT colour-coded in the mushaf highlighting she will see. The annotation dataset covers eighteen rules and heaviness is not one of them. This family has to be heard and reasoned, never looked up. That is why it gets drills and a mnemonic rather than a colour."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 113,
+      "ayah": 3,
+      "translation": "and from the evil of darkness when it settles,",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "غَاسِقٍ is the best level-1 example she has, and it is inside a surah she memorises in four sessions. غَا — a heavy letter with a fatḥa and an alif, the fullest heaviness in the language, and the alif is doing all the audible work. Contrast it directly with the alif of ٱلنَّاسِ."
+      }
     },
     {
       "kind": "ayah",
@@ -502,106 +636,107 @@
       "translation": "the path of those You have blessed — not those who incurred wrath, nor those who went astray.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "Both of today's ض's live here. ٱلْمَغْضُوبِ has a sākin ض squeezed between a heavy غ and three light letters. ٱلضَّآلِّينَ has a doubled ض held for two full counts on the side of the tongue, with the alif inheriting its heaviness and the doubled ل staying light. Take it in pieces before you take it whole."
+        "cue": "The whole lesson in one āyah. أَنْعَمْتَ is the all-light reset. ٱلْمَغْضُوبِ is both degrees of heaviness with light letters threaded between them. ٱلضَّآلِّينَ is a heavy ض with an alif that inherits from it and a doubled ل that stays light through both counts."
       }
     },
     {
       "kind": "ayah",
-      "surah": 105,
-      "ayah": 2,
-      "translation": "Did He not bring their plan to nothing?",
+      "surah": 107,
+      "ayah": 3,
+      "translation": "and does not urge the feeding of the poor.",
       "audio": {
         "type": "teacher-voice",
-        "cue": "تَضْلِيلٍ — the ض → ل sequence, which is the whole trap in one word. Hold the ض on the side, let the sound finish travelling forward, and only then bring the tip up for the ل. Also here: the light ج bounce of يَجْعَلْ from 3-04, which does not change today."
+        "cue": "طَعَامِ — the switch, in four letters. Heavy ط, then ع, ا and م all light. Most students darken all four. The heavy letter is correct; what fails is the switch back. Break it into syllables with a gap, then close the gap."
       }
     },
     {
       "kind": "mistake",
-      "heading": "Eight ways the pair collapses",
+      "heading": "Eight ways heaviness goes wrong",
       "mistakes": [
         {
-          "wrong": "ض arriving as a heavy د — a ض that stops instead of flowing.",
-          "why": "The tongue tip takes over, because every other tongue letter she knows uses the tip, back or middle. The side-edge is a movement her mouth has never been asked to make. This is the commonest error worldwide and the default for Turkic speakers.",
-          "fix": "Not the tip — the SIDE. Push the side of your tongue into your back molars, keep the sound running, and drag it forward. Hold it. Hold it. Now release. The duration test settles it: ask for three seconds and a tip-made ض dies at once."
+          "wrong": "A uniformly LIGHT alif — 'alif is a light letter'. قَالَ and ٱلضَّآلِّينَ read with a thin, forward alif.",
+          "why": "Many books list the alif among the twenty-one light letters, and it is the intuitive reading of 'everything outside the seven is light'. This is the flagship error of the whole family.",
+          "fix": "الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا. What came before it? Then قَالَ / كَانَ back to back, ten times."
         },
         {
-          "wrong": "ض arriving as ظ — a heavy, voiced, flowing letter made at the FRONT teeth.",
-          "why": "The tongue tip slides forward to the incisors, which is the makhraj of ظ. In تَضْلِيلٍ and ٱلضَّآلِّينَ the following ل pulls it there. It sounds plausible, which is what makes it dangerous — every ṣifah is right and only the address is wrong.",
-          "fix": "Cheek test, immediately. Can you feel your tongue against your back teeth? No? Then that was a ظ."
+          "wrong": "A uniformly HEAVY alif — the over-correction. كَانَ, مَالُهُۥ and ٱلنَّاسِ read with a dark alif.",
+          "why": "She has learned that the alif CAN be heavy and has applied it as a property rather than as an inheritance. Expect this within one session of fixing the first error.",
+          "fix": "It follows. It does not decide. Same pair, reversed order."
         },
         {
-          "wrong": "ظ arriving as ذ — the tip is in the right place but the back of the tongue never rises.",
-          "why": "It is the mirror of ص → س: the makhraj is easy, the heaviness is the work, and the heaviness is what gets dropped under reading load.",
-          "fix": "Tip stays. Back rises. ذَا — ظَا. Drill 1."
+          "wrong": "Contamination from a heavy neighbour — the ع, ا and م of طَعَامِ arriving dark.",
+          "why": "Inertia. The tongue has not come down yet. She is not mispronouncing the heavy letter; she is failing to switch back.",
+          "fix": "Heavy fills the letter and stops at its edge. Drill 4 slowly, with the gap, then close it."
         },
         {
-          "wrong": "Any two of ذ, ز, ظ, ض collapsing into one plain 'z'.",
-          "why": "In Persian and Urdu all four are genuinely pronounced identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. She is NOT being careless — her language has no distinction here at all.",
-          "fix": "Build them one at a time from the makhraj, never by imitation. 'Where is your tongue tip? Show me.' And say the language fact out loud: a student who thinks she is being sloppy stops trying."
+          "wrong": "Confusing heavy with loud — volume tracking heaviness across a whole line.",
+          "why": "'Heavy' is a metaphor and loudness is the nearest available reading of it in English.",
+          "fix": "Drill 6. A quiet heavy ق, then a loud light ك. It settles the question in four seconds and does not need explaining."
         },
         {
-          "wrong": "A short, clipped ض with no travel — over instantly, even though the tip is not involved.",
-          "why": "She has found the side-edge and thinks the job is done. Nothing told her the sound has to MOVE.",
-          "fix": "It is a stroke, not a touch. Slide it forward along your teeth before you let go."
+          "wrong": "Dragging the makhraj back to 'deepen' a letter — a ص whose tip has slid off the teeth.",
+          "why": "She is trying to add depth with the only movement available to her.",
+          "fix": "The tip does not move. Only the back rises. Hold a finger where the tip should stay. This one is a real mispronunciation, not a stylistic fault."
         },
         {
-          "wrong": "Losing the heaviness of ض under a kasra — a ضِ that flattens.",
-          "why": "The kasra pulls the front of the tongue up and forward and the clamp releases. Same trap as ص in 3-03.",
-          "fix": "Heavy under every vowel. Say ضَ, then ضِ, and do not let the back of your tongue drop between them."
+          "wrong": "Flattening the five levels — قِيلَ and قَالَ equally thick.",
+          "why": "She has learned 'always heavy' and applied it as a switch. It is a scale.",
+          "fix": "Drill 1, down and back up, then ask her which end of the scale she is at."
         },
         {
-          "wrong": "Bouncing a sākin ظ or ض — a kick at the end of أَظْ or أَضْ.",
-          "why": "ط is the nearest heavy letter she knows and it does bounce. Generalisation from 3-04.",
-          "fix": "Can you hold it? Then it is not blocked, so there is nothing to bounce. Drill 5: aṭ pops, aẓẓẓẓ lasts."
+          "wrong": "Over-thinning after a tarqīq drill — the whole recitation getting bright and nasal, and ص drifting toward س.",
+          "why": "Over-correction, always following a successful contamination fix.",
+          "fix": "Light is not thin. You are not doing anything to the light letters — that is the point. Name it as a drill artefact when it appears."
         },
         {
-          "wrong": "The tongue tip not protruding on ظ — a ظ made BEHIND the teeth, arriving as a heavy ز.",
-          "why": "Putting the tongue between the teeth feels exaggerated to an adult, so she keeps it tucked.",
-          "fix": "I should be able to see it. Show me the tip."
+          "wrong": "The dark English 'l' everywhere — the velarised /ɫ/ of 'feel' in ٱلْحَمْدُ, ٱلْفَلَقِ and ٱلَّذِينَ.",
+          "why": "English installs it below the level of awareness, and it sounds plausible because there genuinely IS one heavy lām in the language.",
+          "fix": "'leaf', not 'feel'. Then Drill 7, eight words, every lām clear and forward."
         }
       ]
     },
     {
       "kind": "recap",
-      "heading": "One ṣifah, two addresses, four demands",
+      "heading": "One rule, five levels, and the letter that has no ruling",
       "items": [
         {
-          "arabic": "ظ",
-          "name": "ẓāʾ",
+          "arabic": "خُصَّ ضَغْطٍ قِظْ",
+          "translit": "khuṣṣa ḍaghṭin qiẓ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "The TIP on the front teeth, where I can see it. Tongue point 10. ذ made heavy."
+            "cue": "Seven letters, always heavy, every position, every vowel. Everything else is light by default."
           }
         },
         {
-          "arabic": "ض",
-          "name": "ḍād",
+          "arabic": "الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا",
+          "translit": "al-alifu tatbaʿu mā qablahā",
           "audio": {
             "type": "teacher-voice",
-            "cue": "The SIDE against the back teeth, where I cannot. Tongue point 4. Side, clamp, flow, drag — all four at once."
+            "cue": "The alif follows what precedes it. No independent ruling, ever. Only the IMMEDIATELY preceding letter counts."
           }
         },
         {
-          "arabic": "الاسْتِطالة",
-          "translit": "istiṭālah",
+          "arabic": "قَالَ · كَانَ",
+          "translit": "qāla · kāna",
           "audio": {
             "type": "teacher-voice",
-            "cue": "The sound travels FORWARD along the edge of the tongue. Spatial, not durational — no counts. No opposite. One letter only: ض. It is the sole reason these are two different letters."
+            "cue": "The diagnostic pair, forever. Heavy alif, light alif, same written letter. If she can do this she has the rule."
           }
         },
         {
-          "arabic": "أَطْ · أَظْ",
+          "arabic": "غَاسِقٍ · ٱلصِّرَٰطَ",
+          "translit": "ghāsiq · aṣ-ṣirāṭ",
           "audio": {
             "type": "teacher-voice",
-            "cue": "One pops, the other lasts. Shiddah bounces; rakhāwah is sustained and faded. Neither ض nor ظ ever bounces."
+            "cue": "Level 1 and level 5 — the two ends of the scale. They must not sound equally thick."
           }
         },
         {
-          "arabic": "ٱلضَّآلِّينَ",
-          "translit": "aḍ-ḍāllīn",
+          "arabic": "طَعَامِ",
+          "translit": "ṭaʿām",
           "audio": {
             "type": "teacher-voice",
-            "cue": "1:7 — the word this lesson exists for. Two counts on the side of the tongue, heavy alif, then the ل. Cheek test before you speed up."
+            "cue": "107:3 — the switch. Heavy fills the letter and stops at its edge. Always end a heaviness drill on a light word."
           }
         }
       ]
@@ -610,233 +745,154 @@
       "kind": "homework",
       "heading": "Homework — 25–35 min/day, five days",
       "tasks": [
-        "One minute — Drill 2. ذْ · زْ · ظْ · ضْ. If any two match, both get ten extra repetitions.",
-        "One minute — Drill 4, the cheek test. Five alternations. This is the one that does not lie to you.",
-        "Two minutes — Drill 3, the duration test, on a clock. Three seconds each.",
-        "Two minutes — Drill 1, building ظ from ذ, and Drill 5, hold versus pop.",
-        "Three minutes — Drill 6, ض against its three substitutes. Then ضَا alone: side, clamp, flow, drag.",
-        "Three minutes — Drill 8. ٱض ‑ ضَـ ‑ آ ‑ لِّـ ‑ ينَ, ten repetitions, slowly.",
-        "Two minutes — Drill 9, blind pairs, with anyone who will help. If nobody will, record them in a random order and test yourself two days later.",
-        "Hifz — Manzil (al-Fātiḥah), Sabqi (114:1–114:5), then new Sabaq (114:6). Then recite an-Nās complete, once, unaided, and mark the date.",
-        "Bring to the next session: an-Nās recited whole, and a recording of ٱلضَّآلِّينَ said three times. Next session is revision — bring any question from Unit 3.1 that has not been answered."
+        "One minute — Drill 2, the alif pair. قَالَ / كَانَ, ten alternations. Every day, first. Nothing else in this lesson matters as much.",
+        "Two minutes — Drill 1, the five levels, down and back up, on ق and then on ص.",
+        "Two minutes — Drill 3. Call the alif's lean BEFORE reading the word.",
+        "Three minutes — Drill 4, the drop, then Drill 5, the reset. In that order, always ending light.",
+        "Ten seconds — Drill 6. Quiet and heavy, loud and light.",
+        "Two minutes — Drill 7. Eight words, every lām clear and forward.",
+        "Two minutes — Drill 8. Call the level number before reading.",
+        "Hifz — Manzil (al-Fātiḥah), Sabqi (114:1–114:3), then new Sabaq (114:4–114:5). Twenty to forty repetitions from the page, ten extra on any corrected word.",
+        "Bring to the next session: a recording of yourself saying قَالَ and كَانَ five times each, in a random order you write down. We will see whether I can tell them apart from the alif alone."
       ]
     }
   ],
   "practice": {
     "drills": [
       {
-        "title": "Drill 1 — build ظ from ذ",
-        "instructions": "The only change is the back of the tongue rising. If the two members sound the same, iṭbāq is missing.",
+        "title": "Drill 1 — the five levels, one letter",
+        "instructions": "Down the scale and back up. If levels 1 and 5 sound the same, the scale has flattened.",
         "grid": [
           [
             {
-              "arabic": "ذَا / ظَا",
+              "arabic": "قَالَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Tip stays. Back rises."
+                "cue": "Level 1 — fatḥa plus alif."
               }
             },
             {
-              "arabic": "ذِي / ظِي",
+              "arabic": "قَدْ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Under a kasra the clamp wants to release."
+                "cue": "Level 2 — fatḥa."
               }
             },
             {
-              "arabic": "ذُو / ظُو",
+              "arabic": "قُلْ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Only the back of the tongue differs."
+                "cue": "Level 3 — ḍamma."
               }
             },
             {
-              "arabic": "أَذْ / أَظْ",
+              "arabic": "يَقْطَعُ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Both sustained and faded."
+                "cue": "Level 4 — sukūn."
+              }
+            },
+            {
+              "arabic": "قِيلَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Level 5 — kasra. The thinnest heavy."
               }
             }
           ]
         ]
       },
       {
-        "title": "Drill 2 — the four that must be four",
-        "instructions": "Hand on the throat throughout — all four are voiced. If any two match, both are wrong.",
+        "title": "Drill 2 — the alif pair",
+        "instructions": "Ten alternations, every day, first. Then identify one at random by the alif alone.",
         "grid": [
           [
             {
-              "arabic": "ذْ",
+              "arabic": "قَالَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Tip visible. Light."
+                "cue": "10:81 — reference example. Heavy alif."
               }
             },
             {
-              "arabic": "زْ",
+              "arabic": "كَانَ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Tip behind the teeth. Light. It hisses."
-              }
-            },
-            {
-              "arabic": "ظْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Tip visible. Heavy."
-              }
-            },
-            {
-              "arabic": "ضْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Side-edge, molars. Heavy, and it travels."
+                "cue": "110:3 — light alif."
               }
             }
           ]
         ]
       },
       {
-        "title": "Drill 3 — the duration test",
-        "instructions": "Three seconds each, on a clock. Anything that dies before two seconds has become a stop.",
+        "title": "Drill 3 — alifs in context",
+        "instructions": "Call heavy or light before reading. طَعَامِ is the trap: only the immediately preceding letter counts.",
         "grid": [
           [
             {
-              "arabic": "ضْ",
+              "arabic": "غَاسِقٍ",
+              "translit": "ghāsiq",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Three seconds. A tip-made ض dies at once."
+                "cue": "113:3 — heavy."
               }
             },
-            {
-              "arabic": "ظْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Three seconds of heavy hiss."
-              }
-            },
-            {
-              "arabic": "صْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Three seconds. The control."
-              }
-            },
-            {
-              "arabic": "ذْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Three seconds, light throughout."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "Drill 4 — the cheek test",
-        "instructions": "Fingertip on the cheek over the upper molars. Five alternations. The drill that does not depend on your ear.",
-        "grid": [
-          [
-            {
-              "arabic": "ضْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "You should feel the tongue pressing outward from inside."
-              }
-            },
-            {
-              "arabic": "ظْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "You should feel nothing there at all."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "Drill 5 — hold versus pop",
-        "instructions": "Two bounces and two holds, alternating, in this order.",
-        "grid": [
-          [
-            {
-              "arabic": "أَطْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Pops — shiddah."
-              }
-            },
-            {
-              "arabic": "أَظْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Lasts — rakhāwah."
-              }
-            },
-            {
-              "arabic": "أَضْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Lasts, and travels."
-              }
-            },
-            {
-              "arabic": "أَدْ",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Pops — light, but blocked and voiced."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "Drill 6 — ض against its three substitutes",
-        "instructions": "Four times each pair, naming the error out loud. Then ضَا alone: side, clamp, flow, drag.",
-        "grid": [
-          [
-            {
-              "arabic": "ضَا / دَا",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Tip took over; rakhāwah and istiṭālah both gone."
-              }
-            },
-            {
-              "arabic": "ضَا / ظَا",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Tip slipped forward to the incisors."
-              }
-            },
-            {
-              "arabic": "ضَا / زَا",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "Iṭbāq lost entirely."
-              }
-            },
-            {
-              "arabic": "ضَا",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "All four demands, then three seconds."
-              }
-            }
-          ]
-        ]
-      },
-      {
-        "title": "Drill 7 — the words",
-        "instructions": "Slowly, then at pace. Cheek test on every ض.",
-        "grid": [
-          [
             {
               "arabic": "ٱلضَّآلِّينَ",
               "translit": "aḍ-ḍāllīn",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "1:7 — doubled ض, heavy alif, light ل."
+                "cue": "1:7 — heavy."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاسِ",
+              "translit": "an-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "114:1 — light."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَانَ",
+              "translit": "kāna",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "110:3 — light."
+              }
+            },
+            {
+              "arabic": "طَعَامِ",
+              "translit": "ṭaʿām",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "107:3 — LIGHT. The ط is two letters back."
+              }
+            },
+            {
+              "arabic": "مَالُهُۥ",
+              "translit": "māluhū",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "111:2 — light."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — the drop",
+        "instructions": "Heavy, then immediately light, with a deliberate gap that you then close.",
+        "grid": [
+          [
+            {
+              "arabic": "طَعَامِ",
+              "translit": "ṭaʿām",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "107:3 — one heavy letter, three light ones."
               }
             },
             {
@@ -844,56 +900,127 @@
               "translit": "al-maghḍūb",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "1:7 — sākin ض after a heavy غ."
+                "cue": "1:7 — up, up, down, down."
               }
             },
             {
-              "arabic": "تَضْلِيلٍ",
-              "translit": "taḍlīl",
+              "arabic": "أَعْطَيْنَٰكَ",
+              "translit": "aʿṭaynāka",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "105:2 — finish the drag before the ل."
-              }
-            }
-          ],
-          [
-            {
-              "arabic": "تَلَظَّىٰ",
-              "translit": "talaẓẓā",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "92:14 — reference example. Doubled ظ, tip visible."
-              }
-            },
-            {
-              "arabic": "ظَهْرَكَ",
-              "translit": "ẓahrak",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "94:3 — reference example. ظ at the head of a word."
-              }
-            },
-            {
-              "arabic": "ظَلَمُونَا",
-              "translit": "ẓalamūnā",
-              "audio": {
-                "type": "teacher-voice",
-                "cue": "2:57 — reference example. The root a wrong ظ destroys."
+                "cue": "108:1 — bounce heavy, land light."
               }
             }
           ]
         ]
       },
       {
-        "title": "Drill 8 — the word that matters, in pieces",
-        "instructions": "Two counts on the side of the tongue, heavy alif, THEN the ل. Ten repetitions, ten more after any error.",
+        "title": "Drill 5 — the reset",
+        "instructions": "After every round of Drill 4, one word with nothing heavy in it. Always end a heaviness drill light.",
         "grid": [
           [
             {
-              "arabic": "ٱض ‑ ضَـ ‑ آ ‑ لِّـ ‑ ينَ",
+              "arabic": "ٱلْحَمْدُ",
+              "translit": "al-ḥamdu",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "1:7, in pieces. Slowly."
+                "cue": "1:2 — the reset word."
+              }
+            },
+            {
+              "arabic": "بِرَبِّ ٱلنَّاسِ",
+              "translit": "bi-rabbi-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "114:1 — all light, light alif."
+              }
+            },
+            {
+              "arabic": "ٱلْبَيْتِ",
+              "translit": "al-bayt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:3 — all light."
+              }
+            },
+            {
+              "arabic": "أَنْعَمْتَ",
+              "translit": "anʿamta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:7 — all light."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — quiet and heavy, loud and light",
+        "instructions": "Four seconds, to kill the volume confusion for good.",
+        "grid": [
+          [
+            {
+              "arabic": "قْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "As quietly as you can, still heavy."
+              }
+            },
+            {
+              "arabic": "كْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "As loudly as you can, still light."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — every ل is light",
+        "instructions": "Eight words with a lām beside something heavy. 'leaf', never 'feel'.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:1."
+              }
+            },
+            {
+              "arabic": "ٱلصِّرَٰطَ",
+              "translit": "aṣ-ṣirāṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:6."
+              }
+            },
+            {
+              "arabic": "مَطْلَعِ",
+              "translit": "maṭlaʿ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "97:5 — reference example. Heavy ط, light ل."
+              }
+            },
+            {
+              "arabic": "ٱلْقَارِعَةُ",
+              "translit": "al-qāriʿah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "101:1 — reference example."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "تَضْلِيلٍ",
+              "translit": "taḍlīl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "105:2 — two light lāms after a clamped ض."
               }
             },
             {
@@ -901,36 +1028,71 @@
               "translit": "aḍ-ḍāllīn",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "1:7, joined. Cheek test before you speed up."
+                "cue": "1:7 — light doubled ل after a heavy alif."
+              }
+            },
+            {
+              "arabic": "ٱلْقَدْرِ",
+              "translit": "al-qadr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "97:1 — reference example."
+              }
+            },
+            {
+              "arabic": "ٱلْفِيلِ",
+              "translit": "al-fīl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "105:1 — nothing heavy at all."
               }
             }
           ]
         ]
       },
       {
-        "title": "Drill 9 — blind pairs",
-        "instructions": "Someone says one at random with the text covered. If you cannot tell them apart when someone else says them, you cannot yet reliably make them.",
+        "title": "Drill 8 — level-tagging, cold",
+        "instructions": "Call the level number out loud before you read the word.",
         "grid": [
           [
             {
-              "arabic": "ضَا / ظَا",
+              "arabic": "صُدُورِ",
+              "translit": "ṣudūr",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Which did you hear?"
+                "cue": "114:5 — 3."
               }
             },
             {
-              "arabic": "ضِي / ظِي",
+              "arabic": "خَلَقَ",
+              "translit": "khalaq",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Under a kasra."
+                "cue": "113:2 — 2."
               }
             },
             {
-              "arabic": "ضُو / ظُو",
+              "arabic": "ٱلصِّرَٰطَ",
+              "translit": "aṣ-ṣirāṭ",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Under a ḍamma."
+                "cue": "1:6 — 5."
+              }
+            },
+            {
+              "arabic": "أَعْطَيْنَٰكَ",
+              "translit": "aʿṭaynāka",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "108:1 — 4."
+              }
+            },
+            {
+              "arabic": "غَاسِقٍ",
+              "translit": "ghāsiq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:3 — 1."
               }
             }
           ]
@@ -938,109 +1100,109 @@
       }
     ],
     "dailyChecklist": [
-      "Drill 2 — ذْ · زْ · ظْ · ضْ, and ten extra repetitions on any two that match",
-      "Drill 4 — the cheek test, five alternations",
-      "Drill 3 — the duration test on a clock, three seconds each",
-      "Drill 1 and Drill 5 — build ظ from ذ, then hold versus pop",
-      "Drill 6 — ض against its three substitutes, then ضَا alone",
-      "Drill 8 — ٱض ‑ ضَـ ‑ آ ‑ لِّـ ‑ ينَ, ten repetitions, slowly",
-      "Drill 9 — blind pairs, or a recording tested two days later",
-      "Hifz — Manzil (al-Fātiḥah), Sabqi (114:1–114:5), new Sabaq (114:6), then an-Nās whole and unaided"
+      "Drill 2 — قَالَ / كَانَ, ten alternations, first, every day",
+      "Drill 1 — the five levels down and back up, on ق and on ص",
+      "Drill 3 — call the alif's lean before reading the word",
+      "Drill 4 then Drill 5 — the drop, then the reset, always ending light",
+      "Drill 6 — quiet and heavy, loud and light",
+      "Drill 7 — eight lāms, all clear and forward",
+      "Drill 8 — call the level number before reading",
+      "Hifz — Manzil (al-Fātiḥah), Sabqi (114:1–114:3), new Sabaq (114:4–114:5)"
     ]
   },
   "teacherNotes": {
     "script": [
-      "Open by writing وَلَا ٱلضَّآلِّينَ and وَلَا ٱلظَّالِّينَ side by side and saying: only one of these is in the Qur'an. The second is a different word from a different root, and she has probably been saying it, or something between the two, since she started praying.",
-      "She met this in 1-14 — that lesson's own objective asked her to name what goes wrong when it is read as ٱلظَّالِّينَ. Take her answer FIRST, then say the thing 1-14 could not: these two letters are identical in every ṣifah she has learned. Both voiced, both flowing, both raised, both clamped. What separates them is the makhraj and one ṣifah she has not met.",
-      "Then the third possibility, which for a Persian, Urdu, Turkish or Uzbek speaker is the likeliest of all: neither ض nor ظ but a plain z. Have her say ض, ظ, ذ, ز in a row. If any two match, both are wrong.",
-      "Show the two makhārij PHYSICALLY before saying anything about sound. Make her repeat the sentence: ظ is the tip on the front teeth where I can see it; ض is the side against the back teeth where I cannot.",
-      "Build ظ first — it is easier and it gives her a reference weight. ظ is ذ made heavy, exactly as ص is س made heavy. That is the fastest route in for a student who already has ذ. Demonstrate the cue while she watches your mouth, then hold it: aẓẓẓẓ, three seconds, voiced the whole way.",
-      "Then ض, and give it the time. Say لُغَةُ الضَّاد out loud — Arabic calls itself the language of the ḍād because no other language has this sound. It reframes the difficulty as expected rather than as her failing.",
-      "Name the four simultaneous demands and what you get when each is dropped: rakhāwah plus istiṭālah gone gives a heavy د; iṭbāq gone gives a plain z; istiṭālah alone gone gives a ظ. That table is the diagnostic for every error she will make today.",
-      "Three valid variants of the edge — left, right, both — and do NOT correct any of them. If she has found the left, leave it. The one thing that is not negotiable: ض is not made with the tip.",
-      "Give istiṭālah its own moment. It is a SPATIAL elongation, not a durational one — not madd, no counts — and it has no opposite. One letter only. It is the sole reason ض and ظ are two different letters.",
-      "Run both tests live. The duration test first, then the cheek test — and say why the cheek test is the one that settles arguments: it does not rely on her ear, which is the ear that produced the error.",
-      "Use the ط contrast as scaffolding she already owns, with the reason now attached: ط has shiddah so a sākin ط pops; ظ has rakhāwah so a sākin ظ is sustained and faded. aṭ — aẓẓẓẓ. ض behaves like ظ here, not like ط.",
-      "Name the stakes once, plainly: this is laḥn jalī, the plain error, because it changes the word. Then hand her the two practical notes — the ظ words are a closed set of a few dozen roots, which is a legitimate crutch for reading but does not fix the sound; and ض and ظ do not merge into each other.",
-      "Say the language fact out loud rather than implying it. In Persian and Urdu all four of ذ ز ض ظ are genuinely [z]. She is not being careless; the contrast has to be built from nothing. A student who thinks she is being sloppy stops trying.",
-      "There is NO ظ anywhere in al-Fātiḥah or in surahs 105–114. Tell her that: she can complete this unit's memorisation without once producing a ظ, which is exactly why it has to be drilled deliberately now — it will be waiting for her the first time she opens a longer surah.",
-      "تَضْلِيلٍ is the trap in miniature. The ض ends by dragging the sound forward; the ل needs the tip up at the front. If the tip arrives early, the ض turns into a ظ on its way out. Slow it down: hold, finish the drag, then move.",
-      "Close on ٱلضَّآلِّينَ, slowly, three times, in pieces. It is the highest-stakes instance in the Qur'an — recited many times a day, exposed for a full two-count hold by the shadda, and sitting immediately beside a ل. Hold the doubled ض on the side, keep the alif heavy (3-06), and only THEN bring the tip up.",
-      "Hifz: Manzil (al-Fātiḥah), Sabqi (114:1–114:5), then new Sabaq 114:6 — مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ. One short ayah, and with it Sūrat an-Nās is COMPLETE. Have her recite all six unaided at the end of the session and mark the date, as you did with al-Fātiḥah.",
-      "Two things to hold in 114:6. ٱلْجِنَّةِ has a doubled ن — two counts of hum — and a ج that is shiddah: a real closure with silence inside it, not a fricative. And وَٱلنَّاسِ for the sixth and last time in the surah; if the doubled ن and the light alif are right here, they are right everywhere in an-Nās.",
-      "Promotion check. Al-Fātiḥah has now had several clean sessions. The course's rule is three consecutive clean recitations promotes a surah from Sabqi to Manzil — and be honest that this number is the course's own default, not something the classical sources specify; they say 'when it is solid' and stop. If it keeps decaying after promotion, raise the threshold to four or five and say that you are doing so."
+      "Do NOT open with a definition. Open with قَالَ and كَانَ and ask what the difference is. She will say the first letter. Then ask the question that matters: what about the alif in the middle — is that the same sound in both words? Almost every student says yes.",
+      "Say them back to back, twice, exaggerated, until she hears it. Then write الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا on the board, boxed, and leave it up for the whole session.",
+      "Name the second error now, because it arrives about ten minutes after you fix the first: contamination. In طَعَامِ the ط is heavy and the ع, the alif and the م are light. Most students darken all four. The heavy letter is correct; what fails is the switch back.",
+      "Say explicitly what today is and is not. 1-14 taught her heaviness by ear, and taught it the right way round — you hear the dome on the VOWEL beside the letter, not on the consonant. 3-03 gave her خُصَّ ضَغْطٍ قِظْ, the count of seven and twenty-two, and the two degrees. Today turns that property into an instruction, adds the five degrees, and closes the alif gap.",
+      "Check the seven letters in the first two minutes. If خُصَّ ضَغْطٍ قِظْ is not automatic, stop and re-drill it — everything today assumes it.",
+      "Connect each name to its ṣifah and say the framing sentence verbatim: tarqīq is not a rule you apply, it is what happens when you don't do anything. The question is never 'how do I make it light' but 'how do I stop leaking heaviness into it.'",
+      "List the four standing exceptions once and then defer them, so she knows the shape of what is coming: ر (3-10, 3-11), the ل of the Divine Name (3-12), the alif (today), the ghunnah of a concealed ن/م (Unit 3.4). Then say the count: two letters in the whole language switch.",
+      "Teach the performance in three steps and make her do each separately. The third is the one that matters most — the tip does not move, only the back rises. Sliding the tip back produces a different letter, not a heavier one.",
+      "Teach the five levels as ONE letter run through five vowels: قَالَ · قَدْ · قُلْ · يَقْطَعُ · قِيلَ. Down and back up. The point is not the ordering; it is that قِيلَ and قَالَ must not sound equally thick.",
+      "Name the disagreement once, as the methodology requires. Ibn al-Jazarī and most later works give five levels in this order; some give four; a number of Egyptian teachers swap levels 3 and 4. This course teaches five in Ibn al-Jazarī's order and names the alternative.",
+      "Give the alif its OWN block of the session. Do not fold it into the levels. It is never listed among the heavy letters and never among the light ones, because it has no makhraj of contact at all — it comes from al-jawf and has no tongue position to be high or low.",
+      "Drill the diagnostic pair until she can identify one by the alif alone with the board covered. Then do it in her own memorisation set: غَاسِقٍ heavy, ٱلضَّآلِّينَ heavy, ٱلنَّاسِ light.",
+      "Tell her where the mistake comes from: many books state the light letters as 21 and list the alif among them. Where the sources disagree on the count, they agree on the practice.",
+      "Name the letters that need vigilance — ا ب ل م ن ه ء — and give the mechanism its name: inertia. Then drill heavy → light transitions slowly, with a deliberate gap, until the drop is conscious. ALWAYS end a heaviness drill on a light word.",
+      "Say the standing rule she needs for the rest of the course: every ل outside the Divine Name is light, always. صَلَاة and طَلَبَ have heavy neighbours and light lāms. Lessons 3-12 and 3-13 both rest on this.",
+      "ٱلصِّرَٰطَ has now appeared in three consecutive lessons and it will appear in three more. Today it is level 5 — heavy under a kasra — and it contains a light ر between two heavy letters. Do NOT fix the ر today. Notice it and move on; 3-10 owns it.",
+      "قَالَ is the only example here from outside al-Fātiḥah and the last ten surahs. It is worth the exception because no clean level-1 minimal partner for كَانَ exists inside her range. Label it out loud: reference example, outside your memorized surahs.",
+      "End the session on the mirror error, because it is what you will hear next week. Over-lightening: everything thins into a bright, nasal register and ص drifts toward س. Light is not thin. Name it as a drill artefact when it appears.",
+      "Thirty seconds on the app, honestly. Tafkhīm and tarqīq are not colour-coded; the dataset covers eighteen rules and heaviness is not one of them. This family has to be heard and reasoned, not looked up.",
+      "Hifz: Manzil (al-Fātiḥah) and Sabqi (114:1–114:3) first, then new Sabaq 114:4–114:5. Today's rule fires in both new āyāt, so use them — صُدُورِ is level 3 (get the ص right, leave the ر alone), and ٱلْوَسْوَاسِ and ٱلْخَنَّاسِ are almost entirely light, with the cleanest light alifs in her whole memorisation set. Use them as the reset against صُدُورِ."
     ],
     "listenFor": [
       {
-        "item": "ض made on the side edge of the tongue, flowing, and holdable for three seconds.",
-        "makhraj": "Tongue point 4 — one or both side-edges against the inside faces of the upper molars. The only edge makhraj in the language.",
-        "commonMistake": "A heavy د: the letter stops instead of flowing, and the duration test kills it at once.",
-        "whyItHappens": "The tongue tip takes over, because every other tongue letter she knows uses the tip, back or middle. The side-edge is a movement her mouth has never been asked to make. Commonest error worldwide and the default for Turkic speakers.",
-        "correctionCue": "Not the tip — the side. Push the side of your tongue into your back molars, keep the sound running, and drag it forward. Hold it. Now release.",
+        "item": "The alif of قَالَ dark and the alif of كَانَ bright — the same written letter carrying two colours.",
+        "commonMistake": "A uniformly light alif. قَالَ, طَابَ and ٱلضَّآلِّينَ read with a thin, forward alif. This is the flagship error of the whole family.",
+        "whyItHappens": "Many books list the alif among the twenty-one light letters, and it is the intuitive reading of 'everything except the seven is light'.",
+        "correctionCue": "الْأَلِفُ تَتْبَعُ مَا قَبْلَهَا. What came before it? Then قَالَ / كَانَ back to back, ten alternations.",
         "severityIfWrong": "jali",
-        "source": "library/02-Rules/Istitalah.md"
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-06-Tafkhim-and-Tarqiq.md"
       },
       {
-        "item": "The cheek registering outward pressure on ض and nothing at all on ظ.",
-        "makhraj": "ض at tongue point 4 (side-edge, molars); ظ at tongue point 10 (tip, lower edges of the upper incisors). Opposite ends of the same organ.",
-        "commonMistake": "ض arriving as ظ — a heavy, voiced, flowing letter made at the FRONT teeth. Every ṣifah is right and only the address is wrong.",
-        "whyItHappens": "The tip slides forward to the incisors. In تَضْلِيلٍ and ٱلضَّآلِّينَ the following ل actively pulls it there.",
-        "correctionCue": "Cheek test, immediately. Can you feel your tongue against your back teeth? No? Then that was a ظ.",
+        "item": "A light alif after a light letter, even in the week after the alif rule has landed.",
+        "commonMistake": "A uniformly heavy alif — كَانَ, مَالُهُۥ and ٱلنَّاسِ read dark. Expect it within one session of fixing the first error.",
+        "whyItHappens": "She has learned that the alif can be heavy and has applied it as a property rather than as an inheritance.",
+        "correctionCue": "It follows. It does not decide. Same pair, reversed order.",
         "severityIfWrong": "jali",
-        "source": "library/04-Curriculum/Unit-3-Tajweed/3-07-Dad-versus-Za.md"
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-06-Tafkhim-and-Tarqiq.md"
       },
       {
-        "item": "ظ heavy — the tip in place AND the back of the tongue clamped.",
-        "makhraj": "Tongue point 10, shared with ذ and ث. The tip protrudes and should be visible.",
-        "commonMistake": "ظ arriving as ذ: the makhraj is right and the letter is light.",
-        "whyItHappens": "The mirror of ص → س. The makhraj is easy, the heaviness is the work, and the heaviness is what gets dropped under reading load.",
-        "correctionCue": "Tip stays. Back rises. ذَا — ظَا.",
+        "item": "The tongue coming DOWN at the edge of a heavy letter — طَعَامِ with three genuinely light letters after the ط.",
+        "makhraj": "The back of the tongue, which must return to istifāl before the next letter begins. The tip is not involved.",
+        "commonMistake": "The ع, ا and م of طَعَامِ arriving dark; the ل of any word with a heavy letter in it going velar.",
+        "whyItHappens": "Inertia. The tongue has not come down yet. She is not mispronouncing the heavy letter — she is failing to switch back.",
+        "correctionCue": "Heavy fills the letter and stops at its edge. Drill 4 slowly, with the gap, then close it.",
         "severityIfWrong": "jali",
-        "source": "library/02-Rules/Itbaq.md"
+        "source": "library/02-Rules/Tafkhim.md"
       },
       {
-        "item": "ذ, ز, ظ and ض arriving as four distinct sounds.",
-        "commonMistake": "Any two of the four collapsing into one plain 'z'. Run the four in a row and listen for matches.",
-        "whyItHappens": "In Persian and Urdu all four are genuinely pronounced identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. She is not being careless — her language has no distinction here at all.",
-        "correctionCue": "Build them one at a time from the makhraj, never by imitation. 'Where is your tongue tip? Show me.' And say the language fact out loud, because a student who thinks she is being sloppy stops trying.",
-        "severityIfWrong": "jali",
-        "source": "library/04-Curriculum/Unit-3-Tajweed/3-07-Dad-versus-Za.md"
-      },
-      {
-        "item": "The sound of ض travelling forward along the tongue's edge before release.",
-        "commonMistake": "A short, clipped ض that is over instantly even though the tip is not involved. Istiṭālah has been skipped.",
-        "whyItHappens": "She has found the side-edge and thinks the job is done. Nothing told her the sound has to move.",
-        "correctionCue": "It is a stroke, not a touch. Slide it forward along your teeth before you let go.",
+        "item": "Heaviness independent of volume — a quiet ق that is still heavy.",
+        "commonMistake": "Volume tracking heaviness across a whole line.",
+        "whyItHappens": "'Heavy' is a metaphor and loudness is the nearest available reading of it in English.",
+        "correctionCue": "Drill 6. Quiet and heavy, loud and light. Four seconds, and it does not need explaining.",
         "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Istitalah.md"
+        "source": "library/02-Rules/Tafkhim.md"
       },
       {
-        "item": "ض staying clamped under a kasra.",
-        "commonMistake": "A ضِ that flattens toward a plain z.",
-        "whyItHappens": "The kasra pulls the front of the tongue up and forward and the clamp releases. Same trap as ص in 3-03.",
-        "correctionCue": "Heavy under every vowel. Say ضَ, then ضِ, and do not let the back of your tongue drop between them.",
+        "item": "The makhraj held still while the back of the tongue rises.",
+        "makhraj": "For ص, the tip stays between the incisors at tongue point 9. Only the rear rises toward the soft palate.",
+        "commonMistake": "A ص whose tip has slid off the teeth, giving something between ص and a retroflex.",
+        "whyItHappens": "She is trying to add depth with the only movement available to her.",
+        "correctionCue": "The tip does not move. Only the back rises. Hold a finger where the tip should stay.",
         "severityIfWrong": "jali",
-        "source": "library/02-Rules/Itbaq.md"
+        "source": "library/02-Rules/Istila.md"
       },
       {
-        "item": "A sākin ظ or ض sustained and faded, never kicked.",
-        "commonMistake": "A bounce at the end of أَظْ or أَضْ, by analogy with ط.",
-        "whyItHappens": "ط is the nearest heavy letter she knows and it does bounce. Straight generalisation from 3-04.",
-        "correctionCue": "Can you hold it? Then it is not blocked, so there is nothing to bounce. aṭ pops; aẓẓẓẓ lasts.",
+        "item": "Five audibly different degrees of heaviness on one letter.",
+        "commonMistake": "قِيلَ and قَالَ equally thick — the scale flattened into a switch.",
+        "whyItHappens": "She has learned 'always heavy' and applied it as an on/off property.",
+        "correctionCue": "Drill 1, down and back up, then ask her which end of the scale she is at.",
         "severityIfWrong": "khafi",
-        "source": "library/02-Rules/Rakhawah.md"
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-06-Tafkhim-and-Tarqiq.md"
       },
       {
-        "item": "The tongue tip visible on every ظ.",
-        "makhraj": "Tongue point 10 — the tip genuinely between the teeth, on the lower edges of the upper incisors.",
-        "commonMistake": "A ظ made behind the teeth, which comes out as a heavy ز.",
-        "whyItHappens": "Putting the tongue between the teeth feels exaggerated to an adult, so she keeps it tucked.",
-        "correctionCue": "I should be able to see it. Show me the tip.",
+        "item": "Light letters that are simply normal, not thinned.",
+        "commonMistake": "The whole recitation getting bright and nasal after a tarqīq drill, with ص drifting toward س.",
+        "whyItHappens": "Over-correction, and it always follows a successful contamination fix rather than preceding it.",
+        "correctionCue": "Light is not thin. You are not doing anything to the light letters — that is the point.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Tarqiq.md"
+      },
+      {
+        "item": "Every lām clear and forward — the /l/ of 'leaf'.",
+        "makhraj": "Tongue point 5 — the tongue's edge from rear to tip at the gums of the upper front teeth, with the back of the tongue LOW.",
+        "commonMistake": "The velarised /ɫ/ of 'feel' in ٱلْحَمْدُ, ٱلْفَلَقِ and ٱلَّذِينَ.",
+        "whyItHappens": "English installs it below the level of awareness, and it sounds plausible because there genuinely is one heavy lām in the language.",
+        "correctionCue": "'leaf', not 'feel'. Then Drill 7.",
         "severityIfWrong": "jali",
-        "source": "library/04-Curriculum/Unit-3-Tajweed/3-07-Dad-versus-Za.md"
+        "source": "library/02-Rules/Tarqiq.md"
       }
     ],
-    "homework": "25–35 min/day over five days. Daily: Drill 2, ذْ · زْ · ظْ · ضْ, with ten extra repetitions on any two that match (one minute); Drill 4, the cheek test, five alternations — the one that does not lie to you (one minute); Drill 3, the duration test on a clock, three seconds each (two minutes); Drill 1 building ظ from ذ, and Drill 5 hold versus pop (two minutes); Drill 6, ض against its three substitutes, then ضَا alone checking side, clamp, flow, drag (three minutes); Drill 8, ٱض ‑ ضَـ ‑ آ ‑ لِّـ ‑ ينَ, ten repetitions slowly (three minutes); Drill 9, blind pairs with anyone who will help, or a recording in random order tested two days later (two minutes). Hifz: Manzil (al-Fātiḥah), Sabqi (114:1–114:5), then new Sabaq 114:6 — with which an-Nās is complete; recite all six unaided once and mark the date. Bring to the next session: an-Nās recited whole, a recording of ٱلضَّآلِّينَ said three times, and any question from Unit 3.1 that has not been answered, because next session is revision."
+    "homework": "25–35 min/day over five days. Daily, in this order: Drill 2, the alif pair قَالَ / كَانَ, ten alternations (one minute — first, every day, and nothing else in this lesson matters as much); Drill 1, the five levels down and back up on ق then ص (two minutes); Drill 3, calling the alif's lean before reading (two minutes); Drill 4 the drop then Drill 5 the reset, in that order, always ending light (three minutes); Drill 6, quiet and heavy, loud and light (ten seconds); Drill 7, eight lāms all clear and forward (two minutes); Drill 8, calling the level number before reading (two minutes). Hifz: Manzil (al-Fātiḥah), Sabqi (114:1–114:3), then new Sabaq 114:4–114:5, twenty to forty repetitions from the page with ten extra on any corrected word. Bring to the next session: a recording of قَالَ and كَانَ said five times each in a random order written down, so we can see whether the two are tellable apart from the alif alone."
   },
   "videos": []
 }

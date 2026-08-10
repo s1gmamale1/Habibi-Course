@@ -61,7 +61,7 @@ The sentence for the lesson:
 ## What they already know
 
 - **Lesson 3-01, last session,** gave her the seventeen points, and it ended on exactly this cliff: the three tooth rows each hold a heavy letter beside its light twin, and the columns طْ صْ ظْ / دْ زْ ذْ / تْ سْ ثْ are organised by something the map cannot show. That something is the ṣifāt. Point back at that table; it is the same table today, read down instead of across.
-- **Lesson 1-13** already had her bouncing the five qalqalah letters ق ط ب ج د on a sukūn. She has been doing that for months without being told *why those five*. She will get the answer in lesson 3-04, and it is built out of two of today's ṣifāt. Tell her that now — it makes today's material feel like it is going somewhere.
+- **Lesson 1-13** already had her bouncing the five qalqalah letters ق ط ب ج د on a sukūn. She has been doing that for months without being told *why those five*. She will get the answer in lesson 3-05, and it is built out of two of today's ṣifāt. Tell her that now — it makes today's material feel like it is going somewhere.
 - **Lesson 2-05** taught her that مّ and نّ hum and that بّ and قّ are held as silence. That is precisely the shiddah / tawassut distinction, learned by ear a year before it had a name.
 
 ## Teaching sequence
@@ -140,7 +140,7 @@ The sentence for the lesson:
    | **rakhāwah** | ف ح ث ه ش خ ص س | ذ ز ض ظ غ و ي ا |
 
    Two things fall straight out of the grid, and both are load-bearing:
-   - The **shiddah + jahr** cell has six letters. Take out the hamzah (excluded by transmission) and you have **ق ط ب ج د** — the qalqalah five, exactly. She has been bouncing them since 1-13. In lesson 3-04 she will be able to *derive* them.
+   - The **shiddah + jahr** cell has six letters. Take out the hamzah (excluded by transmission) and you have **ق ط ب ج د** — the qalqalah five, exactly. She has been bouncing them since 1-13. In lesson 3-05 she will be able to *derive* them.
    - The **shiddah + hams** cell has ك and ت, and that cell is why those two do not bounce.
 
    Say the conclusion out loud: **the ṣifāt compose. They are not a list of labels stuck on letters; they are properties that combine and produce behaviour.**

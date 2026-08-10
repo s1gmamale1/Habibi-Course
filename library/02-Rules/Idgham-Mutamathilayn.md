@@ -7,7 +7,7 @@ english: Merging of Two Identical Letters
 family: idgham-theory
 harakat: 0
 letters: []
-taught_in: "3-26"
+taught_in: "3-27"
 prerequisites: [idgham_shafawi]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

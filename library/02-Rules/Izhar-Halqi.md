@@ -7,7 +7,7 @@ english: Throat Clarification — say the noon plainly
 family: noon-sakinah
 harakat: 0
 letters: [ء, ه, ع, ح, غ, خ]
-taught_in: "3-19"
+taught_in: "3-20"
 prerequisites: [ghunnah]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]"]

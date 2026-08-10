@@ -134,7 +134,7 @@ The sentence for the lesson:
 
    **The correction is tactile, not auditory.** Have her feel the width of tongue contact on ط — a broad, flat seal — then transfer that same contact to ص and ظ. Do not try to fix a half-heavy letter by ear; she cannot hear the difference yet, which is why it is a plateau.
 
-   Flag the **ذ / ز / ظ / ض collapse to a plain "z"** now, and say whose problem it is: in Persian and Urdu all four of those letters are genuinely pronounced identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. A student from that background is not being careless — her language has no distinction here at all, so the contrast has to be built from nothing. It is the highest-priority error in this family to catch early. Lesson 3-07 is devoted to the hardest pair of it.
+   Flag the **ذ / ز / ظ / ض collapse to a plain "z"** now, and say whose problem it is: in Persian and Urdu all four of those letters are genuinely pronounced identically as [z], and Turkish and Uzbek speakers arrive with much the same merger. A student from that background is not being careless — her language has no distinction here at all, so the contrast has to be built from nothing. It is the highest-priority error in this family to catch early. Lesson 3-08 is devoted to the hardest pair of it.
 
 7. **The bleeding drill — the switch, in both directions.**
    Take **طَعَامِ** (107:3) apart: **طَـ ‑ عَـ ‑ ا ‑ مِ.** The ط is heavy. The ع, the alif and the م are light. Say them slowly with a deliberate *drop* after the ط, then speed up without losing the drop.
@@ -148,9 +148,9 @@ The sentence for the lesson:
 8. **Point forward, explicitly, and do not skip this step.**
    Tell her where the seven letters go:
 
-   - **Tafkhīm and tarqīq (lesson 3-06)** are isti'lā' restated as a performance rule, with five degrees by vowel. The input set is these seven.
-   - **The rā' rules (3-09, 3-10)** decide heavy or light partly by whether a **neighbouring letter is one of these seven**. The five-word exception list she will meet in 3-10 exists entirely because of isti'lā'.
-   - **The lām of the Divine Name (3-11)** is the other conditional letter, calibrated against this set.
+   - **Tafkhīm and tarqīq (lesson 3-07)** are isti'lā' restated as a performance rule, with five degrees by vowel. The input set is these seven.
+   - **The rā' rules (3-10, 3-11)** decide heavy or light partly by whether a **neighbouring letter is one of these seven**. The five-word exception list she will meet in 3-11 exists entirely because of isti'lā'.
+   - **The lām of the Divine Name (3-12)** is the other conditional letter, calibrated against this set.
    - **Ikhfā' (Unit 3.4)** conceals a nūn behind a two-count hum — and **that hum is heavy when the following letter is one of ص ض ط ظ ق, and light before the other ten.** The other two isti'lā' letters, خ and غ, are throat letters and take a different rule. A student who has not internalised isti'lā' produces one flat ghunnah everywhere and cannot execute ikhfā' at all.
 
    Say the summary sentence: **خُصَّ ضَغْطٍ قِظْ is the single most reused set of letters in the syllabus. Learn it once, properly, today.**
@@ -244,7 +244,7 @@ Hand on the throat (all four are voiced), tongue tip visible on ذ and ظ, tongu
 **4. ض, ظ, ذ and ز all arriving as the same "z".**
 - *Listen for:* two of the four sounding identical. If any two match, both are wrong.
 - *Why it happens:* Persian and Urdu genuinely pronounce all four as [z]; Turkic speakers land in nearly the same place. There is no distinction to transfer.
-- *Correction cue:* "Where is your tongue tip? ذ and ظ — on the edge of your top teeth, where I can see it. ض — nowhere near the front; the side of the tongue, against your molars." Full treatment in 3-07.
+- *Correction cue:* "Where is your tongue tip? ذ and ظ — on the edge of your top teeth, where I can see it. ض — nowhere near the front; the side of the tongue, against your molars." Full treatment in 3-08.
 
 **5. Confusing heavy with loud.**
 - *Listen for:* volume rising on the heavy letters and dropping on the light ones.

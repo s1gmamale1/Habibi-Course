@@ -62,7 +62,7 @@ istiṭālah — the letter surfaces as a plain [[Dal]] or as a *z*.
 
 This is explicitly documented as universal among non-natives, not an Uzbek defect.
 Ibn al-Jazari gives it **an entire chapter of [[Muqaddimah-Jazariyyah]]** with word
-lists, which is why this course gives it a whole lesson (3-07) rather than a
+lists, which is why this course gives it a whole lesson (3-08) rather than a
 paragraph.
 
 ### 3. The ذ/ز/ظ/ض collapse to "z"

@@ -5,7 +5,7 @@ arabic: جَوَازُ الْوَجْهَيْنِ فِي الرَّاء
 translit: Jawāz al-Wajhayn fī ar-Rāʾ
 english: Rā' where both readings are permitted
 family: ra
-taught_in: "3-10"
+taught_in: "3-11"
 prerequisites: [ra_tafkhim, ra_tarqiq]
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

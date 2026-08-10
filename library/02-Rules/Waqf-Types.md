@@ -5,7 +5,7 @@ arabic: أنواع الوقف
 translit: Anwāʿ al-Waqf
 english: Types of Stopping
 family: waqf
-taught_in: "3-33"
+taught_in: "3-34"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]"]

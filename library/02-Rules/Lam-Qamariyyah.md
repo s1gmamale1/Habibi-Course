@@ -5,7 +5,7 @@ arabic: اللَّامُ الْقَمَرِيَّة
 translit: al-Lām al-Qamariyyah
 english: Lunar lām
 family: lam
-taught_in: "3-12"
+taught_in: "3-13"
 prerequisites: []
 status: draft
 sources: ["[[Muqaddimah-Jazariyyah]]", "[[Tuhfat-al-Atfal]]"]

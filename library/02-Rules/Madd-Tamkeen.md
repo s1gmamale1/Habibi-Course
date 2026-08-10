@@ -7,7 +7,7 @@ english: Prolongation of Establishment
 family: madd
 colour_b: "#537FFF"
 harakat: 2
-taught_in: "3-05"
+taught_in: "3-06"
 prerequisites: [madd_tabii]
 status: draft
 sources: ["[[Tuhfat-al-Atfal]]"]
