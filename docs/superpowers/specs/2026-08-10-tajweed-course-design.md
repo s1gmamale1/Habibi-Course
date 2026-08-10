@@ -128,6 +128,20 @@ original spec calls this "the biggest gate in the course."
 
 ### Unit 3 — Tajweed Rules (36 lessons, ids `3-01`…`3-36`)
 
+> **Amended 2026-08-11 — Unit 3 is 37 lessons, ids `3-01`…`3-37`.**
+>
+> Reviewing the rule notes found that this table teaches four of the five ṣifāt opposite
+> pairs and none of the ṣifāt without an opposite: eight rule notes described
+> characteristics no lesson mentioned, even in passing. A new **`3-04` — Ṣifāt III: the
+> fifth pair, and the ṣifāt with no opposite** closes that, and **everything from `3-04`
+> down in the table below shifted up by one** (old `3-04` Qalqalah ṣughrā is now `3-05`,
+> and so on to old `3-36` Capstone, now `3-37`).
+>
+> **The table below is left at its original numbering on purpose.** It is the record of
+> what was approved on 2026-08-10, not a live index. For current ids read the vault:
+> `library/04-Curriculum/Unit-3-Tajweed/`. The full resolution — including the three
+> other gaps this review found — is in `library/00-Index/Verification-Log.md`.
+
 **3.1 — Ḥaqq al-Ḥarf: sifat & heaviness** *(Jazariyyah ch. 1–4, 7)*
 
 | id | Lesson |
