@@ -48,3 +48,40 @@ describe("SpotTheLetter", () => {
     expect(prompt.textContent).not.toContain("م");
   });
 });
+
+// Unit 1.4 vocabulary contains hamza carriers. The target must be picked from
+// the letters AS WRITTEN, so أَحَد can never prompt "tap alif" for a word that
+// renders only أ, and the bare ء in ضَوْء becomes legitimately targetable now
+// that hamza is taught. Reverting to baseLetters must fail these.
+describe("SpotTheLetter with hamza carriers", () => {
+  const carrierPool: ArabicItem[] = [
+    { arabic: "ح", name: "haa", audio: { type: "teacher-voice", cue: "c" } },
+    { arabic: "د", name: "dal", audio: { type: "teacher-voice", cue: "c" } },
+    { arabic: "ض", name: "daad", audio: { type: "teacher-voice", cue: "c" } },
+    { arabic: "و", name: "waw", audio: { type: "teacher-voice", cue: "c" } },
+    { arabic: "ء", name: "hamza", audio: { type: "teacher-voice", cue: "c" } },
+    { arabic: "ا", name: "alif", audio: { type: "teacher-voice", cue: "c" } },
+  ];
+
+  test("never targets a letter the word does not actually render", async () => {
+    // أَحَد renders أ, never a bare ا. With alif as the only nameable pool
+    // letter there is therefore no legal target at all, and the game must say
+    // so rather than ask for a letter with no tile. Folding أ→ا instead would
+    // wrongly prompt "Tap the letter alif".
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const alifOnly = carrierPool.filter((it) => it.arabic === "ا");
+    render(<SpotTheLetter words={[{ arabic: "أَحَد", translit: "aḥad", meaning: "one" }]} pool={alifOnly} />);
+    expect(await screen.findByText(/Picking a letter/)).toBeTruthy();
+    expect(screen.queryByText(/Tap the letter/)).toBeNull();
+  });
+
+  test("the bare hamza in ضَوْء is targetable and its tile registers correct", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const onlyHamza = carrierPool.filter((it) => it.arabic === "ء");
+    render(<SpotTheLetter words={[{ arabic: "ضَوْء", translit: "ḍawʾ", meaning: "light" }]} pool={onlyHamza} />);
+    const prompt = await screen.findByText(/Tap the letter/);
+    expect(prompt.textContent).toContain("hamza");
+    await userEvent.click(screen.getByRole("button", { name: "word letter 3" })); // ء
+    expect(screen.getByRole("button", { name: "word letter 3" }).className).toContain("game-correct");
+  });
+});
