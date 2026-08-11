@@ -165,6 +165,201 @@
         "id": "checkpoint-2",
         "title": "Checkpoint 2 — Reading Mechanics gate"
       }
+    },
+    {
+      "number": 3,
+      "title": "Tajweed",
+      "lessons": [
+        {
+          "id": "3-01",
+          "title": "Makhārij consolidated — the 17 points in 5 zones",
+          "calendarSlot": "Week 11 — Mon"
+        },
+        {
+          "id": "3-02",
+          "title": "Ṣifāt with opposites I — hams/jahr, shiddah/rakhāwah",
+          "calendarSlot": "Week 11 — Wed"
+        },
+        {
+          "id": "3-03",
+          "title": "Ṣifāt with opposites II — istiʿlāʾ/istifāl, iṭbāq/infitāḥ",
+          "calendarSlot": "Week 11 — Sat"
+        },
+        {
+          "id": "3-04",
+          "title": "Ṣifāt III — the fifth pair, and the ṣifāt with no opposite",
+          "calendarSlot": "Week 12 — Mon"
+        },
+        {
+          "id": "3-05",
+          "title": "Qalqalah ṣughrā — the minor bounce",
+          "calendarSlot": "Week 12 — Wed"
+        },
+        {
+          "id": "3-06",
+          "title": "Qalqalah kubrā — and the case some call kubrā jiddan",
+          "calendarSlot": "Week 12 — Sat"
+        },
+        {
+          "id": "3-07",
+          "title": "Tafkhīm & tarqīq — and the alif that has no ruling of its own",
+          "calendarSlot": "Week 13 — Mon"
+        },
+        {
+          "id": "3-08",
+          "title": "ض against ظ — the pair Ibn al-Jazarī gave its own chapter",
+          "calendarSlot": "Week 13 — Wed"
+        },
+        {
+          "id": "3-09",
+          "title": "Revision and Q&A — Unit 3.1, Ḥaqq al-Ḥarf",
+          "calendarSlot": "Week 13 — Sat"
+        },
+        {
+          "id": "3-10",
+          "title": "Rā' I — fatḥa and ḍamma heavy, kasra light",
+          "calendarSlot": "Week 14 — Mon"
+        },
+        {
+          "id": "3-11",
+          "title": "Rā' II — the sākin cases, the five istiʿlāʾ words, and where both readings are allowed",
+          "calendarSlot": "Week 14 — Wed"
+        },
+        {
+          "id": "3-12",
+          "title": "The lām of lafẓ al-jalālah",
+          "calendarSlot": "Week 14 — Sat"
+        },
+        {
+          "id": "3-13",
+          "title": "Lām shamsiyyah and qamariyyah, and the lām of the verb",
+          "calendarSlot": "Week 15 — Mon"
+        },
+        {
+          "id": "3-14",
+          "title": "Revision and Q&A — Unit 3.2, Rā' and Lām",
+          "calendarSlot": "Week 15 — Wed"
+        },
+        {
+          "id": "3-15",
+          "title": "Ghunnah — noon and meem mushaddadatān",
+          "calendarSlot": "Week 15 — Sat"
+        },
+        {
+          "id": "3-16",
+          "title": "Ikhfāʾ shafawī — hiding the meem at the lips",
+          "calendarSlot": "Week 16 — Mon"
+        },
+        {
+          "id": "3-17",
+          "title": "Idghām shafawī — two meems, one letter",
+          "calendarSlot": "Week 16 — Wed"
+        },
+        {
+          "id": "3-18",
+          "title": "Iẓhār shafawī — the twenty-six-letter default",
+          "calendarSlot": "Week 16 — Sat"
+        },
+        {
+          "id": "3-19",
+          "title": "Revision and Q&A — the meem sākinah trio",
+          "calendarSlot": "Week 17 — Mon"
+        },
+        {
+          "id": "3-20",
+          "title": "Iẓhār ḥalqī — the six throat letters",
+          "calendarSlot": "Week 17 — Wed"
+        },
+        {
+          "id": "3-21",
+          "title": "Idghām maʿal ghunnah — يَنْمُو and the four-word exception",
+          "calendarSlot": "Week 17 — Sat"
+        },
+        {
+          "id": "3-22",
+          "title": "Idghām bilā ghunnah — ل and ر, the merge with nothing left over",
+          "calendarSlot": "Week 18 — Mon"
+        },
+        {
+          "id": "3-23",
+          "title": "Iqlāb — one letter, and a mark she has read for years",
+          "calendarSlot": "Week 18 — Wed"
+        },
+        {
+          "id": "3-24",
+          "title": "Ikhfāʾ ḥaqīqī I — the fifteen letters, and the tongue that never arrives",
+          "calendarSlot": "Week 18 — Sat"
+        },
+        {
+          "id": "3-25",
+          "title": "Ikhfāʾ ḥaqīqī II — the hum takes its colour from what follows",
+          "calendarSlot": "Week 19 — Mon"
+        },
+        {
+          "id": "3-26",
+          "title": "Revision and Q&A — the noon quartet, and the proof that nothing is left over",
+          "calendarSlot": "Week 19 — Wed"
+        },
+        {
+          "id": "3-27",
+          "title": "Idghām theory — the rule the last six lessons were instances of",
+          "calendarSlot": "Week 19 — Sat"
+        },
+        {
+          "id": "3-28",
+          "title": "The madd family, and madd ṭabīʿī",
+          "calendarSlot": "Week 20 — Mon"
+        },
+        {
+          "id": "3-29",
+          "title": "Madd wājib muttaṣil",
+          "calendarSlot": "Week 20 — Wed"
+        },
+        {
+          "id": "3-30",
+          "title": "Madd jāʾiz munfaṣil",
+          "calendarSlot": "Week 20 — Sat"
+        },
+        {
+          "id": "3-31",
+          "title": "Madd ʿāriḍ lis-sukūn",
+          "calendarSlot": "Week 21 — Mon"
+        },
+        {
+          "id": "3-32",
+          "title": "Madd lāzim and its four subtypes",
+          "calendarSlot": "Week 21 — Wed"
+        },
+        {
+          "id": "3-33",
+          "title": "Revision and Q&A — the madd family capstone",
+          "calendarSlot": "Week 21 — Sat"
+        },
+        {
+          "id": "3-34",
+          "title": "Waqf signs and the types of stopping",
+          "calendarSlot": "Week 22 — Mon"
+        },
+        {
+          "id": "3-35",
+          "title": "How words change when you stop — tāʾ marbūṭah, maqṭūʿ and mawṣūl",
+          "calendarSlot": "Week 22 — Wed"
+        },
+        {
+          "id": "3-36",
+          "title": "Hamzat al-waṣl in full, silent letters, and how to read any legend",
+          "calendarSlot": "Week 22 — Sat"
+        },
+        {
+          "id": "3-37",
+          "title": "Capstone — all families, all colours, mock oral quiz",
+          "calendarSlot": "Week 23 — Mon"
+        }
+      ],
+      "checkpoint": {
+        "id": "checkpoint-3",
+        "title": "Final Checkpoint — four tests, one per end goal"
+      }
     }
   ]
 }
