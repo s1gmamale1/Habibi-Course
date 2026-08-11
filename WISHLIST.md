@@ -9,80 +9,162 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 
 ---
 
-## 2026-08-11 — the next product: accounts, library, richer practice, an AI tutor
+## 2026-08-11 — the next product, as three briefs
 
-**Captured, not scoped.** The owner's direction: user registration and account management so
-people can log in and view their own progress; expanded practice and gamification in a
-Quizlet-like style; a **library tab** exposing the sources and extra materials with embedded
-YouTube; and later an **AI assistant/tutor** that helps a student learn.
+The owner's three ideas, written so a **dedicated agent can pick one up cold**. A fourth — an
+AI assistant/tutor — is explicitly *future* and is kept separate at the end.
 
-### The one decision everything else waits on
+### Read this first: they are not independent, and they cannot share a worktree
 
-**This app is a pure static export.** `next.config.ts` is three lines —
-`{ output: "export" }` — and there is **no server, no database and no session anywhere in the
-project.** Progress today is a `localStorage` key in `ProgressClient.tsx`: anonymous,
-single-device, and lost when the browser is cleared.
+**Dependency order is real, not preference:**
 
-**Accounts cannot be added to a static export.** So the first decision is not a feature, it is
-the runtime:
+```
+  IDEA 3 (Library)  ─── no dependencies ──────────────► shippable today
+  IDEA 1 (Accounts) ─── needs the ADR-007 runtime flip ─┐
+  IDEA 2 (Practice) ─── needs Idea 1's schema ──────────┘ persistence is the whole job
+```
 
-| Option | What it means | Cost |
+**Idea 3 depends on nothing** and runs on the current static export. **Idea 2's substance is
+persistence**, so it inherits whatever Idea 1 decides. Starting 2 before 1 means inventing a
+storage layer twice.
+
+**File ownership, to stop three agents colliding.** Each writing agent gets its **own
+worktree** and only these paths. Anything outside its list, it proposes rather than edits:
+
+| Idea | Owns | Must not touch |
 |---|---|---|
-| **Auth-as-a-service** (Clerk, Supabase, Firebase) | Keep static hosting; identity and the progress table live in someone else's backend, called from the browser | Fastest. Adds a vendor, a monthly bill past the free tier, and puts student data in their jurisdiction |
-| **Drop `output: "export"`** | Next.js with a real server runtime — route handlers, sessions, a database of our own | Full control, no vendor. Hosting stops being a static bucket, and every one of the 230 pages needs re-thinking about what is rendered when |
-| **Stay static, sync nothing** | Keep localStorage, add export/import of a progress file | Free, private, no accounts. Does not deliver what was asked |
+| **1 Accounts** | `next.config.ts`, `middleware.ts`, `src/app/(auth)/**`, `src/server/**`, `src/db/**` | `src/components/games/**`, `content/**`, `library/**` |
+| **2 Practice** | `src/components/games/**`, `src/games/**`, practice routes | `next.config.ts`, auth/session code, `content/**` |
+| **3 Library** | `src/app/library/**`, its own components | everything above, `content/**`, `library/**` |
 
-**Recommendation: decide this before writing any feature code**, because it determines whether
-the AI tutor is even possible — **an API key cannot ship in a static bundle**, so a tutor needs
-a server or a proxy no matter which way the auth question goes.
+**Nobody edits `content/` or `library/`.** Those are the vault and its transcriptions, governed
+by ADR-003 and the `check:library` gate. A feature agent that "fixes" a lesson JSON silently
+desynchronises it from its note.
 
-### The part that needs none of it, and should go first
+**Every agent must leave `npm test`, `npm run lint` and `npm run check:library` green**, and
+must not weaken a gate to pass. 423 tests, 0 lint errors, 0 library errors is the floor.
 
-**The library tab is buildable today on the current architecture.** It needs no accounts, no
-server and no new licensing: the content already exists as **183 vault notes**, five vendored
-classical sources, and 182 `youtube-cue` entries already validated by the schema. It is a
-routing and presentation job over material that is already written and already gated.
-**Ship it first** — it is the only item on this list that is pure gain with no architectural
-fork.
+---
 
-### What changes the moment there is a second user
+### IDEA 1 — Accounts: registration, login, account management
 
-Everything below is currently fine *because the course has one student*. Registration ends
-that, and each becomes a real obligation rather than a note:
+**Goal.** People can register, log in, and see their own progress on any device.
 
-- **`/teach/<id>` is obscurity-only.** All **74 teacher notes** ship in the same public static
-  bundle. With accounts, "the teacher view" must actually be a role, not an unguessed URL.
-- **Both Qurʾān audio sources are non-commercial.** EveryAyah is CC BY-NC 2.5 Canada;
-  Quran.com's terms are personal-non-commercial and bar public display without consent.
-  **A free public course is fine. Anything monetised is not**, and that decision is easier to
-  make now than after the audio is wired in.
-- **The KFGQPC font ships unmodified under its own licence** — re-check the terms before
-  serving it to a general audience rather than one household.
-- **Accessibility stops being politeness.** The open items (popover `role="dialog"`, duplicate
-  lesson-row link names) are small now and awkward to retrofit across a bigger app.
-- **Learner data.** This teaches children Qurʾānic recitation, so registrations will include
-  minors. Collecting names, emails or progress on children carries real obligations under
-  GDPR-K and COPPA-style rules, and they are **much cheaper to design in than to bolt on** —
-  parent-held accounts, minimal fields, a deletion path. Worth deciding the data model with
-  this in mind before the first row is written.
+**The blocking prerequisite.** This is the commit that flips `output: "export"` →
+`"standalone"` per **ADR-007**. The migration is already **proven** — built, served, five
+routes 200, all 230 pages still SSG — so this is a three-line config change, not a project.
+Read `docs/deploy/vps.md` first; it contains the one gotcha (`.next/static` and `public/` are
+not copied automatically) that makes a standalone deploy look broken for unrelated reasons.
 
-### Practice and gamification
+**Scope.**
+- Session cookies — `HttpOnly`, `Secure`, `SameSite=Lax`. Password hashing with **argon2id**.
+- **SQLite** at `/srv/habibi/data/habibi.db`, outside the git checkout so a redeploy cannot
+  clobber it. Not a hedge — correct at this scale.
+- **Migrate the existing localStorage progress**, do not strand it. `ProgressClient.tsx`
+  currently holds a `{done: string[]}` key; a returning student must not lose her history to
+  the upgrade. This is a first-class requirement, not a nicety.
+- **Gate `/teach/<id>`.** It currently ships **all 74 teacher notes as public static pages**.
+  Once there is a session this is a middleware check. Today it is obscurity-only.
 
-The engine is further along than it looks: **14 games already ship** — 7 general
-(Flashcards, FormSwap, WordBuilder, LetterQuiz, SpotTheLetter…) and 7 tajweed-specific
-(SpanTapper, MaddCounter, GhunnahTimer, RuleIdentifier, FamilySorter, ConditionBuilder,
-ListenIdentify), all behind a `GameRegistry`. So "Quizlet-style practice" is mostly **spaced
-repetition and a score history**, which is precisely the part that needs the persistence layer
-above. **The games are not the missing piece; the memory of them is.**
+**Constraint that shapes the data model — decide it before the first migration.** This course
+teaches children Qurʾānic recitation, so registrations **will include minors**. GDPR-K and
+COPPA-style obligations attach to names, emails and progress records. Design in: **parent-held
+accounts**, minimal fields, and a **deletion path**. All three are far cheaper now than
+retrofitted, and the deletion path in particular is near-impossible to add credibly later.
 
-### The AI tutor — one design note worth recording early
+**Explicitly out of scope:** payments, roles beyond student/teacher, social login, email
+verification flows. Get one student logging in and keeping her progress first.
 
-This project's whole discipline is that **Qurʾānic text is never hand-typed and every rule
-cites a vendored source**. A generative tutor that free-associates about tajwīd would violate
-that in a way no gate can catch — it would be the most authoritative-sounding wrong text in
-the app. Whatever it eventually is, it should be **grounded in the 183-note vault and the
-pinned corpus**, and it should be unable to emit Qurʾānic text it did not retrieve. Recording
-this now because it is an architecture constraint, not a prompt-writing detail.
+**Done when:** a user registers, logs in on a second device and sees the same progress; an
+existing localStorage user is migrated without loss; `/teach` 404s or 403s for a
+non-teacher; the deploy recipe still works end to end.
+
+---
+
+### IDEA 2 — Practice and gamification, Quizlet-style
+
+**Goal.** Practice that remembers — what she has seen, what she keeps getting wrong, what is
+due today.
+
+**Start by reading the code, because the engine is further along than it looks.** **14 games
+already ship** behind a `GameRegistry`: 7 general (`Flashcards`, `FormSwap`, `WordBuilder`,
+`LetterQuiz`, `SpotTheLetter`…) and 7 tajweed-specific (`SpanTapper`, `MaddCounter`,
+`GhunnahTimer`, `RuleIdentifier`, `FamilySorter`, `ConditionBuilder`, `ListenIdentify`).
+
+**So the missing piece is not games. It is memory of them.** Nothing records a result, so every
+session starts from zero and no card is ever "due". That is the work:
+- A **result record** per attempt (item, game, correct/incorrect, timestamp)
+- **Spaced repetition** over items — SM-2 or a simpler leitner box; pick one and justify it
+- A **due-today** view and a **weak-items** view
+- Score history a student can actually see
+
+**Depends on Idea 1** for where results live. **Do not invent a second storage layer.** If Idea
+1 is not merged yet, build against an interface and a localStorage implementation, so swapping
+in the real one is a single module.
+
+**A domain constraint a general-purpose agent will not guess.** Some drills are *timed by
+design* — `GhunnahTimer` and `MaddCounter` measure held duration in ḥarakāt, because the
+duration **is** the pedagogical content. Do not "optimise" these into instant-answer quizzes,
+and do not score them as simply right/wrong.
+
+**Also do not:** add new Arabic content, change any example word, or touch `content/`. If a
+drill needs items it does not have, say so — do not author them. Every Qurʾānic string in this
+project is sliced from a pinned corpus and verified by a gate; hand-typed Arabic is the
+highest-severity error class available here.
+
+**Done when:** an attempt is recorded and survives a reload; a due-today list is populated by
+past performance rather than by order; the timed drills still measure duration; tests cover
+the scheduling logic.
+
+---
+
+### IDEA 3 — A library tab: sources, extra materials, embedded video
+
+**Goal.** One place to browse everything the course is built on.
+
+**Ship this first. It is the only one of the three with no architectural fork** — no accounts,
+no server, no new licensing. It runs on the current static export as-is.
+
+**The content already exists and is already validated:**
+- **183 vault notes** in `library/` — 59 rules, 29 letters, 74 lessons, plus indices
+- **5 vendored classical sources** — al-Jazariyyah, Tuhfat al-Atfal, ash-Shatibiyyah,
+  as-Sajawandi, Nihayat al-Qawl al-Mufid
+- **182 `youtube-cue` entries** already in lesson JSON and already schema-validated
+
+This is a **routing and presentation job over material that is written, sourced and gated.**
+
+**Licensing rules that are not negotiable:**
+- **YouTube is linked or embedded, never re-hosted.** Both course channels are Standard
+  YouTube License. Do not download, extract audio, or proxy.
+- Vendored sources are public-domain **full text**; in-copyright works are **citation-only
+  notes**. Do not "helpfully" fill a citation-only note with text.
+- Rules still at `needs-review` (3 of 59) **must display that status.** A library that presents
+  an unverified rule as settled is worse than no library.
+
+**Design note.** The vault is authored in Obsidian-flavoured markdown with `[[wikilinks]]`.
+Those resolve inside the vault; a public library needs them to resolve as routes or be rendered
+inert. Broken `[[Foo]]` text leaking to a student is the most likely visible defect here.
+
+**Explicitly out of scope:** editing any note, changing verification status, adding sources.
+The agent renders the vault; it does not curate it.
+
+**Done when:** every rule, letter and source is reachable and readable; `needs-review` is
+visible on the three rules that carry it; every wikilink either routes or renders as plain
+text; no YouTube asset is re-hosted; `check:library` still passes.
+
+---
+
+### The fourth idea — an AI tutor — is deliberately not a brief yet
+
+It needs Idea 1's runtime (an API key cannot ship in a static bundle) and is worth more once
+Idea 2 knows what a student is weak at.
+
+**One architecture constraint, recorded now because it is not a prompt-writing detail.** This
+project's entire discipline is that **Qurʾānic text is never hand-typed and every rule cites a
+vendored source.** A generative tutor that free-associates about tajwīd breaks that in the one
+way no gate can catch — it would be the most authoritative-sounding wrong text in the app.
+Whatever it becomes, it must be **grounded in the 183-note vault and the pinned corpus, and
+unable to emit Qurʾānic text it did not retrieve.**
 
 ---
 
