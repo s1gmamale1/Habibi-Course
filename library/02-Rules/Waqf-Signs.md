@@ -60,6 +60,17 @@ examples:
 > their hands**, not the Madinah set. This note is marked `needs-review` until
 > the mushaf edition targeted by the course is fixed and the sign table is
 > checked against a physical copy of it.
+>
+> **Searched again 2026-08-11, and the blocker is confirmed rather than removed.**
+> [[Nihayat-al-Qawl-al-Mufid]] does not document the printed sign set. Nor does the
+> Arabic Wikipedia treatment of muṣḥaf marking, which lists eight references and
+> **credits no one** for صلى and قلى — it says only that the muṣḥaf *"was written and
+> voweled"* per Ḥafṣ. That is consistent with what this note already argues: **the marks
+> are an editorial decision of a particular printing, not a transmitted ruling**, which
+> is precisely why no classical source will ever settle them. The operative authority is
+> the legend printed in the muṣḥaf itself, and the honest end state for this note is a
+> **correct citation to that legend with no vendored text** — the outcome already
+> accepted for in-copyright works — once the target edition is fixed.
 
 ## The six signs this course teaches (v1)
 
