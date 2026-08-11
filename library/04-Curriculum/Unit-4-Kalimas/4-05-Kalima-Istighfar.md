@@ -222,6 +222,8 @@ ghunnah**, as established in 4-03 §4.
 At the stop: the yāʾ is a madd letter and the mīm goes sākin → **madd ʿāriḍ lis-sukūn**, 2,
 4 or 6 counts. *al-ʿaẓīīīm*. Choose a length and use the same one every time.
 
+**In plain terms:** twice in this kalima a نْ turns into a meem before a ب, and both times it is the word *dhanb*. Find the two and the hardest part is done.
+
 ## Drills
 
 **Drill 1 — the two lāms.** *astaghfiru-llāha* … *illā bi-llāhi.* Ten times, alternating.

@@ -153,6 +153,8 @@ Now make her count the five herself rather than telling her: *subḥāna-llāh �
 illa-llāhu · wa-llāhu · bi-llāh* — **heavy, light, heavy, heavy, light**. A student who
 counts the tally remembers it; a student who is handed it does not.
 
+**In plain terms:** the name of Allah appears five times in one short sentence, heavy in three and light in two. The vowel just before it decides every one — nothing else does.
+
 ## Drills
 
 **Drill 1 — the pair.** *subḥāna-llāhi wa-l-ḥamdu li-llāh.* Only that. Thirty times. Heavy

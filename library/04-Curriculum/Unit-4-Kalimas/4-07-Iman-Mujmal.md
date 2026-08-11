@@ -208,6 +208,8 @@ mid-word one. *bi-l-qalb*, with the b released hard and clean.
 the unit and the easiest thing in this lesson to get audibly right. Use it. End every
 recitation deliberately on it.
 
+**In plain terms:** the آ at the very start is two beats, not four. The hamzah comes *before* it, not after, and that is the whole difference.
+
 ## Drills
 
 **Drill 1 — the madd table.** Say these four in order and give me the count for each:

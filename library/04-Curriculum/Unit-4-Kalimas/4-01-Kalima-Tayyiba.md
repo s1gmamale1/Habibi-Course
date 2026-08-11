@@ -195,6 +195,8 @@ stronger than the [[Qalqalah-Sughra]] she met mid-word.
 But note the better teaching point: **stopping there also destroys the idghām in §6.**
 The rules are not independent of the breath plan. Say so.
 
+**In plain terms:** the first *lā* is long — four beats — and the *lā* three words later is only two. Same two letters, different length, because only the first has a hamzah after it.
+
 ## Drills
 
 **Drill 1 — the rule-spotting pass.** Do not recite. Read the sentence silently, put your

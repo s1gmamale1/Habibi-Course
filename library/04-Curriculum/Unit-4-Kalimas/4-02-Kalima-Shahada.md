@@ -172,6 +172,8 @@ At the end, you stop: the final hāʾ takes a sukūn and its ḍamma is not pron
 not a madd letter. Compare with the end of the Ṭayyiba, where there *was* one. Same-looking
 ending, different rule. She should be able to say why.
 
+**In plain terms:** nothing here is new. Every rule in this sentence you already met in Unit 3; the only new thing is saying them all correctly without stopping to think.
+
 ## Drills
 
 **Drill 1 — the transfer check.** Recite only the middle: *lā ilāha illa-llāh*. Four

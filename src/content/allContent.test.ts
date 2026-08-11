@@ -49,6 +49,19 @@ describe("all real content validates", () => {
           expect(cell.name, `${id}: drill cell ${cell.arabic} has a visible name caption`).toBeUndefined();
     }
   });
+  test("no Unit 4 slide presents the Kalimas as Qur'an", () => {
+    // The `ayah` slide kind means Qur'an: it takes a surah/ayah pair, pulls the text
+    // from the pinned corpus and renders it with tajweed colouring. The Kalimas are
+    // creedal formulae, not revelation. An `ayah` slide here would present them as
+    // Qur'anic — and it would render perfectly, break no schema and fail no other
+    // test, so nothing else in the suite can catch it.
+    for (const id of allLessonIds()) {
+      const lesson = loadLesson(id);
+      if (lesson.phase !== 4) continue;
+      for (const slide of lesson.slides)
+        expect(slide.kind, `${id}: Kalima lesson uses an 'ayah' slide — that kind means Qur'an`).not.toBe("ayah");
+    }
+  });
   test("every course-map checkpoint id has a content file", () => {
     // Publishing a phase links the student to /checkpoint/<id> from the progress
     // page. `generateStaticParams` enumerates checkpoint FILES, so a phase naming
