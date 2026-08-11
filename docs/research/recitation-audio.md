@@ -1,7 +1,38 @@
 # Research: Verse and Word Recitation Audio Sources
 
-**Date:** 2026-07-19
+**Date:** 2026-07-19 · **amended 2026-08-11**
 **Scope:** Sourcing free, openly-licensed (or link-only) per-ayah and per-word Quran recitation audio for the Tajweed Course platform (tap-to-hear in slide decks, drill grids, homework pages). Covers everyayah.com, islamic.network/AlQuran Cloud CDN, QUL (Quranic Universal Library), Quran.com/Quran Foundation word-by-word audio, and secondary fallbacks (mp3quran.net). All URLs below were curled live during this research session (2026-07-19) and returned HTTP 200 unless noted.
+
+> ## ⚠ Amendment 2026-08-11 — both primary sources are NON-COMMERCIAL ONLY
+>
+> **This changes the conclusion of §1.5 and sharpens §4.4. Read this before building on either.**
+>
+> **EveryAyah is CC BY-NC 2.5 Canada.** §1.5 below says no explicit licence for the audio
+> could be found — that was **right about the live site and wrong about the record**. The
+> licence page `versebyversequran.com/site/license` returned 200 from 2009 until 2012 and has
+> 404'd since; the Wayback capture renders the licence in an iframe whose `src` **is** the
+> licence, `creativecommons.org/licenses/by-nc/2.5/ca/`, identical across the 2009, 2011 and
+> 2012 captures *(verified independently in this session)*. It covered **the MP3s, not merely
+> the timing files**: each reciter folder carried a `000_license.html` reading *"use of these
+> MP3s is only allowed if you comply with the license details."*
+>
+> **Quran.com's terms are stricter than §4.4 records.** Content is *"for your personal,
+> non-commercial use only"*; the terms separately prohibit *"data mining, scraping, crawling…
+> or compiling a collection of listings or data for any purpose"*, and forbid reproducing or
+> **publicly displaying** Content without prior written consent. §5.1 vests all Content —
+> explicitly including *"music, sound, and other files"* — as Quran.com's sole property.
+> **Bulk-fetch-and-rehost is prohibited outright**, and "publicly display" arguably reaches
+> embedding, so link-only remains right but is not risk-free.
+>
+> **What this means.** While the course is free, link-only use of both, with attribution,
+> is fine. **If it is ever monetised, both are barred** — and the only clean path is the
+> CC BY 4.0 `cpfair/quran-align` word timings applied to audio the project has rights to.
+>
+> **A warning about QUL.** Its word-by-word "dataset" ships **URLs, not audio** — a link
+> index into Quran.com's CDN, so downloading it launders nothing. QUL has no licence of its
+> own, and its `ResourcePermission` model defaults `permission_to_host` and
+> `permission_to_share` to **`unknown`**, with export gated on `granted? || unknown?`.
+> **Presence on QUL is not evidence that anyone cleared the rights.**
 
 ---
 
@@ -224,6 +255,43 @@ Fetched Quran Foundation's developer terms (`https://api-docs.quran.foundation/l
 ---
 
 ## 7. Open questions / follow-ups before build
+
+> **All six closed 2026-08-11.** Answers inline below; see the amendment banner at the top
+> for the two that changed the plan.
+>
+> 1. **RESOLVED — CC BY-NC 2.5 Canada**, recovered from the Wayback capture. It governed the
+>    MP3s, not only the timings. See the banner.
+> 2. **RESOLVED — QUL ships URLs, not audio**, and publishes when permission is `unknown`.
+>    See the banner.
+> 3. **PARTLY RESOLVED — the word-by-word reciter is credited "Waseem Sharif"**, found in
+>    QUL's own `lib/exporter/downloadable_resources.rb`. It appears **nowhere in the delivery
+>    path**: the API returns a bare `audio_url` with no reciter field, no wbw-reciter endpoint
+>    exists, and the ID3 tags carry no artist. A plausible identification with a known qari
+>    exists but **does not reconcile on file count and is UNVERIFIED — credit "Waseem Sharif"
+>    as QUL records it and assert nothing further.** Pace measured from frame headers:
+>    320 kbps, 44.1 kHz, eight clips spanning 0.73–1.46 s, **mean ~1.09 s per word** — about
+>    double conversational pace, i.e. deliberate isolated articulation. **Suitable for
+>    word drills.**
+> 4. **RESOLVED — stricter than recorded.** See the banner.
+> 5. **RESOLVED — rule QuranicAudio out.** Not a DNS failure: it resolves and TCP-connects on
+>    443, then **resets during the TLS handshake**. Archived terms permit personal use only,
+>    bar commercial use, and admit many files are *"hand ripped from cds"*.
+> 6. **RESOLVED — no.** `Husary_Muallim_128kbps/merged/` exists but holds **exactly one
+>    file**, al-Baqara 97–103. `001.mp3`, `105.mp3` and `114.mp3` all 404, and
+>    `Husary_128kbps/merged/` 404s entirely — a stray leftover, not a convention. **Whole-surah
+>    playback must be concatenated client-side from per-ayah files.**
+>
+> **New, and not previously asked: word-by-word coverage is the whole Qurʾān.** Across
+> **175 verses** (all 55 of surahs 1 and 105–114 plus a 120-verse random sample) the count of
+> word files per verse matched the pinned Tanzil word count **175 of 175 exactly**, once waqf
+> marks and the prepended basmala are excluded — so the indexing is compatible with the pinned
+> text, which is the property that actually matters here. Independently spot-checked in this
+> session across surahs 1, 2, 12, 41, 52, 110 and 114, including final word positions.
+> A nonexistent position returns a clean **404**, so HTTP 200 is a sound existence test.
+> *(Identical byte counts across different words are a red herring — the files are 320 kbps
+> CBR, so equal duration gives equal size; SHA-256 confirms they differ.)*
+
+### The original list, as written 2026-07-19
 
 1. **versebyversequran.com/site/license** 301-redirected to an unreadable page during this session — re-fetch and read the actual timing-file license terms (only matters if the course ever uses everyayah's ayah *timing/segment* files, not the ayah audio itself).
 2. **QUL's actual audio dataset export** (JSON/SQLite) was not opened (requires free signup) — confirm whether it embeds direct mp3 URLs (and if so, to which host) or only timestamp offsets, and pin down QUL's own license/terms page text.
