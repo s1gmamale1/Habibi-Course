@@ -78,6 +78,28 @@ the roadmap has been carrying.
   groups are weaker or absent here. Worth checking Lingua Libre, Wiktionary and Commons
   for coverage.
 
+### Qurʾān audio: usable while free, barred if ever monetised — 2026-08-11
+
+**`docs/research/recitation-audio.md` has been amended** — read its banner before building
+anything on either source. The short version:
+
+- **EveryAyah is CC BY-NC 2.5 Canada.** The licence page died in 2012 and the doc previously
+  recorded "no explicit licence found", which was true of the live site and false of the
+  record. Recovered from the Wayback capture and **verified independently here**. It governed
+  the MP3s, not just the timing files.
+- **Quran.com's terms are stricter than recorded**: personal non-commercial use only,
+  no compiling collections, and no reproducing or **publicly displaying** Content without
+  written consent. Bulk-fetch-and-rehost is prohibited outright.
+- **So: link-only with attribution is fine while the course is free. If it is ever monetised,
+  both sources are barred**, and the clean path is CC BY 4.0 `cpfair/quran-align` timings
+  against audio the project holds rights to.
+- **The word-by-word reciter is credited "Waseem Sharif"** — found only in QUL's exporter
+  source, and absent from the API, any endpoint, and the ID3 tags. Credit exactly that and
+  assert nothing further. Pace measured at **~1.09 s/word**, about double conversational
+  speed: **well suited to isolated-word drills**.
+- **Presence on QUL is not evidence rights were cleared** — its permission model defaults to
+  `unknown` and it exports anyway.
+
 ### Open audio: the qāʿidah set is a dead end, and vocabulary nearly one — 2026-08-11
 
 **(A) The 723 letters and syllables — searched to exhaustion, ~4% servable.**
