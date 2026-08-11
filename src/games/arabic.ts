@@ -6,7 +6,18 @@
 // group appears in Uthmani text such as عَيْنٌۭ and ضَرِيعٍۢ; leaving it
 // unstripped would make baseLetters and displayLetters disagree in length and
 // silently drop the word from the game pool.
-const DIACRITICS = /[ـً-ْٰۖ-ۭ]/g;
+// Written as explicit codepoints, not literal marks: combining characters are invisible in a
+// regex literal, and the gap this fixes (U+0653-U+0655) was invisible for exactly that reason.
+//   U+0640            tatweel
+//   U+064B-U+0655     fathatan .. hamza below — INCLUDES U+0653 maddah, U+0654/5 hamza above/below
+//   U+0670            superscript (dagger) alef
+//   U+06D6-U+06ED     small high marks, sajdah and waqf signs
+//
+// U+0653 is the one that bit. The Uthmani corpus writes the maddah as a COMBINING mark over a
+// plain alif (ا + U+0653), not as precomposed آ (U+0622), so a test using the precomposed form
+// passes while the shipped words fail. 32 distinct words in content/lessons carry it; each was
+// silently dropped from the game pool because baseLetters and displayLetters disagreed in length.
+const DIACRITICS = /[ـً-ٰٕۖ-ۭ]/g;
 
 export function stripDiacritics(s: string): string {
   return s.replace(DIACRITICS, "");
