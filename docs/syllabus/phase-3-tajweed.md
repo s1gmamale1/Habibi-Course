@@ -1,5 +1,28 @@
 # Phase 3 — Tajweed & Quran (26 Lessons)
 
+> # ⛔ SUPERSEDED — do not build from this document
+>
+> **Superseded 2026-08-11.** It plans a **26-lesson** Unit 3 against the July spec. The
+> approved design is `docs/superpowers/specs/2026-08-10-tajweed-course-design.md`, and Unit 3
+> as built is **37 lessons**, `3-01`…`3-37`.
+>
+> **Two reasons nothing may be copied out of it:**
+>
+> 1. **Its lesson numbering is a different scheme.** Its `3.1`…`3.26` do not correspond to the
+>    shipped `3-01`…`3-37`. The hifz table in §2.2 is keyed to the old numbering, and pasting
+>    any row of it into a current lesson assigns the wrong memorisation.
+> 2. **Its Arabic came from a different text.** Every string here was pulled from
+>    `api.quran.com/api/v4` `text_uthmani`. The course now slices from a **pinned 2017 Tanzil
+>    snapshot**, and those two must never be mixed — cpfair's 60,057 annotations key to the
+>    Tanzil offsets, not quran.com's.
+>
+> **The live hifz map is the `hifz:` field on each lesson note** in
+> `library/04-Curriculum/Unit-3-Tajweed/`. It was audited on 2026-08-11 against the corpus:
+> all 55 āyāt of the eleven hifz surahs are assigned, with **no gaps, no duplicates, and none
+> spanning a surah boundary**. `npm run check:library` now enforces that.
+>
+> Kept for its research trail and its reasoning, which are still sound. Nothing else.
+
 **Source spec:** `docs/superpowers/specs/2026-07-19-tajweed-course-design.md`
 **Source research:** `docs/research/verified-resources.md` (canonical resource manifest), `tajweed-rules-colors.md`, `quran-text-data.md`, `recitation-audio.md`, `teaching-mistakes-assessment.md`, `arabic101.md`.
 **Status:** Master blueprint for Phase 3 content build. Every Arabic string below was pulled programmatically from `api.quran.com/api/v4` (`text_uthmani` / `words[].text_uthmani` fields, which mirror Tanzil's Uthmani text — see `quran-text-data.md` §4) on 2026-07-19 and is **not hand-typed**; word positions were read directly from the same API response so per-word audio URLs below are exact, not guessed. Re-run the same fetch at content-build time per the spec's scripted QA check before shipping.
