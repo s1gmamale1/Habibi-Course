@@ -168,6 +168,60 @@ unable to emit Qurʾānic text it did not retrieve.**
 
 ---
 
+## From the PR #5 independent review — 2026-08-12
+
+Two Important findings were **fixed in the PR** (Tanzil/cpfair attribution across all 230
+pages; a corpus-verbatim gate over `content/lessons`), plus a Moderate (`DIACRITICS` omitted
+U+0653–U+0655). These are what remain.
+
+### Important — real defects in already-shipped code, not regressions
+
+- **The seven tajweed drills are unreachable in the built app.** `SpanTapper`, `MaddCounter`,
+  `GhunnahTimer`, `RuleIdentifier`, `FamilySorter`, `ConditionBuilder`, `ListenIdentify` all
+  call `registerGame` at module level — but **nothing outside their own test files imports
+  them**, so the modules never load and the registry is empty in production. `LessonSchema`
+  has no `games` field and no caller passes `games` (`GamePanel.tsx:66`, `SlideDeck.tsx:99`,
+  `practice/[id]/page.tsx:21`). **~2,200 lines plus tests, dead.** *Verified independently in
+  this session.* **This is gamification task #1** — the games exist; reaching them is the work.
+- **PPTX export silently drops five slide kinds.** `renderSlide` (`lessonToPptx.ts:168`) has
+  cases for `title`/`concept`/`letter`/`drill`/`recap`/`homework` only. The branch adds `rule`,
+  `ayah`, `contrast`, `legend`, `mistake` — **249 such slides exist in published content**
+  (107 ayah, 55 rule, 45 mistake, 25 contrast, 17 legend) and export as bare coloured
+  backgrounds. Every arm `return`s, so TypeScript flags nothing. Add renderers **and a `never`
+  default**, so the next slide kind fails to compile instead of failing silently.
+- **`homeworkNotes` renders structured `listenFor` as `[object Object]`**
+  (`lessonToPptx.ts:194`). `schema.ts` allows the object form and Unit 2 lessons author it.
+  Format it the way `teach/[id]/page.tsx` already does.
+
+### Moderate / Minor
+
+- **`check-library` aborts instead of reporting** (`check-library.mjs:109`): `data.id.split("-")`
+  throws a TypeError on a lesson note that has a `# Lesson N-M` heading but no `id:`, killing
+  the whole gate rather than adding the error it recorded 30 lines earlier.
+- **`publishedLessonIds()` fails OPEN** (`check-library.mjs:20`): it swallows every error and
+  returns an empty `Set`, silently disabling all publish-gated checks. The path is also
+  cwd-relative while the vault argument is not. A gate that fails open is the wrong default —
+  resolve via `fileURLToPath` as `corpus.mjs` correctly does, and make an unreadable course map
+  a hard error. *Latent, not a demonstrated miss.*
+- **`onRuleTap` is dead API** (`TajweedText.tsx:7`) — no caller; if wired it would put `onClick`
+  on an `aria-hidden` span with no keyboard handler. Delete or implement properly.
+- **`role="text"`** (`TajweedText.tsx:58`) is not a standard ARIA role. *Unverified with a real
+  screen reader.*
+- **`FamilySorter.tsx:252`** — the card key is identical for a first and second wrong drop, so
+  the remount that restarts `game-shake` never happens on a repeat mistake.
+
+### The finding that outlives this PR: there is no CI
+
+`gh pr checks 5` reports no checks. **There is no `.github/` directory at all**, `check-runs`
+total 0, and branch protection is unreadable on a free-tier private repo, so no required check
+is even enforceable. **Every quality claim in this project — including the reviewer's — rests
+on gates run by hand on one laptop, and nothing re-verifies any of it after merge.**
+
+A minimal Actions workflow running `npm test`, `npm run lint`, `npm run check:library` and
+`npm run build` is the **highest-value single item in this file.** It is also a prerequisite
+for the three parallel agent sessions: without it, three branches merge into main with nothing
+checking any of them.
+
 ## Left over from Phase 7 — small, and none of it blocking
 
 - **Per-letter makhraj diagrams (7a).** 18 tongue letters still share one `lisan.jpg`, so ت,
