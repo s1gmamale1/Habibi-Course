@@ -274,3 +274,77 @@ describe("smoke against real pptxgenjs", () => {
     expect(b64.startsWith("UEs")).toBeTruthy(); // "PK" zip magic in base64
   });
 });
+
+// C-1, from the independent review of PR #5. Five slide kinds — rule, ayah, contrast, legend,
+// mistake — had no case in renderSlide and no default, so each rendered as a bare coloured
+// background: 249 blank slides across the 74 published lessons. Every switch arm returns void,
+// so TypeScript flagged nothing and all 425 tests stayed green.
+//
+// This sweeps REAL published content rather than a fixture, because the defect was invisible
+// precisely to fixtures — the six pre-existing kinds worked fine.
+describe("every published slide actually renders something", () => {
+  const emptyByKind = new Map<string, string[]>();
+
+  for (const id of allLessonIds()) {
+    const lesson = loadLesson(id);
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lesson);
+    lesson.slides.forEach((slide, i) => {
+      const rendered = deck.slides[i];
+      const objects = rendered.texts.length + rendered.images.length + rendered.tables.length;
+      if (objects === 0) {
+        const list = emptyByKind.get(slide.kind) ?? [];
+        list.push(`${id}#${i}`);
+        emptyByKind.set(slide.kind, list);
+      }
+    });
+  }
+
+  test("no slide in any published lesson exports with zero objects", () => {
+    const summary = [...emptyByKind.entries()]
+      .map(([kind, where]) => `${kind}: ${where.length} blank (e.g. ${where[0]})`)
+      .join("; ");
+    expect(summary, `blank slides in the exported deck — ${summary}`).toBe("");
+  });
+
+  test("all five tajweed slide kinds are present in the content being swept", () => {
+    // Guards the test above against passing because the content stopped containing them.
+    const kinds = new Set(allLessonIds().flatMap((id) => loadLesson(id).slides.map((s) => s.kind)));
+    for (const k of ["rule", "ayah", "contrast", "legend", "mistake"]) {
+      expect(kinds.has(k as never), `no ${k} slide in published content — sweep proves nothing`).toBe(true);
+    }
+  });
+});
+
+// I-3, same review. `listenFor` entries are a string OR a structured object; the notes builder
+// interpolated both, so 367 entries across 59 lessons exported as "- [object Object]" in the
+// speaker notes a teacher reads while teaching.
+describe("speaker notes format structured listenFor entries", () => {
+  test("no exported note anywhere contains [object Object]", () => {
+    const offenders: string[] = [];
+    for (const id of allLessonIds()) {
+      const deck = new FakeDeck();
+      buildLessonDeck(deck, loadLesson(id));
+      for (const s of deck.slides) {
+        if (s.notes.join("\n").includes("[object Object]")) offenders.push(id);
+      }
+    }
+    expect([...new Set(offenders)]).toEqual([]);
+  });
+
+  test("a structured entry contributes its item and correction cue", () => {
+    const id = allLessonIds().find((i) =>
+      loadLesson(i).teacherNotes.listenFor.some((s) => typeof s !== "string"),
+    );
+    expect(id, "no lesson uses the structured form — this test proves nothing").toBeTruthy();
+    const lesson = loadLesson(id as string);
+    const entry = lesson.teacherNotes.listenFor.find((s) => typeof s !== "string");
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lesson);
+    const notes = deck.slides.map((s) => s.notes.join("\n")).join("\n");
+    if (entry && typeof entry !== "string") {
+      expect(notes).toContain(entry.item);
+      expect(notes).toContain(entry.correctionCue);
+    }
+  });
+});
