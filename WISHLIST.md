@@ -22,10 +22,23 @@ need completely different solutions:
 
 | Group | Distinct | What it is | Route |
 |---|---|---|---|
-| **Qurʾānic words** | **254** | exact matches to a word in the pinned corpus | Word-by-word CDN, link-only — but **blocked on a missing `ref` field**, see below |
+| **Qurʾānic words** | **254** exact, **575** normalised | matches to a word in the pinned corpus | Word-by-word CDN, link-only — but **blocked on a missing `ref` field**, see below |
 | **Single letters** | **213** | the 29 letters across their harakat | The genuine recording gap |
 | **Syllables** | **510** | 2–3 letter qāʿidah drill units | The genuine recording gap |
-| **Ordinary vocabulary** | **658** | everyday MSA nouns — ثعلب، خليج، قميص، كتاب، مسجد، حصان، بخار | **Not scripture.** Open pronunciation dictionaries may cover these |
+| **Ordinary vocabulary** | **535** | non-Qurʾānic words — ثعلب، خليج، قميص، حصان، بخار، كرسي | Only **7.7%** covered by open audio — see below |
+
+> **Two numbers here were corrected after first measurement, both by testing rather than
+> estimating.**
+>
+> **The Qurʾānic count was an undercount.** Exact string matching gives 254, but the corpus
+> is Uthmānī (ٱلصِّرَٰطَ) while lessons often write standard orthography (صِرَاط).
+> Normalising hamza forms and superscript alif recovers **321 more**, for **575**. *Caveat,
+> and it matters: a normalised match is not proof of the same word **form**.* Serving the
+> audio of ٱلصِّرَٰطَ against a slide reading صِرَاط would hand the student audio that does
+> not match the text in front of her. **575 is an upper bound to be checked form-by-form,
+> not a confirmed count.**
+>
+> **The vocabulary count therefore dropped** from 658 to **535** truly non-Qurʾānic words.
 
 **Why this matters.** The project's standing conclusion — *"no openly-licensed,
 full-coverage audio set exists"* — was reached about the course as a whole. Broken down,
@@ -64,6 +77,67 @@ the roadmap has been carrying.
   Qurʾānic text, so both the licensing and the religious objections that block the other
   groups are weaker or absent here. Worth checking Lingua Libre, Wiktionary and Commons
   for coverage.
+
+### Open audio: the qāʿidah set is a dead end, and vocabulary nearly one — 2026-08-11
+
+**(A) The 723 letters and syllables — searched to exhaustion, ~4% servable.**
+
+Two open sets exist, and **both give bare letter identity only, never letter-plus-harakah**:
+
+- **`elsanussi-s-mneina/arabic-alphabet-audio-speller-html-js`** (GitHub) — **MIT, re-hosting
+  permitted**, 31 items covering all 28 letters plus ء ة ى, mp3 *and* ogg, **named by Unicode
+  codepoint** so it joins cleanly to lesson data. The author states he recorded it himself,
+  so provenance is claimed by the licensor rather than scraped. **But it is the letter
+  *names* with tanwīn endings** (*bāʾun*, *tāʾun*), which is probably the wrong form for
+  drills.
+- **Lingua Libre speaker `AlNatiq` on Wikimedia Commons** — **CC0**, the cleanest licence
+  possible, 48 kHz WAV. **23 of 28 letters**, each checked individually against the API.
+  Missing **ب د ز ظ و**. Gaps are partly fillable from other speakers, but that means a
+  different voice and dialect mid-alphabet; **ز and ظ were not found from any speaker.**
+
+**Why that is only ~4% of 723.** The ~184 harakat variants (بَ بِ بُ بْ بّ بً) and all 510
+joining drills have **nothing**. This was verified directly, not inferred: a Commons search
+for audio tagged فتحة / كسرة / ضمة / سكون / شدة / تنوين returns **zero results**, and
+`Category:Arabic diacritics` holds images and one video with **no audio at all**.
+
+**Treat the open-set search for (A) as closed.** Open sources shrink the recording job by
+about 29 items, not 213.
+
+**Clean negatives worth keeping so nobody repeats the search:** Forvo relicensed its audio as
+exclusive property in 2019 and forbids caching. Mozilla Common Voice is CC0 **but its terms
+forbid re-hosting the dataset**, and it is read sentences with no letters anyway. Two
+Archive.org alphabet items declare **no licence** (`opensource` collection membership is an
+upload path, not a licence grant). ~20 GitHub "Noorani Qaida" repos are empty stubs or scans,
+none licensed, none bundling audio. One repo tags 32 mp3s MIT with an empty readme and **no
+authorship claim** — unusable. A Hugging Face set with 28 letters and 40,646 clips is **child
+speakers**: an ASR training corpus, not audio a learner should imitate.
+
+**(B) The 535 ordinary words — 7.7%, and the shortfall is not random.**
+
+Lingua Libre is genuinely the right resource — the SPARQL endpoint is live, the licences are
+clean and **re-hosting is permitted throughout** (CC0 for two speakers, CC BY-SA for the
+majority; share-alike binds derivatives, so trimming or normalising a file keeps it BY-SA).
+
+**But measured against this course's actual words rather than a generic list, it serves 41 of
+535 — 7.7%.** The research estimated ~61% from an independent 80-word list of everyday
+concrete nouns; running the real payloads against the full 7,842-row wordlist gives 7.7%.
+**494 words are neither Qurʾānic nor in any open corpus.**
+
+**The reason is the interesting part.** This course's vocabulary is not everyday nouns. It is
+loaded with **minimal pairs chosen to drill the contested letters** — ضَعِيف، قِصَاص،
+نَاضِرَة / نَاظِرَة، غَلِيظ، عَرِيض. **The words were selected precisely for the sounds that
+general corpora under-serve and that MSA TTS flattens.** So both candidate solutions are
+weakest exactly where this course needs them most. That is not bad luck; it follows from what
+the course is for.
+
+**And even the 7.7% has a voice problem.** Those hits come from ~9 speakers of different
+nationalities whose native-language status is unknown — Commons file pages carry **no
+speaker-language field**. For a course whose whole premise is correct articulation, a
+vocabulary layer stitched from nine possibly-non-native, possibly-dialect-coloured voices is
+arguably worse than silence. Lingua Libre's own speaker profiles *do* record native language,
+so the filter exists — but it must be applied at their end, and it will cut 7.7% further.
+
+**Nobody has listened to any of it.** Not one file in section (A) or (B) has been auditioned.
 
 ### Video: a complete 29-letter CC-BY series — 2026-08-11
 
