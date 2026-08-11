@@ -143,6 +143,11 @@ export const LessonSchema = z.object({
   title: z.string().min(1),
   objectives: z.array(z.string()).min(1).max(4),
   prerequisites: z.array(z.string().regex(/^\d-\d{2}$/)).default([]),
+  // Drill ids this lesson wants, resolved through GameRegistry. 33 lessons already author
+  // this field; until it was declared here Zod stripped it, so `lesson.games` was always
+  // undefined and the tajweed drills were unreachable however well they were registered.
+  // Unknown ids degrade to "not shown" rather than throwing — see getGames().
+  games: z.array(z.string()).default([]),
   stage: z.string().optional(),
   slides: z.array(SlideSchema).min(8).max(24), // spec: 8–18 typical; extended to 24 for the Unit 1.2 joining lessons
   practice: z.object({ drills: z.array(DrillSchema), dailyChecklist: z.array(z.string()).min(1) }),
