@@ -9,6 +9,101 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 
 ---
 
+## 2026-08-11 — the next product: accounts, library, richer practice, an AI tutor
+
+**Captured, not scoped.** The owner's direction: user registration and account management so
+people can log in and view their own progress; expanded practice and gamification in a
+Quizlet-like style; a **library tab** exposing the sources and extra materials with embedded
+YouTube; and later an **AI assistant/tutor** that helps a student learn.
+
+### The one decision everything else waits on
+
+**This app is a pure static export.** `next.config.ts` is three lines —
+`{ output: "export" }` — and there is **no server, no database and no session anywhere in the
+project.** Progress today is a `localStorage` key in `ProgressClient.tsx`: anonymous,
+single-device, and lost when the browser is cleared.
+
+**Accounts cannot be added to a static export.** So the first decision is not a feature, it is
+the runtime:
+
+| Option | What it means | Cost |
+|---|---|---|
+| **Auth-as-a-service** (Clerk, Supabase, Firebase) | Keep static hosting; identity and the progress table live in someone else's backend, called from the browser | Fastest. Adds a vendor, a monthly bill past the free tier, and puts student data in their jurisdiction |
+| **Drop `output: "export"`** | Next.js with a real server runtime — route handlers, sessions, a database of our own | Full control, no vendor. Hosting stops being a static bucket, and every one of the 230 pages needs re-thinking about what is rendered when |
+| **Stay static, sync nothing** | Keep localStorage, add export/import of a progress file | Free, private, no accounts. Does not deliver what was asked |
+
+**Recommendation: decide this before writing any feature code**, because it determines whether
+the AI tutor is even possible — **an API key cannot ship in a static bundle**, so a tutor needs
+a server or a proxy no matter which way the auth question goes.
+
+### The part that needs none of it, and should go first
+
+**The library tab is buildable today on the current architecture.** It needs no accounts, no
+server and no new licensing: the content already exists as **183 vault notes**, five vendored
+classical sources, and 182 `youtube-cue` entries already validated by the schema. It is a
+routing and presentation job over material that is already written and already gated.
+**Ship it first** — it is the only item on this list that is pure gain with no architectural
+fork.
+
+### What changes the moment there is a second user
+
+Everything below is currently fine *because the course has one student*. Registration ends
+that, and each becomes a real obligation rather than a note:
+
+- **`/teach/<id>` is obscurity-only.** All **74 teacher notes** ship in the same public static
+  bundle. With accounts, "the teacher view" must actually be a role, not an unguessed URL.
+- **Both Qurʾān audio sources are non-commercial.** EveryAyah is CC BY-NC 2.5 Canada;
+  Quran.com's terms are personal-non-commercial and bar public display without consent.
+  **A free public course is fine. Anything monetised is not**, and that decision is easier to
+  make now than after the audio is wired in.
+- **The KFGQPC font ships unmodified under its own licence** — re-check the terms before
+  serving it to a general audience rather than one household.
+- **Accessibility stops being politeness.** The open items (popover `role="dialog"`, duplicate
+  lesson-row link names) are small now and awkward to retrofit across a bigger app.
+- **Learner data.** This teaches children Qurʾānic recitation, so registrations will include
+  minors. Collecting names, emails or progress on children carries real obligations under
+  GDPR-K and COPPA-style rules, and they are **much cheaper to design in than to bolt on** —
+  parent-held accounts, minimal fields, a deletion path. Worth deciding the data model with
+  this in mind before the first row is written.
+
+### Practice and gamification
+
+The engine is further along than it looks: **14 games already ship** — 7 general
+(Flashcards, FormSwap, WordBuilder, LetterQuiz, SpotTheLetter…) and 7 tajweed-specific
+(SpanTapper, MaddCounter, GhunnahTimer, RuleIdentifier, FamilySorter, ConditionBuilder,
+ListenIdentify), all behind a `GameRegistry`. So "Quizlet-style practice" is mostly **spaced
+repetition and a score history**, which is precisely the part that needs the persistence layer
+above. **The games are not the missing piece; the memory of them is.**
+
+### The AI tutor — one design note worth recording early
+
+This project's whole discipline is that **Qurʾānic text is never hand-typed and every rule
+cites a vendored source**. A generative tutor that free-associates about tajwīd would violate
+that in a way no gate can catch — it would be the most authoritative-sounding wrong text in
+the app. Whatever it eventually is, it should be **grounded in the 183-note vault and the
+pinned corpus**, and it should be unable to emit Qurʾānic text it did not retrieve. Recording
+this now because it is an architecture constraint, not a prompt-writing detail.
+
+---
+
+## Left over from Phase 7 — small, and none of it blocking
+
+- **Per-letter makhraj diagrams (7a).** 18 tongue letters still share one `lisan.jpg`, so ت,
+  ض and ك look identical. **The largest fixable gap, and it is pedagogical.** Unblocked:
+  `codex` CLI 0.147.0 is installed. Owner rejected line-art SVGs — match the existing raster
+  style, and generate one or two for approval before committing to all ten.
+- **Popover `role="dialog"`/`aria-modal` and dismissal.** `SlideDeck.tsx:223` handles Escape
+  for navigation, not for popovers.
+- **Lesson-row links share accessible names** — "Lesson"/"Practice" repeat across every row;
+  `CourseMap.tsx` sets no `aria-label`.
+- **Games test sweep** — duplicate-letter words, round-advance clicks, SpotTheLetter's
+  fallback-to-glyph, empty-pool guards, single-letter `contextualGlyphs`. Effort: M.
+- **`allLessons()` re-parses every lesson JSON per page at build** — O(N²), now 74 lessons and
+  230 pages. Still fast; the premise has just changed. `src/content/load.ts`.
+- **`/teach` gating** — see above; trivial today, mandatory the moment accounts exist.
+
+---
+
 ## Audio — the real shape of the gap
 
 > Superseded the old *"1,493 tap targets are teacher-voice"* line, which was wrong twice
@@ -330,10 +425,6 @@ which the terms nowhere define.
   it belonged to**, persisting through the winning pick.
 - ✅ **DONE** — `ExportPptxButton` has a visually-hidden `role="status"` region. A label
   change on a focused control is not announced, and export runs for seconds and can fail.
-- **Tap popovers have no `role="dialog"`/`aria-modal`** and no outside-click dismissal.
-  (`SlideDeck.tsx:223` handles Escape, but for navigation, not popover dismissal.) **Open.**
-- **Lesson-row links share identical accessible names** ("Lesson"/"Practice") across rows;
-  `CourseMap.tsx` sets no `aria-label`. **Open.**
 
 ## PPTX export
 
