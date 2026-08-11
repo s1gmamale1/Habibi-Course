@@ -16,6 +16,11 @@ const eslintConfig = defineConfig([
     ".claude/**",
     ".claude-flow/**",
     ".swarm/**",
+    // Git worktrees live at .worktrees/<branch>/ inside the repo, so each is a
+    // second full copy of the project. Linting them means this branch's gate
+    // reports another branch's errors — misleading, and it hides your own.
+    // A worktree lints itself from its own root, where this pattern does not match.
+    ".worktrees/**",
   ]),
 ]);
 

@@ -18,6 +18,33 @@ describe("TajweedText", () => {
     expect(container.querySelector(".tajweed-text")!.innerHTML).not.toMatch(/>\s+</);
   });
 
+  it("gives the silent family no underline at all", () => {
+    // UNDERLINE is the redundant channel: each rule FAMILY gets a distinct
+    // text-decoration-style so the information survives greyscale and colour
+    // blindness. The silent family is deliberately the exception — a silent
+    // letter's whole signal is that it is grey and unobtrusive, so it carries
+    // `"none"`.
+    //
+    // That value was reaching `text-decoration-style`, where `none` is not a
+    // legal value (solid | double | dotted | dashed | wavy). The declaration was
+    // dropped and the style fell back to the initial `solid`, so every silent
+    // span rendered with an underline it was explicitly meant not to have —
+    // 647 of the course's 1,972 spans, a third of them. Caught in Safari, but
+    // every engine does the same thing.
+    const { container } = render(<TajweedText text={text} spans={spans} />);
+    const el = container.querySelector<HTMLElement>("[data-rule='hamzat_wasl']")!;
+    expect(el.style.textDecorationLine === "" || el.style.textDecorationLine === "none").toBe(true);
+    expect(el.style.textDecorationStyle).not.toBe("none");
+  });
+
+  it("still gives a decorated family its distinct underline style", () => {
+    const madd = [{ start: 0, end: 3, rules: ["madd_2"] }];
+    const { container } = render(<TajweedText text={text} spans={madd} />);
+    const el = container.querySelector<HTMLElement>("[data-rule='madd_2']")!;
+    expect(el.style.textDecorationLine).toBe("underline");
+    expect(el.style.textDecorationStyle).toBe("solid");
+  });
+
   it("labels the container with the plain ayah for screen readers", () => {
     render(<TajweedText text={text} spans={spans} />);
     expect(screen.getByLabelText(text)).toBeTruthy();

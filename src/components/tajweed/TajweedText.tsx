@@ -33,10 +33,18 @@ export function TajweedText({
         onClick={onRuleTap ? () => onRuleTap(primary) : undefined}
         style={{
           color: colours[primary],
-          textDecorationLine: meta ? "underline" : undefined,
-          textDecorationStyle: meta
-            ? (UNDERLINE[meta.family] as React.CSSProperties["textDecorationStyle"])
-            : undefined,
+          // `UNDERLINE` carries "none" for the silent family, meaning *no underline*
+          // — a silent letter's whole signal is that it is grey and unobtrusive.
+          // That has to suppress the LINE. Passing it to `text-decoration-style`
+          // instead is silently inert: "none" is not a legal style value
+          // (solid | double | dotted | dashed | wavy), so the declaration is dropped
+          // and the style falls back to `solid` — drawing the underline it was meant
+          // to remove, on a third of every span in the course.
+          textDecorationLine: meta && UNDERLINE[meta.family] !== "none" ? "underline" : undefined,
+          textDecorationStyle:
+            meta && UNDERLINE[meta.family] !== "none"
+              ? (UNDERLINE[meta.family] as React.CSSProperties["textDecorationStyle"])
+              : undefined,
           opacity: dimmed ? 0.25 : undefined,
         }}
       >

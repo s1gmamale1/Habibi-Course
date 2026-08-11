@@ -34,6 +34,8 @@ and recorded that here.
 | 2026-08-10 | Qalqalah letter split | قطب جد against the two letter-note batches | agent | Corrected an error in the dispatch brief: ج was assigned to the wrong batch |
 | 2026-08-10 | **Arabic shaping across coloured spans** | live render in Chrome, lessons `3-01` and `3-03` | lead | **PASSES.** al-Fātiḥa 1:2 and 1:7 render fully joined with rule spans applied. `ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ` keeps its lām-alif ligature and holds ض+shadda / آ maddah / لّ+shadda together with a `madd_6` span sitting on top. 7 spans, 5 rules, `whitespaceBetweenSpans: false` in the real DOM. Isolate mode dims correctly without breaking joining. **Safari still untested** |
 | 2026-08-10 | The 5 rā' isti'lā exception words | pinned corpus | agent + lead | **Resolved.** `phase-3-tajweed.md:18` asked for these to be "verified against Tanzil before use" and `:715` listed them without refs. Now pinned and verified: قِرْطَاسٍ **6:7** · إِرْصَادًا **9:107** · فِرْقَةٍ **9:122** · مِرْصَادًا **78:21** · لَبِٱلْمِرْصَادِ **89:14**. See [[Ra-Tafkhim]] |
+| 2026-08-11 | **Arabic shaping across coloured spans — Safari / WebKit** | live render in Safari of al-Fātiḥa 1:6 and 1:7, each drawn twice: once split into coloured spans exactly as `TajweedText` emits them, once as one unbroken string | lead | **PASSES.** Letterforms are identical between the spanned and unspanned lines — the lām-alif ligature in وَلَا survives, and ٱلضَّآلِّينَ holds ضّ + آ + لّ together with a `madd_6` span sitting across it. **Splitting Arabic across `<span>` elements does not break shaping in WebKit.** With the 2026-08-10 Chrome result, both engines are now verified |
+| 2026-08-11 | Span decoration styles, both engines | same render — comparing each span's `text-decoration` against what `UNDERLINE` intends | lead | **Found a live bug, since fixed.** `UNDERLINE.silent = "none"` was reaching `text-decoration-style`, where `none` is not a legal value, so the declaration was dropped and the style fell back to `solid` — drawing an underline under **647 of the course's 1,972 spans (33%)** that was explicitly meant to be absent. Visible as a dash beside every grey hamzat al-waṣl. See below |
 | 2026-08-10 | Which rules lack an in-hifz-set example | counted every annotation in surahs 1 + 105–114 | lead | **Corrected a standing assumption.** Only **iqlāb (0)** and **idghām mutaqāribayn (0)** genuinely lack one. **[[Idgham-Shafawi]] has 2**, both in Quraysh 106:4, so it does *not* need the "outside your memorized surahs" label. [[Ikhfa-Shafawi]] has 1 (105:4), idghām mutajānisayn 1 (109:4), [[Madd-Lazim]] 1 (1:7) |
 
 > **Quraysh 106:4 is the single best teaching ayah in the course.** It carries **four rules
@@ -91,10 +93,22 @@ Nothing published moved: no `3-xx` id appears in `course.json`.
    but all 59 rule notes are still `status: draft` — nothing has been checked by a human
    against its sources. The 42 warnings are that backlog. The `draft` flag on every lesson
    is what lets the content exist without reaching a learner.
-3. **Arabic shaping — verified in Chrome, still unverified in Safari.** jsdom does not shape
-   text, so this needed a real browser. Chrome renders correctly (see the human-verified
-   table above). Safari uses a different engine and remains untested; check it before any
-   public launch.
+3. ~~**Arabic shaping — verified in Chrome, still unverified in Safari.**~~ **Resolved
+   2026-08-11. Both engines verified.** Safari renders spanned and unspanned Arabic
+   identically; see the human-verified table.
+
+   > **The check was worth running for a reason it was not designed to find.** Shaping was
+   > fine in both engines — but rendering the same āyah twice, spanned against plain, put a
+   > stray dash next to every grey hamzat al-waṣl in plain sight. `UNDERLINE.silent = "none"`
+   > was being passed to `text-decoration-style`, where `none` is not a legal value, so it
+   > was **silently inert**: the declaration was dropped and the style fell back to `solid`,
+   > drawing the underline it was written to remove. A third of all spans in the course,
+   > wrong in both Chrome and Safari, for as long as the renderer has existed.
+   >
+   > Nothing would have caught it. It breaks no schema, fails no test, throws no CSS error —
+   > an invalid value in an inline style is simply ignored. It was only visible because the
+   > page put the correct rendering next to it. **A control is not just for the thing you
+   > are testing.**
 
 ## Carried forward
 
