@@ -184,14 +184,16 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 **Goal.** Nothing in the vault is verified-by-assumption.
 
 **Deliverables.**
-- Safari shaping verification recorded in the log's human-verified table
+- ✅ **DONE 2026-08-11 —** Safari shaping verification recorded in the log's human-verified table (hotlist #4)
 - Waqf-sign position data, or a written decision to ship without the placement drill
 - Dar al-Maʿrifah hex values sampled from a physical muṣḥaf, or Family A withdrawn
 
-**Why now.** Last, because none of it blocks a learner today — Family B is the pinned default and Chrome is verified.
+> **1 of 3 delivered; the two that remain are blocked on the world, not on effort.** Both need an artifact that does not exist in any vendored dataset — a waqf-position source and a photographed muṣḥaf. Neither blocks a learner: Family B is the pinned default, and the placement drill is the only thing the waqf data gates.
+
+**Why now.** Last, because none of it blocks a learner today — Family B is the pinned default and both engines are now verified.
 
 **Scope.**
-- Render `3-01` and `3-03` in Safari and check the lām-alif ligature survives a `madd_6` span, exactly as recorded for Chrome
+- ~~Render `3-01` and `3-03` in Safari and check the lām-alif ligature survives a `madd_6` span, exactly as recorded for Chrome~~ — done; the check also surfaced the 33%-of-spans underline bug, see hotlist #4
 - Waqf-sign positions are in **neither** vendored dataset: the pinned Tanzil text omits waqf signs by design and cpfair does not annotate them
 - Sample Dar al-Maʿrifah colours from print; the archive.org scan 503s on every attempt
 
