@@ -9,8 +9,8 @@ colour_b: "#537FFF"
 harakat: 2
 taught_in: "3-28"
 prerequisites: [madd_tabii]
-status: needs-review
-sources: ["[[Tuhfat-al-Atfal]]"]
+status: verified
+sources: ["[[Nihayat-al-Qawl-al-Mufid]]"]
 examples:
   - ref: "4:86"
     text: "حُيِّيتُم"
@@ -65,19 +65,37 @@ length, executed with more deliberation. Nothing is added except clarity.
 > the whole point of the rule. But say plainly that the disagreement is about
 > labelling, not sound.
 
-> ### ⚠ Status: needs-review — and the search above settles which side is which
+> ### ✅ Status: verified 2026-08-11 — and the disagreement above is now settled
 >
-> **No matn in this vault names it.** *tamkīn* occurs zero times in
-> [[Tuhfat-al-Atfal]], [[Muqaddimah-Jazariyyah]] and [[Shatibiyyah]] alike, and unlike
-> [[Madd-Iwad]] there is no indirect attestation either — nothing in the three texts
-> presupposes it.
+> **[[Nihayat-al-Qawl-al-Mufid]] names and defines it**, twice, from two directions.
 >
-> That is evidence *for* the second position recorded above: the scholars who decline
-> to name tamkīn are the ones the classical matns agree with. **It remains a useful
-> teaching label and the recitation is not in question** — a madd ṭabīʿī given care so
-> two identical letters stay audible — but it should be presented as pedagogy rather
-> than as transmitted doctrine. Verifying it needs a tajwīd manual that states it as a
-> rule. *(Found 2026-08-11.)*
+> **As item 15 of its madd taxonomy**, printed page ١٩٤:
+> *"when a wāw sākinah with a ḍammah before it meets another wāw, as in ءَامَنُوا۟
+> وَعَمِلُوا۟, or a yāʾ sākinah with a kasrah before it meets another yāʾ, as in فِى
+> يَوْمَيْنِ — the two must be separated **by a light madd of the measure of madd
+> ṭabīʿī**, guarding against assimilation or elision."*
+>
+> **And as the second condition for idghām**, printed page ١٤٩ — the better of the two,
+> because it gives the rule's *purpose*: a madd letter blocks assimilation *"lest the
+> madd be lost to the idghām — **and this type is what they call madd at-tamkīn**."*
+> That passage names this note's own example ٱلَّذِى يُوَسْوِسُ.
+>
+> So the three matns' silence was a scope limit, not a verdict. The length is stated
+> outright — *the measure of madd ṭabīʿī*, 2 ḥarakāt — as is the failure it guards
+> against.
+>
+> ### ⚠ Form 1 is attested, but not under this name
+>
+> Both statements above cover **Form 2 only**. Form 1 is attested separately at printed
+> page ١٠٤, where al-Juraysī quotes **al-Marʿashī**: when a yāʾ is repeated in a word or
+> across two, both must be made distinct — *"**especially when one of them carries
+> shaddah and kasrah**, as in … وَإِذَا حُيِّيتُم. If the reciter is not careful, one of
+> the two drops out of the recitation."* Same mechanism, same purpose, same failure.
+>
+> **But it is required there under *bayān* — making the two distinct — not under the
+> label tamkīn.** The rule is transmitted; filing both forms under one name is a modern
+> convenience. Teach both, and do not claim the name covers both in the classical
+> sources.
 
 ## Common mistakes
 
