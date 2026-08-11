@@ -187,7 +187,10 @@ Checked directly against the text, not assumed:
   for `المستطيل` are about the *istiṭālah* of ḍād, an unrelated sense. The round and oblong
   zeros belong to the **rasm and ḍabṭ** tradition, not the tajwīd one — see [[Silent-Letters]].
 - **The Madinah waqf-sign set.** Nothing on صلى or قلى as printed marks. See [[Waqf-Signs]].
-- **يَبْصُۜطُ, resolved.** `بَسْطَة` / `بَصْطَة` appears once, as a worked example of canonical
-  variation *in the letters, differing in form but not in meaning* — which confirms both
-  readings are genuinely transmitted rather than a printing artefact, but does not say which
-  Ḥafṣ reads. See [[Hafs-Special-Words]].
+- **يَبْصُۜطُ, not resolved.** `بَسْطَة` / `بَصْطَة` occurs once in the OCR layer, in the
+  chapter on the compilation of the muṣḥaf, as a worked example of canonical variation *in the
+  letters, differing in form but not in meaning*. **This one was NOT read off the scan** — the
+  page estimate landed at printed ٢٤٨, which is past it, and it was not worth further hunting
+  because even if confirmed it only shows both readings are transmitted rather than a printing
+  artefact. It does not say which Ḥafṣ reads. Treat it as a lead, not a citation. See
+  [[Hafs-Special-Words]].

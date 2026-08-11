@@ -97,6 +97,15 @@ examples:
 > leaves `needs-review`.** Do not resolve it from secondary web sources.
 >
 > Everything else in this note is stable; the status reflects those two words.
+>
+> **Checked 2026-08-11 and still open.** [[Nihayat-al-Qawl-al-Mufid]] was searched for
+> these words. `بَسْطَة`/`بَصْطَة` surfaces once in its OCR layer, in the chapter on the
+> compilation of the muṣḥaf, as a worked example of variation *in the letters, differing
+> in form but not in meaning* — i.e. **both readings are transmitted**, which is what
+> this note already says. **That hit was not read off the scan and is a lead, not a
+> citation.** Even confirmed it would not say which Ḥafṣ reads, so it does not move the
+> status. The blocker stands exactly as written above: a physical Madinah muṣḥaf and a
+> licensed teacher.
 
 ## What these are
 
