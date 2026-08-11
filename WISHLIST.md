@@ -44,6 +44,14 @@ the roadmap has been carrying.
   `content/lessons/`. Matching on the Arabic string alone cannot resolve it — a word like
   ٱلْحَمْدُ occurs many times, and the word's *index within its ayah* is needed too.
 
+  **Coverage is confirmed whole-Qurʾān** *(tested directly 2026-08-11, not taken on trust)*:
+  words sampled from surahs 1, 2, 12, 41, 52, 110 and 114 all return HTTP 200 with real
+  audio, including last-word positions (`002_245_016`, word 16 of 16; `041_044_030`, 30 of
+  30). Two responses had identical byte counts, which looked like a placeholder being served
+  for missing words — **SHA-256 shows them genuinely distinct**, and a nonexistent position
+  (`110_002_099`) returns a clean **404**. So HTTP 200 is a trustworthy existence test, and
+  the filename list can be precomputed at build time with confidence.
+
   **The refs do exist, just on the other side of the pipeline:** the library notes carry
   **207 distinct `ref:` values across 780 example entries**, and ADR-003 makes the note the
   source of record. So the work is: add an optional `ref` to `ArabicItemSchema`, carry it
