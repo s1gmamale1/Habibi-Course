@@ -41,15 +41,41 @@ Some letters are **written but not recited**. In the Uthmānī orthography this 
 never an error or an archaism to be ignored — the mushaf marks each case
 explicitly, and the mark tells you *when* the letter is silent.
 
-> ### ⚠ Status: needs-review — the cited source covers only one of the three
+> ### ⚠ Status: needs-review — but the blocker is now a named book, not a void
 >
 > This note's `sources` field names [[Muqaddimah-Jazariyyah]]. That matn supports
 > **§1 only**: hamzat al-waṣl, treated at its v. 101–103. The two zeros in §2 and
 > §3 are **not in it** — الصفر, المستدير and المستطيل do not occur anywhere in the
-> text. They are a convention of modern Uthmānī *printing*, not a ruling from the
-> matn, and **no vendored source in this vault covers them.** The content is
-> standard and is not in doubt; what is missing is a citation that supports it.
-> *(Found 2026-08-11.)*
+> text. *(Found 2026-08-11.)*
+>
+> **Checked and ruled out: the tajwīd shelf is the wrong shelf.**
+> [[Nihayat-al-Qawl-al-Mufid]] was searched directly — a several-hundred-page tajwīd
+> encyclopedia compiled from twenty-four works — and it does not treat the zeros at
+> all. `الصفر` and `المستدير` occur zero times in it; the two hits for `المستطيل` are
+> about the *istiṭālah* of ḍād, an unrelated sense. This is not an omission. **Marking
+> the muṣḥaf is the science of *ḍabṭ*, which is a different discipline from tajwīd** —
+> tajwīd governs what the mouth does, ḍabṭ governs what the page shows.
+>
+> **The right shelf, and a line located on it.** The classical ḍabṭ tradition runs
+> through **al-Kharrāz (d. 718 AH)** — *Mawrid al-Ẓamʾān* and its *Dhayl fī Ḍabṭ
+> al-Qurʾān* — which is public domain. Its ḍabṭ verses use **دارة**, a small circle,
+> for a letter written but *added* (زائد) and so unpronounced: a line reading
+> *"فدارة لزم ذا المزيدا"* sits in its section on added yāʾs. **That is the ancestor of
+> the modern ṣifr mustadīr**, and it means the convention is a documented tradition
+> rather than an unattributed printing habit.
+>
+> **Why it is still `needs-review`.** That line was found in a degraded OCR layer of a
+> *modern, in-copyright* commentary, and **was not read off a legible scan** — the one
+> full scan of the Kharrāz ḍabṭ tradition reachable so far (`archive.org/details/
+> dalil_al7yran`) was OCR'd with a **Latin-alphabet model** and contains zero Arabic
+> characters, so it cannot be searched at all. Citing the line as it stands would repeat
+> exactly the mistake this vault has already made twice.
+>
+> **What would settle it:** a legible copy of **متن الذيل في ضبط القرآن** (al-Kharrāz,
+> d. 718 AH — public domain, so vendorable in full). Failing that, the **muṣḥaf's own
+> printed legend** is the operative authority for the modern two-zero distinction and
+> would give a correct citation with no vendored text — the outcome already accepted for
+> in-copyright works.
 
 ## The three sources of silence
 
