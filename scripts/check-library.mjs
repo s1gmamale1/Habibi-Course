@@ -103,8 +103,12 @@ export function checkVault(dir, corpus) {
       // Compared by NUMBER, not by string: "2.8" and "2-08" are the same lesson
       // written two ways, and both spellings are in use. Only a genuine
       // disagreement — 3.27 against 3-28 — is an error.
+      // Guarded on `data.id` as well as the heading: a note with a "# Lesson 3-27" heading and
+      // no `id:` used to throw a TypeError out of here and abort the ENTIRE gate — swallowing
+      // the missing-id error this same pass had already recorded 30 lines above. A checker that
+      // dies on the error class it exists to report is worse than no checker.
       const h1 = body.match(/^#\s+Lesson\s+(\d+)[-.](\d+)/m);
-      if (h1) {
+      if (h1 && typeof data.id === "string") {
         const [, phase, num] = h1;
         const [idPhase, idNum] = data.id.split("-");
         if (Number(phase) !== Number(idPhase) || Number(num) !== Number(idNum)) {
