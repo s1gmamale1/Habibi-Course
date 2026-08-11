@@ -321,50 +321,45 @@ which the terms nowhere define.
   precompute filenames at build time rather than calling the API at runtime
   (`docs/research/recitation-audio.md` §4.2) — but not executed.
 
-## Accessibility — partially done, narrowed
+## Accessibility — mostly closed 2026-08-11
 
-The newer tajweed games (`ListenIdentify`, `RuleIdentifier`) now carry `aria-live="polite"`.
-What remains:
-
+- ✅ **DONE** — locked/solved tiles in `FormSwap` and `LetterQuiz` now carry `aria-disabled`.
+  Deliberately **not** `disabled`, which would drop them out of the tab order mid-round and
+  move focus unexpectedly; they stay reachable for review while announcing that they no
+  longer act. Fixing this also surfaced a real bug: **a wrong pick's shake outlived the guess
+  it belonged to**, persisting through the winning pick.
+- ✅ **DONE** — `ExportPptxButton` has a visually-hidden `role="status"` region. A label
+  change on a focused control is not announced, and export runs for seconds and can fail.
 - **Tap popovers have no `role="dialog"`/`aria-modal`** and no outside-click dismissal.
-  (`SlideDeck.tsx:223` handles Escape, but for navigation, not popover dismissal.)
-- **Locked/solved game tiles remain tabbable click-no-ops** in `FormSwap.tsx` and
-  `LetterQuiz.tsx` — neither sets `disabled`/`aria-disabled`. `WordBuilder.tsx` does.
+  (`SlideDeck.tsx:223` handles Escape, but for navigation, not popover dismissal.) **Open.**
 - **Lesson-row links share identical accessible names** ("Lesson"/"Practice") across rows;
-  `CourseMap.tsx` sets no `aria-label`.
-- **`ExportPptxButton.tsx` announces status only via the button label** — needs
-  `aria-live="polite"`/`role="status"`.
+  `CourseMap.tsx` sets no `aria-label`. **Open.**
 
 ## PPTX export
 
-- **Recap columns fill left-to-right.** Multi-column recap slides put the first items in the
-  *leftmost* column while the deck is otherwise RTL-honouring, and an Arabic-reading teacher
-  scans right-to-left. `src/export/lessonToPptx.ts:151` — fix:
-  `x: 0.5 + (colCount - 1 - col) * (9 / colCount)`. Effort: S.
-- **Latent overflow hairline at exactly 14 recap items.** `recapFontSize` at
-  `lessonToPptx.ts:134` still returns 20pt single-column for `<= 14`, which would end ~0.3"
-  past the canvas. Unreachable in current content (largest real single-column recap is 13).
-  Fix: lower the threshold to `<= 12`. Effort: S.
+- ✅ **DONE 2026-08-11** — recap columns now fill right-to-left, matching the rest of the deck.
+- ✅ **DONE 2026-08-11** — the 14-item overflow is closed. Threshold set to **13, not the 12
+  this note originally proposed**: 13 lines fit at 20pt and 13 is the largest recap in real
+  content, so 12 would have shrunk a recap that was fine. Tests pin both ends.
 
 ## Code hygiene
 
-- **Tighten drill inner rows to `.min(1)`.** `src/content/schema.ts:79` and `:133` guard the
-  *outer* array only, so an empty inner row (`[[]]`) still validates and `drillTableRows`
-  would render a 0-column table. Build-time validation keeps it latent. Effort: S.
-- **`useSwapPuzzle` value-equality check duplicated ×4** — `values[order[slot]] === values[slot]`
-  and its variants appear at `useSwapPuzzle.ts:18, 46, 50, 63`. Extract
-  `isCorrect(values, order, slot)`. Effort: S.
-- **`FormSwap` re-declares a local `FormKey`** (`FormSwap.tsx:7`) structurally identical to
-  the export at `src/games/derive.ts:5` — import it instead. Effort: S.
-- **`Flashcards` back-face uses line text as its React key** (`Flashcards.tsx:80`) — a
-  duplicate back line in future content would trigger key warnings. Index-suffix it. Effort: S.
+- ✅ **DONE 2026-08-11** — `drill.grid` now bounds the inner row as well as the outer array,
+  so `[[]]` no longer validates into a 0-column table. Both declarations patched.
+- ✅ **DONE 2026-08-11** — extracted `isCorrect(values, order, slot)`. The rule had drifted
+  into **five** near-identical inline forms, not four: `FormSwap.tsx` held a fifth copy the
+  original note missed.
+- ✅ **DONE 2026-08-11** — `FormSwap` imports `FormKey` from `derive.ts`, and `FORM_LABELS` is
+  now `Record<FormKey, string>`, so adding a form upstream fails here until it gets a label.
+- ✅ **DONE 2026-08-11** — `Flashcards` keys its back-face lines by index.
 - **Games coverage gaps** (behaviourally corroborated but unasserted): duplicate-letter word
   in WordBuilder/useSwapPuzzle; Next-word/Next-question round-advance clicks; SpotTheLetter
   fallback-to-glyph when a pool item lacks `name`; empty-pool guards; empty-string and
-  single-letter `contextualGlyphs`. One test-sweep pass. Effort: M.
+  single-letter `contextualGlyphs`. One test-sweep pass. Effort: M. **Open.**
 - **`allLessons()` re-parses all lesson JSON for every page at build** — O(N²) in lesson
   count. **The old note called this "negligible at N=12"; it is now 74 lessons and 230 static
   pages.** Still fast enough, but the premise has changed. `src/content/load.ts`. Effort: S.
+  **Open.**
 
 ---
 
