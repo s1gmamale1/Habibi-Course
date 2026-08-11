@@ -89,7 +89,11 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 ---
 
-## Phase 3 — Publish Unit 3, the tajweed spine
+## Phase 3 — Publish Unit 3, the tajweed spine ✅ **DONE 2026-08-11**
+
+> **Delivered.** 66 lessons reachable, up from 29. `checkpoint-3.json` transcribed; 66 landings across all 37 notes; the hifz prerequisite closed as a non-defect (see hotlist #1). Two gate holes found and closed on the way: the landing check only read `## Teaching sequence`, so the Part A/B revision lessons slipped past it, and it caught a landing of mine that had been inserted into the wrong section at publish time.
+>
+> **Carried into Phase 4:** Unit 4 has **no checkpoint note** — `Checkpoint-2.md` and `Final-Checkpoint.md` exist, nothing for the Kalimas. The phase schema requires one, and the course-map test now enforces that it resolves to a file, so Phase 4 must author it or reuse `checkpoint-3`.
 
 **Goal.** A learner who passes Checkpoint 2 can walk the whole tajweed syllabus without leaving the app.
 
