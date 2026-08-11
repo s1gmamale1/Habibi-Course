@@ -45,6 +45,19 @@ The scoring model, the error taxonomy, and the reasoning behind the three outcom
 most demanding and goes first while she is fresh. Test 3 is the least performance-dependent and
 can be split off to another day if needed.
 
+## 0a. How long to allow, and whether to split it
+
+**Allow 75–90 minutes, and it is legitimate to run it across two sittings.** This is not
+transmitted from anywhere — it is derived from what the four tests actually contain: a full
+muṣḥaf page read cold, eleven surahs from memory, twenty quiz items, and a coloured page with
+its legend, each marked per cause as §0b requires.
+
+**The tests are independent** (§5), so splitting them costs nothing — Test 2 does not depend on
+Test 1 having just happened. If she is tiring by Test 3, stop and finish another day. **A
+fatigued Test 4 measures fatigue, not whether she can read a legend.**
+
+Nothing about the result depends on how long she takes. There is no time limit on any test.
+
 ## 0. The scoring model, restated
 
 | Error | Deduction |

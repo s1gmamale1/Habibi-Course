@@ -1,0 +1,81 @@
+{
+  "id": "checkpoint-3",
+  "title": "Final Checkpoint — Four Tests, One per End Goal",
+  "durationMinutes": "75–90, and it may be split across two sittings",
+  "steps": [
+    {
+      "name": "Before you begin — the shape of the session",
+      "script": "Four tests, one for each of the course's four end goals. Tell her three things first. (1) The tests are independent: failing one says nothing about the others, and only what failed is re-tested. (2) There is no time limit on any test, and the session may be split across two sittings — a fatigued Test 4 measures fatigue, not whether she can read a legend. (3) Marking is per cause, not per passage: every deduction gets a tick in one named column, because \"−9 on the page\" is unactionable and \"−2 waṣl-hamzah-start, −1 madd-consistency\" is a revision plan."
+    },
+    {
+      "name": "Test 1 — an unseen muṣḥaf page",
+      "script": "End goal: read any page of the Qurʾān correctly, unaided. One FULL page of plain Uthmānī — no colour, no annotation, no transliteration — genuinely never read before. Not al-Fātiḥah, not 105–114, not any page used in Unit 2 or 3; take a page from the middle of the muṣḥaf. No aid of any kind: no prompting, no starting syllable, no pointing. She may plan her stops beforehand — planning is a taught skill and is being assessed, not excluded. A full page and not a line, deliberately: sustaining precision across extended recitation is its own competency and is what an ijāzah examination tests. A student clean for four lines who degrades over the next twenty has a real, nameable weakness that a short passage would hide. Tell her before she starts that she will not know the words, and that this is expected."
+    },
+    {
+      "name": "Test 2 — hifz recitation, eleven items",
+      "script": "End goal: hold al-Fātiḥah and the last ten surahs from memory. al-Fātiḥah, then 114 → 105 — reverse muṣḥaf order, the order she learned them in. Unaided: no prompt, no starting syllable, no glance at the page. Waqf is in scope: she chooses her stops, and two items are worth watching — a deliberate stop at 107:4 without joining to 107:5 is a waqf qabīḥ and scores as an error even though it is an āyah end, and restarting from the wrong place after a breath is stricter than the stop itself, because there is no such thing as a compelled start."
+    },
+    {
+      "name": "Test 3 — oral rule quiz, twenty items",
+      "script": "End goal: know the rules by name and be able to state them. Binary marking — correct or incorrect per rule named and explained, no partial credit — because this is knowledge rather than performance, and the Jali/Khafi scale does not apply to it. Every family must appear: the noon quartet and their letters; the meem trio; lām shamsiyyah/qamariyyah and lām jalālah heavy against light; rāʾ heavy and light; qalqalah's five letters and its two degrees; the five madd lengths, including munfaṣil's two ṭuruq and lāzim's absence of an alternative; the six waqf signs and tām/kāfī/ḥasan/qabīḥ; and hamzat al-waṣl's starting vowel and how she derives it. Questions about disagreement are fair and should be included: \"how many counts is munfaṣil\" has a correct full answer — four or five by ash-Shāṭibiyyah, two by aṭ-Ṭayyibah, and I read four — and a student who gives it knows more than one who says \"four\". Mark the fuller answer correct and the bare \"four\" correct; mark \"there is only one length\" incorrect."
+    },
+    {
+      "name": "Test 4 — a coloured muṣḥaf in an unfamiliar palette",
+      "script": "End goal: read and use any coloured muṣḥaf or app. Give her a coloured page in a palette she has NOT been using daily. She finds and reads the legend first, states what red means in this book, and only then reads the page. Identification and execution are scored separately. The legend step is part of the test, not a preliminary: if she names a colour from memory rather than from the legend, that item is marked incorrect even when the answer happens to be right. The palettes genuinely disagree — this course's default is Family B, matching Quranly, where red is qalqalah and blue is madd, while the printed Dar al-Maʿrifah muṣḥaf uses red for madd. A student who reads colours from memory will eventually meet a book that contradicts her and will not notice."
+    },
+    {
+      "name": "Mark sheet — one column per cause",
+      "script": "Every deduction gets a tick in exactly one named column, and the column totals are the result that matters. The revision map below is keyed to those columns: each one names its own remedy and which test it is re-tested on. Marking convention: Jali in red, Khafi in yellow, and mark all Jali first. The self-correction line is the most informative number on the sheet — a student who fixes her own error once prompted has a working internal monitor and needs practice; one who cannot fix it even when told something is wrong has not formed the category and needs re-teaching. Different problems, different remedies, which is why they carry different costs."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "Laḥn Jali — major: wrong letter, wrong makhraj, wrong lāzim ṣifah, or a word that is not Arabic",
+      "pass": "−2 each. The general test: if a native listener with no tajweed training would notice, it is Jali."
+    },
+    { "criterion": "Laḥn Khafi — minor: quality degraded, meaning intact", "pass": "−1 each." },
+    { "criterion": "Self-correction after prompt", "pass": "−1. She fixes it once alerted — her internal monitor works." },
+    { "criterion": "Examiner has to correct", "pass": "−2. She cannot fix it even when alerted — the category has not formed." },
+    { "criterion": "Non-fluency — hesitant, not flowing", "pass": "−0.5." },
+    {
+      "criterion": "TEST 1 — unseen page",
+      "pass": "PASS: zero uncorrected Jali and Khafi ≤ 5. FLAG: zero uncorrected Jali, Khafi 6–10. RETEST: any uncorrected Jali, or Khafi > 10. \"Uncorrected\" means she did not fix it and could not fix it when prompted — a Jali she self-corrected is a −1, not a fail."
+    },
+    {
+      "criterion": "TEST 2 — hifz, scored on two axes that are never combined",
+      "pass": "Tajweed (Jali/Khafi) and memorisation fidelity (words omitted, added or transposed) are recorded separately. Solid memory with rough tajweed needs recitation practice; clean tajweed that cannot recall the text needs repetitions — one combined score hides which you are looking at, and the remedies are opposite. Omission or addition is meaning-changing, so it scores as Jali on its OWN axis; do not double-count it."
+    },
+    {
+      "criterion": "TEST 2 — fail granularity, and tell her this before she starts",
+      "pass": "More than 3 examiner corrections in one surah fails THAT SURAH ALONE — not the test, not the set. That surah returns to Sabqi, gets the full repetition protocol, and is re-tested on its own; the other ten stand. A student who believes one shaky surah sinks the whole recitation recites defensively, and defensive recitation produces more errors, not fewer."
+    },
+    { "criterion": "TEST 3 — oral quiz", "pass": "≥ 90%. At twenty questions that is two wrong. Tell her the arithmetic before she starts." },
+    { "criterion": "TEST 4 — coloured muṣḥaf", "pass": "≥ 90% of colour-to-rule identifications correct, AND zero Jali on the coloured spans themselves." },
+    {
+      "criterion": "OUTCOMES — three, and none is a restart",
+      "pass": "PASS: all four tests. PASS-WITH-HOMEWORK-FLAG: passed, with named drills attached to a following block of sessions — the flag is carried in writing and cleared explicitly, never quietly forgotten. REVISE-AND-RETEST: repeat only the lessons named by the failed columns, then re-test only the failed test; typically 2–4 sessions. A failed Final Checkpoint never triggers a restart of Unit 3 and never a restart of the course. That is a design commitment, not a kindness: the column totals already identify which rules failed, and re-teaching material she demonstrably holds burns sessions and is the most reliable way to lose an adult learner."
+    }
+  ],
+  "revisionMap": [
+    { "weakSpot": "makhraj / ṣifah, per letter", "lessons": ["3-01", "3-02", "3-03", "3-04"] },
+    { "weakSpot": "iẓhār ḥalqī / idghām / iqlāb / ikhfāʾ", "lessons": ["3-20", "3-21", "3-22", "3-23", "3-24", "3-25"] },
+    { "weakSpot": "mīm sākinah", "lessons": ["3-16", "3-17", "3-18"] },
+    { "weakSpot": "lām shamsiyyah / qamariyyah / jalālah", "lessons": ["3-12", "3-13"] },
+    { "weakSpot": "rāʾ tafkhīm / tarqīq", "lessons": ["3-10", "3-11"] },
+    { "weakSpot": "qalqalah", "lessons": ["3-05", "3-06"] },
+    { "weakSpot": "madd 2 — ṭabīʿī", "lessons": ["3-28"] },
+    { "weakSpot": "madd muttaṣil", "lessons": ["3-29"] },
+    { "weakSpot": "madd munfaṣil", "lessons": ["3-30"] },
+    { "weakSpot": "madd ʿāriḍ — length", "lessons": ["3-31"] },
+    { "weakSpot": "madd ʿāriḍ — consistency across a reading", "lessons": ["3-31", "3-33"] },
+    { "weakSpot": "madd lāzim", "lessons": ["3-32"] },
+    { "weakSpot": "waqf placement, or a qabīḥ stop", "lessons": ["3-34"] },
+    { "weakSpot": "waqf word-changes, tāʾ marbūṭah", "lessons": ["3-35"] },
+    { "weakSpot": "hamzat waṣl — pronounced when joining", "lessons": ["3-36"] },
+    { "weakSpot": "hamzat waṣl — wrong starting vowel", "lessons": ["3-36"] },
+    { "weakSpot": "silent letters", "lessons": ["3-36"] },
+    { "weakSpot": "reading the legend", "lessons": ["3-36", "3-37"] },
+    { "weakSpot": "memorisation fidelity, per surah", "lessons": ["3-37"] },
+    { "weakSpot": "pace and endurance across a full page", "lessons": ["2-14", "3-37"] }
+  ]
+}
