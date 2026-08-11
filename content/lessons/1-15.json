@@ -567,7 +567,7 @@
             "translit": "ism",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read ٱسْم right to left: hamzat al-waṣl, seen with sukūn (s), meem (m), then blend: ism — “name”. Alone it is ‘ism’. In بِٱسْم the alif vanishes and you say ‘bism’."
+              "cue": "Read اِسْم right to left: alif + kasra (i), seen with sukūn (s), meem (m), then blend: ism — “name”. Standing alone it is written with a plain alif and read ‘ism’. But that alif is a waṣl alif: join it to what comes before and it disappears — بِسْمِ ٱللَّٰه is ‘bismillāh’, never ‘bi-ismillāh’."
             }
           },
           {
@@ -575,7 +575,7 @@
             "translit": "ibn",
             "audio": {
               "type": "teacher-voice",
-              "cue": "Read ٱبْن right to left: hamzat al-waṣl, ba with SUKŪN (b — it bounces), nun (n), then blend: ibn — “son”. A waṣl hamza and a qalqalah in one two-letter word."
+              "cue": "Read اِبْن right to left: alif + kasra (i), ba with SUKŪN (b — it bounces), nun (n), then blend: ibn — “son”. A waṣl alif and a qalqalah in one short word — the alif drops the moment anything precedes it."
             }
           },
           {
@@ -1384,7 +1384,7 @@
               "translit": "ism",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read ٱسْم right to left: hamzat al-waṣl, seen with sukūn (s), meem (m), then blend: ism — “name”. Alone it is ‘ism’. In بِٱسْم the alif vanishes and you say ‘bism’."
+                "cue": "Read اِسْم right to left: alif + kasra (i), seen with sukūn (s), meem (m), then blend: ism — “name”. Standing alone it is written with a plain alif and read ‘ism’. But that alif is a waṣl alif: join it to what comes before and it disappears — بِسْمِ ٱللَّٰه is ‘bismillāh’, never ‘bi-ismillāh’."
               }
             },
             {
@@ -1392,7 +1392,7 @@
               "translit": "ibn",
               "audio": {
                 "type": "teacher-voice",
-                "cue": "Read ٱبْن right to left: hamzat al-waṣl, ba with SUKŪN (b — it bounces), nun (n), then blend: ibn — “son”. A waṣl hamza and a qalqalah in one two-letter word."
+                "cue": "Read اِبْن right to left: alif + kasra (i), ba with SUKŪN (b — it bounces), nun (n), then blend: ibn — “son”. A waṣl alif and a qalqalah in one short word — the alif drops the moment anything precedes it."
               }
             },
             {
