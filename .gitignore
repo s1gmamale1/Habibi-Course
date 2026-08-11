@@ -48,6 +48,15 @@ next-env.d.ts
 ruvector.db
 *.db-journal
 
+# Ruflo's vector store, written to whatever directory it is started in.
+agentdb.rvf
+agentdb.rvf.lock
+
+# Scan reports are regenerable output, and `npm run security:scan` drops them
+# next to whatever it scanned — scanning ./src writes src/.claude/security-scans/.
+# The leading `**/` is what keeps that copy out of the source tree.
+**/.claude/security-scans/
+
 # Ruflo local secrets and runtime data
 .env
 .env.local
