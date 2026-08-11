@@ -73,7 +73,7 @@ tests/
 - [ ] **Step 1: Create the directory tree**
 
 ```bash
-cd /Users/habibi/projects/Habibi-Course
+cd <repo root>
 mkdir -p library/{00-Index,01-Sources/{Classical,Video,Data},02-Rules,03-Letters,04-Curriculum/{Unit-2-Reading-Mechanics,Unit-3-Tajweed,Unit-4-Kalimas},05-Pedagogy,99-Corpus,.obsidian}
 ```
 

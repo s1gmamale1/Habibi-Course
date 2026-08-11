@@ -73,3 +73,10 @@ agentdb.rvf.lock
 # Obsidian per-machine UI state (the vault itself IS committed)
 library/.obsidian/workspace*.json
 library/.obsidian/cache
+
+# Machine-local MCP config. Tracked until 2026-08-12, when it carried a
+# CLAUDE_FLOW_DIR pointing at one developer's home directory — which broke the
+# other machine on every pull and would have published a local path once the
+# repo went public. Keep a template if the shape ever needs documenting.
+.mcp.json
+.cursor/mcp.json
