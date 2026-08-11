@@ -73,6 +73,8 @@ This session is drills and questions, not exposition. Three short pieces of fram
 
 1. **Run the table once, out loud, in both directions.** You say a letter, she says the rule. Then you say a rule, she says which letters trigger it. Sixty seconds. If either direction is slow, that is where the session's time goes.
 
+   **In plain terms:** a silent meem has exactly three futures: hide it before ب, merge it before another م, say it plainly before anything else. Three, no fourth.
+
 2. **The three postures, side by side, with a fingertip on the lips.** Have her produce all three in sequence and name each one as she does it:
    - *touching* → ikhfāʾ shafawī
    - *closed and doubled, held* → idghām shafawī

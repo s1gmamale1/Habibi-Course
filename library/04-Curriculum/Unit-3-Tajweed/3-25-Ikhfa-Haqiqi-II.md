@@ -82,6 +82,8 @@ Name the error to come: **she will flatten everything.** Fifteen letters, one hu
 
    Five heavy, ten light. And the five heavy ones she already knows by another name: they are the isti'lā letters from lesson 3-03, minus the two that live in the throat.
 
+   **In plain terms:** the hum takes its weight from whatever letter is coming. Heavy letter, dark hum; light letter, bright hum.
+
 2. **Give the mechanism, not just the list.** She does not need to memorise five more letters. **The tongue is already moving toward the next letter while the nasal runs** — that was the whole mechanism of lesson 3-24. If the next letter is one that raises the back of the tongue, **the tongue is already raised while she is humming.** The heaviness is not applied to the nasal; it is a physical consequence of where the tongue has gone. Have her feel it: hum toward a ص, and notice that the back of her tongue is already up.
 
    Once she has felt that, the rule stops needing to be remembered.

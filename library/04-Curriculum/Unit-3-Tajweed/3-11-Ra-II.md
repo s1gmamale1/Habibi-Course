@@ -112,6 +112,8 @@ Then the third thing, which is the real content of the lesson and should be said
 
    Everything else is qualification.
 
+   **In plain terms:** when the rāʾ has no vowel of its own, look at the letter before it instead. A kasra in front makes it light; anything else keeps it heavy.
+
 2. **Drill the plain cases before touching a qualifier.** Four words, no complications:
 
    | Word | Ref | Before the ر | Ruling |
@@ -155,6 +157,8 @@ Then the third thing, which is the real content of the lesson and should be said
    Two performance notes:
    - The **alif after a heavy rā' is heavy** — قِرْطَاسٍ, مِرْصَادًا. Lesson 3-07's rule, unchanged.
    - The isti'lā' letter must follow **in the same word**. A heavy letter at the start of the next word does not reach back.
+
+   **In plain terms:** five words break the pattern and there is no reasoning that gets you to them. Learn the five as a card and stop looking for a rule.
 
 5. **The waqf cases — and this is where lesson 3-06's structure returns.**
 

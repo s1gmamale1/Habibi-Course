@@ -63,6 +63,8 @@ Do not explain further yet. Let her fail the test twice more on **ٱلنَّاس
 
 2. **Locate it physically.** The ghunnah comes from the **khayshum** (الخَيْشُوم), the nasal cavity — the fifth makhraj zone alongside the jawf, the throat, the tongue and the lips. It is the only zone with no moving part. What moves is the soft palate: it drops, and air that was going out of the mouth goes out of the nose instead. She does not need to control that consciously. She needs to *notice* it, and the pinch is how.
 
+   **In plain terms:** the sound comes out of your nose, not your mouth. Pinch your nose and it should stop dead — that is the whole test.
+
 3. **Name the two letters, and only these two.** ن and م. Ghunnah is an inseparable attribute (*sifah lāzimah*) of both — you cannot remove it, only lengthen or shorten it. Its **most complete** form, *akmal al-ghunnah*, is on a **ن or م carrying a shaddah**. That is today's rule, and it is unconditional:
 
    > **Any نّ or مّ — any word, any position, joined or stopped on — is held for 2 counts of ghunnah.**
@@ -77,6 +79,8 @@ Do not explain further yet. Let her fail the test twice more on **ٱلنَّاس
    See [[Tuhfat-al-Atfal]]. Read it aloud, translate it, move on. It is a memory hook, not a text to study.
 
 5. **The two counts — and what a "count" actually is.** Two *ḥarakāt*, at the tempo she is already reciting in. The classical measure is the time taken to fold two fingers at a moderate pace, and this course teaches that as a learning aid. **The truth underneath it is relative:** two counts means twice her own short-vowel duration, so a slow tartīl ghunnah is genuinely longer in seconds than a fast one, and both are correct. Scholars differ on whether the finger convention, a measured half-second to second, or a purely relative definition is the right account — say so once, then use the fingers, because a beginner needs a ruler more than she needs the philosophy of rulers. Full discussion in [[Ghunnah]].
+
+   **In plain terms:** hold it for two beats at whatever speed you are already reading. Two counts is twice your own short vowel, not a fixed number of seconds.
 
 6. **Drill the pinch to independence.** This is the step most worth your session minutes. Have her run **إِنَّ · أَنَّ · ثُمَّ · ٱلنَّاس** with the nose pinched, then unpinched, then pinched again, until she can predict which it will be *before* she pinches. The goal is not the pinch. The goal is that she stops needing it.
 

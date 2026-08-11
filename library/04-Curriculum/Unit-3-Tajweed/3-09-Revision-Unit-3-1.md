@@ -137,6 +137,8 @@ Cheek test on the ض. Duration test on all four.
 
 **Drill 9 — the cold page.** Read Sūrat al-Falaq and Sūrat al-Ikhlāṣ end to end, stopping at every ayah. Say nothing beforehand. Then hand her the list of what fired and where, and let her mark her own misses.
 
+**In plain terms:** everything in this unit is about the letter itself — where it is made and what it is like — before anything the letters do to each other. Get these right and the rules later have something solid to sit on.
+
 ## Part B — troubleshooting: the questions that actually come up
 
 These are the questions an adult student accumulates over seven sessions and has no natural place to ask. Answer them whether or not she asks; if she does not ask them this week, she is carrying them silently.

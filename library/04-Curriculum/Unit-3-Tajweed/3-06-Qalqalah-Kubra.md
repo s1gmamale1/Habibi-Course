@@ -81,6 +81,8 @@ And a third, specific to today: **lengthening.** A bounce that turns into a smal
 
    That is the entire rule. There is no letter list to learn, no exception, no second condition.
 
+   **In plain terms:** same five letters, same pop — but this time you are stopping on it, so it is the last thing she hears. Make it bigger.
+
 3. **Show what stopping does to the ending, because this is the step she has to do in her head before the bounce.**
 
    | In waṣl | At waqf | Bounce |
@@ -94,6 +96,8 @@ And a third, specific to today: **lengthening.** A bounce that turns into a smal
    The first four all change shape when she stops. The last one does not — it was already sākin, and stopping only changes the *size* of its bounce.
 
    Make her do the transformation out loud before reading: "أَحَدٌ … stopping … أَحَدْ … bounce the د."
+
+   **In plain terms:** when you stop, the last letter loses its vowel and goes closed. That is what creates the bounce — you are not adding a rule, the stop hands you one.
 
 4. **Say the sentence that is the actual content of this lesson.**
 

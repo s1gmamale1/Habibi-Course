@@ -80,6 +80,8 @@ Then the sentence that frames the whole chapter: **the noon does not have one be
 
 2. **State the rule.** *Iẓhār* is making a thing plain. A **noon sākinah (نْ)** or a **tanwīn (ـً ـٌ ـٍ)** followed by one of the **six throat letters** is pronounced **clearly from its own makhraj** — no merging, **no prolongation of the nasal**. The noon is simply itself. Nothing happens to it.
 
+   **In plain terms:** before the six throat letters, the nūn is just a plain nūn. Say it and carry on — nothing is hidden, nothing is held.
+
 3. **Say the tanwīn part explicitly, and do not assume it.** Tanwīn behaves exactly as a written noon sākinah, because that is what it is: a noon sound at the end of a word, written as a doubled vowel instead of a letter. **Every rule in this chapter says "noon sākinah *or tanwīn*", and it means it.** Three of today's in-set examples are tanwīn, not noons. Students who learn the chapter on written noons alone get half of it.
 
 4. **The six letters, in makhraj order.** Deepest throat outward:
@@ -107,6 +109,8 @@ Then the sentence that frames the whole chapter: **the noon does not have one be
    | everything in between | a half-way state | ikhfāʾ — 3-24 |
 
    Teach the chapter from this table, not from four unrelated lists. A student who understands the gradient can reconstruct any rule she forgets.
+
+   **In plain terms:** the throat is too far from the nūn's spot for anything to blend. That distance is the whole reason this rule exists.
 
 6. **Duration — and the trap.** **No prolongation.** The noon's own nasal is still there; it is a permanent attribute of the letter and cannot be removed. It is simply **not extended**. Level 4 in [[Ghunnah]], not level zero. Have her pinch her nose on `مِّنْ خَوْفٍۭ`: the noon should still block. If it does not, she has over-corrected into a dry, denasalised *n*, which is a different error from the one you started the lesson fixing.
 

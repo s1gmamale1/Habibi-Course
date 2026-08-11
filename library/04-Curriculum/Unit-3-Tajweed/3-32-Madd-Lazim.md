@@ -47,6 +47,8 @@ examples:
 > **The last new madd rule in the course.** After today she has all five, and 3-33 assembles
 > them. Budget the full session: the subtypes are more taxonomy than any single earlier lesson.
 
+**In plain terms:** two questions give you all four kinds: is it a whole word or a spelt-out letter, and is the sukūn a shadda or a plain one.
+
 ## Objectives
 
 - Student can state that lāzim is **6 counts, always, with no alternative**, and say what makes
@@ -108,6 +110,8 @@ Put it against last week's rule with the same question she was given at 3-31 §4
 | **Yes — always** | **lāzim** | **6, no choice** |
 
 *Lāzim* means **necessary, inseparable**. The name is the rule.
+
+   **In plain terms:** the sukūn is printed and permanent, so it is there whether you stop or not. That is what makes this one six counts with no choice attached.
 
 ### 2. Kalimī muthaqqal — the one she meets constantly
 

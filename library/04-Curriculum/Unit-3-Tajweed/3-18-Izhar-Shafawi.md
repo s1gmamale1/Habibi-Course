@@ -80,6 +80,8 @@ Then the reframe that carries the lesson: **the last two lessons were the except
 
 3. **State the rule.** The meem is pronounced **clearly** — *iẓhār* means making a thing plain. Lips **fully closed**, meem fully formed, released cleanly into the next letter, **with no prolonged ghunnah**.
 
+   **In plain terms:** close your lips, say the meem, move on. No hum to hold, no lengthening — just a clean meem.
+
 4. **Now the sentence that prevents next month's error.** "No prolonged ghunnah" does **not** mean "no nasal". A meem cannot exist without its nasal — it is an inseparable attribute of the letter. **What iẓhār removes is the hold, not the resonance.** Have her say `أَلَمْ` and pinch: the sound still blocks, because it is still a meem. She has not switched the nose off; she has stopped waiting on it. Point at the levels table in [[Ghunnah]] — this is level 4, not level zero.
 
 5. **Then the two danger letters, and give them the middle of your session.** Al-Jamzūrī singles them out by name in [[Tuhfat-al-Atfal]]:
@@ -92,6 +94,8 @@ Then the reframe that carries the lesson: **the last two lessons were the except
    - **ف** is made at the **lower lip against the upper teeth** — immediately adjacent. Same pull, slightly weaker.
 
    The result in both cases is a half-concealed meem that sounds like lesson 3-16's rule applied to the wrong letter. **The iẓhār must be strongest here, not weakest.**
+
+   **In plain terms:** و and ف are the two that go wrong, because your lips are nearly in place for them already. Close fully for the meem first, then move.
 
 6. **Both danger cases are already in her memory.** Do not hunt for examples:
    - `عَلَيْهِمْ وَلَا` — al-Fātiḥa **1:7**

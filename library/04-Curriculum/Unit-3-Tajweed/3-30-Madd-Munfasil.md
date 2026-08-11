@@ -100,6 +100,8 @@ This is a different kind of word from *wājib*. Do not soften it into "you may d
 like": within a given ṭarīq the length is fixed. What *jāʾiz* means is that **the transmitted
 readings differ**, not that the reciter improvises.
 
+   **In plain terms:** here the hamzah is in the next word, so the two can come apart when you stop. That is why this one is permitted rather than required.
+
 ### 3. The madd that can vanish
 
 This is the mechanical fact that separates munfaṣil from everything else in the family:
@@ -151,6 +153,8 @@ everyone. Munfaṣil is the **weaker** cause: separable, and disputed. A weaker 
 
 **Practical rule for her mark sheet:** munfaṣil ≤ muttaṣil, always, and both constant within a
 session. If she settles on 4 for muttaṣil, munfaṣil is 4 or (in the other ṭarīq) 2 — never 5.
+
+**In plain terms:** your separated madd must never be longer than your joined one. Pick a length and keep that order and you cannot go wrong.
 
 ### 6. Why the eye misses it
 

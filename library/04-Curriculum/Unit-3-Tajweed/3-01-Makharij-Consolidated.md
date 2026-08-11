@@ -68,6 +68,8 @@ Name the payoff plainly. Everything in Unit 3 — heaviness, the bounce, the rā
 
    Do it live: أَبْ · أَتْ · أَقْ · أَعْ. Have her point at her own face each time — lips, front of mouth, back of mouth, throat. She will be right every time, which is the point: **she already knows this and has never been asked.**
 
+   **In plain terms:** a makhraj is just the spot in your mouth where a letter comes out. Say the letter with a stop on it and feel where it lands — that spot is the answer.
+
 2. **Draw the five zones before naming a single letter.** Five, from the inside out:
 
    | # | Zone | Arabic | What it is | Makhārij |
@@ -130,6 +132,8 @@ Name the payoff plainly. Everything in Unit 3 — heaviness, the bounce, the rā
 7. **Zone 5 — al-khayshūm, one makhraj, no letters of its own.**
    The nasal passage produces **ghunnah** (غُنَّة, "nasal hum") — the sound that comes out of ن and م, not the letters themselves. This is the zone she will meet properly in lesson 3-15 and it is the reason she has been pinching her nose since lesson 2-05.
    Say it exactly this way: **ن and م have two addresses.** The closure is in the mouth; the sound is in the nose. Pinch and prove it on ٱلنَّاسِ.
+
+   **In plain terms:** ن and م are made in two places at once — your mouth closes, but the sound leaves through your nose. Every other letter has one address; these two have two.
 
 8. **Close by mapping one word, not by reviewing the table.**
    Take **ٱلْحَمْدُ** (1:2) and walk it letter by letter: ء (deepest throat) → ل (tongue, point 5) → ح (middle throat) → م (lips, with the nose) → د (tongue, point 8) → و of the ḍamma. Five zones in six sounds. Then hand her **بِأَصْحَٰبِ** (105:1) and make her do it herself.

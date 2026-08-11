@@ -126,6 +126,8 @@ And then the third possibility, which for a Persian, Urdu, Turkish or Uzbek spea
 
    **Istiṭālah belongs to exactly one letter: ض.** It is the sole thing separating ض from ظ, and therefore the sole reason the two are different letters.
 
+   **In plain terms:** the two letters are separated by one thing: for ض the side of your tongue slides forward along your molars. For ظ the tip pokes out at your top teeth.
+
 5. **The two tests, and run both live.**
 
    **The duration test.** Ask for a sustained sākin ض, three seconds. A correct ض continues; a substituted heavy د stops instantly. Do the same for ظ — it should hiss on and on. **Any of these letters that dies in under two seconds has become a stop.**
@@ -148,6 +150,8 @@ And then the third possibility, which for a Persian, Urdu, Turkish or Uzbek spea
    Two practical notes to hand her:
    - **The ظ words are a closed set.** Roughly a few dozen roots in the whole Qur'an use ظ. Some teachers give students the list. It is a legitimate crutch for *reading*, but it does not fix the *sound* — drill the makhraj as well.
    - **ض and ظ do not merge into each other.** A sākin ذ does merge into a following ظ (إِذ ظَّلَمُوٓا۟, 4:64), and that is the one place these front-teeth letters legitimately become one. It belongs to Unit 3.5; mention it only if she asks.
+
+   **In plain terms:** get this pair wrong and ٱلضَّآلِّينَ stops meaning "those who went astray". That is why this letter gets a whole lesson.
 
 8. **Close on ٱلضَّآلِّينَ, slowly, three times.**
    It is the highest-stakes instance in the Qur'an: recited many times a day, carrying a **shadda** that exposes the letter for a full two-count hold, and sitting immediately beside a **ل**, which invites the tongue to slide forward too early — straight into ظ territory.

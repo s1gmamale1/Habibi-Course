@@ -128,6 +128,8 @@ Put it on the board as a two-step:
 The rule follows from something she already does. Make her state the chain back to you before
 moving on.
 
+   **In plain terms:** this madd only exists because you stopped. Read straight past the word and it is an ordinary two counts.
+
 ### 3. The three lengths
 
 **2, 4 or 6 ḥarakāt. All three are correct.**
@@ -148,6 +150,8 @@ ponderous, and it matches the tawassuṭ she hears on the Ḥuṣarī recordings
 
 Then say the sentence that makes it stick: **"If someone recorded you reading a whole page and
 played back only the stops, they should all sound the same."**
+
+**In plain terms:** two, four or six are all correct here. What is not correct is using a different one each time — pick yours and hold it for the whole session.
 
 ### 4. The rule that separates it from everything else in the family
 
