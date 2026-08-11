@@ -60,10 +60,19 @@ export function acceptedHarakat(rule: RuleId): number[] {
 
 /* ---------- the fragment ---------------------------------------------- */
 
-/** Neutral marking: no palette colour, no family underline, no answer. */
+/**
+ * Neutral marking: no palette colour, no family underline, no answer.
+ *
+ * Same accessibility shape as `TajweedText`, and for the same reason: the
+ * fragment is one string cut in three by the marking span, and it must be read
+ * as the one string. `role="img"` makes the children presentational so the
+ * accessible name is the whole fragment. (`role="text"` is a WebKit extension,
+ * not an ARIA role, and left the container generic — where `aria-label` is
+ * prohibited and ignored — everywhere else.)
+ */
 function Fragment({ item }: { item: MaddItem }) {
   return (
-    <span className="quran arabic" dir="rtl" lang="ar" aria-label={item.text} role="text">
+    <span className="quran arabic" dir="rtl" lang="ar" aria-label={item.text} role="img">
       {item.text.slice(0, item.spanStart)}
       <span
         data-target="true"

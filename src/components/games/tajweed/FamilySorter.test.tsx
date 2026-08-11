@@ -109,6 +109,30 @@ describe("FamilySorter — assignment", () => {
     expect(card("ikhfa-1").disabled).toBe(false); // still placeable
   });
 
+  it("restarts the shake when the same fragment is dropped wrong twice", async () => {
+    // `game-shake` is a CSS animation. Re-applying a class the element already
+    // carries does not replay it, so the drill restarts the animation by giving
+    // the card a NEW React key — React then unmounts the old node and mounts a
+    // fresh one, and the animation runs from frame zero.
+    //
+    // That only works if the key actually CHANGES on a repeat miss. Keyed on
+    // `missed.includes(id)` it did not: `.includes` is a boolean, identical for
+    // the first wrong drop and the fifth, so the second miss reused the very
+    // same DOM node and the card sat still. Node identity is the assertion
+    // because the remount *is* the mechanism.
+    render(<FamilySorter items={ITEMS} />);
+
+    await place("ikhfa-1", "qalqalah");
+    const afterFirstMiss = card("ikhfa-1");
+    expect(afterFirstMiss.className).toContain("game-shake");
+
+    await place("ikhfa-1", "idgham");
+    const afterSecondMiss = card("ikhfa-1");
+
+    expect(afterSecondMiss.className).toContain("game-shake");
+    expect(afterSecondMiss).not.toBe(afterFirstMiss);
+  });
+
   it("locks a fragment dropped in the right bucket", async () => {
     render(<FamilySorter items={ITEMS} />);
 
