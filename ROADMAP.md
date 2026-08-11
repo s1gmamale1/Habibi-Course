@@ -14,7 +14,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Rule notes | 59 total — **56 verified** against vendored sources, 3 `needs-review`, each naming the specific artifact still needed |
 | Gates | 417 tests · 0 lint errors · library 0 errors / 3 warnings · static export builds |
 
-> **Phases 1–4 are complete and the course is fully reachable.** Phase 5 (audio) is **deferred by the owner** — do not surface it as next work. **The hotlist is clear** — #1, #3 and #4 are closed and #2 is blocked on an external source. What remains is Phase 6's outside-world items, none of which blocks a learner. Nothing on that list blocks a learner from starting today.
+> **Phases 1–4 are complete and the course is fully reachable.** The app itself has been feature-complete for some time — 82 source files, 229 static pages, 14 practice games, 417 tests — so recent phases have been *content*, not code. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items plus Phase 7's fixable gaps, none of which blocks a learner from starting today.
 
 ---
 
@@ -172,26 +172,56 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 ---
 
-## Phase 5 — Record the teacher audio ⏸️ **DEFERRED by the owner**
+## Phase 5 — Audio ⏸️ **RESEARCHED 2026-08-11, PARKED awaiting an audition**
 
-> **Do not propose this as a next step.** The owner has deferred it twice. It is the one item in the project that cannot be done by anyone else — Arabic TTS was evaluated and rejected because it optimises for intelligibility rather than makhraj, and no openly-licensed full-coverage set exists — so it waits on his availability rather than on any work here. **Nothing regresses while it waits:** every cue already renders as usable text. Pick it up only if he raises it.
+> **Status changed.** This was "deferred, and nothing exists anyway". After the sweep of
+> 2026-08-11 it is **parked on a listening decision** — assets were found, and the framing
+> that justified the deferral turned out to be wrong in three places. Full evidence in
+> `WISHLIST.md`; the corrections are below because they change what this phase *is*.
 
 **Goal.** A student practising alone hears a correct human articulation instead of reading an instruction about one.
 
-**Deliverables.**
-- Recorded audio for the letter and qāʿidah cues
-- A resolved `qari-clip` or equivalent source wired into `AudioSourceSchema`
-- The `teacher-voice` cues that remain text-only marked as deliberate
+### Three corrections to what this phase used to claim
 
-**Why now.** ~7,000 `teacher-voice` cues across the published and authored content are silent. It is the largest single quality gap that no amount of writing closes.
+**1. "~7,000 silent cues" was never the size of the job.** Measured: 6,966 cues carry only
+**1,635 distinct payloads** (4.3× reuse). They split four ways, and each needs a different
+answer:
 
-**Scope.**
-- Owner records the letter set and the core qāʿidah drills — the research put this at 20–30 minutes of audio for full letter coverage
-- No schema change is required: `AudioSourceSchema` at `src/content/schema.ts:20` already carries `qari-clip`, `youtube-cue` and `teacher-voice`
+| Group | Distinct | Answer |
+|---|---|---|
+| Qurʾānic words | 254 exact / **575** normalised | **Solved** — whole-Qurʾān word CDN, ~1.09 s/word, link-only |
+| Base letters | ~29 | **A complete CC-BY video set exists** — 28 of 29 verified |
+| Letters × harakat | 213 | ~29 servable; **Commons holds zero audio for any harakah** |
+| Joining drills | 510 | **Nothing.** بت، تب، كل — TTS rejected for these |
+| Ordinary vocabulary | 535 | **7.7%** open coverage |
 
-**Findings + recommendation.** An exhaustive search found **no openly-licensed, full-coverage audio set**. Arabic TTS was evaluated and rejected: it optimises for intelligibility, not makhraj, so it would actively teach errors. **This must be a human recording, and it must be the owner's.**
+**The irreducible recording job is the 723 letters and syllables** — not seven thousand.
 
-**Risks.** Blocked on owner availability, not on engineering. Mitigation: it is additive — every cue already renders as usable text, so nothing regresses while this waits.
+**2. "No openly-licensed set exists" was too broad.** Three usable things were found: a
+complete 29-letter **CC-BY** video series (re-hostable), whole-Qurʾān word audio (link-only),
+and an MIT-licensed 28-letter set (letter *names*, likely the wrong form).
+
+**3. "Arabic TTS was evaluated and rejected" was too coarse — the verdict differs per group.**
+Reject for the 723 qāʿidah cues, on a better argument than makhraj: **a bare 1–3 character
+input is out-of-distribution for every TTS system**, and the model may speak the letter's
+*name* rather than its sound. But **English instructional narration is unobjectionable**, and
+the 535 ordinary words are a conditional yes pending a ~20-word probe.
+
+### What actually blocks it now
+
+**Nobody has listened to a single file.** Every finding rests on metadata and licence text.
+The next step is small and needs an ear, not an agent: **audition the 29 CC-BY letter
+videos**, and get written confirmation from the channel before re-hosting — YouTube's CC tag
+is self-declared, and the sweep found a live example of a re-upload wearing one.
+
+### Constraint discovered, worth knowing before anything is built
+
+**Both Qurʾān audio sources are non-commercial only** — EveryAyah by CC BY-NC 2.5 Canada
+(recovered from a 2012 Wayback capture, verified), Quran.com by its own terms. Free course:
+fine, link-only with attribution. **Monetised: both barred.**
+
+**Owner recording is still deferred** and stays that way. What changed is that it is no longer
+the *only* route.
 
 **Definition of done.** The letter set has audio in the published phases, and every remaining silent cue is one a reviewer has deliberately left as text.
 
@@ -220,6 +250,44 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 **Risks.** Family A is currently approximated from documented semantics, not sampled. Mitigation: it is already labelled as such at `src/content/tajweed.ts:47` — do not let that label be quietly dropped.
 
 **Definition of done.** Every row in the log's "Open — a script cannot settle these" table is either resolved or restated as a deliberate, dated decision not to resolve it.
+
+---
+
+## Phase 7 — Close the gaps that are actually fixable 🔨 **IN PROGRESS 2026-08-11**
+
+**Goal.** Everything the project can fix with its own hands, as opposed to Phase 6's items that wait on the world and Phase 5's that wait on an ear.
+
+**Why this phase exists.** The 2026-08-11 review asked "what else is blocking?" and the honest answer separated into three piles, only one of which is ours to move. This is that pile. Full item-level detail lives in `WISHLIST.md`; this is the ordering.
+
+### 7a — Per-letter makhraj diagrams *(the largest fixable gap, and it is pedagogical)*
+
+**18 tongue letters share one `lisan.jpg` with an identical highlight**, so ت (tip), ض (side) and ك (back) look the same. The owner's original ask was diagrams so the student "wouldn't have to guess" — for the tongue letters she still does. Needs ~10 sub-zone images plus a per-letter mapping in the content.
+
+**Unblocked as of 2026-08-11:** `codex` CLI 0.147.0 is installed, and the earlier blocker (a quota resetting 2026-07-25) is long past. The seven existing visuals are annotated rasters produced this way, so the pipeline is proven. **Owner rejected line-art SVGs — match the existing raster style.**
+
+### 7b — Correctness and hygiene *(small, verifiable, test-first)*
+
+- PPTX recap columns fill left-to-right in an otherwise RTL-honouring deck — `lessonToPptx.ts:151`
+- PPTX recap font-size threshold leaves a latent overflow at exactly 14 items — `lessonToPptx.ts:134`
+- `drill.grid` guards the outer array only, so an empty inner row still validates — `schema.ts:79`, `:133`
+- `useSwapPuzzle` repeats one equality check four ways — `:18, 46, 50, 63`
+- `FormSwap` re-declares a `FormKey` that `derive.ts:5` already exports
+- `Flashcards` keys a list by line text — duplicate content would warn
+
+### 7c — Accessibility *(partly done; the newer tajweed games already carry `aria-live`)*
+
+Popover `role="dialog"` and dismissal · `aria-disabled` on locked `FormSwap`/`LetterQuiz` tiles · distinct accessible names for lesson-row links · `ExportPptxButton` status announcement.
+
+### 7d — Blocking a *public* launch only *(not needed for one student)*
+
+`/teach/<id>` is obscurity-only and ships all 74 teacher notes in the same static bundle · both Qurʾān audio sources are non-commercial, so monetisation bars them · the accessibility batch above.
+
+### Owner decisions, not work
+
+- **4 example words silently excluded from every game** (ضَوْء، لُغَة، بَقَرَة، وَرْدَة) because they carry ة or standalone ء, which the course never teaches as letterforms. Correct per spec, invisible in practice. Teach the forms, drop the words, or accept it?
+- **The waqf placement drill** — position data exists in no dataset. Standing recommendation: ship without it rather than invent positions.
+
+**Definition of done.** 7b and 7c green with tests; 7a shipped or explicitly declined; 7d recorded as a launch checklist rather than silently carried.
 
 ---
 
