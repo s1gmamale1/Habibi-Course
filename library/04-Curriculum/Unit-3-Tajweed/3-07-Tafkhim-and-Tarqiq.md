@@ -112,6 +112,8 @@ And the second error, which is the mirror of the first and arrives about ten min
    2. The mouth **rounds and fills.** Tafkhīm is felt as *volume*, not as loudness. Getting louder is not getting heavier — prove it by saying a quiet heavy ق and a loud light ك.
    3. **Do not move the makhraj.** The tongue tip stays exactly where the letter is articulated; only the rear rises. Sliding the tip backwards produces a different letter, not a heavier one.
 
+   **In plain terms:** heavy means the back of your tongue lifts and the sound goes dark and round. Light means it stays down and the sound stays bright. Nothing else changes.
+
 4. **The five levels — marātib at-tafkhīm. Teach them as one letter run through five vowels.**
 
    Every heavy letter is heavy, but not equally. From heaviest down:
@@ -150,6 +152,8 @@ And the second error, which is the mirror of the first and arrives about ten min
    - **ٱلنَّاسِ** (114:1) — the alif is light, because ن is.
 
    Tell her where the mistake comes from: many books state the light letters as **21** and list the alif among them, which produces exactly this error. Where the sources disagree on the count, **they agree on the practice** — the alif takes the colour of what precedes it.
+
+   **In plain terms:** the alif has no weight of its own. It copies whatever letter came before it — heavy after a heavy one, light after a light one.
 
 6. **The letters that need vigilance, and the drill that fixes them.**
    Nobody heavies a ك or a ت by accident. These are the ones a heavy neighbour bleeds into:

@@ -75,6 +75,8 @@ Then demonstrate it, exaggerated: lips brought together so lightly they are bare
    - **Touch** — bring the lips together until they are just in contact, hum, and hold. Almost no pressure on the finger.
    The third is the rule. Say the diagnostic aloud: **"If you can feel your lips tense, you are pressing."**
 
+   **In plain terms:** your lips come together but never press. Hold the hum there for two beats, then let the ب out.
+
 5. **Then add the timing.** Lips in the light-contact position, ghunnah runs for two counts — fold two fingers, exactly as in 3-15 — and only when the second finger lands does the ب release. Do not let her release early; the commonest execution fault is a correct posture held for half a count.
 
 6. **Say the boundary out loud.** She is about to be told, in lesson 3-18, that a meem before *any other letter* has its lips **fully closed and no hold**. These two rules are lip-posture opposites and they differ by one letter. Flag that now, briefly, so the contrast is expected rather than confusing:

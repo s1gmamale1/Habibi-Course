@@ -66,6 +66,8 @@ Say it: **this merge has no nasal. None. Not a short one — none at all.** The 
 
 2. **Say "always kāmil" and mean it.** Both the noon's articulation and its nasal go. **There is no incomplete variant and no scholarly disagreement about this rule anywhere.** After the kāmil/nāqiṣ split of last lesson and the ikhfāʾ/iẓhār minority view of lesson 3-16, she deserves to be told when something is simply settled. This is one of them.
 
+   **In plain terms:** before ل and ر the nūn vanishes completely — and unlike last lesson there is no hum left behind. Nothing at all.
+
 3. **Put the whole merge family in one table, because the contrast is the lesson.**
 
    | | Letters | Nasal? | Type |
@@ -79,6 +81,8 @@ Say it: **this merge has no nasal. None. Not a short one — none at all.** The 
 4. **The word boundary — same condition, one fewer thing to memorise.** Like last lesson, this rule needs the noon to be at the end of its word. **Unlike last lesson, there is no in-word exception to learn**: the sequence نْ + ل or نْ + ر simply does not arise inside a single Qurʾānic word. Nothing to memorise here. Say so; it is a relief and she has earned one.
 
 5. **Duration.** **Zero counts of nasal.** The doubled ل or ر is held exactly as long as any other shadda — the hold she learned in lesson 2-05. Use the fingers if she needs them, but the count is the shadda count, not a ghunnah count. Do not let her fold two fingers "for the ghunnah" here; the gesture will keep the nasal alive.
+
+   **In plain terms:** no nasal, no counting. The doubled ل or ر is held like any other shadda and that is the end of it.
 
 6. **Both examples she needs are already in her memory, which is unusual.** Most rules in this chapter need a reference example; this one does not:
 

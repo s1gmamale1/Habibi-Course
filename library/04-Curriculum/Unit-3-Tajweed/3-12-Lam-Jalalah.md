@@ -84,6 +84,8 @@ And a third, said once: **a uniformly heavy lām everywhere**. In several of the
 
    The fourth row is worth a moment. When she starts a recitation on ٱللَّه there is no preceding vowel at all, so there is nothing to make it light. **Default is heavy.**
 
+   **In plain terms:** look at the vowel just before the word Allāh. An *a* or a *u* makes the lām heavy; an *i* makes it light.
+
 3. **The kasra makes it light in every form — and this is where it differs from the rā'.**
 
    Unlike the rā' rules, **no distinction is made between original and temporary kasras here**. All of these are light:
@@ -125,6 +127,8 @@ And a third, said once: **a uniformly heavy lām everywhere**. In several of the
    - **The dark English "l".** English speakers default to the velarised /ɫ/ of *feel* and install it everywhere. Arabic wants the clear /l/ of *leaf* in every lām except one word. Say the two English words to her and let her hear that they contain two different sounds.
 
    Then the practical consequence: **the heavy lām she is learning today sounds a lot like the English *feel* lām.** So the fix is not "learn a new sound" — she has the heavy one already, by accident. The fix is **removing it from the other twenty thousand lāms** and keeping it for one word in three environments.
+
+   **In plain terms:** this is the only lām in the language that changes. Every other lām you will ever read is light, with no exceptions to remember.
 
 7. **Distinguish this from the other two lām rules, now, before lesson 3-13 arrives.**
 

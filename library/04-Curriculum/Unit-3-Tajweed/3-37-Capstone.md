@@ -102,6 +102,8 @@ What is missing from her sheet is the fortnight's homework, and it is far more i
 anything you could ask her. Typical gaps at this point: the rāʾ family (least colour support,
 fewest visual cues), and the distinction between the three idghām types in family 1.
 
+   **In plain terms:** six families is the whole map. If you can draw it from memory, you know what you are looking at on any page you open.
+
 ### 2. Read an unseen plain page — the full-attention pass
 
 One page. Plain Uthmani, no colour, no annotation. She plans her stops first — that is a skill

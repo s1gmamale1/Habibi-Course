@@ -65,6 +65,8 @@ Then say the part that will actually catch her attention: **she already knows ho
 
 3. **Show her that the muṣḥaf already told her.** In `أَطْعَمَهُم مِّن` the first meem is **bare** — no sukūn printed on it — and the second carries a **shaddah**. That is the standing convention: *a bare letter at the end of a word, the same letter with a shaddah at the start of the next, means the first has gone into the second.* Have her look at the page and find the shaddah before she reads. **The shaddah is the instruction.**
 
+   **In plain terms:** the muṣḥaf tells you: the first meem is bare and the second carries a shadda. Two meems on the page, one held hum out loud.
+
 4. **Give it its second name, because she will meet it.** This rule is also called **إِدْغَام المُتَمَاثِلَيْن الصَّغِير** — the merging of two identical letters — or **إِدْغَام مِثْلَيْه**. It is not a separate ruling; it is the *general* rule for two identical letters meeting, applied to the meem. The general theory arrives in lesson 3-27. Today she needs the name only so that a different book does not read like a different rule. See [[Idgham-Mutamathilayn]].
 
 5. **Build it out loud, in three steps.** Do not define; assemble.

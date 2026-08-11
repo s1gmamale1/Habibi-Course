@@ -122,7 +122,11 @@ export function checkVault(dir, corpus) {
       // satisfy a counter is worse than none — it restates the technical account
       // instead of translating it, which is the failure the skill names first.
       // One per lesson is the floor; judgement decides the rest.
-      const seq = (body.match(/## Teaching sequence[\s\S]*?(?=\n## )/) || [""])[0];
+      // Most lessons put their teaching under "## Teaching sequence", but the Unit 3
+      // revision lessons use "## Part A / ## Part B" instead. Scoping the search to the
+      // one heading let those through unchecked — they have teaching content, just under
+      // a different name. Fall back to the whole body rather than enumerate headings.
+      const seq = (body.match(/## Teaching sequence[\s\S]*?(?=\n## )/) || [null])[0] ?? body;
       if (published.has(data.id) && seq && !LANDING.test(seq)) {
         errors.push(
           `${rel}: teaching sequence has no plain-language landing ` +

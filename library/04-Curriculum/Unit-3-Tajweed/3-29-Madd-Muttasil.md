@@ -106,6 +106,8 @@ Contrast it with what is coming next lesson, because the contrast is the point:
 argument, and it is worth giving her, because it makes the ruling follow from the spelling
 instead of being a fact to memorise.
 
+   **In plain terms:** the hamzah is stuck to the madd inside one word, so it can never get away. That is why nobody shortens this one — every reciter lengthens it.
+
 ### 3. The length: 4 or 5
 
 **4 or 5 ḥarakāt**, via ṭarīq ash-Shāṭibiyyah — 4 in ḥadr and tadwīr, 5 in slow tartīl.
@@ -144,6 +146,8 @@ times, then dial it back to normal. Overshooting first is the fastest route to n
 That is the entire visual procedure and it will serve her for both rules. Practise it as a
 *silent* scan before she reads — eyes only, no sound — because doing it mid-recitation is too
 late.
+
+**In plain terms:** two questions, in order. Is there a squiggle over the long vowel? Then where is the hamzah — same word means four, next word means the other rule.
 
 ### 6. The stop that buys a sixth count
 

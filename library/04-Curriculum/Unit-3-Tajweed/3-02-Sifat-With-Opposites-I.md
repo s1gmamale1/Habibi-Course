@@ -95,6 +95,8 @@ The sentence for the lesson:
 
    The remaining nineteen are jahr. Teach the ten and take the rest by subtraction — but tell her the classical mnemonic for the nineteen exists (**عَظُمَ وَزْنُ قَارِئٍ ذِي غَضٍّ جَدَّ طَلَبْ**) so that a book quoting it does not stop her.
 
+   **In plain terms:** hams letters let breath escape with them; jahr letters do not. Put a hand in front of your mouth — if you feel a puff, it is hams.
+
    **Two physical tests, and you must run both live.**
    - **Palm test.** Hold the palm a few centimetres from the mouth and say the letter with a sukūn. A hams letter puffs on the palm; a jahr letter does not. تْ puffs. دْ does not.
    - **Throat test.** Fingers on the voice box. A jahr letter buzzes through the whole letter. زْ buzzes; سْ does not.

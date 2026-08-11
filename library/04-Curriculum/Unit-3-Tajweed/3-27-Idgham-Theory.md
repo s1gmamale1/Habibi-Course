@@ -93,6 +93,8 @@ Say the frame: **for six lessons she has been merging letters. Today she finds o
 
    **The fourth row is why most letter sequences in the Qurʾān have no rule at all.** Two distant letters simply cannot merge. Say that; it stops her scanning every word for a hidden idghām.
 
+   **In plain terms:** same place and same character means identical; same place, different character means alike; near-enough places means close. That is the whole classification.
+
 2. **Then the second classification, by vowel state, and close two of its three rows immediately.**
 
    | Type | Definition | In Ḥafṣ |
@@ -142,6 +144,8 @@ Say the frame: **for six lessons she has been merging letters. Today she finds o
    **This is the classic error in the whole idghām syllabus.** A learner told "the ط merges" flattens it, and the word appears once — so the mistake, once made, is almost never corrected. Say it heavy, say it flat, and make her tell you which was which.
 
    Then the orthography, one more time: **the ت in `أَحَطتُ` carries no shaddah**, exactly as ي and و carry none after a merged noon in lesson 3-21. **A missing shaddah on a merged letter is the muṣḥaf's standing signal for nāqiṣ.** That convention has now appeared in three separate lessons; she should be able to state it herself.
+
+   **In plain terms:** in ط → ت the ط does not vanish completely — its heaviness stays behind. That leftover is what nāqiṣ means.
 
 7. **Mutaqāribayn — close but not identical. Very few cases.**
 

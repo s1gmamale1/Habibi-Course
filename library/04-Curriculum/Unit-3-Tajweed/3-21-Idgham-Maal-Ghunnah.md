@@ -78,6 +78,8 @@ That is the shape of this lesson, and you should say so out loud when it happens
 
 2. **The four letters — يَنْمُو.** ي · ن · م · و, gathered in the word *yanmū*, "it grows". Four letters, one word, no sentence needed. Say the word, write it, and have her recover the letters from it three times.
 
+   **In plain terms:** before ي ن م و, the nūn disappears into the next letter and you hum for two beats. The two words become one.
+
 3. **Say the word-boundary condition as part of the rule, not as a caveat.** "**At the end of a word**" is load-bearing. When these same four letters follow a noon sākinah *inside* one word, the rule is **cancelled**. Tanwīn always sits at the end of a word, so for tanwīn the condition is automatically met and she never has to check.
 
 4. **Now kāmil and nāqiṣ — the technical heart of the lesson.** The four letters do **not** behave alike:
@@ -100,6 +102,8 @@ That is the shape of this lesson, and you should say so out loud when it happens
 7. **Now the exception, and give it a third of your session.** **الإِظْهَار المُطْلَق** — *iẓhār muṭlaq*, "absolute clarification", also called *iẓhār wājib*. When a noon sākinah meets ي ن م و **inside the same word**, there is **no idghām**. The noon is pronounced clearly, exactly as in lesson 3-20 — but it is called *muṭlaq* because the trigger is **position**, not the throat.
 
    **The reason is worth giving, because it makes the exception memorable rather than arbitrary:** merging inside a word would erase the boundary between a genuine root letter and an assimilated one. `ٱلدُّنْيَا` would become *ad-duyyā*, and the word would no longer be recoverable from its own sound.
+
+   **In plain terms:** four words in the entire Qurʾān break this rule, and they break it because the two letters sit inside one word. Learn the four and stop worrying.
 
 8. **There are exactly four such words in the entire Qurʾān.** Not "a few". Four.
 

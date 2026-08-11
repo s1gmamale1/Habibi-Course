@@ -139,6 +139,8 @@ An-Naṣr is the single densest page in this unit's material: three ayat, both l
 
 **Drill 10 — the cold basmalah.** Say all five rulings in بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ without notes, then read it.
 
+**In plain terms:** rāʾ and lām are the only two letters in the language that switch between heavy and light. Everything else has one weight and keeps it.
+
 ## Part B — troubleshooting: the questions that actually come up
 
 ---
