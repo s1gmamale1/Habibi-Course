@@ -57,6 +57,76 @@ the roadmap has been carrying.
   groups are weaker or absent here. Worth checking Lingua Libre, Wiktionary and Commons
   for coverage.
 
+### TTS assessment — 2026-08-11
+
+Researched on the owner's request. **The answer is different per category**, which is why
+the project's earlier flat rejection of "Arabic TTS" was too coarse.
+
+**Cost is not the obstacle.** ElevenLabs' free tier is **10,000 credits/month** at 1 credit
+per character (Multilingual v2). The entire distinct-payload set is roughly **7,800
+credits** — 723 letters/syllables at ~3.5 chars plus 658 words at ~8 chars. **The whole
+corpus fits in one free month**, about $0.78 of compute at API rates.
+
+**Licensing is a $6 problem, and it has one trap.** Free-tier output is
+**non-commercial + attribution-required**, and the licence is **fixed at generation time —
+paying later does not retroactively license audio already generated**. So the correct move
+is one month of the paid entry tier, generate, cancel; paid-tier rights are reported to
+survive cancellation. **Never publish free-tier output.** *(The perpetuity-after-cancellation
+point is UNVERIFIED — the vendor's help articles 403'd and it is not in the ToS body.
+Confirm in-account before relying on it.)*
+
+**Verdicts by category:**
+
+- **254 Qurʾānic words — TTS inappropriate.** Not contested. The CDN supplies real qurrāʾ.
+- **723 letters and syllables — REJECT**, and on a better argument than makhraj. **A bare
+  one-to-three-character input is out-of-distribution for every TTS system on the market** —
+  they are trained on running speech. Two predicted failures: the model may pronounce the
+  letter's *name* (*ṣād*) rather than its sound /sˤ/, and Arabic TTS front-ends work by
+  **predicting diacritics from context**, of which a single character has none. This
+  argument's virtue is that it **survives a listening test**: a ص inside a sentence may
+  sound fine, while a bare one fails audibly.
+- **658 ordinary MSA words — CONDITIONAL, gated on a cheap test.** In their favour: these
+  are in-distribution for MSA TTS, the religious objection does not apply to non-scripture,
+  and the correct articulation of each letter is **established elsewhere** — by the time a
+  student meets قميص, ص was taught with human audio, so TTS reinforces an existing model
+  rather than being the source of truth. Against: MSA newsreader register **systematically
+  flattens tafkhīm**, and a beginner cannot tell shallow-ص from correct-ص — she will simply
+  internalise the shallow one, which *contradicts* the drill she just finished. **Decide it
+  with a ~20-word probe** loaded with contested letters (قميص، حصان، بخار, plus ض/د، ط/ت،
+  ق/ك contrasts) — ~160 credits, judged by someone with tajwīd training.
+- **English instructional narration — unobjectionable.** Zero makhraj exposure, no religious
+  question. **This was never the contested case and should not have been caught by the
+  original Arabic-focused rejection.**
+
+**One claim from the research that this repo contradicts.** The assessment argued the
+syllable cues are "largely madd drills (بَا/بِي/بُو) where the duration IS the pedagogical
+content." **Checked against the content: it is not so.** Of 606 distinct two-to-three-letter
+payloads only **127** contain a madd letter at all, and several of those are ordinary words
+(بيت، عين، فيل). The actual set is **letter-joining drills** — بت، تب، كل، لك، من، نم. The
+rejection stands regardless, and arguably harder: nonsense joining pairs are *further*
+out-of-distribution than madd syllables.
+
+**On the evidence base, stated plainly:** no published evaluation of TTS *output* on the
+emphatic contrasts appears to exist. The case rests on inference from adjacent evidence —
+notably that **Arabic TTS is scored by MOS and PESQ, none of which measure articulation-point
+correctness**, so a system can top every leaderboard while producing س for ص. The
+durational features (madd counted in ḥarakāt, ghunnah, qalqalah) are the **more durable**
+objection than the emphatics, because no system attempts them and no metric rewards them.
+
+**Religious positions found — more permissive than expected, and not independently verified
+by me.** The research reports IslamQA 512399 permitting synthesised recitation subject to
+the voice owner's permission; IslamWeb 510187 setting the operative test as expert
+endorsement that a teaching program is *free from errors*; and notes that Al-Azhar's
+Sept 2024 statement concerned **musical accompaniment, not AI synthesis**, so it should not
+be cited against TTS. **Verify these before relying on any of them.** The practical upshot:
+the rulings do not forbid TTS — they set an expert-verification bar no vendor currently
+claims to clear.
+
+**Also unverified:** whether a per-request minimum credit charge exists (1,381 tiny requests
+could cost far more than the character math implies — this is the one number that could
+break the estimate); and whether an unmonetised educational site counts as "non-commercial",
+which the terms nowhere define.
+
 ---
 
 ## Content and pedagogy
