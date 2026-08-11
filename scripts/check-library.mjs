@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { readdirSync, readFileSync, statSync } from "node:fs";
-import { join, basename, extname, relative } from "node:path";
+import { fileURLToPath } from "node:url";
+import { join, basename, dirname, extname, relative } from "node:path";
 import { parseNote } from "./lib/frontmatter.mjs";
 import { loadCorpus, verifyExample } from "./lib/corpus.mjs";
 import { CPFAIR_KEYS, RULE_FAMILIES, NOTE_TYPES, STATUSES } from "./lib/rules.mjs";
@@ -9,6 +10,9 @@ const WIKILINK = /\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]/g;
 const LESSON_ID = /^\d-\d{2}$/;
 const LANDING = /\*\*(In plain terms:|Said simply:|What that means out loud:)\*\*/;
 
+const HERE = dirname(fileURLToPath(import.meta.url));
+export const DEFAULT_COURSE_MAP = join(HERE, "..", "content", "course.json");
+
 /**
  * Lesson ids a learner can actually reach — the ids listed in `content/course.json`.
  *
@@ -16,14 +20,29 @@ const LANDING = /\*\*(In plain terms:|Said simply:|What that means out loud:)\*\
  * that: every lesson note in the vault is still `draft`, so gating on it would
  * make those checks silently dead. The course map is the real publish signal, and
  * it is the same file the app routes from.
+ *
+ * Resolved against this file, the way `lib/corpus.mjs` resolves the corpus — not
+ * against the working directory. The vault to check is an argument the caller
+ * spells out; the course map is implicit, so a cwd-relative read made the gate's
+ * strictness depend on where it happened to be invoked from.
+ *
+ * An unreadable or malformed map THROWS. It used to return an empty Set, which
+ * silently switched off every publish-gated check while the gate went on printing
+ * "0 errors" — a gate that reports success exactly when it is broken. Losing the
+ * publish signal is a failure of the gate itself, not a finding about the vault,
+ * so it aborts rather than joining the errors list.
  */
-function publishedLessonIds(root = "content/course.json") {
+export function publishedLessonIds(root = DEFAULT_COURSE_MAP) {
+  let course;
   try {
-    const course = JSON.parse(readFileSync(root, "utf8"));
-    return new Set(course.phases.flatMap((p) => p.lessons.map((l) => l.id)));
-  } catch {
-    return new Set(); // no map reachable — publish-only checks simply do not run
+    course = JSON.parse(readFileSync(root, "utf8"));
+  } catch (e) {
+    throw new Error(`course map unreadable at ${root}: ${e.message}`);
   }
+  if (!Array.isArray(course?.phases)) {
+    throw new Error(`course map at ${root} has no "phases" array`);
+  }
+  return new Set(course.phases.flatMap((p) => p.lessons?.map((l) => l.id) ?? []));
 }
 
 function walk(dir, out = []) {
@@ -254,7 +273,16 @@ export function checkVault(dir, corpus) {
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const dir = process.argv[2] ?? "library";
-  const { errors, warnings, counts } = checkVault(dir, loadCorpus());
+  let result;
+  try {
+    result = checkVault(dir, loadCorpus());
+  } catch (e) {
+    // The gate could not run — a missing corpus, an unreadable course map. That
+    // is not "0 errors"; report it as the failure it is.
+    console.error(`ERROR gate could not run: ${e.message}`);
+    process.exit(1);
+  }
+  const { errors, warnings, counts } = result;
   for (const w of warnings) console.warn(`WARN  ${w}`);
   for (const e of errors) console.error(`ERROR ${e}`);
   console.log(

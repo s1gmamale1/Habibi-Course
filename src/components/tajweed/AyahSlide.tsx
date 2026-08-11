@@ -37,7 +37,7 @@ export function AyahSlide({ surah, ayah, highlight, translation, audio }: Omit<A
 
       {verse ? (
         <p className="mb-6 text-center text-4xl leading-[2.1] sm:text-5xl">
-          <TajweedText text={verse.text} spans={spans} isolate={isolate} onRuleTap={setIsolate} />
+          <TajweedText text={verse.text} spans={spans} isolate={isolate} />
         </p>
       ) : (
         // No generated entry for this reference — see the note in verses.ts on

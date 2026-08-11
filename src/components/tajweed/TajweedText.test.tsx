@@ -50,6 +50,30 @@ describe("TajweedText", () => {
     expect(screen.getByLabelText(text)).toBeTruthy();
   });
 
+  it("exposes the whole ayah as one named node, under a real ARIA role", () => {
+    // The ayah is painted across many coloured spans, and the intent is that a
+    // screen reader read it as one continuous string rather than announcing
+    // fragments. That was attempted with `role="text"` — which is not in the
+    // ARIA spec at all; it is a WebKit-only extension. Everywhere else the
+    // container fell back to a generic span, where `aria-label` is prohibited
+    // and ignored, leaving the reader to piece the ayah together from whatever
+    // the un-hidden runs happened to be.
+    //
+    // `role="img"` is the standard role whose children ARE presentational, so
+    // the whole subtree collapses to the one accessible name. It is the only
+    // mechanism that can hide the bare text runs between the spans: `aria-hidden`
+    // is an attribute, and a text node cannot carry one.
+    render(<TajweedText text={text} spans={spans} />);
+
+    expect(screen.getByRole("img", { name: text })).toBeTruthy();
+  });
+
+  it("uses no non-standard role", () => {
+    const { container } = render(<TajweedText text={text} spans={spans} />);
+    const roles = [...container.querySelectorAll("[role]")].map((e) => e.getAttribute("role"));
+    expect(roles).not.toContain("text");
+  });
+
   it("gives a rule span its colour and underline", () => {
     const { container } = render(<TajweedText text={text} spans={spans} />);
     const el = container.querySelector("[data-rule='hamzat_wasl']") as HTMLElement;
