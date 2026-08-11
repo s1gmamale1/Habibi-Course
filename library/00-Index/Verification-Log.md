@@ -36,6 +36,9 @@ and recorded that here.
 | 2026-08-10 | The 5 rā' isti'lā exception words | pinned corpus | agent + lead | **Resolved.** `phase-3-tajweed.md:18` asked for these to be "verified against Tanzil before use" and `:715` listed them without refs. Now pinned and verified: قِرْطَاسٍ **6:7** · إِرْصَادًا **9:107** · فِرْقَةٍ **9:122** · مِرْصَادًا **78:21** · لَبِٱلْمِرْصَادِ **89:14**. See [[Ra-Tafkhim]] |
 | 2026-08-11 | **Arabic shaping across coloured spans — Safari / WebKit** | live render in Safari of al-Fātiḥa 1:6 and 1:7, each drawn twice: once split into coloured spans exactly as `TajweedText` emits them, once as one unbroken string | lead | **PASSES.** Letterforms are identical between the spanned and unspanned lines — the lām-alif ligature in وَلَا survives, and ٱلضَّآلِّينَ holds ضّ + آ + لّ together with a `madd_6` span sitting across it. **Splitting Arabic across `<span>` elements does not break shaping in WebKit.** With the 2026-08-10 Chrome result, both engines are now verified |
 | 2026-08-11 | Span decoration styles, both engines | same render — comparing each span's `text-decoration` against what `UNDERLINE` intends | lead | **Found a live bug, since fixed.** `UNDERLINE.silent = "none"` was reaching `text-decoration-style`, where `none` is not a legal value, so the declaration was dropped and the style fell back to `solid` — drawing an underline under **647 of the course's 1,972 spans (33%)** that was explicitly meant to be absent. Visible as a dash beside every grey hamzat al-waṣl. See below |
+| 2026-08-11 | **The two "unattested" madds, against a fourth source** | [[Nihayat-al-Qawl-al-Mufid]] (al-Juraysī, d. c. 1322 AH) — located in the Internet Archive OCR layer, then **every citation read off the page scan itself** | lead | **Both verified, and a name collision found.** [[Madd-Iwad]]'s mechanism is stated at printed p. ٩٤ (*"it stands as a compensation for the tanwīn manṣūb in the state of waqf"*); its length is still derived from madd ṭabīʿī, which the note says. [[Madd-Tamkeen]] is defined twice — as madd type 15 at p. ١٩٤ and as the second condition for idghām at p. ١٤٩, the latter naming this course's own example ٱلَّذِى يُوَسْوِسُ. **But the source's own heading مد العوض (item 20, p. ١٩٥) is a different rule** — the hāʾ al-kināyah compensating a jussive-deleted yāʾ. Cite p. ٩٤, never p. ١٩٥ |
+| 2026-08-11 | Madd at-tamkīn, Form 1 | same source, printed p. ١٠٤ | lead | **Verified, under a different name.** Al-Juraysī quotes al-Marʿashī requiring *bayān* of a repeated yāʾ *"especially when one of them carries shaddah and kasrah, as in وَإِذَا حُيِّيتُم"* — identical mechanism, purpose and failure mode, but **not labelled tamkīn**. Filing both forms under one name is modern convenience, and [[Madd-Tamkeen]] now says so |
+| 2026-08-11 | [[Madd-Farq]]'s 6 counts — derived or transmitted? | same source, printed p. ١٩٣, item 11 | lead | **Upgraded from derived to transmitted.** This log recorded the 6 as reconstructed, because [[Shatibiyyah]] v. 192 gives the rule and no count. Al-Juraysī classes madd al-farq as *"one of the divisions of **madd lāzim kalimī**, muthaqqal or mukhaffaf"* — six by definition in both vendored matns. The old derivation is kept as a cross-check; the two agree |
 | 2026-08-10 | Which rules lack an in-hifz-set example | counted every annotation in surahs 1 + 105–114 | lead | **Corrected a standing assumption.** Only **iqlāb (0)** and **idghām mutaqāribayn (0)** genuinely lack one. **[[Idgham-Shafawi]] has 2**, both in Quraysh 106:4, so it does *not* need the "outside your memorized surahs" label. [[Ikhfa-Shafawi]] has 1 (105:4), idghām mutajānisayn 1 (109:4), [[Madd-Lazim]] 1 (1:7) |
 
 > **Quraysh 106:4 is the single best teaching ayah in the course.** It carries **four rules
@@ -58,7 +61,7 @@ and recorded that here.
 | 2 | Waqf-sign positions per ayah | **neither vendored dataset carries them.** The pinned Tanzil text omits waqf signs by design, and cpfair does not annotate them | the waqf-placement drill, and any in-mushaf sign rendering |
 | 3 | Letter / qaida audio | **~7,000** `teacher-voice` cues are silent across the published course. Exhaustive search confirmed **no openly-licensed, full-coverage set exists**, and Arabic TTS is not acceptable — it optimises for intelligibility, not makhraj, so it would teach errors. **DEFERRED by the owner** (twice); do not raise it as next work | audio drills only. Every cue renders as usable text, so nothing regresses while it waits |
 | 4 | يَبْصُۜطُ — sīn or ṣād | sources genuinely differ; ṣād predominates for Hafs/Shāṭibiyyah, some regional traditions read sīn | [[Hafs-Special-Words]], held at `needs-review` until checked against a Madinah mushaf **and** a licensed teacher |
-| 5 | ~~Every rule note's substance~~ | **Largely resolved 2026-08-11: 54 of 59 verified** against the vendored matns. The five left are `needs-review`, each blocked on a named artifact not in this vault — `madd_iwad` and `madd_tamkeen` need a tajwīd manual, `silent_letters` a muṣḥaf-convention source, `waqf_signs` the Madinah committee's own set, `hafs_special_words` the يَبْصُۜطُ ruling | the gate's 5 remaining warnings |
+| 5 | ~~Every rule note's substance~~ | **Resolved further, 2026-08-11: 56 of 59 verified.** `madd_iwad` and `madd_tamkeen` needed *"a tajwīd manual"* — [[Nihayat-al-Qawl-al-Mufid]] is that manual, and it was obtainable all along. The three left are `needs-review`: `silent_letters` needs a **rasm/ḍabṭ** source (not a tajwīd one — checked, and this manual does not cover the zeros), `waqf_signs` the Madinah committee's own set, `hafs_special_words` the يَبْصُۜطُ ruling | the gate's 3 remaining warnings |
 
 ## Build state — 2026-08-11
 
@@ -74,15 +77,24 @@ and recorded that here.
 | **D** — Games | **complete** · 7 of 8 drills + registry wired; waqf placer blocked, see below |
 | **E** — Lesson JSON | **complete** · all **74 lessons published**, none `draft` |
 
-**417 tests · 0 lint errors · library gate 0 errors / 5 warnings · `npm run build`
+**417 tests · 0 lint errors · library gate 0 errors / 3 warnings · `npm run build`
 succeeds (230 static pages) · `npm audit` 0 vulnerabilities.**
 
 **`content/course.json` holds all four phases and 74 lessons are reachable.** Publishing
 remains a deliberate two-step — clear `draft`, then add the phase entry, in that order —
 and the test that enforces it is still what makes the order real rather than a convention.
 
-**Rule notes: 54 of 59 verified.** The remaining five are `needs-review`, each blocked on a
-named artifact that is not in this vault — not on unfinished work here.
+**Rule notes: 56 of 59 verified.** The remaining three are `needs-review`, each blocked on a
+named artifact that is not in this vault.
+
+> **A correction to how that sentence used to read.** It said the blockers were *"not on
+> unfinished work here"* — which hardened, in the roadmap, into the claim that the remaining
+> rules were blocked on the world. **That was wrong for at least two of them.** The blocker
+> named for `madd_iwad` and `madd_tamkeen` was *"a tajwīd manual that states it as a rule"*,
+> and such a manual — public-domain, scanned, freely readable — existed the whole time. The
+> honest form of the claim is narrower: **the three vendored matns do not cover these rules.**
+> That is a fact about our shelf, not about the world. Before recording anything as blocked
+> externally, go and look.
 
 **Unit 3 is 37 lessons, not 36, as of 2026-08-11.** `3-04` is new and everything after it
 shifted by one. The renumber was a single pass with a callback over library/ and content/
@@ -98,7 +110,7 @@ Nothing published moved: no `3-xx` id appears in `course.json`.
    documented differences from quran.com's text) and cpfair does not annotate them.
    Sourcing that dataset is unresolved. Inventing it would be worse than omitting the drill.
 2. ~~**Publishing is gated on review, not on work.**~~ **Resolved 2026-08-11.** All 74
-   lessons are published and 54 of 59 rule notes are verified against the vendored matns.
+   lessons are published and 56 of 59 rule notes are verified against the vendored sources.
    The 5 remaining warnings are the five `needs-review` rules, each with its blocker named
    in the table above.
 3. ~~**Arabic shaping — verified in Chrome, still unverified in Safari.**~~ **Resolved
