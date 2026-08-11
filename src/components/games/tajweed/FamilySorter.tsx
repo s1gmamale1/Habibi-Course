@@ -205,6 +205,15 @@ export function FamilySorter({
   const [placed, setPlaced] = useState<Record<string, string>>({});
   const [selected, setSelected] = useState<string | null>(null);
   const [missed, setMissed] = useState<string[]>([]);
+  /**
+   * Which card is shaking, and how many times it has been shaken — the same
+   * `{ key, n }` counter `LetterQuiz` and `FormSwap` keep, for the same reason.
+   * `game-shake` is a CSS animation, and re-applying a class an element already
+   * carries does not replay it; the card is remounted instead, by way of a key
+   * that changes. A boolean "has this been missed" cannot change on the second
+   * miss, so it has to be a count.
+   */
+  const [shake, setShake] = useState<{ item: string; n: number } | null>(null);
   const [note, setNote] = useState<{ kind: "right" | "wrong"; bucket: Bucket; item: string } | null>(
     null,
   );
@@ -222,8 +231,13 @@ export function FamilySorter({
     onResult?.({ gameId: GAME_ID, ruleId: item.rule, correct, at: now() });
     setSelected(null);
     setNote({ kind: correct ? "right" : "wrong", bucket, item: item.id });
-    if (correct) setPlaced((p) => ({ ...p, [item.id]: bucket.id }));
-    else setMissed((m) => (m.includes(item.id) ? m : [...m, item.id]));
+    if (correct) {
+      setPlaced((p) => ({ ...p, [item.id]: bucket.id }));
+      setShake(null); // a wrong drop's shake outlived the drop itself
+    } else {
+      setMissed((m) => (m.includes(item.id) ? m : [...m, item.id]));
+      setShake((s) => ({ item: item.id, n: (s?.n ?? 0) + 1 }));
+    }
   }
 
   function stateOf(item: SorterItem): CardState {
@@ -247,9 +261,10 @@ export function FamilySorter({
         className="mb-6 flex min-h-16 flex-wrap justify-center gap-3"
       >
         {unplaced.map((item) => (
-          // Keyed by the miss count so a repeat wrong drop restarts the shake.
+          // Keyed by this card's shake count, so a repeat wrong drop remounts it
+          // and the shake animation runs again from the start.
           <Card
-            key={`${item.id}-${missed.includes(item.id) ? "m" : ""}${note?.item === item.id ? 1 : 0}`}
+            key={`${item.id}-${shake?.item === item.id ? shake.n : 0}`}
             item={item}
             state={stateOf(item)}
             onSelect={() => setSelected(item.id)}
