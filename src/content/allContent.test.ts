@@ -49,6 +49,32 @@ describe("all real content validates", () => {
           expect(cell.name, `${id}: drill cell ${cell.arabic} has a visible name caption`).toBeUndefined();
     }
   });
+  test("every title slide names the lesson it belongs to", () => {
+    // The title slide's heading is the first thing a student reads, and it is the one
+    // place a stale lesson number is visible rather than internal.
+    //
+    // This exists because it happened. Inserting 3-04 renumbered 3-04…3-36 upward, and
+    // the pass matched the hyphenated "3-27". These headings are written "Lesson 3.27",
+    // so all 33 survived it — and Unit 3 published with every lesson from 3-05 up
+    // displaying the number of the lesson before it. `check-library` gained the same
+    // check for the markdown notes at the time; it reads the vault, not content/, so it
+    // could not see this half.
+    //
+    // Compared by number: "3.7" and "3-07" are the same lesson written two ways.
+    for (const id of allLessonIds()) {
+      const lesson = loadLesson(id);
+      const title = lesson.slides.find((s) => s.kind === "title");
+      if (!title || !("heading" in title)) continue;
+      const m = String(title.heading).match(/Lesson\s+(\d+)[-.](\d+)/i);
+      if (!m) continue;
+      const [, phase, num] = m;
+      const [idPhase, idNum] = id.split("-");
+      expect(
+        Number(phase) === Number(idPhase) && Number(num) === Number(idNum),
+        `${id}: title slide says "Lesson ${phase}.${num}"`,
+      ).toBe(true);
+    }
+  });
   test("no Unit 4 slide presents the Kalimas as Qur'an", () => {
     // The `ayah` slide kind means Qur'an: it takes a surah/ayah pair, pulls the text
     // from the pinned corpus and renders it with tajweed colouring. The Kalimas are
