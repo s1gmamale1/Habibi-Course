@@ -72,13 +72,13 @@ and recorded that here.
 
 | Sub-project | State |
 |---|---|
-| **L** — Library | **complete** · **182 notes**, gate green |
+| **L** — Library | **complete** · **183 notes**, gate green |
 | **B** — Qur'an pipeline | **complete** · 212 verses, 1,972 spans, 0 defects |
 | **C** — Schema & renderer | **complete** · static export builds |
 | **D** — Games | **complete** · 7 of 8 drills + registry wired; waqf placer blocked, see below |
 | **E** — Lesson JSON | **complete** · all **74 lessons published**, none `draft` |
 
-**417 tests · 0 lint errors · library gate 0 errors / 3 warnings · `npm run build`
+**423 tests · 0 lint errors · library gate 0 errors / 3 warnings · `npm run build`
 succeeds (230 static pages) · `npm audit` 0 vulnerabilities.**
 
 **`content/course.json` holds all four phases and 74 lessons are reachable.** Publishing
