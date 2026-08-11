@@ -57,6 +57,61 @@ the roadmap has been carrying.
   groups are weaker or absent here. Worth checking Lingua Libre, Wiktionary and Commons
   for coverage.
 
+### Video: a complete 29-letter CC-BY series — 2026-08-11
+
+**The one asset found that could be re-hosted rather than merely linked.**
+
+**Reverts' Corner**, playlist *Arabic Language Learning*
+(`youtube.com/playlist?list=PLTdaXsFaPmam2l6vRQaKhcK88A_tJVamw`) — **one dedicated video per
+letter, all 29** from hamza ء to yāʾ ي, 55 s to 3 m 39 s each, English instruction, published
+Oct 2024. One video per letter means **no timestamp deep-linking is needed** — the video *is*
+the deep link. Each description also carries a written makhraj explanation usable as lesson
+text.
+
+**Licence verified twice — by the research agent, then independently in this session by
+fetching all 29 watch pages and checking for YouTube's CC marker: 28 of 29 are CC-BY. The
+sole exception is qāf ق (`pgchJET6o-o`), which is Standard.** A re-hosted set would have a
+hole exactly at ق.
+
+**What it does and does not cover.** Do not overstate this. It supplies the **29 base-letter
+demonstrations** — pedagogically the most important sounds in the course, and the ones a
+student cannot self-correct — but that is **~29 of 1,635 distinct payloads**. It does *not*
+cover the 213 harakat variants, and it certainly does not cover the 510 letter-joining drills
+(بت، تب، كل، لك): you cannot synthesise بَ from a recording of ب.
+
+**Before re-hosting anything, one check is mandatory.** YouTube's CC tag is **self-declared
+and unvalidated — the platform does not verify that the uploader owns what they are
+licensing.** The research turned up a live example of the trap: *"Learn Arabic Letters with
+Wisam Sharieff Part 1"* (`p2hiXRyVfJo`) is **tagged CC-BY while its own description says "no
+copyright infringement intended"** — a third-party re-upload. I confirmed the CC tag is
+really there. A CC tag applied by someone who does not hold the rights grants nothing.
+**Do not use that video.** For Reverts' Corner, get written confirmation from the channel
+before re-hosting; **linking/embedding needs no permission and carries no risk today.**
+
+**Also unverified: nobody has watched these.** Teaching accuracy, tajwīd soundness and the
+presenter's qualifications are entirely unassessed — the licence check read metadata, not
+content. A small channel is now the candidate spine for the course's letter audio. **Someone
+qualified must watch all 29 before they are used**, whether linked or re-hosted.
+
+**Runners-up.**
+- *AMAU — A Brief Introduction to Tajweed* (Ustadh AbdulRahman Hassan), English, 13 parts,
+  established institution — **CC-BY on 12 of 13; Part 3 (`NoyJnRezaL0`) is Standard.** Same
+  per-video gap pattern.
+- *The Arabic Coach — Arabic Alphabet Pronunciation* (`8_60iWXl7dw`), 8 m 51 s, 4.36 M views,
+  **28 per-letter timestamps in the description** so `&t=` deep-linking works out of the box.
+  **Standard licence — embed/link only**, verified. Best zero-risk option for today.
+
+**Negative result worth keeping:** no openly-licensed Arabic *articulatory* video dataset
+exists that is usable here. The IEEE DataPort Arabic MRI set covers only 12 letters, declares
+no formal licence and sits behind a subscription; the USC RT-MRI set is genuinely CC BY 4.0
+but is English speech and raw MRI — research data, not teachable material.
+
+**One discrepancy to resolve:** this research reports **EveryAyah's recitation audio as
+CC-BY-NC**, which would bar commercial use. `docs/research/recitation-audio.md` §1.5 says no
+explicit licence for the audio could be found at all. Both cannot be right, and it only
+matters if the course is ever monetised — but it should be settled rather than left as two
+contradicting notes.
+
 ### TTS assessment — 2026-08-11
 
 Researched on the owner's request. **The answer is different per category**, which is why
