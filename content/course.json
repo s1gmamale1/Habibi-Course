@@ -360,6 +360,56 @@
         "id": "checkpoint-3",
         "title": "Final Checkpoint — four tests, one per end goal"
       }
+    },
+    {
+      "number": 4,
+      "title": "The Kalimas",
+      "lessons": [
+        {
+          "id": "4-01",
+          "title": "Kalima Ṭayyiba",
+          "calendarSlot": "Week 23 — Wed"
+        },
+        {
+          "id": "4-02",
+          "title": "Kalima Shahāda",
+          "calendarSlot": "Week 23 — Sat"
+        },
+        {
+          "id": "4-03",
+          "title": "Kalima Tawḥīd",
+          "calendarSlot": "Week 24 — Mon"
+        },
+        {
+          "id": "4-04",
+          "title": "Kalima Radd al-Kufr",
+          "calendarSlot": "Week 24 — Wed"
+        },
+        {
+          "id": "4-05",
+          "title": "Kalima Istighfār",
+          "calendarSlot": "Week 24 — Sat"
+        },
+        {
+          "id": "4-06",
+          "title": "Kalima Tamjīd",
+          "calendarSlot": "Week 25 — Mon"
+        },
+        {
+          "id": "4-07",
+          "title": "Īmān Mujmal",
+          "calendarSlot": "Week 25 — Wed"
+        },
+        {
+          "id": "4-08",
+          "title": "Īmān Mufaṣṣal",
+          "calendarSlot": "Week 25 — Sat"
+        }
+      ],
+      "checkpoint": {
+        "id": "checkpoint-4",
+        "title": "Unit 4 Exit — the rule-spotting pass"
+      }
     }
   ]
 }

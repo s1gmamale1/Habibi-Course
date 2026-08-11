@@ -213,6 +213,8 @@ By this point in a long recitation it will be the **weakest** part of her perfor
 the strongest, even though it is the part she knows best. Expect that, and check it *at the
 end of the sentence*, not in isolation — the isolated version has been correct since 4-01.
 
+**In plain terms:** this is the longest kalima and it is built on humming. Every نّ and مّ with a shadda gets two beats through the nose — get that and most of the sentence is right.
+
 ## Drills
 
 **Drill 1 — the list, alone.** Do not recite the kalima. Recite **only the nine phrases**

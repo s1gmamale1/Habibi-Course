@@ -216,6 +216,8 @@ Compare with how 4-07 ended, on a hard [[Qalqalah-Kubra]] at *bi-l-qalb*. This t
 a **long soft līn** instead. Two texts, two completely different endings, and she should be
 able to say why each is what it is. That comparison is the last thing you teach in Unit 4.
 
+**In plain terms:** this is the long list, and it is mostly things you can already do. Read it slowly enough that the rāʾs stay light where the kasra tells you to.
+
 ## Drills
 
 **This lesson gets the most drill time in the unit.** Plan two sittings. Sitting one: Drills

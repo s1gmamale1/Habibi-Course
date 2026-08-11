@@ -187,6 +187,8 @@ last syllable is a **madd ʿāriḍ lis-sukūn**: 2, 4 or 6 counts — *qadīī�
 **Heavy qāf, long madd, light rāʾ, all in one word.** That is the assessment item for this
 lesson.
 
+**In plain terms:** this one is mostly lāms. Watch whether the lām after *al-* is spoken or swallowed, and let the rest follow the habits you already have.
+
 ## Drills
 
 **Drill 1 — the rule-spotting pass.** Silent read, finger on each rule, name it out loud.
