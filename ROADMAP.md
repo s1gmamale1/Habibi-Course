@@ -1,6 +1,6 @@
 # Habibi Course — Roadmap
 
-A self-paced Arabic reading and tajweed course: 29 lessons live across two published phases, with a further 45 authored, validated and deliberately unpublished. Content is written twice — as a reviewable markdown note in `library/04-Curriculum/`, then transcribed to JSON in `content/lessons/` — and every Qurʾānic string is sliced from a pinned Tanzil snapshot rather than typed.
+A self-paced Arabic reading and tajweed course: **74 lessons live across four phases**, from the alphabet to the tajweed rules to the Kalimas. Content is written twice — as a reviewable markdown note in `library/04-Curriculum/`, then transcribed to JSON in `content/lessons/` — and every Qurʾānic string is sliced from a pinned Tanzil snapshot rather than typed.
 
 This ROADMAP is the single source of truth for what to build next. The detailed evidence behind every claim here lives in `library/00-Index/Verification-Log.md`.
 
@@ -13,7 +13,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Rule notes | 59 total — **54 verified** against the vendored matns, 5 `needs-review`, each blocked on a named external source |
 | Gates | 413 tests · 0 lint errors · library 0 errors / 5 warnings · static export builds |
 
-> **Phases 1–4 of this roadmap are complete.** What remains is Phase 5 (audio) and Phase 6 (the outside-world verification gaps), plus the three open hotlist rows. Nothing on either list blocks a learner from starting the course today.
+> **Phases 1–4 are complete and the course is fully reachable.** Phase 5 (audio) is **deferred by the owner** — do not surface it as next work. What is genuinely open is **hotlist #3** (Unit 1's 15 live lessons have no library note), **hotlist #4** (Safari), and Phase 6's outside-world items. Nothing on that list blocks a learner from starting today.
 
 ---
 
@@ -65,7 +65,11 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 ---
 
-## Phase 2 — Source the eight rules the vendored matns cannot settle
+## Phase 2 — Source the eight rules the vendored matns cannot settle ✅ **DONE 2026-08-11, as far as sources allow**
+
+> **Delivered.** Ash-Shāṭibiyyah vendored in part (public domain, d. 590 AH); `sakt`, `madd_farq` and `madd_silah` verified from it; **54 of 59** rules now verified. Two counts in those notes turned out **not** to be in the matn and now say so — v.830 calls the sakt only *"a light one"*, and v.192 gives no number for farq, whose 6 is derived rather than transmitted.
+>
+> **The five that remain are `needs-review` with a named external blocker each, not unfinished work:** `madd_iwad` and `madd_tamkeen` appear in none of the three matns (iwaḍ is *presupposed* by v.830's "the alif of the tanwīn", tamkeen has no attestation at all); `silent_letters` needs a muṣḥaf-convention source; `waqf_signs` is sourced but the Madinah committee's specific set is not documented here; `hafs_special_words` waits on يَبْصُۜطُ. **Re-reading the vendored matns will not settle any of them.**
 
 **Goal.** Every rule taught by a lesson is verified against a source in this vault, or is explicitly and visibly reference-only.
 
@@ -149,7 +153,9 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 ---
 
-## Phase 5 — Record the teacher audio
+## Phase 5 — Record the teacher audio ⏸️ **DEFERRED by the owner**
+
+> **Do not propose this as a next step.** The owner has deferred it twice. It is the one item in the project that cannot be done by anyone else — Arabic TTS was evaluated and rejected because it optimises for intelligibility rather than makhraj, and no openly-licensed full-coverage set exists — so it waits on his availability rather than on any work here. **Nothing regresses while it waits:** every cue already renders as usable text. Pick it up only if he raises it.
 
 **Goal.** A student practising alone hears a correct human articulation instead of reading an instruction about one.
 
@@ -237,5 +243,5 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Source the eight rules | 2 | M | **High** | Gates Phase 3; acquisition, not analysis |
 | Publish Unit 3 | 3 | M | **High** | 37 lessons; needs Phases 1–2 |
 | Publish Unit 4 | 4 | S | Med | Needs Phase 3; ships the ayah-slide guard |
-| Record teacher audio | 5 | L | High | Blocked on the owner; additive, nothing regresses |
+| Record teacher audio | 5 | L | — | **DEFERRED by the owner.** Do not surface as next work |
 | Close outside-world gaps | 6 | S–XL | Low–Med | Some items may never resolve; decide and date them |
