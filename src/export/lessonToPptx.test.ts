@@ -1,9 +1,12 @@
 // @vitest-environment node
+import { createRequire } from "node:module";
 import { describe, expect, test } from "vitest";
 import PptxGenJS from "pptxgenjs";
 import { allLessonIds, loadLesson } from "@/content/load";
 import type { Lesson } from "@/content/schema";
 import { buildLessonDeck, drillTableRows, type Deck, type DeckSlide } from "./lessonToPptx";
+
+const requireFromTest = createRequire(import.meta.url);
 
 class FakeSlide implements DeckSlide {
   background?: { color: string };
@@ -32,6 +35,7 @@ const miniLesson: Lesson = {
   unit: "1.9",
   title: "Mini",
   objectives: ["obj one"],
+  prerequisites: [],
   slides: [
     { kind: "title", heading: "Mini lesson", arabicDecor: "ص" },
     {
@@ -56,6 +60,7 @@ const noHomeworkSlideLesson: Lesson = {
   unit: "1.9",
   title: "Mini (no homework slide)",
   objectives: ["obj one"],
+  prerequisites: [],
   slides: [
     { kind: "title", heading: "Mini lesson", arabicDecor: "ح" },
     {
@@ -79,6 +84,7 @@ function lessonWithRecap(itemCount: number): Lesson {
     unit: "1.9",
     title: "Recap fixture",
     objectives: ["obj"],
+    prerequisites: [],
     slides: [
       { kind: "title", heading: "Title", arabicDecor: "ح" },
       { kind: "recap", heading: "Recap", items: Array.from({ length: itemCount }, (_, i) => recapItem(i)) },
@@ -99,6 +105,7 @@ function lessonWithDrillRows(rowCount: number): Lesson {
     unit: "1.9",
     title: "Drill fixture",
     objectives: ["obj"],
+    prerequisites: [],
     slides: [
       { kind: "title", heading: "Title", arabicDecor: "د" },
       { kind: "drill", heading: "Drill", instructions: "match the letters", grid: Array.from({ length: rowCount }, (_, i) => [drillItem(i)]) },
@@ -223,6 +230,11 @@ describe("renderDrill fontSize scaling", () => {
 });
 
 describe("smoke against real pptxgenjs", () => {
+  test("keeps the audited PptxGenJS version and fails closed on its disabled image-size dependency", () => {
+    expect(new PptxGenJS().version).toBe("4.0.1");
+    expect(() => requireFromTest("image-size")).toThrow("all published releases are vulnerable");
+  });
+
   test("produces a non-empty zip (pptx) for lesson 1-04", async () => {
     const pptx = new PptxGenJS();
     buildLessonDeck(pptx as unknown as Deck, loadLesson("1-04"));
