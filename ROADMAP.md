@@ -12,7 +12,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
 | Library | **182 notes** — every one of the 74 live lessons has a reviewable note |
 | Rule notes | 59 total — **54 verified** against the vendored matns, 5 `needs-review`, each blocked on a named external source |
-| Gates | 416 tests · 0 lint errors · library 0 errors / 5 warnings · static export builds |
+| Gates | 417 tests · 0 lint errors · library 0 errors / 5 warnings · static export builds |
 
 > **Phases 1–4 are complete and the course is fully reachable.** Phase 5 (audio) is **deferred by the owner** — do not surface it as next work. **The hotlist is clear** — #1, #3 and #4 are closed and #2 is blocked on an external source. What remains is Phase 6's outside-world items, none of which blocks a learner. Nothing on that list blocks a learner from starting today.
 
@@ -231,6 +231,11 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 **Consequences.** (+) Exactness is structural, not a matter of care. (+) cpfair's 60,057 annotations key to this exact snapshot. (−) Offsets must never be mixed with quran.com's `text_uthmani`, and `ayah` slides are limited to the bundled surahs 1 and 105–114.
 
 ---
+
+### ADR-006 — A fail-closed local package in place of an unpatchable dependency
+**Decision.** Replace PptxGenJS's `image-size` dependency with a local package that **throws on import**, forced in through an npm `overrides` entry, and pin PptxGenJS to an exact version.
+**Context.** PptxGenJS 4.0.1 declares `image-size` at runtime but its shipped bundles never import it — the app's PPTX export uses the browser bundle and passes already-sized image data. Every published `image-size` release carries GHSA-w3rx-r6r6-pgpr and GHSA-5p2g-fcmc-qvqq, and **no patched release exists**, so there is nothing to upgrade to.
+**Consequences.** (+) `npm audit` reports 0 vulnerabilities without waiting on an upstream fix. (+) It throws rather than returning a stub value, so if a future PptxGenJS starts importing it the build fails loudly instead of silently mis-sizing an image. (+) Two things hold the assumption in place: a contract test asserting both the pinned version and that the import throws, and the pre-existing smoke test that builds a real `.pptx` through the actual library. (−) It is a supply-chain override and must be removed once upstream is patched or the dependency is dropped — `config/npm/image-size-disabled/README.md` records the exit condition. (−) Pinning PptxGenJS exactly means its own updates are now a deliberate act.
 
 ## Effort / impact table
 
