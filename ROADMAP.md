@@ -8,10 +8,12 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 | | |
 |---|---|
-| Live to a learner | Phase 1 *Letters & Sounds* (15) · Phase 2 *Reading Mechanics* (14) |
-| Authored, `draft`, unreachable | Phase 3 *Tajweed* (37) · Phase 4 *Kalimas* (8) |
-| Rule notes | 59 total — **51 verified** against the vendored matns, 3 `needs-review`, 5 `draft` |
-| Gates | 412 tests · 0 lint errors · library 0 errors / 8 warnings · static export builds |
+| Live to a learner | **All four phases — 74 lessons.** 1 *Letters & Sounds* (15) · 2 *Reading Mechanics* (14) · 3 *Tajweed* (37) · 4 *The Kalimas* (8) |
+| Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
+| Rule notes | 59 total — **54 verified** against the vendored matns, 5 `needs-review`, each blocked on a named external source |
+| Gates | 413 tests · 0 lint errors · library 0 errors / 5 warnings · static export builds |
+
+> **Phases 1–4 of this roadmap are complete.** What remains is Phase 5 (audio) and Phase 6 (the outside-world verification gaps), plus the three open hotlist rows. Nothing on either list blocks a learner from starting the course today.
 
 ---
 
@@ -120,7 +122,11 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 ---
 
-## Phase 4 — Publish Unit 4, the Kalimas
+## Phase 4 — Publish Unit 4, the Kalimas ✅ **DONE 2026-08-11**
+
+> **Delivered.** All **74 lessons reachable across 4 phases**; no lesson file is `draft` anywhere in the repo. The ayah-slide guard ships and was verified by injecting one into 4-01. Landings in all 8 notes.
+>
+> **The checkpoint question resolved itself from the notes.** Reusing `checkpoint-3` would have been wrong — it tests unseen pages, hifz and colour muṣḥaf, none of which touches the Kalimas. But 4-01 states Unit 4 is *optional* relative to the four end goals, and 4-08 states the unit is assessed "**not by a test**, but by the rule-spotting pass in Drill 1". So `checkpoint-4` **is** that pass, given a page, and says outright that it is not a gate and has no fail outcome — only COMPLETE and CONTINUE. The schema's requirement is satisfied without inventing a gate the design deliberately declined to have.
 
 **Goal.** The six Kalimas and the two declarations of faith are reachable, and are never presented as Qurʾānic text.
 
