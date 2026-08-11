@@ -36,6 +36,7 @@ const miniLesson: Lesson = {
   title: "Mini",
   objectives: ["obj one"],
   prerequisites: [],
+  games: [],
   slides: [
     { kind: "title", heading: "Mini lesson", arabicDecor: "ص" },
     {
@@ -61,6 +62,7 @@ const noHomeworkSlideLesson: Lesson = {
   title: "Mini (no homework slide)",
   objectives: ["obj one"],
   prerequisites: [],
+  games: [],
   slides: [
     { kind: "title", heading: "Mini lesson", arabicDecor: "ح" },
     {
@@ -85,6 +87,7 @@ function lessonWithRecap(itemCount: number): Lesson {
     title: "Recap fixture",
     objectives: ["obj"],
     prerequisites: [],
+    games: [],
     slides: [
       { kind: "title", heading: "Title", arabicDecor: "ح" },
       { kind: "recap", heading: "Recap", items: Array.from({ length: itemCount }, (_, i) => recapItem(i)) },
@@ -106,6 +109,7 @@ function lessonWithDrillRows(rowCount: number): Lesson {
     title: "Drill fixture",
     objectives: ["obj"],
     prerequisites: [],
+    games: [],
     slides: [
       { kind: "title", heading: "Title", arabicDecor: "د" },
       { kind: "drill", heading: "Drill", instructions: "match the letters", grid: Array.from({ length: rowCount }, (_, i) => [drillItem(i)]) },

@@ -3,6 +3,8 @@ import { DrillGrid } from "@/components/DrillGrid";
 import { GamePanel } from "@/components/games/GamePanel";
 import { PrintButton } from "@/components/ProgressClient";
 import { deriveGameData } from "@/games/derive";
+// Side-effect import: registers the seven tajweed drills so `lesson.games` can resolve them.
+import "@/components/games/tajweed";
 
 export function generateStaticParams() {
   return allLessonIds().map((id) => ({ id }));
@@ -18,7 +20,7 @@ export default async function PracticePage({ params }: { params: Promise<{ id: s
       <p className="mb-6 text-white/60">15–20 minutes daily. Tap any Arabic item to hear it (or get its practice cue).</p>
       <PrintButton label="🖨 Print for offline practice (optional)" />
       <section className="glass mb-8 rounded-2xl p-4 print:hidden sm:p-5">
-        <GamePanel data={gameData} heading="Interactive practice" />
+        <GamePanel data={gameData} heading="Interactive practice" games={lesson.games} />
       </section>
       {lesson.practice.drills.map((d) => <DrillGrid key={d.title} drill={d} />)}
       <section className="glass mb-8 rounded-2xl p-4 print:hidden sm:p-5">
