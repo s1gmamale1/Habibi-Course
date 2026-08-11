@@ -2,6 +2,7 @@ import "@fontsource/amiri/400.css";
 import "@fontsource/amiri/700.css";
 import "./globals.css";
 import type { Metadata } from "next";
+import { Credits } from "@/components/Credits";
 
 export const metadata: Metadata = { title: "Tajweed Course" };
 
@@ -15,7 +16,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <span className="aurora__blob aurora__blob--c" />
           <span className="aurora__blob aurora__blob--d" />
         </div>
-        <div className="relative z-10">{children}</div>
+        <div className="relative z-10">
+          {children}
+          <Credits />
+        </div>
       </body>
     </html>
   );

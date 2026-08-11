@@ -1,0 +1,954 @@
+{
+  "id": "2-02",
+  "phase": 2,
+  "unit": "2.1",
+  "title": "Tanwīn in real reading — continuing and stopping",
+  "objectives": [
+    "Student can read a phrase in which a tanwīn runs straight into the next word, keeping the n fully audible and adding no pause.",
+    "Student can stop on a word carrying ـٌ or ـٍ and drop the ending to a bare sukūn — kitābun becomes kitāb.",
+    "Student can stop on a word carrying ـًا and produce a steady two-count ā instead of an n.",
+    "Student can read the five āyah-endings in this lesson correctly both ways: continuing and stopping."
+  ],
+  "prerequisites": [
+    "2-01"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.2 — Tanwīn in real reading",
+      "arabicDecor": "خُسْرٍ · يُسْرًا"
+    },
+    {
+      "kind": "concept",
+      "heading": "Yesterday the n was always there. Today it is not.",
+      "body": [
+        "Read the end of Sūrat al-ʿAṣr: لَفِى خُسْرٍ. The mark on the page is a kasratān — two kasras. So it should be khusrin.",
+        "Every reciter says khusr. No n at all.",
+        "Here is the rule that explains both: the ending you see is what you say when you keep going. It is not what you say when you stop.",
+        "This is the first time in the course that the same written word has two correct readings. That is not an exception or a complication — it is how Arabic has always worked, and it is why reciters can pause anywhere."
+      ],
+      "items": [
+        {
+          "arabic": "لَفِى خُسْرٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لَفِى خُسْرٍ (103:2): lafī khusrin when you carry on. Lafī khusr when you stop. Same word, same page."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Continuing is the default — start here",
+      "body": [
+        "About nine tanwīns in ten on a page of recitation are read straight through.",
+        "In كِتَابًا جَدِيدًا the n of the first word runs into the j of the second with no gap. No breath, no bump.",
+        "Drill this before you think about stopping at all. Otherwise stopping becomes the normal case in your ear and you start chopping the text into single words."
+      ],
+      "items": [
+        {
+          "arabic": "كِتَابًا جَدِيدًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كِتَابًا جَدِيدًا: kitāban jadīdan, ‘a new book’. The n of the first word touches the j of the second — no breath, no bump."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stopping, part one: ـٌ and ـٍ just switch off",
+      "body": [
+        "Both become a plain sukūn (the mark meaning ‘no vowel — close it’) at a stop.",
+        "كِتَابٌ becomes kitāb. كِتَابٍ also becomes kitāb.",
+        "Two different marks, one stopped pronunciation. You cannot tell them apart when stopping, and you do not need to.",
+        "This is not a new sound. It is the sukūn you learned in lesson 1-13, put somewhere new."
+      ],
+      "items": [
+        {
+          "arabic": "كِتَابْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كِتَابْ: kitāb. The ḍammatān of كِتَابٌ, stopped."
+          }
+        },
+        {
+          "arabic": "قَلَمْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَلَمْ: qalam. The kasratān of قَلَمٍ, stopped. Same treatment."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stopping, part two: ـًا is the odd one out",
+      "body": [
+        "Fatḥatān at a stop does NOT become a sukūn. It becomes a two-count long ā.",
+        "كِتَابًا stopped is kitābā.",
+        "Here — and only here — the carrying alif you were told to ignore in lesson 2-01 finally does something. It is the one place that alif is pronounced. The n drops, and the alif underneath it is what is left.",
+        "The name for this is madd ʿiwaḍ, ‘the lengthening of compensation’. Learn the name so you recognise it later; its formal treatment is Unit 3.",
+        "Length matters here: two counts, the same as any ordinary long vowel. Not three, not one."
+      ],
+      "items": [
+        {
+          "arabic": "دَرْسَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دَرْسَا: darsā. Fatḥatān stopped — two counts on the ā."
+          }
+        },
+        {
+          "arabic": "بَابَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَابَا: bābā. Two counts. Count them on your fingers."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The one exception: tāʾ marbūṭah",
+      "body": [
+        "A word ending in tāʾ marbūṭah — the tied ة — with fatḥatān does not become a long ā.",
+        "سَاعَةً stopped is sāʿah, not sāʿatā. At a stop the ة turns into a silent h.",
+        "This is a spelling fact tied to one letter shape, not a rule with branches. If you can see a ة, you stop with an h."
+      ],
+      "items": [
+        {
+          "arabic": "سَاعَةً",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سَاعَةً: stopped — sāʿah, ‘an hour’. The ة turns into a silent h. Not sāʿatā."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Where you are allowed to stop",
+      "body": [
+        "Today: only at the end of an āyah. That is a safe, visible, unambiguous boundary, marked by a numbered circle.",
+        "Stopping in the middle of an āyah changes the meaning, and it has its own signs and its own rules. Those come later in this unit.",
+        "Until then, the circle is your permission slip. Nowhere else."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — run it through, no gap",
+      "instructions": "Read each phrase as one unbroken piece. The n belongs to the first word and touches the second. If you hear yourself take a breath between the two words, start the phrase again.",
+      "grid": [
+        [
+          {
+            "arabic": "كِتَابًا جَدِيدًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابًا جَدِيدًا: kitāban jadīdan, ‘a new book’. The n of the first word touches the j of the second — no breath, no bump."
+            }
+          },
+          {
+            "arabic": "قَلَمًا صَغِيرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمًا صَغِيرًا: qalaman ṣaghīran, ‘a small pen’. One unbroken piece."
+            }
+          },
+          {
+            "arabic": "بَابٌ كَبِيرٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَابٌ كَبِيرٌ: bābun kabīrun, ‘a big door’. The n runs straight into the k."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَرْسٌ سَهْلٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسٌ سَهْلٌ: darsun sahlun, ‘an easy lesson’. No gap at the join."
+            }
+          },
+          {
+            "arabic": "وَلَدٍ صَالِحٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدٍ صَالِحٍ: waladin ṣāliḥin, ‘a righteous boy’. Keep the n audible all the way through."
+            }
+          },
+          {
+            "arabic": "طَرِيقٌ طَوِيلٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَرِيقٌ طَوِيلٌ: ṭarīqun ṭawīlun, ‘a long road’. One breath for the whole phrase."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — the same word, stopped and continued",
+      "instructions": "Read across: say the continuing form, pause, then say the stopping form. Six pairs. Notice that rows 3, 4 and 6 open into a long ā while the others stop dead.",
+      "grid": [
+        [
+          {
+            "arabic": "كِتَابٌ جَدِيدٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابٌ جَدِيدٌ: kitābun jadīdun — continuing, the n is fully there."
+            }
+          },
+          {
+            "arabic": "كِتَابْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابْ: kitāb — stopped. The ḍammatān drops to a bare sukūn."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قَلَمٍ صَغِيرٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمٍ صَغِيرٍ: qalamin ṣaghīrin — continuing."
+            }
+          },
+          {
+            "arabic": "قَلَمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَمْ: qalam — stopped. The kasratān drops to a bare sukūn, exactly like the ḍammatān."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دَرْسًا سَهْلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسًا سَهْلًا: darsan sahlan — continuing."
+            }
+          },
+          {
+            "arabic": "دَرْسَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسَا: darsā — stopped. Fatḥatān is the odd one out: it opens into a two-count ā."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بَابًا كَبِيرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَابًا كَبِيرًا: bāban kabīran — continuing."
+            }
+          },
+          {
+            "arabic": "بَابَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَابَا: bābā — stopped. Two counts on the final ā, not one, not three."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَلَدٌ صَغِيرٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدٌ صَغِيرٌ: waladun ṣaghīrun — continuing."
+            }
+          },
+          {
+            "arabic": "وَلَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدْ: walad — stopped, dead on the d."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جَبَلًا عَالِيًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَبَلًا عَالِيًا: jabalan ʿāliyan — continuing."
+            }
+          },
+          {
+            "arabic": "جَبَلَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَبَلَا: jabalā — stopped. Count the ā on two fingers."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — sort them by ear",
+      "instructions": "Read down the column. Stop on each word, then say aloud which ending you produced — ‘sukūn’ or ‘long ā’ — before you move on. The test is mechanical: two fatḥas means long ā, anything else means stop dead.",
+      "grid": [
+        [
+          {
+            "arabic": "سَلَامٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَلَامٌ: stopped — salām. Ḍammatān, so stop dead. Say ‘sukūn’ before you move on."
+            }
+          },
+          {
+            "arabic": "بَيْتًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَيْتًا: stopped — baytā. Fatḥatān, so it opens into a two-count long ā. Say ‘long ā’."
+            }
+          },
+          {
+            "arabic": "قَمَرٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَمَرٍ: stopped — qamar. Kasratān, so stop dead. Say ‘sukūn’."
+            }
+          },
+          {
+            "arabic": "بَحْرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَحْرًا: stopped — baḥrā. Fatḥatān — long ā."
+            }
+          },
+          {
+            "arabic": "صَدِيقٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَدِيقٌ: stopped — ṣadīq. Ḍammatān — sukūn."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَمَلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَمَلًا: stopped — ʿamalā. Fatḥatān — long ā."
+            }
+          },
+          {
+            "arabic": "مَطَرٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَطَرٍ: stopped — maṭar. Kasratān — sukūn."
+            }
+          },
+          {
+            "arabic": "نَهْرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَهْرًا: stopped — nahrā. Fatḥatān — long ā."
+            }
+          },
+          {
+            "arabic": "دَرْسٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرْسٌ: stopped — dars. Ḍammatān — sukūn."
+            }
+          },
+          {
+            "arabic": "جَبَلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَبَلًا: stopped — jabalā. Fatḥatān — long ā."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — tāʾ marbūṭah",
+      "instructions": "Stop on each one. All four end in a soft h. None of them ends in a long ā, even though all four carry fatḥatān.",
+      "grid": [
+        [
+          {
+            "arabic": "سَاعَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَاعَةً: stopped — sāʿah, ‘an hour’. The ة turns into a silent h. Not sāʿatā."
+            }
+          },
+          {
+            "arabic": "مَدِينَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَدِينَةً: stopped — madīnah, ‘a city’. Soft h, no long ā."
+            }
+          },
+          {
+            "arabic": "وَرَقَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَرَقَةً: stopped — waraqah, ‘a sheet of paper’. Soft h."
+            }
+          },
+          {
+            "arabic": "شَجَرَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَجَرَةً: stopped — shajarah, ‘a tree’. Soft h."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Five real āyah-endings",
+      "body": [
+        "All five are āyah-final, which is why they were chosen: each one can be read both ways in a single sitting, and the stop form is the one you will hear from every reciter.",
+        "فَإِنَّ in 94:5 has a shadda — a doubling mark. Hold the ن and move on; the mark gets its own lesson in three sessions."
+      ],
+      "items": [
+        {
+          "arabic": "هُوَ ٱللَّهُ أَحَدٌ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "هُوَ ٱللَّهُ أَحَدٌ (112:1): continuing — huwa-llāhu aḥadun. Stopping — aḥad. Ḍammatān drops to a sukūn."
+          }
+        },
+        {
+          "arabic": "لَفِى خُسْرٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لَفِى خُسْرٍ (103:2): continuing — lafī khusrin. Stopping — khusr. This is the one from the hook."
+          }
+        },
+        {
+          "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا (94:5): continuing — yusran. Stopping — yusrā, two counts. The carrying alif finally speaks."
+          }
+        },
+        {
+          "arabic": "قَلِيلًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَلِيلًا (73:2): continuing — qalīlan. Stopping — qalīlā. Count the ā on two fingers."
+          }
+        },
+        {
+          "arabic": "أَفْوَاجًا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَفْوَاجًا (110:2): continuing — afwājan. Stopping — afwājā."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — the real thing, both ways",
+      "instructions": "Read each āyah twice: once running into the next āyah, once stopping at the circle. Then listen to a reciter read all five and check your stop form against theirs — count the ā on your fingers while they recite.",
+      "grid": [
+        [
+          {
+            "arabic": "هُوَ ٱللَّهُ أَحَدٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "هُوَ ٱللَّهُ أَحَدٌ (112:1): continuing — huwa-llāhu aḥadun. Stopping — aḥad. Ḍammatān drops to a sukūn."
+            }
+          },
+          {
+            "arabic": "لَفِى خُسْرٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَفِى خُسْرٍ (103:2): continuing — lafī khusrin. Stopping — khusr. This is the one from the hook."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا (94:5): continuing — yusran. Stopping — yusrā, two counts. The carrying alif finally speaks."
+            }
+          },
+          {
+            "arabic": "قَلِيلًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلِيلًا (73:2): continuing — qalīlan. Stopping — qalīlā. Count the ā on two fingers."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَفْوَاجًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَفْوَاجًا (110:2): continuing — afwājan. Stopping — afwājā."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — one word, two correct readings",
+      "items": [
+        {
+          "arabic": "كِتَابٌ جَدِيدٌ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كِتَابٌ جَدِيدٌ: continuing — the n is fully there."
+          }
+        },
+        {
+          "arabic": "كِتَابْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كِتَابْ: stopping — ḍammatān drops to a sukūn."
+          }
+        },
+        {
+          "arabic": "قَلَمْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قَلَمْ: stopping — kasratān does the same."
+          }
+        },
+        {
+          "arabic": "بَابَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَابَا: stopping — fatḥatān opens into two counts of ā."
+          }
+        },
+        {
+          "arabic": "سَاعَةً",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سَاعَةً: stopping — the ة becomes a soft h. Sāʿah."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Four minutes — Drill 1. All six phrases, one breath each. Record one and check for a gap at the join.",
+        "Five minutes — Drill 2, both columns alternating. This is the core of the homework; do it every day even if you skip something else.",
+        "Four minutes — Drill 5, the five āyah-endings. Read each one both ways.",
+        "Three minutes — listen. Play the five āyāt from any reciter you like and count the stop-vowel on your fingers. You are checking one thing only: is your ā the same length as theirs?",
+        "Once this week — mark up a page. On a printed page of the last juzʾ, circle every ـًا you can find. Do not read it; just find them. You are training your eye to see the mark before you reach it.",
+        "Bring to the next session: whether the ā at a stop is coming out too short or too long. Those are two different fixes, and knowing which one is yours will save session time."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — run it through, no gap",
+        "instructions": "One unbroken piece per phrase. A breath at the join means start again.",
+        "grid": [
+          [
+            {
+              "arabic": "كِتَابًا جَدِيدًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابًا جَدِيدًا: kitāban jadīdan, ‘a new book’. The n of the first word touches the j of the second — no breath, no bump."
+              }
+            },
+            {
+              "arabic": "قَلَمًا صَغِيرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمًا صَغِيرًا: qalaman ṣaghīran, ‘a small pen’. One unbroken piece."
+              }
+            },
+            {
+              "arabic": "بَابٌ كَبِيرٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَابٌ كَبِيرٌ: bābun kabīrun, ‘a big door’. The n runs straight into the k."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دَرْسٌ سَهْلٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسٌ سَهْلٌ: darsun sahlun, ‘an easy lesson’. No gap at the join."
+              }
+            },
+            {
+              "arabic": "وَلَدٍ صَالِحٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدٍ صَالِحٍ: waladin ṣāliḥin, ‘a righteous boy’. Keep the n audible all the way through."
+              }
+            },
+            {
+              "arabic": "طَرِيقٌ طَوِيلٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَرِيقٌ طَوِيلٌ: ṭarīqun ṭawīlun, ‘a long road’. One breath for the whole phrase."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the same word, stopped and continued",
+        "instructions": "Read across. Continuing form, pause, stopping form. Six pairs.",
+        "grid": [
+          [
+            {
+              "arabic": "كِتَابٌ جَدِيدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابٌ جَدِيدٌ: kitābun jadīdun — continuing, the n is fully there."
+              }
+            },
+            {
+              "arabic": "كِتَابْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابْ: kitāb — stopped. The ḍammatān drops to a bare sukūn."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قَلَمٍ صَغِيرٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمٍ صَغِيرٍ: qalamin ṣaghīrin — continuing."
+              }
+            },
+            {
+              "arabic": "قَلَمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَمْ: qalam — stopped. The kasratān drops to a bare sukūn, exactly like the ḍammatān."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "دَرْسًا سَهْلًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسًا سَهْلًا: darsan sahlan — continuing."
+              }
+            },
+            {
+              "arabic": "دَرْسَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسَا: darsā — stopped. Fatḥatān is the odd one out: it opens into a two-count ā."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بَابًا كَبِيرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَابًا كَبِيرًا: bāban kabīran — continuing."
+              }
+            },
+            {
+              "arabic": "بَابَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَابَا: bābā — stopped. Two counts on the final ā, not one, not three."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَلَدٌ صَغِيرٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدٌ صَغِيرٌ: waladun ṣaghīrun — continuing."
+              }
+            },
+            {
+              "arabic": "وَلَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدْ: walad — stopped, dead on the d."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "جَبَلًا عَالِيًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَبَلًا عَالِيًا: jabalan ʿāliyan — continuing."
+              }
+            },
+            {
+              "arabic": "جَبَلَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَبَلَا: jabalā — stopped. Count the ā on two fingers."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — sort them by ear",
+        "instructions": "Stop on each word and name the ending — ‘sukūn’ or ‘long ā’ — before moving on.",
+        "grid": [
+          [
+            {
+              "arabic": "سَلَامٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَلَامٌ: stopped — salām. Ḍammatān, so stop dead. Say ‘sukūn’ before you move on."
+              }
+            },
+            {
+              "arabic": "بَيْتًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَيْتًا: stopped — baytā. Fatḥatān, so it opens into a two-count long ā. Say ‘long ā’."
+              }
+            },
+            {
+              "arabic": "قَمَرٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَمَرٍ: stopped — qamar. Kasratān, so stop dead. Say ‘sukūn’."
+              }
+            },
+            {
+              "arabic": "بَحْرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَحْرًا: stopped — baḥrā. Fatḥatān — long ā."
+              }
+            },
+            {
+              "arabic": "صَدِيقٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَدِيقٌ: stopped — ṣadīq. Ḍammatān — sukūn."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَمَلًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَمَلًا: stopped — ʿamalā. Fatḥatān — long ā."
+              }
+            },
+            {
+              "arabic": "مَطَرٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَطَرٍ: stopped — maṭar. Kasratān — sukūn."
+              }
+            },
+            {
+              "arabic": "نَهْرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَهْرًا: stopped — nahrā. Fatḥatān — long ā."
+              }
+            },
+            {
+              "arabic": "دَرْسٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرْسٌ: stopped — dars. Ḍammatān — sukūn."
+              }
+            },
+            {
+              "arabic": "جَبَلًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَبَلًا: stopped — jabalā. Fatḥatān — long ā."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — tāʾ marbūṭah",
+        "instructions": "Stop on each. All four end in a soft h.",
+        "grid": [
+          [
+            {
+              "arabic": "سَاعَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَاعَةً: stopped — sāʿah, ‘an hour’. The ة turns into a silent h. Not sāʿatā."
+              }
+            },
+            {
+              "arabic": "مَدِينَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَدِينَةً: stopped — madīnah, ‘a city’. Soft h, no long ā."
+              }
+            },
+            {
+              "arabic": "وَرَقَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَرَقَةً: stopped — waraqah, ‘a sheet of paper’. Soft h."
+              }
+            },
+            {
+              "arabic": "شَجَرَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَجَرَةً: stopped — shajarah, ‘a tree’. Soft h."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — the five āyah-endings",
+        "instructions": "Read each twice: continuing, then stopping. Then check against a reciter.",
+        "grid": [
+          [
+            {
+              "arabic": "هُوَ ٱللَّهُ أَحَدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "هُوَ ٱللَّهُ أَحَدٌ (112:1): continuing — huwa-llāhu aḥadun. Stopping — aḥad. Ḍammatān drops to a sukūn."
+              }
+            },
+            {
+              "arabic": "لَفِى خُسْرٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لَفِى خُسْرٍ (103:2): continuing — lafī khusrin. Stopping — khusr. This is the one from the hook."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا (94:5): continuing — yusran. Stopping — yusrā, two counts. The carrying alif finally speaks."
+              }
+            },
+            {
+              "arabic": "قَلِيلًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلِيلًا (73:2): continuing — qalīlan. Stopping — qalīlā. Count the ā on two fingers."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أَفْوَاجًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَفْوَاجًا (110:2): continuing — afwājan. Stopping — afwājā."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1 — six phrases, one breath each; record one and listen for a gap",
+      "Drill 2 — both columns alternating (do this one every day without fail)",
+      "Drill 5 — the five āyah-endings, each read both ways",
+      "Three minutes listening to a reciter, counting the stop-vowel on your fingers",
+      "Once this week: circle every ـًا on a printed page of the last juzʾ without reading it"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Lead with the contradiction, because she is about to meet it on her own and it will shake her confidence if you do not name it first: ‘Yesterday I told you the n is always there. Today I am going to tell you when it is not.’",
+      "Play or say لَفِى خُسْرٍ. The mark is a kasratān; the reciter says khusr. Say the wrong thing deliberately — khusrin with a hard stop — then the right thing, then name the rule that explains both.",
+      "Say the sukūn connection explicitly: ‘When you stop on kitābun, the ending becomes a sukūn — the same mark you learned in 1-13. You are not learning anything new; you are putting it somewhere new.’",
+      "Teach continuing first, because it is the default — about nine in ten tanwīns are read straight through. Drill كِتَابًا جَدِيدًا before you introduce stopping at all, or she will learn stopping as the normal case and start chopping the text into single words.",
+      "Then stopping in the two easy cases. Show كِتَابٌ and كِتَابٍ on the board — two different marks, one stopped pronunciation. She will ask how to tell them apart when stopping; the honest answer is that you cannot, and you do not need to.",
+      "Then the case that surprises everyone: ـًا becomes a two-count long ā. Name madd ʿiwaḍ once so she recognises it later, then move on — its formal treatment is Unit 3. Insist on the length: two counts, not three, not one.",
+      "Give the tāʾ marbūṭah exception as a spelling fact tied to one letter shape, not as a rule with branches. If she can see a ة, she stops with an h.",
+      "State where she may stop: only at the end of an āyah, at the numbered circle. Give her the boundary and the reason, and refuse to be drawn further.",
+      "Spend the last third of the session on the same word read both ways, back to back. Take يُسْرًا: read 94:5 continuing into the next āyah, then read it stopping. Same word, same page, two correct readings, ten seconds apart. This is the drill that makes the lesson stick.",
+      "Teacher-only notes: فَإِنَّ in 94:5 has a shadda — tell her to hold the ن and that the mark gets its own lesson in three sessions, and do not teach it here. أَحَدٌ at 112:4 is written with a small extra mark and belongs to Unit 3; if she notices, say so plainly and use 112:1 only."
+    ],
+    "listenFor": [
+      {
+        "item": "A tanwīn running into the following word with no pause",
+        "commonMistake": "Stopping on every single word — the phrase read as a list, kitāb … jadīd, instead of as a phrase.",
+        "whyItHappens": "Fifteen lessons of single-word drilling. Every word so far has been an island and nothing has yet required her to join two.",
+        "correctionCue": "‘One breath for the whole phrase.’ Draw an arc with your finger over both words as she reads, and do not let her start until your finger is moving.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-02-Tanwin-In-Reading.md"
+      },
+      {
+        "item": "ـٌ and ـٍ dropped to a bare sukūn at a stop",
+        "commonMistake": "Saying the n at a stop — khusrin, full stop. An audible n immediately followed by silence.",
+        "whyItHappens": "She is doing exactly what lesson 2-01 taught, correctly. This is a good error and should be praised as one before it is corrected.",
+        "correctionCue": "‘Right mark, wrong situation. When you stop, the ending stops with you.’",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-02-Tanwin-In-Reading.md"
+      },
+      {
+        "item": "ـًا opening into a long ā at a stop, not closing into a sukūn",
+        "commonMistake": "Stopping on ـًا with a sukūn — kitāban clipped to kitāb. A short, closed ending where a long open one belongs.",
+        "whyItHappens": "Over-generalising the rule she has just learned for the other two marks — which is what a student who is actually learning does.",
+        "correctionCue": "‘Two fatḥas are the odd one out. That one opens up, it does not close.’ Point at the alif: ‘This is the only time that alif gets a voice.’",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-02-Tanwin-In-Reading.md"
+      },
+      {
+        "item": "A full two counts on the stop-ā",
+        "commonMistake": "The ā coming out too short — yusra rather than yusrā, a stop-vowel no longer than an ordinary fatḥa.",
+        "whyItHappens": "This is the priority error for this student and it is not about tanwīn at all. Uzbek reached its Arabic vocabulary through Persian, which had already flattened the long/short vowel distinction, so long vowels get shortened across the board. It comes back in lesson 2-07 and every lesson after it.",
+        "correctionCue": "Count it out loud with her — ‘one, two’ — with a finger tap on each. Do not describe the length in words; give her the beat.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-02-Tanwin-In-Reading.md"
+      },
+      {
+        "item": "The stop-ā held to exactly two counts, not stretched",
+        "commonMistake": "The ā coming out too long — three or four counts. A swelling, sung ending, usually copied from a recording of a slow reciter.",
+        "whyItHappens": "Melodic imitation. Reciters in the slow tartīl style stretch pauses, and she is reproducing the whole gesture rather than the count.",
+        "correctionCue": "‘Two counts, the same as any long ā. The reciter's is longer because he is singing it, not because the rule changed.’",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-02-Tanwin-In-Reading.md"
+      },
+      {
+        "item": "The stop decided before the word starts, so the ending is seamless",
+        "commonMistake": "An extra pause before the ā — yusr … ā. A break between the last consonant and the lengthened vowel.",
+        "whyItHappens": "She is thinking about which rule applies while she is mid-word.",
+        "correctionCue": "‘Decide before you start the word, not in the middle of it.’ Same advice as the self-tests in lesson 1-15 — run the check before the word.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-02-Tanwin-In-Reading.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Four minutes on Drill 1, all six phrases one breath each, with one recorded and checked for a gap. Five minutes on Drill 2 alternating both columns — the core of the week, done daily even if something else is skipped. Four minutes on the five āyah-endings, each read both ways. Three minutes listening to any reciter and counting the stop-vowel on her fingers, checking only whether her ā is the same length as theirs. Once in the week, circle every ـًا on a printed page of the last juzʾ without reading it, to train the eye to see the mark before reaching it. She brings back whether her stop-ā is coming out too short or too long — two different fixes."
+  },
+  "videos": []
+}

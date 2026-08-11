@@ -1,0 +1,705 @@
+{
+  "id": "3-30",
+  "phase": 3,
+  "unit": "3.6",
+  "title": "Madd jāʾiz munfaṣil",
+  "objectives": [
+    "Student can identify a madd letter at the end of one word followed by a hamzah at the start of the next, and give it four to five counts.",
+    "Student can state that the madd disappears if she stops on the first word, because the cause is on the other side of a boundary she has just closed.",
+    "Student can say that 4–5 and 2 are both correct Ḥafṣ, name the two ṭuruq, and recognise the two-count reading when she hears it without concluding the reciter is wrong.",
+    "Student holds munfaṣil no longer than muttaṣil, and constant across a session."
+  ],
+  "prerequisites": [
+    "3-28",
+    "3-29"
+  ],
+  "stage": "Madd",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.30 — Madd jāʾiz munfaṣil",
+      "arabicDecor": "إِنَّآ أَعْطَيْنَٰكَ"
+    },
+    {
+      "kind": "concept",
+      "heading": "The word you have been reciting for two weeks",
+      "body": [
+        "First, a cold one from outside your memorised surahs: وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ (2:4). Read بِمَآ. You will give it two — or, now that 3-29 has made you maddah-aware, you will spot the ٓ, hesitate, and guess.",
+        "Now the one you have been reciting every day since lesson 3-28: إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ.",
+        "Two lessons ago I told you that wiggle meant longer and that I would not tell you how much longer yet.",
+        "Today you find out — and you find out that it is four, that if you stop on إِنَّآ it is two, and that some excellent reciters give it two even when they join.",
+        "The reward for two weeks of reciting a rule you could not name is naming it."
+      ],
+      "items": [
+        {
+          "arabic": "إِنَّآ",
+          "translit": "innā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "108:1 — shadda held, then the maddah ٓ carried right at the end of the word. Four counts, and then straight on into أَعْطَيْنَٰكَ without a breath."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 108,
+      "ayah": 1,
+      "highlight": [
+        "madd_munfasil"
+      ],
+      "translation": "Indeed, We have granted you al-Kawthar.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "The madd is on إِنَّآ; the reason for it is the hamzah at the front of أَعْطَيْنَٰكَ, in the next word. Four counts joined. Stop on إِنَّآ and it is two."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "What you already have",
+      "body": [
+        "Madd ṭabīʿī at two (3-28) and muttaṣil at four to five (3-29).",
+        "The two-question visual procedure from last lesson: is there a ٓ, and then, where is the hamzah? Today completes the second question's other branch.",
+        "The consistency rule you were given without a reason: munfaṣil is never longer than muttaṣil. You get the reason today.",
+        "From Unit 2: how to stop on a word, and that stopping changes what a word does. That fact is load-bearing here for the first time in Unit 3."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_munfasil",
+      "heading": "Madd jāʾiz munfaṣil — four counts, across a space",
+      "condition": "A madd letter at the end of one word, followed by a hamzah at the start of the next.",
+      "harakat": 4,
+      "body": [
+        "Write the two side by side, large: جَآءَ, and then إِنَّآ أَعْطَيْنَٰكَ.",
+        "Same maddah. Same hamzah. Same four counts. One difference: the space.",
+        "In جَآءَ nothing can ever get between the madd and its cause. Across a word boundary there is a place a reciter is allowed to stop.",
+        "That single difference produces every other difference between the two rules — the ruling, the disagreement, and the fact that this madd can vanish.",
+        "Four counts via ash-Shāṭibiyyah, which is what this course teaches. Two is also correct Ḥafṣ, via a different ṭarīq, and you will hear it."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Jāʾiz — permitted, and why the word is honest",
+      "body": [
+        "Muttaṣil is wājib because cause and madd are welded together.",
+        "Munfaṣil is jāʾiz because they are not: the boundary is real, the reciters differ across it, and more than one length is genuinely correct.",
+        "Do not soften jāʾiz into 'you may do what you like'. Within a given ṭarīq the length is fixed.",
+        "What jāʾiz means is that the transmitted readings differ — not that the reciter improvises."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The madd that can vanish",
+      "body": [
+        "This is the mechanical fact that separates munfaṣil from everything else in the family.",
+        "Stop on the first word and the rule disappears. The hamzah that caused it is in the next word, and you are not going there. What is left is a plain two-count madd ṭabīʿī.",
+        "Joining onward: إِنَّآ at four counts, then أَعْطَيْنَٰكَ. Stopping on it: إِنَّا at two counts, full stop.",
+        "Produce both, back to back, three times. The second one is not a shortened version of the first — it is a different rule, correctly applied.",
+        "This never happens with muttaṣil. ٱلشِّتَآءِ is four counts whether you join or stop, because the hamzah is inside the word and goes wherever the word goes."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The disagreement — say all of this, do not compress it",
+      "body": [
+        "Ṭarīq ash-Shāṭibiyyah: four or five ḥarakāt. That is what this course teaches.",
+        "Ṭarīq aṭ-Ṭayyibah, Ḥafṣ bi-qaṣr al-munfaṣil: two ḥarakāt. Equally valid Ḥafṣ.",
+        "Teach four to five. Name the two out loud, in the room, today. The reason is a prediction about your own future: you are going to hear reciters give it two.",
+        "A student who has only ever been told 'munfaṣil is four', and then hears a famous qāriʾ give it two, draws one of two wrong conclusions — that the qāriʾ is sloppy, or that her teacher is. Both are corrosive, and both are avoidable with ninety seconds today.",
+        "There are two roads. We are walking the Shāṭibiyyah road, so you give it four. The other road gives it two, it is not a mistake, and when you hear it you will now know what you are hearing.",
+        "Notice what does NOT vary: muttaṣil. Nobody shortens muttaṣil. That asymmetry is itself the best evidence that these are transmitted readings and not preferences."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Why munfaṣil can never exceed muttaṣil",
+      "body": [
+        "Now the reason you were owed last lesson.",
+        "Muttaṣil is the stronger cause: the hamzah is inside the word, inseparable, obligatory for everyone.",
+        "Munfaṣil is the weaker cause: separable, and disputed.",
+        "A weaker cause producing a longer madd than a stronger one is incoherent, and no transmitted reading does it.",
+        "Practical rule for your mark sheet: munfaṣil ≤ muttaṣil, always, and both constant within a session. If you settle on four for muttaṣil, munfaṣil is four — or two in the other ṭarīq — but never five."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Why the eye misses it",
+      "body": [
+        "The failure is visual and it has a precise cause: the words are printed apart, so the eye reads a boundary and the tongue stops lengthening.",
+        "You read the first word, close it, and only then see the hamzah in front of you.",
+        "The fix is a reading habit, not a rule: look one word ahead. The ٓ is on the first word; the reason for it is on the second. You have to have both in view before you start the first.",
+        "Telling yourself to remember the rule will not fix this. It is a scanning failure and it needs a scanning drill."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 109,
+      "ayah": 1,
+      "highlight": [
+        "madd_munfasil"
+      ],
+      "translation": "Say: O disbelievers.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "يَٰٓأَيُّهَا — printed as one unbroken shape and it is two words. The madd is on the يَا, the hamzah begins أَيُّهَا, and it is a full munfaṣil at four counts. You hold this surah by heart and have never given it four."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "يَٰٓأَيُّهَا — the one you will always miss",
+      "body": [
+        "It is printed as one unbroken shape and it is two words: the vocative يَا plus أَيُّهَا.",
+        "The madd is on the يَا, the hamzah begins أَيُّهَا, and it is a full munfaṣil at four counts.",
+        "Nothing about the printing helps you. This one is memorised, and it is worth memorising because it occurs constantly — 2:21, 66:6, and everywhere.",
+        "Cover أَيُّهَا. What is left? يَا. That is a word, and this is two of them.",
+        "Say it at four counts five times before you leave the room."
+      ],
+      "items": [
+        {
+          "arabic": "يَٰٓأَيُّهَا",
+          "translit": "yā-ayyuhā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "109:1 — dagger alif with a maddah on it, then a hamzah beginning the next word. Four counts across a boundary that the printing hides."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 109,
+      "ayah": 2,
+      "highlight": [
+        "madd_munfasil"
+      ],
+      "translation": "I do not worship what you worship.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "لَآ أَعْبُدُ — madd letter ending one word, hamzah beginning the next. Four counts. Al-Kāfirūn is full of these and you have been reading every one of them at two."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 4,
+      "highlight": [
+        "madd_munfasil"
+      ],
+      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "ٱلَّذِىٓ أَطْعَمَهُم — a yāʾ madd at the end of ٱلَّذِىٓ and a hamzah beginning أَطْعَمَهُم. Four counts. Quraysh completes in your hifz at 3-34, so build it in now."
+      }
+    },
+    {
+      "kind": "contrast",
+      "heading": "Four, or two? Two conditions, not one",
+      "pairs": [
+        {
+          "surah": 108,
+          "ayah": 1,
+          "text": "إِنَّآ أَعْطَيْنَٰكَ",
+          "rule": "madd_munfasil",
+          "note": "Madd letter at the end of a word, hamzah at the start of the next. Four counts joined. Stop on إِنَّآ and it collapses to a plain two."
+        },
+        {
+          "surah": 107,
+          "ayah": 3,
+          "text": "عَلَىٰ طَعَامِ",
+          "rule": "madd_2",
+          "note": "The negative case, and it is in today's hifz. عَلَىٰ ends in a madd letter, but طَعَامِ begins with a ṭāʾ. No hamzah, no munfaṣil. Two counts."
+        },
+        {
+          "surah": 110,
+          "ayah": 1,
+          "text": "جَآءَ",
+          "rule": "madd_muttasil",
+          "note": "Same maddah, same hamzah, no space. Nothing can ever separate them, so this one is wājib and can never be shortened."
+        },
+        {
+          "surah": 109,
+          "ayah": 1,
+          "text": "يَٰٓأَيُّهَا",
+          "rule": "madd_munfasil",
+          "note": "Printed as one shape and read as two words. The eye gets no help at all here — this one has to be memorised."
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "One sentence of preview — madd ṣilah kubrā",
+      "body": [
+        "When the pronoun hāʾ carries an implied wāw or yāʾ and the next word begins with a hamzah, that is a munfaṣil too, and takes the same four to five counts.",
+        "Same rule, invisible madd letter.",
+        "Do not drill it today. It is planted so that when you meet it it is a case of a rule you own, rather than a new rule."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Join it, stop it",
+      "instructions": "Every item twice: once joined to what follows, once stopping on the first word. Four counts, then two counts, back to back, so that you hear the second is not a mistake.",
+      "grid": [
+        [
+          {
+            "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+            "translit": "innā aʿṭaynāka",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: four counts on إِنَّآ, no breath, straight into the hamzah."
+            }
+          },
+          {
+            "arabic": "إِنَّآ",
+            "translit": "innā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: two counts, full stop. The hamzah never happened. Plain madd ṭabīʿī."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم",
+            "translit": "alladhī aṭʿamahum",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — joined, four counts on the yāʾ of ٱلَّذِىٓ."
+            }
+          },
+          {
+            "arabic": "ٱلَّذِىٓ",
+            "translit": "alladhī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: two counts. Same word, different situation, different rule."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَآ أَغْنَىٰ",
+            "translit": "mā aghnā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:2 — joined, four. This is in al-Masad, which you already hold, and you have been giving it two for months."
+            }
+          },
+          {
+            "arabic": "مَآ",
+            "translit": "mā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: two. Nothing left to reach for."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "M or N — say it before you read it",
+      "instructions": "I show you a maddah word. You say M for muttaṣil, same word, or N for munfaṣil, next word, BEFORE you make any sound. Wrong answers cost nothing; guessing after you have started reading costs everything.",
+      "grid": [
+        [
+          {
+            "arabic": "جَآءَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "M — the hamzah is inside the word. Four, and no alternative."
+            }
+          },
+          {
+            "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "N — the hamzah is over the space. Four joined, two if you stop."
+            }
+          },
+          {
+            "arabic": "يُرَآءُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "M — hamzah in the middle of the word. Four."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَدَآ أَبِى",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:1 — N. The maddah is at the end of يَدَآ and the hamzah opens أَبِى."
+            }
+          },
+          {
+            "arabic": "ٱلشِّتَآءِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "M — hamzah inside the word, at the end of it."
+            }
+          },
+          {
+            "arabic": "وَلَآ أَنتُمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "109:3 — N. Al-Kāfirūn does this four times in six āyāt."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The false alarm",
+      "instructions": "Six items. In some, the next word starts with a hamzah; in some, it does not. Read all six at the right length, and say the length before you read. Two conditions, not one: a madd letter AND a hamzah.",
+      "grid": [
+        [
+          {
+            "arabic": "عَلَىٰ طَعَامِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "107:3 — TWO. Madd letter at the end, but a ṭāʾ after it, not a hamzah. This is the one you will over-apply today of all days."
+            }
+          },
+          {
+            "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "FOUR. Hamzah there."
+            }
+          },
+          {
+            "arabic": "فِى تَضْلِيلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:2 — TWO. فِى ends in a madd letter, تَضْلِيلٍ begins with a tāʾ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَآ أَعْبُدُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "109:3 — FOUR. Hamzah there."
+            }
+          },
+          {
+            "arabic": "فِى جِيدِهَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:5 — TWO. A jīm is not a hamzah."
+            }
+          },
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — FOUR. Hamzah there, and the maddah on the page told you before you looked."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong",
+      "mistakes": [
+        {
+          "wrong": "Two counts on إِنَّآ, لَآ أَعْبُدُ, يَٰٓأَيُّهَا while joining.",
+          "why": "The eye reached the word boundary and the tongue obeyed it. This is purely a scanning failure, and telling her to remember the rule will not fix it.",
+          "fix": "Where is the hamzah? Point at it. Now go back and start the word again, looking at the hamzah while you say the alif."
+        },
+        {
+          "wrong": "Keeping the four counts when she STOPS on the first word.",
+          "why": "Over-application — she has just learned the rule and is applying it to the word rather than to the situation.",
+          "fix": "You stopped. The hamzah never happened. What is left is two."
+        },
+        {
+          "wrong": "Munfaṣil longer than muttaṣil — five here, four there.",
+          "why": "The new rule gets the attention, and attention makes it longer.",
+          "fix": "The connected one is the strong one. It can never be the shorter of the two."
+        },
+        {
+          "wrong": "Missing يَٰٓأَيُّهَا entirely.",
+          "why": "It looks like one word. Nothing on the page corrects her.",
+          "fix": "Cover أَيُّهَا. What is left? يَا. That is a word, and this is two of them."
+        },
+        {
+          "wrong": "Applying it to عَلَىٰ طَعَامِ or فِى تَضْلِيلٍ — a madd at a word end with no hamzah after it.",
+          "why": "She has abbreviated the rule to 'madd at the end of a word'.",
+          "fix": "Two conditions, not one. Madd letter, AND a hamzah. Where is the hamzah?"
+        },
+        {
+          "wrong": "Hesitating audibly while she works out which rule applies.",
+          "why": "She is deciding at the moment of utterance instead of during the scan. This is a real error and it costs points at the checkpoint as non-fluency.",
+          "fix": "Decide before you open your mouth. Read the line silently first, then aloud."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Where the hamzah is, and what it costs",
+      "items": [
+        {
+          "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+          "translit": "innā aʿṭaynāka",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "FOUR joined — munfaṣil. TWO if you stop on the first word."
+          }
+        },
+        {
+          "arabic": "يَٰٓأَيُّهَا",
+          "translit": "yā-ayyuhā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "FOUR — two words printed as one. Memorise this one; the page will never help you."
+          }
+        },
+        {
+          "arabic": "جَآءَ",
+          "translit": "jāʾa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "FOUR always — muttaṣil. Joined or stopped, it does not change, and nobody shortens it."
+          }
+        },
+        {
+          "arabic": "عَلَىٰ طَعَامِ",
+          "translit": "ʿalā ṭaʿāmi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TWO — a madd at a word end with no hamzah after it is just a madd."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Hifz: al-Māʿūn 107:3–4 to 20–40 repetitions daily. Sabqi is al-Kawthar and 107:1–2. Manzil rotation first. Recite 107:4 joined to 107:5 every single time — do not leave فَوَيْلٌ لِّلْمُصَلِّينَ hanging. The reason gets its own lesson at 3-34.",
+        "Look one word ahead, self-administered. Cover the second word with a bookmark, read the first, then uncover. Twenty times, on a page of your choosing. This is the drill that transfers.",
+        "Read Sūrat al-Kawthar aloud once a day. Once a week, read it with the two-count munfaṣil so the other ṭarīq stays in your ear as a reading rather than as an error.",
+        "Find and write down five munfaṣil and three muttaṣil from anywhere in the last juzʾ, labelled M or N with references.",
+        "Listen to any recitation of Sūrat al-Baqarah's opening page and write down whether that reciter gives munfaṣil four counts or two. One sentence. Bring the answer."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Join it, stop it",
+        "instructions": "Each item twice — joined at four counts, then stopped at two. Back to back, so the two is heard as a rule and not as a shortfall.",
+        "grid": [
+          [
+            {
+              "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Joined: four."
+              }
+            },
+            {
+              "arabic": "إِنَّآ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Stopped: two."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلَّذِىٓ أَطْعَمَهُم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Joined: four."
+              }
+            },
+            {
+              "arabic": "ٱلَّذِىٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Stopped: two."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مَآ أَغْنَىٰ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Joined: four."
+              }
+            },
+            {
+              "arabic": "مَآ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Stopped: two."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "M or N",
+        "instructions": "Call M or N before making any sound. Six items, then the same six shuffled.",
+        "grid": [
+          [
+            {
+              "arabic": "جَآءَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "M."
+              }
+            },
+            {
+              "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "N."
+              }
+            },
+            {
+              "arabic": "يُرَآءُونَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "M."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَدَآ أَبِى",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "N."
+              }
+            },
+            {
+              "arabic": "ٱلشِّتَآءِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "M."
+              }
+            },
+            {
+              "arabic": "وَلَآ أَنتُمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "N."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Al-Kāfirūn, joined",
+        "instructions": "A surah you already hold, which turns out to be a munfaṣil exercise. Read āyāt 1 to 3 without stopping, and give every one of them four counts.",
+        "grid": [
+          [
+            {
+              "arabic": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+              "translit": "qul yā-ayyuha-l-kāfirūn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "109:1 — the vocative munfaṣil hidden inside one printed shape. Four."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+              "translit": "lā aʿbudu mā taʿbudūn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "109:2 — لَآ أَعْبُدُ is four; مَا تَعْبُدُونَ is two, because a tāʾ is not a hamzah. Both lengths in one short āyah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+              "translit": "wa-lā antum ʿābidūna mā aʿbud",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "109:3 — two munfaṣil in one āyah. Same length for both, and neither of them longer than your muttaṣil."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Al-Māʿūn 107:3–4 to 20–40 repetitions, with 107:4 always joined to 107:5",
+      "Al-Kawthar aloud once, four counts on إِنَّآ",
+      "Look-one-word-ahead with a bookmark, twenty times on any page",
+      "Al-Kāfirūn 109:1–3 joined, every munfaṣil at the same length",
+      "Once in the week: al-Kawthar read with the two-count munfaṣil, to keep the other ṭarīq in the ear as a reading"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with 2:4 cold and then with 108:1, which she has been reciting daily since 3-28. The corrective is deliberately about her own hifz: she has been performing a rule she could not name for two weeks, and naming it now is the reward.",
+      "Put جَآءَ and إِنَّآ أَعْطَيْنَٰكَ side by side and let her find the difference. It is one space. Every other difference between the two rules follows from it.",
+      "Teach §4 in full — the two ṭuruq — and do not compress it. This is her first head-on meeting with scholarly disagreement in the madd family, and the whole point is that she will hear qaṣr al-munfaṣil on widely-broadcast recordings within the month.",
+      "Frame the disagreement as a prediction about her future rather than as a caveat: 'you are going to hear this, and when you do, here is what you are hearing.' A caveat sounds like vagueness; a prediction sounds like scholarship.",
+      "Say the asymmetry out loud: nobody shortens muttaṣil. That is the cleanest evidence available to her that these are transmitted readings and not preferences.",
+      "Now supply the reason she was owed at 3-29: the stronger cause cannot produce the shorter madd. Give the rule and the reason in that order and she will not need to memorise either.",
+      "Drill 3 — cover the second word — is the most valuable drill in the lesson and should get the most minutes. The error is a scanning failure, so it needs a scanning fix; repeating the rule at her will not move it.",
+      "Use al-Kāfirūn heavily. She holds it by heart, it contains four munfaṣil in six āyāt, and she has been reading every one of them at two counts. That makes it the highest-density practice surface in her whole memorised set.",
+      "Give يَٰٓأَيُّهَا its own thirty seconds and be honest that it is memorised rather than derived. Nothing about the printing helps, and pretending otherwise wastes her time.",
+      "Close on the negative case, عَلَىٰ طَعَامِ, which is in the āyah she memorises today. A learner fresh from this lesson will over-apply the rule to exactly that shape on exactly this day."
+    ],
+    "listenFor": [
+      {
+        "item": "The length surviving the space — the madd not shortening merely because the word ended.",
+        "commonMistake": "Two counts on إِنَّآ, لَآ أَعْبُدُ, يَٰٓأَيُّهَا while joining onward.",
+        "whyItHappens": "The eye reached the word boundary and the tongue obeyed it. It is a scanning failure, not a knowledge failure, which is why reminding her of the rule does nothing.",
+        "correctionCue": "Where is the hamzah? Point at it. Now start the word again, looking at the hamzah while you say the alif.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Munfasil.md"
+      },
+      {
+        "item": "A plain two-count madd when she stops on the first word.",
+        "commonMistake": "Keeping the four counts at a stop.",
+        "whyItHappens": "Over-application on the day of the lesson: she has attached the rule to the word rather than to the situation.",
+        "correctionCue": "You stopped. The hamzah never happened. What is left is two.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Munfasil.md"
+      },
+      {
+        "item": "Munfaṣil never exceeding muttaṣil, and both constant across the session.",
+        "commonMistake": "Five on munfaṣil and four on muttaṣil, in the same page.",
+        "whyItHappens": "Whichever rule was taught most recently gets the most attention, and attention adds length.",
+        "correctionCue": "The connected one is the strong one. It can never be the shorter of the two.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Munfasil.md"
+      },
+      {
+        "item": "Two counts kept on a word-final madd with no hamzah after it.",
+        "commonMistake": "Four counts on عَلَىٰ طَعَامِ, فِى تَضْلِيلٍ, فِى جِيدِهَا.",
+        "whyItHappens": "She has abbreviated the rule to 'madd at the end of a word' and dropped the second condition. Expect this specifically on the day the rule is taught.",
+        "correctionCue": "Two conditions, not one. Madd letter, AND a hamzah. Where is the hamzah?",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Munfasil.md"
+      },
+      {
+        "item": "A decision made during the silent scan, so that no hesitation is audible mid-word.",
+        "commonMistake": "An audible pause while she works out which rule applies.",
+        "whyItHappens": "She is classifying at the moment of utterance instead of during the scan.",
+        "correctionCue": "Decide before you open your mouth. Read the line silently first, then aloud.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Munfasil.md"
+      }
+    ],
+    "homework": "Daily: al-Māʿūn 107:3–4 to 20–40 repetitions with al-Kawthar and 107:1–2 as Sabqi and the Manzil rotation first, and 107:4 always recited joined to 107:5; al-Kawthar aloud once with four counts on إِنَّآ; the bookmark drill twenty times on any page. Written: five munfaṣil and three muttaṣil found in the last juzʾ, labelled with references. Once in the week: al-Kawthar read with a two-count munfaṣil so the other ṭarīq stays in her ear as a reading rather than an error, and one recording of al-Baqarah's opening page listened to with a one-sentence written answer on which length that reciter uses."
+  },
+  "videos": [],
+  "games": [
+    "madd-counter"
+  ]
+}

@@ -42,6 +42,22 @@ describe("LessonSchema", () => {
   });
 });
 
+describe("SlideSchema — drill grid rows", () => {
+  const drill = (grid: unknown) => ({ kind: "drill", heading: "h", instructions: "do it", grid });
+  const cell = { arabic: "ب", audio: { type: "teacher-voice", cue: "lips" } };
+
+  test("a drill with a real row parses", () => {
+    expect(() => SlideSchema.parse(drill([[cell]]))).not.toThrow();
+  });
+
+  // An empty inner row renders as a 0-column table rather than failing visibly.
+  // The outer .min(1) never caught it because the array itself is non-empty.
+  test("rejects an empty row inside an otherwise non-empty grid", () => {
+    expect(() => SlideSchema.parse(drill([[]]))).toThrow();
+    expect(() => SlideSchema.parse(drill([[cell], []]))).toThrow();
+  });
+});
+
 describe("SlideSchema — letter-slide additions (forms/examples/image)", () => {
   test("letter slide with forms, form-tagged examples, and image parses", () => {
     const parsed = SlideSchema.parse({
@@ -88,5 +104,75 @@ describe("SlideSchema — letter-slide additions (forms/examples/image)", () => 
     if (parsed.kind === "concept") {
       expect(parsed.image).toBe("/images/makhraj/shafatan.svg");
     }
+  });
+});
+
+describe("tajweed slide kinds", () => {
+  test("accepts a rule slide", () => {
+    expect(SlideSchema.safeParse({
+      kind: "rule", ruleId: "ikhfa", heading: "Ikhfāʾ Ḥaqīqī",
+      condition: "noon sākinah or tanwīn followed by one of 15 letters",
+      letters: ["ص", "ذ"], harakat: 2, mnemonic: "صِفْ ذَا ثَنَا",
+      body: ["Conceal the noon."],
+    }).success).toBe(true);
+  });
+
+  test("rejects a rule slide with an unknown ruleId", () => {
+    expect(SlideSchema.safeParse({
+      kind: "rule", ruleId: "not_a_rule", heading: "x",
+      condition: "x", body: ["x"],
+    }).success).toBe(false);
+  });
+
+  test("accepts an ayah slide", () => {
+    expect(SlideSchema.safeParse({
+      kind: "ayah", surah: 111, ayah: 1,
+      highlight: ["qalqalah"], translation: "May the hands of Abu Lahab perish",
+    }).success).toBe(true);
+  });
+
+  test("rejects an ayah slide with an out-of-range surah", () => {
+    expect(SlideSchema.safeParse({ kind: "ayah", surah: 115, ayah: 1 }).success).toBe(false);
+  });
+
+  test("accepts contrast, legend and mistake slides", () => {
+    expect(SlideSchema.safeParse({
+      kind: "contrast", heading: "Ikhfāʾ vs Iẓhār",
+      pairs: [
+        { surah: 106, ayah: 4, text: "مِّن جُوعٍ", rule: "ikhfa", note: "ج conceals" },
+        { surah: 106, ayah: 4, text: "مِنْ خَوْفٍ", rule: "ikhfa", note: "خ conceals" },
+      ],
+    }).success).toBe(true);
+    expect(SlideSchema.safeParse({ kind: "legend", heading: "Colours", rules: ["ikhfa"] }).success).toBe(true);
+    expect(SlideSchema.safeParse({
+      kind: "mistake", heading: "Three mistakes with ghunnah",
+      mistakes: [{ wrong: "No nasal resonance", why: "nose not engaged", fix: "pinch your nose — the sound must stop" }],
+    }).success).toBe(true);
+  });
+});
+
+describe("lesson fields", () => {
+  const base = {
+    id: "3-23", phase: 3, unit: "3.4", title: "Ikhfāʾ I",
+    objectives: ["Identify ikhfāʾ"],
+    slides: Array.from({ length: 8 }, () => ({ kind: "title", heading: "x" })),
+    practice: { drills: [], dailyChecklist: ["Read"] },
+    teacherNotes: { script: ["x"], listenFor: [{ item: "noon", commonMistake: "izhār default", correctionCue: "hum it" }], homework: "x" },
+    videos: [],
+  };
+  test("accepts prerequisites and stage", () => {
+    expect(LessonSchema.safeParse({ ...base, prerequisites: ["3-14", "2-03"], stage: "Noon Sākinah" }).success).toBe(true);
+  });
+  test("accepts phase 4 for the Kalimas unit", () => {
+    expect(LessonSchema.safeParse({ ...base, id: "4-01", phase: 4, unit: "4.1" }).success).toBe(true);
+  });
+  test("rejects phase 5", () => {
+    expect(LessonSchema.safeParse({ ...base, phase: 5 }).success).toBe(false);
+  });
+  test("still accepts plain-string listenFor from the 15 shipped lessons", () => {
+    expect(LessonSchema.safeParse({
+      ...base,
+      teacherNotes: { script: ["x"], listenFor: ["noon not concealed"], homework: "x" },
+    }).success).toBe(true);
   });
 });

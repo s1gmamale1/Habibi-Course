@@ -1,0 +1,1144 @@
+{
+  "id": "3-10",
+  "phase": 3,
+  "unit": "3.2",
+  "title": "Rā' I — fatḥa and ḍamma heavy, kasra light",
+  "stage": "Ḥaqq al-Ḥarf",
+  "objectives": [
+    "Student can state the baseline in one line — fatḥa or ḍamma → heavy, kasra → light — and apply it to any vowelled rā' on sight.",
+    "Student can produce a LIGHT rā' at all: forward, thin, and unmistakably different from her default.",
+    "Student can produce a rā' as one tap, not a trill, in both weights.",
+    "Student can read رِحْلَةَ and ٱلرَّحْمَٰنِ back to back with two audibly different rā's."
+  ],
+  "prerequisites": [
+    "3-07",
+    "3-09"
+  ],
+  "games": [
+    "rule-identifier",
+    "listen-identify"
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.10 — Rā' I: fatḥa and ḍamma heavy, kasra light",
+      "arabicDecor": "بَابُ الرَّاء"
+    },
+    {
+      "kind": "concept",
+      "heading": "Write one word and ask her to read it",
+      "body": [
+        "رِحْلَةَ (106:2). Listen to the ر. It will be heavy. It is heavy in almost every untrained reader in the world, and she will not hear anything wrong with it.",
+        "Then say it correctly — thin, forward, the vowel like the i of English rich — and say the sentence: a heavy rā' is the English default, and the Urdu default, and near enough the Turkish and Uzbek default. You arrived with it already installed. Every light rā' in this course is a habit to be un-learned, not a rule to be added.",
+        "Then the second error, and demonstrate it deliberately so she hears it named. Trilling: rrrabb instead of rabb. When a student reaches for heaviness, the tongue relaxes and starts to roll. Ibn al-Jazarī explicitly warns against letting the trill become audible. One tap. Never a roll. It is the second-commonest fault in this family and it is completely independent of heavy versus light — you can trill either one.",
+        "And the third, said now so it is not a surprise in three lessons: do not go looking for the answer in the letter BEFORE it. For a vowelled rā', the only thing that decides is the rā's own vowel. In لِرَبِّكَ (108:2) there is a kasra sitting right there on the ل, and the rā' is still heavy, because the rā' has a fatḥa. The letter before only matters when the rā' has no vowel of its own — which is next lesson.",
+        "The rā' is the busiest letter in tajweed. Together with the ل of the Divine Name it is one of only two letters in the language that switch between heavy and light — but unlike that ل, which has one condition, the rā' has around eight, differs between joining and stopping, and carries a five-word exception list. This lesson takes the first two conditions and nothing else."
+      ],
+      "items": [
+        {
+          "arabic": "رِحْلَةَ",
+          "translit": "riḥlata",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:2 — the hook. A kasra on the ر, so it is LIGHT. Thin and forward, the vowel of English rich, not rob. This is the highest-value drill word in the family."
+          }
+        },
+        {
+          "arabic": "لِرَبِّكَ",
+          "translit": "li-rabbika",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "108:2 — a kasra sits on the ل right before it, and the rā' is still HEAVY, because the rā' has its own fatḥa. The letter before is not invited."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The baseline, and what does NOT decide it",
+      "body": [
+        "Give the baseline first, as a single line, and make her write it down. Fatḥa or ḍamma → HEAVY. Kasra → LIGHT. That is today. Everything else in the family — and there is a lot of it — is a refinement of that line. She should leave able to say it without thinking.",
+        "Then say what does NOT decide it, because that is where the confusion starts. For a rā' that has a vowel of its own, nothing else matters: not the letter before it, not the letter after it, not whether there is a heavy letter somewhere in the word.",
+        "لِرَبِّكَ (108:2) — kasra on the ل, fatḥa on the ر: heavy. بِرَبِّ (113:1, 114:1) — kasra on the ب, fatḥa on the ر: heavy. صُدُورِ (114:5) — a heavy ص two letters back, kasra on the ر: LIGHT.",
+        "That last one is worth stopping on. She memorised صُدُورِ several sessions ago with a correct heavy ص. The ر after it is light, and every instinct she has says otherwise.",
+        "Lesson 3-07 already gave her the tool she needs today. She can produce a heavy sound and a light sound on demand and switch between them. Today is not a new skill. It is the same switch, applied to one letter, on a per-word basis.",
+        "Lesson 3-07 also listed the four standing exceptions to 'everything outside خُصَّ ضَغْطٍ قِظْ is light' and said ر was the biggest of them, with its own lessons. This is that lesson. She should recognise it as a promise being kept."
+      ],
+      "items": [
+        {
+          "arabic": "صُدُورِ",
+          "translit": "ṣudūr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:5 — heavy ص, and the ر right after it is LIGHT because it carries a kasra. The word where instinct is loudest and wrong."
+          }
+        },
+        {
+          "arabic": "بِرَبِّ",
+          "translit": "bi-rabbi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:1 and 114:1 — kasra on the ب, fatḥa on the doubled ر. Heavy, both counts."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "letter",
+      "item": {
+        "arabic": "ر",
+        "name": "rāʾ",
+        "audio": {
+          "type": "teacher-voice",
+          "cue": "Tip of the tongue on the gum ridge behind your top teeth — the same place as ن and ل, just a little deeper. Touch it ONCE. Now say رَ with the back of your tongue up: the vowel darkens toward English rob. Then رِ with the back of your tongue down: forward and thin, the vowel of English rich. Same place, same single tap, only the back of the tongue moves."
+        }
+      },
+      "makhraj": "Tongue point 7 — the back of the tip of the tongue against the gums of the upper incisors, slightly deeper than ن. The makhraj does NOT change between heavy and light; only the back of the tongue moves.",
+      "notes": [
+        "Say it twice, because it is the fact that makes the whole family manageable: heavy and light rā' are made in exactly the same place. Nothing moves at the front.",
+        "Three steps for the heavy rā'. The tip goes to the gum ridge. The BACK of the tongue rises toward the soft palate, and the vowel darkens — ra moves toward rɑ, the vowel of English rob rather than rib. And one tap, not a trill: press the tongue firmly against the ridge to suppress the extra taps. A slack tongue rolls.",
+        "Three steps for the light rā', and give it more time, because it is the one she does not have. Same makhraj. The back of the tongue stays DOWN. The vowel colour is forward and thin — ri as in English rich, not ruh.",
+        "Still one tap. Lightness does not mean a weaker contact — a slack tongue produces the trill just as reliably as an over-eager one. This surprises students and needs saying out loud.",
+        "An alif or any madd letter after a heavy rā' is heavy; after a light rā' it is light. That is lesson 3-07's rule, unchanged, applying here.",
+        "Lesson 3-02 told her ر is tawassuṭ — it can be held, and it does not bounce. Two consequences today: it is holdable enough to be examined slowly, and any kick on a sākin ر is an error left over from qalqalah.",
+        "One honest note, thirty seconds. The rā' rules are NOT colour-coded in the app's mushaf highlighting. The annotation dataset covers eighteen rules and none of them is a rā' rule. Given that ر is the busiest letter in tajweed, that is the largest single gap in the highlighting — this family has to be reasoned and heard, never looked up. It is also why the drills below are hand-built word lists rather than 'read this page and watch for the colour'."
+      ],
+      "examples": [
+        {
+          "arabic": "تَرَ",
+          "translit": "tara",
+          "meaning": "did you [not] see — 105:1; fatḥa on the ر, so heavy",
+          "form": "final"
+        },
+        {
+          "arabic": "رِحْلَةَ",
+          "translit": "riḥlata",
+          "meaning": "the journey of — 106:2; kasra on the ر, so LIGHT. The highest-value drill word in the family",
+          "form": "initial"
+        },
+        {
+          "arabic": "نَصْرُ",
+          "translit": "naṣru",
+          "meaning": "the help of — 110:1; ḍamma on the ر, so heavy",
+          "form": "final"
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The light rā' — the one she does not arrive with",
+      "body": [
+        "Give this more time than the heavy one. She already owns the heavy rā'; she installed it before she ever opened a muṣḥaf. What she does not own is a rā' that is thin.",
+        "Same makhraj. Only the back of the tongue changes: for tarqīq it stays down. The vowel colour is forward — ri as in English rich, not ruh. And still exactly one tap.",
+        "Then the diagnostic pair, and drill it now rather than later: رِحْلَةَ (106:2) light, ٱلرَّحْمَٰنِ (1:3) heavy. Both are rā's at the head of a syllable. One has a kasra, one has a fatḥa. Say them alternately, ten times.",
+        "Name the over-correction before it arrives, because it will arrive within a session: a light rā' that has drifted toward a ل or an English flap and lost the letter's identity. Light, not absent. Same tap, same place — just let the back of the tongue down.",
+        "Say what is coming, so the boundary of today is clear, and write it on the board and leave it up. TODAY: the rā' HAS a vowel. NEXT LESSON: the rā' has NO vowel — it is sākin, or you have stopped on it. Then the rule changes, and a sākin rā' takes its ruling from the vowel BEFORE it.",
+        "Say that second half out loud even though it is not today's material. It stops her building the wrong general rule out of today's specific one, and it is a genuinely different mechanism rather than an extension."
+      ],
+      "items": [
+        {
+          "arabic": "رِحْلَةَ / ٱلرَّحْمَٰنِ",
+          "translit": "riḥlata / ar-raḥmān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The diagnostic pair. 106:2 light, 1:3 heavy. Ten alternations, every day. If they sound the same, nothing else in this lesson has landed."
+          }
+        },
+        {
+          "arabic": "رِزْقَهُۥ",
+          "translit": "rizqahu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "89:16 — reference example, outside your memorized surahs. Kasra on the ر, so LIGHT, and the heavy ق later in the word changes nothing at all. The second-commonest word read heavy by mistake."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — the baseline out loud, Drill 2 — the bare rā', Drill 3 — one tap, not a roll",
+      "instructions": "Drill 1, every session, before anything else: 'Fatḥa or ḍamma: heavy. Kasra: light. And that is only when the rā' has a vowel of its own.' Drill 2: six syllables, then رَ / رِ ten times alternating — the middle one is the work, and if رِ sounds like رَ with a different vowel stuck on it, the back of the tongue has not come down. Drill 3: hold the tongue firmly against the ridge and say each one exactly once. Record it and count the taps.",
+      "grid": [
+        [
+          {
+            "arabic": "رَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Fatḥa — HEAVY. Back of the tongue up, vowel toward English rob."
+            }
+          },
+          {
+            "arabic": "رِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasra — LIGHT. Back of the tongue down, vowel of English rich. This is the work."
+            }
+          },
+          {
+            "arabic": "رُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Ḍamma — HEAVY. Rounded lips, back still up."
+            }
+          },
+          {
+            "arabic": "رَ / رِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Ten alternations. Nothing moves at the front. Only the back of the tongue travels."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَرْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Sākin. One contact and then silence — no roll, and NO bounce. ر is tawassuṭ."
+            }
+          },
+          {
+            "arabic": "رَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy rā', and the alif after it is heavy too. Lesson 3-07's rule, unchanged."
+            }
+          },
+          {
+            "arabic": "رِي",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Light rā', and the yā' after it is light. One tap, then two counts of thin madd."
+            }
+          },
+          {
+            "arabic": "رَ · رِ · رُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Recorded, once each. Count the contacts on playback. More than one means press HARDER, not softer — the trill comes from a slack tongue."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The shadda cases, which look harder than they are",
+      "body": [
+        "A doubled rā' is two rā's, and both halves take the ruling of the vowel written on it. There is no extra rule here at all.",
+        "ٱلرَّحْمَٰنِ (1:3) — fatḥa — heavy, both halves. شَرِّ (113:2) — kasra — LIGHT, both halves. بِرَبِّ (113:1) — fatḥa — heavy. لِرَبِّكَ (108:2) — fatḥa — heavy.",
+        "The trap is a doubling that starts heavy and lightens halfway, or the reverse. Hold the two counts at ONE weight. Lesson 2-05 gave her the two counts; today they have to be two counts of the same colour.",
+        "شَرِّ deserves a moment on its own. It appears FOUR times in Sūrat al-Falaq — 113:2, 113:3, 113:4, 113:5 — which she starts memorising today. A light doubled rā' repeated four times in five ayat is either four wins or four ingrained errors, and this is the week it is decided.",
+        "And a teacher note on ٱلرَّحْمَٰنِ, because she has said this word more times than any other in her life. It is heavy — a doubled rā' with a fatḥa — and it is heavy for the whole two counts. The ر here also happens to be a merged solar lām, which is lesson 3-13, and the merge and the heaviness are completely independent rules. Do not let her conclude that a merged rā' is heavy BECAUSE it merged.",
+        "One deliberate trap for the drill: ٱلرَّحِيمِ is HEAVY, because the rā' is doubled with a fatḥa. The kasra later in the word belongs to the م and has nothing to do with the rā'."
+      ],
+      "items": [
+        {
+          "arabic": "شَرِّ",
+          "translit": "sharri",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:2 — a doubled ر with a KASRA. Light, both counts, and four times over in al-Falaq. Get it right today and the other three are free."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحِيمِ",
+          "translit": "ar-raḥīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:3 — the deliberate trap. HEAVY: the doubled ر carries a fatḥa. The kasra you can see belongs to the م."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — heavy column, light column",
+      "instructions": "Read down each column, then across the rows. Row by row the two words differ in one thing only: the vowel written on the rā'. The last row is a deliberate trap — ٱلرَّحِيمِ is heavy, because the rā' is doubled with a fatḥa and the kasra belongs to the م. Read the whole of 1:1 slowly and place both rā's.",
+      "grid": [
+        [
+          {
+            "arabic": "تَرَ",
+            "translit": "tara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:1 — fatḥa. HEAVY."
+            }
+          },
+          {
+            "arabic": "رِحْلَةَ",
+            "translit": "riḥlata",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:2 — kasra. LIGHT."
+            }
+          },
+          {
+            "arabic": "نَصْرُ",
+            "translit": "naṣru",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:1 — ḍamma. HEAVY. And the ص before it is heavy for its own unrelated reason."
+            }
+          },
+          {
+            "arabic": "رِزْقَهُۥ",
+            "translit": "rizqahu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "89:16 — reference example, outside your memorized surahs. Kasra. LIGHT."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لِرَبِّكَ",
+            "translit": "li-rabbika",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:2 — fatḥa on the ر. HEAVY, despite the kasra on the ل."
+            }
+          },
+          {
+            "arabic": "شَرِّ",
+            "translit": "sharri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — kasra. LIGHT, both counts."
+            }
+          },
+          {
+            "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+            "translit": "qul aʿūdhu bi-rabbi l-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — بِرَبِّ heavy, and it is the only heavy rā' in the whole surah."
+            }
+          },
+          {
+            "arabic": "صُدُورِ",
+            "translit": "ṣudūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:5 — kasra. LIGHT, and the heavy ص is not invited."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "translit": "ar-raḥmān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:3 — doubled ر with a fatḥa. HEAVY, both halves, and the alif after it is heavy too."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحِيمِ",
+            "translit": "ar-raḥīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:3 — the trap. Also HEAVY. The kasra belongs to the م, not to the ر."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — the diagnostic pair, and Drill 6 — the doubling, one colour",
+      "instructions": "Drill 5: ten alternations of رِحْلَةَ / ٱلرَّحْمَٰنِ, every day. Then have someone say one at random with the text covered and identify which you heard. Drill 6: two counts at a single weight. Tap the two beats out loud. If the weight changes between the beats, slow down and hold it.",
+      "grid": [
+        [
+          {
+            "arabic": "رِحْلَةَ / ٱلرَّحْمَٰنِ",
+            "translit": "riḥlata / ar-raḥmān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The pair the lesson exists for. Light, then heavy. Ten alternations, then blind."
+            }
+          },
+          {
+            "arabic": "رِحْلَةَ",
+            "translit": "riḥlata",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Alone, five times. Rich, not rob. Let the back of the tongue drop, and keep it to one tap."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "شَرِّ",
+            "translit": "sharri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — light, light. Tap two beats and keep one colour across both."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "translit": "ar-raḥmān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:3 — heavy, heavy. The commonest drift is the second half thinning toward the following vowel."
+            }
+          },
+          {
+            "arabic": "بِرَبِّ",
+            "translit": "bi-rabbi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — heavy, heavy."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحِيمِ",
+            "translit": "ar-raḥīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:3 — heavy, heavy. Then say ٱلرَّحْمَٰنِ ٱلرَّحِيمِ joined: four heavy counts in a row."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — heavy neighbour, light rā', and Drill 9 — the negative control",
+      "instructions": "Drill 7: the three words where instinct is loudest and wrong. Say the vowel on the rā' out loud before reading each one. Drill 9: read these and say 'no rā'' OUT LOUD. Do not just move on — a lesson on one letter makes students find that letter everywhere, and saying it aloud is what clears it.",
+      "grid": [
+        [
+          {
+            "arabic": "صُدُورِ",
+            "translit": "ṣudūr",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:5 — heavy ص, LIGHT ر. The ص is heavy for its own reason and the ر has a kasra. Two separate facts."
+            }
+          },
+          {
+            "arabic": "رِزْقَهُۥ",
+            "translit": "rizqahu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "89:16 — reference example, outside your memorized surahs. There is a heavy ق later in the word and it changes nothing. Kasra, so LIGHT."
+            }
+          },
+          {
+            "arabic": "شَرِّ",
+            "translit": "sharri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — light, four times over in al-Falaq. If it drifts heavy this week, that is where the extra repetitions go."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْعُقَدِ",
+            "translit": "al-ʿuqad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:4 — say it out loud: NO rā'."
+            }
+          },
+          {
+            "arabic": "ٱلنَّاسِ",
+            "translit": "an-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:1 — no rā'."
+            }
+          },
+          {
+            "arabic": "ٱلْحَمْدُ",
+            "translit": "al-ḥamd",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:2 — no rā'."
+            }
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "translit": "anʿamta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — no rā'. Hesitation here means the eye has been primed; it passes within a week."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 8 — Sūrat al-Falaq, rā' patrol",
+      "instructions": "Read the whole surah and mark every rā'. Five ayat: one heavy rā' and four light ones, and nothing else. This is the highest-yield page in the Qur'an for this lesson, and she starts memorising it today. Count the basmalah separately or you will lose track — ٱلرَّحْمَٰنِ ٱلرَّحِيمِ sits at the head of every surah, heavy both times.",
+      "grid": [
+        [
+          {
+            "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+            "translit": "qul aʿūdhu bi-rabbi l-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — بِرَبِّ, doubled ر with a fatḥa: HEAVY, both counts. The only heavy rā' in the surah proper."
+            }
+          },
+          {
+            "arabic": "مِن شَرِّ مَا خَلَقَ",
+            "translit": "min sharri mā khalaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — شَرِّ, doubled ر with a kasra: LIGHT, both counts. Then خَلَقَ, which has no rā' at all: heavy خ, LIGHT ل, heavy ق."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+            "translit": "bismi llāhi r-raḥmāni r-raḥīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:1 — counted separately. Two doubled rā's, both with a fatḥa, both HEAVY, four heavy counts in five words. She recites this every time she begins al-Falaq."
+            }
+          },
+          {
+            "arabic": "شَرِّ",
+            "translit": "sharri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2, 113:3, 113:4, 113:5 — the same light doubled rā' four times in five ayat. Four wins or four ingrained errors, and this is the week it is decided."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 113,
+      "ayah": 1,
+      "translation": "Say: I seek refuge with the Lord of the daybreak,",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "بِرَبِّ — a doubled rā' with a fatḥa, so HEAVY for both counts, and the kasra on the ب before it decides nothing. This is the only heavy rā' in the surah proper. Also here from earlier lessons: a clean sākin ل in ٱلْفَلَقِ with no bounce, a heavy ق, and a kubrā bounce on that ق if she stops at the end of the ayah."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 113,
+      "ayah": 2,
+      "translation": "from the evil of what He created,",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "شَرِّ — a doubled rā' with a kasra, so LIGHT for both counts. Tap the two beats and keep one colour across them; the commonest drift is the second half warming up. Then خَلَقَ, which has no rā' in it at all: heavy خ, LIGHT ل, heavy ق. Lesson 3-07's switch in three letters."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 2,
+      "translation": "their security in the journey of winter and summer.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "رِحْلَةَ — the word this lesson opens with. A kasra on the ر, so LIGHT: thin and forward, the vowel of English rich. It is heavy in almost every untrained reader in the world. One tap, back of the tongue down, and no roll."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 114,
+      "ayah": 5,
+      "translation": "who whispers in the breasts of mankind,",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "صُدُورِ — a heavy ص and then a LIGHT ر, and every instinct she has says otherwise. She memorised this word several sessions ago with a correct heavy ص. The ر has a kasra of its own, so it is light, and the ص is not invited. This is the diagnostic item of the whole lesson."
+      }
+    },
+    {
+      "kind": "mistake",
+      "heading": "Eight ways the rā' goes wrong",
+      "mistakes": [
+        {
+          "wrong": "Heavy by default — رِحْلَةَ, رِزْقَهُۥ and شَرِّ all read heavy.",
+          "why": "The heavy rā' is the default in English, in Urdu, and near enough in Turkish and Uzbek. She is not adding heaviness; she is failing to remove something she arrived with. This is the flagship error of the family.",
+          "fix": "'Rich, not rob. Let the back of your tongue drop.' Then Drill 5, ten alternations. If she gets رِحْلَةَ and رِزْقَهُۥ right, the habit is broken."
+        },
+        {
+          "wrong": "Trilling — more than one contact on the ridge, in either weight.",
+          "why": "The tongue relaxes when the student is concentrating on weight instead of contact. It happens on light rā's as often as heavy ones, and it is a SEPARATE fault from heaviness — do not let a fixed trill get credited as a fixed weight.",
+          "fix": "'One tap. Press harder, not softer.' Record and count the contacts; the ear misses this at speed and the recording does not. Ibn al-Jazarī's own warning is worth quoting once: the trill is a ṣifah the reciter is supposed to suppress, not perform."
+        },
+        {
+          "wrong": "Deciding from the letter BEFORE, on a vowelled rā' — لِرَبِّكَ or بِرَبِّ read light.",
+          "why": "She has heard, correctly, that the preceding vowel matters — but that is the sākin rule, and it is next lesson. She has generalised early, which is an intelligent error rather than a careless one.",
+          "fix": "'Does the rā' have a vowel of its own? Then that is the only one that counts.'"
+        },
+        {
+          "wrong": "Deciding from a heavy letter elsewhere in the word — صُدُورِ read with a heavy ر.",
+          "why": "Lesson 3-07 spent a whole session on contamination from heavy neighbours, and this looks like the same situation. It is not: this is a RULE, not a bleed.",
+          "fix": "'What vowel is on the rā'? Kasra. Then it is light, and the ص is not invited.'"
+        },
+        {
+          "wrong": "A doubling that changes weight halfway — شَرِّ starting heavy and thinning, or ٱلرَّحْمَٰنِ starting heavy and thinning.",
+          "why": "The two counts are long enough for the tongue to move, and nothing in her practice has required a SUSTAINED posture. Usually the second half drifts toward the following vowel.",
+          "fix": "Tap the two beats and hold one colour across both. 'Same weight, twice.' Drill 6."
+        },
+        {
+          "wrong": "Thinning the rā' until it stops being a rā' — a light ر that has drifted toward a ل or an English flap.",
+          "why": "Over-correction of the first error, and it arrives within a session of fixing it. Name it as a drill artefact when it appears.",
+          "fix": "'Light, not absent. Same tap, same place — just let the back of the tongue down.'"
+        },
+        {
+          "wrong": "Bouncing a rā' — a kick on a sākin ر, especially at وَٱنْحَرْ (108:2).",
+          "why": "Left over from lessons 3-05 and 3-06. A sākin ر genuinely feels bouncy, and it sits exactly where she has been bouncing things.",
+          "fix": "'Can you hold it? Then there is nothing blocked to bounce out of.' ر is tawassuṭ, and only ق ط ب ج د bounce."
+        },
+        {
+          "wrong": "Finding rā's that are not there — hesitation mid-drill on words with no rā' in them at all.",
+          "why": "A single-letter lesson primes the eye. It passes within a week and is not worth worrying about.",
+          "fix": "Drill 9. Say 'no rā'' out loud rather than just moving on."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "One line, one tap, and the pair that proves it",
+      "items": [
+        {
+          "arabic": "رَ · رُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Fatḥa or ḍamma → HEAVY. Back of the tongue up, vowel toward English rob."
+          }
+        },
+        {
+          "arabic": "رِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Kasra → LIGHT. Back of the tongue down, vowel of English rich. Same place, same one tap."
+          }
+        },
+        {
+          "arabic": "رِحْلَةَ / ٱلرَّحْمَٰنِ",
+          "translit": "riḥlata / ar-raḥmān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:2 and 1:3 — the diagnostic pair. If these two are not audibly different, nothing else in this lesson has landed."
+          }
+        },
+        {
+          "arabic": "صُدُورِ",
+          "translit": "ṣudūr",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:5 — the rā's own vowel decides, and nothing else. Not the letter before, not the letter after, not a heavy letter elsewhere in the word."
+          }
+        },
+        {
+          "arabic": "شَرِّ",
+          "translit": "sharri",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:2 — a doubled rā' takes the ruling of its own vowel, on BOTH counts. Light, four times over in al-Falaq."
+          }
+        },
+        {
+          "arabic": "وَٱنْحَرْ",
+          "translit": "wanḥar",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "108:2 — a sākin ر, held and released. ر is tawassuṭ, so it never bounces. Next lesson this same shape gets its own rule."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 25–35 min/day, five days",
+      "tasks": [
+        "Ten seconds — Drill 1. Say the baseline out loud before anything else: fatḥa or ḍamma heavy, kasra light, and only when the rā' has a vowel of its own.",
+        "Two minutes — Drill 2. رَ / رِ, ten alternations. The light one is the work.",
+        "Two minutes — Drill 3, one tap. Record it once this week and count the contacts on playback.",
+        "Three minutes — Drill 4, both columns and then across the rows. Do not skip the ٱلرَّحِيمِ row.",
+        "Two minutes — Drill 5, the diagnostic pair. رِحْلَةَ / ٱلرَّحْمَٰنِ, every day, then blind if anyone will help.",
+        "Two minutes — Drill 6, the doubling. Two counts, one colour, tapped out.",
+        "Two minutes — Drill 7. The three words where instinct is loudest and wrong, then Drill 9, saying 'no rā'' out loud.",
+        "Two minutes — Drill 8. Sūrat al-Falaq, rā' patrol: one heavy, four light, and the basmalah counted separately.",
+        "Hifz — Manzil (al-Fātiḥah), Sabqi (an-Nās, whole), then new Sabaq: al-Falaq 113:1–113:2, twenty to forty repetitions from the page.",
+        "Bring to the next session: a recording of رِحْلَةَ and ٱلرَّحْمَٰنِ said alternately five times, and this question answered — in صُدُورِ, why is the ر light when the ص right before it is heavy?"
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — the baseline, out loud",
+        "instructions": "Every session, before anything else. 'Fatḥa or ḍamma: heavy. Kasra: light. And that is only when the rā' has a vowel of its own.'",
+        "grid": [
+          [
+            {
+              "arabic": "رَ · رُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy."
+              }
+            },
+            {
+              "arabic": "رِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the bare rā', both weights",
+        "instructions": "Six syllables, then رَ / رِ ten times alternating. The middle one is the work.",
+        "grid": [
+          [
+            {
+              "arabic": "رَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy — back up."
+              }
+            },
+            {
+              "arabic": "رِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light — back down. If it sounds like رَ with a different vowel, the back has not moved."
+              }
+            },
+            {
+              "arabic": "رُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy — rounded lips, back still up."
+              }
+            },
+            {
+              "arabic": "رَ / رِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ten alternations."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — one tap, not a roll",
+        "instructions": "Hold the tongue firmly against the ridge and say each exactly once. Record and count the contacts.",
+        "grid": [
+          [
+            {
+              "arabic": "رَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One contact."
+              }
+            },
+            {
+              "arabic": "رِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One contact, light."
+              }
+            },
+            {
+              "arabic": "رُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One contact."
+              }
+            },
+            {
+              "arabic": "أَرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Sākin — one contact, no roll, no bounce."
+              }
+            },
+            {
+              "arabic": "رَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy, with a heavy alif after it."
+              }
+            },
+            {
+              "arabic": "رِي",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light, with a light yā' after it."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — heavy column, light column",
+        "instructions": "Down each column, then across the rows. The last row is the ٱلرَّحِيمِ trap — heavy, because the kasra belongs to the م.",
+        "grid": [
+          [
+            {
+              "arabic": "تَرَ",
+              "translit": "tara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "105:1 — heavy."
+              }
+            },
+            {
+              "arabic": "رِحْلَةَ",
+              "translit": "riḥlata",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:2 — light."
+              }
+            },
+            {
+              "arabic": "نَصْرُ",
+              "translit": "naṣru",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "110:1 — heavy."
+              }
+            },
+            {
+              "arabic": "رِزْقَهُۥ",
+              "translit": "rizqahu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "89:16 — reference example. Light."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لِرَبِّكَ",
+              "translit": "li-rabbika",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "108:2 — heavy, despite the kasra on the ل."
+              }
+            },
+            {
+              "arabic": "شَرِّ",
+              "translit": "sharri",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:2 — light."
+              }
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "translit": "bi-rabbi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:1 — heavy."
+              }
+            },
+            {
+              "arabic": "صُدُورِ",
+              "translit": "ṣudūr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "114:5 — light."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "translit": "ar-raḥmān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:3 — heavy, both halves."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "translit": "ar-raḥīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:3 — the trap. Heavy."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — the diagnostic pair",
+        "instructions": "Ten alternations, every day. Then blind: someone says one at random with the text covered.",
+        "grid": [
+          [
+            {
+              "arabic": "رِحْلَةَ / ٱلرَّحْمَٰنِ",
+              "translit": "riḥlata / ar-raḥmān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light, then heavy."
+              }
+            },
+            {
+              "arabic": "رِحْلَةَ",
+              "translit": "riḥlata",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Alone, five times. Rich, not rob."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — the doubling, one colour",
+        "instructions": "Two counts at a single weight. Tap the two beats out loud.",
+        "grid": [
+          [
+            {
+              "arabic": "شَرِّ",
+              "translit": "sharri",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light, light."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "translit": "ar-raḥmān",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy, heavy."
+              }
+            },
+            {
+              "arabic": "بِرَبِّ",
+              "translit": "bi-rabbi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy, heavy."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "translit": "ar-raḥīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy, heavy."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — heavy neighbour, light rā'",
+        "instructions": "The three words where instinct is loudest and wrong. Say the vowel on the rā' out loud first.",
+        "grid": [
+          [
+            {
+              "arabic": "صُدُورِ",
+              "translit": "ṣudūr",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "114:5 — heavy ص, light ر."
+              }
+            },
+            {
+              "arabic": "رِزْقَهُۥ",
+              "translit": "rizqahu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "89:16 — reference example. Heavy ق later in the word, and the ر is still light."
+              }
+            },
+            {
+              "arabic": "شَرِّ",
+              "translit": "sharri",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:2 — light, four times over in al-Falaq."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 8 — Sūrat al-Falaq, rā' patrol",
+        "instructions": "The whole surah, marking every rā'. One heavy and four light, and the basmalah counted separately.",
+        "grid": [
+          [
+            {
+              "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:1 — بِرَبِّ heavy."
+              }
+            },
+            {
+              "arabic": "مِن شَرِّ مَا خَلَقَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:2 — شَرِّ light, then خَلَقَ with no rā' at all."
+              }
+            },
+            {
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:1 — two heavy doubled rā's, counted separately."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 9 — the negative control",
+        "instructions": "Read each and say 'no rā'' OUT LOUD. Do not just move on.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْعُقَدِ",
+              "translit": "al-ʿuqad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:4 — no rā'."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاسِ",
+              "translit": "an-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "114:1 — no rā'."
+              }
+            },
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "translit": "al-ḥamd",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:2 — no rā'."
+              }
+            },
+            {
+              "arabic": "أَنْعَمْتَ",
+              "translit": "anʿamta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:7 — no rā'."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1 — the baseline out loud, before anything else",
+      "Drill 2 — رَ / رِ, ten alternations; the light one is the work",
+      "Drill 3 — one tap, recorded once this week and the contacts counted",
+      "Drill 4 — both columns, then across, including the ٱلرَّحِيمِ row",
+      "Drill 5 — رِحْلَةَ / ٱلرَّحْمَٰنِ, ten alternations, every day",
+      "Drill 6 — the doubling, two counts of one colour, tapped out",
+      "Drill 7 and Drill 9 — heavy neighbour with a light rā', then 'no rā'' out loud",
+      "Drill 8 — Sūrat al-Falaq, rā' patrol: one heavy, four light",
+      "Hifz — Manzil (al-Fātiḥah), Sabqi (an-Nās), new Sabaq 113:1–113:2"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Write رِحْلَةَ (106:2) and ask her to read it. The ر will be heavy. Do not correct it yet — let her hear that she heard nothing wrong with it.",
+      "Then say it correctly, thin and forward, and say the sentence: a heavy rā' is the English default, the Urdu default, and near enough the Turkish and Uzbek default. You arrived with it already installed. Every light rā' in this course is a habit to be un-learned, not a rule to be added.",
+      "Demonstrate trilling deliberately so she hears it named — rrrabb instead of rabb. One tap, never a roll. It is completely independent of heavy versus light, and a fixed trill must not be credited as a fixed weight.",
+      "Say the third thing now so it is not a surprise in three lessons: do not look for the answer in the letter BEFORE it. For a vowelled rā', only the rā's own vowel decides. لِرَبِّكَ has a kasra on the ل and a heavy rā'.",
+      "Give the baseline as ONE line and make her write it down. Fatḥa or ḍamma heavy, kasra light. Everything else in the family is a refinement of that line, and she should leave able to say it without thinking.",
+      "Then say what does NOT decide it: not the letter before, not the letter after, not a heavy letter elsewhere in the word. صُدُورِ (114:5) is the item to spend time on — she memorised it with a correct heavy ص, and the ر after it is light.",
+      "Remind her that 3-07 already gave her the tool. She can make a heavy sound and a light sound and switch between them. Today is not a new skill; it is the same switch applied to one letter on a per-word basis. And 3-07 named ر as the biggest of the four standing exceptions, with its own lessons — this is that promise being kept.",
+      "Teach the heavy rā' as a body position: tip on the gum ridge, BACK of the tongue up, vowel toward English rob, and one firm tap. Say twice that the makhraj does not change between heavy and light.",
+      "Then give the light rā' more time, because it is the one she does not have. Same place, back of the tongue down, vowel of English rich. And still one tap — a slack tongue rolls just as reliably as an eager one, which surprises students and needs saying.",
+      "Drill the diagnostic pair now rather than later: رِحْلَةَ light, ٱلرَّحْمَٰنِ heavy, ten alternations. Both are rā's at the head of a syllable and only the vowel differs.",
+      "The shadda cases look harder than they are: a doubled rā' is two rā's and both halves take the ruling of the vowel written on it. The trap is a doubling that changes weight halfway. Tap the two beats and hold one colour.",
+      "Spend a moment on شَرِّ. It appears four times in Sūrat al-Falaq, which she starts memorising today. Four light doubled rā's in five ayat are either four wins or four ingrained errors, and this is the week it is decided.",
+      "ٱلرَّحِيمِ is the deliberate trap in Drill 4: heavy, because the doubled ر carries a fatḥa. The kasra she can see belongs to the م. Read the whole of 1:1 slowly and place both rā's.",
+      "Teacher note on ٱلرَّحْمَٰنِ: she has said this word more times than any other in her life. It is heavy for the whole two counts. The ر is also a merged solar lām, which is lesson 3-13 — and the merge and the heaviness are independent. Do NOT let her conclude that a merged rā' is heavy because it merged.",
+      "Write the boundary on the board and leave it up. TODAY the rā' has a vowel. NEXT LESSON the rā' has no vowel, and then a sākin rā' takes its ruling from the vowel BEFORE it. Say the second half out loud even though it is not today's material — it stops her building the wrong general rule out of today's specific one.",
+      "Give the honest note about the highlighting, thirty seconds: the rā' rules are not colour-coded, because the annotation dataset covers eighteen rules and none of them is a rā' rule. That is the largest single gap in the highlighting, and it is why today's drills are hand-built word lists.",
+      "Name the over-correction before it arrives: a light rā' that has thinned into a ل or an English flap. It shows up within a session of fixing the heaviness. Light, not absent.",
+      "Hifz: Manzil (al-Fātiḥah), Sabqi (an-Nās whole), then new Sabaq — al-Falaq 113:1–113:2, twenty to forty repetitions from the page. This is an unusually good pairing of hifz and rule: both of today's rulings appear in the two ayat she is memorising, and one of them repeats four more times across the rest of the surah.",
+      "Four things to hold in those two ayat. بِرَبِّ — doubled ر with a fatḥa, heavy, both counts. شَرِّ — doubled ر with a kasra, light, both counts, and she will meet it three more times in the next three sessions; get it right today and the other three are free. ٱلْفَلَقِ — heavy ق, a clean sākin ل before it with no bounce, and a kubrā bounce on the ق when she stops at the end of the ayah. خَلَقَ — heavy خ, heavy ق, and a light ل between them: lesson 3-07's switch in three letters.",
+      "Close on the diagnostic pair, and set the homework question deliberately: in صُدُورِ, why is the ر light when the ص right before it is heavy? She should arrive next session with an answer in her own words."
+    ],
+    "listenFor": [
+      {
+        "item": "A genuinely LIGHT rā' — thin, forward, the vowel of English rich.",
+        "makhraj": "Tongue point 7 — the back of the tip against the gums of the upper incisors. Unchanged between heavy and light; only the back of the tongue moves.",
+        "commonMistake": "رِحْلَةَ, رِزْقَهُۥ and شَرِّ all read heavy. The flagship error of the family.",
+        "whyItHappens": "The heavy rā' is the default in English, in Urdu, and near enough in Turkish and Uzbek. She is not adding heaviness; she is failing to remove something she arrived with.",
+        "correctionCue": "Rich, not rob. Let the back of your tongue drop, and do not move anything at the front. Then ten alternations of رِحْلَةَ / ٱلرَّحْمَٰنِ.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ra-Tarqiq.md"
+      },
+      {
+        "item": "Exactly one contact on the gum ridge, in both weights.",
+        "commonMistake": "Trilling — an audible roll, on light rā's as often as heavy ones.",
+        "whyItHappens": "The tongue relaxes when the student is concentrating on weight instead of contact. Ibn al-Jazarī explicitly warns against letting the trill become audible; takrīr is a ṣifah the reciter suppresses rather than performs.",
+        "correctionCue": "One tap. Press HARDER, not softer — the trill comes from a slack tongue. Record it and count the contacts, because the ear misses this at speed.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Takrir.md"
+      },
+      {
+        "item": "The rā's OWN vowel deciding, on a vowelled rā'.",
+        "commonMistake": "لِرَبِّكَ or بِرَبِّ read light because of the kasra on the letter before.",
+        "whyItHappens": "She has heard, correctly, that a preceding vowel matters — but that is the sākin rule and it is next lesson. She has generalised early, which is an intelligent error rather than a careless one.",
+        "correctionCue": "Does the rā' have a vowel of its own? Then that is the only one that counts.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ra-Tafkhim.md"
+      },
+      {
+        "item": "صُدُورِ read with a light rā' despite the heavy ص in front of it.",
+        "commonMistake": "The ص pulling the rā' heavy.",
+        "whyItHappens": "Lesson 3-07 spent a whole session on heaviness bleeding from neighbours, which primes exactly this. But that was an ERROR to stop doing and this is a RULE — the two look alike and are opposite.",
+        "correctionCue": "What vowel is on the rā'? Kasra. Then it is light, and the ص is not invited.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ra-Tarqiq.md"
+      },
+      {
+        "item": "A doubled rā' held at ONE weight across both counts.",
+        "commonMistake": "شَرِّ starting heavy and thinning, or ٱلرَّحْمَٰنِ starting heavy and thinning toward the following vowel.",
+        "whyItHappens": "Two counts is long enough for the tongue to move, and nothing in her practice so far has required a sustained posture rather than a momentary one.",
+        "correctionCue": "Tap the two beats. Same weight, twice. If it drifts, slow the whole word down until it does not.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-09-Ra-I.md"
+      },
+      {
+        "item": "A light rā' that is still recognisably a rā'.",
+        "commonMistake": "Over-thinning until the letter drifts toward a ل or an English flap and loses its identity.",
+        "whyItHappens": "Over-correction of the heavy default, and it arrives within a session of fixing it. It should be named as a drill artefact rather than treated as a new fault.",
+        "correctionCue": "Light, not absent. Same tap, same place — just let the back of the tongue down.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-09-Ra-I.md"
+      },
+      {
+        "item": "A sākin rā' held and released, never kicked.",
+        "commonMistake": "A bounce on the ر of وَٱنْحَرْ (108:2).",
+        "whyItHappens": "Left over from lessons 3-05 and 3-06. A sākin ر genuinely feels bouncy and sits exactly where she has been bouncing things for two sessions.",
+        "correctionCue": "Can you hold it? Then there is nothing blocked to bounce out of. ر is tawassuṭ, and only ق ط ب ج د bounce.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Tawassut.md"
+      },
+      {
+        "item": "No hesitation on words that contain no rā' at all.",
+        "commonMistake": "Pausing over ٱلْعُقَدِ or ٱلنَّاسِ mid-drill, hunting for a letter that is not there.",
+        "whyItHappens": "A single-letter lesson primes the eye to find that letter everywhere. It passes within a week and is not worth worrying about.",
+        "correctionCue": "Say 'no rā'' out loud rather than just moving on. Naming the absence is what clears it.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-09-Ra-I.md"
+      }
+    ],
+    "homework": "25–35 min/day over five days. Daily: Drill 1, the baseline out loud before anything else (ten seconds); Drill 2, رَ / رِ ten alternations, the light one being the work (two minutes); Drill 3, one tap — recorded once this week with the contacts counted on playback (two minutes); Drill 4, both columns and then across the rows, not skipping the ٱلرَّحِيمِ trap (three minutes); Drill 5, the diagnostic pair رِحْلَةَ / ٱلرَّحْمَٰنِ, every day and blind if anyone will help (two minutes); Drill 6, the doubling held at one colour across two tapped beats (two minutes); Drill 7, the three words where instinct is loudest and wrong, then Drill 9 saying 'no rā'' out loud (two minutes); Drill 8, Sūrat al-Falaq rā' patrol — one heavy, four light, basmalah counted separately (two minutes). Hifz: Manzil (al-Fātiḥah), Sabqi (an-Nās whole), then new Sabaq al-Falaq 113:1–113:2, twenty to forty repetitions from the page. Bring to the next session: a recording of رِحْلَةَ and ٱلرَّحْمَٰنِ said alternately five times, and this answered — in صُدُورِ, why is the ر light when the ص right before it is heavy?"
+  },
+  "videos": []
+}

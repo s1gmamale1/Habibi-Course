@@ -1,0 +1,993 @@
+{
+  "id": "2-04",
+  "phase": 2,
+  "unit": "2.1",
+  "title": "Sukūn II — two sukūns colliding, and the bouncing letters",
+  "objectives": [
+    "Student can explain why Arabic never lets two closed letters run together in continuous reading, and can point to the printed helper vowel that fixes it in قُمِ ٱلَّيْلَ.",
+    "Student can read a phrase in which a long vowel is dropped before a following sukūn — فِى ٱلْأَرْضِ read as fil-arḍ.",
+    "Student can produce a clean bounce on ق ط ب ج د carrying a sukūn, and can state that the bounce is not a vowel.",
+    "Student can read a mixed set in which some ق ط ب ج د are closed and some carry a vowel, bouncing only the closed ones."
+  ],
+  "prerequisites": [
+    "1-13",
+    "2-03"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.4 — Sukūn II: collisions, and the bouncing letters",
+      "arabicDecor": "قُمِ ٱلَّيْلَ · قطب جد"
+    },
+    {
+      "kind": "concept",
+      "heading": "Two surprises, both from the same cause",
+      "body": [
+        "Read this exactly as it looks: قُمِ ٱلَّيْلَ. Nearly everyone reads qum … al-layl, with a break, because the two words look like two units standing apart.",
+        "Now look at the kasra sitting under the مـ. It was not in قُمْ a moment ago. What is it doing there?",
+        "Second one. Say ib, then say ib-uh. Which sounded like a ب at the end of a word? Neither is right — the first is silent and dies, the second has a vowel glued on.",
+        "Arabic will not let two closed letters touch, and it will not let a closed ق ط ب ج د die silently. Both problems have the same cause — a consonant with no vowel to lean on — and the page has already solved both for you. Today you learn to see the solution instead of being surprised by it."
+      ],
+      "items": [
+        {
+          "arabic": "قُمِ ٱلَّيْلَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قُمِ ٱلَّيْلَ (73:2): qumi-l-layl. The kasra under the مـ is the fix, and it is printed."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Part A — the collision, shown before the fix",
+      "body": [
+        "Write قُمْ, then ٱلَّيْلَ. Read them separately: qum, al-layl.",
+        "Now join them. The ٱ of الـ is skipped when joining — you have known that since lesson 1-13 — so what is left is مْ meeting لْ. Two closed letters, back to back.",
+        "Try to say it. You cannot, or you insert a break. That is the point: Arabic speech does not contain that shape."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The three fixes, in order of how often you will meet them",
+      "body": [
+        "A helper vowel on the first one, almost always a kasra. قُمِ ٱلَّيْلَ is qumi-l-layl. قُلِ ٱللَّهُمَّ is quli-llāhumma. The vowel is printed in the mushaf — check it with your eyes.",
+        "A handful of words take a different vowel. مِنْ becomes مِنَ before الـ — mina-llāhi. The endings ـتُمْ and ـهِمْ take a ḍamma — antumu-l-, ʿalayhimu-l-. Do not try to systematise this; it is printed too, and you read what you see. The full account is lesson 2-09.",
+        "A long vowel is dropped altogether. فِى ٱلْأَرْضِ is fil-arḍ, not fī-l-arḍ. The long ī has no helper vowel to give, so it simply goes. This one is NOT obvious from the page, and it is the fix you will actually stumble on.",
+        "The posture to take away is not a rule: when a word ends in an unexpected vowel, it is not a misprint and you have not lost your place. It is the join."
+      ],
+      "items": [
+        {
+          "arabic": "قُلِ ٱللَّهُمَّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قُلِ ٱللَّهُمَّ (3:26): quli-llāhumma. The same fix on a different verb."
+          }
+        },
+        {
+          "arabic": "فِى ٱلْأَرْضِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فِى ٱلْأَرْضِ: fil-arḍ, ‘in the earth’. Cover the ى with a fingertip and read it again."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Part B — the five bouncing letters, and the one condition",
+      "body": [
+        "ق ط ب ج د, remembered as قطب جد. You met them in lesson 1-13.",
+        "They bounce only when they are closed. When they carry a vowel they behave like any other letter.",
+        "ٱهْدِنَا — the د carries a kasra. No bounce.",
+        "لَمْ يَلِدْ — the د is closed. Bounce.",
+        "This is the single most common qalqalah error in the wild, and it is worth the whole board."
+      ],
+      "items": [
+        {
+          "arabic": "ٱهْدِنَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱهْدِنَا (1:6): ihdinā. A closed هْ running into a د — and the د carries a kasra, so it does NOT bounce."
+          }
+        },
+        {
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لَمْ يَلِدْ وَلَمْ يُولَدْ (112:3): lam yalid wa-lam yūlad. Two closed dāls — both bounce. Both mīms are plain."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What the bounce is, defined by what it is not",
+      "body": [
+        "It is a dry echo of the letter itself: ib, with a small detached release at the end.",
+        "It is not iba. It is not ibi. It is not ibu. Any vowel colour in the bounce is wrong.",
+        "Say all three wrong versions deliberately so you can hear the difference between an echo and a vowel — you have to be able to catch this yourself at home.",
+        "The bounce happens in two places: inside a word, where the letter carries a written sukūn, and at the end of a word when you stop on it — because stopping makes the last letter closed even if the text shows a vowel.",
+        "The bounce is stronger at a stop than mid-word, and the grades have names. That is Unit 3.4. Today: bounce them all the same, cleanly."
+      ],
+      "items": [
+        {
+          "arabic": "وَتَبَّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وَتَبَّ (111:1): wa-tabb. At a stop, hold the doubled ب, then bounce it. You met the holding half of this in lesson 1-14."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — the collision, on the page",
+      "instructions": "Read each phrase and put a finger on the helper vowel as you say it. The kasra is printed — read what you see.",
+      "grid": [
+        [
+          {
+            "arabic": "قُمِ ٱلَّيْلَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُمِ ٱلَّيْلَ (73:2): qumi-l-layl. The kasra under the مـ is printed in the mushaf — put your finger on it before you read."
+            }
+          },
+          {
+            "arabic": "قُلِ ٱللَّهُمَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُلِ ٱللَّهُمَّ (3:26): quli-llāhumma. Same collision, same printed kasra on a different verb."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِنَ ٱلنَّاسِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مِنَ ٱلنَّاسِ: mina-n-nās. مِنْ takes a fatḥa rather than a kasra before الـ. It is printed; read what you see."
+            }
+          },
+          {
+            "arabic": "أَنِ ٱعْبُدُوا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَنِ ٱعْبُدُوا: ani-ʿbudū. The helper vowel again, printed under the نـ."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — the dropped long vowel",
+      "instructions": "These do not show you the fix. Read each as one piece. Say each one twice: once wrong with the long vowel kept — fī-l-bayt — and once right — fil-bayt. You need to hear both to know which one you are producing.",
+      "grid": [
+        [
+          {
+            "arabic": "فِى ٱلْبَيْتِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِى ٱلْبَيْتِ: fil-bayt, ‘in the house’. Not fī-l-bayt — the long ī is written and simply not read."
+            }
+          },
+          {
+            "arabic": "فِى ٱلْأَرْضِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِى ٱلْأَرْضِ: fil-arḍ, ‘in the earth’. Cover the ى with a fingertip and read it again."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "إِلَى ٱلْمَسْجِدِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِلَى ٱلْمَسْجِدِ: ilal-masjid, ‘to the mosque’. The long ā of إِلَى drops."
+            }
+          },
+          {
+            "arabic": "عَلَى ٱلْبَابِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَلَى ٱلْبَابِ: ʿalal-bāb, ‘on the door’. Same drop."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — bounce or no bounce",
+      "instructions": "Read ACROSS each row, not down. The left word has the letter closed, so it bounces; the right word has the same letter carrying a vowel, so it does not. The pair is the drill — a single column teaches nothing.",
+      "grid": [
+        [
+          {
+            "arabic": "يَقْطَع",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَقْطَع: yaqṭaʿ. The ق is closed — bounce it. A dry echo, no vowel colour."
+            }
+          },
+          {
+            "arabic": "قَلَم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَلَم: qalam, ‘a pen’. The ق carries a fatḥa, so it does NOT bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَبْصَار",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَبْصَار: abṣār, ‘eyes’. The ب is closed — bounce it."
+            }
+          },
+          {
+            "arabic": "بَاب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَاب: bāb, ‘a door’. The first ب carries a fatḥa — no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَجْعَل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَجْعَل: yajʿal. The ج is closed — bounce it."
+            }
+          },
+          {
+            "arabic": "جَبَل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَبَل: jabal, ‘a mountain’. The ج carries a fatḥa — no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَدْخُل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَدْخُل: yadkhul. The د is closed — bounce it."
+            }
+          },
+          {
+            "arabic": "دَرَس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرَس: darasa, ‘he studied’. The د carries a fatḥa — no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَطْمَع",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَطْمَع: yaṭmaʿ. The ط is closed — bounce it, heavy and dry."
+            }
+          },
+          {
+            "arabic": "طَرِيق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَرِيق: ṭarīq, ‘a road’. The ط carries a fatḥa — no bounce."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — bouncing letter against a non-bouncing one",
+      "instructions": "All of these have a closed letter. Only the left column bounces, because only the left column's closed letter is one of قطب جد. Read across.",
+      "grid": [
+        [
+          {
+            "arabic": "صَبْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَبْر: ṣabr. The ب is closed and is in قطب جد — bounce."
+            }
+          },
+          {
+            "arabic": "صَرْف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَرْف: ṣarf. The ر is closed but is not in قطب جد — cut it, no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَجْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَجْر: fajr. Closed ج — bounce."
+            }
+          },
+          {
+            "arabic": "فَحْص",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَحْص: faḥṣ. Closed ح — no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَقْت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَقْت: waqt. Closed ق — bounce."
+            }
+          },
+          {
+            "arabic": "وَصْف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَصْف: waṣf. Closed ص — no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَبْدَأ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَبْدَأ: yabdaʾ. Closed ب — bounce."
+            }
+          },
+          {
+            "arabic": "يَحْمِل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَحْمِل: yaḥmil. Closed ح — no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَطْبَخ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَطْبَخ: maṭbakh. Closed ط — bounce."
+            }
+          },
+          {
+            "arabic": "مَسْجِد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَسْجِد: masjid. Closed س — no bounce."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — the 1-14 contrast, back again",
+      "instructions": "ط bounces, ظ is held. Read across the pairs, not down the column. Both letters are heavy — heaviness is not the test.",
+      "grid": [
+        [
+          {
+            "arabic": "بَطْن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَطْن: baṭn, ‘a belly’. ط is in قطب جد — bounce it."
+            }
+          },
+          {
+            "arabic": "عَظْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَظْم: ʿaẓm, ‘a bone’. ظ is heavy but NOT in قطب جد — hold it, do not bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قَطْر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَطْر: qaṭr. Closed ط — bounce."
+            }
+          },
+          {
+            "arabic": "نَظْم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَظْم: naẓm. Closed ظ — hold, no bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَطْلُب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَطْلُب: yaṭlub. Closed ط — bounce."
+            }
+          },
+          {
+            "arabic": "يَظْلِم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "يَظْلِم: yaẓlim. Closed ظ — hold. Heaviness is not the test; membership of قطب جد is."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — stopping",
+      "instructions": "Read each word and stop on it. The last letter becomes closed, so the bouncing letters bounce. Do not let them go silent.",
+      "grid": [
+        [
+          {
+            "arabic": "كِتَابْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كِتَابْ: kitāb, stopped. The ب is now closed and is in قطب جد — bounce it."
+            }
+          },
+          {
+            "arabic": "قَرِيبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَرِيبْ: qarīb, stopped. Closed ب — bounce."
+            }
+          },
+          {
+            "arabic": "مَسْجِدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَسْجِدْ: masjid, stopped. Closed د — bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صَدِيقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَدِيقْ: ṣadīq, stopped. Closed ق — bounce. Do not let the letter go silent."
+            }
+          },
+          {
+            "arabic": "طَرِيقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَرِيقْ: ṭarīq, stopped. Closed ق — bounce."
+            }
+          },
+          {
+            "arabic": "وَلَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَلَدْ: walad, stopped. Closed د — bounce."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — the real line",
+      "instructions": "Read 112:3 four times: slow, with a pencil mark on each دْ, then at pace with no marks. Then listen to a reciter and check that your bounce is as dry as theirs.",
+      "grid": [
+        [
+          {
+            "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَمْ يَلِدْ وَلَمْ يُولَدْ (112:3): lam yalid wa-lam yūlad. Mark the two دْ with a pencil before you read. Both bounce; both mīms are plain."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — the mark is the test, not the letter",
+      "items": [
+        {
+          "arabic": "قُمِ ٱلَّيْلَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قُمِ ٱلَّيْلَ: qumi-l-layl. Collision fixed by a printed kasra."
+          }
+        },
+        {
+          "arabic": "فِى ٱلْأَرْضِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فِى ٱلْأَرْضِ: fil-arḍ. Collision fixed by dropping a long vowel — and this one is not printed."
+          }
+        },
+        {
+          "arabic": "ٱهْدِنَا",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱهْدِنَا: ihdinā. A د with a vowel — no bounce."
+          }
+        },
+        {
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لَمْ يَلِدْ وَلَمْ يُولَدْ: two closed dāls — both bounce."
+          }
+        },
+        {
+          "arabic": "بَطْن",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بَطْن: baṭn. ط is in قطب جد — bounce."
+          }
+        },
+        {
+          "arabic": "عَظْم",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "عَظْم: ʿaẓm. ظ is heavy but not in قطب جد — hold."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Two minutes — warm-up. Say قطب جد aloud, then the five letters each with a sukūn: قْ طْ بْ جْ دْ. Every day.",
+        "Four minutes — Drill 3, read across. The pair is the whole point; never read one column alone.",
+        "Four minutes — Drill 2, the dropped long vowel. Wrong version then right version, both out loud.",
+        "Three minutes — Drill 5, ط against ظ. If you cannot hear a difference between بَطْن and عَظْم, mark it down and say so next session.",
+        "Four minutes — Drill 7. 112:3 four times, then once against a recording.",
+        "Bring to the next session: whether your bounce has a vowel in it. Record ten seconds of Drill 6 and listen back at half speed — that is the only reliable way to tell, and it costs nothing."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — the collision, on the page",
+        "instructions": "Put a finger on the printed helper vowel as you say each phrase.",
+        "grid": [
+          [
+            {
+              "arabic": "قُمِ ٱلَّيْلَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُمِ ٱلَّيْلَ (73:2): qumi-l-layl. The kasra under the مـ is printed in the mushaf — put your finger on it before you read."
+              }
+            },
+            {
+              "arabic": "قُلِ ٱللَّهُمَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُلِ ٱللَّهُمَّ (3:26): quli-llāhumma. Same collision, same printed kasra on a different verb."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مِنَ ٱلنَّاسِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مِنَ ٱلنَّاسِ: mina-n-nās. مِنْ takes a fatḥa rather than a kasra before الـ. It is printed; read what you see."
+              }
+            },
+            {
+              "arabic": "أَنِ ٱعْبُدُوا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَنِ ٱعْبُدُوا: ani-ʿbudū. The helper vowel again, printed under the نـ."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the dropped long vowel",
+        "instructions": "Say each one twice: once wrong with the long vowel kept, once right.",
+        "grid": [
+          [
+            {
+              "arabic": "فِى ٱلْبَيْتِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فِى ٱلْبَيْتِ: fil-bayt, ‘in the house’. Not fī-l-bayt — the long ī is written and simply not read."
+              }
+            },
+            {
+              "arabic": "فِى ٱلْأَرْضِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فِى ٱلْأَرْضِ: fil-arḍ, ‘in the earth’. Cover the ى with a fingertip and read it again."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "إِلَى ٱلْمَسْجِدِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "إِلَى ٱلْمَسْجِدِ: ilal-masjid, ‘to the mosque’. The long ā of إِلَى drops."
+              }
+            },
+            {
+              "arabic": "عَلَى ٱلْبَابِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَلَى ٱلْبَابِ: ʿalal-bāb, ‘on the door’. Same drop."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — bounce or no bounce",
+        "instructions": "Read ACROSS each row. Left is closed and bounces; right carries a vowel and does not.",
+        "grid": [
+          [
+            {
+              "arabic": "يَقْطَع",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَقْطَع: yaqṭaʿ. The ق is closed — bounce it. A dry echo, no vowel colour."
+              }
+            },
+            {
+              "arabic": "قَلَم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَلَم: qalam, ‘a pen’. The ق carries a fatḥa, so it does NOT bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أَبْصَار",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَبْصَار: abṣār, ‘eyes’. The ب is closed — bounce it."
+              }
+            },
+            {
+              "arabic": "بَاب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَاب: bāb, ‘a door’. The first ب carries a fatḥa — no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَجْعَل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَجْعَل: yajʿal. The ج is closed — bounce it."
+              }
+            },
+            {
+              "arabic": "جَبَل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَبَل: jabal, ‘a mountain’. The ج carries a fatḥa — no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَدْخُل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَدْخُل: yadkhul. The د is closed — bounce it."
+              }
+            },
+            {
+              "arabic": "دَرَس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرَس: darasa, ‘he studied’. The د carries a fatḥa — no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَطْمَع",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَطْمَع: yaṭmaʿ. The ط is closed — bounce it, heavy and dry."
+              }
+            },
+            {
+              "arabic": "طَرِيق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَرِيق: ṭarīq, ‘a road’. The ط carries a fatḥa — no bounce."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — bouncing letter against a non-bouncing one",
+        "instructions": "All closed. Only the left column is in قطب جد, so only the left column bounces.",
+        "grid": [
+          [
+            {
+              "arabic": "صَبْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَبْر: ṣabr. The ب is closed and is in قطب جد — bounce."
+              }
+            },
+            {
+              "arabic": "صَرْف",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَرْف: ṣarf. The ر is closed but is not in قطب جد — cut it, no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فَجْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَجْر: fajr. Closed ج — bounce."
+              }
+            },
+            {
+              "arabic": "فَحْص",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَحْص: faḥṣ. Closed ح — no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَقْت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَقْت: waqt. Closed ق — bounce."
+              }
+            },
+            {
+              "arabic": "وَصْف",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَصْف: waṣf. Closed ص — no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَبْدَأ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَبْدَأ: yabdaʾ. Closed ب — bounce."
+              }
+            },
+            {
+              "arabic": "يَحْمِل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَحْمِل: yaḥmil. Closed ح — no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مَطْبَخ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَطْبَخ: maṭbakh. Closed ط — bounce."
+              }
+            },
+            {
+              "arabic": "مَسْجِد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَسْجِد: masjid. Closed س — no bounce."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — ط bounces, ظ is held",
+        "instructions": "Read across the pairs. Heaviness is not the test.",
+        "grid": [
+          [
+            {
+              "arabic": "بَطْن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَطْن: baṭn, ‘a belly’. ط is in قطب جد — bounce it."
+              }
+            },
+            {
+              "arabic": "عَظْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَظْم: ʿaẓm, ‘a bone’. ظ is heavy but NOT in قطب جد — hold it, do not bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قَطْر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَطْر: qaṭr. Closed ط — bounce."
+              }
+            },
+            {
+              "arabic": "نَظْم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَظْم: naẓm. Closed ظ — hold, no bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "يَطْلُب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَطْلُب: yaṭlub. Closed ط — bounce."
+              }
+            },
+            {
+              "arabic": "يَظْلِم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "يَظْلِم: yaẓlim. Closed ظ — hold. Heaviness is not the test; membership of قطب جد is."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — stopping",
+        "instructions": "Stop on each word. The last letter becomes closed, so the bouncing letters bounce.",
+        "grid": [
+          [
+            {
+              "arabic": "كِتَابْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كِتَابْ: kitāb, stopped. The ب is now closed and is in قطب جد — bounce it."
+              }
+            },
+            {
+              "arabic": "قَرِيبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَرِيبْ: qarīb, stopped. Closed ب — bounce."
+              }
+            },
+            {
+              "arabic": "مَسْجِدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَسْجِدْ: masjid, stopped. Closed د — bounce."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "صَدِيقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَدِيقْ: ṣadīq, stopped. Closed ق — bounce. Do not let the letter go silent."
+              }
+            },
+            {
+              "arabic": "طَرِيقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَرِيقْ: ṭarīq, stopped. Closed ق — bounce."
+              }
+            },
+            {
+              "arabic": "وَلَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "وَلَدْ: walad, stopped. Closed د — bounce."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Warm-up: قطب جد aloud, then قْ طْ بْ جْ دْ — every day",
+      "Drill 3 read across — never one column alone",
+      "Drill 2, the dropped long vowel — wrong version then right version, out loud",
+      "Drill 5 — ط against ظ; note it down if you cannot hear the difference",
+      "Drill 7 — 112:3 four times, then once against a recording"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Two errors today, so lead with both. Write قُمِ ٱلَّيْلَ and ask her to read it exactly as it looks. Nearly everyone reads qum … al-layl with a break. Then point at the kasra under the مـ and ask what it is doing there — it was not in قُمْ a moment ago.",
+      "Then the second one. Say ib and then ib-uh, and ask which sounded like a ب at the end of a word. Most students produce one of the two, and neither is right.",
+      "Give the corrective sentence for the whole lesson: Arabic will not let two closed letters touch, and it will not let a closed ق ط ب ج د die silently. Both have the same cause, and the page has already solved both.",
+      "Re-gate the bounce in thirty seconds: بَعْ, حَمْ, صَبْ with the clap test from 1-13. If a helper vowel is present on a plain sukūn, teach Part A only and postpone Part B to the next session. A wrong qalqalah is worse than no qalqalah; 1-13 already made that call and it still stands.",
+      "Show the collision before the fix. Write قُمْ, then ٱلَّيْلَ, have her read them separately, then join them. Remind her of the skipped ٱ of الـ from 1-13 BEFORE this step, not after — that skip is what causes the collision. When she cannot say مْ + لْ, that is the point.",
+      "Give the three fixes in order of frequency, and make the ‘already printed’ point stick: read three collisions straight off the page with no explanation, having her follow the vowels with her finger. The takeaway is a posture, not a rule.",
+      "Warn that the dropped long vowel — فِى ٱلْأَرْضِ as fil-arḍ — is the one that is not obvious from the page, and is the fix she will actually stumble on.",
+      "For Part B, bring back قطب جد and add the one condition: these five bounce only when closed. Put ٱهْدِنَا and لَمْ يَلِدْ on the board as a contrast pair — this is the single most common qalqalah error in the wild.",
+      "Define the bounce by what it is not. Say iba, ibi, ibu deliberately so she can hear the difference between an echo and a vowel; she has to be able to catch this herself at home.",
+      "Name what you are not teaching — the grades of qalqalah are Unit 3.4. Do not open the door; 1-13 already closed it once.",
+      "Teacher note on 112:3: it is the ideal drill line for this lesson, putting a bouncing letter and a non-bouncing sukūn in the same short āyah four times over. Have her mark the two دْ with a pencil before reading."
+    ],
+    "listenFor": [
+      {
+        "item": "A collision read straight through on the printed helper vowel",
+        "commonMistake": "Breaking the phrase at the collision — qum · al-layl, a stop and restart, usually with a breath.",
+        "whyItHappens": "Two written words look like two units, and she has no reason yet to expect a vowel to appear from nowhere.",
+        "correctionCue": "‘The kasra is printed. Read what you see.’ Have her point at it before she starts the phrase.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-04-Sukun-II.md"
+      },
+      {
+        "item": "The long vowel dropped before a following sukūn — fil-arḍ",
+        "commonMistake": "Keeping the long vowel — fī-l-arḍ. A full two-count ī or ā immediately before a closed letter.",
+        "whyItHappens": "The page gives her no signal at all here — the long vowel is written and simply not read. This is genuinely counter-intuitive and needs repetition, not explanation.",
+        "correctionCue": "Cover the ى with a fingertip and have her read again.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-04-Sukun-II.md"
+      },
+      {
+        "item": "ق ط ب ج د bounced only when they carry a sukūn",
+        "commonMistake": "Bouncing a letter that carries a vowel — ihdinā with a bounced د. An extra beat inside a perfectly ordinary word.",
+        "whyItHappens": "Over-application, and it appears the moment the five letters are named. She has learned to look for the letter instead of the mark.",
+        "correctionCue": "‘Which mark is on it?’ Do not say the answer — make her read the mark. The condition is the sukūn, not the letter.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-04-Sukun-II.md"
+      },
+      {
+        "item": "A dry bounce with no vowel colour",
+        "commonMistake": "The bounce carrying a vowel — ib-uh, ib-ah. If you can transcribe it as a, i or u, it is wrong.",
+        "whyItHappens": "This is the helper-vowel habit from lesson 2-03 wearing a different hat, and it is exactly the risk 1-13 flagged when it gated qalqalah. It is one error, not two.",
+        "correctionCue": "‘Echo, not a syllable.’ Knock once on the table for the letter and let the sound die — the fading knock is the model.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-04-Sukun-II.md"
+      },
+      {
+        "item": "A closed ق ط ب ج د audibly released rather than dropped",
+        "commonMistake": "No bounce at all — the letter going silent. A missing letter at the end of a stopped word; ṣadī for ṣadīq.",
+        "whyItHappens": "Over-correcting the vowel-coloured bounce, plus the correct fix for the leaky letters in 2-03 (‘cut it’) applied to letters that need the opposite.",
+        "correctionCue": "‘That one needs a release. Let me hear the end of it.’",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-04-Sukun-II.md"
+      },
+      {
+        "item": "ط bounced and ظ held, kept apart",
+        "commonMistake": "Bouncing ظ, or holding ط — Drill 5 read down instead of across, with both columns treated the same.",
+        "whyItHappens": "Both letters are heavy, both are closed, and heaviness is the feature she was drilling most recently in 1-14.",
+        "correctionCue": "‘Heavy is not the test. Is it in قطب جد?’ Have her recite the five letters, then answer her own question.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-04-Sukun-II.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Two minutes of warm-up every day: قطب جد said aloud, then the five letters each with a sukūn. Four minutes on Drill 3 read across — the pair is the whole point, and one column alone teaches nothing. Four minutes on Drill 2, the dropped long vowel, wrong version then right version out loud. Three minutes on Drill 5, ط against ظ, noting it down if she cannot hear a difference between بَطْن and عَظْم. Four minutes on Drill 7: 112:3 four times, then once against a recording. She brings back whether her bounce has a vowel in it, established by recording ten seconds of Drill 6 and listening back at half speed — the only reliable way to tell."
+  },
+  "videos": []
+}

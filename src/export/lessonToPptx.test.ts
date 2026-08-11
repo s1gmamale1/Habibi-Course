@@ -1,9 +1,12 @@
 // @vitest-environment node
+import { createRequire } from "node:module";
 import { describe, expect, test } from "vitest";
 import PptxGenJS from "pptxgenjs";
 import { allLessonIds, loadLesson } from "@/content/load";
 import type { Lesson } from "@/content/schema";
 import { buildLessonDeck, drillTableRows, type Deck, type DeckSlide } from "./lessonToPptx";
+
+const requireFromTest = createRequire(import.meta.url);
 
 class FakeSlide implements DeckSlide {
   background?: { color: string };
@@ -32,6 +35,8 @@ const miniLesson: Lesson = {
   unit: "1.9",
   title: "Mini",
   objectives: ["obj one"],
+  prerequisites: [],
+  games: [],
   slides: [
     { kind: "title", heading: "Mini lesson", arabicDecor: "ص" },
     {
@@ -56,6 +61,8 @@ const noHomeworkSlideLesson: Lesson = {
   unit: "1.9",
   title: "Mini (no homework slide)",
   objectives: ["obj one"],
+  prerequisites: [],
+  games: [],
   slides: [
     { kind: "title", heading: "Mini lesson", arabicDecor: "ح" },
     {
@@ -79,6 +86,8 @@ function lessonWithRecap(itemCount: number): Lesson {
     unit: "1.9",
     title: "Recap fixture",
     objectives: ["obj"],
+    prerequisites: [],
+    games: [],
     slides: [
       { kind: "title", heading: "Title", arabicDecor: "ح" },
       { kind: "recap", heading: "Recap", items: Array.from({ length: itemCount }, (_, i) => recapItem(i)) },
@@ -99,6 +108,8 @@ function lessonWithDrillRows(rowCount: number): Lesson {
     unit: "1.9",
     title: "Drill fixture",
     objectives: ["obj"],
+    prerequisites: [],
+    games: [],
     slides: [
       { kind: "title", heading: "Title", arabicDecor: "د" },
       { kind: "drill", heading: "Drill", instructions: "match the letters", grid: Array.from({ length: rowCount }, (_, i) => [drillItem(i)]) },
@@ -202,6 +213,38 @@ describe("renderRecap column layout", () => {
     expect(columnRuns).toHaveLength(1);
     expect(columnRuns[0].text[0].options.fontSize).toBe(20);
   });
+
+  // The deck honours RTL everywhere else — drill rows are reversed — and the teacher reading
+  // it scans right to left. A recap that starts in the leftmost column reads backwards.
+  test("recap columns fill right-to-left, so the first items sit furthest right", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(30)); // three columns
+    const runs = deck.slides[1].texts.slice(1) as {
+      text: { text: string }[];
+      opts: { x: number };
+    }[];
+    expect(runs).toHaveLength(3);
+    const xs = runs.map((r) => r.opts.x);
+    expect(xs[0]).toBeGreaterThan(xs[1]);
+    expect(xs[1]).toBeGreaterThan(xs[2]);
+  });
+
+  // 14 items at 20pt in a single column ends ~0.3" past the canvas. Unreachable in current
+  // content (the largest real single-column recap is 13) but a latent trap for future content.
+  test("a 14-item recap drops below the base fontSize rather than overflowing", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(14));
+    const runs = deck.slides[1].texts.slice(1) as { text: { options: { fontSize: number } }[] }[];
+    expect(runs[0].text[0].options.fontSize).toBeLessThan(20);
+  });
+
+  test("13 items — the largest recap in real content — still uses the base fontSize", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(13));
+    const runs = deck.slides[1].texts.slice(1) as { text: { options: { fontSize: number } }[] }[];
+    expect(runs).toHaveLength(1);
+    expect(runs[0].text[0].options.fontSize).toBe(20);
+  });
 });
 
 describe("renderDrill fontSize scaling", () => {
@@ -223,10 +266,89 @@ describe("renderDrill fontSize scaling", () => {
 });
 
 describe("smoke against real pptxgenjs", () => {
+  test("keeps the audited PptxGenJS version and fails closed on its disabled image-size dependency", () => {
+    expect(new PptxGenJS().version).toBe("4.0.1");
+    expect(() => requireFromTest("image-size")).toThrow("all published releases are vulnerable");
+  });
+
   test("produces a non-empty zip (pptx) for lesson 1-04", async () => {
     const pptx = new PptxGenJS();
     buildLessonDeck(pptx as unknown as Deck, loadLesson("1-04"));
     const b64 = (await pptx.write({ outputType: "base64" })) as string;
     expect(b64.startsWith("UEs")).toBeTruthy(); // "PK" zip magic in base64
+  });
+});
+
+// C-1, from the independent review of PR #5. Five slide kinds — rule, ayah, contrast, legend,
+// mistake — had no case in renderSlide and no default, so each rendered as a bare coloured
+// background: 249 blank slides across the 74 published lessons. Every switch arm returns void,
+// so TypeScript flagged nothing and all 425 tests stayed green.
+//
+// This sweeps REAL published content rather than a fixture, because the defect was invisible
+// precisely to fixtures — the six pre-existing kinds worked fine.
+describe("every published slide actually renders something", () => {
+  const emptyByKind = new Map<string, string[]>();
+
+  for (const id of allLessonIds()) {
+    const lesson = loadLesson(id);
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lesson);
+    lesson.slides.forEach((slide, i) => {
+      const rendered = deck.slides[i];
+      const objects = rendered.texts.length + rendered.images.length + rendered.tables.length;
+      if (objects === 0) {
+        const list = emptyByKind.get(slide.kind) ?? [];
+        list.push(`${id}#${i}`);
+        emptyByKind.set(slide.kind, list);
+      }
+    });
+  }
+
+  test("no slide in any published lesson exports with zero objects", () => {
+    const summary = [...emptyByKind.entries()]
+      .map(([kind, where]) => `${kind}: ${where.length} blank (e.g. ${where[0]})`)
+      .join("; ");
+    expect(summary, `blank slides in the exported deck — ${summary}`).toBe("");
+  });
+
+  test("all five tajweed slide kinds are present in the content being swept", () => {
+    // Guards the test above against passing because the content stopped containing them.
+    const kinds = new Set(allLessonIds().flatMap((id) => loadLesson(id).slides.map((s) => s.kind)));
+    for (const k of ["rule", "ayah", "contrast", "legend", "mistake"]) {
+      expect(kinds.has(k as never), `no ${k} slide in published content — sweep proves nothing`).toBe(true);
+    }
+  });
+});
+
+// I-3, same review. `listenFor` entries are a string OR a structured object; the notes builder
+// interpolated both, so 367 entries across 59 lessons exported as "- [object Object]" in the
+// speaker notes a teacher reads while teaching.
+describe("speaker notes format structured listenFor entries", () => {
+  test("no exported note anywhere contains [object Object]", () => {
+    const offenders: string[] = [];
+    for (const id of allLessonIds()) {
+      const deck = new FakeDeck();
+      buildLessonDeck(deck, loadLesson(id));
+      for (const s of deck.slides) {
+        if (s.notes.join("\n").includes("[object Object]")) offenders.push(id);
+      }
+    }
+    expect([...new Set(offenders)]).toEqual([]);
+  });
+
+  test("a structured entry contributes its item and correction cue", () => {
+    const id = allLessonIds().find((i) =>
+      loadLesson(i).teacherNotes.listenFor.some((s) => typeof s !== "string"),
+    );
+    expect(id, "no lesson uses the structured form — this test proves nothing").toBeTruthy();
+    const lesson = loadLesson(id as string);
+    const entry = lesson.teacherNotes.listenFor.find((s) => typeof s !== "string");
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lesson);
+    const notes = deck.slides.map((s) => s.notes.join("\n")).join("\n");
+    if (entry && typeof entry !== "string") {
+      expect(notes).toContain(entry.item);
+      expect(notes).toContain(entry.correctionCue);
+    }
   });
 });

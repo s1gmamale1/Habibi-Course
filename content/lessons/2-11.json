@@ -1,0 +1,752 @@
+{
+  "id": "2-11",
+  "phase": 2,
+  "unit": "2.3",
+  "title": "Phrases",
+  "objectives": [
+    "Student can read a two-to-five-word phrase as one continuous sound, with no gap between words.",
+    "Student can carry a word's final vowel across the join into the next word, and drop a waṣl hamzah in flight.",
+    "Student can hold a phrase-length rhythm — shaddas held and madds counted — without the length collapsing as the phrase gets longer."
+  ],
+  "prerequisites": [
+    "2-10"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.11 — Phrases",
+      "arabicDecor": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "The phrase you have said more often than any other",
+      "body": [
+        "Read the basmalah. Now read it again, the way you have been reading words in 2-10: carefully, one word at a time.",
+        "The result is unmistakable, and you will hear it yourself: bismi. Allāhi. ar-raḥmāni. ar-raḥīmi.",
+        "Four separate words, three glottal stops that should not be there, and a phrase that no longer sounds like the phrase.",
+        "Careful word-reading and correct phrase-reading are two different skills — and the first one, done too well, breaks the second.",
+        "Today you learn to let go of the word."
+      ],
+      "items": [
+        {
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "translit": "bismi-llāhi-r-raḥmāni-r-raḥīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:1 — bismi-llāhi-r-raḥmāni-r-raḥīm. Three waṣl hamzahs, all silent. One unbroken sound."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Arabic joins; it does not stack",
+      "body": [
+        "Say a phrase in your own language and notice that you do not pause between the words in it. Nobody does, in any language.",
+        "The pause you are producing in Arabic is an artefact of learning to read. It has to be actively removed; it will not fade on its own.",
+        "Reading joined is called waṣl, and it is the DEFAULT state of recitation. Stopping is the marked case — the thing you do deliberately.",
+        "Until now you have been doing the marked case at every single word.",
+        "Nothing new is introduced today. 2-10, 2-11, 2-12, 2-13 and 2-14 are one skill at five lengths — word, phrase, sentence, fluent sentence, page. What changes each time is only how much has to stay correct at once."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What actually happens at the seam — three things, and only three",
+      "body": [
+        "Vowel, then consonant: just run on. Nothing special happens at all.",
+        "Vowel, then a waṣl hamzah: the hamzah vanishes. هُوَ ٱللَّهُ is huwa-llāhu.",
+        "Sukūn, then a waṣl hamzah: the hamzah vanishes AND the previous word takes a helping vowel. عَلَيْكُمُ ٱدْخُلُوا۟ is ʿalaykumu-dkhulū.",
+        "The muṣḥaf prints the helping vowel. You do not compute it; you read it. That removes the fear that joining requires grammar — it does not."
+      ],
+      "items": [
+        {
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "translit": "min sharri mā khalaq",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:2 — min sharri mā khalaq. Vowel into consonant, three times. Nothing to manage at any seam."
+          }
+        },
+        {
+          "arabic": "هُوَ ٱللَّهُ",
+          "translit": "huwa-llāhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:1 — huwa-llāhu. The alif is a step, not a sound. Step over it."
+          }
+        },
+        {
+          "arabic": "عَلَيْكُمُ ٱدْخُلُوا۟",
+          "translit": "ʿalaykumu-dkhulū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "16:32 — ʿalaykumu-dkhulū. The mīm was sākin, so it borrowed a ḍammah, and the hamzah is gone."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The finger-slide",
+      "body": [
+        "The most effective physical technique in this lesson.",
+        "Put a finger under the line and move it continuously at a steady speed while you read. Never stop it. Never lift it. All the way to the end of the phrase.",
+        "The finger cannot pause, so the voice cannot either.",
+        "And when the voice falls behind the finger, that gap is exactly where your reading is unstable — now both of us can SEE it, not just hear it.",
+        "If the voice cannot keep up, we slow the finger. We do not stop it."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Two words — one sound",
+      "instructions": "Finger under the line, moving steadily. The requirement at every rung is the same and it is binary: one sound, or not one sound. Accuracy of the individual words is assumed by now — if a word breaks, that is a 2-10 problem and it gets logged as one.",
+      "grid": [
+        [
+          {
+            "arabic": "مِن شَرِّ",
+            "translit": "min sharri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — min sharri. Hold the doubled rāʾ and run straight on."
+            }
+          },
+          {
+            "arabic": "قُلْ هُوَ",
+            "translit": "qul huwa",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:1 — qul huwa. A sukūn straight into a consonant. No vowel appears between them."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لِإِيلَٰفِ قُرَيْشٍ",
+            "translit": "li-īlāfi quraysh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:1 — li-īlāfi quraysh. A long madd and a līn, in two words."
+            }
+          },
+          {
+            "arabic": "نَارُ ٱللَّهِ",
+            "translit": "nāru-llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "104:6 — nāru-llāh. The waṣl hamzah of ٱللَّهِ vanishes after the ḍammah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Three words",
+      "instructions": "Same requirement, one word longer. Breathe BEFORE the phrase, then read the whole thing.",
+      "grid": [
+        [
+          {
+            "arabic": "هُوَ ٱللَّهُ أَحَدٌ",
+            "translit": "huwa-llāhu aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:1 — huwa-llāhu aḥad. Your first dropped waṣl hamzah inside a phrase."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِن شَرِّ مَا خَلَقَ",
+            "translit": "min sharri mā khalaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — min sharri mā khalaq. The easiest phrase in the hifz set; use it first when anything goes wrong."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِرَبِّ ٱلْفَلَقِ",
+            "translit": "bi-rabbi-l-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — bi-rabbi-l-falaq. A doubled bāʾ held, then a joined waṣl hamzah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Four to five words",
+      "instructions": "The top rung. This is where madds and shaddas start to shorten — not from ignorance, but because attention is divided. If the length collapses, halve the speed of the WHOLE phrase, not just the madd.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+            "translit": "al-ḥamdu lillāhi rabbi-l-ʿālamīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:2 — al-ḥamdu lillāhi rabbi-l-ʿālamīn. You START on a waṣl hamzah here, then join twice."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+            "translit": "idhā jāʾa naṣru-llāhi wal-fatḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:1 — idhā jāʾa naṣru-llāhi wal-fatḥ. Four words with a four-count madd in the middle that must survive the join."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+            "translit": "faṣalli li-rabbika wanḥar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:2 — faṣalli li-rabbika wanḥar. A shadda at a word boundary running straight into a lām, then a joined waṣl hamzah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Breath — take it before the phrase, not during it",
+      "body": [
+        "Breathe. Read the whole phrase. Breathe.",
+        "If you cannot reach the end, the phrase is too long for your current breath — and that is INFORMATION, not failure.",
+        "Write down every phrase you could not finish. That list is the raw material for 2-12; the stopping plan you build next lesson is made out of it.",
+        "Today the rule is simple and absolute: finish the phrase, or start it again. Do not stop mid-phrase to breathe.",
+        "The nuance arrives in 2-12. Until then, running out of air is a measurement, and stopping mid-word is a habit worth not acquiring."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Glue the seam",
+      "instructions": "I say the last syllable of word one and the first syllable of word two, glued together — huwal-lā. You say it back. Then read the whole phrase. Do this for every seam in the graded set.",
+      "grid": [
+        [
+          {
+            "arabic": "هُوَ ٱللَّهُ",
+            "translit": "huwa-llāhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "huwal-lā … huwa-llāhu. The seam is one syllable, not two words."
+            }
+          },
+          {
+            "arabic": "نَارُ ٱللَّهِ",
+            "translit": "nāru-llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "nārul-lā … nāru-llāh."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِرَبِّ ٱلْفَلَقِ",
+            "translit": "bi-rabbi-l-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "rabbil-fa … bi-rabbi-l-falaq."
+            }
+          },
+          {
+            "arabic": "عَلَيْكُمُ ٱدْخُلُوا۟",
+            "translit": "ʿalaykumu-dkhulū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "kumud-khu … ʿalaykumu-dkhulū."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The graded eight — work them in this order",
+      "instructions": "The grading matters more than the content. Number 7, the basmalah, is the assessment item: if you can read it as one unbroken sound with all three hamzahs gone, you have this lesson.",
+      "grid": [
+        [
+          {
+            "arabic": "مِن شَرِّ مَا خَلَقَ",
+            "translit": "min sharri mā khalaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1 — four short words, no joins to manage."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لِإِيلَٰفِ قُرَيْشٍ",
+            "translit": "li-īlāfi quraysh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2 — a long madd and a līn, two words."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+            "translit": "qul huwa-llāhu aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "3 — the first dropped waṣl hamzah in a phrase."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+            "translit": "faṣalli li-rabbika wanḥar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "4 — shadda into a lām, then a joined waṣl hamzah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+            "translit": "al-ḥamdu lillāhi rabbi-l-ʿālamīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "5 — start ON a waṣl hamzah, then two joins."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+            "translit": "idhā jāʾa naṣru-llāhi wal-fatḥ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "6 — four words, a long madd in the middle."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+            "translit": "bismi-llāhi-r-raḥmāni-r-raḥīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "7 — three waṣl hamzahs, all silent. The assessment item."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سَلَٰمٌ عَلَيْكُمُ ٱدْخُلُوا۟",
+            "translit": "salāmun ʿalaykumu-dkhulū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "8 — the helping ḍammah, in the wild."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The trap — are you reading, or reciting?",
+      "instructions": "Read a phrase you know by heart. Then I cover one word with my finger and you tell me what is under it. If you cannot, you were reciting, not reading. Then read it uncovered, slowly, actually looking.",
+      "grid": [
+        [
+          {
+            "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+            "translit": "bismi-llāhi-r-raḥmāni-r-raḥīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Cover ٱلرَّحْمَٰنِ. What is under my finger?"
+            }
+          },
+          {
+            "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+            "translit": "qul huwa-llāhu aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Cover ٱللَّهُ. What is under my finger?"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Non-Qurʾānic phrases — nothing here is memorised",
+      "instructions": "These are the honest measurement. The Qurʾānic phrases are half-remembered and will flatter you. Finger under the line, one breath each.",
+      "grid": [
+        [
+          {
+            "arabic": "ذَهَبَ ٱلْوَلَدُ إِلَى ٱلْمَدْرَسَةِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Two waṣl hamzahs to drop in flight: dhahaba-l-waladu ila-l-madrasah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فِي ٱلْبَيْتِ كِتَابٌ جَدِيدٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A līn yāʾ, a dropped hamzah, and two tanwīns: fi-l-bayti kitābun jadīd."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْمُدَرِّسَةُ فِي ٱلْجَامِعَةِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A shadda held across a five-syllable word, then a join: al-mudarrisatu fi-l-jāmiʿah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "هَذَا صَدِيقِي مُحَمَّدٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No waṣl hamzahs at all — pure vowel-into-consonant joining: hādhā ṣadīqī muḥammad."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Three seams, and what each one does",
+      "items": [
+        {
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "translit": "min sharri mā khalaq",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Vowel + consonant — run on. Nothing happens."
+          }
+        },
+        {
+          "arabic": "هُوَ ٱللَّهُ",
+          "translit": "huwa-llāhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Vowel + waṣl hamzah — the hamzah vanishes."
+          }
+        },
+        {
+          "arabic": "عَلَيْكُمُ ٱدْخُلُوا۟",
+          "translit": "ʿalaykumu-dkhulū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Sukūn + waṣl hamzah — the hamzah vanishes and the previous word takes a printed helping vowel."
+          }
+        },
+        {
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "translit": "bismi-llāhi-r-raḥmāni-r-raḥīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "And the target: all three hamzahs gone, one unbroken sound, one breath."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "The eight graded phrases, one breath each, five times a day, finger sliding.",
+        "Sūrat al-Falaq (113), read phrase by phrase, not word by word. Pencil a small arc over each group of words you intend to say in one breath, BEFORE you begin.",
+        "Write down every phrase you could not finish in one breath. Bring the list — 2-12 is built out of it.",
+        "The four non-Qurʾānic phrases, daily. These are the honest measurement; the Qurʾānic ones are half-remembered and will flatter you."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The graded eight",
+        "instructions": "In order, one breath each, finger under the line and moving. Number 7 is the assessment item.",
+        "grid": [
+          [
+            {
+              "arabic": "مِن شَرِّ مَا خَلَقَ",
+              "translit": "min sharri mā khalaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1 — four short words, no joins."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لِإِيلَٰفِ قُرَيْشٍ",
+              "translit": "li-īlāfi quraysh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2 — a long madd and a līn."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+              "translit": "qul huwa-llāhu aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "3 — first dropped waṣl hamzah in a phrase."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+              "translit": "faṣalli li-rabbika wanḥar",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "4 — shadda into a lām, then a joined waṣl hamzah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+              "translit": "al-ḥamdu lillāhi rabbi-l-ʿālamīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "5 — start on a waṣl hamzah, then two joins."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+              "translit": "idhā jāʾa naṣru-llāhi wal-fatḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "6 — four words, long madd in the middle."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "translit": "bismi-llāhi-r-raḥmāni-r-raḥīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "7 — three silent waṣl hamzahs. The assessment item."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سَلَٰمٌ عَلَيْكُمُ ٱدْخُلُوا۟",
+              "translit": "salāmun ʿalaykumu-dkhulū",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "8 — the helping ḍammah in the wild."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Glue the seam",
+        "instructions": "I say the glued seam, you say it back, then you read the whole phrase.",
+        "grid": [
+          [
+            {
+              "arabic": "هُوَ ٱللَّهُ",
+              "translit": "huwa-llāhu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "huwal-lā → huwa-llāhu."
+              }
+            },
+            {
+              "arabic": "نَارُ ٱللَّهِ",
+              "translit": "nāru-llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "nārul-lā → nāru-llāh."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بِرَبِّ ٱلْفَلَقِ",
+              "translit": "bi-rabbi-l-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "rabbil-fa → bi-rabbi-l-falaq."
+              }
+            },
+            {
+              "arabic": "عَلَيْكُمُ ٱدْخُلُوا۟",
+              "translit": "ʿalaykumu-dkhulū",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "kumud-khu → ʿalaykumu-dkhulū."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Non-Qurʾānic phrases",
+        "instructions": "Daily. Nothing here is memorised, so this is the honest measurement of whether joining is real.",
+        "grid": [
+          [
+            {
+              "arabic": "ذَهَبَ ٱلْوَلَدُ إِلَى ٱلْمَدْرَسَةِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "dhahaba-l-waladu ila-l-madrasah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فِي ٱلْبَيْتِ كِتَابٌ جَدِيدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "fi-l-bayti kitābun jadīd."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْمُدَرِّسَةُ فِي ٱلْجَامِعَةِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-mudarrisatu fi-l-jāmiʿah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "هَذَا صَدِيقِي مُحَمَّدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "hādhā ṣadīqī muḥammad."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "One breath",
+        "instructions": "Breathe. Read the whole phrase. Breathe. If you run out before the end, tell me WHERE you ran out and write the phrase down — do not push through on empty lungs.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+              "translit": "al-ḥamdu lillāhi rabbi-l-ʿālamīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Five words. Where did the air go?"
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+              "translit": "idhā jāʾa naṣru-llāhi wal-fatḥ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Five words with a four-count madd inside them."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "translit": "bismi-llāhi-r-raḥmāni-r-raḥīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Four words, and the one you know best — so any breath failure here is purely mechanical."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The eight graded phrases, one breath each, five times, finger sliding",
+      "Sūrat al-Falaq read phrase by phrase, with breath arcs pencilled in BEFORE reading",
+      "The four non-Qurʾānic phrases — the honest measurement",
+      "The running list of phrases that did not fit in one breath, added to daily",
+      "The basmalah as one unbroken sound, all three hamzahs gone"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the basmalah read carefully, word by word, in the 2-10 manner. She will hear the damage herself without any prompting from you — four words, three glottal stops, and a phrase that no longer sounds like the phrase.",
+      "Then say the sentence that justifies the hour: careful word-reading and correct phrase-reading are two different skills, and the first one done too well breaks the second. She has just spent a lesson being rewarded for the thing you are now asking her to stop.",
+      "Use her own language as the analogy for joining. Nobody pauses between words in any language; the pause is an artefact of learning to read, and it has to be removed deliberately.",
+      "Name waṣl as the DEFAULT and stopping as the marked case. She has, until now, been doing the marked case at every single word — that framing makes the correction feel like removing something rather than adding something.",
+      "The three seams are the entire technical content. Show each one on a real phrase and resist adding a fourth; there is not one.",
+      "Tell her outright that the muṣḥaf prints the helping vowel. The fear that joining requires grammar is what makes learners slow down at seams, and one sentence removes it.",
+      "The finger-slide is the highest-value technique in the lesson. The finger cannot pause, so the voice cannot either — and where the voice falls behind, both of you can now SEE the instability rather than only hear it. When she cannot keep up, slow the finger; never stop it.",
+      "Build the ladder inside the lesson — two words, then three, then four to five — exactly as 2-10 built it inside the word. At every rung the requirement is binary: one sound, or not one sound.",
+      "Assume word-level accuracy by now. If a word breaks, log it as a 2-10 problem and carry on; do not let phrase practice turn back into word practice.",
+      "Introduce breath lightly and make one rule absolute: finish the phrase or start it again, no stopping mid-phrase to breathe. The nuance is 2-12's job and giving it early costs that lesson its structure.",
+      "Note every phrase she cannot finish in one breath and make sure she writes them down too. That list IS next lesson's raw material — 2-12 is built out of it, not out of a generic sentence set.",
+      "Finish on the basmalah. If it comes out as one unbroken sound with all three hamzahs gone, she has 2-11."
+    ],
+    "listenFor": [
+      {
+        "item": "One unbroken stream of sound from the first letter of the phrase to the last, with the word boundaries audible only as rhythm — never as silence.",
+        "commonMistake": "A small silence at every word boundary — bismi · Allāhi · ar-raḥmāni.",
+        "whyItHappens": "She has spent nine lessons being rewarded for reading each word correctly, and the pause is where she checks her work. It is a CONFIDENCE behaviour, not an ignorance behaviour, which is why explaining the rule again does not remove it.",
+        "correctionCue": "Don't check. Trust the word you just read and keep going. If it was wrong I will tell you at the end.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Waqf-Types.md"
+      },
+      {
+        "item": "Nothing at all where a waṣl hamzah is written mid-phrase — the previous word running straight into the next letter.",
+        "commonMistake": "An audible glottal stop before every ٱ — huwa ʾal-lāhu.",
+        "whyItHappens": "The alif is visible on the page, and everything she has learned so far says READ WHAT IS WRITTEN. Silence is the one instruction the page gives by omission.",
+        "correctionCue": "The alif is a step, not a sound. Step over it — huwallāhu, one word.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      },
+      {
+        "item": "Madd counts and shadda holds surviving to the end of a five-word phrase, not just a two-word one.",
+        "commonMistake": "Madds and shaddas shorten as the phrase gets longer — correct in a two-word phrase, gone by five words.",
+        "whyItHappens": "Length is the first casualty of divided attention, exactly as in 2-10, and phrase-level joining is a heavier load than word-level accuracy.",
+        "correctionCue": "Halve the speed of the whole phrase. Everything in it gets longer, not just the madd.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      },
+      {
+        "item": "A breath taken before the phrase, sized for the whole distance.",
+        "commonMistake": "She reaches the end of her breath and either stops mid-word or forces a strained, thin last two words.",
+        "whyItHappens": "No breath plan — she began reading before deciding where she was going to end.",
+        "correctionCue": "Look at where the phrase ends before you breathe in. Breathe for the distance, not for the first word.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Waqf-Types.md"
+      },
+      {
+        "item": "One helping vowel at a sukūn seam, read off the page rather than invented.",
+        "commonMistake": "Either a second vowel added on the hamzah — ʿalaykumu idkhulū — or the printed helping vowel skipped entirely and two sākin letters collided.",
+        "whyItHappens": "The seam is the one place where the page's instruction is split across two words, and she is still reading one word at a time.",
+        "correctionCue": "The vowel is already printed, on the mīm. Read it, then keep going — there is nothing left to start.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      }
+    ],
+    "homework": "Daily: the eight graded phrases one breath each, five times, with the finger sliding; Sūrat al-Falaq read phrase by phrase with the breath arcs pencilled in BEFORE she begins; the four non-Qurʾānic phrases, which are the only honest measurement since the Qurʾānic ones are half-remembered. Running, all week: a written list of every phrase she could not finish in one breath — she brings it to the next lesson, because 2-12's stopping plan is built directly out of it. The assessment item is the basmalah read as one unbroken sound with all three waṣl hamzahs silent."
+  },
+  "videos": []
+}

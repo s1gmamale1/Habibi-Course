@@ -1,0 +1,1477 @@
+{
+  "id": "2-05",
+  "phase": 2,
+  "unit": "2.2",
+  "title": "Shadda — the doubling mark",
+  "objectives": [
+    "Student can state what a shadda is mechanically — one letter written once and said twice, the first closed and the second carrying the vowel — and can split any shadda'd word into its two halves out loud.",
+    "Student can hold a doubled letter for a full two counts, and can hear the difference between دَرَسَ and دَرَّسَ well enough to say which one she just read.",
+    "Student can find the vowel that belongs to a shadda, including the kasra written under the letter rather than under the mark.",
+    "Student can read 20 shadda'd words cold without either collapsing the doubling or splitting the word into two."
+  ],
+  "prerequisites": [
+    "1-14",
+    "2-04"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.5 — Shadda: the doubling mark",
+      "arabicDecor": "دَرَسَ · دَرَّسَ"
+    },
+    {
+      "kind": "concept",
+      "heading": "One mark, and the man changes sides of the classroom",
+      "body": [
+        "دَرَسَ — he studied.",
+        "دَرَّسَ — he taught.",
+        "Read both. Almost everyone reads them the same.",
+        "A shadda is not emphasis, and it is not decoration. It is a second letter that nobody wrote down.",
+        "And here is the error to name before it happens, because it is the one that will actually occur: beginners do not usually forget the shadda. They see it, they acknowledge it, and they hold it for about a third as long as it needs."
+      ],
+      "items": [
+        {
+          "arabic": "دَرَسَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دَرَسَ: darasa, ‘he studied’. No shadda — one beat on the ر."
+          }
+        },
+        {
+          "arabic": "دَرَّسَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دَرَّسَ: darrasa, ‘he taught’. Two counts on the ر. One mark, and the man has changed sides of the classroom."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "You have been holding one since lesson 1-14",
+      "body": [
+        "In وَلَا ٱلضَّآلِّينَ you were told to hold the doubled ض for two full counts of molar contact, and told why it is there: the ل of الـ assimilated into the ض, so al- + ḍāllīn becomes aḍ-ḍāllīn.",
+        "You have been holding a shadda in every rakʿah since that lesson. Today you find out what the mark is called and that there is a system behind it.",
+        "It also depends completely on the sukūn from lesson 1-13 — the first half of every doubled letter IS a sukūn. If you can read بَعْ, you can read the front half of عَبَّ.",
+        "And on lesson 2-04: two closed letters cannot touch. A shadda is the one shape where a closed letter is immediately followed by the same letter opened — which is why it is legal, and why it must be held rather than broken."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Build it from sukūn",
+      "body": [
+        "رَبْ + بُ. Read them as two pieces, slowly, with a gap.",
+        "Now close the gap.",
+        "Now write رَبُّ. This is the same thing, written once, with the shadda standing in for the letter that was deleted.",
+        "The mark is a shadda (شَدَّة, ‘strengthening’), also called tashdīd. One name is enough — use ‘shadda’ for the rest of the course."
+      ],
+      "items": [
+        {
+          "arabic": "رَبْ + بُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبْ + بُ: rab + bu. Two pieces, said slowly with a gap."
+          }
+        },
+        {
+          "arabic": "رَبُّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبُّ: rabbu, ‘a lord’. The same thing, written once. Close the gap and hold."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Where the vowel lives",
+      "body": [
+        "The shadda itself carries no sound. The vowel of the second half sits with it.",
+        "Fatḥa and ḍamma go above the shadda — رَبَّ, رَبُّ.",
+        "Kasra normally goes below the letter, underneath the shadda — رَبِّ. In some print it is tucked under the shadda instead, so do not let a different mushaf stop you.",
+        "The rule you need: find the shadda, then look above AND below it for the vowel. There is always exactly one."
+      ],
+      "items": [
+        {
+          "arabic": "رَبَّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبَّ: rabba. Fatḥa — say ‘fatḥa’ aloud before you read it. It sits above the shadda."
+          }
+        },
+        {
+          "arabic": "رَبِّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبِّ: rabbi. Kasra — and it is written UNDER the letter, below the shadda. Look down as well as up."
+          }
+        },
+        {
+          "arabic": "رَبُّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبُّ: rabbu. Ḍamma, above the shadda."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two counts — and three different ways to feel them",
+      "body": [
+        "Use the same finger-tap you used for length in lesson 2-02, but tap on the consonant rather than a vowel.",
+        "مّ and نّ — you can hum them. Hold the hum and count. These two are the easiest entry point, so start here.",
+        "لّ, رّ, سّ, شّ — you can sustain them. Same method.",
+        "بّ, تّ, دّ, كّ, قّ — you cannot sustain these. What you hold is the closure, and the two counts are silence with the mouth shut. This is the group that gets under-held, because holding nothing feels like doing nothing."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The hum is not optional",
+      "body": [
+        "When the doubled letter is نّ or مّ, the hold is nasal — a two-count hum through the nose.",
+        "Pinch your nose and say inna. It should be blocked. If it is not, you are not humming.",
+        "The rule has a name — ghunnah — and it belongs to Unit 3. The sound is required today regardless, because إِنَّ and ٱلنَّاس and ثُمَّ are unavoidable in any page you open.",
+        "One structural fact, said once: a word can never begin with a shadda, because the first half is closed and a closed letter needs something in front of it to lean on. That is the same reason hamzat al-waṣl exists, and it is the subject of lesson 2-09.",
+        "In plain terms: on نّ and مّ the hold happens in your nose. Pinch it shut and the sound should stop dead — that is the whole test."
+      ],
+      "items": [
+        {
+          "arabic": "إِنَّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "إِنَّ: inna, ‘indeed’. Pinch your nose — if the sound is not blocked, you are not humming."
+          }
+        },
+        {
+          "arabic": "ٱلنَّاس",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلنَّاس: an-nās, ‘the people’. Two counts of hum on the ن."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Four real anchors",
+      "body": [
+        "Read these and split each one aloud into its two halves.",
+        "إِيَّاكَ is the hardest doubling to hear, because a doubled ي is close to a vowel and the two halves blur. Check it against the meaning: إِيَّاكَ نَعْبُدُ is ‘You alone we worship’ — you say it seventeen times a day.",
+        "In ٱلصَّمَدُ and ٱلنَّاسِ the doubling comes from a lām of الـ assimilating — the same thing that happened in ٱلضَّآلِّينَ in lesson 1-14. The system behind it is lesson 2-06."
+      ],
+      "items": [
+        {
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱللَّهُ ٱلصَّمَدُ (112:2): al-lā-hu · aṣ-ṣa-mad. Two shaddas in three words."
+          }
+        },
+        {
+          "arabic": "تَبَّتْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "تَبَّتْ (111:1): tab-bat. A doubled ب mid-word — closed ب, then open ب."
+          }
+        },
+        {
+          "arabic": "إِيَّاكَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "إِيَّاكَ (1:5): iy-yā-ka. The most-recited shadda in the language."
+          }
+        },
+        {
+          "arabic": "بِرَبِّ ٱلنَّاسِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بِرَبِّ ٱلنَّاسِ (114:1): bi-rab-bi · an-nās. A doubled ب under a kasra, then the doubled ن of an-nās with its hum."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — split and join",
+      "instructions": "Read the left cell, then the right, then the left again. The left is two pieces with a gap; the right is the same thing written once, with the gap closed and the letter held.",
+      "grid": [
+        [
+          {
+            "arabic": "رَبْ + بُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَبْ + بُ: rab + bu. Two pieces, said slowly with a gap."
+            }
+          },
+          {
+            "arabic": "رَبُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَبُّ: rabbu, ‘a lord’. The same thing, written once. Close the gap and hold."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حَقْ + قُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَقْ + قُ: ḥaq + qu."
+            }
+          },
+          {
+            "arabic": "حَقُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَقُّ: ḥaqqu, ‘truth’. One letter, held two counts."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أُمْ + مُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُمْ + مُ: um + mu."
+            }
+          },
+          {
+            "arabic": "أُمُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُمُّ: ummu, ‘a mother’. The م hums for the whole hold."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سِنْ + نُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِنْ + نُ: sin + nu."
+            }
+          },
+          {
+            "arabic": "سِنُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِنُّ: sinnu, ‘a tooth’. The ن hums — pinch your nose to check."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كُلْ + لُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كُلْ + لُ: kul + lu."
+            }
+          },
+          {
+            "arabic": "كُلُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كُلُّ: kullu, ‘all’. The ل is sustained, not broken."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جَدْ + دُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَدْ + دُ: jad + du."
+            }
+          },
+          {
+            "arabic": "جَدُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَدُّ: jaddu, ‘a grandfather’. The د cannot be sustained — the two counts are silence with the tongue in place."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — the hum",
+      "instructions": "Pinch your nose on each one. If the sound is not blocked, you are not humming. Hold the hum for two counts.",
+      "grid": [
+        [
+          {
+            "arabic": "إِنَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "إِنَّ: inna, ‘indeed’. Pinch your nose — if the sound is not blocked, you are not humming."
+            }
+          },
+          {
+            "arabic": "أَنَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أَنَّ: anna, ‘that’. Two counts of nasal hum."
+            }
+          },
+          {
+            "arabic": "ثُمَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ثُمَّ: thumma, ‘then’. The م hums through the nose for the full hold."
+            }
+          },
+          {
+            "arabic": "أُمَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُمَّة: ummah, ‘a community’. Nasal hold on the م."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "جَنَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَنَّة: jannah, ‘a garden’. Nasal hold on the ن."
+            }
+          },
+          {
+            "arabic": "مُحَمَّد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُحَمَّد: Muḥammad. The doubled م hums."
+            }
+          },
+          {
+            "arabic": "ٱلنَّاس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلنَّاس: an-nās, ‘the people’. Two counts of hum on the ن."
+            }
+          },
+          {
+            "arabic": "عَمَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَمَّ: ʿamma. Nasal hold on the م."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — the silent hold",
+      "instructions": "These double a letter you cannot sustain. The two counts are silence, with the mouth shut. Do not rush them — count the two beats on your fingers DURING the silence. That is the only way to know you gave it the time.",
+      "grid": [
+        [
+          {
+            "arabic": "حَقّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَقّ: ḥaqq, ‘truth’. You cannot sustain a ق — the two counts are silence with the throat shut. Count them on your fingers during the silence."
+            }
+          },
+          {
+            "arabic": "جَدّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَدّ: jadd, ‘a grandfather’. Two counts of held closure, then release."
+            }
+          },
+          {
+            "arabic": "شَكّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شَكّ: shakk, ‘doubt’. Hold the ك closed. Holding nothing feels like doing nothing — do it anyway."
+            }
+          },
+          {
+            "arabic": "حَبّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَبّ: ḥabb, ‘seeds’. Lips shut for two counts."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قِطّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِطّ: qiṭṭ, ‘a cat’. Heavy ط, held closed for two counts."
+            }
+          },
+          {
+            "arabic": "مُدّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُدّ: mudd. Tongue on the ridge for two counts."
+            }
+          },
+          {
+            "arabic": "سَتّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَتّ: satt. Two counts of closure on the ت."
+            }
+          },
+          {
+            "arabic": "دَقّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَقّ: daqq. Throat shut for two counts, then release."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — the meaning pairs",
+      "instructions": "Read across. Then have someone read one at random and say which you heard. If the two sound the same, the doubling has collapsed.",
+      "grid": [
+        [
+          {
+            "arabic": "دَرَسَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرَسَ: darasa, ‘he studied’. No shadda — one beat on the ر."
+            }
+          },
+          {
+            "arabic": "دَرَّسَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دَرَّسَ: darrasa, ‘he taught’. Two counts on the ر. One mark, and the man has changed sides of the classroom."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَلِمَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَلِمَ: ʿalima, ‘he knew’."
+            }
+          },
+          {
+            "arabic": "عَلَّمَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَلَّمَ: ʿallama, ‘he taught’. Hold the ل."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كَسَرَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَسَرَ: kasara, ‘he broke it’."
+            }
+          },
+          {
+            "arabic": "كَسَّرَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "كَسَّرَ: kassara, ‘he smashed it to pieces’. Hold the س."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَزَلَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَزَلَ: nazala, ‘he came down’."
+            }
+          },
+          {
+            "arabic": "نَزَّلَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَزَّلَ: nazzala, ‘he sent it down’. Hold the ز."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فَرَقَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَرَقَ: faraqa, ‘he separated’."
+            }
+          },
+          {
+            "arabic": "فَرَّقَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فَرَّقَ: farraqa, ‘he split it up’. Hold the ر."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قَدَمَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَدَمَ: qadama, ‘he preceded’."
+            }
+          },
+          {
+            "arabic": "قَدَّمَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قَدَّمَ: qaddama, ‘he presented’. Hold the د — silence, then release."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — find the vowel",
+      "instructions": "Say the vowel of the shadda aloud — ‘fatḥa’, ‘kasra’, ‘ḍamma’ — BEFORE you read each word. Naming it forces your eye to look below the letter as well as above it.",
+      "grid": [
+        [
+          {
+            "arabic": "رَبَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَبَّ: rabba. Fatḥa — say ‘fatḥa’ aloud before you read it. It sits above the shadda."
+            }
+          },
+          {
+            "arabic": "رَبِّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَبِّ: rabbi. Kasra — and it is written UNDER the letter, below the shadda. Look down as well as up."
+            }
+          },
+          {
+            "arabic": "رَبُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "رَبُّ: rabbu. Ḍamma, above the shadda."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حَقَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَقَّ: ḥaqqa. Fatḥa."
+            }
+          },
+          {
+            "arabic": "حَقِّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَقِّ: ḥaqqi. Kasra, underneath."
+            }
+          },
+          {
+            "arabic": "حَقُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَقُّ: ḥaqqu. Ḍamma."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أُمَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُمَّ: umma. Fatḥa — and the م hums for both counts."
+            }
+          },
+          {
+            "arabic": "أُمِّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُمِّ: ummi. Kasra, underneath."
+            }
+          },
+          {
+            "arabic": "أُمُّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "أُمُّ: ummu. Ḍamma."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — cold column",
+      "instructions": "Twenty words, no cue. Once slow, once at pace. Every doubling gets its full two counts.",
+      "grid": [
+        [
+          {
+            "arabic": "مُدَرِّس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُدَرِّس: mudarris, ‘a teacher’."
+            }
+          },
+          {
+            "arabic": "سَيَّارَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سَيَّارَة: sayyārah, ‘a car’. A doubled ي — the hardest to hear."
+            }
+          },
+          {
+            "arabic": "طَيِّب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "طَيِّب: ṭayyib, ‘good’."
+            }
+          },
+          {
+            "arabic": "قُوَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُوَّة: quwwah, ‘strength’."
+            }
+          },
+          {
+            "arabic": "مَرَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مَرَّة: marrah, ‘a time, an occasion’."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "شِدَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "شِدَّة: shiddah, ‘intensity’."
+            }
+          },
+          {
+            "arabic": "جَنَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "جَنَّة: jannah, ‘a garden’. The ن hums."
+            }
+          },
+          {
+            "arabic": "سُكَّر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سُكَّر: sukkar, ‘sugar’."
+            }
+          },
+          {
+            "arabic": "ذَرَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ذَرَّة: dharrah, ‘a particle’."
+            }
+          },
+          {
+            "arabic": "حَمَّام",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَمَّام: ḥammām, ‘a bathroom’. The م hums."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بَقَّال",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بَقَّال: baqqāl, ‘a grocer’."
+            }
+          },
+          {
+            "arabic": "صَحَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "صَحَّة: ṣiḥḥah, ‘health’."
+            }
+          },
+          {
+            "arabic": "فِضَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "فِضَّة: fiḍḍah, ‘silver’."
+            }
+          },
+          {
+            "arabic": "قِصَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قِصَّة: qiṣṣah, ‘a story’."
+            }
+          },
+          {
+            "arabic": "مُحَمَّد",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "مُحَمَّد: Muḥammad. The م hums."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "عَمَّان",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "عَمَّان: ʿAmmān. The م hums."
+            }
+          },
+          {
+            "arabic": "لَذَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَذَّة: ladhdhah, ‘pleasure’."
+            }
+          },
+          {
+            "arabic": "دُكَّان",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "دُكَّان: dukkān, ‘a shop’."
+            }
+          },
+          {
+            "arabic": "نَجَّار",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "نَجَّار: najjār, ‘a carpenter’."
+            }
+          },
+          {
+            "arabic": "خَيَّاط",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "خَيَّاط: khayyāṭ, ‘a tailor’."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Wrap-up — one letter, said twice",
+      "items": [
+        {
+          "arabic": "رَبْ + بُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبْ + بُ: the two halves, apart."
+          }
+        },
+        {
+          "arabic": "رَبُّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبُّ: the same thing, held."
+          }
+        },
+        {
+          "arabic": "رَبِّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رَبِّ: rabbi. The kasra is under the letter — look down."
+          }
+        },
+        {
+          "arabic": "إِنَّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "إِنَّ: inna. Nasal hold, two counts."
+          }
+        },
+        {
+          "arabic": "حَقّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "حَقّ: ḥaqq. Silent hold, two counts."
+          }
+        },
+        {
+          "arabic": "دَرَسَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دَرَسَ: darasa, ‘he studied’."
+          }
+        },
+        {
+          "arabic": "دَرَّسَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "دَرَّسَ: darrasa, ‘he taught’."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Three minutes — Drill 1. Split, then join, then split. Every day; this is the drill that builds the mechanism.",
+        "Three minutes — Drill 2 with the nose pinch. If a word is not blocked, do that word five more times.",
+        "Four minutes — Drill 3, the silent holds, counting the two beats on your fingers during the silence.",
+        "Four minutes — Drill 4 read across. Then read one column only into your phone, play it back the next day, and see whether you can tell which word you read.",
+        "Three minutes — Drill 6 cold, once slow and once at pace.",
+        "Bring to the next session: one word from Drill 6 you are not sure you are holding long enough. We will time it."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — split and join",
+        "instructions": "Left, then right, then left again. Two pieces, then the same thing held.",
+        "grid": [
+          [
+            {
+              "arabic": "رَبْ + بُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَبْ + بُ: rab + bu. Two pieces, said slowly with a gap."
+              }
+            },
+            {
+              "arabic": "رَبُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَبُّ: rabbu, ‘a lord’. The same thing, written once. Close the gap and hold."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حَقْ + قُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَقْ + قُ: ḥaq + qu."
+              }
+            },
+            {
+              "arabic": "حَقُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَقُّ: ḥaqqu, ‘truth’. One letter, held two counts."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أُمْ + مُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُمْ + مُ: um + mu."
+              }
+            },
+            {
+              "arabic": "أُمُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُمُّ: ummu, ‘a mother’. The م hums for the whole hold."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سِنْ + نُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِنْ + نُ: sin + nu."
+              }
+            },
+            {
+              "arabic": "سِنُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سِنُّ: sinnu, ‘a tooth’. The ن hums — pinch your nose to check."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كُلْ + لُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كُلْ + لُ: kul + lu."
+              }
+            },
+            {
+              "arabic": "كُلُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كُلُّ: kullu, ‘all’. The ل is sustained, not broken."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "جَدْ + دُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَدْ + دُ: jad + du."
+              }
+            },
+            {
+              "arabic": "جَدُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَدُّ: jaddu, ‘a grandfather’. The د cannot be sustained — the two counts are silence with the tongue in place."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the hum",
+        "instructions": "Pinch your nose on each. If it is not blocked, you are not humming.",
+        "grid": [
+          [
+            {
+              "arabic": "إِنَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "إِنَّ: inna, ‘indeed’. Pinch your nose — if the sound is not blocked, you are not humming."
+              }
+            },
+            {
+              "arabic": "أَنَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أَنَّ: anna, ‘that’. Two counts of nasal hum."
+              }
+            },
+            {
+              "arabic": "ثُمَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ثُمَّ: thumma, ‘then’. The م hums through the nose for the full hold."
+              }
+            },
+            {
+              "arabic": "أُمَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُمَّة: ummah, ‘a community’. Nasal hold on the م."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "جَنَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَنَّة: jannah, ‘a garden’. Nasal hold on the ن."
+              }
+            },
+            {
+              "arabic": "مُحَمَّد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُحَمَّد: Muḥammad. The doubled م hums."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ٱلنَّاس: an-nās, ‘the people’. Two counts of hum on the ن."
+              }
+            },
+            {
+              "arabic": "عَمَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَمَّ: ʿamma. Nasal hold on the م."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — the silent hold",
+        "instructions": "Two counts of silence with the mouth shut. Count them on your fingers during the silence.",
+        "grid": [
+          [
+            {
+              "arabic": "حَقّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَقّ: ḥaqq, ‘truth’. You cannot sustain a ق — the two counts are silence with the throat shut. Count them on your fingers during the silence."
+              }
+            },
+            {
+              "arabic": "جَدّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَدّ: jadd, ‘a grandfather’. Two counts of held closure, then release."
+              }
+            },
+            {
+              "arabic": "شَكّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شَكّ: shakk, ‘doubt’. Hold the ك closed. Holding nothing feels like doing nothing — do it anyway."
+              }
+            },
+            {
+              "arabic": "حَبّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَبّ: ḥabb, ‘seeds’. Lips shut for two counts."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قِطّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِطّ: qiṭṭ, ‘a cat’. Heavy ط, held closed for two counts."
+              }
+            },
+            {
+              "arabic": "مُدّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُدّ: mudd. Tongue on the ridge for two counts."
+              }
+            },
+            {
+              "arabic": "سَتّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَتّ: satt. Two counts of closure on the ت."
+              }
+            },
+            {
+              "arabic": "دَقّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَقّ: daqq. Throat shut for two counts, then release."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — the meaning pairs",
+        "instructions": "Read across. Then identify one read at random by ear alone.",
+        "grid": [
+          [
+            {
+              "arabic": "دَرَسَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرَسَ: darasa, ‘he studied’. No shadda — one beat on the ر."
+              }
+            },
+            {
+              "arabic": "دَرَّسَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دَرَّسَ: darrasa, ‘he taught’. Two counts on the ر. One mark, and the man has changed sides of the classroom."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَلِمَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَلِمَ: ʿalima, ‘he knew’."
+              }
+            },
+            {
+              "arabic": "عَلَّمَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَلَّمَ: ʿallama, ‘he taught’. Hold the ل."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كَسَرَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَسَرَ: kasara, ‘he broke it’."
+              }
+            },
+            {
+              "arabic": "كَسَّرَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "كَسَّرَ: kassara, ‘he smashed it to pieces’. Hold the س."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَزَلَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَزَلَ: nazala, ‘he came down’."
+              }
+            },
+            {
+              "arabic": "نَزَّلَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَزَّلَ: nazzala, ‘he sent it down’. Hold the ز."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فَرَقَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَرَقَ: faraqa, ‘he separated’."
+              }
+            },
+            {
+              "arabic": "فَرَّقَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فَرَّقَ: farraqa, ‘he split it up’. Hold the ر."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قَدَمَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَدَمَ: qadama, ‘he preceded’."
+              }
+            },
+            {
+              "arabic": "قَدَّمَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قَدَّمَ: qaddama, ‘he presented’. Hold the د — silence, then release."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — find the vowel",
+        "instructions": "Name the vowel aloud before reading the word.",
+        "grid": [
+          [
+            {
+              "arabic": "رَبَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَبَّ: rabba. Fatḥa — say ‘fatḥa’ aloud before you read it. It sits above the shadda."
+              }
+            },
+            {
+              "arabic": "رَبِّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَبِّ: rabbi. Kasra — and it is written UNDER the letter, below the shadda. Look down as well as up."
+              }
+            },
+            {
+              "arabic": "رَبُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "رَبُّ: rabbu. Ḍamma, above the shadda."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حَقَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَقَّ: ḥaqqa. Fatḥa."
+              }
+            },
+            {
+              "arabic": "حَقِّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَقِّ: ḥaqqi. Kasra, underneath."
+              }
+            },
+            {
+              "arabic": "حَقُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَقُّ: ḥaqqu. Ḍamma."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أُمَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُمَّ: umma. Fatḥa — and the م hums for both counts."
+              }
+            },
+            {
+              "arabic": "أُمِّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُمِّ: ummi. Kasra, underneath."
+              }
+            },
+            {
+              "arabic": "أُمُّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "أُمُّ: ummu. Ḍamma."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — cold column",
+        "instructions": "Twenty words, no cue. Once slow, once at pace.",
+        "grid": [
+          [
+            {
+              "arabic": "مُدَرِّس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُدَرِّس: mudarris, ‘a teacher’."
+              }
+            },
+            {
+              "arabic": "سَيَّارَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سَيَّارَة: sayyārah, ‘a car’. A doubled ي — the hardest to hear."
+              }
+            },
+            {
+              "arabic": "طَيِّب",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "طَيِّب: ṭayyib, ‘good’."
+              }
+            },
+            {
+              "arabic": "قُوَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قُوَّة: quwwah, ‘strength’."
+              }
+            },
+            {
+              "arabic": "مَرَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مَرَّة: marrah, ‘a time, an occasion’."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "شِدَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "شِدَّة: shiddah, ‘intensity’."
+              }
+            },
+            {
+              "arabic": "جَنَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "جَنَّة: jannah, ‘a garden’. The ن hums."
+              }
+            },
+            {
+              "arabic": "سُكَّر",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "سُكَّر: sukkar, ‘sugar’."
+              }
+            },
+            {
+              "arabic": "ذَرَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ذَرَّة: dharrah, ‘a particle’."
+              }
+            },
+            {
+              "arabic": "حَمَّام",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "حَمَّام: ḥammām, ‘a bathroom’. The م hums."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بَقَّال",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "بَقَّال: baqqāl, ‘a grocer’."
+              }
+            },
+            {
+              "arabic": "صَحَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "صَحَّة: ṣiḥḥah, ‘health’."
+              }
+            },
+            {
+              "arabic": "فِضَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "فِضَّة: fiḍḍah, ‘silver’."
+              }
+            },
+            {
+              "arabic": "قِصَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "قِصَّة: qiṣṣah, ‘a story’."
+              }
+            },
+            {
+              "arabic": "مُحَمَّد",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "مُحَمَّد: Muḥammad. The م hums."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "عَمَّان",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "عَمَّان: ʿAmmān. The م hums."
+              }
+            },
+            {
+              "arabic": "لَذَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "لَذَّة: ladhdhah, ‘pleasure’."
+              }
+            },
+            {
+              "arabic": "دُكَّان",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "دُكَّان: dukkān, ‘a shop’."
+              }
+            },
+            {
+              "arabic": "نَجَّار",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "نَجَّار: najjār, ‘a carpenter’."
+              }
+            },
+            {
+              "arabic": "خَيَّاط",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "خَيَّاط: khayyāṭ, ‘a tailor’."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1 — split, join, split. Every day; it builds the mechanism",
+      "Drill 2 with the nose pinch; any word that is not blocked gets five more reps",
+      "Drill 3 — the silent holds, counting two beats on your fingers during the silence",
+      "Drill 4 read across, then one column recorded for next-day self-testing",
+      "Drill 6 cold, once slow and once at pace"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Write دَرَسَ and دَرَّسَ on the board with no explanation and ask her to read both. Almost everyone reads them the same. Then say them properly, one after the other, and give the meanings again — one small mark, and the man in the sentence has changed sides of the classroom.",
+      "Give the sentence that carries the whole lesson: a shadda is not emphasis and it is not decoration; it is a second letter that nobody wrote down.",
+      "Name the error before it happens. Beginners do not usually forget the shadda — they see it, acknowledge it, and hold it about a third as long as it needs. Say rab and then rab-b and ask her which took longer.",
+      "Start from ٱلضَّآلِّينَ in lesson 1-14. She has been holding a shadda in every rakʿah since then; today she learns what the mark is called and that there is a system behind it.",
+      "Build it from sukūn, do not define it. Write رَبْ + بُ separately, read them as two pieces with a gap, then close the gap, then write رَبُّ. She should watch the second ب disappear off the board.",
+      "Teach where the vowel lives — this trips people up on real pages. Fatḥa and ḍamma above the shadda, kasra normally below the letter. Show her both print conventions for the kasra so a different mushaf does not stop her.",
+      "Give timing its own block of the session. Use the finger-tap from lesson 2-02 but tap on the consonant. Take the three groups in order: مّ/نّ (hum — easiest entry point, start here), then the sustainable لّ رّ سّ شّ, then the unsustainable بّ تّ دّ كّ قّ, where the two counts are silence and which therefore gets under-held.",
+      "Require the hum on نّ and مّ. Pinch the nose and say inna — it should be blocked. Name ghunnah as a Unit 3 rule but insist on the sound today, because إِنَّ and ٱلنَّاس and ثُمَّ are unavoidable in any page she opens.",
+      "Do the meaning pairs to prove it is not cosmetic. Read each pair and have her tell you which is which by ear alone, with the board covered. This is the step that makes the two counts feel worth the effort.",
+      "Say the structural fact once: a word can never begin with a shadda, because the first half is closed and needs something to lean on. Same reason hamzat al-waṣl exists — lesson 2-09.",
+      "Teacher note on إِيَّاكَ: a doubled ي is the hardest to hear because the sound is close to a vowel and the halves blur. Use it as the last example, not the first, and check it with the meaning. Teacher note on ٱلصَّمَدُ and ٱلنَّاسِ: both doublings come from a lām of الـ assimilating — point at it, name it as ‘the same thing as in al-Fātiḥah’, and leave the system for lesson 2-06."
+    ],
+    "listenFor": [
+      {
+        "item": "A doubled letter audibly present, so دَرَّسَ cannot be mistaken for دَرَسَ",
+        "commonMistake": "The doubling collapsing entirely — rabu for rabbu. A word with one beat where it needs two.",
+        "whyItHappens": "The shadda has no sound of its own on the page, so under reading load it is treated as an accent mark and skipped.",
+        "correctionCue": "‘That was darasa. I asked for darrasa.’ Give the meaning back — the meaning is what makes it matter.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-05-Shadda.md"
+      },
+      {
+        "item": "A doubled letter held for a full two counts",
+        "commonMistake": "Under-holding — a doubling that is present but short. You can hear it, but you could not count it.",
+        "whyItHappens": "She has satisfied herself that she ‘did the shadda’, and nothing on the page specifies how long. Nothing in Uzbek, Persian or Turkish requires a two-count consonant. This is the priority error for this lesson and far more common than a full collapse.",
+        "correctionCue": "Tap twice on the table and have her fit the letter into the two taps. Do not describe it — give the beat. Same method as the long vowel in 2-02, deliberately, because it is the same underlying weakness.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-05-Shadda.md"
+      },
+      {
+        "item": "The two halves held as one letter, with no seam",
+        "commonMistake": "Breaking it into two separate letters — rab · bu, with a gap and sometimes a tiny breath between the halves.",
+        "whyItHappens": "Over-correction, usually right after you fix the collapse. It is also exactly what Drill 1's left column asks for, so it is partly a drill artefact — say so when it happens.",
+        "correctionCue": "‘One letter, held. Not two letters with a door between them.’ Run the left and right columns of Drill 1 back to back until the difference is obvious to her.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-05-Shadda.md"
+      },
+      {
+        "item": "Nothing inserted between the closed half and the opened half",
+        "commonMistake": "A helper vowel between the halves — rab-u-bu. Three beats instead of two.",
+        "whyItHappens": "The front half of a shadda is a closed letter, so the cluster-breaking habit from lesson 2-03 comes straight back. Diagnose it as that, not as a new fault.",
+        "correctionCue": "Go back to the clap test on بَعْ. Fix the sukūn first, then return.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-05-Shadda.md"
+      },
+      {
+        "item": "Nasal resonance through the full hold on نّ and مّ",
+        "commonMistake": "No hum — an oral n or m, held but not nasal.",
+        "whyItHappens": "She is holding the consonant as instructed, and nobody told her the air goes through the nose.",
+        "correctionCue": "‘Pinch your nose and say it again.’ Physical, immediate, self-verifying — it settles the question in one second.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-05-Shadda.md"
+      },
+      {
+        "item": "The vowel of the shadda read correctly, including a kasra written below the letter",
+        "commonMistake": "Missing the kasra under the letter — reading رَبِّ as rabba.",
+        "whyItHappens": "The shadda sits above the letter and pulls the eye upward, so a mark below it goes unseen.",
+        "correctionCue": "‘Look under the letter too.’ In Drill 5 make her name the vowel out loud before reading — naming forces the eye down.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-2-Reading-Mechanics/2-05-Shadda.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Three minutes on Drill 1 — split, join, split — every day, because it is the drill that builds the mechanism. Three minutes on Drill 2 with the nose pinch, giving any word that is not blocked five more reps. Four minutes on Drill 3, the silent holds, counting the two beats on her fingers during the silence. Four minutes on Drill 4 read across, then one column only recorded into her phone and played back the next day to see whether she can tell which word she read. Three minutes on the Drill 6 cold column, once slow and once at pace. She brings back one word from Drill 6 she is not sure she is holding long enough, and it gets timed in the session."
+  },
+  "videos": []
+}

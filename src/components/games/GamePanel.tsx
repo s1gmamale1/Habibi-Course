@@ -7,8 +7,20 @@ import { FormSwap } from "./FormSwap";
 import { WordBuilder } from "./WordBuilder";
 import { SpotTheLetter } from "./SpotTheLetter";
 import { LetterQuiz } from "./LetterQuiz";
+import { getGames, type GameResult } from "./GameRegistry";
 
-export function GamePanel({ data, heading = "Practice games" }: { data: GameData; heading?: string }) {
+export function GamePanel({
+  data,
+  heading = "Practice games",
+  games = [],
+  onResult,
+}: {
+  data: GameData;
+  heading?: string;
+  /** Drill ids this lesson wants, resolved through the registry. */
+  games?: string[];
+  onResult?: (r: GameResult) => void;
+}) {
   const [tab, setTab] = useState(0);
   const builderWords = useMemo(
     () =>
@@ -46,6 +58,16 @@ export function GamePanel({ data, heading = "Practice games" }: { data: GameData
       render: () => <SpotTheLetter words={spotWords} pool={data.letterPool} />,
     },
     { label: "📖 Word cards", show: data.wordPool.length > 0, render: () => <Flashcards cards={wordCards(data.wordPool)} /> },
+    // Drills a lesson asks for by id, resolved through the registry. Additive:
+    // when `games` is absent — every Phase 1 lesson — this contributes nothing
+    // and the panel behaves exactly as before. Unknown ids are dropped by
+    // `getGames`, so a lesson naming a drill that has not shipped degrades to
+    // the drills that exist rather than breaking the page.
+    ...getGames(games).map((g) => ({
+      label: g.label,
+      show: true,
+      render: () => g.render({ onResult }),
+    })),
   ].filter((t) => t.show);
 
   if (tabs.length === 0) return null;

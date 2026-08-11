@@ -1,0 +1,1052 @@
+{
+  "id": "3-06",
+  "phase": 3,
+  "unit": "3.1",
+  "title": "Qalqalah kubrā — and the case some call kubrā jiddan",
+  "stage": "Ḥaqq al-Ḥarf",
+  "objectives": [
+    "Student can state that kubrā is a DECISION, not a property of the word — the same word is ṣughrā if she reads on and kubrā if she stops.",
+    "Student can stop on a word whose final letter is one of ق ط ب ج د and produce a clearly audible bounce with no vowel and no added length.",
+    "Student can predict, before stopping, what the final letter will become when its vowel or tanwīn drops.",
+    "Student can stop on a mushaddad qalqalah letter with one release after the full hold, not two."
+  ],
+  "prerequisites": [
+    "3-05"
+  ],
+  "games": [
+    "span-tapper",
+    "rule-identifier"
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.6 — Qalqalah kubrā, and the case some call kubrā jiddan",
+      "arabicDecor": "أَحَدْ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Stronger, not longer",
+      "body": [
+        "Read Sūrat al-Ikhlāṣ and stop at the end of each āyah. Now listen to how āyah 1 ends.",
+        "أَحَدٌ. In most students it arrives as aḥa — the د is simply not there. Not swallowed, not weak: absent. You dropped the tanwīn correctly, because 2-12 taught you to, and then there was nothing left to say, so you said nothing.",
+        "When you stop, nothing follows the letter to carry it. If you do not bounce it, the letter does not exist. The listener hears a word that ends one letter early.",
+        "Then the second error, at the other end again: aḥada, al-falaqa, wa-qaba. Having been told to make the ending audible, you make it audible by putting a vowel on it — which is the one thing the rule forbids.",
+        "And a third, specific to today: LENGTHENING. A bounce that turns into a small hummed beat, so that يُولَدْ ends on something you could count.",
+        "Stronger, not longer. That phrase is the whole difference between kubrā and ṣughrā, and you will hear it three more times today."
+      ],
+      "items": [
+        {
+          "arabic": "أَحَدٌ",
+          "translit": "aḥad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:1 — in waṣl. Stop here and the tanwīn drops: أَحَدْ, and the د must bounce, firmly. If it does not, the word ends one letter early."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two kinds of sukūn — and the whole rule turns on which one you have",
+      "body": [
+        "LĀZIM (لازِم) — written into the word, permanent. It is there whether you stop or carry on. Rule: ṣughrā.",
+        "ʿĀRIḌ (عارِض) — produced by YOUR STOP, temporary. It was not there a moment ago and will not be there if you read the āyah again without stopping. Rule: KUBRĀ.",
+        "ʿĀriḍ means accidental, incidental.",
+        "The test question, and say it out loud before every qalqalah decision: would this sukūn still be here if I kept reading?",
+        "يَجْعَلْ — the sukūn on the ج is printed, and it survives. Lāzim. Ṣughrā.",
+        "أَحَدٌ — there is no sukūn printed at all; there is a tanwīn. The sukūn only appears BECAUSE you stopped. ʿĀriḍ. Kubrā."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "qalqalah",
+      "heading": "Qalqalah kubrā — the major bounce",
+      "condition": "You stop (waqf) on a word whose FINAL letter is one of ق ط ب ج د.",
+      "letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ],
+      "mnemonic": "قُطْبُ جَدٍّ",
+      "body": [
+        "That is the entire rule. There is no letter list to learn beyond the five you already have, no exception, and no second condition.",
+        "The performance is last lesson's four steps with two changes. Close the makhraj fully and hold it a fraction LONGER than for ṣughrā. Release with a clear, firm bounce — noticeably stronger than the mid-word version, because it is the last thing the listener hears.",
+        "Still NO vowel colour. Still NO added duration.",
+        "Stronger, not longer, and not vowelled.",
+        "The difference between the two degrees is AMPLITUDE ONLY. Bounce a mid-word ج in يَجْعَلْ, then a stopped د in يُولَدْ, and hear that the second is louder and no longer."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What stopping does to the ending — do this in your head before you read",
+      "body": [
+        "أَحَدٌ → أَحَدْ. The tanwīn drops. Bounce the د.",
+        "ٱلْفَلَقِ → ٱلْفَلَقْ. The kasra drops. Bounce the ق — and it is heavy.",
+        "وَقَبَ → وَقَبْ. The fatḥa drops. Bounce the ب — light.",
+        "ٱلْعُقَدِ → ٱلْعُقَدْ. The kasra drops. Bounce the د — light.",
+        "يُولَدْ → يُولَدْ. Nothing changes shape: it was ALREADY sākin. Stopping changes only the SIZE of its bounce.",
+        "Say the transformation out loud before you read: 'أَحَدٌ … stopping … أَحَدْ … bounce the د.' Predicting first is what stops the vowel surviving into the stop."
+      ],
+      "items": [
+        {
+          "arabic": "أَحَدٌ",
+          "translit": "aḥad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:1 — tanwīn drops at waqf. أَحَدْ."
+          }
+        },
+        {
+          "arabic": "ٱلْفَلَقِ",
+          "translit": "al-falaq",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:1 — kasra drops at waqf. ٱلْفَلَقْ. A HEAVY kubrā, and the best one in your range."
+          }
+        },
+        {
+          "arabic": "وَقَبَ",
+          "translit": "waqab",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:3 — fatḥa drops at waqf. وَقَبْ. Light."
+          }
+        },
+        {
+          "arabic": "ٱلْعُقَدِ",
+          "translit": "al-ʿuqad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:4 — kasra drops at waqf. ٱلْعُقَدْ. Light."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Kubrā is a decision, not a property of the word",
+      "body": [
+        "This is the actual content of the lesson, and it is one sentence.",
+        "The same word is ṣughrā if you read on and kubrā if you stop.",
+        "لَمْ يَلِدْ وَلَمْ يُولَدْ (112:3) contains both, ten syllables apart: the د of يَلِدْ is ṣughrā because you carry on into وَلَمْ, and the د of يُولَدْ is kubrā because the āyah ends and you stop.",
+        "Read the āyah three ways. Straight through to the next āyah — BOTH are ṣughrā. Stopping at the end — first ṣughrā, second kubrā. Stopping after يَلِدْ, which is legitimate if unusual — the FIRST one becomes kubrā.",
+        "Same letters. Same word. Different rule.",
+        "This is your first encounter with a rule that depends on your own choice, and it will not be your last — you will meet exactly the same idea in the rā' rules in lesson 3-11, where ٱلْقَدْرِ is light while you read on and heavy the moment you stop."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The mushaddad case — one hold, one release",
+      "body": [
+        "Stop on وَتَبَّ (111:1) or بِٱلْحَقِّ (103:3, a reference example outside your memorized surahs), and the final letter carries a SHADDA.",
+        "Two things must both happen, in order. First, hold the doubled consonant for its full measure — the two counts from lesson 2-05, unchanged. Then release ONE firm bounce at the end.",
+        "Written out: وَتَبّْ, NOT وَتَبْ‑بْ as two separate bounces. One hold, one release. The bounce belongs to the END of the hold, not to the middle of it.",
+        "On the name. Some scholars give this a third, strongest degree of its own — qalqalah AKBAR (القَلْقَلَةُ الأَكْبَر), also met as kubrā jiddan, 'very major'. Others fold it straight into kubrā and hold that there are only TWO degrees.",
+        "This course teaches two degrees, with the third named and demonstrated as a note rather than as a category you will be examined on. The distinction does not change your work: the instruction is identical either way — hold the shadda, then release one bounce."
+      ],
+      "items": [
+        {
+          "arabic": "وَتَبَّ",
+          "translit": "wa-tabb",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:1 — count the two beats on your fingers during the hold. The bounce happens AFTER the second beat, not between them. Tap, tap, release."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The exclusion you will trip on this week",
+      "body": [
+        "ONLY THE FIVE LETTERS BOUNCE.",
+        "Stopping on ٱلنَّاسْ or نَسْتَعِينْ or ٱلْمُسْتَقِيمْ produces a clean, silent stop on س, ن and م. No echo.",
+        "This error appears reliably about a week after this lesson, because kubrā is the most audibly satisfying rule you have learned and the temptation to apply it at every āyah-end is strong.",
+        "When it happens, the fix is a question, not a correction: which letter is that? Is it one of the five?",
+        "And the mirror of it: do not apply kubrā mid-āyah just because a qalqalah letter looks final. The trigger is the STOP, not the position. Did you stop there? Then it is the small one."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — predict, then stop",
+      "instructions": "For each word, say the waqf form BEFORE you read it, then read it with the bounce. Predicting first is what stops the vowel surviving into the stop.",
+      "grid": [
+        [
+          {
+            "arabic": "أَحَدٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "→ أَحَدْ. Tanwīn drops. Light د bounce."
+            }
+          },
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "→ ٱلْفَلَقْ. Kasra drops. HEAVY ق bounce."
+            }
+          },
+          {
+            "arabic": "وَقَبَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "→ وَقَبْ. Fatḥa drops. Light ب bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْعُقَدِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "→ ٱلْعُقَدْ. Kasra drops. Light د bounce."
+            }
+          },
+          {
+            "arabic": "ٱلصَّمَدُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "→ ٱلصَّمَدْ. Ḍamma drops. Light د bounce, after a clamped ص."
+            }
+          },
+          {
+            "arabic": "يُولَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "→ يُولَدْ. Nothing changes shape — it was already sākin. Only the SIZE of the bounce changes."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — Sūrat al-Ikhlāṣ, stopping at every āyah",
+      "instructions": "Four āyāt, four kubrā bounces. Then read it again straight through, stopping only at the very end, and notice how many of the bounces just changed size.",
+      "grid": [
+        [
+          {
+            "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+            "translit": "qul huwa-llāhu aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:1 — stopping: أَحَدْ. And notice the sākin ل of قُلْ, which is released cleanly and does NOT bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+            "translit": "allāhu-ṣ-ṣamad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:2 — stopping: ٱلصَّمَدْ. Clamped ص held, then a light د bounce at the end."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "translit": "lam yalid wa-lam yūlad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:3 — the key āyah. يَلِدْ is ṣughrā because you read on; يُولَدْ is kubrā because you stop. Same letter, twice, two sizes."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+            "translit": "wa-lam yakun lahū kufuwan aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:4 — stopping: أَحَدْ. The last thing the listener hears in the surah, so it gets the firmest bounce of the four."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — the same āyah, three ways",
+      "instructions": "This is the drill that teaches the IDEA rather than the sound. Read لَمْ يَلِدْ وَلَمْ يُولَدْ three times, changing nothing but where you stop.",
+      "grid": [
+        [
+          {
+            "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "translit": "reading on to the next āyah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Both د's are ṣughrā. Neither sukūn was caused by a stop."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "translit": "stopping at the end",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "First ṣughrā, second kubrā. The second sukūn is still lāzim — but the STOP is what makes the bounce major."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَمْ يَلِدْ",
+            "translit": "stopping after يَلِدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Legitimate, if unusual. Now the FIRST one is kubrā. Same word, different rule, because you decided differently."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drills 4 and 5 — light kubrā, then heavy kubrā",
+      "instructions": "First row: ب, ج and د at a stop — a light bounce, strongly made. Second row: ق and ط at a stop — heavy through the closure, heavy through the release.",
+      "grid": [
+        [
+          {
+            "arabic": "أَحَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:1 at waqf. Light letter, strong bounce. Those are not the same thing."
+            }
+          },
+          {
+            "arabic": "يُولَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:3 at waqf. Light, strong, and no longer than the mid-word one."
+            }
+          },
+          {
+            "arabic": "وَقَبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:3 at waqf. Light ب."
+            }
+          },
+          {
+            "arabic": "ٱلْعُقَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:4 at waqf. Light د."
+            }
+          },
+          {
+            "arabic": "حَسَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:5 at waqf. Note it is the د that bounces, not the س."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْفَلَقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 at waqf. The best heavy kubrā in your range — a raised ق bounced hard at the end of a line you say every night. The vowel left; the heaviness did not."
+            }
+          },
+          {
+            "arabic": "خَلَقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 at waqf. Heavy خ at the front, heavy ق bounced at the back, light ل between them."
+            }
+          },
+          {
+            "arabic": "بِٱلْحَقّْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "103:3 — reference example, outside your memorized surahs. A mushaddad heavy ق: hold two counts, then ONE bounce."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — the shadda hold",
+      "instructions": "Two counts, tapped out on the table, THEN one release. Never two releases. Count the two beats on your fingers during the hold — the bounce happens after the second beat, not between them.",
+      "grid": [
+        [
+          {
+            "arabic": "وَتَبّْ",
+            "translit": "wa-tabb (111:1 at waqf)",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tap, tap, release. Not وَتَبْ‑بْ. One hold, one bounce."
+            }
+          },
+          {
+            "arabic": "بِٱلْحَقّْ",
+            "translit": "bil-ḥaqq (103:3 at waqf)",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Reference example, outside your memorized surahs. Two counts of a heavy doubled ق, then one firm bounce."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — do not bounce these",
+      "instructions": "Stop on each of these and produce a clean, silent ending. If any of them kicks, you have generalised the rule — go back and name the five letters.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلنَّاسْ",
+            "translit": "an-nās (114:1 at waqf)",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A س. Not one of the five. Clean, silent, no echo."
+            }
+          },
+          {
+            "arabic": "نَسْتَعِينْ",
+            "translit": "nastaʿīn (1:5 at waqf)",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A ن. Not one of the five."
+            }
+          },
+          {
+            "arabic": "ٱلْمُسْتَقِيمْ",
+            "translit": "al-mustaqīm (1:6 at waqf)",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A م. Not one of the five."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلضَّآلِّينْ",
+            "translit": "aḍ-ḍāllīn (1:7 at waqf)",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A ن. The most-recited āyah-end in your day, and it does not bounce."
+            }
+          },
+          {
+            "arabic": "ٱلْكَوْثَرْ",
+            "translit": "al-kawthar (108:1 at waqf)",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A ر. Tawassut — hold it to prove there is nothing blocked."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 8 — Sūrat al-Falaq, cold",
+      "instructions": "Read all five āyāt, stopping at each one, and bounce exactly where the rule fires. Five āyāt, five bounces. This surah is unusually dense in kubrā, which is why it is the cold read.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْفَلَقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — ق, heavy, bounce."
+            }
+          },
+          {
+            "arabic": "خَلَقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:2 — ق, heavy, bounce."
+            }
+          },
+          {
+            "arabic": "وَقَبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:3 — ب, light, bounce."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْعُقَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:4 — د, light, bounce."
+            }
+          },
+          {
+            "arabic": "حَسَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:5 — د, light, bounce."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 112,
+      "ayah": 1,
+      "highlight": [
+        "qalqalah"
+      ],
+      "translation": "Say: He is Allah, One.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Stop here. The tanwīn drops and you land on a bare د — أَحَدْ. If you do not bounce it, the listener hears a word that ends one letter early. Also notice the sākin ل of قُلْ: released cleanly, no kick."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 112,
+      "ayah": 3,
+      "highlight": [
+        "qalqalah"
+      ],
+      "translation": "He has never had offspring, nor was He born.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "The whole lesson in one āyah. يَلِدْ is ṣughrā because you carry on into وَلَمْ. يُولَدْ is kubrā because the āyah ends and you stop. Same letter, same word-shape, ten syllables apart — and the rule is different because your decision was."
+      }
+    },
+    {
+      "kind": "contrast",
+      "heading": "Ṣughrā and kubrā — the same letter, decided by your stop",
+      "pairs": [
+        {
+          "surah": 112,
+          "ayah": 3,
+          "text": "يَلِدْ",
+          "rule": "qalqalah",
+          "note": "ṢUGHRĀ. The sukūn is lāzim — printed, permanent — and you read straight on into وَلَمْ. A minor bounce."
+        },
+        {
+          "surah": 112,
+          "ayah": 3,
+          "text": "يُولَدْ",
+          "rule": "qalqalah",
+          "note": "KUBRĀ when you stop at the end of the āyah. The letter was already sākin; stopping changes only the SIZE of the bounce. Read on to āyah 4 and it becomes ṣughrā."
+        },
+        {
+          "surah": 112,
+          "ayah": 1,
+          "text": "أَحَدٌ",
+          "rule": "qalqalah",
+          "note": "KUBRĀ. There is no sukūn printed here at all — only a tanwīn. The sukūn exists only because you stopped: an ʿāriḍ sukūn, and the clearest case of the rule."
+        },
+        {
+          "surah": 113,
+          "ayah": 1,
+          "text": "ٱلْفَلَقِ",
+          "rule": "qalqalah",
+          "note": "KUBRĀ, and HEAVY. The kasra drops at waqf and you bounce a raised ق. The vowel left; the heaviness did not."
+        }
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "Seven ways the major bounce goes wrong",
+      "mistakes": [
+        {
+          "wrong": "Stopping with no bounce at all — aḥa instead of aḥad. A word that ends one letter early.",
+          "why": "She dropped the ḥarakah correctly and there was nothing left to carry the letter. Nothing in her reading habit says a bare final consonant needs help.",
+          "fix": "You stopped one letter early. The د is still there — let me hear it leave."
+        },
+        {
+          "wrong": "A full vowel on the way out — aḥada, al-falaqa, waqaba.",
+          "why": "Over-correction of the first error, and the vowel is the only release she has practised. Exactly the same mechanism as in ṣughrā.",
+          "fix": "A click, not a syllable. Clap once and match it."
+        },
+        {
+          "wrong": "Lengthening the bounce into a beat — a hum or a small hold after the release, something you could count.",
+          "why": "'Stronger' gets interpreted as 'bigger', and the nearest way to make a sound bigger is to make it longer.",
+          "fix": "Stronger, not longer. Then bounce a mid-word ج and a stopped د back to back so she hears that only the volume moved."
+        },
+        {
+          "wrong": "Two bounces on a shadda — وَتَبْ‑بْ, a stutter with a release on each half.",
+          "why": "The shadda genuinely is two letters, and she has been taught to hear it as two. 'One release' contradicts a correct instinct, so it needs stating explicitly rather than implying.",
+          "fix": "One hold, one release. The bounce belongs to the end of the hold, not to the middle of it. Tap the two beats and release on the third."
+        },
+        {
+          "wrong": "Bouncing a final letter that is not one of the five — a kick on ٱلنَّاسْ, نَسْتَعِينْ or ٱلْمُسْتَقِيمْ.",
+          "why": "Generalisation, and it arrives about a week after this lesson. It is the predictable cost of teaching a satisfying rule.",
+          "fix": "Which letter is that? Is it one of the five? Make her answer rather than telling her."
+        },
+        {
+          "wrong": "Applying kubrā mid-āyah because a qalqalah letter looks final — a full bounce on يَلِدْ while reading straight on.",
+          "why": "The word ends in a qalqalah letter, and 'word-final' has been heard as the trigger. The trigger is the STOP, not the position.",
+          "fix": "Did you stop there? Then it is the small one."
+        },
+        {
+          "wrong": "Losing the heaviness of ق at a stop — ٱلْفَلَقْ ending on something closer to a bounced ك.",
+          "why": "The kasra that was carrying the vowel colour has just been dropped, and with it goes the cue that was keeping the tongue back.",
+          "fix": "The vowel left. The heaviness did not. Then ٱلْفَلَقِ and ٱلْفَلَقْ back to back."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "One rule, one decision, five letters",
+      "items": [
+        {
+          "arabic": "أَحَدْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:1 at waqf — the ʿāriḍ sukūn. No sukūn is printed; it exists only because you stopped. KUBRĀ."
+          }
+        },
+        {
+          "arabic": "يَلِدْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:3, reading on — the lāzim sukūn. Printed, permanent. ṢUGHRĀ."
+          }
+        },
+        {
+          "arabic": "ٱلْفَلَقْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "113:1 at waqf — kubrā AND heavy. The vowel left; the heaviness did not."
+          }
+        },
+        {
+          "arabic": "وَتَبّْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:1 at waqf — the mushaddad case. Two counts held, then ONE release. Some call this akbar; the instruction is identical either way."
+          }
+        },
+        {
+          "arabic": "ٱلنَّاسْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:1 at waqf — the negative control. A س is not one of the five. Clean, silent, no echo."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 25–35 min/day, five days",
+      "tasks": [
+        "Two minutes — predict the waqf form out loud BEFORE reading. Every word, every time.",
+        "Three minutes — Sūrat al-Ikhlāṣ, stopping at every āyah, then straight through.",
+        "Two minutes — the same āyah three ways. This is the drill that teaches the idea rather than the sound.",
+        "Two minutes — light kubrā, then heavy kubrā.",
+        "Two minutes — the shadda hold, with the two beats tapped out. One hold, one release.",
+        "One minute — the five endings that must not bounce.",
+        "Two minutes — Sūrat al-Falaq cold: five stops, five bounces.",
+        "Hifz — Manzil (al-Fātiḥah complete), then new Sabaq (114:1–114:3). Revision first, always.",
+        "Bring to the next session: a recording of Sūrat al-Ikhlāṣ with a stop at every āyah. We will check whether 'stronger' came out as 'longer'."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — predict, then stop",
+        "instructions": "Say the waqf form before you read it, then read it with the bounce.",
+        "grid": [
+          [
+            {
+              "arabic": "أَحَدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "→ أَحَدْ. Light د."
+              }
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "→ ٱلْفَلَقْ. Heavy ق."
+              }
+            },
+            {
+              "arabic": "وَقَبَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "→ وَقَبْ. Light ب."
+              }
+            },
+            {
+              "arabic": "ٱلْعُقَدِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "→ ٱلْعُقَدْ. Light د."
+              }
+            },
+            {
+              "arabic": "ٱلصَّمَدُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "→ ٱلصَّمَدْ. Light د."
+              }
+            },
+            {
+              "arabic": "يُولَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "→ يُولَدْ. Already sākin; only the size changes."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — Sūrat al-Ikhlāṣ, stopping at every āyah",
+        "instructions": "Four āyāt, four kubrā bounces. Then straight through, stopping only at the end.",
+        "grid": [
+          [
+            {
+              "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+              "translit": "qul huwa-llāhu aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "112:1 — أَحَدْ. And a clean, unbounced ل on قُلْ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+              "translit": "allāhu-ṣ-ṣamad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "112:2 — ٱلصَّمَدْ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+              "translit": "lam yalid wa-lam yūlad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "112:3 — ṣughrā then kubrā."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+              "translit": "wa-lam yakun lahū kufuwan aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "112:4 — أَحَدْ, the firmest of the four."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — the same āyah, three ways",
+        "instructions": "Change nothing but where you stop.",
+        "grid": [
+          [
+            {
+              "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+              "translit": "reading on",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Both ṣughrā."
+              }
+            },
+            {
+              "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+              "translit": "stopping at the end",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ṣughrā, then kubrā."
+              }
+            },
+            {
+              "arabic": "لَمْ يَلِدْ",
+              "translit": "stopping after يَلِدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Now the first one is kubrā."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drills 4 and 5 — light kubrā, heavy kubrā",
+        "instructions": "Light letters bounced strongly; then heavy letters heavy through closure and release.",
+        "grid": [
+          [
+            {
+              "arabic": "أَحَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light letter, strong bounce."
+              }
+            },
+            {
+              "arabic": "يُولَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light, strong, not longer."
+              }
+            },
+            {
+              "arabic": "وَقَبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light ب."
+              }
+            },
+            {
+              "arabic": "ٱلْعُقَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light د."
+              }
+            },
+            {
+              "arabic": "حَسَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The د bounces, not the س."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْفَلَقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy ق."
+              }
+            },
+            {
+              "arabic": "خَلَقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Heavy ق, light ل before it."
+              }
+            },
+            {
+              "arabic": "بِٱلْحَقّْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "103:3 — reference example. Hold, then one bounce."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — the shadda hold",
+        "instructions": "Two counts tapped out, THEN one release. Never two.",
+        "grid": [
+          [
+            {
+              "arabic": "وَتَبّْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "111:1 at waqf. Tap, tap, release."
+              }
+            },
+            {
+              "arabic": "بِٱلْحَقّْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "103:3 at waqf — reference example. Two heavy counts, one bounce."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — do not bounce these",
+        "instructions": "Stop on each and produce a clean, silent ending.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلنَّاسْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "س — not one of the five."
+              }
+            },
+            {
+              "arabic": "نَسْتَعِينْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ن — not one of the five."
+              }
+            },
+            {
+              "arabic": "ٱلْمُسْتَقِيمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "م — not one of the five."
+              }
+            },
+            {
+              "arabic": "ٱلضَّآلِّينْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ن — not one of the five."
+              }
+            },
+            {
+              "arabic": "ٱلْكَوْثَرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ر — tawassut. Hold it to prove it."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 8 — Sūrat al-Falaq, cold",
+        "instructions": "Five āyāt, stopping at each. Five bounces, and nothing else.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْفَلَقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ق — heavy."
+              }
+            },
+            {
+              "arabic": "خَلَقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ق — heavy."
+              }
+            },
+            {
+              "arabic": "وَقَبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ب — light."
+              }
+            },
+            {
+              "arabic": "ٱلْعُقَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "د — light."
+              }
+            },
+            {
+              "arabic": "حَسَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "د — light."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Predict the waqf form out loud before reading — every word, every time",
+      "Sūrat al-Ikhlāṣ stopping at every āyah, then straight through",
+      "The same āyah three ways — reading on, stopping at the end, stopping after يَلِدْ",
+      "Light kubrā, then heavy kubrā",
+      "The shadda hold, two beats tapped, one release",
+      "The five endings that must not bounce",
+      "Sūrat al-Falaq cold — five stops, five bounces",
+      "Hifz — Manzil (al-Fātiḥah complete), then new Sabaq (114:1–114:3)"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open by taking her answer to last session's question — in لَمْ يَلِدْ وَلَمْ يُولَدْ, why is the first د a smaller bounce than the second when you stop at the end? That question IS this lesson.",
+      "Then the hook: have her read al-Ikhlāṣ stopping at every āyah and listen to أَحَدٌ. In most students it arrives as aḥa. Give her the sentence — when you stop, nothing follows the letter to carry it; if you do not bounce it, the letter does not exist.",
+      "Name the second error (a full vowel on the way out) and the third (lengthening) immediately. Say 'stronger, not longer' now and repeat it at least three times during the session; it is the whole difference between the two degrees.",
+      "Draw the line between the degrees as a question about the SUKŪN, not about the word. Lāzim is written and permanent; ʿāriḍ is produced by her stop and temporary. Make the test question a spoken habit: would this sukūn still be here if I kept reading?",
+      "State the trigger in one line — you stop on a word whose final letter is one of ق ط ب ج د — and say plainly that there is no letter list to learn, no exception, no second condition.",
+      "Make her do the waqf transformation OUT LOUD before reading: 'أَحَدٌ … stopping … أَحَدْ … bounce the د.' Predicting first is what stops the vowel surviving into the stop.",
+      "Say the lesson's actual content as one sentence: kubrā is a decision, not a property of the word. Then read 112:3 three ways with her — straight through, stopping at the end, and stopping after يَلِدْ.",
+      "Tell her this is her first rule that depends on her own choice, and that it will not be the last: she meets exactly the same structure in the rā' rules in 3-11, where ٱلْقَدْرِ is light in waṣl and heavy at waqf.",
+      "The performance is last lesson's four steps with two changes: hold a fraction longer, release noticeably stronger. Still no vowel colour, still no added duration. The difference between the degrees is AMPLITUDE ONLY — demonstrate a mid-word ج against a stopped د.",
+      "For the mushaddad case, do it slowly with a finger tap: tap, tap, release. وَتَبّْ, not وَتَبْ‑بْ. Two counts of hold plus one firm bounce is a genuinely difficult sequence to time.",
+      "Name the third-degree question once. Some scholars give qalqalah akbar / kubrā jiddan its own category; others fold it into kubrā. This course teaches TWO degrees and names the third as a note. Say why it does not change her work: the instruction is identical either way.",
+      "Warn her explicitly about the over-generalisation — bouncing ٱلنَّاسْ, نَسْتَعِينْ, ٱلْمُسْتَقِيمْ. It arrives reliably about a week after this lesson because kubrā is the most satisfying rule she has learned. Then check for it in 3-09.",
+      "Close on Sūrat al-Ikhlāṣ end to end — every āyah ends on a qalqalah letter or on a stop that produces one. Twice: once stopping at every āyah, once straight through so that only the last is kubrā.",
+      "ٱلْفَلَقِ and ٱلْعُقَدِ are both in al-Falaq, which she memorises in 3-10 to 3-13. Point that out — it makes today's work feel like deposit rather than detour. ٱلْفَلَقْ is also the best heavy kubrā in her range.",
+      "Hifz: Manzil/Sabqi first — al-Fātiḥah, all seven, unaided. This is the first session with a complete surah to revise; treat it as the model for how Manzil runs from now on.",
+      "New Sabaq is an-Nās 114:1–114:3 — three of the shortest āyāt in the Qurʾān, together less text than 1:7 was. Two things to hold: ٱلنَّاسِ repeats three times, each a doubled ن with a two-count nasal hum, closure at tongue point 6 and sound in the khayshūm; and NONE of these three āyāt ends on a qalqalah letter, so stopping gives a clean silent س. Say so — it is today's negative control arriving in her own memorisation, for free."
+    ],
+    "listenFor": [
+      {
+        "item": "A clearly audible bounce on the final letter of a stopped word.",
+        "makhraj": "The closure of the letter itself, held a fraction longer than for ṣughrā and then released firmly.",
+        "commonMistake": "aḥa instead of aḥad — a word that ends one letter early.",
+        "whyItHappens": "She dropped the ḥarakah correctly and there was nothing left to carry the letter. Nothing in her reading habit says a bare final consonant needs help.",
+        "correctionCue": "You stopped one letter early. The د is still there — let me hear it leave.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Qalqalah-Kubra.md"
+      },
+      {
+        "item": "A bounce with no vowel colour on the way out.",
+        "commonMistake": "aḥada, al-falaqa, waqaba. Count the syllables.",
+        "whyItHappens": "Over-correction of the missing bounce, and the vowel is the only release she has practised. The same mechanism as in ṣughrā.",
+        "correctionCue": "A click, not a syllable. Clap once and match it.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Qalqalah-Kubra.md"
+      },
+      {
+        "item": "A kubrā bounce that is louder than a ṣughrā one and exactly as short.",
+        "commonMistake": "A hum or a small hold after the release — something you could count.",
+        "whyItHappens": "'Stronger' gets interpreted as 'bigger', and the nearest way to make a sound bigger is to make it longer.",
+        "correctionCue": "Stronger, not longer. Bounce a mid-word ج and a stopped د back to back so she hears that only the volume moved.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Qalqalah-Kubra.md"
+      },
+      {
+        "item": "One release at the end of a stopped mushaddad letter, after the full two-count hold.",
+        "commonMistake": "وَتَبْ‑بْ — a stutter with a release on each half of the shadda.",
+        "whyItHappens": "The shadda genuinely is two letters and she has been taught to hear it as two, so 'one release' contradicts a correct instinct. It needs stating explicitly rather than implying.",
+        "correctionCue": "One hold, one release. The bounce belongs to the end of the hold, not to the middle of it. Tap the two beats and release on the third.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Qalqalah-Kubra.md"
+      },
+      {
+        "item": "Clean, silent stops on āyah-ends that are not one of the five letters.",
+        "commonMistake": "A kick on ٱلنَّاسْ, نَسْتَعِينْ or ٱلْمُسْتَقِيمْ — the āyah-ends she says most often.",
+        "whyItHappens": "Generalisation, arriving about a week after the lesson. It is the predictable cost of teaching a satisfying rule.",
+        "correctionCue": "Which letter is that? Is it one of the five? Make her answer rather than telling her.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Qalqalah-Kubra.md"
+      },
+      {
+        "item": "The bounce sized by whether she stopped, not by where the letter sits in the word.",
+        "commonMistake": "A full kubrā bounce on يَلِدْ while reading straight on.",
+        "whyItHappens": "The word ENDS in a qalqalah letter, and 'word-final' has been heard as the trigger. The trigger is the stop.",
+        "correctionCue": "Did you stop there? Then it is the small one.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Qalqalah-Kubra.md"
+      },
+      {
+        "item": "ق keeping its heaviness after the vowel has been dropped at a stop.",
+        "commonMistake": "ٱلْفَلَقْ ending on something closer to a bounced ك.",
+        "whyItHappens": "The kasra that was carrying the vowel colour has just gone, and with it the cue that was keeping the tongue back.",
+        "correctionCue": "The vowel left. The heaviness did not. Then ٱلْفَلَقِ and ٱلْفَلَقْ back to back.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Tafkhim.md"
+      }
+    ],
+    "homework": "25–35 min/day over five days. Daily: predict the waqf form out loud before reading, every word every time (two minutes); Sūrat al-Ikhlāṣ stopping at every āyah, then straight through (three minutes); the same āyah three ways — this is the drill that teaches the idea (two minutes); light kubrā then heavy kubrā (two minutes); the shadda hold with the two beats tapped out (two minutes); the five endings that must not bounce (one minute); Sūrat al-Falaq cold, five stops and five bounces (two minutes). Hifz: Manzil (al-Fātiḥah complete) then new Sabaq (114:1–114:3), revision first always. Bring to the next session: a recording of Sūrat al-Ikhlāṣ with a stop at every āyah — we check whether 'stronger' came out as 'longer'."
+  },
+  "videos": []
+}

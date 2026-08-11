@@ -1,0 +1,545 @@
+{
+  "id": "4-02",
+  "phase": 4,
+  "unit": "4.2",
+  "title": "Kalima Shahāda",
+  "objectives": [
+    "Student can recite Kalima Shahāda from memory with correct tajweed, on one or two planned breaths.",
+    "Student can name the rules in it and say which four she already met in 4-01.",
+    "Student can produce the two opposite nūn treatments in this one sentence — idghām into a lām, and iẓhār before a throat letter.",
+    "Student can carry the lām jalālah rule from 4-01 without being reminded of it."
+  ],
+  "prerequisites": [
+    "3-37"
+  ],
+  "stage": "The Kalimas",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 4.2 — Kalima Shahāda",
+      "arabicDecor": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللَّهُ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Yesterday's kalima with a frame around it",
+      "body": [
+        "Write the Ṭayyiba on one line and the Shahāda underneath it, and let her look at both before you say anything.",
+        "لَا إِلٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+        "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+        "The heart of the Shahāda is the Ṭayyiba. What is added is 'I bear witness that…' at the front and '…His servant and His messenger' at the back. Everything she fixed yesterday — the four-count lā, the heavy lāms, the join over the waṣl hamzah — transfers unchanged, and it should transfer today with no re-teaching from you.",
+        "Say it plainly: 'You are not learning a new sentence. You are learning what happens at the two ends of a sentence you already fixed.'",
+        "So this lesson is short on new rules and long on new joins.",
+        "One thing to say once, today, and then leave alone: this unit is optional relative to the four end goals of the course. It is here because it is applied tajweed on Arabic she already recites daily, and because the owner of the course kept the Uzbek tradition he learned in. Say it once, and then teach as if it mattered — because as practice, it does."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The text",
+      "body": [
+        "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+        "ashhadu an lā ilāha illa-llāhu wa ashhadu anna muḥammadan ʿabduhū wa rasūluh",
+        "\"I bear witness that there is no god except Allah, and I bear witness that Muḥammad is His servant and His messenger.\"",
+        "Shahāda — شَهَادَة — means testimony, witnessing: the Word of Testimony.",
+        "Note what changed in the second half. In the Ṭayyiba, Muḥammad is named rasūlu-llāh, the Messenger of Allah; here he is ʿabduhū wa rasūluh, His servant and His messenger — servant first. That ordering is the point of the sentence and it is worth one sentence of explanation before you start correcting sounds."
+      ],
+      "items": [
+        {
+          "arabic": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+          "translit": "ashhadu an lā ilāha illa-llāhu wa ashhadu anna muḥammadan ʿabduhū wa rasūluh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The whole kalima on the breath plan she picks. Both hāʾs of ashhadu audible, no n in an lā, a fully spoken n before ʿabduhū, and the middle sounding exactly as it did yesterday."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The middle — check it, do not teach it",
+      "body": [
+        "The middle of this kalima is the Ṭayyiba's opening, unchanged. Four things carry over, and all four are a checklist, not a lesson.",
+        "لَا إِلٰهَ — madd munfaṣil, four counts on lā.",
+        "إِلٰهَ — the dagger alif, madd ṭabīʿī, two counts.",
+        "إِلَّا اللَّهُ — the alif of the name is a waṣl hamzah and is silent: illa-llāhu, one continuous sound.",
+        "إِلَّا اللَّهُ — the lām of the name is preceded by a fatḥah, so it is heavy.",
+        "Run all four in thirty seconds. If any of them has decayed overnight, that is information about how much repetition 4-01 needs — log it, fix it fast, and move on to what is new. Do not spend the session re-teaching yesterday."
+      ],
+      "items": [
+        {
+          "arabic": "لَا إِلٰهَ إِلَّا اللَّهُ",
+          "translit": "lā ilāha illa-llāhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The transfer check. Four, two, no glottal stop, heavy lām. If this is right, today is a new lesson. If not, today is yesterday again."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "أَشْهَدُ — two whispered letters and no rule at all",
+      "body": [
+        "No named rule fires in the first word, and that is worth saying out loud, because a student who has just been taught to hunt for rules will invent one.",
+        "What there is: a shīn sākinah running straight into a hāʾ. Both are whispered letters — the breath keeps flowing through them, no vibration — so the whole sequence is breathy and easy to smudge.",
+        "The failure mode is ash-hadu collapsing into ash-adu with the hāʾ lost, or a vowel sprouting between the two: ashi-hadu.",
+        "Two clean letters, no vowel between them, both on breath. That is all.",
+        "It happens twice: أَشْهَدُ at the start and وَأَشْهَدُ in the middle. Check both — the second one is usually the worse of the two."
+      ],
+      "items": [
+        {
+          "arabic": "أَشْهَدُ",
+          "translit": "ashhadu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "sh — then h. Two letters, nothing between them. Breathe both, do not sing them."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "idghaam_no_ghunnah",
+      "heading": "أَنْ لَا — the nūn disappears into the lām",
+      "condition": "Nūn sākinah or tanwīn followed by ل or ر: the nūn sound is deleted and merged into the next letter, with no ghunnah at all.",
+      "letters": [
+        "ل",
+        "ر"
+      ],
+      "body": [
+        "The first new rule of the lesson, and the important one.",
+        "أَنْ ends in a nūn sākinah. The next word begins with ل. Nūn sākinah followed by ل or ر gives idghām without ghunnah: the nūn disappears completely into the lām, with no nasal residue.",
+        "an lā becomes al-lā — a doubled lām, held, and nothing in the nose.",
+        "She met this rule yesterday at muḥammadur rasūl, with a rāʾ. This is the same rule with a lām, and it is harder, because the result sounds like a word she already knows and she will second-guess herself.",
+        "If your primer prints أَن لَّا — the sukūn dropped from the nūn and a shadda written on the lām — that spelling is the rule made visible. Same sound either way."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "ghunnah",
+      "heading": "أَنَّ — a doubled nūn, two counts in the nose",
+      "condition": "A mīm or nūn carrying a shadda is held for two counts of nasal sound.",
+      "harakat": 2,
+      "body": [
+        "نّ — a nūn mushaddadah. Two counts of ghunnah, held in the nose.",
+        "Pair it in her ear with مُحَمَّدٌ from 4-01: a mīm mushaddadah, also two counts of ghunnah. The two nasal letters, doubled, behave identically.",
+        "That is the whole of the doubled-letter ghunnah rule, and this kalima happens to contain both halves of it.",
+        "Pinch test on both. Both must change."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "مُحَمَّدًا عَبْدُهُ — and here the nūn stays",
+      "body": [
+        "The second new rule, and the contrast that makes this lesson worth teaching.",
+        "مُحَمَّدًا ends in tanwīn fatḥ. The next word begins with ع — a throat letter. Nūn sākinah or tanwīn before a throat letter (ء ه ع ح غ خ) gives iẓhār: the nūn is pronounced clearly and fully, with no merging, no hiding, and no nasalisation carried into the next letter.",
+        "muḥammadan ʿabduhū — the n is completely audible.",
+        "Now put it beside أَنْ لَا, in the same sentence. أَنْ لَا: the nūn is gone, merged into the lām. مُحَمَّدًا عَبْدُهُ: the nūn is fully pronounced.",
+        "Same nūn sound, opposite treatments, thirty syllables apart, decided entirely by the letter that follows.",
+        "That comparison is the pedagogical payload of 4-02. Do not let the lesson end without her being able to state it herself, in English, naming the letters."
+      ],
+      "items": [
+        {
+          "arabic": "مُحَمَّدًا عَبْدُهُ",
+          "translit": "muḥammadan ʿabduhū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The n out loud. ʿayn is a throat letter, so nothing is hidden and nothing is merged. Do not let the idghām you just learned leak backwards into this."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "qalqalah",
+      "heading": "عَبْدُهُ — the lesser bounce, mid-word",
+      "condition": "A qalqalah letter (ق ط ب ج د) carrying a sukūn bounces. Mid-word it is the lesser qalqalah: small, clean, and with no vowel after it.",
+      "letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ],
+      "body": [
+        "بْ — a bāʾ with sukūn, in the middle of a word. Bāʾ is one of the five qalqalah letters.",
+        "A qalqalah letter with sukūn mid-word gets the lesser qalqalah, qalqalah ṣughrā: a small, clean bounce, no vowel added.",
+        "ʿab-duhū — you should hear a light echo off the bāʾ, not ʿabu-duhū.",
+        "Contrast it with the qalqalah kubrā she met at the optional stop in 4-01: same letter family, but mid-word it is small.",
+        "Small does not mean absent. If you cannot hear it at all, it has not happened."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "عَبْدُهُ وَرَسُولُهُ — the ṣilah, and a decision you make once",
+      "body": [
+        "The هُ of ʿabduhū is a pronoun-hāʾ. It stands between two voweled letters and is followed by a consonant — the wāw of wa — so by the Qurʾānic convention it takes ṣilah ṣughrā: stretched to two counts, as if a small wāw were written after it. ʿabduhū wa rasūluh.",
+        "Flag this one as optional, and say why: it is a Qurʾānic recitation convention being applied to a text that is not Qurʾān. That is exactly what this unit is for, but she should know that is what is happening.",
+        "If your primer, or your own teacher's tradition, does not apply ṣilah outside the Qurʾān, then read it short.",
+        "Either way: say which you are doing, and be consistent across all eight lessons. An inconsistent teacher produces an inconsistent student, and the inconsistency is what she will remember."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَرَسُولُهُ — a heavy rāʾ, and an ending that is not the Ṭayyiba's",
+      "body": [
+        "رَ with a fatḥah is heavy, exactly as in 4-01. Then ḍammah plus wāw: a natural madd, two counts.",
+        "At the end you stop, so the final hāʾ takes a sukūn and its ḍammah is not pronounced: rasūluh.",
+        "And now the good question. There is no madd ʿāriḍ lis-sukūn here, because the letter before the hāʾ is a lām, not a madd letter.",
+        "Compare it with the end of the Ṭayyiba — رَسُولُ اللَّهِ — where the dagger alif before the hāʾ is a madd letter, and where there was one.",
+        "Two endings that look the same on the page and are governed by different rules. Ask her why. She should be able to answer without you."
+      ],
+      "items": [
+        {
+          "arabic": "وَرَسُولُهُ",
+          "translit": "wa rasūluh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy rāʾ, two-count wāw, and then a plain stop on the hāʾ. No stretch at the end — there is no madd letter in front of it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The transfer check",
+      "instructions": "Recite only the middle, before anything else today. Four counts, heavy lām, no glottal stop. If it is still right from yesterday, we spend today on new material. If it is not, we spend today on yesterday. Your recitation decides, not me.",
+      "grid": [
+        [
+          {
+            "arabic": "لَا إِلٰهَ",
+            "translit": "lā ilāha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Four then two. Yesterday's drill, cold, with no warm-up."
+            }
+          },
+          {
+            "arabic": "إِلَّا اللَّهُ",
+            "translit": "illa-llāhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "One word, no bump, and a full heavy lām after the fatḥah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The nūn pair — the drill of this lesson",
+      "instructions": "Say these two back to back, ten times. Then tell me, in English, why the n vanishes in the first and stays in the second. Say the letter names. Not 'because it sounds better.'",
+      "grid": [
+        [
+          {
+            "arabic": "أَنْ لَا",
+            "translit": "al-lā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No n. Hold the doubled lām, and nothing in the nose. Pinch your nose here and nothing should change."
+            }
+          },
+          {
+            "arabic": "مُحَمَّدًا عَبْدُهُ",
+            "translit": "muḥammadan ʿabduhū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The n out loud. ʿayn is a throat letter. This one you keep."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَنَّ",
+            "translit": "anna",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Doubled nūn — two counts of hum. Pinch, and it must change."
+            }
+          },
+          {
+            "arabic": "مُحَمَّدٌ",
+            "translit": "muḥammad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Doubled mīm — two counts of hum, identical behaviour. Both nasal letters, both doubled, both the same."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The bounce, and the breath plan",
+      "instructions": "First the word alone, twenty times, listening for a bounce off the bāʾ with no vowel after it. Then the whole kalima on a breath plan you choose before you start and mark with a pencil — one breath for the whole thing, or a stop after illa-llāh. Same plan every time. Half speed, then full speed, then name the one rule that broke.",
+      "grid": [
+        [
+          {
+            "arabic": "عَبْدُهُ",
+            "translit": "ʿab-duhū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Bounce off the b, no vowel after it. Cut the sound — the bounce is the letter leaving, not a new letter arriving."
+            }
+          },
+          {
+            "arabic": "أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+            "translit": "anna muḥammadan ʿabduhū wa rasūluh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The whole second half in one piece. Hum on the doubled nūn, clear n before the ʿayn, bounce on the bāʾ, and a plain unstretched stop at the end."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+            "translit": "ashhadu an lā ilāha illa-llāhu wa ashhadu anna muḥammadan ʿabduhū wa rasūluh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The whole thing, on your marked plan. Never breathe inside muḥammadan ʿabduhū — a stop there takes the iẓhār with it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong, and what to say",
+      "mistakes": [
+        {
+          "wrong": "ashadu — the hāʾ swallowed; or ashi-hadu, with a vowel inserted between the shīn and the hāʾ.",
+          "why": "Shīn sākinah into hāʾ is two whispered letters in a row with no voicing to hold onto. The mouth either drops one of them or props them apart with a vowel.",
+          "fix": "Two letters, no vowel between them. sh — then h. Breathe both, don't sing them."
+        },
+        {
+          "wrong": "an lā, with the nūn fully pronounced.",
+          "why": "The nūn is written, and — more powerfully — this is how it is recited around her by people who never learned the rule. As in 4-01, she is copying a room.",
+          "fix": "The n goes into the lām and dies there. al-lā. Hold the l, and nothing in the nose."
+        },
+        {
+          "wrong": "muḥammadaʿ ʿabduhū — the tanwīn's nūn dropped, or nasalised into the ʿayn.",
+          "why": "She has just spent ten minutes deleting a nūn in an lā, and the rule generalises in her head. This is over-correction, not ignorance — which means repeating the iẓhār rule at her will not fix it. The contrast drill will.",
+          "fix": "That one you keep. ʿayn is a throat letter — the n stays, out loud, before it."
+        },
+        {
+          "wrong": "ʿabu-duhū — a small vowel after the bāʾ.",
+          "why": "Qalqalah is taught as 'bounce', and a bounce with the voice still on produces a vowel. The bounce has to be a release, not a note.",
+          "fix": "Cut the sound. The bounce is the letter leaving, not a new letter arriving."
+        },
+        {
+          "wrong": "A breath taken in the middle of muḥammadan ʿabduhū.",
+          "why": "No breath plan, and this is the point in the sentence where the air runs out. Stopping there destroys the iẓhār, because there is no next word to be clear before.",
+          "fix": "Breathe after llāh, or don't breathe at all. Never in the last four words."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "What was new today",
+      "items": [
+        {
+          "arabic": "أَشْهَدُ",
+          "translit": "ashhadu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Two whispered letters, no rule, no vowel between them."
+          }
+        },
+        {
+          "arabic": "أَنْ لَا",
+          "translit": "al-lā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Idghām bilā ghunnah into a lām. The n is gone."
+          }
+        },
+        {
+          "arabic": "مُحَمَّدًا عَبْدُهُ",
+          "translit": "muḥammadan ʿabduhū",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Iẓhār before a throat letter. The n stays. Plus the lesser bounce on the bāʾ."
+          }
+        },
+        {
+          "arabic": "وَرَسُولُهُ",
+          "translit": "wa rasūluh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy rāʾ, and a stop with no madd ʿāriḍ — because there is no madd letter before the hāʾ."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "The whole kalima, five times after each ṣalāh, on your chosen breath plan. The same plan every time.",
+        "The nūn pair — an lā, then muḥammadan ʿabduhū — twenty times a day, out loud, alternating. This is the drill for this lesson.",
+        "Add today's rule-stops to the card you started in 4-01. Tick the four that carry over from the Ṭayyiba — you should end the unit with most of the card ticked.",
+        "Recite the Ṭayyiba and the Shahāda back to back once a day, and notice that the middle is the same words. If they come out differently, tell me which one is right."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The transfer check",
+        "instructions": "Before anything else: the middle of the kalima, cold. Four, two, no glottal stop, heavy lām.",
+        "grid": [
+          [
+            {
+              "arabic": "لَا إِلٰهَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Four then two."
+              }
+            },
+            {
+              "arabic": "إِلَّا اللَّهُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One word, heavy lām."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The nūn pair",
+        "instructions": "Twenty times a day, alternating, out loud. Then say why the n vanishes in the first and stays in the second — naming the letters.",
+        "grid": [
+          [
+            {
+              "arabic": "أَنْ لَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No n. Doubled lām held, nothing in the nose."
+              }
+            },
+            {
+              "arabic": "مُحَمَّدًا عَبْدُهُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The n fully out loud, before the throat letter."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The two doubled nasals",
+        "instructions": "Pinch your nose for both. Both should change. If one does not, that one has no ghunnah in it.",
+        "grid": [
+          [
+            {
+              "arabic": "أَنَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two counts of hum on the doubled nūn."
+              }
+            },
+            {
+              "arabic": "مُحَمَّدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two counts of hum on the doubled mīm. Identical behaviour."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The whole kalima, on the plan",
+        "instructions": "Half speed, then full speed, on the plan you marked. Name the rule that broke at full speed before I do.",
+        "grid": [
+          [
+            {
+              "arabic": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+              "translit": "ashhadu an lā ilāha illa-llāhu wa ashhadu anna muḥammadan ʿabduhū wa rasūluh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Both hāʾs audible, no n in al-lā, a clear n before ʿabduhū, and never a breath inside the last four words."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The whole kalima five times after each ṣalāh, on the same marked breath plan",
+      "The nūn pair — an lā / muḥammadan ʿabduhū — twenty times, alternating",
+      "أَشْهَدُ alone, both times it occurs, with the hāʾ audible and no vowel inserted",
+      "عَبْدُهُ twenty times: bounce off the bāʾ, no vowel after it",
+      "The Ṭayyiba and the Shahāda back to back once a day, listening for the middle coming out the same"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with both texts written one above the other and say nothing until she has looked at them. The recognition — that the second contains the first — is the whole hook, and it is stronger if she finds it.",
+      "Say once, plainly, that this unit is optional relative to the four end goals and why it is nevertheless here: applied tajweed on Arabic she already recites daily. Say it once. Do not labour it, and do not repeat it in later lessons of the unit.",
+      "Run the four carried-over rules as a thirty-second checklist, not a lesson. If they have decayed overnight, log that and fix it fast; the temptation to re-teach 4-01 will eat the whole session.",
+      "Say out loud that no rule fires in أَشْهَدُ. A student who has just been taught to hunt for rules will invent one, and naming the absence is itself a teaching point.",
+      "Teach أَنْ لَا and مُحَمَّدًا عَبْدُهُ as a pair, never separately. The lesson is the contrast, not either rule — the same nūn sound, opposite treatments, decided entirely by the following letter.",
+      "Expect the over-correction: after ten minutes of deleting a nūn in an lā she will start deleting the one before ʿabduhū. Do not re-explain iẓhār when that happens — go straight to the contrast drill.",
+      "Do not re-teach lām jalālah today. It is a checklist item now. She should produce both heavy lāms of the middle without a prompt from you; if she needs one, note it, because it will matter in 4-05 when the light form arrives.",
+      "Decide the ṣilah question once — apply it outside the Qurʾān, or do not — and hold that decision for all eight lessons. Tell her which you have chosen and why.",
+      "Make her set the breath plan before she recites, and mark it in pencil. The stop that lands inside muḥammadan ʿabduhū is a breath-planning failure, not a tajweed failure, and it should be diagnosed as one.",
+      "Before teaching, check the wording against a printed Hanafi primer — in particular whether your primer prints أَنْ لَا or أَن لَّا. The two look different on the page and sound identical; the second spelling is the rule made visible. The kalimas are not Qurʾān and cannot be checked against the corpus, so this check is a human job."
+    ],
+    "listenFor": [
+      {
+        "item": "A clean ash-hadu at both occurrences — hāʾ audible, no vowel inserted between the shīn and the hāʾ.",
+        "makhraj": "Shīn from the middle of the tongue against the hard palate; hāʾ from the deepest part of the throat. Both whispered.",
+        "commonMistake": "ashadu with the hāʾ swallowed, or ashi-hadu with a vowel propping the two letters apart.",
+        "whyItHappens": "Two whispered letters in a row with no voicing to hold onto. The mouth either drops one or inserts a vowel to get from one to the other.",
+        "correctionCue": "Two letters, no vowel between them. sh — then h. Breathe both, don't sing them.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Hams.md"
+      },
+      {
+        "item": "أَنْ لَا read as al-lā — a doubled lām held, with no nūn and no nasal residue.",
+        "commonMistake": "an lā, with the nūn fully pronounced.",
+        "whyItHappens": "The nūn is written, and this is how the sentence is recited by almost everyone around her. She is copying a room, not misreading a page — the same mechanism as muḥammadun rasūl in 4-01.",
+        "correctionCue": "The n goes into the lām and dies there. al-lā. Hold the l, and nothing in the nose. Pinch your nose: nothing should change.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Idgham-Bila-Ghunnah.md"
+      },
+      {
+        "item": "A fully audible n at مُحَمَّدًا عَبْدُهُ — no merging, no hiding, no hum into the ʿayn.",
+        "commonMistake": "muḥammadaʿ ʿabduhū, with the nūn dropped or smudged into the ʿayn.",
+        "whyItHappens": "Over-correction. She has just spent ten minutes deleting a nūn in an lā and the rule generalises. This is a good error — it means the idghām landed — but repeating the iẓhār rule at her will not fix it.",
+        "correctionCue": "That one you keep. ʿayn is a throat letter — the n stays, out loud, before it.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Izhar-Halqi.md"
+      },
+      {
+        "item": "Two counts of ghunnah on the doubled nūn of أَنَّ, matching the doubled mīm of مُحَمَّدٌ exactly.",
+        "commonMistake": "The doubled nūn held in the mouth with no nasal sound, or clipped to a single nūn.",
+        "whyItHappens": "The shadda is read as 'say it twice' rather than 'hold it', and speed removes the hold before it removes anything else.",
+        "correctionCue": "Two counts, in the nose. Pinch and it must change — exactly like the doubled mīm in muḥammad.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ghunnah.md"
+      },
+      {
+        "item": "A small clean bounce off the bāʾ of عَبْدُهُ, with no vowel after it.",
+        "commonMistake": "ʿabu-duhū, with a small vowel after the bāʾ; or the bāʾ swallowed entirely.",
+        "whyItHappens": "Qalqalah is taught as 'bounce', and a bounce produced with the voice still on becomes a vowel. Mid-word it is also quiet enough to disappear under speed.",
+        "correctionCue": "Cut the sound. The bounce is the letter leaving, not a new letter arriving.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Qalqalah-Sughra.md"
+      },
+      {
+        "item": "A breath plan chosen before she starts, and no breath inside مُحَمَّدًا عَبْدُهُ.",
+        "commonMistake": "Deciding mid-sentence, and landing a stop between the tanwīn and the ʿayn.",
+        "whyItHappens": "No plan, and that is the point in the sentence where the air runs out. The stop then destroys the iẓhār, because there is no following word to be clear before.",
+        "correctionCue": "Breathe after llāh, or don't breathe at all. Never in the last four words.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Types.md"
+      }
+    ],
+    "homework": "Daily: the whole kalima five times after each ṣalāh on the same marked breath plan; the nūn pair — an lā / muḥammadan ʿabduhū — twenty times, alternating, out loud, which is the drill for this lesson; عَبْدُهُ twenty times for the bounce. Written: add today's rule-stops to the 4-01 card and tick the four rules carried over from the Ṭayyiba. Once a day: recite the Ṭayyiba and the Shahāda back to back and listen for the middle coming out identically — if it does not, she reports which of the two was right."
+  },
+  "videos": []
+}

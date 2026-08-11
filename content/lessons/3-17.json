@@ -1,0 +1,793 @@
+{
+  "id": "3-17",
+  "phase": 3,
+  "unit": "3.3",
+  "title": "Idghām shafawī — two meems, one letter",
+  "objectives": [
+    "Student can merge a meem sākinah into a following meem, producing one doubled meem held on a 2-count ghunnah, with no trace of a break.",
+    "Student can read the muṣḥaf's own signal for this rule — a bare meem ending one word, a shaddah'd meem opening the next.",
+    "Student can distinguish idghām shafawī from a tanwīn or a noon merging into a meem, which look identical on the page and sound identical in the mouth.",
+    "Student can find both instances in Sūrat Quraysh 106:4 unprompted."
+  ],
+  "prerequisites": [
+    "2-05",
+    "3-15",
+    "3-16"
+  ],
+  "stage": "Ghunnah & Meem Sākinah",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.17 — Idghām shafawī: two meems, one letter",
+      "arabicDecor": "أَطْعَمَهُم مِّن"
+    },
+    {
+      "kind": "concept",
+      "heading": "The ayah you recite in every second rakʿah",
+      "body": [
+        "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ — Quraysh 106:4. Read it, and listen to أَطْعَمَهُم مِّن.",
+        "You will almost certainly say hum · min — two meems, one ending a word and one opening the next, each pronounced.",
+        "There are two meems written and there is one meem spoken. The first has no life of its own; it goes into the second, and what you hear is a single doubled meem, held for two counts, humming: aṭʿama-humm-in jūʿ.",
+        "And here is the part that matters: you already know how to do this. You have been holding مّ for two counts since 3-15. The only new thing today is that the doubled meem is assembled out of two words instead of arriving pre-built inside one."
+      ],
+      "items": [
+        {
+          "arabic": "أَطْعَمَهُم مِّن جُوعٍ",
+          "translit": "aṭʿamahum-mmin jūʿin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:4 — one held meem, not two. Point at the bare meem at the end of أَطْعَمَهُم with a finger before you say anything: the rule is triggered by that letter, not by the shaddah."
+          }
+        },
+        {
+          "arabic": "حَمَّالَةَ",
+          "translit": "ḥammālata",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:4 — from 3-15. The same sound. One of them was born that way; the other was built."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Second of three — point at the map",
+      "body": [
+        "Meem sākinah + م → merge. That is today.",
+        "Meem sākinah + ب → conceal, lips lightly touching. That was last lesson.",
+        "Meem sākinah + anything else → say it plainly. That is next lesson.",
+        "Nothing else is coming. The board diagram from 3-16 has three rows and this fills the second."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "idghaam_shafawi",
+      "heading": "Idghām shafawī — labial merging",
+      "condition": "A meem sākinah at the end of a word, followed by م at the start of the next.",
+      "letters": [
+        "م"
+      ],
+      "harakat": 2,
+      "body": [
+        "The meem sākinah merges completely into the following meem. One doubled meem results, carrying a 2-count ghunnah.",
+        "The merge is kāmil — complete — ALWAYS. Nothing of the first meem survives except that its time is now part of the shaddah. There is no incomplete variant and no scholarly disagreement anywhere in this rule. It is the cleanest rule in the unit, and you deserve an easy one after تَرْمِيهِم بِحِجَارَةٍ.",
+        "The muṣḥaf already told you. In أَطْعَمَهُم مِّن the first meem is BARE — no sukūn printed on it — and the second carries a SHADDAH. That is the standing convention: a bare letter at the end of a word, the same letter with a shaddah at the start of the next, means the first has gone into the second. The shaddah is the instruction.",
+        "It has a second name you will meet in other books: إِدْغَام المُتَمَاثِلَيْن الصَّغِير — the merging of two identical letters — or إِدْغَام مِثْلَيْه. It is not a separate ruling; it is the general rule for two identical letters meeting, applied to the meem. The general theory arrives in 3-27."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Build it out loud, in three steps",
+      "body": [
+        "Do not define it. Assemble it.",
+        "Say هُمْ and مِّن separately, with a gap.",
+        "Say them with the gap shrinking.",
+        "Say هُم مِّن as one word with a held meem: humm-in.",
+        "Then write حَمَّالَةَ beside it. Same sound. One of them was born that way; the other was built.",
+        "2-06 already trained you to spot a shadda that came from an assimilation — the لـ of ٱلـ going into a sun letter, ٱلصَّمَدُ, ٱلنَّاسِ. This is the same phenomenon across a word boundary. You have been reading assimilations correctly for a whole unit."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 4,
+      "highlight": [
+        "idghaam_shafawi"
+      ],
+      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "106:4 — two idghām shafawī, four words apart: أَطْعَمَهُم مِّن and وَءَامَنَهُم مِّنْ. Earlier course material recorded this rule as having no clean in-set example. Checked against the pinned corpus, that is wrong — there are two, both here, both in a sūrah she recites from memory."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "A correction, made out loud",
+      "body": [
+        "Earlier course material recorded idghām shafawī as having no clean example inside the memorised sūrahs.",
+        "Checked against the pinned corpus, that is wrong. Quraysh 106:4 contains two — أَطْعَمَهُم مِّن and وَءَامَنَهُم مِّنْ — both verified.",
+        "This is said out loud not for the drama, but because it is a habit worth modelling: a claim about the text is checked against the text, and when it fails it is corrected in public.",
+        "So this rule needs no reference example at all. Two instances, one ayah, already memorised."
+      ],
+      "items": [
+        {
+          "arabic": "أَطْعَمَهُم مِّن جُوعٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "First of the two. Bare meem, then shaddah'd meem."
+          }
+        },
+        {
+          "arabic": "وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Second of the two, four words later, same ayah. Identical operation."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What 106:4 is actually carrying",
+      "body": [
+        "One ayah, eight words, five rulings.",
+        "أَطْعَمَهُم مِّن — idghām shafawī, today.",
+        "مِّن جُوعٍ — ikhfāʾ ḥaqīqī, ج. Lesson 3-24.",
+        "وَءَامَنَهُم مِّنْ — idghām shafawī, today.",
+        "مِّنْ خَوْفٍۭ — iẓhār ḥalqī, خ. Lesson 3-20.",
+        "خَوْفٍۭ running into بِسْمِ — iqlāb, on continuing into al-Māʿūn. Lesson 3-23.",
+        "This ayah carries the whole nasal syllabus, and you already have it memorised. Put it on a card today and return to it in 3-20, 3-23, 3-24 and 3-26. By the revision lesson you should be able to name all five without the card."
+      ]
+    },
+    {
+      "kind": "contrast",
+      "heading": "Three rules, one picture on the page",
+      "pairs": [
+        {
+          "surah": 106,
+          "ayah": 4,
+          "text": "أَطْعَمَهُم مِّن",
+          "rule": "idghaam_shafawi",
+          "note": "A bare MEEM before the shaddah'd meem. Today's rule. Bright green on a coloured page."
+        },
+        {
+          "surah": 111,
+          "ayah": 5,
+          "text": "حَبْلٌ مِّن",
+          "rule": "idghaam_ghunnah",
+          "note": "A TANWĪN before the shaddah'd meem. Not today — this is idghām with ghunnah, lesson 3-21. Teal-green, and the two greens are close."
+        },
+        {
+          "surah": 111,
+          "ayah": 5,
+          "text": "مِّن مَّسَدٍۭ",
+          "rule": "idghaam_ghunnah",
+          "note": "A bare NOON before the shaddah'd meem. Also 3-21. Same phrase as the row above, three letters later — two not-today rules side by side, in a sūrah she memorises in four lessons' time."
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The trap — and this is the hard part of the lesson",
+      "body": [
+        "On the page, three different rules produce the same picture: a word ending, then a meem with a shaddah.",
+        "A bare MEEM before it — أَطْعَمَهُم مِّن — is idghām shafawī, today.",
+        "A TANWĪN before it — حَبْلٌ مِّن, بِحِجَارَةٍ مِّن — is idghām with ghunnah, 3-21.",
+        "A bare NOON before it — مِّن مَّسَدٍۭ — is also idghām with ghunnah, 3-21.",
+        "The 2-count ghunnah is identical in all three. You will not mispronounce this. You will mis-NAME it — and naming is what the colour-coded page and the oral exam test.",
+        "The colours differ, but idghām shafawī is bright green and idghām with ghunnah is teal-green, and those two greens are close. Do not learn the rule by hue. Teach it on the letter that comes before."
+      ]
+    },
+    {
+      "kind": "legend",
+      "heading": "Two greens, close enough to distrust",
+      "rules": [
+        "idghaam_shafawi",
+        "idghaam_ghunnah"
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Assemble",
+      "instructions": "Say the left of each pair with a gap, then the right joined, with a two-count hold on the meem. Fold two fingers during the hold; the word after it does not begin until the second finger lands.",
+      "grid": [
+        [
+          {
+            "arabic": "أَطْعَمَهُمْ · مِنْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Apart — deliberately wrong. Two meems, two beats."
+            }
+          },
+          {
+            "arabic": "أَطْعَمَهُم مِّن",
+            "translit": "aṭʿamahum-mmin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — joined. One doubled meem, two counts, humming."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَءَامَنَهُمْ · مِنْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Apart."
+            }
+          },
+          {
+            "arabic": "وَءَامَنَهُم مِّنْ",
+            "translit": "wa-āmanahum-mmin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — joined. The same rule, four words after the first."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُلُوبِهِمْ · مَرَضٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Apart."
+            }
+          },
+          {
+            "arabic": "فِى قُلُوبِهِم مَّرَضٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:10 — reference example, outside your memorised sūrahs. Joined, two counts."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَهُمْ · مَغْفِرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Apart."
+            }
+          },
+          {
+            "arabic": "لَهُم مَّغْفِرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "5:9 — reference example, outside your memorised sūrahs. Joined, two counts."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Born, or built?",
+      "instructions": "Read each one and say which it is. Both get the same two-count hum, and that is the point — the mouth cannot tell them apart, only the page can.",
+      "grid": [
+        [
+          {
+            "arabic": "حَمَّالَةَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "BORN — 111:4. One word, arriving pre-built with its shaddah."
+            }
+          },
+          {
+            "arabic": "أَطْعَمَهُم مِّن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "BUILT — 106:4. Two words, assembled across the boundary."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ثُمَّ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "BORN."
+            }
+          },
+          {
+            "arabic": "لَهُم مَّغْفِرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "BUILT — 5:9, reference example."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أُمَّة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "BORN."
+            }
+          },
+          {
+            "arabic": "فِى قُلُوبِهِم مَّرَضٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "BUILT — 2:10, reference example."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Name the letter, not the rule",
+      "instructions": "Read each phrase, then say 'meem', 'tanwīn' or 'noon' — meaning: what was there BEFORE the shaddah'd meem. Do not say the rule's name; say the letter. The letter is the decision. Then have someone cover the second word of each and answer again from the first word alone: you should be right every time.",
+      "grid": [
+        [
+          {
+            "arabic": "أَطْعَمَهُم مِّن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "MEEM — 106:4. Today's rule."
+            }
+          },
+          {
+            "arabic": "حَبْلٌ مِّن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TANWĪN — 111:5. Not today; lesson 3-21."
+            }
+          },
+          {
+            "arabic": "مِّن مَّسَدٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NOON — 111:5. Not today; lesson 3-21."
+            }
+          },
+          {
+            "arabic": "وَءَامَنَهُم مِّنْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "MEEM — 106:4. Today's rule."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "هُدًى مِّن رَّبِّهِمْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TANWĪN — 2:5, reference example. Looks identical on the page, different rule."
+            }
+          },
+          {
+            "arabic": "لَهُم مَّغْفِرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "MEEM — 5:9, reference example. Today's rule."
+            }
+          },
+          {
+            "arabic": "بِحِجَارَةٍ مِّن سِجِّيلٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TANWĪN — 105:4. Not today; lesson 3-21. And the ikhfāʾ shafawī from last lesson is three words in front of it."
+            }
+          },
+          {
+            "arabic": "فِى قُلُوبِهِم مَّرَضٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "MEEM — 2:10, reference example. Today's rule."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The anchor ayah, cold",
+      "instructions": "Recite Quraysh 106:4 from memory and stop after each of the two merges. Then recite it whole, in one breath, with both merges intact. Before you begin, put a finger on the two bare meems.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+            "translit": "alladhī aṭʿamahum-mmin jūʿin wa-āmanahum-mmin khawf",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 whole, in one breath. Both merges held for two counts, without slowing the ayah down for either."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَطْعَمَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The first bare meem. This is the letter the rule acts on. Beginners look at the shaddah instead, because the shaddah is what is decorated."
+            }
+          },
+          {
+            "arabic": "وَءَامَنَهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The second bare meem. Same job, four words later."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "The six things that go wrong",
+      "mistakes": [
+        {
+          "wrong": "Two separate meems — hum-min, with a tiny gap at the word boundary.",
+          "why": "The words are printed apart, and Unit 2 taught her to read word by word. This is the default error and it will happen on the first read every time.",
+          "fix": "Assemble: left column apart, then right column joined. Then حَمَّالَةَ and هُم مِّن back to back — the mouth does the same thing in both, and she can feel that."
+        },
+        {
+          "wrong": "Omitting the ghunnah — a doubled meem that is held but not nasal.",
+          "why": "The merge is the new instruction, so attention goes to joining and the nasal is dropped. Same pattern as in 3-16.",
+          "fix": "'Pinch and say it.' She corrects herself and you say nothing."
+        },
+        {
+          "wrong": "Releasing after one count — the merge happens correctly and finishes early.",
+          "why": "It is the under-held shadda from 2-05, arriving in new clothing. This is the error that survives longest, because it SOUNDS right.",
+          "fix": "Fingers. Two folds. Diagnose it out loud as the 2-05 habit, and do not let her run at speed until day three of the homework."
+        },
+        {
+          "wrong": "Calling a tanwīn-plus-meem 'idghām shafawī'.",
+          "why": "The page looks identical and the sound is identical. There is genuinely nothing to hear — so ask her, do not listen for it.",
+          "fix": "Name-the-letter drill, then cover the second word. The rule is decided entirely by what precedes."
+        },
+        {
+          "wrong": "Merging a meem into a NOON — لَهُمْ نَصِيبٌ coming out as one long nasal.",
+          "why": "Meem and noon are both nasals and both hum, so they feel like the same letter under load.",
+          "fix": "'Two nasals is not the same as two identical letters.' A meem before a noon is the default case — plain, lips closed, no hold — and its name arrives next lesson."
+        },
+        {
+          "wrong": "Over-lengthening to four counts, so the merged meem becomes a drone.",
+          "why": "Correcting the under-hold, past the target. Usually because she is pleased with it.",
+          "fix": "Two taps on the table. Same tool, opposite direction."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "What decides it is the letter BEFORE the shaddah",
+      "items": [
+        {
+          "arabic": "أَطْعَمَهُم مِّن",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "MEEM before it → idghām shafawī. Today. 2-count ghunnah, complete merge, no disagreement anywhere."
+          }
+        },
+        {
+          "arabic": "حَبْلٌ مِّن",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TANWĪN before it → idghām with ghunnah. Lesson 3-21. Identical sound, different name."
+          }
+        },
+        {
+          "arabic": "مِّن مَّسَدٍۭ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "NOON before it → idghām with ghunnah. Lesson 3-21. Identical sound again."
+          }
+        },
+        {
+          "arabic": "حَمَّالَةَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "NOTHING before it — the shaddah was always there. Plain ghunnah, lesson 3-15. Same two counts, no merge involved."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Three minutes — assemble. Apart, then joined. Every day.",
+        "Two minutes — born or built. Say the label out loud.",
+        "Three minutes — two counts on the fingers, on every merged meem.",
+        "Three minutes — name the preceding LETTER, not the rule. This is the drill for the exam, and it is the one you will be tempted to skip because it feels like grammar rather than recitation. Do it anyway.",
+        "Two minutes — Quraysh 106:4 from memory, whole.",
+        "The rest — hifz. Manzil, Sabqi (113 and 112, now complete), then the new Sabaq al-Masad 111:1 from the page. Two doubled bāʾs in تَبَّتْ and وَتَبَّ: two counts of silence with the mouth shut, counted on the fingers during the silence.",
+        "Bring to the next session: Quraysh 106:4 recited from memory, and tell me how many rules are in it before you recite. You do not have to name them all yet — just the number."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Assemble",
+        "instructions": "Apart with a gap, then joined with a two-count hold on the merged meem. Fingers folding during the hold.",
+        "grid": [
+          [
+            {
+              "arabic": "أَطْعَمَهُمْ · مِنْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Apart — deliberately wrong."
+              }
+            },
+            {
+              "arabic": "أَطْعَمَهُم مِّن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:4 — joined. One doubled meem, two counts."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَءَامَنَهُمْ · مِنْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Apart."
+              }
+            },
+            {
+              "arabic": "وَءَامَنَهُم مِّنْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:4 — joined, four words after the first."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قُلُوبِهِمْ · مَرَضٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Apart."
+              }
+            },
+            {
+              "arabic": "فِى قُلُوبِهِم مَّرَضٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2:10 — reference example, outside your memorised sūrahs."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَهُمْ · مَغْفِرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Apart."
+              }
+            },
+            {
+              "arabic": "لَهُم مَّغْفِرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "5:9 — reference example, outside your memorised sūrahs."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Born, or built?",
+        "instructions": "Same two-count hum in both columns. Only the page can tell them apart.",
+        "grid": [
+          [
+            {
+              "arabic": "حَمَّالَةَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "BORN — one word."
+              }
+            },
+            {
+              "arabic": "أَطْعَمَهُم مِّن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "BUILT — two words."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ثُمَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "BORN."
+              }
+            },
+            {
+              "arabic": "لَهُم مَّغْفِرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "BUILT — reference example."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أُمَّة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "BORN."
+              }
+            },
+            {
+              "arabic": "فِى قُلُوبِهِم مَّرَضٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "BUILT — reference example."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Name the letter, not the rule",
+        "instructions": "Say 'meem', 'tanwīn' or 'noon' — what stood BEFORE the shaddah'd meem. Then cover the second word and answer from the first alone.",
+        "grid": [
+          [
+            {
+              "arabic": "أَطْعَمَهُم مِّن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MEEM."
+              }
+            },
+            {
+              "arabic": "حَبْلٌ مِّن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "TANWĪN."
+              }
+            },
+            {
+              "arabic": "مِّن مَّسَدٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "NOON."
+              }
+            },
+            {
+              "arabic": "وَءَامَنَهُم مِّنْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MEEM."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "هُدًى مِّن رَّبِّهِمْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "TANWĪN — reference example."
+              }
+            },
+            {
+              "arabic": "لَهُم مَّغْفِرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MEEM — reference example."
+              }
+            },
+            {
+              "arabic": "بِحِجَارَةٍ مِّن سِجِّيلٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "TANWĪN — 105:4."
+              }
+            },
+            {
+              "arabic": "فِى قُلُوبِهِم مَّرَضٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "MEEM — reference example."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The anchor ayah, cold",
+        "instructions": "106:4 from memory. Stop after each merge, then the whole ayah in one breath.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Both merges held for two counts, at ordinary speed."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Assemble — apart, then joined, every day",
+      "Born or built, with the label said out loud",
+      "Two counts on the fingers on every merged meem",
+      "Name the preceding letter — meem, tanwīn or noon — not the rule",
+      "Quraysh 106:4 from memory, whole, in one breath"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Write 106:4 and ask her to read it. Listen to أَطْعَمَهُم مِّن. She will say hum · min. Stop her there: 'there are two meems written and there is one meem spoken.'",
+      "Then say the part that catches her attention — she already knows how to do this. She has been holding مّ for two counts since 3-15. The only new thing is that the doubled meem is assembled out of two words instead of arriving pre-built inside one.",
+      "Point at the chapter map on the board. Second of three, and nothing else is coming.",
+      "State the rule and its type in one breath: complete merge, 2-count ghunnah, kāmil ALWAYS, no incomplete variant and no scholarly disagreement anywhere. Tell her that plainly — it is the cleanest rule in the unit and she deserves an easy one after تَرْمِيهِم بِحِجَارَةٍ.",
+      "Show her that the muṣḥaf already told her: the first meem is bare, the second carries a shaddah. Have her find the shaddah on the page BEFORE she reads. The shaddah is the instruction.",
+      "Give the second name — idghām al-mutamāthilayn al-ṣaghīr — only so that a different book does not read like a different rule. The general theory arrives in 3-27.",
+      "Build it out loud in three steps rather than defining it: هُمْ and مِّن apart, then with the gap shrinking, then هُم مِّن as one word. Then write حَمَّالَةَ beside it: 'same sound; one of them was born that way, the other was built.'",
+      "Correct the course's own note out loud. Earlier material recorded this rule as having no clean in-set example; checked against the pinned corpus that is wrong, and 106:4 has two. Say it — not for the drama, but because checking a claim about the text against the text, and correcting it in public when it fails, is a habit worth modelling.",
+      "Then show what 106:4 is actually carrying: five rulings in eight words, four of them still unnamed. Put it on a card today and return to it in 3-20, 3-23, 3-24 and 3-26.",
+      "Do not let her read 106:4 as 'the ayah with the idghāms'. Have her point at the two BARE meems with a finger before she says anything. The rule is triggered by the first letter, and beginners look at the shaddah because the shaddah is what is decorated.",
+      "Now the trap, and give it real time — this is the hard part of the lesson. Three rules make the same picture: bare meem, tanwīn, or bare noon before a shaddah'd meem. The 2-count ghunnah is identical in all three. She will not mispronounce this. She will mis-NAME it, and naming is what the coloured page and the oral exam test.",
+      "Use حَبْلٌ مِّن مَّسَدٍۭ (111:5) for the trap: rows two and three side by side, in a sūrah she memorises in four lessons' time. Read أَطْعَمَهُم مِّن and حَبْلٌ مِّن back to back and ask her which is which. If she cannot tell, that is the correct starting point — the sounds ARE the same. Cover the shaddah'd meem and ask again with only the first word visible.",
+      "Colour warning: idghām shafawī is bright green, idghām with ghunnah is teal-green, and the two are close. Do not let her learn the rule by hue. Teach it on the letter that comes before.",
+      "Hifz: Manzil, then Sabqi (113 and 112 now complete — if 112 has come back clean three sessions running, promote it and say so out loud; the promotion is a real event and she should get to hear it), then the new Sabaq al-Masad 111:1. Short but not easy: two doubled bāʾs, and a doubled letter you cannot sustain is the kind she under-holds. Two counts of closure, silence with the mouth shut, counted on the fingers during the silence.",
+      "Mention in passing that لَهَبٍ وَتَبَّ is a tanwīn followed by a و — a merging rule from 3-21. Do not teach it. Say 'there is a rule there, in four lessons' and let her carry the question."
+    ],
+    "listenFor": [
+      {
+        "item": "One long doubled meem where two are written — no gap, no second onset, at the word boundary.",
+        "makhraj": "The two lips, closed and held. The first meem never gets its own release; its time becomes part of the shaddah on the second.",
+        "commonMistake": "Two separate meems, hum-min, usually with a tiny gap between the words.",
+        "whyItHappens": "The words are printed apart and Unit 2 taught her to read word by word. This is the default error and it will happen on the first read every time.",
+        "correctionCue": "Assemble — left column apart, right column joined. Then حَمَّالَةَ and هُم مِّن back to back; the mouth does the same thing in both, and she can feel that.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Idgham-Shafawi.md"
+      },
+      {
+        "item": "A nasal on the merged meem — the pinch test blocking it for the full hold.",
+        "commonMistake": "A doubled meem that is held but not nasal.",
+        "whyItHappens": "The merge is the new instruction, so attention goes to joining and the nasal is dropped. The same pattern as in 3-16.",
+        "correctionCue": "'Pinch and say it.' She corrects herself.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Idgham-Shafawi.md"
+      },
+      {
+        "item": "Two full counts on the merged meem, released as the second finger lands.",
+        "commonMistake": "The merge happening correctly and finishing early, after one count.",
+        "whyItHappens": "It is the under-held shadda from 2-05 in new clothing. This is the error that survives longest, precisely because it sounds right.",
+        "correctionCue": "Fingers, two folds. Diagnose it out loud as the 2-05 habit and do not let her run at speed until day three.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Idgham-Shafawi.md"
+      },
+      {
+        "item": "The correct NAME on a tanwīn-plus-meem — 'that is 3-21, not this rule'.",
+        "commonMistake": "Calling حَبْلٌ مِّن or بِحِجَارَةٍ مِّن 'idghām shafawī'.",
+        "whyItHappens": "The page looks identical and the sound is identical. There is genuinely nothing to hear, by construction.",
+        "correctionCue": "Ask, do not listen. Name-the-letter drill, then cover the second word. The rule is decided entirely by what precedes.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Idgham-Shafawi.md"
+      },
+      {
+        "item": "A meem before a NOON left unmerged — لَهُمْ نَصِيبٌ as two audible letters.",
+        "commonMistake": "Merging the meem into the noon, producing a single long nasal.",
+        "whyItHappens": "Meem and noon are both nasals and both hum, so under load they feel like the same letter.",
+        "correctionCue": "'Two nasals is not the same as two identical letters.' A meem before a noon is the default case — plain, lips closed, no hold — and its name arrives next lesson.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Izhar-Shafawi.md"
+      },
+      {
+        "item": "Exactly two counts, not four — a hold, not a drone.",
+        "commonMistake": "Over-lengthening the merged meem.",
+        "whyItHappens": "Correcting the under-hold past the target, usually because she is pleased with it.",
+        "correctionCue": "Two taps on the table. Same tool, opposite direction.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Ghunnah.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Daily: three minutes of assemble (apart, then joined); two minutes of born-or-built with the label said out loud; three minutes of fingers folding on every merged meem; three minutes of naming the PRECEDING LETTER — meem, tanwīn or noon — which is the drill for the exam and the one she will be tempted to skip because it feels like grammar rather than recitation; two minutes of Quraysh 106:4 from memory, whole. Hifz: Manzil, Sabqi (113 and 112, with a promotion called out loud if 112 has come back clean three sessions running), then the new Sabaq al-Masad 111:1 from the page, with two counts of silent closure on each doubled bāʾ counted on the fingers. She brings to the next session Quraysh 106:4 recited from memory, having said how many rules are in it before she recites — the number only, not the names."
+  },
+  "videos": [],
+  "games": [
+    "rule-identifier",
+    "family-sorter"
+  ]
+}

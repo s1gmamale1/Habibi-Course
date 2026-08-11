@@ -1,0 +1,780 @@
+{
+  "id": "3-33",
+  "phase": 3,
+  "unit": "3.6",
+  "title": "Revision and Q&A — the madd family capstone",
+  "objectives": [
+    "Student can produce the five lengths on demand and say which of them are choices and which are not.",
+    "Student can sort any madd she meets using two questions: is there a maddah, and what comes after the madd letter?",
+    "Student's madd lengths are internally consistent across a full page — the single thing Unit 3.6 is assessed on.",
+    "Student can ask her own questions and get straight answers, including 'the scholars differ' where that is the true answer."
+  ],
+  "prerequisites": [
+    "3-28",
+    "3-29",
+    "3-30",
+    "3-31",
+    "3-32"
+  ],
+  "stage": "Madd",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.33 — Revision and Q&A: the madd family capstone",
+      "arabicDecor": "كٓهيعٓصٓ"
+    },
+    {
+      "kind": "concept",
+      "heading": "You know all five. Look at the sheet.",
+      "body": [
+        "A fresh page of the muṣḥaf, read aloud, stops at āyah ends. I say nothing while you read.",
+        "I mark only madd, on four columns: ṭabīʿī, muttaṣil, munfaṣil, ʿāriḍ. I note the length you actually gave, not whether it was right.",
+        "The result is almost always the same shape: the rules are known and the lengths wander. A three-count ṭabīʿī here, a four-count munfaṣil there, a five-count muttaṣil in the next āyah, and a set of stops ranging from two to six with no pattern.",
+        "You know all five rules — you named every one of them correctly as you read. What you don't yet have is a tempo.",
+        "Today is not about knowing. It is about steadiness. This session is calibration, not revision, and the difference matters.",
+        "No new rules today, and no new Sabaq. Revision lessons pause new rules; they never pause hifz revision."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The whole family on one sheet",
+      "body": [
+        "Rebuild the card from memory before looking at the original. What you cannot reconstruct is what this session is for.",
+        "Nothing after the madd letter → ṭabīʿī → 2 → no choice.",
+        "Hamzah, same word → muttaṣil → 4–5 → length fixed by ṭarīq, and wājib.",
+        "Hamzah, next word → munfaṣil → 4–5 → the ṭuruq differ; 2 is also correct Ḥafṣ.",
+        "Sukūn only at a stop → ʿāriḍ lis-sukūn → 2 / 4 / 6 → genuinely your choice, held constant.",
+        "Sukūn always there → lāzim → 6 → no choice at all.",
+        "Two rules govern the whole table. Munfaṣil never exceeds muttaṣil: the stronger cause never produces the shorter madd. And one length per session, whatever you pick."
+      ]
+    },
+    {
+      "kind": "legend",
+      "heading": "The madd family, as the palette paints it",
+      "rules": [
+        "madd_2",
+        "madd_muttasil",
+        "madd_munfasil",
+        "madd_246",
+        "madd_6"
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The two-question sort",
+      "body": [
+        "This is the procedure, and it should be automatic by the end of the session.",
+        "Question one — is there a maddah ٓ over the madd letter? No → two counts, and do not think about it further. Yes → question two.",
+        "Question two — what is after the madd letter? Hamzah, same word → muttaṣil, four. Hamzah, next word → munfaṣil, four. Shaddah or a written sukūn → lāzim, six. Nothing, but I am stopping here → ʿāriḍ, my number.",
+        "Run it fifteen times on real words at speed.",
+        "The target is a decision in under a second, made BEFORE you start saying the word. Deciding while you speak costs a fluency mark even when the answer is right."
+      ]
+    },
+    {
+      "kind": "contrast",
+      "heading": "Pair A and Pair B — the two questions in action",
+      "pairs": [
+        {
+          "surah": 110,
+          "ayah": 1,
+          "text": "جَآءَ",
+          "rule": "madd_muttasil",
+          "note": "Pair A. Where is the hamzah? Same word. Four to five, wājib, and no reciter anywhere shortens it."
+        },
+        {
+          "surah": 108,
+          "ayah": 1,
+          "text": "إِنَّآ أَعْطَيْنَٰكَ",
+          "rule": "madd_munfasil",
+          "note": "Pair A. Where is the hamzah? Next word. Four to five joined, two if you stop on the first word, and two also in ṭarīq aṭ-Ṭayyibah."
+        },
+        {
+          "surah": 1,
+          "ayah": 5,
+          "text": "نَسْتَعِينُ",
+          "rule": "madd_246",
+          "note": "Pair B. Is the sukūn there when I join? No — only when I stop. Two, four or six, my choice, held constant."
+        },
+        {
+          "surah": 1,
+          "ayah": 7,
+          "text": "ٱلضَّآلِّينَ",
+          "rule": "madd_6",
+          "note": "Pair B. Is the sukūn there when I join? Yes, always — it is written inside the shaddah. Six, and there is no alternative."
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "heading": "Pair C and Pair D — the two that look like the rule and are not",
+      "pairs": [
+        {
+          "surah": 110,
+          "ayah": 1,
+          "text": "جَآءَ",
+          "rule": "madd_muttasil",
+          "note": "Pair C. Which came first, the hamzah or the madd letter? Madd letter first, hamzah after: four."
+        },
+        {
+          "surah": 106,
+          "ayah": 4,
+          "text": "وَءَامَنَهُم",
+          "rule": "madd_2",
+          "note": "Pair C. Hamzah first, madd letter after. A hamzah cannot cause a madd it precedes. Two — madd badal."
+        },
+        {
+          "surah": 107,
+          "ayah": 7,
+          "text": "ٱلْمَاعُونَ",
+          "rule": "madd_246",
+          "note": "Pair D. Is the letter before the last a true madd letter? Yes — a wāw after a ḍammah. Your chosen 2 / 4 / 6."
+        },
+        {
+          "surah": 106,
+          "ayah": 4,
+          "text": "مِّنْ خَوْفٍۭ",
+          "rule": "madd_246",
+          "note": "Pair D. A wāw sākinah after a FATḤAH — a līn letter, not a true madd letter. Same 2 / 4 / 6 choice, different condition, and it must match the number you use for ʿāriḍ."
+        }
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 7,
+      "highlight": [
+        "madd_6"
+      ],
+      "translation": "The path of those upon whom You have bestowed favour, not of those who have earned anger, nor of those who are astray.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Lāzim kalimī muthaqqal, six, no alternative — and then a madd ʿāriḍ on the final yāʾ at your own number. Two different madd rules inside one word."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 108,
+      "ayah": 1,
+      "highlight": [
+        "madd_munfasil"
+      ],
+      "translation": "Indeed, We have granted you al-Kawthar.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Munfaṣil at four joined, two if you stop on إِنَّآ. Say which reading you are giving before you give it."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 5,
+      "highlight": [
+        "madd_246"
+      ],
+      "translation": "It is You we worship and You we ask for help.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "ʿĀriḍ at your number if you stop; a plain two if you join into 1:6. Same word, two rules, decided entirely by what you do next."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 110,
+      "ayah": 1,
+      "highlight": [
+        "madd_muttasil"
+      ],
+      "translation": "When the help of Allah has come, and the victory.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Muttaṣil, four to five, wājib. The one length in the family that nobody anywhere shortens — which is itself the evidence that these are transmitted readings and not preferences."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "The disagreements, collected in one place",
+      "body": [
+        "You have met three, scattered across five lessons. Collect them, because a scattered set of caveats reads as vagueness while a collected set reads as scholarship.",
+        "Munfaṣil length: 4–5 via ash-Shāṭibiyyah; 2 via aṭ-Ṭayyibah, Ḥafṣ bi-qaṣr al-munfaṣil. You read four. You recognise two as correct when you hear it.",
+        "What a ḥarakah is: the finger fold, a measured half-second or so, or purely relative to the reciter's own tempo. You use the finger as a learning aid, and you know the relative definition is the true one.",
+        "ءَآلْـَٰٔنَ: madd farq by cause, or madd lāzim kalimī mukhaffaf by form. Six counts either way. The names differ; the sound does not.",
+        "ʿAyn in the muqaṭṭaʿāt: four or six, both transmitted. Pick one and use it in both places it occurs.",
+        "The lesson to draw, out loud: a disagreement is not a gap in your knowledge. Being able to say 'there are two positions and here is the one I read by' is a HIGHER standard than being able to say 'it is four', not a lower one."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Q&A — the actual point of the session",
+      "body": [
+        "Give this at least fifteen minutes and do not fill the silence.",
+        "'How long is a count, really?' — the three positions, honestly. Do not invent a number.",
+        "'Why is munfaṣil four here and two on that recording?' — two ṭuruq. Neither reciter is wrong.",
+        "'What if I stop somewhere with a madd and I'm not sure?' — if you stopped and there is a madd letter one place from the end, it is ʿāriḍ and it takes your number. That covers nearly every case.",
+        "'Am I allowed to use six for ʿāriḍ if I use four for muttaṣil?' — yes. ʿĀriḍ is the one genuine free choice in the family. The only constraint is that munfaṣil never exceeds muttaṣil.",
+        "'What happens if I get a length wrong in the exam?' — a madd shortened enough to change the word is Jali. A madd audibly present but short of its count is Khafi. Note which one most of your errors are.",
+        "Any question I cannot answer, I write down in front of you and bring the answer next session. That is worth more to an adult student than a confident guess, and she will test it at least once."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The criterion you will actually be measured against",
+      "body": [
+        "Test 3 of the Final Checkpoint is a binary oral rule quiz, pass at 90 per cent or above, and it covers all six families. Today's material is one of the six.",
+        "You get to see the criterion now rather than on the day.",
+        "Ten quiz-format questions at the end of this session, and you get the raw score immediately.",
+        "If it is below nine, you know what the next fortnight's homework is — and you found out from a number rather than from being told."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Name it before you read it",
+      "instructions": "I point at a word. You say the rule and the number BEFORE you make any sound. Twenty words, timed, under two seconds each.",
+      "grid": [
+        [
+          {
+            "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:4 — ṭabīʿī. Two, and no choice about it."
+            }
+          },
+          {
+            "arabic": "جَآءَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:1 — muttaṣil. Four to five, wājib."
+            }
+          },
+          {
+            "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:1 — munfaṣil. Four to five joined, two if you stop on إِنَّآ."
+            }
+          },
+          {
+            "arabic": "نَسْتَعِينُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:5 — ʿāriḍ. 2/4/6 stopped, 2 joined."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — lāzim kalimī muthaqqal. Six, no alternative."
+            }
+          },
+          {
+            "arabic": "مِّنْ خَوْفٍۭ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — līn at a stop. 2/4/6, matching your ʿāriḍ number."
+            }
+          },
+          {
+            "arabic": "أَفْوَاجًا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "110:2 — madd ʿiwaḍ at a stop. The tanwīn fatḥ goes quiet and the alif that is already printed there is read: two counts. You are not adding an alif."
+            }
+          },
+          {
+            "arabic": "كٓهيعٓصٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "19:1 — ḥarfī, all tiers at once. 6 · 2 · 2 · 4–6 · 6."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The consistency page",
+      "instructions": "One page, read aloud, stops at āyah ends. I mark ONLY whether same-rule madds match each other. Your target is zero variation. This is the drill Unit 3.6 is actually assessed on — you are not marking accuracy, you are marking sameness.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْعَٰلَمِينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:2 — ʿāriḍ at your number."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحِيمِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:3 — ʿāriḍ, the same number. Not shorter because the āyah was shorter."
+            }
+          },
+          {
+            "arabic": "ٱلدِّينِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:4 — ʿāriḍ, the same number a third time."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَسْتَعِينُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:5 — ʿāriḍ, the same number. Al-Fātiḥah contains ṭabīʿī, ʿāriḍ and lāzim — three of the five — and you recite it seventeen times a day."
+            }
+          },
+          {
+            "arabic": "ٱلْمُسْتَقِيمَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:6 — ʿāriḍ, the same number."
+            }
+          },
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — six on the آ regardless of your number, then your number on the final yāʾ. Two rules, one word, and only one of them is yours to choose."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The length ladder, on one word",
+      "instructions": "Take one ʿāriḍ word at a stop and give it two, then four, then six. All three are correct. Now pick one and give me the same one on ten different stops in a row.",
+      "grid": [
+        [
+          {
+            "arabic": "سَاهُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "At TWO — qaṣr. Correct."
+            }
+          },
+          {
+            "arabic": "سَاهُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "At FOUR — tawassuṭ. Correct."
+            }
+          },
+          {
+            "arabic": "سَاهُونَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "At SIX — ishbāʿ. Also correct. Three right answers, and the only error is mixing them."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Now try the same ladder here and notice it does not work. Six is the only number this word takes. That contrast is the whole of Pair B."
+            }
+          },
+          {
+            "arabic": "جَآءَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "And here two is never available, joined or stopped. Also not a ladder."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Mock quiz — ten binary questions",
+      "instructions": "The Final Checkpoint's own format: binary correct or incorrect, no partial credit. Answer out loud, and you get the raw score at the end with no discussion in between.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلضَّآلِّينَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "How many counts is madd lāzim, and what is the alternative? — Six. There is none."
+            }
+          },
+          {
+            "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Is munfaṣil wājib or jāʾiz, and how many counts in each of the two ṭuruq? — Jāʾiz. Four to five via ash-Shāṭibiyyah, two via aṭ-Ṭayyibah."
+            }
+          },
+          {
+            "arabic": "جَآءَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Which is longer, munfaṣil or muttaṣil? — Muttaṣil is never the shorter of the two. The connected one is the strong one."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَسْتَعِينُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Does ʿāriḍ exist when you join? — No. It exists only at a stop."
+            }
+          },
+          {
+            "arabic": "كٓهيعٓصٓ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "What are the eight six-count letters, and which five are two? — نَقَصَ عَسَلُكُمْ at six; حَيٌّ طَهُرْ at two; alif nothing."
+            }
+          },
+          {
+            "arabic": "مَٰلِكِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "What does the maddah sign mean, and what is a ḥarakah? — Longer than two. And a ḥarakah is a proportion of your own tempo, not a fixed duration."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What the sheet will show",
+      "mistakes": [
+        {
+          "wrong": "Correct rule, wandering length.",
+          "why": "She is producing each madd as a separate act of will rather than from a held tempo. This is the dominant error at this stage of the course and it is worth saying so plainly.",
+          "fix": "Right rule, three different lengths. Set the beat first. The madd fits the beat."
+        },
+        {
+          "wrong": "Audible hesitation while she classifies mid-word.",
+          "why": "The two-question sort is not yet automatic, so it is running out loud.",
+          "fix": "Scan the line silently first. Decide, then read. Deciding while you speak costs you a mark for fluency even when the answer is right."
+        },
+        {
+          "wrong": "Munfaṣil creeping above muttaṣil.",
+          "why": "Whichever rule was taught most recently gets the most length.",
+          "fix": "Connected is the strong one. It can never be shorter."
+        },
+        {
+          "wrong": "A three-count ṭabīʿī everywhere, because she is now length-conscious.",
+          "why": "Four weeks of being told her madds are too short.",
+          "fix": "Two is a number, not a minimum. A natural madd that gets stretched is a different error, not a smaller one."
+        },
+        {
+          "wrong": "A confident wrong answer in Q&A rather than saying she is not sure.",
+          "why": "Adult learners guess to avoid looking unprepared, and guessing hides exactly the gap the session exists to find.",
+          "fix": "'I don't know' is a correct answer here and it costs you nothing. It is the only answer I can actually do something with."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Five lengths, and which of them are yours to choose",
+      "items": [
+        {
+          "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "translit": "māliki yawmi-d-dīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ṬABĪʿĪ — two. No choice."
+          }
+        },
+        {
+          "arabic": "جَآءَ",
+          "translit": "jāʾa",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "MUTTAṢIL — four to five, wājib. No choice within a ṭarīq, and never shortened anywhere."
+          }
+        },
+        {
+          "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+          "translit": "innā aʿṭaynāka",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "MUNFAṢIL — four to five joined, two stopped, and two in the other ṭarīq. Never longer than your muttaṣil."
+          }
+        },
+        {
+          "arabic": "نَسْتَعِينُ",
+          "translit": "nastaʿīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ʿĀRIḌ — 2, 4 or 6 at a stop; two when joining. The one genuine free choice in the family."
+          }
+        },
+        {
+          "arabic": "ٱلضَّآلِّينَ",
+          "translit": "aḍ-ḍāllīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "LĀZIM — six. The only madd in the language with no second option."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Hifz: no new portion this week. Sabqi is al-Kawthar, al-Māʿūn and Quraysh 106:1–2, each recited whole and unaided daily. Manzil rotation first. Apply the promotion rule explicitly — three consecutive clean recitations moves a surah from Sabqi to Manzil — and write the promotion date down rather than letting it happen by drift.",
+        "The consistency page, self-administered: one page a day, stops at āyah ends, one length. You are not marking accuracy — you are marking sameness.",
+        "Write out al-Fātiḥah by hand and label every madd in it with its rule name and count. Bring it. Al-Fātiḥah contains ṭabīʿī, ʿāriḍ and lāzim, and you recite it seventeen times a day.",
+        "Prepare a two-minute explanation of ʿāriḍ versus lāzim, as though I had never heard of either. You will give it at the start of next session, with no notes. If you can teach it you have it.",
+        "Write down three questions about madd that you still cannot answer. Any three. Bring them written, not remembered."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Name it before you read it",
+        "instructions": "Rule and number, out loud, before any sound. Twenty words, under two seconds each.",
+        "grid": [
+          [
+            {
+              "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ṭabīʿī — 2."
+              }
+            },
+            {
+              "arabic": "جَآءَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Muttaṣil — 4–5, wājib."
+              }
+            },
+            {
+              "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Munfaṣil — 4–5 joined, 2 stopped."
+              }
+            },
+            {
+              "arabic": "نَسْتَعِينُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ʿĀriḍ — 2/4/6 stopped, 2 joined."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلضَّآلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lāzim kalimī muthaqqal — 6."
+              }
+            },
+            {
+              "arabic": "مِّنْ خَوْفٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Līn at a stop — 2/4/6, matching your ʿāriḍ."
+              }
+            },
+            {
+              "arabic": "أَفْوَاجًا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ʿIwaḍ — 2. The alif is already printed; the tanwīn just goes quiet."
+              }
+            },
+            {
+              "arabic": "كٓهيعٓصٓ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ḥarfī, all tiers — 6 · 2 · 2 · 4–6 · 6."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The four pairs",
+        "instructions": "Read each pair back to back, five times, saying the distinguishing question out loud each time.",
+        "grid": [
+          [
+            {
+              "arabic": "جَآءَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Where is the hamzah? Same word."
+              }
+            },
+            {
+              "arabic": "إِنَّآ أَعْطَيْنَٰكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Where is the hamzah? Next word."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَسْتَعِينُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Is the sukūn there when I join? No."
+              }
+            },
+            {
+              "arabic": "ٱلضَّآلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Is the sukūn there when I join? Yes."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "جَآءَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Which came first? Madd letter, then hamzah. Four."
+              }
+            },
+            {
+              "arabic": "وَءَامَنَهُم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Which came first? Hamzah, then madd letter. Two."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْمَاعُونَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "True madd letter before the last? Yes. Your number."
+              }
+            },
+            {
+              "arabic": "مِّنْ خَوْفٍۭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "True madd letter? No — a līn. Same number, different condition."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The consistency page",
+        "instructions": "One page a day, stops at āyah ends, one length throughout. Mark sameness, not accuracy.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْعَٰلَمِينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Your number."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The same number."
+              }
+            },
+            {
+              "arabic": "ٱلدِّينِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The same number."
+              }
+            },
+            {
+              "arabic": "نَسْتَعِينُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The same number, fourth time."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Sabqi recited whole and unaided: al-Kawthar, al-Māʿūn, Quraysh 106:1–2, with Manzil rotation first",
+      "One consistency page — stops at āyah ends, one length, marked for sameness not accuracy",
+      "The four pairs, five times each, with the distinguishing question said out loud",
+      "Name-it-before-you-read-it on twenty words, under two seconds each",
+      "Once in the week: the two-minute teach-back on ʿāriḍ versus lāzim, out loud, with no notes"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Run the diagnostic before you say anything. One fresh page, stops at āyah ends, marked on four columns, and record the length she actually gave rather than whether it was right.",
+      "Then show her the sheet and give the honest diagnosis: the rules are known and the lengths wander. That reframes the session from 'revision because you might have forgotten' — which is mildly insulting to an adult — to 'calibration', which is what it actually is.",
+      "Have her rebuild the five-row card from memory BEFORE showing her the original. What she cannot reconstruct is precisely what the session is for, and it takes ninety seconds to find out.",
+      "Drill the two-question sort at speed, fifteen times, on real words. The target is a decision made before she opens her mouth. Deciding mid-utterance is scored as non-fluency at the Checkpoint even when the answer is right.",
+      "Teach the four confusion pairs rather than the five rules. Confusion in this family is never random — it is always one of those four, so the pairs are the efficient unit of revision.",
+      "Collect the disagreements into one place and say out loud that a disagreement is not a gap in her knowledge. 'There are two positions and here is the one I read by' is a higher standard than 'it is four', not a lower one.",
+      "Give the Q&A at least fifteen minutes and do not fill the silence. This is the actual point of the session; the drills are what fills the time around it.",
+      "When you cannot answer a question, write it down where she can see you do it, and bring the answer next session. An adult student will test that behaviour at least once, and it is worth more than a confident guess.",
+      "Show her the Checkpoint criterion now rather than on the day: binary oral quiz, pass at ninety per cent, all six families. Then run ten questions and give her the raw score immediately.",
+      "No new Sabaq, but the hifz slot is not skipped. Use it for a consolidation pass and apply the Sabqi-to-Manzil promotion rule explicitly, writing the date down rather than letting promotion happen by drift."
+    ],
+    "listenFor": [
+      {
+        "item": "The same length twice — matched madds within a rule across a whole page.",
+        "commonMistake": "Correct rule, wandering length: a three-count ṭabīʿī here, a five-count muttaṣil there.",
+        "whyItHappens": "She is producing each madd as a separate act of will rather than from a held tempo. This is the dominant error at this point in the course, and almost every deduction available in Unit 3.6 is a consistency deduction rather than a knowledge deduction.",
+        "correctionCue": "Right rule, three different lengths. Set the beat first. The madd fits the beat.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-32-Madd-Family-Revision.md"
+      },
+      {
+        "item": "A classification decided during the silent scan, with no audible hesitation.",
+        "commonMistake": "A pause mid-word while she works out which rule applies.",
+        "whyItHappens": "The two-question sort is not yet automatic, so it is running out loud instead of ahead of the voice.",
+        "correctionCue": "Scan the line silently first. Decide, then read. Deciding while you speak costs a fluency mark even when the answer is right.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-32-Madd-Family-Revision.md"
+      },
+      {
+        "item": "Munfaṣil at or below muttaṣil, every time, across the whole reading.",
+        "commonMistake": "Munfaṣil creeping above muttaṣil.",
+        "whyItHappens": "Whichever rule got taught most recently gets the most attention, and attention adds length.",
+        "correctionCue": "Connected is the strong one. It can never be shorter.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Munfasil.md"
+      },
+      {
+        "item": "Two counts holding steady on ṭabīʿī after four weeks of length work.",
+        "commonMistake": "A three-count ṭabīʿī everywhere, from length-consciousness.",
+        "whyItHappens": "Four weeks of being told her madds are too short. It is over-correction, and it is predictable at exactly this point in the unit.",
+        "correctionCue": "Two is a number, not a minimum. A natural madd that gets stretched is a different error, not a smaller one.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      },
+      {
+        "item": "An honest 'I don't know' in the Q&A rather than a confident guess.",
+        "commonMistake": "Guessing fluently to avoid looking unprepared.",
+        "whyItHappens": "Adult learners guess to protect their standing, and guessing hides exactly the gap the session exists to find.",
+        "correctionCue": "'I don't know' is a correct answer here and it costs you nothing. It is the only answer I can actually do something with.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-32-Madd-Family-Revision.md"
+      }
+    ],
+    "homework": "Daily: no new hifz portion, but Sabqi — al-Kawthar, al-Māʿūn and Quraysh 106:1–2 — recited whole and unaided with the Manzil rotation first; one consistency page read aloud with stops at āyah ends and one length throughout, marked for sameness rather than accuracy. Written and brought to the session: al-Fātiḥah copied out by hand with every madd labelled by rule and count; three questions about madd she still cannot answer, written down rather than remembered. Prepared: a two-minute explanation of ʿāriḍ versus lāzim to be given at the start of the next session, no notes. Promotion check: apply the three-clean-recitations rule explicitly and write the date down."
+  },
+  "videos": [],
+  "games": [
+    "madd-counter"
+  ]
+}

@@ -16,6 +16,32 @@ describe("stripDiacritics", () => {
   test("leaves bare letters unchanged", () => {
     expect(stripDiacritics("باب")).toBe("باب");
   });
+
+  // The Uthmani corpus writes the maddah as a COMBINING U+0653 over a plain alif, not as the
+  // precomposed آ (U+0622). A test written with the precomposed form passes either way and
+  // proves nothing — these strings are copied out of shipped content.
+  //
+  // 32 distinct words in content/lessons carry U+0653. Leaving it unstripped made
+  // baseLetters and displayLetters disagree in length, which silently drops the word from
+  // the game pool in derive.ts — the exact failure the comment above DIACRITICS describes.
+  // Escapes, not literals. Typing دَآبَّةٍ into this file yields the PRECOMPOSED آ (U+0622),
+  // which is a letter and is never stripped — so a literal test passes on a string the app
+  // never sees and proves nothing. The first draft of this test did exactly that.
+  const MADDAH = "ٓ";
+  const daabbatin = `دَا${MADDAH}بَّةٍ`; // دَآبَّةٍ as shipped
+  const jaa = `جَا${MADDAH}ءَ`; // جَآءَ as shipped
+
+  test("strips the combining maddah (U+0653), which the corpus writes over a plain alif", () => {
+    expect(stripDiacritics(daabbatin)).toBe("دابة");
+    expect(stripDiacritics(jaa)).toBe("جاء");
+  });
+
+  test("no combining mark survives stripping", () => {
+    for (const w of [daabbatin, jaa]) {
+      const leftovers = [...stripDiacritics(w)].filter((c) => /\p{Mn}/u.test(c));
+      expect(leftovers.map((c) => c.codePointAt(0)?.toString(16))).toEqual([]);
+    }
+  });
 });
 
 describe("baseLetters", () => {

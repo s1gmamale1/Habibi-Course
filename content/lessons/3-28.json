@@ -1,0 +1,691 @@
+{
+  "id": "3-28",
+  "phase": 3,
+  "unit": "3.6",
+  "title": "The madd family, and madd ṭabīʿī",
+  "objectives": [
+    "Student can name the three madd letters and state the vowel each one requires: fatḥah before ا, ḍammah before و, kasrah before ي.",
+    "Student can produce a clean, level two counts — not one, not four — and can hear when her own madd has come out short.",
+    "Student can say what turns a natural madd into a lengthened one: a hamzah, or a sukūn. Nothing else does.",
+    "Student can explain in her own words that a ḥarakah is a proportion of her own tempo, and that the finger fold is a learning aid rather than a definition."
+  ],
+  "prerequisites": [
+    "2-07",
+    "3-27"
+  ],
+  "stage": "Madd",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.28 — The madd family, and madd ṭabīʿī",
+      "arabicDecor": "مَٰلِكِ يَوْمِ ٱلدِّينِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Read this, slowly. I am going to say nothing.",
+      "body": [
+        "مَٰلِكِ يَوْمِ ٱلدِّينِ — al-Fātiḥah, āyah 4. You have recited it hundreds of times.",
+        "Now read it again, and this time I read مَٰلِكِ alongside you at a true two counts.",
+        "Nine times out of ten the dagger alif comes out at about one and a half, because it is not written on the line and the eye does not weigh it.",
+        "You have been reading this every day for years, and you have been reading it a little bit fast. Not wrong — short.",
+        "Today we fix the length. Once the length is right, the next five lessons are just multiples of it."
+      ],
+      "items": [
+        {
+          "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "translit": "māliki yawmi-d-dīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:4 — the superscript stroke over the mīm is a full alif. Two counts, the same as the yāʾ madd at the end of ٱلدِّينِ. Hold them against each other."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحْمَٰنِ",
+          "translit": "ar-raḥmān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:3 — the same superscript stroke, the same two counts. This is where your length is actually leaking."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 4,
+      "highlight": [
+        "madd_2"
+      ],
+      "translation": "Master of the Day of Judgement.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Two plain madds in three words: the dagger alif of مَٰلِكِ and the yāʾ of ٱلدِّينِ. Equal length. If they are not equal, one of them is wrong."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "Madd is the last of the six families",
+      "body": [
+        "Nūn sākinah and tanwīn — done. Mīm sākinah — done. Lām: shamsiyyah, qamariyyah, jalālah — done. Rāʾ — done. Qalqalah — done.",
+        "Madd starts today, and it is the sixth and last family. The map is nearly complete.",
+        "Five rules in this unit and a capstone. You already produce four of the five by ear; what you do not yet have is the measuring stick.",
+        "That is what today lays down, so do not rush it because the content looks familiar."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_2",
+      "heading": "Madd ṭabīʿī — the baseline, two counts",
+      "condition": "A madd letter followed by neither a hamzah nor a sukūn.",
+      "letters": [
+        "ا",
+        "و",
+        "ي"
+      ],
+      "harakat": 2,
+      "mnemonic": "وَاي — and the single word نُوحِيهَا, which carries all three",
+      "body": [
+        "ا is always sākinah and always follows a fatḥah. و is sākinah after a ḍammah. ي is sākinah after a kasrah.",
+        "The vowel must match. A wāw after a fatḥah is not a madd at all — it is a līn letter, which you met in 2-08 and which returns at 3-31.",
+        "Say the pairing out loud until it goes silent: fatḥah–alif, ḍammah–wāw, kasrah–yāʾ.",
+        "It is also called al-madd al-aṣlī, the original madd, because it needs no cause. It is the baseline state of a madd letter.",
+        "Two counts. Level. It starts, it holds at one pitch and one volume, and it stops. It does not swell, sag, or trail off."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The dagger alif is not a smaller alif",
+      "body": [
+        "The superscript stroke ٰ is a full alif, written above the line for orthographic reasons that have nothing to do with length.",
+        "It gets exactly the same two counts as an alif on the line. Not one. Not one and a half.",
+        "This is a visual problem, not a listening problem: the mark is small and sits off the line, so it does not read to the eye as a letter.",
+        "Read ٱلرَّحْمَٰنِ ٱلرَّحِيمِ and hold both madds equally — the ā of ar-Raḥmān and the ī of ar-Raḥīm are the same length."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلرَّحْمَٰنِ",
+          "translit": "ar-raḥmān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:3 — dagger alif over the mīm. Two full counts."
+          }
+        },
+        {
+          "arabic": "هَٰذَا",
+          "translit": "hādhā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "106:3 — a dagger alif and then an alif on the line, in one short word. Both two counts, and they should sound identical."
+          }
+        },
+        {
+          "arabic": "فَذَٰلِكَ",
+          "translit": "fa-dhālika",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "107:2 — from al-Māʿūn. Dagger alif, two counts, in the middle of a word you are about to memorise."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 3,
+      "highlight": [
+        "madd_2"
+      ],
+      "translation": "The Most Merciful, the Especially Merciful.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "One āyah, two madds, one length. The dagger alif of ٱلرَّحْمَٰنِ and the yāʾ of ٱلرَّحِيمِ are the same duration. Read them back to back until they match."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "What a ḥarakah actually is — say this out loud",
+      "body": [
+        "You are about to be given numbers: 2, 4, 5, 6. You will ask what a count is. The honest answer is that the scholars differ.",
+        "Three positions are current: the time it takes to fold or extend one finger; a measured half-second or so; or purely relative to the reciter's own tempo, with no absolute value at all.",
+        "Use the finger as a learning aid, and know that it is one. Fold the index finger for one, the middle finger for two. It externalises the count and stops you guessing.",
+        "The relative definition is the real one. A ḥarakah is a proportion of your recitation speed. Your two counts in slow tartīl are physically longer than your two counts in ḥadr, and both are correct.",
+        "What must never change inside a single session is the ratio between 2, 4 and 6. Do not chase a stopwatch — keep your tempo steady and keep the proportions honest.",
+        "A reciter whose madds are all consistently slightly long is fine. A reciter whose two-count is sometimes one and sometimes three is not."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The whole of Unit 3.6, in one sentence",
+      "body": [
+        "The moment a hamzah or a sukūn lands after a madd letter, the madd gets longer. That is the entire unit.",
+        "Nothing after the madd letter → ṭabīʿī, 2 counts. Today.",
+        "Hamzah, same word → muttaṣil, 4–5 counts. Lesson 3-29.",
+        "Hamzah, next word → munfaṣil, 4–5 counts. Lesson 3-30.",
+        "A sukūn that is there only because you stopped → ʿāriḍ lis-sukūn, 2, 4 or 6. Lesson 3-31.",
+        "A sukūn that is always there → lāzim, 6. Lesson 3-32.",
+        "Copy those five rows onto a card by hand. You will use it for six weeks."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Reading the sign — the maddah ٓ",
+      "body": [
+        "The muṣḥaf tells you. A maddah ٓ printed over a madd letter means: this madd is longer than two.",
+        "No maddah, no lengthening. That is the eye rule, and it is the single most useful habit of this unit.",
+        "Madd letter with no ٓ above it → two counts, and do not think about it any further.",
+        "That one habit turns four of the next five lessons into 'look for the wiggle', and removes most of the anxiety from them."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 108,
+      "ayah": 1,
+      "highlight": [
+        "madd_2"
+      ],
+      "translation": "Indeed, We have granted you al-Kawthar.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Today's new hifz. The dagger alif of أَعْطَيْنَٰكَ is a plain two counts. إِنَّآ carries a maddah ٓ and is longer — I am not telling you how much longer until 3-30. That is a boundary, not a hole."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 114,
+      "ayah": 5,
+      "highlight": [
+        "madd_2"
+      ],
+      "translation": "Who whispers in the breasts of mankind.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "صُدُورِ — a wāw madd after a ḍammah. ٱلنَّاسِ — an alif madd after a fatḥah. Two madd letters, two counts each, one phrase. You know this surah by heart, which is why it is safe to spend all your attention on length."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "Madd ṭabīʿī ḥarfī — the short letters of the openings",
+      "body": [
+        "Touch this lightly today; it comes back in full at 3-32.",
+        "In the disconnected letters at the head of certain sūrahs, a letter whose spelt name is two letters long, ending in a madd letter with no sukūn after it, takes a plain two counts.",
+        "The five are ح ي ط ه ر — mnemonic حَيٌّ طَهُرْ.",
+        "And the one that catches everyone: ا, alif, gets no madd at all. Its name is spelt with three letters but does not end in a madd letter.",
+        "Reference examples — outside your memorised surahs, so read them from the page: طه (20:1), both letters two counts. حمٓ (40:1), the ḥāʾ is two and the mīm carries a maddah and is six. الٓر (10:1), the alif is bare, the lām is six, the rāʾ is two.",
+        "The six-count letters are 3-32's job. Today you only own the short tier and the alif."
+      ],
+      "items": [
+        {
+          "arabic": "طه",
+          "translit": "ṭā-hā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "20:1 — reference example, outside your memorised surahs. Both letter-names end in a madd letter with nothing after it. Two counts each."
+          }
+        },
+        {
+          "arabic": "حمٓ",
+          "translit": "ḥā-mīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "40:1 — reference example, outside your memorised surahs. ḥāʾ is two; the mīm carries a maddah and is six. Do not give them the same length."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The finger metronome",
+      "instructions": "Set your own comfortable tartīl tempo by tapping four beats first. Now read each item, folding a finger per count. Every alif, wāw and yāʾ madd gets exactly two folds. If a madd ends before the second fold, say the word again.",
+      "grid": [
+        [
+          {
+            "arabic": "قَالُوا۟",
+            "translit": "qālū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2:25 — the reference case. Alif madd after a fatḥah, two counts. Shorten it and the word turns into something else."
+            }
+          },
+          {
+            "arabic": "صُدُورِ ٱلنَّاسِ",
+            "translit": "ṣudūri-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:5 — wāw madd, then alif madd, in one phrase. Two folds each, and they must match."
+            }
+          },
+          {
+            "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+            "translit": "māliki yawmi-d-dīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:4 — dagger alif and yāʾ madd, equal length. The yawm in the middle is a līn letter and gets nothing."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "translit": "ar-raḥmān",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:3 — dagger alif alone. This is the leak. Two full folds."
+            }
+          },
+          {
+            "arabic": "أَعْطَيْنَٰكَ",
+            "translit": "aʿṭaynāka",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:1 — today's hifz. Plain dagger alif, two counts, no decoration."
+            }
+          },
+          {
+            "arabic": "ٱلْكَوْثَرَ",
+            "translit": "al-kawthar",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:1 — a check item. There is no madd letter here at all; the wāw after the fatḥah is a līn. Nothing to fold."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The pair test — same length, or not?",
+      "instructions": "I give you two words. Do not read for meaning; tell me whether their madds are the same length, and if not, which is longer. The answer is 'the same' every time. Your job is to make it true, not to guess it.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Dagger alif. Two."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحِيمِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Yāʾ madd. Two. Identical to the one before it."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مَٰلِكِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Dagger alif. Two."
+            }
+          },
+          {
+            "arabic": "ٱلدِّينِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Yāʾ madd. Two. Same."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قَالُوا۟",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Alif madd. Two."
+            }
+          },
+          {
+            "arabic": "صُدُورِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Wāw madd. Two. Same as the alif before it — the letter changes, the length does not."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Say the wrong one on purpose",
+      "instructions": "Read each word correctly, then deliberately read it at one count so you hear what a short madd does to it. Say the wrong one out loud, once. You cannot avoid an error you have never heard yourself make.",
+      "grid": [
+        [
+          {
+            "arabic": "قَالُوا۟",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Correct: two counts. Now at one count — hear how it collapses towards a doubled lām instead of a long ā."
+            }
+          },
+          {
+            "arabic": "مَٰلِكِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Correct: two counts. Now at one — that shorter version is what you have been saying for years. Hear it, then never do it again."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلنَّاسِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:5 — correct at two. Now at one. The alif almost disappears."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحِيمِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Correct at two. Now at four, on purpose — over-stretching is the mistake you are about to start making this week. Hear that one too."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong this week",
+      "mistakes": [
+        {
+          "wrong": "One and a half counts on a dagger alif — مَٰلِكِ, ٱلرَّحْمَٰنِ, هَٰذَا.",
+          "why": "The mark is small and sits off the line, so it does not read as a letter. This is a visual problem, not a listening problem.",
+          "fix": "Cover the word. What did you just say? Now say ٱلرَّحِيمِ. Same length. Again — both of them, back to back."
+        },
+        {
+          "wrong": "The madd sags in volume across its two counts, so the second count is half-voiced.",
+          "why": "Breath support is running out, usually because the breath was taken in the wrong place.",
+          "fix": "Hold the sound at the same strength all the way to the end. If you can't, you breathed too late — go back and breathe before the phrase."
+        },
+        {
+          "wrong": "Four counts on a plain madd, because she is now thinking about length.",
+          "why": "A predictable and temporary consequence of today's lesson. Expect it for a week.",
+          "fix": "Two. You gave me four. A natural madd that gets stretched is no longer natural — it is just a different mistake."
+        },
+        {
+          "wrong": "Madds of inconsistent length inside one āyah.",
+          "why": "She is measuring each one separately instead of holding a tempo.",
+          "fix": "Tap the beat first, then read. The madd fits the beat; the beat does not fit the madd."
+        },
+        {
+          "wrong": "Six counts on ح or ط in the openings, or any madd at all on alif.",
+          "why": "She has heard reciters do the six-count letters and has generalised across the whole opening.",
+          "fix": "حَيٌّ طَهُرْ — those five are two. Everything else in the openings waits until 3-32."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "What you own after today",
+      "items": [
+        {
+          "arabic": "مَٰلِكِ",
+          "translit": "māliki",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TWO — dagger alif. A full alif written above the line."
+          }
+        },
+        {
+          "arabic": "صُدُورِ",
+          "translit": "ṣudūri",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TWO — wāw madd, ḍammah before a sākin wāw."
+          }
+        },
+        {
+          "arabic": "ٱلدِّينِ",
+          "translit": "ad-dīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TWO — yāʾ madd, kasrah before a sākin yāʾ."
+          }
+        },
+        {
+          "arabic": "ٱلْكَوْثَرَ",
+          "translit": "al-kawthar",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ZERO — līn wāw, fatḥah before it. Not a madd letter at all."
+          }
+        },
+        {
+          "arabic": "إِنَّآ",
+          "translit": "innā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "LONGER THAN TWO, and you do not yet know the number. The maddah ٓ says so. Lesson 3-30 gives you the number."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Hifz: Sūrat al-Kawthar, all three āyāt, as the new Sabaq. Manzil rotation first, then Sabqi, then al-Kawthar to 20–40 repetitions. Log the ten-after-a-caught-error repetitions on their own line.",
+        "The card. Copy the five-row madd table by hand and keep it in the muṣḥaf. Handwriting it is part of the homework; a photograph is not.",
+        "The dagger hunt. Take one page of the muṣḥaf and circle every superscript alif on it. Read the page aloud giving each circled mark a full two counts. Count how many you circled — the number will surprise you, and that is the point.",
+        "Read Sūrat an-Nās aloud once a day giving every madd letter exactly two counts, with the finger fold. Five āyāt, already memorised, so all your attention goes on length.",
+        "Listen to al-Fātiḥah once in Ḥuṣarī's recitation and count his madd on مَٰلِكِ with your finger. Bring me the number you got."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The finger metronome",
+        "instructions": "Tap four beats to set your tempo. Then read each item folding a finger per count — two folds for every madd letter, no more and no less.",
+        "grid": [
+          [
+            {
+              "arabic": "قَالُوا۟",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Alif madd. Two folds."
+              }
+            },
+            {
+              "arabic": "صُدُورِ ٱلنَّاسِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Wāw madd, then alif madd. Two folds each, matched."
+              }
+            },
+            {
+              "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Dagger alif and yāʾ madd, equal. The yawm gets nothing."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Dagger alif alone. Two full folds."
+              }
+            },
+            {
+              "arabic": "أَعْطَيْنَٰكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Today's hifz. Plain two."
+              }
+            },
+            {
+              "arabic": "ٱلْكَوْثَرَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No madd letter. Nothing to fold."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The pair test",
+        "instructions": "Same length or not? The answer is always 'the same'. Make it true rather than guessing it.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two. Identical."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "مَٰلِكِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two."
+              }
+            },
+            {
+              "arabic": "ٱلدِّينِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two. Same."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قَالُوا۟",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two."
+              }
+            },
+            {
+              "arabic": "صُدُورِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two. The letter changes, the length does not."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The no-maddah sweep",
+        "instructions": "On one muṣḥaf page, find five madd letters that have no ٓ over them. Read each at two counts and move on without thinking. This drill is about speed of recognition, not accuracy — the maddah-free case is meant to become invisible.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلنَّاسِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No maddah. Two, and move on."
+              }
+            },
+            {
+              "arabic": "هَٰذَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No maddah, twice over. Two and two."
+              }
+            },
+            {
+              "arabic": "فَذَٰلِكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No maddah. Two."
+              }
+            },
+            {
+              "arabic": "أَعْطَيْنَٰكَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No maddah. Two."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Al-Kawthar to 20–40 repetitions, Manzil and Sabqi first, ten extra after any caught error",
+      "Sūrat an-Nās once, every madd letter given exactly two counts with the finger fold",
+      "The pair test — three pairs, out loud, until both halves of each pair match",
+      "One page of the muṣḥaf with every superscript alif circled and read at a full two",
+      "Once in the week: read al-Fātiḥah at two different tempos and check that the madds match within each reading"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open with the hook exactly as written: she reads مَٰلِكِ يَوْمِ ٱلدِّينِ cold, you say nothing, then she reads it again with you holding a true two beside her. The gap is the whole justification for the lesson, and explaining first destroys it.",
+      "Say the diagnosis in these words: not wrong, short. She has been reading it correctly in kind and short in degree, and that distinction is what keeps an adult learner engaged rather than defensive.",
+      "Draw the six families on one sheet and tick the five she holds. Adults need to see the end of the road. Say plainly: this is the last family, it has five rules, and you already do four of them by ear.",
+      "Spend real time on the dagger alif. It is where her two counts are actually leaking, and it is a visual problem — she is not mishearing anything, she is not seeing a letter.",
+      "Do not dodge the ḥarakah question. Give all three positions, teach the finger as a learning aid, and then say the relative definition is the true one. An adult who is told a number and never told it is disputed will find out later and discount everything else you said.",
+      "Give her the five-row table from the start of the unit, not at the end of it. Knowing that four more rules are coming and what distinguishes them makes each one cheaper to learn.",
+      "Teach the maddah ٓ as a road sign before it is a rule. A reader who trusts the sign reads fluently a year before a reader who computes.",
+      "Touch the muqaṭṭaʿāt lightly. She gets the two-count tier and the alif today; the eight six-count letters are 3-32. Giving her half the rule now means 3-32 is an addition rather than a fresh start.",
+      "On إِنَّآ in 108:1, say the boundary out loud: that wiggle means longer, and I am not telling you how much longer until 3-30. Naming the limit of what she knows is better than fudging it.",
+      "Expect over-correction for a week — three-count ṭabīʿī everywhere. Warn her that it is coming so that when it happens she recognises it instead of losing confidence."
+    ],
+    "listenFor": [
+      {
+        "item": "A dagger alif held at a full two counts, matching an alif written on the line.",
+        "commonMistake": "One to one and a half counts on مَٰلِكِ, ٱلرَّحْمَٰنِ, هَٰذَا.",
+        "whyItHappens": "The superscript stroke is small and sits off the line, so the eye does not weigh it as a letter. This is a visual failure, not an auditory one, and telling her to listen harder will not fix it.",
+        "correctionCue": "Cover the word. What did you just say? Now say ٱلرَّحِيمِ. Same length. Both of them, back to back.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      },
+      {
+        "item": "A level madd — one pitch and one volume from the first count to the second, then a clean stop.",
+        "commonMistake": "The madd sags across its two counts, so the second count is half-voiced or breathy.",
+        "whyItHappens": "She is running out of breath support, usually because the breath was taken in the wrong place rather than because the madd is too long.",
+        "correctionCue": "Same strength all the way to the end. If you cannot, you breathed too late — go back and breathe before the phrase.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      },
+      {
+        "item": "Two counts that stay two — no creeping upward after a lesson spent on length.",
+        "commonMistake": "Three or four counts on a plain ṭabīʿī madd.",
+        "whyItHappens": "Over-correction, and entirely predictable in the week after this lesson. She has just been told her madds are short and is compensating.",
+        "correctionCue": "Two is a number, not a minimum. A natural madd that gets stretched is a different error, not a smaller one.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      },
+      {
+        "item": "All the ṭabīʿī madds in one āyah matching each other.",
+        "commonMistake": "Lengths wander within a single āyah — a long one at the start, a short one at the end.",
+        "whyItHappens": "She is producing each madd as a separate act of will rather than fitting it into a held tempo.",
+        "correctionCue": "Tap the beat first, then read. The madd fits the beat; the beat does not fit the madd.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      },
+      {
+        "item": "Two counts on the حَيٌّ طَهُرْ letters in the openings, and no madd at all on alif.",
+        "commonMistake": "Six counts on ح, ط or ر, or a stretched alif in الٓر.",
+        "whyItHappens": "She has heard reciters give the six-count letters their full length and has generalised the sound across the whole opening.",
+        "correctionCue": "حَيٌّ طَهُرْ. Say the mnemonic. Is that letter in it?",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Tabii.md"
+      }
+    ],
+    "homework": "Daily: al-Kawthar as the new Sabaq at 20–40 repetitions, with Manzil and Sabqi first and ten extra repetitions logged after any caught error; Sūrat an-Nās once with every madd letter at a counted two; the pair test out loud until both halves of each pair match. Once in the week: one muṣḥaf page with every superscript alif circled and read at a full two, brought to the session; and one listen to Ḥuṣarī's al-Fātiḥah counting his madd on مَٰلِكِ on the fingers, with the number reported back. The five-row madd table is to be copied out by hand — a photograph does not count."
+  },
+  "videos": [],
+  "games": [
+    "madd-counter"
+  ]
+}

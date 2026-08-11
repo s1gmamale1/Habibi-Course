@@ -1,0 +1,1396 @@
+{
+  "id": "3-02",
+  "phase": 3,
+  "unit": "3.1",
+  "title": "Ṣifāt with opposites I — hams/jahr, shiddah/rakhāwah",
+  "stage": "Ḥaqq al-Ḥarf",
+  "objectives": [
+    "Student can say what a ṣifah is and how it differs from a makhraj — where versus how — and why two letters at one point need ṣifāt to tell them apart.",
+    "Student can run the palm test on any letter, sort it into hams or jahr, and name the ten hams letters via فَحَثَّهُ شَخْصٌ سَكَتْ.",
+    "Student can hold a rakhāwah letter for three seconds, produce a shiddah letter with a real moment of silence inside it, and place the five tawassut letters between the two.",
+    "Student can say which ṣifah is being described when you say 'the breath' and which when you say 'the sound', and does not confuse the two axes."
+  ],
+  "prerequisites": [
+    "3-01"
+  ],
+  "games": [
+    "family-sorter",
+    "listen-identify"
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.2 — Ṣifāt with opposites I: hams / jahr, shiddah / rakhāwah",
+      "arabicDecor": "صِفَة"
+    },
+    {
+      "kind": "concept",
+      "heading": "ت and د are made in exactly the same place",
+      "body": [
+        "Say ت. Now say د. What is the difference? Most people answer 'one is harder' or 'they just sound different.'",
+        "They are made at exactly the same place. Same tongue, same tooth roots, same closure. Point 8 on the map you drew last lesson holds ط, د AND ت. If the makhraj were the whole story, all three would be the same letter.",
+        "And here is the error you are almost certainly making right now: ز read as س. ذ read as ث. د read as ت at the end of a word.",
+        "Each of those is one letter sliding into its neighbour at the SAME makhraj, and each of them is a failure of a single ṣifah — the breath.",
+        "The makhraj tells you where. The ṣifah tells you how. Two letters can share an address and still be different letters — and the thing that makes them different is what you are about to learn to hear."
+      ],
+      "items": [
+        {
+          "arabic": "يَلِدْ",
+          "translit": "yalid",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "112:3 — say it and listen to whether your own د arrives as a د or as a ت. Most students devoice it, because most languages devoice a final stop and nobody has ever told them Arabic does not."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What a ṣifah is, and why the system needs one",
+      "body": [
+        "A ṣifah (صِفَة, 'characteristic', plural ṣifāt) is a quality of a letter that is not its place.",
+        "Ibn al-Jazarī puts the ṣifāt immediately after the makhārij and before any contextual rule, because a letter's intrinsic properties come before what it becomes in company.",
+        "The practical reason it exists: ت, د and ط share one makhraj. What separates them is voicing, heaviness and bounce. Three ṣifāt, three letters.",
+        "Last lesson ended on exactly this cliff. The three tooth rows each held a heavy letter beside its light twin, and the columns طْ صْ ظْ / دْ زْ ذْ / تْ سْ ثْ were organised by something the map could not show. That something is the ṣifāt.",
+        "It is the same table today, read down instead of across."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Five pairs of opposites — and today is the first two",
+      "body": [
+        "hams ↔ jahr — is the BREATH running or stopped?",
+        "shiddah ↔ rakhāwah, with tawassut between — is the SOUND blocked or flowing?",
+        "istiʿlāʾ ↔ istifāl — is the back of the tongue up or down?",
+        "iṭbāq ↔ infitāḥ — how much tongue meets the palate?",
+        "idhlāq ↔ iṣmāt — how easily does it run off the tongue?",
+        "Every letter carries exactly one of each pair. Today is rows one and two only. Rows three and four are next session and they are the ones that matter most; row five is bookkeeping. The map is finite, and this is its shape."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Pair 1 — al-hams / al-jahr. This is about BREATH.",
+      "body": [
+        "Hams (الهَمْس, 'whisper') is the continued flow of breath alongside the letter. The articulators press only lightly, so they never seal the airstream and breath keeps escaping while the letter is being made.",
+        "Jahr (الجَهْر, 'announcing aloud') is the opposite: the breath is stopped, because the reliance on the makhraj is firm. The sound rides on voice, not on escaping air.",
+        "Ten hams letters, gathered as a sentence: فَحَثَّهُ شَخْصٌ سَكَتْ — fa-ḥaththahu shakhṣun sakat — ف · ح · ث · ه · ش · خ · ص · س · ك · ت.",
+        "The remaining nineteen are jahr. Learn the ten and take the rest by subtraction. (The classical mnemonic for the nineteen — عَظُمَ وَزْنُ قَارِئٍ ذِي غَضٍّ جَدَّ طَلَبْ — exists too, so a book quoting it does not stop you.)",
+        "Two physical tests. Palm test: hold the palm a few centimetres from the mouth and say the letter with a sukūn. A hams letter puffs; a jahr letter does not. تْ puffs. دْ does not.",
+        "Throat test: fingers on the voice box. A jahr letter buzzes through the whole letter. زْ buzzes; سْ does not.",
+        "And the payoff, said out loud: ك and ت are hams even though they are stops. They block the sound completely and still leak breath on release. That single fact is why they are not qalqalah letters, and you need it in two lessons' time."
+      ],
+      "items": [
+        {
+          "arabic": "فَحَثَّهُ شَخْصٌ سَكَتْ",
+          "translit": "fa-ḥaththahu shakhṣun sakat",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "'A person who had fallen silent urged him on.' Say it as a sentence five times, then extract the ten letters from it. Memorise the sentence and the list comes free."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — the palm",
+      "instructions": "Palm up, a few centimetres from the mouth. Say each letter closed by a sukūn and call out 'puff' or 'no puff' BEFORE you name the ṣifah. The pairs are deliberate: each one is a same-makhraj neighbour whose only difference is the breath.",
+      "grid": [
+        [
+          {
+            "arabic": "تْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams. A stop that still leaks breath on release."
+            }
+          },
+          {
+            "arabic": "دْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr. Same makhraj as the ت, opposite breath."
+            }
+          },
+          {
+            "arabic": "سْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams. The breath runs the whole way through."
+            }
+          },
+          {
+            "arabic": "زْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr. Fingers on the throat: it buzzes."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ثْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams."
+            }
+          },
+          {
+            "arabic": "ذْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr. Same tooth-edge makhraj as the ث."
+            }
+          },
+          {
+            "arabic": "صْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams, and heavy. Heaviness and breath are different questions."
+            }
+          },
+          {
+            "arabic": "ضْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr, and heavy."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "كْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams, even though it is a full stop. Remember this one."
+            }
+          },
+          {
+            "arabic": "قْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr. One notch back from the ك, opposite breath."
+            }
+          },
+          {
+            "arabic": "فْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams."
+            }
+          },
+          {
+            "arabic": "بْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "شْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams."
+            }
+          },
+          {
+            "arabic": "جْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr, and blocked. Middle of the tongue."
+            }
+          },
+          {
+            "arabic": "هْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "PUFF — hams, at the deepest throat."
+            }
+          },
+          {
+            "arabic": "ءْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No puff — jahr, and blocked. Its neighbour at the same depth."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Pair 2 — ash-shiddah / ar-rakhāwah, with at-tawassut in the middle. This is about SOUND.",
+      "body": [
+        "Say it as a slogan and repeat it: hams and jahr are about the BREATH. Shiddah and rakhāwah are about the SOUND. A letter has one of each.",
+        "Shiddah (الشِّدَّة, 'strength') — the sound is completely blocked at the makhraj, then released. There is a real moment of silence inside the letter. Eight letters: أَجِدْ قَطٍ بَكَتْ — ء · ج · د · ق · ط · ب · ك · ت.",
+        "Rakhāwah (الرَّخاوة, 'softness') — the sound flows continuously. The channel narrows but never seals, so the letter can be held as long as the breath lasts. Sixteen letters, reached by subtraction: ث ح خ ذ ز س ش ص ض ظ غ ف ه و ي ا.",
+        "Tawassut (التَّوَسُّط, 'betweenness'; also al-bayniyyah) — neither. The airstream is obstructed at the makhraj but escapes by another route: around the sides of the tongue (ل), through the nose (ن, م), by deviation (ر), or through a narrowed but voiced throat (ع). Five letters: لِنْ عُمَرْ — ل · ن · ع · م · ر.",
+        "Tawassut has no opposite of its own. It is the midpoint of one scale, not an eleventh ṣifah with a partner. Some books present it as having opposites on both sides; the sounds described are identical either way."
+      ],
+      "items": [
+        {
+          "arabic": "أَجِدْ قَطٍ بَكَتْ",
+          "translit": "ajid qaṭin bakat",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The eight shiddah letters. ء · ج · د · ق · ط · ب · ك · ت. Say it as a phrase, then extract the letters."
+          }
+        },
+        {
+          "arabic": "لِنْ عُمَرْ",
+          "translit": "lin ʿumar",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The five tawassut letters. ل · ن · ع · م · ر. These are the ones that ring rather than hiss."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Teach the scale by the holding test, not by the list",
+      "body": [
+        "One question, asked out loud, for every letter: can you hold it? And if you can, does it hiss or does it ring?",
+        "Cannot hold it at all — there is silence inside — shiddah.",
+        "Can hold it, and it hisses or rushes — rakhāwah.",
+        "Can hold it, and it RINGS rather than hisses — tawassut.",
+        "Run it live on قْ (cannot), سْ (hisses), لْ (rings). Three letters, three answers, thirty seconds. You now own the scale without memorising a single list."
+      ],
+      "items": [
+        {
+          "arabic": "قْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Cannot hold it. There is a real silence inside. SHIDDAH."
+          }
+        },
+        {
+          "arabic": "سْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Hold it — and it hisses. RAKHĀWAH."
+          }
+        },
+        {
+          "arabic": "لْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Hold it — and it rings rather than hisses. TAWASSUT."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — the holding test",
+      "instructions": "Three seconds each, out loud, on a stopwatch. If a letter in the first two rows dies before three seconds, it is being made as a stop. If any letter in the last two rows can be held, it is leaking.",
+      "grid": [
+        [
+          {
+            "arabic": "صْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — three seconds. Heavy and running at the same time."
+            }
+          },
+          {
+            "arabic": "شْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — three seconds of hiss."
+            }
+          },
+          {
+            "arabic": "سْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — three seconds."
+            }
+          },
+          {
+            "arabic": "ذْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — voiced the whole way, tongue tip visible."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ظْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — heavy and running. If it stops dead you made a ط."
+            }
+          },
+          {
+            "arabic": "فْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — the lower lip stays on the teeth and the breath keeps going."
+            }
+          },
+          {
+            "arabic": "حْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — middle of the throat, three seconds."
+            }
+          },
+          {
+            "arabic": "خْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "HOLD IT — a gargle you can sustain."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it. If you can, it is leaking."
+            }
+          },
+          {
+            "arabic": "طْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it. A full block."
+            }
+          },
+          {
+            "arabic": "بْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it. The lips seal."
+            }
+          },
+          {
+            "arabic": "جْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it. If you can, it has become a 'zh'."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "دْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it."
+            }
+          },
+          {
+            "arabic": "كْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it — and it puffs. Blocked and breathed at once."
+            }
+          },
+          {
+            "arabic": "تْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it — and it puffs."
+            }
+          },
+          {
+            "arabic": "ءْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "CANNOT hold it. A clean glottal stop."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — the ringing five",
+      "instructions": "لِنْ عُمَرْ. Hold each one for three seconds and check that it RINGS rather than hisses. Then pinch the nose on نْ and مْ only — those two should die, and the other three should be untouched.",
+      "grid": [
+        [
+          {
+            "arabic": "لْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Rings. The air escapes around the sides of the tongue. Pinch does nothing."
+            }
+          },
+          {
+            "arabic": "نْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Rings, through the nose. Pinch and it dies."
+            }
+          },
+          {
+            "arabic": "عْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Rings, through a narrowed but voiced throat. Pinch does nothing."
+            }
+          },
+          {
+            "arabic": "مْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Rings, through the nose. Pinch and it dies."
+            }
+          },
+          {
+            "arabic": "رْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Rings, by deviation. Pinch does nothing — and do not bounce it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Cross the two axes — the step everyone skips",
+      "body": [
+        "shiddah + hams: ك · ت — only two letters in the whole language.",
+        "shiddah + jahr: ء · ج · د · ق · ط · ب.",
+        "tawassut + jahr: ل · ن · ع · م · ر. There is no tawassut + hams cell at all.",
+        "rakhāwah + hams: ف ح ث ه ش خ ص س. rakhāwah + jahr: ذ ز ض ظ غ و ي ا.",
+        "Two things fall straight out, and both are load-bearing. The shiddah + jahr cell has six letters. Take out the hamzah — excluded by transmission — and you have ق ط ب ج د, the qalqalah five, exactly. You have been bouncing them since 1-13. In lesson 3-05 you will be able to DERIVE them.",
+        "And the shiddah + hams cell has ك and ت, which is precisely why those two do not bounce.",
+        "Say the conclusion out loud: the ṣifāt COMPOSE. They are not a list of labels stuck on letters; they are properties that combine and produce behaviour."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "ع — where the tawassut damage lives",
+      "body": [
+        "ع is the most-cited error for English, Turkish, Uzbek, Persian and Urdu speakers, and it fails in exactly two directions.",
+        "ع as a glottal stop — a hard catch in the throat. That is a ء. That is shiddah, not tawassut.",
+        "ع as an open vowel — a strained 'aa' with nothing in it.",
+        "A correct ع is squeezed at the middle of the throat and audible while it is being held. You have had this since 1-13; today it gets its name and its test.",
+        "If it starts with a click, it has become a hamzah. If it has no squeeze, it has become a vowel. Hold the ع of ٱلْعَٰلَمِينَ and count three seconds on it."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْعَٰلَمِينَ",
+          "translit": "al-ʿālamīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:2 — four of the five لِنْ عُمَرْ letters in one word: ع, ل, م, ن. The natural tawassut drill word, and the word where a weak ع is most audible in your daily prayer."
+          }
+        },
+        {
+          "arabic": "أَنْعَمْتَ",
+          "translit": "anʿamta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:7 — ن, ع and م, three tawassut letters in a row. None of them stopped, none of them hissing."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — the ع, on its own, because it needs it",
+      "instructions": "Three seconds, squeezed, voiced, no catch and no plain vowel. If it starts with a click, it has become a hamzah. If it has no squeeze, it has become a vowel.",
+      "grid": [
+        [
+          {
+            "arabic": "أَعْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A bare ع closed by a sukūn. Squeeze and hold. This is the hardest makhraj in the language."
+            }
+          },
+          {
+            "arabic": "عَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ع with an alif after it. The squeeze has to survive into the vowel."
+            }
+          },
+          {
+            "arabic": "نَعْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A tawassut ن, then a tawassut ع. Two rings, back to back."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْعَٰلَمِينَ",
+            "translit": "al-ʿālamīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:2 — hold the ع for three seconds before you let the word continue."
+            }
+          },
+          {
+            "arabic": "أَنْعَمْتَ",
+            "translit": "anʿamta",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — ن, ع, م in a row, then a final ت that keeps its hams."
+            }
+          },
+          {
+            "arabic": "فَلْيَعْبُدُوا۟",
+            "translit": "fal-yaʿbudū",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:3 — a sākin ع mid-word, held and squeezed, with no click at the front of it."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — devoicing patrol",
+      "instructions": "Fingers on the throat for the whole drill. These are the same-makhraj slides that ruin words. Say each pair, then the Qurʾānic word, and check that the second member is not turning into the first. If the buzz stops before the letter does, it has devoiced.",
+      "grid": [
+        [
+          {
+            "arabic": "س / ز",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Same makhraj, point 9. The ز must buzz through its whole length."
+            }
+          },
+          {
+            "arabic": "ث / ذ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Same makhraj, point 10. The ذ must buzz."
+            }
+          },
+          {
+            "arabic": "ت / د",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Same makhraj, point 8. The ت puffs; the د buzzes and does not puff."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "يَلِدْ",
+            "translit": "yalid",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "112:3 — the test word. Keep the buzz on to the very end. The hand should feel it stop AFTER the letter, not before."
+            }
+          },
+          {
+            "arabic": "أَعْطَيْنَٰكَ",
+            "translit": "aʿṭaynāka",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "108:1 — the ط must not arrive as a ت. And the final ك is hams: I want to feel that on the palm."
+            }
+          },
+          {
+            "arabic": "ٱلْمَغْضُوبِ",
+            "translit": "al-maghḍūb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — the ض must not arrive as a ص. Fingers on the throat: it is voiced."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 7 — two axes, cold",
+      "instructions": "For each letter give BOTH answers, in order — breath first, sound second. 'ت: hams, shiddah.' No hesitating. Run this at the top of every session until it is automatic.",
+      "grid": [
+        [
+          {
+            "arabic": "ت",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "hams, shiddah."
+            }
+          },
+          {
+            "arabic": "ز",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, rakhāwah."
+            }
+          },
+          {
+            "arabic": "ل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, tawassut."
+            }
+          },
+          {
+            "arabic": "ص",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "hams, rakhāwah."
+            }
+          },
+          {
+            "arabic": "ق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, shiddah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "م",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, tawassut."
+            }
+          },
+          {
+            "arabic": "خ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "hams, rakhāwah."
+            }
+          },
+          {
+            "arabic": "ب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, shiddah."
+            }
+          },
+          {
+            "arabic": "ن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, tawassut."
+            }
+          },
+          {
+            "arabic": "ش",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "hams, rakhāwah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "د",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, shiddah."
+            }
+          },
+          {
+            "arabic": "ع",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, tawassut."
+            }
+          },
+          {
+            "arabic": "ف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "hams, rakhāwah."
+            }
+          },
+          {
+            "arabic": "ط",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, shiddah."
+            }
+          },
+          {
+            "arabic": "ج",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "jahr, shiddah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 6,
+      "translation": "Guide us along the straight path.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "ٱلْمُسْتَقِيمَ — س and ت side by side, both hams. The breath must keep running through both of them. Palm up while you read it."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 111,
+      "ayah": 1,
+      "translation": "May the hands of Abū Lahab perish, and may he perish too.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "تَبَّتْ — the sharpest single word for pair 1. The ت and the ب are BOTH shiddah, both fully blocked, and yet the ت puffs on the palm and the ب does not. Same sound-behaviour, opposite breath-behaviour. Count the puffs: two, on the first ت and the final ت, and nothing on the ب."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 2,
+      "translation": "All praise is for Allah, Lord of all worlds.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "ٱلْعَٰلَمِينَ — jahr throughout, and four of the five لِنْ عُمَرْ letters in one word: ع, ل, م, ن. Hold the ع for three seconds."
+      }
+    },
+    {
+      "kind": "mistake",
+      "heading": "Seven ways the two axes go wrong",
+      "mistakes": [
+        {
+          "wrong": "Devoicing a jahr letter at the end of a word — يَلِدْ ending in a ت.",
+          "why": "Uzbek, Turkish, German, Russian and many others devoice final stops as a rule of the language. She is applying her own phonology, correctly, to the wrong language.",
+          "fix": "Keep the buzz on to the very end. Hand on your throat — I want to feel it stop AFTER the letter, not before."
+        },
+        {
+          "wrong": "Losing hams on word-final ت and ك — a clipped, swallowed ending with no air on the palm.",
+          "why": "She is concentrating on stopping cleanly, and a clean stop feels like it should be silent. Hams says otherwise: the breath leaks on the release.",
+          "fix": "Palm up. Say it again. I want to feel that."
+        },
+        {
+          "wrong": "ص collapsing toward a bare stop — heaviness but no flow, starting and stopping instead of hissing.",
+          "why": "The student clamps down while reaching for heaviness and turns a fricative into a plosive. The heaviness is right; the continuity is missing.",
+          "fix": "Hold it. Three seconds. Heavy AND running. Full treatment in 3-03."
+        },
+        {
+          "wrong": "ج leaking into a continuous 'zh' — a ج you can hold.",
+          "why": "The nearest sound in most students' phonology is a fricative, and the fricative is easier.",
+          "fix": "Close it completely. Nothing comes out. Now let it go. Test on يَجْعَلْ (105:2)."
+        },
+        {
+          "wrong": "ع produced as a hamzah, or as nothing — a click at the start, or a strained open vowel with no squeeze.",
+          "why": "Neither sound exists in her first language, and both failures are plausible substitutions that native listeners will still parse.",
+          "fix": "Squeeze the middle of your throat and keep it running. If it stops instantly you made a hamzah; if it has no squeeze you made a vowel."
+        },
+        {
+          "wrong": "Answering the wrong axis — 'ت, rakhāwah?' or 'س, jahr?'",
+          "why": "Both pairs are taught in one lesson and both sound like 'hard versus soft' in English. She is not confused about the letters; she is confused about which question she was asked.",
+          "fix": "Breath or sound? Which one am I asking about? Then re-ask. Drill 7 exists for this."
+        },
+        {
+          "wrong": "Bouncing a tawassut letter — a sākin ر or ل released with a kick.",
+          "why": "A sākin ر genuinely feels bouncy, and she has been bouncing five letters since 1-13.",
+          "fix": "Only blocked letters bounce. ر is not blocked — you can hold it. Hold it. Test on وَٱنْحَرْ (108:2)."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Two axes, two mnemonics, one middle",
+      "items": [
+        {
+          "arabic": "فَحَثَّهُ شَخْصٌ سَكَتْ",
+          "translit": "the ten hams letters",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "BREATH runs. ف ح ث ه ش خ ص س ك ت. The other nineteen are jahr — breath stopped."
+          }
+        },
+        {
+          "arabic": "أَجِدْ قَطٍ بَكَتْ",
+          "translit": "the eight shiddah letters",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "SOUND blocked. ء ج د ق ط ب ك ت. There is a real silence inside each one."
+          }
+        },
+        {
+          "arabic": "لِنْ عُمَرْ",
+          "translit": "the five tawassut letters",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "SOUND neither blocked nor freely flowing. ل ن ع م ر. They ring rather than hiss."
+          }
+        },
+        {
+          "arabic": "قْ · سْ · لْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The whole scale in three letters. Cannot hold it — shiddah. Hold it and it hisses — rakhāwah. Hold it and it rings — tawassut."
+          }
+        },
+        {
+          "arabic": "تَبَّتْ",
+          "translit": "tabbat",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:1 — the word that proves the axes are independent. ت and ب are both shiddah; only one of them puffs."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 20–30 min/day, five days",
+      "tasks": [
+        "Two minutes — Drill 1, the palm. Sixteen letters, 'puff' or 'no puff' out loud before naming anything.",
+        "One minute — Drill 2. Say فَحَثَّهُ شَخْصٌ سَكَتْ five times as a sentence, then list the ten letters from it.",
+        "Three minutes — Drill 3, the holding test, on a stopwatch. Any letter that should hold and dies before three seconds gets ten more repetitions.",
+        "Two minutes — Drill 5, the ع. Every day. This one does not get skipped.",
+        "Two minutes — Drill 6, devoicing patrol, fingers on the throat.",
+        "Two minutes — Drill 7, two axes cold. Breath first, sound second, no pauses.",
+        "Hifz — Manzil/Sabqi (1:1–1:2), then new Sabaq (1:3–1:4). Revision before new material, every single day.",
+        "Bring to the next session: one letter where the palm test and your instinct disagreed, and a recording of yourself saying تَبَّتْ. We will count the puffs together."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — the palm",
+        "instructions": "Palm a few centimetres from the mouth. Sukūn on every letter. Call 'puff' or 'no puff' before naming the ṣifah.",
+        "grid": [
+          [
+            {
+              "arabic": "تْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams."
+              }
+            },
+            {
+              "arabic": "دْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr."
+              }
+            },
+            {
+              "arabic": "سْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams."
+              }
+            },
+            {
+              "arabic": "زْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ثْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams."
+              }
+            },
+            {
+              "arabic": "ذْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr."
+              }
+            },
+            {
+              "arabic": "صْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams, and heavy."
+              }
+            },
+            {
+              "arabic": "ضْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr, and heavy."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "كْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams, and blocked. Remember this one."
+              }
+            },
+            {
+              "arabic": "قْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr, and blocked."
+              }
+            },
+            {
+              "arabic": "فْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams."
+              }
+            },
+            {
+              "arabic": "بْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "شْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams."
+              }
+            },
+            {
+              "arabic": "جْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr."
+              }
+            },
+            {
+              "arabic": "هْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Puff — hams."
+              }
+            },
+            {
+              "arabic": "ءْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No puff — jahr."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — the mnemonic as language",
+        "instructions": "Say the sentence, do not spell it. Five times as a sentence, then extract the ten letters out loud.",
+        "grid": [
+          [
+            {
+              "arabic": "فَحَثَّهُ شَخْصٌ سَكَتْ",
+              "translit": "fa-ḥaththahu shakhṣun sakat",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "'A person who had fallen silent urged him on.' ف · ح · ث · ه · ش · خ · ص · س · ك · ت."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — the holding test",
+        "instructions": "Three seconds each, on a stopwatch. Left-hand letters must last; right-hand letters must not.",
+        "grid": [
+          [
+            {
+              "arabic": "صْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hold."
+              }
+            },
+            {
+              "arabic": "شْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hold."
+              }
+            },
+            {
+              "arabic": "سْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hold."
+              }
+            },
+            {
+              "arabic": "ذْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hold."
+              }
+            },
+            {
+              "arabic": "ظْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hold — heavy and running."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "قْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Cannot hold."
+              }
+            },
+            {
+              "arabic": "طْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Cannot hold."
+              }
+            },
+            {
+              "arabic": "بْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Cannot hold."
+              }
+            },
+            {
+              "arabic": "جْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Cannot hold."
+              }
+            },
+            {
+              "arabic": "دْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Cannot hold."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — the ringing five",
+        "instructions": "لِنْ عُمَرْ, three seconds each. Ring, not hiss. Then pinch the nose: only ن and م should die.",
+        "grid": [
+          [
+            {
+              "arabic": "لْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Rings. Pinch does nothing."
+              }
+            },
+            {
+              "arabic": "نْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Rings. Pinch kills it."
+              }
+            },
+            {
+              "arabic": "عْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Rings. Pinch does nothing."
+              }
+            },
+            {
+              "arabic": "مْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Rings. Pinch kills it."
+              }
+            },
+            {
+              "arabic": "رْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Rings. Pinch does nothing, and do not bounce it."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — the ع",
+        "instructions": "Three seconds, squeezed, voiced. No click at the front, no bare vowel.",
+        "grid": [
+          [
+            {
+              "arabic": "أَعْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Bare, closed, held."
+              }
+            },
+            {
+              "arabic": "عَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The squeeze survives into the vowel."
+              }
+            },
+            {
+              "arabic": "نَعْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Two tawassut letters back to back."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْعَٰلَمِينَ",
+              "translit": "al-ʿālamīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:2 — three seconds on the ع."
+              }
+            },
+            {
+              "arabic": "أَنْعَمْتَ",
+              "translit": "anʿamta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:7 — ن, ع, م in a row."
+              }
+            },
+            {
+              "arabic": "فَلْيَعْبُدُوا۟",
+              "translit": "fal-yaʿbudū",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:3 — sākin ع mid-word."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — devoicing patrol",
+        "instructions": "Fingers on the throat throughout. If the buzz stops before the letter does, it has devoiced.",
+        "grid": [
+          [
+            {
+              "arabic": "يَلِدْ",
+              "translit": "yalid",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "112:3 — د, not ت."
+              }
+            },
+            {
+              "arabic": "أَعْطَيْنَٰكَ",
+              "translit": "aʿṭaynāka",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "108:1 — ط, not ت; and the final ك puffs."
+              }
+            },
+            {
+              "arabic": "ٱلْمَغْضُوبِ",
+              "translit": "al-maghḍūb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:7 — ض, not ص."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — two axes, cold",
+        "instructions": "Both answers, in order: breath first, sound second. No hesitating.",
+        "grid": [
+          [
+            {
+              "arabic": "ت",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "hams, shiddah."
+              }
+            },
+            {
+              "arabic": "ز",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, rakhāwah."
+              }
+            },
+            {
+              "arabic": "ل",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, tawassut."
+              }
+            },
+            {
+              "arabic": "ص",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "hams, rakhāwah."
+              }
+            },
+            {
+              "arabic": "ق",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, shiddah."
+              }
+            },
+            {
+              "arabic": "ش",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "hams, rakhāwah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "د",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, shiddah."
+              }
+            },
+            {
+              "arabic": "ع",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, tawassut."
+              }
+            },
+            {
+              "arabic": "ط",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, shiddah."
+              }
+            },
+            {
+              "arabic": "ف",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "hams, rakhāwah."
+              }
+            },
+            {
+              "arabic": "ن",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, tawassut."
+              }
+            },
+            {
+              "arabic": "ج",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "jahr, shiddah."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1, the palm — sixteen letters, 'puff' or 'no puff' before the ṣifah is named",
+      "Drill 2 — فَحَثَّهُ شَخْصٌ سَكَتْ five times as a sentence, then the ten letters extracted",
+      "Drill 3, the holding test — three seconds on a stopwatch",
+      "Drill 5, the ع — every day, no exceptions",
+      "Drill 6, devoicing patrol — fingers on the throat",
+      "Drill 7, two axes cold — breath first, sound second",
+      "Hifz — Manzil/Sabqi (1:1–1:2), then new Sabaq (1:3–1:4)"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Lead with the error and make it hers before you name it. Say ت and د to her, ask what the difference is, and let her answer 'one is harder'. Then tell her they are made at exactly the same place.",
+      "Point back at last lesson's tooth-row table. It is the same table today, read down instead of across — the columns are organised by something the map cannot show.",
+      "Have her read يَلِدْ (112:3) and listen for whether her own د arrives as a د or as a ت. Most students devoice it, because most languages devoice a final stop and nobody has ever told them Arabic does not.",
+      "Show the whole five-pair system once, then close it again. Today is rows one and two only; say that, so she knows the map is finite.",
+      "Run BOTH physical tests live. Palm test for hams/jahr, throat test for the buzz. Do not let her sort letters by ear — the ear is what produced the error.",
+      "Say the payoff of the hams list explicitly: ك and ت are hams even though they are stops. That single fact is why they are not qalqalah letters, and she needs it in two lessons' time.",
+      "Do not let her merge the two pairs. Make her repeat the slogan: hams and jahr are about the BREATH; shiddah and rakhāwah are about the SOUND; a letter has one of each.",
+      "Teach the shiddah/rakhāwah/tawassut scale by the holding test, not by the list. قْ, سْ, لْ — cannot hold, hisses, rings. Thirty seconds and she owns the scale.",
+      "Build the two-axis grid WITH her at the board. The shiddah + jahr cell minus the hamzah is the qalqalah five exactly, and she has been bouncing them since 1-13. In 3-05 she will derive them. Tell her that now — it makes today feel like it is going somewhere.",
+      "Say the general conclusion out loud: the ṣifāt COMPOSE. They are not labels stuck on letters; they are properties that combine and produce behaviour.",
+      "Close on ع, where the tawassut damage lives. Two failure directions — a glottal stop (that is a ء, and it is shiddah) or an open vowel (nothing in it). Hold ٱلْعَٰلَمِينَ and count three seconds on the ع.",
+      "تَبَّتْ is the sharpest single word for pair 1: ت and ب are both shiddah, and only the ت puffs. Have her count the puffs with her palm up — two, and nothing on the ب.",
+      "Hifz: Manzil/Sabqi first — 1:1–1:2 from memory, before anything new. Ten extra repetitions on any corrected word, as its own step.",
+      "New Sabaq is 1:3–1:4, twenty to forty repetitions from the page. Two tajweed points to hold: the ح of ٱلرَّحْمَٰنِ and ٱلرَّحِيمِ is hams and rakhāwah — breath running, sound running, middle of the throat, not a soft ه and not a scraped خ; and the د of ٱلدِّينِ is jahr and shiddah, doubled and held, with the buzz not dropping out in the middle of the hold."
+    ],
+    "listenFor": [
+      {
+        "item": "A jahr letter staying voiced right through to the end of a word — the buzz stopping after the letter, not before it.",
+        "makhraj": "Tongue point 8 for د/ت, point 9 for ز/س, point 10 for ذ/ث — the pairs share a makhraj and differ only in breath.",
+        "commonMistake": "يَلِدْ ending in a ت. Fingers on the throat settle it in one second.",
+        "whyItHappens": "Uzbek, Turkish, German, Russian and many others devoice final stops as a rule of the language. She is applying her own phonology, correctly, to the wrong language.",
+        "correctionCue": "Keep the buzz on to the very end. Hand on your throat — I want to feel it stop AFTER the letter, not before.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Jahr.md"
+      },
+      {
+        "item": "Audible breath on the palm at the release of a word-final ت or ك.",
+        "commonMistake": "A clipped, swallowed ending on تَبَّتْ or أَعْطَيْنَٰكَ with no air on the palm.",
+        "whyItHappens": "She is concentrating on stopping cleanly, and a clean stop feels like it should be silent. Hams says otherwise: the breath leaks on the release.",
+        "correctionCue": "Palm up. Say it again. I want to feel that.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Hams.md"
+      },
+      {
+        "item": "ص held for three seconds — heavy AND running at the same time.",
+        "commonMistake": "A ص that has heaviness but no flow: it starts and stops instead of hissing.",
+        "whyItHappens": "The student clamps down while reaching for heaviness and turns a fricative into a plosive. The heaviness is right; the continuity is missing.",
+        "correctionCue": "Hold it. Three seconds. Heavy and running.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Rakhawah.md"
+      },
+      {
+        "item": "A real moment of silence inside every shiddah letter — nothing escaping during the closure.",
+        "commonMistake": "ج leaking into a continuous 'zh' that can be held.",
+        "whyItHappens": "The nearest sound in most students' phonology is a fricative, and the fricative is easier.",
+        "correctionCue": "Close it completely. Nothing comes out. Now let it go. Test on يَجْعَلْ.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Shiddah.md"
+      },
+      {
+        "item": "ع squeezed at the middle of the throat, voiced, and audible for three seconds while held.",
+        "makhraj": "Middle of the throat, وَسَط الحلق — narrowed but voiced, so the air escapes rather than stopping.",
+        "commonMistake": "A click at the start of the ع, or a strained open vowel with no squeeze in it.",
+        "whyItHappens": "Neither sound exists in her first language, and both failures are plausible substitutions that native listeners will still parse — so nothing in ordinary conversation has ever corrected her.",
+        "correctionCue": "Squeeze the middle of your throat and keep it running. If it stops instantly you made a hamzah; if it has no squeeze you made a vowel.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Tawassut.md"
+      },
+      {
+        "item": "The right axis answered — breath first, sound second, without swapping them.",
+        "commonMistake": "'ت — rakhāwah?' or 'س — jahr?' She is not confused about the letters; she is confused about which question she was asked.",
+        "whyItHappens": "Both pairs are taught in one lesson and both sound like 'hard versus soft' in English.",
+        "correctionCue": "Breath or sound? Which one am I asking about? Then re-ask.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Sifat.md"
+      },
+      {
+        "item": "Sākin ر and ل released cleanly, with no kick.",
+        "commonMistake": "A sākin ر or ل bounced as though it were a qalqalah letter.",
+        "whyItHappens": "A sākin ر genuinely feels bouncy, and she has been bouncing five letters since 1-13.",
+        "correctionCue": "Only blocked letters bounce. ر is not blocked — you can hold it. Hold it. Test on وَٱنْحَرْ.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Tawassut.md"
+      }
+    ],
+    "homework": "20–30 min/day over five days. Daily: Drill 1 (the palm, sixteen letters, 'puff' or 'no puff' before naming anything) two minutes; Drill 2 (فَحَثَّهُ شَخْصٌ سَكَتْ five times as a sentence, then the ten letters) one minute; Drill 3 (the holding test, on a stopwatch — any letter that should hold and dies before three seconds gets ten more repetitions) three minutes; Drill 5 (the ع — this one does not get skipped) two minutes; Drill 6 (devoicing patrol, fingers on the throat) two minutes; Drill 7 (two axes cold, breath first and sound second) two minutes. Hifz: Manzil/Sabqi (1:1–1:2) then new Sabaq (1:3–1:4), revision before new material every single day. Bring to the next session: one letter where the palm test and her instinct disagreed, and a recording of تَبَّتْ — we count the puffs together."
+  },
+  "videos": []
+}

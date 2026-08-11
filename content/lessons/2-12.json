@@ -1,0 +1,921 @@
+{
+  "id": "2-12",
+  "phase": 2,
+  "unit": "2.3",
+  "title": "Fully-voweled sentences I — and how to stop",
+  "objectives": [
+    "Student can read a complete fully-voweled sentence in planned breath groups, deciding BEFORE she begins where she will stop.",
+    "Student can stop correctly: final ḥarakah dropped, ة read as a silent hāʾ, and a long vowel before the stop allowed to stretch.",
+    "Student can restart cleanly from the word after her stop, using the waṣl-hamzah starting vowels from 2-09.",
+    "Student can say what changed about a word when she stopped on it, in her own words."
+  ],
+  "prerequisites": [
+    "2-10",
+    "2-11"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.12 — Fully-voweled sentences I, and how to stop",
+      "arabicDecor": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+    },
+    {
+      "kind": "concept",
+      "heading": "A word that ends on a vowel going nowhere",
+      "body": [
+        "Read 1:5, and then stop.",
+        "You will end it nastaʿīnu — with the ḍammah still sounding, hanging in the air with nothing after it.",
+        "Say that last word again, and then be silent for three seconds. You will hear it yourself.",
+        "The word ends on a vowel that is going nowhere. It sounds unfinished because it IS unfinished: no Arabic word ends in a vowel at a stop.",
+        "Everything you have read so far, you have read as if something came next. Today you learn what a word does when nothing comes next."
+      ],
+      "items": [
+        {
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "translit": "iyyāka naʿbudu wa-iyyāka nastaʿīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:5 — read it and stop. iyyāka naʿbudu wa-iyyāka nastaʿīn."
+          }
+        },
+        {
+          "arabic": "نَسْتَعِينُ",
+          "translit": "nastaʿīnu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "As printed: نَسْتَعِينُ, with a ḍammah — because the page is written for JOINING."
+          }
+        },
+        {
+          "arabic": "نَسْتَعِينْ",
+          "translit": "nastaʿīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "As stopped — the ḍammah gone, closing on a sukūn. This is not printed anywhere; it is what you do."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Why stopping is taught here, and not in Unit 3",
+      "body": [
+        "This is the most important teaching decision in Unit 2, and it is a deliberate correction of the classical ordering.",
+        "There is a madd rule — the one that makes a long vowel stretch at a stop — that is DEFINED by what happens when you stop. It does not exist in joined reading at all: joined, the same word carries a plain two-count madd.",
+        "Al-Jazariyyah puts madd in chapter 11 and stopping in chapter 12. An earlier draft of this course's own syllabus inherited that order — madd at 3.18, stopping at 3.25. Both put the consequence before its cause.",
+        "So the course fixes it here. 2-12 introduces stopping, 2-13 drills it, 2-14 applies it on a real page — and Unit 3 then formalises the rule on a foundation you already have in your mouth.",
+        "At this stage stopping is a HABIT, not a taxonomy. Three things, no counts, no rule names, and no nine-item table. You meet all of that in Unit 3, and meeting it now would cost you the fluency this lesson exists to build."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "A sentence is longer than a breath",
+      "body": [
+        "Look at 105:1. Where will you breathe? Answer BEFORE you read a single word, then mark the place with a pencil arc.",
+        "This is the one habit the whole lesson is for.",
+        "The error it prevents — running out of air mid-āyah and stopping wherever the lungs give out — is the most common and the most damaging fault in early recitation, because the place the lungs choose is never a place that means anything.",
+        "The rule for now: stop at the end of an āyah, or at the end of a complete idea.",
+        "Which stops are permitted where, and what the little letters printed above the line mean, is Unit 3. Today: āyah ends are always safe. Use them."
+      ],
+      "items": [
+        {
+          "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+          "translit": "alam tara kayfa faʿala rabbuka bi-aṣḥābi-l-fīl",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "105:1 — alam tara kayfa faʿala rabbuka bi-aṣḥābi-l-fīl. Where does your arc go? Decide first, read second."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Never stop in the middle of a word",
+      "body": [
+        "A word broken in half is not a word. Stopping mid-word can change the meaning, and it always changes whether what you said is Arabic at all.",
+        "If you run out of breath mid-word, the instruction is: go back to the BEGINNING of that word and read it again.",
+        "Not push through. Not resume from the middle.",
+        "This is worth drilling as its own reflex, because the panic response is to continue — and the reflex has to be stronger than the panic."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stop change one — the final ḥarakah drops",
+      "body": [
+        "You stop on a sukūn. Whatever vowel was on the last letter, it is gone.",
+        "نَسْتَعِينُ becomes نَسْتَعِينْ. ٱلْعَٰلَمِينَ becomes ٱلْعَٰلَمِينْ. ٱلرَّحِيمِ becomes ٱلرَّحِيمْ. ٱلْفَلَقِ becomes ٱلْفَلَقْ.",
+        "Tanwīn is a ḥarakah too, so it drops the same way. أَحَدٌ becomes aḥad. لَهَبٍ becomes lahab.",
+        "The one that LOOKS different is tanwīn fatḥ — أَفْوَاجًا becomes afwājā — but look at the page: the alif is already printed there. You are not adding anything. You are reading what is written, now that the tanwīn above it has gone quiet.",
+        "That is a footnote to one rule, not a fourth rule. It costs ten seconds and saves you a rule."
+      ],
+      "items": [
+        {
+          "arabic": "نَسْتَعِينُ",
+          "translit": "nastaʿīnu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Joined: nastaʿīnu."
+          }
+        },
+        {
+          "arabic": "نَسْتَعِينْ",
+          "translit": "nastaʿīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Stopped: nastaʿīn."
+          }
+        },
+        {
+          "arabic": "أَحَدٌ",
+          "translit": "aḥadun",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Joined: aḥadun."
+          }
+        },
+        {
+          "arabic": "أَحَدْ",
+          "translit": "aḥad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Stopped: aḥad. Tanwīn is a ḥarakah, and it drops like one."
+          }
+        },
+        {
+          "arabic": "أَفْوَاجًا",
+          "translit": "afwājā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "110:2 — أَفْوَاجًا. Stopped, this is afwājā, and it is ALREADY what is printed. The alif was there all along."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stop change two — ة becomes a silent hāʾ",
+      "body": [
+        "The tāʾ marbūṭah ة is read as a تـ when you join, and as a هْ when you stop.",
+        "ٱلْمُوقَدَةُ becomes al-mūqadah. رَحْمَةً becomes raḥmah. مَدْرَسَةٌ becomes madrasah.",
+        "Point at the two dots on the ة: the dots are there for when you JOIN. Stop, and you ignore them.",
+        "The contrast case matters. حَمَّالَةَ ٱلْحَطَبِ — you join straight through, so the ة is a t: ḥammālata-l-ḥaṭab.",
+        "And the exception, once, in passing: ذَاتَ in نَارًا ذَاتَ لَهَبٍ is written with an OPEN تـ, so it would stop as dhāt. Read what is written — if the tāʾ is open, it stays a t."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْمُوقَدَةُ",
+          "translit": "al-mūqadatu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "104:6 joined: al-mūqadatu, with the dots read."
+          }
+        },
+        {
+          "arabic": "ٱلْمُوقَدَهْ",
+          "translit": "al-mūqadah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "104:6 stopped: al-mūqadah. The dots are ignored and the letter goes soft."
+          }
+        },
+        {
+          "arabic": "حَمَّالَةَ",
+          "translit": "ḥammālata",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:4 — حَمَّالَةَ, joined straight through into ٱلْحَطَبِ, so the ة really is a t."
+          }
+        },
+        {
+          "arabic": "ذَاتَ",
+          "translit": "dhāta",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "111:3 — ذَاتَ has an OPEN tāʾ. Stopped it is dhāt, not dhāh."
+          }
+        },
+        {
+          "arabic": "ذَاتْ",
+          "translit": "dhāt",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The stopped form of an open tāʾ: still a t."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stop change three — a long vowel before the stop stretches",
+      "body": [
+        "Read ٱلرَّحْمَٰنِ ٱلرَّحِيمِ joined: the yāʾ of ٱلرَّحِيمِ gets its ordinary two counts.",
+        "Now stop on ٱلرَّحِيمْ. It gets longer. Let it.",
+        "Do not measure it. Do not count it. Just do not cut it short.",
+        "Hear the same word both ways, back to back, twice, and notice that the difference is real and is caused by the stop and nothing else.",
+        "That stretch happens because you stopped. It is not part of the word. Join onward and it disappears again.",
+        "It has a name and a number of counts, and you get both in Unit 3. Today you only have to let it happen."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "translit": "ar-raḥmāni-r-raḥīmi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "1:3 joined — ar-raḥmāni-r-raḥīmi. Two counts on the yāʾ, no more."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحِيمِ",
+          "translit": "ar-raḥīmi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Joined: ar-raḥīmi."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحِيمْ",
+          "translit": "ar-raḥīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Stopped: ar-raḥīm — and longer. Same word, two lengths, and the stop is the only difference."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Restarting is a start — so 2-09 goes live again",
+      "body": [
+        "Where do you resume from? The word you stopped on, or the word before it. Never mid-phrase, and never from the middle of a word.",
+        "And the moment you restart, everything from 2-09 is live: if the word begins with ٱ, you need the starting vowel.",
+        "ٱلْفَلَقِ resumes as al-falaqi. ٱهْدِنَا resumes as ihdinā.",
+        "Do several resumes explicitly, so you feel that stopping and starting are one skill with two halves rather than two separate topics."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْفَلَقِ",
+          "translit": "al-falaqi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Resume on it: al-falaqi. Article → fatḥah. Not il-falaq."
+          }
+        },
+        {
+          "arabic": "ٱهْدِنَا",
+          "translit": "ihdinā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Resume on it: ihdinā. Verb, present tense يَهْدِى has a kasrah → kasrah."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Join it, stop it",
+      "instructions": "I say a word twice and you give me both readings, back to back, so you hear the difference yourself. The left of each pair is joined, the right is stopped.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلرَّحِيمِ",
+            "translit": "ar-raḥīmi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: ar-raḥīmi."
+            }
+          },
+          {
+            "arabic": "ٱلرَّحِيمْ",
+            "translit": "ar-raḥīm",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: ar-raḥīm, and the yāʾ stretches."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْمُوقَدَةُ",
+            "translit": "al-mūqadatu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: al-mūqadatu — the dots are read."
+            }
+          },
+          {
+            "arabic": "ٱلْمُوقَدَهْ",
+            "translit": "al-mūqadah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: al-mūqadah — the dots are ignored."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَحَدٌ",
+            "translit": "aḥadun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: aḥadun."
+            }
+          },
+          {
+            "arabic": "أَحَدْ",
+            "translit": "aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: aḥad — the tanwīn drops."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَسْتَعِينُ",
+            "translit": "nastaʿīnu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: nastaʿīnu."
+            }
+          },
+          {
+            "arabic": "نَسْتَعِينْ",
+            "translit": "nastaʿīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: nastaʿīn — ḥarakah gone AND the yāʾ stretches. Two changes in one word."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The ة gauntlet — non-Qurʾānic",
+      "instructions": "Read each one twice: once joined into a following word, once stopping on it. The dots come and go. Non-Qurʾānic on purpose — a ة you can recite is not a ة you have read.",
+      "grid": [
+        [
+          {
+            "arabic": "رَحْمَةً",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: raḥmatan. Stopped: raḥmah."
+            }
+          },
+          {
+            "arabic": "مَدْرَسَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: madrasatun. Stopped: madrasah."
+            }
+          },
+          {
+            "arabic": "شَجَرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: shajaratun. Stopped: shajarah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حَدِيقَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: ḥadīqatun. Stopped: ḥadīqah."
+            }
+          },
+          {
+            "arabic": "سَيَّارَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: sayyāratun. Stopped: sayyārah — and hold the doubled yāʾ either way."
+            }
+          },
+          {
+            "arabic": "مُدَرِّسَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Joined: mudarrisatun. Stopped: mudarrisah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The eight sentences, in order",
+      "instructions": "Plan first, read second. Before you make any sound, put a pencil arc over each group you will say in one breath. If you have to breathe somewhere you did not mark, we stop and re-mark it — we do not carry on.",
+      "grid": [
+        [
+          {
+            "arabic": "مِن شَرِّ مَا خَلَقَ",
+            "translit": "min sharri mā khalaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1 (113:2) — already ends on a fatḥah. Drop it: khalaq."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+            "translit": "qul huwa-llāhu aḥad",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "2 (112:1) — tanwīn ḍamm drops: aḥad."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "translit": "iyyāka naʿbudu wa-iyyāka nastaʿīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "3 (1:5) — the ḥarakah drops AND the yāʾ stretches. The reference sentence for stopping."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+            "translit": "nāru-llāhi-l-mūqadah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "4 (104:6) — ة becomes a silent hāʾ: al-mūqadah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+            "translit": "wa-mraʾatuhū ḥammālata-l-ḥaṭab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "5 (111:4) — the ة is joined as a t, then a plain stop on ٱلْحَطَبْ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+            "translit": "sayaṣlā nāran dhāta lahab",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "6 (111:3) — an open tāʾ that stays a t, and a tanwīn kasr dropping at the end."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+            "translit": "wa-raʾayta-n-nāsa yadkhulūna fī dīni-llāhi afwājā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "7 (110:2) — long enough to need a planned breath, and it ends on tanwīn fatḥ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+            "translit": "alam tara kayfa faʿala rabbuka bi-aṣḥābi-l-fīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "8 (105:1) — the breath-plan sentence. Mark the arc before you read a word."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Stop on my signal",
+      "instructions": "Read on. When I raise my hand, stop at the END of the word you are on — not immediately, not mid-word. Finish the word, apply the changes, stop. Then resume when I lower my hand, and remember that the resume is a START.",
+      "grid": [
+        [
+          {
+            "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+            "translit": "alam tara kayfa faʿala rabbuka bi-aṣḥābi-l-fīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "I will signal somewhere in here. Finish the word you are on, then stop properly."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+            "translit": "wa-raʾayta-n-nāsa yadkhulūna fī dīni-llāhi afwājā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Longer. The signal may come twice."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْفِيلِ",
+            "translit": "al-fīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "If I signal here: al-fīl, with the yāʾ stretching. Then resume from the word before."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "خَلَقَ",
+            "translit": "khalaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "If I signal here: khalaq, the fatḥah simply gone."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Non-Qurʾānic sentences — the stopping is read, not remembered",
+      "instructions": "Every one of these ends in a ة or a tanwīn. Read each one joined into the next, then again stopping on it. This is the honest measurement: nothing here can be recited.",
+      "grid": [
+        [
+          {
+            "arabic": "ذَهَبَ ٱلْوَلَدُ إِلَى ٱلْمَدْرَسَةِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: … ila-l-madrasah. The ة goes soft."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "فِي ٱلْحَدِيقَةِ شَجَرَةٌ كَبِيرَةٌ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Three ة endings in one sentence: … shajaratun kabīrah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْمُدَرِّسَةُ تَكْتُبُ عَلَى ٱللَّوْحَةِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: … ʿala-l-lawḥah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "هَذَا ٱلْكِتَابُ لِصَدِيقِي",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Stopped: … li-ṣadīqī, and the long ī at the end stretches."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Three things happen when you stop. Only three.",
+      "items": [
+        {
+          "arabic": "نَسْتَعِينْ",
+          "translit": "nastaʿīn",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "One — the final ḥarakah drops. Tanwīn drops with it."
+          }
+        },
+        {
+          "arabic": "ٱلْمُوقَدَهْ",
+          "translit": "al-mūqadah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Two — ة becomes a silent hāʾ. The dots were for joining."
+          }
+        },
+        {
+          "arabic": "ٱلرَّحِيمْ",
+          "translit": "ar-raḥīm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Three — a long vowel before the stop stretches. Don't measure it; just don't cut it."
+          }
+        },
+        {
+          "arabic": "ٱلْفَلَقِ",
+          "translit": "al-falaqi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "And the fourth thing, which is not a change but a consequence: your resume is a START, so the 2-09 vowels are live again."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Sūrat al-Fīl (105), five āyāt. Pencil your breath arcs FIRST, then read it once a day. Bring the marked copy — I check your plan, not just your reading.",
+        "The join/stop pairs, ten times each, aloud, back to back so you can hear the difference yourself.",
+        "Find five words ending in ة anywhere in the last juzʾ. Write each one twice: once as it is joined, once as it is stopped.",
+        "Read Sūrat al-Ikhlāṣ (112) stopping at the end of EVERY āyah, then again joining every āyah to the next. Four āyāt, two readings. Notice that أَحَدٌ is a different sound in each. You do not have to know why yet — just notice it."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Join it, stop it",
+        "instructions": "Ten times each, back to back. Left joined, right stopped.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلرَّحِيمِ",
+              "translit": "ar-raḥīmi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ar-raḥīmi."
+              }
+            },
+            {
+              "arabic": "ٱلرَّحِيمْ",
+              "translit": "ar-raḥīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ar-raḥīm — stretches."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْمُوقَدَةُ",
+              "translit": "al-mūqadatu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-mūqadatu."
+              }
+            },
+            {
+              "arabic": "ٱلْمُوقَدَهْ",
+              "translit": "al-mūqadah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-mūqadah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أَحَدٌ",
+              "translit": "aḥadun",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aḥadun."
+              }
+            },
+            {
+              "arabic": "أَحَدْ",
+              "translit": "aḥad",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aḥad."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَسْتَعِينُ",
+              "translit": "nastaʿīnu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "nastaʿīnu."
+              }
+            },
+            {
+              "arabic": "نَسْتَعِينْ",
+              "translit": "nastaʿīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "nastaʿīn — two changes at once."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The ة gauntlet",
+        "instructions": "Each one twice — joined, then stopped. Non-Qurʾānic, so nothing here can be recited.",
+        "grid": [
+          [
+            {
+              "arabic": "رَحْمَةً",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "raḥmatan / raḥmah."
+              }
+            },
+            {
+              "arabic": "مَدْرَسَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "madrasatun / madrasah."
+              }
+            },
+            {
+              "arabic": "شَجَرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "shajaratun / shajarah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "حَدِيقَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ḥadīqatun / ḥadīqah."
+              }
+            },
+            {
+              "arabic": "سَيَّارَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sayyāratun / sayyārah."
+              }
+            },
+            {
+              "arabic": "مُدَرِّسَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "mudarrisatun / mudarrisah."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Plan first, read second",
+        "instructions": "Pencil arcs before any sound. If you breathe somewhere you did not mark, stop and re-mark — do not carry on.",
+        "grid": [
+          [
+            {
+              "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+              "translit": "alam tara kayfa faʿala rabbuka bi-aṣḥābi-l-fīl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The breath-plan sentence."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+              "translit": "wa-raʾayta-n-nāsa yadkhulūna fī dīni-llāhi afwājā",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Long, and ends on tanwīn fatḥ."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "translit": "iyyāka naʿbudu wa-iyyāka nastaʿīn",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ḥarakah drops and the yāʾ stretches."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+              "translit": "nāru-llāhi-l-mūqadah",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ة → silent hāʾ."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Non-Qurʾānic sentences",
+        "instructions": "Each one joined, then stopping. Every one ends in a ة or a tanwīn.",
+        "grid": [
+          [
+            {
+              "arabic": "ذَهَبَ ٱلْوَلَدُ إِلَى ٱلْمَدْرَسَةِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "… ila-l-madrasah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "فِي ٱلْحَدِيقَةِ شَجَرَةٌ كَبِيرَةٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "… shajaratun kabīrah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْمُدَرِّسَةُ تَكْتُبُ عَلَى ٱللَّوْحَةِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "… ʿala-l-lawḥah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "هَذَا ٱلْكِتَابُ لِصَدِيقِي",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "… li-ṣadīqī."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Sūrat al-Fīl with the breath arcs pencilled in BEFORE reading — the plan is checked, not just the reading",
+      "The four join/stop pairs, ten times each, back to back",
+      "The ة gauntlet, joined then stopped, no t surviving at any stop",
+      "Sūrat al-Ikhlāṣ twice — once stopping at every āyah end, once joining every āyah to the next",
+      "Five ة words found in the last juzʾ, each written twice: joined and stopped"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Read the 'why stopping is taught here' section before you teach the lesson. This lesson's position in the course is a deliberate correction of the classical ordering, and if you teach it as an ordinary sentence lesson you will lose the reason it exists.",
+      "The short version to carry into the room: the madd rule that makes a long vowel stretch at a stop is DEFINED by stopping. It does not exist in joined reading. Teaching it before stopping puts the consequence before its cause, which is what al-Jazariyyah does and what this course does not.",
+      "Open with 1:5 and let her end on nastaʿīnu with the ḍammah hanging. Then ask for three seconds of silence after it. She hears the problem herself; you supply only the sentence that names it — no Arabic word ends in a vowel at a stop.",
+      "Teach the breath plan BEFORE the three changes. Make her mark the arc on 105:1 before she makes a sound. The planning habit is what the lesson is for; the three changes are what she needs in order to execute the plan.",
+      "State the never-stop-mid-word rule flatly and give the reason, because the reason is what makes it stick. Then drill the go-back-to-the-start-of-the-word reflex, because the panic response is to push on and the reflex has to be stronger than the panic.",
+      "Three changes. Not four. Fold tanwīn into change one as a footnote and say so explicitly — it costs ten seconds and saves a rule. أَفْوَاجًا is the one that looks like an exception: show her the alif is already printed and that she is reading what is there, not adding anything.",
+      "For the ة, point at the two dots and say what they are FOR: joining. Stop, and you ignore them. Then give the contrast case حَمَّالَةَ ٱلْحَطَبِ, where she joins straight through and the ة really is a t — without it she will over-apply.",
+      "Mention ذَاتَ once, in passing. Open tāʾ, stays a t. Read what is written. Do not build a rule around it.",
+      "For change three, demonstrate ٱلرَّحِيمِ / ٱلرَّحِيمْ yourself, back to back, twice. Then refuse to name the rule or give the count. Say out loud that it has both and that Unit 3 supplies them. Planting it as an observation now is exactly why the rule will be easy later.",
+      "Do a few explicit resumes so she feels that stopping and starting are one skill with two halves. The moment she restarts, 2-09 is live — ٱلْفَلَقِ resumes as al-falaqi, not il-falaq.",
+      "Use her list from 2-11 of phrases she could not finish in one breath. This lesson is built out of that list, not out of a generic sentence set, and using it makes the connection visible to her.",
+      "Do NOT show her the full nine-item table of what changes at a stop, do not teach counts, and do not name any rule. She meets all of it in Unit 3. Meeting it now costs her the fluency this lesson exists to build."
+    ],
+    "listenFor": [
+      {
+        "item": "A clean, silent landing: the last letter closes, the sound stops, and there is no vowel and no breathy tail after it.",
+        "commonMistake": "The final ḥarakah is still pronounced at the stop — nastaʿīnu, al-ʿālamīna, aḥadun.",
+        "whyItHappens": "She is reading exactly what is printed, and the ḍammah IS printed. Nothing on the page tells her to drop it. This is obedience to the text, not carelessness — say so, because it is a mistake that deserves credit.",
+        "correctionCue": "The page is written for joining. When you stop, the last mark is not yours. Cut it: nastaʿīn.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Word-Changes.md"
+      },
+      {
+        "item": "A soft hāʾ at every stop on a ة — al-mūqadah, raḥmah — with the two dots ignored.",
+        "commonMistake": "ة read as a t at the stop — al-mūqadat, raḥmat.",
+        "whyItHappens": "The two dots are right there, and 2-11 spent a whole lesson teaching her to read what is printed. She is also likely to have heard the -at form in ordinary spoken borrowings in her own language.",
+        "correctionCue": "Cover the two dots with your fingernail. Now what letter is it? A hāʾ. Say that — al-mūqadah — and let it be soft.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Word-Changes.md"
+      },
+      {
+        "item": "The long vowel before a stop released rather than clipped — the last sound of the word being the long one.",
+        "commonMistake": "The long vowel gets cut short — nastaʿīn with a clipped yāʾ.",
+        "whyItHappens": "Stopping feels like ENDING, and ending feels like hurrying. She is closing the word rather than releasing it.",
+        "correctionCue": "Hold the ee, then close. Let the last sound be the long one — don't run away from the end of the word.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Arid-Lissukun.md"
+      },
+      {
+        "item": "Stops landing where she marked them, at āyah ends or complete ideas, with the breath sized for the arc.",
+        "commonMistake": "Stopping mid-word when the breath runs out.",
+        "whyItHappens": "No plan — she started reading before deciding where she would stop. It is a planning failure, not a lung-capacity failure, and telling her to breathe more deeply will not fix it.",
+        "correctionCue": "Back to the start of that word. Now look ahead and show me where you're going to stop, before you take the breath.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Types.md"
+      },
+      {
+        "item": "A resume treated as a start — the correct waṣl-hamzah vowel chosen at the restart.",
+        "commonMistake": "Resuming from the middle of a phrase, or restarting a waṣl hamzah with the wrong vowel — il-falaq.",
+        "whyItHappens": "The resume is not being treated as a START, so the 2-09 decision never gets run at all.",
+        "correctionCue": "You're starting. Which vowel? Is it ٱل? Then it's an a.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      }
+    ],
+    "homework": "Daily: Sūrat al-Fīl with the breath arcs pencilled in BEFORE reading — she brings the marked copy and the PLAN is checked, not only the reading; the four join/stop pairs ten times each, back to back so she hears the difference herself; Sūrat al-Ikhlāṣ read twice, once stopping at every āyah end and once joining every āyah to the next, noticing that أَحَدٌ is a different sound in each. Once in the week: five words ending in ة found anywhere in the last juzʾ, each written out twice, joined and stopped. She is told explicitly that she does not yet have to know WHY the long vowel stretches — only to let it happen and to notice that it does."
+  },
+  "videos": []
+}

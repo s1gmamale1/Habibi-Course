@@ -1,0 +1,592 @@
+{
+  "id": "4-01",
+  "phase": 4,
+  "unit": "4.1",
+  "title": "Kalima Ṭayyiba",
+  "objectives": [
+    "Student can recite Kalima Ṭayyiba from memory with correct tajweed, in one breath.",
+    "Student can name the rules occurring in it, pointing at where each one lands.",
+    "Student can state the lām jalālah rule — heavy after fatḥah or ḍammah, light after kasrah — and apply it to both occurrences here.",
+    "Student can produce idghām bilā ghunnah at muḥammadur rasūl with no nūn sound and no nasal residue."
+  ],
+  "prerequisites": [
+    "3-37"
+  ],
+  "stage": "The Kalimas",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 4.1 — Kalima Ṭayyiba",
+      "arabicDecor": "لَا إِلٰهَ إِلَّا اللَّهُ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Why this unit exists — read this before the first lesson",
+      "body": [
+        "The six kalimas, with Īmān Mujmal and Īmān Mufaṣṣal, are the standard memorisation set of the Hanafi and Central Asian tradition. They are creedal formulae. They are not tajweed rules and they are not Qurʾān.",
+        "They are here for one honest reason: the owner of this course learned tajweed from an Uzbek course whose lessons 70–77 are exactly this, and he chose to keep them.",
+        "This unit is optional relative to the four end goals — reading an unseen muṣḥaf page cleanly, reciting the memorised surahs, naming and explaining the rules, and reading a colour-coded muṣḥaf. Nothing in Unit 4 is tested by any of those four. Skipping it costs nothing at the Final Checkpoint.",
+        "What it does give is worth naming: Arabic you already recite daily, on which every rule from Unit 3 can be applied, where a mistake is not a mistake in the recitation of the Qurʾān. That is a rare practice surface.",
+        "Treat Unit 4 as applied tajweed with the stakes turned down, and it earns its place.",
+        "One caution for the teacher: the Arabic wording of the kalimas is traditional, not revealed, so it cannot be checked against a Qurʾānic corpus the way every other Arabic string in this course is. Check the wording against a printed Hanafi primer before teaching. The tajweed analysis is sound either way; it is the text that needs a human eye."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "How many times have you said this?",
+      "body": [
+        "Do not open with the text. Open with the question, and let the silence sit for a second.",
+        "Whatever number she gives is too low.",
+        "Then the second question: and have you ever once applied a tajweed rule to it?",
+        "She has recited this sentence since childhood — before she could read, before she knew a makhraj from a ṣifah — and it has never been corrected. It has been repeated, which is a different thing, and which makes errors permanent rather than fixing them.",
+        "You already know these words. This unit is not about learning them. It is about saying them properly for the first time."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The text",
+      "body": [
+        "لَا إِلٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+        "lā ilāha illa-llāhu muḥammadur rasūlu-llāh",
+        "\"There is no god except Allah; Muḥammad is the Messenger of Allah.\"",
+        "Ṭayyiba means pure, wholesome, good — the Word of Purity. It is the shortest of the eight and the foundation of the other five kalimas: every one of them either contains it or extends it.",
+        "Teach it well and you have taught a third of the unit."
+      ],
+      "items": [
+        {
+          "arabic": "لَا إِلٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+          "translit": "lā ilāha illa-llāhu muḥammadur rasūlu-llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The whole kalima in one breath. Four counts on the opening lā, two full heavy lāms of the name, no nūn before rasūl, and a stretched final -llāh."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Walk the sentence and stop at each rule",
+      "body": [
+        "Right to left on the page, stopping at every place a rule lands. Nine stops.",
+        "This walk is the actual content of the lesson. The memorisation is already done — you are not teaching her the words.",
+        "Have her do the walk silently first, naming each rule out loud with her finger on it, before she recites a single syllable today.",
+        "If she cannot name one, she says 'I don't know' and moves on. You come back to it."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_munfasil",
+      "heading": "Stop 1 — لَا إِلٰهَ is a separated madd",
+      "condition": "A madd letter at the end of one word, followed by a hamzah at the start of the next.",
+      "harakat": 4,
+      "body": [
+        "The first two words carry the rule most students are most surprised to find here.",
+        "The first word ends in a madd letter — fatḥah plus alif. The second begins with a hamzah. A word boundary sits between them, so this is madd munfaṣil, the separated madd.",
+        "In the recitation of Ḥafṣ via ash-Shāṭibiyyah it is stretched to four counts; some read five. Via aṭ-Ṭayyibah it is two, and that is also correct Ḥafṣ — 3-30 gave her both roads.",
+        "She has almost certainly been saying it at two counts her whole life. Fix this first: it is the most audible change in the whole kalima, and it makes the sentence sound immediately different to her own ear.",
+        "That is exactly the motivation you want on day one of the unit."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_2",
+      "heading": "Stop 2 — the dagger alif that must stay at two",
+      "condition": "A madd letter followed by neither a hamzah nor a sukūn.",
+      "letters": [
+        "ا",
+        "و",
+        "ي"
+      ],
+      "harakat": 2,
+      "body": [
+        "The small vertical stroke over the lām of the second word is a dagger alif. It is a full alif and it is a natural madd: two counts, no more.",
+        "Having just stretched the first word to four, she will want to stretch this one to four as well. She must not.",
+        "Four then two, in adjacent words, is the drill. That contrast is the whole of stops 1 and 2 together.",
+        "The same two-count madd turns up twice more before the sentence ends: the alif of the third word, and the wāw of رَسُولُ."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stop 3 — إِلَّا: shadda held, then two counts",
+      "body": [
+        "إِلَّا — the lām carries a shadda. Hold it: one lām landing and one lām leaving, from the same makhraj. She had this at 2-06 and it slips under any kind of load.",
+        "Then fatḥah plus alif, a natural madd, two counts.",
+        "Not four. There is no hamzah after it — the next thing is the name of Allah, which begins with a waṣl hamzah, and a waṣl hamzah is not pronounced when you join.",
+        "That distinction is stop 4, and it is the spine of the whole unit."
+      ],
+      "items": [
+        {
+          "arabic": "إِلَّا",
+          "translit": "illā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Shadda on the lām, held. Then a plain two-count alif. Do not let the four counts from لَا leak into this one."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "hamzat_wasl",
+      "heading": "Stop 4a — the alif of the name is a waṣl hamzah",
+      "condition": "A waṣl hamzah is pronounced when you start on the word, and dropped entirely when you join from the word before.",
+      "body": [
+        "Joined to what precedes it, the alif of the name is not pronounced at all: illa-llāhu, one continuous sound.",
+        "If she says illā ʾAllāhu with a glottal stop in the middle, that is the same error the whole of 2-11 was built to remove, reappearing in a sentence she never thought to apply the rule to.",
+        "3-36 gave her the full branch structure — article, verb, the seven nouns. This is the article branch, the most frequent case of all.",
+        "Step over the alif. Glue the two words together and say them as one."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stop 4b — the lām of the name of Allah",
+      "body": [
+        "This is the single most-repeated rule in Unit 4, so teach it properly once, here, and every later lesson can simply point back to today.",
+        "The lām of the name of Allah is heavy — mufakhkham — after a fatḥah or a ḍammah, and light — muraqqaq — after a kasrah.",
+        "Look at what precedes it. In إِلَّا اللَّهُ the preceding vowel is the fatḥah of illā, so the lām is heavy. A full, thick, back-of-the-mouth lām: illa-LLĀHu.",
+        "The dagger alif inside the name is again a natural madd — two counts.",
+        "There is no ruleId for lām jalālah in this course's palette, and nothing in the muṣḥaf colours it. That is exactly why it has to be listened for rather than looked for."
+      ],
+      "items": [
+        {
+          "arabic": "إِلَّا اللَّهُ",
+          "translit": "illa-llāhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "One continuous sound, no glottal stop, and a heavy lām because a fatḥah precedes it. Fill your mouth."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "ghunnah",
+      "heading": "Stop 5 — مُحَمَّدٌ carries a mīm mushaddadah",
+      "condition": "A mīm or nūn carrying a shadda is held for two counts of nasal sound.",
+      "harakat": 2,
+      "body": [
+        "The mīm of the name carries a shadda. A mīm mushaddadah is held for two counts of ghunnah — a nasal sound resonating in the nose, not in the mouth.",
+        "Prove it rather than asserting it: pinch her nose while she says it. The sound will change. If it does not change, there is no ghunnah.",
+        "mu-ḥam-mad — the doubled mīm is where the two counts live.",
+        "This is the first of two pinch tests in this lesson, and the second one is the interesting one, because there the pinch must change nothing at all."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "idghaam_no_ghunnah",
+      "heading": "Stop 6 — tanwīn into a rāʾ, with no nasal residue",
+      "condition": "Nūn sākinah or tanwīn followed by ل or ر: the nūn sound is deleted and merged into the next letter, with no ghunnah at all.",
+      "letters": [
+        "ل",
+        "ر"
+      ],
+      "body": [
+        "The best rule in this kalima and the one most people get wrong.",
+        "مُحَمَّدٌ ends in tanwīn ḍamm. The next word begins with رَ. Tanwīn followed by ر → idghām without ghunnah.",
+        "muḥammadur-rasūl. Not muḥammadun rasūl, and not muḥammadunr rasūl with a hum in between.",
+        "'Without ghunnah' has to be enforced physically, because idghām with ghunnah is far more common and the mouth defaults to it.",
+        "Pinch test again: for muḥammadur, pinching the nose should change nothing whatsoever. If it changes anything, there is nasal sound where there should be none."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stop 7 — رَسُولُ: a heavy rāʾ and a plain madd",
+      "body": [
+        "The rāʾ carries a fatḥah, so it is heavy. Rāʾ is heavy after a fatḥah and a ḍammah, light after a kasrah — 3-10 and 3-11.",
+        "Then ḍammah plus wāw: a natural madd, two counts.",
+        "The light case turns up in 4-08; today she only needs the heavy one, and it is the one she will get right by instinct because the vowel supports it.",
+        "Like the lām jalālah, the rāʾ rules have no colour in any palette. They are the family with the fewest visual cues and the most listening required."
+      ],
+      "items": [
+        {
+          "arabic": "رَسُولُ",
+          "translit": "rasūlu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy rāʾ on the fatḥah, then a two-count wāw madd. Do not let the madd shorten while you are concentrating on the rāʾ."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Stop 8 — the name again, heavy for a different reason",
+      "body": [
+        "رَسُولُ اللَّهِ — the preceding vowel is the ḍammah of rasūlu, so the lām is heavy, by the same rule as stop 4.",
+        "Point that out explicitly: two occurrences of the name in one sentence, both heavy, but for two different reasons — one after a fatḥah, one after a ḍammah.",
+        "This is where the second lām usually thins out. The ḍammah is a high, front vowel to her ear, the tongue stays forward into the lām, and fatigue at the end of the sentence does the rest.",
+        "Say them back to back — illa-LLĀHu … rasūlu-LLĀH — and let nothing in between them thin out."
+      ],
+      "items": [
+        {
+          "arabic": "رَسُولُ اللَّهِ",
+          "translit": "rasūlu-llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Waṣl hamzah dropped, heavy lām after the ḍammah, and then the last madd of the sentence. This is the phrase that decides whether the lesson landed."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_246",
+      "heading": "Stop 9 — stopping at the end",
+      "condition": "A madd letter followed by a letter made sākin only because you stopped.",
+      "body": [
+        "The kalima is recited as one unit and stopped at the end. When you stop on the final word, the hāʾ takes a sukūn: rasūlu-llāh.",
+        "Look at what is immediately before that hāʾ — the dagger alif, a madd letter. A madd letter followed by a letter made sākin by stopping is madd ʿāriḍ lis-sukūn.",
+        "Two, four or six counts. All three are correct, it is her choice, and the only error is switching between them — 3-31.",
+        "She will almost certainly cut it at two and clip the hāʾ. Four is the natural length for this phrase, and it is the number this course recommends while learning.",
+        "The last word is the longest word, not the shortest."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The optional stop — and what it costs",
+      "body": [
+        "If she stops for breath at مُحَمَّدٌ — and beginners often do — the dāl becomes sākin at the stop, and dāl is a qalqalah letter: muḥammad, with a clean bounce. That is qalqalah kubrā, stronger than the ṣughrā she met mid-word.",
+        "But note the better teaching point: stopping there also destroys the idghām at stop 6. There is no next word to merge into.",
+        "The rules are not independent of the breath plan. Say that out loud — it is the single most transferable sentence in this lesson.",
+        "So: one breath for the whole kalima, and if she genuinely cannot, she stops at مُحَمَّدٌ knowing exactly which rule she has given up."
+      ],
+      "items": [
+        {
+          "arabic": "مُحَمَّدٌ",
+          "translit": "muḥammad",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Stopped: the tanwīn drops, the dāl goes sākin and bounces. Qalqalah kubrā — and the idghām into رَسُولُ is now gone."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Four then two",
+      "instructions": "Just the first two words, twenty times. Four counts on the first alif, two on the dagger alif. Count on your fingers where I can see them. If both come out the same length, you have not got it, however good it sounds.",
+      "grid": [
+        [
+          {
+            "arabic": "لَا",
+            "translit": "lā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "FOUR. Madd letter at the end of a word, hamzah starting the next one. Munfaṣil."
+            }
+          },
+          {
+            "arabic": "إِلٰهَ",
+            "translit": "ilāha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TWO. Dagger alif, plain ṭabīʿī. Half the length of the word before it."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَا إِلٰهَ",
+            "translit": "lā ilāha",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Both together, joined, at speed. Four then two, and the gap between them should be audible without you slowing down."
+            }
+          },
+          {
+            "arabic": "إِلَّا",
+            "translit": "illā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "TWO again, after the held shadda. Three words, three madds, and only the first one is four."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The pinch",
+      "instructions": "Say the first item with a full nūn and pinch your nose: the sound changes. Now say the second item correctly and pinch: nothing should change. Alternate until the difference is obvious to you without me telling you.",
+      "grid": [
+        [
+          {
+            "arabic": "مُحَمَّدٌ",
+            "translit": "muḥammadun",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The doubled mīm IS a ghunnah — two counts, nasal. Pinch here and it changes. That part is supposed to change."
+            }
+          },
+          {
+            "arabic": "مُحَمَّدٌ رَسُولُ",
+            "translit": "muḥammadur rasūlu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The tanwīn has gone into the rāʾ with no nasal residue. Pinch at the junction and nothing should change at all."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Heavy, heavier, and glued",
+      "instructions": "Say the two name-phrases back to back. Both heavy, both full, and nothing in between them thins out. Then the join on its own, ten times, with no stop before the name.",
+      "grid": [
+        [
+          {
+            "arabic": "إِلَّا اللَّهُ",
+            "translit": "illa-llāhu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy — a fatḥah precedes. No glottal stop: one word."
+            }
+          },
+          {
+            "arabic": "رَسُولُ اللَّهِ",
+            "translit": "rasūlu-llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Heavy — a ḍammah precedes. This is the one that thins out. Fill your mouth."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "لَا إِلٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+            "translit": "lā ilāha illa-llāhu muḥammadur rasūlu-llāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The whole sentence, one breath, at half speed. Then again at normal speed. If a rule collapses at normal speed, tell me which one — that report is worth more to me than a clean recitation."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong, and what to say",
+      "mistakes": [
+        {
+          "wrong": "لَا at two counts.",
+          "why": "Twenty years of muscle memory and nobody has ever asked for more. It is not ignorance of the rule — she may be able to recite the rule of madd munfaṣil perfectly. She has never connected the rule to this sentence, because this sentence was never in the category 'text you apply tajweed to'.",
+          "fix": "Same rule you use in the Qurʾān. Madd letter, then a hamzah, next word. Four. Give me four."
+        },
+        {
+          "wrong": "muḥammadun rasūl, with the nūn fully pronounced.",
+          "why": "The tanwīn is written, and she has spent all of Unit 2 learning to read what is written. Also: this is how it is said in every speech and every naṣīd around her. She is imitating a room, not misreading a page.",
+          "fix": "There is no n. The n has gone into the r. muḥammadur — hold the r, then rasūl."
+        },
+        {
+          "wrong": "A glottal stop before the name of Allah — illā ʾAllāh.",
+          "why": "The alif is on the page and she is reading it. Exactly the 2-11 error, in new clothes.",
+          "fix": "Step over the alif. illa-llāhu, one word."
+        },
+        {
+          "wrong": "A thin, light lām in the name of Allah, particularly the second one.",
+          "why": "The ḍammah of rasūlu is a high, front vowel to her ear and the tongue stays forward into the lām. Fatigue at the end of the sentence does the rest.",
+          "fix": "Fill your mouth. The name is heavy here — say it as if it is coming from the back of your throat."
+        },
+        {
+          "wrong": "The final -llāh clipped to nothing, hāʾ swallowed.",
+          "why": "She is stopping, and stopping feels like ending, and ending feels like getting quieter. The madd ʿāriḍ is the first casualty of the last breath.",
+          "fix": "The last word is the longest word, not the shortest. Four counts, then the h."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Nine stops, in order",
+      "items": [
+        {
+          "arabic": "لَا إِلٰهَ",
+          "translit": "lā ilāha",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Munfaṣil four, then ṭabīʿī two. The contrast that opens the sentence."
+          }
+        },
+        {
+          "arabic": "إِلَّا اللَّهُ",
+          "translit": "illa-llāhu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Shadda held, waṣl hamzah dropped, lām heavy after a fatḥah."
+          }
+        },
+        {
+          "arabic": "مُحَمَّدٌ رَسُولُ",
+          "translit": "muḥammadur rasūlu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Ghunnah on the doubled mīm, then idghām bilā ghunnah into a heavy rāʾ."
+          }
+        },
+        {
+          "arabic": "رَسُولُ اللَّهِ",
+          "translit": "rasūlu-llāh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Lām heavy after a ḍammah, then madd ʿāriḍ at the stop — your number, held."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "The whole kalima, five times after each ṣalāh, counting the madds on your fingers. Not at memory speed — at the speed where you can count.",
+        "The first two words alone, four-then-two, twenty times a day. This is the one drill that will not fix itself.",
+        "Write out the nine rule-stops on a card, in order, in English. Bring the card. In 4-02 you will add to it, not rewrite it.",
+        "Record yourself once on your phone. Play it back and mark on the card every place the rule did not happen. Bring that too."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Four then two",
+        "instructions": "Twenty times a day. Four counts on the opening alif, two on the dagger alif, fingers visible.",
+        "grid": [
+          [
+            {
+              "arabic": "لَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "FOUR — munfaṣil."
+              }
+            },
+            {
+              "arabic": "إِلٰهَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "TWO — ṭabīʿī. Half of the one before."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَا إِلٰهَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Joined, at speed. The gap should still be audible."
+              }
+            },
+            {
+              "arabic": "إِلَّا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "TWO, after the shadda is held."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The pinch",
+        "instructions": "Nose pinched. The doubled mīm should change. The junction into رَسُولُ should not.",
+        "grid": [
+          [
+            {
+              "arabic": "مُحَمَّدٌ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ghunnah on the doubled mīm — pinching changes it."
+              }
+            },
+            {
+              "arabic": "مُحَمَّدٌ رَسُولُ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Idghām bilā ghunnah — pinching changes nothing."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The whole thing, one breath",
+        "instructions": "Half speed, then normal speed. Report which rule collapses at normal speed rather than trying to hide it.",
+        "grid": [
+          [
+            {
+              "arabic": "لَا إِلٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ",
+              "translit": "lā ilāha illa-llāhu muḥammadur rasūlu-llāh",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Four counts on lā, both lāms heavy and full, no nūn before rasūl, and a stretched final -llāh at your chosen ʿāriḍ number."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The whole kalima five times after each ṣalāh, madds counted on the fingers",
+      "لَا إِلٰهَ alone, four-then-two, twenty times",
+      "The pinch test on مُحَمَّدٌ رَسُولُ — nothing should change at the junction",
+      "Both name-phrases back to back, both heavy, neither one thinning out",
+      "Once in the week: one phone recording, played back and marked against the nine-stop card"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Say the honest framing to yourself before the session and a shortened version of it to her: this unit is optional relative to the four end goals, it is here because the owner of the course kept the Uzbek tradition he learned in, and it is applied tajweed on text she already recites daily. An adult who is told what something is for works harder at it.",
+      "Do not open with the text. Open with 'how many times have you said this?' and let the silence sit. The whole unit's hook is the gap between repeating and being corrected.",
+      "The rule-spotting pass comes before any recitation today. She reads silently, puts a finger on each of the nine stops and names the rule out loud. Recitation before analysis loses the lesson to habit.",
+      "Fix the four-count munfaṣil first. It is the most audible change in the kalima and it makes the sentence sound different to her own ear inside thirty seconds, which is the motivation you want on day one.",
+      "Then immediately guard against the over-correction: the dagger alif of the second word stays at two. Four then two, in adjacent words, is the drill and it is where the lesson is won.",
+      "Teach lām jalālah properly here, once, in full. It recurs in nearly every remaining lesson of the unit, and every later lesson can point back to today rather than re-explaining it.",
+      "Use the pinch test twice, and make the contrast explicit: on the doubled mīm the pinch must change the sound, at the junction into رَسُولُ it must change nothing. Two pinches, opposite expected results, is far more convincing than either alone.",
+      "Say out loud that the rules are not independent of the breath plan: stopping at مُحَمَّدٌ gains a qalqalah and loses the idghām. That sentence transfers to the whole of her Qurʾān reading.",
+      "Do not correct her theology, her intonation, or her devotional manner. You are correcting length, weight and nasality, and nothing else. Say so if she looks uncertain about being corrected on this text at all.",
+      "Before teaching, check the Arabic wording against a printed Hanafi primer. The library note carries this warning because the kalimas are not Qurʾān and cannot be corpus-verified; the tajweed analysis holds either way, but the text needs a human eye first."
+    ],
+    "listenFor": [
+      {
+        "item": "Four counts on the opening لَا, and two on the dagger alif immediately after it.",
+        "commonMistake": "Two counts on لَا; or, once that is fixed, four counts on both words.",
+        "whyItHappens": "Decades of reciting the sentence as a formula rather than as text with rules. The over-correction that follows is the standard rebound seen after any madd lesson.",
+        "correctionCue": "Same rule you use in the Qurʾān. Madd letter, then a hamzah, next word. Four — and then two on the next one.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Munfasil.md"
+      },
+      {
+        "item": "No nūn sound and no nasal residue at the junction of مُحَمَّدٌ and رَسُولُ.",
+        "commonMistake": "muḥammadun rasūl with the nūn fully pronounced, or muḥammadunr with a hum between the two words.",
+        "whyItHappens": "The tanwīn is written and Unit 2 taught her to read what is written. More powerfully, this is how the sentence is said in every speech and naṣīd around her — she is imitating a room, not misreading a page.",
+        "correctionCue": "There is no n. The n has gone into the r. muḥammadur — hold the r, then rasūl. Pinch your nose: nothing should change.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Idgham-Bila-Ghunnah.md"
+      },
+      {
+        "item": "No glottal stop before the name of Allah — the two words glued into one.",
+        "commonMistake": "illā ʾAllāh, with an audible hamzah in the middle.",
+        "whyItHappens": "The alif is on the page and she is reading it. This is the 2-11 error in new clothes, and it is especially common in learners with Persian, Urdu or Turkic speech habits.",
+        "correctionCue": "Step over the alif. illa-llāhu, one word, no bump.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Hamzat-Wasl.md"
+      },
+      {
+        "item": "Both lāms of the name full and heavy — after the fatḥah and after the ḍammah alike.",
+        "commonMistake": "The second one thins out into a light, front lām.",
+        "whyItHappens": "The ḍammah of rasūlu is a high, front vowel to her ear and the tongue stays forward into the lām. Fatigue at the end of the sentence finishes the job.",
+        "correctionCue": "Fill your mouth. The name is heavy here — say it as if it is coming from the back of your throat.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Lam-Jalalah.md"
+      },
+      {
+        "item": "The final -llāh stretched at her chosen madd ʿāriḍ length, with the hāʾ audibly released.",
+        "commonMistake": "The last word clipped to nothing and the hāʾ swallowed.",
+        "whyItHappens": "She is stopping, stopping feels like ending, and ending feels like getting quieter. The madd ʿāriḍ is the first casualty of the last breath.",
+        "correctionCue": "The last word is the longest word, not the shortest. Four counts, then the h.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Arid-Lissukun.md"
+      }
+    ],
+    "homework": "Daily: the whole kalima five times after each ṣalāh with the madds counted on the fingers, at counting speed rather than memory speed; لَا إِلٰهَ alone, four-then-two, twenty times; the pinch test at the junction into رَسُولُ. Written: the nine rule-stops on a card, in order, in English, by hand — 4-02 adds to this card rather than replacing it. Once in the week: one phone recording, played back, with every place the rule did not happen marked on the card and both brought to the session."
+  },
+  "videos": []
+}

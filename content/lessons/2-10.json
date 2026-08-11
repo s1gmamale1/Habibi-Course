@@ -1,0 +1,953 @@
+{
+  "id": "2-10",
+  "phase": 2,
+  "unit": "2.3",
+  "title": "Real words",
+  "objectives": [
+    "Student can read an unseen, fully-voweled Arabic word of four to seven letters, first time, without being told which marks it contains.",
+    "Student can run a scan-then-read routine — look the whole word over before opening the mouth — instead of decoding letter by letter aloud.",
+    "Student can name which mark caused an error when she makes one, rather than only that she 'got it wrong'."
+  ],
+  "prerequisites": [
+    "2-08",
+    "2-09"
+  ],
+  "stage": "Reading Mechanics",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 2.10 — Real words",
+      "arabicDecor": "ٱلنَّفَّٰثَٰتِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "One word, no warning",
+      "body": [
+        "Read this. No preparation, no hint about what is in it.",
+        "You will stall. That is supposed to happen, and it is the only hook in this unit designed to be uncomfortable — because the discomfort is diagnostic, not punitive.",
+        "Then we take it apart together, out loud, in five seconds: ٱ — start with a, it is the article. نّ — sun letter, doubled, hold it. فّ — doubled, hold it. ٰ — daggered alif, two counts. ثَ — plain. ٰ — two counts. تِ — kasrah, and stop.",
+        "Now read it again. It will come out.",
+        "Nothing in that word was new. Every single mark in it you have already learned. What was new was meeting them all at once, with nobody telling you what was coming."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلنَّفَّٰثَٰتِ",
+          "translit": "an-naffāthāti",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلنَّفَّٰثَٰتِ (113:4) — the hardest single word in the hifz set. Two shaddas and two daggered alifs. an-naffāthāti."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "There is no new content in this lesson",
+      "body": [
+        "That is the design. Everything on today's page was taught in an earlier lesson.",
+        "The three short vowels and sukūn (1-13) · tanwīn (2-01, 2-02) · multi-sukūn clusters (2-03, 2-04) · shadda, including on sun letters (2-05, 2-06).",
+        "The three madd letters and the daggered alif (2-07) · madd plus shadda or sukūn → six, and līn with no length (2-08) · hamzat al-waṣl in all three vowels (2-09).",
+        "Nine marks. You own all nine. Today's job is not to teach you a tenth — it is to withhold help long enough for you to find out that you can already do this."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Scan, then read — three silent seconds",
+      "body": [
+        "The single highest-value habit in this lesson.",
+        "Most adult beginners read Arabic the way they read a phone number: one symbol at a time, aloud, committing to each before seeing the next.",
+        "That guarantees a stumble whenever a later mark changes an earlier decision — and in Arabic, later marks constantly do.",
+        "So: eyes across the whole word, right edge to left edge, mouth shut. Find the doublings and the lengths FIRST — shaddas and madd letters, because those are what set the word's rhythm. Then read, once, at even speed.",
+        "Three seconds of silence buys you the whole word. Reading before the scan costs you the second half of it."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْخَنَّاسِ",
+          "translit": "al-khannāsi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْخَنَّاسِ (114:4) — scan it aloud with me. Article, sun-letter shadda on the khāʾ? No — moon lām, so the lām is heard. Doubled nūn. Then a madd alif. Then a kasrah."
+          }
+        },
+        {
+          "arabic": "ٱلْوَسْوَاسِ",
+          "translit": "al-waswāsi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلْوَسْوَاسِ (114:4) — now you narrate the scan before you read it. Where are the sukūns? Where is the length?"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Read in rhythm, not in letters",
+      "body": [
+        "A word is a shape in time. Tap the table once per beat while you read.",
+        "سِجِّيلٍ — si · j (held) · jī (two counts) · lin.",
+        "ٱلصَّمَدُ — aṣ (held) · ṣa · ma · du.",
+        "بِحِجَارَةٍ — bi · ḥi · jā (two counts) · ra · tin.",
+        "If the tapping and the reading come apart, the reading is letter-by-letter. Go back to the scan."
+      ],
+      "items": [
+        {
+          "arabic": "سِجِّيلٍ",
+          "translit": "sijjīlin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "سِجِّيلٍ (105:4) — shadda, then a madd yāʾ, then tanwīn. The classic four-count word."
+          }
+        },
+        {
+          "arabic": "ٱلصَّمَدُ",
+          "translit": "aṣ-ṣamadu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ٱلصَّمَدُ (112:2) — waṣl hamzah, sun-letter shadda, plain ḍammah ending."
+          }
+        },
+        {
+          "arabic": "بِحِجَارَةٍ",
+          "translit": "bi-ḥijāratin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بِحِجَارَةٍ (105:4) — madd alif, tāʾ marbūṭah, tanwīn kasr. Three of the unit's marks in five letters."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Name the mark that broke",
+      "body": [
+        "Every time you slip, I will not correct the word. I will ask one question: which mark?",
+        "A student who can say 'I missed the shadda on the fāʾ' has a fixable, nameable problem.",
+        "A student who only knows she read it wrong has nothing to practise.",
+        "I keep a running sheet with a column per mark. By the end of the session it names lessons, not moods: three misses on shadda → redo the 2-05 drills. Three misses on līn → redo 2-08.",
+        "This is also exactly how Checkpoint 2 scores — per letter and per rule, never only per word. Learning to name your own errors now means the checkpoint's output is already a language you speak."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Ladder rung 1 — four letters, one mark",
+      "instructions": "Work up the ladder; do not start at seven letters. Four or five words per rung. Clear a rung with no help and we move up. Miss two on a rung and we drop back one — never repeat the same rung after a miss, because the second attempt is scored by memory rather than by reading.",
+      "grid": [
+        [
+          {
+            "arabic": "قُلْ",
+            "translit": "qul",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "قُلْ (112:1) — ḍammah, then a sukūn. One syllable, closed."
+            }
+          },
+          {
+            "arabic": "لَهَبٍ",
+            "translit": "lahabin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "لَهَبٍ (111:1) — two fatḥahs, then tanwīn kasr."
+            }
+          },
+          {
+            "arabic": "حَسَدَ",
+            "translit": "ḥasada",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "حَسَدَ (113:5) — three plain fatḥahs. The throat ḥāʾ is the only difficulty."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَقَبَ",
+            "translit": "waqaba",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "وَقَبَ (113:3) — consonant wāw, then two fatḥahs."
+            }
+          },
+          {
+            "arabic": "تَبَّتْ",
+            "translit": "tabbat",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "تَبَّتْ (111:1) — a shadda held, then a final sukūn. Four letters, two marks — the top of this rung."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Ladder rung 2 — five to six letters, two marks",
+      "instructions": "Scan for three seconds before each word. Find the doublings and the lengths first, then read once at even speed.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلصَّمَدُ",
+            "translit": "aṣ-ṣamadu",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلصَّمَدُ (112:2) — waṣl hamzah plus a sun-letter shadda."
+            }
+          },
+          {
+            "arabic": "سِجِّيلٍ",
+            "translit": "sijjīlin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "سِجِّيلٍ (105:4) — shadda → madd yāʾ → tanwīn."
+            }
+          },
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaqi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْفَلَقِ (113:1) — moon lām, audible, then two plain syllables."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْحَطَبِ",
+            "translit": "al-ḥaṭabi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْحَطَبِ (111:4) — moon lām, then a heavy ṭāʾ."
+            }
+          },
+          {
+            "arabic": "ٱلْيَتِيمَ",
+            "translit": "al-yatīma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْيَتِيمَ (107:2) — moon lām plus a madd yāʾ. The initial yāʾ is a consonant; the later one is a madd."
+            }
+          },
+          {
+            "arabic": "ٱلشِّتَآءِ",
+            "translit": "ash-shitāʾi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلشِّتَآءِ (106:2) — sun lām, then the long madd before a hamzah."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Ladder rung 3 — seven or more letters, three or more marks",
+      "instructions": "Top rung. Scan first, every time — these are exactly the words where reading before scanning breaks down, because a mark near the end changes a decision made near the start.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْكَوْثَرَ",
+            "translit": "al-kawthara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْكَوْثَرَ (108:1) — waṣl hamzah, moon lām, and a līn wāw, all in one word."
+            }
+          },
+          {
+            "arabic": "بِحِجَارَةٍ",
+            "translit": "bi-ḥijāratin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "بِحِجَارَةٍ (105:4) — madd alif, tāʾ marbūṭah, tanwīn kasr."
+            }
+          },
+          {
+            "arabic": "ٱلْخَنَّاسِ",
+            "translit": "al-khannāsi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْخَنَّاسِ (114:4) — moon lām, doubled nūn held, then a madd alif."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْمُسْتَقِيمَ",
+            "translit": "al-mustaqīma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْمُسْتَقِيمَ (1:6) — sukūn cluster, then a madd yāʾ. Seven letters and no shadda anywhere, which makes it harder, not easier."
+            }
+          },
+          {
+            "arabic": "ٱلْوَسْوَاسِ",
+            "translit": "al-waswāsi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلْوَسْوَاسِ (114:4) — two sukūns and a madd alif. Read it as one word, not two halves."
+            }
+          },
+          {
+            "arabic": "ٱلنَّفَّٰثَٰتِ",
+            "translit": "an-naffāthāti",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ٱلنَّفَّٰثَٰتِ (113:4) — two shaddas and two daggered alifs. The hardest word on the page."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Two words, read as two words",
+      "body": [
+        "ٱلْوَسْوَاسِ ٱلْخَنَّاسِ is a sukūn cluster, then a shadda, then a madd.",
+        "It is two words. Beginners read it as four, because each half of each word has its own little rhythm and the pause creeps in at the seam.",
+        "Scan the pair as a pair. Then read it as two words, joined — which is a preview of what 2-11 does for a whole hour."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+          "translit": "al-waswāsi-l-khannās",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "114:4 — al-waswāsi-l-khannās. Two words. Not four."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Silent scan — count before you read",
+      "instructions": "I show you a word for three seconds, then cover it. Tell me how many shaddas and how many long vowels it had. Only then do I uncover it and you read it. You are training your eyes to arrive before your mouth.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلنَّفَّٰثَٰتِ",
+            "translit": "an-naffāthāti",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Two shaddas, two long vowels (both daggered alifs)."
+            }
+          },
+          {
+            "arabic": "سِجِّيلٍ",
+            "translit": "sijjīlin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "One shadda, one long vowel."
+            }
+          },
+          {
+            "arabic": "ٱلْوَسْوَاسِ",
+            "translit": "al-waswāsi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No shaddas, one long vowel. The two sukūns are what make it feel crowded."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْخَنَّاسِ",
+            "translit": "al-khannāsi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "One shadda, one long vowel."
+            }
+          },
+          {
+            "arabic": "بِحِجَارَةٍ",
+            "translit": "bi-ḥijāratin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No shaddas, one long vowel."
+            }
+          },
+          {
+            "arabic": "ٱلْكَوْثَرَ",
+            "translit": "al-kawthara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "No shaddas, no long vowels — the wāw is a līn, which is zero. A useful trap."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Twelve cold words, timed — non-Qurʾānic",
+      "instructions": "Twelve words you have never met, one minute. ACCURACY OVER SPEED — a clean nine beats a rushed twelve. Write down which ones you missed and what mark caused it. These are ordinary Arabic on purpose: a word you can recite is not a word you have read, so Qurʾānic words cannot measure this.",
+      "grid": [
+        [
+          {
+            "arabic": "مَكْتَبَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Sukūn cluster, then a tāʾ marbūṭah. maktabah."
+            }
+          },
+          {
+            "arabic": "مُدَرِّسُون",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A shadda held, then a madd wāw. mudarrisūn."
+            }
+          },
+          {
+            "arabic": "ٱلْمَدِينَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Waṣl hamzah, moon lām, madd yāʾ, tāʾ marbūṭah. al-madīnah."
+            }
+          },
+          {
+            "arabic": "مُسْتَشْفَى",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Two sukūns, then an alif maqṣūrah. mustashfā."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سَيَّارَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A doubled yāʾ — consonant, held — then a madd alif. sayyārah."
+            }
+          },
+          {
+            "arabic": "ٱلطَّائِرَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Sun-letter shadda on a heavy ṭāʾ, then a hamzah on a yāʾ seat. aṭ-ṭāʾirah."
+            }
+          },
+          {
+            "arabic": "صَدِيقِي",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Madd yāʾ in the middle, then a final long ī. ṣadīqī."
+            }
+          },
+          {
+            "arabic": "مُهَنْدِسَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Sukūn in the middle, tāʾ marbūṭah at the end. muhandisah."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْجَامِعَة",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Waṣl hamzah, moon lām, madd alif, ʿayn, tāʾ marbūṭah. al-jāmiʿah."
+            }
+          },
+          {
+            "arabic": "كِتَابُهُم",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Madd alif, then a pronoun ending closed by a sukūn. kitābuhum."
+            }
+          },
+          {
+            "arabic": "مُتَخَصِّصُون",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A shadda in the middle of a long word, then a madd wāw. mutakhaṣṣiṣūn."
+            }
+          },
+          {
+            "arabic": "ٱلشَّمْس",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Sun-letter shadda, then a sukūn cluster at the end. ash-shams."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Read it backwards",
+      "instructions": "Take the rung-3 list and read it bottom to top, then in whatever order I point to. This kills the memorisation that a fixed list quietly builds — and it is the same trick 2-14 uses on a whole page.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلنَّفَّٰثَٰتِ",
+            "translit": "an-naffāthāti",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Last becomes first."
+            }
+          },
+          {
+            "arabic": "ٱلْوَسْوَاسِ",
+            "translit": "al-waswāsi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "al-waswāsi — two sukūns and a madd alif."
+            }
+          },
+          {
+            "arabic": "ٱلْمُسْتَقِيمَ",
+            "translit": "al-mustaqīma",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "al-mustaqīma — a sukūn cluster, then a madd yāʾ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْخَنَّاسِ",
+            "translit": "al-khannāsi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "al-khannāsi — doubled nūn held, then a madd alif."
+            }
+          },
+          {
+            "arabic": "بِحِجَارَةٍ",
+            "translit": "bi-ḥijāratin",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "bi-ḥijāratin — madd alif, tāʾ marbūṭah, tanwīn kasr."
+            }
+          },
+          {
+            "arabic": "ٱلْكَوْثَرَ",
+            "translit": "al-kawthara",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "First becomes last."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The last ten minutes: words nobody can recite",
+      "body": [
+        "Reserve the end of the session for genuinely unseen words, and make them non-Qurʾānic.",
+        "Qurʾānic words in the hifz set are contaminated by memory. A word you can recite is not a word you have read.",
+        "Ordinary Arabic vocabulary gives a clean measurement, and it is the only honest number in this lesson.",
+        "The words are not translated. You are not learning vocabulary; you are proving decoding."
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "The eight words to read cold each morning",
+      "items": [
+        {
+          "arabic": "ٱلصَّمَدُ",
+          "translit": "aṣ-ṣamadu",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "waṣl hamzah + sun shadda."
+          }
+        },
+        {
+          "arabic": "ٱلْكَوْثَرَ",
+          "translit": "al-kawthara",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "waṣl + moon lām + līn wāw."
+          }
+        },
+        {
+          "arabic": "سِجِّيلٍ",
+          "translit": "sijjīlin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "shadda → madd yāʾ → tanwīn."
+          }
+        },
+        {
+          "arabic": "بِحِجَارَةٍ",
+          "translit": "bi-ḥijāratin",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "madd alif → tāʾ marbūṭah → tanwīn kasr."
+          }
+        },
+        {
+          "arabic": "ٱلْيَتِيمَ",
+          "translit": "al-yatīma",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "moon lām + madd yāʾ."
+          }
+        },
+        {
+          "arabic": "ٱلشِّتَآءِ",
+          "translit": "ash-shitāʾi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "sun lām + long madd before a hamzah."
+          }
+        },
+        {
+          "arabic": "ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+          "translit": "al-waswāsi-l-khannās",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "sukūn cluster, then shadda + madd. Two words."
+          }
+        },
+        {
+          "arabic": "ٱلنَّفَّٰثَٰتِ",
+          "translit": "an-naffāthāti",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "two shaddas, two daggered alifs. The hardest one."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Twenty unseen non-Qurʾānic words, written out by you or by me, read once daily. Mark with a dot every word you did not get first time.",
+        "Keep the mark sheet: a row per session, a column per mark — tanwīn · sukūn · shadda · madd 2 · madd 6 · līn · waṣl hamzah. One tick per miss. Bring it every lesson.",
+        "The eight Qurʾānic words in the recap, read cold each morning BEFORE you recite anything. Reading first, memory second, so memory cannot do the work.",
+        "Practise the three-second silent scan on every single word this week, even the easy ones. The habit is the homework; the words are just what it is practised on."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The ladder — rung 1, four letters",
+        "instructions": "Four or five words per rung. Clear it clean and move up; miss two and drop back one rung.",
+        "grid": [
+          [
+            {
+              "arabic": "قُلْ",
+              "translit": "qul",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "qul — ḍammah, then a sukūn."
+              }
+            },
+            {
+              "arabic": "لَهَبٍ",
+              "translit": "lahabin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "lahabin — tanwīn kasr."
+              }
+            },
+            {
+              "arabic": "حَسَدَ",
+              "translit": "ḥasada",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ḥasada — three plain fatḥahs."
+              }
+            },
+            {
+              "arabic": "وَقَبَ",
+              "translit": "waqaba",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "waqaba — consonant wāw."
+              }
+            },
+            {
+              "arabic": "تَبَّتْ",
+              "translit": "tabbat",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "tabbat — a shadda held, then a final sukūn."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The ladder — rung 2, five to six letters",
+        "instructions": "Three-second scan before each one.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلصَّمَدُ",
+              "translit": "aṣ-ṣamadu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aṣ-ṣamadu."
+              }
+            },
+            {
+              "arabic": "سِجِّيلٍ",
+              "translit": "sijjīlin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sijjīlin."
+              }
+            },
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaqi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-falaqi."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْحَطَبِ",
+              "translit": "al-ḥaṭabi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-ḥaṭabi."
+              }
+            },
+            {
+              "arabic": "ٱلْيَتِيمَ",
+              "translit": "al-yatīma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-yatīma."
+              }
+            },
+            {
+              "arabic": "ٱلشِّتَآءِ",
+              "translit": "ash-shitāʾi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ash-shitāʾi."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The ladder — rung 3, seven or more letters",
+        "instructions": "Scan first, always. These are the words where scanning is the difference between reading and stalling.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْكَوْثَرَ",
+              "translit": "al-kawthara",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-kawthara."
+              }
+            },
+            {
+              "arabic": "بِحِجَارَةٍ",
+              "translit": "bi-ḥijāratin",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "bi-ḥijāratin."
+              }
+            },
+            {
+              "arabic": "ٱلْخَنَّاسِ",
+              "translit": "al-khannāsi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-khannāsi."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْمُسْتَقِيمَ",
+              "translit": "al-mustaqīma",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-mustaqīma."
+              }
+            },
+            {
+              "arabic": "ٱلْوَسْوَاسِ",
+              "translit": "al-waswāsi",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-waswāsi."
+              }
+            },
+            {
+              "arabic": "ٱلنَّفَّٰثَٰتِ",
+              "translit": "an-naffāthāti",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "an-naffāthāti."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Twelve cold words, timed — non-Qurʾānic",
+        "instructions": "One minute, twelve words. Accuracy over speed: a clean nine beats a rushed twelve. Once a week only, so it stays a real test.",
+        "grid": [
+          [
+            {
+              "arabic": "مَكْتَبَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "maktabah."
+              }
+            },
+            {
+              "arabic": "مُدَرِّسُون",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "mudarrisūn."
+              }
+            },
+            {
+              "arabic": "ٱلْمَدِينَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-madīnah."
+              }
+            },
+            {
+              "arabic": "مُسْتَشْفَى",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "mustashfā."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "سَيَّارَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "sayyārah."
+              }
+            },
+            {
+              "arabic": "ٱلطَّائِرَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "aṭ-ṭāʾirah."
+              }
+            },
+            {
+              "arabic": "صَدِيقِي",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ṣadīqī."
+              }
+            },
+            {
+              "arabic": "مُهَنْدِسَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "muhandisah."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْجَامِعَة",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "al-jāmiʿah."
+              }
+            },
+            {
+              "arabic": "كِتَابُهُم",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "kitābuhum."
+              }
+            },
+            {
+              "arabic": "مُتَخَصِّصُون",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "mutakhaṣṣiṣūn."
+              }
+            },
+            {
+              "arabic": "ٱلشَّمْس",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "ash-shams."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The three-second silent scan on every word read today, easy ones included",
+      "Twenty unseen non-Qurʾānic words, once through, with a dot on every miss",
+      "The eight recap words read cold, BEFORE any recitation",
+      "The mark sheet filled in — one tick per miss, in the column of the mark that broke",
+      "Once a week only: the twelve cold words, timed, so it stays a real measurement"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Put ٱلنَّفَّٰثَٰتِ in front of her with no warning and let her stall. This is the one hook in the unit that is meant to be uncomfortable, and it only works if you do not rescue her. Then take it apart in five seconds and have her read it again.",
+      "Say the point explicitly afterwards: nothing in that word was new, only the fact that it arrived all at once with nobody announcing it. That sentence is what converts the discomfort into information.",
+      "Your job today is NOT to teach. There is no new content in this lesson at all. It is to withhold help long enough for her to discover she can already do this — which is harder than teaching and feels less productive while it is happening.",
+      "Teach the scan-then-read routine as a physical habit with a fixed duration: three seconds, mouth shut, eyes across the whole word. Model it yourself on ٱلْخَنَّاسِ, narrating what your eyes are doing, then have her narrate her own scan on ٱلْوَسْوَاسِ.",
+      "Use the rhythm tap. If the tapping and the reading come apart, the reading is letter-by-letter — that is a scanning failure, and correcting the pronunciation will not touch it.",
+      "'Which mark?' is the operational core of the lesson. Never supply the word when she errs. Ask the question, wait, and if she cannot name it, look at the word together until she can.",
+      "Keep the running sheet with a column per mark, visibly, in front of both of you. By the end of the session you have her actual weak marks in a form that names lessons to redo rather than moods to worry about.",
+      "Work the ladder strictly. Four or five words a rung; clear it clean and move up; miss two and drop back one. Never re-run a failed rung immediately — the second attempt is scored by memory, not by reading, and it will flatter both of you.",
+      "Reserve the last ten minutes for the non-Qurʾānic set and protect that time. The hifz words are contaminated by recitation; the ordinary words are the only honest measurement in the lesson.",
+      "Do not translate the non-Qurʾānic words. She is not learning vocabulary, and translating them invites her to recognise rather than decode."
+    ],
+    "listenFor": [
+      {
+        "item": "One continuous word — an even flow from first letter to last, with the shaddas held and the madds counted, and no pause in the middle for thinking.",
+        "commonMistake": "The word comes out in two pieces with a gap — al-khan… nāsi.",
+        "whyItHappens": "She is decoding forward and hit a mark she had not seen coming. This is not a knowledge failure; it is a scanning failure, and correcting the pronunciation will not fix it.",
+        "correctionCue": "Don't read it again yet. Look at the whole word first — all of it — then read it in one piece.",
+        "severityIfWrong": "khafi",
+        "source": "library/05-Pedagogy/Methodology.md"
+      },
+      {
+        "item": "Every shadda given real duration, not merely acknowledged.",
+        "commonMistake": "The shadda is pronounced as a doubled letter but not HELD — aṣ-ṣamad with a ṣād no longer than a plain one.",
+        "whyItHappens": "She is treating the shadda as a fact to acknowledge rather than a duration to produce. Very common once a rule becomes familiar: the knowledge stays and the execution decays.",
+        "correctionCue": "Lean on it. Stay on the ṣād until I nod, then move.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Shiddah.md"
+      },
+      {
+        "item": "Madd lengths surviving to the end of a long word — the six still six on the seventh letter.",
+        "commonMistake": "Madd letters flatten to two counts everywhere, including where six is required, once the word gets long.",
+        "whyItHappens": "Cognitive load. On a seven-letter word with three marks, length is the first thing dropped, because it is the only requirement that costs TIME rather than a decision.",
+        "correctionCue": "Slow the whole word down, not just the madd. If the word is too fast, the madd has nowhere to live.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Madd-Lazim.md"
+      },
+      {
+        "item": "Decoding rather than recognition — the eyes moving across the whole word, including its end.",
+        "commonMistake": "Guessing the word from its first two letters, especially in the hifz surahs.",
+        "whyItHappens": "She knows these surahs by heart, so recognition beats decoding to the answer. It produces right answers and no learning, and it collapses the moment the word is unfamiliar.",
+        "correctionCue": "Cover the end of the word with your finger. Now read only what you can see.",
+        "severityIfWrong": "khafi",
+        "source": "library/05-Pedagogy/Assessment.md"
+      },
+      {
+        "item": "Her own diagnosis after a slip — the name of the mark, not just an admission of error.",
+        "commonMistake": "'I got it wrong' with no idea which mark caused it.",
+        "whyItHappens": "Errors have only ever been corrected for her at the word level, so she has no habit of localising them and no vocabulary for doing it.",
+        "correctionCue": "Which mark? Don't read it again — just point at the thing that broke.",
+        "severityIfWrong": "khafi",
+        "source": "library/05-Pedagogy/Assessment.md"
+      }
+    ],
+    "homework": "Daily: twenty unseen non-Qurʾānic words read once, with a dot on every miss; the eight Qurʾānic recap words read cold each morning BEFORE any recitation, so memory cannot do the work; the three-second silent scan applied to every word she reads, easy ones included — the habit IS the homework and the words are only what it is practised on. Ongoing: the mark sheet, one row per session and one column per mark (tanwīn · sukūn · shadda · madd 2 · madd 6 · līn · waṣl hamzah), brought to every lesson. Once a week only: the twelve cold words, timed, kept weekly so it stays a genuine measurement rather than a rehearsal."
+  },
+  "videos": []
+}

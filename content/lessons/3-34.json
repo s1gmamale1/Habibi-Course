@@ -1,0 +1,586 @@
+{
+  "id": "3-34",
+  "phase": 3,
+  "unit": "3.7",
+  "title": "Waqf signs and the types of stopping",
+  "objectives": [
+    "Student can read the six waqf signs this course teaches and say, for each, whether it is an instruction or advice.",
+    "Student can classify a stop as tām, kāfī, ḥasan or qabīḥ, and say where she may restart from in each case.",
+    "Student can state that stopping at an āyah end is always permitted and that running out of breath is not a sin — but that where she restarts is never excused.",
+    "Student knows the sign set depends on which muṣḥaf she is holding, and can find and read the legend in her own copy."
+  ],
+  "prerequisites": [
+    "2-12",
+    "3-33"
+  ],
+  "stage": "Waqf",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.34 — Waqf signs and the types of stopping",
+      "arabicDecor": "مـ"
+    },
+    {
+      "kind": "concept",
+      "heading": "That letter has been on the page the whole time",
+      "body": [
+        "Read 6:36 as you normally would, breathing where you like: إِنَّمَا يَسْتَجِيبُ ٱلَّذِينَ يَسْمَعُونَ وَٱلْمَوْتَىٰ يَبْعَثُهُمُ ٱللَّهُ.",
+        "You read straight through. Now translate what you just said, word for word: only those who listen respond — and the dead — God will raise them.",
+        "Joined without a break, the first half reads as though the dead are among those who respond.",
+        "Now look at the small م printed after يَسْمَعُونَ.",
+        "That letter has been on the page the whole time. It is not decoration and it is not an abbreviation of a word. It means stop — and it is there because someone worked out, a long time ago, that a reciter who does not stop here says something the āyah does not say.",
+        "You have stopped competently since 2-12. What you have never had is the classification: which stops are good ones, and what the little letters above the line are telling you."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "First: check your own muṣḥaf, before any sign is taught",
+      "body": [
+        "Do this before the table below, not after.",
+        "The waqf signs are not part of the revealed text. They are a later scholarly aid — chiefly the work of Shaykh Muḥammad ibn ʿAlī Khalaf al-Ḥusaynī al-Hamadhānī, d. 1357 AH — and different printing traditions use different sets.",
+        "The Madinah (King Fahd) muṣḥaf uses the set taught below. The Indo-Pak — Tāj or Persian — tradition is partly different: ط for waqf muṭlaq, ز for mujawwaz, plus the ع rukūʿ marker. The Turkish and Ottoman prints are a further variant again.",
+        "Teach the set that matches the muṣḥaf she actually holds. For Uzbek and wider Central Asian learners the Indo-Pak set is very likely what is in their hands, not the Madinah set.",
+        "If her copy is Indo-Pak, teach ط and ز from her own page and treat the table below as the second set she will meet, not the first.",
+        "Then find the legend in her own muṣḥaf — most editions print one, usually on the first or last page — and read it together. This is a rehearsal of the skill 3-36 makes explicit: read the legend of the book in front of you."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The six signs this course teaches",
+      "body": [
+        "م — الوقف اللازم. MUST STOP. Joining would corrupt the meaning.",
+        "لا — لا وقف فيه. DO NOT STOP. If it falls at an āyah end you may stop, but you must resume from before it.",
+        "ج — الوقف الجائز. Stopping and joining are equally permissible.",
+        "صلى — الوصل أولى. Both permitted; joining is better.",
+        "قلى — الوقف أولى. Both permitted; stopping is better.",
+        "س or سكتة — السكتة. A brief pause with NO BREATH. You had this at 3-25; today its muṣḥaf sign joins the set.",
+        "Six is enough to read fluently and safely. Anything else on the page: treat it as 'a stop is discussed here' and stop at the āyah end instead."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "How to read them honestly",
+      "body": [
+        "م and لا are instructions. Follow them.",
+        "ج, صلى and قلى are advice. They record a scholar's judgement about meaning. They are not binding, and reciters do differ. Say this plainly — you will meet recordings that ignore them.",
+        "The rosette ۝ outranks all of it for a beginner. Short of breath? Aim for the next rosette rather than guess.",
+        "س is not a stop at all. No breath is taken. Two counts of silence with the breath held; if you breathed, you made it a waqf.",
+        "The distinction between instruction and advice is the real content of this section. Over-correcting into rigidity — treating ج as binding — is as much an error as ignoring م."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "What this course deliberately leaves out, and why",
+      "body": [
+        "Say what is being left out. A student who later meets an unexplained mark concludes her teacher did not know it.",
+        "Muʿānaqah — المعانقة, the three dots printed at TWO places: stop at one of them, never both. Excluded from this course because it needs the tām/kāfī framework to be secure first.",
+        "ق — قيل عليه الوقف, 'it has been said one may stop here', but joining is better. Excluded because learners reliably confuse it with قلى.",
+        "Also outside this course's set: ص for murakhkhaṣ, صل for qad yūṣal, ز for mujawwaz, ك for kadhālik, and وقفة for a longer saktah.",
+        "You will see these. When you do, stop at the āyah end and ask me."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Four types of waqf, by cause",
+      "body": [
+        "Ikhtiyārī — الاختياري. Chosen deliberately. This is the one classified for quality below.",
+        "Iḍṭirārī — الاضطراري. Compelled: breath, cough, sneeze. Permitted ANYWHERE — and you resume from BEFORE the stopping point.",
+        "Ikhtibārī — الاختباري. For testing or teaching: stopping on a word to show its waqf form. Teaching contexts only; resume from that word or earlier. This is what you and I do in every lesson, and it is worth naming when we do it.",
+        "Intiẓārī — الانتظاري. 'Waiting' — gathering variant readings of a word. Specialist qirāʾāt study only.",
+        "The line that matters, in these words: running out of breath is not a sin. Stop, breathe, go back a word or two, carry on.",
+        "You have been told that since 2-12. Now it has a name and a ruling, and the name is worth having because it separates the stop — permitted anywhere — from the restart, which is never excused."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Four types of waqf, by quality — Ibn al-Jazarī's scheme",
+      "body": [
+        "وَبَعْدَ تَجْوِيدِكَ لِلْحُرُوفِ ⁕ لَا بُدَّ مِنْ مَعْرِفَةِ الْوُقُوفِ — 'After mastering the letters, knowledge of the stops is indispensable.'",
+        "Tām — التام. Complete; no grammatical or semantic link forward. Restarting from the next word is excellent.",
+        "Kāfī — الكافي. Complete; linked in meaning but not in grammar. Restarting from the next word is good.",
+        "Ḥasan — الحسن. Understandable alone, but grammatically attached to what came before. Stopping is good; restarting from the NEXT word is not — unless the stop was an āyah end.",
+        "Qabīḥ — القبيح. Incomplete, or the stop distorts the meaning. Impermissible deliberately; if you were forced into it, go back.",
+        "Reference examples from outside your memorised surahs: وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ (2:5) is tām; وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ (2:3) is kāfī."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 2,
+      "translation": "All praise is due to Allah, Lord of the worlds.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "ٱلْحَمْدُ لِلَّهِ is the clearest ḥasan in the Qurʾān. Stopping there is fine. Restarting from رَبِّ ٱلْعَٰلَمِينَ is not, because that phrase hangs grammatically off what came before it. Stop there, then restart from ٱلْحَمْدُ."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 107,
+      "ayah": 4,
+      "translation": "So woe to those who pray.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "A complete sentence, landing on an āyah end, and it is qabīḥ. The meaning is completed only by 107:5. Stopped alone, the āyah says the opposite of what it means. This is the one place 'āyah ends are always safe' fails, and it is in your own hifz."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "The qabīḥ trap — and it is in your own hifz",
+      "body": [
+        "فَوَيْلٌ لِّلْمُصَلِّينَ (107:4). You have been reciting al-Māʿūn since 3-30, and you were told then not to stop there. Now you get the reason.",
+        "The phrase is a complete sentence — 'so woe to those who pray' — and it lands on an āyah end. Every rule of thumb you have says that is a safe stop.",
+        "And it is the one place a rule of thumb fails: the meaning is completed only by 107:5, ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ.",
+        "So: stopping deliberately at a place that reverses the sense is qabīḥ even at an āyah end. That is the single limit on 'āyah ends are always safe', and 107:4 is the example to carry for it, because it is yours.",
+        "The other one, and it is the most serious in the Qurʾān: لَآ إِلَٰهَ إِلَّا هُوَ (2:255). Stopping after لَآ إِلَٰهَ alone is a negation of the creed. Never stop mid-negation."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Al-ibtidāʾ — where you START, and why it is stricter",
+      "body": [
+        "The rule: a start must ALWAYS be at a place where the meaning is complete and correct.",
+        "Why it is stricter than waqf: there is no such thing as a compelled start. You always choose where to begin. An ugly stop can be forced on you by your lungs; an ugly start cannot.",
+        "In practice: stopped somewhere qabīḥ, or forced to stop? Go back to a suitable earlier point and resume there.",
+        "You are not continuing, you are starting. Go back to where the meaning begins.",
+        "And every start on a word beginning with ٱ invokes hamzat al-waṣl — you had the working version at 2-09, and 3-36 gives it in full. Stopping and starting are one skill with two halves."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 3,
+      "translation": "Let them worship the Lord of this House.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Today's hifz. The boundary from 106:3 into 106:4 is a ḥasan: ٱلَّذِىٓ hangs grammatically off رَبَّ هَٰذَا ٱلْبَيْتِ. You may stop at the āyah end — and if you do, you restart from 106:3, not from ٱلَّذِىٓ."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 106,
+      "ayah": 4,
+      "highlight": [
+        "madd_munfasil"
+      ],
+      "translation": "Who has fed them against hunger and made them safe from fear.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Quraysh completes today. ٱلَّذِىٓ أَطْعَمَهُم is a munfaṣil at four counts; مِّنْ خَوْفٍۭ is the līn case at your chosen 2/4/6, and it is the last word of the surah so you stop on it every single time."
+      }
+    },
+    {
+      "kind": "drill",
+      "heading": "Read your own legend",
+      "instructions": "Open your muṣḥaf to its legend page. Read every sign in it aloud with its meaning. Circle the six from this lesson. Anything left over, we discuss — and if your copy uses ط or ز we work from YOUR set next session, not from the table here.",
+      "grid": [
+        [
+          {
+            "arabic": "مـ",
+            "translit": "waqf lāzim",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "INSTRUCTION. Must stop. Joining would corrupt the meaning."
+            }
+          },
+          {
+            "arabic": "لا",
+            "translit": "lā waqfa fīh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "INSTRUCTION. Do not stop. لا means no — no stop, read on. The mark's meaning is the opposite of what the eye suggests."
+            }
+          },
+          {
+            "arabic": "ج",
+            "translit": "waqf jāʾiz",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ADVICE. Stopping and joining equally permissible."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "صلے",
+            "translit": "al-waṣl awlā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ADVICE. Both permitted; joining is better."
+            }
+          },
+          {
+            "arabic": "قلے",
+            "translit": "al-waqf awlā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ADVICE. Both permitted; stopping is better. Do not confuse this with ق, which this course does not teach."
+            }
+          },
+          {
+            "arabic": "س",
+            "translit": "saktah",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NOT A STOP AT ALL. Two counts of silence, breath held. If you breathed, you made it a waqf."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sign hunt — I or A",
+      "instructions": "One page. Find and circle every waqf sign on it. Label each I for instruction — م, لا — or A for advice — ج, صلى, قلى. Then read the page obeying the I's and weighing the A's.",
+      "grid": [
+        [
+          {
+            "arabic": "مـ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "I — obey it. Go back if you read past one."
+            }
+          },
+          {
+            "arabic": "لا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "I — obey it, and note that obeying it means NOT stopping."
+            }
+          },
+          {
+            "arabic": "ج",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A — weigh it. Those three are advice from a scholar, not an instruction from the text. You are allowed to weigh them."
+            }
+          },
+          {
+            "arabic": "۝",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The rosette. For a beginner it outranks all of it: short of breath, aim for the next rosette rather than guess."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sort the stop, then restart",
+      "instructions": "For each stopping place, name it tām, kāfī, ḥasan or qabīḥ, and tell me where you would restart from. Then I stop you mid-phrase at random and you restart correctly — not from where I stopped you, but from a place where the meaning begins. Expect to get the first few wrong.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلْحَمْدُ لِلَّهِ",
+            "translit": "al-ḥamdu lillāh",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:2 — ḤASAN. Stopping is fine. Restart from ٱلْحَمْدُ, NOT from رَبِّ."
+            }
+          },
+          {
+            "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+            "translit": "fa-waylun lil-muṣallīn",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "107:4 — QABĪḤ, at an āyah end. Do not stop here deliberately. Join it to 107:5."
+            }
+          },
+          {
+            "arabic": "ٱلَّذِىٓ أَطْعَمَهُم",
+            "translit": "alladhī aṭʿamahum",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:4 — the āyah before it is a ḤASAN boundary. If you stopped at the end of 106:3, restart from 106:3 and not from here."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sakt, not stop",
+      "instructions": "Two counts of silence, breath held. If you breathed, you made it a waqf — do it again. Read these from the page; both are outside your memorised surahs.",
+      "grid": [
+        [
+          {
+            "arabic": "عِوَجَا",
+            "translit": "ʿiwajā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "18:1, before قَيِّمًا — the sakt protects a meaning. Silence, then continue, same breath."
+            }
+          },
+          {
+            "arabic": "مَنْ رَاقٍ",
+            "translit": "man rāq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "75:27 — the same sign doing a different job. Here the sakt exists purely to block an idghām the general rules would otherwise force. Same mark, same execution, different reason."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong",
+      "mistakes": [
+        {
+          "wrong": "Reading straight past a م.",
+          "why": "The marks have been invisible to her for the whole course, and invisibility is a hard habit to break in one session.",
+          "fix": "Go back. What is above the line after that word? Now read it again."
+        },
+        {
+          "wrong": "Stopping at لا.",
+          "why": "It looks like an instruction TO stop — لا is a word she knows, and the mark's meaning is the opposite of what the eye suggests.",
+          "fix": "لا means no. No stop. Read on."
+        },
+        {
+          "wrong": "Stopping at 107:4 and restarting from 107:5.",
+          "why": "It is an āyah end, and her rule of thumb says āyah ends are safe. She is applying a rule she was correctly given.",
+          "fix": "That's the exception, and it's the one you recite every day. What does the āyah mean on its own? Now join it."
+        },
+        {
+          "wrong": "Restarting from wherever she happened to stop.",
+          "why": "She is treating the restart as a continuation rather than as a start. This is the single most common ibtidāʾ error and it survives long after the waqf errors are gone.",
+          "fix": "You're not continuing, you're starting. Go back to where the meaning begins."
+        },
+        {
+          "wrong": "Breathing during a sakt.",
+          "why": "Two counts of silence feels exactly like a short stop, and the breath comes automatically.",
+          "fix": "Hold your breath. Silence, then continue, same breath. Again."
+        },
+        {
+          "wrong": "Treating ج, صلى and قلى as binding and becoming rigid.",
+          "why": "Over-correction from today's lesson on م and لا.",
+          "fix": "Those three are advice from a scholar, not an instruction from the text. You are allowed to weigh them."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "Instruction, advice, or neither",
+      "items": [
+        {
+          "arabic": "مـ",
+          "translit": "waqf lāzim",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "INSTRUCTION — must stop. Joining corrupts the meaning."
+          }
+        },
+        {
+          "arabic": "لا",
+          "translit": "lā waqfa fīh",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "INSTRUCTION — do not stop. At an āyah end you may, but you resume from before it."
+          }
+        },
+        {
+          "arabic": "صلے",
+          "translit": "al-waṣl awlā",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ADVICE — both permitted, joining is better. A scholar's judgement, not a command from the text."
+          }
+        },
+        {
+          "arabic": "س",
+          "translit": "saktah",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "NEITHER — it is not a stop. Two counts of silence, no breath."
+          }
+        },
+        {
+          "arabic": "۝",
+          "translit": "āyah end",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ALWAYS SAFE — with the single exception of a stop that reverses the sense, and 107:4 is yours."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "Hifz: Quraysh 106:3–4 to 20–40 repetitions daily — the surah completes today, so recite it whole from tomorrow. Sabqi is al-Kawthar, al-Māʿūn and Quraysh. Manzil rotation first, ten extra repetitions after any caught error. Quraysh is complete: four of eleven done, with al-Fīl remaining. Say the count out loud.",
+        "The sign hunt on three fresh pages. Circle every waqf sign, label each I or A, and bring the pages.",
+        "Copy the six-sign table onto the back of your madd card, by hand.",
+        "Find your muṣḥaf's legend page and photograph it, or bring the muṣḥaf. If your copy uses ط or ز, we will work from YOUR set next session rather than from the table in this lesson.",
+        "Read 18:1–2 aloud five times with a correct sakt at عِوَجَا — silence, no breath. Then read al-Māʿūn joining 107:4 to 107:5 every single time."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Sign hunt — I or A",
+        "instructions": "One page a day. Circle every sign, label each I for instruction or A for advice, then read the page obeying the I's and weighing the A's.",
+        "grid": [
+          [
+            {
+              "arabic": "مـ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "I — must stop."
+              }
+            },
+            {
+              "arabic": "لا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "I — must not stop."
+              }
+            },
+            {
+              "arabic": "ج",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "A — equally permissible."
+              }
+            },
+            {
+              "arabic": "قلے",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "A — stopping is better."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The two traps",
+        "instructions": "Read 107:4 into 107:5 without a breath, five times. Then read 2:255 from ٱللَّهُ through هُوَ without a breath, five times. You will be doing both of these for the rest of your life; build them in now.",
+        "grid": [
+          [
+            {
+              "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "107:4 — never a deliberate stop. Straight on into 107:5."
+              }
+            },
+            {
+              "arabic": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "107:5 — the āyah that completes the meaning. One breath across both."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "لَآ إِلَٰهَ إِلَّا هُوَ",
+              "translit": "lā ilāha illā huwa",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2:255 — never stop mid-negation. Stopping after لَآ إِلَٰهَ alone negates the creed. One breath, all the way through هُوَ."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Sakt, not stop",
+        "instructions": "Two counts of silence, breath held, then continue on the same breath. If you breathed, you made it a waqf.",
+        "grid": [
+          [
+            {
+              "arabic": "عِوَجَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "18:1 — sakt protecting a meaning."
+              }
+            },
+            {
+              "arabic": "مَنْ رَاقٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "75:27 — sakt blocking an idghām. Same mark, different reason."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Quraysh 106:3–4 to 20–40 repetitions, and the surah whole from tomorrow",
+      "Al-Māʿūn recited with 107:4 joined to 107:5, every time, no exceptions",
+      "One page sign-hunted: every waqf sign circled and labelled I or A",
+      "The sakt drill on 18:1 — silence, breath held, then continue",
+      "Once in the week: your own muṣḥaf's legend page read aloud end to end"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open on 6:36 and let her read straight past the م. Then translate what she actually said, word for word. The correction has to be semantic — she needs to hear that the joined reading says something the āyah does not say.",
+      "Check her muṣḥaf BEFORE teaching any sign. The sign sets differ by printing tradition, and for a Central Asian learner the Indo-Pak set with ط and ز is very likely what is in her hands. Teaching the Madinah table to someone holding an Indo-Pak copy wastes a session and undermines her trust in the table.",
+      "Draw the instruction/advice line explicitly. م and لا are instructions; ج, صلى and قلى are a scholar's judgement about meaning and are not binding. She will meet recordings that ignore them, and she needs to know that before she does.",
+      "Say what is being left out and why. Muʿānaqah and ق are excluded on purpose. A student who later meets an unexplained mark concludes her teacher did not know it, and that is expensive to repair.",
+      "Say 'running out of breath is not a sin' in those words. Then immediately draw the line that matters: the stop is permitted anywhere, and the restart is never excused.",
+      "Name ikhtibārī out loud every time you ask her to stop on a word to show its waqf form. It costs nothing and it turns a routine teaching move into a category she owns.",
+      "Work one example of each quality type in order — tām, kāfī, ḥasan, qabīḥ — and do the ḥasan restart physically: stop at ٱلْحَمْدُ لِلَّهِ, then restart correctly from ٱلْحَمْدُ rather than from رَبِّ.",
+      "Give 107:4 its full weight. It is a complete sentence at an āyah end and it is qabīḥ, which is the single limit on the rule of thumb she has had since Unit 2. It is also in her own hifz, which is why it is the example she should carry.",
+      "Teach ibtidāʾ as the stricter half: there is no such thing as a compelled start. That single sentence does more work than any list of rules about restarting.",
+      "Drill 3 — stopping her mid-phrase at random and asking for a correct restart — is the drill that transfers. Expect the first few to be wrong and say so in advance, so that being wrong is data rather than failure."
+    ],
+    "listenFor": [
+      {
+        "item": "Stops that were chosen — audibly decided before she got there, not taken when the breath ran out.",
+        "commonMistake": "Reading straight past a م, or stopping wherever the lungs give out.",
+        "whyItHappens": "The marks have been invisible to her for the entire course, and invisibility is a hard habit to break in one session.",
+        "correctionCue": "Go back. What is above the line after that word? Now read it again.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Signs.md"
+      },
+      {
+        "item": "Reading ON through a لا rather than stopping at it.",
+        "commonMistake": "Stopping at لا.",
+        "whyItHappens": "It looks like an instruction to stop — لا is a word she already knows — and the mark's meaning is the opposite of what the eye suggests.",
+        "correctionCue": "لا means no. No stop. Read on.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Waqf-Signs.md"
+      },
+      {
+        "item": "107:4 joined to 107:5 without a breath, every single time.",
+        "commonMistake": "Stopping at 107:4 and restarting from 107:5.",
+        "whyItHappens": "It is an āyah end, and her working rule since Unit 2 says āyah ends are safe. She is applying a rule she was correctly given, which is why this needs the exception spelled out rather than a correction.",
+        "correctionCue": "That's the exception, and it's the one you recite every day. What does the āyah mean on its own? Now join it.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Types.md"
+      },
+      {
+        "item": "A restart taken from where the meaning begins, not from where the stop happened.",
+        "commonMistake": "Resuming from whatever word she stopped on.",
+        "whyItHappens": "She is treating the restart as a continuation rather than as a start. This is the most common ibtidāʾ error and it survives long after the waqf errors are gone.",
+        "correctionCue": "You're not continuing, you're starting. Go back to where the meaning begins.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Types.md"
+      },
+      {
+        "item": "Two counts of silence at a sakt with the breath held.",
+        "commonMistake": "Breathing during the sakt, turning it into a waqf.",
+        "whyItHappens": "Two counts of silence feels exactly like a short stop, and the breath comes automatically.",
+        "correctionCue": "Hold your breath. Silence, then continue, same breath. Again.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Sakt.md"
+      },
+      {
+        "item": "ج, صلى and قلى weighed rather than obeyed as commands.",
+        "commonMistake": "Becoming rigid — treating all six signs as binding instructions.",
+        "whyItHappens": "Over-correction from the م and لا half of the lesson, taught twenty minutes earlier.",
+        "correctionCue": "Those three are advice from a scholar, not an instruction from the text. You are allowed to weigh them.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Waqf-Signs.md"
+      }
+    ],
+    "homework": "Daily: Quraysh 106:3–4 to 20–40 repetitions, the surah whole from tomorrow, with al-Kawthar, al-Māʿūn and Quraysh as Sabqi and the Manzil rotation first; al-Māʿūn always recited with 107:4 joined to 107:5; one page sign-hunted with every waqf sign circled and labelled I or A. Written: the six-sign table copied by hand onto the back of the madd card; three marked pages brought in. Once in the week: her own muṣḥaf's legend page found, read aloud and photographed or brought in — and if her copy uses ط or ز, the next session works from her set rather than from the Madinah table. Also: 18:1–2 read five times with a correct breath-held sakt at عِوَجَا."
+  },
+  "videos": []
+}

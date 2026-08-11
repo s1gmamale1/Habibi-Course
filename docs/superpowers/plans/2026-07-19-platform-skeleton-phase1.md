@@ -58,7 +58,7 @@ Content-authoring source of truth: `docs/syllabus/phase-1-letters.md` (exact les
 - [ ] **Step 1: Scaffold** (repo root already contains `docs/`; create-next-app tolerates non-empty dirs only when empty-ish — scaffold in a temp dir and move):
 
 ```bash
-cd "/Users/scorpionn/Desktop/Tajweed Course"
+cd <repo root>
 npx create-next-app@latest _scaffold --ts --tailwind --eslint --app --src-dir --no-import-alias --use-npm --skip-install
 rsync -a _scaffold/ ./ && rm -rf _scaffold
 npm install

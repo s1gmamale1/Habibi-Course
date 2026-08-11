@@ -28,7 +28,7 @@
 - [ ] **Step 0.1: Create the feature branch**
 
 ```bash
-cd "/Users/scorpionn/Desktop/Tajweed Course"
+cd <repo root>
 git checkout -b feat/practice-games
 ```
 

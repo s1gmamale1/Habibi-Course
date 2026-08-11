@@ -11,12 +11,17 @@
     "start": "next start",
     "lint": "eslint",
     "test": "NODE_OPTIONS=--no-experimental-webstorage vitest run",
-    "check:refs": "node scripts/check-refs.mjs"
+    "security:scan": "node scripts/security-scan.mjs",
+    "build:quran": "node scripts/build-quran-data.mjs",
+    "fetch:timings": "node scripts/fetch-word-timings.mjs",
+    "check:refs": "node scripts/check-refs.mjs",
+    "check:library": "node scripts/check-library.mjs library"
   },
   "dependencies": {
     "@fontsource/amiri": "^5.3.0",
-    "next": "16.2.10",
-    "pptxgenjs": "^4.0.1",
+    "image-size": "file:config/npm/image-size-disabled",
+    "next": "16.3.0",
+    "pptxgenjs": "4.0.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "zod": "^4.4.3"
@@ -30,10 +35,16 @@
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^6.0.3",
     "eslint": "^9",
-    "eslint-config-next": "16.2.10",
+    "eslint-config-next": "16.3.0",
     "jsdom": "^29.1.1",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.10",
+    "yaml": "^2.9.0"
+  },
+  "overrides": {
+    "pptxgenjs": {
+      "image-size": "$image-size"
+    }
   }
 }

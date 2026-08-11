@@ -67,13 +67,21 @@ export default function ExportPptxButton({ lesson }: { lesson: Lesson }) {
   }
 
   return (
-    <button
-      type="button"
-      onClick={onExport}
-      disabled={status === "working"}
-      className="mb-4 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm text-sky-300 hover:bg-white/10 disabled:opacity-50 print:hidden"
-    >
-      {LABELS[status]}
-    </button>
+    <>
+      <button
+        type="button"
+        onClick={onExport}
+        disabled={status === "working"}
+        className="mb-4 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm text-sky-300 hover:bg-white/10 disabled:opacity-50 print:hidden"
+      >
+        {LABELS[status]}
+      </button>
+      {/* The button's own label carries the status, but a label change on a focused control
+          is not announced. Export runs for several seconds and can fail, so the outcome needs
+          its own live region. Visually hidden — the button already shows the same words. */}
+      <span role="status" aria-live="polite" className="sr-only">
+        {status === "idle" ? "" : LABELS[status]}
+      </span>
+    </>
   );
 }

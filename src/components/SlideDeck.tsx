@@ -4,6 +4,9 @@ import { useRouter } from "next/navigation";
 import type { DeckSlide } from "@/games/deck";
 import { GamePanel } from "./games/GamePanel";
 import { TapToHear } from "./TapToHear";
+import { AyahSlide } from "./tajweed/AyahSlide";
+import { RuleChip } from "./tajweed/RuleChip";
+import { RuleLegend } from "./tajweed/RuleLegend";
 
 const FORM_LABELS = {
   isolated: "Alone",
@@ -106,6 +109,93 @@ function SlideView({ slide }: { slide: DeckSlide }) {
         <div className="max-w-2xl">
           <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
           <ol className="list-decimal space-y-3 pl-6 text-xl text-white/85">{slide.tasks.map((t) => <li key={t}>{t}</li>)}</ol>
+        </div>
+      );
+    case "rule":
+      return (
+        <div className="max-w-2xl">
+          <h2 className="mb-3 text-3xl font-bold text-white">{slide.heading}</h2>
+          <div className="mb-4 flex flex-wrap items-center gap-2">
+            <RuleChip rule={slide.ruleId} />
+            {slide.harakat !== undefined && (
+              <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-sm text-white/70">
+                {slide.harakat} ḥarakāt
+              </span>
+            )}
+          </div>
+          {slide.image && (
+            <div className="glass mx-auto mb-4 w-fit rounded-2xl p-2">
+              <img src={slide.image} alt={`${slide.heading} — diagram`} className="mx-auto h-auto w-72 max-w-full rounded-xl sm:w-80" />
+            </div>
+          )}
+          <p className="mb-4 text-lg text-white/85">
+            <span className="font-semibold text-white">When: </span>
+            {slide.condition}
+          </p>
+          {slide.letters && (
+            <div dir="rtl" className="mb-4 flex flex-wrap gap-2">
+              {slide.letters.map((l) => (
+                <span key={l} className="arabic rounded-xl bg-white/5 px-3 py-1 text-3xl text-white">{l}</span>
+              ))}
+            </div>
+          )}
+          {slide.mnemonic && (
+            <p dir="rtl" className="arabic mb-4 text-center text-3xl text-white">{slide.mnemonic}</p>
+          )}
+          <ul className="list-disc space-y-3 pl-6 text-xl text-white/85">{slide.body.map((b) => <li key={b}>{b}</li>)}</ul>
+        </div>
+      );
+    case "ayah":
+      return <AyahSlide {...slide} />;
+    case "contrast":
+      return (
+        <div className="max-w-2xl">
+          <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {slide.pairs.map((p) => (
+              // The pair carries its own fragment, not an offset into the
+              // generated verse, so the fragment stays plain and the rule is
+              // named beside it — colouring the whole fragment would claim the
+              // rule spans letters it does not.
+              <div key={`${p.surah}:${p.ayah}:${p.text}`} className="glass rounded-2xl p-4">
+                <p dir="rtl" className="quran arabic mb-3 text-center text-4xl text-white">{p.text}</p>
+                <RuleChip rule={p.rule} />
+                <p className="mt-3 text-white/75">{p.note}</p>
+                <p className="mt-2 text-xs text-white/45">{p.surah} : {p.ayah}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    case "legend":
+      return (
+        <div className="max-w-2xl">
+          <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
+          <RuleLegend rules={slide.rules} />
+        </div>
+      );
+    case "mistake":
+      return (
+        <div className="max-w-2xl">
+          <h2 className="mb-6 text-3xl font-bold text-white">{slide.heading}</h2>
+          <ul className="space-y-4">
+            {slide.mistakes.map((m) => (
+              <li key={m.wrong} className="glass rounded-2xl p-4">
+                <p className="text-lg font-semibold text-white">
+                  <span aria-hidden="true" className="mr-2 text-red-400">✗</span>
+                  {m.wrong}
+                </p>
+                <p className="mt-2 text-white/70">
+                  <span className="font-semibold text-white/85">Why: </span>
+                  {m.why}
+                </p>
+                <p className="mt-1 text-white/85">
+                  <span className="font-semibold text-white">Fix: </span>
+                  {m.fix}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
       );
   }

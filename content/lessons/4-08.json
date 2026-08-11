@@ -1,0 +1,755 @@
+{
+  "id": "4-08",
+  "phase": 4,
+  "unit": "4.8",
+  "title": "Īmān Mufaṣṣal",
+  "objectives": [
+    "Student can recite Īmān Mufaṣṣal from memory with correct tajweed on a planned breath scheme, without a rule collapsing in the second half.",
+    "Student can produce the light and heavy lām of the name of Allah inside one sentence — bi-llāh and mina-llāh — on demand.",
+    "Student can produce three light rāʾs in six words without rolling any of them.",
+    "Student can walk the whole text naming every rule, unaided. This is the exit assessment of Unit 4."
+  ],
+  "prerequisites": [
+    "3-37"
+  ],
+  "stage": "The Kalimas",
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 4.8 — Īmān Mufaṣṣal",
+      "arabicDecor": "آمَنْتُ بِاللَّهِ وَمَلَائِكَتِهِ"
+    },
+    {
+      "kind": "concept",
+      "heading": "Where this sits — plan two sittings",
+      "body": [
+        "This is the last lesson of the unit and the longest text in it. Two things follow from that, and both should shape how you run the session.",
+        "First: give it more time than any other lesson in Unit 4. Two sittings is normal, not a concession. Sitting one is the rule-spotting pass and the isolated drills, with no full recitation at all. Sitting two is the joins, the breath plan and the recitation.",
+        "There is no new rule here that she has not already met — every single rule in this text has appeared somewhere in 4-01 to 4-07 — but there are more of them, closer together, than anywhere else. The failure mode of Unit 4 has always been duration, not knowledge.",
+        "Second: this is where the unit gets assessed. Not by a test, but by the rule-spotting pass in the first drill.",
+        "If she can walk this text naming rules, she has the unit. If she cannot, the gap she shows you is the real curriculum for the next few sessions — and it will almost certainly be one specific rule, not a general weakness."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The hook — six things you have believed since before you could read",
+      "body": [
+        "Show her the six articles of faith in English first, before any Arabic.",
+        "Allah; His angels; His books; His messengers; the Last Day; the decree, its good and its ill — and resurrection after death.",
+        "'Six things, one sentence. You have believed all six of these since before you could read. Today is the last time in this course that we work on something you already know by heart — and it is the longest one.'",
+        "Then the tajweed hook, which is the honest one: 'There is nothing new in this sentence. Every rule in it, you have already done. The only new thing is that there are thirty of them and they are close together.'",
+        "Saying that removes the fear of the length and replaces it with the right expectation. She is not learning; she is holding."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The text",
+      "body": [
+        "آمَنْتُ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ مِنَ اللَّهِ تَعَالَىٰ وَالْبَعْثِ بَعْدَ الْمَوْتِ",
+        "āmantu bi-llāhi wa malāʾikatihī wa kutubihī wa rusulihī wa-l-yawmi-l-ākhiri wa-l-qadari khayrihī wa sharrihī mina-llāhi taʿālā wa-l-baʿthi baʿda-l-mawt",
+        "\"I believe in Allah, and in His angels, and in His books, and in His messengers, and in the Last Day, and in the decree — its good and its ill — from Allah the Exalted, and in the resurrection after death.\"",
+        "Mufaṣṣal — مُفَصَّل — means in detail, spelled out: the same belief as Īmān Mujmal, itemised.",
+        "Do not recite it today until the rule-spotting pass is done. That order is not a preference; it is the assessment."
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "ikhfa",
+      "heading": "آمَنْتُ — identical to yesterday, checked in five seconds",
+      "condition": "Nūn sākinah or tanwīn followed by one of the fifteen remaining letters: the nūn is hidden, with two counts of ghunnah, while the tongue moves towards the next letter.",
+      "letters": [
+        "ت",
+        "ث",
+        "ج",
+        "د",
+        "ذ",
+        "ز",
+        "س",
+        "ش",
+        "ص",
+        "ض",
+        "ط",
+        "ظ",
+        "ف",
+        "ق",
+        "ك"
+      ],
+      "harakat": 2,
+      "body": [
+        "Word for word 4-07's opening. Two counts on the madda — hamzah then madd letter, the short one — and the nūn sākinah hidden before the tāʾ with two counts of ghunnah.",
+        "Check it in five seconds. If it has decayed since yesterday, that is worth knowing before you spend an hour on a longer text.",
+        "A decayed first word is not a reason to abandon the lesson. It is a reason to spend three minutes on it now rather than discovering it inside a thirty-rule sentence.",
+        "Ask for the count before she says the word. Two, not four.",
+        "Then let it go and move on. There is a great deal in this text and the first word is the least of it."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "بِاللَّهِ — light, and mark it",
+      "body": [
+        "The kasrah of bi-, so light. She decides that herself now; you should not have named a lām weight since 4-05.",
+        "It is the second word of the text. Mark it on the page with a pencil.",
+        "The reason for marking it is the whole architecture of this lesson: the same name appears again, twelve words later, with the opposite weight.",
+        "In 4-06 she counted five occurrences and produced the sequence. In 4-07 there was one and nothing to compare it with. Here there are two, they are far apart, and they are opposite.",
+        "Those two, inside one sentence, are the assessment item of the whole unit. Everything between them is the difficulty."
+      ],
+      "items": [
+        {
+          "arabic": "بِاللَّهِ",
+          "translit": "bi-llāhi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Light — kasrah before it. Thin and forward. Mark this word; you will come back to it in twelve words' time."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_muttasil",
+      "heading": "وَمَلَائِكَتِهِ — four counts, obligatory, and early",
+      "condition": "A madd letter followed by a hamzah inside the same word.",
+      "harakat": 4,
+      "body": [
+        "A madd letter followed by a hamzah in the same word: madd muttaṣil, four counts, obligatory.",
+        "Same rule and the same shape as asmāʾihī yesterday, and it comes just as early in the sentence.",
+        "That timing is deliberate on your part: if she gave four counts yesterday and two today, the rule is not learned — it was remembered for one lesson. This is the cleanest test of retention in the unit and it arrives in the third word.",
+        "The error, when it comes, is always the same: the hamzah is small and sits above the line and she does not read it as a letter that changes anything.",
+        "Put her finger on the hamzah. Not on the alif — on the hamzah."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَكُتُبِهِ وَرُسُلِهِ — one decision made five times, and the only heavy rāʾ",
+      "body": [
+        "وَكُتُبِهِ — the pronoun-hāʾ sits between two voweled letters and is followed by a consonant, so by the convention it takes ṣilah ṣughrā: two counts. kutubihī wa…",
+        "Every one of the pronoun-hāʾs in this text — malāʾikatihī, kutubihī, rusulihī, khayrihī, sharrihī — takes the same treatment. Five of them. That is the most repeated decision in the text, so decide it once, do what you decided in 4-02, and be consistent.",
+        "وَرُسُلِهِ — رُ with a ḍammah, so heavy.",
+        "This is the only heavy rāʾ in the entire text. Every other rāʾ here is light.",
+        "Mark it, because what comes next depends entirely on the contrast."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَالْيَوْمِ الْآخِرِ — four rules in two words",
+      "body": [
+        "وَالْيَوْمِ — yāʾ is a moon letter, so the article's lām is pronounced clearly: wa-l-yawm. And يَوْ is a līn letter, a wāw sākinah after a fatḥah: flat and short while joining.",
+        "الْآخِرِ — hamzah is a moon letter, so the l is audible again. Then آ — a hamzah followed by a madd letter, so the short madd, two counts, the same one as āmantu.",
+        "Two of those short madds in one sentence, both two counts, and they are the first and the eleventh words. If the second one comes out at four, the rule has not travelled across the sentence.",
+        "خ is elevated, so heavy. And the final رِ carries a kasrah, so light.",
+        "A heavy letter and a light letter inside the same word, which is exactly the mixture she found hard in qadīr back in 4-03. Say so — she has met this shape before and beaten it."
+      ],
+      "items": [
+        {
+          "arabic": "وَالْيَوْمِ الْآخِرِ",
+          "translit": "wa-l-yawmi-l-ākhiri",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Two audible article lāms, a short flat līn, two counts on the madda, a heavy khāʾ and a thin rāʾ. Four rules, two words."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ — the hardest six words in Unit 4",
+      "body": [
+        "This is the reason this lesson needs its own sitting.",
+        "وَالْقَدَرِ — qāf is a moon letter, so the l is audible; the qāf itself is heavy; and the final رِ has a kasrah, so light.",
+        "خَيْرِهِ — خَيْ is a līn; the رِ has a kasrah, so light. And the khāʾ before it is heavy.",
+        "وَشَرِّهِ — a doubled rāʾ with a kasrah: light, held for two rāʾs' length, and still thin.",
+        "Three rāʾs, three kasrahs, three light. And each one is preceded by a heavy or a back-of-the-mouth sound — qāf, khāʾ, and the doubling itself — pulling the mouth the wrong way.",
+        "Set them against وَرُسُلِهِ from three words earlier: ḍammah, heavy. One rule, four applications, one sentence. If she can do that table by ear, the rāʾ rules are finished for good — and وَشَرِّهِ is the single hardest word in the unit, because a doubled rāʾ is where every student reaches for a roll. The rāʾ is held, not trilled."
+      ],
+      "items": [
+        {
+          "arabic": "وَشَرِّهِ",
+          "translit": "wa sharrihī",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Doubled. Thin. Not rolled. Put the tip of your tongue where it belongs and hold it — do not let it flap. Smile while you say it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "مِنَ اللَّهِ — the assessment item of Unit 4",
+      "body": [
+        "Ask, and then say nothing at all until she has answered.",
+        "The vowel before it is the fatḥah of -na, so the lām is heavy. Full, thick, back of the mouth: mina-LLĀH.",
+        "And it is in the same sentence as the light bi-llāhi she marked twelve words ago.",
+        "Say them back to back, out of context first and then in context: bi-llāhi … mina-llāhi. Light, then heavy. Same four letters, printed identically, decided entirely by the vowel in front.",
+        "That is the rule that has run through all eight lessons of this unit, and this is the last and hardest place it appears. If she produces both correctly inside one recitation, without a prompt, the unit's central thread is finished."
+      ],
+      "items": [
+        {
+          "arabic": "مِنَ اللَّهِ",
+          "translit": "mina-llāhi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Fatḥah before it now. Fill your mouth. And nothing thins it out just because the sentence opened light."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "rule",
+      "ruleId": "madd_2",
+      "heading": "تَعَالَىٰ — the rest",
+      "condition": "A madd letter followed by neither a hamzah nor a sukūn: two counts, no more and no less.",
+      "letters": [
+        "ا",
+        "و",
+        "ي"
+      ],
+      "harakat": 2,
+      "body": [
+        "ع is a throat letter, cut cleanly. Then a dagger alif: a natural madd, two counts, not four.",
+        "Its function here is to be a rest. One easy word between the three light rāʾs and the final clause.",
+        "Use it as one. Slow down on it deliberately, and tell her you are doing so.",
+        "A long text needs planned recoveries as much as it needs planned breaths, and this is the only word in the sentence that offers one.",
+        "The error to watch for is the opposite of everywhere else: not clipping, but over-stretching it to four, out of the tension of the six words before it."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "وَالْبَعْثِ بَعْدَ — two sākin ʿayns, and nobody warns you about them",
+      "body": [
+        "وَالْبَعْثِ — bāʾ is a moon letter, so the l is audible: wa-l-baʿth. Note that the ب here carries a fatḥah, so there is no qalqalah in it — and a student hunting for bounces will put one in.",
+        "عْ sākinah — a throat letter, stopped cleanly, with no vowel after it and no bounce.",
+        "Then again in بَعْدَ: baʿ-da.",
+        "A sākin ʿayn is one of the most commonly mangled sounds in recitation. It either grows a vowel — baʿa-tha — or disappears entirely — bath.",
+        "Two of them in three words makes this the second drill of the lesson. It is a genuinely difficult articulation, not carelessness, and it should be named that way: the makhraj is deep in the throat and stopping it cleanly without either releasing into a vowel or letting go of it entirely is hard."
+      ],
+      "items": [
+        {
+          "arabic": "وَالْبَعْثِ بَعْدَ",
+          "translit": "wa-l-baʿthi baʿda",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Squeeze it and stop. Nothing after it. baʿ — then th. baʿ — then d. Both ʿayns cut clean, neither one dropped."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "الْمَوْتِ — a long soft ending, and the comparison that closes the unit",
+      "body": [
+        "الْمَوْتِ — mīm is a moon letter, so the l is audible: al-mawt.",
+        "مَوْ is a līn letter. While joining it stays short — but you are stopping here, because this is the end of the text. A līn letter followed by a letter made sākin by stopping lengthens to two, four or six counts.",
+        "al-mawwwt — and then the tāʾ, clean, with no bounce, because tāʾ is not a qalqalah letter.",
+        "Now compare it with how 4-07 ended: on a hard bounce at bi-l-qalb. This text ends on a long soft stretch instead.",
+        "Two texts, two completely different endings, and she should be able to say why each is what it is. That comparison is the last thing you teach in Unit 4."
+      ],
+      "items": [
+        {
+          "arabic": "بَعْدَ الْمَوْتِ",
+          "translit": "baʿda-l-mawt",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "You are stopping. Drop the kasrah, and stretch the aw. Long and soft — and then a clean tāʾ with no bounce on it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sitting one, drill one — the rule-spotting pass, and the exit assessment",
+      "instructions": "Do not recite. Read silently, finger on each rule, name it out loud. There are around thirty stops. I write down every one you cannot name and I say nothing while you work. That list — not your recitation — is what tells us both whether Unit 4 has landed. Work through the text in these chunks, one at a time, and stop between them.",
+      "grid": [
+        [
+          {
+            "arabic": "آمَنْتُ بِاللَّهِ وَمَلَائِكَتِهِ",
+            "translit": "āmantu bi-llāhi wa malāʾikatihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Chunk one. Short madd, hidden nūn, a light lām, four counts on the muttaṣil. Four rules in three words."
+            }
+          },
+          {
+            "arabic": "وَكُتُبِهِ وَرُسُلِهِ",
+            "translit": "wa kutubihī wa rusulihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Chunk two. Two ṣilahs, and the only heavy rāʾ in the whole text."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَالْيَوْمِ الْآخِرِ",
+            "translit": "wa-l-yawmi-l-ākhiri",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Chunk three. Two moon lāms, a līn, a short madd, a heavy khāʾ, a light rāʾ."
+            }
+          },
+          {
+            "arabic": "وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ",
+            "translit": "wa-l-qadari khayrihī wa sharrihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Chunk four — the hardest six words. Three light rāʾs, each preceded by something pulling the mouth backwards."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِنَ اللَّهِ تَعَالَىٰ",
+            "translit": "mina-llāhi taʿālā",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Chunk five. The heavy lām — the assessment item — and then the one rest in the sentence."
+            }
+          },
+          {
+            "arabic": "وَالْبَعْثِ بَعْدَ الْمَوْتِ",
+            "translit": "wa-l-baʿthi baʿda-l-mawt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Chunk six. Three moon lāms, two sākin ʿayns, no qalqalah anywhere, and a long soft ending."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The two names",
+      "instructions": "Twenty times, alternating. Light, then heavy. Then tell me the vowel before each. If you can do this pair cold, you have the lām rule for life — and this is the one thing from this unit to keep doing after the unit is over.",
+      "grid": [
+        [
+          {
+            "arabic": "بِاللَّهِ",
+            "translit": "bi-llāhi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasrah. Thin it."
+            }
+          },
+          {
+            "arabic": "مِنَ اللَّهِ",
+            "translit": "mina-llāhi",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Fatḥah. Fill your mouth. Then thin the other one again."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The rāʾ table, and the hardest word",
+      "instructions": "Say the four in this order, ten times. Then in a random order that I call out, and you tell me the weight before you say the word. Then the hardest word alone, thirty times: doubled, thin, not rolled. Put the tip of your tongue where it belongs and hold it — do not let it flap.",
+      "grid": [
+        [
+          {
+            "arabic": "وَرُسُلِهِ",
+            "translit": "wa rusulihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Ḍammah — heavy. The only heavy rāʾ in the text."
+            }
+          },
+          {
+            "arabic": "وَالْقَدَرِ",
+            "translit": "wa-l-qadari",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasrah — light, straight after a heavy qāf."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "خَيْرِهِ",
+            "translit": "khayrihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasrah — light, straight after a heavy khāʾ."
+            }
+          },
+          {
+            "arabic": "وَشَرِّهِ",
+            "translit": "wa sharrihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Kasrah, doubled — light, held, and thin. Thirty times. The hardest word in the unit."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The two ʿayns, and the two endings",
+      "instructions": "First: the ʿayn phrase twenty times. Both ʿayns sākin, both cut clean, no vowel after either, neither one dropped. This is the second-hardest thing in the text and nobody warns students about it. Then: the last three words of 4-07, then the last two of this one. Alternate five times, and tell me the rule for each ending.",
+      "grid": [
+        [
+          {
+            "arabic": "وَالْبَعْثِ بَعْدَ",
+            "translit": "wa-l-baʿthi baʿda",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Squeeze it and stop. Nothing after it. Not baʿa-tha, and not bath."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِالْقَلْبِ",
+            "translit": "bi-l-qalb",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Yesterday's ending. A hard bounce on the bāʾ, then silence."
+            }
+          },
+          {
+            "arabic": "الْمَوْتِ",
+            "translit": "al-mawt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Today's ending. Long and soft on the līn, then a clean tāʾ with no bounce. Two texts, two opposite endings."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sitting two — the plan, half speed, then the honest report",
+      "instructions": "Mark the plan before you recite: after wa rusulihī, after wa-l-yawmi-l-ākhir, after mina-llāhi taʿālā, then to the end. Do not breathe inside khayrihī wa sharrihī — those two belong together and splitting them wastes the contrast you just drilled. Then the whole text at half speed, every madd counted on your fingers; if you cannot count and recite at once, you are too fast. Then once at full speed — and before I say anything, tell me which rule broke.",
+      "grid": [
+        [
+          {
+            "arabic": "آمَنْتُ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ",
+            "translit": "āmantu bi-llāhi wa malāʾikatihī wa kutubihī wa rusulihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "First breath. Two counts, hidden n, light lām, four counts on the muttaṣil, then the one heavy rāʾ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "وَالْيَوْمِ الْآخِرِ وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ",
+            "translit": "wa-l-yawmi-l-ākhiri wa-l-qadari khayrihī wa sharrihī",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Second breath, and the hard one. Three light rāʾs in a row, and no breath between the last two words."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "مِنَ اللَّهِ تَعَالَىٰ وَالْبَعْثِ بَعْدَ الْمَوْتِ",
+            "translit": "mina-llāhi taʿālā wa-l-baʿthi baʿda-l-mawt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Last breath. Heavy lām, one deliberate rest, two clean ʿayns, and a long soft ending."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong, and what to say",
+      "mistakes": [
+        {
+          "wrong": "wa sharrihī rolled, or heavy, or both.",
+          "why": "Doubling invites a trill, and every doubled rāʾ she has heard in ordinary speech is trilled. This is not a tajweed error being made — it is ordinary Arabic phonetics being applied to a text where tajweed asks for something narrower.",
+          "fix": "Hold it, don't flap it. One long r, thin, tongue forward."
+        },
+        {
+          "wrong": "mina-llāh said light, in a sentence that opened with bi-llāh.",
+          "why": "The light form was set at the start of the sentence and has been running for twelve words. Sentence-level inertia — the same thing that made li-llāh hard in 4-06.",
+          "fix": "Fatḥah before it now. Fill your mouth. mina-LLĀH."
+        },
+        {
+          "wrong": "bi-llāh said heavy, having over-corrected after the drill.",
+          "why": "The drill. Alternation drills produce alternation errors, and that is a sign the contrast is being learned rather than failing.",
+          "fix": "Kasrah. Thin it. Then the other one thick."
+        },
+        {
+          "wrong": "malāʾikatihī clipped to two counts.",
+          "why": "The hamzah is small, high above the line, and does not look like a letter that changes anything. Exactly the asmāʾihī error from 4-07, one day later.",
+          "fix": "Hamzah inside the word after the madd. Four counts. Same as yesterday."
+        },
+        {
+          "wrong": "baʿatha or bath — the sākin ʿayn given a vowel, or dropped.",
+          "why": "The ʿayn's makhraj is deep in the throat and hard to stop cleanly without either releasing into a vowel or letting go of it entirely. A genuinely difficult articulation, not carelessness.",
+          "fix": "Squeeze it and stop. Nothing after it. baʿ — then d."
+        },
+        {
+          "wrong": "al-mawti — the final kasrah pronounced, no lengthening.",
+          "why": "She reads what is written, and stop rules are the one place where the page is not the last word. Third time this pattern has appeared in the unit, after abadā in 4-03 and bi-l-qalb in 4-07.",
+          "fix": "You are stopping. Drop the vowel, and stretch the aw. al-mawwwt."
+        },
+        {
+          "wrong": "Everything correct in the first half, madds and weights collapsing after wa-l-yawmi-l-ākhir.",
+          "why": "Duration. This has been the failure mode of every long text in the unit, and it is the thing this lesson exists to fix.",
+          "fix": "Breathe at the plan. Halve the speed of the second half. The rules cost attention and you have run out — buy some back with time."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "The four things this text exists to test",
+      "items": [
+        {
+          "arabic": "بِاللَّهِ",
+          "translit": "bi-llāhi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Light — kasrah. Second word of the sentence."
+          }
+        },
+        {
+          "arabic": "مِنَ اللَّهِ",
+          "translit": "mina-llāhi",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Heavy — fatḥah. Twelve words later, same four letters. The assessment item of Unit 4."
+          }
+        },
+        {
+          "arabic": "وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ",
+          "translit": "wa-l-qadari khayrihī wa sharrihī",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Three light rāʾs in six words, each one preceded by something pulling the mouth backwards. Held, never rolled."
+          }
+        },
+        {
+          "arabic": "بَعْدَ الْمَوْتِ",
+          "translit": "baʿda-l-mawt",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A clean sākin ʿayn, then a long soft ending — the opposite of yesterday's hard bounce."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Closing the unit",
+      "body": [
+        "When she can do the rule-spotting pass unaided, say this, and mean it.",
+        "'You have just applied every rule in this course to text that is not the Qurʾān. That was the point. Nothing you did here was tested by the four things this course promises to teach you — and everything you did here makes those four things easier. Now take the same eyes to a page of the muṣḥaf.'",
+        "The unit was always optional. What it produces is not a set of memorised formulae — she had those before she started — but the habit of looking at familiar Arabic and seeing rules in it.",
+        "That habit is the transferable thing, and it belongs to the first end goal of the course: reading an unseen page cleanly, unaided.",
+        "One last note for you rather than for her: the Arabic of all eight of these texts is traditional, not revealed. It cannot be checked against the Qurʾānic corpus the way every other Arabic string in this course is. If you have not yet checked the wording of each against a printed Hanafi primer, do it before you teach the unit again, and log what edition you used."
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework",
+      "tasks": [
+        "The two names — bi-llāhi, then mina-llāhi — twenty times a day. If you do one thing from this unit for the rest of your life, do this one.",
+        "wa sharrihī, thirty times a day, thin. Held, not rolled.",
+        "The whole text once a day on the marked breath plan, at half speed. Once, properly, is worth more than five rushed.",
+        "Complete your rule card. Go back through all eight lessons and tick every rule you can now name and produce. Bring the card — the unticked ones are what we work on next, and they will be the same three or four rules for everybody.",
+        "Recite all eight — the six kalimas, Mujmal, Mufaṣṣal — back to back, once, this week. Not for accuracy; for endurance. Tell me where it fell apart."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The two names",
+        "instructions": "Twenty times a day, alternating. Light, heavy. Then name the vowel before each.",
+        "grid": [
+          [
+            {
+              "arabic": "بِاللَّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasrah — light."
+              }
+            },
+            {
+              "arabic": "مِنَ اللَّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Fatḥah — heavy."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The rāʾ table",
+        "instructions": "Ten times in order, then in a random order, saying the weight before the word.",
+        "grid": [
+          [
+            {
+              "arabic": "وَرُسُلِهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Ḍammah — heavy. The only one."
+              }
+            },
+            {
+              "arabic": "وَالْقَدَرِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasrah — light."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "خَيْرِهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasrah — light."
+              }
+            },
+            {
+              "arabic": "وَشَرِّهِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Kasrah, doubled — light and held. Thirty times a day on its own."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The two ʿayns",
+        "instructions": "Twenty times. Both sākin, both cut clean, no vowel after either, neither dropped.",
+        "grid": [
+          [
+            {
+              "arabic": "وَالْبَعْثِ بَعْدَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Squeeze and stop. Not baʿa-tha, and not bath."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The two endings",
+        "instructions": "Alternate five times, and say the rule for each ending.",
+        "grid": [
+          [
+            {
+              "arabic": "بِالْقَلْبِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Hard bounce, then silence — 4-07."
+              }
+            },
+            {
+              "arabic": "الْمَوْتِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Long soft stretch, then a clean tāʾ — 4-08."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "The whole text, on the plan",
+        "instructions": "Once a day, half speed, madds counted on the fingers. Then name the rule that broke.",
+        "grid": [
+          [
+            {
+              "arabic": "آمَنْتُ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ مِنَ اللَّهِ تَعَالَىٰ وَالْبَعْثِ بَعْدَ الْمَوْتِ",
+              "translit": "āmantu bi-llāhi wa malāʾikatihī wa kutubihī wa rusulihī wa-l-yawmi-l-ākhiri wa-l-qadari khayrihī wa sharrihī mina-llāhi taʿālā wa-l-baʿthi baʿda-l-mawt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Thin bi-llāh and thick mina-llāh in the same recitation, four counts on the muttaṣil, three light rāʾs in a row, two clean ʿayns, and a long soft ending."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "The two names twenty times — bi-llāhi thin, mina-llāhi thick",
+      "wa sharrihī thirty times: doubled, held, thin, never rolled",
+      "The rāʾ table said with the weight named before each word",
+      "The two sākin ʿayns twenty times, cut clean and neither dropped",
+      "The whole text once on the marked plan at half speed, ending long and soft",
+      "Once in the week: all eight texts back to back, for endurance, reporting where it fell apart"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Plan two sittings and say so at the start. Sitting one is the rule-spotting pass and the isolated drills with no full recitation at all; sitting two is the joins, the plan and the recitation. Compressing this into one session is the commonest way to waste the lesson.",
+      "Open with the six articles in English before any Arabic, then the honest tajweed hook: there is nothing new in this sentence, only thirty familiar rules close together. That removes the fear of the length and replaces it with the right expectation.",
+      "The rule-spotting pass is the exit assessment of Unit 4. Write down every stop she cannot name and say nothing while she works. That list, not her recitation, is what tells you both whether the unit landed — and it will point at one specific rule, not a general weakness.",
+      "Check آمَنْتُ in five seconds and let it go. A decayed first word is worth three minutes now rather than a discovery inside a thirty-rule sentence.",
+      "وَمَلَائِكَتِهِ in the third word is the cleanest retention test in the unit. Four counts yesterday and two today means the rule was remembered for one lesson rather than learned. Put her finger on the hamzah, not on the alif.",
+      "Have her mark بِاللَّهِ on the page in pencil in the second word and come back to it at مِنَ اللَّهِ twelve words later. The two of them inside one sentence are the assessment item of the whole unit; the distance between them is the difficulty.",
+      "Give the six words وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ their own drill block and do not rush them. Three light rāʾs, each preceded by something pulling the mouth backwards, and a doubled rāʾ that every student wants to roll. Held, not trilled.",
+      "Use تَعَالَىٰ as a deliberate rest and tell her that is what you are doing. A long text needs planned recoveries as much as planned breaths, and this is the only word that offers one.",
+      "Nobody warns students about the two sākin ʿayns, so warn her. It is a genuinely difficult articulation deep in the throat, not carelessness, and naming it as difficult is what stops her treating the failure as sloppiness.",
+      "Close the unit with the comparison of the two endings — yesterday's hard bounce against today's long soft līn — and then the closing words. She should leave with the transferable claim named out loud: the habit of looking at familiar Arabic and seeing rules in it.",
+      "Before teaching, check the wording against her printed primer. Of the eight this is the one to check most carefully: the six articles are always the same six, but primers differ on وَالْبَعْثِ بَعْدَ الْمَوْتِ and on whether تَعَالَىٰ is present. None of these texts is Qurʾān and none can be corpus-verified, so log the edition you used."
+    ],
+    "listenFor": [
+      {
+        "item": "بِاللَّهِ thin and مِنَ اللَّهِ thick, both inside the same recitation, without a prompt.",
+        "makhraj": "Light: tongue high and forward, back of the mouth empty. Heavy: the back of the tongue raised, the sound filling the mouth.",
+        "commonMistake": "mina-llāh said light, matching the bi-llāh that opened the sentence twelve words earlier.",
+        "whyItHappens": "Sentence-level inertia. The light setting was established at the start and has been running ever since — the same mechanism that made li-llāh hard in 4-06, stretched over a much longer distance.",
+        "correctionCue": "Fatḥah before it now. Fill your mouth. mina-LLĀH.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Lam-Jalalah.md"
+      },
+      {
+        "item": "وَشَرِّهِ held thin — a doubled rāʾ with a kasrah, light, and not trilled.",
+        "makhraj": "Tip of the tongue at the gum ridge, held for the length of two rāʾs. Takrīr is a characteristic to be suppressed, not performed.",
+        "commonMistake": "Rolled, or heavy, or both.",
+        "whyItHappens": "Doubling invites a trill and every doubled rāʾ she has heard in ordinary speech is trilled. This is ordinary Arabic phonetics being applied where tajweed asks for something narrower — not a rule being forgotten.",
+        "correctionCue": "Hold it, don't flap it. One long r, thin, tongue forward. Smile while you say it.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Takrir.md"
+      },
+      {
+        "item": "Four full counts on وَمَلَائِكَتِهِ, in the third word of the text.",
+        "commonMistake": "Clipped to two counts, one day after the same rule was drilled in asmāʾihī.",
+        "whyItHappens": "The hamzah is small, sits high above the line, and does not read as a letter that changes anything. If it was four counts yesterday and two today, the rule was remembered rather than learned.",
+        "correctionCue": "Hamzah inside the word after the madd. Four counts. Same as yesterday.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Muttasil.md"
+      },
+      {
+        "item": "Both sākin ʿayns in وَالْبَعْثِ بَعْدَ cut cleanly — no vowel after either and neither one dropped.",
+        "makhraj": "Middle of the throat, squeezed and stopped rather than released.",
+        "commonMistake": "baʿa-tha, with a vowel growing after the ʿayn; or bath, with the ʿayn gone entirely.",
+        "whyItHappens": "The makhraj is deep in the throat and stopping it cleanly without either releasing into a vowel or letting go of it altogether is genuinely difficult. It is an articulation problem, not carelessness, and should be named as one.",
+        "correctionCue": "Squeeze it and stop. Nothing after it. baʿ — then d.",
+        "severityIfWrong": "khafi",
+        "source": "library/03-Letters/Ayn.md"
+      },
+      {
+        "item": "A long soft ending on الْمَوْتِ, with the written kasrah dropped and a clean unbounced tāʾ.",
+        "commonMistake": "al-mawti, with the kasrah pronounced and no lengthening.",
+        "whyItHappens": "She reads what is written. Stop rules are one of the very few places the page is not the last word — the third occurrence of this pattern in the unit, after abadā in 4-03 and bi-l-qalb in 4-07.",
+        "correctionCue": "You are stopping. Drop the vowel, and stretch the aw. al-mawwwt.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Madd-Leen.md"
+      },
+      {
+        "item": "The second half of the recitation as accurate as the first — madds still full and weights still held after wa-l-yawmi-l-ākhir.",
+        "commonMistake": "Everything correct up to the midpoint, then madds shrinking and heavy letters thinning out.",
+        "whyItHappens": "Duration. This has been the failure mode of every long text in Unit 4, and this lesson exists to fix it. The rules cost attention and she has run out of it, not out of knowledge.",
+        "correctionCue": "Breathe at the plan. Halve the speed of the second half. The rules cost attention and you have run out — buy some back with time.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Waqf-Types.md"
+      }
+    ],
+    "homework": "Daily: the two names — bi-llāhi then mina-llāhi — twenty times, which is the one drill from this unit worth keeping for life; wa sharrihī thirty times, doubled and held and thin; the whole text once on the marked breath plan at half speed, with every madd counted on the fingers. Written: complete the rule card across all eight lessons, ticking every rule she can now name and produce — the unticked ones are the curriculum for the next few sessions. Once in the week: all eight texts back to back, not for accuracy but for endurance, with a report of where it fell apart."
+  },
+  "videos": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "image-size",
+  "version": "1.2.1+disabled",
+  "private": true,
+  "description": "Fail-closed replacement for PptxGenJS's unused vulnerable image-size dependency",
+  "main": "index.cjs",
+  "exports": "./index.cjs",
+  "license": "UNLICENSED"
+}

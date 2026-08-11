@@ -1,0 +1,801 @@
+{
+  "id": "3-04",
+  "phase": 3,
+  "unit": "3.1",
+  "title": "Ṣifāt III — the fifth pair, and the ṣifāt with no opposite",
+  "stage": "Ḥaqq al-Ḥarf",
+  "objectives": [
+    "Name the fifth pair, idhlāq / iṣmāt, recite فِرَّ مِنْ لُبِّ, and say why this pair changes nothing about how you pronounce anything.",
+    "Produce ر with exactly one contact, and hear when you have produced two.",
+    "Name the ṣifāt with no opposite and point to the letter or letters each one belongs to.",
+    "Say why exactly five letters bounce and exactly two hum, deriving both from ṣifāt you already know."
+  ],
+  "prerequisites": [
+    "3-03"
+  ],
+  "games": [
+    "rule-identifier"
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.4 — Ṣifāt III: the fifth pair, and the ṣifāt with no opposite",
+      "arabicDecor": "فِرَّ مِنْ لُبِّ"
+    },
+    {
+      "kind": "concept",
+      "heading": "The whole ṣifāt system, on one sheet",
+      "body": [
+        "Five pairs. Every letter in the alphabet carries exactly one member of each pair — five ṣifāt each, no exceptions.",
+        "1. hams / jahr — lesson 3.2 ✓",
+        "2. shiddah / tawassuṭ / rakhāwah — lesson 3.2 ✓",
+        "3. istiʿlāʾ / istifāl — lesson 3.3 ✓",
+        "4. iṭbāq / infitāḥ — lesson 3.3 ✓",
+        "5. idhlāq / iṣmāt — today",
+        "Then the ones with no opposite: ṣafīr · inḥirāf · takrīr · tafashshī · istiṭālah · leen · qalqalah · ghunnah. A letter either has one, or the description simply does not apply.",
+        "In plain terms: the five pairs are five questions you ask about every single letter, and every letter answers all five. The unopposed ones are extras that only a few letters have at all."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Pair 5 — al-idhlāq / al-iṣmāt",
+      "body": [
+        "Idhlāq (الإذْلاق) is sharpness and fluency of speech. The word also names the tip or edge of the tongue. Technically: the ease and speed with which a letter is pronounced.",
+        "The reason is anatomical. These six come either from the edge of the tongue (ر ن ل) or from the lips (ف م ب) — the two most mobile and least effortful articulators in the mouth.",
+        "فِرَّ مِنْ لُبِّ — firra min lubb — ف · ر · م · ن · ل · ب",
+        "Three from the tongue's edge, three from the lips. Teach the split with the phrase, because the split is the reason for the grouping.",
+        "Iṣmāt (الإصْمات) is holding back — the other twenty-three letters, whose makhārij lie away from the edge and the lips. There is no mnemonic; you reach the set by subtracting the six.",
+        "Say the honest part out loud: this pair has almost no effect on how you recite. Its justification is lexical. A native Arabic root of four or five letters always contains at least one idhlāq letter — a long word made only of iṣmāt letters is a sign the word is borrowed. That is a fact about the dictionary, not about your mouth.",
+        "In plain terms: six letters are the easy ones because your lips and tongue-tip do the work. The other twenty-three are further back and cost more effort. Knowing which is which will not change a single sound you make — it completes the system, and it tells you where you will get tired."
+      ],
+      "items": [
+        {
+          "arabic": "بِرَبِّ ٱلنَّاسِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ب, ر and ن — all idhlāq. Notice how the phrase runs off the tongue."
+          }
+        },
+        {
+          "arabic": "حَاسِدٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ح ا س د — not one idhlāq letter. Say it and feel that it is more work."
+          }
+        },
+        {
+          "arabic": "ٱلْحَمْدُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ل and م are idhlāq, ح and د are iṣmāt — both in one short word."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Sort them — idhlāq or iṣmāt",
+      "instructions": "Say each letter, then answer in one word: 'easy' for idhlāq, 'held back' for iṣmāt. No hesitation. The six easy ones are فِرَّ مِنْ لُبِّ.",
+      "grid": [
+        [
+          {
+            "arabic": "ف",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "fā — idhlāq, from the lip"
+            }
+          },
+          {
+            "arabic": "ح",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ḥā — iṣmāt, from the throat"
+            }
+          },
+          {
+            "arabic": "ر",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "rā — idhlāq, tongue edge"
+            }
+          },
+          {
+            "arabic": "ص",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ṣād — iṣmāt"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "م",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "mīm — idhlāq, lips"
+            }
+          },
+          {
+            "arabic": "ق",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "qāf — iṣmāt, deep tongue"
+            }
+          },
+          {
+            "arabic": "ن",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "nūn — idhlāq, tongue edge"
+            }
+          },
+          {
+            "arabic": "خ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "khā — iṣmāt"
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ل",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "lām — idhlāq, tongue edge"
+            }
+          },
+          {
+            "arabic": "ط",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ṭā — iṣmāt"
+            }
+          },
+          {
+            "arabic": "ب",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "bā — idhlāq, lips"
+            }
+          },
+          {
+            "arabic": "ع",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ʿayn — iṣmāt"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Takrīr — the one ṣifah you learn in order NOT to do it",
+      "body": [
+        "Takrīr (التَّكْرير, 'repetition') is the tendency of the tongue tip to vibrate repeatedly against the gum ridge while ر is produced. The tip is held loosely, and the airstream flaps it more than once. One letter only: ر.",
+        "Every other characteristic in the ṣifāt is something you must produce. Takrīr is the exception, and the classical formulation is explicit: the ṣifah is named so that it may be guarded against.",
+        "A correct ر has exactly ONE contact. The tip strikes the ridge once and releases. Two or more strikes is a trill, and a trill multiplies the letter — one ر heard as several.",
+        "Whose problem this is, specifically: Uzbek, Russian, Persian, Urdu, Spanish and Italian all have a genuinely rolled r. You are producing a sound that is correct in your own language. That is why nothing feels wrong, and why 'try harder' does nothing.",
+        "The opposite failure is the English approximant — a ر with no contact at all, the tongue merely bunching. That is a missing contact rather than a doubled one, and the fix is the reverse.",
+        "The correction is mechanical, not auditory. Press the tip firmly and deliberately, once, and stop. A firmly held tip cannot flap; a loose one will. On a ر with shaddah the hold is longer, not the number of taps.",
+        "In plain terms: tap once. If your tongue flutters like a little motor, that is one ر turning into three. Press harder and it stops."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلرَّحْمَٰنِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The ر you say more than any other, and it carries a shaddah — double the temptation to roll. One contact, held longer."
+          }
+        },
+        {
+          "arabic": "بِحِجَارَةٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A ر with a plain fatḥah. Easier to control — establish the target here first, then take it back to ٱلرَّحْمَٰنِ."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The tap count",
+      "instructions": "Say each five times slowly, with a finger resting under your chin, and count how many times your tongue tip touches. The answer must be ONE contact per ر, every time. If you cannot tell, press the tip harder — a firm tip cannot flutter.",
+      "grid": [
+        [
+          {
+            "arabic": "ٱلرَّحْمَٰنِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Count the contacts. One per ر, even under the shaddah."
+            }
+          },
+          {
+            "arabic": "بِحِجَارَةٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The easy one — a single plain ر. Get the target here."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِرَبِّ ٱلنَّاسِ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A shaddah'd ر in the ayah you say constantly."
+            }
+          },
+          {
+            "arabic": "ٱلصِّرَٰطَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "A ر sitting between two heavy letters — stay light, and tap once."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 3,
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Every ر in this ayah, counted. Two words, three ر sounds, and each one gets exactly one contact. This is the single highest-value habit in the lesson."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "Inḥirāf — the sound that bends around the contact",
+      "body": [
+        "Inḥirāf (الانْحِراف, 'turning aside') is the deviation of the sound away from its own makhraj toward another point. The tongue makes contact, the airstream cannot pass through that contact, and the sound bends around it instead of stopping.",
+        "Two letters, deviating in opposite directions. ل — the tip touches the gum ridge and the sound deviates around the SIDES of the tongue. ر — the tip touches slightly further back and the sound deviates toward the BACK.",
+        "Both are tawassuṭ letters from lesson 3.2, and inḥirāf is the mechanism behind that tawassuṭ: the sound is neither blocked nor freely flowing precisely because it is detouring.",
+        "The test is a held sound that still has a point of contact. Sustain a sākin ل: the tip must stay planted for the whole duration while the sound continues around it. If the tip lifts, the letter becomes a vowel. If the sound stops, it becomes a د.",
+        "In plain terms: for ل and ر your tongue blocks the middle, so the sound goes around it instead of through. That is why you can hold them — and if you cannot hold it, your tongue has come off the roof."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلْحَمْدُ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A sākin ل — holdable, with the tip planted the whole time."
+          }
+        },
+        {
+          "arabic": "يُولَدْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ل then a sākin د. The first bends around the contact; the second stops dead."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Ṣafīr — the whistle",
+      "body": [
+        "Ṣafīr (الصَّفير) is the sound made to call a bird or a horse. Technically: a sharp, whistle-like sound emerging alongside the letter, produced by the very narrow channel between the tongue tip and the back of the lower front teeth.",
+        "The air is forced through a slit rather than an opening, and the resulting high-frequency hiss is part of the letter, not an artefact of it.",
+        "Three letters — ص · ز · س — and they differ from each other by their OTHER ṣifāt, not by the whistle. س: hams, light. ز: jahr, light. ص: hams, istiʿlāʾ + iṭbāq — heavy.",
+        "This is the cleanest demonstration in the unit that ṣifāt stack. Three letters, one shared whistle, told apart entirely by characteristics you learned in the last two lessons.",
+        "In plain terms: س, ز and ص all hiss. What makes them different is everything else — whether your voice is on, and whether the back of your tongue is up."
+      ],
+      "items": [
+        {
+          "arabic": "ٱلصِّرَٰطَ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A ص that is heavy AND whistling. The heaviness does not cancel the whistle — listen for both."
+          }
+        },
+        {
+          "arabic": "ٱلنَّاسِ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A plain light س. This is your reference whistle; come back to it whenever the ص goes dull."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "The whistle set",
+      "instructions": "Hold each for a full second. All three whistle. Then say what separates each from the others in two words — 'breath, light' / 'voice, light' / 'breath, heavy'.",
+      "grid": [
+        [
+          {
+            "arabic": "سْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Breath, light. The reference whistle."
+            }
+          },
+          {
+            "arabic": "زْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Voice on, light. Hand on the throat — it should buzz."
+            }
+          },
+          {
+            "arabic": "صْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Breath, heavy. Same whistle as س, with the back of the tongue up."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Tafashshī — the breath spread wide",
+      "body": [
+        "Tafashshī (التَّفَشِّي) is spreading out, diffusing — the word is used of news that gets around. Technically: the spreading of the breath widely inside the mouth.",
+        "The air is not channelled through a narrow slit as in the ṣafīr letters, but released across the full width of the tongue and palate, filling the mouth before it leaves. One letter: ش.",
+        "Tafashshī is exactly what separates ش from س. Both are hams (breath flows), both rakhāwah (sound flows), both istifāl (light). The ONLY difference is whether the breath is concentrated into a slit or spread across the mouth.",
+        "س — narrow, high, focused: a whistle. ش — wide, low, spread: a rush of air.",
+        "The characteristic error is the narrow English 'sh' as in 'ship', made with rounded lips and a tightly grooved tongue. It is recognisably in the right family, which is why it survives correction for months. Unround the lips and let the tongue go flat and wide.",
+        "In plain terms: for س the air goes through a straw. For ش it fills your whole mouth first. Same breath, different width."
+      ],
+      "items": [
+        {
+          "arabic": "قُرَيْشٍ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "A ش at the end of a word you already have memorised. Wide and low, not the English 'sh'."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "س against ش",
+      "instructions": "Say each pair back to back, four times. On the س the air should feel like it is going through a straw. On the ش it should fill your whole mouth. If they feel the same width, the ش is still an English 'sh' — unround your lips and flatten your tongue.",
+      "grid": [
+        [
+          {
+            "arabic": "سَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Narrow, high, focused."
+            }
+          },
+          {
+            "arabic": "شَا",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Wide, low, spread."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "سِى",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Still narrow under a kasra."
+            }
+          },
+          {
+            "arabic": "شِى",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Still wide under a kasra."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Qalqalah as a ṣifah — now derive the five letters",
+      "body": [
+        "Do not memorise the list. Build it.",
+        "Qalqalah (القَلْقَلة) is disturbance, shaking. Technically: a disturbance or echo in the makhraj when the letter is sākin, heard as a small bounce at the moment of release.",
+        "It is not an extra property bolted onto five arbitrary letters. It is the necessary consequence of two ṣifāt you already know occurring together.",
+        "shiddah — the sound is completely blocked, so it cannot flow out. jahr — the breath is stopped, so it cannot leak out either.",
+        "A sākin letter that is both blocked AND voiced has nowhere to go. When the articulators part, the trapped sound escapes as an audible bounce.",
+        "Now the exclusions. Of the eight shiddah letters, ك and ت are hams — their breath escapes, so nothing is trapped and there is no bounce. Hamzah is shiddah and jahr, but it is excluded by transmission: it is released as a clean glottal stop. What remains is five.",
+        "قُطْبُ جَدٍّ — quṭbu jaddin — ق · ط · ب · ج · د",
+        "Today the question is only WHY these five and not others. The sizes of the bounce — small mid-word, large at a stop — are the next two lessons, and they have names and numbers you will get then.",
+        "In plain terms: these five get stuck. Your mouth closes completely and your voice is switched on, so the sound is trapped with nowhere to go — and when you open, it pops out. That pop is qalqalah."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 105,
+      "ayah": 4,
+      "highlight": [
+        "qalqalah"
+      ],
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "The sākin ج in بِحِجَارَةٍ is the clearest mid-word bounce in the short surahs. Say it slowly and listen for the pop when your tongue releases."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 112,
+      "ayah": 3,
+      "highlight": [
+        "qalqalah"
+      ],
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Stop on يُولَدْ. The د is sākin and you are stopping, so the bounce is at its largest. Listen also to the ل before it — that one bends around the contact instead of popping."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 111,
+      "ayah": 1,
+      "highlight": [
+        "qalqalah"
+      ],
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "وَتَبَّ at a stop — a ب with a shaddah, the largest qalqalah in the short surahs. Hold the shaddah, then release once."
+      }
+    },
+    {
+      "kind": "concept",
+      "heading": "Ghunnah as a ṣifah — the sound that leaves through the nose",
+      "body": [
+        "Ghunnah (الغُنَّة) is a nasal twang in the voice. Technically: a nasal resonance issuing from the khayshum (الخَيْشُوم — the nasal passage), inseparable from ن and م.",
+        "It is not added to these two letters in certain positions; it is part of what they are. Their consonantal makhraj is in the mouth — the tongue tip for ن, the two lips for م — but the sound comes out through the nose.",
+        "Because the khayshum is the source, ghunnah is the only ṣifah whose makhraj lies outside the mouth and throat entirely.",
+        "Every ن and every م carries ghunnah in every position. What changes from position to position is not WHETHER it is present but HOW COMPLETE it is — and that gradient is the whole of Units 3.3 and 3.4.",
+        "The pinch test: hold the نّ of ٱلنَّاسِ and pinch your nostrils shut. If the sound stops dead, the ghunnah is genuine. If it continues unchanged, you are making an oral 'n'.",
+        "You do not get lengths today. The two-count hold, and every rule built on it, is lesson 3.15 onward.",
+        "In plain terms: ن and م always hum through your nose — that is just what they are. Pinch your nose and the sound should die. Later you will learn how long to hold the hum; today only that it is always there."
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 114,
+      "ayah": 1,
+      "highlight": [
+        "ghunnah"
+      ],
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "The نّ of ٱلنَّاسِ carries a shaddah — the most complete ghunnah there is. Hold it, pinch your nose, and the sound must stop dead."
+      }
+    },
+    {
+      "kind": "drill",
+      "heading": "Bounce or no bounce",
+      "instructions": "Say each and answer in one word — 'bounce' or 'no bounce'. No hesitation. One of these is a trap.",
+      "grid": [
+        [
+          {
+            "arabic": "يُولَدْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Bounce. Sākin د at a stop."
+            }
+          },
+          {
+            "arabic": "ٱلْحَمْدُ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Bounce. Sākin د at the end."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "بِحِجَارَةٍ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Bounce. Sākin ج mid-word."
+            }
+          },
+          {
+            "arabic": "ٱلصِّرَٰطَ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "NO bounce — the trap. ط is a qalqalah letter, but here it carries a vowel, so there is nothing trapped to pop."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "mistake",
+      "heading": "What goes wrong today",
+      "mistakes": [
+        {
+          "wrong": "A rolled ر — two or three contacts on ٱلرَّحْمَٰنِ.",
+          "why": "Uzbek, Russian, Persian, Urdu, Spanish and Italian all have a genuinely rolled r. You are producing a sound that is correct in your own language, so nothing feels wrong.",
+          "fix": "Press the tip firmly and stop. One touch. Mechanical, not auditory — you cannot yet hear the difference you are making."
+        },
+        {
+          "wrong": "A ر with no contact at all — the English r.",
+          "why": "Transfer from English, or over-correction away from a roll. Both produce the same missing contact.",
+          "fix": "Your tongue has to touch. Exaggerate to one hard tap, then relax it."
+        },
+        {
+          "wrong": "A narrow, rounded English 'sh' on قُرَيْشٍ.",
+          "why": "English 'sh' is a real and nearly-right sound, so nothing signals an error. It survives correction for months.",
+          "fix": "Unround your lips and let the tongue go flat and wide. The air should fill your mouth, not go through a slot."
+        },
+        {
+          "wrong": "The whistle disappearing on a heavy ص.",
+          "why": "All the attention is on the heaviness from last lesson, and the whistle is what drops.",
+          "fix": "Say س. Now keep exactly that hiss and raise the back of your tongue. Build the ص from the light letter."
+        },
+        {
+          "wrong": "Bouncing a ق ط ب ج د that already carries a vowel.",
+          "why": "You have just learned that five letters bounce and have not yet attached the condition 'when sākin'.",
+          "fix": "Does it have a vowel? Then it is already moving, and there is nothing trapped to pop."
+        },
+        {
+          "wrong": "An 'n' or 'm' that fails the pinch test.",
+          "why": "Many languages nasalise far more weakly than Arabic, so the default n is largely oral.",
+          "fix": "The pinch test IS the correction — it supplies the feedback signal you are missing. Find the buzz with the nose shut, then open."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "What you leave with",
+      "items": [
+        {
+          "arabic": "فِرَّ مِنْ لُبِّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The six idhlāq letters — ف ر م ن ل ب. Three from the tongue's edge, three from the lips."
+          }
+        },
+        {
+          "arabic": "قُطْبُ جَدٍّ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The five that bounce — ق ط ب ج د. Derived from shiddah + jahr, not memorised."
+          }
+        },
+        {
+          "arabic": "ر",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "One contact. The single most important habit from today."
+          }
+        },
+        {
+          "arabic": "ش",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Wide, not narrow. The air fills the mouth."
+          }
+        },
+        {
+          "arabic": "ن",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Always humming through the nose. Pinch to check."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 15–20 min/day, five days",
+      "tasks": [
+        "Two minutes — the tap count. ٱلرَّحْمَٰنِ five times, counting contacts. Do this first, every day; it is the item that matters most.",
+        "Two minutes — both mnemonics. فِرَّ مِنْ لُبِّ and قُطْبُ جَدٍّ, three times each, then name the letters.",
+        "Three minutes — derive the five. Shiddah and jahr, then the exclusions. By day five the derivation should be faster than the recall.",
+        "Two minutes — س against ش. Four pairs, checking the width each time.",
+        "Two minutes — the hold test. Sākin ل and sākin ر, three seconds each, tip planted and not moving.",
+        "One minute — the pinch test on ٱلنَّاسِ and ٱلْحَمْدُ.",
+        "Three minutes — bounce or no bounce, including the ٱلصِّرَٰطَ trap.",
+        "Hifz — revision only. Al-Fātiḥa 1:1–1:6 from memory, three passes: one listening to every ر, one to every ن and م, one naming the ṣifāt inside ٱلْحَمْدُ."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "The tap count",
+        "instructions": "Five times each, slowly, counting tongue-tip contacts. One per ر, every time.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلرَّحْمَٰنِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "One contact per ر, even under the shaddah."
+              }
+            },
+            {
+              "arabic": "بِرَبِّ ٱلنَّاسِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "A shaddah'd ر in the ayah you say constantly."
+              }
+            },
+            {
+              "arabic": "بِحِجَارَةٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The easy one — a single plain ر."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Bounce or no bounce",
+        "instructions": "One word each — 'bounce' or 'no bounce'. ٱلصِّرَٰطَ is the trap.",
+        "grid": [
+          [
+            {
+              "arabic": "يُولَدْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Bounce."
+              }
+            },
+            {
+              "arabic": "بِحِجَارَةٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Bounce."
+              }
+            },
+            {
+              "arabic": "وَتَبَّ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Bounce — the largest one."
+              }
+            },
+            {
+              "arabic": "ٱلصِّرَٰطَ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "No bounce. The ط has a vowel."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Width check — س against ش",
+        "instructions": "Back to back, four times. Straw against full mouth.",
+        "grid": [
+          [
+            {
+              "arabic": "سَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Narrow, focused."
+              }
+            },
+            {
+              "arabic": "شَا",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Wide, spread."
+              }
+            },
+            {
+              "arabic": "ٱلنَّاسِ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The reference س."
+              }
+            },
+            {
+              "arabic": "قُرَيْشٍ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The ش in context."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Every ر got exactly one contact — no flutter, no missing touch.",
+      "ش was wide and unrounded, not an English 'sh'.",
+      "The ص kept its whistle even while heavy.",
+      "ن and م failed nothing on the pinch test.",
+      "No bounce was added to a ق ط ب ج د that carried a vowel.",
+      "Both mnemonics said from memory: فِرَّ مِنْ لُبِّ and قُطْبُ جَدٍّ."
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Open by making her fail, and pick the failure she cannot hear. Ask her to say ٱلرَّحْمَٰنِ the way she always says it, then ask one question: how many times did your tongue touch? She will not know, because nobody has ever asked. Have her say it again with a finger under her chin and count. If she is Uzbek, Russian, Persian, Urdu, Spanish or Italian, the answer is two or three — she has been rolling the ر of the Divine Name every day of her life.",
+      "Then the framing sentence: everything in the ṣifāt so far is something to produce. Takrīr is the only characteristic in the whole system that exists so you can avoid it.",
+      "Second hook, for the back half. Write قُطْبُ جَدٍّ and ask why these five. Let her guess — she will say it is a list to memorise. It is not. She has had both ingredients since 3.2, and by the end of the session she derives the five herself.",
+      "Draw the whole ṣifāt map before any new content. She has seen pieces and never the shape. Five pairs, every letter answers all five, then the unopposed group which is different in kind.",
+      "On idhlāq/iṣmāt, do not oversell it. Say plainly that this pair changes nothing about her recitation and that its justification is lexical. Students trust a teacher who marks the low-stakes material as low-stakes, and it buys credibility for the parts that matter.",
+      "Takrīr is the highest-value item in the lesson. Spend the time here. The correction is mechanical, not auditory — she cannot yet hear the difference, which is exactly why 'listen carefully' fails and 'press the tip firmly and stop' works.",
+      "Name whose problem the roll is, out loud. She is producing a sound that is correct in her own language. That single sentence changes it from a personal failing into a transfer problem, and students work harder on transfer problems.",
+      "On qalqalah, refuse to give the list. Walk the derivation: which letters are shiddah and jahr, then which are excluded and why. She should arrive at five without the mnemonic. The mnemonic is then a label for something she built, not a thing to memorise.",
+      "Refuse the rules today and say you are refusing them. The bounce SIZES are 3.5 and 3.6; the ghunnah LENGTHS are 3.15 onward. Say the numbers out loud so she knows they are coming and does not feel the lesson is incomplete.",
+      "End on the ٱلصِّرَٰطَ trap. Have her expect the ط to bounce and find that it cannot, because it carries a vowel. Discovering the condition herself is worth more than being told it."
+    ],
+    "listenFor": [
+      {
+        "item": "ر produced with exactly one tongue-tip contact.",
+        "makhraj": "Tip of the tongue against the gum ridge just behind the upper front teeth, struck once and released.",
+        "commonMistake": "Two or three contacts — a trill. Easiest to catch on a shaddah'd ر, where the longer hold gives the tongue time to flap.",
+        "whyItHappens": "Uzbek, Russian, Persian, Urdu, Spanish and Italian have a genuinely rolled r. She is producing a sound that is correct in her own language, so she has no internal signal that anything is wrong.",
+        "correctionCue": "Press the tip firmly and stop. One touch. Do not try to fix this by ear — she cannot yet hear the difference she is being asked to make.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Takrir.md"
+      },
+      {
+        "item": "ر that makes contact at all.",
+        "makhraj": "Same ridge; the tip must actually touch, not merely approach.",
+        "commonMistake": "An English approximant r, tongue bunching with no contact. Common in students who have over-corrected away from a roll.",
+        "whyItHappens": "Transfer from English, or an over-correction that swung past the target.",
+        "correctionCue": "Your tongue has to touch. Exaggerate to one hard tap first, then relax it to normal.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Takrir.md"
+      },
+      {
+        "item": "ش made wide, with the breath spread across the mouth.",
+        "makhraj": "Middle of the tongue against the hard palate, released broadly rather than through a groove.",
+        "commonMistake": "A narrow English 'sh' as in 'ship' — rounded lips, tightly grooved tongue.",
+        "whyItHappens": "English 'sh' is a real and nearly-right sound, so nothing signals an error and it survives correction for months.",
+        "correctionCue": "Unround your lips and let the tongue go flat and wide. The air should fill your mouth, not go through a slot.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Tafashshi.md"
+      },
+      {
+        "item": "The ṣafīr whistle surviving on a heavy ص.",
+        "makhraj": "Narrow channel between the tongue tip and the back of the lower front teeth, held while the rear of the tongue rises.",
+        "commonMistake": "ٱلصِّرَٰطَ where the ص has gone dark but the hiss has gone with it.",
+        "whyItHappens": "All her attention is on the heaviness she learned last lesson, and the whistle is the thing that drops.",
+        "correctionCue": "Say س. Now keep exactly that hiss and raise the back of your tongue. Build it from the light letter, not from scratch.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Safir.md"
+      },
+      {
+        "item": "ل and ر held with the tip planted for the whole duration.",
+        "makhraj": "Contact maintained while the sound deviates around it — sides of the tongue for ل, toward the back for ر.",
+        "commonMistake": "A sustained ل whose tip lifts partway through, turning the letter into a vowel.",
+        "whyItHappens": "She is treating them as flowing letters and forgetting they still have a contact. Inḥirāf means the sound goes around the contact, not that the contact is optional.",
+        "correctionCue": "Keep the tip planted the whole time. The sound goes around it — the tongue does not move.",
+        "severityIfWrong": "khafi",
+        "source": "library/02-Rules/Inhiraf.md"
+      },
+      {
+        "item": "Qalqalah applied only when the letter is sākin.",
+        "commonMistake": "A small 'uh' added after a ق ط ب ج د that already carries a vowel — usually right after this lesson, as an over-application.",
+        "whyItHappens": "She has just learned that five letters bounce and has not yet attached the condition 'when sākin'.",
+        "correctionCue": "Does it have a vowel? Then it is already moving, and there is nothing trapped to pop. Run the ٱلصِّرَٰطَ trap.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Qalqalah-sifah.md"
+      },
+      {
+        "item": "The bounce as a knock, not a syllable.",
+        "commonMistake": "يُولَدْ becoming yūlada — a full vowel attached to the release.",
+        "whyItHappens": "The bounce needs some sound, and the nearest available sound is a vowel she already knows.",
+        "correctionCue": "It is a knock, not a syllable. Shorter than the shortest vowel you can say. Full treatment in 3.5.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Qalqalah-sifah.md"
+      },
+      {
+        "item": "ن and م resonating through the nose.",
+        "makhraj": "Khayshum — the nasal passage. The only ṣifah whose source lies outside the mouth and throat entirely.",
+        "commonMistake": "ٱلنَّاسِ where pinching the nose changes nothing, because the sound is oral.",
+        "whyItHappens": "Many languages nasalise far more weakly than Arabic, so her default n and m are largely oral.",
+        "correctionCue": "The pinch test is itself the correction — it gives her the feedback signal she is missing. Find the buzz with the nose shut, then open.",
+        "severityIfWrong": "jali",
+        "source": "library/02-Rules/Ghunnah-sifah.md"
+      }
+    ],
+    "homework": "15–20 min/day, five days. Tap count on ٱلرَّحْمَٰنِ first, every day — it is the item that matters most. Then both mnemonics, the qalqalah derivation, س against ش, the hold test on ل and ر, the pinch test, and bounce-or-no-bounce including the ٱلصِّرَٰطَ trap. Hifz is revision only: al-Fātiḥa 1:1–1:6 from memory, three passes, listening for one thing per pass. Bring both mnemonics from memory, the derivation of قُطْبُ جَدٍّ without reciting it, and a recording of al-Fātiḥa 1:1–1:6 — we will count the ر contacts together."
+  },
+  "videos": []
+}

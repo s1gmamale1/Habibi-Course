@@ -1,0 +1,1422 @@
+{
+  "id": "3-01",
+  "phase": 3,
+  "unit": "3.1",
+  "title": "Makhārij consolidated — the 17 points in 5 zones",
+  "stage": "Ḥaqq al-Ḥarf",
+  "objectives": [
+    "Student can name the five zones — al-jawf, al-ḥalq, al-lisān, ash-shafatān, al-khayshūm — in order and say how many makhārij each contains, without a prompt.",
+    "Student can place any single letter you say to her into its zone, and for the throat and the tongue can say which point inside that zone.",
+    "Student can find her own makhraj physically, by the sukūn test, rather than by imitating the sound she thinks she hears.",
+    "Student can read the six example words and point to where in her own mouth each letter is being made."
+  ],
+  "prerequisites": [
+    "2-14"
+  ],
+  "games": [
+    "family-sorter"
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "heading": "Lesson 3.1 — Makhārij consolidated: the 17 points in 5 zones",
+      "arabicDecor": "مَخْرَج"
+    },
+    {
+      "kind": "concept",
+      "heading": "Two questions, and you will get one of them wrong",
+      "body": [
+        "Where is ك made? Say your answer out loud before you read on.",
+        "Almost everyone who has finished Phase 1 says 'the throat', because ك feels deep and because ق and ك were taught back to back. It is the wrong answer. ك is a tongue letter — the deepest part of the tongue against the hard palate, one notch forward of ق, and nowhere near the throat proper.",
+        "Second question: where is ن made? You will say 'the tip of the tongue.' Half right. The tip makes the closure; the sound itself comes out of the nose. That is a separate zone with its own name, and it is why a pinched nose kills the letter.",
+        "You have been making all 29 of these sounds for a year. What you have not had is a map. Today you get the map, and from now on every correction has an address: not 'that was wrong' but 'that was made two millimetres too far forward.'",
+        "Everything in Unit 3 — heaviness, the bounce, the rā', the nasal rules — is a statement about a place, or about a behaviour at a place. Without addresses the rest of the unit is a list to memorise. With addresses it is a description of your own mouth."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "The sukūn probe — the method, before any content",
+      "body": [
+        "A makhraj (مَخْرَج, 'exit point') is where a letter's sound leaves.",
+        "The classical way of finding it is a physical procedure, not a fact to be looked up: put a hamzah in front of the letter, close the letter with a sukūn, say it. Where the sound stops is the makhraj.",
+        "Run it now — أَبْ · أَتْ · أَقْ · أَعْ — and point at your own face each time. Lips. Front of the mouth. Back of the mouth. Throat.",
+        "You will be right every time. That is the point: you already know this and have never been asked.",
+        "You cannot locate a makhraj on a vowelled letter, because the vowel drags the sound forward into the mouth. You locate it on a closed letter. That is why 2-03 and 2-04 had to come first."
+      ],
+      "items": [
+        {
+          "arabic": "أَبْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَبْ — the sound stops at the two lips. Point at your lips before you say the zone."
+          }
+        },
+        {
+          "arabic": "أَتْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَتْ — the sound stops at the tip of the tongue on the roots of the upper front teeth. Front of the mouth."
+          }
+        },
+        {
+          "arabic": "أَقْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَقْ — the sound stops at the deepest part of the tongue against the soft palate. Back of the mouth, not the throat."
+          }
+        },
+        {
+          "arabic": "أَعْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "أَعْ — the sound stops in the middle of the throat. This one really is the throat, and you have had it since 1-13."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Five zones, from the inside out — 1 + 3 + 10 + 2 + 1",
+      "body": [
+        "1 — al-jawf (الجوف), the empty space of mouth and throat. One makhraj.",
+        "2 — al-ḥalq (الحلق), the throat. Three makhārij.",
+        "3 — al-lisān (اللسان), the tongue. Ten makhārij.",
+        "4 — ash-shafatān (الشفتان), the two lips. Two makhārij.",
+        "5 — al-khayshūm (الخيشوم), the nasal passage. One makhraj.",
+        "1 + 3 + 10 + 2 + 1 = 17. The number 17 is worth nothing on its own. The shape — one, three, ten, two, one — is what you should be able to reproduce cold, because it tells you the tongue is more than half the alphabet, and therefore where the errors will be."
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Zone 1 — al-jawf: one makhraj, three letters, no contact at all",
+      "body": [
+        "The three madd letters — ا, و, ي — when they are carrying length.",
+        "They have no point of contact whatsoever. They are shaped by the empty column of air and stopped only by the breath running out.",
+        "This is exactly why you cannot 'find' an alif by feel: there is nothing to feel.",
+        "The و and ي of al-jawf are the long ones only. A consonantal و (as in وَقَبَ) or a consonantal ي is made at the lips or on the tongue and belongs to those zones. Same letter, two homes, decided by whether it is carrying madd."
+      ],
+      "items": [
+        {
+          "arabic": "ا",
+          "name": "alif",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The madd alif — no contact anywhere. Run it until the breath ends and notice that nothing in your mouth is touching anything."
+          }
+        },
+        {
+          "arabic": "و",
+          "name": "waw",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The madd wāw — the lips round but never close. Al-jawf. Compare it with the consonantal wāw of وَقَبَ, which is a lip letter."
+          }
+        },
+        {
+          "arabic": "ي",
+          "name": "ya",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The madd yāʾ — the tongue rises but never contacts. Al-jawf. Compare it with the consonantal yāʾ, which is a tongue letter at point 3."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Zone 2 — al-ḥalq: three makhārij, six letters, deepest first",
+      "body": [
+        "Deepest, nearest the chest — أَقْصَى الحلق: ء · ه",
+        "Middle — وَسَط الحلق: ع · ح",
+        "Nearest the mouth — أَدْنَى الحلق: غ · خ",
+        "Three pairs, and each pair is one voiced and one breathed: ء/ه, ع/ح, غ/خ. That turns six items into three — and it previews the next lesson, where 'voiced versus breathed' gets its proper name.",
+        "The order matters and you will get it backwards. Most students place ه at the middle and ع at the bottom, because ع feels like more effort. Effort is not depth.",
+        "Run the sequence outward — أ ه · ع ح · غ خ — three times, slowly, with a fingertip tracing down your own throat from jaw to collarbone and back up."
+      ],
+      "items": [
+        {
+          "arabic": "ءْ ـ هْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The deepest pair. Same floor of the throat — they are neighbours, so make them sound like neighbours. ه is not an English h made at the mouth."
+          }
+        },
+        {
+          "arabic": "عْ ـ حْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The middle pair. Squeezed at the middle of the throat, both holdable. The hardest makhraj in the language, and you have had it since 1-13."
+          }
+        },
+        {
+          "arabic": "غْ ـ خْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "The shallowest pair, nearest the mouth. A gargle, not a scrape at the back of the tongue."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Zone 3, part 1 — the back of the tongue: points 1 to 4",
+      "body": [
+        "1 — deepest tongue against the soft palate: ق",
+        "2 — slightly forward, against the hard palate: ك",
+        "3 — middle of the tongue against the palate above it: ج · ش · ي (non-madd)",
+        "4 — one or both side-edges against the upper molars: ض",
+        "Points 1 and 2 are the ق/ك pair, one notch apart. Soft palate, then hard palate. If you cannot separate them, everything about ق being heavy and ك being light is unteachable.",
+        "Point 4 is ض, alone, on the SIDE of the tongue. It is the only makhraj in the language that uses the tongue's edge rather than its tip, back or middle. Lesson 3-08 is about this one point. Notice it now and move on."
+      ],
+      "items": [
+        {
+          "arabic": "قْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "قْ — deepest tongue, soft palate. Let the back of the tongue DROP away from the roof on release, not slide forward."
+          }
+        },
+        {
+          "arabic": "كْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "كْ — same organ, one step further forward, on the hard palate. A tongue letter. Not the throat."
+          }
+        },
+        {
+          "arabic": "جْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "جْ — the middle of the tongue against the palate above it. Full closure: there is a silence inside this letter."
+          }
+        },
+        {
+          "arabic": "ضْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ضْ — the SIDE edge of the tongue pushed out into the upper molars. Hold it for two seconds: a tip-made ض stops dead, a correct one continues."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Zone 3, part 2 — the three neighbours: ل, ن, ر",
+      "body": [
+        "5 — the tongue's edge, rear to tip, at the gums of the upper front teeth: ل",
+        "6 — tip at the gums of the upper incisors, just below lām: ن",
+        "7 — back of the tip, slightly deeper than nūn: ر",
+        "These three are the letters that will misbehave for the rest of the course. ل is a wide edge-contact. ن is the tip a hair below it. ر is the BACK of the tip, a hair deeper still.",
+        "Say لْ · نْ · رْ and feel the contact walk backwards. It should walk, not jump.",
+        "They sit within a few millimetres of each other, and in most languages there is no reason to keep them apart that precisely. In this one there is."
+      ],
+      "items": [
+        {
+          "arabic": "لْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "لْ — wide. The edge of the tongue from rear to tip, along the gums of the upper front teeth."
+          }
+        },
+        {
+          "arabic": "نْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "نْ — tip, just below the lām contact, and open the nose. The closure is here; the sound is not."
+          }
+        },
+        {
+          "arabic": "رْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "رْ — the back of the tip, deeper than the nūn. Not a flap of the same contact you just made."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Zone 3, part 3 — three rows of teeth: points 8, 9, 10",
+      "body": [
+        "8 — tip against the ROOTS of the two upper incisors: ط · د · ت",
+        "9 — tip BETWEEN the incisors, closer to the lower: ص · س · ز",
+        "10 — tip against the LOWER EDGES of the upper incisors: ظ · ذ · ث",
+        "Each row holds a heavy letter beside its light twin: ط with د/ت, ص with س/ز, ظ with ذ/ث.",
+        "That is not a coincidence. It is the whole architecture of lessons 3-02 and 3-03 — the columns طْ صْ ظْ (all heavy), دْ زْ ذْ (all light, all voiced), تْ سْ ثْ (all light, all breathed).",
+        "Today the columns are just proof that the table is organised rather than arbitrary. What organises them is what the next two lessons are about."
+      ],
+      "items": [
+        {
+          "arabic": "طْ · دْ · تْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Row 8, tooth ROOTS. Say them across and feel that the tip does not move — only the weight and the breath change."
+          }
+        },
+        {
+          "arabic": "صْ · سْ · زْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Row 9, BETWEEN the teeth, closer to the lower. All three hiss. The tip has dropped from row 8."
+          }
+        },
+        {
+          "arabic": "ظْ · ذْ · ثْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "Row 10, tooth EDGES. The tip is genuinely between the teeth here — you should be able to see it."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Zone 4 — ash-shafatān: two makhārij, four letters",
+      "body": [
+        "Inside of the LOWER LIP against the edges of the upper incisors: ف. One lip, not two.",
+        "BOTH LIPS: ب · م · و.",
+        "ب — closed firmly. م — closed lightly, with nasal resonance. و — rounded but NOT closed.",
+        "Drill ب / م / و as three different degrees of lip closure, not as three unrelated letters. Firm, light, open.",
+        "Make all three in a row with your eyes shut and a hand on your lips."
+      ],
+      "items": [
+        {
+          "arabic": "بْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "بْ — both lips, closed FIRMLY. A hand on the lips should feel a hard seal and a real release."
+          }
+        },
+        {
+          "arabic": "مْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "مْ — both lips, closed LIGHTLY, and the nose open. The lips are only holding the door shut."
+          }
+        },
+        {
+          "arabic": "وْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "وْ — both lips ROUNDED and never closed. If they touch, it has become a ب."
+          }
+        },
+        {
+          "arabic": "فْ",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "فْ — the LOWER lip only, against the edges of the upper front teeth. One lip. The upper lip does nothing."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "concept",
+      "heading": "Zone 5 — al-khayshūm: one makhraj, no letters of its own",
+      "body": [
+        "The nasal passage produces ghunnah (غُنَّة, 'nasal hum') — the sound that comes out of ن and م, not the letters themselves.",
+        "Say it exactly this way: ن and م have TWO addresses. The closure is in the mouth. The sound is in the nose.",
+        "Pinch your nose and say ٱلنَّاسِ. If the hum survives the pinch, it is not being made in the khayshūm and the sound is coming out of the wrong door.",
+        "This is the zone you have been proving with a pinched nose since 2-05, and the one you meet properly in 3-15. Today it just gets its name and its place on the map."
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 1 — the sukūn probe",
+      "instructions": "This drill teaches the METHOD, so run it first every single time. For each letter, say it with a hamzah in front and a sukūn on it, then point to where it stopped. Do not accept a sound without a pointing finger. Naming the zone out loud comes AFTER the finger, never before.",
+      "grid": [
+        [
+          {
+            "arabic": "أَقْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 1 — deepest tongue against the soft palate."
+            }
+          },
+          {
+            "arabic": "أَكْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 2 — hard palate. One notch forward of ق, and not the throat."
+            }
+          },
+          {
+            "arabic": "أَجْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 3 — the middle of the tongue."
+            }
+          },
+          {
+            "arabic": "أَضْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 4 — the SIDE edge against the upper molars. The only edge makhraj there is."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَلْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 5 — a wide edge contact at the gums of the upper front teeth."
+            }
+          },
+          {
+            "arabic": "أَنْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 6 — tip just below the lām, AND the nose. Two addresses."
+            }
+          },
+          {
+            "arabic": "أَرْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 7 — the back of the tip, deeper than the nūn."
+            }
+          },
+          {
+            "arabic": "أَطْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 8 — the roots of the upper incisors."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "أَصْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 9 — between the incisors, closer to the lower."
+            }
+          },
+          {
+            "arabic": "أَظْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tongue, point 10 — the lower edges of the upper incisors. The tip is visible."
+            }
+          },
+          {
+            "arabic": "أَبْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lips — both, firmly closed."
+            }
+          },
+          {
+            "arabic": "أَفْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Lips — the LOWER lip only, against the upper teeth."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 2 — down the throat and back",
+      "instructions": "Six letters, three pairs, outward from the chest and then back up. Then mixed and cold — name the depth ('deepest', 'middle', 'nearest') BEFORE you say the letter.",
+      "grid": [
+        [
+          {
+            "arabic": "ءْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Deepest. Nearest the chest."
+            }
+          },
+          {
+            "arabic": "هْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Deepest — the hamzah's neighbour. Not an English h made at the mouth."
+            }
+          },
+          {
+            "arabic": "عْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Middle. Squeezed and holdable."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Middle — the breathed twin of ع."
+            }
+          },
+          {
+            "arabic": "غْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Nearest the mouth. A gargle."
+            }
+          },
+          {
+            "arabic": "خْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Nearest the mouth — the breathed twin of غ."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "حْ · ءْ · خْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Mixed and cold: middle, deepest, nearest. Say the depth first."
+            }
+          },
+          {
+            "arabic": "عْ · هْ · غْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Mixed and cold: middle, deepest, nearest. This is where ه and ع get swapped — effort is not depth."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 3 — walk the tongue",
+      "instructions": "Ten points, deepest to frontmost, one representative letter each. Run it forwards, then backwards, then with your eyes closed. The tongue should feel like it is WALKING, not jumping.",
+      "grid": [
+        [
+          {
+            "arabic": "قْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 1 — soft palate."
+            }
+          },
+          {
+            "arabic": "كْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 2 — hard palate."
+            }
+          },
+          {
+            "arabic": "جْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 3 — middle of the tongue."
+            }
+          },
+          {
+            "arabic": "ضْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 4 — side edge, molars."
+            }
+          },
+          {
+            "arabic": "لْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 5 — wide edge at the front gums."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "نْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 6 — tip, just below lām."
+            }
+          },
+          {
+            "arabic": "رْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 7 — back of the tip, deeper."
+            }
+          },
+          {
+            "arabic": "طْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 8 — tooth roots."
+            }
+          },
+          {
+            "arabic": "صْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 9 — between the teeth."
+            }
+          },
+          {
+            "arabic": "ظْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Point 10 — tooth edges. Frontmost."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 4 — the three neighbours",
+      "instructions": "The ل / ن / ر cluster, which is where half of the remaining course lives. Say each sequence and feel the contact move. Then the same three letters inside real words.",
+      "grid": [
+        [
+          {
+            "arabic": "لْ نْ رْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Wide, then tip, then back-of-tip. The contact walks backwards."
+            }
+          },
+          {
+            "arabic": "نْ رْ لْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Tip, back-of-tip, then wide again. Do not let the ر become a flap of the ن."
+            }
+          },
+          {
+            "arabic": "رْ لْ نْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Back-of-tip, wide, tip. With your eyes shut, ل and ن must still be tellable apart."
+            }
+          },
+          {
+            "arabic": "لْ رْ نْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "The hardest order. Wide, deep, then back to the tip."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْفَلَقِ",
+            "translit": "al-falaq",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "113:1 — lip-and-teeth ف, tongue-tip ل twice, then the deepest tongue on ق. Three zones, five sounds."
+            }
+          },
+          {
+            "arabic": "بِرَبِّ ٱلنَّاسِ",
+            "translit": "bi-rabbi-n-nās",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "114:1 — lips, then points 7, 5 and 6 on the tongue with the nose open on the doubled ن, then the jawf alif, then point 9 on the س."
+            }
+          },
+          {
+            "arabic": "ٱلَّذِينَ",
+            "translit": "alladhīna",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "1:7 — a doubled ل held at point 5, then ذ at point 10, then ن at point 6 with the nose."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 5 — the three tooth rows, and then the columns",
+      "instructions": "Say each row across, heavy letter first, and feel the tip change height. Then go DOWN the columns instead. The columns are the next two lessons' subject; today they are only proof that the table is organised rather than arbitrary.",
+      "grid": [
+        [
+          {
+            "arabic": "طْ · دْ · تْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Row: tooth ROOTS. Same tip position for all three."
+            }
+          },
+          {
+            "arabic": "صْ · سْ · زْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Row: BETWEEN the teeth. The tip has dropped."
+            }
+          },
+          {
+            "arabic": "ظْ · ذْ · ثْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Row: tooth EDGES. The tip is visible between the teeth."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "طْ صْ ظْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Column one — all heavy. Three different rows, one shared behaviour. That behaviour has a name and you get it in 3-03."
+            }
+          },
+          {
+            "arabic": "دْ زْ ذْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Column two — all light, all voiced. Fingers on the throat: the buzz runs through every one."
+            }
+          },
+          {
+            "arabic": "تْ سْ ثْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "Column three — all light, all breathed. Palm up: every one of these puffs."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "drill",
+      "heading": "Drill 6 — lip degrees",
+      "instructions": "Eyes closed, a hand resting on your lips. Four letters, four different things for the lips to do. Then the same letters inside words.",
+      "grid": [
+        [
+          {
+            "arabic": "بْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "FIRM. A hard seal, then a release."
+            }
+          },
+          {
+            "arabic": "مْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "LIGHT, nose open. Pinch and it dies."
+            }
+          },
+          {
+            "arabic": "وْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "ROUNDED, never closed. If the lips touch, you made a ب."
+            }
+          },
+          {
+            "arabic": "فْ",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "LOWER lip only, on the upper teeth."
+            }
+          }
+        ],
+        [
+          {
+            "arabic": "ٱلْبَيْتِ",
+            "translit": "al-bayt",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "106:3 — a firm ب at the two lips, then a līn yāʾ with no length."
+            }
+          },
+          {
+            "arabic": "تَبَّتْ",
+            "translit": "tabbat",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "111:1 — a doubled ب held at the two lips, between two tongue-tip ت's at point 8."
+            }
+          },
+          {
+            "arabic": "ٱلْفِيلِ",
+            "translit": "al-fīl",
+            "audio": {
+              "type": "teacher-voice",
+              "cue": "105:1 — the lower lip alone on ف, then a jawf madd yāʾ with no contact at all, then point 5 on the ل."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "ayah",
+      "surah": 1,
+      "ayah": 2,
+      "translation": "All praise is for Allah, Lord of all worlds.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Walk ٱلْحَمْدُ letter by letter: ء (deepest throat) → ل (tongue, point 5) → ح (middle throat) → م (lips, plus the nose) → د (tongue, point 8) → the ḍammah's wāw sound in the jawf. Four zones in six sounds."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 105,
+      "ayah": 1,
+      "translation": "Have you not seen how your Lord dealt with the people of the elephant?",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "Now she does one herself. بِأَصْحَٰبِ: lips (ب) → deepest throat (ء) → tongue point 9 (ص) → middle throat (ح) → jawf (the daggered alif) → lips again (ب). No table in front of her."
+      }
+    },
+    {
+      "kind": "ayah",
+      "surah": 114,
+      "ayah": 1,
+      "translation": "Say: I seek refuge in the Lord of mankind.",
+      "audio": {
+        "type": "teacher-voice",
+        "cue": "The nose zone is not exotic — she has said this in every prayer of refuge she has ever made. The نّ of ٱلنَّاسِ is two counts of pure khayshūm with the tongue merely holding the door shut. Pinch and prove it."
+      }
+    },
+    {
+      "kind": "mistake",
+      "heading": "Six ways the map goes wrong",
+      "mistakes": [
+        {
+          "wrong": "ك pulled back into ق, or ق pushed forward into ك — two letters sounding like one sound with two spellings.",
+          "why": "They are one notch apart on the same organ, and no European or Turkic language has ق at all, so the nearest available sound is ك.",
+          "fix": "Same tongue, one step further back — and let the BACK of the tongue drop away from the roof, not just slide. Test with أَقْ / أَكْ back to back."
+        },
+        {
+          "wrong": "ه placed at the wrong depth, usually too shallow — an English h made at the mouth.",
+          "why": "ه is easy, so it gets no attention, and English has a shallow h pre-installed.",
+          "fix": "أ then ه. Same floor of the throat. They are neighbours — make them sound like neighbours."
+        },
+        {
+          "wrong": "ض made with the tip of the tongue, so it comes out as a heavy د.",
+          "why": "Every other tongue letter she knows uses the tip, the back or the middle. The side-edge is a motion her mouth has never been asked for.",
+          "fix": "Not the tip — the SIDE. Push the side of your tongue out into your back teeth. Hold it for two seconds: a tip-made ض stops dead, a correct one continues. Full treatment in 3-08."
+        },
+        {
+          "wrong": "ل, ن and ر collapsing into one contact point — an ر that is a flap of the same ن, or a ل and ن you cannot tell apart with your eyes shut.",
+          "why": "The three points sit within a few millimetres of each other, and most languages give no reason to keep them apart that precisely.",
+          "fix": "لْ — wide. نْ — tip, and open the nose. رْ — back of the tip, deeper. Feel it walk backwards. Run Drill 4."
+        },
+        {
+          "wrong": "The nasal sound produced in the mouth — an ن or م that survives the pinch test.",
+          "why": "She was taught the closure (tongue, lips) and nobody ever named the exit (the nose).",
+          "fix": "Pinch. Say it again. If you can still hear it, the sound is coming out of the wrong door."
+        },
+        {
+          "wrong": "Answering 'where is it made' from the sound rather than from the body — guessing zones fluently but wrongly, especially on ك, ه and ج.",
+          "why": "She is matching the letter to a remembered description instead of running the sukūn probe. This is the failure mode that makes the whole map useless later.",
+          "fix": "Don't tell me. Say أَـ with a sukūn on the letter, and POINT. The finger comes first, always."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "heading": "The five zones, in order, with their counts",
+      "items": [
+        {
+          "arabic": "الجوف",
+          "translit": "al-jawf",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ONE makhraj. ا و ي carrying length. No contact anywhere."
+          }
+        },
+        {
+          "arabic": "الحلق",
+          "translit": "al-ḥalq",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "THREE makhārij, six letters. ء ه · ع ح · غ خ. Deepest first."
+          }
+        },
+        {
+          "arabic": "اللسان",
+          "translit": "al-lisān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TEN makhārij. More than half the alphabet, and therefore where the errors will be."
+          }
+        },
+        {
+          "arabic": "الشفتان",
+          "translit": "ash-shafatān",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "TWO makhārij, four letters. ف on the lower lip alone; ب م و at both lips, firm / light / open."
+          }
+        },
+        {
+          "arabic": "الخيشوم",
+          "translit": "al-khayshūm",
+          "audio": {
+            "type": "teacher-voice",
+            "cue": "ONE makhraj, no letters of its own. The ghunnah of ن and م. 1 + 3 + 10 + 2 + 1 = 17."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "homework",
+      "heading": "Homework — 20–30 min/day, five days",
+      "tasks": [
+        "Two minutes — Drill 1, the sukūn probe. Twelve letters, finger on the face each time. This is the method; everything else is content.",
+        "Two minutes — Drill 2, down the throat and back, then the six mixed cold.",
+        "Three minutes — Drill 3, the ten tongue points forwards and backwards, eyes closed.",
+        "Two minutes — Drill 4, the ل / ن / ر cluster, then ٱلْفَلَقِ, بِرَبِّ ٱلنَّاسِ and ٱلَّذِينَ.",
+        "One minute — Drill 6, the lip degrees with a hand on the lips.",
+        "Hifz — al-Fātiḥah 1:1–1:2, read from the page and not from your memory of the prayer. Twenty to forty repetitions, then recite it once to your phone and listen back for the ح, the ل and the ع.",
+        "Bring to the next session: the five zones with their counts, written out from memory, and one letter whose zone you are not certain of. We will probe it together."
+      ]
+    }
+  ],
+  "practice": {
+    "drills": [
+      {
+        "title": "Drill 1 — the sukūn probe",
+        "instructions": "Hamzah in front, sukūn on the letter, say it, then POINT before you name the zone. Run this first, every time.",
+        "grid": [
+          [
+            {
+              "arabic": "أَقْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 1 — soft palate."
+              }
+            },
+            {
+              "arabic": "أَكْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 2 — hard palate."
+              }
+            },
+            {
+              "arabic": "أَجْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 3 — middle of the tongue."
+              }
+            },
+            {
+              "arabic": "أَضْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 4 — side edge."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أَلْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 5 — wide edge, front gums."
+              }
+            },
+            {
+              "arabic": "أَنْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 6 — tip, plus the nose."
+              }
+            },
+            {
+              "arabic": "أَرْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 7 — back of the tip."
+              }
+            },
+            {
+              "arabic": "أَطْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 8 — tooth roots."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "أَصْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 9 — between the teeth."
+              }
+            },
+            {
+              "arabic": "أَظْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tongue 10 — tooth edges."
+              }
+            },
+            {
+              "arabic": "أَبْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lips — both, firm."
+              }
+            },
+            {
+              "arabic": "أَفْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lips — lower lip only."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 2 — down the throat and back",
+        "instructions": "Outward from the chest, then back up, then mixed and cold. Name the depth before you say the letter.",
+        "grid": [
+          [
+            {
+              "arabic": "ءْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Deepest."
+              }
+            },
+            {
+              "arabic": "هْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Deepest — the hamzah's neighbour."
+              }
+            },
+            {
+              "arabic": "عْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Middle."
+              }
+            },
+            {
+              "arabic": "حْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Middle."
+              }
+            },
+            {
+              "arabic": "غْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Nearest the mouth."
+              }
+            },
+            {
+              "arabic": "خْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Nearest the mouth."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 3 — walk the tongue",
+        "instructions": "Ten points, deepest to frontmost. Forwards, backwards, then eyes closed. Walking, not jumping.",
+        "grid": [
+          [
+            {
+              "arabic": "قْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1 — soft palate."
+              }
+            },
+            {
+              "arabic": "كْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "2 — hard palate."
+              }
+            },
+            {
+              "arabic": "جْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "3 — middle."
+              }
+            },
+            {
+              "arabic": "ضْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "4 — side edge."
+              }
+            },
+            {
+              "arabic": "لْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "5 — wide edge."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "نْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "6 — tip."
+              }
+            },
+            {
+              "arabic": "رْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "7 — back of the tip."
+              }
+            },
+            {
+              "arabic": "طْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "8 — tooth roots."
+              }
+            },
+            {
+              "arabic": "صْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "9 — between the teeth."
+              }
+            },
+            {
+              "arabic": "ظْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "10 — tooth edges."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 4 — the three neighbours",
+        "instructions": "ل / ن / ر in all four orders, then in words. The contact walks backwards.",
+        "grid": [
+          [
+            {
+              "arabic": "لْ نْ رْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Wide, tip, back-of-tip."
+              }
+            },
+            {
+              "arabic": "نْ رْ لْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Do not let ر become a flap of ن."
+              }
+            },
+            {
+              "arabic": "رْ لْ نْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Eyes shut: ل and ن must still be tellable apart."
+              }
+            },
+            {
+              "arabic": "لْ رْ نْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "The hardest order."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْفَلَقِ",
+              "translit": "al-falaq",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "113:1 — ف, ل, ق. Three zones."
+              }
+            },
+            {
+              "arabic": "بِرَبِّ ٱلنَّاسِ",
+              "translit": "bi-rabbi-n-nās",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "114:1 — points 7, 5, 6 with the nose open on the doubled ن."
+              }
+            },
+            {
+              "arabic": "ٱلَّذِينَ",
+              "translit": "alladhīna",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:7 — doubled ل at point 5, ذ at point 10, ن at point 6."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 5 — the three tooth rows",
+        "instructions": "Rows across, heavy letter first. Then down the columns. Feel the tip change height.",
+        "grid": [
+          [
+            {
+              "arabic": "طْ · دْ · تْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tooth roots."
+              }
+            },
+            {
+              "arabic": "صْ · سْ · زْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Between the teeth."
+              }
+            },
+            {
+              "arabic": "ظْ · ذْ · ثْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Tooth edges."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "طْ صْ ظْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "All heavy."
+              }
+            },
+            {
+              "arabic": "دْ زْ ذْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "All light, all voiced."
+              }
+            },
+            {
+              "arabic": "تْ سْ ثْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "All light, all breathed."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 6 — lip degrees",
+        "instructions": "Eyes closed, hand on the lips. Firm, light, open, lower-lip-only. Then in words.",
+        "grid": [
+          [
+            {
+              "arabic": "بْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Firm."
+              }
+            },
+            {
+              "arabic": "مْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Light, nose open."
+              }
+            },
+            {
+              "arabic": "وْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Rounded, never closed."
+              }
+            },
+            {
+              "arabic": "فْ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "Lower lip only."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "ٱلْبَيْتِ",
+              "translit": "al-bayt",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "106:3 — a firm ب."
+              }
+            },
+            {
+              "arabic": "تَبَّتْ",
+              "translit": "tabbat",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "111:1 — a doubled ب held between two tongue-tip ت's."
+              }
+            },
+            {
+              "arabic": "ٱلْفِيلِ",
+              "translit": "al-fīl",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "105:1 — lower lip, then a jawf madd with no contact at all."
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "title": "Drill 7 — map a word cold",
+        "instructions": "Call out the zone of every letter, in order, with no table in front of you. If you hesitate, run the sukūn probe on the letter you stalled on.",
+        "grid": [
+          [
+            {
+              "arabic": "ٱلْحَمْدُ",
+              "translit": "al-ḥamdu",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:2 — throat → tongue → throat → lips (+ nose) → tongue → jawf."
+              }
+            },
+            {
+              "arabic": "أَنْعَمْتَ",
+              "translit": "anʿamta",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:7 — deepest throat → tongue AND nose → middle throat → lips → tongue."
+              }
+            },
+            {
+              "arabic": "ٱلْمُسْتَقِيمَ",
+              "translit": "al-mustaqīm",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:6 — lips, tongue point 9, tongue point 8, tongue point 1, jawf, lips."
+              }
+            }
+          ],
+          [
+            {
+              "arabic": "بِأَصْحَٰبِ",
+              "translit": "bi-aṣḥāb",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "105:1 — lips → throat → tongue → throat → jawf → lips. The whole map in five letters."
+              }
+            },
+            {
+              "arabic": "ٱلصِّرَٰطَ",
+              "translit": "aṣ-ṣirāṭ",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "1:6 — tongue points 9 → 7 → 8, three neighbours in a row. Slurring this is not carelessness; it is three addresses collapsing into one."
+              }
+            },
+            {
+              "arabic": "وَٱنْحَرْ",
+              "translit": "wanḥar",
+              "audio": {
+                "type": "teacher-voice",
+                "cue": "108:2 — lips → tongue point 6 with the nose → middle throat → tongue point 7. Do not bounce the final ر."
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "dailyChecklist": [
+      "Drill 1, the sukūn probe — twelve letters, finger on the face before the zone is named",
+      "Drill 2 — down the throat and back, then the six mixed cold",
+      "Drill 3 — the ten tongue points forwards and backwards, eyes closed",
+      "Drill 4 — the ل / ن / ر cluster in all four orders, then the three words",
+      "Drill 6 — the lip degrees, hand on the lips, eyes closed",
+      "Hifz — al-Fātiḥah 1:1–1:2 from the page, 20–40 reps, then one recording listened back for the ح, the ل and the ع"
+    ]
+  },
+  "teacherNotes": {
+    "script": [
+      "Do NOT open with a diagram. Open with a wrong answer. Ask 'where is ك made?' and let her say 'the throat'. The map is worth nothing until she has felt it correct something.",
+      "Then ask 'where is ن made?' — she will say the tip of the tongue, which is half right. Use the second question to introduce the fifth zone rather than announcing it.",
+      "Install the sentence verbatim: 'You have been making all 29 of these sounds for a year. What you have not had is a map.' Then name the payoff — every correction from now on has an address.",
+      "Give the definition of makhraj as a TEST, not as a sentence. Run أَبْ · أَتْ · أَقْ · أَعْ live in the first five minutes and make her point at her own face each time. She will be right every time, and that is the point.",
+      "Draw the five zones before naming a single letter, and write the arithmetic 1+3+10+2+1=17 on the board. Drill the SHAPE, not the total — one, three, ten, two, one tells her the tongue is more than half the alphabet.",
+      "Zone 3 is 60% of the lesson. Work at the board, deepest point forward, and after each point make her say the letters closed by a sukūn.",
+      "Say the four downstream facts out loud as you build the tongue table: ق/ك are one notch apart; ض is alone on the side and belongs to 3-08; ل/ن/ر are three neighbours that will misbehave all course; the three tooth rows each pair a heavy letter with its light twin, which is the architecture of 3-03.",
+      "On the throat, expect the order to come out backwards. Most students put ه at the middle and ع at the bottom because ع feels like more effort. Say 'effort is not depth' and trace a fingertip down her throat.",
+      "Zone 5 gets one sentence and one proof: ن and م have two addresses, closure in the mouth and sound in the nose. Pinch and prove it on ٱلنَّاسِ — do not lecture on ghunnah, that is 3-15.",
+      "Close by MAPPING a word, not by reviewing the table. Walk ٱلْحَمْدُ (1:2) yourself, then hand her بِأَصْحَٰبِ (105:1) and make her do it alone.",
+      "ٱلصِّرَٰطَ is the best single word in the Qur'an for this lesson — ص, ر and ط are three adjacent tongue points, so the tongue makes three precise small moves in a syllable and a half. A student who slurs it is not being careless; she is failing to distinguish three neighbouring addresses. It returns in 3-03, 3-07 and 3-10.",
+      "Hifz: this is the first session of the memorisation strand, so set the machinery up before setting the portion. Session order from now on, without exception: Manzil → Sabqi → new Sabaq. Today there is no Manzil and no Sabqi — say the rule aloud anyway and write it at the top of her page.",
+      "New Sabaq is al-Fātiḥah 1:1–1:2, 20–40 repetitions: three reads from the page with full attention to pronunciation, then look away and recite. Ten EXTRA repetitions after any caught error, on the corrected portion alone, with its own tick-box — folded into 'keep going until it's right' it never actually happens.",
+      "She recites these two āyāt in every rakʿah already, so expect the memory to be nearly free and the tajweed to be the work: the ح of ٱلْحَمْدُ at the middle of the throat, the ل of لِلَّهِ light and clear, the ع of ٱلْعَٰلَمِينَ squeezed and held."
+    ],
+    "listenFor": [
+      {
+        "item": "ق and ك kept one notch apart — soft palate then hard palate — with the back of the tongue dropping away on release.",
+        "makhraj": "Tongue points 1 and 2: the deepest part of the tongue against the soft palate (ق), then slightly forward against the hard palate (ك).",
+        "commonMistake": "The two letters arrive as one sound with two spellings — ك pulled back into ق, or ق pushed forward into ك.",
+        "whyItHappens": "They are one notch apart on the same organ, and no European or Turkic language has ق at all, so the nearest available sound is ك.",
+        "correctionCue": "Same tongue, one step further back — and let the back of the tongue drop away from the roof, not just slide. أَقْ then أَكْ, back to back.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-01-Makharij-Consolidated.md"
+      },
+      {
+        "item": "ه made at the floor of the throat, beside the hamzah.",
+        "makhraj": "Deepest throat, أَقْصَى الحلق — the same point as ء.",
+        "commonMistake": "An English h made at the mouth rather than a throat ه.",
+        "whyItHappens": "ه is easy, so it gets no attention, and English has a shallow h pre-installed.",
+        "correctionCue": "أ then ه. Same floor of the throat. They are neighbours — make them sound like neighbours.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-01-Makharij-Consolidated.md"
+      },
+      {
+        "item": "ض made on the side edge of the tongue against the upper molars, and holdable for two seconds.",
+        "makhraj": "Tongue point 4 — one or both side-edges against the upper molars. The only edge makhraj in the language.",
+        "commonMistake": "A heavy د. Held for two seconds it stops dead, because it was made with the tip.",
+        "whyItHappens": "Every other tongue letter she knows uses the tip, the back or the middle. The side-edge is a motion her mouth has never been asked for.",
+        "correctionCue": "Not the tip — the side. Push the side of your tongue out into your back teeth, and hold it.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-01-Makharij-Consolidated.md"
+      },
+      {
+        "item": "ل, ن and ر at three distinct contacts — wide edge, tip, back of the tip — tellable apart with the eyes shut.",
+        "makhraj": "Tongue points 5, 6 and 7, within a few millimetres of each other and walking backwards in that order.",
+        "commonMistake": "An ر that sounds like a flap of the ن just made, or a ل and ن that cannot be told apart by ear.",
+        "whyItHappens": "The three points are only millimetres apart and most languages give no reason to keep them apart that precisely.",
+        "correctionCue": "لْ — wide. نْ — tip, and open the nose. رْ — back of the tip, deeper. Feel it walk backwards.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-01-Makharij-Consolidated.md"
+      },
+      {
+        "item": "The nasal sound of ن and م dying the instant the nose is pinched.",
+        "makhraj": "Al-khayshūm — the nasal passage. The closure is in the mouth; the sound is not.",
+        "commonMistake": "An ن or م that survives the pinch test unchanged.",
+        "whyItHappens": "She was taught the closure — tongue for ن, lips for م — and nobody ever named the exit.",
+        "correctionCue": "Pinch. Say it again. If you can still hear it, the sound is coming out of the wrong door.",
+        "severityIfWrong": "jali",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-01-Makharij-Consolidated.md"
+      },
+      {
+        "item": "Every 'where is it made' answer arriving from the body — finger first, zone second.",
+        "commonMistake": "Fluent but incorrect zone-guessing, especially on ك, ه and ج.",
+        "whyItHappens": "She is matching the letter to a remembered description rather than running the sukūn probe. This is the failure mode that makes the whole map useless later in the unit.",
+        "correctionCue": "Don't tell me. Say it with a hamzah in front and a sukūn on it, and point. The finger comes first, always.",
+        "severityIfWrong": "khafi",
+        "source": "library/04-Curriculum/Unit-3-Tajweed/3-01-Makharij-Consolidated.md"
+      }
+    ],
+    "homework": "20–30 min/day over five days, split roughly ten minutes of makhārij and fifteen of hifz. Daily: Drill 1 (the sukūn probe, twelve letters, finger on the face) two minutes; Drill 2 (down the throat and back, then six mixed cold) two minutes; Drill 3 (the ten tongue points forwards and backwards, eyes closed) three minutes; Drill 4 (the ل/ن/ر cluster, then ٱلْفَلَقِ, بِرَبِّ ٱلنَّاسِ, ٱلَّذِينَ) two minutes; Drill 6 (lip degrees, hand on the lips) one minute. Hifz: al-Fātiḥah 1:1–1:2 read from the PAGE rather than from memory of the prayer, 20–40 repetitions, then one recording listened back for the ح, the ل and the ع. Bring to the next session: the five zones with their counts written out from memory, and one letter whose zone she is not certain of."
+  },
+  "videos": []
+}
