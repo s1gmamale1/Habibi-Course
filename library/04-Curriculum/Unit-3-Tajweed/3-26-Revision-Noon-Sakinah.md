@@ -82,6 +82,8 @@ The whole chapter, in one table. Put it on the board first and leave it up:
 And underneath it, the four facts that the table does not show and that the exam will ask for:
 
 1. **Tanwīn counts as a noon sākinah, everywhere, in every one of the four rules.**
+   **In plain terms:** six letters say it clearly, four merge it, two merge it with no hum, one turns it into a meem, fifteen hide it. That is all twenty-eight letters, each with one job.
+
 2. **The two merges need a word boundary.** Iẓhār, iqlāb and ikhfāʾ do not.
 3. **The four exception words** — ٱلدُّنْيَا · بُنْيَان · صِنْوَان · قِنْوَان — are iẓhār muṭlaq: the merge is cancelled inside a word.
 4. **ي and و merge incompletely.** No shaddah on the page, and the nasal survives anyway.

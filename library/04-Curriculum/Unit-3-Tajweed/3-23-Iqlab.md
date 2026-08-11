@@ -85,6 +85,8 @@ Then name the error, because it is coming: **she will press her lips.** Every st
 
 3. **Give the reason, in one breath.** The ب is a lip letter. Reaching it from the noon's gum-ridge position while still holding a nasal is mechanically awkward, and the nearest nasal the lips can make is a meem. **So the tongue gives up its position and the nasal moves to the lips.** The rule is a shortcut the mouth takes on its own; the tradition wrote it down rather than inventing it.
 
+   **In plain terms:** before ب the nūn turns into a meem, because your lips are already going there for the ب. It is a shortcut your mouth wants to take anyway.
+
 4. **The posture — and this is where the session's minutes go.** Fingertip against the lips, exactly as in lesson 3-16. **The lips come together lightly, without pressure.** They must not:
    - **press shut** — that produces a clear, fully-formed meem, which is a different ruling;
    - **stay apart** — that leaves the original noon audible.
@@ -107,6 +109,8 @@ Then name the error, because it is coming: **she will press her lips.** Every st
    - `خَوْفٍۭ`, `أَحَدٌۢ`, `مَّسَدٍۭ` — replacing a stroke of the tanwīn
 
    **The small meem is not a vowel and is never pronounced as a full meem.** It is a pronunciation instruction: *"here, the noon has become a nasal at the lips."* Learners who read it as a written letter produce *an-m-baʾ*, with both letters in it.
+
+   **In plain terms:** the muṣḥaf prints a tiny standing meem above the nūn. That little letter IS the rule, printed.
 
 7. **And the orthography again tells her, if she looks.** The Uthmānī text **omits the sukūn** on an iqlāb noon — `أَنۢبِئْهُم`, not `أَنْۢبِئْهُم` — for exactly the reason it omitted it on the concealed noon of `مِّن جُوعٍ`: **the noon is not being pronounced in its written place.** Compare `مِّنْ` in lesson 3-20, which keeps its sukūn. Three lessons now have turned on this one convention. Point at it each time until she starts checking it unprompted.
 

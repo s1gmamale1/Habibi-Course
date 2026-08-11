@@ -88,6 +88,8 @@ The sentence for the lesson:
 
    Say the count out loud: **7 and 22.** Then say the thing that makes istifāl teachable: **istifāl is not something you do. It is what remains when you do nothing.** She is not learning to make twenty-two letters light; she is learning to stop leaking heaviness into them.
 
+   **In plain terms:** seven letters are heavy — the back of your tongue lifts for them. Everything else stays flat, which is not something you do; it is what happens when you do nothing.
+
 2. **Drill the mnemonic until it is automatic, before going further.** Three minutes, now, not later. خُصَّ ضَغْطٍ قِظْ, said as a phrase, then unpacked into seven letters, then re-said. This phrase is going to be cited in every heaviness lesson from here to the end of the course.
 
 3. **The kasra test — and this is the moment the lesson either lands or does not.**
@@ -121,6 +123,8 @@ The sentence for the lesson:
 
    This is exactly why **ص is heavier than خ, and ط heavier than ق.** Demonstrate it: صَا then خَا, back to back. Both heavy. Not equally.
 
+   **In plain terms:** all four clamped letters are heavy, but not all heavy letters are clamped. That is why ص sounds heavier than خ — same lift, plus a seal.
+
 6. **Each of the four clamped letters has a light twin at or near its makhraj — and that is where the errors are.**
 
    | Clamped | Collapses to | Test word |
@@ -144,6 +148,8 @@ The sentence for the lesson:
    Then reset entirely on **بِرَبِّ ٱلنَّاسِ** (114:1) — a whole phrase with nothing heavy in it. **Always end a heaviness drill on a light word.** The skill is the switch, not the heaviness.
 
    And name the mirror error while you are here: **over-lightening.** A student freshly drilled on tarqīq starts thinning everything into a nasal, English-sounding register, and eventually thins ص back into س. Light is not thin.
+
+   **In plain terms:** heavy fills the letter and stops at its edge. The skill is the switch back to light, not the heaviness itself.
 
 8. **Point forward, explicitly, and do not skip this step.**
    Tell her where the seven letters go:

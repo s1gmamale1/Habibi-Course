@@ -106,6 +106,8 @@ So: **too much and it becomes a syllable; too little and the letter vanishes.** 
    3. **Keep it brief.** It is a release, not a syllable. It has no measurable duration in ḥarakāt — you cannot count it, because there is nothing there to count.
    4. **Add no vowel colour.** يَجْعَلْ is *yaj‑'al*, never *yaja‑'al*.
 
+   **In plain terms:** shut your mouth on the letter, then pop it open. That pop is the whole thing — no vowel after it, and nothing to count.
+
 5. **The bounce carries the weight of its letter — and this is where 3-03 pays off.**
    Two of the five are isti'lā' letters, so **their bounce is heavy**: ق and ط. The other three — ب, ج, د — are istifāl, so their bounce is **light**.
 

@@ -87,6 +87,8 @@ Then the practical point: **this is the rule she will meet most often.** Fifteen
 
    Two named errors, one target between them. Say all three out loud every time you correct her.
 
+   **In plain terms:** the nūn is neither said clearly nor merged away — it goes half-hidden, with your tongue held back and a hum for two beats.
+
 4. **The fifteen letters.** Everything that is not one of the six throat letters, the four of يَنْمُو, the two of ل ر, or ب:
 
    **ص · ذ · ث · ك · ج · ش · ق · س · د · ط · ز · ف · ت · ض · ظ**
@@ -110,6 +112,8 @@ Then the practical point: **this is the rule she will meet most often.** Fifteen
    **Ikhfāʾ is the default.** Thirteen letters to check against, and everything else falls through to today's rule. That is a much smaller memory load than fifteen, and it is the same answer. Teach the couplet for the exam and the fall-through for reading.
 
 6. **No shaddah — and the muṣḥaf shows it.** This is the whole difference between ikhfāʾ and idghām, and it is printed on the page: in `مِّن جُوعٍ` the ج carries **no shaddah**, while in `مِّن نِّعْمَةٍ` (lesson 3-21) the ن does. **A learner who doubles the following letter has produced idghām by mistake.** Put the two phrases side by side and have her point at the shaddah that is missing.
+
+   **In plain terms:** no shadda on the page means no merging. If the next letter is not doubled, you are hiding the nūn, not losing it.
 
 7. **Duration.** Two counts, on the fingers. Level 3 on the ghunnah scale from lesson 3-15 — the same length as everything else in this chapter that holds.
 

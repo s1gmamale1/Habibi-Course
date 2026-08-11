@@ -99,6 +99,8 @@ And the reassurance, given immediately, because this lesson looks like it involv
 
    Show her both on the page: **ٱلْحَمْدُ** with its little sukūn, and **ٱلرَّحْمَٰنِ** with the bare lām and the shaddah'd ر. Then say: **you never have to recall a list while reading.** The lists are for understanding why, and for the rare unpointed text.
 
+   **In plain terms:** you do not need the fourteen letters to read the page. Look at the letter after the lām: shadda on it means the lām is silent; a sukūn on the lām means say it.
+
 2. **Solar — al-lām ash-shamsiyyah.**
 
    When **ٱلـ** is followed by one of fourteen letters, the **ل is not pronounced at all.** It merges completely into the following letter, which doubles and carries a shaddah. Its technical name is **إِدْغَامٌ شَمْسِيّ** — solar assimilation.

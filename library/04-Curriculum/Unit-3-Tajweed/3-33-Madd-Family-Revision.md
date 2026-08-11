@@ -127,6 +127,8 @@ This is the procedure, and it should be automatic by the end of the session.
 Run it fifteen times on real words at speed. The target is a decision in under a second, made
 **before** she starts saying the word.
 
+   **In plain terms:** no squiggle means two counts and no thinking. If there is one, ask what comes after the long vowel — that answers everything else.
+
 ### 3. The four that everyone confuses — do these as pairs
 
 Confusion in this family is never random. It is always one of these four pairs, so drill the

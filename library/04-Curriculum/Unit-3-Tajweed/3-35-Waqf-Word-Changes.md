@@ -152,6 +152,8 @@ obey. And the same word can appear both ways — سُنَّةَ ٱللَّهِ (
 > orthography is transmitted, not typeset. Where it looks irregular, the irregularity is the
 > information.**
 
+**In plain terms:** the round tāʾ goes soft when you stop — a breath, not a *t*. The open tāʾ, written flat, keeps its *t*.
+
 ### 4. Rawm and ishmām
 
 Two optional refinements at a stop. Teach them as *available*, not as required.
@@ -168,6 +170,8 @@ watch your mouth for the ishmām — the whole point is that it is seen and not 
 because she will see reciters do them and because ishmām is the mechanism behind the one
 Ḥafṣ-specific word she must eventually know: **لَا تَأْمَ۫نَّا** (Yūsuf 12:11), the **only**
 ishmām in Ḥafṣ. See [[Hafs-Special-Words]].
+
+   **In plain terms:** rawm is saying a sliver of the vowel out loud; ishmām is shaping it with your lips and making no sound at all. One is heard, one is only seen.
 
 ### 5. Al-Maqṭūʿ wa'l-Mawṣūl — separated and joined
 
