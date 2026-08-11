@@ -1,0 +1,62 @@
+{
+  "id": "checkpoint-4",
+  "title": "Unit 4 Exit — the rule-spotting pass",
+  "durationMinutes": "30–40",
+  "steps": [
+    {
+      "name": "Read this before you run it — what this checkpoint is NOT",
+      "script": "This is not a gate on the course. Unit 4 is optional relative to the four end goals — reading an unseen muṣḥaf page, reciting the memorised surahs, naming the rules, reading a colour-coded muṣḥaf — and NONE of them tests the Kalimas. A student who skips Unit 4 entirely loses nothing at the Final Checkpoint. Say that to her plainly if she is anxious. What this session does is close the unit honestly: it tells you both whether the applied practice landed, and if it did not, exactly which rule to spend the next few sessions on."
+    },
+    {
+      "name": "The rule-spotting pass — the actual assessment",
+      "script": "From lesson 4-08. Give her Īmān Mufaṣṣal and do NOT ask her to recite. She reads silently, finger on each rule, naming each one out loud as she reaches it. There are around thirty stops. Write down every one she cannot name, and say nothing at all while she works — no prompting, no confirming, no reacting. That list, not her recitation, is the result. Then repeat on any of 4-01 to 4-07 you want a second reading of; the texts are short and the pass takes minutes."
+    },
+    {
+      "name": "The two names of Allah in one sentence",
+      "script": "bi-llāhi … mina-llāhi. She produces both, light then heavy, and then tells you the vowel before each. This is the single most reusable thing in the unit: if she has this pair cold she has the lām jalālah rule for life, and it transfers straight back to the Qurʾān."
+    },
+    {
+      "name": "The three light rāʾs",
+      "script": "wa-l-qadari · khayrihī · wa sharrihī — three rāʾs in six words, all light. Then wa rusulihī, which is heavy. Call them in a random order and have her state the weight BEFORE she says the word. wa sharrihī is the hardest item in the unit: doubled and thin, and it must not roll."
+    },
+    {
+      "name": "Recitation, last and lowest-stakes",
+      "script": "Only now, and only if the passes above went well: the eight texts from memory with correct tajweed, on a planned breath scheme. Mark it on the standard scale, but weigh it lightly — the failure mode of Unit 4 has always been duration rather than knowledge, and a rule that collapses in the second half of Īmān Mufaṣṣal is a stamina finding, not a comprehension one."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "The rule-spotting pass — the item that decides the outcome",
+      "pass": "She walks the text naming every rule, unaided. Rules she cannot name are written down as they occur. This is a diagnostic list, not a score: it names the next few sessions' curriculum, and it is almost always one specific rule rather than a general weakness."
+    },
+    {
+      "criterion": "Lām jalālah, light and heavy, within one sentence",
+      "pass": "bi-llāhi light and mina-llāhi heavy, produced on demand, with the deciding vowel named for each."
+    },
+    {
+      "criterion": "Three light rāʾs, none rolled",
+      "pass": "wa-l-qadari, khayrihī, wa sharrihī all light; wa rusulihī heavy; the weight stated before the word is said."
+    },
+    {
+      "criterion": "Recitation from memory, all eight texts",
+      "pass": "Correct tajweed on a planned breath scheme. Scored on the standard scale — Jali −2, Khafi −1, self-correction −1, examiner correction −2 — but weighted lightly against the spotting pass."
+    },
+    {
+      "criterion": "OUTCOME — there is no fail",
+      "pass": "This checkpoint has two outcomes, and neither ends the course. COMPLETE: she walked the text naming the rules. CONTINUE: she could not, and the list of misses IS the plan — redo the lessons those rules belong to, then re-run the spotting pass on that text alone. Nothing here blocks the Final Checkpoint, because nothing in Unit 4 is tested by it."
+    }
+  ],
+  "revisionMap": [
+    { "weakSpot": "lām jalālah — heavy or light", "lessons": ["4-01", "4-06", "3-12"] },
+    { "weakSpot": "rāʾ rolled, or heavy where it should be light", "lessons": ["4-08", "3-10", "3-11"] },
+    { "weakSpot": "ghunnah — nūn and meem with shadda", "lessons": ["4-04", "3-15"] },
+    { "weakSpot": "iqlāb — nūn into meem before bāʾ", "lessons": ["4-05", "4-07", "3-23"] },
+    { "weakSpot": "idghām bilā ghunnah at muḥammadun rasūl", "lessons": ["4-01", "3-22"] },
+    { "weakSpot": "madd munfaṣil against madd ṭabīʿī — four against two", "lessons": ["4-01", "3-30"] },
+    { "weakSpot": "madd badal — the hamzah before the madd", "lessons": ["4-07", "3-28"] },
+    { "weakSpot": "lām shamsiyyah against qamariyyah", "lessons": ["4-03", "4-04", "3-13"] },
+    { "weakSpot": "sākin ʿayn cut clean, no vowel after", "lessons": ["4-08", "3-01"] },
+    { "weakSpot": "qalqalah at a stop", "lessons": ["4-07", "3-06"] },
+    { "weakSpot": "stamina — a rule collapsing in the second half", "lessons": ["4-08"] }
+  ]
+}
