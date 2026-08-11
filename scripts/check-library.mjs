@@ -148,6 +148,51 @@ export function checkVault(dir, corpus) {
     }
   }
 
+  // ── The Unit 3 hifz strand must tile the eleven hifz surahs exactly ──────────
+  //
+  // Every āyah of surah 1 and 105–114 is assigned to exactly one Unit 3 lesson, in
+  // order, as its new Sabaq. A gap means a learner finishes the unit without having
+  // memorised part of the set; a duplicate means two lessons hand her the same lines
+  // and the later one silently has no new material.
+  //
+  // This is checked because it is exactly what a renumber breaks quietly. The `hifz:`
+  // field is prose — "revision only — Sabqi and Manzil, no new Sabaq" is a legitimate
+  // value — so nothing else in the vault could notice a range going missing.
+  {
+    const HIFZ_SURAHS = [1, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114];
+    const owner = new Map();
+    for (const n of notes) {
+      if (n.data.type !== "lesson" || !String(n.data.id).startsWith("3-")) continue;
+      const m = String(n.data.hifz ?? "").match(/^(\d+):(\d+)(?:-(\d+):(\d+))?$/);
+      if (!m) continue; // a revision session; its hifz field is prose by design
+      const [, s1, a1, s2, a2] = m;
+      if (s2 && s2 !== s1) {
+        errors.push(`${n.rel}: hifz range "${n.data.hifz}" spans two surahs`);
+        continue;
+      }
+      for (let a = Number(a1); a <= (a2 ? Number(a2) : Number(a1)); a++) {
+        const key = `${s1}:${a}`;
+        if (owner.has(key)) errors.push(`${n.rel}: hifz ${key} already assigned to ${owner.get(key)}`);
+        else owner.set(key, n.data.id);
+      }
+    }
+    // Only meaningful once Unit 3 exists at full length; skip while it is being built.
+    if (owner.size) {
+      const missing = [];
+      for (const s of HIFZ_SURAHS) {
+        let count = 0;
+        while (corpus.get(`${s}:${count + 1}`)) count++;
+        for (let a = 1; a <= count; a++) if (!owner.has(`${s}:${a}`)) missing.push(`${s}:${a}`);
+      }
+      if (missing.length) {
+        errors.push(
+          `Unit 3 hifz strand does not cover the whole hifz set — ${missing.length} āyah(s) ` +
+            `unassigned: ${missing.slice(0, 8).join(", ")}${missing.length > 8 ? " …" : ""}`,
+        );
+      }
+    }
+  }
+
   const ruleStatus = new Map(
     notes.filter((n) => n.data.type === "rule").map((n) => [n.data.id, n.data.status]),
   );

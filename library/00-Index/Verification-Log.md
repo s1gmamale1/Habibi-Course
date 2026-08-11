@@ -108,8 +108,21 @@ Nothing published moved: no `3-xx` id appears in `course.json`.
   mention of the fifth opposite pair or of any unopposed ṣifah — not in a heading, a drill,
   or an aside. All 18 `taught_in` values pointed at a lesson that did not teach the rule.
   What was filed as metadata drift was a **curriculum gap**. See the resolution below.
-- **The hifz lesson→surah mapping in `phase-3-tajweed.md` §2.2 was built for 26 lessons.**
-  Unit 3 now has **37**. It must be regenerated, not copied.
+- ~~**The hifz lesson→surah mapping in `phase-3-tajweed.md` §2.2 was built for 26 lessons.**~~
+  **Resolved 2026-08-11, and it was never a defect in shipped content.** The stale table lives
+  in a **superseded planning document** — one that also drew its Arabic from quran.com's
+  `text_uthmani` rather than the pinned Tanzil snapshot, so nothing in it may be copied
+  forward on two independent counts. It now carries a do-not-build-from banner.
+  **The live map — the `hifz:` field on each Unit 3 lesson note — was already correct.**
+  Audited against the corpus: all **55 āyāt** of the eleven hifz surahs assigned, **no gaps,
+  no duplicates, none spanning a surah boundary**. Now enforced by `check-library`, proved by
+  dropping a range (caught) and by duplicating one (caught).
+
+  > **Worth noting how close this came to wasted work.** The entry above said the map "must be
+  > regenerated", and it was carried into the ROADMAP as a High-severity blocker on publishing
+  > Unit 3. Regenerating it would have meant rewriting 37 correct `hifz:` fields from a stale
+  > 26-lesson table — replacing good data with bad. **The check that cost two minutes was
+  > asking whether the defect was real before acting on the record of it.**
 
 ## Rule-note review — 2026-08-11
 
