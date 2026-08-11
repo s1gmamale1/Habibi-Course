@@ -76,8 +76,10 @@ export function Flashcards({ cards }: { cards: CardFace[] }) {
       >
         {flipped ? (
           <span className="space-y-1">
-            {card.back.map((line) => (
-              <span key={line} dir="ltr" className="block text-white/85">
+            {/* Keyed by index, not by line text: two identical back lines are legitimate
+                content (a letter whose name and transliteration coincide) and would collide. */}
+            {card.back.map((line, i) => (
+              <span key={`${i}-${line}`} dir="ltr" className="block text-white/85">
                 {line}
               </span>
             ))}

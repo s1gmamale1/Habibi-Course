@@ -26,6 +26,24 @@ describe("LetterQuiz — letter flavor (formsTaught=false)", () => {
     expect(screen.getByRole("button", { name: /next question/i })).toBeTruthy();
   });
 
+  test("once answered, choices are marked disabled and the stale shake clears", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    render(<LetterQuiz pool={pool} entries={[]} formsTaught={false} />);
+    await screen.findByText(/which letter is/i);
+    const wrong = () => screen.getByRole("button", { name: "choice ت" });
+
+    await userEvent.click(wrong());
+    expect(wrong().className).toContain("game-shake");
+
+    await userEvent.click(screen.getByRole("button", { name: "choice ب" }));
+    // The round is over: every choice is inert, so it must not read as actionable.
+    for (const glyph of ["ت", "ث", "ا", "ب"]) {
+      expect(screen.getByRole("button", { name: `choice ${glyph}` }).getAttribute("aria-disabled")).toBe("true");
+    }
+    // The wrong pick's shake belonged to a guess that has since been superseded.
+    expect(wrong().className).not.toContain("game-shake");
+  });
+
   test("first-try correct scores 1 / 1", async () => {
     vi.spyOn(Math, "random").mockReturnValue(0);
     render(<LetterQuiz pool={pool} entries={[]} formsTaught={false} />);

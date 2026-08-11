@@ -27,7 +27,10 @@ describe("ExportPptxButton", () => {
     const lesson = loadLesson("1-01");
     render(<ExportPptxButton lesson={lesson} />);
     await userEvent.click(screen.getByRole("button", { name: /export pptx/i }));
-    expect(await screen.findByText(/exported/i)).toBeTruthy();
+    expect(await screen.findByRole("button", { name: /exported/i })).toBeTruthy();
+    // The outcome is also announced separately — the button label alone is not announced
+    // when it changes under a focused control.
+    expect(screen.getByRole("status").textContent).toMatch(/exported/i);
     expect(writeFileMock).toHaveBeenCalledWith({ fileName: "tajweed-1-01.pptx" });
   });
 
@@ -35,6 +38,7 @@ describe("ExportPptxButton", () => {
     writeFileMock.mockRejectedValueOnce(new Error("boom"));
     render(<ExportPptxButton lesson={loadLesson("1-01")} />);
     await userEvent.click(screen.getByRole("button", { name: /export pptx/i }));
-    expect(await screen.findByText(/failed/i)).toBeTruthy();
+    expect(await screen.findByRole("button", { name: /failed/i })).toBeTruthy();
+    expect(screen.getByRole("status").textContent).toMatch(/failed/i);
   });
 });
