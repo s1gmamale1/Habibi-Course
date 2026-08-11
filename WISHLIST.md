@@ -1,42 +1,153 @@
 # WISHLIST
 
-Capture inbox. Append-only — nothing here is scheduled. Scoped work gets promoted to `ROADMAP.md`.
+Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADMAP.md`.
 
-## 2026-07-20 — deferred from the owner-feedback review round
+> **Triaged 2026-08-11.** Every item below was checked against the code rather than
+> carried forward on trust. Five were already done and have been removed; four were
+> stale in their details and are corrected. What is left is open as of this date.
+> The removals are listed at the bottom so the history is not simply lost.
 
-- **Per-letter makhraj diagrams instead of 5 zone diagrams.** 18 tongue letters currently share one `lisan.svg` with the same highlight, so ت (tip), ض (side), ك (back) all look identical. The owner asked for diagrams so the student "wouldn't have to guess"; for tongue letters they still do. Would need ~10 more SVGs (tongue sub-zones) and a per-letter mapping in the content.
-- **Makhraj SVGs are dark-theme only.** Strokes are light at 0.32–0.40 opacity on transparent; on a printed page or a light background they vanish. Add a `@media print` variant or a dark-stroke fallback. (Low urgency: printed sheets are drill grids, which carry no diagrams.)
-- **`overview.svg` head outline is two subpaths**, leaving an open contour at the jaw/shoulder join; labels are ~10px at mobile render size.
-- **Accessibility batch** (carried from the first build): tap popovers have no `role="dialog"`/`aria-live` and no Escape/outside-click dismissal; lesson-row links share identical accessible names ("Lesson"/"Practice") across rows; React list keys use content strings, so duplicate lines in future content would warn.
-- **"Unit 1.1" vocabulary appears in student-facing text** but the app never shows unit boundaries — the student sees a slide headed "Lesson 1.1" and a body referring to "Unit 1.1". Either surface units in the course map or drop the term from student text.
-- **`/teach/<id>` is obscurity-only** and ships in the same static bundle as student pages. Fine for one student; needs real gating before any public/commercial launch.
-- **`api.quran.com` v4 is a legacy endpoint** used for Phase 2–3 content sourcing; Quran Foundation may sunset it. Mitigation (bake data into static content at build time) is planned but not executed.
-- **Owner-recorded letter audio.** 1,493 tap targets are `teacher-voice` practice cues because no openly licensed per-letter/harakat audio exists. Recording ~20–30 min of the owner's own voice would upgrade them to `qari-clip` with **no schema change** — the `AudioSource` union already supports it.
-- **`docs/research/intro-motivation.md` hadith were verified via sunnah.com mirrors**, not sunnah.com itself (Cloudflare blocks automated fetches). Worth one human pass over the 8 citations in a real browser.
-- **Dar Al-Maarifah vs Quranly colour legend.** Phase 3 will follow the Quranly app's tajweed colouring (owner decision); the exact rule→colour palette still needs to be pinned from a primary source at Phase 3 content build.
+---
 
-## 2026-07-20 — deferred from the PPTX-export review round
+## Audio — the real shape of the gap
 
-- **[pptx] Recap columns fill left-to-right.** Multi-column recap slides place the first items in the *leftmost* column, but the deck is otherwise RTL-honouring (drill rows are reversed) and an Arabic-reading teacher scans right-to-left. `src/export/lessonToPptx.ts` `renderRecap` — fix: `x: 0.5 + (colCount - 1 - col) * (9 / colCount)`. Severity: low, effort: S.
-- **[pptx] Latent overflow hairline at exactly 14 recap items.** `recapFontSize(14)` stays 20pt single-column and would end ~0.3" past the canvas; unreachable today (largest single-column recap in real content is 13). Fix: lower the single-column threshold to ≤12 in `src/export/lessonToPptx.ts`. Severity: low, effort: S.
-- **[pptx] No status announcement for assistive tech.** `src/components/ExportPptxButton.tsx` status changes only via the button label; add `aria-live="polite"`/`role="status"`. Fold into the existing accessibility batch above. Severity: low, effort: S.
-- **[schema] Tighten drill inner rows to `.min(1)`.** `src/content/schema.ts` `drill.grid` allows an empty inner row (`[[]]`), which `drillTableRows` would turn into a 0-column table. Build-time validation makes it latent; the schema tighten closes it for good (do it next time the schema is touched). Severity: low, effort: S.
+> Superseded the old *"1,493 tap targets are teacher-voice"* line, which was wrong twice
+> over: the count had grown to **6,966** as Units 2–4 shipped, and counting cues rather
+> than distinct sounds overstated the recording job by more than four times.
 
-## 2026-07-21 — codex image generation blocked (quota)
+**Measured 2026-08-11 across `content/lessons/`:** 7,194 audio-bearing items — 6,966
+`teacher-voice`, 182 `youtube-cue`, 46 `qari-clip`. Those 6,966 cues carry only
+**1,635 distinct Arabic payloads** (4.3× repetition), which split into four groups that
+need completely different solutions:
 
-- **Regenerate ALL makhraj visuals as real-anatomy raster images via codex imagine** once the owner's codex quota resets (**Jul 25 2026 6:50 PM**; or sooner with credits / an OPENAI_API_KEY in ~/.codex/auth.json). Owner rejected line-art SVGs; halq-zones already replaced with an adapted OpenStax CC BY figure — the other six (overview/jawf/halq/lisan/shafatan/heavy-light) are still brightened SVGs awaiting raster replacements. Command shape that works: codex exec -m gpt-5.4 -s workspace-write --skip-git-repo-check "<prompt using its image tool>".
+| Group | Distinct | What it is | Route |
+|---|---|---|---|
+| **Qurʾānic words** | **254** | exact matches to a word in the pinned corpus | Word-by-word CDN, link-only — but **blocked on a missing `ref` field**, see below |
+| **Single letters** | **213** | the 29 letters across their harakat | The genuine recording gap |
+| **Syllables** | **510** | 2–3 letter qāʿidah drill units | The genuine recording gap |
+| **Ordinary vocabulary** | **658** | everyday MSA nouns — ثعلب، خليج، قميص، كتاب، مسجد، حصان، بخار | **Not scripture.** Open pronunciation dictionaries may cover these |
 
-## 2026-07-22 — deferred from the practice-games review round
+**Why this matters.** The project's standing conclusion — *"no openly-licensed,
+full-coverage audio set exists"* — was reached about the course as a whole. Broken down,
+it is only true of the middle two groups. **723 letter-and-syllable cues are the actual
+irreducible recording job**, not 7,000, and at 4.3× reuse that is a much smaller ask than
+the roadmap has been carrying.
 
-- **[content] 4 example words silently excluded from all games** — the word filter admits only fully-taught base letters, so words containing ة (taa marbuta) or standalone ء never qualify: ضَوْء، لُغَة، بَقَرَة، وَرْدَة. Correct per spec, but silent; **owner should confirm intended** (mapping ة→ه/ء would be linguistically dubious — the alternative is teaching those letterforms or dropping the words from examples). `src/games/derive.ts` word filter + `src/games/arabic.ts` BASE_MAP. Severity: low, effort: decision-only.
-- **[a11y] Locked/solved game tiles remain tabbable click-no-ops** — FormSwap/WordBuilder/quiz tiles never get `disabled`/`aria-disabled`, so keyboard users tab through inert buttons. Fold into the existing accessibility batch. `src/components/games/FormSwap.tsx`, `WordBuilder.tsx`, `LetterQuiz.tsx`. Severity: low, effort: S.
-- **[ux] LetterQuiz shake class persists after the round is solved** — a wrong pick's `game-shake` isn't cleared on the subsequent correct pick (only on Next question). Cosmetic. `src/components/games/LetterQuiz.tsx` (clear `shake` in the correct-pick branch). Severity: low, effort: S.
-- **[dry] `useSwapPuzzle` value-equality check duplicated ×4** — `values[order[slot]] === values[slot]` appears in `shuffledUnsolved`, `solved`, the locked-guard, and `gained`; extract an `isCorrect(values, order, slot)` helper. `src/components/games/useSwapPuzzle.ts`. Effort: S.
-- **[types] `FormSwap` re-declares a local `FormKey`** structurally identical to the export in `src/games/derive.ts:5` — import it instead. Effort: S.
-- **[react] Flashcard back-face uses line text as its key** — duplicate back lines on a future card would trigger React key warnings. `src/components/games/Flashcards.tsx` (index-suffix the key). Severity: low, effort: S.
-- **[tests] Games coverage gaps (behaviorally corroborated but unasserted)** — duplicate-letter word in WordBuilder/useSwapPuzzle; Next-word/Next-question round-advance clicks; SpotTheLetter fallback-to-glyph when pool item lacks `name`; empty-pool guards (components rely on GamePanel gating); empty-string/single-letter `contextualGlyphs`. Batch: one test-sweep pass. Effort: M.
-- **[perf] `allLessons()` re-parses all lesson JSON for every page at build** — O(N²) in lesson count, negligible at N=12 static routes; memoize if the course grows phases. `src/content/load.ts`. Effort: S.
+- **[audio] Wire the 254 Qurʾānic-word cues to the word-by-word CDN.** Pattern and terms are
+  already researched and confirmed live: `https://audio.qurancdn.com/wbw/{SSS}_{AAA}_{WWW}.mp3`,
+  anonymous and CORS-open. **No new research is required, but this is NOT a drop-in swap —
+  there is a real blocker first.**
 
-## 2026-07-22 — movement teaching (owner request)
+  The CDN is addressed by surah, ayah **and word position**, and **no lesson item carries an
+  ayah reference at all**: `ArabicItemSchema` (`src/content/schema.ts:32`) is
+  `{arabic, name, translit, audio}`, and `"ref"` appears **zero times** across
+  `content/lessons/`. Matching on the Arabic string alone cannot resolve it — a word like
+  ٱلْحَمْدُ occurs many times, and the word's *index within its ayah* is needed too.
 
-- **Frame-by-frame makhraj animations.** Owner wants actual MOVEMENT shown per letter (tongue/lip motion while pronouncing). Generated-image keyframes lack cross-frame consistency today; options when picked up: (a) hunt licensed/embeddable ANIMATED makharij videos on YouTube per zone and wire as visible embeds, (b) coherent multi-frame generation or video-gen when available in codex, (c) CSS/SVG micro-animations (e.g. animated arrow paths over the annotated stills). Static images are now annotated with letters/arrows/labels (this round) as the baseline.
+  **The refs do exist, just on the other side of the pipeline:** the library notes carry
+  **207 distinct `ref:` values across 780 example entries**, and ADR-003 makes the note the
+  source of record. So the work is: add an optional `ref` to `ArabicItemSchema`, carry it
+  through transcription, then resolve word position against the pinned corpus. Effort: **L,
+  not M**, and it touches the schema.
+- **[audio] The 723 letter/syllable cues.** Either an openly-licensed qāʿidah set or the
+  owner's own voice. **DEFERRED by the owner** as far as his own recording goes; the
+  open-set search is the live question.
+- **[audio] The 658 ordinary-vocabulary cues.** These are reading-practice nouns, not
+  Qurʾānic text, so both the licensing and the religious objections that block the other
+  groups are weaker or absent here. Worth checking Lingua Libre, Wiktionary and Commons
+  for coverage.
+
+---
+
+## Content and pedagogy
+
+- **Per-letter makhraj diagrams instead of 5 zone diagrams.** 18 tongue letters still share
+  one `lisan.jpg` with the same highlight, so ت (tip), ض (side) and ك (back) look identical.
+  The owner asked for diagrams so the student "wouldn't have to guess"; for tongue letters
+  she still does. Needs ~10 more images (tongue sub-zones) plus a per-letter mapping.
+- **Frame-by-frame makhraj animations** (owner request, 2026-07-22). The owner wants actual
+  MOVEMENT per letter — tongue and lip motion during pronunciation. Options when picked up:
+  (a) deep-link licensed/embeddable animated makharij videos per zone, (b) coherent
+  multi-frame or video generation when available, (c) CSS/SVG micro-animations over the
+  annotated stills. The annotated raster stills are the current baseline.
+- **4 example words silently excluded from all games** — the word filter admits only fully
+  taught base letters, so words containing ة or standalone ء never qualify: ضَوْء، لُغَة،
+  بَقَرَة، وَرْدَة. Correct per spec but silent. **Owner decision needed:** mapping ة→ه/ء
+  would be linguistically dubious; the alternatives are teaching those letterforms or
+  dropping the words. `src/games/derive.ts` + `src/games/arabic.ts` `BASE_MAP`.
+- **"Unit 1.1" vocabulary appears in student-facing text** (confirmed still present in
+  `content/lessons/1-01`, `1-04`, `1-06`) but the app never shows unit boundaries — the
+  student sees a slide headed "Lesson 1.1" whose body refers to "Unit 1.1". Either surface
+  units in the course map or drop the term from student text.
+- **`docs/research/intro-motivation.md` hadith were verified via sunnah.com mirrors**, not
+  sunnah.com itself (Cloudflare blocks automated fetches). Worth one human pass over the 8
+  citations in a real browser.
+
+## Access and infrastructure
+
+- **`/teach/<id>` is obscurity-only** and ships in the same static bundle as student pages.
+  Fine for one student; needs real gating before any public or commercial launch.
+- **`api.quran.com` v4 is a legacy endpoint**, used at `scripts/fetch-word-timings.mjs:11`.
+  Quran Foundation may sunset it. The mitigation is already designed and written down —
+  precompute filenames at build time rather than calling the API at runtime
+  (`docs/research/recitation-audio.md` §4.2) — but not executed.
+
+## Accessibility — partially done, narrowed
+
+The newer tajweed games (`ListenIdentify`, `RuleIdentifier`) now carry `aria-live="polite"`.
+What remains:
+
+- **Tap popovers have no `role="dialog"`/`aria-modal`** and no outside-click dismissal.
+  (`SlideDeck.tsx:223` handles Escape, but for navigation, not popover dismissal.)
+- **Locked/solved game tiles remain tabbable click-no-ops** in `FormSwap.tsx` and
+  `LetterQuiz.tsx` — neither sets `disabled`/`aria-disabled`. `WordBuilder.tsx` does.
+- **Lesson-row links share identical accessible names** ("Lesson"/"Practice") across rows;
+  `CourseMap.tsx` sets no `aria-label`.
+- **`ExportPptxButton.tsx` announces status only via the button label** — needs
+  `aria-live="polite"`/`role="status"`.
+
+## PPTX export
+
+- **Recap columns fill left-to-right.** Multi-column recap slides put the first items in the
+  *leftmost* column while the deck is otherwise RTL-honouring, and an Arabic-reading teacher
+  scans right-to-left. `src/export/lessonToPptx.ts:151` — fix:
+  `x: 0.5 + (colCount - 1 - col) * (9 / colCount)`. Effort: S.
+- **Latent overflow hairline at exactly 14 recap items.** `recapFontSize` at
+  `lessonToPptx.ts:134` still returns 20pt single-column for `<= 14`, which would end ~0.3"
+  past the canvas. Unreachable in current content (largest real single-column recap is 13).
+  Fix: lower the threshold to `<= 12`. Effort: S.
+
+## Code hygiene
+
+- **Tighten drill inner rows to `.min(1)`.** `src/content/schema.ts:79` and `:133` guard the
+  *outer* array only, so an empty inner row (`[[]]`) still validates and `drillTableRows`
+  would render a 0-column table. Build-time validation keeps it latent. Effort: S.
+- **`useSwapPuzzle` value-equality check duplicated ×4** — `values[order[slot]] === values[slot]`
+  and its variants appear at `useSwapPuzzle.ts:18, 46, 50, 63`. Extract
+  `isCorrect(values, order, slot)`. Effort: S.
+- **`FormSwap` re-declares a local `FormKey`** (`FormSwap.tsx:7`) structurally identical to
+  the export at `src/games/derive.ts:5` — import it instead. Effort: S.
+- **`Flashcards` back-face uses line text as its React key** (`Flashcards.tsx:80`) — a
+  duplicate back line in future content would trigger key warnings. Index-suffix it. Effort: S.
+- **Games coverage gaps** (behaviourally corroborated but unasserted): duplicate-letter word
+  in WordBuilder/useSwapPuzzle; Next-word/Next-question round-advance clicks; SpotTheLetter
+  fallback-to-glyph when a pool item lacks `name`; empty-pool guards; empty-string and
+  single-letter `contextualGlyphs`. One test-sweep pass. Effort: M.
+- **`allLessons()` re-parses all lesson JSON for every page at build** — O(N²) in lesson
+  count. **The old note called this "negligible at N=12"; it is now 74 lessons and 230 static
+  pages.** Still fast enough, but the premise has changed. `src/content/load.ts`. Effort: S.
+
+---
+
+## Removed 2026-08-11 — verified already done
+
+- **Makhraj SVGs are dark-theme only** — moot. There are no makhraj SVGs left; all seven are
+  raster `.jpg` under `public/images/makhraj/`.
+- **`overview.svg` head outline is two subpaths** — same reason; it is `overview.jpg` now.
+- **Regenerate all makhraj visuals as raster via codex imagine** (was blocked on a quota
+  resetting 2026-07-25) — done. All seven exist as annotated rasters.
+- **Dar al-Maʿrifah vs Quranly colour legend** — decided and shipped. ADR-002 pins Family B
+  (red = qalqalah) as the default. The one live remnant, sampling Dar al-Maʿrifah's exact hex
+  values from print, is tracked in `ROADMAP.md` Phase 6, not here.
+- **`useSwapPuzzle` / games items assumed stale** — re-checked and genuinely still open, so
+  they stayed above. Recorded here only to note they were verified, not assumed.
