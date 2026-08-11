@@ -129,11 +129,16 @@ export function LetterQuiz({
               key={`${c.key}-${shaking ? shake!.n : 0}`}
               type="button"
               aria-label={`choice ${c.glyph}`}
+              // Answered rounds leave every choice inert. Not `disabled`, which would drop
+              // them out of the tab order mid-round and move focus unexpectedly; aria-disabled
+              // keeps them reachable while announcing that they no longer do anything.
+              aria-disabled={gotIt}
               onClick={() => {
                 if (gotIt) return;
                 if (c.correct) {
                   setGotIt(true);
                   setScore((s) => ({ right: s.right + (missed ? 0 : 1), asked: s.asked + 1 }));
+                  setShake(null); // a wrong guess's shake outlived the guess itself
                 } else {
                   setMissed(true);
                   setShake({ key: c.key, n: (shake?.n ?? 0) + 1 });

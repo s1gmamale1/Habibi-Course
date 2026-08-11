@@ -131,7 +131,11 @@ function renderDrill(slide: DeckSlide, s: Extract<Slide, { kind: "drill" }>): vo
 // items fan out into up to 3 side-by-side columns and the font shrinks
 // as the list grows.
 function recapFontSize(itemCount: number): number {
-  if (itemCount <= 14) return 20;
+  // 13, not 14: the column split only kicks in above 14 items, so a 14-item recap renders as
+  // one column, and 14 lines at 20pt run ~0.3" past the 3.8" text box. 13 lines is the most
+  // that fits, and is also the largest recap in real content — so it keeps the base size.
+  // (The original note proposed 12; that would needlessly shrink a recap that fits.)
+  if (itemCount <= 13) return 20;
   if (itemCount <= 28) return 14;
   if (itemCount <= 42) return 12;
   return 11;
@@ -148,7 +152,10 @@ function renderRecap(slide: DeckSlide, s: Extract<Slide, { kind: "recap" }>): vo
     if (!colLines.length) continue;
     slide.addText(
       colLines.map((text) => ({ text, options: { bullet: true, breakLine: true, fontSize, fontFace: ARABIC_FONT, color: TEXT } })),
-      { x: 0.5 + col * (9 / colCount), y: 1.2, w: 9 / colCount, h: 3.8 },
+      // Right-to-left: column 0 holds the first items and belongs furthest right. The rest of
+      // the deck already honours RTL (drill rows are reversed), and a teacher reading Arabic
+      // scans that way — filling left-to-right made the recap read backwards against its own deck.
+      { x: 0.5 + (colCount - 1 - col) * (9 / colCount), y: 1.2, w: 9 / colCount, h: 3.8 },
     );
   }
 }

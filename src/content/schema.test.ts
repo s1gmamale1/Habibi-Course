@@ -42,6 +42,22 @@ describe("LessonSchema", () => {
   });
 });
 
+describe("SlideSchema — drill grid rows", () => {
+  const drill = (grid: unknown) => ({ kind: "drill", heading: "h", instructions: "do it", grid });
+  const cell = { arabic: "ب", audio: { type: "teacher-voice", cue: "lips" } };
+
+  test("a drill with a real row parses", () => {
+    expect(() => SlideSchema.parse(drill([[cell]]))).not.toThrow();
+  });
+
+  // An empty inner row renders as a 0-column table rather than failing visibly.
+  // The outer .min(1) never caught it because the array itself is non-empty.
+  test("rejects an empty row inside an otherwise non-empty grid", () => {
+    expect(() => SlideSchema.parse(drill([[]]))).toThrow();
+    expect(() => SlideSchema.parse(drill([[cell], []]))).toThrow();
+  });
+});
+
 describe("SlideSchema — letter-slide additions (forms/examples/image)", () => {
   test("letter slide with forms, form-tagged examples, and image parses", () => {
     const parsed = SlideSchema.parse({

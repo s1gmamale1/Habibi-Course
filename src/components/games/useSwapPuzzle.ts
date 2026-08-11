@@ -10,12 +10,23 @@ export function shuffled<T>(arr: readonly T[]): T[] {
   return a;
 }
 
+// Slot `slot` is satisfied when the tile sitting in it carries the value that slot wants.
+// Compared by VALUE, not by tile index, so a word with duplicate letters counts every
+// arrangement that reads correctly as solved. Every correctness check in this file goes
+// through here — they had drifted into four near-identical inline forms.
+export function isCorrect(values: readonly string[], order: readonly number[], slot: number): boolean {
+  return values[order[slot]] === values[slot];
+}
+
+const allCorrect = (values: readonly string[], order: readonly number[]): boolean =>
+  order.every((_, slot) => isCorrect(values, order, slot));
+
 // Permutation of tile indices that is not already value-solved (n >= 2 distinct).
 export function shuffledUnsolved(values: readonly string[]): number[] {
   const ids = values.map((_, i) => i);
   if (new Set(values).size < 2) return ids;
   let a = shuffled(ids);
-  while (a.every((tile, slot) => values[tile] === values[slot])) a = shuffled(ids);
+  while (allCorrect(values, a)) a = shuffled(ids);
   return a;
 }
 
@@ -43,11 +54,11 @@ export function useSwapPuzzle(values: string[], round: number): SwapPuzzle {
     setShake(null);
   }, [valueKey, round]);
 
-  const solved = order !== null && order.every((tile, slot) => values[tile] === values[slot]);
+  const solved = order !== null && allCorrect(values, order);
 
   function select(slot: number) {
     if (!order || solved) return;
-    if (values[order[slot]] === values[slot]) return; // locked correct
+    if (isCorrect(values, order, slot)) return; // locked correct
     if (selected === null) {
       setSelected(slot);
       return;
@@ -59,8 +70,7 @@ export function useSwapPuzzle(values: string[], round: number): SwapPuzzle {
     const next = [...order];
     [next[selected], next[slot]] = [next[slot], next[selected]];
     const gained =
-      (values[next[selected]] === values[selected] ? 1 : 0) +
-      (values[next[slot]] === values[slot] ? 1 : 0);
+      (isCorrect(values, next, selected) ? 1 : 0) + (isCorrect(values, next, slot) ? 1 : 0);
     setOrder(next);
     setSelected(null);
     setShake(gained === 0 ? { slot, n: (shake?.n ?? 0) + 1 } : null);

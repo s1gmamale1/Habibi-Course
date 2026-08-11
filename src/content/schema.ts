@@ -76,7 +76,9 @@ export const SlideSchema = z.discriminatedUnion("kind", [
     kind: z.literal("drill"),
     heading: z.string(),
     instructions: z.string().min(1),
-    grid: z.array(z.array(ArabicItemSchema)).min(1),
+    // Both bounds matter: the outer guards "no rows", the inner guards a row with no
+    // cells, which would render as a 0-column table instead of failing visibly.
+    grid: z.array(z.array(ArabicItemSchema).min(1)).min(1),
   }),
   z.object({ kind: z.literal("recap"), heading: z.string(), items: z.array(ArabicItemSchema).min(1) }),
   z.object({ kind: z.literal("homework"), heading: z.string(), tasks: z.array(z.string()).min(1) }),
@@ -130,7 +132,7 @@ export type Slide = z.infer<typeof SlideSchema>;
 export const DrillSchema = z.object({
   title: z.string(),
   instructions: z.string(),
-  grid: z.array(z.array(ArabicItemSchema)).min(1),
+  grid: z.array(z.array(ArabicItemSchema).min(1)).min(1),
 });
 export type Drill = z.infer<typeof DrillSchema>;
 

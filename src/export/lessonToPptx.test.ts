@@ -209,6 +209,38 @@ describe("renderRecap column layout", () => {
     expect(columnRuns).toHaveLength(1);
     expect(columnRuns[0].text[0].options.fontSize).toBe(20);
   });
+
+  // The deck honours RTL everywhere else — drill rows are reversed — and the teacher reading
+  // it scans right to left. A recap that starts in the leftmost column reads backwards.
+  test("recap columns fill right-to-left, so the first items sit furthest right", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(30)); // three columns
+    const runs = deck.slides[1].texts.slice(1) as {
+      text: { text: string }[];
+      opts: { x: number };
+    }[];
+    expect(runs).toHaveLength(3);
+    const xs = runs.map((r) => r.opts.x);
+    expect(xs[0]).toBeGreaterThan(xs[1]);
+    expect(xs[1]).toBeGreaterThan(xs[2]);
+  });
+
+  // 14 items at 20pt in a single column ends ~0.3" past the canvas. Unreachable in current
+  // content (the largest real single-column recap is 13) but a latent trap for future content.
+  test("a 14-item recap drops below the base fontSize rather than overflowing", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(14));
+    const runs = deck.slides[1].texts.slice(1) as { text: { options: { fontSize: number } }[] }[];
+    expect(runs[0].text[0].options.fontSize).toBeLessThan(20);
+  });
+
+  test("13 items — the largest recap in real content — still uses the base fontSize", () => {
+    const deck = new FakeDeck();
+    buildLessonDeck(deck, lessonWithRecap(13));
+    const runs = deck.slides[1].texts.slice(1) as { text: { options: { fontSize: number } }[] }[];
+    expect(runs).toHaveLength(1);
+    expect(runs[0].text[0].options.fontSize).toBe(20);
+  });
 });
 
 describe("renderDrill fontSize scaling", () => {
