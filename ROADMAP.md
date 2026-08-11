@@ -10,11 +10,11 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 |---|---|
 | Live to a learner | **All four phases — 74 lessons.** 1 *Letters & Sounds* (15) · 2 *Reading Mechanics* (14) · 3 *Tajweed* (37) · 4 *The Kalimas* (8) |
 | Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
-| Library | 173 notes — Unit 1 now partly inside the vault (6 of 15) |
+| Library | **182 notes** — every one of the 74 live lessons has a reviewable note |
 | Rule notes | 59 total — **54 verified** against the vendored matns, 5 `needs-review`, each blocked on a named external source |
 | Gates | 416 tests · 0 lint errors · library 0 errors / 5 warnings · static export builds |
 
-> **Phases 1–4 are complete and the course is fully reachable.** Phase 5 (audio) is **deferred by the owner** — do not surface it as next work. What is genuinely open is **hotlist #3** (Unit 1's 15 live lessons have no library note) and Phase 6's outside-world items. Hotlist #1 and #4 are closed. Nothing on that list blocks a learner from starting today.
+> **Phases 1–4 are complete and the course is fully reachable.** Phase 5 (audio) is **deferred by the owner** — do not surface it as next work. **The hotlist is clear** — #1, #3 and #4 are closed and #2 is blocked on an external source. What remains is Phase 6's outside-world items, none of which blocks a learner. Nothing on that list blocks a learner from starting today.
 
 ---
 
@@ -33,7 +33,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 |---|-----|--------|-------|--------|
 | 1 | ~~High~~ | ✅ **CLOSED 2026-08-11 — never a live defect.** The stale 26-lesson table is in a **superseded planning doc**, now banner-marked; the live hifz map is the `hifz:` field on each lesson note and was **already correct**. Audited against the corpus: all **55 āyāt** of the eleven hifz surahs assigned, **no gaps, no duplicates, none spanning a surah**. Now gate-enforced, proved in both directions. | `docs/syllabus/phase-3-tajweed.md` (superseded) · `scripts/check-library.mjs:151` | — |
 | 2 | Med | ~~`silent_letters` and `waqf_signs` cite Jazariyyah for content it does not contain.~~ **`waqf_signs` resolved 2026-08-11** — sourced to [[Sajawandi-Waqf]] (d. 560 AH). The "~5 centuries after Ibn al-Jazarī" clause in this row was **my own unverified inference and was wrong by 273 years in the other direction**; see the Verification-Log correction. `silent_letters` still unsourced: the two muṣḥaf zeros are Uthmānī printing convention and are in no vendored text. | `library/02-Rules/Silent-Letters.md` | S (blocked on a source) |
-| 3 | Med | **IN PROGRESS — 6 of 15 done (Unit 1.1).** Phase 1 lessons predate the vault, so they are the only live content outside the review process. Notes are *reconstructed from* the shipped JSON — the inverse of ADR-003 — and each says so, because editing the note does not change the lesson. Remaining: Unit 1.2 (3), 1.3 (3), 1.4 (3). | `library/04-Curriculum/Unit-1-Letters/` | M |
+| 3 | ~~Med~~ | ✅ **CLOSED 2026-08-11.** All **74 live lessons** now have a library note — nothing reachable sits outside the review process. Unit 1 notes are *reconstructed from* the shipped JSON, the inverse of ADR-003, and each says so: editing the note does not change the lesson until Unit 1 is re-authored note-first. | `library/04-Curriculum/Unit-1-Letters/` | — |
 | 4 | ~~Low~~ | ✅ **CLOSED 2026-08-11.** Safari verified — spanned and unspanned Arabic render identically, ligatures intact. **The check also surfaced a live rendering bug it was not looking for:** `UNDERLINE.silent = "none"` reached `text-decoration-style`, where `none` is illegal, so it fell back to `solid` and underlined **647 of 1,972 spans (33%)** in both engines. Fixed, test-first. | `src/components/tajweed/TajweedText.tsx` | — |
 
 ---
@@ -238,8 +238,8 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 |------|-------|--------|--------|-------|
 | Regenerate the 37-lesson hifz map | Hotlist #1 | M | High | Prerequisite for Phase 3 |
 | Fix two source citations | Hotlist #2 | S | Med | Blocked on an external source |
-| Library notes for Phase 1 | Hotlist #3 | L | Med | 15 live lessons outside the review process |
-| Safari shaping check | Hotlist #4 / Phase 6 | S | Low | Chrome verified; do before any public launch |
+| Library notes for Phase 1 | Hotlist #3 | L | Med | ✅ done — all 74 live lessons now have one |
+| Safari shaping check | Hotlist #4 | S | Low | ✅ done — both engines verified; found a 33%-of-spans underline bug |
 | Landings in live lessons | 1 | M | **High** | Only item degrading content a student reads today |
 | Source the eight rules | 2 | M | **High** | Gates Phase 3; acquisition, not analysis |
 | Publish Unit 3 | 3 | M | **High** | 37 lessons; needs Phases 1–2 |
