@@ -56,25 +56,33 @@ and recorded that here.
 |---|---|---|---|
 | 1 | Exact Dar al-Maʿrifah hex values | the archive.org scan 503s in every attempt; needs a photographed physical copy | the Family A palette toggle only — Family B is the default and is pinned |
 | 2 | Waqf-sign positions per ayah | **neither vendored dataset carries them.** The pinned Tanzil text omits waqf signs by design, and cpfair does not annotate them | the waqf-placement drill, and any in-mushaf sign rendering |
-| 3 | Letter / qaida audio | ~1,493 `teacher-voice` cues are silent. Exhaustive search confirmed **no openly-licensed, full-coverage set exists**. Arabic TTS is not acceptable — it optimises for intelligibility, not makhraj, so it would teach errors | audio drills; ~20–30 min of owner-recorded audio fixes all of it with no schema change |
+| 3 | Letter / qaida audio | **~7,000** `teacher-voice` cues are silent across the published course. Exhaustive search confirmed **no openly-licensed, full-coverage set exists**, and Arabic TTS is not acceptable — it optimises for intelligibility, not makhraj, so it would teach errors. **DEFERRED by the owner** (twice); do not raise it as next work | audio drills only. Every cue renders as usable text, so nothing regresses while it waits |
 | 4 | يَبْصُۜطُ — sīn or ṣād | sources genuinely differ; ṣād predominates for Hafs/Shāṭibiyyah, some regional traditions read sīn | [[Hafs-Special-Words]], held at `needs-review` until checked against a Madinah mushaf **and** a licensed teacher |
-| 5 | Every rule note's substance | 59 notes were authored from the research corpus and are `status: draft` | **nothing may be transcribed into a lesson until its rule note is `verified`.** The validator warns on this |
+| 5 | ~~Every rule note's substance~~ | **Largely resolved 2026-08-11: 54 of 59 verified** against the vendored matns. The five left are `needs-review`, each blocked on a named artifact not in this vault — `madd_iwad` and `madd_tamkeen` need a tajwīd manual, `silent_letters` a muṣḥaf-convention source, `waqf_signs` the Madinah committee's own set, `hafs_special_words` the يَبْصُۜطُ ruling | the gate's 5 remaining warnings |
 
-## Build state — 2026-08-10
+## Build state — 2026-08-11
+
+> **This section was rewritten on 2026-08-11.** It previously described one published
+> phase and 59 draft lessons — a state that no longer exists. Numbers here are the ones
+> the gates actually print; if they drift again, trust the gate, not this table.
 
 | Sub-project | State |
 |---|---|
-| **L** — Library | **complete** · 164 notes, gate green |
+| **L** — Library | **complete** · **182 notes**, gate green |
 | **B** — Qur'an pipeline | **complete** · 212 verses, 1,972 spans, 0 defects |
 | **C** — Schema & renderer | **complete** · static export builds |
 | **D** — Games | **complete** · 7 of 8 drills + registry wired; waqf placer blocked, see below |
-| **E** — Lesson JSON | **complete** · all 59 lessons transcribed, every one `draft: true` |
+| **E** — Lesson JSON | **complete** · all **74 lessons published**, none `draft` |
 
-411 tests · 0 lint errors · library gate green · `npm run build` succeeds.
+**417 tests · 0 lint errors · library gate 0 errors / 5 warnings · `npm run build`
+succeeds (230 static pages) · `npm audit` 0 vulnerabilities.**
 
-`content/course.json` still holds exactly one phase, so none of the 59 new lesson files
-is reachable by a learner. Publishing is a deliberate act: clear `draft`, then add the
-phase entry — in that order, and there is a test enforcing it.
+**`content/course.json` holds all four phases and 74 lessons are reachable.** Publishing
+remains a deliberate two-step — clear `draft`, then add the phase entry, in that order —
+and the test that enforces it is still what makes the order real rather than a convention.
+
+**Rule notes: 54 of 59 verified.** The remaining five are `needs-review`, each blocked on a
+named artifact that is not in this vault — not on unfinished work here.
 
 **Unit 3 is 37 lessons, not 36, as of 2026-08-11.** `3-04` is new and everything after it
 shifted by one. The renumber was a single pass with a callback over library/ and content/
@@ -89,10 +97,10 @@ Nothing published moved: no `3-xx` id appears in `course.json`.
    waqf-sign positions. The pinned Tanzil text **omits waqf signs by design** (one of the
    documented differences from quran.com's text) and cpfair does not annotate them.
    Sourcing that dataset is unresolved. Inventing it would be worse than omitting the drill.
-2. **Publishing is gated on review, not on work.** All 58 lesson files exist and validate,
-   but all 59 rule notes are still `status: draft` — nothing has been checked by a human
-   against its sources. The 42 warnings are that backlog. The `draft` flag on every lesson
-   is what lets the content exist without reaching a learner.
+2. ~~**Publishing is gated on review, not on work.**~~ **Resolved 2026-08-11.** All 74
+   lessons are published and 54 of 59 rule notes are verified against the vendored matns.
+   The 5 remaining warnings are the five `needs-review` rules, each with its blocker named
+   in the table above.
 3. ~~**Arabic shaping — verified in Chrome, still unverified in Safari.**~~ **Resolved
    2026-08-11. Both engines verified.** Safari renders spanned and unspanned Arabic
    identically; see the human-verified table.
