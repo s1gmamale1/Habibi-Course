@@ -10,6 +10,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 |---|---|
 | Live to a learner | **All four phases — 74 lessons.** 1 *Letters & Sounds* (15) · 2 *Reading Mechanics* (14) · 3 *Tajweed* (37) · 4 *The Kalimas* (8) |
 | Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
+| Library | 173 notes — Unit 1 now partly inside the vault (6 of 15) |
 | Rule notes | 59 total — **54 verified** against the vendored matns, 5 `needs-review`, each blocked on a named external source |
 | Gates | 416 tests · 0 lint errors · library 0 errors / 5 warnings · static export builds |
 
@@ -32,7 +33,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 |---|-----|--------|-------|--------|
 | 1 | ~~High~~ | ✅ **CLOSED 2026-08-11 — never a live defect.** The stale 26-lesson table is in a **superseded planning doc**, now banner-marked; the live hifz map is the `hifz:` field on each lesson note and was **already correct**. Audited against the corpus: all **55 āyāt** of the eleven hifz surahs assigned, **no gaps, no duplicates, none spanning a surah**. Now gate-enforced, proved in both directions. | `docs/syllabus/phase-3-tajweed.md` (superseded) · `scripts/check-library.mjs:151` | — |
 | 2 | Med | ~~`silent_letters` and `waqf_signs` cite Jazariyyah for content it does not contain.~~ **`waqf_signs` resolved 2026-08-11** — sourced to [[Sajawandi-Waqf]] (d. 560 AH). The "~5 centuries after Ibn al-Jazarī" clause in this row was **my own unverified inference and was wrong by 273 years in the other direction**; see the Verification-Log correction. `silent_letters` still unsourced: the two muṣḥaf zeros are Uthmānī printing convention and are in no vendored text. | `library/02-Rules/Silent-Letters.md` | S (blocked on a source) |
-| 3 | Med | 15 live Phase 1 lessons have **no library note**. They predate the vault, so the review process that governs every other lesson cannot reach them. | `content/lessons/1-*.json` vs `library/04-Curriculum/` | L |
+| 3 | Med | **IN PROGRESS — 6 of 15 done (Unit 1.1).** Phase 1 lessons predate the vault, so they are the only live content outside the review process. Notes are *reconstructed from* the shipped JSON — the inverse of ADR-003 — and each says so, because editing the note does not change the lesson. Remaining: Unit 1.2 (3), 1.3 (3), 1.4 (3). | `library/04-Curriculum/Unit-1-Letters/` | M |
 | 4 | ~~Low~~ | ✅ **CLOSED 2026-08-11.** Safari verified — spanned and unspanned Arabic render identically, ligatures intact. **The check also surfaced a live rendering bug it was not looking for:** `UNDERLINE.silent = "none"` reached `text-decoration-style`, where `none` is illegal, so it fell back to `solid` and underlined **647 of 1,972 spans (33%)** in both engines. Fixed, test-first. | `src/components/tajweed/TajweedText.tsx` | — |
 
 ---
