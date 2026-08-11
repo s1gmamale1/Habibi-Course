@@ -9,8 +9,8 @@ colour_b: "#537FFF"
 harakat: 2
 taught_in: "3-35"
 prerequisites: [madd_tabii, waqf_word_changes]
-status: needs-review
-sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]"]
+status: verified
+sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]", "[[Nihayat-al-Qawl-al-Mufid]]"]
 examples:
   - ref: "110:2"
     text: "أَفْوَاجًا"
@@ -47,21 +47,35 @@ pronounced normally and there is no madd at all.
 
 **2 ḥarakāt** — it is a plain [[Madd-Tabii]] in every respect once it appears.
 
-> ### ⚠ Status: needs-review — attested, but never stated as a rule
+> ### ✅ Status: verified 2026-08-11 — but the name means something else in the source
 >
-> **No matn in this vault names this rule.** *ʿiwaḍ* does not occur once in
-> [[Tuhfat-al-Atfal]], [[Muqaddimah-Jazariyyah]] or [[Shatibiyyah]]. That is not the
-> same as the content being doubtful, and the distinction matters:
+> **[[Nihayat-al-Qawl-al-Mufid]] states the mechanism directly**, printed page ٩٤,
+> quoting *"some of the commentators on al-Jazariyyah"* on the alif sākinah:
+> **وتكون عوضا عن التنوين المنصوب في حال الوقف** — *"and it stands as a compensation
+> for the tanwīn manṣūb in the state of waqf."* That is this rule, in a citable classical
+> source, which is what this note previously lacked.
 >
-> **The mechanism is presupposed by [[Shatibiyyah]] v. 830**, which locates the sakt of
-> al-Kahf **عَلَى أَلِفِ التَّنْوِينِ فِي عِوَجاً** — *"on the alif of the tanwīn in
-> ʿiwajā"*. The matn can only speak of "the alif of the tanwīn" if stopping on tanwīn
-> fatḥ yields an alif, which is exactly this rule. It is treated as assumed background
-> a reciter already has, not as something to be taught.
+> **The length is still derived, and honestly so.** That sentence assigns no count. The
+> 2 ḥarakāt follow from the alif being sākinah with a fatḥah before it — the definition
+> of a madd letter, hence [[Madd-Tabii]], which **is** in the vendored matns. The
+> substitution is transmitted; the length comes from a transmitted definition.
 >
-> So: **the behaviour is classically attested; the name and the category are later
-> pedagogy.** Verifying it properly needs a tajwīd manual that states it as a rule —
-> not another matn. *(Found 2026-08-11.)*
+> The earlier evidence still stands and agrees. [[Shatibiyyah]] v. 830 locates the sakt
+> of al-Kahf **عَلَى أَلِفِ التَّنْوِينِ فِي عِوَجاً** — the matn can only speak of
+> *"the alif of the tanwīn"* if stopping on tanwīn fatḥ yields an alif.
+>
+> ### ⚠ The source's own مد العوض is a different rule
+>
+> **[[Nihayat-al-Qawl-al-Mufid]] has a heading مد العوض** — item 20 of its madd taxonomy,
+> printed page ١٩٥ — **and it is not this rule.** It is the hāʾ al-kināyah standing in
+> compensation for a yāʾ that a jussive deleted, as in يُؤَدِّهِۦٓ إِلَيْكَ and
+> نُوَلِّهِۦ مَا تَوَلَّىٰ. *ʿIwaḍ* means compensation, and the tradition uses the word
+> for both compensations.
+>
+> **What this course teaches under the name is the modern usage** — what every
+> contemporary manual, and every teacher the student will meet, also means by it.
+> Nothing about the rule changes. But **cite page ٩٤ for it, never page ١٩٥**, and if a
+> student meets the older sense somewhere, the collision is the explanation.
 
 ## The exception: tāʾ marbūṭah
 

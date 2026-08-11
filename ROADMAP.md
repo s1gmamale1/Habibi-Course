@@ -11,8 +11,8 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Live to a learner | **All four phases — 74 lessons.** 1 *Letters & Sounds* (15) · 2 *Reading Mechanics* (14) · 3 *Tajweed* (37) · 4 *The Kalimas* (8) |
 | Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
 | Library | **182 notes** — every one of the 74 live lessons has a reviewable note |
-| Rule notes | 59 total — **54 verified** against the vendored matns, 5 `needs-review`, each blocked on a named external source |
-| Gates | 417 tests · 0 lint errors · library 0 errors / 5 warnings · static export builds |
+| Rule notes | 59 total — **56 verified** against vendored sources, 3 `needs-review`, each naming the specific artifact still needed |
+| Gates | 417 tests · 0 lint errors · library 0 errors / 3 warnings · static export builds |
 
 > **Phases 1–4 are complete and the course is fully reachable.** Phase 5 (audio) is **deferred by the owner** — do not surface it as next work. **The hotlist is clear** — #1, #3 and #4 are closed and #2 is blocked on an external source. What remains is Phase 6's outside-world items, none of which blocks a learner. Nothing on that list blocks a learner from starting today.
 
@@ -23,7 +23,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 - **Phases are ordered by value/effort**, with cross-phase prerequisites called out.
 - **Effort** is S (≤½ day), M (1–2 days), L (3–5 days), XL (>1 week).
 - Confirmed defects are fixed before new feature phases.
-- "Blocked on the world" means no amount of work in this repo resolves it — a source, a recording or a dataset has to come from outside.
+- "Blocked on the world" means no amount of work in this repo resolves it — a source, a recording or a dataset has to come from outside. **Use it only after going to look.** On 2026-08-11 two rules recorded under this heading turned out to need a public-domain manual that had been freely readable the whole time; the true statement had been the much narrower *"the sources we happen to have vendored do not cover this."* Those are not the same claim, and only one of them is a reason to stop.
 
 ---
 
@@ -70,7 +70,21 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 > **Delivered.** Ash-Shāṭibiyyah vendored in part (public domain, d. 590 AH); `sakt`, `madd_farq` and `madd_silah` verified from it; **54 of 59** rules now verified. Two counts in those notes turned out **not** to be in the matn and now say so — v.830 calls the sakt only *"a light one"*, and v.192 gives no number for farq, whose 6 is derived rather than transmitted.
 >
-> **The five that remain are `needs-review` with a named external blocker each, not unfinished work:** `madd_iwad` and `madd_tamkeen` appear in none of the three matns (iwaḍ is *presupposed* by v.830's "the alif of the tanwīn", tamkeen has no attestation at all); `silent_letters` needs a muṣḥaf-convention source; `waqf_signs` is sourced but the Madinah committee's specific set is not documented here; `hafs_special_words` waits on يَبْصُۜطُ. **Re-reading the vendored matns will not settle any of them.**
+> **Reopened and carried further on 2026-08-11 — see the addendum below.** The five left at the end of the first pass were recorded as blocked on the outside world. Two of them were not.
+
+### Phase 2 addendum — a fourth source, and a lesson about the word "blocked"
+
+> **Delivered.** [[Nihayat-al-Qawl-al-Mufid]] vendored as **excerpts** — al-Juraysī, d. c. 1322 AH / 1902 CE, public domain, a prose encyclopedia compiled from twenty-four earlier works and carrying a **twenty-item enumerated madd taxonomy**. `madd_iwad` and `madd_tamkeen` are now **verified**, and `madd_farq`'s 6 counts move from *derived* to *transmitted*. **56 of 59 rules verified**, gate warnings 5 → 3.
+>
+> **Three findings worth carrying forward.**
+>
+> **1. The blocker was mis-stated, and that cost time.** Phase 2 recorded these two as needing *"a tajwīd manual that states it as a rule"* — then filed them under blocked-on-the-world. Such a manual was public domain, scanned, and one search away. The accurate claim had always been the narrower *"the three matns we vendored do not cover this."* The roadmap's own definition of "blocked on the world" now says: go and look first.
+>
+> **2. A rule name can mean two different things.** The source's own heading **مد العوض** is *not* this course's madd al-ʿiwaḍ — it is the hāʾ al-kināyah compensating a yāʾ deleted by a jussive (يُؤَدِّهِۦٓ إِلَيْكَ). Our rule is attested on a different page, under no name at all. Citing the heading would have looked correct and been wrong.
+>
+> **3. OCR locates; only the scan verifies.** The Internet Archive text layer made the passages findable, and it is visibly corrupt inside those very passages — `كتاية` for `كناية`, `الد` for `المد`. **Every citation was read off the page image before it was written down**, which is also how the page number for one of them was caught as a guess and then confirmed. Same discipline as the Shāṭibiyyah checker that matched chapter headings.
+>
+> **The three that remain** need artifacts of a different kind, and this time the claim is checked: `silent_letters` needs a **rasm/ḍabṭ** source — al-Juraysī was searched directly and does not treat the two zeros at all; `waqf_signs` needs the Madinah committee's own set; `hafs_special_words` waits on يَبْصُۜطُ.
 
 **Goal.** Every rule taught by a lesson is verified against a source in this vault, or is explicitly and visibly reference-only.
 

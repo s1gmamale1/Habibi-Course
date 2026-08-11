@@ -10,7 +10,7 @@ harakat: 6
 taught_in: "3-28"
 prerequisites: [madd_lazim, hamzat_wasl]
 status: verified
-sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]"]
+sources: ["[[Tuhfat-al-Atfal]]", "[[Muqaddimah-Jazariyyah]]", "[[Shatibiyyah]]", "[[Nihayat-al-Qawl-al-Mufid]]"]
 examples:
   - ref: "6:143"
     text: "ءَآلذَّكَرَيْنِ"
@@ -66,14 +66,20 @@ complete list — the rule is finite and memorisable in one sitting.
 
 **6 ḥarakāt.**
 
-> **Where the 6 comes from, since the matn does not state it.** [[Shatibiyyah]] v. 192
-> is the source for this rule, and it gives the condition and the instruction —
+> **The 6 is transmitted after all.** *(Upgraded 2026-08-11.)*
+> [[Shatibiyyah]] v. 192 gives the condition and the instruction —
 > *"if a hamzah of connection lies between a sākin lām and the interrogative hamzah,
-> then **lengthen it, substituting**"* — but **no count**. The 6 is *derived*, not
-> transmitted separately: once the second hamzah is substituted by an alif, that alif
-> in ءَآللَّهُ is followed by a lām carrying shaddah, which is a permanent sukūn — and
-> a madd letter before a permanent sukūn is [[Madd-Lazim]], six counts, by
-> [[Tuhfat-al-Atfal]] v. 47. The rule reduces to one already verified.
+> then **lengthen it, substituting**"* — but **no count**, so this note previously
+> recorded the 6 as *derived*: substitute the hamzah, and the resulting alif in
+> ءَآللَّهُ stands before a lām carrying shaddah, a permanent sukūn, hence
+> [[Madd-Lazim]] at six counts by [[Tuhfat-al-Atfal]] v. 47.
+>
+> **[[Nihayat-al-Qawl-al-Mufid]] states the classification outright**, printed page
+> ١٩٣, item 11 of its madd taxonomy: madd al-farq *"is one of the divisions of **madd
+> lāzim kalimī**, muthaqqal or mukhaffaf."* Lāzim kalimī is six by definition in both
+> vendored matns, so the count is carried by the category rather than reconstructed.
+> The derivation above is kept because it is a good check — it and the transmitted
+> classification agree — but the rule no longer rests on it.
 
 **Or tas-hīl.** Ḥafṣ also permits *tas-hīl* of the second hamzah — pronouncing it
 between a hamzah and an alif, softened rather than lengthened. Both are
