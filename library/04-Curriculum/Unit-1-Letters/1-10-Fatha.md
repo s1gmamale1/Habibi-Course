@@ -9,15 +9,15 @@ prerequisites: ["1-09"]
 status: draft
 sources: ["[[Arabic101]]", "[[Methodology]]", "[[Common-Mistakes]]"]
 examples:
-  - ref: "1:7"
-    text: "أَنْعَمْتَ"
-    note: "fatḥa on every letter and nothing else — the cleanest possible reading item for today"
-  - ref: "105:2"
-    text: "أَلَمْ"
-    note: "a short word carrying only fatḥas"
+  - ref: "105:1"
+    text: "فَعَلَ"
+    note: "fatḥa on every letter and nothing else — the cleanest reading item for today"
+  - ref: "105:1"
+    text: "تَرَ"
+    note: "two letters, two fatḥas, no other mark"
   - ref: "107:3"
     text: "وَلَا"
-    note: "two words, both fatḥa-only, joined"
+    note: "two short words, fatḥa-only, joined"
 ---
 
 # Lesson 1-10 — Fatha: the "a" sound, full letter × fatha grid
@@ -87,9 +87,9 @@ pinned corpus and verified by the gate — read them, do not analyse them.
 
 | Word | Ref | Why it is here |
 |---|---|---|
-| أَنْعَمْتَ | 1:7 | fatḥa on every letter and nothing else — the cleanest possible reading item for today |
-| أَلَمْ | 105:2 | a short word carrying only fatḥas |
-| وَلَا | 107:3 | two words, both fatḥa-only, joined |
+| فَعَلَ | 105:1 | fatḥa on every letter and nothing else — the cleanest reading item for today |
+| تَرَ | 105:1 | two letters, two fatḥas, no other mark |
+| وَلَا | 107:3 | two short words, fatḥa-only, joined |
 
 ## Drills
 
