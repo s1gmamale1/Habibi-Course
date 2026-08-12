@@ -450,6 +450,16 @@ Each needs two decisions made explicitly, not by accident:
 
 **A tail retry is recorded `isInterleaved: false`, even when the item that spawned it was interleaved.** Task 6 deviated from the brief here and was right to. That flag *is* the retention instrument — it answers "did this concept survive being left alone". A retry two minutes after corrective feedback measures **repair, not survival**, so inheriting `true` would inject a near-instant re-test into the retention data and inflate the exact number the flag exists to report. Pinned by the test `a tail retry is never recorded as interleaved`.
 
+## Task 7 — two decisions forced by Task 6d, settle these first
+
+**1. A slot is a QUESTION, not a tap.** `useSession.submit` currently advances the session index on **every** result. But the house rule for emission is one attempt per *graded move*: `RuleIdentifier` emits on every pick, `FamilySorter` on every drop, `LetterQuiz` on every tap. So a question answered wrong-wrong-right consumes **three planned slots**, and a 14-slot session could be over in five questions.
+
+**The fix is not to emit less** — the scheduler wants every move, and reporting first-try only would discard exactly the misses it learns most from. Instead: **the session advances when the current planned item is answered, and later emissions for that same item are still written to the ledger but do not advance.** That keeps 14 slots meaning 14 questions while preserving per-move data. The tail is unaffected: it already caps at 2 retries per concept.
+
+**2. `GamePanel` does not pass `onResult` to the letter drills.** It accepts the prop and forwards it through the **registry** path (`GamePanel.tsx:66`), but the six letter drills are still rendered from the **literal tab list** (`:41,:46,:48,:52`) with no `onResult`. Verified.
+
+So after Task 6d the letter drills *can* report and in the app still *don't*. It is latent rather than a live loss — no caller passes `onResult` to `GamePanel` at all yet, because the session screen is this task. **But Task 7 must not assume the letter drills report just because they now can.** Either mount drills via the registry, or add `onResult={onResult}` to those four literal renders. Prove it end to end, the way `src/practice/letterDrills.test.tsx` does — render the real component, click the real button, read the row back out of the ledger.
+
 ## Task 7: The session screen
 
 **Files:**
