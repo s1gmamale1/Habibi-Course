@@ -2,13 +2,38 @@
 import { useState } from "react";
 import type { WordEntry } from "@/games/derive";
 import { baseLetters } from "@/games/arabic";
-import { registerGame } from "./GameRegistry";
+import { registerGame, type GameResult } from "./GameRegistry";
 import { useBuildPuzzle } from "./useBuildPuzzle";
 
-export function WordBuilder({ words }: { words: WordEntry[] }) {
+/** Declared here rather than beside `registerGame` so the drill can report under it. */
+const GAME_ID = "word-builder";
+
+/**
+ * **One attempt per completed fill.**
+ *
+ * Alone among these drills, nothing here grades a single placement: a tile in
+ * slot 2 with slot 3 still empty is neither right nor wrong, and the board says
+ * nothing about it. The verdict arrives when the last slot fills and the whole
+ * word is checked at once, which makes completion the only moment a real
+ * observation exists. That is the shape `span-tapper` already has — one verdict
+ * per round — and a take-back reports nothing, because undoing a move is not an
+ * answer to anything.
+ */
+export function WordBuilder({
+  words,
+  onResult,
+  now = () => Date.now(),
+}: {
+  words: WordEntry[];
+  onResult?: (r: GameResult) => void;
+  /** Injected clock, so the scoring logic stays free of ambient time. */
+  now?: () => number;
+}) {
   const [round, setRound] = useState(0);
   const word = words[round % words.length];
-  const p = useBuildPuzzle(words, round);
+  const p = useBuildPuzzle(words, round, (correct) =>
+    onResult?.({ gameId: GAME_ID, correct, at: now() }),
+  );
 
   if (!p.bank) return <p className="text-white/50">Shuffling…</p>;
   return (
@@ -99,16 +124,16 @@ export function buildableWords(words: WordEntry[]): WordEntry[] {
  * It is **not** timed. Nothing here holds a duration; the second slot is what a
  * ḥarakāt hold costs, and charging it for a tapping puzzle would spend a slot
  * the learner never uses.
+ *
+ * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
-const GAME_ID = "word-builder";
-
 registerGame({
   id: GAME_ID,
   label: "🧩 Build a word",
-  render: ({ data }) => {
+  render: ({ data, onResult }) => {
     const words = data ? buildableWords(data.wordPool) : [];
     return words.length > 0 ? (
-      <WordBuilder words={words} />
+      <WordBuilder words={words} onResult={onResult} />
     ) : (
       <p className="text-white/50">No words to build yet.</p>
     );

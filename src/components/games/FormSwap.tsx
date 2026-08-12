@@ -1,8 +1,11 @@
 "use client";
 import { useState } from "react";
 import type { FormEntry, FormKey } from "@/games/derive";
-import { registerGame } from "./GameRegistry";
+import { registerGame, type GameResult } from "./GameRegistry";
 import { isCorrect, useSwapPuzzle } from "./useSwapPuzzle";
+
+/** Declared here rather than beside `registerGame` so the drill can report under it. */
+const GAME_ID = "form-swap";
 
 // Keyed by FormKey so adding a form to derive.ts fails here until it gets a label,
 // rather than this file quietly defining its own parallel notion of what a form is.
@@ -13,12 +16,35 @@ const FORM_LABELS: Record<FormKey, string> = {
   final: "End",
 };
 
-export function FormSwap({ entries }: { entries: FormEntry[] }) {
+/**
+ * **One attempt per completed swap.**
+ *
+ * A swap is this drill's graded move — the board renders a verdict for it, green-
+ * locking a tile that landed or shaking one that did not — so it is the unit
+ * `FamilySorter` and `ConditionBuilder` would each call one placement.
+ *
+ * Selecting the first tile of a pair is *half* a move and carries no verdict at
+ * all, so it reports nothing rather than `correct: null`. `null` is for a round
+ * the drill genuinely could not grade; a null row per tile-select would be pure
+ * volume in an append-only ledger, and `derive()` would skip every one of them.
+ */
+export function FormSwap({
+  entries,
+  onResult,
+  now = () => Date.now(),
+}: {
+  entries: FormEntry[];
+  onResult?: (r: GameResult) => void;
+  /** Injected clock, so the scoring logic stays free of ambient time. */
+  now?: () => number;
+}) {
   const [round, setRound] = useState(0);
   const entry = entries[round % entries.length];
   const keys = (Object.keys(FORM_LABELS) as FormKey[]).filter((k) => entry.forms[k]);
   const values = keys.map((k) => entry.forms[k]!);
-  const p = useSwapPuzzle(values, round);
+  const p = useSwapPuzzle(values, round, (correct) =>
+    onResult?.({ gameId: GAME_ID, correct, at: now() }),
+  );
 
   if (!p.order) return <p className="text-white/50">Shuffling…</p>;
   return (
@@ -78,15 +104,15 @@ export function FormSwap({ entries }: { entries: FormEntry[] }) {
  * Gated on `formsTaught` as well as on having entries: forms are introduced in
  * lesson 1-07, and `deriveGameData` carries the flag precisely so this drill
  * does not appear before the course has explained what a form is.
+ *
+ * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
-const GAME_ID = "form-swap";
-
 registerGame({
   id: GAME_ID,
   label: "🔀 Forms",
-  render: ({ data }) =>
+  render: ({ data, onResult }) =>
     data && data.formsTaught && data.formEntries.length > 0 ? (
-      <FormSwap entries={data.formEntries} />
+      <FormSwap entries={data.formEntries} onResult={onResult} />
     ) : (
       <p className="text-white/50">No letter forms to arrange yet.</p>
     ),

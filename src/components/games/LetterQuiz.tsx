@@ -3,8 +3,11 @@ import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { FormEntry, FormKey } from "@/games/derive";
-import { registerGame } from "./GameRegistry";
+import { registerGame, type GameResult } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
+
+/** Declared here rather than beside `registerGame` so the drill can report under it. */
+const GAME_ID = "letter-quiz";
 
 const FORM_KEYS: FormKey[] = ["isolated", "initial", "medial", "final"];
 const FORM_LABELS: Record<FormKey, string> = { isolated: "Alone", initial: "Start", medial: "Middle", final: "End" };
@@ -93,14 +96,31 @@ function buildQuestion(pool: ArabicItem[], entries: FormEntry[], formsTaught: bo
   return buildLetterQuestion(pool);
 }
 
+/**
+ * **One attempt per graded tap**, which is the answer `RuleIdentifier` and
+ * `FamilySorter` already give: a drill reports once per discrete graded move,
+ * and "first try" survives only as the score line below the board. Reporting the
+ * first try alone would drop every miss — the rows the scheduler learns most
+ * from — and 29 of the 47 concepts are letters, so this drill is a large part of
+ * how the engine ever sees anything at all.
+ *
+ * A tap on an answered round is inert and reports nothing: there is no second
+ * verdict to give, and inventing one would put a row in an append-only ledger
+ * that describes nothing the learner did.
+ */
 export function LetterQuiz({
   pool,
   entries,
   formsTaught,
+  onResult,
+  now = () => Date.now(),
 }: {
   pool: ArabicItem[];
   entries: FormEntry[];
   formsTaught: boolean;
+  onResult?: (r: GameResult) => void;
+  /** Injected clock, so the scoring logic stays free of ambient time. */
+  now?: () => number;
 }) {
   const [round, setRound] = useState(0);
   const [question, setQuestion] = useState<Question | null>(null);
@@ -136,6 +156,7 @@ export function LetterQuiz({
               aria-disabled={gotIt}
               onClick={() => {
                 if (gotIt) return;
+                onResult?.({ gameId: GAME_ID, correct: c.correct, at: now() });
                 if (c.correct) {
                   setGotIt(true);
                   setScore((s) => ({ right: s.right + (missed ? 0 : 1), asked: s.asked + 1 }));
@@ -186,17 +207,24 @@ export const QUIZ_MIN_LETTERS = 4;
  * `rule-identifier`, which is classified the same way. The learner is choosing
  * between candidates that are all handed to them; nothing is produced and no
  * distinction has to be found inside a longer string.
+ *
+ * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
-const GAME_ID = "letter-quiz";
-
 registerGame({
   id: GAME_ID,
   label: "❓ Quiz",
-  render: ({ data }) => {
+  render: ({ data, onResult }) => {
     const pool = data ? quizzableLetters(data.letterPool) : [];
     if (!data || pool.length < QUIZ_MIN_LETTERS) {
       return <p className="text-white/50">Not enough named letters to quiz yet.</p>;
     }
-    return <LetterQuiz pool={pool} entries={data.formEntries} formsTaught={data.formsTaught} />;
+    return (
+      <LetterQuiz
+        pool={pool}
+        entries={data.formEntries}
+        formsTaught={data.formsTaught}
+        onResult={onResult}
+      />
+    );
   },
 });

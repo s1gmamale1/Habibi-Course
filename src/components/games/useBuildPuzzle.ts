@@ -38,7 +38,19 @@ export type BuildPuzzle = {
 // resolve positionally (mirrors useSwapPuzzle's value-equality locking).
 // `round` forces a reshuffle; the shuffle itself runs in an effect so SSR
 // markup stays stable.
-export function useBuildPuzzle(words: WordEntry[], round: number): BuildPuzzle {
+//
+// `onFill` fires once per COMPLETED board, with the verdict computed below. It
+// is deliberately not per placement: this puzzle does not grade a single tile —
+// a letter dropped into slot 2 while slot 3 is empty is neither right nor wrong,
+// and the board says nothing about it — so completion is the only moment a real
+// observation exists. Reporting per tap would mean inventing verdicts for moves
+// nothing ever graded, and a partial board reported `false` would be the
+// fabricated failure the ledger must never carry.
+export function useBuildPuzzle(
+  words: WordEntry[],
+  round: number,
+  onFill?: (correct: boolean) => void,
+): BuildPuzzle {
   const [bank, setBank] = useState<string[] | null>(null);
   const [decoyCount, setDecoyCount] = useState(0);
   const [slots, setSlots] = useState<(number | null)[]>([]);
@@ -79,6 +91,9 @@ export function useBuildPuzzle(words: WordEntry[], round: number): BuildPuzzle {
     }
     const filled = next as number[];
     const wrong = filled.reduce<number[]>((acc, bIdx, i) => (bank[bIdx] === letters[i] ? acc : [...acc, i]), []);
+    // The board is full, so there is finally something to grade. One report per
+    // completed fill, whichever way it went.
+    onFill?.(wrong.length === 0);
     if (wrong.length === 0) {
       setSlots(next);
       setSolved(true);

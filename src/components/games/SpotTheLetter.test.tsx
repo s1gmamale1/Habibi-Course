@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, test, vi } from "vitest";
 import type { ArabicItem } from "@/content/schema";
+import type { GameResult } from "./GameRegistry";
 import { SpotTheLetter } from "./SpotTheLetter";
 
 afterEach(() => vi.restoreAllMocks());
@@ -46,6 +47,57 @@ describe("SpotTheLetter", () => {
     const prompt = await screen.findByText(/Tap the letter/);
     expect(prompt.textContent).toContain("meem (m)");
     expect(prompt.textContent).not.toContain("م");
+  });
+});
+
+/**
+ * **One attempt per tap**, the same answer `LetterQuiz` gives and for the same
+ * reason: every tap on a tile is a graded selection with a real verdict, and the
+ * misses are the rows the scheduler most needs.
+ */
+describe("SpotTheLetter — reporting", () => {
+  test("emits one result per tap, with the real verdict and the injected clock", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    let t = 2000;
+    render(
+      <SpotTheLetter words={words} pool={pool} onResult={(r) => results.push(r)} now={() => (t += 5)} />,
+    );
+    await screen.findByText(/Tap the letter/);
+
+    await userEvent.click(screen.getByRole("button", { name: "word letter 1" })); // ش — wrong
+    await userEvent.click(screen.getByRole("button", { name: "word letter 2" })); // م — right
+
+    expect(results).toEqual([
+      { gameId: "spot-the-letter", correct: false, at: 2005 },
+      { gameId: "spot-the-letter", correct: true, at: 2010 },
+    ]);
+  });
+
+  test("reports nothing but the verdict, and taps after the find are not attempts", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    render(<SpotTheLetter words={words} pool={pool} onResult={(r) => results.push(r)} now={() => 9} />);
+    await screen.findByText(/Tap the letter/);
+
+    await userEvent.click(screen.getByRole("button", { name: "word letter 2" })); // found
+    await userEvent.click(screen.getByRole("button", { name: "word letter 1" })); // inert
+    await userEvent.click(screen.getByRole("button", { name: "word letter 3" })); // inert
+
+    expect(results).toEqual([{ gameId: "spot-the-letter", correct: true, at: 9 }]);
+  });
+
+  // Ambient time is what makes a drill untestable, so `at` must come from the
+  // prop even when `Date.now` is sitting right there returning something else.
+  test("the clock is the injected one, never ambient Date.now()", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    vi.spyOn(Date, "now").mockReturnValue(999_999);
+    const results: GameResult[] = [];
+    render(<SpotTheLetter words={words} pool={pool} onResult={(r) => results.push(r)} now={() => 42} />);
+    await screen.findByText(/Tap the letter/);
+    await userEvent.click(screen.getByRole("button", { name: "word letter 2" }));
+
+    expect(results[0].at).toBe(42);
   });
 });
 

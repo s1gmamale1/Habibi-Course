@@ -3,6 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, test, vi } from "vitest";
 import type { ArabicItem } from "@/content/schema";
 import type { FormEntry } from "@/games/derive";
+import type { GameResult } from "./GameRegistry";
 import { LetterQuiz } from "./LetterQuiz";
 
 afterEach(() => vi.restoreAllMocks());
@@ -61,6 +62,75 @@ describe("LetterQuiz — letter flavor (formsTaught=false)", () => {
       await userEvent.click(screen.getByRole("button", { name: /next question/i }));
     }
     expect(await screen.findByText(/which letter is/i)).toBeTruthy();
+  });
+});
+
+/**
+ * **One attempt per graded tap**, which is the same answer `RuleIdentifier` and
+ * `FamilySorter` give: the drill emits once per discrete graded move, and
+ * "first try" survives only as the score line on screen. A first-try-only
+ * emission would drop the misses — the most informative rows in the ledger —
+ * and 29 of the 47 concepts are letters.
+ */
+describe("LetterQuiz — reporting", () => {
+  test("emits one result per pick, with the real verdict and the injected clock", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    let t = 1000;
+    render(
+      <LetterQuiz
+        pool={pool}
+        entries={[]}
+        formsTaught={false}
+        onResult={(r) => results.push(r)}
+        now={() => (t += 5)}
+      />,
+    );
+    await screen.findByText(/which letter is/i);
+
+    await userEvent.click(screen.getByRole("button", { name: "choice ت" })); // wrong
+    await userEvent.click(screen.getByRole("button", { name: "choice ب" })); // right
+
+    expect(results).toEqual([
+      { gameId: "letter-quiz", correct: false, at: 1005 },
+      { gameId: "letter-quiz", correct: true, at: 1010 },
+    ]);
+  });
+
+  test("reports nothing but the verdict — no fabricated measurement", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    render(<LetterQuiz pool={pool} entries={[]} formsTaught={false} onResult={(r) => results.push(r)} now={() => 7} />);
+    await screen.findByText(/which letter is/i);
+    await userEvent.click(screen.getByRole("button", { name: "choice ب" }));
+
+    expect(results).toHaveLength(1);
+    expect(Object.keys(results[0]).sort()).toEqual(["at", "correct", "gameId"]);
+  });
+
+  test("an inert choice on an answered round is not an attempt", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    render(<LetterQuiz pool={pool} entries={[]} formsTaught={false} onResult={(r) => results.push(r)} now={() => 7} />);
+    await screen.findByText(/which letter is/i);
+    await userEvent.click(screen.getByRole("button", { name: "choice ب" })); // round over
+    await userEvent.click(screen.getByRole("button", { name: "choice ت" })); // inert
+    await userEvent.click(screen.getByRole("button", { name: "choice ب" })); // inert
+
+    expect(results).toHaveLength(1);
+  });
+
+  // Ambient time is what makes a drill untestable, so `at` must come from the
+  // prop even when `Date.now` is sitting right there returning something else.
+  test("the clock is the injected one, never ambient Date.now()", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    vi.spyOn(Date, "now").mockReturnValue(999_999);
+    const results: GameResult[] = [];
+    render(<LetterQuiz pool={pool} entries={[]} formsTaught={false} onResult={(r) => results.push(r)} now={() => 42} />);
+    await screen.findByText(/which letter is/i);
+    await userEvent.click(screen.getByRole("button", { name: "choice ب" }));
+
+    expect(results[0].at).toBe(42);
   });
 });
 

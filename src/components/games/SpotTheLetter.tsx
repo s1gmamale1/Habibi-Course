@@ -3,10 +3,30 @@ import { useEffect, useState } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { WordEntry } from "@/games/derive";
 import { contextualGlyphs, displayLetters } from "@/games/arabic";
-import { registerGame } from "./GameRegistry";
+import { registerGame, type GameResult } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
 
-export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: ArabicItem[] }) {
+/** Declared here rather than beside `registerGame` so the drill can report under it. */
+const GAME_ID = "spot-the-letter";
+
+/**
+ * **One attempt per tap**, the same answer `LetterQuiz` gives and for the same
+ * reason: every tap on a tile is a graded selection with a verdict the board
+ * immediately renders, and the misses are the rows the scheduler learns most
+ * from. Taps after the letter is found are inert and report nothing.
+ */
+export function SpotTheLetter({
+  words,
+  pool,
+  onResult,
+  now = () => Date.now(),
+}: {
+  words: WordEntry[];
+  pool: ArabicItem[];
+  onResult?: (r: GameResult) => void;
+  /** Injected clock, so the scoring logic stays free of ambient time. */
+  now?: () => number;
+}) {
   const [round, setRound] = useState(0);
   const [target, setTarget] = useState<string | null>(null);
   const [found, setFound] = useState(false);
@@ -52,7 +72,9 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
               aria-label={`word letter ${i + 1}`}
               onClick={() => {
                 if (found) return;
-                if (letters[i] === target) setFound(true);
+                const hit = letters[i] === target;
+                onResult?.({ gameId: GAME_ID, correct: hit, at: now() });
+                if (hit) setFound(true);
                 else setShake({ idx: i, n: (shake?.n ?? 0) + 1 });
               }}
               className={`arabic rounded-xl border px-2 py-2 text-5xl text-white ${
@@ -98,16 +120,16 @@ export function spottableWords(words: WordEntry[]): WordEntry[] {
  * and no longer looks like its isolated form. Finding one thing among competing
  * others in a longer string is exactly what `span-tapper` asks for in an āyah,
  * and it carries the same mode.
+ *
+ * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
-const GAME_ID = "spot-the-letter";
-
 registerGame({
   id: GAME_ID,
   label: "🔍 Spot the letter",
-  render: ({ data }) => {
+  render: ({ data, onResult }) => {
     const words = data ? spottableWords(data.wordPool) : [];
     return data && words.length > 0 ? (
-      <SpotTheLetter words={words} pool={data.letterPool} />
+      <SpotTheLetter words={words} pool={data.letterPool} onResult={onResult} />
     ) : (
       <p className="text-white/50">No words to search yet.</p>
     );

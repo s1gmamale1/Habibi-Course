@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, test, vi } from "vitest";
+import type { GameResult } from "./GameRegistry";
 import { WordBuilder } from "./WordBuilder";
 
 afterEach(() => vi.restoreAllMocks());
@@ -89,5 +90,93 @@ describe("WordBuilder", () => {
     await userEvent.click(screen.getByRole("button", { name: /next word/i }));
     expect(await screen.findByText(/qamar/)).toBeTruthy();
     expect(screen.getByRole("button", { name: "bank letter ق 5" })).toBeTruthy();
+  });
+});
+
+/**
+ * **One attempt per completed fill.**
+ *
+ * Unlike every other drill here, `useBuildPuzzle` does not grade a single
+ * placement — a tile dropped into slot 2 while slot 3 is empty is not right or
+ * wrong yet, and the board says nothing about it. The verdict arrives when the
+ * last slot fills and the whole word is checked at once, so that is the only
+ * moment a real observation exists. Emitting per tap would mean inventing
+ * verdicts for moves the drill never graded, and emitting `correct: false` for a
+ * partial board would be the fabricated-failure defect the Global Constraints
+ * forbid. This is the shape `span-tapper` already has: one verdict per round.
+ */
+describe("WordBuilder — reporting", () => {
+  test("a completed wrong fill reports one miss; the placements before it report nothing", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    render(<WordBuilder words={[shams]} onResult={(r) => results.push(r)} now={() => 4000} />);
+    await screen.findByRole("button", { name: "bank letter م 1" });
+
+    await userEvent.click(screen.getByRole("button", { name: "bank letter م 1" })); // slot 1, wants ش
+    expect(results).toEqual([]);
+    await userEvent.click(screen.getByRole("button", { name: "bank letter س 2" })); // slot 2, wants م
+    expect(results).toEqual([]);
+    await userEvent.click(screen.getByRole("button", { name: "bank letter ش 3" })); // slot 3 → board full
+
+    expect(results).toEqual([{ gameId: "word-builder", correct: false, at: 4000 }]);
+  });
+
+  test("a completed correct fill reports one hit, on the injected clock", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    vi.spyOn(Date, "now").mockReturnValue(999_999);
+    const results: GameResult[] = [];
+    render(<WordBuilder words={[shams]} onResult={(r) => results.push(r)} now={() => 42} />);
+    await screen.findByRole("button", { name: "bank letter م 1" });
+
+    await userEvent.click(screen.getByRole("button", { name: "bank letter ش 3" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter م 1" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter س 2" }));
+
+    expect(results).toEqual([{ gameId: "word-builder", correct: true, at: 42 }]);
+    expect(Object.keys(results[0]).sort()).toEqual(["at", "correct", "gameId"]);
+  });
+
+  test("a take-back is not an attempt", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    render(<WordBuilder words={[shams]} onResult={(r) => results.push(r)} now={() => 7} />);
+    await screen.findByRole("button", { name: "bank letter م 1" });
+
+    await userEvent.click(screen.getByRole("button", { name: "bank letter م 1" }));
+    await userEvent.click(screen.getByRole("button", { name: "slot 1" })); // undo
+    expect(results).toEqual([]);
+  });
+
+  test("a wrong fill can be reported again after the bounce — retries are new rows", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    render(<WordBuilder words={[shams]} onResult={(r) => results.push(r)} now={() => 7} />);
+    await screen.findByRole("button", { name: "bank letter م 1" });
+
+    // Wrong fill: everything bounces back to the bank.
+    await userEvent.click(screen.getByRole("button", { name: "bank letter م 1" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter س 2" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter ش 3" }));
+    // Second go, correct this time.
+    await userEvent.click(screen.getByRole("button", { name: "bank letter ش 3" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter م 1" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter س 2" }));
+
+    expect(results.map((r) => r.correct)).toEqual([false, true]);
+  });
+
+  test("a tap on a solved board is not an attempt", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const results: GameResult[] = [];
+    render(<WordBuilder words={[shams]} onResult={(r) => results.push(r)} now={() => 7} />);
+    await screen.findByRole("button", { name: "bank letter م 1" });
+
+    await userEvent.click(screen.getByRole("button", { name: "bank letter ش 3" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter م 1" }));
+    await userEvent.click(screen.getByRole("button", { name: "bank letter س 2" })); // solved
+    expect(results).toHaveLength(1);
+
+    await userEvent.click(screen.getByRole("button", { name: "slot 1" })); // inert
+    expect(results).toHaveLength(1);
   });
 });
