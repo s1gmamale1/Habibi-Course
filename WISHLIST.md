@@ -9,6 +9,40 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 
 ---
 
+## 2026-08-12 — Sound effects where relevant *(owner override of a recorded constraint)*
+
+**Owner asked for this directly.** It reverses a line the practice-engine plan set deliberately, so both the original reasoning and the reversal are recorded here rather than quietly dropped.
+
+**What the plan said** — `docs/superpowers/plans/2026-08-12-practice-engine.md:503`:
+
+> No UI sound: the audio channel belongs to recitation, and a chirp competing with a madd example is actively harmful.
+
+**Why that does not forbid all sound.** The stated reason is *collision with recitation*, not sound as such. That scopes the answer instead of contradicting it: sound is safe exactly where the audio channel is otherwise idle, and stays banned where it is not. "Where relevant" should be read as "where nothing is being recited."
+
+**Where sound is safe:**
+
+- Objective drills with no audio of their own — `letter-quiz`, `spot-the-letter`, `form-swap`, `word-builder`, `rule-identifier`, `family-sorter`. A short, quiet correct/incorrect tone.
+- Session-level events in `SessionRunner`: a concept promoted to a new mastery band, the session completing.
+- `DueToday` — arguably nothing; it is a status panel, not an interaction.
+
+**Where sound must never play:**
+
+- **Any drill that plays or will play recitation.** `TapToHear`, `listen-identify`, and every cue that becomes real audio when Phase 5 lands. A chirp over a madd example is the exact harm the original line named.
+- **`GhunnahTimer` and `MaddCounter` while timing.** The learner is holding a sound and listening to themselves; a UI tone corrupts the very thing being measured.
+
+**Constraints that carry over from the gamification research** — these are not negotiable just because the medium changed:
+
+- **A wrong answer gets an informational tone, never a punishing one.** Same rule as the wording of the mastery bands: performance-contingent punishment is what undermines intrinsic motivation (d = −0.28, 128 studies). A neutral "not that one" is fine; a sad trombone is not.
+- **No reward fanfare tied to a score**, because there is no score. Sound may mark *events*, never *earnings* — the same line that keeps XP, coins and badges out.
+- **Off by default, or a visible mute that persists.** Respect `prefers-reduced-motion` as a proxy signal for reduced sensory load, and never autoplay on page load — browsers block it anyway and it would be a bug report rather than a feature.
+- **Never a substitute for the visual verdict.** The feedback bar already names the rule and the violated condition; sound is redundant reinforcement, so a muted learner loses nothing.
+
+**Implementation note.** Files must be tiny and self-hosted — no CDN, no third-party pack with an unverified licence. Licence gets recorded in `library/` like every other vendored asset. Openly-licensed UI sound is plentiful (CC0 sets exist), so this is not the acquisition problem the recitation audio is.
+
+**Not scoped, not scheduled.** Blocked on nothing; it just has not been designed.
+
+---
+
 ## 2026-08-12 — MANDATORY: a gamified check at the end of every lesson
 
 **Owner requirement, not yet scoped.** Every lesson must end with a **compulsory** gamified test that establishes whether the learner actually learnt something — not an optional practice tab they can skip.
@@ -68,9 +102,14 @@ Every task in `docs/superpowers/plans/2026-08-12-practice-engine.md` reported wh
 - **`ts-fsrs` deprecates `Card.elapsed_days`** for 6.0.0; `ConceptSchedule` inherits it. Nothing reads it — do not start.
 - **`D7` (UTC vs local day boundary) is a no-op mutant on a UTC runtime.** The two-directional test kills it in any non-zero offset, and encoding an offset would make the suite machine-dependent. Worth knowing if CI ever runs in UTC — **it does**, on `ubuntu-latest`.
 
-### The one follow-up that finishes the feature
+### The one follow-up that finishes the feature — ✅ **DONE 2026-08-12**
 
-- **Wire `DueToday`'s start button to launch a real planned session.** Task 8 left it scrolling to the existing drills rather than shipping Task 9's exemplar gap into the front door; Task 9 closed that gap. The pool builder is now a one-liner: `getGames(ids).flatMap(g => g.exemplars?.(data) ?? [])`, plus `gameId`.
+- ~~**Wire `DueToday`'s start button to launch a real planned session.**~~ Shipped as `src/components/practice/PracticeSession.tsx`. It was **larger than this entry claimed**: `SessionRunner` was rendered nowhere in `src/` at all, so the app wrote **zero ledger rows** and `DueToday` read an empty store on every load. The button was one of two missing connections, not the only one.
+
+### Found by mounting it — still open
+
+- **Free practice records nothing, and cannot without a decision.** `GameResult` carries no `conceptId` — the session knows the concept only because the *plan* assigned it. So a drill answered outside a session has no truthful concept to fold onto, and inventing one is exactly what the ledger's honesty rules forbid. The four objective letter drills produce real verdicts in free play and all of them are discarded. Closing it means widening `GameResult` so a drill reports what it asked about; that is an owner-visible design change, not a chore.
+- **`letter-flashcards` advertises exemplars it cannot grade.** Excluded from session planning via `UNGRADED_GAME_IDS` (`src/practice/session.ts`), because `SessionRunner` gates its continue button on a verdict and a planned deck would strand the learner. The exclusion is right on the merits, but the registry entry still advertises exemplars that now serve only its `startId` targeting — worth either removing or documenting as that.
 
 ---
 

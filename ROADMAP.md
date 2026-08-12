@@ -12,9 +12,9 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
 | Library | **183 notes** — every one of the 74 live lessons has a reviewable note |
 | Rule notes | 59 total — **56 verified** against vendored sources, 3 `needs-review`, each naming the specific artifact still needed |
-| Gates | 535 tests · 0 lint errors · library 0 errors / 3 warnings · **CI green on GitHub Actions** |
+| Gates | 900 tests · 0 lint errors · library 0 errors / 3 warnings · **CI green on GitHub Actions** |
 
-> **Phases 1–4 are complete and the course is fully reachable.** The app itself has been feature-complete for some time — 82 source files, 231 static pages, 14 practice games, 535 tests — so recent phases have been *content*, not code. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items, Phase 7's fixable gaps, and **Phase 8, the practice engine** — none of which blocks a learner from starting today.
+> **Phases 1–4 and 8 are complete.** The course is fully reachable and the drills now remember: 231 static pages, 14 practice games, **900 tests**. Phases 1–4 were *content*; Phase 8 (2026-08-12) was the first substantial *code* phase since, and it shipped the practice engine — ledger, FSRS scheduling, session assembly, and the session screen a learner can actually reach. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items, Phase 7's fixable gaps, and two owner requirements in `WISHLIST.md` — the mandatory end-of-lesson check and sound effects. None of it blocks a learner from starting today.
 
 ---
 
@@ -291,13 +291,32 @@ Popover `role="dialog"` and dismissal · `aria-disabled` on locked `FormSwap`/`L
 
 ---
 
-## Phase 8 — The practice engine 📋 **PLANNED 2026-08-12, not started**
+## Phase 8 — The practice engine ✅ **DONE 2026-08-12**
 
-> **Plan:** `docs/superpowers/plans/2026-08-12-practice-engine.md` — 8 tasks, test-first. Branch `feat/gamification-persistence`.
+> **Plan:** `docs/superpowers/plans/2026-08-12-practice-engine.md` — 8 tasks as written, **12 as built**. Branch `feat/gamification-persistence`.
+>
+> **Delivered.** Append-only ledger in IndexedDB, a pure `derive()`, FSRS on 47 concepts, 14-slot session assembly with the wrong-answer tail, the session screen, and Due Today. **900 tests across 64 files**, gates green, 231 static pages.
 
 **Goal.** The 14 drills that already ship start remembering. A learner sees what is due today, weak concepts resurface on a schedule, and a missed answer comes back before the session ends.
 
-**Why now.** The drills already emit a typed `GameResult` and **nothing listens** — `GamePanel` accepts `onResult` and no caller passes one. The only progress in the app is a self-declared checkbox in `localStorage`. The engine's missing piece was never more games; it is memory of them.
+**Why it was needed.** The drills already emitted a typed `GameResult` and **nothing listened** — `GamePanel` accepted `onResult` and no caller passed one. The only progress in the app was a self-declared checkbox in `localStorage`. The engine's missing piece was never more games; it is memory of them.
+
+### The four tasks the plan did not have, and why
+
+Twelve tasks shipped against eight planned. Each addition was found by the task before it, which is the part worth keeping:
+
+- **6b — register the six letter drills.** Found by Task 5. **29 of the 47 concepts are letters**, and none of their drills was in the registry, so `shapeOf` fell to its default for 62% of the roster: a letter's session was fourteen recognition items with no ramp in it.
+- **6d — the letter drills must actually report.** Found by 6b. They were registered and still emitted nothing, so the entire first half of the course would have produced zero ledger rows.
+- **6c — close the flag loop.** Found by Task 6. A concept flagged in one session had no way to be prioritised in the next.
+- **9 — the registry could not carry an exemplar.** Found by Task 7. Drills ignored the planned item and picked their own, so the ledger's `itemKey` was a claim about what was shown that was **not true**, and the wrong-answer tail could legitimately re-ask the identical question — the exact failure the mechanic exists to prevent.
+
+### The defect that only a mounted engine could show
+
+The twelve tasks each passed, and the engine still recorded nothing in the running app. `appendAttempt` was called only from `useSession`, `useSession` only from `SessionRunner`, and **`SessionRunner` was rendered nowhere in `src/`**; `DueTodayPanel` was mounted with no `onStart`, so its one loud action fell through to scrolling. Every unit test passed *because* nothing connected the parts.
+
+Closed by `src/components/practice/PracticeSession.tsx` — the client shell that builds the pool from the registry, snapshots the ledger on the click, plans the session, and runs it. Its test asserts **reachability** rather than behaviour, since that is the class of bug the other 63 files could not see.
+
+Wiring it surfaced one more: **`letter-flashcards` advertises exemplars but cannot report a verdict**, and `SessionRunner` gates its continue button on one — a plan that drew a deck would strand the learner on a question with no answerable move. `UNGRADED_GAME_IDS` now excludes both decks, which is also the answer `GamePanel` had already reached on the merits: *"✓ Got it"* is a claim the learner makes about themselves, not a measurement.
 
 ### What the research settled
 
@@ -323,7 +342,20 @@ Nine research passes: five mining the owner's other project (Akademiya-AI), four
 
 **Risks.** A scheduler that surfaces the wrong things is worse than none, and with one learner there is no A/B to catch it. Mitigation: the ledger is append-only, so the algorithm can be replaced and the history replayed rather than migrated.
 
-**Definition of done.** An attempt survives a reload; a due-today list is populated by past performance rather than by lesson order; a missed concept returns before the session ends; the timed drills still grade on accuracy-to-target; gates green.
+**Definition of done.** ✅ All five met. An attempt survives a reload; a due-today list is populated by past performance rather than by lesson order; a missed concept returns before the session ends; the timed drills still grade on accuracy-to-target; gates green.
+
+### What Phase 8 deliberately left
+
+Two are owner requirements now recorded in `WISHLIST.md`, not oversights:
+
+- **A mandatory gamified check at the end of every lesson.** The engine is most of the way there — `planSession` assembles and `SessionRunner` runs — what is missing is a *lesson-scoped* variant that draws from what the lesson just taught, plus a completion gate. Unscoped by design: what "failing" means has to be decided first, and the answer must not be hearts or a lockout.
+- **Sound effects where relevant.** Reverses the plan's `No UI sound` line. The stated reason for that line was *collision with recitation*, which scopes rather than contradicts the reversal: sound is safe where the audio channel is idle, and stays banned in the timed drills and anything that will play recitation when Phase 5 lands.
+
+And one genuine gap the wiring exposed:
+
+- **Free practice still records nothing.** `GameResult` carries no `conceptId`, so a drill answered outside a session cannot be written to the ledger without inventing the concept it belongs to — which is precisely what the ledger's honesty rules forbid. Only planned sessions record. Widening `GameResult` would close it; that is a decision, not a chore.
+
+**The path/serpentine home screen** stays out of scope, as the plan set it: real, but its own plan, and this one had to earn its keep first.
 
 ---
 
@@ -385,3 +417,8 @@ Nine research passes: five mining the owner's other project (Akademiya-AI), four
 | Publish Unit 4 | 4 | S | Med | Needs Phase 3; ships the ayah-slide guard |
 | Record teacher audio | 5 | L | — | **DEFERRED by the owner.** Do not surface as next work |
 | Close outside-world gaps | 6 | S–XL | Low–Med | Some items may never resolve; decide and date them |
+| The practice engine | 8 | XL | **High** | ✅ done 2026-08-12 — 12 tasks, +365 tests. Four were found by the task before them |
+| Mount it in the app | 8 | S | **High** | ✅ done 2026-08-12 — without it the other twelve recorded nothing |
+| End-of-lesson check | — | M | **High** | Owner requirement, in `WISHLIST.md`. Reuses the engine; needs a "what does failing mean" decision first |
+| Sound effects | — | S | Low–Med | Owner requirement, in `WISHLIST.md`. Reverses the plan's `No UI sound`; safe only where the audio channel is idle |
+| Record free practice | — | M | Med | `GameResult` carries no `conceptId`, so only planned sessions record. A decision, not a chore |
