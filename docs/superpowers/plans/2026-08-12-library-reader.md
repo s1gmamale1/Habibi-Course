@@ -1713,9 +1713,22 @@ export type SourceDisplay = "withhold-matn" | "full";
  * the two video notes) are catalogues.
  */
 export function displayModeFor(note: SourceNote): SourceDisplay {
-  return note.vendored === "full-text" || note.vendored === "partial" || note.vendored === "excerpts"
-    ? "withhold-matn"
-    : "full";
+  // `vendored` alone is NOT sufficient: Tanzil.md and cpfair-quran-tajweed.md are both
+  // `vendored: full-text` — they are the Qur'an corpus and its tajweed annotations — yet
+  // carry no matn a student could memorise from. Gating on `vendored` alone would stamp a
+  // "source text withheld" panel on two pages that have nothing withheld.
+  //
+  // `author_arabic` is the discriminator: it is set on every work attributed to a named
+  // classical author (all 5 of them) and on none of the 3 data sources or 2 video notes.
+  // Sajawandi carries it too but is excluded by `citation-only`, which has no text by design.
+  //
+  // KNOWN FRAGILITY, recorded rather than hidden: this makes `author_arabic` do semantic
+  // work it was not designed for. A future classical matn vendored WITHOUT that field would
+  // be missed and its text displayed. The durable fix is an explicit frontmatter flag on the
+  // note itself — but that means editing the vault, which this feature must not do.
+  const carriesSourceText =
+    note.vendored === "full-text" || note.vendored === "partial" || note.vendored === "excerpts";
+  return carriesSourceText && note.author_arabic !== undefined ? "withhold-matn" : "full";
 }
 
 const ARABIC = /[؀-ۿ]/g;
