@@ -478,8 +478,9 @@ vendored takes five values in practice; Source-Manifest.md documents three."
 Create `src/library/load.test.ts`:
 
 ```ts
-import { describe, test, expect } from "vitest";
+import { describe, test, expect, beforeAll, afterAll } from "vitest";
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { allNotes, allSlugs, noteBySlug } from "./load";
 import { slugFor, RESERVED_SEGMENTS } from "./routes";
@@ -539,6 +540,36 @@ describe("failure reporting", () => {
     const file = path.join(VAULT_DIR, "02-Rules", "Ghunnah.md");
     const raw = fs.readFileSync(file, "utf8");
     expect(raw.startsWith("---")).toBe(true); // guards the fixture assumption
+  });
+});
+
+/**
+ * walkNotes' dot-skip cannot be falsified against the real vault: `library/.obsidian`
+ * exists but holds no .md files, and it sits outside the three section directories
+ * inScopeNoteFiles() walks. So an assertion over real data passes whether or not the
+ * skip works. This builds a throwaway fixture in the OS temp dir — never in library/,
+ * which this feature must never write to — so the behaviour is actually pinned.
+ */
+describe("walkNotes dot-skip, against a fixture that can fail", () => {
+  let root: string;
+
+  beforeAll(() => {
+    root = fs.mkdtempSync(path.join(os.tmpdir(), "library-walk-"));
+    fs.mkdirSync(path.join(root, "visible"), { recursive: true });
+    fs.mkdirSync(path.join(root, ".hidden"), { recursive: true });
+    fs.writeFileSync(path.join(root, "visible", "Kept.md"), "---\ntype: index\n---\n");
+    fs.writeFileSync(path.join(root, ".hidden", "Skipped.md"), "---\ntype: index\n---\n");
+    fs.writeFileSync(path.join(root, ".Dotfile.md"), "---\ntype: index\n---\n");
+  });
+
+  afterAll(() => fs.rmSync(root, { recursive: true, force: true }));
+
+  test("a .md inside a dot-directory is not returned", () => {
+    expect(walkNotes(root).map((f) => path.basename(f))).toEqual(["Kept.md"]);
+  });
+
+  test("a dotfile .md at the top level is not returned", () => {
+    expect(walkNotes(root).some((f) => f.endsWith(".Dotfile.md"))).toBe(false);
   });
 });
 ```
@@ -628,7 +659,7 @@ known O(N²) item in WISHLIST. Do not repeat that here.
 - [ ] **Step 5: Run the tests to verify they pass**
 
 Run: `npx vitest run src/library/load.test.ts`
-Expected: PASS — 9 tests
+Expected: PASS — 11 tests
 
 - [ ] **Step 6: Commit**
 
@@ -2096,7 +2127,7 @@ export default function LibraryPage() {
 - [ ] **Step 8: Run the tests to verify they pass**
 
 Run: `npx vitest run src/app/library/`
-Expected: PASS — 9 tests across both index files
+Expected: PASS — 11 tests across both index files
 
 - [ ] **Step 9: Commit**
 
