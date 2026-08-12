@@ -15,7 +15,7 @@ import { useState } from "react";
 import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 
 import type { ArabicItem } from "@/content/schema";
-import { registerGame, type GameResult } from "@/components/games/GameRegistry";
+import { getGames, registerGame, type GameResult } from "@/components/games/GameRegistry";
 // Side-effect import: the real letter drills, for the end-to-end test. The
 // screen resolves drills through the registry, so nothing is reachable here that
 // is not reachable in the app.
@@ -458,6 +458,141 @@ describe("the screen around the drill", () => {
     // Not a dialog, and the question is still answerable.
     expect(screen.queryByRole("dialog")).toBeNull();
     expect(continueButton().hasAttribute("disabled")).toBe(false);
+  });
+});
+
+/* ---------- the tail asks a different question --------------------------- */
+
+/**
+ * Task 9's decisive test, and the one the previous shape of this suite could
+ * not express.
+ *
+ * `useSession` has always drawn a *different planned `itemKey`* for a tail retry
+ * and its own tests have always asserted that. But the registry mounted a drill
+ * by id and handed it no exemplar, so the drill picked its own question — and
+ * could legitimately re-ask the identical one. The row said one thing and the
+ * screen showed another, and no assertion about the row could tell.
+ *
+ * So this asserts on **what is drawn**: the word the learner is looking at.
+ */
+describe("the wrong-answer tail is a second retrieval, not the same card twice", () => {
+  const spotData: GameData = {
+    lessonId: "1-09",
+    newLetters: [mk("ب", "ba")],
+    letterPool: [mk("ب", "ba"), mk("ا", "alif"), mk("ك", "kaf"), mk("ت", "ta")],
+    formEntries: [],
+    // Two words sharing ب — the only shape in which one concept has two
+    // exemplars, which is what the tail needs.
+    wordPool: [
+      { arabic: "بَاب", translit: "bab", meaning: "door" },
+      { arabic: "كِتَاب", translit: "kitab", meaning: "book" },
+    ],
+    formsTaught: false,
+  };
+
+  /** The two real exemplars of ب this drill advertises, in its own key format. */
+  const spotExemplars = () =>
+    getGames(["spot-the-letter"])[0].exemplars?.(spotData).filter((e) => e.conceptId === "ب") ?? [];
+
+  const tiles = () =>
+    within(screen.getByTestId("drill-band"))
+      .getAllByRole("button", { name: /^word letter/ })
+      .map((b) => b.textContent)
+      .join("");
+
+  test("a retry renders a different question on screen, not merely a different row", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const [first, second] = spotExemplars();
+    expect(first).toBeTruthy();
+    expect(second).toBeTruthy();
+
+    const planned: PlannedItem = {
+      ...first,
+      gameId: "spot-the-letter",
+      ...shapeOf("spot-the-letter"),
+      isInterleaved: false,
+    };
+    render(
+      <SessionRunner
+        plan={plan([planned])}
+        pool={[first, second].map((e) => ({ ...e, gameId: "spot-the-letter" }))}
+        data={spotData}
+        sessionId="s-tail"
+      />,
+    );
+
+    const asked = await screen.findByText(/Tap the letter/);
+    const shown = tiles();
+
+    // Miss it: any tile that is not the letter being hunted.
+    const wrong = within(screen.getByTestId("drill-band"))
+      .getAllByRole("button", { name: /^word letter/ })
+      .find((b) => b.textContent !== "ب")!;
+    await userEvent.click(wrong);
+    await userEvent.click(continueButton());
+
+    // The tail is up, and it is a different word — the second retrieval the
+    // mechanic exists for. Replaying the identical item is answered from memory
+    // of the correction that was on screen thirty seconds ago.
+    await screen.findByText(/Tap the letter/);
+    expect(tiles()).not.toBe(shown);
+    // Still the same concept, still the same letter being hunted.
+    expect(screen.getByText(/Tap the letter/).textContent).toBe(asked.textContent);
+  });
+
+  test("the ledger's itemKey names the exemplar that was on screen", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+    const [first, second] = spotExemplars();
+    const planned: PlannedItem = {
+      ...first,
+      gameId: "spot-the-letter",
+      ...shapeOf("spot-the-letter"),
+      isInterleaved: false,
+    };
+    render(
+      <SessionRunner
+        plan={plan([planned])}
+        pool={[first, second].map((e) => ({ ...e, gameId: "spot-the-letter" }))}
+        data={spotData}
+        sessionId="s-tail-rows"
+      />,
+    );
+
+    await screen.findByText(/Tap the letter/);
+    /**
+     * Which word the board is spelling, read off the board: بَاب is three
+     * letters and كِتَاب is four, so the tile count names it without depending
+     * on how a glyph happens to be shaped in context.
+     */
+    const wordOnScreen = () =>
+      ({ 3: "بَاب", 4: "كِتَاب" })[
+        within(screen.getByTestId("drill-band")).getAllByRole("button", { name: /^word letter/ })
+          .length
+      ]!;
+
+    const firstWord = wordOnScreen();
+    await userEvent.click(
+      within(screen.getByTestId("drill-band"))
+        .getAllByRole("button", { name: /^word letter/ })
+        .find((b) => b.textContent !== "ب")!,
+    );
+    await userEvent.click(continueButton());
+    await screen.findByText(/Tap the letter/);
+    const secondWord = wordOnScreen();
+    await userEvent.click(
+      within(screen.getByTestId("drill-band")).getAllByRole("button", { name: /^word letter/ })[0],
+    );
+
+    const rows = await waitFor(async () => {
+      const all = await allAttempts();
+      expect(all).toHaveLength(2);
+      return all;
+    });
+    // The claim the ledger makes about what was shown is now true of both rows.
+    expect(firstWord).not.toBe(secondWord);
+    expect(rows[0].itemKey).toContain(firstWord);
+    expect(rows[1].itemKey).toContain(secondWord);
+    expect(rows.map((r) => r.itemKey)).toEqual([first.itemKey, second.itemKey]);
   });
 });
 

@@ -48,16 +48,21 @@ import { FeedbackBar, noteFor } from "./FeedbackBar";
  * - **No blocking on a write failure.** `writeFailures` becomes a quiet line;
  *   never a dialog, and never a reason to stop answering.
  *
- * ## Known limit, stated rather than hidden
+ * ## The exemplar, and what still cannot be promised
  *
- * The registry mounts a drill by id and nothing more — `GameRenderProps` has no
- * `itemKey` — so a drill picks its own exemplar and may ask about a *different*
- * rule than the one the session planned. The ledger row is keyed to the planned
- * concept either way (that is `useSession`'s job and it is what the scheduler
- * needs), but the feedback prefers the `ruleId` the drill actually reported, so
- * the learner is never told about a rule they were not asked. Threading the
- * exemplar through the registry is a change to every drill, and belongs in its
- * own task.
+ * The planned item is handed to the drill as `GameRenderProps.item`, so the
+ * question on screen is the one the session planned and the `itemKey` on the row
+ * is a claim about what was shown that is true. That is what makes the
+ * wrong-answer tail a *second retrieval*: `useSession` draws a different
+ * exemplar of the missed concept, and the drill now actually shows it.
+ *
+ * It is a request, not a guarantee. A drill may not recognise the key — a pool
+ * assembled against an older build — and then falls back to its own choice
+ * rather than costing the learner the slot; and a board-shaped drill like
+ * `family-sorter` displays several fragments at once, so its row names one it
+ * showed rather than the only thing it showed. So the feedback still prefers the
+ * `ruleId` the drill reported over the concept the session planned: the learner
+ * is never told about a rule they were not asked.
  */
 export function SessionRunner({
   plan,
@@ -184,7 +189,7 @@ export function SessionRunner({
           entry ? (
             // Keyed by the question: per-round state inside a drill is thrown
             // away with it rather than reset in an effect.
-            <div key={current.itemKey}>{entry.render({ onResult, data })}</div>
+            <div key={current.itemKey}>{entry.render({ onResult, data, item: current })}</div>
           ) : (
             <p className="text-white/50">
               هذا التمرين غير متاح بعد · this drill has not shipped yet
