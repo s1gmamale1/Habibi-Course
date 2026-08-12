@@ -73,8 +73,8 @@ Every task in `docs/superpowers/plans/2026-08-12-practice-engine.md` reported wh
 
 ### Data honesty
 
-- **`scoreHold()` returns `correct: false` when uncalibrated** — `GhunnahTimer.tsx:85`. A fabricated failure verdict; it should be `null`. Unreachable from the UI today (the component gates on `msPerHarakah === null` first), and `derive()` now guards against it explicitly — but every *future* consumer would have to be independently robust. The type already permits `null`.
-- **Nothing validates that a `conceptId` is one of the 47.** A typo writes a real ledger row for a concept the scheduler will never surface. A `ConceptId` union or a validator at the append boundary would catch it.
+- ~~**`scoreHold()` returns `correct: false` when uncalibrated**~~ — ✅ **fixed 2026-08-12** (`a0062d3`). Returns `null`. The render collapsed the same distinction by truthiness and would still have shown the learner "✗", so that was fixed alongside; `data-state` now reports `unscored` rather than `wrong`.
+- ~~**Nothing validates that a `conceptId` is one of the 47.**~~ — ✅ **fixed 2026-08-12** (`f8546fa`). `isConceptId` at the append boundary; `appendAttempt` throws. **The guard was not hypothetical: four test fixtures already carried `"idgham"`**, which is not one of the 18. The check is asymmetric on purpose — rules against the closed list, letters structurally as one Arabic grapheme, because the 29 taught letters are derived per lesson behind `node:fs` and this must run in a browser. So a malformed id is caught and a wrong-but-well-formed letter is not. The read path stays permissive: a retired rule was still answered.
 - **`family-sorter`'s `itemKey` is true only in the weak sense** that the fragment *was displayed* — its question is the whole board, so the row does not claim the attempt was about that fragment. Declared in the file with a test pinning it, so a future "fix" that narrows the board fails.
 
 ### Session behaviour
@@ -87,14 +87,14 @@ Every task in `docs/superpowers/plans/2026-08-12-practice-engine.md` reported wh
 
 ### Reachability and wiring
 
-- **`DRILL_MODES` lists `word-flashcards`, which can never be planned** — that deck advertises no exemplar, so the entry is unreachable.
+- ~~**`DRILL_MODES` lists `word-flashcards`, which can never be planned**~~ — ✅ **fixed 2026-08-12** (`67bf1f2`). **Both** decks were dead by then, `letter-flashcards` having become unplannable when `UNGRADED_GAME_IDS` excluded it. The old test could not have caught this and admitted so in its own comment — `shapeOf` falls back to `recognition` for an absent id, exactly what the entries claimed — so the new tests assert on `DRILL_MODES`' keys against `UNGRADED_GAME_IDS` in both directions.
 - **A lesson naming a letter drill in `games:` gets a duplicate tab** — the literal list shows it and the registry appends a second. Pinned with an assertion so wiring the tab list to the registry trips a test that explains itself. Nothing ships doubled today.
 - **`GamePanel`'s literal tab list is still not wired to the registry** — deliberately out of scope throughout, but it is the change that would un-register the letter drills in silence if done carelessly.
 - **`|| s.flagged` in Due Today's weak filter selects nothing today** — every flagged concept is already `isWeak`, so the two coincide numerically. Kept with a disclosure comment; what the flag *does* change is the **order**.
 
 ### Hygiene
 
-- **`SpanTapper` still uses `Date.now()` inline** (`tajweed/SpanTapper.tsx:120`) — the only shipped drill without an injected clock, which is the untestability the plan warns about elsewhere.
+- ~~**`SpanTapper` still uses `Date.now()` inline**~~ — ✅ **fixed 2026-08-12** (`8bb5618`). Injected `now`, matching the other ten drills. It mattered because `at` is what `orderedAttempts` sorts on and what `schedulesFromLedger` cuts on, so an uninjectable clock made that drill's scheduling consequences untestable.
 - **`MaddCounter`'s `held` prop and `useSwapPuzzle`'s `shuffled` call `Math.random()` at mount**, inside effects. Would trip a purity guard of the kind `session.ts` already has.
 - **No storage-quota handling.** `appendAttempt` rejects and `useSession` swallows-and-counts via `writeFailures`, which is the right failure mode — a lost row beats a lost session — but nothing surfaces it beyond one quiet line.
 - **`derive()` and `schedule` grade the same attempt on two scales** (EWMA wrongness vs FSRS rating). They share `missRatio` and `TOLERANCE` and agree at 25%, but nothing enforces that they stay in step. If the weak list and the due queue ever visibly disagree, that is the seam.

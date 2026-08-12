@@ -253,11 +253,13 @@ the *only* route.
 
 ---
 
-## Phase 7 — Close the gaps that are actually fixable 🔨 **IN PROGRESS 2026-08-11**
+## Phase 7 — Close the gaps that are actually fixable 🔨 **7b + 7c DONE 2026-08-12 · 7a open**
 
 **Goal.** Everything the project can fix with its own hands, as opposed to Phase 6's items that wait on the world and Phase 5's that wait on an ear.
 
 **Why this phase exists.** The 2026-08-11 review asked "what else is blocking?" and the honest answer separated into three piles, only one of which is ours to move. This is that pile. Full item-level detail lives in `WISHLIST.md`; this is the ordering.
+
+> **What is left is 7a and only 7a** — the per-letter makhraj diagrams. 7b turned out to be entirely done already and merely unticked, which is its own lesson: a checklist nobody re-reads against the code drifts into overstating the work remaining, exactly as Phase 8's status did. 7d is a launch checklist rather than work.
 
 ### 7a — Per-letter makhraj diagrams *(the largest fixable gap, and it is pedagogical)*
 
@@ -265,18 +267,22 @@ the *only* route.
 
 **Unblocked as of 2026-08-11:** `codex` CLI 0.147.0 is installed, and the earlier blocker (a quota resetting 2026-07-25) is long past. The seven existing visuals are annotated rasters produced this way, so the pipeline is proven. **Owner rejected line-art SVGs — match the existing raster style.**
 
-### 7b — Correctness and hygiene *(small, verifiable, test-first)*
+### 7b — Correctness and hygiene ✅ **DONE** *(verified against the code 2026-08-12)*
 
-- PPTX recap columns fill left-to-right in an otherwise RTL-honouring deck — `lessonToPptx.ts:151`
-- PPTX recap font-size threshold leaves a latent overflow at exactly 14 items — `lessonToPptx.ts:134`
-- `drill.grid` guards the outer array only, so an empty inner row still validates — `schema.ts:79`, `:133`
-- `useSwapPuzzle` repeats one equality check four ways — `:18, 46, 50, 63`
-- `FormSwap` re-declares a `FormKey` that `derive.ts:5` already exports
-- `Flashcards` keys a list by line text — duplicate content would warn
+All six were already fixed; the list had simply never been ticked. Re-checked one by one rather than taken on trust:
 
-### 7c — Accessibility *(partly done; the newer tajweed games already carry `aria-live`)*
+- ~~PPTX recap columns fill left-to-right~~ — now fills right-first, with the reasoning in the code
+- ~~PPTX recap font-size threshold at 14 items~~ — threshold is 13, and 13 is also the largest recap in real content
+- ~~`drill.grid` guards the outer array only~~ — `schema.test.ts` pins the empty-inner-row rejection
+- ~~`useSwapPuzzle` repeats one equality check four ways~~ — one `isCorrect`, everything routed through it
+- ~~`FormSwap` re-declares `FormKey`~~ — imported from `derive.ts`
+- ~~`Flashcards` keys a list by line text~~ — keyed `${i}-${line}`
 
-Popover `role="dialog"` and dismissal · `aria-disabled` on locked `FormSwap`/`LetterQuiz` tiles · distinct accessible names for lesson-row links · `ExportPptxButton` status announcement.
+### 7c — Accessibility ✅ **DONE 2026-08-12**
+
+~~Popover `role="dialog"` and dismissal~~ (`8bb5618`) · ~~`aria-disabled` on locked `FormSwap`/`LetterQuiz` tiles~~ · ~~distinct accessible names for lesson-row links~~ (`7c` close) · ~~`ExportPptxButton` status announcement~~.
+
+The last two are worth recording because both were about **the same failure at different scales**. `TapToHear`'s popover opened as an anonymous span — a control that produced silence for a screen-reader user and a panel with no exit for a keyboard one. The course map shipped 74 rows carrying two links each whose only names were "Lesson" and "Practice": 148 controls, 2 distinct names, and no way to tell one row from another on the page that *is* the table of contents. Both are now named, and the visible text stayed short — the lesson title is already in the row.
 
 ### 7d — Blocking a *public* launch only *(not needed for one student)*
 

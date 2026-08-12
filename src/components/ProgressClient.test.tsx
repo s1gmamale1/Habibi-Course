@@ -21,6 +21,31 @@ describe("CourseMap + progress", () => {
     render(<CourseMap course={course} />);
     expect(screen.getByText(/Checkpoint 1/)).toBeTruthy();
   });
+  /**
+   * Every row ships two links whose visible text is just "Lesson" and
+   * "Practice". Across 74 lessons that is 148 controls with 2 distinct names,
+   * and a screen-reader user listing the links on this page gets no way to tell
+   * one row from another — the links-out-of-context problem, on the page that
+   * is the course's entire table of contents.
+   *
+   * The visible text stays short on purpose: the lesson title is already in the
+   * row, and repeating it in every button would be visual noise for everyone
+   * else. `aria-label` is exactly the tool for that split.
+   */
+  test("each lesson link is named by its lesson, not just 'Lesson'", () => {
+    render(<CourseMap course={course} />);
+    expect(screen.getByRole("link", { name: "Lesson: Orientation" })).toBeTruthy();
+    expect(screen.getByRole("link", { name: "Practice: Orientation" })).toBeTruthy();
+    // And the bare names are gone, so two rows can never collide again.
+    expect(screen.queryByRole("link", { name: "Lesson" })).toBeNull();
+    expect(screen.queryByRole("link", { name: "Practice" })).toBeNull();
+  });
+
+  test("the visible text stays short — the distinction is for assistive tech only", () => {
+    render(<CourseMap course={course} />);
+    expect(screen.getByRole("link", { name: "Lesson: Orientation" }).textContent).toBe("Lesson");
+  });
+
   test("tolerates corrupt progress storage (non-array done value)", async () => {
     localStorage.setItem("tajweed-progress-v1", '{"done":5}');
     render(<CourseMap course={course} />);

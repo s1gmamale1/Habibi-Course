@@ -47,8 +47,13 @@ export function CourseMap({ course }: { course: Course }) {
                   <p className="truncate font-medium text-white/90">{l.title}</p>
                   <p className="text-xs text-white/50">{l.calendarSlot}</p>
                 </div>
-                <Link className="cta-primary rounded-lg px-3 py-1.5 text-sm font-medium" href={`/lesson/${l.id}`}>Lesson</Link>
-                <Link className="cta-secondary rounded-lg px-3 py-1.5 text-sm" href={`/practice/${l.id}`}>Practice</Link>
+                {/* Named by the lesson for assistive tech, short on screen. All
+                    74 rows ship these two links, so the bare text alone gives a
+                    screen-reader user 148 controls with 2 distinct names and no
+                    way to tell the rows apart. The title is already visible in
+                    the row, so repeating it in the button would be noise. */}
+                <Link aria-label={`Lesson: ${l.title}`} className="cta-primary rounded-lg px-3 py-1.5 text-sm font-medium" href={`/lesson/${l.id}`}>Lesson</Link>
+                <Link aria-label={`Practice: ${l.title}`} className="cta-secondary rounded-lg px-3 py-1.5 text-sm" href={`/practice/${l.id}`}>Practice</Link>
               </li>
             ))}
             <li className="gate-glow rounded-xl bg-amber-500/10 p-4">
