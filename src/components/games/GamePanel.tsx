@@ -29,6 +29,23 @@ export function GamePanel({
   const spotWords = useMemo(() => spottableWords(data.wordPool), [data]);
   const quizPool = useMemo(() => quizzableLetters(data.letterPool), [data]);
 
+  /**
+   * `onResult` reaches the four objective letter drills below, and deliberately
+   * not the two flashcard decks.
+   *
+   * It used to reach only the registry-mounted drills at the bottom of this
+   * list, so after Task 6d the letter drills *could* report and in the app still
+   * did not — 29 of the 47 concepts, the entire first half of the course, would
+   * have gone on producing no ledger rows at all. Adding the prop to the four
+   * literal renders was chosen over mounting them through the registry because
+   * the registry entries answer "is this playable" with a *note in the panel*
+   * while these tabs answer it by not existing, and swapping that is a visible
+   * behaviour change this task has no reason to make.
+   *
+   * The decks stay out on the same grounds Task 6d gave: "✓ Got it" is a claim
+   * the learner makes about themselves, not a measurement, and an unearned
+   * verdict in an append-only ledger cannot be taken back.
+   */
   const tabs = [
     {
       label: "🃏 Letter cards",
@@ -38,18 +55,18 @@ export function GamePanel({
     {
       label: "❓ Quiz",
       show: quizPool.length >= QUIZ_MIN_LETTERS,
-      render: () => <LetterQuiz pool={quizPool} entries={data.formEntries} formsTaught={data.formsTaught} />,
+      render: () => <LetterQuiz pool={quizPool} entries={data.formEntries} formsTaught={data.formsTaught} onResult={onResult} />,
     },
     {
       label: "🔀 Forms",
       show: data.formsTaught && data.formEntries.length > 0,
-      render: () => <FormSwap entries={data.formEntries} />,
+      render: () => <FormSwap entries={data.formEntries} onResult={onResult} />,
     },
-    { label: "🧩 Build a word", show: builderWords.length > 0, render: () => <WordBuilder words={builderWords} /> },
+    { label: "🧩 Build a word", show: builderWords.length > 0, render: () => <WordBuilder words={builderWords} onResult={onResult} /> },
     {
       label: "🔍 Spot the letter",
       show: spotWords.length > 0,
-      render: () => <SpotTheLetter words={spotWords} pool={data.letterPool} />,
+      render: () => <SpotTheLetter words={spotWords} pool={data.letterPool} onResult={onResult} />,
     },
     { label: "📖 Word cards", show: data.wordPool.length > 0, render: () => <Flashcards cards={wordCards(data.wordPool)} /> },
     // Drills a lesson asks for by id, resolved through the registry. Additive:

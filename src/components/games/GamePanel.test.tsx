@@ -1,7 +1,13 @@
-import { render, screen } from "@testing-library/react";
+import "fake-indexeddb/auto";
+import { IDBFactory } from "fake-indexeddb";
+import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { beforeEach, describe, expect, test, vi } from "vitest";
+import { useState } from "react";
+import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 import type { GameData } from "@/games/derive";
+import { allAttempts } from "@/practice/ledger";
+import { shapeOf, type PlannedItem, type PoolItem, type SessionPlan } from "@/practice/session";
+import { useSession } from "@/practice/useSession";
 import { GamePanel } from "./GamePanel";
 import { clearGames, registerGame } from "./GameRegistry";
 
@@ -83,5 +89,129 @@ describe("registry-declared drills", () => {
     await userEvent.click(screen.getByRole("button", { name: /Extra/ }));
     await userEvent.click(screen.getByRole("button", { name: "answer" }));
     expect(onResult).toHaveBeenCalledWith(expect.objectContaining({ gameId: "x", correct: true }));
+  });
+});
+
+/**
+ * The panel's **literal** tab list, end to end into the ledger.
+ *
+ * Task 6d gave the four objective letter drills an `onResult`, and this panel
+ * then forwarded it to the registry-mounted tabs only — so in the app the letter
+ * drills could report and still did not, and 29 of the 47 concepts would have
+ * gone on producing no rows at all. A test that asserted the prop was passed
+ * would have proved nothing about that: the prop *was* passed, to the other
+ * half of the list. So this renders the real panel, clicks the real buttons on
+ * each of the four tabs, and reads the rows back out of the real (fake-backed)
+ * IndexedDB store.
+ */
+describe("the letter drills report through the panel", () => {
+  const LETTER = "ب";
+
+  const letters = [
+    mk("ا", "alif"),
+    mk("ب", "ba"),
+    mk("ت", "ta"),
+    mk("س", "seen"),
+    mk("ش", "sheen"),
+    mk("م", "meem"),
+  ];
+
+  const data: GameData = {
+    lessonId: "1-08",
+    newLetters: [mk("ش", "sheen")],
+    letterPool: letters,
+    formEntries: [
+      { item: mk("ب", "ba"), forms: { isolated: "ب", initial: "بـ", medial: "ـبـ", final: "ـب" } },
+    ],
+    wordPool: [{ arabic: "شَمْس", translit: "shams", meaning: "sun" }],
+    formsTaught: true,
+  };
+
+  /** One planned slot per drill, all on the same letter. */
+  function planFor(n: number): { plan: SessionPlan; pool: PoolItem[] } {
+    const items: PlannedItem[] = Array.from({ length: n }, (_, i) => ({
+      conceptId: LETTER,
+      itemKey: `${LETTER}/letter-quiz/${i}`,
+      gameId: "letter-quiz",
+      ...shapeOf("letter-quiz"),
+      isInterleaved: false,
+    }));
+    return { plan: { focusConceptId: LETTER, items, slots: items.length }, pool: items };
+  }
+
+  function Harness() {
+    const [{ plan, pool }] = useState(() => planFor(4));
+    const runner = useSession(plan, pool, { sessionId: "s-panel" });
+    return <GamePanel data={data} onResult={runner.submit} />;
+  }
+
+  const tab = (name: RegExp) => userEvent.click(screen.getByRole("button", { name }));
+
+  beforeEach(() => {
+    globalThis.indexedDB = new IDBFactory();
+    vi.spyOn(Math, "random").mockReturnValue(0);
+  });
+  afterEach(() => vi.restoreAllMocks());
+
+  test("all four objective drills land real rows, keyed to the planned concept", async () => {
+    render(<Harness />);
+
+    // ❓ Quiz — the prompt names the letter, so the right choice is knowable
+    // without depending on how the shuffle landed.
+    await tab(/quiz/i);
+    const asked = await screen.findByText(/which letter is/i);
+    const wanted = letters.find((l) => asked.textContent?.includes(l.name))!;
+    await userEvent.click(screen.getByRole("button", { name: `choice ${wanted.arabic}` }));
+
+    // 🔀 Forms — two taps swap two slots, and the swap is graded.
+    await tab(/forms/i);
+    await userEvent.click(await screen.findByRole("button", { name: "Alone slot" }));
+    await userEvent.click(screen.getByRole("button", { name: "End slot" }));
+
+    // 🧩 Build a word — one verdict when the last slot fills.
+    await tab(/build a word/i);
+    for (const [letter, n] of [["ش", 3], ["م", 1], ["س", 2]] as const) {
+      await userEvent.click(await screen.findByRole("button", { name: `bank letter ${letter} ${n}` }));
+    }
+
+    // 🔍 Spot the letter — شَمْس is ش م س in order, so the named target's
+    // position is known and the tap is a real graded pick.
+    await tab(/spot the letter/i);
+    const prompt = await screen.findByText(/tap the letter/i);
+    const at = ["ش", "م", "س"].findIndex(
+      (l) => prompt.textContent?.includes(letters.find((it) => it.arabic === l)!.name),
+    );
+    await userEvent.click(screen.getByRole("button", { name: `word letter ${at + 1}` }));
+
+    const rows = await waitFor(async () => {
+      const all = await allAttempts();
+      expect(all).toHaveLength(4);
+      return all;
+    });
+    expect(rows.map((r) => r.gameId)).toEqual([
+      "letter-quiz",
+      "form-swap",
+      "word-builder",
+      "spot-the-letter",
+    ]);
+    // Every row keyed to the concept the session planned — a letter drill has no
+    // `ruleId`, which is why `attemptFromResult` takes the concept from context.
+    expect(rows.every((r) => r.conceptId === LETTER)).toBe(true);
+    expect(rows.every((r) => typeof r.correct === "boolean")).toBe(true);
+    expect(rows.every((r) => r.sessionId === "s-panel")).toBe(true);
+  });
+
+  test("the flashcard decks stay out of the ledger", async () => {
+    render(<Harness />);
+
+    // "✓ Got it" is a claim the learner makes about themselves, not a
+    // measurement — and an append-only ledger cannot take an unearned verdict
+    // back. Both decks are deliberately unwired.
+    await tab(/letter cards/i);
+    for (const btn of screen.getAllByRole("button", { name: /got it|again|flip|show/i })) {
+      await userEvent.click(btn);
+    }
+
+    await expect(allAttempts()).resolves.toHaveLength(0);
   });
 });

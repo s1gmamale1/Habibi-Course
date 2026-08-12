@@ -40,6 +40,28 @@ import type { Attempt } from "./types";
  * past that the session simply ends and the concept is **flagged**, which turns
  * a failure into scheduling information for the next session instead of an
  * infinite loop.
+ *
+ * ### A slot is a question, not a tap
+ *
+ * The house rule for emission is **one result per graded move**: `LetterQuiz`
+ * emits on every tap, `FamilySorter` on every drop, `RuleIdentifier` on every
+ * pick. A hook that advanced on every result would therefore spend three of the
+ * fourteen planned slots on one question answered wrong-wrong-right, and a
+ * sitting could be over in five questions.
+ *
+ * Emitting less is not the fix — the scheduler wants every move, and first-try
+ * only would discard exactly the misses it learns most from. So **recording and
+ * advancing are separate**:
+ *
+ * - `record` writes a row for whatever is on screen, always.
+ * - The **first graded** result decides the question: its verdict, its tail
+ *   retry and its flag. Later results are still rows; they do not re-open any of
+ *   that, and they do not move the session on.
+ * - `advance` moves to the next question, and only a screen can decide when —
+ *   the learner has to read the correction first.
+ *
+ * `submit` is the two composed, which is what every caller wanted before there
+ * was a screen and what the hook's own tests still exercise.
  */
 
 /** The whole tail, across every concept. Six is already a long coda to a 14-slot session. */
@@ -78,7 +100,23 @@ export type SessionRunner = {
   sessionId: string;
   /** Rows the ledger rejected. Surfaced rather than swallowed — see `submit`. */
   writeFailures: number;
-  /** Record one answer. Synchronous: nothing on screen waits on IndexedDB. */
+  /**
+   * What the question on screen has been answered with.
+   *
+   * `undefined` — nothing yet. `null` — answered, but the drill graded nothing,
+   * so there is no verdict to report and the question can still be decided.
+   * `true`/`false` — decided, by the first graded result. A screen reads this to
+   * know whether the way forward is open and what to say about the answer.
+   */
+  verdict: boolean | null | undefined;
+  /**
+   * Record one answer **without moving on**. Synchronous: nothing on screen
+   * waits on IndexedDB.
+   */
+  record: (result: GameResult) => void;
+  /** Move to the next question. Ignored while nothing has been answered. */
+  advance: () => void;
+  /** `record` then `advance` — one result, one question. */
   submit: (result: GameResult) => void;
 };
 
@@ -97,6 +135,12 @@ type SessionState = {
   /** Every `itemKey` this session has committed to showing, planned or queued. */
   used: Set<string>;
   writeFailures: number;
+  /**
+   * What the question at `index` has been answered with, or `null` for nothing
+   * yet. A verdict of `null` inside it is an *ungraded* answer — recorded, but
+   * not a decision, so a later graded result still gets to make one.
+   */
+  outcome: { verdict: boolean | null } | null;
 };
 
 function initialState(plan: SessionPlan): SessionState {
@@ -107,8 +151,13 @@ function initialState(plan: SessionPlan): SessionState {
     flagged: [],
     used: new Set(plan.items.map((i) => i.itemKey)),
     writeFailures: 0,
+    outcome: null,
   };
 }
+
+/** The question has a verdict: the tail, the flag and the feedback are settled. */
+const isDecided = (state: SessionState) =>
+  state.outcome !== null && state.outcome.verdict !== null;
 
 /**
  * The exemplar to ask again with: same concept, not yet used, and preferably a
@@ -165,6 +214,10 @@ function flag(flagged: readonly string[], conceptId: string): string[] {
  * One answer applied to the machine. Pure, so the decision to re-queue is
  * separable from the IO the hook does around it.
  *
+ * **The index is not touched here.** Recording an answer and leaving the
+ * question are two different events — see "a slot is a question, not a tap"
+ * above — and `advanced` owns the second.
+ *
  * `attempt` is `null` only when there was nothing on screen to answer — a
  * result arriving after the session ended is not an attempt at anything, and
  * must not become a row.
@@ -188,7 +241,13 @@ function step(
     isInterleaved: shown.isInterleaved,
   });
 
-  const next: SessionState = { ...state, index: state.index + 1 };
+  // A second graded move on a question already decided is still a row — the
+  // scheduler wants every move — but it re-opens nothing. Otherwise a learner
+  // who missed twice before getting it right would spend two of the concept's
+  // retries repairing one question.
+  if (isDecided(state)) return { next: state, attempt };
+
+  const next: SessionState = { ...state, outcome: { verdict: result.correct } };
 
   // `correct === null` is ungraded, and ungraded is not a miss. It writes its
   // row and queues nothing: no verdict, no failure, nothing to repair.
@@ -212,6 +271,20 @@ function step(
   next.retries = new Map(state.retries).set(shown.conceptId, spent + 1);
   next.used = new Set(state.used).add(retry.itemKey);
   return { next, attempt };
+}
+
+/**
+ * Leave the question behind.
+ *
+ * **Only an answered one.** Advancing past a question nothing was recorded for
+ * would spend a planned slot with no row to show for it, and the ledger is the
+ * only place the session's length is recoverable from afterwards. A screen with
+ * a skip button has to record the skip — `correct: null` — rather than step over
+ * it silently.
+ */
+function advanced(state: SessionState, plan: SessionPlan): SessionState {
+  if (state.outcome === null || !currentOf(state, plan)) return state;
+  return { ...state, index: state.index + 1, outcome: null };
 }
 
 /** The plan first, then the tail — the retries are the *end* of the lesson. */
@@ -261,8 +334,8 @@ export function useSession(
   const [pinnedPool] = useState(pool);
   const [sessionId] = useState(() => opts.sessionId ?? crypto.randomUUID());
 
-  const submit = useCallback(
-    (result: GameResult) => {
+  const apply = useCallback(
+    (result: GameResult, thenAdvance: boolean) => {
       const { next, attempt } = step(
         stateRef.current,
         pinnedPlan,
@@ -271,7 +344,7 @@ export function useSession(
         sessionId,
       );
       if (!attempt) return;
-      commit(next);
+      commit(thenAdvance ? advanced(next, pinnedPlan) : next);
 
       /**
        * Fire and forget, and **a rejected write does not block the session**.
@@ -296,6 +369,16 @@ export function useSession(
     [commit, pinnedPlan, pinnedPool, sessionId],
   );
 
+  // Three callbacks with stable identities, for the same reason `submit` always
+  // had one: they are passed straight to a drill, and a callback rebuilt on
+  // every answer would re-render the drill mid-question.
+  const record = useCallback((result: GameResult) => apply(result, false), [apply]);
+  const submit = useCallback((result: GameResult) => apply(result, true), [apply]);
+  const advance = useCallback(
+    () => commit(advanced(stateRef.current, pinnedPlan)),
+    [commit, pinnedPlan],
+  );
+
   const served = Math.max(0, state.index - pinnedPlan.items.length);
   const total = pinnedPlan.items.length + state.tail.length;
 
@@ -310,6 +393,9 @@ export function useSession(
     flagged: state.flagged,
     sessionId,
     writeFailures: state.writeFailures,
+    verdict: state.outcome === null ? undefined : state.outcome.verdict,
+    record,
+    advance,
     submit,
   };
 }

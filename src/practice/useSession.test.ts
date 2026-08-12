@@ -502,3 +502,92 @@ describe("the hook's own bookkeeping", () => {
     expect(row.id).toMatch(/\S/);
   });
 });
+
+/**
+ * Recording an answer and leaving the question are two different events.
+ *
+ * Drills emit once per *graded move*, so a hook that advanced on every result
+ * would spend three planned slots on one question answered wrong-wrong-right.
+ * `submit` — the composite the tests above exercise — is unchanged; these are
+ * the two halves it is made of.
+ */
+describe("record and advance", () => {
+  test("record writes the row and stays on the question", async () => {
+    const first = item("idgham", "rule-identifier", 1);
+    const session = run([first, item("ikhfa", "span-tapper", 1)], poolFor(["idgham", "ikhfa"]));
+
+    act(() => session.result.current.record(answer(first, false)));
+
+    expect(session.result.current.current!.itemKey).toBe(first.itemKey);
+    expect(session.result.current.progress.done).toBe(0);
+    await rowsWritten(1);
+  });
+
+  test("a second graded move is a row, and nothing else", async () => {
+    const first = item("idgham", "rule-identifier", 1);
+    const session = run([first], poolFor(["idgham"]));
+
+    act(() => session.result.current.record(answer(first, false)));
+    const queued = session.result.current.tailLength;
+    act(() => session.result.current.record(answer(first, true)));
+
+    await rowsWritten(2);
+    // The question was decided by the first graded answer. Repairing it inside
+    // the drill must not spend a second of the concept's two retries, and must
+    // not rewrite the verdict the tail was queued on.
+    expect(session.result.current.tailLength).toBe(queued);
+    expect(session.result.current.verdict).toBe(false);
+    expect(session.result.current.current!.itemKey).toBe(first.itemKey);
+  });
+
+  test("verdict reports unanswered, ungraded and decided as three different things", () => {
+    const shown = item("idgham", "rule-identifier", 1);
+    const session = run([shown], poolFor(["idgham"]));
+
+    expect(session.result.current.verdict).toBeUndefined();
+    act(() => session.result.current.record(answer(shown, null)));
+    // Answered, but the drill graded nothing — so there is no verdict to report
+    // and the question can still be decided.
+    expect(session.result.current.verdict).toBeNull();
+    act(() => session.result.current.record(answer(shown, true)));
+    expect(session.result.current.verdict).toBe(true);
+  });
+
+  test("advance moves on, and clears the answer with the question", () => {
+    const first = item("idgham", "rule-identifier", 1);
+    const second = item("ikhfa", "span-tapper", 1);
+    const session = run([first, second], poolFor(["idgham", "ikhfa"]));
+
+    act(() => session.result.current.record(answer(first, true)));
+    act(() => session.result.current.advance());
+
+    expect(session.result.current.current!.itemKey).toBe(second.itemKey);
+    expect(session.result.current.progress.done).toBe(1);
+    expect(session.result.current.verdict).toBeUndefined();
+  });
+
+  test("advance does nothing while the question is unanswered", async () => {
+    const first = item("idgham", "rule-identifier", 1);
+    const session = run([first, item("ikhfa", "span-tapper", 1)], poolFor(["idgham", "ikhfa"]));
+
+    act(() => session.result.current.advance());
+
+    // Stepping over a question would spend a planned slot with no row to show
+    // for it, and the ledger is where a session's length is recoverable from.
+    expect(session.result.current.current!.itemKey).toBe(first.itemKey);
+    expect(session.result.current.progress.done).toBe(0);
+    await expect(allAttempts()).resolves.toHaveLength(0);
+  });
+
+  test("advance past the end is not a way to run off it", () => {
+    const shown = item("idgham", "rule-identifier", 1);
+    const session = run([shown], poolFor(["idgham"]));
+
+    answerCurrent(session, true);
+    act(() => session.result.current.advance());
+
+    expect(session.result.current.progress.done).toBe(1);
+    expect(session.result.current.isComplete).toBe(true);
+    expect(session.result.current.current).toBeNull();
+  });
+});
