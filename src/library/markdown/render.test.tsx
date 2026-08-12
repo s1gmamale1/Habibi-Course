@@ -51,6 +51,26 @@ describe("block rendering", () => {
     const { container } = draw("---\n");
     expect(container.querySelector("hr")).not.toBeNull();
   });
+
+  test("spec test #10 — a table cell containing Arabic gets dir=\"auto\"", () => {
+    draw("| Arabic | Note |\n|---|---|\n| مِـمَّ | mixed with → separators |\n");
+    const cell = screen.getByRole("cell", { name: /مِـمَّ/ });
+    expect(cell.getAttribute("dir")).toBe("auto");
+  });
+
+  test("spec test #10 — an Arabic heading carries lang=\"ar\" and the .arabic class", () => {
+    draw("## بَابُ الْمَدِّ وَالْقَصْرِ\n");
+    const heading = screen.getByRole("heading", { level: 2 });
+    expect(heading.getAttribute("lang")).toBe("ar");
+    expect(heading.className).toContain("arabic");
+  });
+
+  test("an English heading gets neither lang nor the .arabic class", () => {
+    draw("## Common mistakes\n");
+    const heading = screen.getByRole("heading", { level: 2 });
+    expect(heading.getAttribute("lang")).toBeNull();
+    expect(heading.className).not.toContain("arabic");
+  });
 });
 
 describe("inline rendering", () => {

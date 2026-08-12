@@ -8,7 +8,10 @@ export default function LibraryPage() {
     { href: "/library/rules", title: "Tajweed rules", n: count("rule"), blurb: "Every rule the course teaches, with its sources and worked examples." },
     { href: "/library/letters", title: "The letters", n: count("letter"), blurb: "All 29 letters — makhraj, sifat, and what each is confused with." },
     { href: "/library/sources", title: "Sources", n: count("source"), blurb: "The classical matns and data sets this course is built on." },
-    { href: "/library/glossary", title: "Glossary", n: 1, blurb: "Uzbek · Arabic · English, in the forms this course uses." },
+    // Two `type: index` notes are in scope — Glossary.md and Sifat.md — but only the
+    // Glossary has its own browse route today (WISHLIST: a Sifat/index browse section
+    // is an owner decision, filed separately). The count is real; the label says so.
+    { href: "/library/glossary", title: "Glossary & reference", n: count("index"), blurb: "Uzbek · Arabic · English terms, plus other reference notes." },
   ];
 
   return (

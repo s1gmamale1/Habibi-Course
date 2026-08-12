@@ -17,7 +17,9 @@ import { slugifyHeading } from "./slug";
  *    A line-oriented pattern misses it and emits literal `[[Izhar-Shafawi|iẓhār`
  *    to the student, which is precisely the defect WISHLIST:146 calls most likely.
  */
-const WIKILINK = /\[\[([^\]|#]*)(?:#([^\]|]*))?(?:\|([\s\S]*?))?\]\]/g;
+// Exported so tests can enumerate every wikilink target in a note body without
+// re-implementing this pattern — see wikilinks.test.ts, "the set is link-closed".
+export const WIKILINK = /\[\[([^\]|#]*)(?:#([^\]|]*))?(?:\|([\s\S]*?))?\]\]/g;
 
 /** Frontmatter `sources:` values are wikilink strings, not plain names. */
 export function stripWikilink(value: string): string {

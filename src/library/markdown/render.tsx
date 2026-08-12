@@ -9,6 +9,11 @@ function isExternal(href: string): boolean {
   return /^https?:\/\//i.test(href);
 }
 
+// Mirrors the range in src/library/sources.ts. A simple contains-test — not a general
+// bidi engine — is enough to tell a bāb heading (predominantly Arabic) from an English
+// one.
+const ARABIC = /[؀-ۿ]/;
+
 /** Inline tokens → React. `html` is deliberately absent: it falls through to text. */
 function renderInline(tokens: Token[] | undefined, key = "i"): React.ReactNode {
   if (!tokens) return null;
@@ -63,9 +68,17 @@ export function renderTokens(tokens: Token[], slugger: Slugger, key = "b"): Reac
       case "heading": {
         const h = t as Tokens.Heading;
         const id = slugger(h.text);
-        const cls = h.depth <= 2 ? "mt-8 mb-3 text-xl font-bold text-white/90" : "mt-6 mb-2 font-semibold text-white/85";
+        // A bāb heading (predominantly Arabic) gets the same presentation contract as
+        // TajweedText: `.arabic` (Amiri, rtl) and `lang="ar"` for screen readers.
+        const arabicHeading = ARABIC.test(h.text);
+        const base = h.depth <= 2 ? "mt-8 mb-3 text-xl font-bold text-white/90" : "mt-6 mb-2 font-semibold text-white/85";
+        const cls = arabicHeading ? `${base} arabic` : base;
         const Tag = (`h${Math.min(h.depth, 6)}`) as "h1";
-        return <Tag key={k} id={id} className={cls}>{renderInline(h.tokens, k)}</Tag>;
+        return (
+          <Tag key={k} id={id} lang={arabicHeading ? "ar" : undefined} className={cls}>
+            {renderInline(h.tokens, k)}
+          </Tag>
+        );
       }
       case "paragraph":
         return <p key={k} className="my-3 leading-relaxed text-white/75">{renderInline((t as Tokens.Paragraph).tokens, k)}</p>;
@@ -94,7 +107,9 @@ export function renderTokens(tokens: Token[], slugger: Slugger, key = "b"): Reac
               <thead>
                 <tr>
                   {tb.header.map((cell, j) => (
-                    <th key={`${k}-h-${j}`} className="border-b border-white/20 px-2 py-1.5 text-left font-semibold text-white/85">
+                    // dir="auto" — many cells mix Arabic with `→`/`·` separators, which
+                    // otherwise resolve to reversed display order under UAX#9.
+                    <th key={`${k}-h-${j}`} dir="auto" className="border-b border-white/20 px-2 py-1.5 text-left font-semibold text-white/85">
                       {renderInline(cell.tokens, `${k}-h-${j}`)}
                     </th>
                   ))}
@@ -104,7 +119,7 @@ export function renderTokens(tokens: Token[], slugger: Slugger, key = "b"): Reac
                 {tb.rows.map((row, r) => (
                   <tr key={`${k}-r-${r}`}>
                     {row.map((cell, c) => (
-                      <td key={`${k}-r-${r}-${c}`} className="border-b border-white/10 px-2 py-1.5 align-top text-white/75">
+                      <td key={`${k}-r-${r}-${c}`} dir="auto" className="border-b border-white/10 px-2 py-1.5 align-top text-white/75">
                         {renderInline(cell.tokens, `${k}-r-${r}-${c}`)}
                       </td>
                     ))}

@@ -24,6 +24,34 @@ describe("displayModeFor", () => {
   test("every source note gets a mode", () => {
     for (const n of sources()) expect(["withhold-matn", "full"]).toContain(displayModeFor(n.meta as SourceNote));
   });
+
+  // The test above ("the four text-bearing classical sources withhold their matn")
+  // only catches a source LEAVING the withhold set — the harmless direction. It says
+  // nothing about a NEW full-text source arriving without `author_arabic`: the named
+  // four stay named, that test stays green, and the matn ships anyway. This runs the
+  // guard the other way — the direction the actual risk runs in.
+  test("contrapositive — every source carrying source text is withheld, or a named, justified exception", () => {
+    // Tanzil and cpfair/quran-tajweed are `vendored: full-text` but carry no matn a
+    // student could memorise from: they vendor the Qur'an corpus itself and its tajweed
+    // annotations — machine-readable data, not a classical treatise attributed to a
+    // named author. That is exactly why they lack `author_arabic` and render in full.
+    // Any other addition to this list must be justified the same way, by hand.
+    const NON_MATN_FULL_TEXT_EXCEPTIONS = ["tanzil", "cpfair-quran-tajweed"];
+
+    for (const n of sources()) {
+      const meta = n.meta as SourceNote;
+      const carriesSourceText =
+        meta.vendored === "full-text" || meta.vendored === "partial" || meta.vendored === "excerpts";
+      if (!carriesSourceText) continue;
+
+      const withheld = displayModeFor(meta) === "withhold-matn";
+      const isNamedException = NON_MATN_FULL_TEXT_EXCEPTIONS.includes(n.slug);
+      expect(
+        withheld || isNamedException,
+        `${n.slug}: vendored "${meta.vendored}" carries source text but is neither withheld nor a named exception`,
+      ).toBe(true);
+    }
+  });
 });
 
 describe("withholdMatn", () => {

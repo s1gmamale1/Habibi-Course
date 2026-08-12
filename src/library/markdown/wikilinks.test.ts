@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { resolveWikilinks, stripWikilink, buildResolver } from "./wikilinks";
+import { resolveWikilinks, stripWikilink, buildResolver, WIKILINK } from "./wikilinks";
 import { allNotes } from "../load";
 
 const resolve = (name: string) => (name === "Ghunnah" || name === "Izhar-Shafawi" ? `/library/${name.toLowerCase()}` : null);
@@ -65,10 +65,19 @@ describe("against the real vault", () => {
   });
 
   test("every wikilink in every in-scope note resolves — the set is link-closed", () => {
+    // Asserting `out` has no leftover "[[" (the previous form of this test) holds for
+    // ANY resolver, including a broken one — resolveWikilinks degrades an unresolvable
+    // target to plain text, so it never leaks brackets either way. That let a reviewer
+    // replace buildResolver's body with `() => null` and keep this test green. Walking
+    // the raw wikilinks and asserting the resolver itself returns non-null is the only
+    // way to catch that.
     const r = buildResolver();
     for (const n of allNotes()) {
-      const out = resolveWikilinks(n.body, r);
-      expect(out.includes("[["), `${n.file} leaked a wikilink`).toBe(false);
+      for (const m of n.body.matchAll(WIKILINK)) {
+        const target = (m[1] ?? "").trim();
+        if (!target) continue; // empty target — a same-page anchor, legitimately resolves to null
+        expect(r(target), `${n.file}: "${m[0]}" did not resolve`).not.toBeNull();
+      }
     }
   });
 
