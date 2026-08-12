@@ -1,7 +1,6 @@
 import { allLessonIds, allLessons, loadLesson } from "@/content/load";
 import { DrillGrid } from "@/components/DrillGrid";
-import { GamePanel } from "@/components/games/GamePanel";
-import { DueTodayPanel } from "@/components/practice/DueToday";
+import { PracticeSession } from "@/components/practice/PracticeSession";
 import { PrintButton } from "@/components/ProgressClient";
 import { deriveGameData } from "@/games/derive";
 // Side-effect imports: register the drills so `lesson.games` can resolve them.
@@ -29,17 +28,14 @@ export default async function PracticePage({ params }: { params: Promise<{ id: s
     <main className="mx-auto max-w-2xl p-6 pb-16">
       <h1 className="gradient-text text-2xl font-bold">Practice — {lesson.title}</h1>
       <p className="mb-6 text-white/60">15–20 minutes daily. Tap any Arabic item to hear it (or get its practice cue).</p>
-      {/* The entry point, above the lesson's own drills: what is due, what needs
-          work, and how consistently the learner has turned up. It reads the
-          ledger in the browser, so it renders nothing at all during a static
-          export — which is why it sits above content that does not depend on it
-          rather than replacing any of it. */}
-      <DueTodayPanel data={gameData} />
-      <PrintButton label="🖨 Print for offline practice (optional)" />
-      {/* `DueToday`'s one loud action scrolls here. */}
-      <section id="interactive-practice" className="glass mb-8 rounded-2xl p-4 print:hidden sm:p-5">
-        <GamePanel data={gameData} heading="Interactive practice" games={lesson.games} />
-      </section>
+      {/* The entry point, and the only place the practice engine is reachable:
+          it owns what is due, the lesson's drills, and the session that runs
+          between them. Client-side, because this page is a static export and
+          the ledger lives in the browser. The print button is passed through so
+          the page keeps its original order. */}
+      <PracticeSession data={gameData} games={lesson.games}>
+        <PrintButton label="🖨 Print for offline practice (optional)" />
+      </PracticeSession>
       {lesson.practice.drills.map((d) => <DrillGrid key={d.title} drill={d} />)}
       <section className="glass mb-8 rounded-2xl p-4 print:hidden sm:p-5">
         <h3 className="mb-2 text-xl font-semibold text-white/90">Daily checklist</h3>

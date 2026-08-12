@@ -69,6 +69,32 @@ export const SESSION_SLOTS = 14;
 export const TIMED_GAME_IDS: ReadonlySet<string> = new Set(["ghunnah-timer"]);
 
 /**
+ * Drills that produce no verdict, so a session may never plan one.
+ *
+ * The two flashcard decks. `letter-flashcards` advertises `exemplars`, which is
+ * what makes this necessary rather than theoretical: without the exclusion a
+ * plan can legitimately draw a deck, and `SessionRunner`'s continue button is
+ * gated on `runner.verdict !== undefined` — so the session would stall on a
+ * question the learner has no way to answer, with only the ✕ available. That is
+ * invisible until the engine is actually mounted, which is why it surfaced here
+ * and not in any of the twelve tasks that built it.
+ *
+ * The exclusion is also the right answer on the merits, and the same one
+ * `GamePanel` already reached when it withheld `onResult` from the decks: "✓ Got
+ * it" is a claim the learner makes about themselves, not a measurement, and an
+ * unearned verdict in an append-only ledger cannot be taken back. The decks stay
+ * fully available as free practice — they are simply not instruments.
+ *
+ * Kept beside `DRILL_MODES` rather than in the pool builder because this module
+ * is the authority on what a session is made of, and it must keep running with
+ * no DOM when ADR-007 lands — a set of strings costs that nothing.
+ */
+export const UNGRADED_GAME_IDS: ReadonlySet<string> = new Set([
+  "letter-flashcards",
+  "word-flashcards",
+]);
+
+/**
  * Which response mode each shipped drill asks for.
  *
  * A gameId belongs to exactly one mode, which is what lets the ramp be enforced
