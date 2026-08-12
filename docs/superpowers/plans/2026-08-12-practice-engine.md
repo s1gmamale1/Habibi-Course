@@ -119,7 +119,20 @@ onResult?.({
 });
 ```
 
-- [ ] **Step 5: Do the same for `MaddCounter`**, using its accepted-counts target.
+- [ ] **Step 5: `MaddCounter` gets `choice`, NOT `measure`** *(corrected 2026-08-12 — the original instruction here was wrong)*
+
+`MaddCounter` is **not duration-graded**. Its `held` is a *prop*, nothing is timed, and there is no calibration step. It grades against `acceptedHarakat(rule)` — a **set** — and `madd_246` accepts `[2,4,6]` because the rule genuinely permits any of the three. Its own header comment: *"A drill that marked four wrong for it would be teaching a falsehood."*
+
+Filling `measure` would mean writing `heldMs: 0, msPerHarakah: 0` — a fabricated measurement, the same defect class as `correct: false` for "no verdict" that the Global Constraints forbid. So it emits a separate optional field instead:
+
+```ts
+/** Drills where the learner SELECTS a length rather than holding one. */
+choice?: { chosenHarakat: number; acceptedHarakat: number[] };
+```
+
+This captures what was actually being discarded: **which** length was picked — a 2-for-6 miss is a different diagnosis from a 4-for-6 miss — and the full accepted set.
+
+**Downstream (Tasks 2, 3, 4):** map `choice.chosenHarakat → measuredHarakat`, and **leave `targetHarakat` undefined when the accepted set has more than one member.** Picking one of three would record a falsehood. A grader that sees a `choice` with no single target falls back to `correct`.
 - [ ] **Step 6: Fix every `correct: boolean` consumer** the `| null` widening breaks. `npx tsc --noEmit` lists them.
 - [ ] **Step 7: Full gate + commit**
 
@@ -148,7 +161,10 @@ export type Attempt = {
   gameId: string;
   correct: boolean | null; // null = ungraded. Never false for "no verdict".
   measuredHarakat?: number;
+  /** Undefined when the rule accepts several lengths (madd_246 accepts 2, 4 and 6).
+   *  Never collapse a set to one value — that records a falsehood the drill exists to refute. */
   targetHarakat?: number;
+  acceptedHarakat?: number[];
   msPerHarakah?: number;   // without this, measuredHarakat is uninterpretable later
   sessionId: string;
   isInterleaved: boolean;  // review items double as the retention instrument
@@ -289,6 +305,8 @@ export function gradeOf(a: Attempt): Grade {
     if (r <= 0.50) return Rating.Hard;
     return Rating.Again;
   }
+  // A choice drill with several accepted lengths has no single target to score
+  // against, so it grades on the verdict. See Task 1 Step 5.
   return a.correct ? Rating.Good : Rating.Again;
 }
 ```
