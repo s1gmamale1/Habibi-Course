@@ -20,7 +20,7 @@ import type { ArabicItem } from "@/content/schema";
 import type { GameData } from "@/games/derive";
 import { appendAttempt } from "@/practice/ledger";
 import type { Attempt } from "@/practice/types";
-import { DueToday, DueTodayPanel } from "./DueToday";
+import { DENSITY_WINDOW_DAYS, DueToday, DueTodayPanel } from "./DueToday";
 
 /* ---------- fixtures ---------------------------------------------------- */
 
@@ -141,6 +141,25 @@ describe("DueToday — the density display has no loss condition", () => {
     expect(container.textContent).not.toMatch(LOSS_VOCABULARY);
   });
 
+  test("the window's far edge is exactly twenty-one days wide", () => {
+    const inside = view({ attempts: [mk({ at: daysAgo(DENSITY_WINDOW_DAYS - 1) })] });
+    expect(inside.container.textContent).toMatch(/تدرّبت ١ من آخر ٢١ يوم/);
+    inside.unmount();
+
+    // One day further back is the first day outside it — and leaving is silent.
+    const outside = view({ attempts: [mk({ at: daysAgo(DENSITY_WINDOW_DAYS) })] });
+    expect(outside.container.textContent).toMatch(/ستظهر هنا/);
+    expect(outside.container.textContent).not.toMatch(LOSS_VOCABULARY);
+  });
+
+  test("an attempt dated in the future is not practice already done", () => {
+    // The same cut `orderedAttempts` makes at `now`. A clock that jumped
+    // forward and back must not leave the learner credited for a day they have
+    // not had.
+    const { container } = view({ attempts: [mk({ at: daysAgo(-1) })] });
+    expect(container.textContent).toMatch(/ستظهر هنا/);
+  });
+
   test("no standalone zero anywhere, in any state", () => {
     for (const attempts of [[], [mk({ at: daysAgo(30) })], [mk({ at: daysAgo(2) })]]) {
       const { container, unmount } = view({ attempts });
@@ -181,6 +200,35 @@ describe("DueToday — the weekly target counts distinct days", () => {
     expect(container.textContent).toMatch(/تدرّبت ١ من آخر ٢١/);
   });
 
+  test("the day boundary is the learner's midnight, not Greenwich's", () => {
+    // Both directions, so the assertion does not encode this machine's offset:
+    // a UTC-keyed boundary lands *after* local midnight in a positive offset and
+    // *before* it in a negative one, and one of these two catches either.
+    const mondayJustAfterMidnight = new Date(2026, 7, 10, 0, 30, 0).getTime();
+    const sundayJustBefore = new Date(2026, 7, 9, 23, 30, 0).getTime();
+
+    const inWeek = view({ attempts: [mk({ at: mondayJustAfterMidnight })] });
+    expect(inWeek.container.textContent).toMatch(/١ من ٣ أيام مختلفة/);
+    inWeek.unmount();
+
+    const before = view({ attempts: [mk({ at: sundayJustBefore })] });
+    expect(before.container.textContent).toMatch(/ثلاثة أيام مختلفة هي الهدف/);
+  });
+
+  test("the dots stop at the target however many days there are", () => {
+    // A Friday, so a Monday-start week can hold five distinct days.
+    const friday = new Date(2026, 7, 14, 10, 0, 0).getTime();
+    const { container } = view({
+      now: friday,
+      attempts: [10, 11, 12, 13, 14].map((d) => mk({ at: new Date(2026, 7, d, 9, 0, 0).getTime() })),
+    });
+    expect(container.textContent).toMatch(/٥ أيام مختلفة/);
+    // The row is a target, not a tally: it does not grow into a score.
+    expect(container.querySelector('[data-testid="week-dots"]')?.textContent).toBe(
+      "\u25cf\u25cf\u25cf",
+    );
+  });
+
   test("passing the target reports the truth rather than capping it", () => {
     const { container } = view({
       attempts: [0, 1, 2].map((n) => mk({ at: daysAgo(n) })),
@@ -214,6 +262,27 @@ describe("DueToday — the weekly target counts distinct days", () => {
 });
 
 describe("DueToday — the weak list is a list, not a wall", () => {
+  test("worst first, among concepts whose newest answer was clean", () => {
+    // Neither is flagged — both were last answered correctly — so the order is
+    // decided by accumulated wrongness alone. `ikhfa` carries five misses to
+    // `iqlab`'s two.
+    const { container } = view({
+      attempts: [
+        ...fiveMisses("ikhfa"),
+        mk({ conceptId: "ikhfa", at: NOW - DAY + 50, correct: true }),
+        wrong({ conceptId: "iqlab", at: NOW - DAY }),
+        wrong({ conceptId: "iqlab", at: NOW - DAY + 1 }),
+        mk({ conceptId: "iqlab", at: NOW - DAY + 50, correct: true }),
+      ],
+    });
+    const named = [...container.querySelectorAll('[data-testid="weak-list"] li')].map(
+      (li) => li.textContent ?? "",
+    );
+    expect(named).toHaveLength(2);
+    expect(named[0]).toMatch(/إخفاء/);
+    expect(named[1]).toMatch(/إقلاب/);
+  });
+
   test("a long list is capped and the remainder counted out loud", () => {
     const ids = ["ikhfa", "iqlab", "qalqalah", "madd_munfasil", "madd_muttasil", "madd_6"];
     const { container } = view({ attempts: ids.flatMap((id) => fiveMisses(id)) });
@@ -321,8 +390,13 @@ describe("DueToday — RTL", () => {
 
   test("numerals inside Arabic lines are isolated", () => {
     const { container } = view({ attempts: [mk({ at: daysAgo(1) })] });
-    // Without an isolate, a Latin-ordered digit run inside an RTL line reorders.
-    expect(container.querySelectorAll("bdi").length).toBeGreaterThan(0);
+    // Without an isolate, a digit run inside an RTL line reorders against the
+    // words around it. Asserted per line, not as a count over the card — a
+    // `<bdi>` somewhere else is no help to the line that lost one.
+    for (const id of ["density-line", "week-line", "due-count"]) {
+      const line = container.querySelector(`[data-testid="${id}"]`);
+      expect(line?.querySelectorAll("bdi").length, id).toBeGreaterThan(0);
+    }
   });
 });
 
@@ -375,11 +449,12 @@ describe("DueTodayPanel — attempts in the ledger change what this screen says"
   });
 
   test("an empty store renders the first-run state rather than nothing", async () => {
-    const { container } = render(<DueTodayPanel data={gameData([])} />);
+    const { container } = render(<DueTodayPanel data={gameData([{ arabic: "ت", name: "tā" }])} />);
     await waitFor(() => expect(screen.getByTestId("start-review")).toBeTruthy());
     expect(container.textContent).toMatch(/لم تتدرّب بعد/);
-    // The 18 rules are seeded even with no letters in the pool.
-    expect(container.textContent).toMatch(/١٨ مفهوم/);
+    // The 18 rules *and* the pool's letters: a roster that dropped the letters
+    // would silently stop scheduling 29 of the 47 concepts.
+    expect(container.textContent).toMatch(/١٩ مفهوم/);
   });
 
   test("a ledger that will not open leaves the screen usable", async () => {
