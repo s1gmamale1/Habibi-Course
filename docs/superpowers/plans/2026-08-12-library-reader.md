@@ -956,14 +956,21 @@ describe("stripWikilink", () => {
 
 describe("against the real vault", () => {
   test("PRECONDITION — no [[ appears inside a code span or fence", () => {
-    // resolveWikilinks runs on raw markdown before lexing, which is only safe while
+    // resolveWikilinks runs on raw markdown BEFORE lexing, which is only safe while
     // this holds. If a note ever puts [[x]] inside code, this fails and the transform
     // must move into the token walk instead.
+    //
+    // Extract the code segments and test THOSE. Do not try to subtract the non-code
+    // text from the body — `body.replace(withoutCode, "")` looks plausible and is
+    // wrong: `withoutCode` is not a substring of `body` whenever the note contains
+    // any code, so the replace matches nothing, the whole body survives, and the
+    // assertion then trips on ordinary prose wikilinks.
     for (const n of allNotes()) {
-      const withoutFences = n.body.replace(/```[\s\S]*?```/g, "");
-      const withoutCode = withoutFences.replace(/`[^`\n]*`/g, "");
-      const removedCode = n.body.replace(withoutCode, "");
-      expect(removedCode.includes("[["), n.file).toBe(false);
+      const fences = n.body.match(/```[\s\S]*?```/g) ?? [];
+      const inline = n.body.replace(/```[\s\S]*?```/g, "").match(/`[^`\n]*`/g) ?? [];
+      for (const segment of [...fences, ...inline]) {
+        expect(segment.includes("[["), `${n.file}: ${segment.slice(0, 60)}`).toBe(false);
+      }
     }
   });
 
