@@ -239,6 +239,29 @@ function applyBands(s: ConceptState, clean: boolean): void {
 }
 
 /**
+ * The ledger as of `now`, in the one order every fold over it must use.
+ *
+ * Copied before sorting: the caller's array is theirs, and `allAttempts()` hands
+ * out the one it read from the store.
+ *
+ * The `id` tiebreak is load-bearing. `allAttempts()` reads through the `at`
+ * index, but the primary key is a random UUID, so two rows written in the same
+ * millisecond come back in an order that is arbitrary and not stable between
+ * reads. Both folds over the ledger are order-dependent, so without this the
+ * same ledger would derive different state on consecutive page loads.
+ *
+ * Exported because `session.ts` replays the same ledger into FSRS schedules and
+ * has to see it in the same order and cut at the same `now`. Two copies of this
+ * would be two chances to lose the tiebreak, and the second copy would be the
+ * one nobody remembered to fix.
+ */
+export function orderedAttempts(attempts: readonly Attempt[], now: number): Attempt[] {
+  return [...attempts]
+    .filter((a) => a.at <= now)
+    .sort((x, y) => x.at - y.at || (x.id < y.id ? -1 : x.id > y.id ? 1 : 0));
+}
+
+/**
  * Fold every attempt into one state per concept, as of `now`.
  *
  * Attempts dated after `now` are not folded, which is what makes the second
@@ -249,17 +272,7 @@ function applyBands(s: ConceptState, clean: boolean): void {
  * the default would assert that the concept has a state, and it has none.
  */
 export function derive(attempts: readonly Attempt[], now: number): Map<string, ConceptState> {
-  // Copied before sorting: the caller's array is theirs, and `allAttempts()`
-  // hands out the one it read from the store.
-  //
-  // The `id` tiebreak is load-bearing. `allAttempts()` reads through the `at`
-  // index, but the primary key is a random UUID, so two rows written in the same
-  // millisecond come back in an order that is arbitrary and not stable between
-  // reads. The fold is order-dependent, so without this the same ledger would
-  // derive different state on consecutive page loads.
-  const ordered = [...attempts]
-    .filter((a) => a.at <= now)
-    .sort((x, y) => x.at - y.at || (x.id < y.id ? -1 : x.id > y.id ? 1 : 0));
+  const ordered = orderedAttempts(attempts, now);
 
   const states = new Map<string, ConceptState>();
 
