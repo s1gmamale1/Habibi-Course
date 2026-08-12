@@ -1,18 +1,18 @@
 import { describe, test, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import RulesPage from "./rules/page";
-import LettersPage from "./letters/page";
+import TajweedPage from "./tajweed/page";
+import AlphabetPage from "./alphabet/page";
 import SourcesPage from "./sources/page";
 import { allNotes } from "@/library/load";
 
-describe("/library/rules", () => {
+describe("/library/tajweed", () => {
   test("lists all 59 rules and no non-rules", () => {
-    render(<RulesPage />);
+    render(<TajweedPage />);
     expect(screen.getAllByRole("listitem")).toHaveLength(59);
   });
 
   test("groups by family and shows every family in use", () => {
-    render(<RulesPage />);
+    render(<TajweedPage />);
     const families = new Set(allNotes().filter((n) => n.meta.type === "rule").map((n) => (n.meta as { family: string }).family));
     // Anchored: family "ra" is a literal substring of family "orthography", so an
     // unanchored regex matches both headings and getByRole throws on ambiguity.
@@ -20,14 +20,14 @@ describe("/library/rules", () => {
   });
 
   test("Sifat.md is NOT listed as a rule — it is type: index", () => {
-    render(<RulesPage />);
+    render(<TajweedPage />);
     expect(screen.queryByRole("link", { name: /^Ṣifāt al-Ḥurūf/ })).toBeNull();
   });
 });
 
-describe("/library/letters", () => {
+describe("/library/alphabet", () => {
   test("lists all 29 letters", () => {
-    render(<LettersPage />);
+    render(<AlphabetPage />);
     expect(screen.getAllByRole("listitem")).toHaveLength(29);
   });
 });
