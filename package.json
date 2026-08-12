@@ -15,7 +15,10 @@
     "build:quran": "node scripts/build-quran-data.mjs",
     "fetch:timings": "node scripts/fetch-word-timings.mjs",
     "check:refs": "node scripts/check-refs.mjs",
-    "check:library": "node scripts/check-library.mjs library"
+    "check:library": "node scripts/check-library.mjs library",
+    "wire:makhraj": "node scripts/wire-makhraj-images.mjs",
+    "build:makhraj": "node scripts/build-makhraj-points.mjs",
+    "fix:makhraj-glyphs": "node scripts/fix-makhraj-glyphs.mjs"
   },
   "dependencies": {
     "@fontsource/amiri": "^5.3.0",

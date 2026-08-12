@@ -14,7 +14,7 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Rule notes | 59 total — **56 verified** against vendored sources, 3 `needs-review`, each naming the specific artifact still needed |
 | Gates | 900 tests · 0 lint errors · library 0 errors / 3 warnings · **CI green on GitHub Actions** |
 
-> **Phases 1–4 and 8 are complete.** The course is fully reachable and the drills now remember: 231 static pages, 14 practice games, **900 tests**. Phases 1–4 were *content*; Phase 8 (2026-08-12) was the first substantial *code* phase since, and it shipped the practice engine — ledger, FSRS scheduling, session assembly, and the session screen a learner can actually reach. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items, Phase 7's fixable gaps, and two owner requirements in `WISHLIST.md` — the mandatory end-of-lesson check and sound effects. None of it blocks a learner from starting today.
+> **Phases 1–4, 7 and 8 are complete, and Phase 5 is closed by decision.** The course is fully reachable, the drills now remember, and every tongue letter has its own makhraj diagram. Phases 1–4 were *content*; Phase 8 (2026-08-12) shipped the practice engine — ledger, FSRS scheduling, session assembly, and a session screen a learner can actually reach — and Phase 7 closed the last fixable gaps. **Phase 5 (audio) is skipped, not parked:** the owner decided on 2026-08-12 not to do the recording work, so every qāʿidah cue stays as written text and `TapToHear`'s "practice live with your teacher" is the permanent answer rather than a placeholder. **The hotlist is clear.** What remains is Phase 6's two outside-world items — both blocked on artifacts that may never exist — and two owner requirements in `WISHLIST.md`: the mandatory end-of-lesson check and sound effects.
 
 ---
 
@@ -172,12 +172,29 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 
 ---
 
-## Phase 5 — Audio ⏸️ **RESEARCHED 2026-08-11, PARKED awaiting an audition**
+## Phase 5 — Audio 🚫 **RECORDING SKIPPED by the owner, 2026-08-12**
 
-> **Status changed.** This was "deferred, and nothing exists anyway". After the sweep of
-> 2026-08-11 it is **parked on a listening decision** — assets were found, and the framing
-> that justified the deferral turned out to be wrong in three places. Full evidence in
-> `WISHLIST.md`; the corrections are below because they change what this phase *is*.
+> **Owner decision, 2026-08-12: skip the recording work.** Not deferred pending a
+> better moment — **skipped**. Nothing in this phase that requires someone to record
+> audio is scheduled, and it should not be surfaced as next work or quietly revived
+> by a later sweep. That covers the owner's own recording *and* the 723-cue
+> qāʿidah recording job below, which was the irreducible remainder either way.
+>
+> **What the decision does not touch**, because none of it involves recording: the
+> whole-Qurʾān word audio (link-only, already usable), the CC-BY letter video set,
+> and the licence findings. Those stay documented and available if anyone ever
+> wants them — the research below is kept for that reason, not as a to-do list.
+>
+> **Consequence worth stating plainly:** every qāʿidah cue stays as written text.
+> `TapToHear`'s `teacher-voice` tier already says so on screen — *"No recording
+> exists for this item — practice live with your teacher"* — which was designed as
+> a placeholder and is now the permanent behaviour. That is a coherent answer for a
+> course built around a live teacher at the checkpoints; it is not a gap left open.
+
+> **Earlier status, kept because it corrects the record.** This was once "deferred, and
+> nothing exists anyway". The 2026-08-11 sweep found that framing wrong in three places,
+> and those corrections stand on their own even now that the recording work is skipped —
+> in particular, *"no openly-licensed set exists"* was simply untrue.
 
 **Goal.** A student practising alone hears a correct human articulation instead of reading an instruction about one.
 
@@ -207,12 +224,13 @@ input is out-of-distribution for every TTS system**, and the model may speak the
 *name* rather than its sound. But **English instructional narration is unobjectionable**, and
 the 535 ordinary words are a conditional yes pending a ~20-word probe.
 
-### What actually blocks it now
+### What used to block it *(no longer a blocker — the phase is not being pursued)*
 
-**Nobody has listened to a single file.** Every finding rests on metadata and licence text.
-The next step is small and needs an ear, not an agent: **audition the 29 CC-BY letter
-videos**, and get written confirmation from the channel before re-hosting — YouTube's CC tag
-is self-declared, and the sweep found a live example of a re-upload wearing one.
+**Nobody had listened to a single file.** Every finding rests on metadata and licence text.
+The next step would have been small and needed an ear, not an agent: **audition the 29 CC-BY
+letter videos**, and get written confirmation from the channel before re-hosting — YouTube's
+CC tag is self-declared, and the sweep found a live example of a re-upload wearing one. Kept
+because that caveat still applies to anyone who picks this up later.
 
 ### Constraint discovered, worth knowing before anything is built
 
@@ -220,10 +238,11 @@ is self-declared, and the sweep found a live example of a re-upload wearing one.
 (recovered from a 2012 Wayback capture, verified), Quran.com by its own terms. Free course:
 fine, link-only with attribution. **Monetised: both barred.**
 
-**Owner recording is still deferred** and stays that way. What changed is that it is no longer
-the *only* route.
-
-**Definition of done.** The letter set has audio in the published phases, and every remaining silent cue is one a reviewer has deliberately left as text.
+**Definition of done — superseded 2026-08-12.** It used to read: *the letter set has audio in
+the published phases, and every remaining silent cue is one a reviewer has deliberately left
+as text.* The owner's decision settles the second half for every cue at once and removes the
+first, so this phase has no open definition of done. It closes as a **deliberate, dated
+decision not to do the work**, which is exactly what Phase 6's own standard asks for.
 
 ---
 
@@ -253,19 +272,30 @@ the *only* route.
 
 ---
 
-## Phase 7 — Close the gaps that are actually fixable 🔨 **7b + 7c DONE 2026-08-12 · 7a open**
+## Phase 7 — Close the gaps that are actually fixable ✅ **DONE 2026-08-12**
 
 **Goal.** Everything the project can fix with its own hands, as opposed to Phase 6's items that wait on the world and Phase 5's that wait on an ear.
 
 **Why this phase exists.** The 2026-08-11 review asked "what else is blocking?" and the honest answer separated into three piles, only one of which is ours to move. This is that pile. Full item-level detail lives in `WISHLIST.md`; this is the ordering.
 
-> **What is left is 7a and only 7a** — the per-letter makhraj diagrams. 7b turned out to be entirely done already and merely unticked, which is its own lesson: a checklist nobody re-reads against the code drifts into overstating the work remaining, exactly as Phase 8's status did. 7d is a launch checklist rather than work.
+> **All three work items are closed.** 7a shipped the ten makhraj diagrams and their mapping; 7c named the popover and the 148 course-map links; 7b turned out to be **entirely done already and merely unticked** — its own lesson, and the same drift that left Phase 8 reading "not started" while twelve tasks of it sat on the branch. A checklist nobody re-reads against the code overstates what remains. 7d is a launch checklist rather than work.
 
-### 7a — Per-letter makhraj diagrams *(the largest fixable gap, and it is pedagogical)*
+### 7a — Per-letter makhraj diagrams ✅ **DONE 2026-08-12**
 
-**18 tongue letters share one `lisan.jpg` with an identical highlight**, so ت (tip), ض (side) and ك (back) look the same. The owner's original ask was diagrams so the student "wouldn't have to guess" — for the tongue letters she still does. Needs ~10 sub-zone images plus a per-letter mapping in the content.
+**18 tongue letters shared one `lisan.jpg` with an identical highlight**, so ت (tip), ض (side) and ك (back) looked the same. The owner's original ask was diagrams so the student "wouldn't have to guess" — for the tongue letters she still did. It needed ten sub-zone images plus a per-letter mapping in the content, and it got both.
 
-**Unblocked as of 2026-08-11:** `codex` CLI 0.147.0 is installed, and the earlier blocker (a quota resetting 2026-07-25) is long past. The seven existing visuals are annotated rasters produced this way, so the pipeline is proven. **Owner rejected line-art SVGs — match the existing raster style.**
+**Delivered.** `makhraj_point` on the 18 tongue letter notes, ten generated diagrams, and 26 letter slides wired to them — 26 rather than 18 because eight tongue-letter slides had **no image at all**, a gap this surfaced.
+
+**The tool note in this section used to be wrong, and it cost a detour.** It read "codex CLI is installed… the pipeline is proven", which was then re-checked against `codex --help`, found to list no image command, and written up as blocked. Both readings were wrong. Codex generates images through a **model-side tool, `image_gen.imagegen`** — it is not a CLI subcommand and does not appear in `--help`, so the only way to find it is to *ask the agent*, which is what finally settled it. Two practical notes for next time: the prompt must arrive on **stdin**, because `-i` is variadic and eats a trailing positional prompt; and passing the existing rasters with `-i` as style references is what keeps new images in the same visual language.
+
+**Owner rejected line-art SVGs — match the existing raster style**, and the generated set does, because the existing rasters are the references.
+
+Two framings had to differ from the references, both for accuracy rather than taste:
+
+- **ض is lateral** — the side edges of the tongue against the upper molars. A mid-sagittal section is a slice down the midline and *cannot* show a side contact, so a marker placed there would have been a confident-looking lie about the letter this course calls the hardest in the alphabet. It gets an oblique cutaway.
+- **Points 6–10 all sit on the tongue tip**, millimetres apart. At the wide framing they would have been five near-identical images — the very failure being fixed — so they get a close view of the front of the mouth.
+
+**Regeneration is deliberate, not part of the build.** `npm run build:makhraj` returns a fresh render each run and will not reproduce a byte-identical set; run it when a point is wrong. `npm run wire:makhraj` re-derives the slide mapping from the library and *is* idempotent.
 
 ### 7b — Correctness and hygiene ✅ **DONE** *(verified against the code 2026-08-12)*
 
@@ -421,7 +451,7 @@ And one genuine gap the wiring exposed:
 | Source the eight rules | 2 | M | **High** | Gates Phase 3; acquisition, not analysis |
 | Publish Unit 3 | 3 | M | **High** | 37 lessons; needs Phases 1–2 |
 | Publish Unit 4 | 4 | S | Med | Needs Phase 3; ships the ayah-slide guard |
-| Record teacher audio | 5 | L | — | **DEFERRED by the owner.** Do not surface as next work |
+| Record teacher audio | 5 | — | — | 🚫 **SKIPPED by the owner 2026-08-12.** Not deferred — decided. Do not surface as next work, and do not revive it in a sweep |
 | Close outside-world gaps | 6 | S–XL | Low–Med | Some items may never resolve; decide and date them |
 | The practice engine | 8 | XL | **High** | ✅ done 2026-08-12 — 12 tasks, +365 tests. Four were found by the task before them |
 | Mount it in the app | 8 | S | **High** | ✅ done 2026-08-12 — without it the other twelve recorded nothing |
