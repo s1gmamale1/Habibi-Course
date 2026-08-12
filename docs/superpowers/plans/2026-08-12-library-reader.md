@@ -2127,7 +2127,7 @@ export default function LibraryPage() {
 - [ ] **Step 8: Run the tests to verify they pass**
 
 Run: `npx vitest run src/app/library/`
-Expected: PASS — 11 tests across both index files
+Expected: PASS — 9 tests across both index files
 
 - [ ] **Step 9: Commit**
 
