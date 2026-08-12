@@ -23,6 +23,11 @@
 - **No YouTube asset is re-hosted** — link or embed only. No downloading, no audio extraction, no proxying.
 - **The `<Credits/>` footer keeps rendering on every page** (`layout.tsx:21`). It discharges four separate attribution obligations.
 - **Dark theme only.** No `prefers-color-scheme`, no `data-theme`, no toggle. Reuse the class layer in `src/app/globals.css`: `.glass`, `.glass-strong`, `.gradient-text`, `.arabic`, `.quran`, `.rim-static`, `text-white/{90,75,60,50}`.
+- **No new test-assertion dependency.** This repo asserts DOM state with plain matchers —
+  `toBeTruthy()`, `.getAttribute("href")` — across all 535 existing tests, and deliberately
+  does NOT carry `@testing-library/jest-dom`. Do not add it: it pulls 6 transitive packages
+  into a repo whose one prior supply-chain move (ADR-006) was vendoring a throw-on-import
+  stub to eliminate a single transitive dependency. `marked` was chosen on the same grounds.
 - **Commits carry no `Co-Authored-By` trailer** — this project's `.claude/settings.json` has no `attribution.commit` key.
 
 ## File Structure
@@ -1125,14 +1130,14 @@ function draw(md: string) {
 describe("block rendering", () => {
   test("headings get anchor ids", () => {
     draw("## Common mistakes\n");
-    expect(screen.getByRole("heading", { level: 2 })).toHaveAttribute("id", "common-mistakes");
+    expect(screen.getByRole("heading", { level: 2 }).getAttribute("id")).toBe("common-mistakes");
   });
 
   test("renders a GFM table", () => {
     draw("| Sifah | Opposite |\n|---|---|\n| jahr | hams |\n");
-    expect(screen.getByRole("table")).toBeInTheDocument();
-    expect(screen.getByRole("columnheader", { name: "Sifah" })).toBeInTheDocument();
-    expect(screen.getByRole("cell", { name: "jahr" })).toBeInTheDocument();
+    expect(screen.getByRole("table")).toBeTruthy();
+    expect(screen.getByRole("columnheader", { name: "Sifah" })).toBeTruthy();
+    expect(screen.getByRole("cell", { name: "jahr" })).toBeTruthy();
   });
 
   test("TRAP 2 — an escaped pipe stays inside its cell", () => {
@@ -1179,13 +1184,13 @@ describe("inline rendering", () => {
   test("external links open in a new tab safely", () => {
     draw("[tanzil.net](https://tanzil.net)\n");
     const a = screen.getByRole("link", { name: "tanzil.net" });
-    expect(a).toHaveAttribute("href", "https://tanzil.net");
-    expect(a).toHaveAttribute("rel", expect.stringContaining("noopener"));
+    expect(a.getAttribute("href")).toBe("https://tanzil.net");
+    expect(a.getAttribute("rel")).toContain("noopener");
   });
 
   test("internal links stay same-tab", () => {
     draw("[Ghunnah](/library/ghunnah)\n");
-    expect(screen.getByRole("link", { name: "Ghunnah" })).not.toHaveAttribute("target");
+    expect(screen.getByRole("link", { name: "Ghunnah" }).getAttribute("target")).toBeNull();
   });
 });
 
@@ -1434,7 +1439,7 @@ describe("StatusNotice", () => {
 
   test("verified renders nothing at all", () => {
     const { container } = render(<StatusNotice status="verified" kind="rule" />);
-    expect(container).toBeEmptyDOMElement();
+    expect(container.innerHTML).toBe("");
   });
 });
 
@@ -2051,7 +2056,7 @@ describe("/library/rules", () => {
   test("groups by family and shows every family in use", () => {
     render(<RulesPage />);
     const families = new Set(allNotes().filter((n) => n.meta.type === "rule").map((n) => (n.meta as { family: string }).family));
-    for (const f of families) expect(screen.getByRole("heading", { name: new RegExp(f, "i") })).toBeInTheDocument();
+    for (const f of families) expect(screen.getByRole("heading", { name: new RegExp(f, "i") })).toBeTruthy();
   });
 
   test("Sifat.md is NOT listed as a rule — it is type: index", () => {
@@ -2076,7 +2081,7 @@ describe("/library/sources", () => {
   test("the three sources missing from Source-Manifest.md are present anyway", () => {
     render(<SourcesPage />);
     for (const name of [/Shatibiyyah/i, /Sajawandi/i, /Nihayat/i]) {
-      expect(screen.getByRole("link", { name })).toBeInTheDocument();
+      expect(screen.getByRole("link", { name })).toBeTruthy();
     }
   });
 });
@@ -2294,14 +2299,14 @@ import { SiteNav } from "./SiteNav";
 describe("SiteNav", () => {
   test("exposes a navigation landmark", () => {
     render(<SiteNav />);
-    expect(screen.getByRole("navigation")).toBeInTheDocument();
+    expect(screen.getByRole("navigation")).toBeTruthy();
   });
 
   test("links to the course, the library and credits", () => {
     render(<SiteNav />);
-    expect(screen.getByRole("link", { name: "Course" })).toHaveAttribute("href", "/");
-    expect(screen.getByRole("link", { name: "Library" })).toHaveAttribute("href", "/library");
-    expect(screen.getByRole("link", { name: "Credits" })).toHaveAttribute("href", "/credits");
+    expect(screen.getByRole("link", { name: "Course" }).getAttribute("href")).toBe("/");
+    expect(screen.getByRole("link", { name: "Library" }).getAttribute("href")).toBe("/library");
+    expect(screen.getByRole("link", { name: "Credits" }).getAttribute("href")).toBe("/credits");
   });
 
   test("does NOT surface /teach — that route is meant to be gated, not discovered", () => {
@@ -2312,7 +2317,7 @@ describe("SiteNav", () => {
   test("offers a skip link as the first focusable element", () => {
     render(<SiteNav />);
     const skip = screen.getByRole("link", { name: /skip to content/i });
-    expect(skip).toHaveAttribute("href", "#content");
+    expect(skip.getAttribute("href")).toBe("#content");
   });
 });
 ```
