@@ -56,10 +56,11 @@ describe("against the real vault", () => {
     // this holds. If a note ever puts [[x]] inside code, this fails and the transform
     // must move into the token walk instead.
     for (const n of allNotes()) {
-      const withoutFences = n.body.replace(/```[\s\S]*?```/g, "");
-      const withoutCode = withoutFences.replace(/`[^`\n]*`/g, "");
-      const removedCode = n.body.replace(withoutCode, "");
-      expect(removedCode.includes("[["), n.file).toBe(false);
+      const fences = n.body.match(/```[\s\S]*?```/g) ?? [];
+      const inline = n.body.replace(/```[\s\S]*?```/g, "").match(/`[^`\n]*`/g) ?? [];
+      for (const segment of [...fences, ...inline]) {
+        expect(segment.includes("[["), `${n.file}: ${segment.slice(0, 60)}`).toBe(false);
+      }
     }
   });
 
