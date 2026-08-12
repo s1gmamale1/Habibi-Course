@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { RuleId } from "@/content/tajweed";
+import type { GameData } from "@/games/derive";
 
 /**
  * A game registry, so the set of drills a lesson shows is data rather than a
@@ -66,10 +67,30 @@ export type GameResult = {
   };
 };
 
+/**
+ * What a registered drill is handed when it is mounted.
+ *
+ * `data` is optional because the two halves of the registry need different
+ * things. A tajweed drill bundles its own items — `@/generated/verses/*.json`
+ * is a static import, so `RuleIdentifier` can build a default round at module
+ * scope and ignore this entirely. A letter drill cannot: its pool is *every
+ * letter taught up to this lesson*, which `deriveGameData` computes per lesson
+ * from `content/lessons/*.json` behind `node:fs`. There is nothing for it to
+ * bundle, so the caller has to pass the lesson's data in.
+ *
+ * A drill that is handed nothing it can use renders a note saying so, the way
+ * `RuleIdentifier` already does for an empty item list — never a blank panel.
+ */
+export type GameRenderProps = {
+  onResult?: (r: GameResult) => void;
+  /** The lesson's derived pools, for drills whose content is lesson-scoped. */
+  data?: GameData;
+};
+
 export type GameEntry = {
   id: string;
   label: string;
-  render: (props: { onResult?: (r: GameResult) => void }) => ReactNode;
+  render: (props: GameRenderProps) => ReactNode;
 };
 
 const REGISTRY = new Map<string, GameEntry>();

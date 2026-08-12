@@ -60,6 +60,11 @@ export const SESSION_SLOTS = 14;
  * `held` is a prop, nothing is timed, and there is no calibration step — it asks
  * the learner to *name* a length, which takes about as long as any other
  * selection. Calling it timed would cost a slot the learner never spends.
+ *
+ * No letter drill is here either, for the same reason: a timed drill is one that
+ * holds a duration, and tapping tiles into slots — however long a learner takes
+ * over it — is not a held duration. Nothing in this file may become monotonic in
+ * elapsed time; see the no-speed-metric constraint.
  */
 export const TIMED_GAME_IDS: ReadonlySet<string> = new Set(["ghunnah-timer"]);
 
@@ -69,11 +74,19 @@ export const TIMED_GAME_IDS: ReadonlySet<string> = new Set(["ghunnah-timer"]);
  * A gameId belongs to exactly one mode, which is what lets the ramp be enforced
  * by sorting: modes never interleave within a drill.
  *
- * The six letter drills in `GamePanel` are absent because they are rendered from
- * a literal list of tabs and carry no id at all — nothing can key a shape off a
- * name that does not exist. Until they are registered they fall to the default
- * below, which is the honest reading of an unknown drill: one slot, and asked
- * early. Task 7 should register them and add them here.
+ * The six letter drills matter here out of proportion to their number: **29 of
+ * the 47 concepts are letters**, so while they carried no id at all `shapeOf`
+ * fell to its default for 62% of the roster and a letter's session was fourteen
+ * recognition items with no ramp in it. They are classified by what the drill
+ * asks the learner to *do*, which is why the two flashcard decks sit at the
+ * shallow end and `word-builder` — the only one where a wrong answer can be
+ * assembled rather than picked — sits at the top.
+ *
+ * The ids live in `components/games/letters.ts` and
+ * `components/games/tajweed/index.ts`. This map is keyed by string rather than
+ * importing them because those barrels pull in React components, and this module
+ * has to run on a server with no DOM when ADR-007 lands. The two are pinned
+ * together by test instead.
  */
 const DRILL_MODES: Readonly<Record<string, ResponseMode>> = {
   "rule-identifier": "recognition",
@@ -83,6 +96,13 @@ const DRILL_MODES: Readonly<Record<string, ResponseMode>> = {
   "madd-counter": "production",
   "condition-builder": "production",
   "ghunnah-timer": "production",
+  // The letter drills. None is timed — see `TIMED_GAME_IDS`.
+  "letter-flashcards": "recognition",
+  "word-flashcards": "recognition",
+  "letter-quiz": "recognition",
+  "spot-the-letter": "discrimination",
+  "form-swap": "discrimination",
+  "word-builder": "production",
 };
 
 export type DrillShape = {

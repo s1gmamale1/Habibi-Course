@@ -1,12 +1,11 @@
 "use client";
 import { useMemo, useState } from "react";
 import type { GameData } from "@/games/derive";
-import { baseLetters, displayLetters } from "@/games/arabic";
 import { Flashcards, LetterFlashcards, wordCards } from "./Flashcards";
 import { FormSwap } from "./FormSwap";
-import { WordBuilder } from "./WordBuilder";
-import { SpotTheLetter } from "./SpotTheLetter";
-import { LetterQuiz } from "./LetterQuiz";
+import { WordBuilder, buildableWords } from "./WordBuilder";
+import { SpotTheLetter, spottableWords } from "./SpotTheLetter";
+import { LetterQuiz, QUIZ_MIN_LETTERS, quizzableLetters } from "./LetterQuiz";
 import { getGames, type GameResult } from "./GameRegistry";
 
 export function GamePanel({
@@ -22,18 +21,13 @@ export function GamePanel({
   onResult?: (r: GameResult) => void;
 }) {
   const [tab, setTab] = useState(0);
-  const builderWords = useMemo(
-    () =>
-      data.wordPool.filter((w) => {
-        const l = baseLetters(w.arabic);
-        return l.length >= 2 && l.length <= 6 && new Set(l).size >= 2;
-      }),
-    [data],
-  );
-  // Normalize the same way SpotTheLetter picks its target (letters as written),
-  // so the "has ≥2 distinct letters" gate and the target picker agree.
-  const spotWords = useMemo(() => data.wordPool.filter((w) => new Set(displayLetters(w.arabic)).size >= 2), [data]);
-  const quizPool = useMemo(() => data.letterPool.filter((it) => it.name), [data]);
+  // Each gate lives beside the drill it gates, so this panel and the drill's own
+  // registry entry cannot end up with two different answers to "is this playable".
+  // `spottableWords` normalizes the same way SpotTheLetter picks its target
+  // (letters as written), so the gate and the target picker agree.
+  const builderWords = useMemo(() => buildableWords(data.wordPool), [data]);
+  const spotWords = useMemo(() => spottableWords(data.wordPool), [data]);
+  const quizPool = useMemo(() => quizzableLetters(data.letterPool), [data]);
 
   const tabs = [
     {
@@ -43,7 +37,7 @@ export function GamePanel({
     },
     {
       label: "❓ Quiz",
-      show: quizPool.length >= 4,
+      show: quizPool.length >= QUIZ_MIN_LETTERS,
       render: () => <LetterQuiz pool={quizPool} entries={data.formEntries} formsTaught={data.formsTaught} />,
     },
     {
@@ -66,7 +60,10 @@ export function GamePanel({
     ...getGames(games).map((g) => ({
       label: g.label,
       show: true,
-      render: () => g.render({ onResult }),
+      // `data` as well as `onResult`: a tajweed drill bundles its own items and
+      // ignores it, but a letter drill's pool is this lesson's, and it has no
+      // other way to reach it. See `GameRenderProps`.
+      render: () => g.render({ onResult, data }),
     })),
   ].filter((t) => t.show);
 

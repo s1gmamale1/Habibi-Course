@@ -37,6 +37,22 @@ const GAME_IDS = [
   "ghunnah-timer",
 ] as const;
 
+/**
+ * The six letter drills, written out rather than imported from
+ * `components/games/letters`. That barrel pulls in five React components and
+ * `session.ts` is one of the three modules that has to run on a server with no
+ * DOM — importing it here would make this file stop testing that. The ids are
+ * pinned against the barrel in `components/games/letters.test.tsx` instead.
+ */
+const LETTER_GAME_IDS = [
+  "letter-flashcards",
+  "word-flashcards",
+  "letter-quiz",
+  "spot-the-letter",
+  "form-swap",
+  "word-builder",
+] as const;
+
 const RANK: Record<ResponseMode, number> = { recognition: 0, discrimination: 1, production: 2 };
 
 let seq = 0;
@@ -505,6 +521,46 @@ describe("planning a session", () => {
   });
 });
 
+describe("planning a session for a letter", () => {
+  /**
+   * **29 of the 47 concepts are letters**, and until the letter drills carried
+   * an id `shapeOf` fell to its default for every one of them: 62% of the roster
+   * planned as a flat session of recognition items with no ramp at all.
+   *
+   * The ramp is the point. It is one of the few structural ideas in this design
+   * with causal evidence behind it, so a plan that cannot express it for the
+   * majority of the syllabus is not a plan.
+   */
+  const LETTERS = ["ب", "ت"];
+  const planned = planSession(
+    scheduleMap([at("ب", NOW - 2 * DAY), at("ت", NOW - DAY)]),
+    new Map(),
+    poolFor(LETTERS, LETTER_GAME_IDS),
+    NOW,
+  );
+
+  test("a letter's plan is not all recognition", () => {
+    expect(planned.items.length).toBeGreaterThan(0);
+    expect(planned.items.some((i) => i.mode !== "recognition")).toBe(true);
+  });
+
+  test("it uses the whole ramp, and closes at the top of it", () => {
+    expect(new Set(planned.items.map((i) => i.mode))).toEqual(
+      new Set<ResponseMode>(["recognition", "discrimination", "production"]),
+    );
+    expect(planned.items.at(-1)!.mode).toBe("production");
+    const ranks = planned.items.map((i) => RANK[i.mode]);
+    for (let i = 1; i < ranks.length; i += 1) expect(ranks[i]).toBeGreaterThanOrEqual(ranks[i - 1]);
+  });
+
+  test("no letter drill is charged two slots", () => {
+    // A held duration is what earns the second slot, and none of these holds
+    // anything. Charging one would cost the learner a slot they never spend.
+    for (const item of planned.items) expect(item.slots).toBe(1);
+    for (const gameId of LETTER_GAME_IDS) expect(TIMED_GAME_IDS.has(gameId)).toBe(false);
+  });
+});
+
 describe("drill shapes", () => {
   test("every registered tajweed drill has a response mode and a slot cost", () => {
     for (const gameId of GAME_IDS) {
@@ -528,5 +584,17 @@ describe("drill shapes", () => {
     expect(shapeOf("span-tapper").mode).toBe("discrimination");
     expect(shapeOf("family-sorter").mode).toBe("discrimination");
     expect(shapeOf("condition-builder").mode).toBe("production");
+  });
+
+  test("the six letter drills have a shape of their own, not the default", () => {
+    // Two of these read as recognition, which is also what an *unregistered*
+    // drill falls to — so the assertions that can actually fail before the
+    // drills are classified are the last three.
+    expect(shapeOf("letter-flashcards").mode).toBe("recognition");
+    expect(shapeOf("word-flashcards").mode).toBe("recognition");
+    expect(shapeOf("letter-quiz").mode).toBe("recognition");
+    expect(shapeOf("spot-the-letter").mode).toBe("discrimination");
+    expect(shapeOf("form-swap").mode).toBe("discrimination");
+    expect(shapeOf("word-builder").mode).toBe("production");
   });
 });

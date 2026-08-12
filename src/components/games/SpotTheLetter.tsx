@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { WordEntry } from "@/games/derive";
 import { contextualGlyphs, displayLetters } from "@/games/arabic";
+import { registerGame } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
 
 export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: ArabicItem[] }) {
@@ -77,3 +78,38 @@ export function SpotTheLetter({ words, pool }: { words: WordEntry[]; pool: Arabi
     </div>
   );
 }
+
+/* ---------- registration ---------------------------------------------- */
+
+/**
+ * Words this drill can pose: ones with at least two distinct letters *as
+ * written*, so there is something to choose between. Normalised the same way
+ * the target picker normalises, so the gate and the picker cannot disagree
+ * about whether a word is playable. Exported so `GamePanel` uses this
+ * definition rather than a second copy of it.
+ */
+export function spottableWords(words: WordEntry[]): WordEntry[] {
+  return words.filter((w) => new Set(displayLetters(w.arabic)).size >= 2);
+}
+
+/**
+ * **Discrimination.** The target letter is never shown — only named — and it has
+ * to be picked out from inside a word where it is ligatured to its neighbours
+ * and no longer looks like its isolated form. Finding one thing among competing
+ * others in a longer string is exactly what `span-tapper` asks for in an āyah,
+ * and it carries the same mode.
+ */
+const GAME_ID = "spot-the-letter";
+
+registerGame({
+  id: GAME_ID,
+  label: "🔍 Spot the letter",
+  render: ({ data }) => {
+    const words = data ? spottableWords(data.wordPool) : [];
+    return data && words.length > 0 ? (
+      <SpotTheLetter words={words} pool={data.letterPool} />
+    ) : (
+      <p className="text-white/50">No words to search yet.</p>
+    );
+  },
+});

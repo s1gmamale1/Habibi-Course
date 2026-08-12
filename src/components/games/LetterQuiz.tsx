@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { FormEntry, FormKey } from "@/games/derive";
+import { registerGame } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
 
 const FORM_KEYS: FormKey[] = ["isolated", "initial", "medial", "final"];
@@ -162,3 +163,40 @@ export function LetterQuiz({
     </div>
   );
 }
+
+/* ---------- registration ---------------------------------------------- */
+
+/**
+ * The letters this drill can pose a question about: the ones it can *name* in
+ * the prompt. `buildLetterQuestion` asks "which letter is <name>?", so a pool
+ * entry with no name has no question. Four is the floor because every question
+ * shows four choices.
+ *
+ * Exported so `GamePanel`'s tab gate and this drill's own gate cannot drift
+ * apart into two different answers to the same question.
+ */
+export function quizzableLetters(pool: ArabicItem[]): ArabicItem[] {
+  return pool.filter((it) => it.name);
+}
+
+export const QUIZ_MIN_LETTERS = 4;
+
+/**
+ * **Recognition.** Given a name, pick the glyph out of four — the same shape as
+ * `rule-identifier`, which is classified the same way. The learner is choosing
+ * between candidates that are all handed to them; nothing is produced and no
+ * distinction has to be found inside a longer string.
+ */
+const GAME_ID = "letter-quiz";
+
+registerGame({
+  id: GAME_ID,
+  label: "❓ Quiz",
+  render: ({ data }) => {
+    const pool = data ? quizzableLetters(data.letterPool) : [];
+    if (!data || pool.length < QUIZ_MIN_LETTERS) {
+      return <p className="text-white/50">Not enough named letters to quiz yet.</p>;
+    }
+    return <LetterQuiz pool={pool} entries={data.formEntries} formsTaught={data.formsTaught} />;
+  },
+});

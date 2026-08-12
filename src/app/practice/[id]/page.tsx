@@ -3,8 +3,18 @@ import { DrillGrid } from "@/components/DrillGrid";
 import { GamePanel } from "@/components/games/GamePanel";
 import { PrintButton } from "@/components/ProgressClient";
 import { deriveGameData } from "@/games/derive";
-// Side-effect import: registers the seven tajweed drills so `lesson.games` can resolve them.
+// Side-effect imports: register the drills so `lesson.games` can resolve them.
+//
+// The tajweed barrel is load-bearing — nothing else imports those seven modules,
+// and without this line they are tree-shaken away exactly as they were before it
+// existed. The letters barrel is **not**, today: `GamePanel` imports all five of
+// those modules by name for its literal tab list, so deleting this line changes
+// nothing and no test can see it. Said plainly rather than hidden, the way
+// `MAX_TIMED` is in `session.ts`. It stops being redundant the moment that
+// literal list is replaced by the registry, which is the change that would
+// otherwise un-register all six in silence.
 import "@/components/games/tajweed";
+import "@/components/games/letters";
 
 export function generateStaticParams() {
   return allLessonIds().map((id) => ({ id }));

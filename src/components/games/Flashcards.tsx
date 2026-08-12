@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { WordEntry } from "@/games/derive";
+import { registerGame } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
 
 export type CardFace = { id: string; front: string; back: string[] };
@@ -142,3 +143,48 @@ export function LetterFlashcards({ newLetters, allLetters }: { newLetters: Arabi
     </div>
   );
 }
+
+/* ---------- registration ---------------------------------------------- */
+
+/**
+ * Two decks, two ids, deliberately — not one `flashcards`.
+ *
+ * They share a renderer and nothing else. The letter deck drills a *letter*,
+ * which is one of the 47 scheduled concepts; the word deck drills vocabulary,
+ * where the letter is only incidental. `shapeOf` keys off the id, so folding
+ * them together would give the scheduler one name for two different things and
+ * no way to tell which of them a learner actually answered.
+ *
+ * Both are **recognition**: the learner is shown a glyph and asked to recall
+ * what it is, then grades themselves. That is the shallowest end of the ramp,
+ * which is exactly what a flashcard is for.
+ *
+ * Neither reports a `GameResult` yet — self-graded "Got it" is a claim the
+ * learner makes about themselves, not a measurement, and inventing a `correct`
+ * from it would put an unearned verdict in the ledger. See the report for
+ * Task 6b.
+ */
+const LETTER_CARDS_ID = "letter-flashcards";
+const WORD_CARDS_ID = "word-flashcards";
+
+registerGame({
+  id: LETTER_CARDS_ID,
+  label: "🃏 Letter cards",
+  render: ({ data }) =>
+    data && data.letterPool.length > 0 ? (
+      <LetterFlashcards newLetters={data.newLetters} allLetters={data.letterPool} />
+    ) : (
+      <p className="text-white/50">No letters to review yet.</p>
+    ),
+});
+
+registerGame({
+  id: WORD_CARDS_ID,
+  label: "📖 Word cards",
+  render: ({ data }) =>
+    data && data.wordPool.length > 0 ? (
+      <Flashcards cards={wordCards(data.wordPool)} />
+    ) : (
+      <p className="text-white/50">No words to review yet.</p>
+    ),
+});

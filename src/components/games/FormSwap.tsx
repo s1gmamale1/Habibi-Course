@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { FormEntry, FormKey } from "@/games/derive";
+import { registerGame } from "./GameRegistry";
 import { isCorrect, useSwapPuzzle } from "./useSwapPuzzle";
 
 // Keyed by FormKey so adding a form to derive.ts fails here until it gets a label,
@@ -64,3 +65,29 @@ export function FormSwap({ entries }: { entries: FormEntry[] }) {
     </div>
   );
 }
+
+/* ---------- registration ---------------------------------------------- */
+
+/**
+ * **Discrimination.** Four glyphs of one letter are on the board and the task is
+ * to tell them apart — which of these is the *medial* sīn — not to recall or
+ * produce anything. Every candidate is visible; what is being trained is the
+ * difference between them. That is the same task `family-sorter` sets, and it
+ * is classified the same way: an assignment of given items to given slots.
+ *
+ * Gated on `formsTaught` as well as on having entries: forms are introduced in
+ * lesson 1-07, and `deriveGameData` carries the flag precisely so this drill
+ * does not appear before the course has explained what a form is.
+ */
+const GAME_ID = "form-swap";
+
+registerGame({
+  id: GAME_ID,
+  label: "🔀 Forms",
+  render: ({ data }) =>
+    data && data.formsTaught && data.formEntries.length > 0 ? (
+      <FormSwap entries={data.formEntries} />
+    ) : (
+      <p className="text-white/50">No letter forms to arrange yet.</p>
+    ),
+});

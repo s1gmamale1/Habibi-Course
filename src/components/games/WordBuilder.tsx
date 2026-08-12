@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import type { WordEntry } from "@/games/derive";
+import { baseLetters } from "@/games/arabic";
+import { registerGame } from "./GameRegistry";
 import { useBuildPuzzle } from "./useBuildPuzzle";
 
 export function WordBuilder({ words }: { words: WordEntry[] }) {
@@ -71,3 +73,44 @@ export function WordBuilder({ words }: { words: WordEntry[] }) {
     </div>
   );
 }
+
+/* ---------- registration ---------------------------------------------- */
+
+/**
+ * Words this drill can build: long enough to be a puzzle, short enough to fit
+ * a row, and with at least two distinct letters so the board is not one glyph
+ * repeated. Exported so `GamePanel`'s tab gate and this drill's own gate stay
+ * one definition rather than two that can drift.
+ */
+export function buildableWords(words: WordEntry[]): WordEntry[] {
+  return words.filter((w) => {
+    const l = baseLetters(w.arabic);
+    return l.length >= 2 && l.length <= 6 && new Set(l).size >= 2;
+  });
+}
+
+/**
+ * **Production.** Nothing on the board is the answer — the answer is the
+ * sequence the learner assembles, and the bank carries decoys that belong to no
+ * slot at all. This is the only letter drill where a wrong answer can be
+ * *constructed* rather than merely selected, which is what puts it at the top of
+ * the ramp alongside `condition-builder`.
+ *
+ * It is **not** timed. Nothing here holds a duration; the second slot is what a
+ * ḥarakāt hold costs, and charging it for a tapping puzzle would spend a slot
+ * the learner never uses.
+ */
+const GAME_ID = "word-builder";
+
+registerGame({
+  id: GAME_ID,
+  label: "🧩 Build a word",
+  render: ({ data }) => {
+    const words = data ? buildableWords(data.wordPool) : [];
+    return words.length > 0 ? (
+      <WordBuilder words={words} />
+    ) : (
+      <p className="text-white/50">No words to build yet.</p>
+    );
+  },
+});
