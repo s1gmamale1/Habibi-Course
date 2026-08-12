@@ -330,6 +330,34 @@ Popover `role="dialog"` and dismissal · `aria-disabled` on locked `FormSwap`/`L
 **Context.** The app is a pure static export with no server, no database and no session; progress is a `localStorage` key. Registration, a score history, and an AI tutor each need a runtime — an API key cannot ship in a static bundle. The alternative was auth-as-a-service (Clerk/Supabase/Firebase) keeping static hosting.
 **Consequences.** (+) No vendor, no per-seat bill, and — the deciding factor — **learners will include children, and self-hosting keeps their data out of a third party's jurisdiction**. (+) The migration is **proven, not assumed**: built standalone and served `/`, `/lesson/1-01`, `/practice/3-04`, `/teach/4-01`, `/checkpoint/checkpoint-2`, all 200, with all 230 pages still prerendering as SSG. (+) `/teach` gating becomes a middleware check rather than a rebuild. (−) Something must now be operated: a process, a reverse proxy, backups. (−) Free static hosting is given up, which is why the flip waits for the first feature that needs it. (−) `output: "standalone"` does not copy `.next/static` or `public/`, so a build step must — omit it and the site serves HTML with every asset 404ing. Recipe and the tested evidence: `docs/deploy/vps.md`.
 
+### ADR-009 — The vault is a read surface for the app, in one direction only
+> **Numbering note.** ADR-008 is absent from this branch on purpose: it was claimed
+> concurrently by the practice-engine workstream (*"Spaced repetition is keyed on
+> concepts, not items"*) and arrives when that branch merges. This one was renumbered
+> from 008 to 009 to avoid the collision.
+
+**Decision.** The app may **read** `library/` at build time; it must never write to it.
+Transcription from `library/` into `content/` stays a human act per ADR-003. The reader
+resolves links by bare basename, the way `scripts/check-library.mjs:62` does.
+**Context.** Until the Library reader, nothing in `src/` read the vault at all — ADR-003
+described it as an authoring surface whose only consumers were a human transcriber and the
+validator. That is no longer true, and an undocumented new edge between the app and the
+vault is exactly the kind of coupling that rots.
+**Consequences.** (+) 101 notes reach a student without a second copy being generated, so
+there is no transcribed artifact to drift. (+) Sharing the gate's link semantics means the
+app and the gate cannot disagree about what `[[Foo]]` means. (−) A malformed note now fails
+the **build**, not just the gate — deliberate, and it throws with the filename. (−) The vault's
+authoring conventions are now load-bearing for a user-facing surface, so a note's markdown
+is no longer free to change shape arbitrarily.
+
+**Amended 2026-08-12 (phase 2).** The Library also reads two folders outside the vault:
+`materials/` for markdown posts and `public/materials/` for downloadable files. They sit
+outside `library/` and `content/` deliberately — nothing there is gate-checked by
+`check:library`, and editing them cannot desynchronise a lesson from its note. Adding a
+material is a git commit, not a web upload: **a browser-based builder cannot exist while
+`output: "export"` stands**, since a static export has no server, no API route and no
+writable filesystem at runtime. That remains gated behind the ADR-007 flip.
+
 ## Effort / impact table
 
 | Item | Phase | Effort | Impact | Notes |

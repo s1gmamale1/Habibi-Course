@@ -87,6 +87,21 @@ body {
   color: rgba(255, 255, 255, 0.97); /* Arabic legibility is sacred: near-white on dark */
 }
 
+/* ── Library reader prose (NoteBody.tsx) ──
+ * Long-form note bodies mix English prose with Arabic headings and table cells.
+ * `:lang(ar)` keys off the `lang="ar"` attribute render.tsx sets on Arabic-bearing
+ * headings — those render in Amiri, matching the `.arabic` contract above, instead of
+ * falling back to the body's sans-serif font. (Table cells get `dir="auto"` in
+ * render.tsx for correct bidi ordering, not `lang`, so this rule does not reach them.)
+ */
+.library-prose {
+  max-width: 70ch;
+}
+.library-prose :lang(ar) {
+  font-family: "Amiri", serif;
+  line-height: 2.1; /* room for stacked harakat */
+}
+
 /* ── Gradient accent text (headings) ── */
 .gradient-text {
   background: var(--ai-conic);
@@ -305,3 +320,18 @@ body {
   font-display: swap;
 }
 .quran { font-family: "UthmanicHafs", "Amiri", serif; line-height: 2.1; }
+
+/* ── Skip link — visible only when focused, for keyboard users ── */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 50;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0 0 0.5rem 0;
+  background: var(--glass-fill-strong);
+  color: var(--foreground);
+}
+.skip-link:focus {
+  left: 0;
+}

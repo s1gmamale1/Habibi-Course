@@ -9,6 +9,104 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 
 ---
 
+## From building the Library reader — 2026-08-12
+
+- **`Source-Manifest.md` lists 7 of the 11 sources** and is `status: verified`, so nothing
+  flags the gap. Shatibiyyah, Sajawandi-Waqf and Nihayat are absent. The Library generates its
+  sources index from the notes instead, so nothing is currently hidden — but the manifest is
+  wrong and a future reader may trust it.
+- **The classical matns are withheld pending collation.** Jazariyyah (**157** lines withheld),
+  Tuhfah (**92**), Shatibiyyah (**51**) and Nihayat (**84**) render as structure + translation
+  only, per the manifest's own instruction. Collating them against printed critical editions
+  would unlock ~384 lines of source text. Needs a qualified reader and printed editions.
+- **`displayModeFor` leans on `author_arabic` to decide which sources withhold their matn.**
+  Correct for all 11 source notes today, but that field was never designed to carry
+  safety-critical meaning — a future classical matn vendored *without* it would be missed and
+  its text displayed. **The durable fix is an explicit frontmatter flag on the note** (e.g.
+  `matn: true`), which requires editing `library/` and so was out of this feature's scope.
+  **Owner decision: authorise that vault edit, or accept the guard below as the standing
+  mitigation.**
+  A contrapositive guard has shipped in the meantime (`src/library/sources.test.ts`): every
+  source whose `vendored` is `full-text`/`partial`/`excerpts` must either withhold or sit in a
+  named allowlist, so a new full-text source is red until someone classifies it deliberately.
+  *Note for the record:* the first hardening proposed here was "assert the withhold set is
+  exactly the four expected", which the final review correctly rejected as **directionally
+  blind** — a twelfth source lacking `author_arabic` leaves the set at four and passes, which
+  is the dangerous direction. The shipped guard fails the right way.
+- **All 29 letter notes are `status: draft`** while the letters are taught in live lessons.
+  They render with a quiet "not yet reviewed" line. A content pass would clear it.
+- **WISHLIST was stale in ~7 places, verified 2026-08-12.** The "there is no CI" section is
+  false — `.github/workflows/ci.yml` has run five gates since `c038064`. The stated floor of
+  423 tests is really **633 / 63 files**. Five Moderate/Minor findings from the PR #5 review
+  are fixed (`check-library` abort, `publishedLessonIds` fail-open, `onRuleTap`, `role="text"`,
+  `FamilySorter` shake key), as are both Important export findings. `TajweedText.tsx` is cited
+  at the wrong path — it lives at `src/components/tajweed/`.
+- **Linking videos to the rules they teach needs a hand-curated mapping.** The Muallimi-Soniy
+  catalogue carries a per-video topic column, and many topics *look* like rule names —
+  "Idgham bila ghunnah", "Iqlab", "Izhar halqi". Fuzzy-matching them to the 59 rule notes was
+  tried and rejected: it covers only 27 of 96, and is confidently wrong on some — "Idgham bila
+  ghunnah" matches the `ghunnah` note rather than its own rule. A wrong association is worse
+  than none in a course whose discipline is never asserting what it cannot verify. A real
+  mapping would be a `videos:` field on each rule note, or a mapping file — either way it means
+  authoring in the vault, which this feature is forbidden to do.
+### Deferred from the Library reader's final whole-branch review — 2026-08-12
+
+- **`prerequisites` and `examples[]` are parsed, typed and rendered nowhere.** *Owner decision.*
+  42 rule notes carry `prerequisites` (60 edges, 44 of them not mentioned in any note body), and
+  there are 388 `examples[]` entries of which **147 carry Arabic that appears nowhere in the
+  note's prose**. Those examples are the only Arabic in the project already verified verbatim
+  against the pinned corpus by the gate — the cheapest correct content available, currently
+  reaching no page. One complication: `prerequisites` values are snake_case rule ids
+  (`idgham_maal_ghunnah`), a different namespace from note basenames, so linking them needs an
+  id→slug index that does not exist yet.
+- **`Sifat.md` is unreachable from every browse index.** It is `type: index`, so it appears in
+  none of the rules/letters/sources pages; its only inbound links are from three deep rule
+  pages. Its detail page builds fine (35 KB). Either surface index-type notes from a browse
+  index, or accept them as link-only.
+- **Test gaps, in order of consequence.** (a) The letters page has *no* grouping test — only a
+  flat count of 29 — so a regression that dropped zone grouping entirely, or put all 29 letters
+  in one zone, would pass; rules has a per-family test and letters does not, though both share
+  the same empty-section-skip logic. (b) The rules family test asserts in-use families are
+  present but never that unused ones are *absent*. (c) No `NoteCard` unit test; its title
+  derivation is duplicated verbatim with `NoteHeader`'s and should be extracted once and tested
+  once. (d) The skip-link test asserts `href` but not DOM order.
+- **A batch of twelve Minors**, none student-visible today: all 101 detail pages emit two `<h1>`s
+  (frontmatter title + the note's own body H1) styled identically; a wikilink inside a heading
+  pollutes that heading's anchor id (`Za-heavy.md:51`, `Ta-heavy.md:57`); `sources/page.tsx`'s
+  `GROUPS` would silently drop a source placed directly in `01-Sources/`, the same omission its
+  own docblock warns against; `MatnWithheld.tsx:26` defaults to `?? "public domain"`, asserting
+  a licence the note never made; `[slug]/page.tsx` coerces `type: "index"` to `kind: "rule"`, so
+  a non-verified Glossary would read "this rule is not yet verified"; `NoteHeader`'s frontmatter
+  `sources[]` links are built unguarded, unlike the body path, and key on a value that can
+  repeat; `.quran` (scripture font) is applied to rule names, which are pedagogical Arabic;
+  `#content` is not focusable (`tabIndex={-1}` is the convention); two doc comments still carry
+  claims that do not hold (`wikilinks.ts:15-18` on newline matching, `render.tsx:47-49` on code
+  spans vs fenced blocks); `rules/page.tsx` and `letters/page.tsx` use `as` casts where the
+  sibling components insist on discriminant narrowing; and `RESERVED_SEGMENTS` has no production
+  consumer — the design specified a build-time throw on slug collision that was never written.
+
+- **The seven tajweed drills are wired at `/practice/[id]` but not in-lesson.**
+  `src/app/lesson/[id]/page.tsx:13` has no barrel import, so the registry is empty on that
+  route and `src/games/deck.ts:4`'s slide type has no field to carry game ids.
+
+### The Library builder — 2026-08-12
+
+The owner asked for a **web builder**: upload PDFs and write posts through the browser.
+Phase 2 delivered the Materials shelf fed from the repo instead, because **upload cannot
+work on a static export** — no server, no API route, no writable filesystem at runtime.
+
+What the builder needs, in order:
+1. **The ADR-007 flip** to `output: "standalone"`. Proven, three lines, but it gives up
+   free static hosting.
+2. **Authentication**, or anyone on the internet can upload to the course. This is Idea 1,
+   and per its brief it carries GDPR-K/COPPA obligations because the course teaches
+   children — parent-held accounts, minimal fields, a deletion path.
+3. **Storage and a write path**, plus a decision about whether an upload becomes a git
+   commit (keeping the repo the source of record) or a database row (diverging from it).
+
+Until then a teacher adds a material by dropping a file in `materials/` or
+`public/materials/` and committing. That is the whole workflow.
+
 ## 2026-08-11 — the next product, as three briefs
 
 The owner's three ideas, written so a **dedicated agent can pick one up cold**. A fourth — an
