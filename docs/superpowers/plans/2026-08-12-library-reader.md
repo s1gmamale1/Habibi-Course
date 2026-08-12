@@ -1614,46 +1614,75 @@ describe("displayModeFor", () => {
 });
 
 describe("withholdMatn", () => {
-  test("removes an Arabic verse line", () => {
-    const md = "## Text\n\nوَغُنَّ مِيمًا ثُمَّ نُونًا شُدِّدَا ⁕ وَسَمِّ كُلًّا حَرْفَ غُنَّةٍ بَدَا\n\nplain english line\n";
+  test("removes the body of a `# The matn` section but keeps its headings", () => {
+    const md = [
+      "## Provenance", "", "English prose that must survive.", "",
+      "# The matn", "", "## بَابُ الْمَدِّ وَالْقَصْر", "",
+      "| وَغُنَّ مِيمًا ثُمَّ نُونًا شُدِّدَا | وَسَمِّ كُلًّا حَرْفَ غُنَّةٍ بَدَا |", "",
+      "## Licensing", "", "Public domain.",
+    ].join("\n");
     const { body, withheldLines } = withholdMatn(md);
     expect(withheldLines).toBe(1);
-    expect(body).not.toContain("وَغُنَّ");
-    expect(body).toContain("plain english line");
+    expect(body).not.toContain("وَغُنَّ");                 // the verse row is gone
+    expect(body).toContain("## بَابُ الْمَدِّ وَالْقَصْر");   // its Arabic heading is not
+    expect(body).toContain("English prose that must survive.");
+    expect(body).toContain("Public domain.");             // an English H2 closes the matn
   });
 
-  test("KEEPS headings even when they are Arabic", () => {
-    const md = "## بَابُ الْمَدِّ وَالْقَصْر\n\nوَغُنَّ مِيمًا ثُمَّ نُونًا شُدِّدَا\n";
-    const { body } = withholdMatn(md);
-    expect(body).toContain("## بَابُ الْمَدِّ وَالْقَصْر");
-    expect(body).not.toContain("وَغُنَّ مِيمًا");
+  test("removes `## Excerpt N` bodies — Nihayat's shape", () => {
+    const md = ["## Excerpt 1 — the alif", "", "> قال بعض شراح الجزرية", "", "## What this book does not cover", "", "Kept."].join("\n");
+    const { body, withheldLines } = withholdMatn(md);
+    expect(withheldLines).toBe(1);
+    expect(body).not.toContain("قال بعض");
+    expect(body).toContain("## Excerpt 1 — the alif");
+    expect(body).toContain("Kept.");
   });
 
-  test("KEEPS Arabic inside a table cell — those are glossaries, not matn", () => {
-    const md = "| Term | Arabic |\n|---|---|\n| ghunnah | الغنة |\n";
+  test("removes an Arabic-titled bab body — Shatibiyyah's shape", () => {
+    const md = ["## بَابُ الْمَدِّ وَالْقَصْرِ", "", "وَمَدُّ الْأَصْلِ", "", "## Licensing", "", "PD."].join("\n");
     const { body } = withholdMatn(md);
-    expect(body).toContain("الغنة");
+    expect(body).not.toContain("وَمَدُّ الْأَصْلِ");
+    expect(body).toContain("PD.");
+  });
+
+  test("leaves a note with no matn section untouched — Sajawandi's shape", () => {
+    const md = ["## Symbols", "", "| مـ | lazim |", "", "## What is not established here", "", "Prose."].join("\n");
+    const { body, withheldLines } = withholdMatn(md);
+    expect(withheldLines).toBe(0);
+    expect(body).toBe(md);
   });
 });
 
 describe("the real classical notes", () => {
-  test("the matn is gone but the Arabic title and bab headings survive", () => {
-    const n = bySlug("tuhfat-al-atfal");
-    const { body, withheldLines } = withholdMatn(n.body);
-    expect(withheldLines).toBeGreaterThan(30);
-    const meta = n.meta as SourceNote;
-    if (meta.arabic_title) expect(meta.arabic_title.length).toBeGreaterThan(0);
-    // A heading line starting with ## is never withheld, whatever script it is in.
-    for (const line of body.split("\n")) {
-      if (line.startsWith("#")) expect(line.length).toBeGreaterThan(1);
+  // Counts measured against the vault. Asserted as floors, not equalities, so an
+  // editorial change to a note does not redden the gate for the wrong reason.
+  test.each([
+    ["muqaddimah-jazariyyah", 100],
+    ["tuhfat-al-atfal", 60],
+    ["shatibiyyah", 25],
+    ["nihayat-al-qawl-al-mufid", 60],
+  ])("%s withholds a substantial matn", (slug, floor) => {
+    const { withheldLines } = withholdMatn(bySlug(slug).body);
+    expect(withheldLines).toBeGreaterThan(floor);
+  });
+
+  test("over-correction guard — Arabic still survives on every classical page", () => {
+    // Headings, arabic_title and the notes' own prose keep their Arabic. A rule that
+    // stripped every Arabic glyph would pass the withholding tests and fail here.
+    for (const slug of ["muqaddimah-jazariyyah", "tuhfat-al-atfal", "shatibiyyah", "nihayat-al-qawl-al-mufid"]) {
+      const { body } = withholdMatn(bySlug(slug).body);
+      expect(/[؀-ۿ]/.test(body), `${slug} lost all Arabic`).toBe(true);
     }
   });
 
-  test("over-correction guard — the page is not stripped of all Arabic", () => {
-    const n = bySlug("nihayat-al-qawl-al-mufid");
-    const { body } = withholdMatn(n.body);
-    // Headings, page numbers and prose keep Arabic; only free-standing verse lines go.
-    expect(/[؀-ۿ]/.test(body), "all Arabic was stripped — too aggressive").toBe(true);
+  test("bab headings survive — they are structure, not matn", () => {
+    const { body } = withholdMatn(bySlug("muqaddimah-jazariyyah").body);
+    expect(body).toContain("بَابُ مَخَارِجِ الْحُرُوف");
+  });
+
+  test("Sajawandi is citation-only and loses nothing", () => {
+    const n = bySlug("sajawandi-waqf");
+    expect(withholdMatn(n.body).withheldLines).toBe(0);
   });
 });
 ```
@@ -1684,35 +1713,64 @@ export function displayModeFor(note: SourceNote): SourceDisplay {
     : "full";
 }
 
-const ARABIC = /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/;
+const ARABIC = /[؀-ۿ]/g;
+const arabicShare = (s: string) => (s.match(ARABIC) ?? []).length / Math.max(s.length, 1);
 
 /**
- * Remove free-standing Arabic verse lines, keeping everything else.
+ * Is this heading the start of a matn section?
  *
- * "Matn" here means TEXT A STUDENT COULD MEMORISE FROM — the vocalised verse lines and
- * excerpt bodies. It does NOT mean every Arabic glyph. These are kept on purpose:
+ * This is STRUCTURAL, not statistical, and that matters — an earlier draft of this
+ * function judged individual lines by Arabic density and withheld almost nothing,
+ * because the matn lives inside TABLES (Jazariyyah 119 of its 144 Arabic lines,
+ * Tuhfah 71 of 95) and inside BLOCKQUOTES (Nihayat, 21 of 47). Any line-shape rule
+ * that preserves tables and quotes — as it must, since glossaries and symbol tables
+ * are exactly what we keep — preserves the matn along with them.
  *
- *   - headings (`#…`), including Arabic bab headings
- *   - table rows (`|…`) — glossaries and symbol tables, not matn
- *   - blockquotes (`>…`) — the notes' own commentary
- *   - list items and prose that merely mention an Arabic term
+ * The four notes mark their matn three different ways:
+ *   - Tuhfah and Jazariyyah: an explicit `# The matn` H1.
+ *   - Nihayat: five `## Excerpt N — …` sections.
+ *   - Shatibiyyah: four Arabic-titled bab H2s.
+ */
+function isMatnHeading(text: string, depth: number): boolean {
+  const t = text.trim();
+  if (depth === 1) return /^the matn$/i.test(t);
+  if (depth === 2 && /^excerpt\s/i.test(t)) return true;
+  if (depth === 2 && arabicShare(t) >= 0.35) return true;
+  return false;
+}
+
+/**
+ * Remove the matn, keeping everything that frames it.
  *
- * Withholding every Arabic glyph would leave an unreadable page and would overstate
- * the instruction, which is about memorisable source text specifically.
+ * "Matn" here means TEXT A STUDENT COULD MEMORISE FROM — the vocalised verse lines
+ * and excerpt bodies. It does NOT mean every Arabic glyph. Headings are ALWAYS kept,
+ * including Arabic bab headings, and so is all frontmatter-derived metadata, the
+ * chapter-structure tables, the provenance prose and the English rendering.
+ *
+ * Withholding every Arabic character would leave an unreadable page and would
+ * overstate the instruction, which is about memorisable source text specifically.
+ *
+ * Measured over the real notes: Jazariyyah 147 lines withheld, Tuhfah 85,
+ * Shatibiyyah 42, Nihayat 84, Sajawandi (citation-only, no matn) 0.
  */
 export function withholdMatn(body: string): { body: string; withheldLines: number } {
+  let inMatn = false;
   let withheldLines = 0;
-  const kept = body.split("\n").filter((line) => {
-    const t = line.trim();
-    if (!t) return true;
-    if (/^[#>|\-*\d]/.test(t)) return true; // headings, quotes, tables, lists
-    if (!ARABIC.test(t)) return true;        // no Arabic at all
-    // A free-standing line that is predominantly Arabic: this is matn.
-    const arabicChars = (t.match(/[؀-ۿ]/g) ?? []).length;
-    if (arabicChars / t.length < 0.4) return true;
-    withheldLines += 1;
-    return false;
-  });
+  const kept: string[] = [];
+
+  for (const line of body.split("\n")) {
+    const h = /^(#{1,6})\s+(.*)$/.exec(line);
+    if (h) {
+      const depth = h[1].length;
+      if (isMatnHeading(h[2], depth)) inMatn = true;
+      else if (depth <= 2) inMatn = false;  // an English H1/H2 closes the matn
+      kept.push(line);                       // headings are never withheld
+      continue;
+    }
+    if (inMatn && line.trim()) { withheldLines += 1; continue; }
+    kept.push(line);
+  }
+
   return { body: kept.join("\n"), withheldLines };
 }
 ```
