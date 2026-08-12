@@ -2553,7 +2553,11 @@ sleep 2
 for p in library library/rules library/letters library/sources library/ghunnah library/dad library/tuhfat-al-atfal library/glossary; do
   printf "%-32s %s\n" "$p" "$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:3000/$p")"
 done
-curl -s http://localhost:3000/library/ghunnah | grep -c '\[\[' || echo "0 wikilink leaks"
+# Do NOT grep the raw HTML for "[[" — Next.js App Router pages embed an RSC/Flight
+# hydration payload full of `[["$","a",...`, so a naive grep reports 155 hits on a page
+# with zero real leaks. Strip <script> blocks first, then look for actual wikilink shape:
+perl -0777 -pe 's/<script.*?<\/script>//gs' out/library/ghunnah.html \
+  | grep -oE '\[\[[A-Za-z0-9 #|.-]+\]\]' | wc -l   # must be 0
 kill %1
 ```
 
