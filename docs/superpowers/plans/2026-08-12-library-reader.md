@@ -1915,16 +1915,19 @@ const ZONE_IMAGE: Record<string, string> = {
 /** Title block plus the frontmatter facts worth showing above the prose. */
 export function NoteHeader({ note }: { note: LoadedNote }) {
   const m = note.meta;
-  const sources = "sources" in m ? m.sources : [];
-  const taughtIn = "taught_in" in m ? m.taught_in : undefined;
+  // `m.type === ...` rather than `"key" in m`: SourceNoteSchema is `.passthrough()`,
+  // so SourceNote has a string index signature and every `in` check is true on that
+  // branch, widening the whole union to `unknown`.
+  const sources = m.type === "rule" || m.type === "letter" ? m.sources : [];
+  const taughtIn = m.type === "rule" || m.type === "letter" ? m.taught_in : undefined;
 
   return (
     <header className="mb-6">
       <h1 className="gradient-text mb-2 text-3xl font-bold">
-        {"english" in m ? m.english : "name" in m ? m.name : "title" in m && m.title ? String(m.title) : note.basename}
+        {m.type === "rule" ? m.english : m.type === "letter" ? m.name : m.type === "source" && m.title ? m.title : note.basename}
       </h1>
 
-      {"arabic" in m && (
+      {(m.type === "rule" || m.type === "letter") && (
         <p className="arabic quran mb-3 text-3xl" dir="rtl" lang="ar">{m.arabic}</p>
       )}
 
@@ -2114,13 +2117,20 @@ import type { LoadedNote } from "@/library/load";
 /** One row in a section index. Status is shown here so arrival is never a surprise. */
 export function NoteCard({ note }: { note: LoadedNote }) {
   const m = note.meta;
-  const title = "english" in m ? m.english : "name" in m ? m.name : "title" in m && m.title ? String(m.title) : note.basename;
+  // Narrow on the DISCRIMINANT, never on `"key" in m`. SourceNoteSchema is
+  // `.passthrough()`, which gives SourceNote a string index signature — so every
+  // `in` check is true on the source branch and the union collapses to `unknown`.
+  const title =
+    m.type === "rule" ? m.english
+    : m.type === "letter" ? m.name
+    : m.type === "source" && m.title ? m.title
+    : note.basename;
   return (
     <li className="glass rim-static rounded-2xl p-4">
       <Link href={`/library/${note.slug}`} className="block">
         <span className="flex items-baseline justify-between gap-3">
           <span className="font-semibold text-white/90">{title}</span>
-          {"arabic" in m && <span className="arabic text-xl text-white/80" dir="rtl" lang="ar">{m.arabic}</span>}
+          {(m.type === "rule" || m.type === "letter") && <span className="arabic text-xl text-white/80" dir="rtl" lang="ar">{m.arabic}</span>}
         </span>
         {m.status === "needs-review" && <span className="mt-1 block text-xs text-amber-200/80">Needs review</span>}
         {m.status === "draft" && <span className="mt-1 block text-xs text-white/45">Not yet reviewed</span>}
