@@ -1503,7 +1503,7 @@ export function StatusNotice({ status, kind }: { status: Status; kind: "rule" | 
 
   return (
     <p role="note" className="mb-4 text-xs text-white/50">
-      This note has not yet been reviewed.
+      This note is not yet reviewed.
     </p>
   );
 }
