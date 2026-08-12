@@ -836,7 +836,7 @@ export function createHeadingSlugger(): (text: string) => string {
 - [ ] **Step 4: Run the tests to verify they pass**
 
 Run: `npx vitest run src/library/markdown/slug.test.ts`
-Expected: PASS — 9 tests
+Expected: PASS — 11 tests
 
 The "differ only by Unicode" test passes because `⚠` becomes a leading separator that
 is trimmed — giving `the-count-is-disputed` — while a bare heading gives the same base
