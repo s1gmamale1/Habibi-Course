@@ -78,9 +78,24 @@ describe("scoreHold", () => {
     expect(scoreHold(1200, 500, 2, 0.5).correct).toBe(true);
   });
 
-  it("refuses to score without a calibration", () => {
-    expect(scoreHold(1000, 0, 2)).toEqual({ counts: 0, correct: false });
-    expect(scoreHold(1000, -5, 2).correct).toBe(false);
+  /**
+   * `null`, not `false`. A `false` here is a *claim the learner got it wrong*
+   * made by a function that could not grade at all — and downstream that claim
+   * breaks a clean streak and moves a mastery band on evidence that does not
+   * exist. The `GameResult` type has always permitted `null` for exactly this,
+   * and `derive()` carries a guard against the fabricated shape; this removes
+   * the thing being guarded against rather than relying on every future
+   * consumer to be independently robust.
+   */
+  it("refuses to score without a calibration, and says so with null", () => {
+    expect(scoreHold(1000, 0, 2)).toEqual({ counts: 0, correct: null });
+    expect(scoreHold(1000, -5, 2).correct).toBeNull();
+    expect(scoreHold(1000, Number.NaN, 2).correct).toBeNull();
+  });
+
+  it("never returns null once a calibration exists — null means unmeasured, not wrong", () => {
+    expect(scoreHold(600, 500, 2).correct).toBe(false);
+    expect(scoreHold(1000, 500, 2).correct).toBe(true);
   });
 });
 

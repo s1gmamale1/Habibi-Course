@@ -80,9 +80,13 @@ export function scoreHold(
   msPerHarakah: number,
   targetHarakat: number,
   tolerance = TOLERANCE,
-): { counts: number; correct: boolean } {
+): { counts: number; correct: boolean | null } {
   // No calibration means no scale, and a drill with no scale must not guess one.
-  if (!(msPerHarakah > 0)) return { counts: 0, correct: false };
+  //
+  // `null`, never `false`. `false` would be a claim of failure made by a
+  // function that did not grade — and downstream it breaks a clean streak and
+  // moves a mastery band on evidence that does not exist. See `GameResult`.
+  if (!(msPerHarakah > 0)) return { counts: 0, correct: null };
   const counts = Math.max(0, heldMs) / msPerHarakah;
   return { counts, correct: Math.abs(counts - targetHarakat) <= tolerance * targetHarakat };
 }
@@ -120,7 +124,7 @@ type Outcome =
   | { kind: "tap" }
   | { kind: "cancelled" }
   | { kind: "reference"; done: number }
-  | { kind: "scored"; counts: number; correct: boolean };
+  | { kind: "scored"; counts: number; correct: boolean | null };
 
 export function GhunnahTimer({
   rule = "ghunnah",
@@ -264,8 +268,19 @@ export function GhunnahTimer({
           <button
             type="button"
             data-testid="hold-ghunnah"
+            // `unscored` rather than `wrong` for a null verdict — see the
+            // feedback line below. A test asserting on this attribute must not
+            // be able to read "could not grade" as "graded, and failed".
             data-state={
-              start !== null ? "holding" : scored ? (scored.correct ? "correct" : "wrong") : undefined
+              start !== null
+                ? "holding"
+                : scored
+                  ? scored.correct === null
+                    ? "unscored"
+                    : scored.correct
+                      ? "correct"
+                      : "wrong"
+                  : undefined
             }
             className={`rounded-full border px-8 py-6 text-lg text-white transition ${
               start !== null
@@ -299,13 +314,38 @@ export function GhunnahTimer({
             </span>
           )
         ) : scored ? (
-          <span className={scored.correct ? "text-green-300" : "text-amber-300"}>
-            {scored.correct ? "✓" : "✗"} You held about {scored.counts.toFixed(1)} counts —{" "}
-            {scored.correct
-              ? `that is a ${target}-count ${meta.translit.toLowerCase()}.`
-              : scored.counts < target
-                ? `aim for ${target}.`
-                : `longer than ${target}; ease off.`}
+          // `correct === null` is "could not be scored", and it must not read as
+          // "✗". Truthiness collapses the two, which is the same fabricated
+          // failure `scoreHold` was just fixed to stop producing — one layer up,
+          // and in the layer the learner actually sees.
+          //
+          // Not reachable from this component today: `release()` returns early
+          // while `msPerHarakah === null`, and `calibrate` cannot yield a
+          // non-positive number once `MIN_HOLD_MS` has gated every sample. It is
+          // written out anyway because the branch that makes it unreachable is
+          // three screens away from the one that renders it, and the type now
+          // permits the state.
+          <span
+            className={
+              scored.correct === null
+                ? "text-white/70"
+                : scored.correct
+                  ? "text-green-300"
+                  : "text-amber-300"
+            }
+          >
+            {scored.correct === null ? (
+              <>Not scored — set your ḥarakah first.</>
+            ) : (
+              <>
+                {scored.correct ? "✓" : "✗"} You held about {scored.counts.toFixed(1)} counts —{" "}
+                {scored.correct
+                  ? `that is a ${target}-count ${meta.translit.toLowerCase()}.`
+                  : scored.counts < target
+                    ? `aim for ${target}.`
+                    : `longer than ${target}; ease off.`}
+              </>
+            )}
           </span>
         ) : (
           ""
