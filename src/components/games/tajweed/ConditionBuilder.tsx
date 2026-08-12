@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { RULE_META, type RuleId } from "@/content/tajweed";
 import { siblingRules } from "@/games/tajweed";
-import { registerGame, type GameResult } from "../GameRegistry";
+import { registerGame, startWith, type GameResult } from "../GameRegistry";
 
 /**
  * Drill 6 — Condition Builder. A rule stated as a five-part sentence:
@@ -441,8 +441,23 @@ export function ConditionBuilder({
 
 /* ---------- registration -------------------------------------------------- */
 
+/**
+ * One exemplar per rule, and there can never be a second: the chain *is* the
+ * rule stated in five parts, so a second exemplar of the same concept would be
+ * the same sentence. This drill honours a plan — it now opens on the rule the
+ * session asked for rather than always on the first chain — but it cannot serve
+ * a tail retry, which has to come from a drill that can vary the question.
+ */
+export const chainKey = (chain: ConditionChain) => `${GAME_ID}/${chain.rule}`;
+
 registerGame({
   id: GAME_ID,
   label: "🧩 Build the rule",
-  render: ({ onResult }) => <ConditionBuilder chains={DEFAULT_CHAINS} onResult={onResult} />,
+  exemplars: () => DEFAULT_CHAINS.map((c) => ({ conceptId: c.rule, itemKey: chainKey(c) })),
+  render: ({ onResult, item }) => (
+    <ConditionBuilder
+      chains={startWith(DEFAULT_CHAINS, chainKey, item?.itemKey)}
+      onResult={onResult}
+    />
+  ),
 });

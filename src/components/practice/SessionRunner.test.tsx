@@ -494,11 +494,28 @@ describe("the wrong-answer tail is a second retrieval, not the same card twice",
   const spotExemplars = () =>
     getGames(["spot-the-letter"])[0].exemplars?.(spotData).filter((e) => e.conceptId === "ب") ?? [];
 
+  const letterTiles = () =>
+    within(screen.getByTestId("drill-band")).getAllByRole("button", { name: /^word letter/ });
+
   const tiles = () =>
-    within(screen.getByTestId("drill-band"))
-      .getAllByRole("button", { name: /^word letter/ })
+    letterTiles()
       .map((b) => b.textContent)
       .join("");
+
+  /**
+   * Which word the board is spelling, read off the board: بَاب is three letters
+   * and كِتَاب is four, so the count names it without depending on how a glyph
+   * happens to be shaped in context.
+   */
+  const wordOnScreen = () => ({ 3: "بَاب", 4: "كِتَاب" })[letterTiles().length]!;
+
+  /**
+   * A tile that is **not** the ب being hunted, by position — `بَاب` is ب ا ب
+   * and `كِتَاب` is ك ت ا ب. Comparing tile text to "ب" would not do it: a
+   * letter inside a word is drawn in its contextual form, so no tile reads as
+   * the bare glyph and every one of them would look wrong.
+   */
+  const missIt = () => userEvent.click(letterTiles()[wordOnScreen() === "بَاب" ? 1 : 0]);
 
   test("a retry renders a different question on screen, not merely a different row", async () => {
     vi.spyOn(Math, "random").mockReturnValue(0);
@@ -524,11 +541,7 @@ describe("the wrong-answer tail is a second retrieval, not the same card twice",
     const asked = await screen.findByText(/Tap the letter/);
     const shown = tiles();
 
-    // Miss it: any tile that is not the letter being hunted.
-    const wrong = within(screen.getByTestId("drill-band"))
-      .getAllByRole("button", { name: /^word letter/ })
-      .find((b) => b.textContent !== "ب")!;
-    await userEvent.click(wrong);
+    await missIt();
     await userEvent.click(continueButton());
 
     // The tail is up, and it is a different word — the second retrieval the
@@ -559,29 +572,12 @@ describe("the wrong-answer tail is a second retrieval, not the same card twice",
     );
 
     await screen.findByText(/Tap the letter/);
-    /**
-     * Which word the board is spelling, read off the board: بَاب is three
-     * letters and كِتَاب is four, so the tile count names it without depending
-     * on how a glyph happens to be shaped in context.
-     */
-    const wordOnScreen = () =>
-      ({ 3: "بَاب", 4: "كِتَاب" })[
-        within(screen.getByTestId("drill-band")).getAllByRole("button", { name: /^word letter/ })
-          .length
-      ]!;
-
     const firstWord = wordOnScreen();
-    await userEvent.click(
-      within(screen.getByTestId("drill-band"))
-        .getAllByRole("button", { name: /^word letter/ })
-        .find((b) => b.textContent !== "ب")!,
-    );
+    await missIt();
     await userEvent.click(continueButton());
     await screen.findByText(/Tap the letter/);
     const secondWord = wordOnScreen();
-    await userEvent.click(
-      within(screen.getByTestId("drill-band")).getAllByRole("button", { name: /^word letter/ })[0],
-    );
+    await missIt();
 
     const rows = await waitFor(async () => {
       const all = await allAttempts();

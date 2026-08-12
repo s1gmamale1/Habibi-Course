@@ -4,7 +4,7 @@ import { TajweedText, type Span } from "@/components/tajweed/TajweedText";
 import { lookupVerse } from "@/components/tajweed/verses";
 import { RULE_META, type RuleId } from "@/content/tajweed";
 import { siblingRules } from "@/games/tajweed";
-import { registerGame, type GameResult } from "../GameRegistry";
+import { registerGame, startWith, type GameResult } from "../GameRegistry";
 
 /**
  * Drill 1 — Rule Identifier. One rule's span is highlighted in an āyah
@@ -34,7 +34,19 @@ export type RuleItem = {
   rule: RuleId;
   /** The fragment's other spans, painted dimmed for context. */
   spans?: Span[];
+  /**
+   * Where the fragment comes from, as `surah:ayah`.
+   *
+   * Carried so an item has a **stable name** — one āyah offers several spans of
+   * the same rule, and two āyahs offer the same rule at the same offset, so
+   * neither the rule nor the offset identifies a question on its own. A
+   * hand-built item may omit it; it is then named by its rule and offset, which
+   * is enough within one list.
+   */
+  ref?: string;
 };
+
+const GAME_ID = "rule-identifier";
 
 const CHOICE_COUNT = 4;
 
@@ -110,7 +122,7 @@ function Round({
   const pick = (rule: RuleId) => {
     if (locked) return;
     const correct = rule === item.rule;
-    onResult?.({ gameId: "rule-identifier", ruleId: item.rule, correct, at: now() });
+    onResult?.({ gameId: GAME_ID, ruleId: item.rule, correct, at: now() });
     if (correct) {
       setLocked(true);
       onScored(missed.length === 0);
@@ -229,6 +241,7 @@ function itemsFromVerse(surah: number, ayah: number): RuleItem[] {
       spanStart: s.start,
       spanEnd: s.end,
       rule: s.rules[0] as RuleId,
+      ref: `${surah}:${ayah}`,
     }));
 }
 
@@ -241,8 +254,23 @@ const DEFAULT_ITEMS: RuleItem[] = ([[106, 4], [106, 2], [112, 1], [114, 1]] as c
   ([surah, ayah]) => itemsFromVerse(surah, ayah),
 );
 
+/**
+ * A question is one marked span in one āyah, so both name it. 106:4 alone
+ * carries two idghām shafawī spans — two exemplars of one concept, which is
+ * what lets a tail retry re-ask the rule without replaying the question.
+ */
+export const ruleItemKey = (item: RuleItem) =>
+  `${GAME_ID}/${item.ref ?? item.rule}/${item.spanStart}`;
+
 registerGame({
-  id: "rule-identifier",
+  id: GAME_ID,
   label: "❓ Which rule?",
-  render: ({ onResult }) => <RuleIdentifier items={DEFAULT_ITEMS} onResult={onResult} />,
+  exemplars: () =>
+    DEFAULT_ITEMS.map((it) => ({ conceptId: it.rule, itemKey: ruleItemKey(it) })),
+  render: ({ onResult, item }) => (
+    <RuleIdentifier
+      items={startWith(DEFAULT_ITEMS, ruleItemKey, item?.itemKey)}
+      onResult={onResult}
+    />
+  ),
 });

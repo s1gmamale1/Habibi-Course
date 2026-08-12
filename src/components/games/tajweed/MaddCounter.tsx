@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { lookupVerse } from "@/components/tajweed/verses";
 import { RULE_META, type RuleId } from "@/content/tajweed";
-import { registerGame, type GameResult } from "../GameRegistry";
+import { registerGame, startWith, type GameResult } from "../GameRegistry";
 
 /**
  * Drill 4 — Madd Counter. A fragment with one length marked in it, and a
@@ -41,6 +41,8 @@ export type MaddItem = {
   spanStart: number;
   spanEnd: number;
   rule: RuleId;
+  /** Where the fragment comes from, as `surah:ayah` — see `RuleItem.ref`. */
+  ref?: string;
 };
 
 /**
@@ -285,11 +287,36 @@ const DEFAULT_ITEMS: MaddItem[] = DEFAULT_SPECS.flatMap(([surah, ayah, rule]) =>
   const verse = lookupVerse(surah, ayah);
   const span = verse?.spans.find((s) => s.rules[0] === rule);
   if (!verse || !span) return [];
-  return [{ text: verse.text, spanStart: span.start, spanEnd: span.end, rule: rule as RuleId }];
+  return [
+    {
+      text: verse.text,
+      spanStart: span.start,
+      spanEnd: span.end,
+      rule: rule as RuleId,
+      ref: `${surah}:${ayah}`,
+    },
+  ];
 });
+
+/**
+ * One question per marked length. The bundled set carries a single fragment per
+ * madd, so a concept has one exemplar here and a tail retry has to come from
+ * another drill — the drill can honour a plan, not repeat itself with variety
+ * it does not have.
+ */
+export const maddItemKey = (item: MaddItem) =>
+  `${GAME_ID}/${item.ref ?? ""}/${item.rule}`;
 
 registerGame({
   id: GAME_ID,
   label: "⏱️ How long?",
-  render: ({ onResult }) => <MaddCounter items={DEFAULT_ITEMS} onResult={onResult} />,
+  // Only the lengths this drill can actually pose — see `acceptedHarakat`.
+  exemplars: () =>
+    DEFAULT_ITEMS.filter((it) => acceptedHarakat(it.rule).length > 0).map((it) => ({
+      conceptId: it.rule,
+      itemKey: maddItemKey(it),
+    })),
+  render: ({ onResult, item }) => (
+    <MaddCounter items={startWith(DEFAULT_ITEMS, maddItemKey, item?.itemKey)} onResult={onResult} />
+  ),
 });

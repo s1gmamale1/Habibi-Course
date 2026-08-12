@@ -1,5 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
+import { lookupVerse } from "@/components/tajweed/verses";
 import type { RuleId } from "@/content/tajweed";
 import {
   ISTILA_LETTERS,
@@ -8,7 +9,7 @@ import {
   hasSukun,
   segmentGraphemes,
 } from "@/games/tajweed";
-import { registerGame, type GameResult } from "../GameRegistry";
+import { registerGame, startWith, type GameResult } from "../GameRegistry";
 
 /**
  * Span Tapper — "tap every letter that gets qalqalah".
@@ -188,16 +189,71 @@ function missedLabel(missed: number) {
   return missed > 0 ? ` · ${missed} missed (outlined)` : "";
 }
 
+/* ---------- registration ------------------------------------------------ */
+
 /**
- * A default fragment so a lesson naming this drill gets something playable
- * before Task 9 wires per-lesson content. It is real Qur'anic text (112:3),
- * not a placeholder, and it carries two qalqalah letters plus a sukūn-bearing
- * mīm as an honest decoy.
+ * The fragments this drill can pose, from the surahs the course recites in
+ * full. Real Qur'anic text, never a placeholder.
+ *
+ * **The list is filtered by the criterion's own predicate, not by hand.** An
+ * āyah with no qualifying letter is a round the learner cannot complete —
+ * `allFound` is false forever when `targets` is empty — so asking whether a
+ * fragment is playable is asking `matches`, and any other answer could drift
+ * from it. That also means adding an āyah here cannot accidentally add an
+ * unanswerable one.
+ *
+ * 112:3 is kept first, so the drill a lesson already mounts opens on the same
+ * fragment it did before.
  */
+const DEFAULT_REFS = [
+  [112, 3],
+  [112, 4],
+  [105, 4],
+  [106, 4],
+  [111, 1],
+  [108, 3],
+] as const;
+
+type SpanFragment = { text: string; criterion: SpanCriterion; itemKey: string };
+
+const DEFAULT_FRAGMENTS: SpanFragment[] = (
+  Object.keys(CRITERIA) as SpanCriterion[]
+).flatMap((criterion) =>
+  DEFAULT_REFS.flatMap(([surah, ayah]) => {
+    const verse = lookupVerse(surah, ayah);
+    if (!verse) return [];
+    const playable = segmentGraphemes(verse.text).some((seg) => CRITERIA[criterion].matches(seg));
+    return playable
+      ? [{ text: verse.text, criterion, itemKey: `${GAME_ID}/${criterion}/${surah}:${ayah}` }]
+      : [];
+  }),
+);
+
 registerGame({
   id: GAME_ID,
   label: "Span tapper",
-  render: ({ onResult }) => (
-    <SpanTapper text="لَمْ يَلِدْ وَلَمْ يُولَدْ" criterion="qalqalah" onResult={onResult} />
-  ),
+  /**
+   * Only the criteria that *are* one of the 47 concepts. `istila` is a property
+   * of a letter rather than a rule the scheduler tracks — it has no `RuleId` —
+   * so its fragments are playable from the tab list and cannot be planned. A
+   * conceptId invented for them would be a 48th concept nothing else knows.
+   */
+  exemplars: () =>
+    DEFAULT_FRAGMENTS.flatMap((f) => {
+      const spec: CriterionSpec = CRITERIA[f.criterion];
+      return spec.ruleId ? [{ conceptId: spec.ruleId, itemKey: f.itemKey }] : [];
+    }),
+  render: ({ onResult, item }) => {
+    const [fragment] = startWith(DEFAULT_FRAGMENTS, (f) => f.itemKey, item?.itemKey);
+    return (
+      <SpanTapper
+        // Keyed by the fragment: per-round tap state belongs to the text it was
+        // tapped on, and is thrown away with it rather than reset in an effect.
+        key={fragment.itemKey}
+        text={fragment.text}
+        criterion={fragment.criterion}
+        onResult={onResult}
+      />
+    );
+  },
 });

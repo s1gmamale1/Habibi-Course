@@ -358,8 +358,35 @@ const DEFAULT_ITEMS: SorterItem[] = DEFAULT_SPECS.flatMap(([surah, ayah, rule]) 
   ];
 });
 
+/**
+ * **This drill cannot honour an exemplar, and says so rather than pretending.**
+ *
+ * Every other drill asks one question at a time, so being handed one is the
+ * whole mechanic. A sort is one question made of *all* its fragments: the board
+ * is the round, every fragment is on it from the first frame, and a sort with
+ * one card is not a sort. So there is nothing for `render` to select — the
+ * exemplar a session plans is on screen whether or not the drill is told about
+ * it, and reordering the deal to look responsive would be theatre.
+ *
+ * Two consequences, both stated rather than hidden:
+ *
+ * - The row's `itemKey` **is** a true claim that the named fragment was shown.
+ *   It is *not* a claim that the attempt was about that fragment: every drop is
+ *   a graded move and the learner picks which card to place, so the row records
+ *   a move on a board this fragment was part of. `conceptId` inherits the same
+ *   looseness, which is the honest limit of a set-shaped drill.
+ * - A tail retry drawn here would re-show the identical board. `drawRetry`
+ *   already prefers a different drill shape, and the exemplars below are one per
+ *   rule, so a retry of a missed concept never lands on this drill twice.
+ */
+export const sorterItemKey = (item: SorterItem) => `${GAME_ID}/${item.id}`;
+
 registerGame({
   id: GAME_ID,
   label: "🗂️ Sort by family",
+  exemplars: () =>
+    DEFAULT_ITEMS.flatMap((it) =>
+      it.rule ? [{ conceptId: it.rule, itemKey: sorterItemKey(it) }] : [],
+    ),
   render: ({ onResult }) => <FamilySorter items={DEFAULT_ITEMS} onResult={onResult} />,
 });

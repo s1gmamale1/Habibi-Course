@@ -16,7 +16,7 @@
  * it registers, and a drill that quietly stops honouring its exemplar is caught
  * without anyone remembering to come back here.
  */
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, describe, expect, test, vi } from "vitest";
 
 import type { ArabicItem } from "@/content/schema";
@@ -26,6 +26,34 @@ import { LETTER_GAME_IDS } from "./letters";
 import { TAJWEED_GAME_IDS } from "./tajweed";
 
 const ALL_IDS = [...LETTER_GAME_IDS, ...TAJWEED_GAME_IDS];
+
+/**
+ * The drills that advertise **no** exemplar, with the reason — a declared
+ * "cannot", never a silent gap.
+ *
+ * `word-flashcards`: a vocabulary card names none of the 47 concepts the
+ * scheduler tracks. Filing it under one of the word's letters would invent a
+ * concept the card never tested, which is the same defect class as a fabricated
+ * measurement.
+ */
+const ADVERTISES_NOTHING: readonly string[] = ["word-flashcards"];
+
+/**
+ * The drills that **cannot vary the question** an exemplar names, with the
+ * reason. Both are declared in their own files too; this list is what keeps the
+ * property asserted for the other eleven.
+ *
+ * `family-sorter`: its question is the whole board. Every fragment is on screen
+ * from the first frame, so the planned one is shown whether or not the drill is
+ * told about it — and a sort with one card is not a sort. Reordering the deal to
+ * look responsive would be theatre.
+ *
+ * `ghunnah-timer`: its first screen is the *calibration*, which is identical for
+ * every rule because it measures the learner rather than the rule. The rule it
+ * honours appears once the three reference holds are in — asserted directly
+ * below, with the holds performed.
+ */
+const CANNOT_VARY_ON_SCREEN: readonly string[] = ["family-sorter", "ghunnah-timer"];
 
 /* ---------- a lesson's worth of letter content --------------------------- */
 
@@ -107,7 +135,8 @@ function comparablePair(gameId: string): [Exemplar, Exemplar] | null {
 describe("the exemplars a drill advertises", () => {
   test.each(ALL_IDS)("%s advertises exemplars with unique keys and a real concept", (gameId) => {
     const all = exemplarsOf(gameId);
-    expect(all.length).toBeGreaterThan(0);
+    expect(all.length).toBeGreaterThan(ADVERTISES_NOTHING.includes(gameId) ? -1 : 0);
+    if (ADVERTISES_NOTHING.includes(gameId)) expect(all).toEqual([]);
     // A duplicate key is two different questions the session cannot tell apart,
     // and `planSession` de-duplicates on `itemKey` — so a collision would make
     // one exemplar unreachable and the other unrepeatable.
@@ -134,7 +163,6 @@ describe("the exemplars a drill advertises", () => {
       return [...byConcept.values()].some((n) => n >= 2);
     });
     expect([...multi].sort()).toEqual([
-      "family-sorter",
       "listen-identify",
       "rule-identifier",
       "span-tapper",
@@ -145,7 +173,11 @@ describe("the exemplars a drill advertises", () => {
 });
 
 describe("a drill honours the exemplar it is handed", () => {
-  test.each(ALL_IDS)("%s shows a different question for a different exemplar", (gameId) => {
+  const CAN_VARY = ALL_IDS.filter(
+    (id) => !CANNOT_VARY_ON_SCREEN.includes(id) && !ADVERTISES_NOTHING.includes(id),
+  );
+
+  test.each(CAN_VARY)("%s shows a different question for a different exemplar", (gameId) => {
     const pair = comparablePair(gameId);
     expect(pair).not.toBeNull();
     const [a, b] = pair!;
@@ -206,8 +238,11 @@ describe("honouring the exemplar means asking about its concept", () => {
     }
   });
 
-  test("ghunnah-timer holds the rule the exemplar names", () => {
-    for (const rule of ["ghunnah", "madd_6"]) {
+  test("ghunnah-timer holds the rule the exemplar names, once it has a pace to hold at", () => {
+    for (const [rule, count] of [
+      ["ghunnah", 2],
+      ["madd_6", 6],
+    ] as const) {
       fixRandom();
       const view = render(
         <div>
@@ -217,10 +252,56 @@ describe("honouring the exemplar means asking about its concept", () => {
           })}
         </div>,
       );
-      // The target count is the rule's, and it is on screen in ḥarakāt.
-      const wanted = rule === "ghunnah" ? "2" : "6";
-      expect(screenText(view.container)).toMatch(new RegExp(`${wanted}`));
+      // Three reference holds: the drill measures the learner before it measures
+      // the rule, so nothing rule-specific is on screen until it is calibrated.
+      let t = 1000;
+      for (let i = 0; i < 3; i += 1) {
+        const button = screen.getByTestId("hold-calibrate");
+        vi.spyOn(Date, "now").mockReturnValue((t += 0));
+        fireEvent.mouseDown(button);
+        vi.spyOn(Date, "now").mockReturnValue((t += 400));
+        fireEvent.mouseUp(button);
+      }
+
+      // Now the rule is the question: its target count, in ḥarakāt.
+      expect(screen.getByTestId("hold-ghunnah").textContent).toBe(`Hold for ${count} ḥarakāt`);
       view.unmount();
+      vi.restoreAllMocks();
     }
+  });
+
+  test("family-sorter shows every fragment it advertises, with or without a plan", () => {
+    // Its declared "cannot": the board is the question, so the planned exemplar
+    // is on screen either way. That is what makes the row's `itemKey` a true
+    // claim about what was shown even though `render` ignores it.
+    fixRandom();
+    const view = render(<div>{getGames(["family-sorter"])[0].render({ data })}</div>);
+    for (const e of exemplarsOf("family-sorter")) {
+      const id = e.itemKey.slice("family-sorter/".length);
+      expect(screen.getByTestId(`fragment-${id}`)).toBeTruthy();
+    }
+    view.unmount();
+  });
+
+  test("word-flashcards honours a key even though it advertises none", () => {
+    // It cannot be planned — a word is not one of the 47 concepts — but the
+    // plumbing is real, so the day a vocabulary concept exists this deck opens
+    // on the card it is told to rather than needing to be revisited.
+    const shown = data.wordPool.map((w) => {
+      fixRandom();
+      const view = render(
+        <div>
+          {getGames(["word-flashcards"])[0].render({
+            data,
+            item: { conceptId: w.arabic, itemKey: `word-flashcards/${w.arabic}` },
+          })}
+        </div>,
+      );
+      const front = screen.getByLabelText("flip card").textContent ?? "";
+      view.unmount();
+      return front;
+    });
+    // Three different words asked for, three different cards face up.
+    expect(new Set(shown).size).toBe(data.wordPool.length);
   });
 });

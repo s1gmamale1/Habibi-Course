@@ -4,7 +4,7 @@ import { TajweedText, type Span } from "@/components/tajweed/TajweedText";
 import { lookupVerse } from "@/components/tajweed/verses";
 import { RULE_META, TAJWEED_RULES, type RuleId } from "@/content/tajweed";
 import { siblingRules } from "@/games/tajweed";
-import { registerGame, type GameResult } from "../GameRegistry";
+import { registerGame, startWith, type GameResult } from "../GameRegistry";
 import { RECITER, ayahAudioUrl, useAudioCue } from "./useAudioCue";
 
 /**
@@ -281,8 +281,23 @@ export const DEFAULT_LISTEN_ITEMS: ListenItem[] = (
   ] as const
 ).flatMap(([surah, ayah]) => itemsFromVerse(surah, ayah));
 
+/**
+ * A question is a rule heard in one clip, so both name it. A rule audible in
+ * two of the bundled āyāt gives the concept two exemplars — a different
+ * recording, which is a genuinely different act of listening.
+ */
+export const listenItemKey = (item: ListenItem) =>
+  `${GAME_ID}/${item.surah}:${item.ayah}/${item.rule}`;
+
 registerGame({
   id: GAME_ID,
   label: "🎧 What did you hear?",
-  render: ({ onResult }) => <ListenIdentify items={DEFAULT_LISTEN_ITEMS} onResult={onResult} />,
+  exemplars: () =>
+    DEFAULT_LISTEN_ITEMS.map((it) => ({ conceptId: it.rule, itemKey: listenItemKey(it) })),
+  render: ({ onResult, item }) => (
+    <ListenIdentify
+      items={startWith(DEFAULT_LISTEN_ITEMS, listenItemKey, item?.itemKey)}
+      onResult={onResult}
+    />
+  ),
 });

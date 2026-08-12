@@ -327,8 +327,34 @@ export function GhunnahTimer({
 
 /* ---------- registration ------------------------------------------------- */
 
+/**
+ * **One exemplar per rule, and the concept is all this drill can honour.**
+ *
+ * There is no item list here to select from: the question is "hold this rule's
+ * length at your own pace", and the only thing that varies with the plan is
+ * *which* rule — its name, its target count, and the word it is shown in. Two
+ * exemplars of one concept would be the same hold twice, so this drill can never
+ * serve a wrong-answer tail; `drawRetry` has to find the second retrieval
+ * elsewhere.
+ *
+ * Only the rules with an example word are offered. A hold prompt with no word to
+ * hold is a drill asking the learner to imagine the ghunnah, and the ones with a
+ * `harakat` but no `EXAMPLES` entry would be exactly that.
+ */
+const holdKey = (rule: RuleId) => `${GAME_ID}/${rule}`;
+
+const HOLDABLE = (Object.keys(EXAMPLES) as RuleId[]).filter(
+  (rule) => RULE_META[rule].harakat !== undefined && exampleWord(rule) !== null,
+);
+
 registerGame({
   id: GAME_ID,
   label: "🕰️ Hold the ghunnah",
-  render: ({ onResult }) => <GhunnahTimer onResult={onResult} />,
+  exemplars: () => HOLDABLE.map((rule) => ({ conceptId: rule, itemKey: holdKey(rule) })),
+  render: ({ onResult, item }) => (
+    <GhunnahTimer
+      rule={HOLDABLE.find((rule) => holdKey(rule) === item?.itemKey)}
+      onResult={onResult}
+    />
+  ),
 });
