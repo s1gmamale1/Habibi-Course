@@ -1013,8 +1013,13 @@ import { slugifyHeading } from "./slug";
  *    same-note anchor and must render as one.
  * 2. The alias matches [\s\S] rather than [^\]]. A wikilink WRAPS A LINE at
  *    library/02-Rules/Ikhfa-Shafawi.md:46 — `[[Izhar-Shafawi|iẓhār\nshafawī]]`.
- *    A line-oriented pattern misses it and emits literal `[[Izhar-Shafawi|iẓhār`
- *    to the student, which is precisely the defect WISHLIST:146 calls most likely.
+ *    NOTE, because an earlier version of this comment got it wrong: `[^\]]` would
+ *    ALSO match across the newline — in JavaScript a negated character class is not
+ *    newline-restricted; only `.` is. The gate's regex (check-library.mjs:9) handles
+ *    this link correctly too. [\s\S] is chosen for explicitness, not necessity.
+ *    The real hazard is a LINE-BY-LINE implementation (splitting on \n and matching
+ *    per line), which would emit literal `[[Izhar-Shafawi|iẓhār` to a student — the
+ *    defect WISHLIST:146 calls most likely. Parse across newlines; do not split.
  */
 const WIKILINK = /\[\[([^\]|#]*)(?:#([^\]|]*))?(?:\|([\s\S]*?))?\]\]/g;
 
