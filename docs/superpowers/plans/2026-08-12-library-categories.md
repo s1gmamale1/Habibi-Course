@@ -149,8 +149,7 @@ describe("lessonVideos", () => {
 
 describe("videoTopics", () => {
   test("returns distinct sorted topics covering every catalogue video", () => {
-    const topics = videoTopics();
-    expect(topics.length).toBeGreaterThan(1);
+      expect(topics.length).toBeGreaterThan(1);
     expect(topics).toEqual([...topics].sort());
     const covered = new Set(catalogueVideos().map((v) => v.topic));
     for (const t of covered) expect(topics).toContain(t);
@@ -860,11 +859,15 @@ describe("/library/video", () => {
     expect(iframes.length).toBeGreaterThanOrEqual(lessonVideos().length);
   });
 
-  test("groups the catalogue by topic", () => {
+  test("lists the whole catalogue in the channel's own order, with each topic shown", () => {
+    // Deliberately NOT grouped: 90 distinct topics across 96 videos, 86 of them unique.
     const { container } = render(<VideoPage />);
     const text = container.textContent ?? "";
-    const topics = [...new Set(catalogueVideos().map((v) => v.topic))];
-    for (const t of topics.slice(0, 5)) expect(text).toContain(t);
+    const vids = catalogueVideos();
+    expect(vids.length).toBeGreaterThan(90);
+    for (const v of vids.slice(0, 5)) expect(text).toContain(v.topic);
+    // order preserved: video 1's title appears before video 2's
+    expect(text.indexOf(vids[0].title)).toBeLessThan(text.indexOf(vids[1].title));
   });
 
   test("every lesson video links back to a lesson that cues it", () => {
@@ -924,12 +927,11 @@ export function VideoEmbed({
 
 ```tsx
 import Link from "next/link";
-import { catalogueVideos, lessonVideos, playlists, videoTopics } from "@/library/video";
+import { catalogueVideos, lessonVideos, playlists } from "@/library/video";
 import { VideoEmbed } from "@/components/library/VideoEmbed";
 
 export default function VideoPage() {
   const lessons = lessonVideos();
-  const topics = videoTopics();
   const catalogue = catalogueVideos();
 
   return (
@@ -964,36 +966,48 @@ export default function VideoPage() {
         </ul>
       </section>
 
-      {topics.map((topic) => {
-        const inTopic = catalogue.filter((v) => v.topic === topic);
-        if (inTopic.length === 0) return null;
-        return (
-          <section key={topic} className="mb-10">
-            <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/55">{topic}</h2>
-            <ul className="grid gap-3">
-              {inTopic.map((v) => (
-                <li key={v.id} className="glass rounded-2xl p-4">
-                  <a
-                    href={`https://www.youtube.com/watch?v=${v.id}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-semibold text-white/90 underline decoration-white/30 underline-offset-2"
-                  >
-                    {v.title}
-                  </a>
-                  {v.titleOriginal && v.titleOriginal !== v.title && (
-                    <p className="mt-1 text-sm text-white/50">{v.titleOriginal}</p>
-                  )}
-                  <p className="mt-1 text-xs text-white/45">
-                    {v.channel}
-                    {v.duration ? ` · ${v.duration}` : ""}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </section>
-        );
-      })}
+      {/*
+        NOT grouped by topic, and that is a measured decision rather than a shortcut.
+        The 96 topics are per-video subtitles, not categories: there are 90 distinct
+        values, 86 of which appear exactly once, and normalising them still leaves 65
+        buckets with 50 singletons. Grouping would render ninety sections of one video.
+
+        Matching topics to the 59 rule notes was also tried and rejected: it covers only
+        27 of 96, and it is confidently WRONG on some — "Idgham bila ghunnah" fuzzy-matches
+        the `ghunnah` note rather than its own rule. A wrong association is worse than
+        none in a course whose whole discipline is not asserting what it cannot verify.
+
+        What this catalogue actually is: a numbered 96-part course. So it is shown in the
+        channel's own order, with the topic as a subtitle. Linking videos to rules needs a
+        hand-curated mapping in the vault, which this feature must not author — filed.
+      */}
+      <section className="mb-10">
+        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/55">
+          Muallimi Soniy — the full course, in order
+        </h2>
+        <ul className="grid gap-3">
+          {catalogue.map((v, i) => (
+            <li key={v.id} className="glass rounded-2xl p-4">
+              <a
+                href={`https://www.youtube.com/watch?v=${v.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-white/90 underline decoration-white/30 underline-offset-2"
+              >
+                <span className="text-white/45">{i + 1}.</span> {v.title}
+              </a>
+              <p className="mt-1 text-sm text-white/60">{v.topic}</p>
+              {v.titleOriginal && v.titleOriginal !== v.title && (
+                <p className="mt-1 text-sm text-white/45" lang="uz">{v.titleOriginal}</p>
+              )}
+              <p className="mt-1 text-xs text-white/45">
+                {v.channel}
+                {v.duration ? ` · ${v.duration}` : ""}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       <section>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/55">Playlists</h2>
