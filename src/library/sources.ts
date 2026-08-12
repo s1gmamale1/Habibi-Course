@@ -24,45 +24,46 @@ export function displayModeFor(note: SourceNote): SourceDisplay {
   return carriesSourceText && note.author_arabic !== undefined ? "withhold-matn" : "full";
 }
 
-const ARABIC = /[؀-ۿ]/g;
-const arabicShare = (s: string) => (s.match(ARABIC) ?? []).length / Math.max(s.length, 1);
+const ARABIC = /[؀-ۿ]/;
 
 /**
- * Is this heading the start of a matn section?
+ * Does this heading OPEN a matn section?
  *
- * This is STRUCTURAL, not statistical, and that matters — an earlier draft of this
- * function judged individual lines by Arabic density and withheld almost nothing,
- * because the matn lives inside TABLES (Jazariyyah 119 of its 144 Arabic lines,
- * Tuhfah 71 of 95) and inside BLOCKQUOTES (Nihayat, 21 of 47). Any line-shape rule
- * that preserves tables and quotes — as it must, since glossaries and symbol tables
- * are exactly what we keep — preserves the matn along with them.
- *
- * The four notes mark their matn three different ways:
- *   - Tuhfah and Jazariyyah: an explicit `# The matn` H1.
- *   - Nihayat: five `## Excerpt N — …` sections.
- *   - Shatibiyyah: four Arabic-titled bab H2s.
+ * Only two shapes open one: the explicit `# The matn` H1 (Tuhfah, Jazariyyah) and the
+ * `## Excerpt N — …` H2s (Nihayat). Shatibiyyah has neither — its matn sits directly
+ * under Arabic-titled bab H2s — which `withholdMatn` handles via the continuation rule.
  */
-function isMatnHeading(text: string, depth: number): boolean {
+function isMatnOpener(text: string, depth: number): boolean {
   const t = text.trim();
   if (depth === 1) return /^the matn$/i.test(t);
   if (depth === 2 && /^excerpt\s/i.test(t)) return true;
-  if (depth === 2 && arabicShare(t) >= 0.35) return true;
   return false;
 }
 
 /**
  * Remove the matn, keeping everything that frames it.
  *
- * "Matn" here means TEXT A STUDENT COULD MEMORISE FROM — the vocalised verse lines
- * and excerpt bodies. It does NOT mean every Arabic glyph. Headings are ALWAYS kept,
- * including Arabic bab headings, and so is all frontmatter-derived metadata, the
- * chapter-structure tables, the provenance prose and the English rendering.
+ * THE CLOSING RULE IS WHAT MATTERS, and an earlier version got it wrong in a way that
+ * shipped a live leak. That version asked "is this heading at least 35% Arabic?" and
+ * treated anything below as the end of the matn. Every real bab in Jazariyyah scores
+ * 0.366–0.585 — but `## المقدمة — Introduction` scores **0.318**, because half of it is
+ * the English word "Introduction". So the matn "ended" at the Introduction, and the
+ * opening verses of both poems — the most-memorised lines in the book — rendered in
+ * full, next to a panel announcing that the source text was withheld. A false assurance
+ * is worse than no assurance.
  *
- * Withholding every Arabic character would leave an unreadable page and would
- * overstate the instruction, which is about memorisable source text specifically.
+ * The rule is now categorical rather than statistical: once a matn section is open, it
+ * closes ONLY on an H1, or on an H2 with NO Arabic at all (`## Licensing`, `## What this
+ * book does not cover`). A bab heading always carries some Arabic; back matter carries
+ * none. An H2 that has Arabic and appears while closed opens a section — that is
+ * Shatibiyyah's shape.
  *
- * Measured over the real notes: Jazariyyah 147 lines withheld, Tuhfah 85,
- * Shatibiyyah 42, Nihayat 84, Sajawandi (citation-only, no matn) 0.
+ * "Matn" still means TEXT A STUDENT COULD MEMORISE FROM. Headings are always kept,
+ * including Arabic bab headings, along with all metadata, chapter-structure tables,
+ * provenance prose and the English rendering.
+ *
+ * Measured over the real notes: Jazariyyah 157 lines withheld, Tuhfah 92,
+ * Shatibiyyah 51, Nihayat 84, Sajawandi (citation-only, no matn) 0.
  */
 export function withholdMatn(body: string): { body: string; withheldLines: number } {
   let inMatn = false;
@@ -73,9 +74,13 @@ export function withholdMatn(body: string): { body: string; withheldLines: numbe
     const h = /^(#{1,6})\s+(.*)$/.exec(line);
     if (h) {
       const depth = h[1].length;
-      if (isMatnHeading(h[2], depth)) inMatn = true;
-      else if (depth <= 2) inMatn = false;  // an English H1/H2 closes the matn
-      kept.push(line);                       // headings are never withheld
+      const text = h[2].trim();
+      if (isMatnOpener(text, depth)) inMatn = true;
+      else if (depth === 1) inMatn = false;                       // any other H1 closes
+      else if (depth === 2 && !ARABIC.test(text)) inMatn = false; // pure-English H2 closes
+      else if (depth === 2 && !inMatn && ARABIC.test(text)) inMatn = true; // bab opens (Shatibiyyah)
+      // an Arabic-bearing H2 while already open is a bab INSIDE the matn: leave it open
+      kept.push(line);                                            // headings are never withheld
       continue;
     }
     if (inMatn && line.trim()) { withheldLines += 1; continue; }

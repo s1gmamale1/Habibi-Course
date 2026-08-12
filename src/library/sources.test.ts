@@ -70,9 +70,9 @@ describe("the real classical notes", () => {
   // Counts measured against the vault. Asserted as floors, not equalities, so an
   // editorial change to a note does not redden the gate for the wrong reason.
   test.each([
-    ["muqaddimah-jazariyyah", 100],
-    ["tuhfat-al-atfal", 60],
-    ["shatibiyyah", 25],
+    ["muqaddimah-jazariyyah", 140],
+    ["tuhfat-al-atfal", 85],
+    ["shatibiyyah", 45],
     ["nihayat-al-qawl-al-mufid", 60],
   ])("%s withholds a substantial matn", (slug, floor) => {
     const { withheldLines } = withholdMatn(bySlug(slug).body);
@@ -96,5 +96,19 @@ describe("the real classical notes", () => {
   test("Sajawandi is citation-only and loses nothing", () => {
     const n = bySlug("sajawandi-waqf");
     expect(withholdMatn(n.body).withheldLines).toBe(0);
+  });
+
+  // The floors above are necessary but NOT sufficient: they are `toBeGreaterThan`, so a
+  // partial leak still passes them. A real leak did exactly that — the opening verses of
+  // both poems rendered live while 147 other lines were withheld and the counts looked
+  // healthy. These name the specific verses and are the tests that actually bite.
+  test.each([
+    ["muqaddimah-jazariyyah", "يَقُولُ رَاجِي عَفْوِ رَبٍّ سَامِعِ"],
+    ["tuhfat-al-atfal", "يَقُولُ رَاجِي رَحمةِ الْغَفُورِ"],
+    ["shatibiyyah", "وَلَمْ يَصِلُوا هَا مُضْمَرٍ قَبْلَ سَاكِنٍ"],
+  ])("%s does not leak its opening verse", (slug, verse) => {
+    const source = bySlug(slug).body;
+    expect(source, `probe string is stale for ${slug}`).toContain(verse);
+    expect(withholdMatn(source).body).not.toContain(verse);
   });
 });
