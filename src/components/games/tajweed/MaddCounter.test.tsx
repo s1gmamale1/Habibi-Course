@@ -119,6 +119,7 @@ describe("MaddCounter — answering", () => {
       ruleId: "madd_6",
       correct: true,
       at: 42,
+      choice: { chosenHarakat: 6, acceptedHarakat: [6] },
     });
     expect(live()).toMatch(/correct/i);
     expect(live()).toMatch(new RegExp(RULE_META.madd_6.translit, "i"));
@@ -158,6 +159,56 @@ describe("MaddCounter — answering", () => {
 
     expect(onResult).toHaveBeenCalledTimes(1);
     expect(count(2).getAttribute("data-state")).toBeNull();
+  });
+
+  it("reports which count was chosen and which were accepted", async () => {
+    const onResult = vi.fn();
+    render(<MaddCounter items={[LAZIM]} onResult={onResult} />);
+
+    await userEvent.click(count(6));
+
+    // `correct: true` alone loses which of the three the learner picked, and a
+    // wrong pick loses how wrong it was — 2-for-6 is a different error from 4.
+    expect(onResult.mock.lastCall![0].choice).toEqual({
+      chosenHarakat: 6,
+      acceptedHarakat: [6],
+    });
+  });
+
+  it("reports the chosen count of a wrong answer too", async () => {
+    const onResult = vi.fn();
+    render(<MaddCounter items={[LAZIM]} onResult={onResult} />);
+
+    await userEvent.click(count(2));
+
+    expect(onResult.mock.lastCall![0]).toMatchObject({
+      correct: false,
+      choice: { chosenHarakat: 2, acceptedHarakat: [6] },
+    });
+  });
+
+  it("reports all three accepted lengths for the ʿāriḍ, not one invented target", async () => {
+    const onResult = vi.fn();
+    render(<MaddCounter items={[ARID]} onResult={onResult} />);
+
+    await userEvent.click(count(4));
+
+    expect(onResult.mock.lastCall![0].choice).toEqual({
+      chosenHarakat: 4,
+      acceptedHarakat: [2, 4, 6],
+    });
+  });
+
+  it("never fabricates a duration it did not measure", async () => {
+    // Nothing is held here and no calibration exists, so there is no heldMs and
+    // no msPerHarakah. Emitting zeros would be a claim of measurement, which is
+    // the exact defect widening the type exists to stop.
+    const onResult = vi.fn();
+    render(<MaddCounter items={[LAZIM]} onResult={onResult} />);
+
+    await userEvent.click(count(6));
+
+    expect(onResult.mock.lastCall![0].measure).toBeUndefined();
   });
 
   it("keeps a first-try score across questions", async () => {

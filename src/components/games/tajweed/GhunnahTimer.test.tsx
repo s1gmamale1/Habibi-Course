@@ -174,6 +174,7 @@ describe("GhunnahTimer — measuring", () => {
       ruleId: "ghunnah",
       correct: true,
       at: expect.any(Number),
+      measure: { heldMs: 800, msPerHarakah: 400, targetHarakat: 2, measuredHarakat: 2 },
     });
   });
 
@@ -240,6 +241,83 @@ describe("GhunnahTimer — measuring", () => {
     hold(ghunnahButton(), c, 1600); // 5.3 counts at this learner's pace
 
     expect(onResult).toHaveBeenCalledWith(expect.objectContaining({ correct: false }));
+  });
+
+  it("reports the measurement, not just the verdict", () => {
+    const c = clock();
+    const onResult = vi.fn();
+    render(<GhunnahTimer now={c.now} onResult={onResult} />);
+    calibrated(c, 400);
+
+    hold(ghunnahButton(), c, 900);
+
+    // `correct` is a lossy derivation of the hold. The raw measurement has to
+    // survive the boundary or a stored attempt can never be re-scored.
+    expect(onResult).toHaveBeenCalledWith(
+      expect.objectContaining({
+        measure: { heldMs: 900, msPerHarakah: 400, targetHarakat: 2, measuredHarakat: 2.25 },
+      }),
+    );
+  });
+
+  it("reports the learner's own calibration, so the count stays interpretable later", () => {
+    // The same 800ms hold is 2 counts for one learner and 4 for another. Without
+    // msPerHarakah alongside it, a stored measuredHarakat cannot be reproduced.
+    const slow = clock();
+    const slowResult = vi.fn();
+    const view = render(<GhunnahTimer now={slow.now} onResult={slowResult} />);
+    calibrated(slow, 400);
+    hold(ghunnahButton(), slow, 800);
+    view.unmount();
+
+    const fast = clock();
+    const fastResult = vi.fn();
+    render(<GhunnahTimer now={fast.now} onResult={fastResult} />);
+    calibrated(fast, 200);
+    hold(ghunnahButton(), fast, 800);
+
+    expect(slowResult.mock.lastCall![0].measure).toEqual({
+      heldMs: 800,
+      msPerHarakah: 400,
+      targetHarakat: 2,
+      measuredHarakat: 2,
+    });
+    expect(fastResult.mock.lastCall![0].measure).toEqual({
+      heldMs: 800,
+      msPerHarakah: 200,
+      targetHarakat: 2,
+      measuredHarakat: 4,
+    });
+  });
+
+  it("carries the target of the rule actually being drilled", () => {
+    const c = clock();
+    const onResult = vi.fn();
+    render(<GhunnahTimer rule="madd_6" now={c.now} onResult={onResult} />);
+    calibrated(c, 400);
+
+    hold(ghunnahButton(), c, 2400);
+
+    expect(onResult.mock.lastCall![0].measure).toEqual({
+      heldMs: 2400,
+      msPerHarakah: 400,
+      targetHarakat: 6,
+      measuredHarakat: 6,
+    });
+  });
+
+  it("reports the measurement of a failed hold too — a miss is still a measurement", () => {
+    const c = clock();
+    const onResult = vi.fn();
+    render(<GhunnahTimer now={c.now} onResult={onResult} />);
+    calibrated(c, 400);
+
+    hold(ghunnahButton(), c, 400);
+
+    expect(onResult.mock.lastCall![0]).toMatchObject({
+      correct: false,
+      measure: { heldMs: 400, msPerHarakah: 400, targetHarakat: 2, measuredHarakat: 1 },
+    });
   });
 
   it("does not report anything during calibration", () => {

@@ -116,7 +116,17 @@ function Round({
   function pick(n: number) {
     if (locked !== null) return;
     const correct = accepted.includes(n);
-    onResult?.({ gameId: GAME_ID, ruleId: item.rule, correct, at: now() });
+    // `correct` loses *which* length was picked, and the misses are the
+    // diagnosis: reading a six-count madd as two is a different error from
+    // reading it as four. `acceptedHarakat` is carried alongside because for
+    // the ʿāriḍ there are three right answers, not one target.
+    onResult?.({
+      gameId: GAME_ID,
+      ruleId: item.rule,
+      correct,
+      at: now(),
+      choice: { chosenHarakat: n, acceptedHarakat: accepted },
+    });
     if (correct) {
       setLocked(n);
       onScored(missed.length === 0);

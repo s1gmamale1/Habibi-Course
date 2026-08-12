@@ -22,9 +22,48 @@ export type GameResult = {
   gameId: string;
   /** The rule being drilled, when the drill is rule-specific. */
   ruleId?: RuleId;
-  correct: boolean;
+  /**
+   * `null` = ungradeable or skipped. **Never `false` for "no verdict"** — a
+   * fabricated `false` is a *claim* of failure made by a drill that did not
+   * grade, and downstream it would break a streak and move a mastery band on
+   * evidence that does not exist.
+   */
+  correct: boolean | null;
   /** Epoch ms, supplied by the caller so this module stays pure. */
   at: number;
+  /**
+   * The raw measurement, for drills that grade a *held duration*.
+   *
+   * Kept because `correct` is a lossy derivation of it: the tolerance is a
+   * tuning constant, and once only the verdict is stored, retuning it can never
+   * be applied to past attempts. `msPerHarakah` travels with the count because
+   * a ḥarakah has no fixed length — it is the learner's own calibration, and
+   * without it `measuredHarakat` is uninterpretable and unreproducible later.
+   *
+   * Absent unless the drill actually timed something. A drill that asks the
+   * learner to *name* a length has no duration to report and must not invent
+   * one — see `choice`.
+   */
+  measure?: {
+    heldMs: number;
+    msPerHarakah: number;
+    targetHarakat: number;
+    measuredHarakat: number;
+  };
+  /**
+   * The answer, for drills where the learner *selects* a length rather than
+   * holding one.
+   *
+   * Separate from `measure` on purpose. Nothing is timed, so there is no
+   * `heldMs` and no calibration; filling those with zeros would assert a
+   * measurement that never happened. `acceptedHarakat` is a set rather than a
+   * single target because madd ʿāriḍ lis-sukūn is genuinely transmitted at 2,
+   * 4 *or* 6 — collapsing it to one number would record a falsehood.
+   */
+  choice?: {
+    chosenHarakat: number;
+    acceptedHarakat: number[];
+  };
 };
 
 export type GameEntry = {

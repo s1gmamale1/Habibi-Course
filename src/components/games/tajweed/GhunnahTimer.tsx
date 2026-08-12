@@ -171,7 +171,22 @@ export function GhunnahTimer({
     }
     const { counts, correct } = scoreHold(held, msPerHarakah, target);
     setOutcome({ kind: "scored", counts, correct });
-    onResult?.({ gameId: GAME_ID, ruleId: rule, correct, at: now() });
+    // The measurement travels with the verdict. `correct` is a lossy derivation
+    // of `counts` against a tolerance that may be retuned; and `counts` alone is
+    // meaningless without the calibration it was divided by, since a ḥarakah is
+    // the learner's own pace and not a fixed duration.
+    onResult?.({
+      gameId: GAME_ID,
+      ruleId: rule,
+      correct,
+      at: now(),
+      measure: {
+        heldMs: held,
+        msPerHarakah,
+        targetHarakat: target,
+        measuredHarakat: counts,
+      },
+    });
   }
 
   function recalibrate() {
