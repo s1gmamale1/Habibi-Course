@@ -86,10 +86,17 @@ export function SpanTapper({
   text,
   criterion,
   onResult,
+  now = () => Date.now(),
 }: {
   text: string;
   criterion: SpanCriterion;
   onResult?: (r: GameResult) => void;
+  /**
+   * Injected clock, as in every other drill. `at` is what `orderedAttempts`
+   * sorts on and what `schedulesFromLedger` cuts on, so an inline `Date.now()`
+   * here makes the drill's scheduling consequences untestable.
+   */
+  now?: () => number;
 }) {
   const spec: CriterionSpec = CRITERIA[criterion];
   const segments = useMemo(() => segmentGraphemes(text), [text]);
@@ -118,7 +125,7 @@ export function SpanTapper({
   function check() {
     if (submitted) return;
     setSubmitted(true);
-    onResult?.({ gameId: GAME_ID, ruleId: spec.ruleId, correct: isCorrect, at: Date.now() });
+    onResult?.({ gameId: GAME_ID, ruleId: spec.ruleId, correct: isCorrect, at: now() });
   }
 
   return (

@@ -91,6 +91,26 @@ describe("SpanTapper — qalqalah", () => {
     expect(typeof onResult.mock.calls[0][0].at).toBe("number");
   });
 
+  /**
+   * The clock is injected, as it is in every other drill.
+   *
+   * This was the one shipped drill still calling `Date.now()` inline, which
+   * makes the timestamp it writes into the ledger the only one no test can
+   * pin. `at` is not decoration there — `orderedAttempts` sorts on it and
+   * `schedulesFromLedger` cuts on `at <= now`, so a drill whose timestamp
+   * cannot be controlled is a drill whose scheduling consequences cannot be
+   * tested.
+   */
+  it("stamps the result with the injected clock, never a real one", async () => {
+    const onResult = vi.fn();
+    render(<SpanTapper text={YAJAL} criterion="qalqalah" onResult={onResult} now={() => 4242} />);
+
+    await userEvent.click(letters()[1]);
+    await userEvent.click(submit());
+
+    expect(onResult).toHaveBeenCalledWith(expect.objectContaining({ at: 4242 }));
+  });
+
   it("reports correct:false when a target was missed", async () => {
     const onResult = vi.fn();
     render(<SpanTapper text={AYAH_3} criterion="qalqalah" onResult={onResult} />);
