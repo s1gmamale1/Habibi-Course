@@ -648,7 +648,16 @@ Memoised, unlike allLessons() — that one re-parses every lesson for every page
 
 **Interfaces:**
 - Consumes: nothing
-- Produces: `createHeadingSlugger(): (text: string) => string` — stateful per document, dedupes within it
+- Produces:
+  - `slugifyHeading(text: string): string` — **pure**, no dedup. Used by link resolution.
+  - `createHeadingSlugger(): (text: string) => string` — stateful per document, dedupes within it. Used when stamping ids onto headings.
+
+**Why both.** These must not be the same function, and the distinction is load-bearing.
+`renderTokens` walks *every heading in document order*, so it needs dedup. Link resolution
+walks *only the links*, in link order — a different and shorter sequence. If link
+resolution also deduped, a note containing two `[[#Sources]]` links would emit `#sources`
+for the first and `#sources-2` for the second, silently sending the second link to the
+wrong heading. Link resolution must therefore be stateless.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -656,7 +665,7 @@ Create `src/library/markdown/slug.test.ts`:
 
 ```ts
 import { describe, test, expect } from "vitest";
-import { createHeadingSlugger } from "./slug";
+import { createHeadingSlugger, slugifyHeading } from "./slug";
 
 describe("createHeadingSlugger", () => {
   test("lowercases and hyphenates plain headings", () => {
@@ -700,6 +709,23 @@ describe("createHeadingSlugger", () => {
     expect(run()).toEqual(run());
   });
 });
+
+describe("slugifyHeading", () => {
+  test("is pure — repeated calls never drift", () => {
+    expect(slugifyHeading("Sources")).toBe("sources");
+    expect(slugifyHeading("Sources")).toBe("sources");
+    expect(slugifyHeading("Sources")).toBe("sources");
+  });
+
+  test("agrees with the slugger's FIRST emission for a heading", () => {
+    const s = createHeadingSlugger();
+    expect(s("Common mistakes")).toBe(slugifyHeading("Common mistakes"));
+  });
+
+  test("never returns empty, even for a symbol-only heading", () => {
+    expect(slugifyHeading("⚠")).toBe("section");
+  });
+});
 ```
 
 - [ ] **Step 2: Run the test to verify it fails**
@@ -719,17 +745,26 @@ Expected: FAIL — `Failed to resolve import "./slug"`
  * distinct headings collide, so we keep any Unicode letter or number and only strip
  * punctuation and symbols. `\p{L}` and `\p{N}` need the `u` flag.
  *
- * The slugger is stateful and per-document: ids must be unique within one page.
+ * `slugifyHeading` is PURE. `createHeadingSlugger` adds per-document dedup on top.
+ * They are separate on purpose — see the Interfaces block for this task. Link
+ * resolution walks only the links, in link order, so it must not dedupe; heading
+ * rendering walks every heading in document order, so it must.
  */
+export function slugifyHeading(text: string): string {
+  return (
+    text
+      .trim()
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, "-")
+      .replace(/^-+|-+$/g, "") || "section"
+  );
+}
+
+/** Stateful, per-document: ids must be unique within one page. */
 export function createHeadingSlugger(): (text: string) => string {
   const seen = new Map<string, number>();
   return (text: string): string => {
-    const base =
-      text
-        .trim()
-        .toLowerCase()
-        .replace(/[^\p{L}\p{N}]+/gu, "-")
-        .replace(/^-+|-+$/g, "") || "section";
+    const base = slugifyHeading(text);
     const n = (seen.get(base) ?? 0) + 1;
     seen.set(base, n);
     return n === 1 ? base : `${base}-${n}`;
@@ -868,7 +903,7 @@ Expected: FAIL — `Failed to resolve import "./wikilinks"`
 
 ```ts
 import { allNotes } from "../load";
-import { createHeadingSlugger } from "./slug";
+import { slugifyHeading } from "./slug";
 
 /**
  * Obsidian wikilink, in every form the vault uses.
@@ -906,8 +941,11 @@ export function resolveWikilinks(
   markdown: string,
   resolve: (basename: string) => string | null,
 ): string {
-  const slugger = createHeadingSlugger();
-  const anchorFor = (heading: string) => slugger(heading);
+  // slugifyHeading, NOT createHeadingSlugger. Link resolution walks only the links,
+  // in link order — a shorter and different sequence than the headings. A deduping
+  // slugger here would send a note's SECOND `[[#Sources]]` link to `#sources-2`,
+  // silently landing it on the wrong heading.
+  const anchorFor = (heading: string) => slugifyHeading(heading);
 
   return markdown.replace(WIKILINK, (_all, rawTarget: string, rawHeading?: string, rawAlias?: string) => {
     const target = (rawTarget ?? "").trim();
@@ -1380,10 +1418,10 @@ import { resolveWikilinks, buildResolver } from "@/library/markdown/wikilinks";
  * Wikilinks are rewritten to real routes BEFORE lexing, so `marked` never meets `[[`
  * — whose bracket nesting it would otherwise try to read as a reference link.
  *
- * Two sluggers are in play and they must stay separate: `resolveWikilinks` runs one to
- * turn `[[#Heading]]` into an anchor, and `renderTokens` runs a fresh one to stamp ids
- * onto the headings themselves. Sharing a single instance would double-count every
- * heading and suffix the ids out of alignment with the links pointing at them.
+ * The two slug paths are deliberately asymmetric. `resolveWikilinks` uses the PURE
+ * `slugifyHeading` because it walks only the links; `renderTokens` gets a fresh
+ * DEDUPING `createHeadingSlugger` because it walks every heading in document order and
+ * ids must be unique within the page. Making either one match the other breaks anchors.
  */
 export function NoteBody({ note }: { note: LoadedNote }) {
   const markdown = resolveWikilinks(note.body, buildResolver());
@@ -1391,9 +1429,10 @@ export function NoteBody({ note }: { note: LoadedNote }) {
 }
 ```
 
-> **Implementer's note.** The two-slugger comment above describes a real hazard. If a
-> `[[#Heading]]` anchor ever lands on the wrong id, this is why. Both sluggers walk the
-> headings in document order, so their outputs agree as long as each starts fresh.
+> **Implementer's note.** A `[[#Heading]]` anchor lands correctly because
+> `slugifyHeading(h)` always equals the FIRST id `createHeadingSlugger` emits for `h`
+> (Task 4 asserts exactly that). An anchor can therefore only miss when a note has two
+> headings with identical text — the link goes to the first, which is the right answer.
 
 - [ ] **Step 5: Run the tests to verify they pass**
 
