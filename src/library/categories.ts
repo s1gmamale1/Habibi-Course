@@ -15,8 +15,13 @@ export interface Category {
  *
  * Alphabet and Tajweed are the two halves of what used to be one "notes" view;
  * Video and Materials are new and are not note-backed. `categories.test.ts` asserts
- * that the four note-backed boxes still sum to every in-scope note, so a note cannot
- * silently become unreachable from the landing page.
+ * both that the four note-backed boxes sum to every in-scope note, AND — separately,
+ * because the sum alone doesn't prove it — that every note is actually LISTED on one
+ * of those boxes' index pages. The sum invariant alone once let `Sifat.md` (an
+ * `index` note) count toward "Glossary & reference (2)" while that card's `href`
+ * pointed at `/library/glossary`, the Glossary note's OWN detail page — so Sifat was
+ * counted but unreachable from any index. The href below now points at a real index
+ * of every `type: "index"` note instead.
  */
 export function categories(): Category[] {
   const notes = allNotes();
@@ -66,7 +71,7 @@ export function categories(): Category[] {
       id: "glossary",
       label: "Glossary & reference",
       blurb: "Uzbek · Arabic · English terms, plus other reference notes.",
-      href: "/library/glossary",
+      href: "/library/reference",
       count: count("index"),
     },
   ];

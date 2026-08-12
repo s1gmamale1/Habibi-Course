@@ -1,9 +1,10 @@
 import { describe, test, expect } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, cleanup } from "@testing-library/react";
 import TajweedPage from "./tajweed/page";
 import AlphabetPage from "./alphabet/page";
 import SourcesPage from "./sources/page";
-import { allNotes } from "@/library/load";
+import ReferencePage from "./reference/page";
+import { allNotes, allSlugs } from "@/library/load";
 
 describe("/library/tajweed", () => {
   test("lists all 59 rules and no non-rules", () => {
@@ -43,5 +44,34 @@ describe("/library/sources", () => {
     for (const name of [/Shatibiyyah/i, /Sajawandi/i, /Nihayat/i]) {
       expect(screen.getByRole("link", { name })).toBeTruthy();
     }
+  });
+});
+
+describe("/library/reference", () => {
+  test("lists both index notes, including Sifat", () => {
+    render(<ReferencePage />);
+    expect(screen.getAllByRole("listitem")).toHaveLength(2);
+    expect(screen.getByRole("link", { name: /Sifat/i })).toBeTruthy();
+    expect(screen.getByRole("link", { name: /Glossary/i })).toBeTruthy();
+  });
+});
+
+describe("every in-scope note is reachable from an index page", () => {
+  // categories.ts's own sum-invariant test only proves the four note-backed COUNTS add
+  // up to 101 — it does not prove any given note is actually LISTED on the page its
+  // count implies. That gap is exactly how Sifat.md shipped counted-but-unreachable:
+  // "Glossary & reference (2)" included it, but the card's href pointed at the
+  // Glossary note's own detail page, not an index. This walks the real pages instead.
+  test("the union of what alphabet, tajweed, sources and reference list covers every slug", () => {
+    const linked = new Set<string>();
+    for (const Page of [AlphabetPage, TajweedPage, SourcesPage, ReferencePage]) {
+      render(<Page />);
+      for (const link of screen.getAllByRole("link")) {
+        const m = /^\/library\/([^/]+)$/.exec(link.getAttribute("href") ?? "");
+        if (m) linked.add(m[1]);
+      }
+      cleanup();
+    }
+    expect([...linked].sort()).toEqual([...allSlugs()].sort());
   });
 });

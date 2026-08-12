@@ -71,6 +71,38 @@ describe("block rendering", () => {
     expect(heading.getAttribute("lang")).toBeNull();
     expect(heading.className).not.toContain("arabic");
   });
+
+  test("a predominantly-Latin heading that merely names a letter is not treated as Arabic", () => {
+    draw("## Why ض is the hardest letter in Arabic\n");
+    const heading = screen.getByRole("heading", { level: 2 });
+    expect(heading.getAttribute("lang")).toBeNull();
+    expect(heading.className).not.toContain("arabic");
+    // Gets the same bidi safety net as mixed table cells instead.
+    expect(heading.getAttribute("dir")).toBe("auto");
+  });
+
+  test("a second predominantly-Latin heading naming a letter is not treated as Arabic", () => {
+    draw("## ط → ت is nāqiṣ — and this is the rule's real content\n");
+    const heading = screen.getByRole("heading", { level: 2 });
+    expect(heading.getAttribute("lang")).toBeNull();
+    expect(heading.className).not.toContain("arabic");
+  });
+
+  test("a short bilingual title heading is still treated as Arabic", () => {
+    // The vault's real convention for letter and rule titles: a bare Arabic term
+    // paired with its English gloss or transliteration, e.g. a letter page's own H1.
+    // These are majority-Latin by character count but are still the term itself.
+    draw("## غ — ghayn\n");
+    const heading = screen.getByRole("heading", { level: 2 });
+    expect(heading.getAttribute("lang")).toBe("ar");
+    expect(heading.className).toContain("arabic");
+  });
+
+  test("an English heading with no Arabic at all gets no dir either", () => {
+    draw("## Common mistakes\n");
+    const heading = screen.getByRole("heading", { level: 2 });
+    expect(heading.getAttribute("dir")).toBeNull();
+  });
 });
 
 describe("inline rendering", () => {

@@ -2,7 +2,7 @@
  * Section landing segments. A note basename that lowercased to one of these would
  * shadow its index page, so `allSlugs()` is asserted against this list.
  */
-export const RESERVED_SEGMENTS = ["alphabet", "tajweed", "video", "sources", "materials"] as const;
+export const RESERVED_SEGMENTS = ["alphabet", "tajweed", "video", "sources", "materials", "reference"] as const;
 
 /**
  * Route slug for a note.

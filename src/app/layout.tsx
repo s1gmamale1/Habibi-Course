@@ -19,7 +19,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </div>
         <div className="relative z-10">
           <SiteNav />
-          <div id="content">{children}</div>
+          {/* tabIndex={-1} makes the skip-link target itself programmatically
+              focusable. Without it, Firefox and Safari scroll to #content but leave
+              focus on the nav, so the very next Tab returns there — the skip link is
+              inert for exactly the keyboard users it exists for. */}
+          <div id="content" tabIndex={-1}>{children}</div>
           <Credits />
         </div>
       </body>
