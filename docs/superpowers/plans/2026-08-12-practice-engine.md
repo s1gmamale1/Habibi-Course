@@ -391,6 +391,23 @@ test("every submit appends exactly one attempt row", async () => { /* … */ });
 
 ---
 
+## Task 6b: Register the six letter drills *(added 2026-08-12, found by Task 5)*
+
+**Files:** `src/components/games/{Flashcards,FormSwap,WordBuilder,LetterQuiz,SpotTheLetter}.tsx`, `src/practice/session.ts` (`DRILL_MODES`)
+
+**The gap.** Only the seven *tajweed* drills call `registerGame`. The six letter drills are rendered from a literal tab list in `GamePanel.tsx:24-47` and have **no `gameId` at all** — verified: `grep -c registerGame` returns 0 for every one.
+
+**Why it matters.** `shapeOf()` keys the response mode off `gameId`, so every unregistered drill falls to the default (recognition, 1 slot). **29 of the 47 concepts are letters**, so 62% of the roster currently plans as an all-recognition session with no ramp — and the recognition → discrimination → production ramp is one of the few structural ideas with *causal* evidence behind it (regression-discontinuity, Portnoff et al. 2021).
+
+- [ ] **Step 1: Write the failing test** — a letter concept's plan contains at least one non-recognition item.
+- [ ] **Step 2: Run it, watch it fail** — every item is `recognition`.
+- [ ] **Step 3: Register each drill** with a stable `gameId`, following the pattern in `src/components/games/tajweed/*.tsx`.
+- [ ] **Step 4: Add `DRILL_MODES` entries.** Suggested: `flashcards` recognition · `letter-quiz` recognition · `spot-the-letter` discrimination · `form-swap` discrimination · `word-builder` production. None is timed, so all cost 1 slot.
+- [ ] **Step 5: Verify the roster still resolves to 47** and no drill is double-registered.
+- [ ] **Step 6: Full gate + commit.**
+
+**Do not** wire `GamePanel`'s literal tab list to the registry here — that is a separate change and this task must stay small.
+
 ## Task 7: The session screen
 
 **Files:**
