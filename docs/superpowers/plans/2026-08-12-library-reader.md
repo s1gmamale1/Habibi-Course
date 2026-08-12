@@ -659,7 +659,7 @@ known O(N²) item in WISHLIST. Do not repeat that here.
 - [ ] **Step 5: Run the tests to verify they pass**
 
 Run: `npx vitest run src/library/load.test.ts`
-Expected: PASS — 11 tests
+Expected: PASS — 13 tests
 
 - [ ] **Step 6: Commit**
 
