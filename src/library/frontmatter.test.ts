@@ -1,7 +1,7 @@
 import { describe, test, expect } from "vitest";
 import fs from "node:fs";
 import { parseNote } from "./frontmatter";
-import { inScopeNoteFiles } from "./paths";
+import { inScopeNoteFiles, VAULT_DIR } from "./paths";
 
 describe("parseNote", () => {
   test("splits frontmatter from body", () => {
@@ -35,7 +35,11 @@ describe("inScopeNoteFiles", () => {
   });
 
   test("skips dot-directories such as .obsidian", () => {
-    expect(inScopeNoteFiles().some((f) => f.includes("/."))).toBe(false);
+    // Check the path RELATIVE to the vault. Checking the absolute path is wrong:
+    // a git worktree lives under `.claude/worktrees/`, so every absolute path
+    // contains "/." and the assertion fails for a reason unrelated to the vault.
+    const rel = inScopeNoteFiles().map((f) => f.slice(VAULT_DIR.length));
+    expect(rel.some((f) => f.includes("/."))).toBe(false);
   });
 
   test("every in-scope note parses", () => {

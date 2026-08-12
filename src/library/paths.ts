@@ -1,22 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 
-/**
- * The Obsidian vault. ADR-003 makes it the source of record; we only ever read it.
- *
- * In worktree environments (CWD contains dot-directories), we resolve to the real
- * parent repo to ensure paths don't contain dot-dirs (keeping tests portable).
- */
-export const VAULT_DIR = (() => {
-  const cwd = process.cwd();
-  const libDir = path.join(cwd, "library");
-  // If CWD contains /.claude/worktrees or /.worktrees, use parent repo's library
-  if (cwd.includes("/.claude/worktrees/") || cwd.includes("/.worktrees/")) {
-    const repoRoot = cwd.split("/.claude/worktrees/")[0] || cwd.split("/.worktrees/")[0];
-    return path.join(repoRoot, "library");
-  }
-  return libDir;
-})();
+/** The Obsidian vault. ADR-003 makes it the source of record; we only ever read it. */
+export const VAULT_DIR = path.join(process.cwd(), "library");
 
 /**
  * The four in-scope roots. Curriculum, Pedagogy, the Verification-Log and the raw
