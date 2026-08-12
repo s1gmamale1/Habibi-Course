@@ -408,6 +408,24 @@ test("every submit appends exactly one attempt row", async () => { /* … */ });
 
 **Do not** wire `GamePanel`'s literal tab list to the registry here — that is a separate change and this task must stay small.
 
+## Task 6c: Close the flag loop *(added 2026-08-12, found by Task 6)*
+
+**Files:** `src/practice/session.ts`
+
+**The gap.** `useSession` mints `flagged` — concepts missed and *not repaired* in the tail — and nothing consumes it. `planSession`'s signature has no parameter for it, and `pickInterleaveConcepts` orders by due date and weakness only. So the plan's claim that a repeated failure *"converts a failure into scheduling information"* is **half-built**: the information is produced and dropped at session end.
+
+**Preferred fix: derive it, do not store it.** A flagged concept is one whose most recent attempts in the ledger show a miss with no subsequent clean rep in the same session. That keeps the architecture's central property — the ledger is ground truth, everything else is derived and rebuildable — and needs no new storage or plumbing through React state. Falling back to an `opts.prioritise?: readonly string[]` parameter is acceptable if derivation proves awkward, but say which you chose and why.
+
+- [ ] **Step 1: Write the failing test** — a concept flagged in the previous session appears in the next session's interleaved slots ahead of an equally-due unflagged one.
+- [ ] **Step 2: Run it, watch it fail.**
+- [ ] **Step 3: Implement**, keeping `planSession` pure.
+- [ ] **Step 4: Confirm it does not override the focus concept** — a flag raises interleave priority, it does not hijack the session.
+- [ ] **Step 5: Mutation-check + full gate + commit.**
+
+### Accepted deviation, recorded so it is not "fixed" back
+
+**A tail retry is recorded `isInterleaved: false`, even when the item that spawned it was interleaved.** Task 6 deviated from the brief here and was right to. That flag *is* the retention instrument — it answers "did this concept survive being left alone". A retry two minutes after corrective feedback measures **repair, not survival**, so inheriting `true` would inject a near-instant re-test into the retention data and inflate the exact number the flag exists to report. Pinned by the test `a tail retry is never recorded as interleaved`.
+
 ## Task 7: The session screen
 
 **Files:**
