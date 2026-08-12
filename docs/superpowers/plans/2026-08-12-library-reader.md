@@ -1851,7 +1851,7 @@ export function MatnWithheld({ note, lines }: { note: SourceNote; lines: number 
 - [ ] **Step 5: Run the tests to verify they pass**
 
 Run: `npx vitest run src/library/sources.test.ts`
-Expected: PASS — 8 tests
+Expected: PASS — 17 tests
 
 If `withheldLines` for Tuhfah comes in below 30, the 0.4 Arabic-density threshold is too
 strict for that note's line shapes — tune the threshold, **not** the test, and re-check
