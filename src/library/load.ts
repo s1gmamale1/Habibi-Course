@@ -18,7 +18,7 @@ export interface LoadedNote {
  * parseJsonFile in src/content/load.ts:7. A vault note that stops validating should
  * fail the build loudly, not degrade into a blank page.
  */
-function loadNote(file: string): LoadedNote {
+export function loadNote(file: string): LoadedNote {
   try {
     const { data, body } = parseNote(fs.readFileSync(file, "utf8"));
     const basename = path.basename(file, ".md");
