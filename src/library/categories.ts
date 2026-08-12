@@ -40,7 +40,7 @@ export function categories(): Category[] {
     {
       id: "video",
       label: "Video",
-      blurb: "Lesson videos and the catalogued channels, grouped by topic.",
+      blurb: "Lesson videos, the full catalogued course, and the channel playlists.",
       href: "/library/video",
       count: catalogueVideos().length + lessonVideos().length + playlists().length,
     },
