@@ -114,23 +114,23 @@ beforeEach(() => {
 
 describe("the wrong-answer tail", () => {
   test("a miss re-queues a DIFFERENT exemplar of the same concept", () => {
-    const first = item("idgham", "rule-identifier", 1);
-    const session = run([first], poolFor(["idgham"]));
+    const first = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([first], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, false);
 
     expect(session.result.current.tailLength).toBe(1);
     const requeued = session.result.current.current!;
-    expect(requeued.conceptId).toBe("idgham");
+    expect(requeued.conceptId).toBe("idghaam_ghunnah");
     // The load-bearing assertion. Replaying the identical question is answered
     // from memory of the correction just read, not from the rule.
     expect(requeued.itemKey).not.toBe(first.itemKey);
   });
 
   test("the re-queued exemplar was not already shown earlier in the session", () => {
-    const shownEarlier = item("idgham", "span-tapper", 1);
-    const missed = item("idgham", "rule-identifier", 1);
-    const session = run([shownEarlier, missed], poolFor(["idgham"]));
+    const shownEarlier = item("idghaam_ghunnah", "span-tapper", 1);
+    const missed = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([shownEarlier, missed], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, true);
     answerCurrent(session, false);
@@ -141,8 +141,8 @@ describe("the wrong-answer tail", () => {
   });
 
   test("it prefers a different drill shape when the concept has one", () => {
-    const missed = item("idgham", "rule-identifier", 1);
-    const session = run([missed], poolFor(["idgham"]));
+    const missed = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([missed], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, false);
 
@@ -153,7 +153,7 @@ describe("the wrong-answer tail", () => {
   });
 
   test("the session does not end while the tail is non-empty", () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, false);
 
@@ -168,7 +168,7 @@ describe("the wrong-answer tail", () => {
   });
 
   test("a correct answer queues nothing", () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, true);
 
@@ -191,7 +191,7 @@ describe("the wrong-answer tail", () => {
   });
 
   test("at most 2 tail attempts per concept, however often it is missed", () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     const shown = answerAll(session, false);
 
@@ -207,8 +207,8 @@ describe("the wrong-answer tail", () => {
     // a tail that forgot what it had already queued. Here there is nothing to
     // alternate with, so only the used-set can keep the retries distinct.
     const session = run(
-      [item("idgham", "rule-identifier", 1)],
-      poolFor(["idgham"], ["rule-identifier"], 3),
+      [item("idghaam_ghunnah", "rule-identifier", 1)],
+      poolFor(["idghaam_ghunnah"], ["rule-identifier"], 3),
     );
 
     const shown = answerAll(session, false);
@@ -218,18 +218,18 @@ describe("the wrong-answer tail", () => {
   });
 
   test("a concept still failing after 2 tail attempts is flagged, and the session ends", () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerAll(session, false);
 
-    expect(session.result.current.flagged).toEqual(["idgham"]);
+    expect(session.result.current.flagged).toEqual(["idghaam_ghunnah"]);
     expect(session.result.current.isComplete).toBe(true);
     // No hearts, no lockout: the cap ends the session, nothing ends the learner.
     expect(session.result.current.tailLength).toBe(0);
   });
 
   test("a concept repaired in the tail is not flagged", () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, false);
     answerCurrent(session, true);
@@ -239,7 +239,7 @@ describe("the wrong-answer tail", () => {
   });
 
   test("with no unused exemplar left the tail degrades: nothing queued, no repeat, no hang", () => {
-    const only = item("idgham", "rule-identifier", 1);
+    const only = item("idghaam_ghunnah", "rule-identifier", 1);
     // The pool holds exactly the one exemplar the plan already used.
     const session = run([only], [{ ...only }]);
 
@@ -249,11 +249,11 @@ describe("the wrong-answer tail", () => {
     expect(session.result.current.current).toBeNull();
     expect(session.result.current.isComplete).toBe(true);
     // Carried forward instead: the concept was missed and could not be retried.
-    expect(session.result.current.flagged).toEqual(["idgham"]);
+    expect(session.result.current.flagged).toEqual(["idghaam_ghunnah"]);
   });
 
   test("progress counts the tail, so the total grows when a miss adds to it", () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     expect(session.result.current.progress).toEqual({ done: 0, total: 1 });
     answerCurrent(session, false);
@@ -263,8 +263,8 @@ describe("the wrong-answer tail", () => {
 
 describe("what the session writes", () => {
   test("every submit appends exactly one attempt row", async () => {
-    const items = [item("idgham", "rule-identifier", 1), item("ikhfa", "span-tapper", 1)];
-    const session = run(items, poolFor(["idgham", "ikhfa"]));
+    const items = [item("idghaam_ghunnah", "rule-identifier", 1), item("ikhfa", "span-tapper", 1)];
+    const session = run(items, poolFor(["idghaam_ghunnah", "ikhfa"]));
 
     answerCurrent(session, true);
     await rowsWritten(1);
@@ -273,12 +273,12 @@ describe("what the session writes", () => {
 
     const rows = await allAttempts();
     expect(rows.map((r) => r.itemKey)).toEqual(items.map((i) => i.itemKey));
-    expect(rows.map((r) => r.conceptId)).toEqual(["idgham", "ikhfa"]);
+    expect(rows.map((r) => r.conceptId)).toEqual(["idghaam_ghunnah", "ikhfa"]);
     expect(rows.map((r) => r.correct)).toEqual([true, true]);
   });
 
   test("a tail attempt is a row of its own, so a miss writes two rows in total", async () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, false);
     answerCurrent(session, true);
@@ -291,7 +291,7 @@ describe("what the session writes", () => {
   });
 
   test("an ungraded submit appends `correct: null` AND queues nothing", async () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, null);
 
@@ -308,10 +308,10 @@ describe("what the session writes", () => {
 
   test("isInterleaved is copied from the planned item, never inferred", async () => {
     const items = [
-      item("idgham", "rule-identifier", 1, false),
+      item("idghaam_ghunnah", "rule-identifier", 1, false),
       item("ikhfa", "span-tapper", 1, true),
     ];
-    const session = run(items, poolFor(["idgham", "ikhfa"]));
+    const session = run(items, poolFor(["idghaam_ghunnah", "ikhfa"]));
 
     answerCurrent(session, true);
     answerCurrent(session, true);
@@ -356,8 +356,8 @@ describe("what the session writes", () => {
   });
 
   test("the hook mints one sessionId and every row carries it", async () => {
-    const items = [item("idgham", "rule-identifier", 1), item("ikhfa", "span-tapper", 1)];
-    const session = renderHook(() => useSession(plan(items), poolFor(["idgham", "ikhfa"])));
+    const items = [item("idghaam_ghunnah", "rule-identifier", 1), item("ikhfa", "span-tapper", 1)];
+    const session = renderHook(() => useSession(plan(items), poolFor(["idghaam_ghunnah", "ikhfa"])));
 
     answerCurrent(session, true);
     answerCurrent(session, true);
@@ -370,13 +370,13 @@ describe("what the session writes", () => {
 
     // `planSession` is pure and deliberately mints nothing, so this is the only
     // place an id can come from — and a second sitting has to be a second id.
-    const other = renderHook(() => useSession(plan(items), poolFor(["idgham"])));
+    const other = renderHook(() => useSession(plan(items), poolFor(["idghaam_ghunnah"])));
     expect(other.result.current.sessionId).not.toBe(minted);
   });
 
   test("the id is stable across re-renders", () => {
-    const items = [item("idgham", "rule-identifier", 1)];
-    const session = renderHook(() => useSession(plan(items), poolFor(["idgham"])));
+    const items = [item("idghaam_ghunnah", "rule-identifier", 1)];
+    const session = renderHook(() => useSession(plan(items), poolFor(["idghaam_ghunnah"])));
     const first = session.result.current.sessionId;
 
     session.rerender();
@@ -386,8 +386,8 @@ describe("what the session writes", () => {
   });
 
   test("submitting once the session is over writes nothing", async () => {
-    const shown = item("idgham", "rule-identifier", 1);
-    const session = run([shown], poolFor(["idgham"]));
+    const shown = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([shown], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, true);
     await rowsWritten(1);
@@ -401,8 +401,8 @@ describe("what the session writes", () => {
 
   test("a failed append does not lose the session", async () => {
     vi.mocked(appendAttempt).mockRejectedValueOnce(new Error("QuotaExceededError"));
-    const items = [item("idgham", "rule-identifier", 1), item("ikhfa", "span-tapper", 1)];
-    const session = run(items, poolFor(["idgham", "ikhfa"]));
+    const items = [item("idghaam_ghunnah", "rule-identifier", 1), item("ikhfa", "span-tapper", 1)];
+    const session = run(items, poolFor(["idghaam_ghunnah", "ikhfa"]));
 
     answerCurrent(session, true);
 
@@ -419,7 +419,7 @@ describe("what the session writes", () => {
   });
 
   test("nothing on screen waits on the write", () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     // `submit` is not async and does not return a promise: `answerCurrent`
     // advanced the session inside a synchronous `act`, with no IndexedDB round
@@ -441,25 +441,25 @@ describe("the hook's own bookkeeping", () => {
   });
 
   test("a concept is flagged once, however many times it runs out of retries", () => {
-    const items = [item("idgham", "rule-identifier", 1), item("idgham", "span-tapper", 1)];
+    const items = [item("idghaam_ghunnah", "rule-identifier", 1), item("idghaam_ghunnah", "span-tapper", 1)];
     // One spare exemplar only: the second miss has nothing left to draw.
     const pool: PoolItem[] = [
       ...items,
-      { conceptId: "idgham", itemKey: "idgham/rule-identifier/2", gameId: "rule-identifier" },
+      { conceptId: "idghaam_ghunnah", itemKey: "idghaam_ghunnah/rule-identifier/2", gameId: "rule-identifier" },
     ];
     const session = run(items, pool);
 
     answerAll(session, false);
 
-    expect(session.result.current.flagged).toEqual(["idgham"]);
+    expect(session.result.current.flagged).toEqual(["idghaam_ghunnah"]);
   });
 
   test("submit keeps its identity, so passing it to a drill does not re-render it", () => {
-    const items = [item("idgham", "rule-identifier", 1), item("idgham", "span-tapper", 1)];
+    const items = [item("idghaam_ghunnah", "rule-identifier", 1), item("idghaam_ghunnah", "span-tapper", 1)];
     // A caller that builds its plan and pool inline hands over a new array on
     // every render, which is the normal case and must not churn the callback.
     const session = renderHook(() =>
-      useSession(plan(items), poolFor(["idgham"]), { sessionId: "s-test" }),
+      useSession(plan(items), poolFor(["idghaam_ghunnah"]), { sessionId: "s-test" }),
     );
     const first = session.result.current.submit;
 
@@ -484,7 +484,7 @@ describe("the hook's own bookkeeping", () => {
   });
 
   test("the row is built by attemptFromResult, so a bare result gets no invented fields", async () => {
-    const session = run([item("idgham", "rule-identifier", 1)], poolFor(["idgham"]));
+    const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, true);
 
@@ -513,8 +513,8 @@ describe("the hook's own bookkeeping", () => {
  */
 describe("record and advance", () => {
   test("record writes the row and stays on the question", async () => {
-    const first = item("idgham", "rule-identifier", 1);
-    const session = run([first, item("ikhfa", "span-tapper", 1)], poolFor(["idgham", "ikhfa"]));
+    const first = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([first, item("ikhfa", "span-tapper", 1)], poolFor(["idghaam_ghunnah", "ikhfa"]));
 
     act(() => session.result.current.record(answer(first, false)));
 
@@ -524,8 +524,8 @@ describe("record and advance", () => {
   });
 
   test("a second graded move is a row, and nothing else", async () => {
-    const first = item("idgham", "rule-identifier", 1);
-    const session = run([first], poolFor(["idgham"]));
+    const first = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([first], poolFor(["idghaam_ghunnah"]));
 
     act(() => session.result.current.record(answer(first, false)));
     const queued = session.result.current.tailLength;
@@ -541,8 +541,8 @@ describe("record and advance", () => {
   });
 
   test("verdict reports unanswered, ungraded and decided as three different things", () => {
-    const shown = item("idgham", "rule-identifier", 1);
-    const session = run([shown], poolFor(["idgham"]));
+    const shown = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([shown], poolFor(["idghaam_ghunnah"]));
 
     expect(session.result.current.verdict).toBeUndefined();
     act(() => session.result.current.record(answer(shown, null)));
@@ -554,9 +554,9 @@ describe("record and advance", () => {
   });
 
   test("advance moves on, and clears the answer with the question", () => {
-    const first = item("idgham", "rule-identifier", 1);
+    const first = item("idghaam_ghunnah", "rule-identifier", 1);
     const second = item("ikhfa", "span-tapper", 1);
-    const session = run([first, second], poolFor(["idgham", "ikhfa"]));
+    const session = run([first, second], poolFor(["idghaam_ghunnah", "ikhfa"]));
 
     act(() => session.result.current.record(answer(first, true)));
     act(() => session.result.current.advance());
@@ -567,8 +567,8 @@ describe("record and advance", () => {
   });
 
   test("advance does nothing while the question is unanswered", async () => {
-    const first = item("idgham", "rule-identifier", 1);
-    const session = run([first, item("ikhfa", "span-tapper", 1)], poolFor(["idgham", "ikhfa"]));
+    const first = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([first, item("ikhfa", "span-tapper", 1)], poolFor(["idghaam_ghunnah", "ikhfa"]));
 
     act(() => session.result.current.advance());
 
@@ -580,8 +580,8 @@ describe("record and advance", () => {
   });
 
   test("advance past the end is not a way to run off it", () => {
-    const shown = item("idgham", "rule-identifier", 1);
-    const session = run([shown], poolFor(["idgham"]));
+    const shown = item("idghaam_ghunnah", "rule-identifier", 1);
+    const session = run([shown], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, true);
     act(() => session.result.current.advance());

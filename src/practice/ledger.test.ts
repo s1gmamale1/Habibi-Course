@@ -20,7 +20,9 @@ function mk(over: Partial<Attempt> = {}): Attempt {
   return {
     id: crypto.randomUUID(),
     at: (clock += 1000),
-    conceptId: "idgham",
+    // A real rule id. This fixture said `"idgham"` for months — not one of the
+    // 18, and the very typo the append guard below now rejects.
+    conceptId: "idghaam_ghunnah",
     itemKey: "2:1#3",
     gameId: "ghunnah-timer",
     correct: true,
@@ -106,6 +108,42 @@ describe("the attempt ledger", () => {
     for (const name of Object.keys(surface)) {
       expect(name).not.toMatch(/update|delete|remove|clear|reset|drop|put/i);
     }
+  });
+
+  /**
+   * The write boundary is strict; the read path stays permissive.
+   *
+   * A row that cannot name a real concept is worse than a lost row: the ledger
+   * is append-only, so it can never be corrected, and it will be folded by
+   * `derive()` and scheduled by `schedulesFromLedger` forever, for a concept no
+   * pool can ever draw an exemplar of. Refusing the write is the only moment
+   * this is fixable.
+   *
+   * `schedulesFromLedger` deliberately still accepts a `conceptId` outside the
+   * roster — a rule retired from the syllabus was genuinely answered, and
+   * dropping that row would lose history the ledger exists to keep. The two are
+   * not in tension: you may no longer *write* a malformed id, and nothing ever
+   * discards one already written.
+   */
+  describe("rejects a conceptId the scheduler could never act on", () => {
+    test("a misspelled rule id is refused, and nothing is stored", async () => {
+      await expect(appendAttempt(mk({ conceptId: "idgham" }))).rejects.toThrow(/conceptId/i);
+      expect(await allAttempts()).toEqual([]);
+    });
+
+    test("an empty conceptId is refused", async () => {
+      await expect(appendAttempt(mk({ conceptId: "" }))).rejects.toThrow(/conceptId/i);
+    });
+
+    test("an exemplar key is refused — a sample is not a concept (ADR-008)", async () => {
+      await expect(appendAttempt(mk({ conceptId: "letter-quiz/ب" }))).rejects.toThrow(/conceptId/i);
+    });
+
+    test("the 18 rules and a single letter are accepted", async () => {
+      await appendAttempt(mk({ conceptId: "qalqalah" }));
+      await appendAttempt(mk({ conceptId: "ب" }));
+      expect((await allAttempts()).map((a) => a.conceptId)).toEqual(["qalqalah", "ب"]);
+    });
   });
 
   test("indexes conceptId and at, so deriving state never scans blind", async () => {

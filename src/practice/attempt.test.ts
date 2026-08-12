@@ -10,7 +10,7 @@ import type { GameResult } from "@/components/games/GameRegistry";
 import { attemptFromResult } from "./attempt";
 
 const CTX = {
-  conceptId: "idgham",
+  conceptId: "idghaam_ghunnah",
   itemKey: "2:1#3",
   sessionId: "session-1",
   isInterleaved: false,
@@ -24,7 +24,7 @@ describe("mapping a drill result onto a ledger row", () => {
   test("needs no IndexedDB", () => {
     // If this ever fails, the purity claim the other tests rest on is vacuous.
     expect(typeof globalThis.indexedDB).toBe("undefined");
-    expect(attemptFromResult(result(), CTX).conceptId).toBe("idgham");
+    expect(attemptFromResult(result(), CTX).conceptId).toBe("idghaam_ghunnah");
   });
 
   test("carries the scheduling key, the exemplar and the session through", () => {
@@ -35,7 +35,7 @@ describe("mapping a drill result onto a ledger row", () => {
 
     expect(a).toMatchObject({
       at: 42,
-      conceptId: "idgham",
+      conceptId: "idghaam_ghunnah",
       itemKey: "2:1#3",
       gameId: "letter-sorter",
       sessionId: "session-1",
