@@ -2072,7 +2072,10 @@ describe("/library/rules", () => {
   test("groups by family and shows every family in use", () => {
     render(<RulesPage />);
     const families = new Set(allNotes().filter((n) => n.meta.type === "rule").map((n) => (n.meta as { family: string }).family));
-    for (const f of families) expect(screen.getByRole("heading", { name: new RegExp(f, "i") })).toBeTruthy();
+    // ANCHORED. "ra" is a substring of "orthography" — the only such pair among the 13
+    // families, and both are in use — so an unanchored regex matches two headings and
+    // getByRole throws "Found multiple elements".
+    for (const f of families) expect(screen.getByRole("heading", { name: new RegExp(`^${f}$`, "i") })).toBeTruthy();
   });
 
   test("Sifat.md is NOT listed as a rule — it is type: index", () => {
@@ -2132,6 +2135,9 @@ export function NoteCard({ note }: { note: LoadedNote }) {
           <span className="font-semibold text-white/90">{title}</span>
           {(m.type === "rule" || m.type === "letter") && <span className="arabic text-xl text-white/80" dir="rtl" lang="ar">{m.arabic}</span>}
         </span>
+        {/* Source notes show their basename too: the formal citation title does not contain
+            "Shatibiyyah" or "Sajawandi", and the basename is also the key wikilinks resolve by. */}
+        {m.type === "source" && m.title && <span className="mt-0.5 block text-xs text-white/45">{note.basename}</span>}
         {m.status === "needs-review" && <span className="mt-1 block text-xs text-amber-200/80">Needs review</span>}
         {m.status === "draft" && <span className="mt-1 block text-xs text-white/45">Not yet reviewed</span>}
       </Link>
