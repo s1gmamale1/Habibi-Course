@@ -20,6 +20,7 @@ Every task inherits these. They come from nine research passes and several are n
 - **Checkpoints stay human.** They are live oral gates with a teacher. Never automate, gate, score, or reward them.
 - **Never fragment an āyah.** Idghām, iqlāb and ikhfāʾ operate at the *junction between words*. Chip/tile layouts put a border exactly where the rule lives. The āyah stays one text node with inline spans.
 - **Do not edit `content/**` or `library/**`.** Those are the vault and its transcriptions, governed by `check:library` and ADR-003.
+- **Run `npm test`, never bare `npx vitest run`.** On Node 26 the bare invocation fails 3 tests in `ProgressClient.test.tsx` with *"localStorage is not available because --localstorage-file was not provided"* — the `test` script sets `NODE_OPTIONS=--no-experimental-webstorage` and a direct vitest call does not. **This matters most for mutation harnesses:** one shelling out to `npx vitest run` gets a permanently red baseline, or — in a harness without a baseline check — reads *every* mutant as killed and reports a perfect score that means nothing.
 - **Gates must stay green:** `npm test`, `npm run lint`, `npx tsc --noEmit`, `npm run check:library`, `npm run build`. Current floor: **535 tests / 52 files, 0 lint errors, 231 static pages.** Never weaken a test to pass.
 
 ---
