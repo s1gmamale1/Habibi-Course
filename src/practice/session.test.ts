@@ -12,8 +12,10 @@ import { derive, isWeak } from "./derive";
 import { dueConcepts, gradeOf, newSchedule, reviewConcept, type ConceptSchedule } from "./schedule";
 import type { Attempt } from "./types";
 import {
+  DRILL_MODES,
   SESSION_SLOTS,
   TIMED_GAME_IDS,
+  UNGRADED_GAME_IDS,
   conceptRoster,
   planSession,
   schedulesFromLedger,
@@ -733,15 +735,37 @@ describe("drill shapes", () => {
     expect(shapeOf("condition-builder").mode).toBe("production");
   });
 
-  test("the six letter drills have a shape of their own, not the default", () => {
-    // Two of these read as recognition, which is also what an *unregistered*
-    // drill falls to — so the assertions that can actually fail before the
-    // drills are classified are the last three.
-    expect(shapeOf("letter-flashcards").mode).toBe("recognition");
-    expect(shapeOf("word-flashcards").mode).toBe("recognition");
+  test("the four plannable letter drills have a shape of their own, not the default", () => {
+    // The two decks are absent on purpose — see the test below. Of the four
+    // that remain, `letter-quiz` reads as recognition, which is also what an
+    // *unregistered* drill falls to, so the assertions that can actually fail
+    // before the drills are classified are the last three.
     expect(shapeOf("letter-quiz").mode).toBe("recognition");
     expect(shapeOf("spot-the-letter").mode).toBe("discrimination");
     expect(shapeOf("form-swap").mode).toBe("discrimination");
     expect(shapeOf("word-builder").mode).toBe("production");
+  });
+
+  /**
+   * A drill that can never be planned must not be classified as though it could.
+   *
+   * `word-flashcards` advertises no exemplar and `letter-flashcards` cannot
+   * report a verdict, so both are in `UNGRADED_GAME_IDS` and neither can reach
+   * a session. Carrying a `DRILL_MODES` entry for them describes a ramp
+   * position nothing occupies — and `shapeOf` cannot expose the difference,
+   * because an absent id falls to `recognition`, which is exactly what those
+   * entries said. That is why this asserts on the *set* rather than on
+   * `shapeOf`: it is the only formulation that can fail.
+   */
+  test("no ungraded drill carries a response mode", () => {
+    expect([...UNGRADED_GAME_IDS].sort()).toEqual(["letter-flashcards", "word-flashcards"]);
+    for (const gameId of UNGRADED_GAME_IDS) {
+      expect(DRILL_MODES).not.toHaveProperty(gameId);
+    }
+  });
+
+  test("every drill that can be planned does carry one", () => {
+    const plannable = [...GAME_IDS, ...LETTER_GAME_IDS].filter((id) => !UNGRADED_GAME_IDS.has(id));
+    for (const gameId of plannable) expect(DRILL_MODES).toHaveProperty(gameId);
   });
 });

@@ -114,7 +114,7 @@ export const UNGRADED_GAME_IDS: ReadonlySet<string> = new Set([
  * has to run on a server with no DOM when ADR-007 lands. The two are pinned
  * together by test instead.
  */
-const DRILL_MODES: Readonly<Record<string, ResponseMode>> = {
+export const DRILL_MODES: Readonly<Record<string, ResponseMode>> = {
   "rule-identifier": "recognition",
   "listen-identify": "recognition",
   "span-tapper": "discrimination",
@@ -123,8 +123,15 @@ const DRILL_MODES: Readonly<Record<string, ResponseMode>> = {
   "condition-builder": "production",
   "ghunnah-timer": "production",
   // The letter drills. None is timed — see `TIMED_GAME_IDS`.
-  "letter-flashcards": "recognition",
-  "word-flashcards": "recognition",
+  //
+  // The two flashcard decks are deliberately absent: they are in
+  // `UNGRADED_GAME_IDS` and can never be planned, so a mode for them would name
+  // a ramp position nothing occupies. `word-flashcards` never could be planned
+  // — it advertises no exemplar — and `letter-flashcards` stopped being
+  // plannable when the decks were excluded for having no verdict to report.
+  // Note that `shapeOf` cannot expose the difference, since an absent id falls
+  // to `recognition`, which is exactly what those entries used to say; the test
+  // asserts on this record's keys for that reason.
   "letter-quiz": "recognition",
   "spot-the-letter": "discrimination",
   "form-swap": "discrimination",
