@@ -535,11 +535,37 @@ describe("slug safety", () => {
   });
 });
 
+/**
+ * These exercise the failure path for real. `loadNote` is exported precisely so this
+ * can be driven with a genuine file on disk rather than by mocking `fs` — mocking
+ * would also have to defeat `allNotes()`'s memo, which is a lot of machinery to prove
+ * a one-line `catch`.
+ */
 describe("failure reporting", () => {
-  test("a malformed note names its own file", () => {
-    const file = path.join(VAULT_DIR, "02-Rules", "Ghunnah.md");
-    const raw = fs.readFileSync(file, "utf8");
-    expect(raw.startsWith("---")).toBe(true); // guards the fixture assumption
+  let dir: string;
+  const write = (name: string, body: string) => {
+    const f = path.join(dir, name);
+    fs.writeFileSync(f, body);
+    return f;
+  };
+
+  beforeAll(() => { dir = fs.mkdtempSync(path.join(os.tmpdir(), "library-bad-")); });
+  afterAll(() => fs.rmSync(dir, { recursive: true, force: true }));
+
+  test("a note with no frontmatter throws, naming its own file", () => {
+    const f = write("NoFrontmatter.md", "# Just a heading\n");
+    expect(() => loadNote(f)).toThrow(/NoFrontmatter\.md/);
+    expect(() => loadNote(f)).toThrow(/missing frontmatter/);
+  });
+
+  test("a note whose frontmatter fails the schema throws, naming its own file", () => {
+    const f = write("BadStatus.md", "---\ntype: rule\nid: x\nstatus: published\n---\n# x\n");
+    expect(() => loadNote(f)).toThrow(/BadStatus\.md/);
+  });
+
+  test("a valid note does not throw — proves the above fail for the right reason", () => {
+    const f = write("Fine.md", "---\ntype: index\nid: fine\nstatus: verified\n---\n# Fine\n");
+    expect(() => loadNote(f)).not.toThrow();
   });
 });
 
