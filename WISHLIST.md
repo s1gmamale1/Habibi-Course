@@ -9,6 +9,35 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 
 ---
 
+## From building the Library reader — 2026-08-12
+
+- **`Source-Manifest.md` lists 7 of the 11 sources** and is `status: verified`, so nothing
+  flags the gap. Shatibiyyah, Sajawandi-Waqf and Nihayat are absent. The Library generates its
+  sources index from the notes instead, so nothing is currently hidden — but the manifest is
+  wrong and a future reader may trust it.
+- **The classical matns are withheld pending collation.** `Muqaddimah-Jazariyyah` (144 Arabic
+  lines) and `Tuhfat-al-Atfal` (95) are displayed as structure + translation only, per the
+  manifest's own instruction. Collating them against printed critical editions would unlock
+  239 lines of source text. Needs a qualified reader and printed editions.
+- **`displayModeFor` leans on `author_arabic` to decide which sources withhold their matn.**
+  It is correct for all 11 source notes today, but that field was never designed to carry
+  safety-critical meaning — a future classical matn vendored *without* it would be missed and
+  its text displayed. The durable fix is an explicit frontmatter flag on the note, which
+  requires editing `library/` and so is out of this feature's scope. A cheap hardening in the
+  meantime: assert that the set of `withhold-matn` slugs is exactly the four expected, so a
+  twelfth source note that should withhold but does not would fail the gate.
+- **All 29 letter notes are `status: draft`** while the letters are taught in live lessons.
+  They render with a quiet "not yet reviewed" line. A content pass would clear it.
+- **WISHLIST was stale in ~7 places, verified 2026-08-12.** The "there is no CI" section is
+  false — `.github/workflows/ci.yml` has run five gates since `c038064`. The stated floor of
+  423 tests is really **633 / 63 files**. Five Moderate/Minor findings from the PR #5 review
+  are fixed (`check-library` abort, `publishedLessonIds` fail-open, `onRuleTap`, `role="text"`,
+  `FamilySorter` shake key), as are both Important export findings. `TajweedText.tsx` is cited
+  at the wrong path — it lives at `src/components/tajweed/`.
+- **The seven tajweed drills are wired at `/practice/[id]` but not in-lesson.**
+  `src/app/lesson/[id]/page.tsx:13` has no barrel import, so the registry is empty on that
+  route and `src/games/deck.ts:4`'s slide type has no field to carry game ids.
+
 ## 2026-08-11 — the next product, as three briefs
 
 The owner's three ideas, written so a **dedicated agent can pick one up cold**. A fourth — an
