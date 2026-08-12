@@ -17,9 +17,11 @@
  * without anyone remembering to come back here.
  */
 import { fireEvent, render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, test, vi } from "vitest";
 
 import type { ArabicItem } from "@/content/schema";
+import { TAJWEED_RULES } from "@/content/tajweed";
 import type { GameData } from "@/games/derive";
 import { getGames, type Exemplar } from "./GameRegistry";
 import { LETTER_GAME_IDS } from "./letters";
@@ -103,9 +105,21 @@ function exemplarsOf(gameId: string): Exemplar[] {
   return entry.exemplars?.(data) ?? [];
 }
 
-/** What the learner can actually read, with whitespace collapsed. */
+/**
+ * What the learner can actually see: the words, **and which part of them is
+ * marked**.
+ *
+ * The mark cannot be left out. Two questions about the same āyah — "how long is
+ * this madd" pointing at two different lengths in 1:7 — read as the identical
+ * string and are different questions; the span is the question. It is read off
+ * the DOM the drills already expose (`data-target` for the neutral ring, the
+ * undimmed spans of `TajweedText`), never off a prop.
+ */
 function screenText(node: HTMLElement): string {
-  return (node.textContent ?? "").replace(/\s+/g, " ").trim();
+  const marked = [...node.querySelectorAll("[data-target], [data-rule]:not([data-dimmed])")]
+    .map((el) => `${el.getAttribute("data-rule") ?? ""}«${el.textContent}»`)
+    .join("");
+  return `${node.textContent ?? ""}${marked}`.replace(/\s+/g, " ").trim();
 }
 
 function renderWith(gameId: string, item?: Exemplar): string {
@@ -142,7 +156,18 @@ describe("the exemplars a drill advertises", () => {
     // one exemplar unreachable and the other unrepeatable.
     expect(new Set(all.map((e) => e.itemKey)).size).toBe(all.length);
     for (const e of all) {
-      expect(e.conceptId).toMatch(/\S/);
+      // A concept the scheduler actually tracks: one of the 18 rules or one of
+      // the letters this lesson has taught. Anything else is a concept invented
+      // at the drill — it would enter the roster through `conceptRoster`, be
+      // scheduled, and be drilled by nothing.
+      const tracked =
+        (TAJWEED_RULES as readonly string[]).includes(e.conceptId) ||
+        data.letterPool.some((l) => l.arabic === e.conceptId);
+      expect({ gameId, conceptId: e.conceptId, tracked }).toEqual({
+        gameId,
+        conceptId: e.conceptId,
+        tracked: true,
+      });
       // Drill-scoped, so two drills' exemplars of one letter never collide.
       expect(e.itemKey.startsWith(`${gameId}/`)).toBe(true);
     }
@@ -186,6 +211,28 @@ describe("a drill honours the exemplar it is handed", () => {
     expect(renderWith(gameId, a)).not.toBe(renderWith(gameId, b));
   });
 
+  test.each(CAN_VARY)("%s gives every exemplar of one concept its own question", (gameId) => {
+    // Every exemplar of a concept, not merely two of them: a drill that
+    // advertises an exemplar it cannot actually pose falls back to another one,
+    // and the give-away is two keys of one concept that draw the same screen.
+    //
+    // Across *different* concepts a repeat is legitimate and common — one word
+    // is an exemplar of each of its letters, and `word-builder` draws the same
+    // board for all of them, because which letter the row evidences is a fact
+    // about the plan rather than about the picture.
+    const byConcept = new Map<string, Exemplar[]>();
+    for (const e of exemplarsOf(gameId)) {
+      byConcept.set(e.conceptId, [...(byConcept.get(e.conceptId) ?? []), e]);
+    }
+    for (const [conceptId, list] of byConcept) {
+      const screens = list.map((e) => renderWith(gameId, e));
+      expect({ conceptId, distinct: new Set(screens).size }).toEqual({
+        conceptId,
+        distinct: screens.length,
+      });
+    }
+  });
+
   test.each(ALL_IDS)("%s still renders with no item at all — the GamePanel path", (gameId) => {
     // The tab list mounts every drill with no plan behind it. A drill that
     // required an exemplar would render a blank band there.
@@ -199,6 +246,95 @@ describe("a drill honours the exemplar it is handed", () => {
     expect(renderWith(gameId, { conceptId: "ب", itemKey: `${gameId}/not-a-real-exemplar` })).toBe(
       renderWith(gameId),
     );
+  });
+});
+
+/* ---------- the plan governs the slot, not the drill forever ------------- */
+
+/**
+ * A session hands a drill one question and moves on when the learner presses
+ * متابعة. The drill's own "next" button is a second, independent way forward
+ * that exists for the tab list — and past the planned question the drill is its
+ * own again.
+ *
+ * Both directions are defensible and this is the one chosen, so it is pinned
+ * rather than left to drift: a drill that forced the planned exemplar on every
+ * round would leave "next" doing nothing at all, which reads as broken.
+ */
+describe("the exemplar is honoured for the question it was planned for", () => {
+  test("letter-quiz picks its own letter again once the learner asks for another", async () => {
+    fixRandom();
+    render(
+      <div>
+        {getGames(["letter-quiz"])[0].render({
+          data,
+          item: { conceptId: "ت", itemKey: "letter-quiz/ت" },
+        })}
+      </div>,
+    );
+    expect(screen.getByText(/which letter is/i).textContent).toMatch(/ta/);
+
+    await userEvent.click(screen.getByRole("button", { name: "choice ت" }));
+    await userEvent.click(screen.getByRole("button", { name: /next question/i }));
+
+    expect(screen.getByText(/which letter is/i).textContent).not.toMatch(/ta/);
+  });
+
+  test("spot-the-letter picks its own target again on the next word", async () => {
+    fixRandom();
+    const item = exemplarsOf("spot-the-letter").find((e) => e.itemKey.endsWith("/بَاب/ب"))!;
+    render(<div>{getGames(["spot-the-letter"])[0].render({ data, item })}</div>);
+    expect(screen.getByText(/Tap the letter/).textContent).toMatch(/ba/);
+
+    await userEvent.click(screen.getByRole("button", { name: "word letter 1" }));
+    await userEvent.click(screen.getByRole("button", { name: /next word/i }));
+
+    expect(screen.getByText(/Tap the letter/).textContent).not.toMatch(/ba\b/);
+  });
+});
+
+/* ---------- a drill advertises only what it can pose --------------------- */
+
+describe("an advertised exemplar is one the drill can actually pose", () => {
+  test("no drill names a letter the lesson has not taught", () => {
+    // A word can contain a letter the course has not reached — ضَوْء carries ض,
+    // و and ء — and `spot-the-letter` names its target in the prompt, so a
+    // letter with no pool entry is a question it cannot ask. Filing an exemplar
+    // under it would also put an unteachable concept into the roster.
+    const untaught: GameData = {
+      ...data,
+      letterPool: LETTERS.filter((l) => l.arabic !== "ك"),
+      wordPool: [{ arabic: "كِتَاب", translit: "kitab", meaning: "book" }],
+    };
+    for (const gameId of ALL_IDS) {
+      for (const e of getGames([gameId])[0].exemplars?.(untaught) ?? []) {
+        const isLetterConcept = !(TAJWEED_RULES as readonly string[]).includes(e.conceptId);
+        if (!isLetterConcept) continue;
+        expect({ gameId, conceptId: e.conceptId }).toEqual({
+          gameId,
+          conceptId: untaught.letterPool.find((l) => l.arabic === e.conceptId)?.arabic,
+        });
+      }
+    }
+  });
+
+  test("form-swap advertises nothing before the course has taught forms", () => {
+    // Its own `render` refuses to show the board until 1-07, so a session that
+    // planned it would spend a slot on a note saying the drill is not available.
+    const before: GameData = { ...data, formsTaught: false };
+    expect(getGames(["form-swap"])[0].exemplars?.(before)).toEqual([]);
+  });
+
+  test("every span-tapper fragment has something in it to tap", () => {
+    // `allFound` is false forever when a fragment has no qualifying letter, so
+    // an āyah with none is a round the learner can never complete.
+    for (const e of exemplarsOf("span-tapper")) {
+      fixRandom();
+      const view = render(<div>{getGames(["span-tapper"])[0].render({ data, item: e })}</div>);
+      fireEvent.click(screen.getByRole("button", { name: /check answer/i }));
+      expect(screen.getByRole("status").textContent).toMatch(/of [1-9]/);
+      view.unmount();
+    }
   });
 });
 
@@ -273,14 +409,19 @@ describe("honouring the exemplar means asking about its concept", () => {
   test("family-sorter shows every fragment it advertises, with or without a plan", () => {
     // Its declared "cannot": the board is the question, so the planned exemplar
     // is on screen either way. That is what makes the row's `itemKey` a true
-    // claim about what was shown even though `render` ignores it.
-    fixRandom();
-    const view = render(<div>{getGames(["family-sorter"])[0].render({ data })}</div>);
-    for (const e of exemplarsOf("family-sorter")) {
-      const id = e.itemKey.slice("family-sorter/".length);
-      expect(screen.getByTestId(`fragment-${id}`)).toBeTruthy();
+    // claim about what was shown even though `render` ignores it — and it is
+    // also what a "fix" would break, by narrowing the board to the planned card
+    // until a sort had nothing to sort.
+    const all = exemplarsOf("family-sorter");
+    for (const item of [undefined, all[0], all[3]]) {
+      fixRandom();
+      const view = render(<div>{getGames(["family-sorter"])[0].render({ data, item })}</div>);
+      for (const e of all) {
+        const id = e.itemKey.slice("family-sorter/".length);
+        expect(screen.getByTestId(`fragment-${id}`)).toBeTruthy();
+      }
+      view.unmount();
     }
-    view.unmount();
   });
 
   test("word-flashcards honours a key even though it advertises none", () => {
