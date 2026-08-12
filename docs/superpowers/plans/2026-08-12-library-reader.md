@@ -470,6 +470,7 @@ vendored takes five values in practice; Source-Manifest.md documents three."
   - `allNotes(): LoadedNote[]` — sorted by slug
   - `noteBySlug(slug: string): LoadedNote`
   - `allSlugs(): string[]`
+  - `loadNote(file: string): LoadedNote` — exported so the failure path can be driven with a real file
   - `slugFor(basename: string): string`
   - `RESERVED_SEGMENTS: readonly string[]`
 
@@ -482,7 +483,7 @@ import { describe, test, expect, beforeAll, afterAll } from "vitest";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { allNotes, allSlugs, noteBySlug } from "./load";
+import { allNotes, allSlugs, noteBySlug, loadNote } from "./load";
 import { slugFor, RESERVED_SEGMENTS } from "./routes";
 import { VAULT_DIR, walkNotes } from "./paths";
 
@@ -650,7 +651,7 @@ export interface LoadedNote {
  * parseJsonFile in src/content/load.ts:7. A vault note that stops validating should
  * fail the build loudly, not degrade into a blank page.
  */
-function loadNote(file: string): LoadedNote {
+export function loadNote(file: string): LoadedNote {
   try {
     const { data, body } = parseNote(fs.readFileSync(file, "utf8"));
     const basename = path.basename(file, ".md");
