@@ -331,6 +331,11 @@ Popover `role="dialog"` and dismissal · `aria-disabled` on locked `FormSwap`/`L
 **Consequences.** (+) No vendor, no per-seat bill, and — the deciding factor — **learners will include children, and self-hosting keeps their data out of a third party's jurisdiction**. (+) The migration is **proven, not assumed**: built standalone and served `/`, `/lesson/1-01`, `/practice/3-04`, `/teach/4-01`, `/checkpoint/checkpoint-2`, all 200, with all 230 pages still prerendering as SSG. (+) `/teach` gating becomes a middleware check rather than a rebuild. (−) Something must now be operated: a process, a reverse proxy, backups. (−) Free static hosting is given up, which is why the flip waits for the first feature that needs it. (−) `output: "standalone"` does not copy `.next/static` or `public/`, so a build step must — omit it and the site serves HTML with every asset 404ing. Recipe and the tested evidence: `docs/deploy/vps.md`.
 
 ### ADR-009 — The vault is a read surface for the app, in one direction only
+> **Numbering note.** ADR-008 is absent from this branch on purpose: it was claimed
+> concurrently by the practice-engine workstream (*"Spaced repetition is keyed on
+> concepts, not items"*) and arrives when that branch merges. This one was renumbered
+> from 008 to 009 to avoid the collision.
+
 **Decision.** The app may **read** `library/` at build time; it must never write to it.
 Transcription from `library/` into `content/` stays a human act per ADR-003. The reader
 resolves links by bare basename, the way `scripts/check-library.mjs:62` does.
