@@ -253,7 +253,7 @@ Create `src/library/schema.test.ts`:
 import { describe, test, expect } from "vitest";
 import fs from "node:fs";
 import { parseNote } from "./frontmatter";
-import { inScopeNoteFiles, VAULT_DIR } from "./paths";
+import { inScopeNoteFiles } from "./paths";
 import { LibraryNoteSchema } from "./schema";
 
 describe("LibraryNoteSchema", () => {
@@ -575,7 +575,7 @@ export function slugFor(basename: string): string {
 ```ts
 import fs from "node:fs";
 import path from "node:path";
-import { inScopeNoteFiles, VAULT_DIR } from "./paths";
+import { inScopeNoteFiles } from "./paths";
 import { parseNote } from "./frontmatter";
 import { LibraryNoteSchema, type LibraryNote } from "./schema";
 import { slugFor } from "./routes";
