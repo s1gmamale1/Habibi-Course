@@ -408,6 +408,30 @@ test("every submit appends exactly one attempt row", async () => { /* … */ });
 
 **Do not** wire `GamePanel`'s literal tab list to the registry here — that is a separate change and this task must stay small.
 
+## Task 6d: The letter drills must actually report *(added 2026-08-12, found by Task 6b)*
+
+**Files:** `src/components/games/{LetterQuiz,SpotTheLetter,FormSwap,WordBuilder}.tsx`
+
+**The gap, and it is the largest in the plan.** Task 6b registered all six letter drills, so they now have a `gameId` and a response mode. But **none of them emits a `GameResult`** — verified: `grep -c onResult` returns **0** for all five files while `registerGame` returns 2-3.
+
+So **29 of the 47 concepts never produce a single ledger row.** Their FSRS schedule can never move off its seed no matter how much the learner practises: permanently due, permanently unknown, forever. The practice engine would work for the 18 tajweed rules and quietly do nothing for the letters — which is 62% of the roster and the entire first half of the course.
+
+**Scope: the four drills with an objective verdict.** `LetterQuiz`, `SpotTheLetter`, `FormSwap` and `WordBuilder` each have a real first-try right/wrong available. Emit `{ gameId, correct, at }` with `conceptId` supplied by the caller (the letter drills have no `ruleId`, which is exactly why `attemptFromResult` requires `conceptId` in its context rather than inferring it).
+
+Each needs two decisions made explicitly, not by accident:
+- **An injected `now`**, as the tajweed drills already take — never `Date.now()` inside the component, or the drill is untestable.
+- **What counts as one attempt** in a multi-round drill. First try only, or every pick? The tajweed drills answer this per-drill; follow their precedent and state your choice.
+
+**The two flashcard decks are deliberately excluded.** They self-grade — "✓ Got it" is a claim the learner makes about themselves, not a measurement — and synthesising a `correct` from it would put an unearned verdict in an append-only ledger.
+
+> **Worth noting for whoever picks this up:** self-report is *not* inherently dishonest as an SRS input — it is exactly how Anki works, and FSRS is built for it. The objection is narrower: here "✓ Got it" is a card-flip affordance, and the learner does not know it drives scheduling. Make the UI say so and the signal becomes legitimate. **That is a Task 7 design decision, not a data-integrity one** — do not resolve it by quietly emitting.
+
+- [ ] **Step 1: Write the failing test** — a letter concept accumulates ledger rows after a session, and its schedule moves off the seed.
+- [ ] **Step 2: Run it, watch it fail** — zero rows for every letter concept.
+- [ ] **Step 3: Add `onResult` + injected `now`** to the four objective drills, following `src/components/games/tajweed/RuleIdentifier.tsx` for the pattern.
+- [ ] **Step 4: Confirm the shape** — no fabricated fields; `correct` is a real verdict, never a default.
+- [ ] **Step 5: Mutation-check + full gate + commit.**
+
 ## Task 6c: Close the flag loop *(added 2026-08-12, found by Task 6)*
 
 **Files:** `src/practice/session.ts`
