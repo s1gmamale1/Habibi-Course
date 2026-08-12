@@ -41,8 +41,16 @@ const CLEAN_RUN = 3;
  */
 const CLEAN_EPS = 0.05;
 
-/** The fraction of the target a hold may be out by before it is fully wrong. */
-const TOLERANCE = 0.25;
+/**
+ * The fraction of the target a hold may be out by before it is fully wrong.
+ *
+ * Exported because `schedule.ts` hangs its Good/Hard boundary on this exact
+ * number: the drill calls a hold correct within `TOLERANCE`, so putting the
+ * grade boundary anywhere else would let the scheduler contradict the verdict
+ * the learner was just shown. Two copies of 0.25 would drift apart the first
+ * time either was retuned.
+ */
+export const TOLERANCE = 0.25;
 
 /**
  * Consecutive attempts below the current band's floor before it drops.
@@ -99,13 +107,39 @@ export type ConceptState = {
 };
 
 /**
+ * How far a length landed from its target, as a fraction of the target — or
+ * `null` when there is no single target to measure against.
+ *
+ * `Math.abs` is what makes overshooting cost the same as undershooting: a 2.6
+ * hold is exactly as wrong as a 1.4 one. Any quantity that improved with
+ * duration would invert what the drill teaches.
+ *
+ * `null` here means only "nothing to measure" — the rule accepts several
+ * lengths (madd ʿāriḍ lis-sukūn is transmitted at 2, 4 *or* 6), or the drill
+ * measured nothing at all. It is **not** the "no evidence" `null` that
+ * `wrongSignal` returns, and callers must not confuse the two: this one falls
+ * back to the drill's verdict, that one has no verdict to fall back to.
+ *
+ * Unsaturated on purpose. `wrongSignal` clamps it to the tolerance because the
+ * EWMA needs a bounded 0-1 signal, but `schedule.ts` bands the raw distance out
+ * past that clamp — a hold 40% out and one 400% out are the same number once
+ * saturated, and they are not the same answer.
+ */
+export function missRatio(a: Attempt): number | null {
+  if (a.measuredHarakat == null || a.targetHarakat == null || !(a.targetHarakat > 0)) return null;
+  return Math.abs(a.measuredHarakat - a.targetHarakat) / a.targetHarakat;
+}
+
+/**
  * How wrong one attempt was: `0` clean, `1` fully wrong, `null` no evidence.
  *
  * The continuous middle exists because a 1.8-of-2 hold is neither right nor
  * wrong, and collapsing it to a boolean throws away the only thing the timed
- * drills measure. `Math.abs` is what makes overshooting cost the same as
- * undershooting: a 2.6 hold is exactly as wrong as a 1.4 one. Any signal that
- * improved with duration would invert what the drill teaches.
+ * drills measure.
+ *
+ * The two guards below are the whole of the "is this evidence at all" question
+ * for the practice engine, which is why they live in one function that
+ * `schedule.ts` calls before it grades anything.
  */
 export function wrongSignal(a: Attempt): number | null {
   if (a.correct === null) return null; // ungraded: no signal at all
@@ -119,14 +153,11 @@ export function wrongSignal(a: Attempt): number | null {
   if (a.msPerHarakah != null && !(a.msPerHarakah > 0)) return null;
 
   // A single target, and something measured against it.
-  if (a.measuredHarakat != null && a.targetHarakat != null && a.targetHarakat > 0) {
-    const tol = a.targetHarakat * TOLERANCE;
-    return Math.min(1, Math.abs(a.measuredHarakat - a.targetHarakat) / tol);
-  }
+  const miss = missRatio(a);
+  if (miss !== null) return Math.min(1, miss / TOLERANCE);
 
-  // No single target: the rule accepts several lengths (madd ʿāriḍ lis-sukūn is
-  // transmitted at 2, 4 *or* 6), so there is no distance to measure and the
-  // drill's own verdict is the whole of the signal.
+  // No single target, so there is no distance to measure and the drill's own
+  // verdict is the whole of the signal.
   return a.correct ? 0 : 1;
 }
 
