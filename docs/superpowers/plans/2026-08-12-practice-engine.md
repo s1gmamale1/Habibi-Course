@@ -551,6 +551,22 @@ test("the weekly target counts distinct DAYS, not minutes or points", () => { /*
 
 ---
 
+## Task 9: The registry cannot carry an exemplar *(added 2026-08-12, found by Task 7)*
+
+**Files:** `src/components/games/GameRegistry.ts`, the 13 registered drills, `src/components/practice/SessionRunner.tsx`
+
+**The gap.** `GameRenderProps` is `{ onResult?, data? }` — there is **no way to hand a drill the item the session planned**. So `planSession` chooses an `itemKey`, `useSession` writes that `itemKey` to the ledger, and the drill renders whatever it picks for itself.
+
+**Two consequences, and the second is the one that matters.**
+
+1. **The ledger's `itemKey` is a claim about what was shown that is not true.** Scheduling is unaffected — FSRS folds on `conceptId` — and `itemKey` is only read for reporting today. But it is the same defect class the Global Constraints forbid elsewhere: a recorded value that was never observed. Either make it true, or stop writing it.
+
+2. **Task 6's central promise is not actually kept in the app.** The wrong-answer tail exists to re-ask a concept with **a different exemplar**, because replaying the identical item is answered from memory of the correction just read — that is the whole reason the mechanic works. `useSession` correctly draws a different *planned* `itemKey`, and its test correctly asserts that. But since the drill ignores the plan and picks its own item, **it can legitimately show the identical question again**, and no existing test would catch it. The tail degrades from "a second retrieval" to "the same card twice", which is the failure mode the research specifically warned about.
+
+**Scope:** add an `item?: PoolItem` (or equivalent) to `GameRenderProps`, thread it from `SessionRunner`, and have each drill honour it when given and fall back to its own choice when not. Touches all 13 drills, which is why it is its own task.
+
+**The test that decides it:** a tail retry must render a *different question on screen*, not merely carry a different `itemKey` in the row. Assert on what the drill displays.
+
 ## Out of scope (deliberately)
 
 - The Duolingo-style **path/serpentine home screen**. Real, but a separate plan — this one has to earn its keep first.
