@@ -810,7 +810,7 @@ export function createHeadingSlugger(): (text: string) => string {
 - [ ] **Step 4: Run the tests to verify they pass**
 
 Run: `npx vitest run src/library/markdown/slug.test.ts`
-Expected: PASS — 6 tests
+Expected: PASS — 9 tests
 
 The "differ only by Unicode" test passes because `⚠` becomes a leading separator that
 is trimmed — giving `the-count-is-disputed` — while a bare heading gives the same base
@@ -1299,7 +1299,7 @@ export function renderTokens(tokens: Token[], slugger: Slugger, key = "b"): Reac
 - [ ] **Step 5: Run the tests to verify they pass**
 
 Run: `npx vitest run src/library/markdown/render.test.tsx`
-Expected: PASS — 13 tests
+Expected: PASS — 12 tests
 
 - [ ] **Step 6: Typecheck and lint**
 
@@ -1691,7 +1691,7 @@ export function MatnWithheld({ note, lines }: { note: SourceNote; lines: number 
 - [ ] **Step 5: Run the tests to verify they pass**
 
 Run: `npx vitest run src/library/sources.test.ts`
-Expected: PASS — 7 tests
+Expected: PASS — 8 tests
 
 If `withheldLines` for Tuhfah comes in below 30, the 0.4 Arabic-density threshold is too
 strict for that note's line shapes — tune the threshold, **not** the test, and re-check
@@ -2127,7 +2127,7 @@ export default function LibraryPage() {
 - [ ] **Step 8: Run the tests to verify they pass**
 
 Run: `npx vitest run src/app/library/`
-Expected: PASS — 9 tests across both index files
+Expected: PASS — 6 tests across both index files
 
 - [ ] **Step 9: Commit**
 
