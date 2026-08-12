@@ -41,6 +41,14 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
   are fixed (`check-library` abort, `publishedLessonIds` fail-open, `onRuleTap`, `role="text"`,
   `FamilySorter` shake key), as are both Important export findings. `TajweedText.tsx` is cited
   at the wrong path — it lives at `src/components/tajweed/`.
+- **Linking videos to the rules they teach needs a hand-curated mapping.** The Muallimi-Soniy
+  catalogue carries a per-video topic column, and many topics *look* like rule names —
+  "Idgham bila ghunnah", "Iqlab", "Izhar halqi". Fuzzy-matching them to the 59 rule notes was
+  tried and rejected: it covers only 27 of 96, and is confidently wrong on some — "Idgham bila
+  ghunnah" matches the `ghunnah` note rather than its own rule. A wrong association is worse
+  than none in a course whose discipline is never asserting what it cannot verify. A real
+  mapping would be a `videos:` field on each rule note, or a mapping file — either way it means
+  authoring in the vault, which this feature is forbidden to do.
 ### Deferred from the Library reader's final whole-branch review — 2026-08-12
 
 - **`prerequisites` and `examples[]` are parsed, typed and rendered nowhere.** *Owner decision.*
@@ -80,6 +88,24 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 - **The seven tajweed drills are wired at `/practice/[id]` but not in-lesson.**
   `src/app/lesson/[id]/page.tsx:13` has no barrel import, so the registry is empty on that
   route and `src/games/deck.ts:4`'s slide type has no field to carry game ids.
+
+### The Library builder — 2026-08-12
+
+The owner asked for a **web builder**: upload PDFs and write posts through the browser.
+Phase 2 delivered the Materials shelf fed from the repo instead, because **upload cannot
+work on a static export** — no server, no API route, no writable filesystem at runtime.
+
+What the builder needs, in order:
+1. **The ADR-007 flip** to `output: "standalone"`. Proven, three lines, but it gives up
+   free static hosting.
+2. **Authentication**, or anyone on the internet can upload to the course. This is Idea 1,
+   and per its brief it carries GDPR-K/COPPA obligations because the course teaches
+   children — parent-held accounts, minimal fields, a deletion path.
+3. **Storage and a write path**, plus a decision about whether an upload becomes a git
+   commit (keeping the repo the source of record) or a database row (diverging from it).
+
+Until then a teacher adds a material by dropping a file in `materials/` or
+`public/materials/` and committing. That is the whole workflow.
 
 ## 2026-08-11 — the next product, as three briefs
 

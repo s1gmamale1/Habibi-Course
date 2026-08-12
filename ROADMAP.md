@@ -350,6 +350,14 @@ the **build**, not just the gate — deliberate, and it throws with the filename
 authoring conventions are now load-bearing for a user-facing surface, so a note's markdown
 is no longer free to change shape arbitrarily.
 
+**Amended 2026-08-12 (phase 2).** The Library also reads two folders outside the vault:
+`materials/` for markdown posts and `public/materials/` for downloadable files. They sit
+outside `library/` and `content/` deliberately — nothing there is gate-checked by
+`check:library`, and editing them cannot desynchronise a lesson from its note. Adding a
+material is a git commit, not a web upload: **a browser-based builder cannot exist while
+`output: "export"` stands**, since a static export has no server, no API route and no
+writable filesystem at runtime. That remains gated behind the ADR-007 flip.
+
 ## Effort / impact table
 
 | Item | Phase | Effort | Impact | Notes |
