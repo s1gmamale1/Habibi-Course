@@ -2223,22 +2223,22 @@ off the nav — that route is meant to be gated, not discovered."
 
 ---
 
-### Task 12: ADR-008, follow-ups, and the full gate run
+### Task 12: ADR-009, follow-ups, and the full gate run
 
 **Files:**
-- Modify: `ROADMAP.md` (ADR section — append ADR-008)
+- Modify: `ROADMAP.md` (ADR section — append ADR-009)
 - Modify: `WISHLIST.md` (append follow-ups)
 
 **Interfaces:**
 - Consumes: everything
 - Produces: nothing code-facing
 
-- [ ] **Step 1: Append ADR-008 to `ROADMAP.md`**
+- [ ] **Step 1: Append ADR-009 to `ROADMAP.md`**
 
 Insert immediately after the ADR-007 block:
 
 ```markdown
-### ADR-008 — The vault is a read surface for the app, in one direction only
+### ADR-009 — The vault is a read surface for the app, in one direction only
 **Decision.** The app may **read** `library/` at build time; it must never write to it.
 Transcription from `library/` into `content/` stays a human act per ADR-003. The reader
 resolves links by bare basename, the way `scripts/check-library.mjs:62` does.
@@ -2313,9 +2313,9 @@ Expected: all 200; zero `[[` in the served HTML.
 
 ```bash
 git add ROADMAP.md WISHLIST.md
-git commit -m "docs: ADR-008, and what building the Library turned up
+git commit -m "docs: ADR-009, and what building the Library turned up
 
-ADR-008 records the new edge — src/ now reads library/, which ADR-003 never
+ADR-009 records the new edge — src/ now reads library/, which ADR-003 never
 contemplated. Read-only, one direction, gate-compatible link semantics.
 
 The follow-ups are things this work found and deliberately did not fix: a source
@@ -2332,7 +2332,7 @@ awaiting collation, and a WISHLIST stale in about seven places — including a
 §3 routing → T3/T9/T10; §4 data flow → T5/T6; §5 renderer + five traps → T4/T5/T6
 (traps 1, 3 in T5; 2, 5 in T6; 4 in T5 `stripWikilink` and T9 `NoteHeader`); §6 status →
 T7; §7 sources → T8/T10; §8 nav → T11; §9 visual → T9/T10/T11; §10 cross-linking → T9;
-§11 error handling → T1/T3/T5; §12 tests → distributed, with the gate run in T12; ADR-008
+§11 error handling → T1/T3/T5; §12 tests → distributed, with the gate run in T12; ADR-009
 and follow-ups → T12.
 
 **Spec tests 1–10 → plan tests.** 1→T2; 2→T7 "THE INVARIANT"; 3→T5 "link-closed"; 4→T5

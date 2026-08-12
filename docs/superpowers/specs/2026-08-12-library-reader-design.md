@@ -50,13 +50,13 @@ prose).
 **Status across the 101:** 63 `verified` · 29 `draft` · 9 `needs-review`.
 All 29 letters are `draft`; the 9 `needs-review` are 3 rules and 6 sources.
 
-## New architectural edge — proposed ADR-008
+## New architectural edge — proposed ADR-009
 
 This feature is **the first code path in `src/` that reads `library/`.** ADR-003 currently
 describes the vault as an authoring surface whose only consumer is a human transcriber plus
 the validator. That is no longer true after this change, and the roadmap should say so.
 
-**Proposed ADR-008 — The vault is a read surface for the app, in one direction only.**
+**Proposed ADR-009 — The vault is a read surface for the app, in one direction only.**
 The app may *read* `library/` at build time. It must never write to it. Transcription into
 `content/` stays a human act per ADR-003. The reader resolves links the way
 `scripts/check-library.mjs` does, so the app and the gate cannot disagree about what a link
