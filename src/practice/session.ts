@@ -453,13 +453,34 @@ export function planSession(
 }
 
 /**
- * Two or three other due concepts, preferring ones the learner has actually
- * answered before.
+ * Two or three other due concepts: the ones the learner missed and did not
+ * repair first, then the rest of what they have answered before, then the
+ * unseen.
  *
  * Interleaving a concept that has never been seen is not a review of anything —
  * it is a first encounter, dropped into the middle of someone else's session.
  * Unseen concepts are still used as a fallback, because on day one there is
  * nothing else and an empty middle would be worse.
+ *
+ * **A flag outranks the due date here, and only here.** `useSession` ends a
+ * sitting knowing which concepts were missed and never repaired — the tail was
+ * full, the retries were spent, or the pool had nothing left to ask with — and
+ * that is the strongest single piece of evidence the engine has about what to
+ * put back in front of the learner. Until now it was minted at the end of a
+ * session and dropped there, which made the claim that a repeated failure
+ * "converts a failure into scheduling information" half true.
+ *
+ * It is read off `ConceptState`, so it is **derived from the ledger** rather
+ * than threaded through React state: it costs no storage, and it survives the
+ * reload that would silently lose a value held in a hook.
+ *
+ * This is deliberately the *only* place it is read. `orderDue` decides the
+ * focus, and a flag that reached it would let one bad answer at the end of
+ * yesterday's session take over today's — a concept is the focus because it is
+ * the most overdue thing the learner can be shown, and being missed recently is
+ * a reason to review it, not a reason to spend a sitting on it. `due` is also
+ * already filtered to what FSRS has called back, so a flag reorders the
+ * candidates and never invents one.
  */
 function pickInterleaveConcepts(
   due: readonly string[],
@@ -468,7 +489,13 @@ function pickInterleaveConcepts(
   const others = due.slice(1);
   const seen = others.filter((id) => (states.get(id)?.attempts ?? 0) > 0);
   const unseen = others.filter((id) => (states.get(id)?.attempts ?? 0) === 0);
-  return [...seen, ...unseen].slice(0, INTERLEAVE_TARGET);
+  // A flagged concept has attempts by definition — the flag is set by one — so
+  // this partitions `seen` and cannot pull anything out of `unseen`. Each half
+  // keeps the order `orderDue` gave it, so the due date still decides between
+  // two concepts the flag cannot separate.
+  const flagged = seen.filter((id) => states.get(id)?.flagged === true);
+  const rest = seen.filter((id) => states.get(id)?.flagged !== true);
+  return [...flagged, ...rest, ...unseen].slice(0, INTERLEAVE_TARGET);
 }
 
 /**

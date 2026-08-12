@@ -42,6 +42,19 @@ const CLEAN_RUN = 3;
 const CLEAN_EPS = 0.05;
 
 /**
+ * A signal at or above this is a **miss** — the answer the drill itself called
+ * wrong. `wrongSignal` saturates at 1, and it saturates exactly where the drill
+ * stops calling a hold correct, so this is one line rather than two definitions
+ * of "wrong" that could drift apart.
+ *
+ * Deliberately not `CLEAN_EPS`. A 1.8-of-2 hold is not clean, and it is also not
+ * a miss: the learner was shown a "yes". `cleanStreak` is allowed to be stricter
+ * than the drill because it gates *retiring* a weakness; `flagged` may not be,
+ * because it puts work back in front of the learner.
+ */
+const MISS = 1;
+
+/**
  * The fraction of the target a hold may be out by before it is fully wrong.
  *
  * Exported because `schedule.ts` hangs its Good/Hard boundary on this exact
@@ -99,6 +112,27 @@ export type ConceptState = {
   /** Exponentially weighted *wrongness*, 0-100. Higher is worse. */
   ewma: number;
   cleanStreak: number;
+  /**
+   * The last graded attempt was a miss — a failure the session never repaired.
+   *
+   * This is `useSession`'s `flagged` read back out of the ledger instead of
+   * carried in React state, and the equivalence is exact rather than
+   * approximate. A repair is a clean rep *after* the miss in the same session,
+   * so "a miss with no subsequent clean rep in its session" and "the last graded
+   * attempt was a miss" describe the same set: anything later than the last
+   * attempt does not exist, and anything earlier has the last attempt after it.
+   * `sessionId` never has to be read, which is why nothing here groups by it.
+   *
+   * That equivalence is also what spends the flag. It is a fact about the newest
+   * evidence, not an accumulator, so answering the concept cleanly — in the tail
+   * that follows the miss, or in any session after it — clears it in the same
+   * assignment that would have set it. Nothing expires it, and no caller has to
+   * remember to put it down.
+   *
+   * It is **not** a band, a score or a debt. It says one thing to session
+   * assembly: this concept has unfinished business, so prefer it for review.
+   */
+  flagged: boolean;
   band: Band;
   promoteStreak: number;
   demoteStreak: number;
@@ -186,6 +220,7 @@ function fresh(conceptId: string): ConceptState {
     correct: 0,
     ewma: NEUTRAL,
     cleanStreak: 0,
+    flagged: false,
     band: "needs-work",
     promoteStreak: 0,
     demoteStreak: 0,
@@ -291,6 +326,9 @@ export function derive(attempts: readonly Attempt[], now: number): Map<string, C
     if (a.correct === true) s.correct += 1;
     s.ewma = KEEP * s.ewma + NEW * (100 * signal);
     s.cleanStreak = clean ? s.cleanStreak + 1 : 0;
+    // Assigned, never accumulated: the flag is a fact about the newest evidence,
+    // so the answer that repairs a miss clears it here rather than anywhere else.
+    s.flagged = signal >= MISS;
     s.lastSeenAt = a.at;
 
     applyBands(s, clean);

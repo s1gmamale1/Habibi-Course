@@ -64,6 +64,14 @@ export type SessionRunner = {
    * Concepts that were missed and could not be retried — the tail was full, the
    * concept had used its retries, or the pool had nothing left to draw. Input
    * for the next session's interleaved slots, never a score.
+   *
+   * **Nothing has to carry this to the next session.** `derive()` recomputes it
+   * from the rows this hook already wrote — a concept whose last graded attempt
+   * was a miss — and `planSession` reads it off `ConceptState.flagged`. The two
+   * agree on every sitting that runs to the end; the derived one additionally
+   * catches one abandoned mid-tail, where this copy dies with the page. So this
+   * is the *live* view, for a screen that wants to name what went unfinished
+   * while the session is still up, and the derived one is what schedules.
    */
   flagged: readonly string[];
   /** Minted here, once. `planSession` is pure and deliberately mints nothing. */

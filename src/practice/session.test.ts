@@ -8,7 +8,7 @@ import { Rating } from "ts-fsrs";
 
 import { allLessons } from "@/content/load";
 import { TAJWEED_RULES } from "@/content/tajweed";
-import { derive } from "./derive";
+import { derive, isWeak } from "./derive";
 import { dueConcepts, gradeOf, newSchedule, reviewConcept, type ConceptSchedule } from "./schedule";
 import type { Attempt } from "./types";
 import {
@@ -514,6 +514,153 @@ describe("planning a session", () => {
       expect(planSession(schedules, new Map(), pool, NOW).items.length).toBeGreaterThan(0);
       expect(pool).toEqual(POOL);
       expect(schedules.get("ikhfa")!.due.getTime()).toBe(NOW - DAY);
+    } finally {
+      dateNow.mockRestore();
+      random.mockRestore();
+    }
+  });
+});
+
+describe("the flag loop", () => {
+  /**
+   * A concept missed in the last session and never repaired is what `useSession`
+   * calls **flagged**, and until now it was minted at the end of a sitting and
+   * dropped there. It is read back out of the ledger instead, so the next
+   * session's review slots see it — including after a page reload, which a value
+   * held in a hook does not survive.
+   *
+   * Every scenario below turns on one thing only: the two review candidates are
+   * due at the same moment and are both weak, so the existing ordering cannot
+   * separate them and the flag is the only thing that can.
+   */
+  const FOCUS = "idghaam_ghunnah";
+  const POOL = poolFor([FOCUS, "ikhfa", "madd_2"]);
+
+  const history = (conceptId: string, verdicts: readonly boolean[], sessionId: string) =>
+    verdicts.map((correct) => mk({ conceptId, correct, sessionId }));
+
+  /** `ikhfa` ends its session clean; `madd_2` ends on a miss nobody repaired. */
+  const LEDGER = [
+    ...history("ikhfa", [false, false, false, true], "s1"),
+    ...history("madd_2", [false, false, false, false], "s1"),
+  ];
+  const STATES = derive(LEDGER, NOW);
+
+  const SCHEDULES = scheduleMap([
+    at(FOCUS, NOW - 9 * DAY),
+    at("ikhfa", NOW - 5 * DAY),
+    at("madd_2", NOW - 5 * DAY),
+  ]);
+
+  const plan = planSession(SCHEDULES, STATES, POOL, NOW);
+  const reviewedIn = (p: typeof plan) =>
+    p.items.filter((i) => i.isInterleaved).map((i) => i.conceptId);
+
+  test("the two candidates differ by the flag and by nothing else", () => {
+    // The premise. Without it the test below would pass on the ordering that
+    // already existed, and prove nothing about the flag.
+    expect(SCHEDULES.get("ikhfa")!.due.getTime()).toBe(SCHEDULES.get("madd_2")!.due.getTime());
+    expect(isWeak(STATES.get("ikhfa")!)).toBe(true);
+    expect(isWeak(STATES.get("madd_2")!)).toBe(true);
+    expect(STATES.get("ikhfa")!.flagged).toBe(false);
+    expect(STATES.get("madd_2")!.flagged).toBe(true);
+    // …and the id tiebreak that decides it today points the other way.
+    expect("ikhfa" < "madd_2").toBe(true);
+  });
+
+  test("a concept flagged last session leads the interleaved slots", () => {
+    expect(reviewedIn(plan)).toEqual(["madd_2", "ikhfa"]);
+  });
+
+  test("a flag raises interleave priority — it does not hijack the session", () => {
+    // The focus is still the most overdue concept, and the backbone is still
+    // entirely it. A flag is a reason to review something, never a reason to
+    // spend a whole sitting on it.
+    expect(plan.focusConceptId).toBe(FOCUS);
+    expect(plan.items.filter((i) => !i.isInterleaved).every((i) => i.conceptId === FOCUS)).toBe(
+      true,
+    );
+  });
+
+  test("even the least overdue concept in the queue cannot take the focus by being flagged", () => {
+    const lastInLine = scheduleMap([
+      at(FOCUS, NOW - 9 * DAY),
+      at("ikhfa", NOW - 5 * DAY),
+      at("madd_2", NOW - 2 * DAY),
+    ]);
+    const planned = planSession(lastInLine, STATES, POOL, NOW);
+    expect(planned.focusConceptId).toBe(FOCUS);
+    // It still leads the review, ahead of a concept overdue by three more days.
+    expect(reviewedIn(planned)).toEqual(["madd_2", "ikhfa"]);
+  });
+
+  test("a tie for most overdue is broken by weakness, never by the flag", () => {
+    // The boundary `orderDue` must not learn about, and the only case where it
+    // could bite: two concepts due at the same millisecond — which is every
+    // concept on day one, since they are all seeded together. Both are weak, so
+    // the id decides, exactly as it did before there were flags. A flag that
+    // reached the focus would let one bad answer at the end of yesterday's
+    // session pick today's whole sitting.
+    const tied = scheduleMap([at("ikhfa", NOW), at("madd_2", NOW)]);
+    expect(STATES.get("madd_2")!.flagged).toBe(true);
+    expect(planSession(tied, STATES, POOL, NOW).focusConceptId).toBe("ikhfa");
+  });
+
+  test("the review queue is flagged, then answered before, then never seen", () => {
+    // Where the flag sits in the whole ordering, in one assertion. The
+    // seen-before-unseen preference underneath it is not a detail: interleaving
+    // a concept the learner has never met is a first encounter dropped into the
+    // middle of someone else's session, not a review.
+    const queue = scheduleMap([
+      at(FOCUS, NOW - 9 * DAY),
+      at("ikhfa", NOW - 5 * DAY), // answered before, ended clean
+      at("madd_2", NOW - 5 * DAY), // answered before, ended on a miss
+      at("qalqalah", NOW - 5 * DAY), // never answered at all
+    ]);
+    const planned = planSession(
+      queue,
+      STATES,
+      poolFor([FOCUS, "ikhfa", "madd_2", "qalqalah"]),
+      NOW,
+    );
+    expect(reviewedIn(planned)).toEqual(["madd_2", "ikhfa", "qalqalah"]);
+  });
+
+  test("a flagged concept answered correctly stops being prioritised", () => {
+    // How the flag is spent: acted on, answered, gone. It is not cleared by a
+    // timer or by having been shown — only by a clean answer.
+    const repaired = derive(
+      [...LEDGER, mk({ conceptId: "madd_2", correct: true, sessionId: "s2" })],
+      NOW,
+    );
+    expect(repaired.get("madd_2")!.flagged).toBe(false);
+    expect(isWeak(repaired.get("madd_2")!)).toBe(true); // still weak, just no longer flagged
+    expect(reviewedIn(planSession(SCHEDULES, repaired, POOL, NOW))).toEqual(["ikhfa", "madd_2"]);
+  });
+
+  test("a flag does not make a concept due", () => {
+    // It reorders the review candidates. It is not a second scheduler, and a
+    // concept FSRS has not called back yet stays out of the session.
+    const notYet = scheduleMap([
+      at(FOCUS, NOW - 9 * DAY),
+      at("ikhfa", NOW - 5 * DAY),
+      at("madd_2", NOW + DAY),
+    ]);
+    const planned = planSession(notYet, STATES, POOL, NOW);
+    expect(planned.items.some((i) => i.conceptId === "madd_2")).toBe(false);
+    expect(reviewedIn(planned)).toEqual(["ikhfa"]);
+  });
+
+  test("the same inputs give the same plan, flags and all", () => {
+    const boom = () => {
+      throw new Error("session.ts read a clock");
+    };
+    const dateNow = vi.spyOn(Date, "now").mockImplementation(boom);
+    const random = vi.spyOn(Math, "random").mockImplementation(boom);
+    try {
+      expect(planSession(SCHEDULES, STATES, POOL, NOW)).toEqual(
+        planSession(SCHEDULES, STATES, [...POOL].reverse(), NOW),
+      );
     } finally {
       dateNow.mockRestore();
       random.mockRestore();

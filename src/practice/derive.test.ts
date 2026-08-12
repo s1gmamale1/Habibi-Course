@@ -176,6 +176,70 @@ describe("one good rep does not clear a weak concept", () => {
   });
 });
 
+describe("the flag: a miss the session never repaired", () => {
+  test("a concept whose last graded attempt was a miss is flagged", () => {
+    expect(derive([...right(2), ...wrong(1)], NOW).get(C)!.flagged).toBe(true);
+  });
+
+  test("a miss repaired before the session ended is not flagged", () => {
+    // The wrong-answer tail: the miss, then a different exemplar of the same
+    // concept answered cleanly. That is a repair, and there is nothing to carry.
+    const s = derive(
+      [mk({ correct: false, sessionId: "s1" }), mk({ correct: true, sessionId: "s1" })],
+      NOW,
+    ).get(C)!;
+    expect(s.flagged).toBe(false);
+  });
+
+  test("the flag outlives the session that raised it", () => {
+    // The whole point: it is scheduling information for the NEXT session, and a
+    // sitting the concept was never asked in leaves it standing.
+    const missed = mk({ correct: false, sessionId: "s1" });
+    const elsewhere = mk({ conceptId: "ikhfa", correct: true, sessionId: "s2" });
+    expect(derive([missed], NOW).get(C)!.flagged).toBe(true);
+    expect(derive([missed, elsewhere], NOW).get(C)!.flagged).toBe(true);
+  });
+
+  test("a clean answer in a later session spends it", () => {
+    // How a flag is discharged: it is acted on, answered, and gone. Nothing
+    // expires it on a timer and nothing has to remember to clear it.
+    const s = derive(
+      [mk({ correct: false, sessionId: "s1" }), mk({ correct: true, sessionId: "s2" })],
+      NOW,
+    ).get(C)!;
+    expect(s.flagged).toBe(false);
+  });
+
+  test("an ungraded attempt neither raises a flag nor clears one", () => {
+    const missed = [mk({ correct: false })];
+    expect(derive([...missed, mk({ correct: null })], NOW).get(C)).toEqual(
+      derive(missed, NOW).get(C),
+    );
+    expect(derive([...right(1), mk({ correct: null })], NOW).get(C)!.flagged).toBe(false);
+  });
+
+  test("it follows the drill's verdict, not the clean run", () => {
+    // 1.8 of 2 is inside the tolerance the drill graded on, so the learner was
+    // told they were right. `cleanStreak` still refuses it — it is not a clean
+    // rep — but flagging it would push a concept the learner answered correctly
+    // into the next session's review slots on the strength of a "yes".
+    const near = derive([held(1.8)], NOW).get(C)!;
+    expect(near.cleanStreak).toBe(0);
+    expect(near.flagged).toBe(false);
+    expect(derive([held(0.6)], NOW).get(C)!.flagged).toBe(true);
+  });
+
+  test("a flag is not a band and not a streak", () => {
+    // It says one thing about the last answer, so it cannot accumulate: two
+    // misses in a row are the same flag as one.
+    const one = derive([...wrong(1)], NOW).get(C)!;
+    const two = derive([...wrong(2)], NOW).get(C)!;
+    expect(one.flagged).toBe(true);
+    expect(two.flagged).toBe(true);
+    expect(two.ewma).toBeGreaterThan(one.ewma);
+  });
+});
+
 describe("bands move on consecutive evidence, asymmetrically", () => {
   test("promotion needs a run, not a single good rep", () => {
     expect(derive(right(1), NOW).get(C)!.band).toBe("needs-work");
