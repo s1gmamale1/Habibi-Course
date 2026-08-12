@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { ArabicItem } from "@/content/schema";
-import type { WordEntry } from "@/games/derive";
+import type { GameData, WordEntry } from "@/games/derive";
 import { contextualGlyphs, displayLetters } from "@/games/arabic";
-import { registerGame, type GameResult } from "./GameRegistry";
+import { pickExemplar, registerGame, startWith, type GameResult } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
 
 /** Declared here rather than beside `registerGame` so the drill can report under it. */
@@ -18,11 +18,21 @@ const GAME_ID = "spot-the-letter";
 export function SpotTheLetter({
   words,
   pool,
+  focus,
   onResult,
   now = () => Date.now(),
 }: {
   words: WordEntry[];
   pool: ArabicItem[];
+  /**
+   * The letter the session planned, for the **first** word only.
+   *
+   * The target is otherwise picked at random from the letters of the word, so
+   * the attempt row named a concept the learner may never have been asked
+   * about. A `focus` the first word does not contain is ignored — the drill
+   * cannot hunt a letter that is not there — and the random pick stands.
+   */
+  focus?: string;
   onResult?: (r: GameResult) => void;
   /** Injected clock, so the scoring logic stays free of ambient time. */
   now?: () => number;
@@ -45,11 +55,12 @@ export function SpotTheLetter({
     // student can never tap. In ضَوْء the bare ء is nameable and becomes a
     // legitimate target — the point of teaching hamza in Unit 1.4.
     const known = uniq.filter((l) => pool.some((it) => it.arabic === l));
+    const planned = round === 0 && focus !== undefined && known.includes(focus) ? focus : null;
     // eslint-disable-next-line react-hooks/set-state-in-effect -- random target pick must run client-side only; render-time shuffle would mismatch SSR HTML
-    setTarget(shuffled(known)[0] ?? null);
+    setTarget(planned ?? shuffled(known)[0] ?? null);
     setFound(false);
     setShake(null);
-  }, [round, words, pool]);
+  }, [round, words, pool, focus]);
 
   if (!target) return <p className="text-white/50">Picking a letter…</p>;
   const letters = displayLetters(word.arabic);
@@ -123,13 +134,43 @@ export function spottableWords(words: WordEntry[]): WordEntry[] {
  *
  * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
+/**
+ * A question here is a **word and a letter to find in it**, so both are in the
+ * key: the same letter hunted in two different words is two exemplars of one
+ * concept, which is exactly what a tail retry needs, and the same word with two
+ * different letters is two different questions about two different concepts.
+ *
+ * Only letters the pool can *name* are offered, because the prompt names the
+ * target rather than showing it — the same filter the target picker applies.
+ */
+type SpotExemplar = { word: WordEntry; letter: string; itemKey: string };
+
+function spotExemplars(data?: GameData): SpotExemplar[] {
+  if (!data) return [];
+  return spottableWords(data.wordPool).flatMap((word) =>
+    [...new Set(displayLetters(word.arabic))]
+      .filter((letter) => data.letterPool.some((it) => it.arabic === letter))
+      .map((letter) => ({ word, letter, itemKey: `${GAME_ID}/${word.arabic}/${letter}` })),
+  );
+}
+
 registerGame({
   id: GAME_ID,
   label: "🔍 Spot the letter",
-  render: ({ data, onResult }) => {
+  exemplars: (data) =>
+    spotExemplars(data).map((e) => ({ conceptId: e.letter, itemKey: e.itemKey })),
+  render: ({ data, onResult, item }) => {
     const words = data ? spottableWords(data.wordPool) : [];
+    const planned = pickExemplar(spotExemplars(data), (e) => e.itemKey, item?.itemKey);
     return data && words.length > 0 ? (
-      <SpotTheLetter words={words} pool={data.letterPool} onResult={onResult} />
+      <SpotTheLetter
+        // The planned word first, and the rest of the list behind it, so "Next
+        // word →" still walks the lesson's words rather than restarting.
+        words={startWith(words, (w) => w.arabic, planned?.word.arabic)}
+        pool={data.letterPool}
+        focus={planned?.letter}
+        onResult={onResult}
+      />
     ) : (
       <p className="text-white/50">No words to search yet.</p>
     );

@@ -152,6 +152,22 @@ export type GameEntry = {
 };
 
 /**
+ * The one exemplar `itemKey` names, or `undefined` when it names none — no key
+ * given, or a key from a pool built against a build that had different content.
+ *
+ * Returning `undefined` rather than the first item is the whole point: a drill
+ * asks for its planned exemplar and falls back *deliberately*, rather than
+ * silently drilling something else while believing it was told to.
+ */
+export function pickExemplar<T>(
+  items: readonly T[],
+  keyOf: (item: T) => string,
+  itemKey?: string,
+): T | undefined {
+  return itemKey === undefined ? undefined : items.find((item) => keyOf(item) === itemKey);
+}
+
+/**
  * Put the planned exemplar first, leaving the rest of the drill's own order
  * intact.
  *

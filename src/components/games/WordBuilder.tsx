@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import type { WordEntry } from "@/games/derive";
+import type { GameData, WordEntry } from "@/games/derive";
 import { baseLetters } from "@/games/arabic";
-import { registerGame, type GameResult } from "./GameRegistry";
+import { pickExemplar, registerGame, startWith, type GameResult } from "./GameRegistry";
 import { useBuildPuzzle } from "./useBuildPuzzle";
 
 /** Declared here rather than beside `registerGame` so the drill can report under it. */
@@ -127,13 +127,42 @@ export function buildableWords(words: WordEntry[]): WordEntry[] {
  *
  * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
+/**
+ * A word is an exemplar of **each of its letters**, so it appears once per
+ * letter the lesson has taught.
+ *
+ * That is not the stretch it is for the word deck. Building بَاب means picking
+ * the ب glyph out of a bank that contains decoys — the letter is what the
+ * learner is choosing, and the row is honest about which letter it evidences.
+ * A word gives its letters two or more exemplars between them, which is what
+ * lets a tail retry re-ask a letter through a different word.
+ */
+const builderKey = (word: string, letter: string) => `${GAME_ID}/${word}/${letter}`;
+
+type BuilderExemplar = { word: WordEntry; letter: string; itemKey: string };
+
+function builderExemplars(data?: GameData): BuilderExemplar[] {
+  if (!data) return [];
+  return buildableWords(data.wordPool).flatMap((word) =>
+    [...new Set(baseLetters(word.arabic))]
+      .filter((letter) => data.letterPool.some((it) => it.arabic === letter))
+      .map((letter) => ({ word, letter, itemKey: builderKey(word.arabic, letter) })),
+  );
+}
+
 registerGame({
   id: GAME_ID,
   label: "🧩 Build a word",
-  render: ({ data, onResult }) => {
+  exemplars: (data) =>
+    builderExemplars(data).map((e) => ({ conceptId: e.letter, itemKey: e.itemKey })),
+  render: ({ data, onResult, item }) => {
     const words = data ? buildableWords(data.wordPool) : [];
+    const planned = pickExemplar(builderExemplars(data), (e) => e.itemKey, item?.itemKey);
     return words.length > 0 ? (
-      <WordBuilder words={words} onResult={onResult} />
+      <WordBuilder
+        words={startWith(words, (w) => w.arabic, planned?.word.arabic)}
+        onResult={onResult}
+      />
     ) : (
       <p className="text-white/50">No words to build yet.</p>
     );

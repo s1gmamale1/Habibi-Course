@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import type { FormEntry, FormKey } from "@/games/derive";
-import { registerGame, type GameResult } from "./GameRegistry";
+import type { FormEntry, FormKey, GameData } from "@/games/derive";
+import { registerGame, startWith, type GameResult } from "./GameRegistry";
 import { isCorrect, useSwapPuzzle } from "./useSwapPuzzle";
 
 /** Declared here rather than beside `registerGame` so the drill can report under it. */
@@ -107,12 +107,30 @@ export function FormSwap({
  *
  * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
+/**
+ * One exemplar per letter: the board *is* that letter's four forms, so there is
+ * no second question to ask about it here. Gated on `formsTaught` exactly as
+ * `render` is — a drill the lesson will not show has nothing a session can plan.
+ */
+const formKey = (arabic: string) => `${GAME_ID}/${arabic}`;
+
+const swappableEntries = (data?: GameData) =>
+  data?.formsTaught ? data.formEntries : [];
+
 registerGame({
   id: GAME_ID,
   label: "🔀 Forms",
-  render: ({ data, onResult }) =>
+  exemplars: (data) =>
+    swappableEntries(data).map((e) => ({
+      conceptId: e.item.arabic,
+      itemKey: formKey(e.item.arabic),
+    })),
+  render: ({ data, onResult, item }) =>
     data && data.formsTaught && data.formEntries.length > 0 ? (
-      <FormSwap entries={data.formEntries} onResult={onResult} />
+      <FormSwap
+        entries={startWith(data.formEntries, (e) => formKey(e.item.arabic), item?.itemKey)}
+        onResult={onResult}
+      />
     ) : (
       <p className="text-white/50">No letter forms to arrange yet.</p>
     ),

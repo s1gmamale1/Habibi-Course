@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { FormEntry, FormKey } from "@/games/derive";
-import { registerGame, type GameResult } from "./GameRegistry";
+import { pickExemplar, registerGame, type GameResult } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
 
 /** Declared here rather than beside `registerGame` so the drill can report under it. */
@@ -21,8 +21,21 @@ function presentForms(entry: FormEntry): FormKey[] {
   return FORM_KEYS.filter((k) => entry.forms[k]);
 }
 
-function buildLetterQuestion(pool: ArabicItem[]): Question {
-  const opts = shuffled(pool).slice(0, 4);
+/**
+ * `focus` is the letter a session planned, and it decides the **answer** rather
+ * than merely appearing among the choices.
+ *
+ * Without it the drill picked its own letter, so the attempt row said the
+ * learner had practised ب when they had been asked about ت — a `conceptId` that
+ * never happened, which is worse than a wrong `itemKey` because the scheduler
+ * folds on it. A `focus` the content cannot honour is ignored, and the drill
+ * chooses for itself as before.
+ */
+function buildLetterQuestion(pool: ArabicItem[], focus?: string): Question {
+  const target = pool.find((it) => it.arabic === focus);
+  const opts = target
+    ? [target, ...shuffled(pool.filter((it) => it.arabic !== focus)).slice(0, 3)]
+    : shuffled(pool).slice(0, 4);
   const answer = opts[0];
   const choices: Choice[] = shuffled(opts).map((it) => ({
     key: it.arabic,
@@ -41,9 +54,11 @@ function buildLetterQuestion(pool: ArabicItem[]): Question {
 }
 
 // Options are every present form of ONE letter; the correct option is the asked-for form key.
-function buildPickFormQuestion(entries: FormEntry[]): Question {
+function buildPickFormQuestion(entries: FormEntry[], focus?: string): Question {
   const eligible = entries.filter((e) => presentForms(e).length >= 3);
-  const entry = eligible[Math.floor(Math.random() * eligible.length)];
+  const entry =
+    eligible.find((e) => e.item.arabic === focus) ??
+    eligible[Math.floor(Math.random() * eligible.length)];
   const keys = presentForms(entry);
   const formKey = keys[Math.floor(Math.random() * keys.length)];
   const choices: Choice[] = shuffled(keys).map((k) => ({
@@ -62,11 +77,18 @@ function buildPickFormQuestion(entries: FormEntry[]): Question {
 }
 
 // Options are the SAME form key across 4 different letters; the correct option is one letter's glyph.
-function buildCrossLetterQuestion(entries: FormEntry[], commonKeys: FormKey[]): Question {
+function buildCrossLetterQuestion(
+  entries: FormEntry[],
+  commonKeys: FormKey[],
+  focus?: string,
+): Question {
   const formKey = commonKeys[Math.floor(Math.random() * commonKeys.length)];
   const candidates = entries.filter((e) => e.forms[formKey]);
-  const picked = shuffled(candidates).slice(0, 4);
-  const answer = picked[Math.floor(Math.random() * picked.length)];
+  const wanted = candidates.find((e) => e.item.arabic === focus);
+  const picked = wanted
+    ? [wanted, ...shuffled(candidates.filter((e) => e !== wanted)).slice(0, 3)]
+    : shuffled(candidates).slice(0, 4);
+  const answer = wanted ?? picked[Math.floor(Math.random() * picked.length)];
   const choices: Choice[] = shuffled(picked).map((e) => ({
     key: e.item.arabic,
     glyph: e.forms[formKey]!,
@@ -82,18 +104,36 @@ function buildCrossLetterQuestion(entries: FormEntry[], commonKeys: FormKey[]): 
   };
 }
 
-function buildQuestion(pool: ArabicItem[], entries: FormEntry[], formsTaught: boolean): Question {
-  const canPickForm = formsTaught && entries.some((e) => presentForms(e).length >= 3);
-  const commonKeys = formsTaught ? FORM_KEYS.filter((k) => entries.filter((e) => e.forms[k]).length >= 4) : [];
+function buildQuestion(
+  pool: ArabicItem[],
+  entries: FormEntry[],
+  formsTaught: boolean,
+  focus?: string,
+): Question {
+  // A flavour that cannot ask about `focus` is not offered at all — otherwise a
+  // planned letter would be honoured or not depending on a coin toss, which is
+  // the same unreliable claim as not honouring it.
+  const asks = (e: FormEntry) => focus === undefined || e.item.arabic === focus;
+  const canPickForm =
+    formsTaught && entries.some((e) => presentForms(e).length >= 3 && asks(e));
+  const commonKeys = formsTaught
+    ? FORM_KEYS.filter(
+        (k) => entries.filter((e) => e.forms[k]).length >= 4 && entries.some((e) => e.forms[k] && asks(e)),
+      )
+    : [];
+  const canAskLetter = focus === undefined || pool.some((it) => it.arabic === focus);
 
-  const available: Flavor[] = ["letter"];
+  const available: Flavor[] = canAskLetter ? ["letter"] : [];
   if (canPickForm) available.push("pick-form");
   if (commonKeys.length > 0) available.push("cross-letter");
+  // Nothing can honour it — a key from a pool built against other content — so
+  // the drill falls back to choosing for itself rather than showing nothing.
+  if (available.length === 0) return buildQuestion(pool, entries, formsTaught);
   const flavor = available[Math.floor(Math.random() * available.length)];
 
-  if (flavor === "pick-form") return buildPickFormQuestion(entries);
-  if (flavor === "cross-letter") return buildCrossLetterQuestion(entries, commonKeys);
-  return buildLetterQuestion(pool);
+  if (flavor === "pick-form") return buildPickFormQuestion(entries, focus);
+  if (flavor === "cross-letter") return buildCrossLetterQuestion(entries, commonKeys, focus);
+  return buildLetterQuestion(pool, focus);
 }
 
 /**
@@ -112,12 +152,19 @@ export function LetterQuiz({
   pool,
   entries,
   formsTaught,
+  focus,
   onResult,
   now = () => Date.now(),
 }: {
   pool: ArabicItem[];
   entries: FormEntry[];
   formsTaught: boolean;
+  /**
+   * The letter the session planned, for the **first** question. Later rounds
+   * are the drill's own again: the session showed the learner one question and
+   * has already moved on by the time they press "Next".
+   */
+  focus?: string;
   onResult?: (r: GameResult) => void;
   /** Injected clock, so the scoring logic stays free of ambient time. */
   now?: () => number;
@@ -130,13 +177,13 @@ export function LetterQuiz({
   const [score, setScore] = useState({ right: 0, asked: 0 });
 
   useEffect(() => {
-    const q = buildQuestion(pool, entries, formsTaught);
+    const q = buildQuestion(pool, entries, formsTaught, round === 0 ? focus : undefined);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- round-keyed effect with mount-time random pick must run client-side only; render-time pick would mismatch SSR HTML
     setQuestion(q);
     setGotIt(false);
     setMissed(false);
     setShake(null);
-  }, [round, pool, entries, formsTaught]);
+  }, [round, pool, entries, formsTaught, focus]);
 
   if (!question) return <p className="text-white/50">Preparing…</p>;
   return (
@@ -210,10 +257,23 @@ export const QUIZ_MIN_LETTERS = 4;
  *
  * `GAME_ID` is declared at the top of the file — the drill reports under it.
  */
+/**
+ * One exemplar per letter: the question this drill asks about a letter is
+ * always "which glyph is this one", however the flavour dresses it. A tail
+ * retry of a letter therefore has to come from another drill — which is what
+ * `useSession.drawRetry` prefers anyway.
+ */
+const quizKey = (arabic: string) => `${GAME_ID}/${arabic}`;
+
 registerGame({
   id: GAME_ID,
   label: "❓ Quiz",
-  render: ({ data, onResult }) => {
+  exemplars: (data) =>
+    (data && quizzableLetters(data.letterPool).length >= QUIZ_MIN_LETTERS
+      ? quizzableLetters(data.letterPool)
+      : []
+    ).map((it) => ({ conceptId: it.arabic, itemKey: quizKey(it.arabic) })),
+  render: ({ data, onResult, item }) => {
     const pool = data ? quizzableLetters(data.letterPool) : [];
     if (!data || pool.length < QUIZ_MIN_LETTERS) {
       return <p className="text-white/50">Not enough named letters to quiz yet.</p>;
@@ -223,6 +283,7 @@ registerGame({
         pool={pool}
         entries={data.formEntries}
         formsTaught={data.formsTaught}
+        focus={pickExemplar(pool, (it) => quizKey(it.arabic), item?.itemKey)?.arabic}
         onResult={onResult}
       />
     );

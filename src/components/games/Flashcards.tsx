@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { WordEntry } from "@/games/derive";
-import { registerGame } from "./GameRegistry";
+import { pickExemplar, registerGame } from "./GameRegistry";
 import { shuffled } from "./useSwapPuzzle";
 
 export type CardFace = { id: string; front: string; back: string[] };
@@ -30,17 +30,30 @@ export function wordCards(words: WordEntry[]): CardFace[] {
   return words.map((w) => ({ id: w.arabic, front: w.arabic, back: [`${w.translit} — ${w.meaning}`] }));
 }
 
-export function Flashcards({ cards }: { cards: CardFace[] }) {
+/**
+ * Deal the deck, with `startId` — when the session planned one — on top.
+ *
+ * The shuffle is kept and the planned card is moved to the front of it rather
+ * than the deck being ordered around it: everything after the first card is the
+ * deck the learner would have had anyway.
+ */
+function dealt(cards: readonly CardFace[], startId?: string): number[] {
+  const order = shuffled(cards.map((_, i) => i));
+  const at = order.findIndex((i) => cards[i].id === startId);
+  return at <= 0 ? order : [order[at], ...order.filter((_, k) => k !== at)];
+}
+
+export function Flashcards({ cards, startId }: { cards: CardFace[]; startId?: string }) {
   const [deck, setDeck] = useState<number[] | null>(null);
   const [flipped, setFlipped] = useState(false);
   const cardsKey = cards.map((c) => c.id).join("|");
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- deck shuffle must run client-side only; render-time shuffle would mismatch SSR HTML
-    setDeck(shuffled(cards.map((_, i) => i)));
+    setDeck(dealt(cards, startId));
     setFlipped(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- cards identity churns; cardsKey covers content
-  }, [cardsKey]);
+  }, [cardsKey, startId]);
 
   if (!deck) return <p className="text-white/50">Shuffling…</p>;
   if (deck.length === 0) {
@@ -116,8 +129,20 @@ export function Flashcards({ cards }: { cards: CardFace[] }) {
   );
 }
 
-export function LetterFlashcards({ newLetters, allLetters }: { newLetters: ArabicItem[]; allLetters: ArabicItem[] }) {
-  const [scope, setScope] = useState<"new" | "all">(newLetters.length > 0 ? "new" : "all");
+export function LetterFlashcards({
+  newLetters,
+  allLetters,
+  startId,
+}: {
+  newLetters: ArabicItem[];
+  allLetters: ArabicItem[];
+  /** The letter a session planned. Opens on the scope that actually contains it. */
+  startId?: string;
+}) {
+  const opensOnAll = startId !== undefined && !newLetters.some((l) => l.arabic === startId);
+  const [scope, setScope] = useState<"new" | "all">(
+    newLetters.length > 0 && !opensOnAll ? "new" : "all",
+  );
   const items = scope === "new" && newLetters.length > 0 ? newLetters : allLetters;
   return (
     <div>
@@ -139,7 +164,7 @@ export function LetterFlashcards({ newLetters, allLetters }: { newLetters: Arabi
           </button>
         </div>
       )}
-      <Flashcards key={scope} cards={letterCards(items)} />
+      <Flashcards key={scope} cards={letterCards(items)} startId={startId} />
     </div>
   );
 }
@@ -167,23 +192,53 @@ export function LetterFlashcards({ newLetters, allLetters }: { newLetters: Arabi
 const LETTER_CARDS_ID = "letter-flashcards";
 const WORD_CARDS_ID = "word-flashcards";
 
+/** A card is identified by its face, which for a letter deck is the letter. */
+const letterCardKey = (arabic: string) => `${LETTER_CARDS_ID}/${arabic}`;
+
 registerGame({
   id: LETTER_CARDS_ID,
   label: "🃏 Letter cards",
-  render: ({ data }) =>
+  exemplars: (data) =>
+    (data?.letterPool ?? []).map((l) => ({
+      conceptId: l.arabic,
+      itemKey: letterCardKey(l.arabic),
+    })),
+  render: ({ data, item }) =>
     data && data.letterPool.length > 0 ? (
-      <LetterFlashcards newLetters={data.newLetters} allLetters={data.letterPool} />
+      <LetterFlashcards
+        newLetters={data.newLetters}
+        allLetters={data.letterPool}
+        startId={pickExemplar(data.letterPool, (l) => letterCardKey(l.arabic), item?.itemKey)?.arabic}
+      />
     ) : (
       <p className="text-white/50">No letters to review yet.</p>
     ),
 });
 
+/**
+ * The word deck **advertises no exemplars**, and that is the honest answer
+ * rather than a gap.
+ *
+ * Every other drill's exemplar names one of the 47 concepts the scheduler
+ * tracks — a rule or a letter. A vocabulary card names neither. Its letters are
+ * incidental to it in a way they are not to `word-builder`, where the learner
+ * assembles the word letter by letter, or to `spot-the-letter`, where one letter
+ * is the whole question: here the learner is asked what the *word* means, and
+ * filing that under one of its letters would be inventing a concept the card
+ * never tested. So a session cannot plan this deck, and `render` still honours a
+ * key naming one of its words for the day a vocabulary concept exists.
+ */
+const wordCardKey = (arabic: string) => `${WORD_CARDS_ID}/${arabic}`;
+
 registerGame({
   id: WORD_CARDS_ID,
   label: "📖 Word cards",
-  render: ({ data }) =>
+  render: ({ data, item }) =>
     data && data.wordPool.length > 0 ? (
-      <Flashcards cards={wordCards(data.wordPool)} />
+      <Flashcards
+        cards={wordCards(data.wordPool)}
+        startId={pickExemplar(data.wordPool, (w) => wordCardKey(w.arabic), item?.itemKey)?.arabic}
+      />
     ) : (
       <p className="text-white/50">No words to review yet.</p>
     ),
