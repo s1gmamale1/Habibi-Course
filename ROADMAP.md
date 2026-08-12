@@ -4,7 +4,7 @@ A self-paced Arabic reading and tajweed course: **74 lessons live across four ph
 
 This ROADMAP is the single source of truth for what to build next. The detailed evidence behind every claim here lives in `library/00-Index/Verification-Log.md`.
 
-**Built state — 2026-08-11**
+**Built state — 2026-08-12**
 
 | | |
 |---|---|
@@ -12,9 +12,9 @@ This ROADMAP is the single source of truth for what to build next. The detailed 
 | Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
 | Library | **183 notes** — every one of the 74 live lessons has a reviewable note |
 | Rule notes | 59 total — **56 verified** against vendored sources, 3 `needs-review`, each naming the specific artifact still needed |
-| Gates | 423 tests · 0 lint errors · library 0 errors / 3 warnings · static export builds |
+| Gates | 535 tests · 0 lint errors · library 0 errors / 3 warnings · **CI green on GitHub Actions** |
 
-> **Phases 1–4 are complete and the course is fully reachable.** The app itself has been feature-complete for some time — 82 source files, 230 static pages, 14 practice games, 423 tests — so recent phases have been *content*, not code. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items plus Phase 7's fixable gaps, none of which blocks a learner from starting today.
+> **Phases 1–4 are complete and the course is fully reachable.** The app itself has been feature-complete for some time — 82 source files, 231 static pages, 14 practice games, 535 tests — so recent phases have been *content*, not code. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items, Phase 7's fixable gaps, and **Phase 8, the practice engine** — none of which blocks a learner from starting today.
 
 ---
 
@@ -291,6 +291,42 @@ Popover `role="dialog"` and dismissal · `aria-disabled` on locked `FormSwap`/`L
 
 ---
 
+## Phase 8 — The practice engine 📋 **PLANNED 2026-08-12, not started**
+
+> **Plan:** `docs/superpowers/plans/2026-08-12-practice-engine.md` — 8 tasks, test-first. Branch `feat/gamification-persistence`.
+
+**Goal.** The 14 drills that already ship start remembering. A learner sees what is due today, weak concepts resurface on a schedule, and a missed answer comes back before the session ends.
+
+**Why now.** The drills already emit a typed `GameResult` and **nothing listens** — `GamePanel` accepts `onResult` and no caller passes one. The only progress in the app is a self-declared checkbox in `localStorage`. The engine's missing piece was never more games; it is memory of them.
+
+### What the research settled
+
+Nine research passes: five mining the owner's other project (Akademiya-AI), four on Duolingo's published learning science. The headline results, because several are counter-intuitive:
+
+- **Akademiya has no spaced repetition at all** — confirmed independently twice across three repos. The thing most worth borrowing does not exist there. What it *does* have, and does well, is the layer underneath: an append-only ledger with derived stores, an EWMA weakness score, and a mastery-band state machine.
+- **Duolingo has published no evidence that any gamification feature improves learning** — every number is behavioural (DAU, D7 retention). Their efficacy studies measure the whole course with no arm that removes gamification. *"Streaks work"* is true only if *work* means people come back.
+- **Their own scheduler is the wrong choice here.** Untrained half-life regression **is** Leitner, by the paper's own derivation — and across 9,999 Anki collections, untrained FSRS beats *trained* HLR on every metric. Zero-data is exactly where that gap is widest.
+
+### Decisions
+
+- **FSRS with published defaults**, tuning desired retention (0.9) and never the parameters.
+- **Scheduling keyed on concepts (47), not items (1,641)** — see ADR-008.
+- **Append-only ledger in IndexedDB**, with a pure `derive()`. `derive`, `schedule` and `session` are IO-free *on purpose*: they are the code that runs unchanged server-side when ADR-007 lands.
+- **14-slot sessions** — a timed drill costs 2 slots, everything else 1 — with interleaved items never in the first or last two positions, and a **wrong-answer tail** that re-queues *a different exemplar of the same concept*.
+- **Mastery bands as diagnosis, never earned status.** Performance-contingent rewards undermine intrinsic motivation (d = −0.28, 128 studies); informational feedback enhances it. Same mechanic, opposite sign, decided by wording.
+- **Rolling practice density with no loss condition**, plus a weekly 3-distinct-days target — instead of a daily streak. A missed day does not materially impair habit formation, so a streak zeroing out asserts something factually untrue, and at n=1 there is no averaging to absorb the break.
+- **One deliberate inversion of Duolingo:** every wrong answer names the rule and the violated condition. They bet on implicit pattern extraction — their most consistent criticism from teachers — and tajweed is a finite, explicitly rule-governed system where that bet does not transfer.
+
+**Explicitly not shipping:** XP, levels, badges, coins, leagues, leaderboards, hearts, streak-with-a-cliff, UI sound. **And no speed metric may exist anywhere** — Task 4 carries an explicit overshoot test, because holding a madd *longer* must never score better.
+
+**The highest-value item needs no code.** Relatedness is the largest measured gamification benefit (g = 1.776) and is structurally unavailable to a solo learner — except that this course *has* a human teacher at the checkpoints. The software's job is to route toward that: surface readiness, help him arrive prepared. Never gate it, score it, or reward it.
+
+**Risks.** A scheduler that surfaces the wrong things is worse than none, and with one learner there is no A/B to catch it. Mitigation: the ledger is append-only, so the algorithm can be replaced and the history replayed rather than migrated.
+
+**Definition of done.** An attempt survives a reload; a due-today list is populated by past performance rather than by lesson order; a missed concept returns before the session ends; the timed drills still grade on accuracy-to-target; gates green.
+
+---
+
 ## Architecture decisions (ADRs)
 
 ### ADR-001 — The Jazariyyah spine: ḥaqq al-ḥarf before mustaḥaqq al-ḥarf
@@ -329,6 +365,11 @@ Popover `role="dialog"` and dismissal · `aria-disabled` on locked `FormSwap`/`L
 **Decision.** When accounts arrive, drop `output: "export"` for `output: "standalone"` and run the app as a Node process on a VPS behind Caddy, with SQLite on the same box. **Flip the config on the same commit as the first server-dependent feature — not before.**
 **Context.** The app is a pure static export with no server, no database and no session; progress is a `localStorage` key. Registration, a score history, and an AI tutor each need a runtime — an API key cannot ship in a static bundle. The alternative was auth-as-a-service (Clerk/Supabase/Firebase) keeping static hosting.
 **Consequences.** (+) No vendor, no per-seat bill, and — the deciding factor — **learners will include children, and self-hosting keeps their data out of a third party's jurisdiction**. (+) The migration is **proven, not assumed**: built standalone and served `/`, `/lesson/1-01`, `/practice/3-04`, `/teach/4-01`, `/checkpoint/checkpoint-2`, all 200, with all 230 pages still prerendering as SSG. (+) `/teach` gating becomes a middleware check rather than a rebuild. (−) Something must now be operated: a process, a reverse proxy, backups. (−) Free static hosting is given up, which is why the flip waits for the first feature that needs it. (−) `output: "standalone"` does not copy `.next/static` or `public/`, so a build step must — omit it and the site serves HTML with every asset 404ing. Recipe and the tested evidence: `docs/deploy/vps.md`.
+
+### ADR-008 — Spaced repetition is keyed on concepts, not items
+**Decision.** The scheduler tracks **47 concepts** (18 tajweed rules + 29 letters) and draws a **fresh exemplar on each review**. The ledger still records the `itemKey` actually shown.
+**Context.** The course holds **1,641 distinct drillable items**. Per-item scheduling was the obvious design and was planned first. At 14 slots per session it takes **118 sessions to show every item once** — so a card would be reviewed roughly every four months, and FSRS builds stability from *repeated reviews of the same card*. It would have been starved.
+**Consequences.** (+) Each concept accumulates dense data within days instead of months, so the scheduler is useful almost immediately. (+) It tests **the rule rather than memory of one exemplar** — a learner needs to recognise idghām anywhere, not recall that one āyah contains it. That is better pedagogy, not merely a workaround for sparse data. (+) `itemKey` stays in the ledger, so a per-item mode remains available if concept-level proves too coarse. (−) It cannot distinguish a hard exemplar from an easy one within a rule; a learner who fails only on one awkward āyah looks the same as one who fails broadly. (−) The exemplar pool must be large enough per concept that fresh draws do not repeat quickly — comfortably true at 1,641 items across 47 concepts.
 
 ## Effort / impact table
 
