@@ -5,6 +5,7 @@ arabic: ق
 name: qāf
 makhraj: deepest part of the tongue against the soft palate directly above it
 makhraj_zone: lisan
+makhraj_point: 1
 sifat: [jahr, shiddah, istila, infitah, ismat, qalqalah]
 istila: true
 qalqalah: true

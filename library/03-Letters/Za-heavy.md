@@ -5,6 +5,7 @@ arabic: ظ
 name: ẓā'
 makhraj: tip of the tongue against the lower edges of the two upper incisors
 makhraj_zone: lisan
+makhraj_point: 10
 sifat: [jahr, rakhawah, istila, itbaq, ismat]
 istila: true
 qalqalah: false

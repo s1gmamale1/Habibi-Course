@@ -5,6 +5,7 @@ arabic: ج
 name: jīm
 makhraj: middle of the tongue against the palate directly above it
 makhraj_zone: lisan
+makhraj_point: 3
 sifat: [jahr, shiddah, istifal, infitah, ismat, qalqalah]
 istila: false
 qalqalah: true

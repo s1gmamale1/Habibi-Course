@@ -5,6 +5,7 @@ arabic: د
 name: dāl
 makhraj: tip of the tongue against the roots of the two upper front incisors
 makhraj_zone: lisan
+makhraj_point: 8
 sifat: [jahr, shiddah, istifal, infitah, ismat, qalqalah]
 istila: false
 qalqalah: true

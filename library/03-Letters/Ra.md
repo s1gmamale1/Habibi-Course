@@ -5,6 +5,7 @@ arabic: ر
 name: rā'
 makhraj: back of the tongue tip against the gums of the upper incisors, slightly deeper than nūn
 makhraj_zone: lisan
+makhraj_point: 7
 sifat: [jahr, tawassut, istifal, infitah, idhlaq, inhiraf, takrir]
 istila: false
 qalqalah: false

@@ -5,6 +5,7 @@ arabic: ت
 name: tā'
 makhraj: tip of the tongue against the roots of the two upper front incisors
 makhraj_zone: lisan
+makhraj_point: 8
 sifat: [hams, shiddah, istifal, infitah, ismat]
 istila: false
 qalqalah: false

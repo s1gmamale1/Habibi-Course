@@ -5,6 +5,7 @@ arabic: ل
 name: lām
 makhraj: the tongue's edge from its rear side to its tip, meeting the gums of the upper front teeth
 makhraj_zone: lisan
+makhraj_point: 5
 sifat: [jahr, tawassut, istifal, infitah, idhlaq, inhiraf]
 istila: false
 qalqalah: false

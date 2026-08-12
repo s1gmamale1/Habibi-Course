@@ -5,6 +5,7 @@ arabic: ك
 name: kāf
 makhraj: deepest part of the tongue just in front of qāf, against the hard palate
 makhraj_zone: lisan
+makhraj_point: 2
 sifat: [hams, shiddah, istifal, infitah, ismat]
 istila: false
 qalqalah: false

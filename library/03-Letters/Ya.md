@@ -5,6 +5,7 @@ arabic: ي
 name: yā'
 makhraj: middle of the tongue against the palate (non-madd yā'); the madd yā' issues from al-jawf
 makhraj_zone: lisan
+makhraj_point: 3
 sifat: [jahr, rakhawah, istifal, infitah, ismat, leen]
 istila: false
 qalqalah: false

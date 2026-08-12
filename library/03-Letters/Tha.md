@@ -5,6 +5,7 @@ arabic: ث
 name: thā'
 makhraj: tip of the tongue against the lower edges of the two upper incisors
 makhraj_zone: lisan
+makhraj_point: 10
 sifat: [hams, rakhawah, istifal, infitah, ismat]
 istila: false
 qalqalah: false

@@ -5,6 +5,7 @@ arabic: ش
 name: shīn
 makhraj: middle of the tongue against the palate directly above it
 makhraj_zone: lisan
+makhraj_point: 3
 sifat: [hams, rakhawah, istifal, infitah, ismat, tafashshi]
 istila: false
 qalqalah: false

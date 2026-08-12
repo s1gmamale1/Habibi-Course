@@ -5,6 +5,7 @@ arabic: ص
 name: ṣād
 makhraj: tip of the tongue between the incisors, closer to the lower ones
 makhraj_zone: lisan
+makhraj_point: 9
 sifat: [hams, rakhawah, istila, itbaq, ismat, safir]
 istila: true
 qalqalah: false

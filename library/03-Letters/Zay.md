@@ -5,6 +5,7 @@ arabic: ز
 name: zāy
 makhraj: tip of the tongue between the incisors, closer to the lower ones
 makhraj_zone: lisan
+makhraj_point: 9
 sifat: [jahr, rakhawah, istifal, infitah, ismat, safir]
 istila: false
 qalqalah: false

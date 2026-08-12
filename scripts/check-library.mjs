@@ -259,9 +259,46 @@ export function checkVault(dir, corpus) {
     }
   }
 
+  // The ten tongue makharij.
+  //
+  // 18 of the 29 letters issue from the tongue, and for a long time all 18
+  // shared one diagram with one highlight over the whole tongue — so ت (tip),
+  // ض (side) and ك (back) looked identical to a learner. `makhraj_point` is
+  // what lets each letter name its own point; this keeps that data honest.
+  //
+  // Every value was read off the note's own prose ("the 4th of the ten tongue
+  // makharij"), except ش and ي, whose `makhraj` line is ج's verbatim — all
+  // three are wasat al-lisan, the 3rd. Classical sources are unanimous that
+  // there are exactly ten, so a gap or an eleventh is an authoring error.
+  const tonguePoints = new Map();
+  for (const n of notes.filter((x) => x.data.type === "letter")) {
+    const zone = n.data.makhraj_zone;
+    const point = n.data.makhraj_point;
+    if (zone !== "lisan") {
+      if (point !== undefined) {
+        errors.push(`${n.rel}: makhraj_point is only meaningful for the tongue (zone "${zone}")`);
+      }
+      continue;
+    }
+    if (!Number.isInteger(point) || point < 1 || point > 10) {
+      errors.push(`${n.rel}: makhraj_zone is lisan but makhraj_point is ${JSON.stringify(point)} — expected 1-10`);
+      continue;
+    }
+    if (!tonguePoints.has(point)) tonguePoints.set(point, []);
+    tonguePoints.get(point).push(n.data.arabic ?? n.rel);
+  }
+  if (tonguePoints.size > 0) {
+    const missing = [];
+    for (let p = 1; p <= 10; p += 1) if (!tonguePoints.has(p)) missing.push(p);
+    if (missing.length) {
+      errors.push(`the ten tongue makharij: no letter claims point ${missing.join(", ")}`);
+    }
+  }
+
   return {
     errors,
     warnings,
+    tonguePoints,
     counts: {
       notes: notes.length,
       rules: notes.filter((n) => n.data.type === "rule").length,

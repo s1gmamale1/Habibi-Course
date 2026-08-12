@@ -5,6 +5,7 @@ arabic: ن
 name: nūn
 makhraj: tip of the tongue with the gums of the two upper incisors, just below the makhraj of lām — with nasal resonance from al-khayshum
 makhraj_zone: lisan
+makhraj_point: 6
 sifat: [jahr, tawassut, istifal, infitah, idhlaq, ghunnah]
 istila: false
 qalqalah: false

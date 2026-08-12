@@ -5,6 +5,7 @@ arabic: ض
 name: ḍād
 makhraj: one or both side-edges of the tongue against the opposing upper molars
 makhraj_zone: lisan
+makhraj_point: 4
 sifat: [jahr, rakhawah, istila, itbaq, ismat, istitalah]
 istila: true
 qalqalah: false
