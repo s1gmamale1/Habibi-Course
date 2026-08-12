@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { catalogueVideos, lessonVideos, playlists } from "@/library/video";
+import { catalogueVideos, lessonVideos, playlists, arabic101Sections } from "@/library/video";
 import { VideoEmbed } from "@/components/library/VideoEmbed";
 
 export default function VideoPage() {
   const lessons = lessonVideos();
   const catalogue = catalogueVideos();
+  const sections = arabic101Sections();
 
   return (
     <main className="mx-auto max-w-3xl p-6 pb-16">
@@ -80,6 +81,39 @@ export default function VideoPage() {
           ))}
         </ul>
       </section>
+
+      {/*
+        Arabic101's individual videos, one section per heading the note itself uses —
+        the 30-day program's five stages plus its appended extras, the Advanced Tajweed
+        table, and the other sequenced playlists. Linked, not embedded: 200+ iframes on
+        one page is unusable, and Standard YouTube License means link-or-embed, not
+        re-host, so a link is the honest choice for everything but the nine lesson videos.
+      */}
+      {sections.map((s) => (
+        <section key={s.heading} className="mb-10">
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/55">
+            {s.heading}
+          </h2>
+          <ul className="grid gap-3">
+            {s.videos.map((v) => (
+              <li key={v.id} className="glass rounded-2xl p-4">
+                <a
+                  href={`https://www.youtube.com/watch?v=${v.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-white/90 underline decoration-white/30 underline-offset-2"
+                >
+                  {v.title}
+                </a>
+                <p className="mt-1 text-xs text-white/45">
+                  {v.channel}
+                  {v.duration ? ` · ${v.duration}` : ""}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
 
       <section>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/55">Playlists</h2>

@@ -26,6 +26,11 @@ export interface LessonVideo {
   lessonIds: string[];
 }
 
+export interface ChannelSection {
+  heading: string;
+  videos: CatalogueVideo[];
+}
+
 const VIDEO_DIR = path.join(VAULT_DIR, "01-Sources", "Video");
 
 /** Split one markdown table row into trimmed cells, honouring escaped pipes. */
@@ -42,6 +47,10 @@ const bare = (s: string) => s.replace(/^`|`$/g, "").trim();
 
 const YT_ID = /^[A-Za-z0-9_-]{11}$/;
 const PL_ID = /^PL[A-Za-z0-9_-]{16,}$/;
+const DURATION = /^\d{1,2}:\d{2}$/;
+/** An id cell that is actually backticked, not merely 11 alphanumeric characters — a
+ * plain-text cell like "Subscribers" or "Netherlands" is 11 characters too. */
+const BACKTICKED_ID = /^`[A-Za-z0-9_-]{11}`$/;
 
 function readNote(file: string): string {
   const raw = fs.readFileSync(path.join(VIDEO_DIR, file), "utf8");
@@ -100,6 +109,62 @@ export function playlists(): Playlist[] {
     });
   }
   return out;
+}
+
+/**
+ * Arabic101's individual videos, grouped by the note's own `#`/`##` section
+ * headings. That grouping is authored structure — Stage One, the Advanced
+ * Tajweed table, the other sequenced playlists — not something invented here.
+ *
+ * Three table shapes carry per-video rows: the 30-day program's
+ * `Day | Video ID | Session | Topic`, the sequenced playlists'
+ * `# | Video ID | Dur | Title`, and the Advanced Tajweed table's five-column
+ * variant that appends a Topic column after Title. Rows are found by an
+ * id-shaped backticked cell, never by column position, and the LAST cell of
+ * the row is always taken as the description — that generalises correctly
+ * across all three shapes instead of hard-coding an index per shape.
+ *
+ * The same video id can legitimately appear in more than one section (a
+ * video can be both a day in the 30-day program and an entry in a playlist),
+ * so ids are NOT deduped across sections — the grouping is the point.
+ * Duplicate rows for the same id within one section are folded to one.
+ */
+export function arabic101Sections(): ChannelSection[] {
+  const sections: ChannelSection[] = [];
+  let heading: string | null = null;
+  let current: Map<string, CatalogueVideo> | null = null;
+
+  const flush = () => {
+    if (heading && current && current.size > 0) {
+      sections.push({ heading, videos: [...current.values()] });
+    }
+  };
+
+  const body = readNote("Arabic101.md");
+  for (const line of body.split("\n")) {
+    const headingMatch = line.match(/^#{1,2}\s+(.+?)\s*$/);
+    if (headingMatch) {
+      flush();
+      heading = headingMatch[1];
+      current = new Map();
+      continue;
+    }
+    if (!line.startsWith("|") || !current || !heading) continue;
+    const c = cells(line);
+    const idIndex = c.findIndex((x) => BACKTICKED_ID.test(x));
+    if (idIndex === -1) continue;
+    const id = bare(c[idIndex]);
+    const duration = c.find((x, i) => i !== idIndex && DURATION.test(x));
+    current.set(id, {
+      id,
+      title: c[c.length - 1] || id,
+      duration,
+      topic: heading,
+      channel: "Arabic101",
+    });
+  }
+  flush();
+  return sections;
 }
 
 /** The videos lessons actually cue, folded to one entry per distinct video. */

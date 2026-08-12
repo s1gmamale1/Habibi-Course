@@ -1,5 +1,5 @@
 import { allNotes } from "./load";
-import { catalogueVideos, lessonVideos, playlists } from "./video";
+import { catalogueVideos, lessonVideos, playlists, arabic101Sections } from "./video";
 import { allPosts, allAttachments } from "./materials";
 
 export interface Category {
@@ -42,7 +42,11 @@ export function categories(): Category[] {
       label: "Video",
       blurb: "Lesson videos, the full catalogued course, and the channel playlists.",
       href: "/library/video",
-      count: catalogueVideos().length + lessonVideos().length + playlists().length,
+      count:
+        catalogueVideos().length +
+        lessonVideos().length +
+        playlists().length +
+        arabic101Sections().reduce((sum, s) => sum + s.videos.length, 0),
     },
     {
       id: "sources",

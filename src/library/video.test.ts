@@ -1,5 +1,8 @@
+import fs from "node:fs";
+import path from "node:path";
 import { describe, test, expect } from "vitest";
-import { catalogueVideos, playlists, lessonVideos, videoTopics } from "./video";
+import { catalogueVideos, playlists, lessonVideos, videoTopics, arabic101Sections } from "./video";
+import { VAULT_DIR } from "./paths";
 
 const YT_ID = /^[A-Za-z0-9_-]{11}$/;
 
@@ -59,6 +62,50 @@ describe("lessonVideos", () => {
   test("all cues sit in Unit 1 — if this changes, the Video page grouping needs revisiting", () => {
     const units = new Set(lessonVideos().flatMap((v) => v.lessonIds.map((l) => l[0])));
     expect([...units]).toEqual(["1"]);
+  });
+});
+
+describe("arabic101Sections", () => {
+  test("groups the note's individual videos by its own headings", () => {
+    expect(arabic101Sections().length).toBeGreaterThanOrEqual(10);
+  });
+
+  test("surfaces at least 110 distinct video ids", () => {
+    const ids = new Set(arabic101Sections().flatMap((s) => s.videos.map((v) => v.id)));
+    expect(ids.size).toBeGreaterThanOrEqual(110);
+  });
+
+  test("every id is a plausible YouTube id", () => {
+    for (const s of arabic101Sections()) {
+      for (const v of s.videos) expect(v.id, `${s.heading}: ${v.title}`).toMatch(YT_ID);
+    }
+  });
+
+  test("every video has a title and a topic equal to its section heading", () => {
+    for (const s of arabic101Sections()) {
+      for (const v of s.videos) {
+        expect(v.title.length, v.id).toBeGreaterThan(0);
+        expect(v.topic).toBe(s.heading);
+      }
+    }
+  });
+
+  test("the coverage that closes the gap: catalogueVideos + lessonVideos + arabic101Sections cover every backticked 11-char id in the vault's Video notes", () => {
+    const dir = path.join(VAULT_DIR, "01-Sources", "Video");
+    const found = new Set<string>();
+    for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".md"))) {
+      const raw = fs.readFileSync(path.join(dir, file), "utf8");
+      for (const m of raw.matchAll(/`([A-Za-z0-9_-]{11})`/g)) found.add(m[1]);
+    }
+
+    const covered = new Set<string>([
+      ...catalogueVideos().map((v) => v.id),
+      ...lessonVideos().map((v) => v.id),
+      ...arabic101Sections().flatMap((s) => s.videos.map((v) => v.id)),
+    ]);
+
+    const missing = [...found].filter((id) => !covered.has(id));
+    expect(missing).toEqual([]);
   });
 });
 
