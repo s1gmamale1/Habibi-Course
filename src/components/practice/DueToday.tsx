@@ -173,6 +173,17 @@ function conceptCount(n: number): string {
  * The map is walked rather than the roster, because a concept with only
  * ungraded attempts **has no entry** — and that absence is the correct answer:
  * nothing is known about it, so it is not weak.
+ *
+ * **`|| s.flagged` selects nothing today, and that is worth saying rather than
+ * hiding** — the same disclosure `MAX_TIMED` carries in `session.ts`. A miss
+ * drives the EWMA to `0.7·old + 30`, so a flagged concept is always above
+ * `RESOLVED` with a broken clean run, which is `isWeak` exactly. It is kept
+ * because the two say different things and only coincide numerically: raise
+ * `RESOLVED` past 30 and a flagged concept could stop reading as weak while
+ * still being a failure the session never repaired. What the flag does change
+ * today is the **order** — unfinished business is named ahead of a worse
+ * history that has since been answered cleanly, which the sort below does and a
+ * test pins.
  */
 function weakConcepts(states: ReadonlyMap<string, ConceptState>): ConceptState[] {
   return [...states.values()]

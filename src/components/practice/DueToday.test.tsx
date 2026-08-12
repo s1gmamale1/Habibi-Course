@@ -193,8 +193,56 @@ describe("DueToday — the weekly target counts distinct days", () => {
     const { container } = view({ attempts: [mk({ at: daysAgo(0) })] });
     const dots = container.querySelector('[data-testid="week-dots"]');
     expect(dots?.getAttribute("aria-hidden")).toBe("true");
-    // The same fact in words, outside the decoration.
+    // Filled and empty differ in shape, not only in hue, and they say the same
+    // thing the words beside them say.
+    expect(dots?.textContent).toBe("\u25cf\u25cb\u25cb");
     expect(container.querySelector('[data-testid="week-line"]')?.textContent).toMatch(/أيام مختلفة/);
+  });
+
+  test("the dots fill with the days, and never past the target", () => {
+    const three = view({ attempts: [0, 1, 2].map((n) => mk({ at: daysAgo(n) })) });
+    expect(three.container.querySelector('[data-testid="week-dots"]')?.textContent).toBe(
+      "\u25cf\u25cf\u25cf",
+    );
+    three.unmount();
+    // Four distinct days is not four dots: the row is a target, not a tally.
+    const four = view({ attempts: [0, 1, 2, 3].map((n) => mk({ at: daysAgo(n) })) });
+    expect(four.container.querySelector('[data-testid="week-dots"]')?.textContent).toBe(
+      "\u25cf\u25cf\u25cf",
+    );
+  });
+});
+
+describe("DueToday — the weak list is a list, not a wall", () => {
+  test("a long list is capped and the remainder counted out loud", () => {
+    const ids = ["ikhfa", "iqlab", "qalqalah", "madd_munfasil", "madd_muttasil", "madd_6"];
+    const { container } = view({ attempts: ids.flatMap((id) => fiveMisses(id)) });
+
+    expect(container.querySelectorAll('[data-testid="weak-list"] li')).toHaveLength(5);
+    // Hidden would be worse than capped: the learner is told what is not shown.
+    expect(container.textContent).toMatch(/و١ غيرها/);
+  });
+
+  test("an unrepaired miss is named first, even by a concept with a worse history", () => {
+    // `ikhfa` carries far more accumulated wrongness, but its last answer was
+    // clean. `iqlab` has a better history and its newest evidence is a miss the
+    // session never repaired — that is what `derive()`'s durable `flagged` says,
+    // read out of the ledger rather than from `useSession`'s live copy, which
+    // does not outlive the session that minted it. Unfinished business first.
+    const { container } = view({
+      attempts: [
+        ...fiveMisses("ikhfa"),
+        mk({ conceptId: "ikhfa", at: NOW - DAY + 50, correct: true }),
+        ...Array.from({ length: 4 }, (_, i) => mk({ conceptId: "iqlab", at: NOW - DAY + i, correct: true })),
+        wrong({ conceptId: "iqlab", at: NOW - DAY + 60 }),
+      ],
+    });
+    const named = [...container.querySelectorAll('[data-testid="weak-list"] li')].map(
+      (li) => li.textContent ?? "",
+    );
+    expect(named).toHaveLength(2);
+    expect(named[0]).toMatch(/إقلاب/);
+    expect(named[1]).toMatch(/إخفاء/);
   });
 });
 
