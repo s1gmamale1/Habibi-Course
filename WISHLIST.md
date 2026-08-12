@@ -9,6 +9,71 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 
 ---
 
+## 2026-08-12 — MANDATORY: a gamified check at the end of every lesson
+
+**Owner requirement, not yet scoped.** Every lesson must end with a **compulsory** gamified test that establishes whether the learner actually learnt something — not an optional practice tab they can skip.
+
+This is a genuinely different thing from the practice engine just built, and the difference matters:
+
+| | Practice engine (built) | End-of-lesson check (this) |
+|---|---|---|
+| When | Any time, learner-initiated | **On finishing a lesson, compulsory** |
+| Picks items by | What is *due* across all 47 concepts | **What this lesson just taught** |
+| Purpose | Long-term retention | **Did this lesson land, right now** |
+| Failure means | Schedule it sooner | Needs a decision — see below |
+
+**The engine is most of the way there.** `planSession` already assembles a session and `SessionRunner` already runs one with a wrong-answer tail. What is missing is a lesson-scoped variant: draw exemplars from *this lesson's* concepts rather than from the due queue, and gate the lesson's completion on it.
+
+**Design questions to settle before building**, none of which the practice engine answers:
+
+- **What does failing mean?** Do not bolt on hearts or a lockout — the research is clear that punishing mistakes terminates the session at the moment of highest instructional value, and Duolingo abandoned hearts on exactly those grounds. Most likely: it cannot be failed, it simply keeps going until the concepts are answered, and a struggling learner leaves with those concepts flagged and scheduled sooner.
+- **Does it gate the lesson checkbox?** `ProgressClient` currently lets a learner self-declare a lesson done. A compulsory check makes that declaration evidence-backed for the first time — which is a real improvement, but decide it deliberately.
+- **It must not touch the human checkpoints.** Those are live oral gates with a teacher. This is a per-lesson check, and the two must not be confused.
+- **It writes to the same ledger.** No second store, no separate "test score" concept. A checked answer is an attempt like any other, so it feeds the same scheduler.
+
+---
+
+## 2026-08-12 — bugs and findings from the practice-engine build
+
+Every task in `docs/superpowers/plans/2026-08-12-practice-engine.md` reported what it found and deliberately left alone. Collected here so nothing is lost. **None blocks the branch**; all are known and none is a regression.
+
+### Data honesty
+
+- **`scoreHold()` returns `correct: false` when uncalibrated** — `GhunnahTimer.tsx:85`. A fabricated failure verdict; it should be `null`. Unreachable from the UI today (the component gates on `msPerHarakah === null` first), and `derive()` now guards against it explicitly — but every *future* consumer would have to be independently robust. The type already permits `null`.
+- **Nothing validates that a `conceptId` is one of the 47.** A typo writes a real ledger row for a concept the scheduler will never surface. A `ConceptId` union or a validator at the append boundary would catch it.
+- **`family-sorter`'s `itemKey` is true only in the weak sense** that the fragment *was displayed* — its question is the whole board, so the row does not claim the attempt was about that fragment. Declared in the file with a test pinning it, so a future "fix" that narrows the board fails.
+
+### Session behaviour
+
+- **A timed drill can be drawn into the tail.** `ghunnah-timer` costs 2 slots and needs three calibration holds; as a retry it is a long coda. No "prefer a non-timed exemplar for the tail" rule was added — deliberately unrequested scope, but worth a decision.
+- **The tail is outside the 14-slot budget** — bounded by item count (6), not slots. A session with two timed retries runs longer than "14 slots" suggests, and the progress bar will show it.
+- **`GhunnahTimer`'s two-slot cost is invisible to the progress bar** — `progress` counts items, not slots, so a held drill reads as one unit.
+- **A drill's own "next" button advances rounds the session does not know about**, and those extra rows carry the planned `itemKey`. The planned question honours the exemplar; afterwards the drill chooses again. Pinned with a test rather than left to drift.
+- **`submit` after completion is a silent no-op** — no row, no tail. If a late drill result should warn, the hook currently offers nothing to warn with.
+
+### Reachability and wiring
+
+- **`DRILL_MODES` lists `word-flashcards`, which can never be planned** — that deck advertises no exemplar, so the entry is unreachable.
+- **A lesson naming a letter drill in `games:` gets a duplicate tab** — the literal list shows it and the registry appends a second. Pinned with an assertion so wiring the tab list to the registry trips a test that explains itself. Nothing ships doubled today.
+- **`GamePanel`'s literal tab list is still not wired to the registry** — deliberately out of scope throughout, but it is the change that would un-register the letter drills in silence if done carelessly.
+- **`|| s.flagged` in Due Today's weak filter selects nothing today** — every flagged concept is already `isWeak`, so the two coincide numerically. Kept with a disclosure comment; what the flag *does* change is the **order**.
+
+### Hygiene
+
+- **`SpanTapper` still uses `Date.now()` inline** (`tajweed/SpanTapper.tsx:120`) — the only shipped drill without an injected clock, which is the untestability the plan warns about elsewhere.
+- **`MaddCounter`'s `held` prop and `useSwapPuzzle`'s `shuffled` call `Math.random()` at mount**, inside effects. Would trip a purity guard of the kind `session.ts` already has.
+- **No storage-quota handling.** `appendAttempt` rejects and `useSession` swallows-and-counts via `writeFailures`, which is the right failure mode — a lost row beats a lost session — but nothing surfaces it beyond one quiet line.
+- **`derive()` and `schedule` grade the same attempt on two scales** (EWMA wrongness vs FSRS rating). They share `missRatio` and `TOLERANCE` and agree at 25%, but nothing enforces that they stay in step. If the weak list and the due queue ever visibly disagree, that is the seam.
+- **Interval fuzz is deliberately off** — the schedule is replayed from the ledger on every load, so a randomised interval would put the learner somewhere different on each page load from the same history. Per-day load-balancing would need a seeded strategy, not `enable_fuzz`.
+- **`ts-fsrs` deprecates `Card.elapsed_days`** for 6.0.0; `ConceptSchedule` inherits it. Nothing reads it — do not start.
+- **`D7` (UTC vs local day boundary) is a no-op mutant on a UTC runtime.** The two-directional test kills it in any non-zero offset, and encoding an offset would make the suite machine-dependent. Worth knowing if CI ever runs in UTC — **it does**, on `ubuntu-latest`.
+
+### The one follow-up that finishes the feature
+
+- **Wire `DueToday`'s start button to launch a real planned session.** Task 8 left it scrolling to the existing drills rather than shipping Task 9's exemplar gap into the front door; Task 9 closed that gap. The pool builder is now a one-liner: `getGames(ids).flatMap(g => g.exemplars?.(data) ?? [])`, plus `gameId`.
+
+---
+
 ## 2026-08-11 — the next product, as three briefs
 
 The owner's three ideas, written so a **dedicated agent can pick one up cold**. A fourth — an
