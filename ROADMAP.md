@@ -4,17 +4,18 @@ A self-paced Arabic reading and tajweed course: **74 lessons live across four ph
 
 This ROADMAP is the single source of truth for what to build next. The detailed evidence behind every claim here lives in `library/00-Index/Verification-Log.md`.
 
-**Built state — 2026-08-11**
+**Built state — 2026-08-12**
 
 | | |
 |---|---|
 | Live to a learner | **All four phases — 74 lessons.** 1 *Letters & Sounds* (15) · 2 *Reading Mechanics* (14) · 3 *Tajweed* (37) · 4 *The Kalimas* (8) |
 | Authored but unreachable | **None.** No lesson file is `draft` anywhere in the repo |
-| Library | **183 notes** — every one of the 74 live lessons has a reviewable note |
+| Library — the vault | **183 notes** — every one of the 74 live lessons has a reviewable note |
+| Library — the app | **Live at `/library`** since 2026-08-12. Six categories — Alphabet (29) · Tajweed (59) · Video (252) · Sources (11) · Materials · Glossary — over the 101 student-facing notes. Read-only; a teacher adds materials by committing a file. See ADR-009 |
 | Rule notes | 59 total — **56 verified** against vendored sources, 3 `needs-review`, each naming the specific artifact still needed |
-| Gates | 423 tests · 0 lint errors · library 0 errors / 3 warnings · static export builds |
+| Gates | **691 tests** · 0 lint errors · library 0 errors / 3 warnings · static export builds |
 
-> **Phases 1–4 are complete and the course is fully reachable.** The app itself has been feature-complete for some time — 82 source files, 230 static pages, 14 practice games, 423 tests — so recent phases have been *content*, not code. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items plus Phase 7's fixable gaps, none of which blocks a learner from starting today.
+> **Phases 1–4 are complete and the course is fully reachable.** The app is **74 source files, 340 static pages, 13 practice games, 691 tests**. Phases up to 2026-08-11 were *content*, not code; the Library (2026-08-12) was the first new student-facing surface since, and added the app's first navigation. Phase 5 (audio) is **parked on a listening decision, not blocked**; the owner's own recording stays deferred. **The hotlist is clear.** What remains is Phase 6's outside-world items plus Phase 7's fixable gaps, none of which blocks a learner from starting today.
 
 ---
 
