@@ -7,14 +7,18 @@ import { deriveGameData } from "@/games/derive";
 //
 // The tajweed barrel is load-bearing — nothing else imports those seven modules,
 // and without this line they are tree-shaken away exactly as they were before it
-// existed. The letters barrel is **not**, today: `GamePanel` imports all five of
-// those modules by name for its literal tab list, so deleting this line changes
-// nothing and no test can see it. Said plainly rather than hidden, the way
-// `MAX_TIMED` is in `session.ts`. It stops being redundant the moment that
-// literal list is replaced by the registry, which is the change that would
-// otherwise un-register all six in silence.
+// existed. Those seven drills are not ported into the games2 slice, so this stays
+// even after the slice's own registry is wired in below.
+//
+// The old letters barrel (`@/components/games/letters`) is dropped here rather
+// than kept: it registered five letter drills into the *old* `GameRegistry`, but
+// `GamePanel` never looks them up there — it imports `Flashcards`, `LetterQuiz`,
+// `FormSwap`, `SpotTheLetter`, and `WordBuilder` by name for its own literal tab
+// list, and no lesson's `games` list (checked across `content/lessons/*.json`)
+// names a letter drill id through `getGames`. Dropping it changes nothing
+// reachable; `SLICE_GAME_IDS` below is what a session actually plans over now.
 import "@/components/games/tajweed";
-import "@/components/games/letters";
+import "@/games2/games";
 
 export function generateStaticParams() {
   return allLessonIds().map((id) => ({ id }));
@@ -27,6 +31,9 @@ export default async function PracticePage({ params }: { params: Promise<{ id: s
   return (
     <main className="mx-auto max-w-2xl p-6 pb-16">
       <h1 className="gradient-text text-2xl font-bold">Practice — {lesson.title}</h1>
+      <a href={`/study/${id}`} className="cta-secondary mb-4 inline-block rounded-full px-4 py-2 text-sm">
+        📚 Study this set
+      </a>
       <p className="mb-6 text-white/60">15–20 minutes daily. Tap any Arabic item to hear it (or get its practice cue).</p>
       {/* The entry point, and the only place the practice engine is reachable:
           it owns what is due, the lesson's drills, and the session that runs

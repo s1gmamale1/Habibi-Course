@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { displayLetters } from "@/games/arabic";
+import { baseLetters, displayLetters } from "@/games/arabic";
 import { registerGame } from "../registry";
 import type { GameApi, Question, StudySet } from "../types";
 
@@ -12,8 +12,10 @@ export function wordBankQuestions(set: StudySet): Question[] {
   return set.words.flatMap((w) => {
     const tiles = displayLetters(w.arabic);
     if (tiles.length < 2) return [];
+    // The taught concept, not the tile glyph: see `match.tsx`. Tiles still
+    // render as written (a hamza-carrier tile must read أ, not ا).
     return [{
-      conceptId: tiles[0],
+      conceptId: baseLetters(w.arabic)[0],
       itemKey: `${GAME_ID}/${w.arabic}`,
       gameId: GAME_ID,
       payload: { arabic: w.arabic, translit: w.translit, meaning: w.meaning, tiles } satisfies WordBankPayload,

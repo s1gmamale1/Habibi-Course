@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { displayLetters } from "@/games/arabic";
+import { baseLetters } from "@/games/arabic";
 import { registerGame } from "../registry";
 import { stableIndex } from "./brokenForm";
 import type { GameApi, Question, StudySet } from "../types";
@@ -41,7 +41,13 @@ export function matchQuestions(set: StudySet): Question[] {
   if (set.words.length < 2) return [];
 
   return set.words.flatMap((w) => {
-    const conceptId = displayLetters(w.arabic)[0];
+    // The taught concept, not the glyph as written: a word opening with a
+    // hamza-carrier (أ إ آ) drills the base letter (ا) the scheduler actually
+    // tracks, the same normalisation `deriveGameData`'s word-pool filter
+    // already applies via `baseLetters`. Using the display glyph here wrote
+    // ledger rows for concepts (أ, ؤ, ئ, ى) that are not among the 47 the
+    // roster tracks and no lesson ever taught on their own.
+    const conceptId = baseLetters(w.arabic)[0];
     if (!conceptId) return [];
     const pool = meanings.filter((m) => m !== w.meaning);
     if (pool.length === 0) return [];

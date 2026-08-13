@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { displayLetters } from "@/games/arabic";
+import { baseLetters } from "@/games/arabic";
 import { registerGame } from "../registry";
 import type { GameApi, Question, StudySet } from "../types";
 
@@ -45,7 +45,8 @@ export function typeItQuestions(set: StudySet): Question[] {
   }
 
   return set.words.flatMap((w) => {
-    const conceptId = displayLetters(w.arabic)[0];
+    // See `match.tsx`: the taught concept, not the glyph as written.
+    const conceptId = baseLetters(w.arabic)[0];
     if (!conceptId) return [];
     if ((counts.get(normaliseTranslit(w.translit)) ?? 0) > 1) return [];
     return [{
