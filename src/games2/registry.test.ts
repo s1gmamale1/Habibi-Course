@@ -45,6 +45,6 @@ describe("the registry", () => {
 
   test("a game emitting a malformed question is dropped loudly, not silently", () => {
     registerGame(spec("bad", { questions: () => [{ conceptId: "nonsense", itemKey: "bad/x", gameId: "bad", payload: {} }] }));
-    expect(() => questionsFor(["bad"], SET)).toThrow(/bad/);
+    expect(() => questionsFor(["bad"], SET)).toThrow("bad: emitted");
   });
 });
