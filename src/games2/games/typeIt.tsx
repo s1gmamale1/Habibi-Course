@@ -23,10 +23,31 @@ export function normaliseTranslit(s: string): string {
     .replace(/[^a-z']/g, "");
 }
 
+/**
+ * Drop any word whose normalised transliteration collides with another
+ * word's in the same set — computed from `set.words`, not a global list, so
+ * it stays correct as content grows.
+ *
+ * `normaliseTranslit` is deliberately lenient (a learner on an English
+ * keyboard cannot type ā, ḍ or ʿ), and that leniency is correct — but it
+ * means two genuinely different words can fold to the same normalised form:
+ * on lesson 2-08, `dafʿ` (payment) and `ḍaʿf` (weakness) both become `"daf"`.
+ * Asking either would grade the learner correct no matter which word they
+ * were shown, and the ledger would record a concept they may not know. A
+ * question the game cannot grade fairly should not be asked, so the pair is
+ * excluded rather than the matcher tightened.
+ */
 export function typeItQuestions(set: StudySet): Question[] {
+  const counts = new Map<string, number>();
+  for (const w of set.words) {
+    const key = normaliseTranslit(w.translit);
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+
   return set.words.flatMap((w) => {
     const conceptId = displayLetters(w.arabic)[0];
     if (!conceptId) return [];
+    if ((counts.get(normaliseTranslit(w.translit)) ?? 0) > 1) return [];
     return [{
       conceptId,
       itemKey: `${GAME_ID}/${w.arabic}`,
