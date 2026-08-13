@@ -54,7 +54,7 @@ function positionalGlyphs(base: string): Record<FormKey, string> {
 }
 
 /** Deterministic (non-random) index into [0, mod) — questions must be reproducible from the ledger. */
-function stableIndex(seed: string, mod: number): number {
+export function stableIndex(seed: string, mod: number): number {
   let h = 0;
   for (let i = 0; i < seed.length; i += 1) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
   return h % mod;

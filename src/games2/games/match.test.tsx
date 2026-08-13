@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, test, vi } from "vitest";
 import { matchQuestions, Match, type MatchPayload } from "./match";
+import { lessonSet } from "../studySet";
 import type { StudySet } from "../types";
 
 const set: StudySet = {
@@ -30,6 +31,29 @@ describe("matchQuestions", () => {
 
   test("a set too small for distractors yields nothing rather than a one-option game", () => {
     expect(matchQuestions({ ...set, words: set.words.slice(0, 1) })).toEqual([]);
+  });
+
+  test("real content: distractor sets are diverse, not eliminable without reading Arabic", () => {
+    // A 4-word fixture can't catch a static distractor pool — this needs a
+    // real lesson's worth of words to expose it.
+    const qs = matchQuestions(lessonSet("2-08"));
+    const sets = qs.map((q) => [...(q.payload as MatchPayload).distractors].sort().join("|"));
+    expect(new Set(sets).size).toBeGreaterThan(20);
+
+    const counts = new Map<string, number>();
+    for (const q of qs) {
+      for (const m of (q.payload as MatchPayload).distractors) {
+        counts.set(m, (counts.get(m) ?? 0) + 1);
+      }
+    }
+    for (const count of counts.values()) {
+      expect(count).toBeLessThanOrEqual(qs.length / 2);
+    }
+  });
+
+  test("real content: deterministic — same set yields identical payloads", () => {
+    const set2 = lessonSet("2-08");
+    expect(matchQuestions(set2)).toEqual(matchQuestions(set2));
   });
 });
 

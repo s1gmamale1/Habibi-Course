@@ -1,13 +1,40 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { displayLetters } from "@/games/arabic";
 import { registerGame } from "../registry";
+import { stableIndex } from "./brokenForm";
 import type { GameApi, Question, StudySet } from "../types";
 
 const GAME_ID = "match";
 const OPTIONS = 4;
 
 export type MatchPayload = { arabic: string; meaning: string; distractors: string[] };
+
+/**
+ * Pick `OPTIONS - 1` distractors from `pool`, starting at a word-seeded
+ * offset rather than a fixed prefix.
+ *
+ * A fixed `slice(0, k)` made the same handful of meanings appear as the
+ * distractor set for nearly every word — measured on real content, 3 of 4
+ * distinct distractor sets across 82 questions were the identical triple. A
+ * learner eliminates those fixed strings once and never reads the Arabic
+ * again. Rotating the start index by `stableIndex(seed, pool.length)` spreads
+ * distractor membership across the whole pool while staying reproducible —
+ * no `Math.random()`, because the session is rebuilt from the ledger on every
+ * load and the same word must yield the same question.
+ */
+function pickDistractors(seed: string, pool: string[]): string[] {
+  const start = stableIndex(seed, pool.length);
+  const seen = new Set<string>();
+  const picked: string[] = [];
+  for (let i = 0; i < pool.length && picked.length < OPTIONS - 1; i += 1) {
+    const m = pool[(start + i) % pool.length];
+    if (seen.has(m)) continue;
+    seen.add(m);
+    picked.push(m);
+  }
+  return picked;
+}
 
 export function matchQuestions(set: StudySet): Question[] {
   const meanings = set.words.map((w) => w.meaning);
@@ -16,7 +43,9 @@ export function matchQuestions(set: StudySet): Question[] {
   return set.words.flatMap((w) => {
     const conceptId = displayLetters(w.arabic)[0];
     if (!conceptId) return [];
-    const distractors = meanings.filter((m) => m !== w.meaning).slice(0, OPTIONS - 1);
+    const pool = meanings.filter((m) => m !== w.meaning);
+    if (pool.length === 0) return [];
+    const distractors = pickDistractors(w.arabic, pool);
     if (distractors.length === 0) return [];
     return [{
       conceptId,
@@ -39,6 +68,13 @@ export function matchQuestions(set: StudySet): Question[] {
  */
 export function Match({ q, api }: { q: Question; api: GameApi }) {
   const p = q.payload as MatchPayload;
+  // Callers wire `api` as an inline object literal, so it is a fresh
+  // reference on every parent render. Reading it through a ref (rather than
+  // depending on it) keeps the interval alive for the question's full life
+  // instead of tearing down and rebuilding — and jittering the display —
+  // on every re-render.
+  const apiRef = useRef(api);
+  apiRef.current = api;
   const [start] = useState(() => api.now());
   const [elapsed, setElapsed] = useState(0);
   const [picked, setPicked] = useState<string | null>(null);
@@ -46,9 +82,9 @@ export function Match({ q, api }: { q: Question; api: GameApi }) {
 
   useEffect(() => {
     if (done) return;
-    const t = setInterval(() => setElapsed(api.now() - start), 250);
+    const t = setInterval(() => setElapsed(apiRef.current.now() - start), 250);
     return () => clearInterval(t);
-  }, [done, start, api]);
+  }, [done, start]);
 
   // Stable option order: shuffling in render would differ between SSR and client.
   const options = [p.meaning, ...p.distractors].sort();
