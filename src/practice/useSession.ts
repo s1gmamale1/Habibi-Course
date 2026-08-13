@@ -1,9 +1,8 @@
 import { useCallback, useRef, useState } from "react";
 
-import type { GameResult } from "@/components/games/GameRegistry";
-import { attemptFromResult } from "./attempt";
+import type { AnswerDetail, Question } from "@/games2/types";
 import { appendAttempt } from "./ledger";
-import { shapeOf, type PlannedItem, type PoolItem, type SessionPlan } from "./session";
+import { shapeOfQuestion, type PlannedQuestion, type SessionPlan } from "./session";
 import type { Attempt } from "./types";
 
 /**
@@ -13,9 +12,9 @@ import type { Attempt } from "./types";
  * This is the first module in `src/practice/` that is *not* pure, and it is the
  * only one that may not be. `derive`, `schedule` and `session` take `now` as an
  * argument and touch no storage so they can run unchanged on a server (ADR-007);
- * this one mints ids, writes rows and holds React state, which is exactly the
- * work those three refuse to do. Everything it decides is still recomputable
- * from the rows it writes.
+ * this one mints ids, writes rows, reads the clock and holds React state, which
+ * is exactly the work those three refuse to do. Everything it decides is still
+ * recomputable from the rows it writes.
  *
  * ### The tail
  *
@@ -43,11 +42,11 @@ import type { Attempt } from "./types";
  *
  * ### A slot is a question, not a tap
  *
- * The house rule for emission is **one result per graded move**: `LetterQuiz`
- * emits on every tap, `FamilySorter` on every drop, `RuleIdentifier` on every
- * pick. A hook that advanced on every result would therefore spend three of the
- * fourteen planned slots on one question answered wrong-wrong-right, and a
- * sitting could be over in five questions.
+ * The house rule for emission is **one result per graded move**: a `GameApi`
+ * fires `answer` on every tap, every drop, every completed pick. A hook that
+ * advanced on every result would therefore spend three of the fourteen planned
+ * slots on one question answered wrong-wrong-right, and a sitting could be over
+ * in five questions.
  *
  * Emitting less is not the fix — the scheduler wants every move, and first-try
  * only would discard exactly the misses it learns most from. So **recording and
@@ -62,6 +61,16 @@ import type { Attempt } from "./types";
  *
  * `submit` is the two composed, which is what every caller wanted before there
  * was a screen and what the hook's own tests still exercise.
+ *
+ * ### The row, built from the question directly
+ *
+ * `record`/`submit` take the question on screen and a verdict — no more. The
+ * `Attempt` is built from `q.conceptId`, `q.itemKey`, `q.gameId` and
+ * `q.isInterleaved` directly: a `Question` carries everything a row needs, so
+ * nothing is inferred from a self-reported result the way `attemptFromResult`
+ * once read `GameResult.gameId`. `attempt.ts` stays in the tree — the seven
+ * tajweed drills still build their rows through it until the widening phase
+ * reconnects them to a session — but this path does not call it.
  */
 
 /** The whole tail, across every concept. Six is already a long coda to a 14-slot session. */
@@ -74,9 +83,22 @@ export const MAX_TAIL_ITEMS = 6;
  */
 export const MAX_TAIL_ATTEMPTS_PER_CONCEPT = 2;
 
+/**
+ * Wall clock, factored out of the component.
+ *
+ * `Date.now()` called directly inside a hook body trips `react-hooks/purity`
+ * even when it is nested inside a callback that only ever runs from a click
+ * handler — the rule cannot see that the callback's execution is deferred, only
+ * that the call is lexically inside the component. A module-level function
+ * sidesteps that, the same fix `SetScreen.tsx` uses for the same reason.
+ */
+function clockNow(): number {
+  return Date.now();
+}
+
 export type SessionRunner = {
   /** The question on screen, or `null` once the plan and the tail are both spent. */
-  current: PlannedItem | null;
+  current: PlannedQuestion | null;
   /** `total` counts the tail, so it grows on a miss. See `progress` below. */
   progress: { done: number; total: number };
   /** Queued retries not yet shown. While this is non-zero the session cannot end. */
@@ -110,14 +132,16 @@ export type SessionRunner = {
    */
   verdict: boolean | null | undefined;
   /**
-   * Record one answer **without moving on**. Synchronous: nothing on screen
-   * waits on IndexedDB.
+   * Record one answer to `q` **without moving on**. Synchronous: nothing on
+   * screen waits on IndexedDB. `q` is always the question currently on screen —
+   * a `GameApi.answer` closes over it, so there is nothing else it could be —
+   * and a call naming any other question is dropped rather than misfiled.
    */
-  record: (result: GameResult) => void;
+  record: (q: PlannedQuestion, correct: boolean | null, detail?: AnswerDetail) => void;
   /** Move to the next question. Ignored while nothing has been answered. */
   advance: () => void;
   /** `record` then `advance` — one result, one question. */
-  submit: (result: GameResult) => void;
+  submit: (q: PlannedQuestion, correct: boolean | null, detail?: AnswerDetail) => void;
 };
 
 export type UseSessionOptions = {
@@ -128,7 +152,7 @@ export type UseSessionOptions = {
 type SessionState = {
   /** Position in `[...plan.items, ...tail]`. Monotonic: nothing is ever re-shown. */
   index: number;
-  tail: PlannedItem[];
+  tail: PlannedQuestion[];
   /** Retries spent per concept, keyed by `conceptId`. */
   retries: Map<string, number>;
   flagged: string[];
@@ -164,21 +188,23 @@ const isDecided = (state: SessionState) =>
  * different drill shape.
  *
  * The shape preference is the reason this is not simply "the next unused one".
- * A second `rule-identifier` on the same rule re-tests the *format*; asking the
- * same rule through a different drill is what tests the rule. Ties break on
+ * A second `match` on the same letter re-tests the *format*; asking the same
+ * concept through a different drill is what tests the concept. Ties break on
  * `itemKey` so a session is reproducible from its inputs — the same reasoning
  * that made `planSession`'s draw seeded rather than `Math.random()`.
  *
- * `null` means the pool has nothing left. The caller must **not** fall back to
- * the item just missed.
+ * `null` means the pool has nothing left to plan. The caller must **not** fall
+ * back to the item just missed.
  */
 function drawRetry(
   conceptId: string,
   missedGameId: string,
-  pool: readonly PoolItem[],
+  pool: readonly Question[],
   used: ReadonlySet<string>,
-): PlannedItem | null {
-  const candidates = pool.filter((p) => p.conceptId === conceptId && !used.has(p.itemKey));
+): PlannedQuestion | null {
+  const candidates = pool.filter(
+    (p) => p.conceptId === conceptId && !used.has(p.itemKey) && shapeOfQuestion(p) !== null,
+  );
   if (candidates.length === 0) return null;
 
   const chosen = candidates.reduce((best, next) => {
@@ -190,7 +216,7 @@ function drawRetry(
 
   return {
     ...chosen,
-    ...shapeOf(chosen.gameId),
+    ...shapeOfQuestion(chosen)!,
     /**
      * A tail retry is **never** interleaved, whatever spawned it.
      *
@@ -218,28 +244,35 @@ function flag(flagged: readonly string[], conceptId: string): string[] {
  * question are two different events — see "a slot is a question, not a tap"
  * above — and `advanced` owns the second.
  *
- * `attempt` is `null` only when there was nothing on screen to answer — a
- * result arriving after the session ended is not an attempt at anything, and
- * must not become a row.
+ * `attempt` is `null` when there was nothing on screen to answer, or when `q`
+ * names a question other than the one currently shown — a result arriving
+ * after the session has moved on is not an attempt at anything, and must not
+ * become a row.
  */
 function step(
   state: SessionState,
   plan: SessionPlan,
-  pool: readonly PoolItem[],
-  result: GameResult,
+  pool: readonly Question[],
+  q: PlannedQuestion,
+  correct: boolean | null,
+  detail: AnswerDetail | undefined,
   sessionId: string,
+  now: number,
 ): { next: SessionState; attempt: Attempt | null } {
   const shown = currentOf(state, plan);
-  if (!shown) return { next: state, attempt: null };
+  if (!shown || shown.itemKey !== q.itemKey) return { next: state, attempt: null };
 
-  const attempt = attemptFromResult(result, {
+  const attempt: Attempt = {
+    id: crypto.randomUUID(),
+    at: now,
     conceptId: shown.conceptId,
     itemKey: shown.itemKey,
+    gameId: shown.gameId,
+    correct,
     sessionId,
-    // Copied, not inferred. Session assembly decided it before the drill
-    // rendered, and the drill has no way of knowing.
     isInterleaved: shown.isInterleaved,
-  });
+    ...detail,
+  };
 
   // A second graded move on a question already decided is still a row — the
   // scheduler wants every move — but it re-opens nothing. Otherwise a learner
@@ -247,11 +280,11 @@ function step(
   // retries repairing one question.
   if (isDecided(state)) return { next: state, attempt };
 
-  const next: SessionState = { ...state, outcome: { verdict: result.correct } };
+  const next: SessionState = { ...state, outcome: { verdict: correct } };
 
   // `correct === null` is ungraded, and ungraded is not a miss. It writes its
   // row and queues nothing: no verdict, no failure, nothing to repair.
-  if (result.correct !== false) return { next, attempt };
+  if (correct !== false) return { next, attempt };
 
   const spent = state.retries.get(shown.conceptId) ?? 0;
   const retry =
@@ -288,7 +321,7 @@ function advanced(state: SessionState, plan: SessionPlan): SessionState {
 }
 
 /** The plan first, then the tail — the retries are the *end* of the lesson. */
-function currentOf(state: SessionState, plan: SessionPlan): PlannedItem | null {
+function currentOf(state: SessionState, plan: SessionPlan): PlannedQuestion | null {
   const planned = plan.items[state.index];
   if (planned) return planned;
   return state.tail[state.index - plan.items.length] ?? null;
@@ -296,7 +329,7 @@ function currentOf(state: SessionState, plan: SessionPlan): PlannedItem | null {
 
 export function useSession(
   plan: SessionPlan,
-  pool: readonly PoolItem[],
+  pool: readonly Question[],
   opts: UseSessionOptions = {},
 ): SessionRunner {
   const [state, setState] = useState<SessionState>(() => initialState(plan));
@@ -325,23 +358,31 @@ export function useSession(
    * initialiser also means `randomUUID` is called once rather than on every
    * render with the result thrown away.
    *
-   * Pinning the pool costs nothing and buys a `submit` whose identity never
-   * changes: callers pass it straight to a drill as `onResult`, and a callback
-   * that was rebuilt whenever the caller re-derived its pool array would
-   * re-render every drill on every answer.
+   * Pinning the pool costs nothing and buys a `record`/`submit` whose identity
+   * never changes: callers pass it straight to a drill as `GameApi.answer`, and
+   * a callback that was rebuilt whenever the caller re-derived its pool array
+   * would re-render every drill on every answer.
    */
   const [pinnedPlan] = useState(plan);
   const [pinnedPool] = useState(pool);
   const [sessionId] = useState(() => opts.sessionId ?? crypto.randomUUID());
 
   const apply = useCallback(
-    (result: GameResult, thenAdvance: boolean) => {
+    (
+      q: PlannedQuestion,
+      correct: boolean | null,
+      detail: AnswerDetail | undefined,
+      thenAdvance: boolean,
+    ) => {
       const { next, attempt } = step(
         stateRef.current,
         pinnedPlan,
         pinnedPool,
-        result,
+        q,
+        correct,
+        detail,
         sessionId,
+        clockNow(),
       );
       if (!attempt) return;
       commit(thenAdvance ? advanced(next, pinnedPlan) : next);
@@ -369,11 +410,19 @@ export function useSession(
     [commit, pinnedPlan, pinnedPool, sessionId],
   );
 
-  // Three callbacks with stable identities, for the same reason `submit` always
+  // Two callbacks with stable identities, for the same reason `submit` always
   // had one: they are passed straight to a drill, and a callback rebuilt on
   // every answer would re-render the drill mid-question.
-  const record = useCallback((result: GameResult) => apply(result, false), [apply]);
-  const submit = useCallback((result: GameResult) => apply(result, true), [apply]);
+  const record = useCallback(
+    (q: PlannedQuestion, correct: boolean | null, detail?: AnswerDetail) =>
+      apply(q, correct, detail, false),
+    [apply],
+  );
+  const submit = useCallback(
+    (q: PlannedQuestion, correct: boolean | null, detail?: AnswerDetail) =>
+      apply(q, correct, detail, true),
+    [apply],
+  );
   const advance = useCallback(
     () => commit(advanced(stateRef.current, pinnedPlan)),
     [commit, pinnedPlan],

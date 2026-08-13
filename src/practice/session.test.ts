@@ -2,27 +2,29 @@
  * Like `derive.test.ts` and `schedule.test.ts`, note the absence of
  * `fake-indexeddb`. `session` is the third module that has to run unchanged on a
  * server when ADR-007 lands, so "pure" is asserted here rather than assumed.
+ *
+ * The fixture drills below stand in for `DRILL_MODES` / `TIMED_GAME_IDS` /
+ * `UNGRADED_GAME_IDS`, which no longer exist: a question's mode, cost and
+ * gradedness now live on its game's `GameSpec`, registered here exactly as the
+ * real games2 games register themselves in `games2/games/index.ts`.
  */
 import { describe, expect, test, vi } from "vitest";
 import { Rating } from "ts-fsrs";
 
 import { allLessons } from "@/content/load";
 import { TAJWEED_RULES } from "@/content/tajweed";
+import { getGame, registerGame } from "@/games2/registry";
+import type { GameSpec, Question, ResponseMode } from "@/games2/types";
 import { derive, isWeak } from "./derive";
 import { dueConcepts, gradeOf, newSchedule, reviewConcept, type ConceptSchedule } from "./schedule";
 import type { Attempt } from "./types";
 import {
-  DRILL_MODES,
   SESSION_SLOTS,
-  TIMED_GAME_IDS,
-  UNGRADED_GAME_IDS,
   conceptRoster,
   planSession,
   schedulesFromLedger,
-  shapeOf,
-  type PlannedItem,
-  type PoolItem,
-  type ResponseMode,
+  shapeOfQuestion,
+  type PlannedQuestion,
 } from "./session";
 
 const NOW = 1_700_009_000_000;
@@ -55,6 +57,40 @@ const LETTER_GAME_IDS = [
   "word-builder",
 ] as const;
 
+/** The two decks: no verdict, so `graded: false` — see `registry.test.ts`. */
+const UNGRADED_GAME_IDS = ["letter-flashcards", "word-flashcards"] as const;
+
+/** Only `ghunnah-timer` costs two slots — see the fixture registration below. */
+const TIMED_GAME_ID = "ghunnah-timer";
+
+/** A minimal `GameSpec`. Only `mode`/`cost`/`graded` matter to `session.ts`. */
+function fixtureSpec(id: string, mode: ResponseMode, cost: number, graded = true): GameSpec {
+  return { id, label: id, mode, cost, graded, questions: () => [], render: () => null };
+}
+
+const GAME_MODES: Readonly<Record<string, ResponseMode>> = {
+  "rule-identifier": "recognition",
+  "listen-identify": "recognition",
+  "span-tapper": "discrimination",
+  "family-sorter": "discrimination",
+  "madd-counter": "production",
+  "condition-builder": "production",
+  "ghunnah-timer": "production",
+  "letter-quiz": "recognition",
+  "spot-the-letter": "discrimination",
+  "form-swap": "discrimination",
+  "word-builder": "production",
+};
+
+for (const gameId of [...GAME_IDS, ...LETTER_GAME_IDS]) {
+  const graded = !(UNGRADED_GAME_IDS as readonly string[]).includes(gameId);
+  const cost = gameId === TIMED_GAME_ID ? 2 : 1;
+  // The two decks carry no response mode — there is no ramp position for a
+  // drill that can never be planned — so they fall back to `recognition`
+  // structurally; `graded: false` is what actually excludes them.
+  registerGame(fixtureSpec(gameId, GAME_MODES[gameId] ?? "recognition", cost, graded));
+}
+
 const RANK: Record<ResponseMode, number> = { recognition: 0, discrimination: 1, production: 2 };
 
 let seq = 0;
@@ -79,12 +115,12 @@ function poolFor(
   conceptIds: readonly string[],
   gameIds: readonly string[] = GAME_IDS,
   per = 3,
-): PoolItem[] {
-  const out: PoolItem[] = [];
+): Question[] {
+  const out: Question[] = [];
   for (const conceptId of conceptIds) {
     for (const gameId of gameIds) {
       for (let n = 1; n <= per; n += 1) {
-        out.push({ conceptId, itemKey: `${conceptId}/${gameId}/${n}`, gameId });
+        out.push({ conceptId, itemKey: `${conceptId}/${gameId}/${n}`, gameId, payload: {} });
       }
     }
   }
@@ -100,7 +136,10 @@ function scheduleMap(rows: ConceptSchedule[]): Map<string, ConceptSchedule> {
   return new Map(rows.map((r) => [r.conceptId, r]));
 }
 
-const cost = (items: PlannedItem[]) => items.reduce((n, i) => n + i.slots, 0);
+const cost = (items: PlannedQuestion[]) => items.reduce((n, i) => n + i.slots, 0);
+
+/** What the registry says a game costs — the replacement for `TIMED_GAME_IDS.has`. */
+const costOf = (gameId: string) => getGame(gameId)!.cost;
 
 describe("the concept roster", () => {
   // The 29 letters are read from the course content here rather than typed out:
@@ -281,10 +320,20 @@ describe("planning a session", () => {
 
   const plan = planSession(OVERDUE, new Map(), POOL, NOW);
 
+  test("a planned item carries the mode and cost its game declares", () => {
+    // The interface this whole task turns on: `session.ts` no longer keeps a
+    // second, hand-maintained opinion about a drill's shape — it reads the one
+    // the `GameSpec` itself declares.
+    for (const item of plan.items) {
+      expect(item.mode).toBe(getGame(item.gameId)!.mode);
+      expect(item.slots).toBe(getGame(item.gameId)!.cost);
+    }
+  });
+
   test("budgets in slots, so at most two timed drills appear", () => {
     // A ḥarakāt hold takes far longer than a multiple choice, so a session
     // budgeted in items would be wildly uneven.
-    expect(plan.items.filter((i) => TIMED_GAME_IDS.has(i.gameId)).length).toBeLessThanOrEqual(2);
+    expect(plan.items.filter((i) => costOf(i.gameId) > 1).length).toBeLessThanOrEqual(2);
     expect(cost(plan.items)).toBeLessThanOrEqual(SESSION_SLOTS);
     expect(plan.slots).toBe(cost(plan.items));
     // The literal, once. Everything else here is written against the constant,
@@ -314,8 +363,8 @@ describe("planning a session", () => {
 
   test("a timed drill costs two slots and everything else costs one", () => {
     for (const item of plan.items) {
-      expect(item.slots).toBe(TIMED_GAME_IDS.has(item.gameId) ? 2 : 1);
-      expect(item.slots).toBe(shapeOf(item.gameId).slots);
+      expect(item.slots).toBe(costOf(item.gameId) > 1 ? 2 : 1);
+      expect(item.slots).toBe(shapeOfQuestion(item)!.slots);
     }
   });
 
@@ -456,6 +505,23 @@ describe("planning a session", () => {
     expect(planSession(scheduleMap([at("ikhfa", NOW + DAY)]), new Map(), POOL, NOW).items).toEqual(
       [],
     );
+  });
+
+  test("a concept whose only exemplars are unregistered or ungraded is never planned", () => {
+    // A `Question` naming a game nothing registered, or a game that registered
+    // but declared `graded: false`, cannot render a verdict — so it is not a
+    // session, exactly like a concept with no exemplar at all.
+    const unplannable = [
+      { conceptId: "ikhfa", itemKey: "ikhfa/ghost/1", gameId: "ghost-drill", payload: {} },
+      { conceptId: "ikhfa", itemKey: "ikhfa/deck/1", gameId: "letter-flashcards", payload: {} },
+    ];
+    const planned = planSession(
+      scheduleMap([at("ikhfa", NOW - DAY)]),
+      new Map(),
+      unplannable,
+      NOW,
+    );
+    expect(planned).toEqual({ focusConceptId: null, items: [], slots: 0 });
   });
 
   test("a concept with one drill per mode is cut short rather than repeated", () => {
@@ -673,8 +739,9 @@ describe("the flag loop", () => {
 describe("planning a session for a letter", () => {
   /**
    * **29 of the 47 concepts are letters**, and until the letter drills carried
-   * an id `shapeOf` fell to its default for every one of them: 62% of the roster
-   * planned as a flat session of recognition items with no ramp at all.
+   * an id in the registry, an unclassified game fell to `shapeOf`'s old
+   * default of recognition/one slot: 62% of the roster planned as a flat
+   * session of recognition items with no ramp at all.
    *
    * The ramp is the point. It is one of the few structural ideas in this design
    * with causal evidence behind it, so a plan that cannot express it for the
@@ -706,66 +773,88 @@ describe("planning a session for a letter", () => {
     // A held duration is what earns the second slot, and none of these holds
     // anything. Charging one would cost the learner a slot they never spend.
     for (const item of planned.items) expect(item.slots).toBe(1);
-    for (const gameId of LETTER_GAME_IDS) expect(TIMED_GAME_IDS.has(gameId)).toBe(false);
+    for (const gameId of LETTER_GAME_IDS) expect(costOf(gameId)).toBe(1);
   });
 });
 
 describe("drill shapes", () => {
+  /** A bare `Question` for `gameId`, enough for `shapeOfQuestion` to classify. */
+  const questionFor = (gameId: string): Question => ({
+    conceptId: "ب",
+    itemKey: `ب/${gameId}/1`,
+    gameId,
+    payload: {},
+  });
+
   test("every registered tajweed drill has a response mode and a slot cost", () => {
     for (const gameId of GAME_IDS) {
-      const shape = shapeOf(gameId);
+      const shape = shapeOfQuestion(questionFor(gameId))!;
       expect(RANK[shape.mode]).toBeGreaterThanOrEqual(0);
       expect(shape.slots).toBeGreaterThanOrEqual(1);
     }
   });
 
   test("only the held drill costs two slots", () => {
-    expect(shapeOf("ghunnah-timer")).toEqual({ mode: "production", slots: 2 });
+    expect(shapeOfQuestion(questionFor("ghunnah-timer"))).toEqual({
+      mode: "production",
+      slots: 2,
+    });
     // `MaddCounter` is not duration-graded — its `held` is a prop and nothing is
     // timed — so it costs one slot however much it looks like its neighbour.
-    expect(shapeOf("madd-counter").slots).toBe(1);
-    expect([...TIMED_GAME_IDS]).toEqual(["ghunnah-timer"]);
+    expect(shapeOfQuestion(questionFor("madd-counter"))!.slots).toBe(1);
+    expect(costOf("ghunnah-timer")).toBe(2);
+    for (const gameId of GAME_IDS) if (gameId !== "ghunnah-timer") expect(costOf(gameId)).toBe(1);
   });
 
   test("the ramp is by response mode, not by drill family", () => {
-    expect(shapeOf("rule-identifier").mode).toBe("recognition");
-    expect(shapeOf("listen-identify").mode).toBe("recognition");
-    expect(shapeOf("span-tapper").mode).toBe("discrimination");
-    expect(shapeOf("family-sorter").mode).toBe("discrimination");
-    expect(shapeOf("condition-builder").mode).toBe("production");
+    expect(shapeOfQuestion(questionFor("rule-identifier"))!.mode).toBe("recognition");
+    expect(shapeOfQuestion(questionFor("listen-identify"))!.mode).toBe("recognition");
+    expect(shapeOfQuestion(questionFor("span-tapper"))!.mode).toBe("discrimination");
+    expect(shapeOfQuestion(questionFor("family-sorter"))!.mode).toBe("discrimination");
+    expect(shapeOfQuestion(questionFor("condition-builder"))!.mode).toBe("production");
   });
 
   test("the four plannable letter drills have a shape of their own, not the default", () => {
     // The two decks are absent on purpose — see the test below. Of the four
     // that remain, `letter-quiz` reads as recognition, which is also what an
-    // *unregistered* drill falls to, so the assertions that can actually fail
-    // before the drills are classified are the last three.
-    expect(shapeOf("letter-quiz").mode).toBe("recognition");
-    expect(shapeOf("spot-the-letter").mode).toBe("discrimination");
-    expect(shapeOf("form-swap").mode).toBe("discrimination");
-    expect(shapeOf("word-builder").mode).toBe("production");
+    // *unregistered* drill used to fall to, so the assertions that can actually
+    // fail before the drills are classified are the last three.
+    expect(shapeOfQuestion(questionFor("letter-quiz"))!.mode).toBe("recognition");
+    expect(shapeOfQuestion(questionFor("spot-the-letter"))!.mode).toBe("discrimination");
+    expect(shapeOfQuestion(questionFor("form-swap"))!.mode).toBe("discrimination");
+    expect(shapeOfQuestion(questionFor("word-builder"))!.mode).toBe("production");
   });
 
   /**
    * A drill that can never be planned must not be classified as though it could.
    *
    * `word-flashcards` advertises no exemplar and `letter-flashcards` cannot
-   * report a verdict, so both are in `UNGRADED_GAME_IDS` and neither can reach
-   * a session. Carrying a `DRILL_MODES` entry for them describes a ramp
-   * position nothing occupies — and `shapeOf` cannot expose the difference,
-   * because an absent id falls to `recognition`, which is exactly what those
-   * entries said. That is why this asserts on the *set* rather than on
-   * `shapeOf`: it is the only formulation that can fail.
+   * report a verdict, so both are registered `graded: false` and neither can
+   * reach a session. `shapeOfQuestion` returns `null` for both — the direct
+   * replacement for asserting on `UNGRADED_GAME_IDS`' membership, and a
+   * stronger one: it is the same function `planSession` actually calls, not a
+   * table beside it that could drift.
    */
   test("no ungraded drill carries a response mode", () => {
     expect([...UNGRADED_GAME_IDS].sort()).toEqual(["letter-flashcards", "word-flashcards"]);
     for (const gameId of UNGRADED_GAME_IDS) {
-      expect(DRILL_MODES).not.toHaveProperty(gameId);
+      expect(getGame(gameId)!.graded).toBe(false);
+      expect(shapeOfQuestion(questionFor(gameId))).toBeNull();
     }
   });
 
   test("every drill that can be planned does carry one", () => {
-    const plannable = [...GAME_IDS, ...LETTER_GAME_IDS].filter((id) => !UNGRADED_GAME_IDS.has(id));
-    for (const gameId of plannable) expect(DRILL_MODES).toHaveProperty(gameId);
+    const plannable = [...GAME_IDS, ...LETTER_GAME_IDS].filter(
+      (id) => !(UNGRADED_GAME_IDS as readonly string[]).includes(id),
+    );
+    for (const gameId of plannable) expect(shapeOfQuestion(questionFor(gameId))).not.toBeNull();
+  });
+
+  test("a question whose game is not registered at all cannot be planned either", () => {
+    // The behaviour `shapeOf` used to hide: an unknown id fell to
+    // recognition/one slot and was still drawable. `shapeOfQuestion` refuses it
+    // outright — a question that cannot render is not a question a session may
+    // draw, whatever mode it might have guessed at.
+    expect(shapeOfQuestion(questionFor("no-such-drill"))).toBeNull();
   });
 });

@@ -9,20 +9,27 @@
  * back out of the store — a stubbed append would only prove the hook called a
  * function — while the one test that needs a write to fail can still make it
  * fail, which no amount of real IndexedDB would let us arrange.
+ *
+ * `Date.now` is mocked to an incrementing counter, in place of the old
+ * `GameResult.at` field the hook no longer reads: `record`/`submit` mint `at`
+ * from the clock themselves, and two rows written in the same real millisecond
+ * would otherwise tie on IndexedDB's `at` index and sort by a random UUID
+ * instead of by the order they were answered in.
  */
 import "fake-indexeddb/auto";
 import { IDBFactory } from "fake-indexeddb";
 import { act, renderHook, waitFor, type RenderHookResult } from "@testing-library/react";
-import { beforeEach, describe, expect, test, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 
 vi.mock("./ledger", async (importOriginal) => {
   const actual = await importOriginal<typeof import("./ledger")>();
   return { ...actual, appendAttempt: vi.fn(actual.appendAttempt) };
 });
 
-import type { GameResult } from "@/components/games/GameRegistry";
+import { getGame, registerGame } from "@/games2/registry";
+import type { AnswerDetail, Question, ResponseMode } from "@/games2/types";
 import { allAttempts, appendAttempt } from "./ledger";
-import { shapeOf, type PlannedItem, type PoolItem, type SessionPlan } from "./session";
+import type { PlannedQuestion, SessionPlan } from "./session";
 import type { Attempt } from "./types";
 import {
   MAX_TAIL_ATTEMPTS_PER_CONCEPT,
@@ -31,7 +38,40 @@ import {
   type SessionRunner,
 } from "./useSession";
 
-let clock = 1_700_000_000_000;
+/** The three shapes this file's fixtures need, registered once for the module. */
+registerGame({
+  id: "rule-identifier",
+  label: "rule-identifier",
+  mode: "recognition",
+  cost: 1,
+  graded: true,
+  questions: () => [],
+  render: () => null,
+});
+registerGame({
+  id: "span-tapper",
+  label: "span-tapper",
+  mode: "discrimination",
+  cost: 1,
+  graded: true,
+  questions: () => [],
+  render: () => null,
+});
+registerGame({
+  id: "ghunnah-timer",
+  label: "ghunnah-timer",
+  mode: "production",
+  cost: 2,
+  graded: true,
+  questions: () => [],
+  render: () => null,
+});
+
+function shapeFor(gameId: string): { mode: ResponseMode; slots: number } {
+  const spec = getGame(gameId);
+  if (!spec) throw new Error(`test fixture: no game registered for "${gameId}"`);
+  return { mode: spec.mode, slots: spec.cost };
+}
 
 /** One planned item, shaped the way `planSession` shapes one. */
 function item(
@@ -39,17 +79,18 @@ function item(
   gameId: string,
   n: number,
   isInterleaved = false,
-): PlannedItem {
+): PlannedQuestion {
   return {
     conceptId,
     itemKey: `${conceptId}/${gameId}/${n}`,
     gameId,
-    ...shapeOf(gameId),
+    payload: {},
+    ...shapeFor(gameId),
     isInterleaved,
   };
 }
 
-function plan(items: PlannedItem[]): SessionPlan {
+function plan(items: PlannedQuestion[]): SessionPlan {
   return {
     focusConceptId: items[0]?.conceptId ?? null,
     items,
@@ -62,40 +103,39 @@ function poolFor(
   conceptIds: readonly string[],
   gameIds: readonly string[] = ["rule-identifier", "span-tapper"],
   per = 3,
-): PoolItem[] {
-  const out: PoolItem[] = [];
+): Question[] {
+  const out: Question[] = [];
   for (const conceptId of conceptIds) {
     for (const gameId of gameIds) {
       for (let n = 1; n <= per; n += 1) {
-        out.push({ conceptId, itemKey: `${conceptId}/${gameId}/${n}`, gameId });
+        out.push({ conceptId, itemKey: `${conceptId}/${gameId}/${n}`, gameId, payload: {} });
       }
     }
   }
   return out;
 }
 
-/** What a drill hands back. `at` advances so ledger order is never a coin toss. */
-function answer(shown: PlannedItem, correct: boolean | null): GameResult {
-  return { gameId: shown.gameId, correct, at: (clock += 1_000) };
-}
-
 type Session = RenderHookResult<SessionRunner, unknown>;
 
-function run(items: PlannedItem[], pool: readonly PoolItem[]): Session {
+function run(items: PlannedQuestion[], pool: readonly Question[]): Session {
   return renderHook(() => useSession(plan(items), pool, { sessionId: "s-test" }));
 }
 
 /** Answer whatever is on screen, and hand back what it was. */
-function answerCurrent(session: Session, correct: boolean | null): PlannedItem {
+function answerCurrent(
+  session: Session,
+  correct: boolean | null,
+  detail?: AnswerDetail,
+): PlannedQuestion {
   const shown = session.result.current.current;
   if (!shown) throw new Error("nothing to answer: the session is already complete");
-  act(() => session.result.current.submit(answer(shown, correct)));
+  act(() => session.result.current.submit(shown, correct, detail));
   return shown;
 }
 
 /** Answer everything still queued, tail included, with one verdict. */
-function answerAll(session: Session, correct: boolean | null): PlannedItem[] {
-  const shown: PlannedItem[] = [];
+function answerAll(session: Session, correct: boolean | null): PlannedQuestion[] {
+  const shown: PlannedQuestion[] = [];
   // The tail can grow while this loop runs, so the bound is the guard against a
   // hang rather than the loop's real exit condition.
   for (let guard = 0; guard < 200 && !session.result.current.isComplete; guard += 1) {
@@ -107,10 +147,16 @@ function answerAll(session: Session, correct: boolean | null): PlannedItem[] {
 const rowsWritten = (n: number) =>
   waitFor(async () => expect(await allAttempts()).toHaveLength(n));
 
+let clock = 1_700_000_000_000;
+
 beforeEach(() => {
   globalThis.indexedDB = new IDBFactory();
   vi.mocked(appendAttempt).mockClear();
+  clock = 1_700_000_000_000;
+  vi.spyOn(Date, "now").mockImplementation(() => (clock += 1_000));
 });
+
+afterEach(() => vi.restoreAllMocks());
 
 describe("the wrong-answer tail", () => {
   test("a miss re-queues a DIFFERENT exemplar of the same concept", () => {
@@ -241,7 +287,10 @@ describe("the wrong-answer tail", () => {
   test("with no unused exemplar left the tail degrades: nothing queued, no repeat, no hang", () => {
     const only = item("idghaam_ghunnah", "rule-identifier", 1);
     // The pool holds exactly the one exemplar the plan already used.
-    const session = run([only], [{ ...only }]);
+    const session = run(
+      [only],
+      [{ conceptId: only.conceptId, itemKey: only.itemKey, gameId: only.gameId, payload: only.payload }],
+    );
 
     answerCurrent(session, false);
 
@@ -339,14 +388,7 @@ describe("what the session writes", () => {
     const shown = item("ghunnah", "ghunnah-timer", 1);
     const session = run([shown], poolFor(["ghunnah"]));
 
-    act(() =>
-      session.result.current.submit({
-        gameId: "ghunnah-timer",
-        correct: true,
-        at: (clock += 1_000),
-        measure: { heldMs: 940, msPerHarakah: 470, targetHarakat: 2, measuredHarakat: 2 },
-      }),
-    );
+    answerCurrent(session, true, { msPerHarakah: 470, targetHarakat: 2, measuredHarakat: 2 });
 
     await rowsWritten(1);
     const [row] = await allAttempts();
@@ -391,9 +433,9 @@ describe("what the session writes", () => {
 
     answerCurrent(session, true);
     await rowsWritten(1);
-    act(() => session.result.current.submit(answer(shown, false)));
+    act(() => session.result.current.submit(shown, false));
 
-    // A late result from a drill that has already been left behind is not an
+    // A late result from a question that has already been left behind is not an
     // attempt at anything, so it is not a row — and it must not queue a tail.
     await expect(allAttempts()).resolves.toHaveLength(1);
     expect(session.result.current.tailLength).toBe(0);
@@ -443,9 +485,9 @@ describe("the hook's own bookkeeping", () => {
   test("a concept is flagged once, however many times it runs out of retries", () => {
     const items = [item("idghaam_ghunnah", "rule-identifier", 1), item("idghaam_ghunnah", "span-tapper", 1)];
     // One spare exemplar only: the second miss has nothing left to draw.
-    const pool: PoolItem[] = [
+    const pool: Question[] = [
       ...items,
-      { conceptId: "idghaam_ghunnah", itemKey: "idghaam_ghunnah/rule-identifier/2", gameId: "rule-identifier" },
+      { conceptId: "idghaam_ghunnah", itemKey: "idghaam_ghunnah/rule-identifier/2", gameId: "rule-identifier", payload: {} },
     ];
     const session = run(items, pool);
 
@@ -478,12 +520,13 @@ describe("the hook's own bookkeeping", () => {
     answerCurrent(session, false);
 
     const requeued = session.result.current.current!;
-    // `slots` and `mode` come from `shapeOf`, not from whatever the missed item
-    // happened to be: a two-slot held drill still costs two.
-    expect(requeued).toMatchObject(shapeOf(requeued.gameId) satisfies Partial<PlannedItem>);
+    // `slots` and `mode` come from the game's registered shape, not from
+    // whatever the missed item happened to be: a two-slot held drill still
+    // costs two.
+    expect(requeued).toMatchObject(shapeFor(requeued.gameId) satisfies Partial<PlannedQuestion>);
   });
 
-  test("the row is built by attemptFromResult, so a bare result gets no invented fields", async () => {
+  test("the row is built from the question directly, so a bare answer gets no invented fields", async () => {
     const session = run([item("idghaam_ghunnah", "rule-identifier", 1)], poolFor(["idghaam_ghunnah"]));
 
     answerCurrent(session, true);
@@ -506,17 +549,17 @@ describe("the hook's own bookkeeping", () => {
 /**
  * Recording an answer and leaving the question are two different events.
  *
- * Drills emit once per *graded move*, so a hook that advanced on every result
- * would spend three planned slots on one question answered wrong-wrong-right.
- * `submit` — the composite the tests above exercise — is unchanged; these are
- * the two halves it is made of.
+ * A `GameApi` fires once per *graded move*, so a hook that advanced on every
+ * result would spend three planned slots on one question answered
+ * wrong-wrong-right. `submit` — the composite the tests above exercise — is
+ * unchanged; these are the two halves it is made of.
  */
 describe("record and advance", () => {
   test("record writes the row and stays on the question", async () => {
     const first = item("idghaam_ghunnah", "rule-identifier", 1);
     const session = run([first, item("ikhfa", "span-tapper", 1)], poolFor(["idghaam_ghunnah", "ikhfa"]));
 
-    act(() => session.result.current.record(answer(first, false)));
+    act(() => session.result.current.record(first, false));
 
     expect(session.result.current.current!.itemKey).toBe(first.itemKey);
     expect(session.result.current.progress.done).toBe(0);
@@ -527,9 +570,9 @@ describe("record and advance", () => {
     const first = item("idghaam_ghunnah", "rule-identifier", 1);
     const session = run([first], poolFor(["idghaam_ghunnah"]));
 
-    act(() => session.result.current.record(answer(first, false)));
+    act(() => session.result.current.record(first, false));
     const queued = session.result.current.tailLength;
-    act(() => session.result.current.record(answer(first, true)));
+    act(() => session.result.current.record(first, true));
 
     await rowsWritten(2);
     // The question was decided by the first graded answer. Repairing it inside
@@ -545,11 +588,11 @@ describe("record and advance", () => {
     const session = run([shown], poolFor(["idghaam_ghunnah"]));
 
     expect(session.result.current.verdict).toBeUndefined();
-    act(() => session.result.current.record(answer(shown, null)));
+    act(() => session.result.current.record(shown, null));
     // Answered, but the drill graded nothing — so there is no verdict to report
     // and the question can still be decided.
     expect(session.result.current.verdict).toBeNull();
-    act(() => session.result.current.record(answer(shown, true)));
+    act(() => session.result.current.record(shown, true));
     expect(session.result.current.verdict).toBe(true);
   });
 
@@ -558,7 +601,7 @@ describe("record and advance", () => {
     const second = item("ikhfa", "span-tapper", 1);
     const session = run([first, second], poolFor(["idghaam_ghunnah", "ikhfa"]));
 
-    act(() => session.result.current.record(answer(first, true)));
+    act(() => session.result.current.record(first, true));
     act(() => session.result.current.advance());
 
     expect(session.result.current.current!.itemKey).toBe(second.itemKey);
@@ -589,5 +632,22 @@ describe("record and advance", () => {
     expect(session.result.current.progress.done).toBe(1);
     expect(session.result.current.isComplete).toBe(true);
     expect(session.result.current.current).toBeNull();
+  });
+});
+
+describe("recording a question that is not the one on screen", () => {
+  test("a stale question is dropped: no row, no state change", async () => {
+    const first = item("idghaam_ghunnah", "rule-identifier", 1);
+    const second = item("ikhfa", "span-tapper", 1);
+    const session = run([first, second], poolFor(["idghaam_ghunnah", "ikhfa"]));
+
+    answerCurrent(session, true);
+    act(() => session.result.current.advance());
+    // `first` is no longer on screen; a late result naming it must not land.
+    act(() => session.result.current.record(first, false));
+
+    await expect(allAttempts()).resolves.toHaveLength(1);
+    expect(session.result.current.current!.itemKey).toBe(second.itemKey);
+    expect(session.result.current.verdict).toBeUndefined();
   });
 });

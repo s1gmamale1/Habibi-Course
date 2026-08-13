@@ -10,10 +10,20 @@
  * permanently unknown, however much the learner practised.
  *
  * So this test refuses to assert on a prop. It renders the real components,
- * clicks the real buttons, routes the results through the real `useSession` into
- * the real (fake-backed) IndexedDB ledger, reads the rows back out, and replays
- * them through the real `schedulesFromLedger`. Anything less would prove a
- * callback exists, not that the data flows.
+ * clicks the real buttons, writes through the real `attemptFromResult` into the
+ * real (fake-backed) IndexedDB ledger, reads the rows back out, and replays them
+ * through the real `schedulesFromLedger`. Anything less would prove a callback
+ * exists, not that the data flows.
+ *
+ * **Task 9 note.** These four drills run on the *old* registry
+ * (`components/games/GameRegistry.ts`) and are not ported to `games2` in this
+ * slice, so they are no longer wired through `useSession` — that hook's
+ * `record`/`submit` now take a `Question` and a verdict directly, and these
+ * drills report a `GameResult`. The harness below writes through
+ * `attemptFromResult` directly instead, which is exactly the mechanism
+ * `useSession` used to call internally on this path: the regression under test
+ * — do these drills' `onResult` calls turn into a correct, ledger-writable,
+ * reschedulable `Attempt` — is unchanged by which caller invokes it.
  *
  * jsdom ships no IndexedDB; `fake-indexeddb/auto` installs one, exactly as
  * `ledger.test.ts` and `useSession.test.ts` do.
@@ -22,7 +32,7 @@ import "fake-indexeddb/auto";
 import { IDBFactory } from "fake-indexeddb";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { useState, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 import { State } from "ts-fsrs";
 
@@ -32,11 +42,11 @@ import { LetterQuiz } from "@/components/games/LetterQuiz";
 import { SpotTheLetter } from "@/components/games/SpotTheLetter";
 import { WordBuilder } from "@/components/games/WordBuilder";
 import type { GameResult } from "@/components/games/GameRegistry";
+import { attemptFromResult } from "./attempt";
 import { derive } from "./derive";
-import { allAttempts } from "./ledger";
+import { allAttempts, appendAttempt } from "./ledger";
 import { newSchedule } from "./schedule";
-import { schedulesFromLedger, shapeOf, type PlannedItem, type PoolItem, type SessionPlan } from "./session";
-import { useSession } from "./useSession";
+import { schedulesFromLedger } from "./session";
 
 /** The concept every row in this file is keyed to — a letter, not a rule. */
 const LETTER = "ب";
@@ -48,11 +58,13 @@ const NOW = 1_700_000_000_000;
  * same `at` and `orderedAttempts`'s UUID tiebreak would decide their order.
  */
 let clock = NOW;
+let seq = 0;
 
 afterEach(() => vi.restoreAllMocks());
 beforeEach(() => {
   globalThis.indexedDB = new IDBFactory();
   clock = NOW;
+  seq = 0;
 });
 
 const tick = () => (clock += 1000);
@@ -64,23 +76,28 @@ const mk = (arabic: string, name: string): ArabicItem => ({
 });
 const letterPool = [mk("ا", "alif"), mk("ب", "ba"), mk("ت", "ta"), mk("ث", "tha")];
 
-/** Exemplars of one letter, plentiful enough that the tail always has a draw. */
-function poolFor(gameId: string, n: number): PoolItem[] {
-  return Array.from({ length: n }, (_, i) => ({
-    conceptId: LETTER,
-    itemKey: `${LETTER}/${gameId}/${i}`,
-    gameId,
-  }));
-}
-
-function planFrom(pool: readonly PoolItem[]): SessionPlan {
-  const items: PlannedItem[] = pool.map((p) => ({ ...p, ...shapeOf(p.gameId), isInterleaved: false }));
-  return { focusConceptId: LETTER, items, slots: items.length };
+/**
+ * Outside any component, like `tick` above: mutating `seq` lexically inside a
+ * component body trips `react-hooks/purity` even though the mutation only ever
+ * runs from a later click, not during render.
+ */
+function makeOnResult(gameId: string): (r: GameResult) => void {
+  return (r: GameResult) => {
+    seq += 1;
+    void appendAttempt(
+      attemptFromResult(r, {
+        conceptId: LETTER,
+        itemKey: `${LETTER}/${gameId}/${seq}`,
+        sessionId: "session-6d",
+        isInterleaved: false,
+      }),
+    );
+  };
 }
 
 /**
- * Mounts a drill with its `onResult` wired to a real session runner, so every
- * click travels the production path: drill → `useSession.submit` →
+ * Mounts a drill with `onResult` wired straight to the ledger, through
+ * `attemptFromResult` — the production path a real result travels: drill →
  * `attemptFromResult` → `appendAttempt` → IndexedDB.
  */
 function Harness({
@@ -90,10 +107,7 @@ function Harness({
   gameId: string;
   children: (onResult: (r: GameResult) => void, now: () => number) => ReactNode;
 }) {
-  const [pool] = useState(() => poolFor(gameId, 12));
-  const [plan] = useState(() => planFrom(pool));
-  const runner = useSession(plan, pool, { sessionId: "session-6d" });
-  return <>{children(runner.submit, tick)}</>;
+  return <>{children(makeOnResult(gameId), tick)}</>;
 }
 
 describe("a letter concept's schedule moves off its seed", () => {

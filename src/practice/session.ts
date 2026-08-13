@@ -1,4 +1,6 @@
 import { TAJWEED_RULES } from "@/content/tajweed";
+import { getGame } from "@/games2/registry";
+import { MODE_RANK, type Question, type ResponseMode } from "@/games2/types";
 
 import { isResolved, isWeak, orderedAttempts, type ConceptState } from "./derive";
 import {
@@ -17,7 +19,10 @@ import type { Attempt } from "./types";
  *
  * **Pure**, like `derive.ts` and `schedule.ts` and for the same reason: `now` is
  * an argument, there is no clock, no IO, and no import from `ledger.ts`. All
- * three have to run unchanged on a server when ADR-007 lands.
+ * three have to run unchanged on a server when ADR-007 lands. `getGame` is a
+ * lookup against a registry populated by module-scope side effects elsewhere
+ * (`games2/games/index.ts`), not by this file, so importing it costs this
+ * module nothing it did not already have.
  *
  * The two jobs here are separate on purpose. `schedulesFromLedger` is the fold
  * nothing else could do — `derive()` produces `ConceptState`, `dueConcepts()`
@@ -27,21 +32,15 @@ import type { Attempt } from "./types";
  */
 
 /**
- * How a drill asks for the answer. This — not the rule being drilled — is what
- * the session ramps along.
- *
- * Recognising idghām in a highlighted span and building its condition sentence
- * are the same content at two very different costs, and a session that opened
- * with the second one would be asking for production before recall. Ordering by
- * *content* difficulty instead would put "hard rule, easy question" before "easy
- * rule, hard question", which is the wrong axis.
+ * Ramp order, derived from `MODE_RANK` rather than restated: the index a mode
+ * sorts to *is* its rank, so keeping a second literal in sync by hand is a
+ * drift waiting to happen the day a fourth mode is added.
  */
-export type ResponseMode = "recognition" | "discrimination" | "production";
+const MODE_ORDER: readonly ResponseMode[] = (Object.keys(MODE_RANK) as ResponseMode[]).sort(
+  (a, b) => MODE_RANK[a] - MODE_RANK[b],
+);
 
-/** Ramp order. The index is the rank, so the list is the ordering. */
-const MODE_ORDER: readonly ResponseMode[] = ["recognition", "discrimination", "production"];
-
-const rank = (mode: ResponseMode) => MODE_ORDER.indexOf(mode);
+const rank = (mode: ResponseMode) => MODE_RANK[mode];
 
 /**
  * The session budget, in slots rather than items.
@@ -54,119 +53,39 @@ const rank = (mode: ResponseMode) => MODE_ORDER.indexOf(mode);
 export const SESSION_SLOTS = 14;
 
 /**
- * The drills that grade a *held duration*, and the only ones that cost two slots.
+ * What a registered drill costs to plan: its response mode and its slot cost.
  *
- * `MaddCounter` is deliberately not here. It looks like its neighbour, but its
- * `held` is a prop, nothing is timed, and there is no calibration step — it asks
- * the learner to *name* a length, which takes about as long as any other
- * selection. Calling it timed would cost a slot the learner never spends.
+ * `mode`, `cost` and `graded` used to live in three module-scope tables here —
+ * `DRILL_MODES`, an implicit "everything costs one slot but `TIMED_GAME_IDS`",
+ * and `UNGRADED_GAME_IDS`. All three were a second, hand-maintained opinion
+ * about facts every `GameSpec` already declares about itself, and the letter
+ * drills are the proof of what that costs: while they carried no id in
+ * `DRILL_MODES` at all, an unclassified id fell to `recognition`/one slot by
+ * default, so **29 of the 47 concepts** — 62% of the roster — planned as
+ * fourteen recognition items with no ramp in them. A table can go stale in a
+ * way a lookup against the registry cannot.
  *
- * No letter drill is here either, for the same reason: a timed drill is one that
- * holds a duration, and tapping tiles into slots — however long a learner takes
- * over it — is not a held duration. Nothing in this file may become monotonic in
- * elapsed time; see the no-speed-metric constraint.
+ * `null` covers two cases on purpose, and both mean the same thing to a plan: a
+ * question whose game is not registered cannot render, and a question whose
+ * game is registered but `graded: false` — the two flashcard decks — has no
+ * verdict to report. Either way it is not a question a session may draw:
+ * `SessionRunner`'s continue button is gated on `runner.verdict !== undefined`,
+ * so planning an ungraded question would stall the learner on one there is no
+ * way to answer, with only the ✕ available.
  */
-export const TIMED_GAME_IDS: ReadonlySet<string> = new Set(["ghunnah-timer"]);
-
-/**
- * Drills that produce no verdict, so a session may never plan one.
- *
- * The two flashcard decks. `letter-flashcards` advertises `exemplars`, which is
- * what makes this necessary rather than theoretical: without the exclusion a
- * plan can legitimately draw a deck, and `SessionRunner`'s continue button is
- * gated on `runner.verdict !== undefined` — so the session would stall on a
- * question the learner has no way to answer, with only the ✕ available. That is
- * invisible until the engine is actually mounted, which is why it surfaced here
- * and not in any of the twelve tasks that built it.
- *
- * The exclusion is also the right answer on the merits, and the same one
- * `GamePanel` already reached when it withheld `onResult` from the decks: "✓ Got
- * it" is a claim the learner makes about themselves, not a measurement, and an
- * unearned verdict in an append-only ledger cannot be taken back. The decks stay
- * fully available as free practice — they are simply not instruments.
- *
- * Kept beside `DRILL_MODES` rather than in the pool builder because this module
- * is the authority on what a session is made of, and it must keep running with
- * no DOM when ADR-007 lands — a set of strings costs that nothing.
- */
-export const UNGRADED_GAME_IDS: ReadonlySet<string> = new Set([
-  "letter-flashcards",
-  "word-flashcards",
-]);
-
-/**
- * Which response mode each shipped drill asks for.
- *
- * A gameId belongs to exactly one mode, which is what lets the ramp be enforced
- * by sorting: modes never interleave within a drill.
- *
- * The six letter drills matter here out of proportion to their number: **29 of
- * the 47 concepts are letters**, so while they carried no id at all `shapeOf`
- * fell to its default for 62% of the roster and a letter's session was fourteen
- * recognition items with no ramp in it. They are classified by what the drill
- * asks the learner to *do*, which is why the two flashcard decks sit at the
- * shallow end and `word-builder` — the only one where a wrong answer can be
- * assembled rather than picked — sits at the top.
- *
- * The ids live in `components/games/letters.ts` and
- * `components/games/tajweed/index.ts`. This map is keyed by string rather than
- * importing them because those barrels pull in React components, and this module
- * has to run on a server with no DOM when ADR-007 lands. The two are pinned
- * together by test instead.
- */
-export const DRILL_MODES: Readonly<Record<string, ResponseMode>> = {
-  "rule-identifier": "recognition",
-  "listen-identify": "recognition",
-  "span-tapper": "discrimination",
-  "family-sorter": "discrimination",
-  "madd-counter": "production",
-  "condition-builder": "production",
-  "ghunnah-timer": "production",
-  // The letter drills. None is timed — see `TIMED_GAME_IDS`.
-  //
-  // The two flashcard decks are deliberately absent: they are in
-  // `UNGRADED_GAME_IDS` and can never be planned, so a mode for them would name
-  // a ramp position nothing occupies. `word-flashcards` never could be planned
-  // — it advertises no exemplar — and `letter-flashcards` stopped being
-  // plannable when the decks were excluded for having no verdict to report.
-  // Note that `shapeOf` cannot expose the difference, since an absent id falls
-  // to `recognition`, which is exactly what those entries used to say; the test
-  // asserts on this record's keys for that reason.
-  "letter-quiz": "recognition",
-  "spot-the-letter": "discrimination",
-  "form-swap": "discrimination",
-  "word-builder": "production",
-};
-
 export type DrillShape = {
   mode: ResponseMode;
-  /** What the drill costs against `SESSION_SLOTS`. */
+  /** What the question costs against `SESSION_SLOTS`. */
   slots: number;
 };
 
-/** An unknown drill is assumed to be the cheapest thing it could be — see `DRILL_MODES`. */
-export function shapeOf(gameId: string): DrillShape {
-  return {
-    mode: DRILL_MODES[gameId] ?? "recognition",
-    slots: TIMED_GAME_IDS.has(gameId) ? 2 : 1,
-  };
+export function shapeOfQuestion(q: Question): DrillShape | null {
+  const spec = getGame(q.gameId);
+  if (!spec || !spec.graded) return null;
+  return { mode: spec.mode, slots: spec.cost };
 }
 
-/**
- * One exemplar the session could draw.
- *
- * The scheduling key is `conceptId`; `itemKey` is a *sample* of it (ADR-008). A
- * learner does not need to remember that `مِنْ رَبِّهِمْ` is idghām — they need
- * to recognise idghām anywhere — so the same concept is drilled through a
- * different exemplar each time it comes up.
- */
-export type PoolItem = {
-  conceptId: string;
-  itemKey: string;
-  gameId: string;
-};
-
-export type PlannedItem = PoolItem & {
+export type PlannedQuestion = Question & {
   mode: ResponseMode;
   slots: number;
   /**
@@ -181,7 +100,7 @@ export type PlannedItem = PoolItem & {
 export type SessionPlan = {
   /** The most overdue concept the pool can actually draw for, or `null` for nothing to do. */
   focusConceptId: string | null;
-  items: PlannedItem[];
+  items: PlannedQuestion[];
   /** Total cost of `items`. At most `SESSION_SLOTS`. */
   slots: number;
 };
@@ -212,14 +131,13 @@ const MAX_RUN = 2;
 const INTERLEAVE_TARGET = 3;
 
 /**
- * Two held drills is 4 of 14 slots; a third would make the session a ghunnah drill.
+ * Two two-slot questions is 4 of 14 slots; a third would make the session one
+ * expensive drill.
  *
- * **Today this guard changes nothing, and that is worth saying rather than
- * hiding.** `ghunnah-timer` is the only held drill, so every timed item shares
- * one `gameId` and `MAX_RUN` already caps it at two — mutating this to 9 leaves
- * every plan byte-identical, which is why no test can see it. It stops being
- * redundant the moment a second held drill registers, at which point two
- * different timed shapes could take four slots each without ever repeating.
+ * A "timed" drill used to be named by a fixed set of ids; now it is simply any
+ * `GameSpec` whose `cost` is more than one slot — `shapeOfQuestion(q).slots >
+ * 1` — so this guard generalises to whatever registers that shape rather than
+ * only to the one drill that has one today.
  */
 const MAX_TIMED = 2;
 
@@ -240,8 +158,8 @@ const MAX_TIMED = 2;
  * *has* a schedule, so a learner with an empty ledger would otherwise be offered
  * an empty queue and nothing at all to practise.
  */
-export function conceptRoster(pool: readonly PoolItem[]): string[] {
-  return [...new Set<string>([...TAJWEED_RULES, ...pool.map((i) => i.conceptId)])].sort();
+export function conceptRoster(questions: readonly Question[]): string[] {
+  return [...new Set<string>([...TAJWEED_RULES, ...questions.map((q) => q.conceptId)])].sort();
 }
 
 /**
@@ -344,15 +262,15 @@ function orderDue(
 export function planSession(
   schedules: ReadonlyMap<string, ConceptSchedule>,
   states: ReadonlyMap<string, ConceptState>,
-  pool: readonly PoolItem[],
+  questions: readonly Question[],
   now: number,
   opts: PlanOptions = {},
 ): SessionPlan {
-  const byConcept = new Map<string, PoolItem[]>();
-  for (const item of pool) {
-    const list = byConcept.get(item.conceptId);
-    if (list) list.push(item);
-    else byConcept.set(item.conceptId, [item]);
+  const byConcept = new Map<string, Question[]>();
+  for (const q of questions) {
+    const list = byConcept.get(q.conceptId);
+    if (list) list.push(q);
+    else byConcept.set(q.conceptId, [q]);
   }
   // So the plan depends on the pool's *contents* and not on the order the caller
   // happened to assemble it in.
@@ -371,22 +289,25 @@ export function planSession(
   const drawnByGame = new Map<string, number>();
   let timedDrawn = 0;
 
-  /** Turn a pool item into a planned one, and record what that spends. */
-  function commit(item: PoolItem, isInterleaved: boolean): PlannedItem {
-    const shape = shapeOf(item.gameId);
-    used.add(item.itemKey);
-    drawnByGame.set(item.gameId, (drawnByGame.get(item.gameId) ?? 0) + 1);
-    if (TIMED_GAME_IDS.has(item.gameId)) timedDrawn += 1;
-    return { ...item, mode: shape.mode, slots: shape.slots, isInterleaved };
+  /** Turn a question into a planned one, and record what that spends. */
+  function commit(q: Question, isInterleaved: boolean): PlannedQuestion {
+    // Only ever called with a question `options()` already vetted, so the shape
+    // is known to exist.
+    const shape = shapeOfQuestion(q)!;
+    used.add(q.itemKey);
+    drawnByGame.set(q.gameId, (drawnByGame.get(q.gameId) ?? 0) + 1);
+    if (shape.slots > 1) timedDrawn += 1;
+    return { ...q, mode: shape.mode, slots: shape.slots, isInterleaved };
   }
 
-  function options(conceptId: string, maxSlots: number, mode?: ResponseMode): PoolItem[] {
-    return (byConcept.get(conceptId) ?? []).filter((item) => {
-      if (used.has(item.itemKey)) return false;
-      const shape = shapeOf(item.gameId);
+  function options(conceptId: string, maxSlots: number, mode?: ResponseMode): Question[] {
+    return (byConcept.get(conceptId) ?? []).filter((q) => {
+      if (used.has(q.itemKey)) return false;
+      const shape = shapeOfQuestion(q);
+      if (!shape) return false;
       if (mode !== undefined && shape.mode !== mode) return false;
       if (shape.slots > maxSlots) return false;
-      return !(TIMED_GAME_IDS.has(item.gameId) && timedDrawn >= MAX_TIMED);
+      return !(shape.slots > 1 && timedDrawn >= MAX_TIMED);
     });
   }
 
@@ -395,7 +316,7 @@ export function planSession(
    * doing the same one eight times. The *shape* is chosen by what has been used
    * least so far; only the exemplar within it is left to the seed.
    */
-  function draw(candidates: PoolItem[], isInterleaved: boolean): PlannedItem | null {
+  function draw(candidates: Question[], isInterleaved: boolean): PlannedQuestion | null {
     if (candidates.length === 0) return null;
     const games = [...new Set(candidates.map((c) => c.gameId))].sort();
     const gameId = games.reduce((a, b) =>
@@ -409,21 +330,23 @@ export function planSession(
   // "Deliberately harder" means the furthest along the response ramp the focus
   // concept can offer, and the held drill ahead of a selection at the same mode.
   // It is drawn first so the rest of the session is built to leave room for it.
+  // `closingPool` is already filtered through `options()`, so every candidate's
+  // shape is known to resolve.
   const closingPool = options(focusConceptId, SESSION_SLOTS);
-  const hardest = closingPool.reduce<PoolItem | null>((best, item) => {
-    if (!best) return item;
-    const a = shapeOf(item.gameId);
-    const b = shapeOf(best.gameId);
-    if (rank(a.mode) !== rank(b.mode)) return rank(a.mode) > rank(b.mode) ? item : best;
-    return a.slots > b.slots ? item : best;
+  const hardest = closingPool.reduce<Question | null>((best, q) => {
+    if (!best) return q;
+    const a = shapeOfQuestion(q)!;
+    const b = shapeOfQuestion(best)!;
+    if (rank(a.mode) !== rank(b.mode)) return rank(a.mode) > rank(b.mode) ? q : best;
+    return a.slots > b.slots ? q : best;
   }, null);
   const closing = hardest
     ? draw(
-        closingPool.filter(
-          (i) =>
-            shapeOf(i.gameId).mode === shapeOf(hardest.gameId).mode &&
-            shapeOf(i.gameId).slots === shapeOf(hardest.gameId).slots,
-        ),
+        closingPool.filter((q) => {
+          const s = shapeOfQuestion(q)!;
+          const h = shapeOfQuestion(hardest)!;
+          return s.mode === h.mode && s.slots === h.slots;
+        }),
         false,
       )
     : null;
@@ -433,7 +356,7 @@ export function planSession(
   const interleaveIds = pickInterleaveConcepts(due, states);
   const reserve = Math.min(INTERLEAVE_TARGET, interleaveIds.length);
 
-  const focusItems: PlannedItem[] = [];
+  const focusItems: PlannedQuestion[] = [];
   let slots = closing.slots;
   const fillFocus = (ceiling: number) => {
     for (let progressed = true; progressed && slots < ceiling; ) {
@@ -457,7 +380,7 @@ export function planSession(
     [...focusItems, closing],
     Math.min(reserve, SESSION_SLOTS - slots),
   );
-  const interleaved: PlannedItem[] = [];
+  const interleaved: PlannedQuestion[] = [];
   for (const conceptId of interleaveIds) {
     if (interleaved.length >= reserve || slots >= SESSION_SLOTS) break;
     // A review of another concept never costs two slots: it is a probe, not the
@@ -541,7 +464,7 @@ function pickInterleaveConcepts(
  * mode, because a review belongs in the body of a session rather than among the
  * hardest things in it.
  */
-function chooseInterleaveMode(backbone: readonly PlannedItem[], count: number): ResponseMode {
+function chooseInterleaveMode(backbone: readonly PlannedQuestion[], count: number): ResponseMode {
   const total = backbone.length + count;
   let best: ResponseMode = MODE_ORDER[0];
   let bestRoom = -1;
@@ -572,8 +495,8 @@ function chooseInterleaveMode(backbone: readonly PlannedItem[], count: number): 
  * nothing else at that mode — a thin pool, which should read as a short session
  * rather than a monotonous one.
  */
-function arrange(items: readonly PlannedItem[]): PlannedItem[] {
-  const out: PlannedItem[] = [];
+function arrange(items: readonly PlannedQuestion[]): PlannedQuestion[] {
+  const out: PlannedQuestion[] = [];
   for (const mode of MODE_ORDER) {
     let remaining = items.filter((i) => i.mode === mode);
     while (remaining.length > 0) {
@@ -597,7 +520,7 @@ function arrange(items: readonly PlannedItem[]): PlannedItem[] {
 }
 
 /** Three of one shape in a row, anywhere in the sequence. */
-function hasRun(items: readonly PlannedItem[]): boolean {
+function hasRun(items: readonly PlannedQuestion[]): boolean {
   for (let i = MAX_RUN; i < items.length; i += 1) {
     const window = items.slice(i - MAX_RUN, i + 1);
     if (new Set(window.map((it) => it.gameId)).size === 1) return true;
@@ -618,7 +541,7 @@ function hasRun(items: readonly PlannedItem[]): boolean {
  * legal to sit is a review in the wrong place, and the constraint it would break
  * is the reason it exists.
  */
-function place(backbone: PlannedItem[], interleaved: readonly PlannedItem[]): PlannedItem[] {
+function place(backbone: PlannedQuestion[], interleaved: readonly PlannedQuestion[]): PlannedQuestion[] {
   for (let count = interleaved.length; count > 0; count -= 1) {
     const attempt = tryPlace(backbone, interleaved.slice(0, count));
     if (attempt) return attempt;
@@ -627,9 +550,9 @@ function place(backbone: PlannedItem[], interleaved: readonly PlannedItem[]): Pl
 }
 
 function tryPlace(
-  backbone: readonly PlannedItem[],
-  interleaved: readonly PlannedItem[],
-): PlannedItem[] | null {
+  backbone: readonly PlannedQuestion[],
+  interleaved: readonly PlannedQuestion[],
+): PlannedQuestion[] | null {
   const total = backbone.length + interleaved.length;
   const out = [...backbone];
   let cursor = EDGE - 1;
