@@ -214,7 +214,25 @@ function mulberry32(seed: number): () => number {
 }
 
 /**
- * Due concepts, most overdue first, with weakness breaking a tie.
+ * How many distinct response modes a concept's pool can actually draw for,
+ * counting only exemplars a session could plan — `shapeOfQuestion` returns
+ * `null` for an unregistered or ungraded game exactly as `options()` filters
+ * them below, so this asks the same question `planSession` will.
+ *
+ * At most `MODE_ORDER.length` (three, today).
+ */
+function modeCoverage(conceptId: string, byConcept: ReadonlyMap<string, readonly Question[]>): number {
+  const modes = new Set<ResponseMode>();
+  for (const q of byConcept.get(conceptId) ?? []) {
+    const shape = shapeOfQuestion(q);
+    if (shape) modes.add(shape.mode);
+  }
+  return modes.size;
+}
+
+/**
+ * Due concepts, most overdue first, with weakness and then mode coverage
+ * breaking a tie.
  *
  * `dueConcepts` already orders by due date and then by id. The id is a fine
  * tiebreak for reproducibility and a poor one for teaching, and on day one it
@@ -224,11 +242,28 @@ function mulberry32(seed: number): () => number {
  *
  * A concept with no state has none because it has no *graded* attempt; it sits
  * between the two, which is exactly what "nothing is known yet" should rank as.
+ *
+ * **Mode coverage is the tiebreak below weakness, above the id.** Without it
+ * the id decided the focus outright on day one — plain codepoint order — and
+ * `ا` (alif, U+0627) has the lowest codepoint of any taught letter, so it won
+ * the focus in 63 of 68 lessons on an empty ledger. Alif is a non-connector:
+ * it is never written medial or initial, so it never earns the three authored
+ * positional forms `deriveGameData` requires before a letter enters
+ * `set.forms`, and `broken-form` — the one drill testing `discrimination` in
+ * this slice — can never ask about it. The backbone draws almost entirely
+ * from the focus concept (`fillFocus`, above), so a focus with no
+ * discrimination candidate produces a backbone with no discrimination item,
+ * however large the rest of the pool is. Preferring the concept whose pool
+ * spans the most response modes when the more important signals cannot
+ * decide is not a special case for alif — it is what "build a session, not a
+ * form" already meant; it had just never been asked at the one point that
+ * actually chooses what the backbone is built from.
  */
 function orderDue(
   schedules: ReadonlyMap<string, ConceptSchedule>,
   states: ReadonlyMap<string, ConceptState>,
   now: number,
+  byConcept: ReadonlyMap<string, readonly Question[]>,
 ): string[] {
   const urgency = (conceptId: string): number => {
     const s = states.get(conceptId);
@@ -237,10 +272,14 @@ function orderDue(
     return isResolved(s) ? 2 : 1;
   };
   const dueAt = (conceptId: string) => schedules.get(conceptId)?.due.getTime() ?? 0;
+  const coverage = (conceptId: string) => modeCoverage(conceptId, byConcept);
 
   return dueConcepts(schedules, now).sort(
     (x, y) =>
-      dueAt(x) - dueAt(y) || urgency(x) - urgency(y) || (x < y ? -1 : x > y ? 1 : 0),
+      dueAt(x) - dueAt(y) ||
+      urgency(x) - urgency(y) ||
+      coverage(y) - coverage(x) ||
+      (x < y ? -1 : x > y ? 1 : 0),
   );
 }
 
@@ -280,7 +319,7 @@ export function planSession(
 
   // A due concept with no exemplar is a due concept the learner cannot be shown
   // anything for, so it is not a session.
-  const due = orderDue(schedules, states, now).filter((id) => byConcept.has(id));
+  const due = orderDue(schedules, states, now, byConcept).filter((id) => byConcept.has(id));
   const focusConceptId = due[0];
   if (focusConceptId === undefined) return emptyPlan();
 
