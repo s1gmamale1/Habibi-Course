@@ -1,10 +1,12 @@
 "use client";
 import { useState } from "react";
-import { displayLetters } from "@/games/arabic";
+import { contextualGlyphs, displayLetters } from "@/games/arabic";
+import type { FormKey } from "@/games/derive";
 import { registerGame } from "../registry";
 import type { GameApi, Question, StudySet } from "../types";
 
 const GAME_ID = "broken-form";
+const ZWJ = "\u200D";
 
 export type BrokenFormPayload = {
   word: string;
@@ -15,21 +17,47 @@ export type BrokenFormPayload = {
   letter: string;
 };
 
-/** Which positional form a letter at index `i` of `n` should take. */
-function correctForm(i: number, n: number): "isolated" | "initial" | "medial" | "final" {
-  if (n === 1) return "isolated";
-  if (i === 0) return "initial";
-  if (i === n - 1) return "final";
-  return "medial";
+/**
+ * Which positional form a CORRECTLY shaped glyph actually represents.
+ *
+ * Reads the joining decision back off `contextualGlyphs`' ZWJ padding instead
+ * of re-deriving it from index arithmetic ("first letter = initial, last =
+ * final"). That arithmetic is wrong the moment a non-connector (ا د ذ ر ز و)
+ * or a non-forward-joining hamza-carrier sits before the letter in question —
+ * contextualGlyphs already knows those rules, so this reuses its answer
+ * rather than re-encoding it.
+ */
+function formKeyOf(shapedGlyph: string): FormKey {
+  const joinsPrev = shapedGlyph.charAt(0) === ZWJ;
+  const joinsNext = shapedGlyph.charAt(shapedGlyph.length - 1) === ZWJ;
+  if (joinsPrev && joinsNext) return "medial";
+  if (joinsPrev) return "final";
+  if (joinsNext) return "initial";
+  return "isolated";
+}
+
+/** Deterministic (non-random) index into [0, mod) — questions must be reproducible from the ledger. */
+function stableIndex(seed: string, mod: number): number {
+  let h = 0;
+  for (let i = 0; i < seed.length; i += 1) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+  return h % mod;
 }
 
 /**
  * One question per (word, letter) pair the course has taught full forms for.
  *
- * The broken glyph is always another REAL form of the same letter. Substituting
- * a random glyph would turn this into spot-the-garbage; the teaching point is
- * that تـ and ـت are both correct Arabic and only one of them belongs at the
- * end of a word.
+ * The broken glyph is always another REAL form of the same letter, chosen
+ * deterministically rather than always the first candidate (which, in
+ * authoring order, is always "isolated" — that made every shipped question
+ * spot-the-disconnected-letter instead of testing the actual positional
+ * confusion). Substituting a random glyph would turn this into
+ * spot-the-garbage; the teaching point is that تـ and ـت are both correct
+ * Arabic and only one of them belongs at the end.
+ *
+ * Bystander letters are rendered through `contextualGlyphs` — the same
+ * machinery the rest of the games use — so a non-connector or a letter that
+ * has no taught FormEntry (only ≥3-form letters get one) still renders in its
+ * true shape instead of falling back to a bare, unshaped glyph.
  */
 export function brokenFormQuestions(set: StudySet): Question[] {
   const out: Question[] = [];
@@ -38,20 +66,20 @@ export function brokenFormQuestions(set: StudySet): Question[] {
   for (const word of set.words) {
     const letters = displayLetters(word.arabic);
     if (letters.length < 2) continue;
+    const shaped = contextualGlyphs(word.arabic);
+
     for (let i = 0; i < letters.length; i += 1) {
       const entry = byLetter.get(letters[i]);
       if (!entry) continue;
-      const want = correctForm(i, letters.length);
+      const want = formKeyOf(shaped[i]);
       const right = entry.forms[want];
-      const wrong = (Object.entries(entry.forms) as [string, string][])
+      const candidates = (Object.entries(entry.forms) as [FormKey, string][])
         .filter(([k, v]) => k !== want && v && v !== right)
-        .map(([, v]) => v)[0];
-      if (!right || !wrong) continue;
+        .map(([, v]) => v);
+      if (!right || candidates.length === 0) continue;
+      const wrong = candidates[stableIndex(`${word.arabic}:${i}`, candidates.length)];
 
-      const glyphs = letters.map((l, j) => {
-        const e = byLetter.get(l);
-        return e?.forms[correctForm(j, letters.length)] ?? l;
-      });
+      const glyphs = [...shaped];
       glyphs[i] = wrong;
 
       out.push({
