@@ -15,6 +15,28 @@ import { DueTodayPanel } from "./DueToday";
 import { SessionRunner } from "./SessionRunner";
 
 /**
+ * A day index, in the same clock `start` already reads for `now`.
+ *
+ * `planSession`'s `seed` has to be **stable but not fixed**: fixed (the
+ * default, `undefined`) is what produced I1 — `rand` always returns `0`, so
+ * `draw` always takes the first exemplar of the least-used shape, and every
+ * learner on every lesson got the identical two-word session forever, however
+ * large the pool behind it was. Reseeding from `Math.random()` at the other
+ * extreme breaks the reason the default is fixed in the first place: the plan
+ * is rebuilt from the ledger on every load rather than stored, so an unseeded
+ * (or randomly seeded) draw would reshuffle the session out from under a
+ * learner who merely refreshed mid-sitting.
+ *
+ * A day index is both: it is a pure function of `now`, so replanning from an
+ * identical `now` still gives an identical plan (the existing "same inputs,
+ * same plan" test holds), and it does not change again until the calendar
+ * date does — which covers a refresh, and covers every session started the
+ * same day — while still moving the exemplar draw from one day to the next.
+ */
+const DAY_MS = 86_400_000;
+const seedFor = (now: number): number => Math.floor(now / DAY_MS);
+
+/**
  * The practice engine's front door, and the only place it is reachable.
  *
  * Everything below it — the ledger, `derive`, the scheduler, session assembly,
@@ -90,6 +112,7 @@ export function PracticeSession({
         derive(attempts, now),
         questions,
         now,
+        { seed: seedFor(now) },
       ),
       pool: questions,
     });
