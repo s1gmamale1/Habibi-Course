@@ -36,6 +36,23 @@ function formKeyOf(shapedGlyph: string): FormKey {
   return "isolated";
 }
 
+/**
+ * All four positional forms of a bare (ZWJ-free) letter, built the same way
+ * `contextualGlyphs` builds them — ZWJ padding around the same base glyph,
+ * never a tatweel. Keeping the wrong glyph on this same construction is what
+ * makes it indistinguishable from a bystander by rendering style alone: a
+ * tatweel-sourced wrong glyph (from `entry.forms`) is a visible tell that
+ * lets a learner spot the broken letter without knowing any joining rule.
+ */
+function positionalGlyphs(base: string): Record<FormKey, string> {
+  return {
+    isolated: base,
+    initial: `${base}${ZWJ}`,
+    medial: `${ZWJ}${base}${ZWJ}`,
+    final: `${ZWJ}${base}`,
+  };
+}
+
 /** Deterministic (non-random) index into [0, mod) — questions must be reproducible from the ledger. */
 function stableIndex(seed: string, mod: number): number {
   let h = 0;
@@ -46,18 +63,21 @@ function stableIndex(seed: string, mod: number): number {
 /**
  * One question per (word, letter) pair the course has taught full forms for.
  *
- * The broken glyph is always another REAL form of the same letter, chosen
- * deterministically rather than always the first candidate (which, in
- * authoring order, is always "isolated" — that made every shipped question
- * spot-the-disconnected-letter instead of testing the actual positional
- * confusion). Substituting a random glyph would turn this into
- * spot-the-garbage; the teaching point is that تـ and ـت are both correct
- * Arabic and only one of them belongs at the end.
- *
- * Bystander letters are rendered through `contextualGlyphs` — the same
- * machinery the rest of the games use — so a non-connector or a letter that
- * has no taught FormEntry (only ≥3-form letters get one) still renders in its
- * true shape instead of falling back to a bare, unshaped glyph.
+ * Every glyph — broken and bystander alike — comes from the same mechanism:
+ * a bare letter re-wrapped in one of the four ZWJ join configurations that
+ * `contextualGlyphs` itself uses. The wrong form is chosen deterministically
+ * (a stable hash of word+index, never `Math.random()` — questions must be
+ * reproducible from the ledger) rather than always the first candidate,
+ * which in authoring order was always "isolated" and made every shipped
+ * question spot-the-disconnected-letter instead of testing the actual
+ * positional confusion. Sourcing it from `entry.forms` (the lesson JSON,
+ * which authors positional forms with a literal tatweel U+0640) was an
+ * earlier version of the same defect via a different tell: a tatweel-sourced
+ * glyph is visually distinguishable from a ZWJ-shaped bystander regardless of
+ * whether the join is correct, so a learner could just tap the glyph with the
+ * dash strokes. `set.forms` (the FormEntry list) still gates ELIGIBILITY — a
+ * letter needs ≥3 authored forms for its positional confusion to be a
+ * meaningful lesson — it just no longer supplies the glyph text itself.
  */
 export function brokenFormQuestions(set: StudySet): Question[] {
   const out: Question[] = [];
@@ -69,15 +89,12 @@ export function brokenFormQuestions(set: StudySet): Question[] {
     const shaped = contextualGlyphs(word.arabic);
 
     for (let i = 0; i < letters.length; i += 1) {
-      const entry = byLetter.get(letters[i]);
-      if (!entry) continue;
+      if (!byLetter.has(letters[i])) continue;
       const want = formKeyOf(shaped[i]);
-      const right = entry.forms[want];
-      const candidates = (Object.entries(entry.forms) as [FormKey, string][])
-        .filter(([k, v]) => k !== want && v && v !== right)
-        .map(([, v]) => v);
-      if (!right || candidates.length === 0) continue;
-      const wrong = candidates[stableIndex(`${word.arabic}:${i}`, candidates.length)];
+      const base = shaped[i].split(ZWJ).join("");
+      const configs = positionalGlyphs(base);
+      const candidateKeys = (Object.keys(configs) as FormKey[]).filter((k) => k !== want);
+      const wrong = configs[candidateKeys[stableIndex(`${word.arabic}:${i}`, candidateKeys.length)]];
 
       const glyphs = [...shaped];
       glyphs[i] = wrong;

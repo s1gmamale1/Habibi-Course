@@ -19,6 +19,19 @@ const set: StudySet = {
   words: [{ arabic: "بَيْت", translit: "bayt", meaning: "house" }],
 };
 
+// Mirrors brokenForm.tsx's own ZWJ-based classification — kept local so the
+// test asserts the intended relation rather than importing the very
+// classifier it is checking (same pattern as arabic.test.ts's BASE_MAP fold).
+const ZWJ = "\u200D";
+function formKindOf(glyph: string): "isolated" | "initial" | "medial" | "final" {
+  const joinsPrev = glyph.charAt(0) === ZWJ;
+  const joinsNext = glyph.charAt(glyph.length - 1) === ZWJ;
+  if (joinsPrev && joinsNext) return "medial";
+  if (joinsPrev) return "final";
+  if (joinsNext) return "initial";
+  return "isolated";
+}
+
 describe("brokenFormQuestions", () => {
   test("only asks about letters whose forms the course has taught", () => {
     const qs = brokenFormQuestions(set);
@@ -26,14 +39,18 @@ describe("brokenFormQuestions", () => {
     for (const q of qs) expect(q.conceptId).toBe("ت");
   });
 
-  test("the broken glyph is a REAL form of the letter, just the wrong one", () => {
-    // A random glyph would be a spot-the-garbage game. The teaching point is
-    // that ـت and تـ are both real and only one belongs at the end.
+  test("the broken glyph is a differently-joined form of the SAME base letter — not a tatweel-sourced form", () => {
+    // A random glyph would be spot-the-garbage. A tatweel-sourced glyph (as
+    // lesson JSON authors "ـت") is a visible tell distinguishable from a
+    // ZWJ-shaped bystander by rendering style alone, regardless of whether the
+    // join is correct — that was fix round 2's bug. The broken glyph must be
+    // built from the same base letter, wrapped in a different ZWJ join.
     const q = brokenFormQuestions(set)[0];
     const p = q.payload as BrokenFormPayload;
-    const all = Object.values(forms[0].forms);
-    expect(all).toContain(p.glyphs[p.brokenIndex]);
-    expect(p.glyphs[p.brokenIndex]).not.toBe("ـت");
+    const broken = p.glyphs[p.brokenIndex];
+    expect(broken).not.toContain("ـ");
+    expect(broken.split(ZWJ).join("")).toBe(p.letter);
+    expect(broken).not.toBe(contextualGlyphs(p.word)[p.brokenIndex]);
   });
 
   test("a set with no usable word yields no questions rather than throwing", () => {
@@ -54,29 +71,18 @@ describe("brokenFormQuestions — wrong-form variety (regression: fix round 1 bu
   // back, so it reads real lesson data rather than a single-letter fixture.
   test("across real lesson 2-08 content, the broken glyph is not always the isolated form", () => {
     const real = lessonSet("2-08");
-    const byLetter = new Map(real.forms.map((f) => [f.item.arabic, f]));
     const qs = brokenFormQuestions(real);
     expect(qs.length).toBeGreaterThan(20);
 
-    const isIsolated = qs.map((q) => {
+    const kinds = qs.map((q) => {
       const p = q.payload as BrokenFormPayload;
-      const entry = byLetter.get(p.letter);
-      return entry?.forms.isolated === p.glyphs[p.brokenIndex];
+      return formKindOf(p.glyphs[p.brokenIndex]);
     });
     // At least one non-isolated wrong form must appear.
-    expect(isIsolated.some((wasIsolated) => !wasIsolated)).toBe(true);
+    expect(kinds.some((k) => k !== "isolated")).toBe(true);
     // And it must not be a coincidence — more than one distinct wrong-form
     // kind should show up across the real question set.
-    const kinds = new Set(
-      qs.map((q) => {
-        const p = q.payload as BrokenFormPayload;
-        const entry = byLetter.get(p.letter);
-        return (Object.entries(entry?.forms ?? {}) as [string, string][]).find(
-          ([, v]) => v === p.glyphs[p.brokenIndex],
-        )?.[0];
-      }),
-    );
-    expect(kinds.size).toBeGreaterThan(1);
+    expect(new Set(kinds).size).toBeGreaterThan(1);
   });
 
   test("the choice is deterministic, not random — same input yields the same output", () => {
@@ -84,6 +90,34 @@ describe("brokenFormQuestions — wrong-form variety (regression: fix round 1 bu
     const a = brokenFormQuestions(real).map((q) => (q.payload as BrokenFormPayload).glyphs[(q.payload as BrokenFormPayload).brokenIndex]);
     const b = brokenFormQuestions(real).map((q) => (q.payload as BrokenFormPayload).glyphs[(q.payload as BrokenFormPayload).brokenIndex]);
     expect(a).toEqual(b);
+  });
+});
+
+describe("brokenFormQuestions — no tatweel tell (regression: fix round 2)", () => {
+  // Bystanders come from contextualGlyphs — bare letter plus ZWJ padding,
+  // never a tatweel. Fix round 1 left the broken glyph sourced from
+  // entry.forms, which the lesson JSON authors WITH a literal tatweel
+  // (U+0640), e.g. "ـب". That made the broken glyph identifiable by
+  // rendering style alone — no joining knowledge required, just look for the
+  // dash strokes. Both invariants below must fail against that version.
+  test("no glyph anywhere contains a tatweel (U+0640), broken or bystander", () => {
+    const real = lessonSet("2-08");
+    const qs = brokenFormQuestions(real);
+    expect(qs.length).toBeGreaterThan(20);
+    for (const q of qs) {
+      const p = q.payload as BrokenFormPayload;
+      for (const g of p.glyphs) expect(g).not.toContain("ـ");
+    }
+  });
+
+  test("the broken glyph still differs from the correct one everywhere", () => {
+    const real = lessonSet("2-08");
+    const qs = brokenFormQuestions(real);
+    expect(qs.length).toBeGreaterThan(20);
+    for (const q of qs) {
+      const p = q.payload as BrokenFormPayload;
+      expect(p.glyphs[p.brokenIndex]).not.toBe(contextualGlyphs(p.word)[p.brokenIndex]);
+    }
   });
 });
 
