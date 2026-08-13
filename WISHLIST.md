@@ -9,6 +9,37 @@ Capture inbox. Nothing here is scheduled — scoped work gets promoted to `ROADM
 
 ---
 
+## 2026-08-13 — carried out of the games rebuild
+
+The slice shipped (`docs/superpowers/plans/2026-08-13-games-rebuild.md`). These are what its reviews found and deliberately did not fix.
+
+### Needs an owner decision — a real Unit 3 regression
+
+**The seven tajweed drills are no longer plannable into a session, on all 33 Unit 3 lessons.** `PracticeSession` now plans over `SLICE_GAME_IDS` only. Before the rebuild the pool was `[...LETTER_GAME_IDS, ...lesson.games]`, which resolved a lesson's tajweed drills through the old registry — lesson `3-23` contributed **23 exemplars across 12 rule concepts**, `3-05` contributed 24 across 11. Today those pools contain **zero** tajweed questions.
+
+The drills still work and are still reachable from the `GamePanel` tab list, so nothing is dead — but all 18 tajweed rules are seeded into `conceptRoster`, permanently due and permanently undrawable. The spec authorised leaving them unported *because the slice is one Unit 1 lesson*; the pool swap then shipped to all 74 practice pages, which is wider than that scope.
+
+**Two ways out:** scope the pool swap to Unit 1 until the tajweed drills are ported onto `GameSpec`, or accept it as a named regression until the widening phase. It should not sit unnamed either way.
+
+### Carry-forward for the widening phase
+
+- **`SessionRunner`'s "off-plan rule" feedback was retired** — `GameApi.answer` carries no `ruleId`, so a drill can no longer say it graded a different rule than the session planned. Inert today (all four slice games grade exactly the concept planned) and **real the moment the tajweed drills are ported**, because the old registry mounted a drill by id and let it pick its own rule. Needs a design answer before that port.
+- **A second discrimination game.** `MAX_RUN` is now relaxed when a mode has only one registered graded game — a workaround, not a fix. With a second game at that mode the special case stops mattering.
+
+### Smaller, none blocking
+
+- `positionalGlyphs` in `brokenForm.tsx` duplicates `contextualGlyphs`' ZWJ logic; a future non-connector rule change would not be caught by types.
+- `pickDistractors` silently returns fewer than 3 distractors when a set has under 4 unique meanings.
+- `contract.test.ts` asserts `>= 2` modes; real content reaches 3 on 72 of 74 lessons, so the floor is now below what ships and would not catch a regression to 2.
+- `session.ts` is 625 lines, past the 500 guideline. The scheduling fold (`schedulesFromLedger`, `conceptRoster`) splits out cleanly from plan assembly.
+- `src/practice/attempt.ts` is production-dead, and the comment claiming the tajweed drills build rows through it is **false** — no production caller passes `onResult` to `GamePanel`. Keeping it is fine; the stated reason is not true.
+- `letterDrills.test.tsx` and part of `GamePanel.test.tsx` now exercise a path with no production caller. Worth relabelling as "the mechanism the widening phase reconnects".
+- Stale doc comments naming `PoolItem`/`PlannedItem` at `GameRegistry.ts:85` and `FeedbackBar.tsx:88`.
+- The set screen renders a whole mode end to end — "Match (82)", broken-form at 211. Quizlet's Match is a ~6-pair board. Not a bug; the difference between a set to play and a list to survive.
+- `broken-form`'s wrong-answer line does not say which form the letter *should* have been, though `formKeyOf` has it.
+
+---
+
 ## 2026-08-12 — Sound effects where relevant *(owner override of a recorded constraint)*
 
 **Owner asked for this directly.** It reverses a line the practice-engine plan set deliberately, so both the original reasoning and the reversal are recorded here rather than quietly dropped.
