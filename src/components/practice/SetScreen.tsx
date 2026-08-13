@@ -36,6 +36,10 @@ function clockNow(): number {
 export function SetScreen({ set }: { set: StudySet }) {
   const [mode, setMode] = useState<string | null>(null);
   const [index, setIndex] = useState(0);
+  // Set once an answer lands, cleared only when Continue moves the session on
+  // — see `record`/`advance` below for why the two are split.
+  const [answered, setAnswered] = useState(false);
+  const [writeFailures, setWriteFailures] = useState(0);
   const [sessionId] = useState(() => `set:${set.id}:${crypto.randomUUID()}`);
 
   const questions = useMemo(
@@ -45,6 +49,14 @@ export function SetScreen({ set }: { set: StudySet }) {
   const spec = mode ? getGame(mode) : undefined;
   const current: Question | undefined = questions[index];
 
+  /**
+   * Records the answer but does **not** move on — the same split
+   * `useSession`'s `record`/`advance` make, and for the same reason: the
+   * question is keyed on `current.itemKey`, so advancing synchronously here
+   * would unmount the drill (and the `role="status"` correction it just
+   * wrote) before anyone could read it. `advance` below is the only thing
+   * that changes `index`, and only a learner clicking Continue calls it.
+   */
   function record(q: Question, correct: boolean | null) {
     void appendAttempt({
       id: crypto.randomUUID(),
@@ -59,9 +71,16 @@ export function SetScreen({ set }: { set: StudySet }) {
       // A lost row beats a lost turn — the same failure mode `useSession` takes.
       // Never fabricate a concept to dodge the ledger's guard; a malformed id
       // is a bug in the game that produced the question, not something to paper
-      // over here.
+      // over here. Surfaced via `writeFailures` rather than swallowed — see
+      // `SessionRunner`'s identical notice.
+      setWriteFailures((n) => n + 1);
     });
+    setAnswered(true);
+  }
+
+  function advance() {
     setIndex((i) => i + 1);
+    setAnswered(false);
   }
 
   if (!mode || !spec) {
@@ -79,7 +98,7 @@ export function SetScreen({ set }: { set: StudySet }) {
               <button
                 key={id}
                 type="button"
-                onClick={() => { setMode(id); setIndex(0); }}
+                onClick={() => { setMode(id); setIndex(0); setAnswered(false); }}
                 className="cta-secondary rounded-full px-4 py-2 text-sm"
               >
                 {g.label} <span className="text-white/40">({n})</span>
@@ -101,6 +120,13 @@ export function SetScreen({ set }: { set: StudySet }) {
           Done
         </button>
       </div>
+      {writeFailures > 0 && (
+        // Mirrors `SessionRunner`'s notice: unobtrusive, never a modal, never a
+        // reason to stop answering.
+        <p data-testid="write-failures" className="mb-2 text-xs text-white/45">
+          السجلّ غير مكتمل · history incomplete (<bdi dir="ltr">{writeFailures}</bdi>)
+        </p>
+      )}
       <div data-testid="set-drill">
         {current ? (
           <div key={current.itemKey}>
@@ -113,6 +139,18 @@ export function SetScreen({ set }: { set: StudySet }) {
           <p className="text-white/80">Set complete.</p>
         )}
       </div>
+      {current && (
+        <div className="mt-3 flex justify-end">
+          <button
+            type="button"
+            disabled={!answered}
+            onClick={advance}
+            className="cta-primary rounded-full px-6 py-2 text-sm font-semibold disabled:opacity-40"
+          >
+            Continue
+          </button>
+        </div>
+      )}
     </section>
   );
 }

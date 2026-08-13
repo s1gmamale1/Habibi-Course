@@ -43,4 +43,32 @@ describe("SetScreen", () => {
     await user.click(screen.getByRole("button", { name: /done/i }));
     expect(await screen.findByRole("button", { name: /broken form/i })).toBeTruthy();
   });
+
+  test("the correction survives the answer, and the question only changes after Continue", async () => {
+    // C1: `record` used to call `setIndex` synchronously inside the answer
+    // handler, unmounting the drill (keyed on `current.itemKey`) before its
+    // own `role="status"` correction ever painted.
+    const user = userEvent.setup();
+    render(<SetScreen set={lessonSet("2-08")} />);
+    await user.click(await screen.findByRole("button", { name: /match/i }));
+
+    const counterBefore = screen.getByText(/1\/\d+/);
+    expect(counterBefore).toBeTruthy();
+
+    const band = await screen.findByTestId("set-drill");
+    const option = within(band).getAllByRole("button").find((b) => b.getAttribute("aria-disabled") !== "true");
+    await user.click(option!);
+
+    const status = within(band).getByRole("status");
+    await waitFor(() => expect(/[✓✗]/.test(status.textContent ?? "")).toBe(true));
+
+    // Still on the first question — advancing is gated on Continue.
+    expect(screen.getByText(/1\/\d+/)).toBeTruthy();
+
+    const continueBtn = screen.getByRole("button", { name: /continue/i });
+    expect(continueBtn.hasAttribute("disabled")).toBe(false);
+    await user.click(continueBtn);
+
+    expect(screen.getByText(/2\/\d+/)).toBeTruthy();
+  });
 });
