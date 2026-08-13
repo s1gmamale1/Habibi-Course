@@ -54,7 +54,7 @@ describe("no game reads a clock it was not given", () => {
     const { readdirSync, readFileSync } = await import("node:fs");
     const { join } = await import("node:path");
     const dir = join(process.cwd(), "src/games2/games");
-    for (const f of readdirSync(dir).filter((f) => f.endsWith(".tsx"))) {
+    for (const f of readdirSync(dir).filter((f) => f.endsWith(".ts") || f.endsWith(".tsx"))) {
       expect(readFileSync(join(dir, f), "utf8")).not.toMatch(/Date\.now\(\)/);
     }
   });
