@@ -1,5 +1,5 @@
 import { TAJWEED_RULES } from "@/content/tajweed";
-import { getGame } from "@/games2/registry";
+import { allGames, getGame } from "@/games2/registry";
 import { MODE_RANK, type Question, type ResponseMode } from "@/games2/types";
 
 import { isResolved, isWeak, orderedAttempts, type ConceptState } from "./derive";
@@ -126,6 +126,36 @@ const EDGE = 2;
 
 /** Consecutive items of one drill shape. Three in a row stops being practice and starts being a form. */
 const MAX_RUN = 2;
+
+/**
+ * Games that are the only graded entrant at their response mode, derived from
+ * the registry rather than hardcoded — so a second game registering at a mode
+ * automatically restores the limit there.
+ *
+ * `MAX_RUN` exists to stop a session reading as a monotonous form when there
+ * *was* a choice not to repeat a shape. When a mode has exactly one graded
+ * game — `match` at recognition and `broken-form` at discrimination, in this
+ * slice — there is no choice: every question at that mode is that game, so a
+ * run of it is unavoidable rather than monotonous. Enforcing the cap there
+ * anyway does not buy variety; measured on real content it silently deleted
+ * every interleaved item and 43% of the session budget on every one of 74
+ * lessons (C2), because `tryPlace` could never insert a review at the one mode
+ * its own gameId already occupied on both sides.
+ */
+function soleGradedGamesByMode(): ReadonlySet<string> {
+  const idsByMode = new Map<ResponseMode, string[]>();
+  for (const g of allGames()) {
+    if (!g.graded) continue;
+    const ids = idsByMode.get(g.mode);
+    if (ids) ids.push(g.id);
+    else idsByMode.set(g.mode, [g.id]);
+  }
+  const out = new Set<string>();
+  for (const ids of idsByMode.values()) {
+    if (ids.length === 1) out.add(ids[0]);
+  }
+  return out;
+}
 
 /** ~25% of the session, drawn from this many other due concepts. */
 const INTERLEAVE_TARGET = 3;
@@ -327,6 +357,7 @@ export function planSession(
   const used = new Set<string>();
   const drawnByGame = new Map<string, number>();
   let timedDrawn = 0;
+  const soleGames = soleGradedGamesByMode();
 
   /** Turn a question into a planned one, and record what that spends. */
   function commit(q: Question, isInterleaved: boolean): PlannedQuestion {
@@ -440,10 +471,10 @@ export function planSession(
   // drill at the top of its ramp ends "…, X, X, X". Dropping back into the
   // arranged items is the same trade `arrange` makes — a shorter session, not a
   // monotonous one.
-  const ordered = arrange(focusItems);
-  while (ordered.length > 0 && hasRun([...ordered, closing])) ordered.pop();
+  const ordered = arrange(focusItems, soleGames);
+  while (ordered.length > 0 && hasRun([...ordered, closing], soleGames)) ordered.pop();
   const backbone = [...ordered, closing];
-  const items = place(backbone, interleaved);
+  const items = place(backbone, interleaved, soleGames);
   return { focusConceptId, items, slots: items.reduce((n, i) => n + i.slots, 0) };
 }
 
@@ -534,14 +565,16 @@ function chooseInterleaveMode(backbone: readonly PlannedQuestion[], count: numbe
  * nothing else at that mode — a thin pool, which should read as a short session
  * rather than a monotonous one.
  */
-function arrange(items: readonly PlannedQuestion[]): PlannedQuestion[] {
+function arrange(items: readonly PlannedQuestion[], soleGames: ReadonlySet<string>): PlannedQuestion[] {
   const out: PlannedQuestion[] = [];
   for (const mode of MODE_ORDER) {
     let remaining = items.filter((i) => i.mode === mode);
     while (remaining.length > 0) {
       const tail = out.slice(-MAX_RUN);
       const blocked =
-        tail.length === MAX_RUN && new Set(tail.map((i) => i.gameId)).size === 1
+        tail.length === MAX_RUN &&
+        new Set(tail.map((i) => i.gameId)).size === 1 &&
+        !soleGames.has(tail[0].gameId)
           ? tail[0].gameId
           : null;
       const allowed = remaining.filter((i) => i.gameId !== blocked);
@@ -558,11 +591,21 @@ function arrange(items: readonly PlannedQuestion[]): PlannedQuestion[] {
   return out;
 }
 
-/** Three of one shape in a row, anywhere in the sequence. */
-function hasRun(items: readonly PlannedQuestion[]): boolean {
+/**
+ * Three of one shape in a row, anywhere in the sequence.
+ *
+ * A run of a game that is the only graded entrant at its mode does not count
+ * — see `soleGradedGamesByMode` — because there was no alternative shape to
+ * spread it across.
+ */
+function hasRun(items: readonly PlannedQuestion[], soleGames: ReadonlySet<string>): boolean {
   for (let i = MAX_RUN; i < items.length; i += 1) {
     const window = items.slice(i - MAX_RUN, i + 1);
-    if (new Set(window.map((it) => it.gameId)).size === 1) return true;
+    const ids = new Set(window.map((it) => it.gameId));
+    if (ids.size !== 1) continue;
+    const [gameId] = ids;
+    if (soleGames.has(gameId)) continue;
+    return true;
   }
   return false;
 }
@@ -580,9 +623,13 @@ function hasRun(items: readonly PlannedQuestion[]): boolean {
  * legal to sit is a review in the wrong place, and the constraint it would break
  * is the reason it exists.
  */
-function place(backbone: PlannedQuestion[], interleaved: readonly PlannedQuestion[]): PlannedQuestion[] {
+function place(
+  backbone: PlannedQuestion[],
+  interleaved: readonly PlannedQuestion[],
+  soleGames: ReadonlySet<string>,
+): PlannedQuestion[] {
   for (let count = interleaved.length; count > 0; count -= 1) {
-    const attempt = tryPlace(backbone, interleaved.slice(0, count));
+    const attempt = tryPlace(backbone, interleaved.slice(0, count), soleGames);
     if (attempt) return attempt;
   }
   return backbone;
@@ -591,6 +638,7 @@ function place(backbone: PlannedQuestion[], interleaved: readonly PlannedQuestio
 function tryPlace(
   backbone: readonly PlannedQuestion[],
   interleaved: readonly PlannedQuestion[],
+  soleGames: ReadonlySet<string>,
 ): PlannedQuestion[] | null {
   const total = backbone.length + interleaved.length;
   const out = [...backbone];
@@ -611,7 +659,7 @@ function tryPlace(
     for (const from of [Math.max(first, cursor + 2), first]) {
       for (let i = from; i <= last && placed === -1; i += 1) {
         const trial = [...out.slice(0, i), item, ...out.slice(i)];
-        if (hasRun(trial.slice(Math.max(0, i - MAX_RUN), i + MAX_RUN + 1))) continue;
+        if (hasRun(trial.slice(Math.max(0, i - MAX_RUN), i + MAX_RUN + 1), soleGames)) continue;
         out.splice(i, 0, item);
         placed = i;
       }
@@ -621,5 +669,5 @@ function tryPlace(
     cursor = placed;
   }
 
-  return hasRun(out) ? null : out;
+  return hasRun(out, soleGames) ? null : out;
 }

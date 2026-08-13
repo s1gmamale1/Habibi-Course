@@ -56,6 +56,18 @@ describe("cold-start mode coverage, against real content", () => {
     expect(plan.items.some((i) => i.gameId === "broken-form")).toBe(true);
   });
 
+  test("lesson 2-08 interleaves, cold — the sibling of the mode-coverage test above", () => {
+    // C2: with only one recognition game (`match`) and one discrimination game
+    // (`broken-form`) registered, `tryPlace` could only ever try to insert a
+    // review at the one mode its own gameId already occupied on both
+    // neighbours, so `hasRun` rejected every slot and every session — on all
+    // 74 lessons — covered exactly one concept with zero interleaved items.
+    // This is the test that would have caught it.
+    const plan = coldPlanFor("2-08");
+    expect(plan.items.some((i) => i.isInterleaved)).toBe(true);
+    expect(new Set(plan.items.map((i) => i.conceptId)).size).toBeGreaterThan(1);
+  });
+
   test("a spread of lessons all reach at least three distinct modes, cold", () => {
     // 1-01 and 1-02 are excluded on purpose, not weakened around: each
     // teaches exactly one word in its lesson examples, and `matchQuestions`
