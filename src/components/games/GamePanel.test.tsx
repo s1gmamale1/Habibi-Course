@@ -2,14 +2,12 @@ import "fake-indexeddb/auto";
 import { IDBFactory } from "fake-indexeddb";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { useState } from "react";
 import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 import type { GameData } from "@/games/derive";
-import { allAttempts } from "@/practice/ledger";
-import { shapeOf, type PlannedItem, type PoolItem, type SessionPlan } from "@/practice/session";
-import { useSession } from "@/practice/useSession";
+import { attemptFromResult } from "@/practice/attempt";
+import { allAttempts, appendAttempt } from "@/practice/ledger";
 import { GamePanel } from "./GamePanel";
-import { clearGames, registerGame } from "./GameRegistry";
+import { clearGames, registerGame, type GameResult } from "./GameRegistry";
 
 const mk = (arabic: string, name: string) => ({ arabic, name, audio: { type: "teacher-voice" as const, cue: "c" } });
 
@@ -127,22 +125,29 @@ describe("the letter drills report through the panel", () => {
     formsTaught: true,
   };
 
-  /** One planned slot per drill, all on the same letter. */
-  function planFor(n: number): { plan: SessionPlan; pool: PoolItem[] } {
-    const items: PlannedItem[] = Array.from({ length: n }, (_, i) => ({
-      conceptId: LETTER,
-      itemKey: `${LETTER}/letter-quiz/${i}`,
-      gameId: "letter-quiz",
-      ...shapeOf("letter-quiz"),
-      isInterleaved: false,
-    }));
-    return { plan: { focusConceptId: LETTER, items, slots: items.length }, pool: items };
+  /**
+   * `onResult` wired straight to the ledger through `attemptFromResult` — the
+   * mechanism `useSession` used to call on this path before Task 9 moved that
+   * hook onto `Question`s. These four drills still run on the old registry and
+   * are not planned by a `SessionPlan` in this slice, so there is no plan to
+   * build here; the claim under test is only that a result reaches a correct,
+   * ledger-writable row keyed to the concept the panel was told to report.
+   */
+  let seq = 0;
+  function onResult(r: GameResult) {
+    seq += 1;
+    void appendAttempt(
+      attemptFromResult(r, {
+        conceptId: LETTER,
+        itemKey: `${LETTER}/${r.gameId}/${seq}`,
+        sessionId: "s-panel",
+        isInterleaved: false,
+      }),
+    );
   }
 
   function Harness() {
-    const [{ plan, pool }] = useState(() => planFor(4));
-    const runner = useSession(plan, pool, { sessionId: "s-panel" });
-    return <GamePanel data={data} onResult={runner.submit} />;
+    return <GamePanel data={data} onResult={onResult} />;
   }
 
   const tab = (name: RegExp) => userEvent.click(screen.getByRole("button", { name }));
@@ -150,6 +155,7 @@ describe("the letter drills report through the panel", () => {
   beforeEach(() => {
     globalThis.indexedDB = new IDBFactory();
     vi.spyOn(Math, "random").mockReturnValue(0);
+    seq = 0;
   });
   afterEach(() => vi.restoreAllMocks());
 

@@ -2,46 +2,17 @@
 import { useCallback, useMemo, useState, type ReactNode } from "react";
 
 import { GamePanel } from "@/components/games/GamePanel";
-import { getGames } from "@/components/games/GameRegistry";
-import { LETTER_GAME_IDS } from "@/components/games/letters";
+import { SLICE_GAME_IDS } from "@/games2/games";
+import { questionsFor } from "@/games2/registry";
+import { setFromGameData } from "@/games2/studySetFromData";
+import type { Question } from "@/games2/types";
 import type { GameData } from "@/games/derive";
 import { derive } from "@/practice/derive";
 import { allAttempts } from "@/practice/ledger";
+import { conceptRoster, planSession, schedulesFromLedger, type SessionPlan } from "@/practice/session";
 import type { Attempt } from "@/practice/types";
-import {
-  UNGRADED_GAME_IDS,
-  conceptRoster,
-  planSession,
-  schedulesFromLedger,
-  type PoolItem,
-  type SessionPlan,
-} from "@/practice/session";
 import { DueTodayPanel } from "./DueToday";
 import { SessionRunner } from "./SessionRunner";
-
-/**
- * Every question a session could ask on this lesson's page.
- *
- * The registry is the only thing that knows what a drill can be asked — see
- * `GameEntry.exemplars` — so this is the one place the pool can come from, and
- * without it `planSession` receives nothing and every due concept is silently
- * undrawable.
- *
- * `gameId` is stamped from the entry that advertised the exemplar rather than
- * carried in it, because `Exemplar` deliberately does not name a drill: the
- * drills are the authority on what exists, and they must not depend on the
- * practice engine to say so.
- *
- * Unknown ids drop out via `getGames`, and a drill with no `exemplars` — or one
- * handed data it cannot use — contributes `[]`. Both are true answers, not
- * failures: a lesson naming a drill that has not shipped should plan around it,
- * not break.
- */
-export function sessionPool(ids: readonly string[], data?: GameData): PoolItem[] {
-  return getGames([...ids])
-    .filter((g) => !UNGRADED_GAME_IDS.has(g.id))
-    .flatMap((g) => (g.exemplars?.(data) ?? []).map((e) => ({ ...e, gameId: g.id })));
-}
 
 /**
  * The practice engine's front door, and the only place it is reachable.
@@ -59,6 +30,20 @@ export function sessionPool(ids: readonly string[], data?: GameData): PoolItem[]
  * starts*, and building it earlier would plan a session against a ledger that
  * has since moved.
  *
+ * The `StudySet` is built here, from the `data: GameData` prop, rather than by
+ * importing `@/games2/studySet`'s `lessonSet`: that module imports `allLessons`
+ * from `@/content/load` at module scope, which pulls in `node:fs`, and this
+ * component is `"use client"`. `setFromGameData` lives in
+ * `@/games2/studySetFromData` specifically because it is fs-free — see that
+ * file — so this component can call it directly on the `data` the server page
+ * already derived, with no import that drags a filesystem module into the
+ * browser bundle.
+ *
+ * The pool the session plans over is every graded question the slice's games
+ * can ask of that set (`SLICE_GAME_IDS`), not a lesson-specific list: unlike the
+ * old registry's `PoolItem`s, a `Question` names its own concept, so nothing
+ * here has to know in advance which concepts a lesson happens to teach.
+ *
  * `children` renders between the panel and the drills so the page keeps its
  * original order, and is hidden along with everything else once a session is
  * running: a session is a focused activity, and leaving the lesson's own
@@ -70,21 +55,21 @@ export function PracticeSession({
   children,
 }: {
   data: GameData;
-  /** Drill ids this lesson asks for, resolved through the registry. */
+  /** Drill ids this lesson asks for, resolved through the *old* registry for `GamePanel` below. */
   games?: string[];
   children?: ReactNode;
 }) {
-  const [session, setSession] = useState<{ plan: SessionPlan; pool: readonly PoolItem[] } | null>(
+  const [session, setSession] = useState<{ plan: SessionPlan; pool: readonly Question[] } | null>(
     null,
   );
 
-  // Keyed on the joined ids, not the array: the page passes a fresh array every
-  // render, and rebuilding every drill's exemplar list on each one is wasted
-  // work in a component that re-renders on every answer.
-  const gameKey = games.join(",");
-  const pool = useMemo(
-    () => sessionPool([...LETTER_GAME_IDS, ...gameKey.split(",").filter(Boolean)], data),
-    [gameKey, data],
+  // `id` and `title` are the same string: nothing downstream of this set reads
+  // `title` for anything a session needs, and `data` carries no lesson title of
+  // its own to give it instead.
+  const set = useMemo(() => setFromGameData(data, data.lessonId, data.lessonId), [data]);
+  const questions = useMemo(
+    () => questionsFor([...SLICE_GAME_IDS], set, { gradedOnly: true }),
+    [set],
   );
 
   const start = useCallback(async () => {
@@ -98,17 +83,17 @@ export function PracticeSession({
       // start here would take practice away over a storage fault.
       attempts = [];
     }
-    const roster = conceptRoster(pool);
+    const roster = conceptRoster(questions);
     setSession({
       plan: planSession(
         schedulesFromLedger(attempts, roster, now),
         derive(attempts, now),
-        pool,
+        questions,
         now,
       ),
-      pool,
+      pool: questions,
     });
-  }, [pool]);
+  }, [questions]);
 
   if (session) {
     return (

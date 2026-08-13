@@ -1,18 +1,23 @@
 "use client";
-import { useState } from "react";
-
-import { getGames, type GameResult } from "@/components/games/GameRegistry";
-// Side-effect imports: the drills register themselves at module scope, and this
-// screen resolves them by id. Without these the registry is empty here and every
-// question renders the "not shipped" note — the failure mode `tajweed/index.ts`
-// records, where seven drills sat dead for weeks with every test still green.
-import "@/components/games/letters";
-import "@/components/games/tajweed";
-import type { RuleId } from "@/content/tajweed";
+import { getGame } from "@/games2/registry";
+import type { Question } from "@/games2/types";
 import type { GameData } from "@/games/derive";
-import type { PoolItem, SessionPlan } from "@/practice/session";
+import type { SessionPlan } from "@/practice/session";
 import { useSession } from "@/practice/useSession";
 import { FeedbackBar, noteFor } from "./FeedbackBar";
+
+/**
+ * Wall clock, factored out of the component.
+ *
+ * `Date.now()` called directly inside this component's body trips
+ * `react-hooks/purity` even lexically nested inside a callback that only ever
+ * runs from a click handler — the rule cannot see the call is deferred, only
+ * that it is inside the component. A module-level function sidesteps that, the
+ * same fix `SetScreen.tsx` uses for the same reason.
+ */
+function clockNow(): number {
+  return Date.now();
+}
 
 /**
  * The screen that runs one `SessionPlan`. Three bands, and the primary button
@@ -31,8 +36,8 @@ import { FeedbackBar, noteFor } from "./FeedbackBar";
  *
  * ## A slot is a question, not a tap
  *
- * Drills emit **once per graded move** — `LetterQuiz` on every tap,
- * `FamilySorter` on every drop — so a screen that advanced on every result would
+ * A `GameApi` fires `answer` once per graded move — `Match` on every pick,
+ * `WordBank` on every drop — so a screen that advanced on every result would
  * spend three of fourteen planned slots on one question answered
  * wrong-wrong-right. Every result is still recorded, because the scheduler wants
  * every move and first-try-only would throw away exactly the misses it learns
@@ -48,21 +53,15 @@ import { FeedbackBar, noteFor } from "./FeedbackBar";
  * - **No blocking on a write failure.** `writeFailures` becomes a quiet line;
  *   never a dialog, and never a reason to stop answering.
  *
- * ## The exemplar, and what still cannot be promised
+ * ## The question, resolved through the registry
  *
- * The planned item is handed to the drill as `GameRenderProps.item`, so the
- * question on screen is the one the session planned and the `itemKey` on the row
- * is a claim about what was shown that is true. That is what makes the
- * wrong-answer tail a *second retrieval*: `useSession` draws a different
- * exemplar of the missed concept, and the drill now actually shows it.
- *
- * It is a request, not a guarantee. A drill may not recognise the key — a pool
- * assembled against an older build — and then falls back to its own choice
- * rather than costing the learner the slot; and a board-shaped drill like
- * `family-sorter` displays several fragments at once, so its row names one it
- * showed rather than the only thing it showed. So the feedback still prefers the
- * `ruleId` the drill reported over the concept the session planned: the learner
- * is never told about a rule they were not asked.
+ * `current.gameId` is looked up with `getGame`, and its `GameSpec.render`
+ * mounts the question — the same question `planSession` chose, since a
+ * `GameSpec` draws entirely from the `Question` it is handed and never
+ * substitutes one of its own. A game that has not registered here (the seven
+ * tajweed drills, in this slice) falls back to a note rather than a blank
+ * band: a lesson naming a drill that has not shipped should not break the
+ * session over it.
  */
 export function SessionRunner({
   plan,
@@ -72,55 +71,27 @@ export function SessionRunner({
   sessionId,
 }: {
   plan: SessionPlan;
-  pool: readonly PoolItem[];
-  /** The lesson's derived pools, for drills whose content is lesson-scoped. */
+  pool: readonly Question[];
+  /** The lesson's derived pools, so a letter concept can be named as itself. */
   data?: GameData;
   /** Leaving is always available and always costs nothing — no lockout. */
   onExit?: () => void;
   sessionId?: string;
 }) {
   const runner = useSession(plan, pool, { sessionId });
-  /**
-   * The rule the drill said it was asking about, when it differs from the
-   * planned concept. Held for the question on screen only, and cleared by the
-   * one thing that changes the question.
-   */
-  const [askedRule, setAskedRule] = useState<RuleId | undefined>(undefined);
 
   const current = runner.current;
-  const entry = current ? getGames([current.gameId])[0] : undefined;
+  const spec = current ? getGame(current.gameId) : undefined;
   const { done, total } = runner.progress;
   const filled = total === 0 ? 0 : Math.round((done / total) * 100);
 
   const nameOfLetter = (conceptId: string) =>
     data?.letterPool.find((l) => l.arabic === conceptId)?.name;
 
-  const onResult = (r: GameResult) => {
-    // Before recording, because recording is what decides the verdict: this is
-    // the rule that belongs to the move about to become the question's answer.
-    if (typeof runner.verdict !== "boolean" && r.ruleId) setAskedRule(r.ruleId);
-    runner.record(r);
-  };
+  const onContinue = () => runner.advance();
 
-  const onContinue = () => {
-    setAskedRule(undefined);
-    runner.advance();
-  };
-
-  /**
-   * The rule the drill said it graded wins over the concept the session
-   * planned, and only falls back to it when the drill named none.
-   *
-   * Backwards from what you would expect, and deliberate. The registry mounts a
-   * drill by id and nothing else, so a tajweed drill picks its own exemplar and
-   * may ask about a *different* rule than the slot was planned for. The ledger
-   * row is keyed to the planned concept either way — that is what the scheduler
-   * needs — but the feedback has to describe the question that was actually on
-   * screen, or it names a rule the learner was never asked about. A letter
-   * concept reports no `ruleId` at all, so it always falls through.
-   */
   const note = current
-    ? noteFor(askedRule ?? current.conceptId, current.gameId, nameOfLetter(current.conceptId))
+    ? noteFor(current.conceptId, current.gameId, nameOfLetter(current.conceptId))
     : null;
 
   return (
@@ -176,7 +147,7 @@ export function SessionRunner({
         </p>
       )}
 
-      {/* ── band 2: the drill, unchanged ─────────────────────────────── */}
+      {/* ── band 2: the drill, resolved through the registry ─────────── */}
       <div
         data-testid="drill-band"
         data-item-key={current?.itemKey}
@@ -186,10 +157,15 @@ export function SessionRunner({
         className="rounded-2xl border border-white/10 bg-[#121218] p-4 sm:p-5"
       >
         {current ? (
-          entry ? (
+          spec ? (
             // Keyed by the question: per-round state inside a drill is thrown
             // away with it rather than reset in an effect.
-            <div key={current.itemKey}>{entry.render({ onResult, data, item: current })}</div>
+            <div key={current.itemKey}>
+              {spec.render(current, {
+                answer: (correct, detail) => runner.record(current, correct, detail),
+                now: clockNow,
+              })}
+            </div>
           ) : (
             <p className="text-white/50">
               هذا التمرين غير متاح بعد · this drill has not shipped yet

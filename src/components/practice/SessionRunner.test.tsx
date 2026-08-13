@@ -6,6 +6,16 @@
  * `fake-indexeddb/auto` for the same reason `useSession.test.ts` needs it: jsdom
  * ships no IndexedDB, and every end-to-end claim in this file is read back out
  * of the real store rather than asserted against a spy.
+ *
+ * Fixture games are registered with games2's `registerGame`, not the old
+ * registry's — `SessionRunner` resolves `current.gameId` through
+ * `@/games2/registry` now, and a `GameApi.answer` carries a verdict and an
+ * optional `AnswerDetail`, never a self-reported `ruleId`. Two describe blocks
+ * from the previous shape of this file — the "off-plan rule" tests and the
+ * `letter-quiz` end-to-end test — asserted a capability (a drill naming a
+ * different rule than the one planned, and the old letter-drill registry) that
+ * no longer exists on this path; see the module-level report for why they were
+ * replaced rather than ported.
  */
 import "fake-indexeddb/auto";
 import { IDBFactory } from "fake-indexeddb";
@@ -15,14 +25,18 @@ import { useState } from "react";
 import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 
 import type { ArabicItem } from "@/content/schema";
-import { getGames, registerGame, type GameResult } from "@/components/games/GameRegistry";
-// Side-effect import: the real letter drills, for the end-to-end test. The
-// screen resolves drills through the registry, so nothing is reachable here that
-// is not reachable in the app.
+// Side-effect import: registers the real slice games (`match`, `word-bank`,
+// `type-it`, `broken-form`) so the end-to-end test at the bottom of this file
+// has a real drill to click through, exactly as `@/games2/games` does for
+// `PracticeSession`.
+import "@/games2/games";
+import { getGame, questionsFor, registerGame } from "@/games2/registry";
+import { lessonSet } from "@/games2/studySet";
+import type { GameApi, Question, ResponseMode } from "@/games2/types";
 import { LETTER_GAME_IDS } from "@/components/games/letters";
 import type { GameData } from "@/games/derive";
 import { allAttempts } from "@/practice/ledger";
-import { shapeOf, type PlannedItem, type PoolItem, type SessionPlan } from "@/practice/session";
+import type { PlannedQuestion, SessionPlan } from "@/practice/session";
 import { noteFor } from "./FeedbackBar";
 import { SessionRunner } from "./SessionRunner";
 
@@ -31,84 +45,79 @@ import { SessionRunner } from "./SessionRunner";
 const STUB = "stub-drill";
 
 /**
- * Registered at module scope, and deliberately **not** cleared between tests —
- * `clearGames()` would take the six real letter drills with it, and re-importing
- * a cached module does not re-register them.
+ * Registered at module scope, and never cleared — the real slice games above
+ * are also module-scope registrations, and this file has no reason to touch
+ * the registry between tests. `STUB`'s id does not collide with any of them.
  */
 /** Counts mounts, so "is this drill remounted per question" is observable. */
 let mounts = 0;
 
-function Stub({ onResult }: { onResult?: (r: GameResult) => void }) {
+function Stub({ api }: { api: GameApi }) {
   const [mount] = useState(() => ++mounts);
   return (
     <div>
       <span data-testid="mount-count">{mount}</span>
-      <button type="button" onClick={() => onResult?.({ gameId: STUB, correct: false, at: 1 })}>
+      <button type="button" onClick={() => api.answer(false)}>
         tap wrong
       </button>
-      <button type="button" onClick={() => onResult?.({ gameId: STUB, correct: true, at: 2 })}>
+      <button type="button" onClick={() => api.answer(true)}>
         tap right
       </button>
-      <button type="button" onClick={() => onResult?.({ gameId: STUB, correct: null, at: 3 })}>
+      <button type="button" onClick={() => api.answer(null)}>
         tap skip
       </button>
     </div>
   );
 }
 
-registerGame({ id: STUB, label: "🧪 Stub", render: ({ onResult }) => <Stub onResult={onResult} /> });
-
-/**
- * A drill that grades a different rule than the slot was planned for — which the
- * registry makes possible, because it mounts a drill by id and hands it no
- * exemplar.
- */
-const OFF_PLAN = "stub-off-plan";
-const OFF_PLAN_RULE = "iqlab";
-
 registerGame({
-  id: OFF_PLAN,
-  label: "🧪 Off-plan",
-  render: ({ onResult }) => (
-    <button
-      type="button"
-      onClick={() => onResult?.({ gameId: OFF_PLAN, ruleId: OFF_PLAN_RULE, correct: false, at: 4 })}
-    >
-      tap other rule
-    </button>
-  ),
+  id: STUB,
+  label: "🧪 Stub",
+  mode: "recognition",
+  cost: 1,
+  graded: true,
+  questions: () => [],
+  render: (_q, api) => <Stub api={api} />,
 });
+
+function shapeFor(gameId: string): { mode: ResponseMode; slots: number } {
+  const spec = getGame(gameId);
+  if (!spec) throw new Error(`test fixture: no game registered for "${gameId}"`);
+  return { mode: spec.mode, slots: spec.cost };
+}
 
 /* ---------- plans ------------------------------------------------------- */
 
-const item = (conceptId: string, gameId: string, n: number): PlannedItem => ({
+const item = (conceptId: string, gameId: string, n: number): PlannedQuestion => ({
   conceptId,
   itemKey: `${conceptId}/${gameId}/${n}`,
   gameId,
-  ...shapeOf(gameId),
+  payload: {},
+  ...shapeFor(gameId),
   isInterleaved: false,
 });
 
-const plan = (items: PlannedItem[]): SessionPlan => ({
+const plan = (items: PlannedQuestion[]): SessionPlan => ({
   focusConceptId: items[0]?.conceptId ?? null,
   items,
   slots: items.reduce((n, i) => n + i.slots, 0),
 });
 
 /** Spare exemplars, so a miss always has something to re-queue. */
-function poolFor(conceptIds: readonly string[], gameId = STUB, per = 4): PoolItem[] {
+function poolFor(conceptIds: readonly string[], gameId = STUB, per = 4): Question[] {
   return conceptIds.flatMap((conceptId) =>
     Array.from({ length: per }, (_, n) => ({
       conceptId,
       itemKey: `${conceptId}/${gameId}/spare-${n}`,
       gameId,
+      payload: {},
     })),
   );
 }
 
 const RULE = "idghaam_ghunnah";
 
-function runSession(items: PlannedItem[], pool?: readonly PoolItem[], data?: GameData) {
+function runSession(items: PlannedQuestion[], pool?: readonly Question[], data?: GameData) {
   return render(
     <SessionRunner
       plan={plan(items)}
@@ -123,7 +132,7 @@ const track = () => screen.getByTestId("progress-track");
 const band = () => screen.getByTestId("feedback-band");
 const continueButton = () => screen.getByRole("button", { name: /متابعة/ });
 
-/* ---------- letter fixture, for the end-to-end test --------------------- */
+/* ---------- letter fixture, for the "names the letter" test ------------- */
 
 const mk = (arabic: string, name: string): ArabicItem => ({
   arabic,
@@ -179,28 +188,6 @@ describe("the feedback bar", () => {
     expect(screen.getByRole("status").textContent).toMatch(/صحيح/);
   });
 
-  test("the feedback describes the rule the drill graded, not the one planned", async () => {
-    runSession([item(RULE, OFF_PLAN, 1)], poolFor([RULE], OFF_PLAN));
-
-    await userEvent.click(screen.getByRole("button", { name: "tap other rule" }));
-
-    // The registry mounts a drill by id and hands it no exemplar, so a drill can
-    // ask about a rule the slot was not planned for. Naming the planned one
-    // would explain a rule the learner was never shown.
-    const said = screen.getByRole("status").textContent ?? "";
-    expect(said).toMatch(/إقلاب/);
-    expect(said).not.toMatch(/إدغام بغنة/);
-
-    // The row is still keyed to the concept the session planned — that is what
-    // the scheduler folds, and it must not follow the drill's own idea of it.
-    const rows = await waitFor(async () => {
-      const all = await allAttempts();
-      expect(all).toHaveLength(1);
-      return all;
-    });
-    expect(rows[0].conceptId).toBe(RULE);
-  });
-
   test("a letter concept names the letter, and what the drill asked for", async () => {
     runSession([item("ب", STUB, 1)], poolFor(["ب"]), letterData);
 
@@ -210,13 +197,18 @@ describe("the feedback bar", () => {
     expect(said).toMatch(/ب/);
     expect(said).toMatch(/ba/);
     // A letter has no condition chain — there is no "when X follows Y" for it —
-    // so the second line says what was being asked instead. It is never blank.
+    // so the second line says what was being asked instead, falling back to the
+    // generic phrasing for a gameId `FeedbackBar` has no copy for. It is never
+    // blank.
     expect(said).toMatch(/recognise this letter wherever it appears/);
   });
 
   test("noteFor gives every drill a second line naming what it asked for", () => {
     // The table, directly: a screen-level test can only ever reach one entry of
     // it, and a letter with no second line is the bare-✗ failure in disguise.
+    // Unrelated to Task 9 — `noteFor` is keyed by the *old* registry's ids for
+    // the drills it already knows about, and this asserts against that table
+    // directly rather than through a session.
     for (const gameId of LETTER_GAME_IDS) {
       const note = noteFor("ب", gameId, "ba");
       expect(note.name).toBe("ب · ba");
@@ -356,8 +348,8 @@ describe("a slot is a question, not a tap", () => {
 
     // A drill holds per-round state — which question it is on, whether it is
     // locked, what has been shaken. Carrying that into the next question is the
-    // bug `RuleIdentifier` keys its rounds to avoid; this screen owes it the
-    // same treatment one level up.
+    // bug the registered games key their rounds to avoid; this screen owes it
+    // the same treatment one level up.
     expect(screen.getByTestId("mount-count").textContent).not.toBe(first);
   });
 
@@ -412,7 +404,21 @@ describe("the audio channel belongs to recitation", () => {
 
 describe("the screen around the drill", () => {
   test("an unknown drill degrades to a note rather than a blank band", () => {
-    runSession([item(RULE, "not-a-real-drill", 1)]);
+    // Built by hand rather than through `item()`/`shapeFor` — a plan naming a
+    // gameId nothing has registered could not come from `planSession` today
+    // (`shapeOfQuestion` refuses it), but a plan built against an older set of
+    // registrations and rendered later is exactly this shape, and the screen
+    // has to degrade gracefully rather than throw.
+    const unknown: PlannedQuestion = {
+      conceptId: RULE,
+      itemKey: `${RULE}/not-a-real-drill/1`,
+      gameId: "not-a-real-drill",
+      payload: {},
+      mode: "recognition",
+      slots: 1,
+      isInterleaved: false,
+    };
+    runSession([unknown]);
 
     expect(screen.getByTestId("drill-band").textContent).toMatch(/\S/);
     expect(continueButton()).toBeTruthy();
@@ -465,119 +471,87 @@ describe("the screen around the drill", () => {
 
 /**
  * Task 9's decisive test, and the one the previous shape of this suite could
- * not express.
+ * not express with games2 games.
  *
- * `useSession` has always drawn a *different planned `itemKey`* for a tail retry
- * and its own tests have always asserted that. But the registry mounted a drill
- * by id and handed it no exemplar, so the drill picked its own question — and
- * could legitimately re-ask the identical one. The row said one thing and the
- * screen showed another, and no assertion about the row could tell.
- *
- * So this asserts on **what is drawn**: the word the learner is looking at.
+ * `useSession` has always drawn a *different planned `itemKey`* for a tail
+ * retry and its own tests have always asserted that. This drives the point one
+ * step further, into what actually renders: a fixture whose question displays
+ * its own payload, so "a different `itemKey`" and "a different thing on
+ * screen" are checked as the same claim rather than two that could drift apart.
  */
 describe("the wrong-answer tail is a second retrieval, not the same card twice", () => {
-  const spotData: GameData = {
-    lessonId: "1-09",
-    newLetters: [mk("ب", "ba")],
-    letterPool: [mk("ب", "ba"), mk("ا", "alif"), mk("ك", "kaf"), mk("ت", "ta")],
-    formEntries: [],
-    // Two words sharing ب — the only shape in which one concept has two
-    // exemplars, which is what the tail needs.
-    wordPool: [
-      { arabic: "بَاب", translit: "bab", meaning: "door" },
-      { arabic: "كِتَاب", translit: "kitab", meaning: "book" },
-    ],
-    formsTaught: false,
-  };
+  const WORD_STUB = "word-stub";
 
-  /** The two real exemplars of ب this drill advertises, in its own key format. */
-  const spotExemplars = () =>
-    getGames(["spot-the-letter"])[0].exemplars?.(spotData).filter((e) => e.conceptId === "ب") ?? [];
+  type WordPayload = { word: string };
 
-  const letterTiles = () =>
-    within(screen.getByTestId("drill-band")).getAllByRole("button", { name: /^word letter/ });
+  function registerWordStub() {
+    registerGame({
+      id: WORD_STUB,
+      label: "🧪 Word Stub",
+      mode: "recognition",
+      cost: 1,
+      graded: true,
+      questions: () => [],
+      render: (q, api) => {
+        const p = q.payload as WordPayload;
+        return (
+          <div>
+            <p>Tap the letter in {p.word}</p>
+            <button type="button" onClick={() => api.answer(false)}>
+              miss it
+            </button>
+            <button type="button" onClick={() => api.answer(true)}>
+              get it
+            </button>
+          </div>
+        );
+      },
+    });
+  }
 
-  const tiles = () =>
-    letterTiles()
-      .map((b) => b.textContent)
-      .join("");
-
-  /**
-   * Which word the board is spelling, read off the board: بَاب is three letters
-   * and كِتَاب is four, so the count names it without depending on how a glyph
-   * happens to be shaped in context.
-   */
-  const wordOnScreen = () => ({ 3: "بَاب", 4: "كِتَاب" })[letterTiles().length]!;
-
-  /**
-   * A tile that is **not** the ب being hunted, by position — `بَاب` is ب ا ب
-   * and `كِتَاب` is ك ت ا ب. Comparing tile text to "ب" would not do it: a
-   * letter inside a word is drawn in its contextual form, so no tile reads as
-   * the bare glyph and every one of them would look wrong.
-   */
-  const missIt = () => userEvent.click(letterTiles()[wordOnScreen() === "بَاب" ? 1 : 0]);
+  const wordQuestion = (n: number, word: string): Question => ({
+    conceptId: "ب",
+    itemKey: `ب/${WORD_STUB}/${n}`,
+    gameId: WORD_STUB,
+    payload: { word } satisfies WordPayload,
+  });
 
   test("a retry renders a different question on screen, not merely a different row", async () => {
-    vi.spyOn(Math, "random").mockReturnValue(0);
-    const [first, second] = spotExemplars();
-    expect(first).toBeTruthy();
-    expect(second).toBeTruthy();
+    registerWordStub();
+    const first = wordQuestion(1, "بَاب");
+    const second = wordQuestion(2, "كِتَاب");
+    const planned: PlannedQuestion = { ...first, ...shapeFor(WORD_STUB), isInterleaved: false };
 
-    const planned: PlannedItem = {
-      ...first,
-      gameId: "spot-the-letter",
-      ...shapeOf("spot-the-letter"),
-      isInterleaved: false,
-    };
     render(
-      <SessionRunner
-        plan={plan([planned])}
-        pool={[first, second].map((e) => ({ ...e, gameId: "spot-the-letter" }))}
-        data={spotData}
-        sessionId="s-tail"
-      />,
+      <SessionRunner plan={plan([planned])} pool={[first, second]} sessionId="s-tail" />,
     );
 
-    const asked = await screen.findByText(/Tap the letter/);
-    const shown = tiles();
+    await screen.findByText(/Tap the letter in بَاب/);
 
-    await missIt();
+    await userEvent.click(screen.getByRole("button", { name: "miss it" }));
     await userEvent.click(continueButton());
 
     // The tail is up, and it is a different word — the second retrieval the
     // mechanic exists for. Replaying the identical item is answered from memory
     // of the correction that was on screen thirty seconds ago.
-    await screen.findByText(/Tap the letter/);
-    expect(tiles()).not.toBe(shown);
-    // Still the same concept, still the same letter being hunted.
-    expect(screen.getByText(/Tap the letter/).textContent).toBe(asked.textContent);
+    await screen.findByText(/Tap the letter in كِتَاب/);
   });
 
   test("the ledger's itemKey names the exemplar that was on screen", async () => {
-    vi.spyOn(Math, "random").mockReturnValue(0);
-    const [first, second] = spotExemplars();
-    const planned: PlannedItem = {
-      ...first,
-      gameId: "spot-the-letter",
-      ...shapeOf("spot-the-letter"),
-      isInterleaved: false,
-    };
+    registerWordStub();
+    const first = wordQuestion(1, "بَاب");
+    const second = wordQuestion(2, "كِتَاب");
+    const planned: PlannedQuestion = { ...first, ...shapeFor(WORD_STUB), isInterleaved: false };
+
     render(
-      <SessionRunner
-        plan={plan([planned])}
-        pool={[first, second].map((e) => ({ ...e, gameId: "spot-the-letter" }))}
-        data={spotData}
-        sessionId="s-tail-rows"
-      />,
+      <SessionRunner plan={plan([planned])} pool={[first, second]} sessionId="s-tail-rows" />,
     );
 
-    await screen.findByText(/Tap the letter/);
-    const firstWord = wordOnScreen();
-    await missIt();
+    await screen.findByText(/Tap the letter in بَاب/);
+    await userEvent.click(screen.getByRole("button", { name: "miss it" }));
     await userEvent.click(continueButton());
-    await screen.findByText(/Tap the letter/);
-    const secondWord = wordOnScreen();
-    await missIt();
+    await screen.findByText(/Tap the letter in كِتَاب/);
+    await userEvent.click(screen.getByRole("button", { name: "miss it" }));
 
     const rows = await waitFor(async () => {
       const all = await allAttempts();
@@ -585,9 +559,6 @@ describe("the wrong-answer tail is a second retrieval, not the same card twice",
       return all;
     });
     // The claim the ledger makes about what was shown is now true of both rows.
-    expect(firstWord).not.toBe(secondWord);
-    expect(rows[0].itemKey).toContain(firstWord);
-    expect(rows[1].itemKey).toContain(secondWord);
     expect(rows.map((r) => r.itemKey)).toEqual([first.itemKey, second.itemKey]);
   });
 });
@@ -595,26 +566,28 @@ describe("the wrong-answer tail is a second retrieval, not the same card twice",
 /* ---------- end to end --------------------------------------------------- */
 
 describe("a real drill, through this screen, into the ledger", () => {
-  test("a click on the real LetterQuiz lands a real row", async () => {
-    vi.spyOn(Math, "random").mockReturnValue(0);
-    runSession([item("ب", "letter-quiz", 1)], poolFor(["ب"], "letter-quiz"), letterData);
+  test("a click on the real Match game lands a real row", async () => {
+    const set = lessonSet("2-08");
+    const [question] = questionsFor(["match"], set, { gradedOnly: true });
+    expect(question).toBeDefined();
+    const planned: PlannedQuestion = { ...question, ...shapeFor("match"), isInterleaved: false };
 
-    // The prompt names the letter, so the right choice is knowable without
-    // depending on how the shuffle happened to land.
-    const prompt = await screen.findByText(/which letter is/i);
-    const asked = LETTERS.find((l) => prompt.textContent?.includes(l.name!))!;
+    runSession([planned], [question]);
+
+    const p = question.payload as { arabic: string; meaning: string };
+    await screen.findByText(p.arabic);
     const drill = screen.getByTestId("drill-band");
-    await userEvent.click(within(drill).getByRole("button", { name: `choice ${asked.arabic}` }));
+    await userEvent.click(within(drill).getByRole("button", { name: p.meaning }));
 
     const rows = await waitFor(async () => {
       const all = await allAttempts();
       expect(all).toHaveLength(1);
       return all;
     });
-    expect(rows[0].gameId).toBe("letter-quiz");
+    expect(rows[0].gameId).toBe("match");
     // Keyed to the concept the *session* planned, not to anything the drill knows.
-    expect(rows[0].conceptId).toBe("ب");
-    expect(rows[0].itemKey).toBe("ب/letter-quiz/1");
+    expect(rows[0].conceptId).toBe(question.conceptId);
+    expect(rows[0].itemKey).toBe(question.itemKey);
     expect(rows[0].correct).toBe(true);
     expect(rows[0].sessionId).toBe("s-runner");
 

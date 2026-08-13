@@ -1,11 +1,12 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 
+import type { Question } from "@/games2/types";
 import type { GameData } from "@/games/derive";
 import { derive, isWeak, type ConceptState } from "@/practice/derive";
 import { allAttempts } from "@/practice/ledger";
 import { dueConcepts } from "@/practice/schedule";
-import { conceptRoster, schedulesFromLedger, type PoolItem } from "@/practice/session";
+import { conceptRoster, schedulesFromLedger } from "@/practice/session";
 import type { Attempt } from "@/practice/types";
 import { noteFor } from "./FeedbackBar";
 
@@ -404,13 +405,13 @@ export function DueTodayPanel({ data, onStart }: { data?: GameData; onStart?: ()
   const roster = useMemo(
     () =>
       conceptRoster(
-        // `conceptRoster` reads `conceptId` and nothing else; the other two
-        // fields are left blank rather than filled with a plausible drill,
-        // because naming one would assert a pairing this screen never made.
-        // Building the real pool — every drill against every exemplar — is
-        // session assembly's job, and this screen does not assemble sessions.
+        // `conceptRoster` reads `conceptId` and nothing else; the other fields
+        // are left blank rather than filled with a plausible drill, because
+        // naming one would assert a pairing this screen never made. Building
+        // the real questions — every game against every exemplar — is session
+        // assembly's job, and this screen does not assemble sessions.
         (data?.letterPool ?? []).map(
-          (l): PoolItem => ({ conceptId: l.arabic, itemKey: "", gameId: "" }),
+          (l): Question => ({ conceptId: l.arabic, itemKey: "", gameId: "", payload: {} }),
         ),
       ),
     [data],

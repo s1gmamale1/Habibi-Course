@@ -6,9 +6,13 @@
  * engine still recorded nothing, because `SessionRunner` was rendered nowhere
  * and `DueTodayPanel` was mounted without an `onStart`. Unit tests cannot catch
  * that — each part passed in isolation precisely because nothing wired them
- * together. So the claims here are deliberately about *reachability*: the pool
- * is non-empty, the button starts a real session, and a row lands in the real
- * ledger.
+ * together. So the claims here are deliberately about *reachability*: the
+ * question pool is non-empty, the button starts a real session, and a row
+ * lands in the real ledger.
+ *
+ * `sessionPool` and its four tests were deleted here (Task 9): a non-empty pool
+ * whose items carry their own game id is now covered by `games2/contract.test.ts`
+ * against every registered game, rather than by one hand-built list of ids.
  *
  * `fake-indexeddb/auto` for the reason `SessionRunner.test.tsx` gives: jsdom has
  * no IndexedDB, and the end-to-end claim is read back out of the store rather
@@ -22,10 +26,11 @@ import { beforeEach, describe, expect, test } from "vitest";
 
 import type { ArabicItem } from "@/content/schema";
 import type { GameData } from "@/games/derive";
-import { LETTER_GAME_IDS } from "@/components/games/letters";
-import { TAJWEED_GAME_IDS } from "@/components/games/tajweed";
+import { SLICE_GAME_IDS } from "@/games2/games";
+import { questionsFor } from "@/games2/registry";
+import { setFromGameData } from "@/games2/studySetFromData";
 import { allAttempts } from "@/practice/ledger";
-import { PracticeSession, sessionPool } from "./PracticeSession";
+import { PracticeSession } from "./PracticeSession";
 
 const letter = (arabic: string, name: string): ArabicItem => ({
   arabic,
@@ -34,9 +39,10 @@ const letter = (arabic: string, name: string): ArabicItem => ({
 });
 
 /**
- * A lesson's worth of data, big enough that `letter-quiz` clears its
- * `QUIZ_MIN_LETTERS` gate — below it the drill does not render and the pool
- * would be thinner for a reason that has nothing to do with the wiring.
+ * A lesson's worth of data. `wordPool` is what matters here: `SLICE_GAME_IDS`
+ * are all word-shaped games (`match`, `word-bank`, `type-it`, `broken-form`),
+ * so a lesson with no words plans no questions at all — a thin fixture would
+ * be testing an empty pool rather than the wiring.
  */
 const DATA: GameData = {
   lessonId: "1-06",
@@ -49,10 +55,21 @@ const DATA: GameData = {
     letter("خ", "kha"),
   ],
   newLetters: [letter("خ", "kha")],
-  wordPool: [],
+  wordPool: [
+    { arabic: "بَاب", translit: "bab", meaning: "door" },
+    { arabic: "تَمْر", translit: "tamr", meaning: "dates" },
+    { arabic: "ثَوْب", translit: "thawb", meaning: "garment" },
+    { arabic: "جَمَل", translit: "jamal", meaning: "camel" },
+  ],
   formEntries: [],
   formsTaught: false,
 };
+
+/** The same pool `PracticeSession` builds internally — see that file. */
+function expectedConcepts(): Set<string> {
+  const set = setFromGameData(DATA, DATA.lessonId, DATA.lessonId);
+  return new Set(questionsFor([...SLICE_GAME_IDS], set, { gradedOnly: true }).map((q) => q.conceptId));
+}
 
 beforeEach(async () => {
   // A fresh store per test: the ledger is append-only, so rows from an earlier
@@ -60,40 +77,15 @@ beforeEach(async () => {
   globalThis.indexedDB = new IDBFactory();
 });
 
-describe("sessionPool", () => {
-  test("draws exemplars from every registered drill and stamps each with its own gameId", () => {
-    const pool = sessionPool([...LETTER_GAME_IDS], DATA);
-    expect(pool.length).toBeGreaterThan(0);
-    // The `gameId` must be the drill that advertised the exemplar. Getting this
-    // wrong is invisible until a session mounts the wrong drill for an item.
-    for (const item of pool) {
-      expect(LETTER_GAME_IDS).toContain(item.gameId as (typeof LETTER_GAME_IDS)[number]);
-      expect(item.conceptId).not.toBe("");
-      expect(item.itemKey).not.toBe("");
-    }
-  });
-
-  test("covers the letters the lesson taught, so a due concept is drawable", () => {
-    const concepts = new Set(sessionPool([...LETTER_GAME_IDS], DATA).map((i) => i.conceptId));
-    // `planSession` drops a due concept it cannot draw an exemplar for, so a
-    // letter missing here is a letter the scheduler can never surface.
-    for (const l of DATA.letterPool) expect(concepts).toContain(l.arabic);
-  });
-
-  test("an unknown id contributes nothing rather than throwing", () => {
-    expect(sessionPool(["no-such-drill"], DATA)).toEqual([]);
-  });
-
-  test("without data the letter drills contribute nothing, and say so by returning []", () => {
-    expect(sessionPool([...LETTER_GAME_IDS], undefined)).toEqual([]);
-  });
-
-  test("tajweed drills bundle their own items, so they draw with no data at all", () => {
-    expect(sessionPool([...TAJWEED_GAME_IDS], undefined).length).toBeGreaterThan(0);
-  });
-});
-
 describe("PracticeSession", () => {
+  test("the question pool is non-empty and covers a concept the lesson teaches", () => {
+    // Reachability, not `sessionPool`'s old per-drill assertions: `contract.test.ts`
+    // already checks every registered game against a real set.
+    const concepts = expectedConcepts();
+    expect(concepts.size).toBeGreaterThan(0);
+    for (const conceptId of concepts) expect(conceptId).toMatch(/\S/);
+  });
+
   test("shows the lesson's drills before a session starts", async () => {
     render(<PracticeSession data={DATA} games={[]} />);
     expect(await screen.findByRole("heading", { name: /interactive practice/i })).toBeTruthy();
@@ -142,7 +134,7 @@ describe("PracticeSession", () => {
       // Every row must name a concept the pool actually offered. A row with an
       // empty or invented `conceptId` folds onto a concept the scheduler will
       // never surface — the failure the ledger's honesty rules exist to stop.
-      const concepts = new Set(sessionPool([...LETTER_GAME_IDS], DATA).map((i) => i.conceptId));
+      const concepts = expectedConcepts();
       for (const r of rows) expect(concepts).toContain(r.conceptId);
     });
   });

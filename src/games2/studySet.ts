@@ -1,24 +1,12 @@
 import { allLessons } from "@/content/load";
-import { deriveGameData, type GameData } from "@/games/derive";
+import { deriveGameData } from "@/games/derive";
+import { setFromGameData } from "./studySetFromData";
 import type { StudySet } from "./types";
 
-/**
- * A study set from game data.
- *
- * `rules` is empty for the slice: Unit 1 lessons teach letters, and the tajweed
- * drills are not ported yet. It exists on the type now so the widening phase
- * adds data rather than changing the shape everything already consumes.
- */
-export function setFromGameData(data: GameData, id: string, title: string): StudySet {
-  return {
-    id,
-    title,
-    letters: data.letterPool,
-    words: data.wordPool,
-    forms: data.formEntries,
-    rules: [],
-  };
-}
+// Re-exported so every existing caller of `setFromGameData` from this module
+// keeps working. `studySetFromData.ts` is the fs-free source of truth — see
+// that file for why the split exists.
+export { setFromGameData };
 
 export function lessonSet(lessonId: string): StudySet {
   const lessons = allLessons();
