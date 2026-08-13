@@ -74,7 +74,9 @@ export function Match({ q, api }: { q: Question; api: GameApi }) {
   // instead of tearing down and rebuilding — and jittering the display —
   // on every re-render.
   const apiRef = useRef(api);
-  apiRef.current = api;
+  useEffect(() => {
+    apiRef.current = api;
+  });
   const [start] = useState(() => api.now());
   const [elapsed, setElapsed] = useState(0);
   const [picked, setPicked] = useState<string | null>(null);
