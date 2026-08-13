@@ -2,7 +2,7 @@ import "fake-indexeddb/auto";
 import { IDBFactory } from "fake-indexeddb";
 import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { beforeEach, describe, expect, test } from "vitest";
+import { beforeEach, describe, expect, test, vi } from "vitest";
 import { allAttempts } from "@/practice/ledger";
 import { lessonSet } from "@/games2/studySet";
 import "@/games2/games";
@@ -70,5 +70,29 @@ describe("SetScreen", () => {
     await user.click(continueBtn);
 
     expect(screen.getByText(/2\/\d+/)).toBeTruthy();
+  });
+
+  test("a rejected write says so, unobtrusively, and never blocks", async () => {
+    // I4: the blanket `.catch()` used to swallow a rejected write with no
+    // trace — the same class of failure `appendAttempt`'s malformed-question
+    // guard would otherwise raise silently here. Mirrors `SessionRunner`'s
+    // identical notice.
+    const failing = new IDBFactory();
+    vi.spyOn(failing, "open").mockImplementation(() => {
+      throw new Error("InvalidStateError");
+    });
+    globalThis.indexedDB = failing;
+
+    const user = userEvent.setup();
+    render(<SetScreen set={lessonSet("2-08")} />);
+    await user.click(await screen.findByRole("button", { name: /match/i }));
+
+    const band = await screen.findByTestId("set-drill");
+    const option = within(band).getAllByRole("button").find((b) => b.getAttribute("aria-disabled") !== "true");
+    await user.click(option!);
+
+    await waitFor(() => expect(screen.getByTestId("write-failures").textContent).toMatch(/\S/));
+    expect(screen.queryByRole("dialog")).toBeNull();
+    expect(screen.getByRole("button", { name: /continue/i }).hasAttribute("disabled")).toBe(false);
   });
 });
