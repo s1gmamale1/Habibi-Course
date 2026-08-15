@@ -74,12 +74,17 @@ const DRILL_ASK: Readonly<Record<string, string>> = {
   "spot-the-letter": "find the letter inside a whole word",
   "form-swap": "put each written form in its place — alone, start, middle, end",
   "word-builder": "spell the word letter by letter, in order",
-  // The four games2 slice drills (`SLICE_GAME_IDS`). Without these, every
+  // The games2 slice drills (`SLICE_GAME_IDS`). Without these, every
   // question any of them asks fell through to the letter-quiz gloss below —
   // including word-bank ("spell the word letter by letter") and type-it
   // ("type the transliteration"), which are not that question at all (I3).
   "broken-form": "spot the letter drawn in the wrong positional form",
   "match-answer": "match the rule or letter to its correct answer",
+  "build-by-form": "place the word's own letters in reading order, by their shape",
+  // `word-bank` and `type-it` are gone (Task 7 — both were vocabulary tests,
+  // cued on meaning or transliteration). Kept here only because the tests
+  // below assert against these literal ids directly, not through
+  // `SLICE_GAME_IDS`.
   "word-bank": "spell the word letter by letter, in order",
   "type-it": "type the transliteration",
 };

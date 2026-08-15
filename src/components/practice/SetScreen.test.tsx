@@ -15,8 +15,7 @@ describe("SetScreen", () => {
     render(<SetScreen set={lessonSet("2-08")} />);
     expect(await screen.findByRole("button", { name: /match/i })).toBeTruthy();
     expect(screen.getByRole("button", { name: /broken form/i })).toBeTruthy();
-    expect(screen.getByRole("button", { name: /word bank/i })).toBeTruthy();
-    expect(screen.getByRole("button", { name: /type it/i })).toBeTruthy();
+    expect(screen.getByRole("button", { name: /build by form/i })).toBeTruthy();
   });
 
   test("answering on the set screen writes a real ledger row", async () => {
