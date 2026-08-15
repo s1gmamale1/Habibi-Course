@@ -7,6 +7,7 @@
  * fifth game silently regressing it the same way.
  */
 import { describe, expect, test } from "vitest";
+import { RULE_CONCEPTS } from "@/generated/concepts";
 import { SLICE_GAME_IDS } from "@/games2/games";
 import { noteFor } from "./FeedbackBar";
 
@@ -32,5 +33,21 @@ describe("noteFor / DRILL_ASK", () => {
     // fallback.
     expect(noteFor("ب", "word-bank", "ba").condition).toMatch(/spell/i);
     expect(noteFor("ب", "type-it", "ba").condition).toMatch(/translit/i);
+  });
+});
+
+describe("noteFor / rule coverage", () => {
+  // `match-answer` and `fill-blank` emit conceptIds from the full 59-rule
+  // `RULE_MATERIAL` space, not the 18-id `RULE_META` render palette. A rule
+  // outside those 18 (e.g. `leen`, `iqlab`, `ra_tafkhim`) must still get a
+  // name and a condition — a bare ✗ is a failed implementation of this
+  // component, and that was true before this file even knew about the other
+  // 41 rules.
+  test("every one of the 59 rules yields a non-empty name and condition", () => {
+    for (const ruleId of RULE_CONCEPTS) {
+      const note = noteFor(ruleId, "match-answer");
+      expect(note.name.length, `${ruleId} name`).toBeGreaterThan(0);
+      expect(note.condition.length, `${ruleId} condition`).toBeGreaterThan(0);
+    }
   });
 });

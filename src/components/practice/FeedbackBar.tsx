@@ -3,6 +3,7 @@ import type { CSSProperties } from "react";
 
 import { chainOf, type SlotRole } from "@/components/games/tajweed/ConditionBuilder";
 import { PALETTE_B, RULE_META, UNDERLINE, type RuleId } from "@/content/tajweed";
+import { RULE_MATERIAL, type RuleMaterial } from "@/generated/concepts";
 
 /**
  * The third band: what the answer was, **and the rule it turned on**.
@@ -55,7 +56,27 @@ export type ConceptNote = {
   ruleId?: RuleId;
 };
 
-const isRule = (conceptId: string): conceptId is RuleId => conceptId in RULE_META;
+/**
+ * `RULE_MATERIAL` is the 59-rule concept space `match-answer` and `fill-blank`
+ * actually emit `conceptId`s from (e.g. `leen`, `iqlab`, `ra_tafkhim`).
+ * `RULE_META`/`TAJWEED_RULES` is a DIFFERENT, smaller 18-id space — the
+ * span-colour render palette for `TajweedText` (see `@/content/tajweed`'s own
+ * docstring). Gating this component's rule branch on the 18-id palette instead
+ * of the full 59 is exactly the earlier bug shape: a rule the games can
+ * legitimately ask about (`leen`) fell through to no name and no condition —
+ * the direct violation of "every wrong answer names the thing and the
+ * violated condition" this rebuild exists to fix.
+ *
+ * A concept counts as a rule if it is in EITHER space: `RULE_MATERIAL` is the
+ * one that matters for real gameplay, but `RULE_META`'s 18 ids are not a
+ * subset of it (different spelling conventions — `idghaam_ghunnah` there,
+ * `idgham_maal_ghunnah` here), so dropping the `RULE_META` half of the check
+ * would stop recognising rules this component always has handled.
+ */
+const isRule = (conceptId: string): boolean => conceptId in RULE_MATERIAL || conceptId in RULE_META;
+
+/** The narrower 18-id space that also has a palette colour, an Arabic name, and (for some) a condition chain. */
+const isPaletteRule = (conceptId: string): conceptId is RuleId => conceptId in RULE_META;
 
 /**
  * What each drill asks the learner to *do*, for the 29 concepts that are letters
@@ -93,10 +114,17 @@ const DRILL_ASK: Readonly<Record<string, string>> = {
 /**
  * The note for one concept.
  *
- * A **rule** is named from `RULE_META` and its condition from the same chain
- * `condition-builder` drills, which is worded from `library/02-Rules/`. The
- * twelve rules with no chain fall back to the meta's own gloss and its ḥarakāt
- * count — thinner, and honest, rather than a sentence invented here.
+ * A **rule** is named and conditioned from `RULE_MATERIAL` — all 59, the full
+ * space the games actually draw `conceptId` from — which is honest but plain:
+ * a translit name and, when there's a taught ḥarakāt count, how long it's
+ * held. The 18 rules that are ALSO in the smaller `RULE_META` render palette
+ * get the better version where one exists: an Arabic name alongside the
+ * translit, and — for the twelve of those with a `condition-builder` chain
+ * (worded from `library/02-Rules/`) — the actual trigger/condition/sound/
+ * length sentence instead of the plain gloss. `ruleId` (and with it the
+ * palette colour + family underline) is set only for that 18-id subset;
+ * everything else in the 59 renders as plain text, honest about not having a
+ * curated colour.
  *
  * A **letter** is named as itself. `letterName` comes from the lesson's derived
  * pool when the caller has one, because `PlannedItem` carries the glyph and
@@ -104,13 +132,17 @@ const DRILL_ASK: Readonly<Record<string, string>> = {
  */
 export function noteFor(conceptId: string, gameId: string, letterName?: string): ConceptNote {
   if (isRule(conceptId)) {
-    const meta = RULE_META[conceptId];
-    const chain = chainOf(conceptId);
+    const material: RuleMaterial | undefined = RULE_MATERIAL[conceptId];
+    const paletteId = isPaletteRule(conceptId) ? conceptId : undefined;
+    const meta = paletteId ? RULE_META[paletteId] : undefined;
+    const chain = paletteId ? chainOf(paletteId) : undefined;
     const label = (role: SlotRole) => chain?.slots.find((s) => s.role === role)?.label ?? "";
+    const harakat = meta?.harakat ?? material?.harakat ?? undefined;
     const condition = chain
       ? `${label("trigger")} ${label("condition")} — ${label("sound")}, ${label("length")}`
-      : `${meta.en}${meta.harakat ? ` — held ${meta.harakat} counts` : ""}`;
-    return { name: `${meta.ar} · ${meta.translit}`, condition, ruleId: conceptId };
+      : `${meta?.en ?? material?.english ?? conceptId}${harakat ? ` — held ${harakat} counts` : ""}`;
+    const name = meta ? `${meta.ar} · ${meta.translit}` : (material?.translit ?? conceptId);
+    return { name, condition, ruleId: paletteId };
   }
   return {
     name: letterName ? `${conceptId} · ${letterName}` : conceptId,
