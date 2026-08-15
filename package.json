@@ -13,6 +13,7 @@
     "test": "NODE_OPTIONS=--no-experimental-webstorage vitest run",
     "security:scan": "node scripts/security-scan.mjs",
     "build:quran": "node scripts/build-quran-data.mjs",
+    "build:concepts": "node scripts/build-concepts.mjs",
     "fetch:timings": "node scripts/fetch-word-timings.mjs",
     "check:refs": "node scripts/check-refs.mjs",
     "check:library": "node scripts/check-library.mjs library",
