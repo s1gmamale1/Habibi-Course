@@ -89,6 +89,79 @@ for (const f of readdirSync(join(ROOT, "library/03-Letters")).sort()) {
   if (scalar(fm, "type") === "letter" && arabic) letters.push(arabic);
 }
 
+const ruleIds = new Set(rules.map((r) => r.id));
+
+/**
+ * What each lesson actually taught, as schedulable concepts (ADR-003 — the
+ * library is the source; this is generated, never hand-copied).
+ *
+ * Rule, in order, per lesson:
+ * 1. Its curriculum note's `teaches:` ids that resolve to a rule concept,
+ *    plus the letters its own `kind: "letter"` slides introduce.
+ * 2. If that set is empty — a consolidation/review lesson — every concept
+ *    taught by an earlier lesson, cumulative. An empty set would leave that
+ *    lesson's practice screen blank; reviewing everything is the correct
+ *    reading of a review lesson, not a fudge.
+ *
+ * "Earlier" is lesson order, not id string comparison: `content/lessons`
+ * filenames and `content/course.json`'s publish order agree for all 74
+ * lessons (verified by direct comparison while writing this), so sorting
+ * `content/lessons/*.json` ids is equivalent to course order here and needs
+ * no course.json parse.
+ */
+function walkMarkdown(dir) {
+  const out = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...walkMarkdown(p));
+    else if (entry.name.endsWith(".md")) out.push(p);
+  }
+  return out;
+}
+
+const teachesByLesson = new Map();
+for (const f of walkMarkdown(join(ROOT, "library/04-Curriculum"))) {
+  const fm = frontmatter(readFileSync(f, "utf8"));
+  if (scalar(fm, "type") !== "lesson") continue;
+  const id = scalar(fm, "id");
+  if (!id) continue;
+  teachesByLesson.set(id, list(fm, "teaches"));
+}
+
+const lettersByLesson = new Map();
+const lessonIds = readdirSync(join(ROOT, "content/lessons"))
+  .filter((f) => f.endsWith(".json"))
+  .map((f) => f.replace(/\.json$/, ""))
+  .sort();
+for (const id of lessonIds) {
+  const lesson = JSON.parse(readFileSync(join(ROOT, "content/lessons", `${id}.json`), "utf8"));
+  const introduced = new Set();
+  for (const slide of lesson.slides ?? []) {
+    if (slide.kind === "letter" && slide.item?.arabic) introduced.add(slide.item.arabic);
+  }
+  lettersByLesson.set(id, [...introduced]);
+}
+
+// Stable output order: a concept's position in the master CONCEPTS list
+// (rules, then letters, each in their own generated order), so re-runs are
+// byte-identical regardless of Set/Map iteration order.
+const conceptOrder = new Map([...ruleIds, ...letters].map((c, i) => [c, i]));
+const byConceptOrder = (a, b) => conceptOrder.get(a) - conceptOrder.get(b);
+
+const lessonConcepts = {};
+const cumulative = new Set();
+for (const id of lessonIds) {
+  const teaches = (teachesByLesson.get(id) ?? []).filter((t) => ruleIds.has(t));
+  const own = lettersByLesson.get(id) ?? [];
+  const taught = new Set([...teaches, ...own]);
+  if (taught.size > 0) {
+    for (const c of taught) cumulative.add(c);
+    lessonConcepts[id] = [...taught].sort(byConceptOrder);
+  } else {
+    lessonConcepts[id] = [...cumulative].sort(byConceptOrder);
+  }
+}
+
 mkdirSync(join(ROOT, "src/generated"), { recursive: true });
 writeFileSync(
   OUT,
@@ -120,6 +193,18 @@ export const RULE_MATERIAL: Readonly<Record<string, RuleMaterial>> = ${JSON.stri
     null,
     2,
   )};
+
+// What each of the ${lessonIds.length} lessons actually taught, resolved from its
+// curriculum note's \`teaches:\` plus its own letter slides, falling back to
+// every concept taught by an earlier lesson for consolidation lessons that
+// teach nothing new of their own. See the resolution rule above this block.
+export const LESSON_CONCEPTS: Readonly<Record<string, string[]>> = ${JSON.stringify(
+    lessonConcepts,
+    null,
+    2,
+  )};
 `,
 );
-console.log(`wrote ${OUT}: ${rules.length} rules, ${letters.length} letters`);
+console.log(
+  `wrote ${OUT}: ${rules.length} rules, ${letters.length} letters, ${lessonIds.length} lessons`,
+);
