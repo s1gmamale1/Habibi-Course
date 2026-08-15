@@ -235,13 +235,22 @@ export function checkVault(dir, corpus) {
     }
   }
   // Which lesson claims to teach each rule. First claimant wins.
+  //
+  // A `teaches:` id must resolve to a rule note, with one deliberate exception:
+  // the five ids that are only the render palette's span colours (`madd_2`,
+  // `madd_246`, `madd_6`, `qalqalah`, `silent` — see the doc comment on
+  // `TAJWEED_RULES` in `src/content/tajweed.ts`). Everything else must match a
+  // real rule note exactly, which is what turns a misspelling like
+  // `idghaam_shafawi` for `idgham_shafawi` into a build failure instead of two
+  // silently disagreeing id-vocabularies.
+  const PALETTE_ONLY = new Set(["madd_2", "madd_246", "madd_6", "qalqalah", "silent"]);
   const taughtBy = new Map();
   for (const n of notes.filter((x) => x.data.type === "lesson")) {
     for (const id of n.data.teaches ?? []) {
       if (ruleStatus.get(id) !== "verified") {
         warnings.push(`${n.rel}: teaches "${id}" which is not verified`);
       }
-      if (!ruleStatus.has(id)) {
+      if (!ruleStatus.has(id) && !PALETTE_ONLY.has(id)) {
         errors.push(`${n.rel}: teaches "${id}" but no rule note has that id`);
       }
       if (!taughtBy.has(id)) taughtBy.set(id, n.data.id);

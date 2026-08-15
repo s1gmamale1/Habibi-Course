@@ -20,9 +20,10 @@ function mk(over: Partial<Attempt> = {}): Attempt {
   return {
     id: crypto.randomUUID(),
     at: (clock += 1000),
-    // A real rule id. This fixture said `"idgham"` for months — not one of the
-    // 18, and the very typo the append guard below now rejects.
-    conceptId: "idghaam_ghunnah",
+    // A real rule id, as spelled in the library (`@/generated/concepts`),
+    // not the render palette's `"idghaam_ghunnah"`. This fixture said
+    // `"idgham"` for months — the very typo the append guard below rejects.
+    conceptId: "idgham_maal_ghunnah",
     itemKey: "2:1#3",
     gameId: "ghunnah-timer",
     correct: true,
@@ -139,10 +140,10 @@ describe("the attempt ledger", () => {
       await expect(appendAttempt(mk({ conceptId: "letter-quiz/ب" }))).rejects.toThrow(/conceptId/i);
     });
 
-    test("the 18 rules and a single letter are accepted", async () => {
-      await appendAttempt(mk({ conceptId: "qalqalah" }));
+    test("the 59 rules and a single letter are accepted", async () => {
+      await appendAttempt(mk({ conceptId: "qalqalah_sughra" }));
       await appendAttempt(mk({ conceptId: "ب" }));
-      expect((await allAttempts()).map((a) => a.conceptId)).toEqual(["qalqalah", "ب"]);
+      expect((await allAttempts()).map((a) => a.conceptId)).toEqual(["qalqalah_sughra", "ب"]);
     });
   });
 

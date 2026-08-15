@@ -1,3 +1,4 @@
+import { mkdtempSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import { describe, expect, it } from "vitest";
@@ -100,5 +101,87 @@ describe("the ten tongue makharij", () => {
     const pointOf = (letter) =>
       [...tonguePoints.entries()].find(([, ls]) => ls.includes(letter))?.[0];
     expect(new Set([pointOf("ك"), pointOf("ض"), pointOf("ت")]).size).toBe(3);
+  });
+});
+
+/**
+ * The drift gate on `teaches:` — the thing that makes `idghaam_shafawi` vs
+ * `idgham_shafawi` a build failure instead of two silently-different
+ * id-vocabularies. A `teaches:` id must resolve to a real rule note, except
+ * the five span-colour palette ids that name no rule (`madd_2`, `madd_246`,
+ * `madd_6`, `qalqalah`, `silent` — see `TAJWEED_RULES` in
+ * `src/content/tajweed.ts`), which are named explicitly and let through.
+ *
+ * A synthetic vault, not the real one: the real library has no reason to ever
+ * reference a palette-only id or a misspelling, so the exception and the
+ * failure it exists to catch both need a fixture to exercise at all.
+ */
+describe("the teaches: drift gate", () => {
+  const corpus = loadCorpus();
+
+  function vaultWith(...files) {
+    const dir = mkdtempSync(join(tmpdir(), "check-library-test-"));
+    for (const [name, contents] of files) writeFileSync(join(dir, name), contents);
+    return dir;
+  }
+
+  const RULE_NOTE = `---
+type: rule
+id: leen
+arabic: "لين"
+translit: "al-Layin"
+english: "Ease"
+family: sifat
+status: verified
+---
+Body.
+`;
+
+  it("lets a palette-only id through with no rule note", () => {
+    const dir = vaultWith(
+      ["leen.md", RULE_NOTE],
+      [
+        "lesson.md",
+        `---
+type: lesson
+id: 9-98
+status: draft
+teaches: [leen, qalqalah]
+---
+Body.
+`,
+      ],
+    );
+    try {
+      const { errors } = checkVault(dir, corpus);
+      expect(errors.filter((e) => e.includes('teaches "'))).toEqual([]);
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
+  });
+
+  it("still fails an id that resolves to no rule note and isn't a palette id", () => {
+    const dir = vaultWith(
+      ["leen.md", RULE_NOTE],
+      [
+        "lesson.md",
+        `---
+type: lesson
+id: 9-99
+status: draft
+teaches: [leen, idghaam_shafawi]
+---
+Body.
+`,
+      ],
+    );
+    try {
+      const { errors } = checkVault(dir, corpus);
+      expect(errors).toContainEqual(
+        expect.stringContaining('teaches "idghaam_shafawi" but no rule note has that id'),
+      );
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
   });
 });

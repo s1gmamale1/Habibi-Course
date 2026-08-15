@@ -115,6 +115,12 @@ function poolFor(conceptIds: readonly string[], gameId = STUB, per = 4): Questio
   );
 }
 
+// `RULE` deliberately stays a `TAJWEED_RULES`/`RULE_META` id (the render
+// palette `FeedbackBar` still keys its text on — see the doc comment on
+// `TAJWEED_RULES`), because most tests below assert on that rendered text.
+// It is NOT a `RULE_CONCEPTS` id, so it is not itself a legal `conceptId` for
+// `appendAttempt` — the one test that needs a row actually written
+// (`"both moves are still written…"`) uses a real concept id instead.
 const RULE = "idghaam_ghunnah";
 
 function runSession(items: PlannedQuestion[], pool?: readonly Question[], data?: GameData) {
@@ -301,7 +307,7 @@ describe("the progress track", () => {
 describe("a slot is a question, not a tap", () => {
   test("a question answered wrong-then-right consumes one slot, not two", async () => {
     const first = item(RULE, STUB, 1);
-    const second = item("ikhfa", STUB, 1);
+    const second = item("ikhfa_haqiqi", STUB, 1);
     runSession([first, second]);
 
     await userEvent.click(screen.getByRole("button", { name: "tap wrong" }));
@@ -319,8 +325,12 @@ describe("a slot is a question, not a tap", () => {
   });
 
   test("both moves are still written, and both to the question that was on screen", async () => {
-    const first = item(RULE, STUB, 1);
-    runSession([first, item("ikhfa", STUB, 1)]);
+    // A real `RULE_CONCEPTS` id, not `RULE`: this test asserts what actually
+    // lands in the ledger, and `appendAttempt` now rejects `RULE`'s palette
+    // spelling ("idghaam_ghunnah") the same as any other unrecognised id.
+    const CONCEPT = "idgham_maal_ghunnah";
+    const first = item(CONCEPT, STUB, 1);
+    runSession([first, item("ikhfa_haqiqi", STUB, 1)]);
 
     await userEvent.click(screen.getByRole("button", { name: "tap wrong" }));
     await userEvent.click(screen.getByRole("button", { name: "tap right" }));
@@ -336,11 +346,11 @@ describe("a slot is a question, not a tap", () => {
     // And neither row is misfiled against the question the learner has not
     // reached yet.
     expect(rows.map((r) => r.itemKey)).toEqual([first.itemKey, first.itemKey]);
-    expect(rows.map((r) => r.conceptId)).toEqual([RULE, RULE]);
+    expect(rows.map((r) => r.conceptId)).toEqual([CONCEPT, CONCEPT]);
   });
 
   test("the next question is a fresh mount, not the last one reset", async () => {
-    runSession([item(RULE, STUB, 1), item("ikhfa", STUB, 1)]);
+    runSession([item(RULE, STUB, 1), item("ikhfa_haqiqi", STUB, 1)]);
 
     const first = screen.getByTestId("mount-count").textContent;
     await userEvent.click(screen.getByRole("button", { name: "tap right" }));

@@ -1,15 +1,17 @@
 /**
  * What may be called a concept.
  *
- * Scheduling is keyed on concepts, not items (ADR-008): **47 of them**, 18
- * tajweed rules and 29 letters. Nothing enforced that before this module. A
- * typo in a `conceptId` wrote a real row that `derive()` folded and
- * `schedulesFromLedger` built a schedule for — a concept the learner could
- * never be shown, because no exemplar in any pool carries that id. The ledger
- * is append-only, so the row could not be corrected afterwards either.
+ * Scheduling is keyed on concepts, not items (ADR-008): **88 of them**, 59
+ * tajweed rules and 29 letters, generated from the library — the source of
+ * truth — into `@/generated/concepts` (see `scripts/build-concepts.mjs`).
+ * Nothing enforced that before this module. A typo in a `conceptId` wrote a
+ * real row that `derive()` folded and `schedulesFromLedger` built a schedule
+ * for — a concept the learner could never be shown, because no exemplar in
+ * any pool carries that id. The ledger is append-only, so the row could not
+ * be corrected afterwards either.
  *
  * **The check is asymmetric on purpose.** A rule id is validated against the
- * closed list of 18, so `"ikhfaa"` is rejected. A letter is validated
+ * closed list of 59, so `"ikhfaa"` is rejected. A letter is validated
  * *structurally* — one Arabic letter — rather than against the 29, because the
  * taught letters are derived per lesson from `content/lessons/*.json` behind
  * `node:fs` and this module has to run in a browser, and after ADR-007 on a
@@ -17,9 +19,9 @@
  * malformed ids, not wrong-but-well-formed ones. A `"ب"` mistyped as `"ت"` is a
  * different valid concept, and nothing cheap tells those apart.
  */
-import { TAJWEED_RULES } from "@/content/tajweed";
+import { RULE_CONCEPTS } from "@/generated/concepts";
 
-const RULES: ReadonlySet<string> = new Set(TAJWEED_RULES);
+const RULES: ReadonlySet<string> = new Set(RULE_CONCEPTS);
 
 /**
  * One Arabic letter, as a single grapheme cluster.

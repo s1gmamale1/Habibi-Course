@@ -1,3 +1,12 @@
+/**
+ * The span-colour palette for rendering ayat — NOT the concept space.
+ *
+ * Five of these ids (`madd_2`, `madd_246`, `madd_6`, `qalqalah`, `silent`)
+ * have no library note and are taught by no lesson: they are colouring
+ * categories. The scheduler's concepts live in `@/generated/concepts`, which is
+ * generated from the library and holds all 59 taught rules. Conflating the two
+ * is what made a madd lesson generate vocabulary questions about `ا`.
+ */
 export const TAJWEED_RULES = [
   "hamzat_wasl", "madd_2", "ikhfa", "ghunnah", "madd_246", "silent",
   "idghaam_ghunnah", "qalqalah", "madd_munfasil", "lam_shamsiyyah",
