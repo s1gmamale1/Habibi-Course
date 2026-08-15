@@ -11,6 +11,7 @@
 // all, and 5 ids in that list are taught by nothing.
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
+import { resolveRuleSlideId } from "./lib/rule-alias.mjs";
 
 const ROOT = process.cwd();
 const OUT = join(ROOT, "src/generated/concepts.ts");
@@ -57,6 +58,26 @@ function examples(text) {
 }
 
 const rules = [];
+/**
+ * `cpfair_key` -> canonical rule id(s), read straight off the rule notes'
+ * frontmatter, not hand-copied.
+ *
+ * `content/lessons/*.json` rule slides were authored against the render
+ * palette (the `cpfair-quran-tajweed` dataset — see `RULE_MATERIAL`'s doc
+ * comment for the history), not the library's canonical ids: `"ikhfa"` in a
+ * lesson JSON means `ikhfa_haqiqi`, `"madd_2"` means `madd_tabii`, and so on.
+ * Every rule note that needs this translation documents it in its own
+ * frontmatter as `cpfair_key:` (and the library is the source per ADR-003),
+ * so the alias table is derived from there rather than typed out by hand —
+ * a hand-typed copy is exactly the kind of thing that drifts from the
+ * library silently.
+ *
+ * One key, `"qalqalah"`, is genuinely ambiguous: `qalqalah_sughra` and
+ * `qalqalah_kubra` both declare `cpfair_key: qalqalah`, because the upstream
+ * dataset doesn't distinguish the two degrees. Each also declares
+ * `taught_in:`, the lesson that introduces it — used below to disambiguate.
+ */
+const cpfairByKey = new Map();
 for (const f of readdirSync(join(ROOT, "library/02-Rules")).sort()) {
   if (!f.endsWith(".md")) continue;
   const text = readFileSync(join(ROOT, "library/02-Rules", f), "utf8");
@@ -74,6 +95,11 @@ for (const f of readdirSync(join(ROOT, "library/02-Rules")).sort()) {
     harakat: harakat === null ? null : Number(harakat),
     examples: examples(text),
   });
+  const cpfairKey = scalar(fm, "cpfair_key");
+  if (cpfairKey) {
+    if (!cpfairByKey.has(cpfairKey)) cpfairByKey.set(cpfairKey, []);
+    cpfairByKey.get(cpfairKey).push({ id, taughtIn: scalar(fm, "taught_in") });
+  }
 }
 
 // Letter concepts are keyed by the Arabic glyph, not the note's ASCII `id`
@@ -97,7 +123,10 @@ const ruleIds = new Set(rules.map((r) => r.id));
  *
  * Rule, in order, per lesson:
  * 1. Its curriculum note's `teaches:` ids that resolve to a rule concept,
- *    plus the letters its own `kind: "letter"` slides introduce.
+ *    plus the letters its own `kind: "letter"` slides introduce, plus the
+ *    rule concepts its own `kind: "rule"` slides carry (resolved through the
+ *    `cpfair_key` alias table above where the slide uses the render-palette
+ *    spelling rather than the canonical id).
  * 2. If that set is empty — a consolidation/review lesson — every concept
  *    taught by an earlier lesson, cumulative. An empty set would leave that
  *    lesson's practice screen blank; reviewing everything is the correct
@@ -129,17 +158,24 @@ for (const f of walkMarkdown(join(ROOT, "library/04-Curriculum"))) {
 }
 
 const lettersByLesson = new Map();
+const ruleSlidesByLesson = new Map();
 const lessonIds = readdirSync(join(ROOT, "content/lessons"))
   .filter((f) => f.endsWith(".json"))
   .map((f) => f.replace(/\.json$/, ""))
   .sort();
 for (const id of lessonIds) {
-  const lesson = JSON.parse(readFileSync(join(ROOT, "content/lessons", `${id}.json`), "utf8"));
+  const file = `content/lessons/${id}.json`;
+  const lesson = JSON.parse(readFileSync(join(ROOT, file), "utf8"));
   const introduced = new Set();
+  const ruleConcepts = new Set();
   for (const slide of lesson.slides ?? []) {
     if (slide.kind === "letter" && slide.item?.arabic) introduced.add(slide.item.arabic);
+    else if (slide.kind === "rule" && slide.ruleId) {
+      ruleConcepts.add(resolveRuleSlideId(slide.ruleId, id, file, ruleIds, cpfairByKey));
+    }
   }
   lettersByLesson.set(id, [...introduced]);
+  ruleSlidesByLesson.set(id, [...ruleConcepts]);
 }
 
 // Stable output order: a concept's position in the master CONCEPTS list
@@ -153,7 +189,8 @@ const cumulative = new Set();
 for (const id of lessonIds) {
   const teaches = (teachesByLesson.get(id) ?? []).filter((t) => ruleIds.has(t));
   const own = lettersByLesson.get(id) ?? [];
-  const taught = new Set([...teaches, ...own]);
+  const ownRules = ruleSlidesByLesson.get(id) ?? [];
+  const taught = new Set([...teaches, ...own, ...ownRules]);
   if (taught.size > 0) {
     for (const c of taught) cumulative.add(c);
     lessonConcepts[id] = [...taught].sort(byConceptOrder);
