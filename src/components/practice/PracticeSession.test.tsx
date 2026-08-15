@@ -24,7 +24,9 @@ import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, test } from "vitest";
 
+import { allLessons } from "@/content/load";
 import type { ArabicItem } from "@/content/schema";
+import { deriveGameData } from "@/games/derive";
 import type { GameData } from "@/games/derive";
 import { SLICE_GAME_IDS } from "@/games2/games";
 import { lessonConcepts } from "@/games2/lessonConcepts";
@@ -152,5 +154,13 @@ describe("PracticeSession", () => {
       const concepts = expectedConcepts();
       for (const r of rows) expect(concepts).toContain(r.conceptId);
     });
+  });
+
+  test("practising a lesson draws only from that lesson's concepts", async () => {
+    const user = userEvent.setup();
+    render(<PracticeSession data={deriveGameData(allLessons(), "3-23")} games={[]} />);
+    await user.click(await screen.findByTestId("practice-lesson"));
+    const band = await screen.findByTestId("drill-band");
+    expect(band.getAttribute("data-concept-id")).toBe("iqlab");
   });
 });

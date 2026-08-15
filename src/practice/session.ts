@@ -314,6 +314,39 @@ function orderDue(
 }
 
 /**
+ * Every graded question a lesson's own pool can ask, once each — "practice
+ * this lesson", as distinct from `planSession`'s "what is due".
+ *
+ * There is no FSRS here on purpose: nothing is scheduled, nothing is skipped
+ * for not being due yet, and no single concept is rationed to ~70% of the
+ * session behind an interleave reserve. That shape exists in `planSession`
+ * to spread a *review* across a roster of up to 88 concepts fairly against
+ * limited attention; this surface has no roster to ration — it is handed
+ * only what one lesson's own `lessonConcepts(id)` already narrowed the pool
+ * to (small by construction: `lessonConcepts.test.ts` pins Unit 4's widest
+ * lesson under 20), and the reason a learner opens it is to be asked about
+ * all of what the lesson just taught, not a fraction of it chosen by a due
+ * date that a lesson finished five minutes ago cannot yet have earned.
+ *
+ * `questions` is trusted to already be scoped to that lesson — the caller
+ * builds it from `lessonConcepts(id)` through `setFromGameData`/
+ * `questionsFor`, exactly as `planSession`'s caller does — so this function
+ * re-derives no scope of its own, only a shape a `SessionPlan` requires.
+ * Order is the pool's own order: deterministic because `questionsFor` is,
+ * and with no due date to break ties by there is nothing truer to sort on.
+ */
+export function planLessonPractice(questions: readonly Question[]): SessionPlan {
+  const items: PlannedQuestion[] = [];
+  for (const q of questions) {
+    const shape = shapeOfQuestion(q);
+    if (!shape) continue;
+    items.push({ ...q, mode: shape.mode, slots: shape.slots, isInterleaved: false });
+  }
+  if (items.length === 0) return emptyPlan();
+  return { focusConceptId: items[0].conceptId, items, slots: items.reduce((n, i) => n + i.slots, 0) };
+}
+
+/**
  * Assemble one session: ~70% the focus concept, ~25% interleaved review of two
  * or three others, and one deliberately harder item last.
  *

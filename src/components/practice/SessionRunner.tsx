@@ -152,6 +152,7 @@ export function SessionRunner({
         data-testid="drill-band"
         data-item-key={current?.itemKey}
         data-game-id={current?.gameId}
+        data-concept-id={current?.conceptId}
         // Opaque, unblurred ground for Arabic, and no `overflow: hidden` — a
         // tight clipped box eats the top of a fatḥa and the tail of a kasra.
         className="rounded-2xl border border-white/10 bg-[#121218] p-4 sm:p-5"

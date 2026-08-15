@@ -10,7 +10,13 @@ import type { Question } from "@/games2/types";
 import type { GameData } from "@/games/derive";
 import { derive } from "@/practice/derive";
 import { allAttempts } from "@/practice/ledger";
-import { conceptRoster, planSession, schedulesFromLedger, type SessionPlan } from "@/practice/session";
+import {
+  conceptRoster,
+  planLessonPractice,
+  planSession,
+  schedulesFromLedger,
+  type SessionPlan,
+} from "@/practice/session";
 import type { Attempt } from "@/practice/types";
 import { DueTodayPanel } from "./DueToday";
 import { SessionRunner } from "./SessionRunner";
@@ -45,6 +51,22 @@ const seedFor = (now: number): number => Math.floor(now / DAY_MS);
  * file existed, and recorded nothing, because `SessionRunner` was rendered
  * nowhere and `DueTodayPanel` was mounted without an `onStart`. Each part passed
  * in isolation precisely because nothing connected them.
+ *
+ * Two surfaces are reachable here, deliberately kept separate rather than
+ * merged into the one button this file used to have: mixing "drill what I
+ * just learned" with "what is due" is what made practice fail to match the
+ * lesson — one screen trying to answer both questions answered neither.
+ *
+ * - **Practice this lesson** (`startLesson`, `planLessonPractice`): only
+ *   `questions` — this lesson's own concepts, via `lessonConcepts(id)` — laid
+ *   out once each, unscheduled, and always available, whatever FSRS thinks of
+ *   it. `sessionId` gets a `lesson:` prefix, the way `SetScreen`'s sets get
+ *   `set:`, so the ledger can tell a learner-initiated sitting from a
+ *   scheduled one without a second store.
+ * - **Review** (`start`, `planSession`, unchanged): the existing due-driven
+ *   FSRS session. Both write through the same `appendAttempt` path inside
+ *   `useSession` — an attempt is an attempt regardless of which door it came
+ *   through, and the scheduler has to see all of them to work at all.
  *
  * It is a client component because the page is not: `/practice/[id]` is a static
  * export, so the ledger read, the plan, and the session's state all have to
@@ -82,9 +104,12 @@ export function PracticeSession({
   games?: string[];
   children?: ReactNode;
 }) {
-  const [session, setSession] = useState<{ plan: SessionPlan; pool: readonly Question[] } | null>(
-    null,
-  );
+  const [session, setSession] = useState<{
+    plan: SessionPlan;
+    pool: readonly Question[];
+    /** `undefined` for Review — `useSession` mints its own bare id, unchanged. */
+    sessionId?: string;
+  } | null>(null);
 
   // `id` and `title` are the same string: nothing downstream of this set reads
   // `title` for anything a session needs, and `data` carries no lesson title of
@@ -122,12 +147,34 @@ export function PracticeSession({
     });
   }, [questions]);
 
+  /**
+   * "Practice this lesson": every graded question `questions` already holds —
+   * this lesson's own concepts, and nothing else — asked once each, with no
+   * FSRS and no due date deciding whether today is the day. That is the whole
+   * point of a second entry point rather than a second mode bolted onto
+   * `start`: a lesson finished five minutes ago cannot yet be due, so a single
+   * due-driven button could send a learner who just finished this lesson
+   * straight into last week's material and never touch what they came for.
+   *
+   * `lesson:` prefixes the id the way `SetScreen`'s `set:` does — both mark a
+   * learner-initiated, unscheduled session in the ledger, distinct from a
+   * bare-uuid Review session, without a second store to keep in sync.
+   */
+  const startLesson = useCallback(() => {
+    setSession({
+      plan: planLessonPractice(questions),
+      pool: questions,
+      sessionId: `lesson:${data.lessonId}:${crypto.randomUUID()}`,
+    });
+  }, [questions, data.lessonId]);
+
   if (session) {
     return (
       <SessionRunner
         plan={session.plan}
         pool={session.pool}
         data={data}
+        sessionId={session.sessionId}
         onExit={() => setSession(null)}
       />
     );
@@ -135,6 +182,27 @@ export function PracticeSession({
 
   return (
     <>
+      {/* Two entry points, kept separate rather than folded into one button:
+          drilling what this lesson just taught and reviewing what FSRS has
+          called due answer different questions, and a screen trying to answer
+          both at once answered neither — see the module doc above. */}
+      <section className="glass mb-8 rounded-2xl p-4 print:hidden sm:p-5">
+        <h2 className="mb-1 text-xl font-semibold text-white/90">Practice this lesson</h2>
+        <p className="mb-4 text-sm text-white/60">
+          Every drill from this lesson — not what&apos;s due, what&apos;s here. Always available.
+        </p>
+        <button
+          type="button"
+          data-testid="practice-lesson"
+          onClick={startLesson}
+          className="cta-primary w-full rounded-full px-6 py-3 text-base font-semibold"
+        >
+          <span aria-hidden="true" className="me-2">
+            ▶
+          </span>
+          Practice this lesson <span className="text-white/70">({questions.length})</span>
+        </button>
+      </section>
       {/* What is due, what needs work, and how consistently the learner has
           turned up. It reads the ledger in the browser, so it renders nothing
           during a static export — which is why it sits above content that does
