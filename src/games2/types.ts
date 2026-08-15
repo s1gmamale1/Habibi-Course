@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import type { ArabicItem } from "@/content/schema";
 import type { FormEntry, WordEntry } from "@/games/derive";
-import type { RuleId } from "@/content/tajweed";
 import { isConceptId } from "@/practice/concepts";
 
 export type ResponseMode = "recognition" | "discrimination" | "production";
@@ -59,7 +58,23 @@ export type StudySet = {
   letters: ArabicItem[];
   words: WordEntry[];
   forms: FormEntry[];
-  rules: RuleId[];
+  /**
+   * What this set is *about* — every concept id (rule or letter) the lesson
+   * behind it teaches, as `lessonConcepts` reports them. `rules` below is
+   * this list narrowed to the ones in `RULE_CONCEPTS`; nothing else in this
+   * type currently narrows it to letters, because `letters` above already
+   * carries the full `ArabicItem`s, not bare concept ids.
+   */
+  concepts: string[];
+  /**
+   * The lesson's tajweed rule concepts, e.g. `"iqlab"`. **Not** `RuleId` from
+   * `@/content/tajweed` — that type names the 18-entry span-colour palette,
+   * a different and smaller id space (compare `"ikhfa"` there to
+   * `"ikhfa_haqiqi"`/`"ikhfa_shafawi"` here). Conflating the two is exactly
+   * the bug this field replaces: a hardcoded `[]` that made every tajweed
+   * concept invisible to every game.
+   */
+  rules: string[];
 };
 
 export type GameSpec = {

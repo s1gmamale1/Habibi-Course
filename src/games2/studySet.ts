@@ -1,5 +1,6 @@
 import { allLessons } from "@/content/load";
 import { deriveGameData } from "@/games/derive";
+import { lessonConcepts } from "./lessonConcepts";
 import { setFromGameData } from "./studySetFromData";
 import type { StudySet } from "./types";
 
@@ -12,5 +13,10 @@ export function lessonSet(lessonId: string): StudySet {
   const lessons = allLessons();
   const lesson = lessons.find((l) => l.id === lessonId);
   const data = deriveGameData(lessons, lessonId);
-  return setFromGameData(data, `lesson:${lessonId}`, lesson?.title ?? lessonId);
+  return setFromGameData(
+    data,
+    `lesson:${lessonId}`,
+    lesson?.title ?? lessonId,
+    lessonConcepts(lessonId),
+  );
 }

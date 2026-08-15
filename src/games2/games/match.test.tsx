@@ -6,7 +6,7 @@ import { lessonSet } from "../studySet";
 import type { StudySet } from "../types";
 
 const set: StudySet = {
-  id: "t", title: "t", letters: [], forms: [], rules: [],
+  id: "t", title: "t", letters: [], forms: [], rules: [], concepts: [],
   words: [
     { arabic: "بَاب", translit: "bāb", meaning: "door" },
     { arabic: "بَيْت", translit: "bayt", meaning: "house" },

@@ -27,6 +27,7 @@ import { beforeEach, describe, expect, test } from "vitest";
 import type { ArabicItem } from "@/content/schema";
 import type { GameData } from "@/games/derive";
 import { SLICE_GAME_IDS } from "@/games2/games";
+import { lessonConcepts } from "@/games2/lessonConcepts";
 import { questionsFor } from "@/games2/registry";
 import { setFromGameData } from "@/games2/studySetFromData";
 import { allAttempts } from "@/practice/ledger";
@@ -67,7 +68,7 @@ const DATA: GameData = {
 
 /** The same pool `PracticeSession` builds internally — see that file. */
 function expectedConcepts(): Set<string> {
-  const set = setFromGameData(DATA, DATA.lessonId, DATA.lessonId);
+  const set = setFromGameData(DATA, DATA.lessonId, DATA.lessonId, lessonConcepts(DATA.lessonId));
   return new Set(questionsFor([...SLICE_GAME_IDS], set, { gradedOnly: true }).map((q) => q.conceptId));
 }
 

@@ -1,6 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { allLessons } from "@/content/load";
 import { deriveGameData } from "@/games/derive";
+import { lessonConcepts } from "./lessonConcepts";
 import { lessonSet, setFromGameData } from "./studySet";
 
 describe("lessonSet", () => {
@@ -30,6 +31,27 @@ describe("lessonSet", () => {
 describe("setFromGameData", () => {
   test("does not assume the set came from a lesson", () => {
     const data = deriveGameData(allLessons(), "2-08");
-    expect(setFromGameData(data, "due:2026-08-13", "Due today").id).toBe("due:2026-08-13");
+    const concepts = lessonConcepts("2-08");
+    expect(setFromGameData(data, "due:2026-08-13", "Due today", concepts).id).toBe("due:2026-08-13");
+  });
+});
+
+describe("a lesson's set is about that lesson", () => {
+  test("a tajweed lesson's set carries its rules", () => {
+    const set = lessonSet("3-23");
+    expect(set.rules).toContain("iqlab");
+    expect(set.concepts).toContain("iqlab");
+  });
+
+  test("rules is no longer hardcoded empty", () => {
+    // The previous slice set `rules: []` unconditionally, which is why the
+    // entire tajweed dimension was absent from every set.
+    expect(lessonSet("3-23").rules.length).toBeGreaterThan(0);
+  });
+
+  test("a letters lesson carries letter concepts and no rules", () => {
+    const set = lessonSet("1-06");
+    expect(set.rules).toEqual([]);
+    expect(set.concepts).toContain("ك");
   });
 });

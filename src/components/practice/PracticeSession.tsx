@@ -3,6 +3,7 @@ import { useCallback, useMemo, useState, type ReactNode } from "react";
 
 import { GamePanel } from "@/components/games/GamePanel";
 import { SLICE_GAME_IDS } from "@/games2/games";
+import { lessonConcepts } from "@/games2/lessonConcepts";
 import { questionsFor } from "@/games2/registry";
 import { setFromGameData } from "@/games2/studySetFromData";
 import type { Question } from "@/games2/types";
@@ -88,7 +89,10 @@ export function PracticeSession({
   // `id` and `title` are the same string: nothing downstream of this set reads
   // `title` for anything a session needs, and `data` carries no lesson title of
   // its own to give it instead.
-  const set = useMemo(() => setFromGameData(data, data.lessonId, data.lessonId), [data]);
+  const set = useMemo(
+    () => setFromGameData(data, data.lessonId, data.lessonId, lessonConcepts(data.lessonId)),
+    [data],
+  );
   const questions = useMemo(
     () => questionsFor([...SLICE_GAME_IDS], set, { gradedOnly: true }),
     [set],

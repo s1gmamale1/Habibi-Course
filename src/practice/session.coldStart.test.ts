@@ -19,6 +19,7 @@ import { allLessons } from "@/content/load";
 import { deriveGameData } from "@/games/derive";
 import "@/games2/games";
 import { SLICE_GAME_IDS } from "@/games2/games";
+import { lessonConcepts } from "@/games2/lessonConcepts";
 import { questionsFor } from "@/games2/registry";
 import { setFromGameData } from "@/games2/studySetFromData";
 import { derive } from "./derive";
@@ -28,7 +29,7 @@ const NOW = 1_700_009_000_000;
 
 function coldPlanFor(lessonId: string) {
   const data = deriveGameData(allLessons(), lessonId);
-  const set = setFromGameData(data, lessonId, lessonId);
+  const set = setFromGameData(data, lessonId, lessonId, lessonConcepts(lessonId));
   const questions = questionsFor([...SLICE_GAME_IDS], set, { gradedOnly: true });
   const roster = conceptRoster(questions);
   const schedules = schedulesFromLedger([], roster, NOW);

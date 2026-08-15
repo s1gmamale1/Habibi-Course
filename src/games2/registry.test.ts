@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, test } from "vitest";
 import { allGames, clearGames, getGame, questionsFor, registerGame } from "./registry";
 import type { GameSpec, StudySet } from "./types";
 
-const SET: StudySet = { id: "t", title: "t", letters: [], words: [], forms: [], rules: [] };
+const SET: StudySet = { id: "t", title: "t", letters: [], words: [], forms: [], rules: [], concepts: [] };
 
 const spec = (id: string, over: Partial<GameSpec> = {}): GameSpec => ({
   id,

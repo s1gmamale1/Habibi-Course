@@ -15,7 +15,7 @@ const forms: FormEntry[] = [
 ];
 
 const set: StudySet = {
-  id: "t", title: "t", letters: [], forms, rules: [],
+  id: "t", title: "t", letters: [], forms, rules: [], concepts: [],
   words: [{ arabic: "بَيْت", translit: "bayt", meaning: "house" }],
 };
 
@@ -134,7 +134,7 @@ describe("brokenFormQuestions — bystander shaping (regression: fix round 1 bug
     },
   ];
   const babSet: StudySet = {
-    id: "bab", title: "bab", letters: [], forms: babForms, rules: [],
+    id: "bab", title: "bab", letters: [], forms: babForms, rules: [], concepts: [],
     words: [{ arabic: "بَاب", translit: "baab", meaning: "door" }],
   };
 

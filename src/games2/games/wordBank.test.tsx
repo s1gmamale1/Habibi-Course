@@ -5,7 +5,7 @@ import { wordBankQuestions, WordBank, type WordBankPayload } from "./wordBank";
 import type { StudySet } from "../types";
 
 const set: StudySet = {
-  id: "t", title: "t", letters: [], forms: [], rules: [],
+  id: "t", title: "t", letters: [], forms: [], rules: [], concepts: [],
   words: [{ arabic: "بَاب", translit: "bāb", meaning: "door" }],
 };
 
@@ -14,7 +14,7 @@ const set: StudySet = {
 // The verdict tests below need a word whose letters are all distinct so a
 // wrong tile order is actually distinguishable from the right one.
 const noDupSet: StudySet = {
-  id: "t", title: "t", letters: [], forms: [], rules: [],
+  id: "t", title: "t", letters: [], forms: [], rules: [], concepts: [],
   words: [{ arabic: "جَبَل", translit: "jabal", meaning: "mountain" }],
 };
 
