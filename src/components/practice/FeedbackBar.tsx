@@ -97,18 +97,16 @@ const DRILL_ASK: Readonly<Record<string, string>> = {
   "word-builder": "spell the word letter by letter, in order",
   // The games2 slice drills (`SLICE_GAME_IDS`). Without these, every
   // question any of them asks fell through to the letter-quiz gloss below —
-  // including word-bank ("spell the word letter by letter") and type-it
-  // ("type the transliteration"), which are not that question at all (I3).
+  // and that gloss ("pick the letter out of four, given its name") is not
+  // what any of the four asks (I3).
   "broken-form": "spot the letter drawn in the wrong positional form",
   "match-answer": "match the rule or letter to its correct answer",
   "fill-blank": "fill in the blank from the rule's own worked example",
   "build-by-form": "place the word's own letters in reading order, by their shape",
-  // `word-bank` and `type-it` are gone (Task 7 — both were vocabulary tests,
-  // cued on meaning or transliteration). Kept here only because the tests
-  // below assert against these literal ids directly, not through
-  // `SLICE_GAME_IDS`.
-  "word-bank": "spell the word letter by letter, in order",
-  "type-it": "type the transliteration",
+  // `word-bank` and `type-it` (Task 7 — both were vocabulary tests, cued on
+  // meaning or transliteration) are gone. No entry for either here: a gameId
+  // nothing registers falls through to the generic fallback below, same as
+  // any other unrecognised id — see `FeedbackBar.test.tsx`.
 };
 
 /**

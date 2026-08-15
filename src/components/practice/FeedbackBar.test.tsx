@@ -1,10 +1,9 @@
 /**
  * `DRILL_ASK` used to be keyed on the old registry's ids, so none of the four
  * games2 slice drills (`SLICE_GAME_IDS`) matched anything in it and every
- * question any of them asked fell through to the letter-quiz gloss — on
- * `word-bank` ("spell the word letter by letter") and `type-it` ("type the
- * transliteration") alike (I3). This file pins the fix and guards against a
- * fifth game silently regressing it the same way.
+ * question any of them asked fell through to the letter-quiz gloss (I3). This
+ * file pins the fix and guards against a fifth game silently regressing it
+ * the same way.
  */
 import { describe, expect, test } from "vitest";
 import { RULE_CONCEPTS } from "@/generated/concepts";
@@ -28,11 +27,16 @@ describe("noteFor / DRILL_ASK", () => {
     expect(new Set(conditions).size).toBe(SLICE_GAME_IDS.length);
   });
 
-  test("word-bank asks for spelling and type-it asks for the transliteration", () => {
-    // The two asks the module report called out by name as wrong under the
-    // fallback.
-    expect(noteFor("ب", "word-bank", "ba").condition).toMatch(/spell/i);
-    expect(noteFor("ب", "type-it", "ba").condition).toMatch(/translit/i);
+  test("word-bank and type-it (deleted in Task 7) carry no DRILL_ASK entry and fall through to the fallback", () => {
+    // Both were vocabulary tests (cued on meaning or transliteration) and no
+    // game registers either id anymore. Pinning a bespoke ask for a game that
+    // no longer exists would be dead weight — the correct behaviour for a
+    // gameId nothing registers is the same generic fallback any other
+    // unrecognised id gets, never a blank line.
+    for (const id of ["word-bank", "type-it"]) {
+      const note = noteFor("ب", id, "ba");
+      expect(note.condition).toBe(FALLBACK);
+    }
   });
 });
 
