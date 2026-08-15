@@ -79,7 +79,7 @@ const DRILL_ASK: Readonly<Record<string, string>> = {
   // including word-bank ("spell the word letter by letter") and type-it
   // ("type the transliteration"), which are not that question at all (I3).
   "broken-form": "spot the letter drawn in the wrong positional form",
-  match: "pick the meaning that matches the word",
+  "match-answer": "match the rule or letter to its correct answer",
   "word-bank": "spell the word letter by letter, in order",
   "type-it": "type the transliteration",
 };

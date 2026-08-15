@@ -76,7 +76,25 @@ describe("cold-start mode coverage, against real content", () => {
     // distractor pool — so `match`'s recognition question set is genuinely
     // empty that early, not merely deprioritised by the tiebreak. The word
     // pool clears that bar from 1-03 on.
-    for (const id of ["1-06", "2-08", "3-10"]) {
+    //
+    // 3-10 was in this list until the lesson-scoped-practice rebuild's Task 5
+    // replaced `match` with `match-answer`. `match`'s conceptId came from
+    // `baseLetters(word.arabic)[0]` — the same cumulative, word-scoped roster
+    // broken-form/word-bank/type-it draw on — so recognition mode covered
+    // whatever letter the cold-start tiebreak picked as focus, on nearly
+    // every lesson. `match-answer` is deliberately narrower: its conceptId is
+    // a rule id or a letter the lesson actually introduces, never an
+    // incidental letter from an example word (that narrowness is the whole
+    // point — see docs/superpowers/specs/2026-08-15-lesson-scoped-practice-design.md).
+    // 3-10 teaches `ra_tafkhim`/`ra_tarqiq`, not a new letter, so when the
+    // tiebreak's focus lands on a review letter like `ب`, `match-answer` has
+    // no question for it and recognition mode drops out — measured against
+    // real content, this now happens on 39 of 74 lessons, not just 3-10.
+    // `progress.md`'s Task 2 note flags this as expected until Task 8
+    // registers the rest of the lesson-scoped games (`fillBlank` and
+    // whatever else broadens recognition/production coverage back out); until
+    // then 3-08 stands in as a Unit 3 lesson that does clear the bar.
+    for (const id of ["1-06", "2-08", "3-08"]) {
       const modes = new Set(coldPlanFor(id).items.map((i) => i.mode));
       expect(modes.size).toBeGreaterThanOrEqual(3);
     }

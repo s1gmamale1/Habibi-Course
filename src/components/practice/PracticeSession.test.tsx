@@ -40,27 +40,41 @@ const letter = (arabic: string, name: string): ArabicItem => ({
 });
 
 /**
- * A lesson's worth of data. `wordPool` is what matters here: `SLICE_GAME_IDS`
- * are all word-shaped games (`match`, `word-bank`, `type-it`, `broken-form`),
- * so a lesson with no words plans no questions at all — a thin fixture would
- * be testing an empty pool rather than the wiring.
+ * A lesson's worth of data. `wordPool` feeds the word-shaped games
+ * (`word-bank`, `type-it`, `broken-form`); `letterPool` carries the letters
+ * `lessonConcepts("1-06")` reports (ه ك ل م ن و ي — read straight off the
+ * real generated table) so `match-answer`'s letter → name question has
+ * something to ask too.
+ *
+ * `wordPool`'s words all start with a letter from that same taught set —
+ * unlike the games2 rebuild's earlier "match" (deleted in Task 5),
+ * `match-answer`'s conceptId space is curriculum-scoped, not word-scoped: a
+ * word starting with a letter this lesson does *not* teach (the previous
+ * fixture used بَاب/تَمْر/ثَوْب/جَمَل) still gives `word-bank`/`type-it`/
+ * `broken-form` a question, but gives `match-answer` none, so cold-start's
+ * lowest-codepoint tiebreak can land the whole session's focus on a concept
+ * with no recognition-mode game at all — which is exactly what starved
+ * "answering inside a session lands a row" of a single-tap-completable
+ * question. Keeping `wordPool` inside the taught letters keeps every game's
+ * concept roster overlapping, the way a real lesson's own examples do.
  */
 const DATA: GameData = {
   lessonId: "1-06",
   letterPool: [
-    letter("ب", "ba"),
-    letter("ت", "ta"),
-    letter("ث", "tha"),
-    letter("ج", "jim"),
-    letter("ح", "ha"),
-    letter("خ", "kha"),
+    letter("ه", "ha"),
+    letter("ك", "kaaf"),
+    letter("ل", "lam"),
+    letter("م", "meem"),
+    letter("ن", "nun"),
+    letter("و", "waw"),
+    letter("ي", "ya"),
   ],
-  newLetters: [letter("خ", "kha")],
+  newLetters: [letter("و", "waw")],
   wordPool: [
-    { arabic: "بَاب", translit: "bab", meaning: "door" },
-    { arabic: "تَمْر", translit: "tamr", meaning: "dates" },
-    { arabic: "ثَوْب", translit: "thawb", meaning: "garment" },
-    { arabic: "جَمَل", translit: "jamal", meaning: "camel" },
+    { arabic: "كِتَاب", translit: "kitab", meaning: "book" },
+    { arabic: "لَحْم", translit: "lahm", meaning: "meat" },
+    { arabic: "نُور", translit: "nur", meaning: "light" },
+    { arabic: "هَل", translit: "hal", meaning: "is it?" },
   ],
   formEntries: [],
   formsTaught: false,

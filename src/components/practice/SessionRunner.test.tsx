@@ -25,9 +25,9 @@ import { useState } from "react";
 import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 
 import type { ArabicItem } from "@/content/schema";
-// Side-effect import: registers the real slice games (`match`, `word-bank`,
-// `type-it`, `broken-form`) so the end-to-end test at the bottom of this file
-// has a real drill to click through, exactly as `@/games2/games` does for
+// Side-effect import: registers the real slice games (`match-answer`,
+// `word-bank`, `type-it`, `broken-form`) so the end-to-end test at the bottom
+// of this file has a real drill to click through, exactly as `@/games2/games` does for
 // `PracticeSession`.
 import "@/games2/games";
 import { getGame, questionsFor, registerGame } from "@/games2/registry";
@@ -576,25 +576,25 @@ describe("the wrong-answer tail is a second retrieval, not the same card twice",
 /* ---------- end to end --------------------------------------------------- */
 
 describe("a real drill, through this screen, into the ledger", () => {
-  test("a click on the real Match game lands a real row", async () => {
+  test("a click on the real Match Answer game lands a real row", async () => {
     const set = lessonSet("2-08");
-    const [question] = questionsFor(["match"], set, { gradedOnly: true });
+    const [question] = questionsFor(["match-answer"], set, { gradedOnly: true });
     expect(question).toBeDefined();
-    const planned: PlannedQuestion = { ...question, ...shapeFor("match"), isInterleaved: false };
+    const planned: PlannedQuestion = { ...question, ...shapeFor("match-answer"), isInterleaved: false };
 
     runSession([planned], [question]);
 
-    const p = question.payload as { arabic: string; meaning: string };
-    await screen.findByText(p.arabic);
+    const p = question.payload as { prompt: string; answer: string };
+    await screen.findByText(p.prompt);
     const drill = screen.getByTestId("drill-band");
-    await userEvent.click(within(drill).getByRole("button", { name: p.meaning }));
+    await userEvent.click(within(drill).getByRole("button", { name: p.answer }));
 
     const rows = await waitFor(async () => {
       const all = await allAttempts();
       expect(all).toHaveLength(1);
       return all;
     });
-    expect(rows[0].gameId).toBe("match");
+    expect(rows[0].gameId).toBe("match-answer");
     // Keyed to the concept the *session* planned, not to anything the drill knows.
     expect(rows[0].conceptId).toBe(question.conceptId);
     expect(rows[0].itemKey).toBe(question.itemKey);
