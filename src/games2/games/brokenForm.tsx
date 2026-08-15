@@ -60,6 +60,29 @@ export function stableIndex(seed: string, mod: number): number {
 }
 
 /**
+ * A deterministic permutation of `items` — Fisher-Yates keyed on
+ * `stableIndex`, never `Math.random()`.
+ *
+ * `matchAnswer` and `fillBlank` used to render `[answer, ...distractors].sort()`.
+ * Sorting is stable across a refresh, but it correlates the answer's slot with
+ * something about the question — its string value — which is exactly what
+ * measurement caught: `matchAnswer`'s rule→trigger-letter landed in slot 2
+ * only 6% of the time (n=202), and `fillBlank`'s letter-ask landed in the last
+ * slot 47.8% of the time (n=316). Seeding the shuffle on the question's own
+ * `itemKey` instead of its content keeps the same reproducibility sorting
+ * offered (same question ⇒ same order, so a refresh doesn't reshuffle and SSR
+ * markup matches the client) without the correlation.
+ */
+export function shuffleBy<T>(items: readonly T[], seed: string): T[] {
+  const arr = [...items];
+  for (let i = arr.length - 1; i > 0; i -= 1) {
+    const j = stableIndex(`${seed}:shuffle:${i}`, i + 1);
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+/**
  * One question per (word, letter) pair the course has taught full forms for.
  *
  * Every glyph — broken and bystander alike — comes from the same mechanism:

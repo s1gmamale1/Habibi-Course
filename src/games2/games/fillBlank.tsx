@@ -3,7 +3,7 @@ import { useState } from "react";
 import { stripDiacritics } from "@/games/arabic";
 import { LETTER_CONCEPTS, RULE_CONCEPTS, RULE_MATERIAL, type RuleMaterial } from "@/generated/concepts";
 import { registerGame } from "../registry";
-import { stableIndex } from "./brokenForm";
+import { shuffleBy, stableIndex } from "./brokenForm";
 import type { GameApi, Question, StudySet } from "../types";
 
 const GAME_ID = "fill-blank";
@@ -195,8 +195,11 @@ export function FillBlank({ q, api }: { q: Question; api: GameApi }) {
   const [picked, setPicked] = useState<string | null>(null);
   const done = picked !== null;
 
-  // Stable option order: shuffling in render would differ between SSR and client.
-  const options = [p.answer, ...p.distractors].sort();
+  // Deterministic per-question shuffle, not a sort: sorting correlated the
+  // answer's slot with the question (see `shuffleBy`'s docstring). Seeded on
+  // `itemKey`, so it is still stable across a render — same question, same
+  // order — and SSR markup still matches the client.
+  const options = shuffleBy([p.answer, ...p.distractors], q.itemKey);
   const arabicOptions = /\p{Script=Arabic}/u.test(p.answer);
 
   function pick(opt: string) {
