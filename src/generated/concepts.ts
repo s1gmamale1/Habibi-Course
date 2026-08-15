@@ -1417,7 +1417,7 @@ export const RULE_MATERIAL: Readonly<Record<string, RuleMaterial>> = {
       {
         "ref": "10:59",
         "text": "ءَآللَّهُ أَذِنَ لَكُمْ",
-        "note": "\\"
+        "note": "\"Is it Allāh who permitted you?\" — without the madd it reads as a statement"
       },
       {
         "ref": "27:59",

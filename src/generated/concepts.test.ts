@@ -19,7 +19,7 @@ describe("the concept model", () => {
   test("excludes the five render-palette ids, which no library note defines", () => {
     // madd_2/madd_246/madd_6/qalqalah/silent are span colours in
     // `content/tajweed.ts`, not rules. No lesson teaches them.
-    for (const id of ["madd_2", "madd_246", "madd_6", "silent"]) {
+    for (const id of ["madd_2", "madd_246", "madd_6", "qalqalah", "silent"]) {
       expect(RULE_CONCEPTS).not.toContain(id);
     }
   });
@@ -43,5 +43,13 @@ describe("the concept model", () => {
 
   test("no concept id repeats", () => {
     expect(new Set(CONCEPTS).size).toBe(CONCEPTS.length);
+  });
+
+  test("a note containing an escaped quote survives parsing intact", () => {
+    // library/02-Rules/Madd-Farq.md 10:59 — this generated as a bare "\\" until
+    // the frontmatter parser learned about escaped quotes.
+    const note = RULE_MATERIAL["madd_farq"].examples.find((e) => e.ref === "10:59")?.note;
+    expect(note).toContain("Is it Allāh who permitted you?");
+    expect(note).not.toBe("\\");
   });
 });

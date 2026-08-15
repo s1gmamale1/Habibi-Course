@@ -29,15 +29,28 @@ const list = (fm, key) => {
   return m ? m[1].split(",").map((s) => s.trim().replace(/^["']|["']$/g, "")).filter(Boolean) : [];
 };
 
+/**
+ * A `key: value` value inside an `examples:` block entry, quote-aware so an
+ * escaped `\"` inside a quoted value doesn't read as the closing quote (it
+ * did, once — see `madd_farq`'s 10:59 example, which generated as a bare
+ * `"\\"` until this learned to unescape `\"` and `\\`).
+ */
+function exampleValue(chunk, key) {
+  const quoted = new RegExp(`${key}:\\s*"((?:\\\\.|[^"\\\\])*)"`).exec(chunk);
+  if (quoted) return quoted[1].replace(/\\"/g, '"').replace(/\\\\/g, "\\").trim();
+  const bare = new RegExp(`${key}:\\s*([^\\n]+)`).exec(chunk);
+  return bare ? bare[1].trim() : undefined;
+}
+
 /** `examples:` is a block list of `- ref: / text: / note:` items. */
 function examples(text) {
   const block = /^examples:\n([\s\S]*?)(?=\n[a-z_]+:|\n---)/m.exec(text);
   if (!block) return [];
   const out = [];
   for (const chunk of block[1].split(/^\s*-\s+/m).slice(1)) {
-    const ref = /ref:\s*"?([^"\n]+)"?/.exec(chunk)?.[1]?.trim();
-    const txt = /text:\s*"?([^"\n]+)"?/.exec(chunk)?.[1]?.trim();
-    const note = /note:\s*"?([^"\n]+)"?/.exec(chunk)?.[1]?.trim();
+    const ref = exampleValue(chunk, "ref");
+    const txt = exampleValue(chunk, "text");
+    const note = exampleValue(chunk, "note");
     if (ref && txt) out.push(note ? { ref, text: txt, note } : { ref, text: txt });
   }
   return out;
@@ -63,6 +76,11 @@ for (const f of readdirSync(join(ROOT, "library/02-Rules")).sort()) {
   });
 }
 
+// Letter concepts are keyed by the Arabic glyph, not the note's ASCII `id`
+// slug — deliberately. `Attempt.conceptId` already stores Arabic letters,
+// `isConceptId`'s letter branch validates a single Arabic grapheme, and
+// `RULE_MATERIAL[x].letters` stores glyphs so trigger-letters cross-reference
+// directly. Switching to slugs would orphan the existing ledger.
 const letters = [];
 for (const f of readdirSync(join(ROOT, "library/03-Letters")).sort()) {
   if (!f.endsWith(".md")) continue;
