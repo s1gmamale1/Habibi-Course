@@ -3,6 +3,7 @@
 // imported them, and every test passed the whole time.
 import "./brokenForm";
 import "./matchAnswer";
+import "./fillBlank";
 import "./buildByForm";
 
-export const SLICE_GAME_IDS = ["broken-form", "match-answer", "build-by-form"] as const;
+export const SLICE_GAME_IDS = ["broken-form", "match-answer", "fill-blank", "build-by-form"] as const;

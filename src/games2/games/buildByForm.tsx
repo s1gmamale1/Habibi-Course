@@ -63,11 +63,18 @@ function shuffleGlyphs(glyphs: string[], seed: string): string[] {
  */
 export function buildByFormQuestions(set: StudySet): Question[] {
   const out: Question[] = [];
+  // `set.words` is the CUMULATIVE word pool (every word taught up to and
+  // including this lesson — see `deriveGameData`), not this lesson's own
+  // material. Gating on `set.concepts` (what `lessonConcepts` actually
+  // declares for this lesson) is what stops this game from asking about a
+  // letter/word this lesson never taught — the cumulative-pool bug the whole
+  // rebuild exists to fix.
+  const taught = new Set(set.concepts);
   for (const word of set.words) {
     const letters = displayLetters(word.arabic);
     if (letters.length < 2) continue;
     const concept = baseLetters(word.arabic)[0];
-    if (!concept) continue;
+    if (!concept || !taught.has(concept)) continue;
 
     const answer = contextualGlyphs(word.arabic);
     const slots = answer.map((g) => formKeyOf(g));

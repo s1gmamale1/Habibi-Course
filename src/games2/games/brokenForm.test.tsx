@@ -15,7 +15,7 @@ const forms: FormEntry[] = [
 ];
 
 const set: StudySet = {
-  id: "t", title: "t", letters: [], forms, rules: [], concepts: [],
+  id: "t", title: "t", letters: [], forms, rules: [], concepts: ["ت"],
   words: [{ arabic: "بَيْت", translit: "bayt", meaning: "house" }],
 };
 
@@ -72,7 +72,7 @@ describe("brokenFormQuestions — wrong-form variety (regression: fix round 1 bu
   test("across real lesson 2-08 content, the broken glyph is not always the isolated form", () => {
     const real = lessonSet("2-08");
     const qs = brokenFormQuestions(real);
-    expect(qs.length).toBeGreaterThan(20);
+    expect(qs.length).toBeGreaterThan(10);
 
     const kinds = qs.map((q) => {
       const p = q.payload as BrokenFormPayload;
@@ -103,7 +103,7 @@ describe("brokenFormQuestions — no tatweel tell (regression: fix round 2)", ()
   test("no glyph anywhere contains a tatweel (U+0640), broken or bystander", () => {
     const real = lessonSet("2-08");
     const qs = brokenFormQuestions(real);
-    expect(qs.length).toBeGreaterThan(20);
+    expect(qs.length).toBeGreaterThan(10);
     for (const q of qs) {
       const p = q.payload as BrokenFormPayload;
       for (const g of p.glyphs) expect(g).not.toContain("ـ");
@@ -113,7 +113,7 @@ describe("brokenFormQuestions — no tatweel tell (regression: fix round 2)", ()
   test("the broken glyph still differs from the correct one everywhere", () => {
     const real = lessonSet("2-08");
     const qs = brokenFormQuestions(real);
-    expect(qs.length).toBeGreaterThan(20);
+    expect(qs.length).toBeGreaterThan(10);
     for (const q of qs) {
       const p = q.payload as BrokenFormPayload;
       expect(p.glyphs[p.brokenIndex]).not.toBe(contextualGlyphs(p.word)[p.brokenIndex]);
@@ -134,7 +134,7 @@ describe("brokenFormQuestions — bystander shaping (regression: fix round 1 bug
     },
   ];
   const babSet: StudySet = {
-    id: "bab", title: "bab", letters: [], forms: babForms, rules: [], concepts: [],
+    id: "bab", title: "bab", letters: [], forms: babForms, rules: [], concepts: ["ب"],
     words: [{ arabic: "بَاب", translit: "baab", meaning: "door" }],
   };
 

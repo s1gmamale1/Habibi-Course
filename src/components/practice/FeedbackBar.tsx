@@ -80,6 +80,7 @@ const DRILL_ASK: Readonly<Record<string, string>> = {
   // ("type the transliteration"), which are not that question at all (I3).
   "broken-form": "spot the letter drawn in the wrong positional form",
   "match-answer": "match the rule or letter to its correct answer",
+  "fill-blank": "fill in the blank from the rule's own worked example",
   "build-by-form": "place the word's own letters in reading order, by their shape",
   // `word-bank` and `type-it` are gone (Task 7 — both were vocabulary tests,
   // cued on meaning or transliteration). Kept here only because the tests

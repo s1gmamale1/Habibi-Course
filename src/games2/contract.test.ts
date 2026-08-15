@@ -2,6 +2,7 @@ import { describe, expect, test } from "vitest";
 import { isConceptId } from "@/practice/concepts";
 import "./games";
 import { SLICE_GAME_IDS } from "./games";
+import { lessonConcepts } from "./lessonConcepts";
 import { allGames, questionsFor } from "./registry";
 import { lessonSet } from "./studySet";
 import { MODE_RANK } from "./types";
@@ -56,6 +57,33 @@ describe("no game reads a clock it was not given", () => {
     const dir = join(process.cwd(), "src/games2/games");
     for (const f of readdirSync(dir).filter((f) => f.endsWith(".ts") || f.endsWith(".tsx"))) {
       expect(readFileSync(join(dir, f), "utf8")).not.toMatch(/Date\.now\(\)/);
+    }
+  });
+});
+
+describe("practice corresponds to the lesson", () => {
+  // The gate that would have caught the bug report: a madd lesson generated
+  // questions about `ا` because the pool was cumulative and letter-shaped.
+  for (const lid of ["1-06", "2-08", "3-10", "3-23", "4-05"]) {
+    test(`every question on ${lid} names a concept ${lid} taught`, () => {
+      const taught = new Set(lessonConcepts(lid));
+      const qs = questionsFor([...SLICE_GAME_IDS], lessonSet(lid), { gradedOnly: true });
+      expect(qs.length).toBeGreaterThan(0);
+      for (const q of qs) expect(taught.has(q.conceptId)).toBe(true);
+    });
+  }
+});
+
+describe("no game tests vocabulary", () => {
+  // The constraint the whole plan exists for. Checkable, and worth mechanising
+  // because this failure was invisible to 998 passing tests.
+  const GLOSSES = ["door", "house", "name", "mountain", "heart", "dates", "bread"];
+  test("no question payload offers an English gloss as an option", () => {
+    for (const lid of ["1-06", "3-10", "3-23"]) {
+      for (const q of questionsFor([...SLICE_GAME_IDS], lessonSet(lid), { gradedOnly: true })) {
+        const blob = JSON.stringify(q.payload).toLowerCase();
+        for (const g of GLOSSES) expect(blob).not.toMatch(new RegExp(`"${g}"`));
+      }
     }
   });
 });

@@ -10,7 +10,6 @@ const ZWJ = "\u200D";
 
 export type BrokenFormPayload = {
   word: string;
-  meaning: string;
   /** Per-letter glyphs as displayed, one already swapped to the wrong form. */
   glyphs: string[];
   brokenIndex: number;
@@ -82,6 +81,13 @@ export function stableIndex(seed: string, mod: number): number {
 export function brokenFormQuestions(set: StudySet): Question[] {
   const out: Question[] = [];
   const byLetter = new Map(set.forms.map((f) => [f.item.arabic, f]));
+  // `set.words`/`set.forms` are the CUMULATIVE pool (every letter and word
+  // taught up to and including this lesson — see `deriveGameData`), not this
+  // lesson's own material. `set.concepts` is what `lessonConcepts` actually
+  // declares for this lesson. Gating on it here is what stops a later, unrelated
+  // lesson's practice screen from asking about a letter this lesson never
+  // taught — the cumulative-pool bug the whole rebuild exists to fix.
+  const taught = new Set(set.concepts);
 
   for (const word of set.words) {
     const letters = displayLetters(word.arabic);
@@ -89,7 +95,7 @@ export function brokenFormQuestions(set: StudySet): Question[] {
     const shaped = contextualGlyphs(word.arabic);
 
     for (let i = 0; i < letters.length; i += 1) {
-      if (!byLetter.has(letters[i])) continue;
+      if (!byLetter.has(letters[i]) || !taught.has(letters[i])) continue;
       const want = formKeyOf(shaped[i]);
       const base = shaped[i].split(ZWJ).join("");
       const configs = positionalGlyphs(base);
@@ -103,7 +109,7 @@ export function brokenFormQuestions(set: StudySet): Question[] {
         conceptId: letters[i],
         itemKey: `${GAME_ID}/${word.arabic}/${i}`,
         gameId: GAME_ID,
-        payload: { word: word.arabic, meaning: word.meaning, glyphs, brokenIndex: i, letter: letters[i] } satisfies BrokenFormPayload,
+        payload: { word: word.arabic, glyphs, brokenIndex: i, letter: letters[i] } satisfies BrokenFormPayload,
       });
     }
   }
@@ -126,8 +132,8 @@ export function BrokenForm({ q, api }: { q: Question; api: GameApi }) {
       <p className="mb-1 text-white/80">
         One letter is in the wrong form. Tap it.
       </p>
-      <p className="mb-4 text-xs text-white/50">
-        “{p.meaning}” — {p.word}
+      <p className="mb-4 text-xs text-white/50 arabic" dir="rtl">
+        {p.word}
       </p>
       <div dir="rtl" className="flex flex-wrap justify-center gap-1">
         {p.glyphs.map((g, i) => (
